@@ -30,6 +30,148 @@ All four repositories are served from the same GitHub Pages domain (`jsschrstrck
 3. **Image-heavy content**: Recipe scans (handwritten cards) need efficient caching
 4. **Offline-first**: Site should work at Grandma's house with spotty WiFi
 5. **Cache invalidation**: Recipe data should stay fresh while enabling offline use
+6. **Family-only access**: Prevent random visitors from accessing/caching family recipes
+
+---
+
+## Family Access Gate (Authentication)
+
+**Status**: ✅ Already implemented in `index.html` and `recipe.html`
+
+The site uses a localStorage-based authentication gate that must be passed before viewing recipes.
+
+### Existing Implementation
+
+**Location**: Inline script in `index.html` and `recipe.html`
+
+```javascript
+// Authentication gate (ALREADY IN CODEBASE)
+const AUTH_KEY = 'grandmas-kitchen-auth';
+const CORRECT_ANSWER = 'Baker';  // Grandma's last name
+
+function checkAuth() {
+  return localStorage.getItem(AUTH_KEY) === 'true';
+}
+
+// On successful auth:
+localStorage.setItem(AUTH_KEY, 'true');
+```
+
+**HTML Structure**:
+- `#auth-gate` - Full-screen challenge modal (visible by default)
+- `#site-content` - Main content wrapper (hidden until authenticated)
+- Challenge question: "What is Grandma's last name?"
+
+### Service Worker Integration
+
+The service worker MUST check for the `grandmas-kitchen-auth` token before caching or serving any content.
+
+**Challenge**: Service workers cannot directly access `localStorage`. Solutions:
+
+#### Option 1: IndexedDB Mirror (Recommended)
+
+When the page sets `localStorage`, also mirror to IndexedDB (accessible from SW):
+
+```javascript
+// In page script - after successful auth
+localStorage.setItem(AUTH_KEY, 'true');
+
+// Also mirror to IndexedDB for service worker access
+const db = await openDB('FamilyAuth', 1, {
+  upgrade(db) { db.createObjectStore('auth'); }
+});
+await db.put('auth', 'true', 'grandmas-kitchen-auth');
+```
+
+```javascript
+// In sw.js - check IndexedDB before caching
+async function isAuthenticated() {
+  try {
+    const db = await openDB('FamilyAuth', 1);
+    const value = await db.get('auth', 'grandmas-kitchen-auth');
+    return value === 'true';
+  } catch {
+    return false;
+  }
+}
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    (async () => {
+      if (!await isAuthenticated()) {
+        // Don't cache anything - return network only
+        return fetch(event.request);
+      }
+      // Proceed with normal caching strategies
+      return handleAuthenticatedFetch(event.request);
+    })()
+  );
+});
+```
+
+#### Option 2: Skip SW Registration Until Authenticated
+
+Simpler approach - only register service worker after auth passes:
+
+```javascript
+// In index.html - register SW only after authentication
+if (checkAuth()) {
+  showSite();
+  // Only register SW for authenticated users
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/Grandmasrecipes/sw.js');
+  }
+} else {
+  showGate();
+  // No SW registration for unauthenticated users
+}
+```
+
+This prevents any caching for unauthenticated visitors, but means the SW never installs until they authenticate.
+
+#### Option 3: Message Channel Validation
+
+Use postMessage to verify auth status with active clients:
+
+```javascript
+// sw.js
+self.addEventListener('fetch', event => {
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      (async () => {
+        const clients = await self.clients.matchAll({ type: 'window' });
+        if (clients.length === 0) {
+          // No active clients - can't verify, pass through
+          return fetch(event.request);
+        }
+
+        // Ask client to verify auth
+        const authStatus = await new Promise(resolve => {
+          const channel = new MessageChannel();
+          channel.port1.onmessage = e => resolve(e.data.authenticated);
+          clients[0].postMessage({ type: 'AUTH_CHECK' }, [channel.port2]);
+        });
+
+        if (!authStatus) {
+          return fetch(event.request); // Don't cache
+        }
+        return handleAuthenticatedFetch(event.request);
+      })()
+    );
+  }
+});
+```
+
+### Recommended Approach
+
+**Use Option 2** (conditional SW registration) for simplicity:
+
+1. Keep existing localStorage auth gate unchanged
+2. Only register service worker after `checkAuth()` returns true
+3. Service worker assumes all requests are from authenticated users
+4. Unauthenticated visitors never get SW installed = no caching
+
+This requires minimal changes to the existing auth system while ensuring the SW only operates for family members
 
 ---
 
