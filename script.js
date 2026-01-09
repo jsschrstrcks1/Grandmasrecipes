@@ -112,7 +112,7 @@ function updateCollectionCounts() {
   // Count recipes by collection (excluding reference collection from individual counts)
   const counts = {
     '': recipes.length, // All recipes
-    'grandma': 0,
+    'grandma-baker': 0,
     'mommom': 0,
     'granny': 0
   };
@@ -127,7 +127,7 @@ function updateCollectionCounts() {
   // Update button labels
   const labels = {
     '': 'All',
-    'grandma': 'Grandma Baker',
+    'grandma-baker': 'Grandma Baker',
     'mommom': 'MomMom Baker',
     'granny': 'Granny Hudson'
   };
@@ -717,15 +717,18 @@ function renderConfidenceFlags(flags) {
 
 /**
  * Get the folder path for a collection's images
+ * @param {string} collection - The collection ID
+ * @param {boolean} isRemote - Whether this is a remote collection
+ * @param {string} remoteSiteUrl - The base URL for remote collections (e.g., 'https://jsschrstrcks1.github.io/MomsRecipes/')
+ * @returns {string} - The base path for images
  */
-function getCollectionImagePath(collection) {
-  const collectionPaths = {
-    'grandma': 'grandma/',
-    'mommom': 'mom/',
-    'granny': 'granny/',
-    'reference': 'all/'
-  };
-  return collectionPaths[collection] || 'grandma/';
+function getCollectionImagePath(collection, isRemote = false, remoteSiteUrl = null) {
+  // Remote collections: use absolute URL to their GitHub Pages site
+  if (isRemote && remoteSiteUrl) {
+    return remoteSiteUrl + 'data/';
+  }
+  // Local collection (grandma-baker): images are flat in data/
+  return 'data/';
 }
 
 /**

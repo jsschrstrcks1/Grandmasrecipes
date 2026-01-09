@@ -179,6 +179,47 @@ a:hover {
   color: var(--color-warm-white);
 }
 
+/* Family Collections Navigation */
+.family-collections {
+  background: var(--color-charcoal);
+  padding: var(--spacing-sm) 0;
+  text-align: center;
+}
+
+.family-collections .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.family-collections .nav-label {
+  color: var(--color-cream);
+  font-weight: 500;
+  margin-right: var(--spacing-sm);
+}
+
+.family-collections a {
+  color: var(--color-cream);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: 15px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.family-collections a:hover {
+  background-color: var(--color-teal);
+  text-decoration: none;
+}
+
+.family-collections a.active {
+  background-color: var(--color-coral);
+  color: white;
+  border-color: var(--color-coral);
+}
+
 /* Navigation - Chrome Diner Style */
 .site-nav {
   background: linear-gradient(180deg, var(--color-cream) 0%, #f5f0e8 100%);
