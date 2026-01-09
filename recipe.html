@@ -10,10 +10,25 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Authentication Gate -->
+  <div id="auth-gate" class="auth-gate">
+    <div class="auth-container">
+      <h1>Grandma's Kitchen</h1>
+      <p>This is a private family recipe archive.</p>
+      <form id="auth-form">
+        <label for="auth-answer">What is Grandma's last name?</label>
+        <input type="text" id="auth-answer" autocomplete="off" required>
+        <button type="submit" class="btn btn-primary">Enter</button>
+        <p id="auth-error" class="auth-error" style="display: none;">Incorrect. Please try again.</p>
+      </form>
+    </div>
+  </div>
+
+  <div id="site-content" style="display: none;">
   <header class="site-header">
     <div class="container">
       <h1><a href="index.html">Grandma's Kitchen</a></h1>
-      <p class="tagline">A treasured collection of family recipes, preserved with love</p>
+      <p class="tagline" style="font-size: 0.9rem; opacity: 0.8;">Soli Deo Gloria</p>
     </div>
   </header>
 
@@ -50,7 +65,50 @@
       <p style="margin-top: 0.5rem; font-size: 0.8rem;">From Michigan to Florida &middot; Preserved with Love</p>
     </div>
   </footer>
+  </div><!-- end site-content -->
 
+  <script>
+    // Authentication gate
+    (function() {
+      const AUTH_KEY = 'grandmas-kitchen-auth';
+      const CORRECT_ANSWER = 'Baker';
+
+      function checkAuth() {
+        return localStorage.getItem(AUTH_KEY) === 'true';
+      }
+
+      function showSite() {
+        document.getElementById('auth-gate').style.display = 'none';
+        document.getElementById('site-content').style.display = 'block';
+      }
+
+      function showGate() {
+        document.getElementById('auth-gate').style.display = 'flex';
+        document.getElementById('site-content').style.display = 'none';
+      }
+
+      // Check on load
+      if (checkAuth()) {
+        showSite();
+      } else {
+        showGate();
+      }
+
+      // Handle form submission
+      document.getElementById('auth-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const answer = document.getElementById('auth-answer').value;
+        if (answer === CORRECT_ANSWER) {
+          localStorage.setItem(AUTH_KEY, 'true');
+          showSite();
+        } else {
+          document.getElementById('auth-error').style.display = 'block';
+          document.getElementById('auth-answer').value = '';
+          document.getElementById('auth-answer').focus();
+        }
+      });
+    })();
+  </script>
   <script src="script.js"></script>
 </body>
 </html>

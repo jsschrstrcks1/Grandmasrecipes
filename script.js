@@ -127,9 +127,9 @@ function updateCollectionCounts() {
   // Update button labels
   const labels = {
     '': 'All',
-    'grandma-baker': 'Grandma Baker',
-    'mommom': 'MomMom Baker',
-    'granny': 'Granny Hudson'
+    'grandma-baker': 'Grandma',
+    'mommom': 'MomMom',
+    'granny': 'Granny'
   };
 
   collectionFilters.querySelectorAll('.collection-btn').forEach(btn => {
