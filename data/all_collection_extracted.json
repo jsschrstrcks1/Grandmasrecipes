@@ -1,0 +1,476 @@
+
+  "meta": {
+    "description": "Recipes extracted from data/all/ folder (Kindle muffin cookbook screenshots)",
+    "source": "Digital cookbook - appears to be a muffin recipe book",
+    "extraction_status": "in_progress",
+    "images_processed": 25,
+    "images_total": 129,
+    "last_image": "IMG_4057.PNG",
+    "extracted_by": "Claude Code session",
+    "date": "2026-01-09"
+  },
+  "recipes": [
+    {
+      "id": "blueberry-coconut-muffins",
+      "collection": "all",
+      "title": "Blueberry Coconut Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4033.PNG", "IMG_4034.PNG"],
+      "ingredients": [
+        {"item": "cake flour", "quantity": "2 1/2", "unit": "cups"},
+        {"item": "brown sugar", "quantity": "1/4", "unit": "cup"},
+        {"item": "white sugar", "quantity": "1/4", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "baking soda", "quantity": "1/2", "unit": "tsp"},
+        {"item": "salt", "quantity": "1", "unit": "pinch"},
+        {"item": "milk", "quantity": "1/2", "unit": "cup"},
+        {"item": "nonfat vanilla yogurt", "quantity": "1/4", "unit": "cup"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "vanilla extract", "quantity": "1", "unit": "tsp"},
+        {"item": "vegetable oil", "quantity": "1/4", "unit": "cup"},
+        {"item": "fresh or frozen blueberries", "quantity": "3/4", "unit": "cup"},
+        {"item": "shredded coconut", "quantity": "1/2", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees. In a medium bowl, mix flour, sugars and baking powder. In another bowl lightly mix milk and yogurt.",
+        "Add egg, oil and vanilla to wet mixture. Be careful to not over mix. Make a well in the dry mixture and add the wet mixture. Gently fold together.",
+        "Add blueberries and coconut to dough and combine until just blended.",
+        "Fill greased and floured muffin tins about 3/4 full. Bake for 20 minutes or until done in the middle."
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "raspberry-lemon-muffins",
+      "collection": "all",
+      "title": "Raspberry Lemon Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4035.PNG", "IMG_4036.PNG"],
+      "ingredients": [
+        {"item": "all-purpose flour", "quantity": "2", "unit": "cups"},
+        {"item": "sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "baking soda", "quantity": "1/2", "unit": "tsp"},
+        {"item": "salt", "quantity": "1", "unit": "pinch"},
+        {"item": "cook and serve vanilla pudding", "quantity": "1", "unit": "large box"},
+        {"item": "buttermilk", "quantity": "1", "unit": "cup"},
+        {"item": "eggs", "quantity": "2", "unit": "large"},
+        {"item": "vanilla", "quantity": "2", "unit": "tsp"},
+        {"item": "vegetable oil", "quantity": "1/4", "unit": "cup"},
+        {"item": "lemons (juice and zest)", "quantity": "2", "unit": ""},
+        {"item": "fresh raspberries", "quantity": "3/4", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Line muffin tins with paper liners.",
+        "In a medium bowl, combine flour, sugar, baking powder, baking soda, salt and pudding.",
+        "Lightly whisk eggs in another bowl. Add buttermilk, vanilla and oil.",
+        "Zest the lemons and set aside. Juice the lemons and combine to wet mixture.",
+        "Combine the milk mixture with the flour mixture and fold together, being careful not to over mix. Add the lemon zest and fold in raspberries.",
+        "Fill muffin tins about 3/4 full and bake for about 20 minutes or until done in the middle."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "southern-corn-muffins",
+      "collection": "all",
+      "title": "Southern Corn Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4037.PNG", "IMG_4038.PNG"],
+      "ingredients": [
+        {"item": "all-purpose flour", "quantity": "1 1/2", "unit": "cups"},
+        {"item": "corn meal", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "sugar", "quantity": "1/4", "unit": "cup"},
+        {"item": "honey", "quantity": "1", "unit": "tbsp"},
+        {"item": "milk", "quantity": "1", "unit": "cup"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "vegetable oil", "quantity": "1/4", "unit": "cup"},
+        {"item": "canned corn (drained)", "quantity": "1/2", "unit": "cup"},
+        {"item": "taco seasoning", "quantity": "2", "unit": "tsp"},
+        {"item": "dill", "quantity": "1", "unit": "tsp"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees. Grease and flour muffin tins.",
+        "Combine flour with the corn meal. Add to the flour the baking powder and salt.",
+        "In a medium bowl whisk together the sugar, egg, honey and oil until just mixed.",
+        "Alternate combining milk and corn into the egg mixture.",
+        "Create a well in the middle of the dry ingredients and fold in the wet ingredients. Add the taco seasoning and mix until just combined.",
+        "Fill the muffin tins till about 3/4 full. Top the batter with a sprinkling of dill in each cup. Bake for about 20-25 minutes or until golden brown and done in the middle."
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "traditional-blueberry-muffins",
+      "collection": "all",
+      "title": "Traditional Blueberry Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4039.PNG"],
+      "ingredients": [
+        {"item": "all-purpose flour", "quantity": "2 1/2", "unit": "cups"},
+        {"item": "sugar", "quantity": "3/4", "unit": "cup"},
+        {"item": "salt", "quantity": "1", "unit": "pinch"},
+        {"item": "baking powder", "quantity": "2", "unit": "tsp"},
+        {"item": "baking soda", "quantity": "1/2", "unit": "tsp"},
+        {"item": "buttermilk", "quantity": "1", "unit": "cup"},
+        {"item": "pure vanilla extract", "quantity": "2", "unit": "tsp"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "butter, melted", "quantity": "1/4", "unit": "cup"},
+        {"item": "fresh blueberries", "quantity": "1", "unit": "cup"},
+        {"item": "chopped walnuts (optional)", "quantity": "1/2", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees. Grease muffin tins with shortening.",
+        "Combine flour, salt, baking powder and baking soda in a bowl.",
+        "In another bowl combine sugar with egg and vanilla. Once butter is cooled add to the sugar mixture. Add buttermilk.",
+        "Pour wet ingredients into dry ingredients and just combine.",
+        "Batter will be slightly lumpy. Fold in blueberries and walnuts.",
+        "Spoon batter into prepared muffin tins and bake until a toothpick inserted in the middle comes out clean, about 20 minutes."
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "banana-nut-breakfast-muffins",
+      "collection": "all",
+      "title": "Banana Nut Breakfast Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4040.PNG", "IMG_4041.PNG"],
+      "ingredients": [
+        {"item": "whole wheat pastry flour", "quantity": "2 1/2", "unit": "cups"},
+        {"item": "granulated white sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "dark brown sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tsp"},
+        {"item": "baking soda", "quantity": "1", "unit": "tsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "vegetable oil", "quantity": "1/2", "unit": "cup"},
+        {"item": "vanilla non-fat yogurt", "quantity": "3/4", "unit": "cup"},
+        {"item": "bananas, mashed", "quantity": "3-4", "unit": ""},
+        {"item": "old fashioned oats", "quantity": "1", "unit": "cup"},
+        {"item": "pecans, chopped", "quantity": "1/2", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Prepare muffin tins by either greasing with shortening or filling with muffin papers.",
+        "In a large bowl, combine flour, salt, baking powder and baking soda. Set aside.",
+        "In a medium bowl, combine sugars with egg and oil. Add to the wet mixture the yogurt and bananas.",
+        "Combine wet ingredients with dry ingredients until just mixed. Overworking the batter will cause the batter to be too hard.",
+        "Add the oats and pecans. Spoon batter into muffin tins. Bake for about 20 minutes or until a toothpick comes out of the center clean."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "morning-start-blueberry-oatmeal-muffins",
+      "collection": "all",
+      "title": "Morning Start Blueberry Oatmeal Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4042.PNG", "IMG_4043.PNG"],
+      "ingredients": [
+        {"item": "whole wheat pastry flour", "quantity": "2 1/2", "unit": "cups"},
+        {"item": "dark brown sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "2", "unit": "tsp"},
+        {"item": "cinnamon", "quantity": "1", "unit": "tsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "vanilla yogurt", "quantity": "1/4", "unit": "cup"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "whole milk", "quantity": "3/4", "unit": "cup"},
+        {"item": "vegetable oil", "quantity": "1/2", "unit": "cup"},
+        {"item": "pure vanilla extract", "quantity": "1", "unit": "tsp"},
+        {"item": "fresh blueberries", "quantity": "1", "unit": "cup"},
+        {"item": "old fashioned oats", "quantity": "1/2", "unit": "cup"},
+        {"item": "pecans, chopped", "quantity": "1/2", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees. In one bowl combine the flour, baking powder, cinnamon and salt.",
+        "In another bowl combine the sugar, egg and vanilla. Add to the wet ingredients the yogurt and milk.",
+        "Combine the wet ingredients with the dry and fold in blueberries, oats and pecans until just mixed.",
+        "Fill muffin tins with batter until about 3/4 from the top. Bake for about 20 minutes or until done in the middle and golden brown on the top."
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "honey-lavender-muffins",
+      "collection": "all",
+      "title": "Honey Lavender Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4044.PNG"],
+      "ingredients": [
+        {"item": "cake flour", "quantity": "2", "unit": "cups"},
+        {"item": "granulated white sugar", "quantity": "1/4", "unit": "cup"},
+        {"item": "baking powder", "quantity": "2", "unit": "tsp"},
+        {"item": "salt", "quantity": "1", "unit": "dash"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "vanilla yogurt", "quantity": "1/2", "unit": "cup"},
+        {"item": "whole milk", "quantity": "1/2", "unit": "cup"},
+        {"item": "honey", "quantity": "1/4", "unit": "cup"},
+        {"item": "butter, melted", "quantity": "1/4", "unit": "cup"},
+        {"item": "culinary lavender, finely chopped", "quantity": "2", "unit": "tbsp"},
+        {"item": "lemon zest", "quantity": "1", "unit": "lemon"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Grease muffin tins with shortening.",
+        "Combine flour, baking powder and salt in a medium bowl.",
+        "In another bowl combine sugar, egg and butter (cooled). Once lightly mixed, add the yogurt, milk and honey.",
+        "Add the wet ingredients to the dry ingredients and sprinkle in the lavender and lemon zest.",
+        "Scoop batter into muffin tins and bake for about 20 minutes or until done in the middle.",
+        "Serve warm with your favorite jam and honey butter."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "tea-time-mini-muffins",
+      "collection": "all",
+      "title": "Tea Time Mini Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4045.PNG"],
+      "ingredients": [
+        {"item": "all purpose flour", "quantity": "2", "unit": "cups"},
+        {"item": "granulated white sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "salt", "quantity": "1", "unit": "dash"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "buttermilk", "quantity": "1", "unit": "cup"},
+        {"item": "butter, melted", "quantity": "1/2", "unit": "cup"},
+        {"item": "mixed berries (raspberries, strawberries, blueberries, blackberries)", "quantity": "12", "unit": "small pieces"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees.",
+        "In a small bowl lightly whisk the egg with the buttermilk, add the cooled butter to the mixture.",
+        "In a medium bowl combine the flour, white sugar, baking powder and salt. Fold in the wet ingredients until just mixed.",
+        "Grease a mini sized muffin tin. Using a small cookie scoop, spoon the batter into the muffin cups. Top each cup with various berries.",
+        "Bake for approximately 10-15 minutes, depending on the size of the muffin cups.",
+        "Cool and serve for a tea party or as appetizers for a party."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "chai-spiced-muffins",
+      "collection": "all",
+      "title": "Chai Spiced Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4046.PNG"],
+      "ingredients": [
+        {"item": "all purpose flour", "quantity": "2", "unit": "cups"},
+        {"item": "dark brown sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "granulated white sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "2", "unit": "tsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "pure vanilla extract", "quantity": "1", "unit": "tsp"},
+        {"item": "milk", "quantity": "1", "unit": "cup"},
+        {"item": "vegetable oil", "quantity": "1/2", "unit": "cup"},
+        {"item": "cinnamon", "quantity": "1/2", "unit": "tsp"},
+        {"item": "nutmeg", "quantity": "1/2", "unit": "tsp"},
+        {"item": "cloves", "quantity": "1/2", "unit": "tsp"},
+        {"item": "allspice", "quantity": "1/2", "unit": "tsp"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees.",
+        "In a large bowl, combine the flour, sugars, baking powder, salt and spices.",
+        "In another bowl lightly whisk the egg, vanilla, milk and oil.",
+        "Combine all ingredients together and lightly mix.",
+        "Bake for about 20-25 minutes or until golden brown and a toothpick inserted in the center comes out clean.",
+        "These muffins are perfect for cozy days at home with something warm to drink!"
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "chocolate-covered-banana-muffins",
+      "collection": "all",
+      "title": "Chocolate Covered Banana Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4047.PNG", "IMG_4048.PNG"],
+      "ingredients": [
+        {"item": "all purpose flour", "quantity": "2", "unit": "cups"},
+        {"item": "granulated white sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "chocolate pudding", "quantity": "1", "unit": "large box"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "bananas, mashed", "quantity": "3", "unit": ""},
+        {"item": "butter", "quantity": "4", "unit": "tbsp"},
+        {"item": "milk", "quantity": "1 1/4", "unit": "cups"},
+        {"item": "pure vanilla extract", "quantity": "1 1/2", "unit": "tsp"},
+        {"item": "semi-sweet chocolate chips", "quantity": "1", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Grease with shortening the muffin tins or use muffin papers. Set aside.",
+        "Place the bananas in a small, microwave safe bowl and microwave for about 2 minutes to help release the juices. Don't be afraid to use black or bruised bananas for these muffins! Give them a light mash with a fork and set aside.",
+        "In a large bowl, combine the flour, baking powder, salt and pudding mix. When the bananas are cooled add the egg, butter and sugar. Gradually add in the milk and vanilla. Combine well with the flour mixture, adding the chocolate chips while you gently mix.",
+        "Spoon the batter into prepared muffin tins and bake for about 20 minutes. Cool and serve."
+      ],
+      "temperature": "375°F"
+        },
+    {
+      "id": "chocolate-raspberry-date-night-muffins",
+      "collection": "all",
+      "title": "Chocolate Raspberry Date Night Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4049.PNG", "IMG_4050.PNG"],
+      "ingredients": [
+        {"item": "cake flour", "quantity": "2", "unit": "cups"},
+        {"item": "granulated white sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking soda", "quantity": "1", "unit": "tsp"},
+        {"item": "baking powder", "quantity": "1", "unit": "tsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "chocolate pudding", "quantity": "1", "unit": "large box"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "buttermilk", "quantity": "1", "unit": "cup"},
+        {"item": "butter, melted", "quantity": "4", "unit": "tbsp"},
+        {"item": "almond extract", "quantity": "1/2", "unit": "tsp"},
+        {"item": "pure vanilla extract", "quantity": "1/2", "unit": "tsp"},
+        {"item": "lemon zest", "quantity": "1", "unit": "lemon"},
+        {"item": "semi-sweet chocolate chips", "quantity": "1", "unit": "cup"},
+        {"item": "fresh raspberries", "quantity": "1", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Prepare muffin tins by either lining with paper cups or greasing with shortening. Set aside.",
+        "In a large bowl combine flour, baking soda, baking powder, salt and chocolate pudding mix. Set aside.",
+        "In a small bowl lightly whisk egg with sugar, buttermilk, almond and vanilla extract. When butter has cooled, add to the wet ingredients.",
+        "Zest one lemon and add to the butter mixture. Create a well in the middle of the dry ingredients and just bring together the wet and dry mixtures. Add chocolate chips and raspberries.",
+        "Bake in pre-heated oven for about 20 minutes or until done in the middle."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "pumpkin-spiced-muffins",
+      "collection": "all",
+      "title": "Pumpkin Spiced Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4051.PNG", "IMG_4052.PNG"],
+      "ingredients": [
+        {"item": "all-purpose flour", "quantity": "2 1/2", "unit": "cups"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "whole milk", "quantity": "3/4", "unit": "cup"},
+        {"item": "pure vanilla extract", "quantity": "1", "unit": "tsp"},
+        {"item": "canned pumpkin", "quantity": "3/4", "unit": "cup"},
+        {"item": "applesauce", "quantity": "1/2", "unit": "cup"},
+        {"item": "vegetable oil", "quantity": "1/4", "unit": "cup"},
+        {"item": "pumpkin pie spice", "quantity": "1", "unit": "tsp"},
+        {"item": "cinnamon sugar", "quantity": "4", "unit": "tbsp"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Prepare muffin tins with either paper cups or grease with shortening.",
+        "In a small bowl combine the canned pumpkin with the applesauce and oil. Set aside.",
+        "In another small bowl combine the egg with the milk. Set aside.",
+        "In a large bowl mix the dry ingredients: flour, baking powder, salt and pumpkin pie spice.",
+        "Add to the dry ingredients the egg mixture and the pumpkin mixture. Lightly stir together until just combined. Don't overwork the batter.",
+        "Using a cookie scoop, fill the muffin tins until about 3/4 from the top. Sprinkle cinnamon sugar on top of each muffin. Bake in a pre-heated oven for about 20-25 minutes or a toothpick inserted in the middle comes out clean."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "chocolate-lovers-muffins",
+      "collection": "all",
+      "title": "Chocolate Lovers Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4053.PNG"],
+      "ingredients": [
+        {"item": "all purpose flour", "quantity": "2 1/2", "unit": "cups"},
+        {"item": "granulated white sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "baking powder", "quantity": "1", "unit": "tsp"},
+        {"item": "baking soda", "quantity": "1", "unit": "tsp"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "baking cocoa", "quantity": "1/4", "unit": "cup"},
+        {"item": "chocolate pudding", "quantity": "1/2", "unit": "cup"},
+        {"item": "buttermilk", "quantity": "3/4", "unit": "cup"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "pure vanilla extract", "quantity": "1 1/2", "unit": "tsp"},
+        {"item": "butter, melted", "quantity": "1/4", "unit": "cup"},
+        {"item": "semi-sweet chocolate chips", "quantity": "1", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Prepare muffin tins by greasing them with shortening.",
+        "In a small bowl combine the chocolate pudding with the buttermilk, egg and vanilla.",
+        "Add the cooled butter and sugar.",
+        "In another bowl combine the dry ingredients: flour, baking powder, baking soda and salt.",
+        "Fold in the wet ingredients and stir to combine. Add the chocolate chips.",
+        "Scoop batter into muffin tins and bake for 20-25 minutes."
+      ],
+      "temperature": "375°F"
+    },
+    {
+      "id": "healthy-bran-apple-muffins",
+      "collection": "all",
+      "title": "Healthy Bran Apple Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4054.PNG", "IMG_4055.PNG"],
+      "ingredients": [
+        {"item": "whole wheat pastry flour", "quantity": "1 1/2", "unit": "cups"},
+        {"item": "wheat bran", "quantity": "1", "unit": "cup"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "dark brown sugar", "quantity": "1/4", "unit": "cup"},
+        {"item": "egg", "quantity": "1", "unit": "large"},
+        {"item": "low fat milk", "quantity": "1/2", "unit": "cup"},
+        {"item": "non fat vanilla yogurt", "quantity": "3/4", "unit": "cup"},
+        {"item": "applesauce", "quantity": "1/4", "unit": "cup"},
+        {"item": "vegetable oil", "quantity": "1/2", "unit": "cup"},
+        {"item": "granny smith apples, peeled and diced", "quantity": "1", "unit": "cup"},
+        {"item": "pecans", "quantity": "1", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees. Prepare muffin tins by greasing them with cooking spray or use muffin papers.",
+        "Chop 1/2 cup pecans and set aside. Reserve the other half cup as whole pecans; set aside.",
+        "In a large bowl, combine flour, bran, salt and baking powder; set aside.",
+        "In another bowl combine egg, brown sugar and applesauce. When mixed, add milk, yogurt and oil.",
+        "Combine the egg mixture with the flour mixture. Add the chopped apples and 1/2 cup chopped pecans. Combine well.",
+        "Spoon the batter into the muffin cups and top each with a whole pecan. Bake for 20-25 minutes or until a toothpick inserted in the middle comes out clean. Serve warm with honey or honey butter."
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "honey-bran-muffins",
+      "collection": "all",
+      "title": "Honey Bran Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4056.PNG"],
+      "ingredients": [
+        {"item": "whole wheat pastry flour", "quantity": "1 1/2", "unit": "cups"},
+        {"item": "wheat bran", "quantity": "1", "unit": "cup"},
+        {"item": "salt", "quantity": "1/2", "unit": "tsp"},
+        {"item": "baking powder", "quantity": "1", "unit": "tbsp"},
+        {"item": "dark brown sugar", "quantity": "1/2", "unit": "cup"},
+        {"item": "honey", "quantity": "1/2", "unit": "cup"},
+        {"item": "butter, melted", "quantity": "1/4", "unit": "cup"},
+        {"item": "buttermilk", "quantity": "1", "unit": "cup"},
+        {"item": "eggs", "quantity": "2", "unit": ""},
+        {"item": "raisins", "quantity": "1", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees.",
+        "Combine flour, bran, salt, baking powder and brown sugar in a large bowl.",
+        "Combine the honey and butter together with a fork.",
+        "When smooth, add the buttermilk and eggs.",
+        "Bring the flour mixture and honey mixture together and stir till just combined. Add the raisins and combine.",
+        "Spoon batter into greased muffin tins. Bake for about 20-25 minutes or until a toothpick inserted in the middle comes out clean. Cool and serve."
+      ],
+      "temperature": "400°F"
+    },
+    {
+      "id": "chocolate-peppermint-brownie-muffins",
+      "collection": "all",
+      "title": "Chocolate Peppermint Brownie Muffins",
+      "category": "breads",
+      "source_images": ["IMG_4057.PNG"],
+      "ingredients": [
+        {"item": "Brownie Mix", "quantity": "1", "unit": "package"},
+        {"item": "eggs", "quantity": "2", "unit": ""},
+        {"item": "vegetable oil", "quantity": "2/3", "unit": "cup"},
+        {"item": "water", "quantity": "1/2", "unit": "cup"},
+        {"item": "peppermint extract", "quantity": "2", "unit": "tsp"},
+        {"item": "semi-sweet chocolate chips", "quantity": "1/2", "unit": "cup"},
+        {"item": "crushed candy canes", "quantity": "3/4", "unit": "cup"},
+        {"item": "mini chocolate chips or chocolate shavings", "quantity": "1/2", "unit": "cup"}
+      ],
+      "instructions": [
+        "Preheat oven to 375 degrees. Line muffin tins with paper muffin cups.",
+        "In a medium bowl combine the brownie mix, eggs, water and oil.",
+        "Add the peppermint extract and semi sweet chocolate chips.",
+        "Spoon batter into muffin tins and top each muffin with a sprinkling of crushed candy canes and either mini chocolate chips or chocolate shavings.",
+        "Bake for 25-30 minutes or until a toothpick inserted in the middle comes out clean. Cool and serve."
+      ],
+      "temperature": "375°F"
+    }
+  ]
+}
