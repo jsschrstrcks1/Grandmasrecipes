@@ -412,7 +412,8 @@ main {
 /* Recipe Grid */
 .recipe-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* Use min() to allow cards to shrink on small screens */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   gap: var(--spacing-lg);
 }
 
@@ -438,7 +439,9 @@ main {
 }
 
 .recipe-card-image {
-  height: 180px;
+  /* Use aspect-ratio for responsive sizing, fallback to min-height */
+  aspect-ratio: 16 / 9;
+  min-height: 120px;
   background: linear-gradient(135deg, var(--color-teal-light) 0%, var(--color-teal) 100%);
   display: flex;
   align-items: center;
@@ -1020,26 +1023,39 @@ main {
   }
 }
 
-/* Responsive */
+/* =============================================================================
+   MOBILE RESPONSIVE STYLES
+   Priority: iPhone 12/13/14/15 Pro (390px), iPhone SE (375px), larger phones
+   ============================================================================= */
+
+/* Tablet and smaller laptops */
 @media (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .site-header h1 {
     font-size: 2.2rem;
   }
 
+  /* Recipe grid - use percentage-based sizing */
   .recipe-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    gap: var(--spacing-md);
   }
 
   .recipe-detail {
     padding: var(--spacing-md);
+    border-radius: 8px;
+  }
+
+  .recipe-detail::before {
+    width: 40px;
+    height: 40px;
   }
 
   .instructions-list li {
-    padding-left: 60px;
+    padding-left: 55px;
   }
 
   .instructions-list li::before {
@@ -1050,6 +1066,405 @@ main {
 
   .recipe-quick-facts {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Container padding as percentage */
+  .container {
+    padding: 0 4%;
+  }
+
+  /* Search section improvements */
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box input,
+  .search-box button {
+    width: 100%;
+  }
+
+  /* Navigation wraps better */
+  .site-nav ul {
+    gap: var(--spacing-sm);
+  }
+
+  .site-nav a {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.9rem;
+  }
+
+  /* Header controls */
+  .header-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .variants-dropdown {
+    width: 100%;
+  }
+
+  .variant-select {
+    max-width: 100%;
+    flex: 1;
+  }
+
+  /* Collection filter */
+  .collection-filter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .collection-buttons {
+    width: 100%;
+  }
+
+  .collection-btn {
+    flex: 1;
+    text-align: center;
+    min-width: auto;
+  }
+
+  .category-filter-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .category-select {
+    width: 100%;
+  }
+}
+
+/* Large phones (iPhone Pro Max, Samsung Galaxy, etc.) */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* Header scaling */
+  .site-header {
+    padding: var(--spacing-md) 0;
+  }
+
+  .site-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .site-header .tagline {
+    font-size: 0.9rem;
+  }
+
+  /* Family collections - stack on small screens */
+  .family-collections .container {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+  }
+
+  .family-collections .nav-label {
+    margin-right: 0;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .family-collections a {
+    padding: var(--spacing-sm) var(--spacing-md);
+    /* Minimum touch target: 44px */
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Site nav horizontal scroll on small screens */
+  .site-nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .site-nav ul {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 var(--spacing-sm);
+    min-width: max-content;
+  }
+
+  .site-nav a {
+    white-space: nowrap;
+    /* Minimum touch target */
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Recipe grid - single column */
+  .recipe-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  /* Recipe card optimizations */
+  .recipe-card-image {
+    height: 140px;
+  }
+
+  .recipe-card-content {
+    padding: var(--spacing-sm);
+  }
+
+  /* Search section */
+  .search-section {
+    padding: var(--spacing-md);
+    border-radius: 8px;
+  }
+
+  /* Recipe detail page */
+  .recipe-detail {
+    padding: var(--spacing-sm);
+    border-width: 2px;
+    margin: 0 -2%; /* Slight bleed for full-width feel */
+    width: 104%;
+    border-radius: 0;
+  }
+
+  .recipe-detail::before {
+    display: none; /* Hide decorative corner on mobile */
+  }
+
+  .recipe-header h1 {
+    font-size: 1.8rem;
+  }
+
+  /* Quick facts - 2 columns on phones */
+  .recipe-quick-facts {
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--spacing-sm);
+    gap: var(--spacing-sm);
+  }
+
+  .quick-fact-value {
+    font-size: 1rem;
+  }
+
+  /* Ingredients list */
+  .ingredients-list {
+    padding-left: var(--spacing-sm);
+  }
+
+  .ingredient-quantity {
+    min-width: 70px;
+    font-size: 0.9rem;
+  }
+
+  /* Instructions - smaller step circles */
+  .instructions-list li {
+    padding-left: 50px;
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+  }
+
+  .instructions-list li::before {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  /* Buttons - full width on mobile */
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .action-buttons .btn {
+    width: 100%;
+    text-align: center;
+    /* Minimum touch target */
+    min-height: 44px;
+  }
+
+  /* Auth gate mobile */
+  .auth-container {
+    padding: var(--spacing-lg);
+    width: 92%;
+    max-width: none;
+  }
+
+  .auth-container h1 {
+    font-size: 2rem;
+  }
+
+  .auth-container input {
+    /* Larger touch target */
+    min-height: 48px;
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+
+  .auth-container button {
+    min-height: 48px;
+  }
+
+  /* Alpha index - smaller circles */
+  .alpha-index a {
+    width: 36px;
+    height: 36px;
+    font-size: 0.85rem;
+  }
+
+  /* Nutrition grid */
+  .nutrition-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Tags wrap nicely */
+  .recipe-tags {
+    gap: var(--spacing-xs);
+  }
+
+  .recipe-tag {
+    font-size: 0.75rem;
+    padding: 4px var(--spacing-sm);
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .site-footer .motto {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small phones (iPhone SE, older devices) */
+@media (max-width: 375px) {
+  html {
+    font-size: 13px;
+  }
+
+  .site-header h1 {
+    font-size: 1.6rem;
+  }
+
+  /* Tighter container padding */
+  .container {
+    padding: 0 3%;
+  }
+
+  /* Family nav - vertical stack */
+  .family-collections .container {
+    align-items: stretch;
+  }
+
+  .family-collections a {
+    flex: 1;
+    text-align: center;
+  }
+
+  /* Recipe header */
+  .recipe-header h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Quick facts - still 2 columns but tighter */
+  .recipe-quick-facts {
+    gap: var(--spacing-xs);
+  }
+
+  .quick-fact-label {
+    font-size: 0.65rem;
+  }
+
+  .quick-fact-value {
+    font-size: 0.9rem;
+  }
+
+  /* Instructions even smaller */
+  .instructions-list li {
+    padding-left: 44px;
+  }
+
+  .instructions-list li::before {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+
+  /* Collection buttons */
+  .collection-btn {
+    font-size: 0.8rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects that don't work on touch */
+  .recipe-card:hover {
+    transform: none;
+  }
+
+  .recipe-card:active {
+    transform: scale(0.98);
+  }
+
+  /* Larger touch targets */
+  .filter-tag {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .collection-btn {
+    min-height: 44px;
+  }
+
+  .btn {
+    min-height: 44px;
+  }
+
+  /* Remove decorative hover states */
+  .scan-thumbnail:hover {
+    transform: none;
+  }
+}
+
+/* Landscape phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .auth-gate {
+    padding: var(--spacing-md);
+    overflow-y: auto;
+  }
+
+  .auth-container {
+    padding: var(--spacing-md);
+  }
+
+  .auth-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+  }
+}
+
+/* Safe area insets for notched phones (iPhone X and later) */
+@supports (padding: max(0px)) {
+  .site-header {
+    padding-top: max(var(--spacing-xl), env(safe-area-inset-top));
+  }
+
+  .site-footer {
+    padding-bottom: max(var(--spacing-xl), env(safe-area-inset-bottom));
+  }
+
+  .auth-gate {
+    padding: max(var(--spacing-md), env(safe-area-inset-top)) max(var(--spacing-md), env(safe-area-inset-right)) max(var(--spacing-md), env(safe-area-inset-bottom)) max(var(--spacing-md), env(safe-area-inset-left));
+  }
+}
+
+/* High DPI / Retina adjustments */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Sharper borders on retina */
+  .recipe-card {
+    border-width: 1px;
+  }
+
+  .search-box input {
+    border-width: 1px;
   }
 }
 
@@ -1211,26 +1626,7 @@ main {
   margin-top: var(--spacing-md);
 }
 
-/* Responsive adjustments for new components */
-@media (max-width: 768px) {
-  .header-controls {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .variants-dropdown {
-    width: 100%;
-  }
-
-  .variant-select {
-    max-width: 100%;
-    flex: 1;
-  }
-
-  .nutrition-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+/* Responsive adjustments for new components - merged into main mobile styles above */
 
 /* Special 1950s Decorative Elements */
 .retro-divider {
@@ -1412,29 +1808,4 @@ main {
   position: relative;
 }
 
-/* Responsive adjustments for collection filter */
-@media (max-width: 768px) {
-  .collection-filter {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .collection-buttons {
-    width: 100%;
-  }
-
-  .collection-btn {
-    flex: 1;
-    text-align: center;
-    min-width: auto;
-  }
-
-  .category-filter-row {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .category-select {
-    width: 100%;
-  }
-}
+/* Collection filter responsive - merged into main mobile styles above */
