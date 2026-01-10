@@ -22,8 +22,39 @@ Output:
 import json
 import re
 import os
+import urllib.request
+import urllib.error
 from collections import defaultdict
 from pathlib import Path
+
+# Remote collections to fetch (in addition to local recipes)
+REMOTE_COLLECTIONS = [
+    {
+        "id": "mommom-baker",
+        "name": "MomMom Baker",
+        "urls": [
+            "https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json",
+        ]
+    },
+    {
+        "id": "granny-hudson",
+        "name": "Granny Hudson",
+        "urls": [
+            "https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json",
+            "https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json",
+            "https://raw.githubusercontent.com/jsschrstrcks1/Grannysrecipes/main/granny/recipes_master.json",
+        ]
+    },
+    {
+        "id": "all",
+        "name": "Other Recipes",
+        "urls": [
+            "https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json",
+            "https://jsschrstrcks1.github.io/Allrecipes/all/recipes_master.json",
+            "https://raw.githubusercontent.com/jsschrstrcks1/Allrecipes/main/all/recipes_master.json",
+        ]
+    },
+]
 
 # Common ingredient synonyms (bidirectional)
 SYNONYMS = {
@@ -695,6 +726,45 @@ def build_ingredient_index(recipes):
     }
 
 
+def fetch_remote_recipes(collection):
+    """
+    Fetch recipes from a remote collection.
+    Tries multiple URLs in order until one succeeds.
+    Returns list of recipes or empty list on failure.
+    """
+    collection_id = collection["id"]
+    collection_name = collection["name"]
+
+    for url in collection["urls"]:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "GrandmasRecipes/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as response:
+                data = json.loads(response.read().decode('utf-8'))
+
+                # Handle both {recipes: [...]} and [...] formats
+                if isinstance(data, list):
+                    recipes = data
+                else:
+                    recipes = data.get('recipes', [])
+
+                if recipes:
+                    print(f"    ✓ {collection_name}: {len(recipes)} recipes from {url}")
+                    return recipes
+
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                print(f"    ✗ {collection_name}: HTTP {e.code} from {url}")
+        except urllib.error.URLError as e:
+            print(f"    ✗ {collection_name}: Network error - {e.reason}")
+        except json.JSONDecodeError:
+            print(f"    ✗ {collection_name}: Invalid JSON from {url}")
+        except Exception as e:
+            print(f"    ✗ {collection_name}: Error - {e}")
+
+    print(f"    ✗ {collection_name}: No valid source found")
+    return []
+
+
 def main():
     """Main entry point."""
     # Get paths relative to script location
@@ -705,22 +775,43 @@ def main():
     output_path = project_root / "data" / "ingredient-index.json"
 
     print(f"Building ingredient index...")
-    print(f"  Source: {recipes_path}")
     print(f"  Output: {output_path}")
 
-    # Load recipes
-    if not recipes_path.exists():
-        print(f"Error: {recipes_path} not found")
+    all_recipes = []
+    collection_stats = {}
+
+    # Load local recipes (Grandma Baker)
+    print(f"\n  Loading local recipes...")
+    if recipes_path.exists():
+        with open(recipes_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        local_recipes = data.get('recipes', [])
+        print(f"    ✓ Grandma Baker: {len(local_recipes)} recipes from {recipes_path}")
+        all_recipes.extend(local_recipes)
+        collection_stats["grandma-baker"] = len(local_recipes)
+    else:
+        print(f"    ✗ Grandma Baker: {recipes_path} not found")
+
+    # Fetch remote collections
+    print(f"\n  Fetching remote collections...")
+    for collection in REMOTE_COLLECTIONS:
+        remote_recipes = fetch_remote_recipes(collection)
+        if remote_recipes:
+            all_recipes.extend(remote_recipes)
+            collection_stats[collection["id"]] = len(remote_recipes)
+
+    print(f"\n  Total: {len(all_recipes)} recipes from {len(collection_stats)} collections")
+
+    if not all_recipes:
+        print("Error: No recipes found")
         return 1
 
-    with open(recipes_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    recipes = data.get('recipes', [])
-    print(f"  Found {len(recipes)} recipes")
-
     # Build index
-    index = build_ingredient_index(recipes)
+    index = build_ingredient_index(all_recipes)
+
+    # Add collection stats to metadata
+    index["meta"]["collections"] = collection_stats
+    index["meta"]["description"] = "Combined ingredient index for all family recipe collections"
 
     print(f"  Indexed {index['meta']['total_ingredients']} unique ingredients")
 
