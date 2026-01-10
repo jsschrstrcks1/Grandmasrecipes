@@ -57,6 +57,162 @@
 
   <main>
     <div class="container">
+      <!-- Ingredient Search Section - "What Can I Make?" -->
+      <section class="ingredient-search-section">
+        <div class="ingredient-search-header">
+          <h2 class="ingredient-search-title">What Can I Make?</h2>
+          <p class="ingredient-search-subtitle">Enter ingredients you have on hand</p>
+        </div>
+
+        <!-- Layer 1: Simple Input (Default) -->
+        <div class="ingredient-input-wrapper">
+          <div class="ingredient-input-container">
+            <input
+              type="text"
+              id="ingredient-input"
+              class="ingredient-input"
+              placeholder="Type an ingredient..."
+              aria-label="Search by ingredients"
+              autocomplete="off"
+            >
+            <div id="ingredient-autocomplete" class="ingredient-autocomplete hidden" role="listbox"></div>
+          </div>
+          <button type="button" id="ingredient-search-btn" class="btn btn-primary" aria-label="Search recipes">
+            Find Recipes
+          </button>
+        </div>
+
+        <!-- Selected Ingredients Pills -->
+        <div id="selected-ingredients" class="selected-ingredients hidden">
+          <!-- Pills added dynamically -->
+        </div>
+
+        <!-- Quick Suggestions -->
+        <div class="ingredient-suggestions">
+          <span class="suggestion-label">Try:</span>
+          <button type="button" class="suggestion-chip" data-ingredient="chicken">chicken</button>
+          <button type="button" class="suggestion-chip" data-ingredient="ground beef">ground beef</button>
+          <button type="button" class="suggestion-chip" data-ingredient="pasta">pasta</button>
+          <button type="button" class="suggestion-chip" data-ingredient="eggs">eggs</button>
+          <button type="button" class="suggestion-chip" data-ingredient="cheese">cheese</button>
+        </div>
+
+        <!-- Layer 2: Options Panel (Expandable) -->
+        <div class="ingredient-options-toggle">
+          <button type="button" id="ingredient-options-btn" class="options-toggle-btn" aria-expanded="false">
+            <span>More options</span>
+            <span class="toggle-icon">&#9660;</span>
+          </button>
+        </div>
+
+        <div id="ingredient-options-panel" class="ingredient-options-panel hidden">
+          <!-- Staples Section -->
+          <div class="staples-section">
+            <div class="staples-header">
+              <label class="staples-toggle">
+                <input type="checkbox" id="include-staples" checked>
+                <span class="staples-toggle-label">Include my staples</span>
+                <span id="staples-count" class="staples-count">(0 items)</span>
+              </label>
+              <button type="button" id="just-staples-btn" class="just-staples-btn">Just Staples</button>
+            </div>
+
+            <div class="staples-management">
+              <button type="button" id="edit-staples-btn" class="btn-link">Edit Staples</button>
+            </div>
+
+            <!-- Staples Editor (hidden by default) -->
+            <div id="staples-editor" class="staples-editor hidden">
+              <div class="staples-presets">
+                <span class="preset-label">Quick add:</span>
+                <button type="button" class="preset-btn" data-preset="basics">+ Basics</button>
+                <button type="button" class="preset-btn" data-preset="baking">+ Baking</button>
+                <button type="button" class="preset-btn" data-preset="asian">+ Asian</button>
+                <button type="button" class="preset-btn" data-preset="mexican">+ Mexican</button>
+                <button type="button" class="preset-btn" data-preset="italian">+ Italian</button>
+              </div>
+
+              <div class="staples-input-row">
+                <input type="text" id="staples-input" class="staples-input" placeholder="Add a staple ingredient...">
+                <button type="button" id="add-staple-btn" class="btn btn-small">Add</button>
+              </div>
+
+              <div id="staples-list" class="staples-list">
+                <!-- Staples pills added dynamically -->
+              </div>
+
+              <div class="staples-actions">
+                <button type="button" id="clear-staples-btn" class="btn-link btn-danger">Clear All</button>
+                <button type="button" id="close-staples-btn" class="btn btn-small btn-secondary">Done</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match Mode -->
+          <div class="option-group">
+            <label class="option-label">Match mode:</label>
+            <div class="option-buttons">
+              <button type="button" class="option-btn active" data-mode="any">
+                Any ingredient
+              </button>
+              <button type="button" class="option-btn" data-mode="all">
+                All ingredients
+              </button>
+            </div>
+          </div>
+
+          <!-- Missing Ingredients Threshold -->
+          <div class="option-group">
+            <label class="option-label">Show recipes missing up to:</label>
+            <div class="option-buttons">
+              <button type="button" class="option-btn active" data-missing="0">
+                0 (exact match)
+              </button>
+              <button type="button" class="option-btn" data-missing="1">
+                1 ingredient
+              </button>
+              <button type="button" class="option-btn" data-missing="2">
+                2 ingredients
+              </button>
+              <button type="button" class="option-btn" data-missing="3">
+                3 ingredients
+              </button>
+            </div>
+          </div>
+
+          <!-- Clear Search -->
+          <div class="option-group">
+            <button type="button" id="clear-ingredient-search" class="btn btn-secondary">
+              Clear Ingredient Search
+            </button>
+          </div>
+        </div>
+
+        <!-- Search Results Summary -->
+        <div id="ingredient-search-results" class="ingredient-search-results hidden">
+          <span id="ingredient-match-count"></span>
+
+          <!-- Smart Suggestions -->
+          <div id="ingredient-suggestions" class="ingredient-suggestions-panel hidden">
+            <!-- Add Suggestions -->
+            <div id="add-suggestions" class="suggestions-group hidden">
+              <span class="suggestions-label">Add:</span>
+              <div id="add-suggestions-list" class="suggestions-chips">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+
+            <!-- Remove Suggestions -->
+            <div id="remove-suggestions" class="suggestions-group hidden">
+              <span class="suggestions-label">Remove:</span>
+              <div id="remove-suggestions-list" class="suggestions-chips">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Search and Filter Section -->
       <section class="search-section">
         <form id="search-form" class="search-box">
@@ -64,14 +220,23 @@
           <button type="submit" class="btn btn-primary">Search</button>
         </form>
 
-        <!-- Collection Filter -->
+        <!-- Collection Filter (Multi-select) -->
         <div class="collection-filter">
           <span class="filter-label">Recipe Box:</span>
-          <div class="collection-buttons" id="collection-filters">
-            <button type="button" class="collection-btn active" data-collection="">All</button>
-            <button type="button" class="collection-btn" data-collection="grandma-baker">Grandma</button>
-            <button type="button" class="collection-btn" data-collection="mommom">MomMom</button>
-            <button type="button" class="collection-btn" data-collection="granny">Granny</button>
+          <div class="collection-checkboxes" id="collection-filters">
+            <label class="collection-checkbox">
+              <input type="checkbox" data-collection="grandma-baker" checked>
+              <span class="checkbox-label">Grandma <span class="collection-count" data-count="grandma-baker">(0)</span></span>
+            </label>
+            <label class="collection-checkbox">
+              <input type="checkbox" data-collection="mommom" checked>
+              <span class="checkbox-label">MomMom <span class="collection-count" data-count="mommom">(0)</span></span>
+            </label>
+            <label class="collection-checkbox">
+              <input type="checkbox" data-collection="granny" checked>
+              <span class="checkbox-label">Granny <span class="collection-count" data-count="granny">(0)</span></span>
+            </label>
+            <button type="button" class="collection-select-all btn-link" id="collection-select-all">Select All</button>
           </div>
         </div>
 

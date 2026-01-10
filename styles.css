@@ -1386,9 +1386,22 @@ main {
   }
 
   /* Collection buttons */
-  .collection-btn {
+  .collection-checkbox {
     font-size: 0.8rem;
     padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .collection-checkboxes {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .collection-checkbox {
+    justify-content: flex-start;
+  }
+
+  .collection-select-all {
+    align-self: flex-start;
   }
 }
 
@@ -1628,6 +1641,805 @@ main {
 
 /* Responsive adjustments for new components - merged into main mobile styles above */
 
+/* =============================================================================
+   INGREDIENT SEARCH - "What Can I Make?"
+   1950s Kitchen aesthetic with progressive disclosure
+   ============================================================================= */
+
+.ingredient-search-section {
+  background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  padding: var(--spacing-xl);
+  border-radius: 16px;
+  margin-bottom: var(--spacing-xl);
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Chrome trim effect on ingredient search */
+.ingredient-search-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg,
+    var(--color-chrome) 0%,
+    #fff 50%,
+    var(--color-chrome) 100%);
+}
+
+.ingredient-search-header {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.ingredient-search-title {
+  font-family: var(--font-script);
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--color-warm-white);
+  margin: 0 0 var(--spacing-xs);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  border: none;
+  display: block;
+}
+
+.ingredient-search-subtitle {
+  font-size: 1rem;
+  color: var(--color-teal-light);
+  margin: 0;
+  font-family: var(--font-heading);
+  font-style: italic;
+}
+
+/* Input wrapper */
+.ingredient-input-wrapper {
+  display: flex;
+  gap: var(--spacing-sm);
+  max-width: 600px;
+  margin: 0 auto var(--spacing-md);
+}
+
+.ingredient-input-container {
+  flex: 1;
+  position: relative;
+}
+
+.ingredient-input {
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: 3px solid var(--color-cream);
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-family: inherit;
+  background-color: var(--color-warm-white);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+.ingredient-input:focus {
+  outline: none;
+  border-color: var(--color-coral);
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.05),
+    0 0 0 4px rgba(255, 107, 107, 0.3);
+}
+
+.ingredient-input::placeholder {
+  color: var(--color-chrome-dark);
+}
+
+/* Autocomplete dropdown */
+.ingredient-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-warm-white);
+  border: 2px solid var(--color-teal);
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.ingredient-autocomplete.hidden {
+  display: none;
+}
+
+.autocomplete-item {
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.15s ease;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.autocomplete-item:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.highlighted {
+  background-color: var(--color-teal-light);
+}
+
+.autocomplete-item-name {
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.autocomplete-item-count {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  background-color: var(--color-cream);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.autocomplete-match {
+  font-weight: 700;
+  color: var(--color-teal-dark);
+}
+
+/* Selected ingredients pills */
+.selected-ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-sm);
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+.selected-ingredients.hidden {
+  display: none;
+}
+
+.ingredient-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: linear-gradient(180deg, var(--color-coral) 0%, var(--color-coral-dark) 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  animation: pillPop 0.2s ease-out;
+}
+
+@keyframes pillPop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.ingredient-pill-remove {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 1;
+  transition: background-color 0.15s ease;
+}
+
+.ingredient-pill-remove:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+/* Quick suggestions */
+.ingredient-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.suggestion-label {
+  color: var(--color-teal-light);
+  font-size: 0.9rem;
+  margin-right: var(--spacing-xs);
+}
+
+.suggestion-chip {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: rgba(255,255,255,0.15);
+  color: var(--color-cream);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 15px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.suggestion-chip:hover {
+  background-color: rgba(255,255,255,0.25);
+  border-color: var(--color-cream);
+  transform: translateY(-1px);
+}
+
+/* Options toggle */
+.ingredient-options-toggle {
+  text-align: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.options-toggle-btn {
+  background: none;
+  border: none;
+  color: var(--color-teal-light);
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.options-toggle-btn:hover {
+  background-color: rgba(255,255,255,0.1);
+  color: var(--color-cream);
+}
+
+.options-toggle-btn .toggle-icon {
+  font-size: 0.7rem;
+  transition: transform 0.3s ease;
+}
+
+.options-toggle-btn[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+
+/* Options panel */
+.ingredient-options-panel {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+  transition: all 0.3s ease;
+}
+
+.ingredient-options-panel.hidden {
+  display: none;
+}
+
+/* Staples Section */
+.staples-section {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.staples-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.staples-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  color: var(--color-cream);
+}
+
+.staples-toggle input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-cream);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  transition: all 0.15s ease;
+}
+
+.staples-toggle input[type="checkbox"]:checked {
+  background-color: var(--color-coral);
+  border-color: var(--color-coral);
+}
+
+.staples-toggle input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.staples-toggle-label {
+  font-weight: 500;
+}
+
+.staples-count {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.just-staples-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: linear-gradient(180deg, var(--color-butter) 0%, #f5d76e 100%);
+  color: var(--color-charcoal);
+  border: none;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.just-staples-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.just-staples-btn.active {
+  background: linear-gradient(180deg, var(--color-coral) 0%, var(--color-coral-dark) 100%);
+  color: white;
+}
+
+.staples-management {
+  margin-top: var(--spacing-sm);
+}
+
+.staples-editor {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.staples-editor.hidden {
+  display: none;
+}
+
+.staples-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.preset-label {
+  font-size: 0.85rem;
+  color: var(--color-cream);
+  opacity: 0.8;
+}
+
+.preset-btn {
+  padding: 4px 12px;
+  background-color: rgba(255,255,255,0.15);
+  color: var(--color-cream);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.preset-btn:hover {
+  background-color: rgba(255,255,255,0.25);
+  border-color: var(--color-cream);
+}
+
+.staples-input-row {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.staples-input {
+  flex: 1;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.staples-input:focus {
+  outline: none;
+  border-color: var(--color-cream);
+  background-color: white;
+}
+
+.staples-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+  min-height: 30px;
+}
+
+.staple-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background-color: rgba(255,255,255,0.2);
+  color: var(--color-cream);
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.staple-pill-remove {
+  background: none;
+  border: none;
+  color: var(--color-cream);
+  cursor: pointer;
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+
+.staple-pill-remove:hover {
+  opacity: 1;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.staples-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-danger {
+  color: #ff8a80 !important;
+}
+
+.btn-danger:hover {
+  color: #ff5252 !important;
+}
+
+.btn-small {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.85rem;
+}
+
+.option-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.option-group:last-child {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.option-label {
+  display: block;
+  color: var(--color-cream);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+
+.option-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.option-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: rgba(255,255,255,0.1);
+  color: var(--color-cream);
+  border: 2px solid transparent;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.option-btn:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.option-btn.active {
+  background-color: var(--color-coral);
+  border-color: var(--color-coral-dark);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Search results summary */
+.ingredient-search-results {
+  text-align: center;
+  padding: var(--spacing-md);
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  margin-top: var(--spacing-md);
+}
+
+.ingredient-search-results.hidden {
+  display: none;
+}
+
+#ingredient-match-count {
+  color: var(--color-cream);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.match-count-number {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-butter);
+}
+
+/* Smart Suggestions Panel */
+.ingredient-suggestions-panel {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.ingredient-suggestions-panel.hidden {
+  display: none;
+}
+
+.suggestions-group {
+  margin-bottom: var(--spacing-sm);
+}
+
+.suggestions-group:last-child {
+  margin-bottom: 0;
+}
+
+.suggestions-group.hidden {
+  display: none;
+}
+
+.suggestions-label {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--color-teal-light);
+  margin-right: var(--spacing-xs);
+  font-weight: 500;
+}
+
+.suggestions-chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  align-items: center;
+}
+
+.suggestion-add-chip {
+  padding: 4px 12px;
+  background-color: rgba(76, 175, 80, 0.3);
+  color: #a5d6a7;
+  border: 1px solid rgba(76, 175, 80, 0.5);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.suggestion-add-chip:hover {
+  background-color: rgba(76, 175, 80, 0.5);
+  color: white;
+  border-color: #4caf50;
+}
+
+.suggestion-add-chip .chip-count {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+.suggestion-remove-chip {
+  padding: 4px 12px;
+  background-color: rgba(255, 138, 128, 0.3);
+  color: #ffab91;
+  border: 1px solid rgba(255, 138, 128, 0.5);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.suggestion-remove-chip:hover {
+  background-color: rgba(255, 138, 128, 0.5);
+  color: white;
+  border-color: #ff8a80;
+}
+
+.suggestion-remove-chip .chip-count {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+/* Missing ingredients display on recipe cards */
+.recipe-missing-ingredients {
+  font-size: 0.8rem;
+  color: var(--color-coral);
+  margin-top: var(--spacing-xs);
+  padding-top: var(--spacing-xs);
+  border-top: 1px dashed var(--color-teal-light);
+}
+
+.recipe-missing-ingredients strong {
+  color: var(--color-cherry);
+}
+
+/* Match indicator badge */
+.match-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.match-badge-perfect {
+  background-color: var(--color-teal);
+  color: white;
+}
+
+.match-badge-partial {
+  background-color: var(--color-butter);
+  color: #856404;
+}
+
+/* Match badge container on recipe cards */
+.match-badge-container {
+  position: absolute;
+  top: var(--spacing-sm);
+  left: var(--spacing-sm);
+  z-index: 2;
+}
+
+/* Responsive styles for ingredient search */
+@media (max-width: 768px) {
+  .ingredient-search-section {
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    border-radius: 12px;
+  }
+
+  .ingredient-search-title {
+    font-size: 1.8rem;
+  }
+
+  .ingredient-input-wrapper {
+    flex-direction: column;
+  }
+
+  .ingredient-input {
+    font-size: 16px; /* Prevents iOS zoom */
+  }
+
+  .option-buttons {
+    flex-direction: column;
+  }
+
+  .option-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ingredient-search-section {
+    padding: var(--spacing-md);
+    border-radius: 0;
+    margin-left: -4%;
+    margin-right: -4%;
+    width: 108%;
+  }
+
+  .ingredient-search-title {
+    font-size: 1.5rem;
+  }
+
+  .ingredient-suggestions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .suggestion-label {
+    text-align: center;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .suggestion-chip {
+    flex: 1;
+    text-align: center;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ingredient-pill {
+    font-size: 0.85rem;
+  }
+}
+
+/* Touch device optimizations for ingredient search */
+@media (hover: none) and (pointer: coarse) {
+  .suggestion-chip {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .option-btn {
+    min-height: 44px;
+  }
+
+  .ingredient-pill-remove {
+    width: 24px;
+    height: 24px;
+    font-size: 1.2rem;
+  }
+
+  .autocomplete-item {
+    min-height: 48px;
+    padding: var(--spacing-md);
+  }
+}
+
 /* Special 1950s Decorative Elements */
 .retro-divider {
   text-align: center;
@@ -1659,7 +2471,7 @@ main {
   box-shadow: 0 0 0 3px var(--color-teal);
 }
 
-/* Collection Filter */
+/* Collection Filter (Multi-select Checkboxes) */
 .collection-filter {
   display: flex;
   align-items: center;
@@ -1668,34 +2480,107 @@ main {
   margin-bottom: var(--spacing-md);
 }
 
-.collection-buttons {
+.collection-checkboxes {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacing-xs);
+  gap: var(--spacing-sm);
+  align-items: center;
 }
 
-.collection-btn {
+.collection-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
   padding: var(--spacing-xs) var(--spacing-md);
   background-color: var(--color-cream);
-  color: var(--color-charcoal);
   border: 2px solid var(--color-teal);
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
-  cursor: pointer;
   transition: all 0.2s ease;
-  font-family: inherit;
+  user-select: none;
 }
 
-.collection-btn:hover {
+.collection-checkbox:hover {
   background-color: var(--color-teal-light);
   border-color: var(--color-teal-dark);
 }
 
-.collection-btn.active {
+.collection-checkbox input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--color-teal-dark);
+  border-radius: 4px;
+  margin-right: var(--spacing-xs);
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.collection-checkbox input[type="checkbox"]:checked {
   background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
-  color: white;
   border-color: var(--color-teal-dark);
+}
+
+.collection-checkbox input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.collection-checkbox input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-teal-light);
+}
+
+.collection-checkbox .checkbox-label {
+  color: var(--color-charcoal);
+}
+
+.collection-checkbox:has(input:checked) {
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, #b2dfdb 100%);
+  border-color: var(--color-teal-dark);
+}
+
+.collection-count {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin-left: 2px;
+}
+
+.collection-select-all {
+  background: none;
+  border: none;
+  color: var(--color-coral);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: var(--spacing-xs);
+  text-decoration: underline;
+  font-family: inherit;
+  transition: color 0.2s ease;
+}
+
+.collection-select-all:hover {
+  color: var(--color-cherry);
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Category Filter Row */
