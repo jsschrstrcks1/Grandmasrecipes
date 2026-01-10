@@ -2319,6 +2319,33 @@ main {
   color: var(--color-cherry);
 }
 
+/* Substitution display on recipe cards */
+.recipe-substitutions {
+  font-size: 0.75rem;
+  color: var(--color-teal-dark);
+  margin-top: var(--spacing-xs);
+  padding: var(--spacing-xs);
+  background-color: rgba(0, 150, 136, 0.08);
+  border-radius: 4px;
+}
+
+.recipe-substitutions strong {
+  color: var(--color-teal-dark);
+}
+
+.substitution-item {
+  display: inline-block;
+  background-color: rgba(0, 150, 136, 0.15);
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin: 1px;
+  cursor: help;
+}
+
+.substitution-item:hover {
+  background-color: rgba(0, 150, 136, 0.25);
+}
+
 /* Match indicator badge */
 .match-badge {
   display: inline-block;

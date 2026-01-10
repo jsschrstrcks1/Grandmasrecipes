@@ -1,0 +1,1095 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Ingredient substitution rules for Grandma's Kitchen recipe search",
+    "directions": ["convenience", "health"],
+    "note": "Bidirectional substitutions allow matching recipes when you have alternatives"
+  },
+  "substitutions": [
+    {
+      "id": "butter-margarine",
+      "primary": "butter",
+      "substitutes": [
+        {
+          "ingredient": "margarine",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Works for most baking, may affect flavor in delicate pastries",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Solid at room temp, adds slight coconut flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "applesauce",
+          "ratio": "1:1 for oil, or 1:0.5 for butter",
+          "direction": "health",
+          "notes": "Best for quick breads, muffins, cakes. For butter: use half butter + half applesauce. Use unsweetened. May make baked goods denser.",
+          "impact": "Saves ~100 calories per 1/2 cup replaced",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "eggs-substitutes",
+      "primary": "eggs",
+      "substitutes": [
+        {
+          "ingredient": "egg substitute",
+          "ratio": "1 egg:1/4 cup",
+          "direction": "health",
+          "notes": "Works for scrambles and baking",
+          "quality": "good"
+        },
+        {
+          "ingredient": "flax egg",
+          "ratio": "1 egg:1 tbsp ground flax + 2.5-3 tbsp water",
+          "direction": "health",
+          "notes": "Let sit 10-15 min until gloppy. Works in baking only (cookies, muffins, pancakes). Won't work for recipes needing 3+ eggs.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "milk-types",
+      "primary": "milk",
+      "substitutes": [
+        {
+          "ingredient": "evaporated milk",
+          "ratio": "1 cup:1/2 cup evap + 1/2 cup water",
+          "direction": "convenience",
+          "notes": "Reconstitute for regular milk equivalent",
+          "quality": "good"
+        },
+        {
+          "ingredient": "powdered milk",
+          "ratio": "1 cup:1/3 cup powder + 1 cup water",
+          "direction": "convenience",
+          "notes": "Great pantry staple",
+          "quality": "good"
+        },
+        {
+          "ingredient": "almond milk",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Lower calorie, may thin baked goods slightly",
+          "impact": "Saves ~60 calories per cup",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "oat milk",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Creamier than almond milk, good for baking",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "cream-substitutes",
+      "primary": "heavy cream",
+      "aliases": ["whipping cream", "heavy whipping cream"],
+      "substitutes": [
+        {
+          "ingredient": "half and half",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Won't whip, but works in sauces and soups",
+          "impact": "Saves ~200 calories per cup",
+          "quality": "good"
+        },
+        {
+          "ingredient": "evaporated milk",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Good for cooking, won't whip",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut cream",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Adds coconut flavor, works for whipping when chilled",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "sour-cream",
+      "primary": "sour cream",
+      "substitutes": [
+        {
+          "ingredient": "greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Higher protein, tangier flavor",
+          "impact": "More protein, less fat",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "plain yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Thinner than sour cream",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "cream-cheese",
+      "primary": "cream cheese",
+      "substitutes": [
+        {
+          "ingredient": "neufchatel cheese",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "1/3 less fat, slightly softer texture",
+          "impact": "Saves ~30 calories per oz",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "For dips and spreads, not cheesecake",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "sugar-substitutes",
+      "primary": "sugar",
+      "aliases": ["white sugar", "granulated sugar"],
+      "substitutes": [
+        {
+          "ingredient": "honey",
+          "ratio": "1 cup:1/2 to 3/4 cup honey",
+          "direction": "health",
+          "notes": "Reduce liquid by 1/4 cup, add 1/4 tsp baking soda, lower oven temp 25F. Use light honey for neutral flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1 cup:3/4 cup syrup",
+          "direction": "health",
+          "notes": "Reduce liquid by 3 tbsp, lower oven temp 25F",
+          "quality": "good"
+        },
+        {
+          "ingredient": "brown sugar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds moisture and molasses flavor",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "swerve",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Erythritol-based, measures cup-for-cup. Zero calories, zero carbs. May have slight cooling effect.",
+          "impact": "Zero calories, zero glycemic impact",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "monk fruit sweetener",
+          "ratio": "1:1 (blended products)",
+          "direction": "health",
+          "notes": "Use blended products (monk fruit + erythritol) for 1:1 swap. Pure monk fruit is 150-300x sweeter - use sparingly.",
+          "impact": "Zero calories, zero glycemic impact",
+          "quality": "good"
+        },
+        {
+          "ingredient": "stevia",
+          "ratio": "1 cup:1/2 cup stevia baking blend",
+          "direction": "health",
+          "notes": "Use stevia baking blends for best results. Pure stevia is very concentrated - 1 tsp = 1 cup sugar. May have bitter aftertaste.",
+          "impact": "Zero calories, zero glycemic impact",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "splenda",
+          "ratio": "1:1 (granulated)",
+          "direction": "health",
+          "notes": "Splenda granulated measures cup-for-cup. Original packets: 1 packet = 2 tsp sugar. Won't caramelize or brown.",
+          "impact": "Near-zero calories",
+          "quality": "good"
+        },
+        {
+          "ingredient": "erythritol",
+          "ratio": "1 cup:1 1/3 cups erythritol",
+          "direction": "health",
+          "notes": "70% as sweet as sugar, use 30% more. Zero calories, doesn't spike blood sugar. May have cooling effect.",
+          "impact": "Zero calories, zero glycemic impact",
+          "quality": "good"
+        },
+        {
+          "ingredient": "allulose",
+          "ratio": "1 cup:1 1/3 cups allulose",
+          "direction": "health",
+          "notes": "70% as sweet as sugar. Browns like real sugar, great for caramelization. Rare sugar, low calorie.",
+          "impact": "~10% calories of sugar, minimal glycemic impact",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "xylitol",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Measures cup-for-cup. Caution: toxic to dogs. Good for baking, may cause digestive issues in large amounts.",
+          "impact": "40% fewer calories than sugar",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut sugar",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Lower glycemic index than white sugar. Has caramel-like flavor, darker color.",
+          "impact": "Same calories, lower glycemic index",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "brown-sugar",
+      "primary": "brown sugar",
+      "substitutes": [
+        {
+          "ingredient": "white sugar",
+          "ratio": "1 cup:1 cup + 1 tbsp molasses",
+          "direction": "convenience",
+          "notes": "Mix well to distribute molasses",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "coconut sugar",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Lower glycemic index, slight caramel flavor",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "flour-types",
+      "primary": "all-purpose flour",
+      "aliases": ["flour", "plain flour"],
+      "substitutes": [
+        {
+          "ingredient": "whole wheat flour",
+          "ratio": "1:1 (quick breads) or start with 25-50%",
+          "direction": "health",
+          "notes": "1:1 works for muffins, pancakes, quick breads. For cakes/pastries, start by replacing only 25-50%. Denser result, may need extra liquid.",
+          "impact": "More fiber and nutrients",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cake flour",
+          "ratio": "1 cup:1 cup + 2 tbsp cake flour",
+          "direction": "convenience",
+          "notes": "Lighter texture for cakes",
+          "quality": "good"
+        },
+        {
+          "ingredient": "bread flour",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Higher gluten, chewier result",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "tomatoes-canned-fresh",
+      "primary": "fresh tomatoes",
+      "aliases": ["tomatoes", "tomato"],
+      "substitutes": [
+        {
+          "ingredient": "canned tomatoes",
+          "ratio": "1 lb:14.5 oz can",
+          "direction": "convenience",
+          "notes": "Drain for fresh applications, great for cooking",
+          "impact": "+200mg sodium per can (check low-sodium)",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "canned diced tomatoes",
+          "ratio": "1 lb:14.5 oz can",
+          "direction": "convenience",
+          "notes": "Already chopped, saves prep time",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "crushed tomatoes",
+          "ratio": "1 lb:14.5 oz can",
+          "direction": "convenience",
+          "notes": "Best for sauces",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "canned-tomatoes-fresh",
+      "primary": "canned tomatoes",
+      "aliases": ["diced tomatoes", "crushed tomatoes"],
+      "substitutes": [
+        {
+          "ingredient": "fresh tomatoes",
+          "ratio": "14.5 oz can:1.5 lbs fresh",
+          "direction": "health",
+          "notes": "Peel and seed for best results, no added sodium",
+          "impact": "Eliminates added sodium",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "tomato-paste",
+      "primary": "tomato paste",
+      "substitutes": [
+        {
+          "ingredient": "tomato sauce",
+          "ratio": "1 tbsp:3 tbsp sauce",
+          "direction": "convenience",
+          "notes": "Reduce by 2 tbsp, simmer to thicken",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ketchup",
+          "ratio": "1 tbsp:1 tbsp",
+          "direction": "convenience",
+          "notes": "Adds sweetness, best for BBQ or meatloaf",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "garlic-forms",
+      "primary": "fresh garlic",
+      "aliases": ["garlic", "garlic cloves"],
+      "substitutes": [
+        {
+          "ingredient": "garlic powder",
+          "ratio": "1 clove:1/8 tsp",
+          "direction": "convenience",
+          "notes": "Less pungent, distributes more evenly",
+          "quality": "good"
+        },
+        {
+          "ingredient": "minced garlic",
+          "ratio": "1 clove:1/2 tsp jarred",
+          "direction": "convenience",
+          "notes": "Jarred minced garlic, milder flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "garlic salt",
+          "ratio": "1 clove:1/2 tsp (reduce salt)",
+          "direction": "convenience",
+          "notes": "Reduce other salt in recipe",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "onion-forms",
+      "primary": "fresh onion",
+      "aliases": ["onion", "onions", "yellow onion"],
+      "substitutes": [
+        {
+          "ingredient": "onion powder",
+          "ratio": "1 medium:1 tbsp",
+          "direction": "convenience",
+          "notes": "No texture, just flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "dried onion flakes",
+          "ratio": "1 medium:1/4 cup",
+          "direction": "convenience",
+          "notes": "Rehydrate in water first for best results",
+          "quality": "good"
+        },
+        {
+          "ingredient": "shallots",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, slightly sweeter flavor",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "chicken-broth",
+      "primary": "chicken broth",
+      "aliases": ["chicken stock"],
+      "substitutes": [
+        {
+          "ingredient": "bouillon cube",
+          "ratio": "1 cup:1 cube + 1 cup water",
+          "direction": "convenience",
+          "notes": "Higher sodium, adjust seasonings",
+          "impact": "+500mg sodium per cube",
+          "quality": "good"
+        },
+        {
+          "ingredient": "vegetable broth",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Vegetarian option, lighter flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "water",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Add extra seasonings for depth",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "beef-broth",
+      "primary": "beef broth",
+      "aliases": ["beef stock"],
+      "substitutes": [
+        {
+          "ingredient": "bouillon cube",
+          "ratio": "1 cup:1 cube + 1 cup water",
+          "direction": "convenience",
+          "notes": "Higher sodium, adjust seasonings",
+          "quality": "good"
+        },
+        {
+          "ingredient": "mushroom broth",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Vegetarian option, umami-rich",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "ground-beef",
+      "primary": "ground beef",
+      "aliases": ["hamburger", "hamburger meat"],
+      "substitutes": [
+        {
+          "ingredient": "ground turkey",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Use same lean% for fair comparison. Cook to 165F (vs 160F for beef). May need extra seasoning and moisture - can dry out quickly.",
+          "impact": "Saves 50-100 calories per lb (depending on fat %)",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ground chicken",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Very lean, add moisture if needed",
+          "quality": "good"
+        },
+        {
+          "ingredient": "plant-based ground",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Vegetarian option, check brand for best texture",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "bacon",
+      "primary": "bacon",
+      "substitutes": [
+        {
+          "ingredient": "turkey bacon",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Lower fat, different texture",
+          "impact": "Saves ~25 calories per slice",
+          "quality": "good"
+        },
+        {
+          "ingredient": "pancetta",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Italian-style, unsmoked",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ham",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Leaner, less smoky flavor",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "rice-types",
+      "primary": "white rice",
+      "aliases": ["rice"],
+      "substitutes": [
+        {
+          "ingredient": "brown rice",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Double cooking time, more fiber",
+          "impact": "More fiber and nutrients",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cauliflower rice",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Low carb option, much fewer calories",
+          "impact": "Saves ~200 calories per cup",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "quinoa",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Higher protein, slightly nutty flavor",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "pasta-substitutes",
+      "primary": "pasta",
+      "aliases": ["spaghetti", "noodles"],
+      "substitutes": [
+        {
+          "ingredient": "whole wheat pasta",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "More fiber, slightly denser texture",
+          "quality": "good"
+        },
+        {
+          "ingredient": "zucchini noodles",
+          "ratio": "1 cup pasta:2 cups zoodles",
+          "direction": "health",
+          "notes": "Low carb, don't overcook",
+          "impact": "Saves ~180 calories per cup",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "spaghetti squash",
+          "ratio": "1 cup pasta:1.5 cups squash",
+          "direction": "health",
+          "notes": "Low carb, roast squash first",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "primary": "breadcrumbs",
+      "aliases": ["bread crumbs"],
+      "substitutes": [
+        {
+          "ingredient": "panko",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Crispier texture, Japanese-style",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "crushed crackers",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Saltines or Ritz work well",
+          "quality": "good"
+        },
+        {
+          "ingredient": "oats",
+          "ratio": "1:0.75",
+          "direction": "health",
+          "notes": "Pulse in blender, more fiber",
+          "quality": "good"
+        },
+        {
+          "ingredient": "crushed cornflakes",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Extra crispy coating",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "mayonnaise",
+      "primary": "mayonnaise",
+      "aliases": ["mayo"],
+      "substitutes": [
+        {
+          "ingredient": "greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Tangier, works in salads and dips",
+          "impact": "Saves ~80 calories per 2 tbsp",
+          "quality": "good"
+        },
+        {
+          "ingredient": "avocado",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Mash smooth, adds healthy fats",
+          "quality": "good"
+        },
+        {
+          "ingredient": "sour cream",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture, slightly tangy",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "oil-cooking",
+      "primary": "vegetable oil",
+      "aliases": ["oil", "cooking oil", "canola oil"],
+      "substitutes": [
+        {
+          "ingredient": "olive oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Healthier fats, distinct flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Solid at room temp, slight coconut flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds richness, lower smoke point",
+          "quality": "good"
+        },
+        {
+          "ingredient": "applesauce",
+          "ratio": "1:0.5",
+          "direction": "health",
+          "notes": "For baking only, reduces fat significantly",
+          "impact": "Saves ~500 calories per 1/2 cup",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "buttermilk",
+      "primary": "buttermilk",
+      "substitutes": [
+        {
+          "ingredient": "milk + vinegar",
+          "ratio": "1 cup:1 cup milk + 1 tbsp vinegar",
+          "direction": "convenience",
+          "notes": "Let sit 5 min before using",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "milk + lemon juice",
+          "ratio": "1 cup:1 cup milk + 1 tbsp lemon juice",
+          "direction": "convenience",
+          "notes": "Let sit 5 min before using",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "plain yogurt + milk",
+          "ratio": "1 cup:3/4 cup yogurt + 1/4 cup milk",
+          "direction": "convenience",
+          "notes": "Thin yogurt to buttermilk consistency",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "wine-cooking",
+      "primary": "white wine",
+      "aliases": ["cooking wine"],
+      "substitutes": [
+        {
+          "ingredient": "chicken broth",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Add splash of vinegar for acidity",
+          "quality": "good"
+        },
+        {
+          "ingredient": "apple cider vinegar",
+          "ratio": "1 cup:1 tbsp vinegar + water",
+          "direction": "convenience",
+          "notes": "Dilute heavily, provides acidity",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "white grape juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter, non-alcoholic option",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "red-wine-cooking",
+      "primary": "red wine",
+      "substitutes": [
+        {
+          "ingredient": "beef broth",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Add splash of vinegar for acidity",
+          "quality": "good"
+        },
+        {
+          "ingredient": "grape juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter, non-alcoholic option",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "cranberry juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds tartness and color",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "lemon-juice",
+      "primary": "lemon juice",
+      "aliases": ["fresh lemon juice"],
+      "substitutes": [
+        {
+          "ingredient": "lime juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar acidity, different flavor profile",
+          "quality": "good"
+        },
+        {
+          "ingredient": "white wine vinegar",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Use half the amount, more acidic",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "orange juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Less acidic, sweeter",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "chocolate-chips",
+      "primary": "chocolate chips",
+      "substitutes": [
+        {
+          "ingredient": "chopped chocolate bar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Chop to chip size, may melt differently",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "carob chips",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Caffeine-free, slightly different flavor",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "cocoa-powder",
+      "primary": "cocoa powder",
+      "aliases": ["unsweetened cocoa"],
+      "substitutes": [
+        {
+          "ingredient": "chocolate chips",
+          "ratio": "3 tbsp cocoa:1 oz chips - 1 tbsp fat",
+          "direction": "convenience",
+          "notes": "Melt chips, reduce fat in recipe",
+          "quality": "good"
+        },
+        {
+          "ingredient": "carob powder",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Naturally sweeter, caffeine-free",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "vanilla-extract",
+      "primary": "vanilla extract",
+      "aliases": ["vanilla", "pure vanilla"],
+      "substitutes": [
+        {
+          "ingredient": "vanilla bean",
+          "ratio": "1 tsp:1 inch bean scraped",
+          "direction": "convenience",
+          "notes": "More intense flavor, visible specks",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds sweetness, complementary flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "almond extract",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Use half amount, stronger flavor",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "primary": "baking powder",
+      "substitutes": [
+        {
+          "ingredient": "baking soda + cream of tartar",
+          "ratio": "1 tsp:1/4 tsp soda + 1/2 tsp cream of tartar",
+          "direction": "convenience",
+          "notes": "Mix fresh and use immediately. For larger batches, add 1/4 tsp cornstarch per tsp to prevent clumping. 2:1 ratio (cream of tartar:baking soda).",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "cornstarch",
+      "primary": "cornstarch",
+      "aliases": ["corn starch"],
+      "substitutes": [
+        {
+          "ingredient": "flour",
+          "ratio": "1 tbsp:2 tbsp flour",
+          "direction": "convenience",
+          "notes": "Use double amount, may be cloudier",
+          "quality": "good"
+        },
+        {
+          "ingredient": "arrowroot",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Works at lower temps, grain-free",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "tapioca starch",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "May be slightly stringy when cold",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "primary": "honey",
+      "substitutes": [
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different flavor, similar sweetness",
+          "quality": "good"
+        },
+        {
+          "ingredient": "agave nectar",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Thinner, lower glycemic index",
+          "quality": "good"
+        },
+        {
+          "ingredient": "corn syrup",
+          "ratio": "1:1.25",
+          "direction": "convenience",
+          "notes": "Less sweet, use 1 1/4 cup per cup honey",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "molasses",
+      "primary": "molasses",
+      "substitutes": [
+        {
+          "ingredient": "honey + brown sugar",
+          "ratio": "1 cup:3/4 cup honey + 1/4 cup brown sugar",
+          "direction": "convenience",
+          "notes": "Mix well, approximates flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Lighter flavor, different color",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "dark corn syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar consistency, less complex flavor",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "shortening",
+      "primary": "shortening",
+      "substitutes": [
+        {
+          "ingredient": "butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds flavor, slightly different texture in baking",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Solid at room temp, slight coconut flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "lard",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Traditional for pie crusts, flaky texture",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "soy-sauce",
+      "primary": "soy sauce",
+      "aliases": ["shoyu"],
+      "substitutes": [
+        {
+          "ingredient": "tamari",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Gluten-free option, slightly richer",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "coconut aminos",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Soy-free, slightly sweeter, less sodium",
+          "impact": "~75% less sodium",
+          "quality": "good"
+        },
+        {
+          "ingredient": "worcestershire sauce",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Use half amount, add water",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "beans-canned-dried",
+      "primary": "canned beans",
+      "aliases": ["canned kidney beans", "canned black beans"],
+      "substitutes": [
+        {
+          "ingredient": "dried beans",
+          "ratio": "15 oz can:1.5 cups cooked (2/3 cup dried)",
+          "direction": "health",
+          "notes": "Soak overnight, cook 1-2 hours. No added sodium",
+          "impact": "Eliminates added sodium",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "dried-beans-canned",
+      "primary": "dried beans",
+      "substitutes": [
+        {
+          "ingredient": "canned beans",
+          "ratio": "1 cup dried:2 (15 oz) cans",
+          "direction": "convenience",
+          "notes": "Drain and rinse to reduce sodium",
+          "impact": "+400mg sodium per can",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "fresh-herbs-dried",
+      "primary": "fresh herbs",
+      "aliases": ["fresh basil", "fresh parsley", "fresh thyme", "fresh oregano"],
+      "substitutes": [
+        {
+          "ingredient": "dried herbs",
+          "ratio": "1 tbsp fresh:1 tsp dried",
+          "direction": "convenience",
+          "notes": "Use 1/3 the amount, add early in cooking",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "dried-herbs-fresh",
+      "primary": "dried herbs",
+      "aliases": ["dried basil", "dried parsley", "dried thyme", "dried oregano"],
+      "substitutes": [
+        {
+          "ingredient": "fresh herbs",
+          "ratio": "1 tsp dried:1 tbsp fresh",
+          "direction": "health",
+          "notes": "Use 3x the amount, add at end of cooking",
+          "quality": "excellent"
+        }
+      ]
+    }
+  ],
+  "stapleExpansions": {
+    "description": "When user has these staples, also consider them as 'having' the substitutes for matching",
+    "expansions": [
+      { "staple": "milk", "alsoMatches": ["buttermilk", "evaporated milk"] },
+      { "staple": "butter", "alsoMatches": ["margarine", "shortening"] },
+      { "staple": "flour", "alsoMatches": ["all-purpose flour", "plain flour"] },
+      { "staple": "sugar", "alsoMatches": ["white sugar", "granulated sugar"] },
+      { "staple": "garlic powder", "alsoMatches": ["garlic", "fresh garlic"] },
+      { "staple": "onion powder", "alsoMatches": ["onion", "onions"] },
+      { "staple": "chicken broth", "alsoMatches": ["chicken stock"] },
+      { "staple": "beef broth", "alsoMatches": ["beef stock"] },
+      { "staple": "canned tomatoes", "alsoMatches": ["tomatoes", "diced tomatoes", "crushed tomatoes"] },
+      { "staple": "dried herbs", "alsoMatches": ["fresh herbs"] },
+      { "staple": "vegetable oil", "alsoMatches": ["oil", "cooking oil", "canola oil"] },
+      { "staple": "olive oil", "alsoMatches": ["oil"] }
+    ]
+  }
+}
