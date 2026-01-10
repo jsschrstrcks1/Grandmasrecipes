@@ -178,8 +178,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
   await loadRecipes();
-  await loadIngredientIndex();
-  await loadSubstitutions();
+  // Ingredient index and substitutions loaded lazily on first search interaction
   await loadKitchenTips();
   setupEventListeners();
   setupIngredientSearch();
@@ -212,31 +211,59 @@ async function loadRecipes() {
 }
 
 /**
- * Load ingredient index from JSON file
+ * Load ingredient index from JSON file (lazy loaded on first use)
  */
+let ingredientIndexLoading = null;
 async function loadIngredientIndex() {
-  try {
-    const response = await fetch('data/ingredient-index.json');
-    ingredientIndex = await response.json();
-    console.log(`Loaded ingredient index with ${ingredientIndex.meta.total_ingredients} ingredients`);
-  } catch (error) {
-    console.error('Failed to load ingredient index:', error);
-    // Non-fatal - ingredient search just won't work
-  }
+  // Return existing data if already loaded
+  if (ingredientIndex) return ingredientIndex;
+
+  // Return existing promise if already loading
+  if (ingredientIndexLoading) return ingredientIndexLoading;
+
+  // Start loading
+  ingredientIndexLoading = (async () => {
+    try {
+      const response = await fetch('data/ingredient-index.json');
+      ingredientIndex = await response.json();
+      console.log(`Loaded ingredient index: ${ingredientIndex.meta.total_ingredients} ingredients from ${Object.keys(ingredientIndex.meta.collections || {}).length} collections`);
+      return ingredientIndex;
+    } catch (error) {
+      console.error('Failed to load ingredient index:', error);
+      ingredientIndexLoading = null; // Allow retry
+      return null;
+    }
+  })();
+
+  return ingredientIndexLoading;
 }
 
 /**
- * Load substitutions data from JSON file
+ * Load substitutions data from JSON file (lazy loaded on first use)
  */
+let substitutionsLoading = null;
 async function loadSubstitutions() {
-  try {
-    const response = await fetch('data/substitutions.json');
-    substitutionsData = await response.json();
-    console.log(`Loaded ${substitutionsData.substitutions.length} substitution rules`);
-  } catch (error) {
-    console.error('Failed to load substitutions:', error);
-    // Non-fatal - substitution matching just won't work
-  }
+  // Return existing data if already loaded
+  if (substitutionsData) return substitutionsData;
+
+  // Return existing promise if already loading
+  if (substitutionsLoading) return substitutionsLoading;
+
+  // Start loading
+  substitutionsLoading = (async () => {
+    try {
+      const response = await fetch('data/substitutions.json');
+      substitutionsData = await response.json();
+      console.log(`Loaded ${substitutionsData.substitutions.length} substitution rules`);
+      return substitutionsData;
+    } catch (error) {
+      console.error('Failed to load substitutions:', error);
+      substitutionsLoading = null; // Allow retry
+      return null;
+    }
+  })();
+
+  return substitutionsLoading;
 }
 
 /**
@@ -1511,9 +1538,21 @@ function updateAutocompleteHighlight(items) {
 /**
  * Show autocomplete dropdown with matches
  */
-function showAutocomplete(query) {
+async function showAutocomplete(query) {
   const autocomplete = document.getElementById('ingredient-autocomplete');
-  if (!autocomplete || !ingredientIndex) return;
+  if (!autocomplete) return;
+
+  // Lazy load ingredient index on first use
+  if (!ingredientIndex) {
+    autocomplete.innerHTML = `<div class="autocomplete-item" style="color: var(--color-text-light); cursor: default;">Loading ingredients...</div>`;
+    autocomplete.classList.remove('hidden');
+    await loadIngredientIndex();
+    await loadSubstitutions(); // Also load substitutions for search
+    if (!ingredientIndex) {
+      autocomplete.innerHTML = `<div class="autocomplete-item" style="color: var(--color-text-light); cursor: default;">Failed to load ingredients</div>`;
+      return;
+    }
+  }
 
   const matches = searchIngredients(query, 10);
   autocompleteHighlightIndex = -1;
@@ -1580,6 +1619,15 @@ function selectAutocompleteItem(item) {
 }
 
 /**
+ * Get canonical name for an ingredient using synonyms
+ */
+function getCanonicalName(name) {
+  if (!ingredientIndex) return name;
+  const lower = name.toLowerCase().trim();
+  return ingredientIndex.synonyms[lower] || lower;
+}
+
+/**
  * Search ingredients using fuzzy matching
  */
 function searchIngredients(query, limit = 10) {
@@ -1587,20 +1635,39 @@ function searchIngredients(query, limit = 10) {
 
   const queryLower = query.toLowerCase().trim();
   const results = [];
+  const seen = new Set();
 
-  // Search through all ingredient names
-  for (const name of ingredientIndex.all_names) {
+  // Search through canonical ingredient names (keys of ingredients object)
+  for (const canonical of Object.keys(ingredientIndex.ingredients)) {
     // Skip already selected ingredients
-    if (selectedIngredients.includes(name)) continue;
+    if (selectedIngredients.some(s => getCanonicalName(s) === canonical)) continue;
 
-    const score = fuzzyMatch(name, queryLower);
-    if (score > 0) {
-      // Get canonical name for recipe count
-      const canonical = ingredientIndex.name_mapping[name] || name;
-      const recipeIds = ingredientIndex.ingredients[canonical] || ingredientIndex.ingredients[name] || [];
+    const score = fuzzyMatch(canonical, queryLower);
+    if (score > 0 && !seen.has(canonical)) {
+      seen.add(canonical);
+      const recipeIds = ingredientIndex.ingredients[canonical] || [];
 
       results.push({
-        name: name,
+        name: canonical,
+        canonical: canonical,
+        score: score,
+        recipeCount: recipeIds.length
+      });
+    }
+  }
+
+  // Also search through synonyms for better matching
+  for (const [variant, canonical] of Object.entries(ingredientIndex.synonyms)) {
+    if (seen.has(canonical)) continue;
+    if (selectedIngredients.some(s => getCanonicalName(s) === canonical)) continue;
+
+    const score = fuzzyMatch(variant, queryLower);
+    if (score > 0) {
+      seen.add(canonical);
+      const recipeIds = ingredientIndex.ingredients[canonical] || [];
+
+      results.push({
+        name: canonical,  // Show canonical name, not variant
         canonical: canonical,
         score: score,
         recipeCount: recipeIds.length
@@ -1822,7 +1889,7 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
 
     for (const selectedIng of ingredients) {
       const normalizedSelected = normalizeIngredientName(selectedIng);
-      const canonical = ingredientIndex.name_mapping[normalizedSelected] || normalizedSelected;
+      const canonical = getCanonicalName(normalizedSelected);
 
       // Check if recipe contains this ingredient (or its synonym)
       let found = false;
@@ -1830,7 +1897,7 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
 
       // Direct match check
       for (const recipeName of recipeIngredientNames) {
-        const recipeCanonical = ingredientIndex.name_mapping[recipeName] || recipeName;
+        const recipeCanonical = getCanonicalName(recipeName);
         if (recipeName.includes(normalizedSelected) ||
             normalizedSelected.includes(recipeName) ||
             recipeCanonical === canonical ||

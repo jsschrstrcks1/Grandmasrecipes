@@ -704,25 +704,25 @@ def build_ingredient_index(recipes):
         for name, recipe_ids in ingredient_recipes.items()
     }
 
-    # Sort all_names list and frequency dict
-    sorted_names = sorted(all_names)
+    # Sort frequency by count desc for top ingredients
     sorted_frequency = dict(sorted(
         frequency.items(),
         key=lambda x: (-x[1], x[0])  # Sort by frequency desc, then name asc
     ))
 
+    # Top 100 ingredients for autocomplete suggestions (sorted by frequency)
+    top_ingredients = list(sorted_frequency.keys())[:100]
+
     return {
         "meta": {
-            "version": "1.0.0",
-            "description": "Pre-compiled ingredient search index for Grandma's Kitchen",
+            "version": "2.0.0",
+            "description": "Slim ingredient index for all family recipe collections",
             "total_ingredients": len(ingredients_dict),
             "total_recipes_indexed": len(recipes),
         },
         "ingredients": ingredients_dict,
         "synonyms": SYNONYMS,
-        "name_mapping": name_to_canonical,
-        "frequency": sorted_frequency,
-        "all_names": sorted_names,
+        "top": top_ingredients,  # Top 100 for quick autocomplete
     }
 
 
@@ -815,9 +815,9 @@ def main():
 
     print(f"  Indexed {index['meta']['total_ingredients']} unique ingredients")
 
-    # Write output
+    # Write minified output (no whitespace)
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(index, f, indent=2, ensure_ascii=False)
+        json.dump(index, f, separators=(',', ':'), ensure_ascii=False)
 
     # Report file size
     size_kb = output_path.stat().st_size / 1024
@@ -825,9 +825,9 @@ def main():
 
     # Show top 10 most common ingredients
     print("\n  Top 10 most common ingredients:")
-    for i, (name, count) in enumerate(list(index['frequency'].items())[:10], 1):
+    for i, name in enumerate(index['top'][:10], 1):
         recipe_count = len(index['ingredients'].get(name, []))
-        print(f"    {i}. {name}: {count} uses in {recipe_count} recipes")
+        print(f"    {i}. {name}: {recipe_count} recipes")
 
     print("\nDone!")
     return 0
