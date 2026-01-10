@@ -329,6 +329,26 @@
             <!-- Tags populated by JavaScript -->
           </div>
         </div>
+
+        <!-- Shopping List / Meal Plan Section -->
+        <div class="shopping-section">
+          <button type="button" class="shopping-toggle" id="shopping-toggle" aria-expanded="false">
+            <span class="filter-label">Meal Plan & Shopping List</span>
+            <span class="toggle-icon">▼</span>
+          </button>
+          <div id="shopping-list-panel" class="shopping-list-panel hidden">
+            <div class="shopping-list-empty">
+              <p>No recipes selected. Add recipes to your meal plan to generate a shopping list.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Share Link Button -->
+        <div class="share-section">
+          <button type="button" class="btn btn-secondary btn-block" onclick="copyShareableLink()">
+            Copy Search Link
+          </button>
+        </div>
       </section>
 
       <!-- Recipe Grid -->

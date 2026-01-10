@@ -152,6 +152,23 @@ const STAPLES_PRESETS = {
   ]
 };
 
+// Meal pairing rules (category-based)
+const MEAL_PAIRINGS = {
+  mains: ['sides', 'salads', 'breads', 'beverages'],
+  sides: ['mains', 'salads'],
+  salads: ['mains', 'breads', 'soups'],
+  soups: ['breads', 'salads', 'mains'],
+  appetizers: ['mains', 'beverages'],
+  breakfast: ['beverages', 'breads'],
+  breads: ['soups', 'mains', 'salads'],
+  desserts: ['beverages'],
+  beverages: ['mains', 'desserts', 'breakfast']
+};
+
+// Shopping list state
+let shoppingList = [];
+let selectedMealRecipes = [];
+
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
 
@@ -522,6 +539,18 @@ function setupNutritionFilters() {
       renderRecipeGrid();
     });
   }
+
+  // Shopping panel toggle
+  const shoppingToggle = document.getElementById('shopping-toggle');
+  const shoppingPanel = document.getElementById('shopping-list-panel');
+  if (shoppingToggle && shoppingPanel) {
+    shoppingToggle.addEventListener('click', () => {
+      const isExpanded = shoppingToggle.getAttribute('aria-expanded') === 'true';
+      shoppingToggle.setAttribute('aria-expanded', !isExpanded);
+      shoppingPanel.classList.toggle('hidden', isExpanded);
+      shoppingToggle.querySelector('.toggle-icon').textContent = isExpanded ? '▼' : '▲';
+    });
+  }
 }
 
 /**
@@ -561,6 +590,377 @@ function getNutritionStatus(recipe) {
 
   return { status: 'good', message: 'Meets criteria' };
 }
+
+// =============================================================================
+// Meal Pairing & Shopping List Functions
+// =============================================================================
+
+/**
+ * Get meal pairing suggestions for a recipe
+ * @param {Object} recipe - The recipe to find pairings for
+ * @param {number} limit - Maximum number of suggestions
+ * @returns {Array} - Array of suggested recipes
+ */
+function getMealPairings(recipe, limit = 6) {
+  if (!recipe || !recipe.category) return [];
+
+  const pairingCategories = MEAL_PAIRINGS[recipe.category] || [];
+  if (pairingCategories.length === 0) return [];
+
+  // Get ingredients from the current recipe for efficiency matching
+  const recipeIngredients = new Set(
+    (recipe.ingredients || []).map(ing => {
+      const name = typeof ing === 'string' ? ing : ing.item || ing.name || '';
+      return normalizeIngredientName(name);
+    }).filter(Boolean)
+  );
+
+  // Find matching recipes
+  const candidates = recipes.filter(r => {
+    // Must be in a pairing category
+    if (!pairingCategories.includes(r.category)) return false;
+    // Not the same recipe
+    if (r.id === recipe.id) return false;
+    // Not a variant
+    if (r.variant_of && r.variant_of !== r.id) return false;
+    return true;
+  });
+
+  // Score candidates by ingredient efficiency (shared ingredients)
+  const scored = candidates.map(r => {
+    const rIngredients = (r.ingredients || []).map(ing => {
+      const name = typeof ing === 'string' ? ing : ing.item || ing.name || '';
+      return normalizeIngredientName(name);
+    }).filter(Boolean);
+
+    let sharedCount = 0;
+    for (const ing of rIngredients) {
+      if (recipeIngredients.has(ing)) sharedCount++;
+    }
+
+    return {
+      recipe: r,
+      sharedIngredients: sharedCount,
+      // Prefer recipes with nutrition data
+      hasNutrition: r.nutrition ? 1 : 0
+    };
+  });
+
+  // Sort by shared ingredients (desc), then by nutrition data
+  scored.sort((a, b) => {
+    if (b.sharedIngredients !== a.sharedIngredients) {
+      return b.sharedIngredients - a.sharedIngredients;
+    }
+    return b.hasNutrition - a.hasNutrition;
+  });
+
+  return scored.slice(0, limit).map(s => ({
+    ...s.recipe,
+    sharedIngredients: s.sharedIngredients
+  }));
+}
+
+/**
+ * Add a recipe to the shopping list
+ * @param {string} recipeId - The recipe ID to add
+ */
+function addToShoppingList(recipeId) {
+  const recipe = recipes.find(r => r.id === recipeId);
+  if (!recipe) return;
+
+  if (!selectedMealRecipes.find(r => r.id === recipeId)) {
+    selectedMealRecipes.push(recipe);
+    generateShoppingList();
+    renderShoppingListPanel();
+  }
+}
+
+/**
+ * Remove a recipe from the shopping list
+ * @param {string} recipeId - The recipe ID to remove
+ */
+function removeFromShoppingList(recipeId) {
+  selectedMealRecipes = selectedMealRecipes.filter(r => r.id !== recipeId);
+  generateShoppingList();
+  renderShoppingListPanel();
+}
+
+/**
+ * Generate consolidated shopping list from selected recipes
+ */
+function generateShoppingList() {
+  const ingredientMap = new Map();
+
+  for (const recipe of selectedMealRecipes) {
+    if (!recipe.ingredients) continue;
+
+    for (const ing of recipe.ingredients) {
+      let name, quantity, unit;
+
+      if (typeof ing === 'string') {
+        // Parse string format like "1 cup flour"
+        const parsed = parseIngredientString(ing);
+        name = parsed.name;
+        quantity = parsed.quantity;
+        unit = parsed.unit;
+      } else {
+        name = ing.item || ing.name || '';
+        quantity = ing.amount || ing.quantity || '';
+        unit = ing.unit || '';
+      }
+
+      if (!name) continue;
+
+      const normalizedName = normalizeIngredientName(name);
+      const key = normalizedName;
+
+      if (ingredientMap.has(key)) {
+        const existing = ingredientMap.get(key);
+        existing.recipes.push(recipe.title);
+        // We can't reliably combine quantities without unit conversion, so just note multiple
+        if (quantity) {
+          existing.quantities.push({ amount: quantity, unit: unit, recipe: recipe.title });
+        }
+      } else {
+        ingredientMap.set(key, {
+          name: name,
+          normalizedName: normalizedName,
+          recipes: [recipe.title],
+          quantities: quantity ? [{ amount: quantity, unit: unit, recipe: recipe.title }] : [],
+          checked: false
+        });
+      }
+    }
+  }
+
+  shoppingList = Array.from(ingredientMap.values());
+
+  // Sort alphabetically
+  shoppingList.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/**
+ * Parse an ingredient string into components
+ * @param {string} str - Ingredient string like "1 cup flour"
+ * @returns {Object} - { quantity, unit, name }
+ */
+function parseIngredientString(str) {
+  if (!str) return { quantity: '', unit: '', name: '' };
+
+  // Match patterns like "1 cup", "2 1/2 tbsp", "1/2 tsp"
+  const match = str.match(/^([\d\s\/]+)?\s*(cup|cups|tbsp|tsp|tablespoon|tablespoons|teaspoon|teaspoons|oz|ounce|ounces|lb|lbs|pound|pounds|can|cans|package|packages|pkg|jar|jars|bunch|bunches|clove|cloves|head|heads|slice|slices|piece|pieces)?\s*(.+)?$/i);
+
+  if (match) {
+    return {
+      quantity: (match[1] || '').trim(),
+      unit: (match[2] || '').trim(),
+      name: (match[3] || str).trim()
+    };
+  }
+
+  return { quantity: '', unit: '', name: str.trim() };
+}
+
+/**
+ * Toggle shopping list item checked state
+ * @param {string} normalizedName - The normalized ingredient name
+ */
+function toggleShoppingItem(normalizedName) {
+  const item = shoppingList.find(i => i.normalizedName === normalizedName);
+  if (item) {
+    item.checked = !item.checked;
+    renderShoppingListPanel();
+  }
+}
+
+/**
+ * Render the shopping list panel
+ */
+function renderShoppingListPanel() {
+  const panel = document.getElementById('shopping-list-panel');
+  if (!panel) return;
+
+  if (selectedMealRecipes.length === 0) {
+    panel.innerHTML = `
+      <div class="shopping-list-empty">
+        <p>No recipes selected. Add recipes to your meal plan to generate a shopping list.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const recipesHtml = selectedMealRecipes.map(r => `
+    <div class="shopping-recipe">
+      <span class="shopping-recipe-title">${escapeHtml(r.title)}</span>
+      <button type="button" class="shopping-recipe-remove" onclick="removeFromShoppingList('${escapeAttr(r.id)}')" title="Remove">&times;</button>
+    </div>
+  `).join('');
+
+  const unchecked = shoppingList.filter(i => !i.checked);
+  const checked = shoppingList.filter(i => i.checked);
+
+  const renderItem = (item) => {
+    const quantityInfo = item.quantities.length > 0
+      ? item.quantities.map(q => `${q.amount} ${q.unit}`.trim()).join(', ')
+      : '';
+    const recipeInfo = item.recipes.length > 1
+      ? ` (${item.recipes.join(', ')})`
+      : '';
+
+    return `
+      <label class="shopping-item ${item.checked ? 'checked' : ''}">
+        <input type="checkbox" ${item.checked ? 'checked' : ''} onchange="toggleShoppingItem('${escapeAttr(item.normalizedName)}')">
+        <span class="item-name">${escapeHtml(item.name)}</span>
+        ${quantityInfo ? `<span class="item-quantity">${escapeHtml(quantityInfo)}</span>` : ''}
+        ${recipeInfo ? `<span class="item-recipes">${escapeHtml(recipeInfo)}</span>` : ''}
+      </label>
+    `;
+  };
+
+  const itemsHtml = `
+    ${unchecked.map(renderItem).join('')}
+    ${checked.length > 0 ? `
+      <div class="shopping-list-checked-header">Checked (${checked.length})</div>
+      ${checked.map(renderItem).join('')}
+    ` : ''}
+  `;
+
+  panel.innerHTML = `
+    <div class="shopping-list-header">
+      <h3>Meal Plan (${selectedMealRecipes.length} recipes)</h3>
+      <button type="button" class="btn btn-small" onclick="copyShoppingList()">Copy List</button>
+    </div>
+    <div class="shopping-recipes-list">
+      ${recipesHtml}
+    </div>
+    <div class="shopping-list-divider"></div>
+    <div class="shopping-items-header">
+      <h4>Shopping List (${shoppingList.length} items)</h4>
+    </div>
+    <div class="shopping-items-list">
+      ${itemsHtml}
+    </div>
+  `;
+}
+
+/**
+ * Copy shopping list to clipboard
+ */
+async function copyShoppingList() {
+  if (shoppingList.length === 0) return;
+
+  const lines = ['Shopping List', ''];
+
+  // Add recipe titles
+  lines.push('Recipes:');
+  for (const r of selectedMealRecipes) {
+    lines.push(`- ${r.title}`);
+  }
+  lines.push('');
+
+  // Add ingredients
+  lines.push('Ingredients:');
+  for (const item of shoppingList) {
+    const quantityInfo = item.quantities.length > 0
+      ? ` (${item.quantities.map(q => `${q.amount} ${q.unit}`.trim()).join(', ')})`
+      : '';
+    lines.push(`- ${item.name}${quantityInfo}`);
+  }
+
+  const text = lines.join('\n');
+
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast('Shopping list copied to clipboard!');
+  } catch (err) {
+    // Fallback for older browsers
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    showToast('Shopping list copied!');
+  }
+}
+
+/**
+ * Show a toast notification
+ * @param {string} message - The message to show
+ */
+function showToast(message) {
+  // Remove existing toast
+  const existing = document.querySelector('.toast-notification');
+  if (existing) existing.remove();
+
+  const toast = document.createElement('div');
+  toast.className = 'toast-notification';
+  toast.textContent = message;
+  document.body.appendChild(toast);
+
+  // Trigger animation
+  setTimeout(() => toast.classList.add('show'), 10);
+
+  // Remove after delay
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
+
+/**
+ * Copy shareable link to clipboard
+ */
+async function copyShareableLink() {
+  const url = new URL(window.location.href);
+
+  // Add current filters to URL
+  if (currentFilter.search) {
+    url.searchParams.set('q', currentFilter.search);
+  }
+  if (currentFilter.category) {
+    url.searchParams.set('cat', currentFilter.category);
+  }
+  if (selectedIngredients.length > 0) {
+    url.searchParams.set('ing', selectedIngredients.join(','));
+  }
+  if (nutritionFilter.activeDietPreset) {
+    url.searchParams.set('diet', nutritionFilter.activeDietPreset);
+  }
+  if (nutritionFilter.timeLimit) {
+    url.searchParams.set('time', nutritionFilter.timeLimit);
+  }
+
+  try {
+    await navigator.clipboard.writeText(url.toString());
+    showToast('Link copied to clipboard!');
+  } catch (err) {
+    const textarea = document.createElement('textarea');
+    textarea.value = url.toString();
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    showToast('Link copied!');
+  }
+}
+
+/**
+ * Clear the shopping list
+ */
+function clearShoppingList() {
+  selectedMealRecipes = [];
+  shoppingList = [];
+  renderShoppingListPanel();
+}
+
+// Make shopping list functions available globally
+window.addToShoppingList = addToShoppingList;
+window.removeFromShoppingList = removeFromShoppingList;
+window.toggleShoppingItem = toggleShoppingItem;
+window.copyShoppingList = copyShoppingList;
+window.copyShareableLink = copyShareableLink;
+window.clearShoppingList = clearShoppingList;
 
 // =============================================================================
 // Ingredient Search Functions
@@ -2085,6 +2485,14 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
     `;
   }
 
+  // Check if recipe is in meal plan
+  const isInMealPlan = selectedMealRecipes.some(r => r.id === recipe.id);
+  const mealPlanBtnClass = isInMealPlan ? 'meal-plan-btn in-plan' : 'meal-plan-btn';
+  const mealPlanBtnText = isInMealPlan ? '✓ In Plan' : '+ Meal Plan';
+  const mealPlanAction = isInMealPlan
+    ? `removeFromShoppingList('${escapeAttr(recipe.id)}')`
+    : `addToShoppingList('${escapeAttr(recipe.id)}')`;
+
   return `
     <article class="recipe-card category-${escapeAttr(recipe.category)}">
       <div class="recipe-card-image">
@@ -2101,6 +2509,9 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
           ${recipe.servings_yield ? `<span>${escapeHtml(recipe.servings_yield)}</span>` : ''}
           ${timeInfo ? `<span>${escapeHtml(timeInfo)}</span>` : ''}
         </div>
+        <button type="button" class="${mealPlanBtnClass}" onclick="${mealPlanAction}; event.stopPropagation();">
+          ${mealPlanBtnText}
+        </button>
       </div>
     </article>
   `;
