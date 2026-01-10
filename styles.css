@@ -3358,3 +3358,110 @@ main {
     font-size: 1.25rem;
   }
 }
+
+/* =============================================================================
+   Recipe Scaling Styles (Phase 9)
+   ============================================================================= */
+
+.scaling-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  padding: var(--spacing-md);
+  background: linear-gradient(180deg, var(--color-cream) 0%, #f5f5f5 100%);
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.scaling-label {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.scaling-buttons {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.scale-btn {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: linear-gradient(180deg, white 0%, #f0f0f0 100%);
+  border: 2px solid var(--color-chrome-dark);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 44px;
+}
+
+.scale-btn:hover {
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, var(--color-teal) 100%);
+  color: white;
+  border-color: var(--color-teal-dark);
+}
+
+.scale-btn.active {
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  color: white;
+  border-color: var(--color-teal-dark);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scaling-servings {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Scale badge in section header */
+.scale-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--color-coral);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-left: var(--spacing-sm);
+  vertical-align: middle;
+}
+
+/* Scaled ingredient quantity styling */
+.ingredient-quantity.scaled {
+  color: var(--color-teal-dark);
+  font-weight: 600;
+}
+
+/* Warning indicator for impractical measurements */
+.ingredient-warning {
+  margin-left: var(--spacing-xs);
+  cursor: help;
+}
+
+.ingredients-list li.has-warning {
+  background: linear-gradient(90deg, #fff8e6 0%, transparent 50%);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-xs);
+  margin-left: calc(-1 * var(--spacing-xs));
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .scaling-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .scaling-buttons {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .scale-btn {
+    flex: 1;
+    min-width: auto;
+  }
+}

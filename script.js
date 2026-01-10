@@ -69,6 +69,7 @@ let categories = new Set();
 let allTags = new Set();
 let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
 let showMetric = false; // Toggle for metric conversions
+let recipeScale = 1; // Current recipe scale multiplier
 
 // Ingredient search state
 let ingredientIndex = null;
@@ -354,6 +355,267 @@ function renderKitchenTipsForRecipe(recipe) {
     </div>
   `;
 }
+
+// =============================================================================
+// Recipe Scaling Functions
+// =============================================================================
+
+/**
+ * Common fraction mappings for smart rounding
+ */
+const FRACTION_MAP = {
+  '0.125': '⅛',
+  '0.25': '¼',
+  '0.333': '⅓',
+  '0.375': '⅜',
+  '0.5': '½',
+  '0.625': '⅝',
+  '0.667': '⅔',
+  '0.75': '¾',
+  '0.875': '⅞'
+};
+
+/**
+ * Minimum practical measurements for common units
+ * Below these, display a warning
+ */
+const MIN_PRACTICAL_MEASUREMENTS = {
+  'teaspoon': 0.125,  // 1/8 tsp
+  'tsp': 0.125,
+  'tablespoon': 0.25, // 1/4 tbsp
+  'tbsp': 0.25,
+  'cup': 0.125,       // 1/8 cup
+  'cups': 0.125,
+  'egg': 0.5,         // Half egg is practical limit
+  'eggs': 0.5,
+  'ounce': 0.25,
+  'oz': 0.25,
+  'pound': 0.125,
+  'lb': 0.125
+};
+
+/**
+ * Scale a quantity string by a multiplier
+ * @param {string|number} quantity - The quantity to scale (e.g., "1 1/2", "2", "1/4")
+ * @param {number} scale - The scale multiplier
+ * @returns {Object} - { value: number, display: string, warning: string|null }
+ */
+function scaleQuantity(quantity, scale) {
+  if (!quantity || scale === 1) {
+    return { value: parseQuantity(quantity), display: String(quantity || ''), warning: null };
+  }
+
+  const numericValue = parseQuantity(quantity);
+  if (numericValue === null || isNaN(numericValue)) {
+    return { value: null, display: String(quantity || ''), warning: null };
+  }
+
+  const scaled = numericValue * scale;
+  const display = formatQuantity(scaled);
+
+  return { value: scaled, display, warning: null };
+}
+
+/**
+ * Parse a quantity string to a number
+ * @param {string|number} quantity - The quantity string (e.g., "1 1/2", "1/4", "2")
+ * @returns {number|null} - The numeric value or null if unparseable
+ */
+function parseQuantity(quantity) {
+  if (typeof quantity === 'number') return quantity;
+  if (!quantity) return null;
+
+  const str = String(quantity).trim();
+
+  // Handle Unicode fractions
+  const unicodeFractions = {
+    '⅛': 0.125, '¼': 0.25, '⅓': 0.333, '⅜': 0.375,
+    '½': 0.5, '⅝': 0.625, '⅔': 0.667, '¾': 0.75, '⅞': 0.875
+  };
+
+  // Replace Unicode fractions
+  let processed = str;
+  for (const [frac, val] of Object.entries(unicodeFractions)) {
+    processed = processed.replace(frac, ` ${val}`);
+  }
+
+  // Handle mixed numbers like "1 1/2"
+  const mixedMatch = processed.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+  if (mixedMatch) {
+    return parseInt(mixedMatch[1]) + parseInt(mixedMatch[2]) / parseInt(mixedMatch[3]);
+  }
+
+  // Handle fractions like "1/2"
+  const fractionMatch = processed.match(/^(\d+)\/(\d+)$/);
+  if (fractionMatch) {
+    return parseInt(fractionMatch[1]) / parseInt(fractionMatch[2]);
+  }
+
+  // Handle decimals and whole numbers
+  const numMatch = processed.match(/^[\d.]+/);
+  if (numMatch) {
+    const baseNum = parseFloat(numMatch[0]);
+    // Check if there's a fraction after the whole number
+    const remainder = processed.slice(numMatch[0].length).trim();
+    if (remainder) {
+      const remainderVal = parseFloat(remainder);
+      if (!isNaN(remainderVal)) {
+        return baseNum + remainderVal;
+      }
+    }
+    return baseNum;
+  }
+
+  return null;
+}
+
+/**
+ * Format a number as a nice fraction or decimal
+ * @param {number} value - The numeric value
+ * @returns {string} - Formatted string (e.g., "1½", "¼", "2.5")
+ */
+function formatQuantity(value) {
+  if (value === null || isNaN(value)) return '';
+
+  // Handle whole numbers
+  if (Number.isInteger(value)) {
+    return String(value);
+  }
+
+  const wholePart = Math.floor(value);
+  const fractionalPart = value - wholePart;
+
+  // Round to nearest common fraction
+  const roundedFrac = roundToFraction(fractionalPart);
+
+  if (roundedFrac === 0) {
+    return String(wholePart || '');
+  }
+  if (roundedFrac === 1) {
+    return String(wholePart + 1);
+  }
+
+  // Find the closest fraction symbol
+  const fracStr = roundedFrac.toFixed(3);
+  const symbol = FRACTION_MAP[fracStr] || roundedFrac.toFixed(2);
+
+  if (wholePart === 0) {
+    return symbol;
+  }
+  return `${wholePart}${symbol}`;
+}
+
+/**
+ * Round a decimal to the nearest common fraction
+ * @param {number} decimal - A decimal between 0 and 1
+ * @returns {number} - The nearest common fraction value
+ */
+function roundToFraction(decimal) {
+  const fractions = [0, 0.125, 0.25, 0.333, 0.375, 0.5, 0.625, 0.667, 0.75, 0.875, 1];
+  let closest = 0;
+  let minDiff = Math.abs(decimal);
+
+  for (const frac of fractions) {
+    const diff = Math.abs(decimal - frac);
+    if (diff < minDiff) {
+      minDiff = diff;
+      closest = frac;
+    }
+  }
+
+  return closest;
+}
+
+/**
+ * Check if a scaled measurement is below practical minimum
+ * @param {number} value - The scaled value
+ * @param {string} unit - The unit of measurement
+ * @returns {string|null} - Warning message or null
+ */
+function checkPracticalMinimum(value, unit) {
+  if (!unit || !value) return null;
+
+  const normalizedUnit = unit.toLowerCase().replace(/[s.]$/g, '');
+  const minimum = MIN_PRACTICAL_MEASUREMENTS[normalizedUnit];
+
+  if (minimum && value < minimum) {
+    return `Very small amount - difficult to measure accurately`;
+  }
+
+  // Special warning for eggs
+  if ((normalizedUnit === 'egg' || unit.toLowerCase().includes('egg')) && value < 1 && value > 0) {
+    return `Partial egg - consider whisking a whole egg and using portion`;
+  }
+
+  return null;
+}
+
+/**
+ * Render scaling controls for a recipe
+ * @param {Object} recipe - The recipe object
+ * @returns {string} - HTML string
+ */
+function renderScalingControls(recipe) {
+  const servings = parseServingsYield(recipe.servings_yield);
+
+  return `
+    <div class="scaling-controls">
+      <span class="scaling-label">Scale recipe:</span>
+      <div class="scaling-buttons">
+        <button type="button" class="scale-btn ${recipeScale === 0.25 ? 'active' : ''}" data-scale="0.25">¼×</button>
+        <button type="button" class="scale-btn ${recipeScale === 0.5 ? 'active' : ''}" data-scale="0.5">½×</button>
+        <button type="button" class="scale-btn ${recipeScale === 1 ? 'active' : ''}" data-scale="1">1×</button>
+        <button type="button" class="scale-btn ${recipeScale === 2 ? 'active' : ''}" data-scale="2">2×</button>
+        <button type="button" class="scale-btn ${recipeScale === 4 ? 'active' : ''}" data-scale="4">4×</button>
+      </div>
+      ${servings ? `<span class="scaling-servings">${getScaledServings(servings, recipeScale)}</span>` : ''}
+    </div>
+  `;
+}
+
+/**
+ * Parse servings/yield string to extract number
+ * @param {string} servingsYield - The servings string (e.g., "Makes 24 cookies", "Serves 6")
+ * @returns {Object|null} - { count: number, unit: string } or null
+ */
+function parseServingsYield(servingsYield) {
+  if (!servingsYield) return null;
+
+  const match = servingsYield.match(/(\d+)\s*(servings?|cookies?|pieces?|slices?|cups?|portions?|dozen)?/i);
+  if (match) {
+    return {
+      count: parseInt(match[1]),
+      unit: match[2] || 'servings',
+      original: servingsYield
+    };
+  }
+  return null;
+}
+
+/**
+ * Get scaled servings display string
+ * @param {Object} servings - Parsed servings object
+ * @param {number} scale - Scale multiplier
+ * @returns {string} - Display string
+ */
+function getScaledServings(servings, scale) {
+  if (!servings) return '';
+  const scaled = Math.round(servings.count * scale);
+  return `(${scaled} ${servings.unit})`;
+}
+
+/**
+ * Set the recipe scale and re-render
+ * @param {number} scale - The new scale value
+ * @param {string} recipeId - The recipe ID to re-render
+ */
+function setRecipeScale(scale, recipeId) {
+  recipeScale = scale;
+  renderRecipeDetail(recipeId);
+}
+
+// Make scaling functions available globally
+window.setRecipeScale = setRecipeScale;
 
 /**
  * Find substitutes for an ingredient
@@ -2692,8 +2954,10 @@ function renderRecipeDetail(recipeId) {
 
       ${renderQuickFacts(recipe)}
 
+      ${renderScalingControls(recipe)}
+
       <section class="ingredients-section">
-        <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}</h2>
+        <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}${recipeScale !== 1 ? `<span class="scale-badge">${recipeScale}×</span>` : ''}</h2>
         ${renderIngredientsList(recipe)}
       </section>
 
@@ -2746,6 +3010,16 @@ function renderRecipeDetail(recipeId) {
       }
     });
   }
+
+  // Scale button handlers
+  document.querySelectorAll('.scale-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const scale = parseFloat(btn.dataset.scale);
+      if (!isNaN(scale)) {
+        setRecipeScale(scale, recipeId);
+      }
+    });
+  });
 }
 
 /**
@@ -2793,7 +3067,7 @@ function renderVariantsDropdown(currentRecipe, variants) {
 }
 
 /**
- * Render ingredients list (with metric toggle support)
+ * Render ingredients list (with metric toggle and scaling support)
  */
 function renderIngredientsList(recipe) {
   const ingredients = showMetric && recipe.conversions?.ingredients_metric?.length > 0
@@ -2802,15 +3076,22 @@ function renderIngredientsList(recipe) {
 
   return `
     <ul class="ingredients-list">
-      ${ingredients.map(ing => `
-        <li>
-          <span class="ingredient-quantity">${escapeHtml(ing.quantity)} ${escapeHtml(ing.unit)}</span>
+      ${ingredients.map(ing => {
+        // Apply scaling if not 1x
+        const scaled = scaleQuantity(ing.quantity, recipeScale);
+        const warning = checkPracticalMinimum(scaled.value, ing.unit);
+
+        return `
+        <li class="${warning ? 'has-warning' : ''}">
+          <span class="ingredient-quantity ${recipeScale !== 1 ? 'scaled' : ''}">${escapeHtml(scaled.display)} ${escapeHtml(ing.unit || '')}</span>
           <span class="ingredient-item">
             ${escapeHtml(ing.item)}
             ${ing.prep_note ? `<span class="ingredient-prep">, ${escapeHtml(ing.prep_note)}</span>` : ''}
           </span>
+          ${warning ? `<span class="ingredient-warning" title="${escapeAttr(warning)}">⚠️</span>` : ''}
         </li>
-      `).join('')}
+      `;
+      }).join('')}
     </ul>
   `;
 }
