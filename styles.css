@@ -2220,6 +2220,92 @@ main {
   color: var(--color-butter);
 }
 
+/* Smart Suggestions Panel */
+.ingredient-suggestions-panel {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.ingredient-suggestions-panel.hidden {
+  display: none;
+}
+
+.suggestions-group {
+  margin-bottom: var(--spacing-sm);
+}
+
+.suggestions-group:last-child {
+  margin-bottom: 0;
+}
+
+.suggestions-group.hidden {
+  display: none;
+}
+
+.suggestions-label {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--color-teal-light);
+  margin-right: var(--spacing-xs);
+  font-weight: 500;
+}
+
+.suggestions-chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  align-items: center;
+}
+
+.suggestion-add-chip {
+  padding: 4px 12px;
+  background-color: rgba(76, 175, 80, 0.3);
+  color: #a5d6a7;
+  border: 1px solid rgba(76, 175, 80, 0.5);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.suggestion-add-chip:hover {
+  background-color: rgba(76, 175, 80, 0.5);
+  color: white;
+  border-color: #4caf50;
+}
+
+.suggestion-add-chip .chip-count {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+.suggestion-remove-chip {
+  padding: 4px 12px;
+  background-color: rgba(255, 138, 128, 0.3);
+  color: #ffab91;
+  border: 1px solid rgba(255, 138, 128, 0.5);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.suggestion-remove-chip:hover {
+  background-color: rgba(255, 138, 128, 0.5);
+  color: white;
+  border-color: #ff8a80;
+}
+
+.suggestion-remove-chip .chip-count {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
 /* Missing ingredients display on recipe cards */
 .recipe-missing-ingredients {
   font-size: 0.8rem;

@@ -598,6 +598,9 @@ function performIngredientSearch() {
   // Update results summary
   updateIngredientSearchResults(matchInfo);
 
+  // Calculate and display suggestions
+  calculateAndDisplaySuggestions(effectiveIngredients, matchInfo);
+
   // Re-render the recipe grid
   renderRecipeGrid();
 }
@@ -723,6 +726,180 @@ function updateIngredientSearchResults(matchInfo) {
   }
 
   resultsDiv.classList.remove('hidden');
+}
+
+// =============================================================================
+// Smart Suggestions Engine
+// =============================================================================
+
+/**
+ * Calculate and display ingredient suggestions
+ */
+function calculateAndDisplaySuggestions(currentIngredients, matchInfo) {
+  const suggestionsPanel = document.getElementById('ingredient-suggestions');
+  const addSuggestionsDiv = document.getElementById('add-suggestions');
+  const addSuggestionsList = document.getElementById('add-suggestions-list');
+  const removeSuggestionsDiv = document.getElementById('remove-suggestions');
+  const removeSuggestionsList = document.getElementById('remove-suggestions-list');
+
+  if (!suggestionsPanel || !addSuggestionsDiv || !removeSuggestionsDiv) return;
+
+  // Only show suggestions if we have at least one ingredient selected
+  if (currentIngredients.length === 0) {
+    suggestionsPanel.classList.add('hidden');
+    return;
+  }
+
+  // Calculate add suggestions (ingredients that would unlock more recipes)
+  const addSuggestions = calculateAddSuggestions(currentIngredients, matchInfo, 5);
+
+  // Calculate remove suggestions (selected ingredients blocking matches)
+  const removeSuggestions = calculateRemoveSuggestions(currentIngredients, 3);
+
+  // Render add suggestions
+  if (addSuggestions.length > 0) {
+    addSuggestionsList.innerHTML = addSuggestions.map(s => `
+      <button type="button" class="suggestion-add-chip" data-ingredient="${escapeAttr(s.ingredient)}">
+        +${escapeHtml(s.ingredient)} <span class="chip-count">(${s.newRecipes} more)</span>
+      </button>
+    `).join('');
+
+    // Add click handlers
+    addSuggestionsList.querySelectorAll('.suggestion-add-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const ingredient = chip.dataset.ingredient;
+        if (!selectedIngredients.includes(ingredient)) {
+          addSelectedIngredient(ingredient);
+          performIngredientSearch();
+        }
+      });
+    });
+
+    addSuggestionsDiv.classList.remove('hidden');
+  } else {
+    addSuggestionsDiv.classList.add('hidden');
+  }
+
+  // Render remove suggestions
+  if (removeSuggestions.length > 0 && selectedIngredients.length > 1) {
+    removeSuggestionsList.innerHTML = removeSuggestions.map(s => `
+      <button type="button" class="suggestion-remove-chip" data-ingredient="${escapeAttr(s.ingredient)}">
+        -${escapeHtml(s.ingredient)} <span class="chip-count">(${s.newRecipes} more)</span>
+      </button>
+    `).join('');
+
+    // Add click handlers
+    removeSuggestionsList.querySelectorAll('.suggestion-remove-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const ingredient = chip.dataset.ingredient;
+        removeSelectedIngredient(ingredient);
+      });
+    });
+
+    removeSuggestionsDiv.classList.remove('hidden');
+  } else {
+    removeSuggestionsDiv.classList.add('hidden');
+  }
+
+  // Show panel if either has suggestions
+  if (addSuggestions.length > 0 || (removeSuggestions.length > 0 && selectedIngredients.length > 1)) {
+    suggestionsPanel.classList.remove('hidden');
+  } else {
+    suggestionsPanel.classList.add('hidden');
+  }
+}
+
+/**
+ * Calculate ingredients that would unlock the most new recipes if added
+ */
+function calculateAddSuggestions(currentIngredients, matchInfo, limit = 5) {
+  if (!ingredientIndex) return [];
+
+  const currentMatches = new Set(matchInfo.matches.map(m => m.recipeId));
+  const ingredientGains = {};
+
+  // Look at recipes we're NOT currently matching
+  for (const recipe of recipes) {
+    if (recipe.variant_of && recipe.variant_of !== recipe.id) continue;
+    if (currentMatches.has(recipe.id)) continue; // Already matching
+
+    const recipeIngredients = recipe.ingredients || [];
+
+    // Check what ingredients this recipe needs that we don't have
+    for (const ing of recipeIngredients) {
+      const normalized = normalizeIngredientName(ing.item);
+
+      // Skip if we already have this ingredient
+      if (currentIngredients.some(ci => {
+        const ciNorm = normalizeIngredientName(ci);
+        return ciNorm === normalized || normalized.includes(ciNorm) || ciNorm.includes(normalized);
+      })) continue;
+
+      // Check if adding this ingredient would make a match
+      // (simplified: count how many recipes contain this ingredient that we don't match)
+      if (!ingredientGains[normalized]) {
+        ingredientGains[normalized] = new Set();
+      }
+      ingredientGains[normalized].add(recipe.id);
+    }
+  }
+
+  // Convert to array and sort by number of new recipes
+  const suggestions = Object.entries(ingredientGains)
+    .map(([ingredient, recipeSet]) => ({
+      ingredient,
+      newRecipes: recipeSet.size
+    }))
+    .filter(s => s.newRecipes >= 2) // Only suggest if it unlocks at least 2 recipes
+    .sort((a, b) => b.newRecipes - a.newRecipes)
+    .slice(0, limit);
+
+  return suggestions;
+}
+
+/**
+ * Calculate selected ingredients that if removed would unlock more recipes
+ */
+function calculateRemoveSuggestions(currentIngredients, limit = 3) {
+  if (currentIngredients.length <= 1) return [];
+
+  const suggestions = [];
+
+  // For each selected ingredient, calculate how many more recipes we'd match without it
+  for (const ingredient of currentIngredients) {
+    // Skip staples (don't suggest removing them)
+    if (userStaples.includes(ingredient)) continue;
+
+    // Only consider user-selected ingredients, not auto-included staples
+    if (!selectedIngredients.includes(ingredient)) continue;
+
+    const withoutThis = currentIngredients.filter(i => i !== ingredient);
+
+    if (withoutThis.length === 0) continue;
+
+    // Calculate matches without this ingredient
+    const matchInfo = findRecipesByIngredients(
+      withoutThis,
+      ingredientSearchOptions.matchMode,
+      ingredientSearchOptions.missingThreshold
+    );
+
+    const currentMatchCount = currentFilter.ingredientMatchInfo?.matches.length || 0;
+    const newMatchCount = matchInfo.matches.length;
+    const gain = newMatchCount - currentMatchCount;
+
+    if (gain > 0) {
+      suggestions.push({
+        ingredient,
+        newRecipes: gain
+      });
+    }
+  }
+
+  // Sort by gain and limit
+  return suggestions
+    .sort((a, b) => b.newRecipes - a.newRecipes)
+    .slice(0, limit);
 }
 
 // =============================================================================
