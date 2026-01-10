@@ -26,6 +26,7 @@ import urllib.request
 import urllib.error
 from collections import defaultdict
 from pathlib import Path
+from datetime import datetime, timezone
 
 # Remote collections to fetch (in addition to local recipes)
 REMOTE_COLLECTIONS = [
@@ -704,25 +705,26 @@ def build_ingredient_index(recipes):
         for name, recipe_ids in ingredient_recipes.items()
     }
 
-    # Sort all_names list and frequency dict
-    sorted_names = sorted(all_names)
+    # Sort frequency by count desc for top ingredients
     sorted_frequency = dict(sorted(
         frequency.items(),
         key=lambda x: (-x[1], x[0])  # Sort by frequency desc, then name asc
     ))
 
+    # Top 100 ingredients for autocomplete suggestions (sorted by frequency)
+    top_ingredients = list(sorted_frequency.keys())[:100]
+
     return {
         "meta": {
-            "version": "1.0.0",
-            "description": "Pre-compiled ingredient search index for Grandma's Kitchen",
+            "version": "2.0.0",
+            "description": "Slim ingredient index for all family recipe collections",
             "total_ingredients": len(ingredients_dict),
             "total_recipes_indexed": len(recipes),
+            "built_at": datetime.now(timezone.utc).isoformat(),
         },
         "ingredients": ingredients_dict,
         "synonyms": SYNONYMS,
-        "name_mapping": name_to_canonical,
-        "frequency": sorted_frequency,
-        "all_names": sorted_names,
+        "top": top_ingredients,  # Top 100 for quick autocomplete
     }
 
 
@@ -730,10 +732,11 @@ def fetch_remote_recipes(collection):
     """
     Fetch recipes from a remote collection.
     Tries multiple URLs in order until one succeeds.
-    Returns list of recipes or empty list on failure.
+    Returns dict with recipes, count, url, and timestamp.
     """
     collection_id = collection["id"]
     collection_name = collection["name"]
+    fetch_time = datetime.now(timezone.utc).isoformat()
 
     for url in collection["urls"]:
         try:
@@ -749,7 +752,12 @@ def fetch_remote_recipes(collection):
 
                 if recipes:
                     print(f"    ✓ {collection_name}: {len(recipes)} recipes from {url}")
-                    return recipes
+                    return {
+                        "recipes": recipes,
+                        "count": len(recipes),
+                        "source": url,
+                        "fetched_at": fetch_time
+                    }
 
         except urllib.error.HTTPError as e:
             if e.code != 404:
@@ -762,7 +770,7 @@ def fetch_remote_recipes(collection):
             print(f"    ✗ {collection_name}: Error - {e}")
 
     print(f"    ✗ {collection_name}: No valid source found")
-    return []
+    return None
 
 
 def main():
@@ -780,25 +788,55 @@ def main():
     all_recipes = []
     collection_stats = {}
 
+    build_time = datetime.now(timezone.utc).isoformat()
+
+    def extract_tags_and_categories(recipes_list):
+        """Extract unique tags and categories from a list of recipes."""
+        tags = set()
+        categories = set()
+        for recipe in recipes_list:
+            if recipe.get('tags'):
+                for tag in recipe['tags']:
+                    if tag:
+                        tags.add(tag.lower().strip())
+            if recipe.get('category'):
+                categories.add(recipe['category'].lower().strip())
+        return sorted(list(tags)), sorted(list(categories))
+
     # Load local recipes (Grandma Baker)
     print(f"\n  Loading local recipes...")
     if recipes_path.exists():
         with open(recipes_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         local_recipes = data.get('recipes', [])
-        print(f"    ✓ Grandma Baker: {len(local_recipes)} recipes from {recipes_path}")
+        local_tags, local_categories = extract_tags_and_categories(local_recipes)
+        print(f"    ✓ Grandma Baker: {len(local_recipes)} recipes, {len(local_tags)} tags from {recipes_path}")
         all_recipes.extend(local_recipes)
-        collection_stats["grandma-baker"] = len(local_recipes)
+        collection_stats["grandma-baker"] = {
+            "count": len(local_recipes),
+            "source": "local",
+            "fetched_at": build_time,
+            "tags": local_tags,
+            "categories": local_categories
+        }
     else:
         print(f"    ✗ Grandma Baker: {recipes_path} not found")
 
     # Fetch remote collections
     print(f"\n  Fetching remote collections...")
     for collection in REMOTE_COLLECTIONS:
-        remote_recipes = fetch_remote_recipes(collection)
-        if remote_recipes:
-            all_recipes.extend(remote_recipes)
-            collection_stats[collection["id"]] = len(remote_recipes)
+        result = fetch_remote_recipes(collection)
+        if result:
+            remote_tags, remote_categories = extract_tags_and_categories(result["recipes"])
+            all_recipes.extend(result["recipes"])
+            collection_stats[collection["id"]] = {
+                "count": result["count"],
+                "source": result["source"],
+                "fetched_at": result["fetched_at"],
+                "tags": remote_tags,
+                "categories": remote_categories
+            }
+            print(f"      ({len(remote_tags)} tags, {len(remote_categories)} categories)")
 
     print(f"\n  Total: {len(all_recipes)} recipes from {len(collection_stats)} collections")
 
@@ -815,9 +853,9 @@ def main():
 
     print(f"  Indexed {index['meta']['total_ingredients']} unique ingredients")
 
-    # Write output
+    # Write minified output (no whitespace)
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(index, f, indent=2, ensure_ascii=False)
+        json.dump(index, f, separators=(',', ':'), ensure_ascii=False)
 
     # Report file size
     size_kb = output_path.stat().st_size / 1024
@@ -825,9 +863,9 @@ def main():
 
     # Show top 10 most common ingredients
     print("\n  Top 10 most common ingredients:")
-    for i, (name, count) in enumerate(list(index['frequency'].items())[:10], 1):
+    for i, name in enumerate(index['top'][:10], 1):
         recipe_count = len(index['ingredients'].get(name, []))
-        print(f"    {i}. {name}: {count} uses in {recipe_count} recipes")
+        print(f"    {i}. {name}: {recipe_count} recipes")
 
     print("\nDone!")
     return 0

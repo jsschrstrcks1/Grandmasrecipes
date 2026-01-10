@@ -190,7 +190,22 @@
 
         <!-- Search Results Summary -->
         <div id="ingredient-search-results" class="ingredient-search-results hidden">
-          <span id="ingredient-match-count"></span>
+          <div class="results-header">
+            <div class="results-header-left">
+              <span id="ingredient-match-count"></span>
+              <span id="index-last-updated" class="last-updated-badge"></span>
+            </div>
+            <div class="results-page-size">
+              <label for="results-per-page">Show:</label>
+              <select id="results-per-page">
+                <option value="10" selected>10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="all">All</option>
+              </select>
+            </div>
+          </div>
 
           <!-- Smart Suggestions -->
           <div id="ingredient-suggestions" class="ingredient-suggestions-panel hidden">
@@ -209,6 +224,19 @@
                 <!-- Populated dynamically -->
               </div>
             </div>
+          </div>
+
+          <!-- Inline Recipe Results -->
+          <div id="ingredient-recipe-list" class="ingredient-recipe-list">
+            <!-- Populated dynamically -->
+          </div>
+
+          <!-- Load More Button -->
+          <div id="load-more-container" class="load-more-container hidden">
+            <button type="button" id="load-more-recipes" class="btn btn-secondary">
+              Load More Recipes
+            </button>
+            <span id="load-more-status"></span>
           </div>
         </div>
       </section>
@@ -319,13 +347,13 @@
           </div>
         </div>
 
-        <!-- Collapsible Tags Section -->
+        <!-- Collapsible Tags Section (starts closed) -->
         <div class="tags-section">
-          <button type="button" class="tags-toggle" id="tags-toggle" aria-expanded="true">
+          <button type="button" class="tags-toggle" id="tags-toggle" aria-expanded="false">
             <span class="filter-label">Tags</span>
-            <span class="toggle-icon">▼</span>
+            <span class="toggle-icon">▶</span>
           </button>
-          <div id="tag-filters" class="filter-tags">
+          <div id="tag-filters" class="filter-tags hidden">
             <!-- Tags populated by JavaScript -->
           </div>
         </div>

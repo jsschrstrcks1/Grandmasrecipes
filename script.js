@@ -132,6 +132,11 @@ const DIET_PRESETS = {
   }
 };
 
+// Ingredient results pagination state
+let ingredientResultsPageSize = 10;
+let ingredientResultsShown = 0;
+let currentIngredientMatches = [];
+
 // Preset staples bundles
 const STAPLES_PRESETS = {
   basics: [
@@ -178,8 +183,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
   await loadRecipes();
-  await loadIngredientIndex();
-  await loadSubstitutions();
+  // Ingredient index and substitutions loaded lazily on first search interaction
   await loadKitchenTips();
   setupEventListeners();
   setupIngredientSearch();
@@ -212,31 +216,134 @@ async function loadRecipes() {
 }
 
 /**
- * Load ingredient index from JSON file
+ * Load ingredient index from JSON file (lazy loaded on first use)
  */
+let ingredientIndexLoading = null;
 async function loadIngredientIndex() {
+  // Return existing data if already loaded
+  if (ingredientIndex) return ingredientIndex;
+
+  // Return existing promise if already loading
+  if (ingredientIndexLoading) return ingredientIndexLoading;
+
+  // Start loading
+  ingredientIndexLoading = (async () => {
+    try {
+      const response = await fetch('data/ingredient-index.json');
+      ingredientIndex = await response.json();
+      console.log(`Loaded ingredient index: ${ingredientIndex.meta.total_ingredients} ingredients from ${Object.keys(ingredientIndex.meta.collections || {}).length} collections`);
+
+      // Display last updated badge
+      updateLastUpdatedBadge();
+
+      return ingredientIndex;
+    } catch (error) {
+      console.error('Failed to load ingredient index:', error);
+      ingredientIndexLoading = null; // Allow retry
+      return null;
+    }
+  })();
+
+  return ingredientIndexLoading;
+}
+
+/**
+ * Format a timestamp as relative time
+ */
+function formatTimeAgo(isoString) {
   try {
-    const response = await fetch('data/ingredient-index.json');
-    ingredientIndex = await response.json();
-    console.log(`Loaded ingredient index with ${ingredientIndex.meta.total_ingredients} ingredients`);
-  } catch (error) {
-    console.error('Failed to load ingredient index:', error);
-    // Non-fatal - ingredient search just won't work
+    const date = new Date(isoString);
+    const now = new Date();
+    const diffMs = now - date;
+    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+
+    if (diffDays > 30) {
+      return date.toLocaleDateString();
+    } else if (diffDays > 0) {
+      return `${diffDays}d ago`;
+    } else if (diffHours > 0) {
+      return `${diffHours}h ago`;
+    } else {
+      return 'just now';
+    }
+  } catch (e) {
+    return 'unknown';
   }
 }
 
 /**
- * Load substitutions data from JSON file
+ * Update the last-updated badge with build timestamp and collection status
  */
-async function loadSubstitutions() {
+function updateLastUpdatedBadge() {
+  const badge = document.getElementById('index-last-updated');
+  if (!badge || !ingredientIndex || !ingredientIndex.meta.built_at) return;
+
   try {
-    const response = await fetch('data/substitutions.json');
-    substitutionsData = await response.json();
-    console.log(`Loaded ${substitutionsData.substitutions.length} substitution rules`);
-  } catch (error) {
-    console.error('Failed to load substitutions:', error);
-    // Non-fatal - substitution matching just won't work
+    const builtAt = new Date(ingredientIndex.meta.built_at);
+    const timeAgo = formatTimeAgo(ingredientIndex.meta.built_at);
+
+    const collections = ingredientIndex.meta.collections || {};
+    const collectionNames = {
+      'grandma-baker': 'Grandma',
+      'mommom-baker': 'MomMom',
+      'granny-hudson': 'Granny',
+      'all': 'Other'
+    };
+
+    // Build collection status string
+    const collectionParts = [];
+    let totalRecipes = 0;
+    for (const [id, info] of Object.entries(collections)) {
+      const name = collectionNames[id] || id;
+      const count = typeof info === 'object' ? info.count : info;
+      totalRecipes += count;
+      collectionParts.push(`${name}: ${count}`);
+    }
+
+    badge.innerHTML = `
+      <span class="index-summary">Index updated ${timeAgo} (${totalRecipes} recipes)</span>
+      <span class="collection-breakdown">${collectionParts.join(' | ')}</span>
+    `;
+    badge.title = `Built: ${builtAt.toLocaleString()}\n` +
+      Object.entries(collections).map(([id, info]) => {
+        const name = collectionNames[id] || id;
+        if (typeof info === 'object' && info.fetched_at) {
+          return `${name}: ${info.count} recipes (${formatTimeAgo(info.fetched_at)})`;
+        }
+        return `${name}: ${info} recipes`;
+      }).join('\n');
+  } catch (e) {
+    console.error('Error updating last-updated badge:', e);
   }
+}
+
+/**
+ * Load substitutions data from JSON file (lazy loaded on first use)
+ */
+let substitutionsLoading = null;
+async function loadSubstitutions() {
+  // Return existing data if already loaded
+  if (substitutionsData) return substitutionsData;
+
+  // Return existing promise if already loading
+  if (substitutionsLoading) return substitutionsLoading;
+
+  // Start loading
+  substitutionsLoading = (async () => {
+    try {
+      const response = await fetch('data/substitutions.json');
+      substitutionsData = await response.json();
+      console.log(`Loaded ${substitutionsData.substitutions.length} substitution rules`);
+      return substitutionsData;
+    } catch (error) {
+      console.error('Failed to load substitutions:', error);
+      substitutionsLoading = null; // Allow retry
+      return null;
+    }
+  })();
+
+  return substitutionsLoading;
 }
 
 /**
@@ -1430,6 +1537,25 @@ function setupIngredientSearch() {
       }
     });
   });
+
+  // Page size selector for ingredient results
+  const pageSizeSelect = document.getElementById('results-per-page');
+  if (pageSizeSelect) {
+    pageSizeSelect.addEventListener('change', (e) => {
+      const value = e.target.value;
+      ingredientResultsPageSize = value === 'all' ? Infinity : parseInt(value, 10);
+      ingredientResultsShown = 0;
+      renderIngredientRecipeList();
+    });
+  }
+
+  // Load more button
+  const loadMoreBtn = document.getElementById('load-more-recipes');
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      loadMoreIngredientResults();
+    });
+  }
 }
 
 /**
@@ -1511,9 +1637,21 @@ function updateAutocompleteHighlight(items) {
 /**
  * Show autocomplete dropdown with matches
  */
-function showAutocomplete(query) {
+async function showAutocomplete(query) {
   const autocomplete = document.getElementById('ingredient-autocomplete');
-  if (!autocomplete || !ingredientIndex) return;
+  if (!autocomplete) return;
+
+  // Lazy load ingredient index on first use
+  if (!ingredientIndex) {
+    autocomplete.innerHTML = `<div class="autocomplete-item" style="color: var(--color-text-light); cursor: default;">Loading ingredients...</div>`;
+    autocomplete.classList.remove('hidden');
+    await loadIngredientIndex();
+    await loadSubstitutions(); // Also load substitutions for search
+    if (!ingredientIndex) {
+      autocomplete.innerHTML = `<div class="autocomplete-item" style="color: var(--color-text-light); cursor: default;">Failed to load ingredients</div>`;
+      return;
+    }
+  }
 
   const matches = searchIngredients(query, 10);
   autocompleteHighlightIndex = -1;
@@ -1580,6 +1718,15 @@ function selectAutocompleteItem(item) {
 }
 
 /**
+ * Get canonical name for an ingredient using synonyms
+ */
+function getCanonicalName(name) {
+  if (!ingredientIndex) return name;
+  const lower = name.toLowerCase().trim();
+  return ingredientIndex.synonyms[lower] || lower;
+}
+
+/**
  * Search ingredients using fuzzy matching
  */
 function searchIngredients(query, limit = 10) {
@@ -1587,20 +1734,39 @@ function searchIngredients(query, limit = 10) {
 
   const queryLower = query.toLowerCase().trim();
   const results = [];
+  const seen = new Set();
 
-  // Search through all ingredient names
-  for (const name of ingredientIndex.all_names) {
+  // Search through canonical ingredient names (keys of ingredients object)
+  for (const canonical of Object.keys(ingredientIndex.ingredients)) {
     // Skip already selected ingredients
-    if (selectedIngredients.includes(name)) continue;
+    if (selectedIngredients.some(s => getCanonicalName(s) === canonical)) continue;
 
-    const score = fuzzyMatch(name, queryLower);
-    if (score > 0) {
-      // Get canonical name for recipe count
-      const canonical = ingredientIndex.name_mapping[name] || name;
-      const recipeIds = ingredientIndex.ingredients[canonical] || ingredientIndex.ingredients[name] || [];
+    const score = fuzzyMatch(canonical, queryLower);
+    if (score > 0 && !seen.has(canonical)) {
+      seen.add(canonical);
+      const recipeIds = ingredientIndex.ingredients[canonical] || [];
 
       results.push({
-        name: name,
+        name: canonical,
+        canonical: canonical,
+        score: score,
+        recipeCount: recipeIds.length
+      });
+    }
+  }
+
+  // Also search through synonyms for better matching
+  for (const [variant, canonical] of Object.entries(ingredientIndex.synonyms)) {
+    if (seen.has(canonical)) continue;
+    if (selectedIngredients.some(s => getCanonicalName(s) === canonical)) continue;
+
+    const score = fuzzyMatch(variant, queryLower);
+    if (score > 0) {
+      seen.add(canonical);
+      const recipeIds = ingredientIndex.ingredients[canonical] || [];
+
+      results.push({
+        name: canonical,  // Show canonical name, not variant
         canonical: canonical,
         score: score,
         recipeCount: recipeIds.length
@@ -1822,7 +1988,7 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
 
     for (const selectedIng of ingredients) {
       const normalizedSelected = normalizeIngredientName(selectedIng);
-      const canonical = ingredientIndex.name_mapping[normalizedSelected] || normalizedSelected;
+      const canonical = getCanonicalName(normalizedSelected);
 
       // Check if recipe contains this ingredient (or its synonym)
       let found = false;
@@ -1830,7 +1996,7 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
 
       // Direct match check
       for (const recipeName of recipeIngredientNames) {
-        const recipeCanonical = ingredientIndex.name_mapping[recipeName] || recipeName;
+        const recipeCanonical = getCanonicalName(recipeName);
         if (recipeName.includes(normalizedSelected) ||
             normalizedSelected.includes(recipeName) ||
             recipeCanonical === canonical ||
@@ -1938,8 +2104,17 @@ function updateIngredientSearchResults(matchInfo) {
 
   const total = matchInfo.matches.length;
 
+  // Store matches for pagination
+  currentIngredientMatches = matchInfo.matches;
+  ingredientResultsShown = 0;
+
   if (total === 0) {
     countSpan.innerHTML = 'No recipes found with those ingredients';
+    // Clear recipe list
+    const recipeList = document.getElementById('ingredient-recipe-list');
+    if (recipeList) recipeList.innerHTML = '';
+    const loadMoreContainer = document.getElementById('load-more-container');
+    if (loadMoreContainer) loadMoreContainer.classList.add('hidden');
   } else {
     let text = `Found <span class="match-count-number">${total}</span> recipe${total !== 1 ? 's' : ''}`;
 
@@ -1948,9 +2123,147 @@ function updateIngredientSearchResults(matchInfo) {
     }
 
     countSpan.innerHTML = text;
+
+    // Render the recipe list
+    renderIngredientRecipeList();
   }
 
   resultsDiv.classList.remove('hidden');
+}
+
+/**
+ * Render the ingredient recipe list with pagination
+ */
+function renderIngredientRecipeList() {
+  const recipeList = document.getElementById('ingredient-recipe-list');
+  const loadMoreContainer = document.getElementById('load-more-container');
+  const loadMoreStatus = document.getElementById('load-more-status');
+
+  if (!recipeList) return;
+
+  // Sort matches: perfect matches first, then by match percentage
+  const sortedMatches = [...currentIngredientMatches].sort((a, b) => {
+    // Perfect matches first
+    if (a.isPerfectMatch && !b.isPerfectMatch) return -1;
+    if (!a.isPerfectMatch && b.isPerfectMatch) return 1;
+    // Then by match percentage
+    return b.matchPercent - a.matchPercent;
+  });
+
+  // Determine how many to show
+  const endIndex = Math.min(ingredientResultsShown + ingredientResultsPageSize, sortedMatches.length);
+  const recipesToShow = sortedMatches.slice(ingredientResultsShown, endIndex);
+
+  // If starting fresh, clear the list
+  if (ingredientResultsShown === 0) {
+    recipeList.innerHTML = '';
+  }
+
+  // Render each recipe card
+  recipesToShow.forEach(match => {
+    const recipe = recipes.find(r => r.id === match.recipeId);
+    if (!recipe) return;
+
+    const card = createIngredientResultCard(recipe, match);
+    recipeList.appendChild(card);
+  });
+
+  // Update shown count
+  ingredientResultsShown = endIndex;
+
+  // Update load more button
+  if (loadMoreContainer && loadMoreStatus) {
+    const remaining = sortedMatches.length - ingredientResultsShown;
+    if (remaining > 0) {
+      loadMoreContainer.classList.remove('hidden');
+      loadMoreStatus.textContent = `Showing ${ingredientResultsShown} of ${sortedMatches.length}`;
+    } else {
+      loadMoreContainer.classList.add('hidden');
+    }
+  }
+}
+
+/**
+ * Load more ingredient search results
+ */
+function loadMoreIngredientResults() {
+  renderIngredientRecipeList();
+}
+
+/**
+ * Create a recipe result card for ingredient search
+ */
+function createIngredientResultCard(recipe, match) {
+  const card = document.createElement('div');
+  card.className = 'ingredient-result-card';
+  if (match.isPerfectMatch) {
+    card.classList.add('perfect-match');
+  }
+
+  // Get image path
+  const imageSrc = recipe.image_refs && recipe.image_refs.length > 0
+    ? `data/${recipe.image_refs[0]}`
+    : 'data/placeholder.jpg';
+
+  // Build match info display
+  let matchInfo = '';
+  if (match.isPerfectMatch) {
+    matchInfo = '<span class="match-badge perfect">Perfect Match</span>';
+  } else {
+    matchInfo = `<span class="match-badge partial">${match.matchedCount}/${match.totalInRecipe} ingredients</span>`;
+  }
+
+  // Show matched ingredients
+  const matchedList = match.matchedIngredients
+    .slice(0, 5)
+    .map(ing => escapeHtml(ing))
+    .join(', ');
+  const moreMatched = match.matchedIngredients.length > 5
+    ? ` +${match.matchedIngredients.length - 5} more`
+    : '';
+
+  // Show missing ingredients if any
+  let missingHtml = '';
+  if (match.missingIngredients && match.missingIngredients.length > 0) {
+    const missingList = match.missingIngredients
+      .slice(0, 3)
+      .map(ing => escapeHtml(ing))
+      .join(', ');
+    const moreMissing = match.missingIngredients.length > 3
+      ? ` +${match.missingIngredients.length - 3} more`
+      : '';
+    missingHtml = `<div class="missing-ingredients">Missing: ${missingList}${moreMissing}</div>`;
+  }
+
+  // Show substitution info if any
+  let substitutionHtml = '';
+  if (match.substitutionMatches && match.substitutionMatches.length > 0) {
+    const subList = match.substitutionMatches
+      .slice(0, 2)
+      .map(s => `${escapeHtml(s.userHas)} → ${escapeHtml(s.recipeNeeds)}`)
+      .join(', ');
+    substitutionHtml = `<div class="substitution-info">Substitutions: ${subList}</div>`;
+  }
+
+  card.innerHTML = `
+    <div class="result-card-image">
+      <img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(recipe.title)}" loading="lazy"
+           onerror="this.src='data/placeholder.jpg'">
+    </div>
+    <div class="result-card-content">
+      <div class="result-card-header">
+        <h4 class="result-card-title">${escapeHtml(recipe.title)}</h4>
+        ${matchInfo}
+      </div>
+      <div class="result-card-category">${escapeHtml(recipe.category || 'Uncategorized')}</div>
+      <div class="matched-ingredients">Have: ${matchedList}${moreMatched}</div>
+      ${missingHtml}
+      ${substitutionHtml}
+      <a href="recipe.html?id=${escapeAttr(recipe.id)}" class="result-card-link">View Recipe</a>
+    </div>
+  `;
+
+  return card;
 }
 
 // =============================================================================
@@ -2564,6 +2877,7 @@ function setupEventListeners() {
       checkbox.addEventListener('change', () => {
         updateCollectionFilter();
         saveCollectionPreferences();
+        renderTagFilters();  // Update tags for selected collections
         renderRecipeGrid();
       });
     });
@@ -2920,18 +3234,66 @@ function renderCategoryFilter() {
 }
 
 /**
- * Render tag filter buttons
+ * Get tags for selected collections from ingredient index
+ */
+function getTagsForSelectedCollections() {
+  const selectedCollections = currentFilter.collections || [];
+  const tags = new Set();
+
+  // If no ingredient index, fall back to local allTags
+  if (!ingredientIndex || !ingredientIndex.meta.collections) {
+    return Array.from(allTags).sort();
+  }
+
+  // Map UI collection IDs to index collection IDs
+  const collectionIdMap = {
+    'grandma-baker': 'grandma-baker',
+    'mommom': 'mommom-baker',
+    'granny': 'granny-hudson',
+    'all': 'all'
+  };
+
+  // Gather tags from selected collections
+  for (const uiId of selectedCollections) {
+    const indexId = collectionIdMap[uiId] || uiId;
+    const collectionInfo = ingredientIndex.meta.collections[indexId];
+    if (collectionInfo && collectionInfo.tags) {
+      collectionInfo.tags.forEach(tag => tags.add(tag));
+    }
+  }
+
+  // If no tags found (perhaps index not loaded), fall back to local
+  if (tags.size === 0) {
+    return Array.from(allTags).sort();
+  }
+
+  return Array.from(tags).sort();
+}
+
+/**
+ * Render tag filter buttons based on selected collections
  */
 function renderTagFilters() {
   const container = document.getElementById('tag-filters');
   if (!container) return;
 
-  const sortedTags = Array.from(allTags).sort();
-  let html = '';
+  const sortedTags = getTagsForSelectedCollections();
+  const currentTag = currentFilter.tag;
 
-  sortedTags.forEach(tag => {
-    html += `<span class="filter-tag" data-tag="${escapeAttr(tag)}">${escapeHtml(tag)}</span>`;
-  });
+  // Clear current tag filter if it's no longer in available tags
+  if (currentTag && !sortedTags.includes(currentTag.toLowerCase())) {
+    currentFilter.tag = '';
+  }
+
+  let html = '';
+  if (sortedTags.length === 0) {
+    html = '<span class="no-tags">No tags available for selected collections</span>';
+  } else {
+    sortedTags.forEach(tag => {
+      const isActive = currentFilter.tag === tag ? ' active' : '';
+      html += `<span class="filter-tag${isActive}" data-tag="${escapeAttr(tag)}">${escapeHtml(tag)}</span>`;
+    });
+  }
 
   container.innerHTML = html;
 
