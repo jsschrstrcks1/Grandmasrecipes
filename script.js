@@ -88,6 +88,9 @@ let justStaplesMode = false;
 let substitutionsData = null;
 let enableSubstitutions = true;
 
+// Kitchen tips state
+let kitchenTipsData = null;
+
 // Nutrition and time filter state
 let nutritionFilter = {
   timeLimit: null,           // Maximum time in minutes
@@ -176,6 +179,7 @@ async function init() {
   await loadRecipes();
   await loadIngredientIndex();
   await loadSubstitutions();
+  await loadKitchenTips();
   setupEventListeners();
   setupIngredientSearch();
   setupStaplesSystem();
@@ -232,6 +236,123 @@ async function loadSubstitutions() {
     console.error('Failed to load substitutions:', error);
     // Non-fatal - substitution matching just won't work
   }
+}
+
+/**
+ * Load kitchen tips data from JSON file
+ */
+async function loadKitchenTips() {
+  try {
+    const response = await fetch('data/kitchen-tips.json');
+    kitchenTipsData = await response.json();
+    const totalTips = kitchenTipsData.categories.reduce((sum, cat) => sum + cat.tips.length, 0);
+    console.log(`Loaded ${totalTips} kitchen tips in ${kitchenTipsData.categories.length} categories`);
+  } catch (error) {
+    console.error('Failed to load kitchen tips:', error);
+    // Non-fatal - tips just won't show
+  }
+}
+
+/**
+ * Get relevant kitchen tips for a recipe based on category
+ * @param {Object} recipe - The recipe object
+ * @returns {Array} - Array of relevant tips
+ */
+function getKitchenTipsForRecipe(recipe) {
+  if (!kitchenTipsData || !recipe) return [];
+
+  const tips = [];
+  const recipeCategory = (recipe.category || '').toLowerCase();
+  const recipeTitle = (recipe.title || '').toLowerCase();
+  const recipeId = recipe.id || '';
+
+  // Map recipe categories to tip categories
+  const categoryMapping = {
+    'desserts': ['candy-making', 'baking-cakes', 'baking-cookies', 'baking-pies'],
+    'breads': ['baking-bread'],
+    'mains': ['meat-cooking', 'sauces', 'frying'],
+    'sides': ['vegetables', 'sauces'],
+    'breakfast': ['eggs', 'baking-bread'],
+    'soups': ['soups-stews'],
+    'appetizers': ['frying', 'sauces'],
+    'salads': ['vegetables'],
+    'beverages': []
+  };
+
+  // Get tip categories for this recipe category
+  const relevantCategories = categoryMapping[recipeCategory] || ['general'];
+
+  // Always include general tips
+  if (!relevantCategories.includes('general')) {
+    relevantCategories.push('general');
+  }
+
+  // Collect tips from relevant categories
+  for (const cat of kitchenTipsData.categories) {
+    if (relevantCategories.includes(cat.id)) {
+      for (const tip of cat.tips) {
+        // Check if tip specifically relates to this recipe
+        const relatedToRecipe = tip.relatedRecipes?.some(r =>
+          recipeId.includes(r) || recipeTitle.includes(r)
+        );
+
+        tips.push({
+          ...tip,
+          category: cat.name,
+          categoryIcon: cat.icon,
+          isDirectlyRelated: relatedToRecipe
+        });
+      }
+    }
+  }
+
+  // Sort: directly related first, then by category
+  tips.sort((a, b) => {
+    if (a.isDirectlyRelated && !b.isDirectlyRelated) return -1;
+    if (!a.isDirectlyRelated && b.isDirectlyRelated) return 1;
+    return 0;
+  });
+
+  // Return up to 5 tips
+  return tips.slice(0, 5);
+}
+
+/**
+ * Get all kitchen tips organized by category
+ * @returns {Array} - Array of tip categories with their tips
+ */
+function getAllKitchenTips() {
+  if (!kitchenTipsData) return [];
+  return kitchenTipsData.categories;
+}
+
+/**
+ * Render kitchen tips HTML for a recipe
+ * @param {Object} recipe - The recipe object
+ * @returns {string} - HTML string
+ */
+function renderKitchenTipsForRecipe(recipe) {
+  const tips = getKitchenTipsForRecipe(recipe);
+  if (tips.length === 0) return '';
+
+  const tipsHtml = tips.map(tip => `
+    <div class="kitchen-tip ${tip.isDirectlyRelated ? 'directly-related' : ''}">
+      <span class="tip-icon">${escapeHtml(tip.categoryIcon)}</span>
+      <div class="tip-content">
+        <p class="tip-text">"${escapeHtml(tip.text)}"</p>
+        <span class="tip-attribution">— ${escapeHtml(tip.attribution)}</span>
+      </div>
+    </div>
+  `).join('');
+
+  return `
+    <div class="kitchen-tips-section">
+      <h3 class="kitchen-tips-header">👵 Family Kitchen Wisdom</h3>
+      <div class="kitchen-tips-list">
+        ${tipsHtml}
+      </div>
+    </div>
+  `;
 }
 
 /**
@@ -2592,6 +2713,7 @@ function renderRecipeDetail(recipeId) {
       ${recipe.nutrition ? renderNutrition(recipe.nutrition, recipe.servings_yield) : ''}
       ${recipe.notes && recipe.notes.length > 0 ? renderNotes(recipe.notes) : ''}
       ${recipe.conversions?.conversion_assumptions?.length > 0 && showMetric ? renderConversionNotes(recipe.conversions) : ''}
+      ${renderKitchenTipsForRecipe(recipe)}
       ${renderTags(recipe.tags)}
       ${renderConfidenceFlags(recipe.confidence?.flags)}
       ${renderOriginalScan(recipe.image_refs, recipe.collection)}
