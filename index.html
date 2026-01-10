@@ -57,6 +57,101 @@
 
   <main>
     <div class="container">
+      <!-- Ingredient Search Section - "What Can I Make?" -->
+      <section class="ingredient-search-section">
+        <div class="ingredient-search-header">
+          <h2 class="ingredient-search-title">What Can I Make?</h2>
+          <p class="ingredient-search-subtitle">Enter ingredients you have on hand</p>
+        </div>
+
+        <!-- Layer 1: Simple Input (Default) -->
+        <div class="ingredient-input-wrapper">
+          <div class="ingredient-input-container">
+            <input
+              type="text"
+              id="ingredient-input"
+              class="ingredient-input"
+              placeholder="Type an ingredient..."
+              aria-label="Search by ingredients"
+              autocomplete="off"
+            >
+            <div id="ingredient-autocomplete" class="ingredient-autocomplete hidden" role="listbox"></div>
+          </div>
+          <button type="button" id="ingredient-search-btn" class="btn btn-primary" aria-label="Search recipes">
+            Find Recipes
+          </button>
+        </div>
+
+        <!-- Selected Ingredients Pills -->
+        <div id="selected-ingredients" class="selected-ingredients hidden">
+          <!-- Pills added dynamically -->
+        </div>
+
+        <!-- Quick Suggestions -->
+        <div class="ingredient-suggestions">
+          <span class="suggestion-label">Try:</span>
+          <button type="button" class="suggestion-chip" data-ingredient="chicken">chicken</button>
+          <button type="button" class="suggestion-chip" data-ingredient="ground beef">ground beef</button>
+          <button type="button" class="suggestion-chip" data-ingredient="pasta">pasta</button>
+          <button type="button" class="suggestion-chip" data-ingredient="eggs">eggs</button>
+          <button type="button" class="suggestion-chip" data-ingredient="cheese">cheese</button>
+        </div>
+
+        <!-- Layer 2: Options Panel (Expandable) -->
+        <div class="ingredient-options-toggle">
+          <button type="button" id="ingredient-options-btn" class="options-toggle-btn" aria-expanded="false">
+            <span>More options</span>
+            <span class="toggle-icon">&#9660;</span>
+          </button>
+        </div>
+
+        <div id="ingredient-options-panel" class="ingredient-options-panel hidden">
+          <!-- Match Mode -->
+          <div class="option-group">
+            <label class="option-label">Match mode:</label>
+            <div class="option-buttons">
+              <button type="button" class="option-btn active" data-mode="any">
+                Any ingredient
+              </button>
+              <button type="button" class="option-btn" data-mode="all">
+                All ingredients
+              </button>
+            </div>
+          </div>
+
+          <!-- Missing Ingredients Threshold -->
+          <div class="option-group">
+            <label class="option-label">Show recipes missing up to:</label>
+            <div class="option-buttons">
+              <button type="button" class="option-btn active" data-missing="0">
+                0 (exact match)
+              </button>
+              <button type="button" class="option-btn" data-missing="1">
+                1 ingredient
+              </button>
+              <button type="button" class="option-btn" data-missing="2">
+                2 ingredients
+              </button>
+              <button type="button" class="option-btn" data-missing="3">
+                3 ingredients
+              </button>
+            </div>
+          </div>
+
+          <!-- Clear Search -->
+          <div class="option-group">
+            <button type="button" id="clear-ingredient-search" class="btn btn-secondary">
+              Clear Ingredient Search
+            </button>
+          </div>
+        </div>
+
+        <!-- Search Results Summary -->
+        <div id="ingredient-search-results" class="ingredient-search-results hidden">
+          <span id="ingredient-match-count"></span>
+        </div>
+      </section>
+
       <!-- Search and Filter Section -->
       <section class="search-section">
         <form id="search-form" class="search-box">
