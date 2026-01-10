@@ -26,6 +26,7 @@ import urllib.request
 import urllib.error
 from collections import defaultdict
 from pathlib import Path
+from datetime import datetime, timezone
 
 # Remote collections to fetch (in addition to local recipes)
 REMOTE_COLLECTIONS = [
@@ -719,6 +720,7 @@ def build_ingredient_index(recipes):
             "description": "Slim ingredient index for all family recipe collections",
             "total_ingredients": len(ingredients_dict),
             "total_recipes_indexed": len(recipes),
+            "built_at": datetime.now(timezone.utc).isoformat(),
         },
         "ingredients": ingredients_dict,
         "synonyms": SYNONYMS,
@@ -730,10 +732,11 @@ def fetch_remote_recipes(collection):
     """
     Fetch recipes from a remote collection.
     Tries multiple URLs in order until one succeeds.
-    Returns list of recipes or empty list on failure.
+    Returns dict with recipes, count, url, and timestamp.
     """
     collection_id = collection["id"]
     collection_name = collection["name"]
+    fetch_time = datetime.now(timezone.utc).isoformat()
 
     for url in collection["urls"]:
         try:
@@ -749,7 +752,12 @@ def fetch_remote_recipes(collection):
 
                 if recipes:
                     print(f"    ✓ {collection_name}: {len(recipes)} recipes from {url}")
-                    return recipes
+                    return {
+                        "recipes": recipes,
+                        "count": len(recipes),
+                        "source": url,
+                        "fetched_at": fetch_time
+                    }
 
         except urllib.error.HTTPError as e:
             if e.code != 404:
@@ -762,7 +770,7 @@ def fetch_remote_recipes(collection):
             print(f"    ✗ {collection_name}: Error - {e}")
 
     print(f"    ✗ {collection_name}: No valid source found")
-    return []
+    return None
 
 
 def main():
@@ -780,6 +788,8 @@ def main():
     all_recipes = []
     collection_stats = {}
 
+    build_time = datetime.now(timezone.utc).isoformat()
+
     # Load local recipes (Grandma Baker)
     print(f"\n  Loading local recipes...")
     if recipes_path.exists():
@@ -788,17 +798,25 @@ def main():
         local_recipes = data.get('recipes', [])
         print(f"    ✓ Grandma Baker: {len(local_recipes)} recipes from {recipes_path}")
         all_recipes.extend(local_recipes)
-        collection_stats["grandma-baker"] = len(local_recipes)
+        collection_stats["grandma-baker"] = {
+            "count": len(local_recipes),
+            "source": "local",
+            "fetched_at": build_time
+        }
     else:
         print(f"    ✗ Grandma Baker: {recipes_path} not found")
 
     # Fetch remote collections
     print(f"\n  Fetching remote collections...")
     for collection in REMOTE_COLLECTIONS:
-        remote_recipes = fetch_remote_recipes(collection)
-        if remote_recipes:
-            all_recipes.extend(remote_recipes)
-            collection_stats[collection["id"]] = len(remote_recipes)
+        result = fetch_remote_recipes(collection)
+        if result:
+            all_recipes.extend(result["recipes"])
+            collection_stats[collection["id"]] = {
+                "count": result["count"],
+                "source": result["source"],
+                "fetched_at": result["fetched_at"]
+            }
 
     print(f"\n  Total: {len(all_recipes)} recipes from {len(collection_stats)} collections")
 
