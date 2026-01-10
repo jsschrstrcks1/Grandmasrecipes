@@ -88,6 +88,46 @@ let justStaplesMode = false;
 let substitutionsData = null;
 let enableSubstitutions = true;
 
+// Nutrition and time filter state
+let nutritionFilter = {
+  timeLimit: null,           // Maximum time in minutes
+  calories: { min: null, max: null },
+  carbs: { min: null, max: null },
+  protein: { min: null, max: null },
+  fat: { min: null, max: null },
+  onlyWithNutrition: false,
+  activeDietPreset: null
+};
+
+// Diet preset definitions (per serving)
+const DIET_PRESETS = {
+  'low-carb': {
+    name: 'Low Carb',
+    carbs: { max: 20 },
+    description: 'Max 20g carbs per serving'
+  },
+  'low-cal': {
+    name: 'Low Cal',
+    calories: { max: 400 },
+    description: 'Max 400 calories per serving'
+  },
+  'high-protein': {
+    name: 'High Protein',
+    protein: { min: 25 },
+    description: 'Min 25g protein per serving'
+  },
+  'low-fat': {
+    name: 'Low Fat',
+    fat: { max: 10 },
+    description: 'Max 10g fat per serving'
+  },
+  'low-sodium': {
+    name: 'Low Sodium',
+    sodium: { max: 500 },
+    description: 'Max 500mg sodium per serving'
+  }
+};
+
 // Preset staples bundles
 const STAPLES_PRESETS = {
   basics: [
@@ -122,6 +162,7 @@ async function init() {
   setupEventListeners();
   setupIngredientSearch();
   setupStaplesSystem();
+  setupNutritionFilters();
   handleRouting();
 }
 
@@ -262,6 +303,263 @@ function expandStaplesWithSubstitutions(staples) {
   }
 
   return Array.from(expanded);
+}
+
+// =============================================================================
+// Nutrition & Time Filter Functions
+// =============================================================================
+
+/**
+ * Parse time string to minutes
+ * @param {string} timeStr - Time string like "30 min", "1 hour 15 min", "45 minutes"
+ * @returns {number|null} - Total minutes or null if unparseable
+ */
+function parseTimeToMinutes(timeStr) {
+  if (!timeStr) return null;
+
+  const str = timeStr.toLowerCase().trim();
+  let totalMinutes = 0;
+
+  // Match hours
+  const hourMatch = str.match(/(\d+\.?\d*)\s*(hour|hr|h)/);
+  if (hourMatch) {
+    totalMinutes += parseFloat(hourMatch[1]) * 60;
+  }
+
+  // Match minutes
+  const minMatch = str.match(/(\d+)\s*(minute|min|m)(?!i)/);
+  if (minMatch) {
+    totalMinutes += parseInt(minMatch[1], 10);
+  }
+
+  // If only a number, assume minutes
+  if (totalMinutes === 0) {
+    const justNumber = str.match(/^(\d+)$/);
+    if (justNumber) {
+      totalMinutes = parseInt(justNumber[1], 10);
+    }
+  }
+
+  return totalMinutes > 0 ? totalMinutes : null;
+}
+
+/**
+ * Check if any nutrition filter is active (excluding onlyWithNutrition)
+ * @returns {boolean}
+ */
+function hasActiveNutritionFilter() {
+  return (
+    nutritionFilter.calories.min !== null ||
+    nutritionFilter.calories.max !== null ||
+    nutritionFilter.carbs.min !== null ||
+    nutritionFilter.carbs.max !== null ||
+    nutritionFilter.protein.min !== null ||
+    nutritionFilter.protein.max !== null ||
+    nutritionFilter.fat.min !== null ||
+    nutritionFilter.fat.max !== null
+  );
+}
+
+/**
+ * Apply a diet preset to the nutrition filter
+ * @param {string} presetId - The preset ID like 'low-carb', 'low-cal', etc.
+ */
+function applyDietPreset(presetId) {
+  // Clear all nutrition filters first
+  clearNutritionFilters();
+
+  if (presetId === 'clear' || !DIET_PRESETS[presetId]) {
+    nutritionFilter.activeDietPreset = null;
+    updateDietPresetButtons();
+    updateNutritionInputs();
+    renderRecipeGrid();
+    return;
+  }
+
+  const preset = DIET_PRESETS[presetId];
+  nutritionFilter.activeDietPreset = presetId;
+
+  // Apply preset values
+  if (preset.calories) {
+    nutritionFilter.calories.min = preset.calories.min || null;
+    nutritionFilter.calories.max = preset.calories.max || null;
+  }
+  if (preset.carbs) {
+    nutritionFilter.carbs.min = preset.carbs.min || null;
+    nutritionFilter.carbs.max = preset.carbs.max || null;
+  }
+  if (preset.protein) {
+    nutritionFilter.protein.min = preset.protein.min || null;
+    nutritionFilter.protein.max = preset.protein.max || null;
+  }
+  if (preset.fat) {
+    nutritionFilter.fat.min = preset.fat.min || null;
+    nutritionFilter.fat.max = preset.fat.max || null;
+  }
+
+  updateDietPresetButtons();
+  updateNutritionInputs();
+  renderRecipeGrid();
+}
+
+/**
+ * Clear all nutrition filters
+ */
+function clearNutritionFilters() {
+  nutritionFilter.calories = { min: null, max: null };
+  nutritionFilter.carbs = { min: null, max: null };
+  nutritionFilter.protein = { min: null, max: null };
+  nutritionFilter.fat = { min: null, max: null };
+  nutritionFilter.activeDietPreset = null;
+}
+
+/**
+ * Update the diet preset button visual states
+ */
+function updateDietPresetButtons() {
+  document.querySelectorAll('.diet-preset-btn').forEach(btn => {
+    const preset = btn.dataset.diet;
+    btn.classList.toggle('active', preset === nutritionFilter.activeDietPreset);
+  });
+}
+
+/**
+ * Update the nutrition input fields to reflect current filter state
+ */
+function updateNutritionInputs() {
+  const calMin = document.getElementById('cal-min');
+  const calMax = document.getElementById('cal-max');
+  const carbsMin = document.getElementById('carbs-min');
+  const carbsMax = document.getElementById('carbs-max');
+  const proteinMin = document.getElementById('protein-min');
+  const proteinMax = document.getElementById('protein-max');
+  const fatMin = document.getElementById('fat-min');
+  const fatMax = document.getElementById('fat-max');
+
+  if (calMin) calMin.value = nutritionFilter.calories.min ?? '';
+  if (calMax) calMax.value = nutritionFilter.calories.max ?? '';
+  if (carbsMin) carbsMin.value = nutritionFilter.carbs.min ?? '';
+  if (carbsMax) carbsMax.value = nutritionFilter.carbs.max ?? '';
+  if (proteinMin) proteinMin.value = nutritionFilter.protein.min ?? '';
+  if (proteinMax) proteinMax.value = nutritionFilter.protein.max ?? '';
+  if (fatMin) fatMin.value = nutritionFilter.fat.min ?? '';
+  if (fatMax) fatMax.value = nutritionFilter.fat.max ?? '';
+}
+
+/**
+ * Read current values from nutrition input fields and apply to filter
+ */
+function applyCustomNutritionFilters() {
+  const parseInput = (id) => {
+    const el = document.getElementById(id);
+    if (!el || el.value.trim() === '') return null;
+    const val = parseInt(el.value, 10);
+    return isNaN(val) ? null : val;
+  };
+
+  // Clear preset when custom values are entered
+  nutritionFilter.activeDietPreset = null;
+  updateDietPresetButtons();
+
+  nutritionFilter.calories.min = parseInput('cal-min');
+  nutritionFilter.calories.max = parseInput('cal-max');
+  nutritionFilter.carbs.min = parseInput('carbs-min');
+  nutritionFilter.carbs.max = parseInput('carbs-max');
+  nutritionFilter.protein.min = parseInput('protein-min');
+  nutritionFilter.protein.max = parseInput('protein-max');
+  nutritionFilter.fat.min = parseInput('fat-min');
+  nutritionFilter.fat.max = parseInput('fat-max');
+
+  const onlyWithNutrition = document.getElementById('only-with-nutrition');
+  nutritionFilter.onlyWithNutrition = onlyWithNutrition?.checked || false;
+
+  renderRecipeGrid();
+}
+
+/**
+ * Setup nutrition and time filter event listeners
+ */
+function setupNutritionFilters() {
+  // Time filter
+  const timeFilter = document.getElementById('time-filter');
+  if (timeFilter) {
+    timeFilter.addEventListener('change', (e) => {
+      nutritionFilter.timeLimit = e.target.value ? parseInt(e.target.value, 10) : null;
+      renderRecipeGrid();
+    });
+  }
+
+  // Nutrition toggle button
+  const nutritionToggle = document.getElementById('nutrition-toggle');
+  const nutritionFilters = document.getElementById('nutrition-filters');
+  if (nutritionToggle && nutritionFilters) {
+    nutritionToggle.addEventListener('click', () => {
+      const isExpanded = nutritionToggle.getAttribute('aria-expanded') === 'true';
+      nutritionToggle.setAttribute('aria-expanded', !isExpanded);
+      nutritionFilters.classList.toggle('hidden', isExpanded);
+      nutritionToggle.querySelector('.toggle-icon').textContent = isExpanded ? '▼' : '▲';
+    });
+  }
+
+  // Diet preset buttons
+  document.querySelectorAll('.diet-preset-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      applyDietPreset(btn.dataset.diet);
+    });
+  });
+
+  // Apply filters button
+  const applyBtn = document.getElementById('apply-nutrition-filter');
+  if (applyBtn) {
+    applyBtn.addEventListener('click', applyCustomNutritionFilters);
+  }
+
+  // Only with nutrition checkbox - apply immediately
+  const onlyWithNutrition = document.getElementById('only-with-nutrition');
+  if (onlyWithNutrition) {
+    onlyWithNutrition.addEventListener('change', () => {
+      nutritionFilter.onlyWithNutrition = onlyWithNutrition.checked;
+      renderRecipeGrid();
+    });
+  }
+}
+
+/**
+ * Get nutrition status for a recipe based on current filters
+ * @param {Object} recipe - The recipe object
+ * @returns {Object} - { status: 'good'|'warn'|'over'|null, message: string }
+ */
+function getNutritionStatus(recipe) {
+  if (!hasActiveNutritionFilter() && !nutritionFilter.activeDietPreset) {
+    return null;
+  }
+
+  if (!recipe.nutrition) {
+    return { status: 'warn', message: 'No nutrition data' };
+  }
+
+  const n = recipe.nutrition;
+  const issues = [];
+
+  // Check each filter
+  if (nutritionFilter.calories.max !== null && n.calories > nutritionFilter.calories.max) {
+    issues.push(`${n.calories} cal (max ${nutritionFilter.calories.max})`);
+  }
+  if (nutritionFilter.carbs.max !== null && n.carbohydrates > nutritionFilter.carbs.max) {
+    issues.push(`${n.carbohydrates}g carbs (max ${nutritionFilter.carbs.max}g)`);
+  }
+  if (nutritionFilter.protein.min !== null && n.protein < nutritionFilter.protein.min) {
+    issues.push(`${n.protein}g protein (min ${nutritionFilter.protein.min}g)`);
+  }
+  if (nutritionFilter.fat.max !== null && n.fat > nutritionFilter.fat.max) {
+    issues.push(`${n.fat}g fat (max ${nutritionFilter.fat.max}g)`);
+  }
+
+  if (issues.length > 0) {
+    return { status: 'over', message: issues.join(', ') };
+  }
+
+  return { status: 'good', message: 'Meets criteria' };
 }
 
 // =============================================================================
@@ -1650,6 +1948,59 @@ function renderRecipeGrid() {
       }
     }
 
+    // Time filter
+    if (nutritionFilter.timeLimit) {
+      const recipeTime = parseTimeToMinutes(recipe.total_time || recipe.cook_time);
+      if (recipeTime === null || recipeTime > nutritionFilter.timeLimit) {
+        return false;
+      }
+    }
+
+    // Nutrition filters
+    if (nutritionFilter.onlyWithNutrition && !recipe.nutrition) {
+      return false;
+    }
+
+    // Check nutrition ranges if recipe has data
+    if (recipe.nutrition) {
+      const n = recipe.nutrition;
+
+      // Calories filter
+      if (nutritionFilter.calories.min !== null && (n.calories === undefined || n.calories < nutritionFilter.calories.min)) {
+        return false;
+      }
+      if (nutritionFilter.calories.max !== null && n.calories !== undefined && n.calories > nutritionFilter.calories.max) {
+        return false;
+      }
+
+      // Carbs filter
+      if (nutritionFilter.carbs.min !== null && (n.carbohydrates === undefined || n.carbohydrates < nutritionFilter.carbs.min)) {
+        return false;
+      }
+      if (nutritionFilter.carbs.max !== null && n.carbohydrates !== undefined && n.carbohydrates > nutritionFilter.carbs.max) {
+        return false;
+      }
+
+      // Protein filter
+      if (nutritionFilter.protein.min !== null && (n.protein === undefined || n.protein < nutritionFilter.protein.min)) {
+        return false;
+      }
+      if (nutritionFilter.protein.max !== null && n.protein !== undefined && n.protein > nutritionFilter.protein.max) {
+        return false;
+      }
+
+      // Fat filter
+      if (nutritionFilter.fat.min !== null && (n.fat === undefined || n.fat < nutritionFilter.fat.min)) {
+        return false;
+      }
+      if (nutritionFilter.fat.max !== null && n.fat !== undefined && n.fat > nutritionFilter.fat.max) {
+        return false;
+      }
+    } else if (hasActiveNutritionFilter()) {
+      // No nutrition data but filters are active - skip unless showing all
+      return false;
+    }
+
     return true;
   });
 
@@ -2192,6 +2543,19 @@ function clearFilters() {
   if (ingredientInput) ingredientInput.value = '';
   const resultsDiv = document.getElementById('ingredient-search-results');
   if (resultsDiv) resultsDiv.classList.add('hidden');
+
+  // Clear time filter
+  const timeFilter = document.getElementById('time-filter');
+  if (timeFilter) timeFilter.value = '';
+  nutritionFilter.timeLimit = null;
+
+  // Clear nutrition filters
+  clearNutritionFilters();
+  nutritionFilter.onlyWithNutrition = false;
+  updateNutritionInputs();
+  updateDietPresetButtons();
+  const onlyWithNutrition = document.getElementById('only-with-nutrition');
+  if (onlyWithNutrition) onlyWithNutrition.checked = false;
 
   renderRecipeGrid();
 }

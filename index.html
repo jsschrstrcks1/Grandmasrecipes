@@ -247,6 +247,78 @@
           </select>
         </div>
 
+        <!-- Time Filter -->
+        <div class="time-filter-row">
+          <label for="time-filter" class="filter-label">Ready in:</label>
+          <select id="time-filter" class="time-select">
+            <option value="">Any time</option>
+            <option value="15">15 min or less</option>
+            <option value="30">30 min or less</option>
+            <option value="45">45 min or less</option>
+            <option value="60">1 hour or less</option>
+            <option value="90">1.5 hours or less</option>
+            <option value="120">2 hours or less</option>
+          </select>
+        </div>
+
+        <!-- Nutrition Filters (Collapsible) -->
+        <div class="nutrition-section">
+          <button type="button" class="nutrition-toggle" id="nutrition-toggle" aria-expanded="false">
+            <span class="filter-label">Nutrition Filters</span>
+            <span class="toggle-icon">▼</span>
+          </button>
+          <div id="nutrition-filters" class="nutrition-filters hidden">
+            <!-- Diet Presets -->
+            <div class="diet-presets">
+              <span class="preset-label">Quick filters:</span>
+              <button type="button" class="diet-preset-btn" data-diet="low-carb">Low Carb</button>
+              <button type="button" class="diet-preset-btn" data-diet="low-cal">Low Cal</button>
+              <button type="button" class="diet-preset-btn" data-diet="high-protein">High Protein</button>
+              <button type="button" class="diet-preset-btn" data-diet="low-fat">Low Fat</button>
+              <button type="button" class="diet-preset-btn" data-diet="low-sodium">Low Sodium</button>
+              <button type="button" class="diet-preset-btn" data-diet="clear">Clear</button>
+            </div>
+
+            <!-- Custom Ranges -->
+            <div class="nutrition-ranges">
+              <div class="nutrition-range-row">
+                <label>Calories:</label>
+                <input type="number" id="cal-min" placeholder="Min" min="0">
+                <span>to</span>
+                <input type="number" id="cal-max" placeholder="Max" min="0">
+              </div>
+              <div class="nutrition-range-row">
+                <label>Carbs (g):</label>
+                <input type="number" id="carbs-min" placeholder="Min" min="0">
+                <span>to</span>
+                <input type="number" id="carbs-max" placeholder="Max" min="0">
+              </div>
+              <div class="nutrition-range-row">
+                <label>Protein (g):</label>
+                <input type="number" id="protein-min" placeholder="Min" min="0">
+                <span>to</span>
+                <input type="number" id="protein-max" placeholder="Max" min="0">
+              </div>
+              <div class="nutrition-range-row">
+                <label>Fat (g):</label>
+                <input type="number" id="fat-min" placeholder="Min" min="0">
+                <span>to</span>
+                <input type="number" id="fat-max" placeholder="Max" min="0">
+              </div>
+            </div>
+
+            <!-- Only with nutrition toggle -->
+            <div class="nutrition-options">
+              <label class="nutrition-checkbox">
+                <input type="checkbox" id="only-with-nutrition">
+                <span>Only show recipes with nutrition data</span>
+              </label>
+            </div>
+
+            <button type="button" id="apply-nutrition-filter" class="btn btn-small btn-primary">Apply Filters</button>
+          </div>
+        </div>
+
         <!-- Collapsible Tags Section -->
         <div class="tags-section">
           <button type="button" class="tags-toggle" id="tags-toggle" aria-expanded="true">

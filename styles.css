@@ -2467,6 +2467,245 @@ main {
   }
 }
 
+/* =============================================================================
+   TIME AND NUTRITION FILTERS
+   ============================================================================= */
+
+/* Time Filter Row */
+.time-filter-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.time-select {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: 2px solid var(--color-teal);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background-color: var(--color-warm-white);
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.time-select:focus {
+  outline: none;
+  border-color: var(--color-coral);
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2);
+}
+
+/* Nutrition Section */
+.nutrition-section {
+  margin-bottom: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.nutrition-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-cream);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.nutrition-toggle:hover {
+  background-color: var(--color-teal-light);
+}
+
+.nutrition-toggle .toggle-icon {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.nutrition-toggle[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.nutrition-filters {
+  padding: var(--spacing-md);
+  background-color: var(--color-warm-white);
+  border-top: 1px solid var(--color-border);
+}
+
+.nutrition-filters.hidden {
+  display: none;
+}
+
+/* Diet Presets */
+.diet-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.diet-presets .preset-label {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-right: var(--spacing-xs);
+}
+
+.diet-preset-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  border: 2px solid var(--color-teal);
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.diet-preset-btn:hover {
+  background-color: var(--color-teal-light);
+  border-color: var(--color-teal-dark);
+}
+
+.diet-preset-btn.active {
+  background-color: var(--color-teal);
+  color: white;
+  border-color: var(--color-teal-dark);
+}
+
+.diet-preset-btn[data-diet="clear"] {
+  background-color: transparent;
+  border-color: var(--color-coral);
+  color: var(--color-coral);
+}
+
+.diet-preset-btn[data-diet="clear"]:hover {
+  background-color: var(--color-coral);
+  color: white;
+}
+
+/* Nutrition Ranges */
+.nutrition-ranges {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.nutrition-range-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.nutrition-range-row label {
+  min-width: 80px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.nutrition-range-row input[type="number"] {
+  width: 70px;
+  padding: var(--spacing-xs);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  text-align: center;
+}
+
+.nutrition-range-row input[type="number"]:focus {
+  outline: none;
+  border-color: var(--color-teal);
+  box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.2);
+}
+
+.nutrition-range-row span {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+/* Nutrition Options */
+.nutrition-options {
+  margin-bottom: var(--spacing-md);
+}
+
+.nutrition-checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.nutrition-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Nutrition badge on recipe cards */
+.recipe-nutrition-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background-color: var(--color-teal-light);
+  color: var(--color-teal-dark);
+  border-radius: 4px;
+  margin-top: var(--spacing-xs);
+}
+
+.recipe-nutrition-badge.no-data {
+  background-color: var(--color-cream);
+  color: var(--color-text-light);
+}
+
+/* Three-tier nutrition status */
+.nutrition-status-good {
+  color: var(--color-teal-dark);
+  background-color: rgba(0, 150, 136, 0.15);
+}
+
+.nutrition-status-warn {
+  color: #856404;
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
+.nutrition-status-over {
+  color: var(--color-cherry);
+  background-color: rgba(255, 107, 107, 0.15);
+}
+
+/* Responsive nutrition filters */
+@media (max-width: 768px) {
+  .nutrition-range-row {
+    flex-wrap: wrap;
+  }
+
+  .nutrition-range-row label {
+    width: 100%;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .nutrition-range-row input[type="number"] {
+    flex: 1;
+  }
+
+  .diet-presets {
+    justify-content: center;
+  }
+}
+
 /* Special 1950s Decorative Elements */
 .retro-divider {
   text-align: center;
