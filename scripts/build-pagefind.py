@@ -2,9 +2,10 @@
 """
 Build Pagefind search index for recipes.
 
-1. Generates temporary HTML pages for each recipe (for Pagefind to index)
-2. Runs Pagefind to build the search index
-3. Cleans up temporary files
+1. Fetches recipes from local and remote collections
+2. Generates temporary HTML pages for each recipe (for Pagefind to index)
+3. Runs Pagefind to build the search index
+4. Cleans up temporary files
 
 The resulting _pagefind/ directory contains the search index.
 """
@@ -14,6 +15,56 @@ import os
 import shutil
 import subprocess
 import sys
+import urllib.request
+import urllib.error
+
+# Remote collections to fetch (in addition to local recipes)
+REMOTE_COLLECTIONS = [
+    {
+        "id": "mommom-baker",
+        "name": "MomMom Baker",
+        "base_url": "https://jsschrstrcks1.github.io/MomsRecipes",
+        "urls": [
+            "https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json",
+        ]
+    },
+    {
+        "id": "granny-hudson",
+        "name": "Granny Hudson",
+        "base_url": "https://jsschrstrcks1.github.io/Grannysrecipes",
+        "urls": [
+            "https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json",
+            "https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json",
+            "https://raw.githubusercontent.com/jsschrstrcks1/Grannysrecipes/main/granny/recipes_master.json",
+        ]
+    },
+    {
+        "id": "all",
+        "name": "Other Recipes",
+        "base_url": "https://jsschrstrcks1.github.io/Allrecipes",
+        "urls": [
+            "https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json",
+            "https://jsschrstrcks1.github.io/Allrecipes/all/recipes_master.json",
+            "https://raw.githubusercontent.com/jsschrstrcks1/Allrecipes/main/all/recipes_master.json",
+        ]
+    },
+]
+
+def fetch_remote_recipes(collection):
+    """Fetch recipes from a remote collection."""
+    for url in collection["urls"]:
+        try:
+            print(f"  Trying {url}...")
+            req = urllib.request.Request(url, headers={'User-Agent': 'GrandmasKitchen/1.0'})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                data = json.loads(response.read().decode('utf-8'))
+                recipes = data.get('recipes', data if isinstance(data, list) else [])
+                print(f"  Found {len(recipes)} recipes from {collection['name']}")
+                return recipes
+        except (urllib.error.URLError, json.JSONDecodeError, Exception) as e:
+            print(f"  Failed: {e}")
+            continue
+    return []
 
 def escape_html(text):
     """Escape HTML special characters."""
@@ -25,8 +76,13 @@ def escape_html(text):
             .replace('>', '&gt;')
             .replace('"', '&quot;'))
 
-def generate_recipe_html(recipe):
-    """Generate indexable HTML for a single recipe."""
+def generate_recipe_html(recipe, base_url=None):
+    """Generate indexable HTML for a single recipe.
+
+    Args:
+        recipe: Recipe dict
+        base_url: Base URL for remote collections (None for local)
+    """
     recipe_id = recipe.get('id', '')
     title = escape_html(recipe.get('title', ''))
     category = escape_html(recipe.get('category', ''))
@@ -47,6 +103,12 @@ def generate_recipe_html(recipe):
     tags = recipe.get('tags', [])
     tags_html = ' '.join(escape_html(t) for t in tags)
 
+    # URL: local recipes use relative path, remote use absolute URL
+    if base_url:
+        recipe_url = f"{base_url}/recipe.html#{recipe_id}"
+    else:
+        recipe_url = f"recipe.html#{recipe_id}"
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +123,7 @@ def generate_recipe_html(recipe):
     <p data-pagefind-meta="description">{description}</p>
     <div data-pagefind-weight="5">{ingredients_html}</div>
     <div data-pagefind-meta="tags">{tags_html}</div>
-    <a data-pagefind-meta="url" href="recipe.html#{recipe_id}"></a>
+    <a data-pagefind-meta="url" href="{recipe_url}"></a>
   </article>
 </body>
 </html>'''
@@ -72,31 +134,55 @@ def main():
     data_dir = os.path.join(root_dir, 'data')
     build_dir = os.path.join(root_dir, '.pagefind-build')
 
-    # Load recipes
-    recipes_path = os.path.join(data_dir, 'recipes_master.json')
-    print(f"Loading recipes from {recipes_path}...")
-
-    with open(recipes_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    recipes = data.get('recipes', data)
-    print(f"Found {len(recipes)} recipes")
-
     # Create build directory
     if os.path.exists(build_dir):
         shutil.rmtree(build_dir)
     os.makedirs(build_dir)
 
-    # Generate HTML for each recipe
-    print("Generating indexable HTML...")
-    for recipe in recipes:
+    total_recipes = 0
+
+    # Load local recipes (Grandma Baker)
+    recipes_path = os.path.join(data_dir, 'recipes_master.json')
+    print(f"Loading local recipes from {recipes_path}...")
+
+    with open(recipes_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    local_recipes = data.get('recipes', data)
+    print(f"  Found {len(local_recipes)} local recipes (Grandma Baker)")
+
+    # Generate HTML for local recipes
+    for recipe in local_recipes:
         recipe_id = recipe.get('id', 'unknown')
-        html = generate_recipe_html(recipe)
-        html_path = os.path.join(build_dir, f'{recipe_id}.html')
+        html = generate_recipe_html(recipe, base_url=None)
+        html_path = os.path.join(build_dir, f'local_{recipe_id}.html')
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(html)
+    total_recipes += len(local_recipes)
 
-    print(f"Generated {len(recipes)} HTML files in {build_dir}")
+    # Fetch and generate HTML for remote collections
+    print("\nFetching remote collections...")
+    for collection in REMOTE_COLLECTIONS:
+        print(f"\n{collection['name']}:")
+        remote_recipes = fetch_remote_recipes(collection)
+
+        for recipe in remote_recipes:
+            recipe_id = recipe.get('id', 'unknown')
+            # Ensure collection metadata is set
+            if not recipe.get('collection'):
+                recipe['collection'] = collection['id']
+            if not recipe.get('collection_display'):
+                recipe['collection_display'] = collection['name']
+
+            html = generate_recipe_html(recipe, base_url=collection['base_url'])
+            # Prefix with collection id to avoid ID collisions
+            html_path = os.path.join(build_dir, f"{collection['id']}_{recipe_id}.html")
+            with open(html_path, 'w', encoding='utf-8') as f:
+                f.write(html)
+
+        total_recipes += len(remote_recipes)
+
+    print(f"\nGenerated {total_recipes} HTML files in {build_dir}")
 
     # Run Pagefind
     print("\nRunning Pagefind...")

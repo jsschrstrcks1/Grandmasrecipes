@@ -453,7 +453,7 @@ async function loadPagefind() {
 /**
  * Search recipes using Pagefind
  * @param {string} query - Search query
- * @returns {Array|null} - Array of matching recipe IDs, or null if Pagefind unavailable
+ * @returns {Object|null} - Object with localIds (for filtering) and remoteResults (for display), or null if Pagefind unavailable
  */
 async function searchWithPagefind(query) {
   if (!query || query.length < 2) {
@@ -468,21 +468,33 @@ async function searchWithPagefind(query) {
   try {
     const search = await pf.search(query);
     if (!search || !search.results) {
-      return [];
+      return { localIds: [], remoteResults: [] };
     }
 
-    // Extract recipe IDs from results
-    const recipeIds = [];
+    const localIds = [];
+    const remoteResults = [];
+
     for (const result of search.results.slice(0, 100)) { // Limit to top 100
       const data = await result.data();
       if (data.url) {
-        // URL is like "recipe.html#recipe-id"
-        const id = data.url.split('#')[1];
-        if (id) recipeIds.push(id);
+        // Check if it's a remote URL (starts with http)
+        if (data.url.startsWith('http')) {
+          remoteResults.push({
+            title: data.meta?.title || 'Unknown Recipe',
+            url: data.url,
+            collection: data.meta?.collection || 'External',
+            category: data.meta?.category || '',
+            description: data.meta?.description || ''
+          });
+        } else {
+          // Local recipe - extract ID from "recipe.html#recipe-id"
+          const id = data.url.split('#')[1];
+          if (id) localIds.push(id);
+        }
       }
     }
 
-    return recipeIds;
+    return { localIds, remoteResults };
   } catch (error) {
     console.error('Pagefind search error:', error);
     return null;
@@ -3462,9 +3474,9 @@ function renderRecipeGrid() {
 
     // Search filter (uses Pagefind when available, falls back to basic search)
     if (currentFilter.search) {
-      if (pagefindSearchResults !== null) {
-        // Pagefind returned results - use those IDs
-        if (!pagefindSearchResults.includes(recipe.id)) return false;
+      if (pagefindSearchResults !== null && pagefindSearchResults.localIds) {
+        // Pagefind returned results - use those IDs for local recipes
+        if (!pagefindSearchResults.localIds.includes(recipe.id)) return false;
       } else {
         // Fall back to basic text search
         const searchText = [
@@ -3594,6 +3606,27 @@ function renderRecipeGrid() {
       : null;
     html += renderRecipeCard(recipe, matchInfo);
   });
+
+  // Add remote results from Pagefind if searching
+  if (pagefindSearchResults && pagefindSearchResults.remoteResults && pagefindSearchResults.remoteResults.length > 0) {
+    html += `
+      <div class="remote-results-section" style="grid-column: 1/-1; margin-top: 2rem; padding-top: 1rem; border-top: 2px dashed var(--color-teal-light);">
+        <h3 style="color: var(--color-teal-dark); margin-bottom: 1rem;">Also found in other collections:</h3>
+        <div class="remote-results-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;">
+    `;
+    pagefindSearchResults.remoteResults.forEach(result => {
+      html += `
+        <a href="${escapeAttr(result.url)}" class="remote-recipe-card" target="_blank" rel="noopener"
+           style="display: block; padding: 1rem; background: var(--color-cream); border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 0.75rem; color: var(--color-coral); margin-bottom: 0.25rem;">${escapeHtml(result.collection)}</div>
+          <div style="font-weight: 600; color: var(--color-teal-dark);">${escapeHtml(result.title)}</div>
+          ${result.category ? `<div style="font-size: 0.8rem; color: #666;">${escapeHtml(result.category)}</div>` : ''}
+          <div style="font-size: 0.7rem; color: var(--color-teal); margin-top: 0.5rem;">View on ${escapeHtml(result.collection)} →</div>
+        </a>
+      `;
+    });
+    html += `</div></div>`;
+  }
 
   container.innerHTML = html;
 }
