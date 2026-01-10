@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Calculator - Grandma's Kitchen</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;500;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="data/favicon.ico">
+</head>
+<body>
+  <!-- Authentication Gate -->
+  <div id="auth-gate" class="auth-gate" style="display: none;">
+    <div class="auth-container">
+      <h1>Welcome to Grandma's Kitchen</h1>
+      <p>To access our family recipes, please answer this question:</p>
+      <label for="auth-answer">What is Grandma's last name?</label>
+      <input type="text" id="auth-answer" placeholder="Enter your answer">
+      <button id="auth-submit" class="btn btn-primary">Enter Kitchen</button>
+      <p id="auth-error" class="error-message" style="display: none;">That's not quite right. Try again!</p>
+    </div>
+  </div>
+
+  <div id="site-content" style="display: none;">
+    <header class="site-header">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">
+            <h1>Grandma's Kitchen</h1>
+            <span class="tagline">Family Recipe Calculator</span>
+          </a>
+          <nav class="main-nav">
+            <a href="index.html" class="nav-link">Recipes</a>
+            <a href="calculator.html" class="nav-link active">Calculator</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <section class="calculator-hero">
+          <h2>Recipe Calculator</h2>
+          <p>Compare your recipe ingredients against our family database. See how your recipe measures up!</p>
+        </section>
+
+        <!-- Calculator Form -->
+        <section class="calculator-section">
+          <div class="calculator-form">
+            <div class="form-group">
+              <label for="recipe-category">What are you making?</label>
+              <select id="recipe-category" class="category-select">
+                <option value="">Select a category...</option>
+                <option value="desserts">Desserts (cakes, cookies, pies)</option>
+                <option value="breads">Breads & Rolls</option>
+                <option value="mains">Main Dishes</option>
+                <option value="sides">Side Dishes</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="soups">Soups & Stews</option>
+                <option value="appetizers">Appetizers</option>
+                <option value="salads">Salads</option>
+                <option value="beverages">Beverages</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Your Ingredients</label>
+              <p class="form-help">Add your ingredients with amounts to compare against our recipes</p>
+              <div id="ingredient-inputs" class="ingredient-inputs">
+                <div class="ingredient-input-row">
+                  <input type="text" class="amount-input" placeholder="Amount" data-field="amount">
+                  <select class="unit-select" data-field="unit">
+                    <option value="">unit</option>
+                    <option value="cup">cup</option>
+                    <option value="cups">cups</option>
+                    <option value="tbsp">tbsp</option>
+                    <option value="tsp">tsp</option>
+                    <option value="oz">oz</option>
+                    <option value="lb">lb</option>
+                    <option value="whole">whole</option>
+                    <option value="package">package</option>
+                  </select>
+                  <input type="text" class="ingredient-name-input" placeholder="Ingredient name" data-field="name">
+                  <button type="button" class="remove-ingredient-btn" title="Remove">&times;</button>
+                </div>
+              </div>
+              <button type="button" id="add-ingredient-btn" class="btn btn-secondary btn-small">+ Add Ingredient</button>
+            </div>
+
+            <button type="button" id="analyze-btn" class="btn btn-primary">Analyze Recipe</button>
+          </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="calculator-results" class="calculator-results hidden">
+          <h3>Analysis Results</h3>
+
+          <!-- Category Comparison -->
+          <div id="category-comparison" class="result-card">
+            <h4>Category Comparison</h4>
+            <div id="comparison-stats" class="comparison-stats">
+              <!-- Populated by JavaScript -->
+            </div>
+          </div>
+
+          <!-- Similar Recipes -->
+          <div id="similar-recipes" class="result-card">
+            <h4>Similar Recipes in Our Collection</h4>
+            <div id="similar-list" class="similar-list">
+              <!-- Populated by JavaScript -->
+            </div>
+          </div>
+
+          <!-- Suggestions -->
+          <div id="recipe-suggestions" class="result-card">
+            <h4>Suggestions</h4>
+            <div id="suggestions-list" class="suggestions-list">
+              <!-- Populated by JavaScript -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Grandma's Kitchen &middot; A Family Treasure</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">From Michigan to Florida &middot; Preserved with Love</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Calculator-specific JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+      // Wait for recipes to load
+      const checkRecipes = setInterval(() => {
+        if (typeof recipes !== 'undefined' && recipes.length > 0) {
+          clearInterval(checkRecipes);
+          initCalculator();
+        }
+      }, 100);
+    });
+
+    function initCalculator() {
+      const addBtn = document.getElementById('add-ingredient-btn');
+      const analyzeBtn = document.getElementById('analyze-btn');
+      const inputsContainer = document.getElementById('ingredient-inputs');
+
+      // Add ingredient row
+      addBtn?.addEventListener('click', () => {
+        const row = document.createElement('div');
+        row.className = 'ingredient-input-row';
+        row.innerHTML = `
+          <input type="text" class="amount-input" placeholder="Amount" data-field="amount">
+          <select class="unit-select" data-field="unit">
+            <option value="">unit</option>
+            <option value="cup">cup</option>
+            <option value="cups">cups</option>
+            <option value="tbsp">tbsp</option>
+            <option value="tsp">tsp</option>
+            <option value="oz">oz</option>
+            <option value="lb">lb</option>
+            <option value="whole">whole</option>
+            <option value="package">package</option>
+          </select>
+          <input type="text" class="ingredient-name-input" placeholder="Ingredient name" data-field="name">
+          <button type="button" class="remove-ingredient-btn" title="Remove">&times;</button>
+        `;
+        inputsContainer.appendChild(row);
+        attachRemoveHandler(row.querySelector('.remove-ingredient-btn'));
+      });
+
+      // Remove ingredient handlers
+      function attachRemoveHandler(btn) {
+        btn?.addEventListener('click', () => {
+          const rows = inputsContainer.querySelectorAll('.ingredient-input-row');
+          if (rows.length > 1) {
+            btn.closest('.ingredient-input-row').remove();
+          }
+        });
+      }
+      document.querySelectorAll('.remove-ingredient-btn').forEach(attachRemoveHandler);
+
+      // Analyze button
+      analyzeBtn?.addEventListener('click', analyzeRecipe);
+    }
+
+    function analyzeRecipe() {
+      const category = document.getElementById('recipe-category').value;
+      const rows = document.querySelectorAll('.ingredient-input-row');
+
+      // Collect user ingredients
+      const userIngredients = [];
+      rows.forEach(row => {
+        const amount = row.querySelector('[data-field="amount"]').value.trim();
+        const unit = row.querySelector('[data-field="unit"]').value;
+        const name = row.querySelector('[data-field="name"]').value.trim();
+
+        if (name) {
+          userIngredients.push({
+            amount: parseQuantity(amount) || 0,
+            unit: unit,
+            name: name.toLowerCase()
+          });
+        }
+      });
+
+      if (userIngredients.length === 0) {
+        showToast('Please add at least one ingredient');
+        return;
+      }
+
+      // Filter recipes by category
+      const categoryRecipes = category
+        ? recipes.filter(r => r.category === category)
+        : recipes;
+
+      // Calculate category statistics
+      const stats = calculateCategoryStats(categoryRecipes, userIngredients);
+
+      // Find similar recipes
+      const similar = findSimilarRecipes(categoryRecipes, userIngredients);
+
+      // Generate suggestions
+      const suggestions = generateSuggestions(stats, userIngredients);
+
+      // Display results
+      displayResults(stats, similar, suggestions, category);
+    }
+
+    function calculateCategoryStats(categoryRecipes, userIngredients) {
+      const stats = {};
+
+      userIngredients.forEach(userIng => {
+        const ingName = normalizeIngredientName(userIng.name);
+        const matchingAmounts = [];
+
+        categoryRecipes.forEach(recipe => {
+          if (!recipe.ingredients) return;
+
+          recipe.ingredients.forEach(ing => {
+            const recipeIngName = normalizeIngredientName(ing.item || '');
+            if (recipeIngName.includes(ingName) || ingName.includes(recipeIngName)) {
+              const amount = parseQuantity(ing.quantity);
+              if (amount !== null) {
+                matchingAmounts.push({
+                  amount: amount,
+                  unit: ing.unit,
+                  recipe: recipe.title
+                });
+              }
+            }
+          });
+        });
+
+        if (matchingAmounts.length > 0) {
+          const amounts = matchingAmounts.map(m => m.amount).filter(a => a > 0);
+          stats[userIng.name] = {
+            userAmount: userIng.amount,
+            userUnit: userIng.unit,
+            found: matchingAmounts.length,
+            min: Math.min(...amounts),
+            max: Math.max(...amounts),
+            avg: amounts.reduce((a, b) => a + b, 0) / amounts.length,
+            samples: matchingAmounts.slice(0, 3)
+          };
+        } else {
+          stats[userIng.name] = {
+            userAmount: userIng.amount,
+            userUnit: userIng.unit,
+            found: 0
+          };
+        }
+      });
+
+      return stats;
+    }
+
+    function findSimilarRecipes(categoryRecipes, userIngredients) {
+      const userIngNames = userIngredients.map(i => normalizeIngredientName(i.name));
+
+      const scored = categoryRecipes.map(recipe => {
+        if (!recipe.ingredients) return { recipe, score: 0, matches: [] };
+
+        const recipeIngNames = recipe.ingredients.map(i =>
+          normalizeIngredientName(i.item || '')
+        );
+
+        let matchCount = 0;
+        const matches = [];
+        userIngNames.forEach(userIng => {
+          const match = recipeIngNames.find(ri => ri.includes(userIng) || userIng.includes(ri));
+          if (match) {
+            matchCount++;
+            matches.push(userIng);
+          }
+        });
+
+        return {
+          recipe,
+          score: matchCount / userIngNames.length,
+          matches,
+          matchCount
+        };
+      });
+
+      return scored
+        .filter(s => s.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 5);
+    }
+
+    function generateSuggestions(stats, userIngredients) {
+      const suggestions = [];
+
+      Object.entries(stats).forEach(([name, data]) => {
+        if (data.found === 0) {
+          suggestions.push({
+            type: 'info',
+            text: `"${name}" is not commonly found in this category. Consider if it's the right category.`
+          });
+        } else if (data.userAmount > 0 && data.avg > 0) {
+          const ratio = data.userAmount / data.avg;
+          if (ratio > 1.5) {
+            suggestions.push({
+              type: 'warning',
+              text: `Your ${name} amount (${data.userAmount} ${data.userUnit}) is higher than average (${data.avg.toFixed(1)}). This may affect the recipe.`
+            });
+          } else if (ratio < 0.5) {
+            suggestions.push({
+              type: 'warning',
+              text: `Your ${name} amount (${data.userAmount} ${data.userUnit}) is lower than average (${data.avg.toFixed(1)}). Consider increasing.`
+            });
+          }
+        }
+      });
+
+      if (suggestions.length === 0) {
+        suggestions.push({
+          type: 'success',
+          text: 'Your ingredient amounts look reasonable for this category!'
+        });
+      }
+
+      return suggestions;
+    }
+
+    function displayResults(stats, similar, suggestions, category) {
+      const resultsSection = document.getElementById('calculator-results');
+      const comparisonDiv = document.getElementById('comparison-stats');
+      const similarDiv = document.getElementById('similar-list');
+      const suggestionsDiv = document.getElementById('suggestions-list');
+
+      // Category comparison
+      let compHtml = '';
+      Object.entries(stats).forEach(([name, data]) => {
+        const barPercent = data.avg > 0 && data.userAmount > 0
+          ? Math.min(100, (data.userAmount / data.max) * 100)
+          : 0;
+        const avgPercent = data.avg > 0 && data.max > 0
+          ? (data.avg / data.max) * 100
+          : 50;
+
+        compHtml += `
+          <div class="stat-row">
+            <div class="stat-name">${escapeHtml(name)}</div>
+            <div class="stat-details">
+              <span class="your-amount">Your amount: ${data.userAmount || 'N/A'} ${data.userUnit || ''}</span>
+              ${data.found > 0 ? `
+                <div class="stat-range">
+                  <div class="range-bar">
+                    <div class="range-fill" style="width: ${barPercent}%"></div>
+                    <div class="avg-marker" style="left: ${avgPercent}%" title="Average: ${data.avg.toFixed(1)}"></div>
+                  </div>
+                  <span class="range-text">Range: ${data.min.toFixed(1)} - ${data.max.toFixed(1)} (avg: ${data.avg.toFixed(1)})</span>
+                </div>
+                <span class="found-count">Found in ${data.found} recipes</span>
+              ` : '<span class="not-found">Not found in category</span>'}
+            </div>
+          </div>
+        `;
+      });
+      comparisonDiv.innerHTML = compHtml || '<p>No comparison data available</p>';
+
+      // Similar recipes
+      if (similar.length > 0) {
+        similarDiv.innerHTML = similar.map(s => `
+          <a href="recipe.html#${escapeAttr(s.recipe.id)}" class="similar-recipe">
+            <span class="recipe-title">${escapeHtml(s.recipe.title)}</span>
+            <span class="match-score">${Math.round(s.score * 100)}% match (${s.matchCount} ingredients)</span>
+          </a>
+        `).join('');
+      } else {
+        similarDiv.innerHTML = '<p>No similar recipes found. Try a different category or add more ingredients.</p>';
+      }
+
+      // Suggestions
+      suggestionsDiv.innerHTML = suggestions.map(s => `
+        <div class="suggestion suggestion-${s.type}">
+          <span class="suggestion-icon">${s.type === 'success' ? '✓' : s.type === 'warning' ? '⚠️' : 'ℹ️'}</span>
+          <span>${escapeHtml(s.text)}</span>
+        </div>
+      `).join('');
+
+      resultsSection.classList.remove('hidden');
+      resultsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
