@@ -2603,6 +2603,279 @@ function setupEventListeners() {
       tagFilters.classList.toggle('collapsed', isExpanded);
     });
   }
+
+  // Keyboard shortcuts
+  setupKeyboardShortcuts();
+
+  // Load URL state (filters from URL params)
+  loadUrlState();
+
+  // Load favorites and recently viewed
+  loadFavorites();
+}
+
+// =============================================================================
+// Keyboard Shortcuts
+// =============================================================================
+
+/**
+ * Setup keyboard shortcuts for navigation
+ */
+function setupKeyboardShortcuts() {
+  document.addEventListener('keydown', (e) => {
+    // Don't trigger shortcuts when typing in input fields
+    if (e.target.matches('input, textarea, select')) return;
+
+    switch (e.key) {
+      case '/':
+        // Focus search input
+        e.preventDefault();
+        const searchInput = document.getElementById('search-input') ||
+                           document.getElementById('ingredient-input');
+        if (searchInput) {
+          searchInput.focus();
+        }
+        break;
+
+      case '?':
+        // Show keyboard shortcuts help
+        if (!e.shiftKey) break;
+        e.preventDefault();
+        showKeyboardShortcutsHelp();
+        break;
+
+      case 'Escape':
+        // Clear search/close modals
+        const activeElement = document.activeElement;
+        if (activeElement && activeElement.matches('input')) {
+          activeElement.blur();
+        }
+        hideAutocomplete();
+        break;
+
+      case 'h':
+        // Go to home
+        if (!e.ctrlKey && !e.metaKey) {
+          window.location.href = 'index.html';
+        }
+        break;
+
+      case 'r':
+        // Random recipe
+        if (!e.ctrlKey && !e.metaKey) {
+          showRandomRecipe();
+        }
+        break;
+    }
+  });
+}
+
+/**
+ * Show keyboard shortcuts help modal
+ */
+function showKeyboardShortcutsHelp() {
+  const existing = document.querySelector('.shortcuts-modal');
+  if (existing) {
+    existing.remove();
+    return;
+  }
+
+  const modal = document.createElement('div');
+  modal.className = 'shortcuts-modal';
+  modal.innerHTML = `
+    <div class="shortcuts-content">
+      <h3>Keyboard Shortcuts</h3>
+      <ul>
+        <li><kbd>/</kbd> Focus search</li>
+        <li><kbd>Esc</kbd> Clear focus / close</li>
+        <li><kbd>h</kbd> Go to home</li>
+        <li><kbd>r</kbd> Random recipe</li>
+        <li><kbd>Shift</kbd> + <kbd>?</kbd> Show this help</li>
+      </ul>
+      <button class="btn btn-small" onclick="this.closest('.shortcuts-modal').remove()">Close</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  // Close on click outside
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.remove();
+  });
+}
+
+/**
+ * Show a random recipe
+ */
+function showRandomRecipe() {
+  if (recipes.length === 0) return;
+
+  // Filter to canonical recipes only
+  const canonical = recipes.filter(r => !r.variant_of || r.variant_of === r.id);
+  const random = canonical[Math.floor(Math.random() * canonical.length)];
+
+  if (random) {
+    window.location.href = `recipe.html#${random.id}`;
+  }
+}
+
+// =============================================================================
+// Favorites System
+// =============================================================================
+
+const FAVORITES_KEY = 'grandmas-kitchen-favorites';
+const RECENTLY_VIEWED_KEY = 'grandmas-kitchen-recent';
+let favorites = [];
+let recentlyViewed = [];
+
+/**
+ * Load favorites from localStorage
+ */
+function loadFavorites() {
+  try {
+    const saved = localStorage.getItem(FAVORITES_KEY);
+    favorites = saved ? JSON.parse(saved) : [];
+
+    const recent = localStorage.getItem(RECENTLY_VIEWED_KEY);
+    recentlyViewed = recent ? JSON.parse(recent) : [];
+  } catch (e) {
+    favorites = [];
+    recentlyViewed = [];
+  }
+}
+
+/**
+ * Save favorites to localStorage
+ */
+function saveFavorites() {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+  } catch (e) {
+    console.error('Failed to save favorites:', e);
+  }
+}
+
+/**
+ * Toggle favorite status for a recipe
+ * @param {string} recipeId - The recipe ID
+ */
+function toggleFavorite(recipeId) {
+  const index = favorites.indexOf(recipeId);
+  if (index > -1) {
+    favorites.splice(index, 1);
+  } else {
+    favorites.push(recipeId);
+  }
+  saveFavorites();
+  return favorites.includes(recipeId);
+}
+
+/**
+ * Check if recipe is a favorite
+ * @param {string} recipeId - The recipe ID
+ * @returns {boolean}
+ */
+function isFavorite(recipeId) {
+  return favorites.includes(recipeId);
+}
+
+/**
+ * Add recipe to recently viewed
+ * @param {string} recipeId - The recipe ID
+ */
+function addToRecentlyViewed(recipeId) {
+  // Remove if already exists
+  recentlyViewed = recentlyViewed.filter(id => id !== recipeId);
+  // Add to front
+  recentlyViewed.unshift(recipeId);
+  // Keep only last 10
+  recentlyViewed = recentlyViewed.slice(0, 10);
+
+  try {
+    localStorage.setItem(RECENTLY_VIEWED_KEY, JSON.stringify(recentlyViewed));
+  } catch (e) {
+    console.error('Failed to save recently viewed:', e);
+  }
+}
+
+/**
+ * Get recently viewed recipes
+ * @returns {Array} - Array of recipe objects
+ */
+function getRecentlyViewed() {
+  return recentlyViewed
+    .map(id => recipes.find(r => r.id === id))
+    .filter(Boolean);
+}
+
+// Make favorites functions available globally
+window.toggleFavorite = toggleFavorite;
+window.isFavorite = isFavorite;
+
+// =============================================================================
+// URL State Management
+// =============================================================================
+
+/**
+ * Load filter state from URL parameters
+ */
+function loadUrlState() {
+  const params = new URLSearchParams(window.location.search);
+
+  // Search query
+  const q = params.get('q');
+  if (q) {
+    currentFilter.search = q.toLowerCase();
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = q;
+  }
+
+  // Category
+  const cat = params.get('cat');
+  if (cat) {
+    currentFilter.category = cat;
+    const categorySelect = document.getElementById('category-filter');
+    if (categorySelect) categorySelect.value = cat;
+  }
+
+  // Ingredients
+  const ing = params.get('ing');
+  if (ing) {
+    selectedIngredients = ing.split(',').map(i => i.trim()).filter(Boolean);
+    renderSelectedIngredients();
+  }
+
+  // Diet preset
+  const diet = params.get('diet');
+  if (diet && DIET_PRESETS[diet]) {
+    applyDietPreset(diet);
+  }
+
+  // Time filter
+  const time = params.get('time');
+  if (time) {
+    nutritionFilter.timeLimit = parseInt(time, 10);
+    const timeSelect = document.getElementById('time-filter');
+    if (timeSelect) timeSelect.value = time;
+  }
+}
+
+/**
+ * Update URL with current filter state (without reloading)
+ */
+function updateUrlState() {
+  const params = new URLSearchParams();
+
+  if (currentFilter.search) params.set('q', currentFilter.search);
+  if (currentFilter.category) params.set('cat', currentFilter.category);
+  if (selectedIngredients.length > 0) params.set('ing', selectedIngredients.join(','));
+  if (nutritionFilter.activeDietPreset) params.set('diet', nutritionFilter.activeDietPreset);
+  if (nutritionFilter.timeLimit) params.set('time', nutritionFilter.timeLimit);
+
+  const newUrl = params.toString()
+    ? `${window.location.pathname}?${params.toString()}`
+    : window.location.pathname;
+
+  window.history.replaceState({}, '', newUrl);
 }
 
 /**
