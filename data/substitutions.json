@@ -1073,6 +1073,839 @@
           "quality": "excellent"
         }
       ]
+    },
+    {
+      "id": "fish-sauce",
+      "primary": "fish sauce",
+      "aliases": ["nam pla", "nuoc mam"],
+      "substitutes": [
+        {
+          "ingredient": "soy sauce",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds saltiness but lacks fish umami. Add a pinch of sugar to balance.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "Worcestershire sauce",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Contains anchovy, provides similar umami. May add slight sweetness.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "anchovy paste",
+          "ratio": "1 tbsp fish sauce:1/2 tsp paste + 1 tbsp water",
+          "direction": "convenience",
+          "notes": "Strong fish flavor, use sparingly. Good umami substitute.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "soy sauce + lime juice",
+          "ratio": "1 tbsp fish sauce:1/2 tbsp soy + 1/2 tbsp lime juice",
+          "direction": "convenience",
+          "notes": "Best approximation for Southeast Asian dishes",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "coconut-milk",
+      "primary": "coconut milk",
+      "aliases": ["coconut cream", "canned coconut milk"],
+      "substitutes": [
+        {
+          "ingredient": "heavy cream",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds richness but changes flavor profile. Good for curries.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "Greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Add to cooked dishes off heat to prevent curdling. Tangy flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "oat milk + coconut oil",
+          "ratio": "1 cup coconut milk:1 cup oat milk + 1 tbsp coconut oil",
+          "direction": "health",
+          "notes": "Dairy-free option with similar richness",
+          "quality": "good"
+        },
+        {
+          "ingredient": "evaporated milk",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar consistency, neutral flavor. Add 1/4 tsp coconut extract for flavor.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "ghee",
+      "primary": "ghee",
+      "aliases": ["clarified butter", "drawn butter"],
+      "substitutes": [
+        {
+          "ingredient": "butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Works for most recipes, but burns at lower temp than ghee. Watch heat carefully.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "High smoke point like ghee, adds slight coconut flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "olive oil",
+          "ratio": "3/4:1",
+          "direction": "health",
+          "notes": "Use less, adds different flavor. Better for sautéing than baking.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "vegetable oil",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Neutral flavor, works for frying. Lacks ghee's nutty taste.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "curry-powder",
+      "primary": "curry powder",
+      "aliases": ["curry blend", "madras curry powder"],
+      "substitutes": [
+        {
+          "ingredient": "garam masala + turmeric",
+          "ratio": "1 tbsp curry:3/4 tsp garam masala + 1/4 tsp turmeric",
+          "direction": "convenience",
+          "notes": "Garam masala is warmer/sweeter, turmeric adds color. Good base substitute.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cumin + coriander + turmeric",
+          "ratio": "1 tbsp curry:1 tsp cumin + 1 tsp coriander + 1/2 tsp turmeric",
+          "direction": "convenience",
+          "notes": "Basic curry blend. Add pinch of cayenne for heat.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "turmeric + cumin + ginger + cayenne",
+          "ratio": "1 tbsp curry:1/2 tsp each + pinch cayenne",
+          "direction": "convenience",
+          "notes": "Simpler blend with good color and flavor",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "garam-masala",
+      "primary": "garam masala",
+      "aliases": ["garam masala powder"],
+      "substitutes": [
+        {
+          "ingredient": "curry powder",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Curry powder is more earthy, less warm. Add pinch each cinnamon + cloves.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "allspice + cumin",
+          "ratio": "1 tsp garam masala:1/2 tsp allspice + 1/2 tsp cumin",
+          "direction": "convenience",
+          "notes": "Allspice mimics the warm spice blend character",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "cumin + coriander + cardamom + cinnamon + cloves",
+          "ratio": "1 tbsp garam masala:1 tsp cumin + 1/2 tsp coriander + 1/4 tsp cardamom + 1/4 tsp cinnamon + pinch cloves",
+          "direction": "convenience",
+          "notes": "DIY garam masala - toast whole spices and grind for best flavor",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "turmeric",
+      "primary": "turmeric",
+      "aliases": ["ground turmeric", "turmeric powder", "haldi"],
+      "substitutes": [
+        {
+          "ingredient": "saffron",
+          "ratio": "1 tsp turmeric:pinch saffron + water",
+          "direction": "convenience",
+          "notes": "For color mainly. Expensive but authentic golden color. Different flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "annatto seeds/powder",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Provides similar golden color with mild earthy flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "mustard powder + paprika",
+          "ratio": "1 tsp turmeric:1/2 tsp mustard powder + 1/2 tsp paprika",
+          "direction": "convenience",
+          "notes": "For color approximation. Different flavor profile.",
+          "quality": "poor"
+        },
+        {
+          "ingredient": "fresh turmeric root",
+          "ratio": "1 tsp dried:1 tbsp fresh grated",
+          "direction": "health",
+          "notes": "Fresh has brighter flavor. Stains hands and surfaces!",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "cardamom",
+      "primary": "cardamom",
+      "aliases": ["ground cardamom", "cardamom powder", "elaichi"],
+      "substitutes": [
+        {
+          "ingredient": "cinnamon + nutmeg",
+          "ratio": "1 tsp cardamom:1/2 tsp cinnamon + 1/4 tsp nutmeg",
+          "direction": "convenience",
+          "notes": "Mimics warmth but lacks cardamom's unique citrus-mint notes",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "allspice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar warmth, works in baked goods. Add tiny pinch of cloves.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "cardamom pods",
+          "ratio": "1/2 tsp ground:3-4 whole pods",
+          "direction": "convenience",
+          "notes": "Crush pods, remove seeds, grind. Much more aromatic than pre-ground.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "coriander-ground",
+      "primary": "ground coriander",
+      "aliases": ["coriander powder", "coriander seeds ground", "dhania"],
+      "substitutes": [
+        {
+          "ingredient": "cumin",
+          "ratio": "1:0.75",
+          "direction": "convenience",
+          "notes": "Similar earthy profile, slightly different flavor. Use less.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "caraway seeds",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Related flavor profile, use half amount",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "fresh cilantro",
+          "ratio": "1 tsp ground:2 tbsp fresh chopped",
+          "direction": "health",
+          "notes": "Different but complementary flavor. Add at end of cooking.",
+          "quality": "poor"
+        },
+        {
+          "ingredient": "coriander seeds",
+          "ratio": "1 tsp ground:1.5 tsp whole seeds",
+          "direction": "convenience",
+          "notes": "Toast and grind for best flavor",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "cumin-ground",
+      "primary": "ground cumin",
+      "aliases": ["cumin powder", "jeera"],
+      "substitutes": [
+        {
+          "ingredient": "caraway seeds",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Related flavor, use half. Common in European recipes.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "coriander + chili powder",
+          "ratio": "1 tsp cumin:1/2 tsp coriander + 1/2 tsp chili powder",
+          "direction": "convenience",
+          "notes": "Approximates cumin's earthy warmth",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "cumin seeds",
+          "ratio": "1 tsp ground:1.5 tsp whole seeds",
+          "direction": "convenience",
+          "notes": "Toast and grind for best flavor. Whole seeds last longer.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "taco seasoning",
+          "ratio": "Use sparingly",
+          "direction": "convenience",
+          "notes": "Contains cumin plus other spices. Adjust salt accordingly.",
+          "quality": "poor"
+        }
+      ]
+    },
+    {
+      "id": "fresh-ginger",
+      "primary": "fresh ginger",
+      "aliases": ["ginger root", "fresh ginger root", "grated ginger"],
+      "substitutes": [
+        {
+          "ingredient": "ground ginger",
+          "ratio": "1 tbsp fresh:1/4 tsp ground",
+          "direction": "convenience",
+          "notes": "Less pungent and bright, but works in baking. Add early in cooking.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "crystallized ginger",
+          "ratio": "1 tbsp fresh:2 tbsp crystallized, minced",
+          "direction": "convenience",
+          "notes": "Sweet, reduce other sugars. Best for baking and desserts.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "ginger paste",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Convenient tube form, very close to fresh. Refrigerate after opening.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "frozen ginger",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Freezes well, grate while frozen. Lasts months.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "sesame-oil",
+      "primary": "sesame oil",
+      "aliases": ["toasted sesame oil", "dark sesame oil", "Asian sesame oil"],
+      "substitutes": [
+        {
+          "ingredient": "tahini + neutral oil",
+          "ratio": "1 tbsp sesame oil:1/2 tsp tahini + 1 tbsp vegetable oil",
+          "direction": "convenience",
+          "notes": "Provides sesame flavor. Mix well before using.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "perilla oil",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar nutty flavor, common in Korean cooking",
+          "quality": "good"
+        },
+        {
+          "ingredient": "peanut oil",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Nutty flavor, similar use in Asian cooking. Check allergies.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "walnut oil",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different but complementary nutty flavor. Use unrefined.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "rice-wine",
+      "primary": "rice wine",
+      "aliases": ["Chinese rice wine", "Shaoxing wine", "mirin", "sake"],
+      "substitutes": [
+        {
+          "ingredient": "dry sherry",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Classic substitute for Shaoxing wine. Dry sherry works best.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "dry white wine",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sauvignon blanc or dry vermouth work well",
+          "quality": "good"
+        },
+        {
+          "ingredient": "apple cider vinegar + water",
+          "ratio": "1 tbsp rice wine:1/2 tbsp vinegar + 1/2 tbsp water",
+          "direction": "convenience",
+          "notes": "For mirin substitute, add 1/2 tsp sugar. Non-alcoholic option.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "chicken broth",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Non-alcoholic option. Add splash of rice vinegar for acidity.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "miso-paste",
+      "primary": "miso paste",
+      "aliases": ["miso", "white miso", "red miso", "shiro miso", "aka miso"],
+      "substitutes": [
+        {
+          "ingredient": "soy sauce",
+          "ratio": "1 tbsp miso:1/2 tbsp soy sauce",
+          "direction": "convenience",
+          "notes": "Less complex umami, saltier. Add dash of tahini for body.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "tahini + soy sauce",
+          "ratio": "1 tbsp miso:1/2 tbsp tahini + 1/2 tsp soy sauce",
+          "direction": "convenience",
+          "notes": "Better body approximation than soy alone",
+          "quality": "good"
+        },
+        {
+          "ingredient": "fish sauce",
+          "ratio": "1 tbsp miso:1 tsp fish sauce",
+          "direction": "convenience",
+          "notes": "Strong umami, use sparingly. Different flavor profile.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "vegetable bouillon paste",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar paste texture, umami flavor. Check sodium content.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "tofu",
+      "primary": "tofu",
+      "aliases": ["firm tofu", "extra-firm tofu", "silken tofu", "bean curd"],
+      "substitutes": [
+        {
+          "ingredient": "paneer",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Indian cheese, similar texture to firm tofu. Doesn't absorb marinades as well.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chicken breast",
+          "ratio": "1:1 by weight",
+          "direction": "convenience",
+          "notes": "For protein substitute. Different texture and flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "tempeh",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Fermented soy, nuttier flavor. Works in stir-fries and bowls.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chickpeas",
+          "ratio": "1 block tofu:1.5 cups chickpeas",
+          "direction": "health",
+          "notes": "For crumbled tofu texture. Good in curries and salads.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "cottage cheese (pressed)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Press out liquid, similar to silken tofu in texture",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "tahini",
+      "primary": "tahini",
+      "aliases": ["sesame paste", "sesame seed paste"],
+      "substitutes": [
+        {
+          "ingredient": "peanut butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture, different flavor. Natural/unsweetened works best.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "sunflower seed butter",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Nut-free, similar consistency. Slightly sweeter.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cashew butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder flavor, creamy texture. Works in hummus.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "For sauces and dressings. Different flavor, similar creaminess.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "harissa",
+      "primary": "harissa",
+      "aliases": ["harissa paste", "harissa sauce"],
+      "substitutes": [
+        {
+          "ingredient": "sriracha + cumin + coriander",
+          "ratio": "1 tbsp harissa:1 tbsp sriracha + pinch cumin + pinch coriander",
+          "direction": "convenience",
+          "notes": "Approximates heat and spice. Add smoked paprika for depth.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "chili paste + caraway seeds",
+          "ratio": "1:1 chili paste + pinch caraway",
+          "direction": "convenience",
+          "notes": "Caraway is key to harissa flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "sambal oelek + cumin",
+          "ratio": "1 tbsp harissa:1 tbsp sambal + 1/4 tsp cumin",
+          "direction": "convenience",
+          "notes": "Similar heat level, add spices to match harissa complexity",
+          "quality": "good"
+        },
+        {
+          "ingredient": "hot sauce + tomato paste + spices",
+          "ratio": "1 tbsp harissa:1 tsp hot sauce + 1 tsp tomato paste + cumin/coriander",
+          "direction": "convenience",
+          "notes": "DIY approximation, adjust heat to taste",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "feta-cheese",
+      "primary": "feta cheese",
+      "aliases": ["feta", "Greek feta", "crumbled feta"],
+      "substitutes": [
+        {
+          "ingredient": "goat cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar tanginess, creamier texture. Good in salads.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ricotta salata",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Firm, salty, crumbly. Excellent feta substitute.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "cotija cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Mexican cheese, salty and crumbly. Good for topping.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "queso fresco",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder than feta, similar crumbly texture",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "tofu (pressed) + lemon + salt",
+          "ratio": "1 cup feta:1 cup pressed tofu + 1 tbsp lemon juice + 1/2 tsp salt",
+          "direction": "health",
+          "notes": "Vegan option. Marinate overnight for best flavor.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "chorizo",
+      "primary": "chorizo",
+      "aliases": ["Spanish chorizo", "Mexican chorizo", "chorizo sausage"],
+      "substitutes": [
+        {
+          "ingredient": "andouille sausage",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Smoked and spicy, similar application. Common in Cajun cooking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Italian sausage + paprika + cayenne",
+          "ratio": "1 lb chorizo:1 lb Italian sausage + 1 tbsp paprika + 1/4 tsp cayenne",
+          "direction": "convenience",
+          "notes": "Add spices to approximate chorizo flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "ground pork + chorizo seasoning",
+          "ratio": "1 lb chorizo:1 lb pork + 2 tbsp paprika + 1 tsp cumin + 1/2 tsp oregano + garlic + vinegar",
+          "direction": "convenience",
+          "notes": "DIY Mexican-style chorizo. Add 2 tbsp vinegar.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "kielbasa",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Smoked, similar texture. Add paprika and cayenne for flavor.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "lemongrass",
+      "primary": "lemongrass",
+      "aliases": ["lemon grass", "citronella"],
+      "substitutes": [
+        {
+          "ingredient": "lemon zest + ginger",
+          "ratio": "1 stalk lemongrass:1 tsp lemon zest + 1/2 tsp grated ginger",
+          "direction": "convenience",
+          "notes": "Best approximation for the citrus-herbal flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "lemon juice + lime zest",
+          "ratio": "1 stalk:1 tbsp lemon juice + 1/2 tsp lime zest",
+          "direction": "convenience",
+          "notes": "Add at end of cooking. Won't have same complexity.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "lemongrass paste",
+          "ratio": "1 stalk:1 tbsp paste",
+          "direction": "convenience",
+          "notes": "Convenient tube form, excellent flavor",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "lemon verbena",
+          "ratio": "1 stalk lemongrass:2-3 leaves",
+          "direction": "convenience",
+          "notes": "Herb with lemony flavor. Use fresh.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "oyster-sauce",
+      "primary": "oyster sauce",
+      "aliases": ["oyster flavored sauce"],
+      "substitutes": [
+        {
+          "ingredient": "hoisin sauce",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter, less savory. Add dash of soy sauce.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "soy sauce + sugar + Worcestershire",
+          "ratio": "1 tbsp oyster sauce:1 tbsp soy + 1/2 tsp sugar + 1/4 tsp Worcestershire",
+          "direction": "convenience",
+          "notes": "Approximates the sweet-savory balance",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "mushroom sauce (vegetarian oyster sauce)",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Vegetarian option, similar consistency and use",
+          "quality": "good"
+        },
+        {
+          "ingredient": "fish sauce + soy sauce + sugar",
+          "ratio": "1 tbsp oyster:1/2 tbsp fish sauce + 1/2 tbsp soy + 1/2 tsp sugar",
+          "direction": "convenience",
+          "notes": "Good umami substitute, adjust to taste",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "paneer",
+      "primary": "paneer",
+      "aliases": ["Indian cheese", "panir"],
+      "substitutes": [
+        {
+          "ingredient": "halloumi",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Grills well without melting, saltier than paneer",
+          "quality": "good"
+        },
+        {
+          "ingredient": "firm tofu (pressed)",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Press well, pan-fry for texture. Add salt.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "queso fresco",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture, slightly different flavor. Good substitute.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ricotta cheese (pressed)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Press in cheesecloth overnight. DIY paneer-like texture.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "saffron",
+      "primary": "saffron",
+      "aliases": ["saffron threads", "Spanish saffron", "kesar"],
+      "substitutes": [
+        {
+          "ingredient": "turmeric",
+          "ratio": "pinch saffron:1/4 tsp turmeric",
+          "direction": "convenience",
+          "notes": "For color only, different flavor. Add paprika for complexity.",
+          "quality": "poor"
+        },
+        {
+          "ingredient": "safflower",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar color, mild flavor. Sometimes sold as Mexican saffron.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "annatto",
+          "ratio": "pinch saffron:1/4 tsp annatto",
+          "direction": "convenience",
+          "notes": "Good golden color, earthy flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "cardamom + paprika",
+          "ratio": "pinch saffron:pinch cardamom + pinch paprika",
+          "direction": "convenience",
+          "notes": "For paella and rice dishes. Won't replicate saffron's unique flavor.",
+          "quality": "poor"
+        }
+      ]
+    },
+    {
+      "id": "sambal-oelek",
+      "primary": "sambal oelek",
+      "aliases": ["sambal", "chili paste"],
+      "substitutes": [
+        {
+          "ingredient": "sriracha",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter and tangier, similar heat level",
+          "quality": "good"
+        },
+        {
+          "ingredient": "crushed red pepper + garlic + vinegar",
+          "ratio": "1 tbsp sambal:1 tsp crushed red pepper + 1/4 tsp garlic + splash vinegar",
+          "direction": "convenience",
+          "notes": "DIY sambal approximation",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "gochujang",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Korean chili paste, sweeter and fermented. Different but works.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "hot sauce",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Use half amount, thinner consistency",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "tamarind-paste",
+      "primary": "tamarind paste",
+      "aliases": ["tamarind concentrate", "tamarind"],
+      "substitutes": [
+        {
+          "ingredient": "lime juice + brown sugar",
+          "ratio": "1 tbsp tamarind:1 tbsp lime juice + 1 tsp brown sugar",
+          "direction": "convenience",
+          "notes": "Good approximation of sweet-sour flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Worcestershire sauce",
+          "ratio": "1 tbsp tamarind:1 tbsp Worcestershire",
+          "direction": "convenience",
+          "notes": "Contains tamarind, similar tanginess. Watch sodium.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "pomegranate molasses",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweet-tart, works in Middle Eastern and Indian dishes",
+          "quality": "good"
+        },
+        {
+          "ingredient": "rice vinegar + molasses",
+          "ratio": "1 tbsp tamarind:1/2 tbsp rice vinegar + 1/2 tbsp molasses",
+          "direction": "convenience",
+          "notes": "Mix well, approximates sweet-sour depth",
+          "quality": "moderate"
+        }
+      ]
     }
   ],
   "stapleExpansions": {

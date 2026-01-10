@@ -69,6 +69,7 @@ let categories = new Set();
 let allTags = new Set();
 let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
 let showMetric = false; // Toggle for metric conversions
+let recipeScale = 1; // Current recipe scale multiplier
 
 // Ingredient search state
 let ingredientIndex = null;
@@ -87,6 +88,49 @@ let justStaplesMode = false;
 // Substitutions system state
 let substitutionsData = null;
 let enableSubstitutions = true;
+
+// Kitchen tips state
+let kitchenTipsData = null;
+
+// Nutrition and time filter state
+let nutritionFilter = {
+  timeLimit: null,           // Maximum time in minutes
+  calories: { min: null, max: null },
+  carbs: { min: null, max: null },
+  protein: { min: null, max: null },
+  fat: { min: null, max: null },
+  onlyWithNutrition: false,
+  activeDietPreset: null
+};
+
+// Diet preset definitions (per serving)
+const DIET_PRESETS = {
+  'low-carb': {
+    name: 'Low Carb',
+    carbs: { max: 20 },
+    description: 'Max 20g carbs per serving'
+  },
+  'low-cal': {
+    name: 'Low Cal',
+    calories: { max: 400 },
+    description: 'Max 400 calories per serving'
+  },
+  'high-protein': {
+    name: 'High Protein',
+    protein: { min: 25 },
+    description: 'Min 25g protein per serving'
+  },
+  'low-fat': {
+    name: 'Low Fat',
+    fat: { max: 10 },
+    description: 'Max 10g fat per serving'
+  },
+  'low-sodium': {
+    name: 'Low Sodium',
+    sodium: { max: 500 },
+    description: 'Max 500mg sodium per serving'
+  }
+};
 
 // Preset staples bundles
 const STAPLES_PRESETS = {
@@ -112,6 +156,23 @@ const STAPLES_PRESETS = {
   ]
 };
 
+// Meal pairing rules (category-based)
+const MEAL_PAIRINGS = {
+  mains: ['sides', 'salads', 'breads', 'beverages'],
+  sides: ['mains', 'salads'],
+  salads: ['mains', 'breads', 'soups'],
+  soups: ['breads', 'salads', 'mains'],
+  appetizers: ['mains', 'beverages'],
+  breakfast: ['beverages', 'breads'],
+  breads: ['soups', 'mains', 'salads'],
+  desserts: ['beverages'],
+  beverages: ['mains', 'desserts', 'breakfast']
+};
+
+// Shopping list state
+let shoppingList = [];
+let selectedMealRecipes = [];
+
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
 
@@ -119,9 +180,11 @@ async function init() {
   await loadRecipes();
   await loadIngredientIndex();
   await loadSubstitutions();
+  await loadKitchenTips();
   setupEventListeners();
   setupIngredientSearch();
   setupStaplesSystem();
+  setupNutritionFilters();
   handleRouting();
 }
 
@@ -175,6 +238,384 @@ async function loadSubstitutions() {
     // Non-fatal - substitution matching just won't work
   }
 }
+
+/**
+ * Load kitchen tips data from JSON file
+ */
+async function loadKitchenTips() {
+  try {
+    const response = await fetch('data/kitchen-tips.json');
+    kitchenTipsData = await response.json();
+    const totalTips = kitchenTipsData.categories.reduce((sum, cat) => sum + cat.tips.length, 0);
+    console.log(`Loaded ${totalTips} kitchen tips in ${kitchenTipsData.categories.length} categories`);
+  } catch (error) {
+    console.error('Failed to load kitchen tips:', error);
+    // Non-fatal - tips just won't show
+  }
+}
+
+/**
+ * Get relevant kitchen tips for a recipe based on category
+ * @param {Object} recipe - The recipe object
+ * @returns {Array} - Array of relevant tips
+ */
+function getKitchenTipsForRecipe(recipe) {
+  if (!kitchenTipsData || !recipe) return [];
+
+  const tips = [];
+  const recipeCategory = (recipe.category || '').toLowerCase();
+  const recipeTitle = (recipe.title || '').toLowerCase();
+  const recipeId = recipe.id || '';
+
+  // Map recipe categories to tip categories
+  const categoryMapping = {
+    'desserts': ['candy-making', 'baking-cakes', 'baking-cookies', 'baking-pies'],
+    'breads': ['baking-bread'],
+    'mains': ['meat-cooking', 'sauces', 'frying'],
+    'sides': ['vegetables', 'sauces'],
+    'breakfast': ['eggs', 'baking-bread'],
+    'soups': ['soups-stews'],
+    'appetizers': ['frying', 'sauces'],
+    'salads': ['vegetables'],
+    'beverages': []
+  };
+
+  // Get tip categories for this recipe category
+  const relevantCategories = categoryMapping[recipeCategory] || ['general'];
+
+  // Always include general tips
+  if (!relevantCategories.includes('general')) {
+    relevantCategories.push('general');
+  }
+
+  // Collect tips from relevant categories
+  for (const cat of kitchenTipsData.categories) {
+    if (relevantCategories.includes(cat.id)) {
+      for (const tip of cat.tips) {
+        // Check if tip specifically relates to this recipe
+        const relatedToRecipe = tip.relatedRecipes?.some(r =>
+          recipeId.includes(r) || recipeTitle.includes(r)
+        );
+
+        tips.push({
+          ...tip,
+          category: cat.name,
+          categoryIcon: cat.icon,
+          isDirectlyRelated: relatedToRecipe
+        });
+      }
+    }
+  }
+
+  // Sort: directly related first, then by category
+  tips.sort((a, b) => {
+    if (a.isDirectlyRelated && !b.isDirectlyRelated) return -1;
+    if (!a.isDirectlyRelated && b.isDirectlyRelated) return 1;
+    return 0;
+  });
+
+  // Return up to 5 tips
+  return tips.slice(0, 5);
+}
+
+/**
+ * Get all kitchen tips organized by category
+ * @returns {Array} - Array of tip categories with their tips
+ */
+function getAllKitchenTips() {
+  if (!kitchenTipsData) return [];
+  return kitchenTipsData.categories;
+}
+
+/**
+ * Render kitchen tips HTML for a recipe
+ * @param {Object} recipe - The recipe object
+ * @returns {string} - HTML string
+ */
+function renderKitchenTipsForRecipe(recipe) {
+  const tips = getKitchenTipsForRecipe(recipe);
+  if (tips.length === 0) return '';
+
+  const tipsHtml = tips.map(tip => `
+    <div class="kitchen-tip ${tip.isDirectlyRelated ? 'directly-related' : ''}">
+      <span class="tip-icon">${escapeHtml(tip.categoryIcon)}</span>
+      <div class="tip-content">
+        <p class="tip-text">"${escapeHtml(tip.text)}"</p>
+        <span class="tip-attribution">— ${escapeHtml(tip.attribution)}</span>
+      </div>
+    </div>
+  `).join('');
+
+  return `
+    <div class="kitchen-tips-section">
+      <h3 class="kitchen-tips-header">👵 Family Kitchen Wisdom</h3>
+      <div class="kitchen-tips-list">
+        ${tipsHtml}
+      </div>
+    </div>
+  `;
+}
+
+// =============================================================================
+// Recipe Scaling Functions
+// =============================================================================
+
+/**
+ * Common fraction mappings for smart rounding
+ */
+const FRACTION_MAP = {
+  '0.125': '⅛',
+  '0.25': '¼',
+  '0.333': '⅓',
+  '0.375': '⅜',
+  '0.5': '½',
+  '0.625': '⅝',
+  '0.667': '⅔',
+  '0.75': '¾',
+  '0.875': '⅞'
+};
+
+/**
+ * Minimum practical measurements for common units
+ * Below these, display a warning
+ */
+const MIN_PRACTICAL_MEASUREMENTS = {
+  'teaspoon': 0.125,  // 1/8 tsp
+  'tsp': 0.125,
+  'tablespoon': 0.25, // 1/4 tbsp
+  'tbsp': 0.25,
+  'cup': 0.125,       // 1/8 cup
+  'cups': 0.125,
+  'egg': 0.5,         // Half egg is practical limit
+  'eggs': 0.5,
+  'ounce': 0.25,
+  'oz': 0.25,
+  'pound': 0.125,
+  'lb': 0.125
+};
+
+/**
+ * Scale a quantity string by a multiplier
+ * @param {string|number} quantity - The quantity to scale (e.g., "1 1/2", "2", "1/4")
+ * @param {number} scale - The scale multiplier
+ * @returns {Object} - { value: number, display: string, warning: string|null }
+ */
+function scaleQuantity(quantity, scale) {
+  if (!quantity || scale === 1) {
+    return { value: parseQuantity(quantity), display: String(quantity || ''), warning: null };
+  }
+
+  const numericValue = parseQuantity(quantity);
+  if (numericValue === null || isNaN(numericValue)) {
+    return { value: null, display: String(quantity || ''), warning: null };
+  }
+
+  const scaled = numericValue * scale;
+  const display = formatQuantity(scaled);
+
+  return { value: scaled, display, warning: null };
+}
+
+/**
+ * Parse a quantity string to a number
+ * @param {string|number} quantity - The quantity string (e.g., "1 1/2", "1/4", "2")
+ * @returns {number|null} - The numeric value or null if unparseable
+ */
+function parseQuantity(quantity) {
+  if (typeof quantity === 'number') return quantity;
+  if (!quantity) return null;
+
+  const str = String(quantity).trim();
+
+  // Handle Unicode fractions
+  const unicodeFractions = {
+    '⅛': 0.125, '¼': 0.25, '⅓': 0.333, '⅜': 0.375,
+    '½': 0.5, '⅝': 0.625, '⅔': 0.667, '¾': 0.75, '⅞': 0.875
+  };
+
+  // Replace Unicode fractions
+  let processed = str;
+  for (const [frac, val] of Object.entries(unicodeFractions)) {
+    processed = processed.replace(frac, ` ${val}`);
+  }
+
+  // Handle mixed numbers like "1 1/2"
+  const mixedMatch = processed.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+  if (mixedMatch) {
+    return parseInt(mixedMatch[1]) + parseInt(mixedMatch[2]) / parseInt(mixedMatch[3]);
+  }
+
+  // Handle fractions like "1/2"
+  const fractionMatch = processed.match(/^(\d+)\/(\d+)$/);
+  if (fractionMatch) {
+    return parseInt(fractionMatch[1]) / parseInt(fractionMatch[2]);
+  }
+
+  // Handle decimals and whole numbers
+  const numMatch = processed.match(/^[\d.]+/);
+  if (numMatch) {
+    const baseNum = parseFloat(numMatch[0]);
+    // Check if there's a fraction after the whole number
+    const remainder = processed.slice(numMatch[0].length).trim();
+    if (remainder) {
+      const remainderVal = parseFloat(remainder);
+      if (!isNaN(remainderVal)) {
+        return baseNum + remainderVal;
+      }
+    }
+    return baseNum;
+  }
+
+  return null;
+}
+
+/**
+ * Format a number as a nice fraction or decimal
+ * @param {number} value - The numeric value
+ * @returns {string} - Formatted string (e.g., "1½", "¼", "2.5")
+ */
+function formatQuantity(value) {
+  if (value === null || isNaN(value)) return '';
+
+  // Handle whole numbers
+  if (Number.isInteger(value)) {
+    return String(value);
+  }
+
+  const wholePart = Math.floor(value);
+  const fractionalPart = value - wholePart;
+
+  // Round to nearest common fraction
+  const roundedFrac = roundToFraction(fractionalPart);
+
+  if (roundedFrac === 0) {
+    return String(wholePart || '');
+  }
+  if (roundedFrac === 1) {
+    return String(wholePart + 1);
+  }
+
+  // Find the closest fraction symbol
+  const fracStr = roundedFrac.toFixed(3);
+  const symbol = FRACTION_MAP[fracStr] || roundedFrac.toFixed(2);
+
+  if (wholePart === 0) {
+    return symbol;
+  }
+  return `${wholePart}${symbol}`;
+}
+
+/**
+ * Round a decimal to the nearest common fraction
+ * @param {number} decimal - A decimal between 0 and 1
+ * @returns {number} - The nearest common fraction value
+ */
+function roundToFraction(decimal) {
+  const fractions = [0, 0.125, 0.25, 0.333, 0.375, 0.5, 0.625, 0.667, 0.75, 0.875, 1];
+  let closest = 0;
+  let minDiff = Math.abs(decimal);
+
+  for (const frac of fractions) {
+    const diff = Math.abs(decimal - frac);
+    if (diff < minDiff) {
+      minDiff = diff;
+      closest = frac;
+    }
+  }
+
+  return closest;
+}
+
+/**
+ * Check if a scaled measurement is below practical minimum
+ * @param {number} value - The scaled value
+ * @param {string} unit - The unit of measurement
+ * @returns {string|null} - Warning message or null
+ */
+function checkPracticalMinimum(value, unit) {
+  if (!unit || !value) return null;
+
+  const normalizedUnit = unit.toLowerCase().replace(/[s.]$/g, '');
+  const minimum = MIN_PRACTICAL_MEASUREMENTS[normalizedUnit];
+
+  if (minimum && value < minimum) {
+    return `Very small amount - difficult to measure accurately`;
+  }
+
+  // Special warning for eggs
+  if ((normalizedUnit === 'egg' || unit.toLowerCase().includes('egg')) && value < 1 && value > 0) {
+    return `Partial egg - consider whisking a whole egg and using portion`;
+  }
+
+  return null;
+}
+
+/**
+ * Render scaling controls for a recipe
+ * @param {Object} recipe - The recipe object
+ * @returns {string} - HTML string
+ */
+function renderScalingControls(recipe) {
+  const servings = parseServingsYield(recipe.servings_yield);
+
+  return `
+    <div class="scaling-controls">
+      <span class="scaling-label">Scale recipe:</span>
+      <div class="scaling-buttons">
+        <button type="button" class="scale-btn ${recipeScale === 0.25 ? 'active' : ''}" data-scale="0.25">¼×</button>
+        <button type="button" class="scale-btn ${recipeScale === 0.5 ? 'active' : ''}" data-scale="0.5">½×</button>
+        <button type="button" class="scale-btn ${recipeScale === 1 ? 'active' : ''}" data-scale="1">1×</button>
+        <button type="button" class="scale-btn ${recipeScale === 2 ? 'active' : ''}" data-scale="2">2×</button>
+        <button type="button" class="scale-btn ${recipeScale === 4 ? 'active' : ''}" data-scale="4">4×</button>
+      </div>
+      ${servings ? `<span class="scaling-servings">${getScaledServings(servings, recipeScale)}</span>` : ''}
+    </div>
+  `;
+}
+
+/**
+ * Parse servings/yield string to extract number
+ * @param {string} servingsYield - The servings string (e.g., "Makes 24 cookies", "Serves 6")
+ * @returns {Object|null} - { count: number, unit: string } or null
+ */
+function parseServingsYield(servingsYield) {
+  if (!servingsYield) return null;
+
+  const match = servingsYield.match(/(\d+)\s*(servings?|cookies?|pieces?|slices?|cups?|portions?|dozen)?/i);
+  if (match) {
+    return {
+      count: parseInt(match[1]),
+      unit: match[2] || 'servings',
+      original: servingsYield
+    };
+  }
+  return null;
+}
+
+/**
+ * Get scaled servings display string
+ * @param {Object} servings - Parsed servings object
+ * @param {number} scale - Scale multiplier
+ * @returns {string} - Display string
+ */
+function getScaledServings(servings, scale) {
+  if (!servings) return '';
+  const scaled = Math.round(servings.count * scale);
+  return `(${scaled} ${servings.unit})`;
+}
+
+/**
+ * Set the recipe scale and re-render
+ * @param {number} scale - The new scale value
+ * @param {string} recipeId - The recipe ID to re-render
+ */
+function setRecipeScale(scale, recipeId) {
+  recipeScale = scale;
+  renderRecipeDetail(recipeId);
+}
+
+// Make scaling functions available globally
+window.setRecipeScale = setRecipeScale;
 
 /**
  * Find substitutes for an ingredient
@@ -263,6 +704,646 @@ function expandStaplesWithSubstitutions(staples) {
 
   return Array.from(expanded);
 }
+
+// =============================================================================
+// Nutrition & Time Filter Functions
+// =============================================================================
+
+/**
+ * Parse time string to minutes
+ * @param {string} timeStr - Time string like "30 min", "1 hour 15 min", "45 minutes"
+ * @returns {number|null} - Total minutes or null if unparseable
+ */
+function parseTimeToMinutes(timeStr) {
+  if (!timeStr) return null;
+
+  const str = timeStr.toLowerCase().trim();
+  let totalMinutes = 0;
+
+  // Match hours
+  const hourMatch = str.match(/(\d+\.?\d*)\s*(hour|hr|h)/);
+  if (hourMatch) {
+    totalMinutes += parseFloat(hourMatch[1]) * 60;
+  }
+
+  // Match minutes
+  const minMatch = str.match(/(\d+)\s*(minute|min|m)(?!i)/);
+  if (minMatch) {
+    totalMinutes += parseInt(minMatch[1], 10);
+  }
+
+  // If only a number, assume minutes
+  if (totalMinutes === 0) {
+    const justNumber = str.match(/^(\d+)$/);
+    if (justNumber) {
+      totalMinutes = parseInt(justNumber[1], 10);
+    }
+  }
+
+  return totalMinutes > 0 ? totalMinutes : null;
+}
+
+/**
+ * Check if any nutrition filter is active (excluding onlyWithNutrition)
+ * @returns {boolean}
+ */
+function hasActiveNutritionFilter() {
+  return (
+    nutritionFilter.calories.min !== null ||
+    nutritionFilter.calories.max !== null ||
+    nutritionFilter.carbs.min !== null ||
+    nutritionFilter.carbs.max !== null ||
+    nutritionFilter.protein.min !== null ||
+    nutritionFilter.protein.max !== null ||
+    nutritionFilter.fat.min !== null ||
+    nutritionFilter.fat.max !== null
+  );
+}
+
+/**
+ * Apply a diet preset to the nutrition filter
+ * @param {string} presetId - The preset ID like 'low-carb', 'low-cal', etc.
+ */
+function applyDietPreset(presetId) {
+  // Clear all nutrition filters first
+  clearNutritionFilters();
+
+  if (presetId === 'clear' || !DIET_PRESETS[presetId]) {
+    nutritionFilter.activeDietPreset = null;
+    updateDietPresetButtons();
+    updateNutritionInputs();
+    renderRecipeGrid();
+    return;
+  }
+
+  const preset = DIET_PRESETS[presetId];
+  nutritionFilter.activeDietPreset = presetId;
+
+  // Apply preset values
+  if (preset.calories) {
+    nutritionFilter.calories.min = preset.calories.min || null;
+    nutritionFilter.calories.max = preset.calories.max || null;
+  }
+  if (preset.carbs) {
+    nutritionFilter.carbs.min = preset.carbs.min || null;
+    nutritionFilter.carbs.max = preset.carbs.max || null;
+  }
+  if (preset.protein) {
+    nutritionFilter.protein.min = preset.protein.min || null;
+    nutritionFilter.protein.max = preset.protein.max || null;
+  }
+  if (preset.fat) {
+    nutritionFilter.fat.min = preset.fat.min || null;
+    nutritionFilter.fat.max = preset.fat.max || null;
+  }
+
+  updateDietPresetButtons();
+  updateNutritionInputs();
+  renderRecipeGrid();
+}
+
+/**
+ * Clear all nutrition filters
+ */
+function clearNutritionFilters() {
+  nutritionFilter.calories = { min: null, max: null };
+  nutritionFilter.carbs = { min: null, max: null };
+  nutritionFilter.protein = { min: null, max: null };
+  nutritionFilter.fat = { min: null, max: null };
+  nutritionFilter.activeDietPreset = null;
+}
+
+/**
+ * Update the diet preset button visual states
+ */
+function updateDietPresetButtons() {
+  document.querySelectorAll('.diet-preset-btn').forEach(btn => {
+    const preset = btn.dataset.diet;
+    btn.classList.toggle('active', preset === nutritionFilter.activeDietPreset);
+  });
+}
+
+/**
+ * Update the nutrition input fields to reflect current filter state
+ */
+function updateNutritionInputs() {
+  const calMin = document.getElementById('cal-min');
+  const calMax = document.getElementById('cal-max');
+  const carbsMin = document.getElementById('carbs-min');
+  const carbsMax = document.getElementById('carbs-max');
+  const proteinMin = document.getElementById('protein-min');
+  const proteinMax = document.getElementById('protein-max');
+  const fatMin = document.getElementById('fat-min');
+  const fatMax = document.getElementById('fat-max');
+
+  if (calMin) calMin.value = nutritionFilter.calories.min ?? '';
+  if (calMax) calMax.value = nutritionFilter.calories.max ?? '';
+  if (carbsMin) carbsMin.value = nutritionFilter.carbs.min ?? '';
+  if (carbsMax) carbsMax.value = nutritionFilter.carbs.max ?? '';
+  if (proteinMin) proteinMin.value = nutritionFilter.protein.min ?? '';
+  if (proteinMax) proteinMax.value = nutritionFilter.protein.max ?? '';
+  if (fatMin) fatMin.value = nutritionFilter.fat.min ?? '';
+  if (fatMax) fatMax.value = nutritionFilter.fat.max ?? '';
+}
+
+/**
+ * Read current values from nutrition input fields and apply to filter
+ */
+function applyCustomNutritionFilters() {
+  const parseInput = (id) => {
+    const el = document.getElementById(id);
+    if (!el || el.value.trim() === '') return null;
+    const val = parseInt(el.value, 10);
+    return isNaN(val) ? null : val;
+  };
+
+  // Clear preset when custom values are entered
+  nutritionFilter.activeDietPreset = null;
+  updateDietPresetButtons();
+
+  nutritionFilter.calories.min = parseInput('cal-min');
+  nutritionFilter.calories.max = parseInput('cal-max');
+  nutritionFilter.carbs.min = parseInput('carbs-min');
+  nutritionFilter.carbs.max = parseInput('carbs-max');
+  nutritionFilter.protein.min = parseInput('protein-min');
+  nutritionFilter.protein.max = parseInput('protein-max');
+  nutritionFilter.fat.min = parseInput('fat-min');
+  nutritionFilter.fat.max = parseInput('fat-max');
+
+  const onlyWithNutrition = document.getElementById('only-with-nutrition');
+  nutritionFilter.onlyWithNutrition = onlyWithNutrition?.checked || false;
+
+  renderRecipeGrid();
+}
+
+/**
+ * Setup nutrition and time filter event listeners
+ */
+function setupNutritionFilters() {
+  // Time filter
+  const timeFilter = document.getElementById('time-filter');
+  if (timeFilter) {
+    timeFilter.addEventListener('change', (e) => {
+      nutritionFilter.timeLimit = e.target.value ? parseInt(e.target.value, 10) : null;
+      renderRecipeGrid();
+    });
+  }
+
+  // Nutrition toggle button
+  const nutritionToggle = document.getElementById('nutrition-toggle');
+  const nutritionFilters = document.getElementById('nutrition-filters');
+  if (nutritionToggle && nutritionFilters) {
+    nutritionToggle.addEventListener('click', () => {
+      const isExpanded = nutritionToggle.getAttribute('aria-expanded') === 'true';
+      nutritionToggle.setAttribute('aria-expanded', !isExpanded);
+      nutritionFilters.classList.toggle('hidden', isExpanded);
+      nutritionToggle.querySelector('.toggle-icon').textContent = isExpanded ? '▼' : '▲';
+    });
+  }
+
+  // Diet preset buttons
+  document.querySelectorAll('.diet-preset-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      applyDietPreset(btn.dataset.diet);
+    });
+  });
+
+  // Apply filters button
+  const applyBtn = document.getElementById('apply-nutrition-filter');
+  if (applyBtn) {
+    applyBtn.addEventListener('click', applyCustomNutritionFilters);
+  }
+
+  // Only with nutrition checkbox - apply immediately
+  const onlyWithNutrition = document.getElementById('only-with-nutrition');
+  if (onlyWithNutrition) {
+    onlyWithNutrition.addEventListener('change', () => {
+      nutritionFilter.onlyWithNutrition = onlyWithNutrition.checked;
+      renderRecipeGrid();
+    });
+  }
+
+  // Shopping panel toggle
+  const shoppingToggle = document.getElementById('shopping-toggle');
+  const shoppingPanel = document.getElementById('shopping-list-panel');
+  if (shoppingToggle && shoppingPanel) {
+    shoppingToggle.addEventListener('click', () => {
+      const isExpanded = shoppingToggle.getAttribute('aria-expanded') === 'true';
+      shoppingToggle.setAttribute('aria-expanded', !isExpanded);
+      shoppingPanel.classList.toggle('hidden', isExpanded);
+      shoppingToggle.querySelector('.toggle-icon').textContent = isExpanded ? '▼' : '▲';
+    });
+  }
+}
+
+/**
+ * Get nutrition status for a recipe based on current filters
+ * @param {Object} recipe - The recipe object
+ * @returns {Object} - { status: 'good'|'warn'|'over'|null, message: string }
+ */
+function getNutritionStatus(recipe) {
+  if (!hasActiveNutritionFilter() && !nutritionFilter.activeDietPreset) {
+    return null;
+  }
+
+  if (!recipe.nutrition) {
+    return { status: 'warn', message: 'No nutrition data' };
+  }
+
+  const n = recipe.nutrition;
+  const issues = [];
+
+  // Check each filter
+  if (nutritionFilter.calories.max !== null && n.calories > nutritionFilter.calories.max) {
+    issues.push(`${n.calories} cal (max ${nutritionFilter.calories.max})`);
+  }
+  if (nutritionFilter.carbs.max !== null && n.carbohydrates > nutritionFilter.carbs.max) {
+    issues.push(`${n.carbohydrates}g carbs (max ${nutritionFilter.carbs.max}g)`);
+  }
+  if (nutritionFilter.protein.min !== null && n.protein < nutritionFilter.protein.min) {
+    issues.push(`${n.protein}g protein (min ${nutritionFilter.protein.min}g)`);
+  }
+  if (nutritionFilter.fat.max !== null && n.fat > nutritionFilter.fat.max) {
+    issues.push(`${n.fat}g fat (max ${nutritionFilter.fat.max}g)`);
+  }
+
+  if (issues.length > 0) {
+    return { status: 'over', message: issues.join(', ') };
+  }
+
+  return { status: 'good', message: 'Meets criteria' };
+}
+
+// =============================================================================
+// Meal Pairing & Shopping List Functions
+// =============================================================================
+
+/**
+ * Get meal pairing suggestions for a recipe
+ * @param {Object} recipe - The recipe to find pairings for
+ * @param {number} limit - Maximum number of suggestions
+ * @returns {Array} - Array of suggested recipes
+ */
+function getMealPairings(recipe, limit = 6) {
+  if (!recipe || !recipe.category) return [];
+
+  const pairingCategories = MEAL_PAIRINGS[recipe.category] || [];
+  if (pairingCategories.length === 0) return [];
+
+  // Get ingredients from the current recipe for efficiency matching
+  const recipeIngredients = new Set(
+    (recipe.ingredients || []).map(ing => {
+      const name = typeof ing === 'string' ? ing : ing.item || ing.name || '';
+      return normalizeIngredientName(name);
+    }).filter(Boolean)
+  );
+
+  // Find matching recipes
+  const candidates = recipes.filter(r => {
+    // Must be in a pairing category
+    if (!pairingCategories.includes(r.category)) return false;
+    // Not the same recipe
+    if (r.id === recipe.id) return false;
+    // Not a variant
+    if (r.variant_of && r.variant_of !== r.id) return false;
+    return true;
+  });
+
+  // Score candidates by ingredient efficiency (shared ingredients)
+  const scored = candidates.map(r => {
+    const rIngredients = (r.ingredients || []).map(ing => {
+      const name = typeof ing === 'string' ? ing : ing.item || ing.name || '';
+      return normalizeIngredientName(name);
+    }).filter(Boolean);
+
+    let sharedCount = 0;
+    for (const ing of rIngredients) {
+      if (recipeIngredients.has(ing)) sharedCount++;
+    }
+
+    return {
+      recipe: r,
+      sharedIngredients: sharedCount,
+      // Prefer recipes with nutrition data
+      hasNutrition: r.nutrition ? 1 : 0
+    };
+  });
+
+  // Sort by shared ingredients (desc), then by nutrition data
+  scored.sort((a, b) => {
+    if (b.sharedIngredients !== a.sharedIngredients) {
+      return b.sharedIngredients - a.sharedIngredients;
+    }
+    return b.hasNutrition - a.hasNutrition;
+  });
+
+  return scored.slice(0, limit).map(s => ({
+    ...s.recipe,
+    sharedIngredients: s.sharedIngredients
+  }));
+}
+
+/**
+ * Add a recipe to the shopping list
+ * @param {string} recipeId - The recipe ID to add
+ */
+function addToShoppingList(recipeId) {
+  const recipe = recipes.find(r => r.id === recipeId);
+  if (!recipe) return;
+
+  if (!selectedMealRecipes.find(r => r.id === recipeId)) {
+    selectedMealRecipes.push(recipe);
+    generateShoppingList();
+    renderShoppingListPanel();
+  }
+}
+
+/**
+ * Remove a recipe from the shopping list
+ * @param {string} recipeId - The recipe ID to remove
+ */
+function removeFromShoppingList(recipeId) {
+  selectedMealRecipes = selectedMealRecipes.filter(r => r.id !== recipeId);
+  generateShoppingList();
+  renderShoppingListPanel();
+}
+
+/**
+ * Generate consolidated shopping list from selected recipes
+ */
+function generateShoppingList() {
+  const ingredientMap = new Map();
+
+  for (const recipe of selectedMealRecipes) {
+    if (!recipe.ingredients) continue;
+
+    for (const ing of recipe.ingredients) {
+      let name, quantity, unit;
+
+      if (typeof ing === 'string') {
+        // Parse string format like "1 cup flour"
+        const parsed = parseIngredientString(ing);
+        name = parsed.name;
+        quantity = parsed.quantity;
+        unit = parsed.unit;
+      } else {
+        name = ing.item || ing.name || '';
+        quantity = ing.amount || ing.quantity || '';
+        unit = ing.unit || '';
+      }
+
+      if (!name) continue;
+
+      const normalizedName = normalizeIngredientName(name);
+      const key = normalizedName;
+
+      if (ingredientMap.has(key)) {
+        const existing = ingredientMap.get(key);
+        existing.recipes.push(recipe.title);
+        // We can't reliably combine quantities without unit conversion, so just note multiple
+        if (quantity) {
+          existing.quantities.push({ amount: quantity, unit: unit, recipe: recipe.title });
+        }
+      } else {
+        ingredientMap.set(key, {
+          name: name,
+          normalizedName: normalizedName,
+          recipes: [recipe.title],
+          quantities: quantity ? [{ amount: quantity, unit: unit, recipe: recipe.title }] : [],
+          checked: false
+        });
+      }
+    }
+  }
+
+  shoppingList = Array.from(ingredientMap.values());
+
+  // Sort alphabetically
+  shoppingList.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/**
+ * Parse an ingredient string into components
+ * @param {string} str - Ingredient string like "1 cup flour"
+ * @returns {Object} - { quantity, unit, name }
+ */
+function parseIngredientString(str) {
+  if (!str) return { quantity: '', unit: '', name: '' };
+
+  // Match patterns like "1 cup", "2 1/2 tbsp", "1/2 tsp"
+  const match = str.match(/^([\d\s\/]+)?\s*(cup|cups|tbsp|tsp|tablespoon|tablespoons|teaspoon|teaspoons|oz|ounce|ounces|lb|lbs|pound|pounds|can|cans|package|packages|pkg|jar|jars|bunch|bunches|clove|cloves|head|heads|slice|slices|piece|pieces)?\s*(.+)?$/i);
+
+  if (match) {
+    return {
+      quantity: (match[1] || '').trim(),
+      unit: (match[2] || '').trim(),
+      name: (match[3] || str).trim()
+    };
+  }
+
+  return { quantity: '', unit: '', name: str.trim() };
+}
+
+/**
+ * Toggle shopping list item checked state
+ * @param {string} normalizedName - The normalized ingredient name
+ */
+function toggleShoppingItem(normalizedName) {
+  const item = shoppingList.find(i => i.normalizedName === normalizedName);
+  if (item) {
+    item.checked = !item.checked;
+    renderShoppingListPanel();
+  }
+}
+
+/**
+ * Render the shopping list panel
+ */
+function renderShoppingListPanel() {
+  const panel = document.getElementById('shopping-list-panel');
+  if (!panel) return;
+
+  if (selectedMealRecipes.length === 0) {
+    panel.innerHTML = `
+      <div class="shopping-list-empty">
+        <p>No recipes selected. Add recipes to your meal plan to generate a shopping list.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const recipesHtml = selectedMealRecipes.map(r => `
+    <div class="shopping-recipe">
+      <span class="shopping-recipe-title">${escapeHtml(r.title)}</span>
+      <button type="button" class="shopping-recipe-remove" onclick="removeFromShoppingList('${escapeAttr(r.id)}')" title="Remove">&times;</button>
+    </div>
+  `).join('');
+
+  const unchecked = shoppingList.filter(i => !i.checked);
+  const checked = shoppingList.filter(i => i.checked);
+
+  const renderItem = (item) => {
+    const quantityInfo = item.quantities.length > 0
+      ? item.quantities.map(q => `${q.amount} ${q.unit}`.trim()).join(', ')
+      : '';
+    const recipeInfo = item.recipes.length > 1
+      ? ` (${item.recipes.join(', ')})`
+      : '';
+
+    return `
+      <label class="shopping-item ${item.checked ? 'checked' : ''}">
+        <input type="checkbox" ${item.checked ? 'checked' : ''} onchange="toggleShoppingItem('${escapeAttr(item.normalizedName)}')">
+        <span class="item-name">${escapeHtml(item.name)}</span>
+        ${quantityInfo ? `<span class="item-quantity">${escapeHtml(quantityInfo)}</span>` : ''}
+        ${recipeInfo ? `<span class="item-recipes">${escapeHtml(recipeInfo)}</span>` : ''}
+      </label>
+    `;
+  };
+
+  const itemsHtml = `
+    ${unchecked.map(renderItem).join('')}
+    ${checked.length > 0 ? `
+      <div class="shopping-list-checked-header">Checked (${checked.length})</div>
+      ${checked.map(renderItem).join('')}
+    ` : ''}
+  `;
+
+  panel.innerHTML = `
+    <div class="shopping-list-header">
+      <h3>Meal Plan (${selectedMealRecipes.length} recipes)</h3>
+      <button type="button" class="btn btn-small" onclick="copyShoppingList()">Copy List</button>
+    </div>
+    <div class="shopping-recipes-list">
+      ${recipesHtml}
+    </div>
+    <div class="shopping-list-divider"></div>
+    <div class="shopping-items-header">
+      <h4>Shopping List (${shoppingList.length} items)</h4>
+    </div>
+    <div class="shopping-items-list">
+      ${itemsHtml}
+    </div>
+  `;
+}
+
+/**
+ * Copy shopping list to clipboard
+ */
+async function copyShoppingList() {
+  if (shoppingList.length === 0) return;
+
+  const lines = ['Shopping List', ''];
+
+  // Add recipe titles
+  lines.push('Recipes:');
+  for (const r of selectedMealRecipes) {
+    lines.push(`- ${r.title}`);
+  }
+  lines.push('');
+
+  // Add ingredients
+  lines.push('Ingredients:');
+  for (const item of shoppingList) {
+    const quantityInfo = item.quantities.length > 0
+      ? ` (${item.quantities.map(q => `${q.amount} ${q.unit}`.trim()).join(', ')})`
+      : '';
+    lines.push(`- ${item.name}${quantityInfo}`);
+  }
+
+  const text = lines.join('\n');
+
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast('Shopping list copied to clipboard!');
+  } catch (err) {
+    // Fallback for older browsers
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    showToast('Shopping list copied!');
+  }
+}
+
+/**
+ * Show a toast notification
+ * @param {string} message - The message to show
+ */
+function showToast(message) {
+  // Remove existing toast
+  const existing = document.querySelector('.toast-notification');
+  if (existing) existing.remove();
+
+  const toast = document.createElement('div');
+  toast.className = 'toast-notification';
+  toast.textContent = message;
+  document.body.appendChild(toast);
+
+  // Trigger animation
+  setTimeout(() => toast.classList.add('show'), 10);
+
+  // Remove after delay
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
+
+/**
+ * Copy shareable link to clipboard
+ */
+async function copyShareableLink() {
+  const url = new URL(window.location.href);
+
+  // Add current filters to URL
+  if (currentFilter.search) {
+    url.searchParams.set('q', currentFilter.search);
+  }
+  if (currentFilter.category) {
+    url.searchParams.set('cat', currentFilter.category);
+  }
+  if (selectedIngredients.length > 0) {
+    url.searchParams.set('ing', selectedIngredients.join(','));
+  }
+  if (nutritionFilter.activeDietPreset) {
+    url.searchParams.set('diet', nutritionFilter.activeDietPreset);
+  }
+  if (nutritionFilter.timeLimit) {
+    url.searchParams.set('time', nutritionFilter.timeLimit);
+  }
+
+  try {
+    await navigator.clipboard.writeText(url.toString());
+    showToast('Link copied to clipboard!');
+  } catch (err) {
+    const textarea = document.createElement('textarea');
+    textarea.value = url.toString();
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    showToast('Link copied!');
+  }
+}
+
+/**
+ * Clear the shopping list
+ */
+function clearShoppingList() {
+  selectedMealRecipes = [];
+  shoppingList = [];
+  renderShoppingListPanel();
+}
+
+// Make shopping list functions available globally
+window.addToShoppingList = addToShoppingList;
+window.removeFromShoppingList = removeFromShoppingList;
+window.toggleShoppingItem = toggleShoppingItem;
+window.copyShoppingList = copyShoppingList;
+window.copyShareableLink = copyShareableLink;
+window.clearShoppingList = clearShoppingList;
 
 // =============================================================================
 // Ingredient Search Functions
@@ -1522,6 +2603,279 @@ function setupEventListeners() {
       tagFilters.classList.toggle('collapsed', isExpanded);
     });
   }
+
+  // Keyboard shortcuts
+  setupKeyboardShortcuts();
+
+  // Load URL state (filters from URL params)
+  loadUrlState();
+
+  // Load favorites and recently viewed
+  loadFavorites();
+}
+
+// =============================================================================
+// Keyboard Shortcuts
+// =============================================================================
+
+/**
+ * Setup keyboard shortcuts for navigation
+ */
+function setupKeyboardShortcuts() {
+  document.addEventListener('keydown', (e) => {
+    // Don't trigger shortcuts when typing in input fields
+    if (e.target.matches('input, textarea, select')) return;
+
+    switch (e.key) {
+      case '/':
+        // Focus search input
+        e.preventDefault();
+        const searchInput = document.getElementById('search-input') ||
+                           document.getElementById('ingredient-input');
+        if (searchInput) {
+          searchInput.focus();
+        }
+        break;
+
+      case '?':
+        // Show keyboard shortcuts help
+        if (!e.shiftKey) break;
+        e.preventDefault();
+        showKeyboardShortcutsHelp();
+        break;
+
+      case 'Escape':
+        // Clear search/close modals
+        const activeElement = document.activeElement;
+        if (activeElement && activeElement.matches('input')) {
+          activeElement.blur();
+        }
+        hideAutocomplete();
+        break;
+
+      case 'h':
+        // Go to home
+        if (!e.ctrlKey && !e.metaKey) {
+          window.location.href = 'index.html';
+        }
+        break;
+
+      case 'r':
+        // Random recipe
+        if (!e.ctrlKey && !e.metaKey) {
+          showRandomRecipe();
+        }
+        break;
+    }
+  });
+}
+
+/**
+ * Show keyboard shortcuts help modal
+ */
+function showKeyboardShortcutsHelp() {
+  const existing = document.querySelector('.shortcuts-modal');
+  if (existing) {
+    existing.remove();
+    return;
+  }
+
+  const modal = document.createElement('div');
+  modal.className = 'shortcuts-modal';
+  modal.innerHTML = `
+    <div class="shortcuts-content">
+      <h3>Keyboard Shortcuts</h3>
+      <ul>
+        <li><kbd>/</kbd> Focus search</li>
+        <li><kbd>Esc</kbd> Clear focus / close</li>
+        <li><kbd>h</kbd> Go to home</li>
+        <li><kbd>r</kbd> Random recipe</li>
+        <li><kbd>Shift</kbd> + <kbd>?</kbd> Show this help</li>
+      </ul>
+      <button class="btn btn-small" onclick="this.closest('.shortcuts-modal').remove()">Close</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  // Close on click outside
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.remove();
+  });
+}
+
+/**
+ * Show a random recipe
+ */
+function showRandomRecipe() {
+  if (recipes.length === 0) return;
+
+  // Filter to canonical recipes only
+  const canonical = recipes.filter(r => !r.variant_of || r.variant_of === r.id);
+  const random = canonical[Math.floor(Math.random() * canonical.length)];
+
+  if (random) {
+    window.location.href = `recipe.html#${random.id}`;
+  }
+}
+
+// =============================================================================
+// Favorites System
+// =============================================================================
+
+const FAVORITES_KEY = 'grandmas-kitchen-favorites';
+const RECENTLY_VIEWED_KEY = 'grandmas-kitchen-recent';
+let favorites = [];
+let recentlyViewed = [];
+
+/**
+ * Load favorites from localStorage
+ */
+function loadFavorites() {
+  try {
+    const saved = localStorage.getItem(FAVORITES_KEY);
+    favorites = saved ? JSON.parse(saved) : [];
+
+    const recent = localStorage.getItem(RECENTLY_VIEWED_KEY);
+    recentlyViewed = recent ? JSON.parse(recent) : [];
+  } catch (e) {
+    favorites = [];
+    recentlyViewed = [];
+  }
+}
+
+/**
+ * Save favorites to localStorage
+ */
+function saveFavorites() {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+  } catch (e) {
+    console.error('Failed to save favorites:', e);
+  }
+}
+
+/**
+ * Toggle favorite status for a recipe
+ * @param {string} recipeId - The recipe ID
+ */
+function toggleFavorite(recipeId) {
+  const index = favorites.indexOf(recipeId);
+  if (index > -1) {
+    favorites.splice(index, 1);
+  } else {
+    favorites.push(recipeId);
+  }
+  saveFavorites();
+  return favorites.includes(recipeId);
+}
+
+/**
+ * Check if recipe is a favorite
+ * @param {string} recipeId - The recipe ID
+ * @returns {boolean}
+ */
+function isFavorite(recipeId) {
+  return favorites.includes(recipeId);
+}
+
+/**
+ * Add recipe to recently viewed
+ * @param {string} recipeId - The recipe ID
+ */
+function addToRecentlyViewed(recipeId) {
+  // Remove if already exists
+  recentlyViewed = recentlyViewed.filter(id => id !== recipeId);
+  // Add to front
+  recentlyViewed.unshift(recipeId);
+  // Keep only last 10
+  recentlyViewed = recentlyViewed.slice(0, 10);
+
+  try {
+    localStorage.setItem(RECENTLY_VIEWED_KEY, JSON.stringify(recentlyViewed));
+  } catch (e) {
+    console.error('Failed to save recently viewed:', e);
+  }
+}
+
+/**
+ * Get recently viewed recipes
+ * @returns {Array} - Array of recipe objects
+ */
+function getRecentlyViewed() {
+  return recentlyViewed
+    .map(id => recipes.find(r => r.id === id))
+    .filter(Boolean);
+}
+
+// Make favorites functions available globally
+window.toggleFavorite = toggleFavorite;
+window.isFavorite = isFavorite;
+
+// =============================================================================
+// URL State Management
+// =============================================================================
+
+/**
+ * Load filter state from URL parameters
+ */
+function loadUrlState() {
+  const params = new URLSearchParams(window.location.search);
+
+  // Search query
+  const q = params.get('q');
+  if (q) {
+    currentFilter.search = q.toLowerCase();
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = q;
+  }
+
+  // Category
+  const cat = params.get('cat');
+  if (cat) {
+    currentFilter.category = cat;
+    const categorySelect = document.getElementById('category-filter');
+    if (categorySelect) categorySelect.value = cat;
+  }
+
+  // Ingredients
+  const ing = params.get('ing');
+  if (ing) {
+    selectedIngredients = ing.split(',').map(i => i.trim()).filter(Boolean);
+    renderSelectedIngredients();
+  }
+
+  // Diet preset
+  const diet = params.get('diet');
+  if (diet && DIET_PRESETS[diet]) {
+    applyDietPreset(diet);
+  }
+
+  // Time filter
+  const time = params.get('time');
+  if (time) {
+    nutritionFilter.timeLimit = parseInt(time, 10);
+    const timeSelect = document.getElementById('time-filter');
+    if (timeSelect) timeSelect.value = time;
+  }
+}
+
+/**
+ * Update URL with current filter state (without reloading)
+ */
+function updateUrlState() {
+  const params = new URLSearchParams();
+
+  if (currentFilter.search) params.set('q', currentFilter.search);
+  if (currentFilter.category) params.set('cat', currentFilter.category);
+  if (selectedIngredients.length > 0) params.set('ing', selectedIngredients.join(','));
+  if (nutritionFilter.activeDietPreset) params.set('diet', nutritionFilter.activeDietPreset);
+  if (nutritionFilter.timeLimit) params.set('time', nutritionFilter.timeLimit);
+
+  const newUrl = params.toString()
+    ? `${window.location.pathname}?${params.toString()}`
+    : window.location.pathname;
+
+  window.history.replaceState({}, '', newUrl);
 }
 
 /**
@@ -1650,6 +3004,59 @@ function renderRecipeGrid() {
       }
     }
 
+    // Time filter
+    if (nutritionFilter.timeLimit) {
+      const recipeTime = parseTimeToMinutes(recipe.total_time || recipe.cook_time);
+      if (recipeTime === null || recipeTime > nutritionFilter.timeLimit) {
+        return false;
+      }
+    }
+
+    // Nutrition filters
+    if (nutritionFilter.onlyWithNutrition && !recipe.nutrition) {
+      return false;
+    }
+
+    // Check nutrition ranges if recipe has data
+    if (recipe.nutrition) {
+      const n = recipe.nutrition;
+
+      // Calories filter
+      if (nutritionFilter.calories.min !== null && (n.calories === undefined || n.calories < nutritionFilter.calories.min)) {
+        return false;
+      }
+      if (nutritionFilter.calories.max !== null && n.calories !== undefined && n.calories > nutritionFilter.calories.max) {
+        return false;
+      }
+
+      // Carbs filter
+      if (nutritionFilter.carbs.min !== null && (n.carbohydrates === undefined || n.carbohydrates < nutritionFilter.carbs.min)) {
+        return false;
+      }
+      if (nutritionFilter.carbs.max !== null && n.carbohydrates !== undefined && n.carbohydrates > nutritionFilter.carbs.max) {
+        return false;
+      }
+
+      // Protein filter
+      if (nutritionFilter.protein.min !== null && (n.protein === undefined || n.protein < nutritionFilter.protein.min)) {
+        return false;
+      }
+      if (nutritionFilter.protein.max !== null && n.protein !== undefined && n.protein > nutritionFilter.protein.max) {
+        return false;
+      }
+
+      // Fat filter
+      if (nutritionFilter.fat.min !== null && (n.fat === undefined || n.fat < nutritionFilter.fat.min)) {
+        return false;
+      }
+      if (nutritionFilter.fat.max !== null && n.fat !== undefined && n.fat > nutritionFilter.fat.max) {
+        return false;
+      }
+    } else if (hasActiveNutritionFilter()) {
+      // No nutrition data but filters are active - skip unless showing all
+      return false;
+    }
+
     return true;
   });
 
@@ -1734,6 +3141,14 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
     `;
   }
 
+  // Check if recipe is in meal plan
+  const isInMealPlan = selectedMealRecipes.some(r => r.id === recipe.id);
+  const mealPlanBtnClass = isInMealPlan ? 'meal-plan-btn in-plan' : 'meal-plan-btn';
+  const mealPlanBtnText = isInMealPlan ? '✓ In Plan' : '+ Meal Plan';
+  const mealPlanAction = isInMealPlan
+    ? `removeFromShoppingList('${escapeAttr(recipe.id)}')`
+    : `addToShoppingList('${escapeAttr(recipe.id)}')`;
+
   return `
     <article class="recipe-card category-${escapeAttr(recipe.category)}">
       <div class="recipe-card-image">
@@ -1750,6 +3165,9 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
           ${recipe.servings_yield ? `<span>${escapeHtml(recipe.servings_yield)}</span>` : ''}
           ${timeInfo ? `<span>${escapeHtml(timeInfo)}</span>` : ''}
         </div>
+        <button type="button" class="${mealPlanBtnClass}" onclick="${mealPlanAction}; event.stopPropagation();">
+          ${mealPlanBtnText}
+        </button>
       </div>
     </article>
   `;
@@ -1809,8 +3227,10 @@ function renderRecipeDetail(recipeId) {
 
       ${renderQuickFacts(recipe)}
 
+      ${renderScalingControls(recipe)}
+
       <section class="ingredients-section">
-        <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}</h2>
+        <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}${recipeScale !== 1 ? `<span class="scale-badge">${recipeScale}×</span>` : ''}</h2>
         ${renderIngredientsList(recipe)}
       </section>
 
@@ -1830,6 +3250,7 @@ function renderRecipeDetail(recipeId) {
       ${recipe.nutrition ? renderNutrition(recipe.nutrition, recipe.servings_yield) : ''}
       ${recipe.notes && recipe.notes.length > 0 ? renderNotes(recipe.notes) : ''}
       ${recipe.conversions?.conversion_assumptions?.length > 0 && showMetric ? renderConversionNotes(recipe.conversions) : ''}
+      ${renderKitchenTipsForRecipe(recipe)}
       ${renderTags(recipe.tags)}
       ${renderConfidenceFlags(recipe.confidence?.flags)}
       ${renderOriginalScan(recipe.image_refs, recipe.collection)}
@@ -1862,6 +3283,16 @@ function renderRecipeDetail(recipeId) {
       }
     });
   }
+
+  // Scale button handlers
+  document.querySelectorAll('.scale-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const scale = parseFloat(btn.dataset.scale);
+      if (!isNaN(scale)) {
+        setRecipeScale(scale, recipeId);
+      }
+    });
+  });
 }
 
 /**
@@ -1909,7 +3340,7 @@ function renderVariantsDropdown(currentRecipe, variants) {
 }
 
 /**
- * Render ingredients list (with metric toggle support)
+ * Render ingredients list (with metric toggle and scaling support)
  */
 function renderIngredientsList(recipe) {
   const ingredients = showMetric && recipe.conversions?.ingredients_metric?.length > 0
@@ -1918,15 +3349,22 @@ function renderIngredientsList(recipe) {
 
   return `
     <ul class="ingredients-list">
-      ${ingredients.map(ing => `
-        <li>
-          <span class="ingredient-quantity">${escapeHtml(ing.quantity)} ${escapeHtml(ing.unit)}</span>
+      ${ingredients.map(ing => {
+        // Apply scaling if not 1x
+        const scaled = scaleQuantity(ing.quantity, recipeScale);
+        const warning = checkPracticalMinimum(scaled.value, ing.unit);
+
+        return `
+        <li class="${warning ? 'has-warning' : ''}">
+          <span class="ingredient-quantity ${recipeScale !== 1 ? 'scaled' : ''}">${escapeHtml(scaled.display)} ${escapeHtml(ing.unit || '')}</span>
           <span class="ingredient-item">
             ${escapeHtml(ing.item)}
             ${ing.prep_note ? `<span class="ingredient-prep">, ${escapeHtml(ing.prep_note)}</span>` : ''}
           </span>
+          ${warning ? `<span class="ingredient-warning" title="${escapeAttr(warning)}">⚠️</span>` : ''}
         </li>
-      `).join('')}
+      `;
+      }).join('')}
     </ul>
   `;
 }
@@ -2192,6 +3630,19 @@ function clearFilters() {
   if (ingredientInput) ingredientInput.value = '';
   const resultsDiv = document.getElementById('ingredient-search-results');
   if (resultsDiv) resultsDiv.classList.add('hidden');
+
+  // Clear time filter
+  const timeFilter = document.getElementById('time-filter');
+  if (timeFilter) timeFilter.value = '';
+  nutritionFilter.timeLimit = null;
+
+  // Clear nutrition filters
+  clearNutritionFilters();
+  nutritionFilter.onlyWithNutrition = false;
+  updateNutritionInputs();
+  updateDietPresetButtons();
+  const onlyWithNutrition = document.getElementById('only-with-nutrition');
+  if (onlyWithNutrition) onlyWithNutrition.checked = false;
 
   renderRecipeGrid();
 }

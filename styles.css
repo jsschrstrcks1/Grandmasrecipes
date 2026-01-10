@@ -2467,6 +2467,245 @@ main {
   }
 }
 
+/* =============================================================================
+   TIME AND NUTRITION FILTERS
+   ============================================================================= */
+
+/* Time Filter Row */
+.time-filter-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.time-select {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: 2px solid var(--color-teal);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background-color: var(--color-warm-white);
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.time-select:focus {
+  outline: none;
+  border-color: var(--color-coral);
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2);
+}
+
+/* Nutrition Section */
+.nutrition-section {
+  margin-bottom: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.nutrition-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-cream);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.nutrition-toggle:hover {
+  background-color: var(--color-teal-light);
+}
+
+.nutrition-toggle .toggle-icon {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.nutrition-toggle[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.nutrition-filters {
+  padding: var(--spacing-md);
+  background-color: var(--color-warm-white);
+  border-top: 1px solid var(--color-border);
+}
+
+.nutrition-filters.hidden {
+  display: none;
+}
+
+/* Diet Presets */
+.diet-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.diet-presets .preset-label {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-right: var(--spacing-xs);
+}
+
+.diet-preset-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  border: 2px solid var(--color-teal);
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.diet-preset-btn:hover {
+  background-color: var(--color-teal-light);
+  border-color: var(--color-teal-dark);
+}
+
+.diet-preset-btn.active {
+  background-color: var(--color-teal);
+  color: white;
+  border-color: var(--color-teal-dark);
+}
+
+.diet-preset-btn[data-diet="clear"] {
+  background-color: transparent;
+  border-color: var(--color-coral);
+  color: var(--color-coral);
+}
+
+.diet-preset-btn[data-diet="clear"]:hover {
+  background-color: var(--color-coral);
+  color: white;
+}
+
+/* Nutrition Ranges */
+.nutrition-ranges {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.nutrition-range-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.nutrition-range-row label {
+  min-width: 80px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.nutrition-range-row input[type="number"] {
+  width: 70px;
+  padding: var(--spacing-xs);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  text-align: center;
+}
+
+.nutrition-range-row input[type="number"]:focus {
+  outline: none;
+  border-color: var(--color-teal);
+  box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.2);
+}
+
+.nutrition-range-row span {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+/* Nutrition Options */
+.nutrition-options {
+  margin-bottom: var(--spacing-md);
+}
+
+.nutrition-checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.nutrition-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Nutrition badge on recipe cards */
+.recipe-nutrition-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background-color: var(--color-teal-light);
+  color: var(--color-teal-dark);
+  border-radius: 4px;
+  margin-top: var(--spacing-xs);
+}
+
+.recipe-nutrition-badge.no-data {
+  background-color: var(--color-cream);
+  color: var(--color-text-light);
+}
+
+/* Three-tier nutrition status */
+.nutrition-status-good {
+  color: var(--color-teal-dark);
+  background-color: rgba(0, 150, 136, 0.15);
+}
+
+.nutrition-status-warn {
+  color: #856404;
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
+.nutrition-status-over {
+  color: var(--color-cherry);
+  background-color: rgba(255, 107, 107, 0.15);
+}
+
+/* Responsive nutrition filters */
+@media (max-width: 768px) {
+  .nutrition-range-row {
+    flex-wrap: wrap;
+  }
+
+  .nutrition-range-row label {
+    width: 100%;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .nutrition-range-row input[type="number"] {
+    flex: 1;
+  }
+
+  .diet-presets {
+    justify-content: center;
+  }
+}
+
 /* Special 1950s Decorative Elements */
 .retro-divider {
   text-align: center;
@@ -2721,3 +2960,929 @@ main {
 }
 
 /* Collection filter responsive - merged into main mobile styles above */
+
+/* =============================================================================
+   Shopping List & Meal Plan Styles (Phase 7)
+   ============================================================================= */
+
+/* Shopping section toggle */
+.shopping-section {
+  margin-top: var(--spacing-md);
+}
+
+.shopping-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, var(--color-teal) 100%);
+  border: 2px solid var(--color-teal-dark);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--color-cream);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.shopping-toggle:hover {
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+}
+
+.shopping-toggle .filter-label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.shopping-toggle .filter-label::before {
+  content: '🛒';
+}
+
+/* Shopping list panel */
+.shopping-list-panel {
+  background: var(--color-cream);
+  border: 2px solid var(--color-teal);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  padding: var(--spacing-md);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.shopping-list-empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: var(--spacing-md);
+  font-style: italic;
+}
+
+.shopping-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px dashed var(--color-teal-light);
+}
+
+.shopping-list-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-teal-dark);
+}
+
+.shopping-recipes-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.shopping-recipe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: var(--color-teal-light);
+  border-radius: var(--radius-sm);
+}
+
+.shopping-recipe-title {
+  font-size: 0.85rem;
+  color: var(--color-teal-dark);
+  font-weight: 500;
+}
+
+.shopping-recipe-remove {
+  background: none;
+  border: none;
+  color: var(--color-coral);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 var(--spacing-xs);
+  line-height: 1;
+}
+
+.shopping-recipe-remove:hover {
+  color: var(--color-coral-dark);
+}
+
+.shopping-list-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-teal), transparent);
+  margin: var(--spacing-sm) 0;
+}
+
+.shopping-items-header h4 {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.shopping-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.shopping-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-xs) 0;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--color-border);
+}
+
+.shopping-item:last-child {
+  border-bottom: none;
+}
+
+.shopping-item input[type="checkbox"] {
+  margin-top: 2px;
+  accent-color: var(--color-teal);
+}
+
+.shopping-item.checked .item-name {
+  text-decoration: line-through;
+  color: var(--color-text-muted);
+}
+
+.item-name {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.item-quantity {
+  font-size: 0.8rem;
+  color: var(--color-teal-dark);
+}
+
+.item-recipes {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.shopping-list-checked-header {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-sm);
+  padding-top: var(--spacing-sm);
+  border-top: 1px dashed var(--color-border);
+}
+
+/* Meal plan button on recipe cards */
+.meal-plan-btn {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: linear-gradient(180deg, var(--color-cream) 0%, #e8e8e8 100%);
+  border: 1px solid var(--color-chrome-dark);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-teal-dark);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.meal-plan-btn:hover {
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, var(--color-teal) 100%);
+  color: var(--color-cream);
+  border-color: var(--color-teal-dark);
+}
+
+.meal-plan-btn.in-plan {
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  color: var(--color-cream);
+  border-color: var(--color-teal-dark);
+}
+
+.meal-plan-btn.in-plan:hover {
+  background: linear-gradient(180deg, var(--color-coral) 0%, var(--color-coral-dark) 100%);
+  border-color: var(--color-coral-dark);
+}
+
+/* Share section */
+.share-section {
+  margin-top: var(--spacing-md);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Toast notification */
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  color: var(--color-cream);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.toast-notification.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .shopping-list-panel {
+    max-height: 300px;
+  }
+
+  .shopping-list-header {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    align-items: flex-start;
+  }
+}
+
+/* =============================================================================
+   Kitchen Tips Styles (Phase 8)
+   ============================================================================= */
+
+.kitchen-tips-section {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background: linear-gradient(135deg, var(--color-cream) 0%, #fff5e6 100%);
+  border: 2px solid var(--color-teal);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kitchen-tips-header {
+  font-family: var(--font-heading);
+  color: var(--color-teal-dark);
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: 1.25rem;
+  border-bottom: 2px dashed var(--color-teal-light);
+  padding-bottom: var(--spacing-sm);
+}
+
+.kitchen-tips-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.kitchen-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: white;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--color-teal);
+  transition: all 0.2s ease;
+}
+
+.kitchen-tip:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transform: translateX(4px);
+}
+
+.kitchen-tip.directly-related {
+  border-left-color: var(--color-coral);
+  background: linear-gradient(90deg, #fff8f6 0%, white 100%);
+}
+
+.tip-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.tip-content {
+  flex: 1;
+}
+
+.tip-text {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.tip-attribution {
+  font-size: 0.85rem;
+  color: var(--color-teal-dark);
+  font-weight: 600;
+}
+
+/* Kitchen tips on index page */
+.tips-section {
+  margin-top: var(--spacing-md);
+}
+
+.tips-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, #fff5e6 0%, #ffe6cc 100%);
+  border: 2px solid var(--color-coral);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--color-coral-dark);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.tips-toggle:hover {
+  background: linear-gradient(180deg, #ffe6cc 0%, #ffd9b3 100%);
+}
+
+.tips-panel {
+  background: var(--color-cream);
+  border: 2px solid var(--color-coral);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  padding: var(--spacing-md);
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.tips-category {
+  margin-bottom: var(--spacing-md);
+}
+
+.tips-category:last-child {
+  margin-bottom: 0;
+}
+
+.tips-category-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+  font-weight: 600;
+  color: var(--color-coral-dark);
+  font-size: 0.9rem;
+}
+
+.tips-category-list {
+  padding-left: var(--spacing-lg);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.tips-category-list li {
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .kitchen-tips-section {
+    padding: var(--spacing-md);
+  }
+
+  .kitchen-tip {
+    flex-direction: column;
+  }
+
+  .tip-icon {
+    font-size: 1.25rem;
+  }
+}
+
+/* =============================================================================
+   Recipe Scaling Styles (Phase 9)
+   ============================================================================= */
+
+.scaling-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  padding: var(--spacing-md);
+  background: linear-gradient(180deg, var(--color-cream) 0%, #f5f5f5 100%);
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.scaling-label {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.scaling-buttons {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.scale-btn {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: linear-gradient(180deg, white 0%, #f0f0f0 100%);
+  border: 2px solid var(--color-chrome-dark);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 44px;
+}
+
+.scale-btn:hover {
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, var(--color-teal) 100%);
+  color: white;
+  border-color: var(--color-teal-dark);
+}
+
+.scale-btn.active {
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  color: white;
+  border-color: var(--color-teal-dark);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scaling-servings {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Scale badge in section header */
+.scale-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--color-coral);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-left: var(--spacing-sm);
+  vertical-align: middle;
+}
+
+/* Scaled ingredient quantity styling */
+.ingredient-quantity.scaled {
+  color: var(--color-teal-dark);
+  font-weight: 600;
+}
+
+/* Warning indicator for impractical measurements */
+.ingredient-warning {
+  margin-left: var(--spacing-xs);
+  cursor: help;
+}
+
+.ingredients-list li.has-warning {
+  background: linear-gradient(90deg, #fff8e6 0%, transparent 50%);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-xs);
+  margin-left: calc(-1 * var(--spacing-xs));
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .scaling-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .scaling-buttons {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .scale-btn {
+    flex: 1;
+    min-width: auto;
+  }
+}
+
+/* =============================================================================
+   Recipe Calculator Styles (Phase 10)
+   ============================================================================= */
+
+.calculator-hero {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  margin-bottom: var(--spacing-lg);
+}
+
+.calculator-hero h2 {
+  font-family: var(--font-heading);
+  color: var(--color-teal-dark);
+  margin-bottom: var(--spacing-sm);
+}
+
+.calculator-hero p {
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.calculator-section {
+  background: var(--color-cream);
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.calculator-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text);
+}
+
+.form-help {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-sm);
+}
+
+.ingredient-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.ingredient-input-row {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.amount-input {
+  width: 80px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+}
+
+.unit-select {
+  width: 90px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  background: white;
+}
+
+.ingredient-name-input {
+  flex: 1;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+}
+
+.remove-ingredient-btn {
+  background: none;
+  border: none;
+  color: var(--color-coral);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 var(--spacing-xs);
+  line-height: 1;
+}
+
+.remove-ingredient-btn:hover {
+  color: var(--color-coral-dark);
+}
+
+#analyze-btn {
+  width: 100%;
+  padding: var(--spacing-md);
+  font-size: 1.1rem;
+  margin-top: var(--spacing-md);
+}
+
+/* Results Section */
+.calculator-results {
+  margin-bottom: var(--spacing-xl);
+}
+
+.calculator-results h3 {
+  font-family: var(--font-heading);
+  color: var(--color-teal-dark);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.result-card {
+  background: white;
+  border: 2px solid var(--color-chrome);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.result-card h4 {
+  color: var(--color-teal-dark);
+  margin: 0 0 var(--spacing-md) 0;
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px dashed var(--color-chrome);
+}
+
+/* Comparison Stats */
+.stat-row {
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-name {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xs);
+  text-transform: capitalize;
+}
+
+.stat-details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  font-size: 0.85rem;
+}
+
+.your-amount {
+  color: var(--color-teal-dark);
+}
+
+.stat-range {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.range-bar {
+  height: 8px;
+  background: var(--color-chrome);
+  border-radius: 4px;
+  position: relative;
+  overflow: visible;
+}
+
+.range-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-teal-light), var(--color-teal));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.avg-marker {
+  position: absolute;
+  top: -4px;
+  width: 3px;
+  height: 16px;
+  background: var(--color-coral);
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+
+.range-text {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}
+
+.found-count {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.not-found {
+  color: var(--color-coral);
+  font-style: italic;
+}
+
+/* Similar Recipes */
+.similar-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.similar-recipe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-cream);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+}
+
+.similar-recipe:hover {
+  background: var(--color-teal-light);
+  transform: translateX(4px);
+}
+
+.similar-recipe .recipe-title {
+  font-weight: 600;
+}
+
+.similar-recipe .match-score {
+  font-size: 0.8rem;
+  color: var(--color-teal-dark);
+}
+
+/* Suggestions */
+.suggestion {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.suggestion-icon {
+  flex-shrink: 0;
+}
+
+.suggestion-success {
+  background: #e6f7e6;
+  color: #2d662d;
+}
+
+.suggestion-warning {
+  background: #fff3e6;
+  color: #995c00;
+}
+
+.suggestion-info {
+  background: #e6f0ff;
+  color: #0047b3;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .calculator-section {
+    padding: var(--spacing-md);
+  }
+
+  .ingredient-input-row {
+    flex-wrap: wrap;
+  }
+
+  .amount-input {
+    width: 60px;
+  }
+
+  .unit-select {
+    width: 70px;
+  }
+
+  .ingredient-name-input {
+    flex-basis: 100%;
+    margin-top: var(--spacing-xs);
+  }
+
+  .similar-recipe {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* =============================================================================
+   Phase 11: Polish & Extras
+   ============================================================================= */
+
+/* Keyboard shortcuts modal */
+.shortcuts-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.shortcuts-content {
+  background: var(--color-cream);
+  border: 3px solid var(--color-teal);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  max-width: 400px;
+  text-align: center;
+}
+
+.shortcuts-content h3 {
+  color: var(--color-teal-dark);
+  margin: 0 0 var(--spacing-md) 0;
+}
+
+.shortcuts-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--spacing-md) 0;
+  text-align: left;
+}
+
+.shortcuts-content li {
+  padding: var(--spacing-xs) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 8px;
+  background: white;
+  border: 1px solid var(--color-chrome-dark);
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 0 var(--color-chrome);
+}
+
+/* Favorite button */
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-chrome-dark);
+  transition: all 0.2s ease;
+  padding: var(--spacing-xs);
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+}
+
+.favorite-btn.is-favorite {
+  color: var(--color-coral);
+}
+
+.favorite-btn.is-favorite::before {
+  content: '♥';
+}
+
+.favorite-btn:not(.is-favorite)::before {
+  content: '♡';
+}
+
+/* Print styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .action-buttons,
+  .scaling-controls,
+  .meal-plan-btn,
+  .favorite-btn,
+  .no-print {
+    display: none !important;
+  }
+
+  .recipe-detail {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .ingredients-list,
+  .instructions-list {
+    page-break-inside: avoid;
+  }
+
+  .kitchen-tips-section {
+    page-break-before: always;
+  }
+
+  body {
+    font-size: 12pt;
+    color: black;
+    background: white;
+  }
+}

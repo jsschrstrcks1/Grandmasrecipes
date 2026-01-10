@@ -1,0 +1,364 @@
+{
+  "version": "1.0.0",
+  "description": "Family kitchen wisdom aggregated by technique and category",
+  "categories": [
+    {
+      "id": "candy-making",
+      "name": "Candy Making",
+      "icon": "🍬",
+      "tips": [
+        {
+          "text": "Use a candy thermometer - 235°F is the soft ball stage. Don't guess!",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker",
+          "relatedRecipes": ["divinity", "fudge", "pralines"]
+        },
+        {
+          "text": "On humid days, cook candy 2 degrees higher than the recipe calls for.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom",
+          "relatedRecipes": ["fudge", "divinity", "caramels"]
+        },
+        {
+          "text": "At high altitude, reduce the target temperature by 2°F for every 1000 feet above sea level.",
+          "attribution": "Granny Hudson",
+          "collection": "granny",
+          "relatedRecipes": ["candy", "fudge"]
+        },
+        {
+          "text": "Never stir candy while it's boiling unless the recipe specifically says to - it causes crystallization.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Cool candy on a buttered surface or parchment paper, never wax paper - it can stick and melt.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        }
+      ]
+    },
+    {
+      "id": "baking-bread",
+      "name": "Bread Baking",
+      "icon": "🍞",
+      "tips": [
+        {
+          "text": "Test yeast by dissolving it in warm water (105-110°F) with a pinch of sugar. It should foam within 10 minutes.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker",
+          "relatedRecipes": ["bread", "rolls", "cinnamon-rolls"]
+        },
+        {
+          "text": "Bread dough has risen enough when you poke it with your finger and the indent springs back slowly.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "For a crispy crust, place a pan of water in the bottom of the oven while baking.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Let bread cool completely before slicing - cutting hot bread makes it gummy.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Brush the top of bread with butter immediately after removing from oven for a soft, golden crust.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        }
+      ]
+    },
+    {
+      "id": "baking-cakes",
+      "name": "Cake Baking",
+      "icon": "🎂",
+      "tips": [
+        {
+          "text": "Bring eggs and butter to room temperature before baking - they incorporate better and create fluffier cakes.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Don't open the oven door during the first 20 minutes of baking - the cold air can cause cakes to fall.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Test cake doneness by inserting a toothpick in the center - it should come out clean or with just a few moist crumbs.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Let cakes cool in the pan for 10 minutes, then turn out onto a wire rack to finish cooling.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "For level cake layers, wrap wet cloth strips around the outside of the pan while baking.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        }
+      ]
+    },
+    {
+      "id": "baking-cookies",
+      "name": "Cookie Baking",
+      "icon": "🍪",
+      "tips": [
+        {
+          "text": "Chill cookie dough for at least 30 minutes before baking - it prevents spreading and improves flavor.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Use parchment paper or silicone mats - cookies bake more evenly and cleanup is easy.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Rotate cookie sheets halfway through baking for even browning.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Remove cookies from the oven when they look slightly underdone - they continue to bake on the hot sheet.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        }
+      ]
+    },
+    {
+      "id": "baking-pies",
+      "name": "Pie Making",
+      "icon": "🥧",
+      "tips": [
+        {
+          "text": "Keep everything cold when making pie crust - cold butter creates flaky layers.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Don't overwork pie dough - mix just until it comes together. Overworking makes it tough.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Brush pie crust with beaten egg for a golden, shiny finish.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Place a baking sheet under fruit pies to catch any drips.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Let fruit pies cool completely before cutting - the filling needs time to set.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        }
+      ]
+    },
+    {
+      "id": "meat-cooking",
+      "name": "Meat Cooking",
+      "icon": "🥩",
+      "tips": [
+        {
+          "text": "Let meat rest after cooking - this allows juices to redistribute. Rest for 5 minutes per inch of thickness.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Pat meat dry before searing - moisture prevents proper browning.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Season meat generously with salt at least 40 minutes before cooking, or right before - anything in between draws out moisture.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Use a meat thermometer for perfect doneness every time. Don't guess!",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Bring meat to room temperature before cooking for more even results.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        }
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": "Egg Cookery",
+      "icon": "🥚",
+      "tips": [
+        {
+          "text": "For easy-peel hard boiled eggs, use eggs that are at least a week old.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Add a splash of vinegar to poaching water - it helps the egg whites hold together.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "For fluffier scrambled eggs, add a splash of water instead of milk.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "To separate eggs cleanly, crack them into your hand and let the whites slip through your fingers.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        }
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces & Gravies",
+      "icon": "🥣",
+      "tips": [
+        {
+          "text": "To prevent lumps in gravy, whisk the flour into cold liquid before adding to hot drippings.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Don't rush the roux - cook it for at least 2 minutes to remove the raw flour taste.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Strain lumpy gravy through a fine mesh sieve - no one will ever know!",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Add a pat of cold butter at the end for a glossy, restaurant-quality sauce.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "icon": "🥕",
+      "tips": [
+        {
+          "text": "Salt vegetables after cooking, not before - salt draws out moisture and can make them soggy.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Roast vegetables at high heat (400°F+) for better caramelization and flavor.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Don't crowd vegetables in the pan - give them space to brown properly.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Blanch green vegetables in boiling salted water, then shock in ice water to keep their bright color.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        }
+      ]
+    },
+    {
+      "id": "soups-stews",
+      "name": "Soups & Stews",
+      "icon": "🍲",
+      "tips": [
+        {
+          "text": "Start soups with sautéed onions, celery, and carrots (mirepoix) for the best flavor foundation.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Add a parmesan rind to simmering soup - it adds incredible depth of flavor.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Soups and stews taste better the next day - make them ahead when possible.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Skim fat from the top of soup by dragging a piece of bread or paper towel across the surface.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        }
+      ]
+    },
+    {
+      "id": "frying",
+      "name": "Frying",
+      "icon": "🍳",
+      "tips": [
+        {
+          "text": "Test oil temperature by dropping in a small piece of bread - it should sizzle and turn golden in about 60 seconds at 350°F.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Don't overcrowd the pan when frying - it drops the oil temperature and makes food soggy.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Drain fried foods on a wire rack, not paper towels - they stay crispier.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Let oil come back to temperature between batches for consistent results.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General Cooking",
+      "icon": "👩‍🍳",
+      "tips": [
+        {
+          "text": "Read the entire recipe before starting - no surprises!",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "Mise en place - prepare and measure all ingredients before you start cooking.",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        },
+        {
+          "text": "Taste as you go and adjust seasonings throughout cooking.",
+          "attribution": "Granny Hudson",
+          "collection": "granny"
+        },
+        {
+          "text": "Clean as you go - a tidy kitchen makes cooking more enjoyable.",
+          "attribution": "Grandma Baker",
+          "collection": "grandma-baker"
+        },
+        {
+          "text": "When in doubt, add more garlic!",
+          "attribution": "MomMom Baker",
+          "collection": "mommom"
+        }
+      ]
+    }
+  ]
+}
