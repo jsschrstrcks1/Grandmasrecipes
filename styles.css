@@ -1386,9 +1386,22 @@ main {
   }
 
   /* Collection buttons */
-  .collection-btn {
+  .collection-checkbox {
     font-size: 0.8rem;
     padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .collection-checkboxes {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .collection-checkbox {
+    justify-content: flex-start;
+  }
+
+  .collection-select-all {
+    align-self: flex-start;
   }
 }
 
@@ -2157,7 +2170,7 @@ main {
   box-shadow: 0 0 0 3px var(--color-teal);
 }
 
-/* Collection Filter */
+/* Collection Filter (Multi-select Checkboxes) */
 .collection-filter {
   display: flex;
   align-items: center;
@@ -2166,34 +2179,107 @@ main {
   margin-bottom: var(--spacing-md);
 }
 
-.collection-buttons {
+.collection-checkboxes {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacing-xs);
+  gap: var(--spacing-sm);
+  align-items: center;
 }
 
-.collection-btn {
+.collection-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
   padding: var(--spacing-xs) var(--spacing-md);
   background-color: var(--color-cream);
-  color: var(--color-charcoal);
   border: 2px solid var(--color-teal);
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
-  cursor: pointer;
   transition: all 0.2s ease;
-  font-family: inherit;
+  user-select: none;
 }
 
-.collection-btn:hover {
+.collection-checkbox:hover {
   background-color: var(--color-teal-light);
   border-color: var(--color-teal-dark);
 }
 
-.collection-btn.active {
+.collection-checkbox input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--color-teal-dark);
+  border-radius: 4px;
+  margin-right: var(--spacing-xs);
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.collection-checkbox input[type="checkbox"]:checked {
   background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
-  color: white;
   border-color: var(--color-teal-dark);
+}
+
+.collection-checkbox input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.collection-checkbox input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-teal-light);
+}
+
+.collection-checkbox .checkbox-label {
+  color: var(--color-charcoal);
+}
+
+.collection-checkbox:has(input:checked) {
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, #b2dfdb 100%);
+  border-color: var(--color-teal-dark);
+}
+
+.collection-count {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin-left: 2px;
+}
+
+.collection-select-all {
+  background: none;
+  border: none;
+  color: var(--color-coral);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: var(--spacing-xs);
+  text-decoration: underline;
+  font-family: inherit;
+  transition: color 0.2s ease;
+}
+
+.collection-select-all:hover {
+  color: var(--color-cherry);
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Category Filter Row */

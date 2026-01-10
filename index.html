@@ -159,14 +159,23 @@
           <button type="submit" class="btn btn-primary">Search</button>
         </form>
 
-        <!-- Collection Filter -->
+        <!-- Collection Filter (Multi-select) -->
         <div class="collection-filter">
           <span class="filter-label">Recipe Box:</span>
-          <div class="collection-buttons" id="collection-filters">
-            <button type="button" class="collection-btn active" data-collection="">All</button>
-            <button type="button" class="collection-btn" data-collection="grandma-baker">Grandma</button>
-            <button type="button" class="collection-btn" data-collection="mommom">MomMom</button>
-            <button type="button" class="collection-btn" data-collection="granny">Granny</button>
+          <div class="collection-checkboxes" id="collection-filters">
+            <label class="collection-checkbox">
+              <input type="checkbox" data-collection="grandma-baker" checked>
+              <span class="checkbox-label">Grandma <span class="collection-count" data-count="grandma-baker">(0)</span></span>
+            </label>
+            <label class="collection-checkbox">
+              <input type="checkbox" data-collection="mommom" checked>
+              <span class="checkbox-label">MomMom <span class="collection-count" data-count="mommom">(0)</span></span>
+            </label>
+            <label class="collection-checkbox">
+              <input type="checkbox" data-collection="granny" checked>
+              <span class="checkbox-label">Granny <span class="collection-count" data-count="granny">(0)</span></span>
+            </label>
+            <button type="button" class="collection-select-all btn-link" id="collection-select-all">Select All</button>
           </div>
         </div>
 

@@ -67,7 +67,7 @@ function escapeAttr(value) {
 let recipes = [];
 let categories = new Set();
 let allTags = new Set();
-let currentFilter = { search: '', category: '', tag: '', collection: '', ingredients: [], ingredientMatchInfo: null };
+let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
 let showMetric = false; // Toggle for metric conversions
 
 // Ingredient search state
@@ -685,41 +685,94 @@ function updateIngredientSearchResults(matchInfo) {
 }
 
 /**
- * Update collection filter buttons with recipe counts
+ * Update collection filter with recipe counts
  */
 function updateCollectionCounts() {
   const collectionFilters = document.getElementById('collection-filters');
   if (!collectionFilters) return;
 
-  // Count recipes by collection (excluding reference collection from individual counts)
+  // Count recipes by collection
   const counts = {
-    '': recipes.length, // All recipes
     'grandma-baker': 0,
     'mommom': 0,
     'granny': 0
   };
 
   recipes.forEach(recipe => {
+    // Skip variants
+    if (recipe.variant_of && recipe.variant_of !== recipe.id) return;
+
     const collection = recipe.collection || '';
     if (counts.hasOwnProperty(collection)) {
       counts[collection]++;
     }
   });
 
-  // Update button labels
-  const labels = {
-    '': 'All',
-    'grandma-baker': 'Grandma',
-    'mommom': 'MomMom',
-    'granny': 'Granny'
-  };
-
-  collectionFilters.querySelectorAll('.collection-btn').forEach(btn => {
-    const collection = btn.dataset.collection;
-    const label = labels[collection] || collection;
-    const count = counts[collection] || 0;
-    btn.textContent = `${label} (${count})`;
+  // Update count labels
+  Object.keys(counts).forEach(collection => {
+    const countSpan = collectionFilters.querySelector(`.collection-count[data-count="${collection}"]`);
+    if (countSpan) {
+      countSpan.textContent = `(${counts[collection]})`;
+    }
   });
+}
+
+/**
+ * Update the currentFilter.collections array based on checkbox states
+ */
+function updateCollectionFilter() {
+  const collectionFilters = document.getElementById('collection-filters');
+  if (!collectionFilters) return;
+
+  const selectedCollections = [];
+  collectionFilters.querySelectorAll('input[type="checkbox"][data-collection]:checked').forEach(checkbox => {
+    selectedCollections.push(checkbox.dataset.collection);
+  });
+
+  currentFilter.collections = selectedCollections;
+
+  // Update Select All button text
+  const selectAllBtn = document.getElementById('collection-select-all');
+  if (selectAllBtn) {
+    const allCheckboxes = collectionFilters.querySelectorAll('input[type="checkbox"][data-collection]');
+    const allChecked = Array.from(allCheckboxes).every(cb => cb.checked);
+    selectAllBtn.textContent = allChecked ? 'Clear All' : 'Select All';
+  }
+}
+
+/**
+ * Save collection preferences to localStorage
+ */
+function saveCollectionPreferences() {
+  try {
+    localStorage.setItem('grandmas-kitchen-collections', JSON.stringify(currentFilter.collections));
+  } catch (e) {
+    console.warn('Could not save collection preferences:', e);
+  }
+}
+
+/**
+ * Load collection preferences from localStorage
+ */
+function loadCollectionPreferences() {
+  const collectionFilters = document.getElementById('collection-filters');
+  if (!collectionFilters) return;
+
+  try {
+    const saved = localStorage.getItem('grandmas-kitchen-collections');
+    if (saved) {
+      const savedCollections = JSON.parse(saved);
+      if (Array.isArray(savedCollections)) {
+        // Update checkbox states
+        collectionFilters.querySelectorAll('input[type="checkbox"][data-collection]').forEach(checkbox => {
+          checkbox.checked = savedCollections.includes(checkbox.dataset.collection);
+        });
+        currentFilter.collections = savedCollections;
+      }
+    }
+  } catch (e) {
+    console.warn('Could not load collection preferences:', e);
+  }
 }
 
 /**
@@ -761,19 +814,44 @@ function setupEventListeners() {
     printBtn.addEventListener('click', () => window.print());
   }
 
-  // Collection filter buttons
+  // Collection filter checkboxes (multi-select)
   const collectionFilters = document.getElementById('collection-filters');
   if (collectionFilters) {
-    collectionFilters.querySelectorAll('.collection-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Update active state
-        collectionFilters.querySelectorAll('.collection-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        // Update filter
-        currentFilter.collection = btn.dataset.collection;
+    // Load saved collection preferences from localStorage
+    loadCollectionPreferences();
+
+    // Handle checkbox changes
+    collectionFilters.querySelectorAll('input[type="checkbox"][data-collection]').forEach(checkbox => {
+      checkbox.addEventListener('change', () => {
+        updateCollectionFilter();
+        saveCollectionPreferences();
         renderRecipeGrid();
       });
     });
+
+    // Handle "Select All" button
+    const selectAllBtn = document.getElementById('collection-select-all');
+    if (selectAllBtn) {
+      selectAllBtn.addEventListener('click', () => {
+        const checkboxes = collectionFilters.querySelectorAll('input[type="checkbox"][data-collection]');
+        const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+
+        // Toggle: if all checked, uncheck all; otherwise check all
+        checkboxes.forEach(cb => {
+          cb.checked = !allChecked;
+        });
+
+        // Update button text
+        selectAllBtn.textContent = allChecked ? 'Select All' : 'Clear All';
+
+        updateCollectionFilter();
+        saveCollectionPreferences();
+        renderRecipeGrid();
+      });
+    }
+
+    // Initial update of collection filter
+    updateCollectionFilter();
   }
 
   // Tags toggle (collapsible)
@@ -898,9 +976,12 @@ function renderRecipeGrid() {
       return false;
     }
 
-    // Collection filter
-    if (currentFilter.collection && recipe.collection !== currentFilter.collection) {
-      return false;
+    // Collection filter (multi-select)
+    if (currentFilter.collections && currentFilter.collections.length > 0) {
+      const recipeCollection = recipe.collection || '';
+      if (!currentFilter.collections.includes(recipeCollection)) {
+        return false;
+      }
     }
 
     // Ingredient filter
@@ -1407,7 +1488,7 @@ function getCategoryIcon(category) {
  * Clear all filters
  */
 function clearFilters() {
-  currentFilter = { search: '', category: '', tag: '', collection: '', ingredients: [], ingredientMatchInfo: null };
+  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
 
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
@@ -1417,13 +1498,19 @@ function clearFilters() {
 
   document.querySelectorAll('.filter-tag').forEach(el => el.classList.remove('active'));
 
-  // Reset collection buttons
+  // Reset collection checkboxes to all checked
   const collectionFilters = document.getElementById('collection-filters');
   if (collectionFilters) {
-    collectionFilters.querySelectorAll('.collection-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.collection === '');
+    collectionFilters.querySelectorAll('input[type="checkbox"][data-collection]').forEach(checkbox => {
+      checkbox.checked = true;
     });
+    // Update Select All button text
+    const selectAllBtn = document.getElementById('collection-select-all');
+    if (selectAllBtn) {
+      selectAllBtn.textContent = 'Clear All';
+    }
   }
+  saveCollectionPreferences();
 
   // Clear ingredient search
   selectedIngredients = [];
