@@ -46,6 +46,13 @@ SYNONYMS = {
     "butter": "butter",
     "margarine": "butter",
     "oleo": "butter",
+    "butter or margarine": "butter",
+    "margarine or butter": "butter",
+    "butter or oleo": "butter",
+    "oleo or butter": "butter",
+    "melted butter or margarine": "butter",
+    "melted margarine or butter": "butter",
+    "softened butter or margarine": "butter",
     "heavy cream": "cream",
     "whipping cream": "cream",
     "heavy whipping cream": "cream",
@@ -92,6 +99,8 @@ SYNONYMS = {
     "confectioner's sugar": "powdered sugar",
     "light brown sugar": "brown sugar",
     "dark brown sugar": "brown sugar",
+    "packed brown sugar": "brown sugar",
+    "firmly packed brown sugar": "brown sugar",
 
     # Oils
     "vegetable oil": "oil",
