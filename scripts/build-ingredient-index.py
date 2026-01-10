@@ -790,18 +790,34 @@ def main():
 
     build_time = datetime.now(timezone.utc).isoformat()
 
+    def extract_tags_and_categories(recipes_list):
+        """Extract unique tags and categories from a list of recipes."""
+        tags = set()
+        categories = set()
+        for recipe in recipes_list:
+            if recipe.get('tags'):
+                for tag in recipe['tags']:
+                    if tag:
+                        tags.add(tag.lower().strip())
+            if recipe.get('category'):
+                categories.add(recipe['category'].lower().strip())
+        return sorted(list(tags)), sorted(list(categories))
+
     # Load local recipes (Grandma Baker)
     print(f"\n  Loading local recipes...")
     if recipes_path.exists():
         with open(recipes_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         local_recipes = data.get('recipes', [])
-        print(f"    ✓ Grandma Baker: {len(local_recipes)} recipes from {recipes_path}")
+        local_tags, local_categories = extract_tags_and_categories(local_recipes)
+        print(f"    ✓ Grandma Baker: {len(local_recipes)} recipes, {len(local_tags)} tags from {recipes_path}")
         all_recipes.extend(local_recipes)
         collection_stats["grandma-baker"] = {
             "count": len(local_recipes),
             "source": "local",
-            "fetched_at": build_time
+            "fetched_at": build_time,
+            "tags": local_tags,
+            "categories": local_categories
         }
     else:
         print(f"    ✗ Grandma Baker: {recipes_path} not found")
@@ -811,12 +827,16 @@ def main():
     for collection in REMOTE_COLLECTIONS:
         result = fetch_remote_recipes(collection)
         if result:
+            remote_tags, remote_categories = extract_tags_and_categories(result["recipes"])
             all_recipes.extend(result["recipes"])
             collection_stats[collection["id"]] = {
                 "count": result["count"],
                 "source": result["source"],
-                "fetched_at": result["fetched_at"]
+                "fetched_at": result["fetched_at"],
+                "tags": remote_tags,
+                "categories": remote_categories
             }
+            print(f"      ({len(remote_tags)} tags, {len(remote_categories)} categories)")
 
     print(f"\n  Total: {len(all_recipes)} recipes from {len(collection_stats)} collections")
 

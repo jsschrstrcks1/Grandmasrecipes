@@ -2877,6 +2877,7 @@ function setupEventListeners() {
       checkbox.addEventListener('change', () => {
         updateCollectionFilter();
         saveCollectionPreferences();
+        renderTagFilters();  // Update tags for selected collections
         renderRecipeGrid();
       });
     });
@@ -3233,18 +3234,66 @@ function renderCategoryFilter() {
 }
 
 /**
- * Render tag filter buttons
+ * Get tags for selected collections from ingredient index
+ */
+function getTagsForSelectedCollections() {
+  const selectedCollections = currentFilter.collections || [];
+  const tags = new Set();
+
+  // If no ingredient index, fall back to local allTags
+  if (!ingredientIndex || !ingredientIndex.meta.collections) {
+    return Array.from(allTags).sort();
+  }
+
+  // Map UI collection IDs to index collection IDs
+  const collectionIdMap = {
+    'grandma-baker': 'grandma-baker',
+    'mommom': 'mommom-baker',
+    'granny': 'granny-hudson',
+    'all': 'all'
+  };
+
+  // Gather tags from selected collections
+  for (const uiId of selectedCollections) {
+    const indexId = collectionIdMap[uiId] || uiId;
+    const collectionInfo = ingredientIndex.meta.collections[indexId];
+    if (collectionInfo && collectionInfo.tags) {
+      collectionInfo.tags.forEach(tag => tags.add(tag));
+    }
+  }
+
+  // If no tags found (perhaps index not loaded), fall back to local
+  if (tags.size === 0) {
+    return Array.from(allTags).sort();
+  }
+
+  return Array.from(tags).sort();
+}
+
+/**
+ * Render tag filter buttons based on selected collections
  */
 function renderTagFilters() {
   const container = document.getElementById('tag-filters');
   if (!container) return;
 
-  const sortedTags = Array.from(allTags).sort();
-  let html = '';
+  const sortedTags = getTagsForSelectedCollections();
+  const currentTag = currentFilter.tag;
 
-  sortedTags.forEach(tag => {
-    html += `<span class="filter-tag" data-tag="${escapeAttr(tag)}">${escapeHtml(tag)}</span>`;
-  });
+  // Clear current tag filter if it's no longer in available tags
+  if (currentTag && !sortedTags.includes(currentTag.toLowerCase())) {
+    currentFilter.tag = '';
+  }
+
+  let html = '';
+  if (sortedTags.length === 0) {
+    html = '<span class="no-tags">No tags available for selected collections</span>';
+  } else {
+    sortedTags.forEach(tag => {
+      const isActive = currentFilter.tag === tag ? ' active' : '';
+      html += `<span class="filter-tag${isActive}" data-tag="${escapeAttr(tag)}">${escapeHtml(tag)}</span>`;
+    });
+  }
 
   container.innerHTML = html;
 
