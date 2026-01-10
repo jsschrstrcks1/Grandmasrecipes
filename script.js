@@ -64,7 +64,8 @@ function escapeAttr(value) {
 // =============================================================================
 
 // Global state
-let recipes = [];
+let recipes = [];           // Lightweight recipe index for list/search
+let fullRecipesCache = {};  // Cache for full recipe details (loaded on demand)
 let categories = new Set();
 let allTags = new Set();
 let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
@@ -183,8 +184,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
   await loadRecipes();
-  // Ingredient index and substitutions loaded lazily on first search interaction
-  await loadKitchenTips();
+  // Ingredient index, substitutions, and kitchen tips are lazy loaded on first use
   setupEventListeners();
   setupIngredientSearch();
   setupStaplesSystem();
@@ -193,11 +193,11 @@ async function init() {
 }
 
 /**
- * Load recipes from JSON file
+ * Load lightweight recipe index for list/search views
  */
 async function loadRecipes() {
   try {
-    const response = await fetch('data/recipes_master.json');
+    const response = await fetch('data/recipes_index.json');
     const data = await response.json();
     recipes = data.recipes || [];
 
@@ -207,12 +207,48 @@ async function loadRecipes() {
       if (recipe.tags) recipe.tags.forEach(tag => allTags.add(tag));
     });
 
-    console.log(`Loaded ${recipes.length} recipes`);
+    console.log(`Loaded ${recipes.length} recipes (index)`);
     updateCollectionCounts();
   } catch (error) {
     console.error('Failed to load recipes:', error);
     showError('Unable to load recipes. Please refresh the page.');
   }
+}
+
+/**
+ * Load full recipe details on demand (for detail page)
+ */
+let fullRecipesLoading = null;
+async function loadFullRecipe(recipeId) {
+  // Check cache first
+  if (fullRecipesCache[recipeId]) {
+    return fullRecipesCache[recipeId];
+  }
+
+  // Load full recipes file if not already loading
+  if (!fullRecipesLoading) {
+    fullRecipesLoading = (async () => {
+      try {
+        const response = await fetch('data/recipes_master.json');
+        const data = await response.json();
+        const fullRecipes = data.recipes || [];
+
+        // Cache all recipes
+        fullRecipes.forEach(r => {
+          fullRecipesCache[r.id] = r;
+        });
+
+        console.log(`Loaded full recipe details (${fullRecipes.length} recipes)`);
+        return true;
+      } catch (error) {
+        console.error('Failed to load full recipes:', error);
+        return false;
+      }
+    })();
+  }
+
+  await fullRecipesLoading;
+  return fullRecipesCache[recipeId] || null;
 }
 
 /**
@@ -347,18 +383,32 @@ async function loadSubstitutions() {
 }
 
 /**
- * Load kitchen tips data from JSON file
+ * Load kitchen tips data from JSON file (lazy loaded on first use)
  */
+let kitchenTipsLoading = null;
 async function loadKitchenTips() {
-  try {
-    const response = await fetch('data/kitchen-tips.json');
-    kitchenTipsData = await response.json();
-    const totalTips = kitchenTipsData.categories.reduce((sum, cat) => sum + cat.tips.length, 0);
-    console.log(`Loaded ${totalTips} kitchen tips in ${kitchenTipsData.categories.length} categories`);
-  } catch (error) {
-    console.error('Failed to load kitchen tips:', error);
-    // Non-fatal - tips just won't show
-  }
+  // Return if already loaded
+  if (kitchenTipsData) return kitchenTipsData;
+
+  // Return existing promise if already loading
+  if (kitchenTipsLoading) return kitchenTipsLoading;
+
+  // Start loading
+  kitchenTipsLoading = (async () => {
+    try {
+      const response = await fetch('data/kitchen-tips.json');
+      kitchenTipsData = await response.json();
+      const totalTips = kitchenTipsData.categories.reduce((sum, cat) => sum + cat.tips.length, 0);
+      console.log(`Loaded ${totalTips} kitchen tips in ${kitchenTipsData.categories.length} categories`);
+      return kitchenTipsData;
+    } catch (error) {
+      console.error('Failed to load kitchen tips:', error);
+      // Non-fatal - tips just won't show
+      return null;
+    }
+  })();
+
+  return kitchenTipsLoading;
 }
 
 /**
@@ -2200,10 +2250,9 @@ function createIngredientResultCard(recipe, match) {
     card.classList.add('perfect-match');
   }
 
-  // Get image path
-  const imageSrc = recipe.image_refs && recipe.image_refs.length > 0
-    ? `data/${recipe.image_refs[0]}`
-    : 'data/placeholder.jpg';
+  // Get image path - check if recipe has images
+  const hasImage = recipe.image_refs && recipe.image_refs.length > 0;
+  const imageSrc = hasImage ? `data/${recipe.image_refs[0]}` : null;
 
   // Build match info display
   let matchInfo = '';
@@ -2246,9 +2295,9 @@ function createIngredientResultCard(recipe, match) {
   }
 
   card.innerHTML = `
-    <div class="result-card-image">
-      <img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(recipe.title)}" loading="lazy"
-           onerror="this.src='data/placeholder.jpg'">
+    <div class="result-card-image${hasImage ? '' : ' no-image'}">
+      ${hasImage ? `<img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(recipe.title)}" loading="lazy"
+           onerror="this.parentElement.classList.add('no-image'); this.style.display='none';">` : ''}
     </div>
     <div class="result-card-content">
       <div class="result-card-header">
@@ -3538,20 +3587,32 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
 /**
  * Render full recipe detail page
  */
-function renderRecipeDetail(recipeId) {
-  const recipe = recipes.find(r => r.id === recipeId);
+async function renderRecipeDetail(recipeId) {
   const container = document.getElementById('recipe-content');
 
-  if (!recipe || !container) {
-    if (container) {
-      container.innerHTML = `
-        <div class="text-center">
-          <h2>Recipe Not Found</h2>
-          <p>Sorry, we couldn't find that recipe.</p>
-          <a href="index.html" class="btn btn-primary">Back to Recipes</a>
-        </div>
-      `;
-    }
+  if (!container) return;
+
+  // Show loading state
+  container.innerHTML = `
+    <div class="text-center" style="padding: 2rem;">
+      <p>Loading recipe...</p>
+    </div>
+  `;
+
+  // Load full recipe details (from cache or fetch)
+  const recipe = await loadFullRecipe(recipeId);
+
+  // Load kitchen tips lazily when viewing a recipe
+  await loadKitchenTips();
+
+  if (!recipe) {
+    container.innerHTML = `
+      <div class="text-center">
+        <h2>Recipe Not Found</h2>
+        <p>Sorry, we couldn't find that recipe.</p>
+        <a href="index.html" class="btn btn-primary">Back to Recipes</a>
+      </div>
+    `;
     return;
   }
 

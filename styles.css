@@ -2379,12 +2379,48 @@ main {
   width: 120px;
   height: 120px;
   overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, var(--color-cream) 0%, #f5f0e6 100%);
 }
 
 .result-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Graceful fallback for missing images */
+.result-card-image.no-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-cream) 0%, #ebe6dc 100%);
+  border-right: 1px solid var(--color-border);
+}
+
+.result-card-image.no-image::before {
+  content: '';
+  width: 60px;
+  height: 70px;
+  background:
+    linear-gradient(to bottom, var(--color-teal-light) 0%, var(--color-teal-light) 15%, transparent 15%),
+    linear-gradient(to right, transparent 0%, transparent 5%, #f9f6f0 5%, #f9f6f0 95%, transparent 95%);
+  border: 2px solid var(--color-teal);
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.result-card-image.no-image::after {
+  content: '~';
+  position: absolute;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--color-teal);
+  opacity: 0.6;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .result-card-content {
