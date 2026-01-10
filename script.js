@@ -2200,10 +2200,9 @@ function createIngredientResultCard(recipe, match) {
     card.classList.add('perfect-match');
   }
 
-  // Get image path
-  const imageSrc = recipe.image_refs && recipe.image_refs.length > 0
-    ? `data/${recipe.image_refs[0]}`
-    : 'data/placeholder.jpg';
+  // Get image path - check if recipe has images
+  const hasImage = recipe.image_refs && recipe.image_refs.length > 0;
+  const imageSrc = hasImage ? `data/${recipe.image_refs[0]}` : null;
 
   // Build match info display
   let matchInfo = '';
@@ -2246,9 +2245,9 @@ function createIngredientResultCard(recipe, match) {
   }
 
   card.innerHTML = `
-    <div class="result-card-image">
-      <img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(recipe.title)}" loading="lazy"
-           onerror="this.src='data/placeholder.jpg'">
+    <div class="result-card-image${hasImage ? '' : ' no-image'}">
+      ${hasImage ? `<img src="${escapeAttr(imageSrc)}" alt="${escapeAttr(recipe.title)}" loading="lazy"
+           onerror="this.parentElement.classList.add('no-image'); this.style.display='none';">` : ''}
     </div>
     <div class="result-card-content">
       <div class="result-card-header">
