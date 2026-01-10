@@ -84,6 +84,10 @@ let userStaples = [];
 let includeStaples = true;
 let justStaplesMode = false;
 
+// Substitutions system state
+let substitutionsData = null;
+let enableSubstitutions = true;
+
 // Preset staples bundles
 const STAPLES_PRESETS = {
   basics: [
@@ -114,6 +118,7 @@ document.addEventListener('DOMContentLoaded', init);
 async function init() {
   await loadRecipes();
   await loadIngredientIndex();
+  await loadSubstitutions();
   setupEventListeners();
   setupIngredientSearch();
   setupStaplesSystem();
@@ -155,6 +160,108 @@ async function loadIngredientIndex() {
     console.error('Failed to load ingredient index:', error);
     // Non-fatal - ingredient search just won't work
   }
+}
+
+/**
+ * Load substitutions data from JSON file
+ */
+async function loadSubstitutions() {
+  try {
+    const response = await fetch('data/substitutions.json');
+    substitutionsData = await response.json();
+    console.log(`Loaded ${substitutionsData.substitutions.length} substitution rules`);
+  } catch (error) {
+    console.error('Failed to load substitutions:', error);
+    // Non-fatal - substitution matching just won't work
+  }
+}
+
+/**
+ * Find substitutes for an ingredient
+ * @param {string} ingredient - The ingredient to find substitutes for
+ * @returns {Array} - Array of substitute objects with ingredient name, ratio, and notes
+ */
+function findSubstitutes(ingredient) {
+  if (!substitutionsData || !enableSubstitutions) return [];
+
+  const normalized = normalizeIngredientName(ingredient);
+  const substitutes = [];
+
+  for (const rule of substitutionsData.substitutions) {
+    // Check if this ingredient matches the primary or aliases
+    const primaryMatch = normalizeIngredientName(rule.primary) === normalized;
+    const aliasMatch = rule.aliases?.some(a => normalizeIngredientName(a) === normalized);
+
+    if (primaryMatch || aliasMatch) {
+      // Return all substitutes for this ingredient
+      for (const sub of rule.substitutes) {
+        substitutes.push({
+          original: rule.primary,
+          substitute: sub.ingredient,
+          ratio: sub.ratio,
+          direction: sub.direction,
+          notes: sub.notes,
+          impact: sub.impact,
+          quality: sub.quality
+        });
+      }
+    }
+
+    // Also check if this ingredient IS a substitute for something
+    for (const sub of rule.substitutes) {
+      if (normalizeIngredientName(sub.ingredient) === normalized) {
+        substitutes.push({
+          original: sub.ingredient,
+          substitute: rule.primary,
+          ratio: sub.ratio, // Reverse ratio would need calculation
+          direction: sub.direction === 'health' ? 'convenience' : 'health',
+          notes: sub.notes,
+          quality: sub.quality
+        });
+      }
+    }
+  }
+
+  return substitutes;
+}
+
+/**
+ * Get all ingredients that can substitute for a given ingredient
+ * @param {string} ingredient - The ingredient
+ * @returns {Array<string>} - Array of ingredient names that can substitute
+ */
+function getSubstituteIngredients(ingredient) {
+  const subs = findSubstitutes(ingredient);
+  return subs.map(s => s.substitute);
+}
+
+/**
+ * Expand staples using substitution rules
+ * E.g., if user has "milk", they can also match recipes needing "buttermilk"
+ * @param {Array<string>} staples - User's staple ingredients
+ * @returns {Array<string>} - Expanded list including substitution matches
+ */
+function expandStaplesWithSubstitutions(staples) {
+  if (!substitutionsData || !enableSubstitutions) return staples;
+
+  const expanded = new Set(staples);
+
+  // Use the stapleExpansions rules from substitutions.json
+  if (substitutionsData.stapleExpansions?.expansions) {
+    for (const expansion of substitutionsData.stapleExpansions.expansions) {
+      const stapleNorm = normalizeIngredientName(expansion.staple);
+
+      // Check if user has this staple
+      if (staples.some(s => normalizeIngredientName(s) === stapleNorm)) {
+        // Add all the alsoMatches ingredients
+        for (const match of expansion.alsoMatches) {
+          expanded.add(match.toLowerCase());
+        }
+      }
+    }
+  }
+
+  return Array.from(expanded);
 }
 
 // =============================================================================
@@ -607,6 +714,8 @@ function performIngredientSearch() {
 
 /**
  * Find recipes that match the selected ingredients
+ * Now also considers substitutions - if user has A and recipe needs B (where A can substitute for B),
+ * it counts as a match with substitution info tracked
  */
 function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
   if (!ingredientIndex || ingredients.length === 0) {
@@ -628,23 +737,56 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
     let matchCount = 0;
     const matchedIngredients = [];
     const missingIngredients = [];
+    const substitutionMatches = []; // Track when a substitute was used
 
     for (const selectedIng of ingredients) {
       const normalizedSelected = normalizeIngredientName(selectedIng);
       const canonical = ingredientIndex.name_mapping[normalizedSelected] || normalizedSelected;
 
       // Check if recipe contains this ingredient (or its synonym)
-      const found = recipeIngredientNames.some(recipeName => {
+      let found = false;
+      let foundViaSubstitution = null;
+
+      // Direct match check
+      for (const recipeName of recipeIngredientNames) {
         const recipeCanonical = ingredientIndex.name_mapping[recipeName] || recipeName;
-        return recipeName.includes(normalizedSelected) ||
-               normalizedSelected.includes(recipeName) ||
-               recipeCanonical === canonical ||
-               recipeName === normalizedSelected;
-      });
+        if (recipeName.includes(normalizedSelected) ||
+            normalizedSelected.includes(recipeName) ||
+            recipeCanonical === canonical ||
+            recipeName === normalizedSelected) {
+          found = true;
+          break;
+        }
+      }
+
+      // If not found directly, check substitutions
+      if (!found && enableSubstitutions && substitutionsData) {
+        // Get what the user's ingredient can substitute for
+        const subs = findSubstitutes(selectedIng);
+        for (const sub of subs) {
+          const subNorm = normalizeIngredientName(sub.substitute);
+          // Check if recipe needs any of these substitutes
+          for (const recipeName of recipeIngredientNames) {
+            if (recipeName.includes(subNorm) || subNorm.includes(recipeName)) {
+              found = true;
+              foundViaSubstitution = {
+                userHas: selectedIng,
+                recipeNeeds: recipeName,
+                substituteInfo: sub
+              };
+              break;
+            }
+          }
+          if (found) break;
+        }
+      }
 
       if (found) {
         matchCount++;
         matchedIngredients.push(selectedIng);
+        if (foundViaSubstitution) {
+          substitutionMatches.push(foundViaSubstitution);
+        }
       } else {
         missingIngredients.push(selectedIng);
       }
@@ -668,6 +810,8 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
         totalSelected: ingredients.length,
         matchedIngredients: matchedIngredients,
         missingIngredients: missingIngredients,
+        substitutionMatches: substitutionMatches,
+        hasSubstitutions: substitutionMatches.length > 0,
         isPerfectMatch: matchCount === ingredients.length
       });
     }
@@ -1169,17 +1313,25 @@ function saveStaplesPreferences() {
 
 /**
  * Get effective ingredients for search (selected + staples if enabled)
+ * Also expands staples using substitution rules when enabled
  */
 function getEffectiveIngredients() {
-  if (justStaplesMode) {
-    // In "just staples" mode, use only staples
-    return [...userStaples];
+  let staples = [...userStaples];
+
+  // Expand staples with substitution matches if enabled
+  if (enableSubstitutions && staples.length > 0) {
+    staples = expandStaplesWithSubstitutions(staples);
   }
 
-  if (includeStaples && userStaples.length > 0) {
-    // Combine selected ingredients with staples (no duplicates)
+  if (justStaplesMode) {
+    // In "just staples" mode, use only (expanded) staples
+    return staples;
+  }
+
+  if (includeStaples && staples.length > 0) {
+    // Combine selected ingredients with (expanded) staples (no duplicates)
     const combined = [...selectedIngredients];
-    userStaples.forEach(staple => {
+    staples.forEach(staple => {
       if (!combined.includes(staple)) {
         combined.push(staple);
       }
@@ -1568,6 +1720,20 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
     `;
   }
 
+  // Build substitution info HTML
+  let substitutionHtml = '';
+  if (ingredientMatchInfo && ingredientMatchInfo.substitutionMatches && ingredientMatchInfo.substitutionMatches.length > 0) {
+    const subItems = ingredientMatchInfo.substitutionMatches.map(sub => {
+      return `<span class="substitution-item" title="${escapeAttr(sub.substituteInfo.notes || '')}">` +
+             `${escapeHtml(sub.userHas)} → ${escapeHtml(sub.recipeNeeds)}</span>`;
+    }).join(', ');
+    substitutionHtml = `
+      <div class="recipe-substitutions">
+        <strong>Subs:</strong> ${subItems}
+      </div>
+    `;
+  }
+
   return `
     <article class="recipe-card category-${escapeAttr(recipe.category)}">
       <div class="recipe-card-image">
@@ -1579,6 +1745,7 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
         <h3><a href="recipe.html#${escapeAttr(recipe.id)}">${escapeHtml(recipe.title)}</a></h3>
         <p class="description">${escapeHtml(recipe.description)}</p>
         ${missingHtml}
+        ${substitutionHtml}
         <div class="meta">
           ${recipe.servings_yield ? `<span>${escapeHtml(recipe.servings_yield)}</span>` : ''}
           ${timeInfo ? `<span>${escapeHtml(timeInfo)}</span>` : ''}
