@@ -93,6 +93,11 @@ let enableSubstitutions = true;
 // Kitchen tips state
 let kitchenTipsData = null;
 
+// Pagefind search state
+let pagefind = null;
+let pagefindLoading = null;
+let pagefindSearchResults = null; // Array of recipe IDs from Pagefind, or null if not using Pagefind
+
 // Nutrition and time filter state
 let nutritionFilter = {
   timeLimit: null,           // Maximum time in minutes
@@ -409,6 +414,79 @@ async function loadKitchenTips() {
   })();
 
   return kitchenTipsLoading;
+}
+
+/**
+ * Load Pagefind search library (lazy loaded on first search)
+ */
+async function loadPagefind() {
+  // Return if already loaded
+  if (pagefind) return pagefind;
+
+  // Return existing promise if already loading
+  if (pagefindLoading) return pagefindLoading;
+
+  // Start loading
+  pagefindLoading = (async () => {
+    try {
+      pagefind = await import('/_pagefind/pagefind.js');
+      await pagefind.init();
+      console.log('Pagefind search loaded');
+      return pagefind;
+    } catch (error) {
+      // Try relative path for local development
+      try {
+        pagefind = await import('./_pagefind/pagefind.js');
+        await pagefind.init();
+        console.log('Pagefind search loaded (relative path)');
+        return pagefind;
+      } catch (e) {
+        console.warn('Pagefind not available, using basic search:', e.message);
+        return null;
+      }
+    }
+  })();
+
+  return pagefindLoading;
+}
+
+/**
+ * Search recipes using Pagefind
+ * @param {string} query - Search query
+ * @returns {Array|null} - Array of matching recipe IDs, or null if Pagefind unavailable
+ */
+async function searchWithPagefind(query) {
+  if (!query || query.length < 2) {
+    return null; // Too short, use basic filter
+  }
+
+  const pf = await loadPagefind();
+  if (!pf) {
+    return null; // Pagefind not available, fall back to basic search
+  }
+
+  try {
+    const search = await pf.search(query);
+    if (!search || !search.results) {
+      return [];
+    }
+
+    // Extract recipe IDs from results
+    const recipeIds = [];
+    for (const result of search.results.slice(0, 100)) { // Limit to top 100
+      const data = await result.data();
+      if (data.url) {
+        // URL is like "recipe.html#recipe-id"
+        const id = data.url.split('#')[1];
+        if (id) recipeIds.push(id);
+      }
+    }
+
+    return recipeIds;
+  } catch (error) {
+    console.error('Pagefind search error:', error);
+    return null;
+  }
 }
 
 /**
@@ -2883,19 +2961,24 @@ function setupEventListeners() {
   // Search form
   const searchForm = document.getElementById('search-form');
   if (searchForm) {
-    searchForm.addEventListener('submit', (e) => {
+    searchForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       const query = document.getElementById('search-input').value;
       currentFilter.search = query.toLowerCase();
+      // Try Pagefind for better results
+      pagefindSearchResults = await searchWithPagefind(query);
       renderRecipeGrid();
     });
   }
 
-  // Search input (live search)
+  // Search input (live search with Pagefind)
   const searchInput = document.getElementById('search-input');
   if (searchInput) {
-    searchInput.addEventListener('input', debounce((e) => {
-      currentFilter.search = e.target.value.toLowerCase();
+    searchInput.addEventListener('input', debounce(async (e) => {
+      const query = e.target.value;
+      currentFilter.search = query.toLowerCase();
+      // Try Pagefind for better results (searches ingredients too)
+      pagefindSearchResults = await searchWithPagefind(query);
       renderRecipeGrid();
     }, 300));
   }
@@ -3377,16 +3460,22 @@ function renderRecipeGrid() {
       return false;
     }
 
-    // Search filter
+    // Search filter (uses Pagefind when available, falls back to basic search)
     if (currentFilter.search) {
-      const searchText = [
-        recipe.title,
-        recipe.description,
-        recipe.attribution,
-        ...recipe.tags || []
-      ].join(' ').toLowerCase();
+      if (pagefindSearchResults !== null) {
+        // Pagefind returned results - use those IDs
+        if (!pagefindSearchResults.includes(recipe.id)) return false;
+      } else {
+        // Fall back to basic text search
+        const searchText = [
+          recipe.title,
+          recipe.description,
+          recipe.attribution,
+          ...recipe.tags || []
+        ].join(' ').toLowerCase();
 
-      if (!searchText.includes(currentFilter.search)) return false;
+        if (!searchText.includes(currentFilter.search)) return false;
+      }
     }
 
     // Category filter
@@ -4023,6 +4112,7 @@ function getCategoryIcon(category) {
  */
 function clearFilters() {
   currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
+  pagefindSearchResults = null; // Clear Pagefind results
 
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
