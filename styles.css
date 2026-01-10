@@ -1934,6 +1934,221 @@ main {
   display: none;
 }
 
+/* Staples Section */
+.staples-section {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.staples-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.staples-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  color: var(--color-cream);
+}
+
+.staples-toggle input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-cream);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  transition: all 0.15s ease;
+}
+
+.staples-toggle input[type="checkbox"]:checked {
+  background-color: var(--color-coral);
+  border-color: var(--color-coral);
+}
+
+.staples-toggle input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.staples-toggle-label {
+  font-weight: 500;
+}
+
+.staples-count {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.just-staples-btn {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: linear-gradient(180deg, var(--color-butter) 0%, #f5d76e 100%);
+  color: var(--color-charcoal);
+  border: none;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.just-staples-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.just-staples-btn.active {
+  background: linear-gradient(180deg, var(--color-coral) 0%, var(--color-coral-dark) 100%);
+  color: white;
+}
+
+.staples-management {
+  margin-top: var(--spacing-sm);
+}
+
+.staples-editor {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.staples-editor.hidden {
+  display: none;
+}
+
+.staples-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.preset-label {
+  font-size: 0.85rem;
+  color: var(--color-cream);
+  opacity: 0.8;
+}
+
+.preset-btn {
+  padding: 4px 12px;
+  background-color: rgba(255,255,255,0.15);
+  color: var(--color-cream);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.preset-btn:hover {
+  background-color: rgba(255,255,255,0.25);
+  border-color: var(--color-cream);
+}
+
+.staples-input-row {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.staples-input {
+  flex: 1;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.staples-input:focus {
+  outline: none;
+  border-color: var(--color-cream);
+  background-color: white;
+}
+
+.staples-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+  min-height: 30px;
+}
+
+.staple-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background-color: rgba(255,255,255,0.2);
+  color: var(--color-cream);
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+
+.staple-pill-remove {
+  background: none;
+  border: none;
+  color: var(--color-cream);
+  cursor: pointer;
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  line-height: 1;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+
+.staple-pill-remove:hover {
+  opacity: 1;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.staples-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-danger {
+  color: #ff8a80 !important;
+}
+
+.btn-danger:hover {
+  color: #ff5252 !important;
+}
+
+.btn-small {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.85rem;
+}
+
 .option-group {
   margin-bottom: var(--spacing-md);
 }

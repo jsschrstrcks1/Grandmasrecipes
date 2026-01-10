@@ -79,6 +79,35 @@ let ingredientSearchOptions = {
 };
 let autocompleteHighlightIndex = -1;
 
+// Staples system state
+let userStaples = [];
+let includeStaples = true;
+let justStaplesMode = false;
+
+// Preset staples bundles
+const STAPLES_PRESETS = {
+  basics: [
+    'salt', 'pepper', 'sugar', 'flour', 'butter', 'oil', 'eggs', 'milk',
+    'garlic', 'onion', 'water'
+  ],
+  baking: [
+    'baking powder', 'baking soda', 'vanilla extract', 'brown sugar',
+    'powdered sugar', 'vegetable oil', 'shortening', 'cocoa powder'
+  ],
+  asian: [
+    'soy sauce', 'sesame oil', 'rice vinegar', 'ginger', 'green onions',
+    'garlic', 'rice', 'cornstarch'
+  ],
+  mexican: [
+    'cumin', 'chili powder', 'cilantro', 'lime', 'jalapeño', 'tortillas',
+    'black beans', 'salsa', 'cheese'
+  ],
+  italian: [
+    'olive oil', 'garlic', 'basil', 'oregano', 'parmesan cheese',
+    'tomato sauce', 'pasta', 'red pepper flakes'
+  ]
+};
+
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
 
@@ -87,6 +116,7 @@ async function init() {
   await loadIngredientIndex();
   setupEventListeners();
   setupIngredientSearch();
+  setupStaplesSystem();
   handleRouting();
 }
 
@@ -527,6 +557,14 @@ function clearIngredientSearch() {
   const resultsDiv = document.getElementById('ingredient-search-results');
   if (resultsDiv) resultsDiv.classList.add('hidden');
 
+  // Reset just staples mode
+  justStaplesMode = false;
+  const justStaplesBtn = document.getElementById('just-staples-btn');
+  if (justStaplesBtn) {
+    justStaplesBtn.classList.remove('active');
+    justStaplesBtn.textContent = 'Just Staples';
+  }
+
   // Reset current filter's ingredient state
   currentFilter.ingredients = [];
   currentFilter.ingredientMatchInfo = null;
@@ -538,20 +576,23 @@ function clearIngredientSearch() {
  * Perform the ingredient-based recipe search
  */
 function performIngredientSearch() {
-  if (selectedIngredients.length === 0) {
+  // Get effective ingredients (selected + staples if enabled, or just staples in that mode)
+  const effectiveIngredients = getEffectiveIngredients();
+
+  if (effectiveIngredients.length === 0 && !justStaplesMode) {
     clearIngredientSearch();
     return;
   }
 
   // Find matching recipes
   const matchInfo = findRecipesByIngredients(
-    selectedIngredients,
+    effectiveIngredients,
     ingredientSearchOptions.matchMode,
     ingredientSearchOptions.missingThreshold
   );
 
   // Store match info for use in rendering
-  currentFilter.ingredients = selectedIngredients;
+  currentFilter.ingredients = effectiveIngredients;
   currentFilter.ingredientMatchInfo = matchInfo;
 
   // Update results summary
@@ -682,6 +723,294 @@ function updateIngredientSearchResults(matchInfo) {
   }
 
   resultsDiv.classList.remove('hidden');
+}
+
+// =============================================================================
+// Staples System Functions
+// =============================================================================
+
+/**
+ * Setup the staples system UI and event listeners
+ */
+function setupStaplesSystem() {
+  // Load saved staples from localStorage
+  loadStaples();
+
+  const includeStaplesCheckbox = document.getElementById('include-staples');
+  const justStaplesBtn = document.getElementById('just-staples-btn');
+  const editStaplesBtn = document.getElementById('edit-staples-btn');
+  const staplesEditor = document.getElementById('staples-editor');
+  const staplesInput = document.getElementById('staples-input');
+  const addStapleBtn = document.getElementById('add-staple-btn');
+  const clearStaplesBtn = document.getElementById('clear-staples-btn');
+  const closeStaplesBtn = document.getElementById('close-staples-btn');
+
+  if (!includeStaplesCheckbox) return; // Not on a page with staples
+
+  // Include staples toggle
+  includeStaplesCheckbox.checked = includeStaples;
+  includeStaplesCheckbox.addEventListener('change', (e) => {
+    includeStaples = e.target.checked;
+    saveStaplesPreferences();
+    if (selectedIngredients.length > 0 || justStaplesMode) {
+      performIngredientSearch();
+    }
+  });
+
+  // Just staples mode button
+  if (justStaplesBtn) {
+    justStaplesBtn.addEventListener('click', toggleJustStaplesMode);
+  }
+
+  // Edit staples button
+  if (editStaplesBtn && staplesEditor) {
+    editStaplesBtn.addEventListener('click', () => {
+      staplesEditor.classList.toggle('hidden');
+      editStaplesBtn.textContent = staplesEditor.classList.contains('hidden') ? 'Edit Staples' : 'Hide Editor';
+    });
+  }
+
+  // Close staples editor
+  if (closeStaplesBtn && staplesEditor) {
+    closeStaplesBtn.addEventListener('click', () => {
+      staplesEditor.classList.add('hidden');
+      if (editStaplesBtn) editStaplesBtn.textContent = 'Edit Staples';
+    });
+  }
+
+  // Add staple input
+  if (staplesInput && addStapleBtn) {
+    addStapleBtn.addEventListener('click', () => {
+      const value = staplesInput.value.trim().toLowerCase();
+      if (value && !userStaples.includes(value)) {
+        addStaple(value);
+        staplesInput.value = '';
+      }
+    });
+
+    staplesInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const value = staplesInput.value.trim().toLowerCase();
+        if (value && !userStaples.includes(value)) {
+          addStaple(value);
+          staplesInput.value = '';
+        }
+      }
+    });
+  }
+
+  // Clear all staples
+  if (clearStaplesBtn) {
+    clearStaplesBtn.addEventListener('click', () => {
+      if (confirm('Clear all staples? This cannot be undone.')) {
+        userStaples = [];
+        saveStaples();
+        renderStaplesList();
+        updateStaplesCount();
+      }
+    });
+  }
+
+  // Preset buttons
+  document.querySelectorAll('.preset-btn[data-preset]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const preset = btn.dataset.preset;
+      if (STAPLES_PRESETS[preset]) {
+        addPresetStaples(preset);
+      }
+    });
+  });
+
+  // Initial render
+  renderStaplesList();
+  updateStaplesCount();
+}
+
+/**
+ * Toggle "Just Staples" mode
+ */
+function toggleJustStaplesMode() {
+  const justStaplesBtn = document.getElementById('just-staples-btn');
+
+  justStaplesMode = !justStaplesMode;
+
+  if (justStaplesBtn) {
+    justStaplesBtn.classList.toggle('active', justStaplesMode);
+    justStaplesBtn.textContent = justStaplesMode ? 'Exit Just Staples' : 'Just Staples';
+  }
+
+  if (justStaplesMode) {
+    // In "just staples" mode, we search with only staples as ingredients
+    performIngredientSearch();
+  } else {
+    // Exit just staples mode
+    if (selectedIngredients.length === 0) {
+      clearIngredientSearch();
+    } else {
+      performIngredientSearch();
+    }
+  }
+}
+
+/**
+ * Add a single staple
+ */
+function addStaple(ingredient) {
+  const normalized = ingredient.toLowerCase().trim();
+  if (!userStaples.includes(normalized)) {
+    userStaples.push(normalized);
+    userStaples.sort();
+    saveStaples();
+    renderStaplesList();
+    updateStaplesCount();
+  }
+}
+
+/**
+ * Remove a staple
+ */
+function removeStaple(ingredient) {
+  userStaples = userStaples.filter(s => s !== ingredient);
+  saveStaples();
+  renderStaplesList();
+  updateStaplesCount();
+}
+
+/**
+ * Add preset staples bundle
+ */
+function addPresetStaples(presetName) {
+  const preset = STAPLES_PRESETS[presetName];
+  if (!preset) return;
+
+  let addedCount = 0;
+  preset.forEach(ingredient => {
+    const normalized = ingredient.toLowerCase().trim();
+    if (!userStaples.includes(normalized)) {
+      userStaples.push(normalized);
+      addedCount++;
+    }
+  });
+
+  if (addedCount > 0) {
+    userStaples.sort();
+    saveStaples();
+    renderStaplesList();
+    updateStaplesCount();
+  }
+}
+
+/**
+ * Render the staples list in the editor
+ */
+function renderStaplesList() {
+  const container = document.getElementById('staples-list');
+  if (!container) return;
+
+  if (userStaples.length === 0) {
+    container.innerHTML = '<span style="opacity: 0.6; font-size: 0.85rem;">No staples yet. Add some above!</span>';
+    return;
+  }
+
+  container.innerHTML = userStaples.map(staple => `
+    <span class="staple-pill">
+      ${escapeHtml(staple)}
+      <button type="button" class="staple-pill-remove" data-staple="${escapeAttr(staple)}" aria-label="Remove ${escapeAttr(staple)}">
+        &times;
+      </button>
+    </span>
+  `).join('');
+
+  // Add remove handlers
+  container.querySelectorAll('.staple-pill-remove').forEach(btn => {
+    btn.addEventListener('click', () => {
+      removeStaple(btn.dataset.staple);
+    });
+  });
+}
+
+/**
+ * Update the staples count display
+ */
+function updateStaplesCount() {
+  const countSpan = document.getElementById('staples-count');
+  if (countSpan) {
+    countSpan.textContent = `(${userStaples.length} item${userStaples.length !== 1 ? 's' : ''})`;
+  }
+}
+
+/**
+ * Save staples to localStorage
+ */
+function saveStaples() {
+  try {
+    localStorage.setItem('grandmas-kitchen-staples', JSON.stringify(userStaples));
+  } catch (e) {
+    console.warn('Could not save staples:', e);
+  }
+}
+
+/**
+ * Load staples from localStorage
+ */
+function loadStaples() {
+  try {
+    const saved = localStorage.getItem('grandmas-kitchen-staples');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed)) {
+        userStaples = parsed;
+      }
+    }
+
+    // Load staples preferences
+    const prefs = localStorage.getItem('grandmas-kitchen-staples-prefs');
+    if (prefs) {
+      const parsed = JSON.parse(prefs);
+      if (typeof parsed.includeStaples === 'boolean') {
+        includeStaples = parsed.includeStaples;
+      }
+    }
+  } catch (e) {
+    console.warn('Could not load staples:', e);
+  }
+}
+
+/**
+ * Save staples preferences
+ */
+function saveStaplesPreferences() {
+  try {
+    localStorage.setItem('grandmas-kitchen-staples-prefs', JSON.stringify({
+      includeStaples: includeStaples
+    }));
+  } catch (e) {
+    console.warn('Could not save staples preferences:', e);
+  }
+}
+
+/**
+ * Get effective ingredients for search (selected + staples if enabled)
+ */
+function getEffectiveIngredients() {
+  if (justStaplesMode) {
+    // In "just staples" mode, use only staples
+    return [...userStaples];
+  }
+
+  if (includeStaples && userStaples.length > 0) {
+    // Combine selected ingredients with staples (no duplicates)
+    const combined = [...selectedIngredients];
+    userStaples.forEach(staple => {
+      if (!combined.includes(staple)) {
+        combined.push(staple);
+      }
+    });
+    return combined;
+  }
+
+  return [...selectedIngredients];
 }
 
 /**

@@ -106,6 +106,48 @@
         </div>
 
         <div id="ingredient-options-panel" class="ingredient-options-panel hidden">
+          <!-- Staples Section -->
+          <div class="staples-section">
+            <div class="staples-header">
+              <label class="staples-toggle">
+                <input type="checkbox" id="include-staples" checked>
+                <span class="staples-toggle-label">Include my staples</span>
+                <span id="staples-count" class="staples-count">(0 items)</span>
+              </label>
+              <button type="button" id="just-staples-btn" class="just-staples-btn">Just Staples</button>
+            </div>
+
+            <div class="staples-management">
+              <button type="button" id="edit-staples-btn" class="btn-link">Edit Staples</button>
+            </div>
+
+            <!-- Staples Editor (hidden by default) -->
+            <div id="staples-editor" class="staples-editor hidden">
+              <div class="staples-presets">
+                <span class="preset-label">Quick add:</span>
+                <button type="button" class="preset-btn" data-preset="basics">+ Basics</button>
+                <button type="button" class="preset-btn" data-preset="baking">+ Baking</button>
+                <button type="button" class="preset-btn" data-preset="asian">+ Asian</button>
+                <button type="button" class="preset-btn" data-preset="mexican">+ Mexican</button>
+                <button type="button" class="preset-btn" data-preset="italian">+ Italian</button>
+              </div>
+
+              <div class="staples-input-row">
+                <input type="text" id="staples-input" class="staples-input" placeholder="Add a staple ingredient...">
+                <button type="button" id="add-staple-btn" class="btn btn-small">Add</button>
+              </div>
+
+              <div id="staples-list" class="staples-list">
+                <!-- Staples pills added dynamically -->
+              </div>
+
+              <div class="staples-actions">
+                <button type="button" id="clear-staples-btn" class="btn-link btn-danger">Clear All</button>
+                <button type="button" id="close-staples-btn" class="btn btn-small btn-secondary">Done</button>
+              </div>
+            </div>
+          </div>
+
           <!-- Match Mode -->
           <div class="option-group">
             <label class="option-label">Match mode:</label>
