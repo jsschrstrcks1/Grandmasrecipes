@@ -58,6 +58,11 @@ Grandmasrecipes/
 ├── script.js               # Client-side rendering + aggregation
 ├── CLAUDE.md               # THIS FILE - AI assistant instructions
 ├── README.md               # Project documentation
+├── .claude/
+│   ├── settings.json       # Claude Code configuration + hooks
+│   └── hooks/
+│       ├── post-write-validate.sh  # Auto-validate after edits
+│       └── image-safety-check.sh   # Warn about oversized images
 ├── data/
 │   ├── recipes_master.json # Grandma Baker's recipes (LOCAL)
 │   ├── collections.json    # Hub configuration
@@ -164,6 +169,39 @@ python scripts/validate-recipes.py
 
 ---
 
+## OCR Correction Standards
+
+When transcribing handwritten recipe cards, watch for these common misreadings:
+
+### Character Confusion
+| Misread | Correct | Context |
+|---------|---------|---------|
+| `l` | `1` | Numbers (e.g., `l cup` → `1 cup`) |
+| `1` | `l` | Words (e.g., `mi1k` → `milk`) |
+| `O` | `0` | Numbers (e.g., `35O°F` → `350°F`) |
+| `0` | `O` | Words (e.g., `0ven` → `Oven`) |
+
+### Critical Measurement Distinctions
+| DANGEROUS | CORRECT | Impact |
+|-----------|---------|--------|
+| `tbsp` | `tsp` | 3x difference! |
+| `tsp` | `tbsp` | 3x difference! |
+| `cup` | `cups` | Quantity matters |
+| `oz` | `fl oz` | Weight vs volume |
+
+### Measurement Standardization
+Use these abbreviations consistently:
+- **Volume:** tsp, tbsp, cup, fl oz, pt, qt, gal
+- **Weight:** oz, lb
+- **Temperature:** Dual format `350°F (175°C)`
+
+### When Uncertain
+- Mark with `[UNCLEAR]` — never guess
+- Note possible readings: `[UNCLEAR: possibly "1/2" or "1/4"]`
+- Flag for human review in recipe notes
+
+---
+
 ## Non-Negotiable Rules
 
 1. **NEVER delete handwritten images**
@@ -264,6 +302,7 @@ python scripts/process_images.py
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v1.2 | 2026-01 | Added .claude/ hooks, OCR correction standards, measurement standardization |
 | v1.1 | 2026-01 | Added Quick Start, Priority Framework, Guardrails, expanded Do's/Don'ts |
 | v1.0 | — | Original CLAUDE.md structure |
 
