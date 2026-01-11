@@ -64,6 +64,7 @@ Grandmasrecipes/
 │   ├── mcp-servers.md      # MCP server documentation
 │   ├── CROSS_REPO_STANDARDS.md  # Cross-repository sync standards
 │   ├── MAINTENANCE.md      # Detailed maintenance workflows
+│   ├── ONBOARDING.md       # New session onboarding prompt
 │   ├── hooks/
 │   │   ├── post-write-validate.sh  # Auto-validate after edits
 │   │   └── image-safety-check.sh   # Warn about oversized images
