@@ -37,19 +37,104 @@
     {
       "id": "eggs-substitutes",
       "primary": "eggs",
+      "aliases": ["egg", "large eggs", "large egg"],
       "substitutes": [
         {
           "ingredient": "egg substitute",
           "ratio": "1 egg:1/4 cup",
           "direction": "health",
-          "notes": "Works for scrambles and baking",
+          "notes": "Works for scrambles and baking. Cholesterol-free.",
           "quality": "good"
         },
         {
           "ingredient": "flax egg",
-          "ratio": "1 egg:1 tbsp ground flax + 2.5-3 tbsp water",
+          "ratio": "1 egg:1 tbsp ground flax + 3 tbsp water",
           "direction": "health",
           "notes": "Let sit 10-15 min until gloppy. Works in baking only (cookies, muffins, pancakes). Won't work for recipes needing 3+ eggs.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "chia egg",
+          "ratio": "1 egg:1 tbsp chia seeds + 3 tbsp water",
+          "direction": "health",
+          "notes": "Let sit 5 min until gel forms. Good for baking, adds fiber.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "aquafaba",
+          "ratio": "1 egg:3 tbsp aquafaba",
+          "direction": "health",
+          "notes": "Liquid from canned chickpeas. Whips like egg whites. Great for meringues, macarons.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "mashed banana",
+          "ratio": "1 egg:1/4 cup mashed banana",
+          "direction": "health",
+          "notes": "Adds moisture and sweetness. Best for quick breads, muffins, pancakes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "unsweetened applesauce",
+          "ratio": "1 egg:1/4 cup applesauce",
+          "direction": "health",
+          "notes": "Adds moisture, works for cakes and muffins. Mild apple flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "silken tofu",
+          "ratio": "1 egg:1/4 cup blended silken tofu",
+          "direction": "health",
+          "notes": "Blend until smooth. Good for dense baked goods like brownies.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "powdered egg",
+          "ratio": "1 egg:1 tbsp powder + 2 tbsp water",
+          "direction": "convenience",
+          "notes": "Reconstitute before using. Great pantry staple. Works for most recipes.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "egg-whites",
+      "primary": "egg whites",
+      "aliases": ["egg white"],
+      "substitutes": [
+        {
+          "ingredient": "aquafaba",
+          "ratio": "1 egg white:2 tbsp aquafaba",
+          "direction": "health",
+          "notes": "Whips just like egg whites. Perfect for meringues and macarons.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "powdered egg whites",
+          "ratio": "1 egg white:2 tsp powder + 2 tbsp water",
+          "direction": "convenience",
+          "notes": "Just Whites or similar. Reconstitute before using.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "egg-yolks",
+      "primary": "egg yolks",
+      "aliases": ["egg yolk"],
+      "substitutes": [
+        {
+          "ingredient": "whole egg",
+          "ratio": "2 yolks:1 whole egg",
+          "direction": "convenience",
+          "notes": "Slightly different texture, but works in most recipes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "mayonnaise",
+          "ratio": "1 yolk:1 tbsp mayo",
+          "direction": "convenience",
+          "notes": "For binding and richness. Works in some baking.",
           "quality": "moderate"
         }
       ]
@@ -984,6 +1069,41 @@
           "ratio": "1:1",
           "direction": "convenience",
           "notes": "Traditional for pie crusts, flaky texture",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "lard",
+      "primary": "lard",
+      "aliases": ["leaf lard", "pork fat"],
+      "substitutes": [
+        {
+          "ingredient": "shortening",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture, neutral flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds flavor, works well in pastries",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Solid at room temp, slight coconut flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "bacon fat",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds smoky flavor, good for savory dishes",
           "quality": "good"
         }
       ]
@@ -1929,6 +2049,297 @@
       ]
     },
     {
+      "id": "half-and-half",
+      "primary": "half and half",
+      "aliases": ["half-and-half", "half & half"],
+      "substitutes": [
+        {
+          "ingredient": "whole milk + heavy cream",
+          "ratio": "1 cup:3/4 cup milk + 1/4 cup cream",
+          "direction": "convenience",
+          "notes": "Mix together for perfect half-and-half substitute.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "evaporated milk",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Slightly richer, works well in coffee and cooking.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "cake-flour",
+      "primary": "cake flour",
+      "aliases": ["pastry flour"],
+      "substitutes": [
+        {
+          "ingredient": "all-purpose flour + cornstarch",
+          "ratio": "1 cup:7/8 cup AP flour + 2 tbsp cornstarch",
+          "direction": "convenience",
+          "notes": "Sift together. Lower protein mimics cake flour's tender crumb.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "bread-flour",
+      "primary": "bread flour",
+      "aliases": ["strong flour", "high-gluten flour"],
+      "substitutes": [
+        {
+          "ingredient": "all-purpose flour",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Works for most recipes. Bread/pizza may have slightly less chew.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "all-purpose flour + vital wheat gluten",
+          "ratio": "1 cup:1 cup AP + 1 tsp gluten",
+          "direction": "convenience",
+          "notes": "Adds protein for better structure and chew.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "self-rising-flour",
+      "primary": "self-rising flour",
+      "aliases": ["self-raising flour"],
+      "substitutes": [
+        {
+          "ingredient": "all-purpose flour + baking powder + salt",
+          "ratio": "1 cup:1 cup AP + 1.5 tsp baking powder + 1/4 tsp salt",
+          "direction": "convenience",
+          "notes": "Whisk together well before using.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "confectioners-sugar",
+      "primary": "confectioners sugar",
+      "aliases": ["powdered sugar", "icing sugar", "10x sugar"],
+      "substitutes": [
+        {
+          "ingredient": "granulated sugar + cornstarch (blended)",
+          "ratio": "1 cup:1 cup sugar + 1 tsp cornstarch",
+          "direction": "convenience",
+          "notes": "Blend in food processor 3+ minutes until powdery. Sift before using. Good for dusting, less ideal for frostings.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "unsweetened-chocolate",
+      "primary": "unsweetened chocolate",
+      "aliases": ["baking chocolate", "bitter chocolate"],
+      "substitutes": [
+        {
+          "ingredient": "cocoa powder + oil",
+          "ratio": "1 oz:3 tbsp cocoa + 1 tbsp vegetable oil",
+          "direction": "convenience",
+          "notes": "Mix together. Works well in brownies and cakes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "bittersweet chocolate",
+          "ratio": "1 oz:1.5 oz bittersweet",
+          "direction": "convenience",
+          "notes": "Reduce sugar in recipe by 1 tablespoon per ounce substituted.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "bittersweet-chocolate",
+      "primary": "bittersweet chocolate",
+      "aliases": ["semisweet chocolate", "dark chocolate"],
+      "substitutes": [
+        {
+          "ingredient": "unsweetened chocolate + sugar",
+          "ratio": "1 oz:2/3 oz unsweetened + 2 tsp sugar",
+          "direction": "convenience",
+          "notes": "Mix sugar into melted chocolate.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chocolate chips",
+          "ratio": "1:1 by weight",
+          "direction": "convenience",
+          "notes": "Chips have stabilizers - OK for brownies/cookies, not for sauces or puddings.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "cooking-wine",
+      "primary": "white wine",
+      "aliases": ["cooking wine", "dry white wine"],
+      "substitutes": [
+        {
+          "ingredient": "chicken broth + wine vinegar",
+          "ratio": "1/2 cup:1/2 cup broth + 1 tsp vinegar",
+          "direction": "convenience",
+          "notes": "Good for deglazing and sauces.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chicken broth + lemon juice",
+          "ratio": "1/2 cup:1/2 cup broth + 1 tsp lemon juice",
+          "direction": "convenience",
+          "notes": "Adds acidity without alcohol.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "dry vermouth",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Keeps longer than wine once opened.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "mirin",
+      "primary": "mirin",
+      "aliases": ["sweet rice wine", "Japanese cooking wine"],
+      "substitutes": [
+        {
+          "ingredient": "dry sherry",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Add a pinch of sugar if needed for sweetness.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "rice vinegar + sugar",
+          "ratio": "1 tbsp mirin:1 tbsp rice vinegar + 1/2 tsp sugar",
+          "direction": "convenience",
+          "notes": "Non-alcoholic option.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "cream-of-tartar",
+      "primary": "cream of tartar",
+      "substitutes": [
+        {
+          "ingredient": "lemon juice",
+          "ratio": "1 tsp:2 tsp lemon juice",
+          "direction": "convenience",
+          "notes": "For stabilizing egg whites or as acid in baking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "white vinegar",
+          "ratio": "1 tsp:2 tsp vinegar",
+          "direction": "convenience",
+          "notes": "Works for stabilizing whipped egg whites.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "corn-syrup",
+      "primary": "corn syrup",
+      "aliases": ["light corn syrup", "Karo syrup"],
+      "substitutes": [
+        {
+          "ingredient": "honey",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds honey flavor. May crystallize in candy making.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds maple flavor. Not for candy making.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "golden syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "British alternative, slight butterscotch flavor.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "allspice",
+      "primary": "allspice",
+      "aliases": ["ground allspice", "Jamaica pepper"],
+      "substitutes": [
+        {
+          "ingredient": "cinnamon + cloves + nutmeg",
+          "ratio": "1 tsp:1/2 tsp cinnamon + 1/4 tsp cloves + 1/4 tsp nutmeg",
+          "direction": "convenience",
+          "notes": "Blend together. Good approximation of allspice flavor.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "pumpkin-pie-spice",
+      "primary": "pumpkin pie spice",
+      "substitutes": [
+        {
+          "ingredient": "cinnamon + ginger + nutmeg + cloves",
+          "ratio": "1 tsp:1/2 tsp cinnamon + 1/4 tsp ginger + 1/8 tsp nutmeg + 1/8 tsp cloves",
+          "direction": "convenience",
+          "notes": "Classic pumpkin pie spice blend.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "apple-pie-spice",
+      "primary": "apple pie spice",
+      "substitutes": [
+        {
+          "ingredient": "cinnamon + nutmeg + allspice",
+          "ratio": "1 tbsp:2 tsp cinnamon + 1 tsp nutmeg + pinch allspice",
+          "direction": "convenience",
+          "notes": "Traditional apple pie blend.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "anchovy",
+      "primary": "anchovy",
+      "aliases": ["anchovy fillets", "anchovies"],
+      "substitutes": [
+        {
+          "ingredient": "anchovy paste",
+          "ratio": "1 fillet:1/2 tsp paste",
+          "direction": "convenience",
+          "notes": "More concentrated, adjust to taste.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Worcestershire sauce",
+          "ratio": "2 fillets:1 tsp Worcestershire",
+          "direction": "convenience",
+          "notes": "Contains anchovies, adds umami depth.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "capers",
+          "ratio": "1 fillet:1 tsp capers",
+          "direction": "convenience",
+          "notes": "Adds brininess but not the same umami.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
       "id": "yeast",
       "primary": "active dry yeast",
       "aliases": ["dry yeast", "yeast"],
@@ -1988,6 +2399,1661 @@
           "direction": "health",
           "notes": "Vegan option. Adds umami, cheesy flavor. Won't melt. Good for pastas, popcorn, salads.",
           "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "balsamic-vinegar",
+      "primary": "balsamic vinegar",
+      "aliases": ["balsamic"],
+      "substitutes": [
+        {
+          "ingredient": "red wine vinegar + honey",
+          "ratio": "1 tbsp balsamic:1 tbsp red wine vinegar + 1/2 tsp honey",
+          "direction": "convenience",
+          "notes": "Adds sweetness to approximate balsamic's mellowed flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cider vinegar + molasses",
+          "ratio": "1 tbsp balsamic:1 tbsp cider vinegar + 1/4 tsp molasses",
+          "direction": "convenience",
+          "notes": "Provides color and sweet-tart flavor similar to balsamic.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "sherry vinegar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar complexity. Good for dressings and sauces.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "chili-powder",
+      "primary": "chili powder",
+      "aliases": ["chili powder blend"],
+      "substitutes": [
+        {
+          "ingredient": "ancho chili powder",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Pure ground ancho chile. Mild and smoky. Add cumin and oregano for blend.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cayenne + cumin + oregano + paprika",
+          "ratio": "1 tbsp chili powder:1/4 tsp cayenne + 1 tsp cumin + 1/2 tsp oregano + 1 tsp paprika",
+          "direction": "convenience",
+          "notes": "DIY chili powder blend. Adjust cayenne for heat level.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "chipotle powder",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Use half - smokier and hotter than regular chili powder.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "creme-fraiche",
+      "primary": "creme fraiche",
+      "aliases": ["crème fraîche"],
+      "substitutes": [
+        {
+          "ingredient": "sour cream",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "More tangy. May curdle in high heat - add at end of cooking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "heavy cream + sour cream",
+          "ratio": "1 cup:3/4 cup heavy cream + 1/4 cup sour cream",
+          "direction": "convenience",
+          "notes": "Mix together for richer texture closer to creme fraiche.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Tangier, less rich. Good for dolloping, not for cooking.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "dijon-mustard",
+      "primary": "Dijon mustard",
+      "aliases": ["dijon", "French mustard"],
+      "substitutes": [
+        {
+          "ingredient": "yellow mustard + mayonnaise",
+          "ratio": "1 tbsp Dijon:1 tbsp yellow mustard + 1/2 tsp mayo",
+          "direction": "convenience",
+          "notes": "Smooths out yellow mustard's sharpness. Good for dressings.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "spicy brown mustard",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar heat level, slightly different flavor profile.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "dry mustard + white wine",
+          "ratio": "1 tbsp Dijon:1 tsp dry mustard + 1 tsp white wine",
+          "direction": "convenience",
+          "notes": "Mix to paste. Classic Dijon-style preparation.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "dutch-process-cocoa",
+      "primary": "Dutch-process cocoa",
+      "aliases": ["Dutch cocoa", "alkalized cocoa", "European-style cocoa"],
+      "substitutes": [
+        {
+          "ingredient": "natural cocoa + baking soda",
+          "ratio": "1 tbsp Dutch:1 tbsp natural cocoa + pinch baking soda",
+          "direction": "convenience",
+          "notes": "Natural cocoa is acidic; baking soda neutralizes. Reduce other baking soda by 1/8 tsp per 3 tbsp cocoa.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "unsweetened chocolate",
+          "ratio": "3 tbsp Dutch:1 oz chocolate + reduce fat",
+          "direction": "convenience",
+          "notes": "Reduce butter/oil by 1 tbsp per ounce chocolate used.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "gruyere-cheese",
+      "primary": "Gruyère cheese",
+      "aliases": ["gruyere", "Gruyère"],
+      "substitutes": [
+        {
+          "ingredient": "Swiss cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, slightly sweeter. Good for melting in fondue or sandwiches.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Emmental",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Very similar Swiss-type cheese. Slightly larger holes.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Comté",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "French cheese, nuttier. Excellent Gruyère substitute.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Jarlsberg",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Norwegian cheese with similar melting properties.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "cheddar-cheese",
+      "primary": "cheddar cheese",
+      "aliases": ["cheddar", "sharp cheddar", "mild cheddar"],
+      "substitutes": [
+        {
+          "ingredient": "Colby cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, similar texture. Good for melting.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Monterey Jack",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, buttery. Great for quesadillas and melting.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Gouda",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Slightly sweeter, melts well. Aged Gouda is sharper.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "American cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Processed, melts very smoothly. Good for burgers and sauces.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "goat-cheese",
+      "primary": "goat cheese",
+      "aliases": ["chevre", "chèvre", "fresh goat cheese"],
+      "substitutes": [
+        {
+          "ingredient": "feta cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar tanginess. Crumblier texture.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cream cheese + lemon juice",
+          "ratio": "1 cup goat:1 cup cream cheese + 1 tbsp lemon juice",
+          "direction": "convenience",
+          "notes": "Adds tang to approximate goat cheese flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "ricotta cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, creamier. Good for spreading applications.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "Boursin",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Herb-flavored soft cheese with similar spreadability.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "herbes-de-provence",
+      "primary": "herbes de Provence",
+      "aliases": ["herbs de Provence", "Provençal herbs"],
+      "substitutes": [
+        {
+          "ingredient": "thyme + rosemary + oregano + marjoram",
+          "ratio": "1 tbsp herbes:1 tsp thyme + 1 tsp rosemary + 1/2 tsp oregano + 1/2 tsp marjoram",
+          "direction": "convenience",
+          "notes": "Traditional blend. Add pinch of lavender if available.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Italian seasoning",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar herbs, slightly different proportions. Works in most recipes.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "italian-seasoning",
+      "primary": "Italian seasoning",
+      "aliases": ["Italian herb blend"],
+      "substitutes": [
+        {
+          "ingredient": "basil + oregano + thyme + rosemary",
+          "ratio": "1 tbsp blend:1 tsp basil + 1 tsp oregano + 1/2 tsp thyme + 1/2 tsp rosemary",
+          "direction": "convenience",
+          "notes": "Classic Italian herb mix. Add marjoram or sage if available.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "herbes de Provence",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar Mediterranean herbs. Works interchangeably.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "mascarpone",
+      "primary": "mascarpone",
+      "aliases": ["mascarpone cheese"],
+      "substitutes": [
+        {
+          "ingredient": "cream cheese + heavy cream",
+          "ratio": "1 cup mascarpone:8 oz cream cheese + 2 tbsp heavy cream",
+          "direction": "convenience",
+          "notes": "Beat until smooth. Good for tiramisu and desserts.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "ricotta + cream cheese",
+          "ratio": "1 cup mascarpone:1/2 cup ricotta + 1/2 cup cream cheese",
+          "direction": "convenience",
+          "notes": "Blend until smooth for similar texture.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "crème fraîche",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Tangier but similar richness and texture.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "poultry-seasoning",
+      "primary": "poultry seasoning",
+      "substitutes": [
+        {
+          "ingredient": "sage + thyme + marjoram + rosemary",
+          "ratio": "1 tsp blend:1/2 tsp sage + 1/4 tsp thyme + 1/4 tsp marjoram + pinch rosemary",
+          "direction": "convenience",
+          "notes": "Sage is the dominant flavor. Adjust to taste.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "sage + thyme",
+          "ratio": "1 tsp poultry:1/2 tsp sage + 1/2 tsp thyme",
+          "direction": "convenience",
+          "notes": "Simplified version with main flavors.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "ricotta-cheese",
+      "primary": "ricotta cheese",
+      "aliases": ["ricotta"],
+      "substitutes": [
+        {
+          "ingredient": "cottage cheese (blended)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Blend until smooth for similar texture. Works in lasagna.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cream cheese + sour cream",
+          "ratio": "1 cup ricotta:1/2 cup cream cheese + 1/2 cup sour cream",
+          "direction": "convenience",
+          "notes": "Mix together. Richer than ricotta but works in desserts.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "silken tofu",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Vegan option. Blend until smooth, add salt to taste.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "worcestershire-sauce",
+      "primary": "Worcestershire sauce",
+      "aliases": ["worcestershire"],
+      "substitutes": [
+        {
+          "ingredient": "soy sauce + tamarind + vinegar",
+          "ratio": "1 tbsp Worcestershire:1 tsp soy + 1/2 tsp tamarind paste + 1/2 tsp vinegar",
+          "direction": "convenience",
+          "notes": "Approximates the fermented complexity.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "soy sauce + lemon juice + sugar",
+          "ratio": "1 tbsp Worcestershire:1 tbsp soy + 1/4 tsp lemon juice + pinch sugar",
+          "direction": "convenience",
+          "notes": "Quick substitute for marinades and sauces.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "fish sauce + brown sugar",
+          "ratio": "1 tbsp Worcestershire:1/2 tbsp fish sauce + 1/4 tsp brown sugar",
+          "direction": "convenience",
+          "notes": "Similar umami depth. Use sparingly.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "fresh-lemon-zest",
+      "primary": "lemon zest",
+      "aliases": ["fresh lemon zest", "grated lemon peel"],
+      "substitutes": [
+        {
+          "ingredient": "lemon extract",
+          "ratio": "1 tbsp zest:1/2 tsp extract",
+          "direction": "convenience",
+          "notes": "More concentrated. Add at end of cooking.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "lime zest",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar citrus oils. Slightly different flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "orange zest",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter, less tart. Works in baked goods.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "dried lemon peel",
+          "ratio": "1 tbsp fresh:1 tsp dried",
+          "direction": "convenience",
+          "notes": "Rehydrate in water if using in wet applications.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "light-brown-sugar",
+      "primary": "light brown sugar",
+      "substitutes": [
+        {
+          "ingredient": "dark brown sugar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Stronger molasses flavor. Works in most recipes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "granulated sugar + molasses",
+          "ratio": "1 cup light brown:1 cup granulated + 1 tbsp molasses",
+          "direction": "convenience",
+          "notes": "Mix well. For dark brown, use 2 tbsp molasses.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "dark-brown-sugar",
+      "primary": "dark brown sugar",
+      "substitutes": [
+        {
+          "ingredient": "light brown sugar + molasses",
+          "ratio": "1 cup dark:1 cup light brown + 1 tbsp molasses",
+          "direction": "convenience",
+          "notes": "Adds extra molasses depth.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "granulated sugar + molasses",
+          "ratio": "1 cup dark brown:1 cup granulated + 2 tbsp molasses",
+          "direction": "convenience",
+          "notes": "Mix well until uniform color.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "shallot",
+      "primary": "shallot",
+      "aliases": ["shallots"],
+      "substitutes": [
+        {
+          "ingredient": "yellow onion",
+          "ratio": "1 shallot:1/3 small onion",
+          "direction": "convenience",
+          "notes": "Stronger flavor. Mince finely for dressings.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "red onion",
+          "ratio": "1 shallot:2 tbsp minced red onion",
+          "direction": "convenience",
+          "notes": "Milder than yellow. Good raw in salads.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "green onion (white part)",
+          "ratio": "1 shallot:3-4 green onions (white parts)",
+          "direction": "convenience",
+          "notes": "Milder, similar subtle onion flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "leek (white part)",
+          "ratio": "1 shallot:1/4 cup chopped leek",
+          "direction": "convenience",
+          "notes": "Mild, sweet onion flavor. Good for soups and sauces.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "chipotle-pepper",
+      "primary": "chipotle pepper in adobo",
+      "aliases": ["chipotle peppers", "chipotle in adobo"],
+      "substitutes": [
+        {
+          "ingredient": "smoked paprika + cayenne",
+          "ratio": "1 chipotle:1/2 tsp smoked paprika + pinch cayenne",
+          "direction": "convenience",
+          "notes": "Provides smoky heat without the pepper texture.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "ancho chile + liquid smoke",
+          "ratio": "1 chipotle:1 ancho chile + drop liquid smoke",
+          "direction": "convenience",
+          "notes": "Rehydrate ancho in hot water first.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "chipotle powder",
+          "ratio": "1 pepper:1/2 tsp powder",
+          "direction": "convenience",
+          "notes": "Concentrated, adjust to taste. No adobo sauce included.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "sweet-potatoes",
+      "primary": "sweet potatoes",
+      "aliases": ["sweet potato", "yams"],
+      "substitutes": [
+        {
+          "ingredient": "butternut squash",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar sweetness and texture. Good roasted or mashed.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "pumpkin",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar flavor, slightly less sweet. Good for pies.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "carrots",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Natural sweetness. Best for soups and mashes.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "peanut-butter",
+      "primary": "peanut butter",
+      "aliases": ["creamy peanut butter", "crunchy peanut butter", "natural peanut butter"],
+      "substitutes": [
+        {
+          "ingredient": "almond butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar consistency, slightly milder flavor.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "cashew butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Creamier, milder. Works in cookies and sauces.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "sunflower seed butter",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Nut-free option. May turn green in baked goods (harmless reaction with baking soda).",
+          "quality": "good"
+        },
+        {
+          "ingredient": "tahini",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different flavor profile but similar texture. Good in savory applications.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "hazelnut butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Richer, sweeter. Great for cookies.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "yogurt",
+      "primary": "yogurt",
+      "aliases": ["plain yogurt", "Greek yogurt", "regular yogurt"],
+      "substitutes": [
+        {
+          "ingredient": "sour cream",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar tanginess, slightly richer.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "buttermilk",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Thinner consistency. May need to reduce other liquids.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cottage cheese (blended)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Blend until smooth for similar texture.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "crème fraîche",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Richer, less tangy. Good for cooking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "kefir",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Thinner, tangier. Extra probiotics.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "maple-syrup",
+      "primary": "maple syrup",
+      "aliases": ["pure maple syrup", "real maple syrup"],
+      "substitutes": [
+        {
+          "ingredient": "honey",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar viscosity, different flavor profile.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "molasses",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Stronger flavor, darker. Best in baking.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "brown sugar syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Mix 1 cup brown sugar with 1/4 cup water, heat until dissolved.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "agave nectar",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Thinner, milder. Lower glycemic index.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "coconut nectar",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Caramel-like flavor, lower glycemic.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "tomato-sauce",
+      "primary": "tomato sauce",
+      "aliases": ["marinara sauce"],
+      "substitutes": [
+        {
+          "ingredient": "tomato paste + water",
+          "ratio": "1 cup sauce:3 tbsp paste + 3/4 cup water",
+          "direction": "convenience",
+          "notes": "Mix well. Add seasonings as needed.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "canned tomatoes (blended)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Blend until smooth. May be chunkier.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "fresh tomatoes (blended)",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Peel, blend, simmer to reduce. Season to taste.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ketchup + water",
+          "ratio": "1 cup:1/2 cup ketchup + 1/2 cup water",
+          "direction": "convenience",
+          "notes": "Emergency option. Will be sweeter. Reduce other sugars.",
+          "quality": "poor"
+        }
+      ]
+    },
+    {
+      "id": "vinegar",
+      "primary": "white vinegar",
+      "aliases": ["distilled vinegar", "distilled white vinegar"],
+      "substitutes": [
+        {
+          "ingredient": "apple cider vinegar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Slightly fruity flavor. Works in most recipes.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "lemon juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds citrus flavor. Good for dressings and baking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "lime juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar acidity with lime flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "rice vinegar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, slightly sweet. Good for Asian dishes.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "natural-cocoa",
+      "primary": "natural cocoa powder",
+      "aliases": ["cocoa powder", "unsweetened cocoa"],
+      "substitutes": [
+        {
+          "ingredient": "Dutch-process cocoa",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Add 1/8 tsp cream of tartar per 3 tbsp cocoa to add acidity back.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "carob powder",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Naturally sweeter, caffeine-free. Different flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "unsweetened baking chocolate",
+          "ratio": "3 tbsp cocoa:1 oz chocolate - 1 tbsp fat",
+          "direction": "convenience",
+          "notes": "Melt chocolate, reduce fat in recipe accordingly.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "hot cocoa mix",
+          "ratio": "3 tbsp cocoa:3 tbsp cocoa mix",
+          "direction": "convenience",
+          "notes": "Contains sugar - reduce recipe sugar. Emergency option.",
+          "quality": "poor"
+        }
+      ]
+    },
+    {
+      "id": "semisweet-chocolate-chips",
+      "primary": "semisweet chocolate chips",
+      "aliases": ["chocolate chips", "semi-sweet chips"],
+      "substitutes": [
+        {
+          "ingredient": "cocoa powder + butter + sugar",
+          "ratio": "1 oz chips:1 tbsp cocoa + 2 tsp sugar + 2 tsp butter",
+          "direction": "convenience",
+          "notes": "Combine melted butter with cocoa and sugar. Good for baking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "bittersweet chocolate",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Slightly less sweet. Adjust sugar if needed.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "milk chocolate chips",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter, less intense. May need to reduce other sugars.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "citric-acid",
+      "primary": "citric acid",
+      "aliases": ["sour salt"],
+      "substitutes": [
+        {
+          "ingredient": "lemon juice",
+          "ratio": "1 tsp citric acid:1/2 cup lemon juice",
+          "direction": "convenience",
+          "notes": "Adjust other liquids in recipe. Good for canning and candy.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "lime juice",
+          "ratio": "1 tsp citric acid:1/2 cup lime juice",
+          "direction": "convenience",
+          "notes": "Similar acidity to lemon. Adjust liquids.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "white vinegar",
+          "ratio": "1 tsp citric acid:4 tbsp vinegar",
+          "direction": "convenience",
+          "notes": "Different flavor profile. Works for acidity.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "primary": "beer",
+      "aliases": ["lager", "ale"],
+      "substitutes": [
+        {
+          "ingredient": "chicken broth",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Good for batters and stews. Won't have carbonation.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ginger ale",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Non-alcoholic with carbonation. Adds sweetness.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "sparkling water + malt extract",
+          "ratio": "1 cup:1 cup sparkling water + 1 tsp malt extract",
+          "direction": "convenience",
+          "notes": "Approximates beer flavor with carbonation.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "non-alcoholic beer",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Closest substitute. Same flavor, no alcohol.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "cream-soup",
+      "primary": "cream of mushroom soup",
+      "aliases": ["cream of chicken soup", "cream of celery soup", "condensed cream soup"],
+      "substitutes": [
+        {
+          "ingredient": "homemade cream sauce",
+          "ratio": "1 can:1 cup milk + 2 tbsp butter + 2 tbsp flour",
+          "direction": "health",
+          "notes": "Make roux, add milk, simmer until thick. Add mushrooms/chicken/celery as needed.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Greek yogurt + broth",
+          "ratio": "1 can:3/4 cup yogurt + 1/4 cup broth",
+          "direction": "health",
+          "notes": "Thinner, tangier. Good for casseroles. Add off heat.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "sour cream + broth",
+          "ratio": "1 can:3/4 cup sour cream + 1/4 cup broth",
+          "direction": "convenience",
+          "notes": "Rich and creamy. Add off heat to prevent curdling.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "sweetened-condensed-milk",
+      "primary": "sweetened condensed milk",
+      "aliases": ["condensed milk", "Eagle Brand milk"],
+      "substitutes": [
+        {
+          "ingredient": "evaporated milk + sugar",
+          "ratio": "1 can (14 oz):1 can evaporated milk + 1 cup sugar",
+          "direction": "convenience",
+          "notes": "Heat together until sugar dissolves. Cool before using.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "heavy cream + sugar",
+          "ratio": "1 can:1 cup cream + 1 cup sugar (simmered)",
+          "direction": "convenience",
+          "notes": "Simmer 15-20 min until reduced by half. Stir frequently.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut cream + sugar",
+          "ratio": "1 can:1 can coconut cream + 3/4 cup sugar",
+          "direction": "health",
+          "notes": "Dairy-free option. Simmer until thickened.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "evaporated-milk",
+      "primary": "evaporated milk",
+      "aliases": ["canned milk"],
+      "substitutes": [
+        {
+          "ingredient": "heavy cream",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Richer. Works well in recipes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "half and half",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar richness. Good substitute.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "whole milk (simmered)",
+          "ratio": "1 cup evap:1.5 cups milk simmered to 1 cup",
+          "direction": "convenience",
+          "notes": "Simmer milk until reduced by about 40%.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "powdered milk + water",
+          "ratio": "1 cup:1/3 cup powder + 3/4 cup water",
+          "direction": "convenience",
+          "notes": "Use less water than normal reconstitution.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "kefir",
+      "primary": "kefir",
+      "aliases": ["milk kefir"],
+      "substitutes": [
+        {
+          "ingredient": "buttermilk",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar tanginess and consistency.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "yogurt thinned with milk",
+          "ratio": "1 cup kefir:3/4 cup yogurt + 1/4 cup milk",
+          "direction": "convenience",
+          "notes": "Blend until smooth. Similar probiotic benefits.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "sour cream thinned with milk",
+          "ratio": "1 cup:1/2 cup sour cream + 1/2 cup milk",
+          "direction": "convenience",
+          "notes": "Mix well. Good for baking.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "simple-syrup",
+      "primary": "simple syrup",
+      "aliases": ["sugar syrup"],
+      "substitutes": [
+        {
+          "ingredient": "honey + water",
+          "ratio": "1 cup syrup:3/4 cup honey + 1/4 cup warm water",
+          "direction": "convenience",
+          "notes": "Mix until combined. Adds honey flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds maple flavor. Good for cocktails and desserts.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "agave nectar",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Thinner, neutral flavor. No mixing required.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "corn syrup",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar consistency. Less sweet.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "arrowroot",
+      "primary": "arrowroot",
+      "aliases": ["arrowroot starch", "arrowroot powder"],
+      "substitutes": [
+        {
+          "ingredient": "cornstarch",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Most direct substitute for thickening.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "flour",
+          "ratio": "1 tsp arrowroot:1 tbsp flour",
+          "direction": "convenience",
+          "notes": "Use more flour, may cloud sauces.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "tapioca starch",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar clarity and thickening power.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "gelatin",
+      "primary": "gelatin",
+      "aliases": ["unflavored gelatin", "gelatin powder", "Knox gelatin"],
+      "substitutes": [
+        {
+          "ingredient": "agar agar",
+          "ratio": "1 tbsp gelatin:2 tsp agar agar",
+          "direction": "health",
+          "notes": "Vegan option from seaweed. Sets firmer. Dissolve in liquid and boil 1-2 min.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "pectin",
+          "ratio": "Varies by brand",
+          "direction": "convenience",
+          "notes": "Best for jams and jellies. Requires sugar and acid to set.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "carrageenan",
+          "ratio": "1 tbsp gelatin:1 tbsp carrageenan",
+          "direction": "health",
+          "notes": "Seaweed-based. Softer set than gelatin. Vegan.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "green-onion",
+      "primary": "green onion",
+      "aliases": ["scallions", "spring onions"],
+      "substitutes": [
+        {
+          "ingredient": "chives",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder flavor. Best for garnish.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "leeks (green part)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar mild onion flavor. Slice thin.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "shallots",
+          "ratio": "2 green onions:1 small shallot",
+          "direction": "convenience",
+          "notes": "More pungent. Mince finely.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "red onion",
+          "ratio": "2 green onions:2 tbsp minced red onion",
+          "direction": "convenience",
+          "notes": "Stronger flavor. Good raw in salads.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "hazelnuts",
+      "primary": "hazelnuts",
+      "aliases": ["filberts", "cobnuts"],
+      "substitutes": [
+        {
+          "ingredient": "almonds",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture. Less rich flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "macadamia nuts",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Richer, butterier. Good in baking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "pecans",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different flavor but similar use in baking.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "hot-sauce",
+      "primary": "hot sauce",
+      "aliases": ["hot pepper sauce", "Tabasco", "Louisiana hot sauce"],
+      "substitutes": [
+        {
+          "ingredient": "cayenne + vinegar",
+          "ratio": "1 tsp hot sauce:3/4 tsp cayenne + 1 tsp vinegar",
+          "direction": "convenience",
+          "notes": "Mix together. Adjust cayenne to taste.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "sriracha",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different flavor profile - garlicky and slightly sweet.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "crushed red pepper flakes",
+          "ratio": "1 tsp hot sauce:1/4 tsp flakes",
+          "direction": "convenience",
+          "notes": "Just adds heat, no vinegar tang.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "mace",
+      "primary": "mace",
+      "aliases": ["ground mace", "blade mace"],
+      "substitutes": [
+        {
+          "ingredient": "nutmeg",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Same plant, similar flavor. Mace is outer covering of nutmeg seed.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "allspice",
+          "ratio": "1:0.5",
+          "direction": "convenience",
+          "notes": "Use half the amount. Similar warm flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cinnamon + nutmeg",
+          "ratio": "1 tsp mace:1/2 tsp cinnamon + 1/2 tsp nutmeg",
+          "direction": "convenience",
+          "notes": "Blend approximates mace's complex flavor.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "prepared-mustard",
+      "primary": "prepared mustard",
+      "aliases": ["yellow mustard", "American mustard"],
+      "substitutes": [
+        {
+          "ingredient": "dry mustard + water + vinegar + sugar",
+          "ratio": "1 tbsp prepared:1 tbsp dry mustard + 1 tsp water + 1 tsp vinegar + 1 tsp sugar",
+          "direction": "convenience",
+          "notes": "Mix together. Let stand 10 min before using.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "Dijon mustard",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Spicier, more complex. May change dish flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "honey mustard",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter. Reduce sugar in recipe if needed.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "raisins",
+      "primary": "raisins",
+      "aliases": ["seedless raisins", "golden raisins"],
+      "substitutes": [
+        {
+          "ingredient": "dried currants",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Smaller, slightly tangier. Works identically.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "dried cranberries",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Tangier, often sweetened. Good in baking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chopped dried prunes",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sweeter, stickier. Chop to raisin size.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chopped dried dates",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Very sweet. Chop small.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "dried cherries",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Tangier, festive. Good in baking.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "cottage-cheese",
+      "primary": "cottage cheese",
+      "aliases": ["curds"],
+      "substitutes": [
+        {
+          "ingredient": "ricotta cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Smoother texture. Works in lasagna and baking.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "farmer's cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Drier, crumblier. Similar fresh cheese flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Greek yogurt",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Tangier, smoother. Good protein substitute.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "silken tofu (crumbled)",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Vegan option. Crumble and season with salt.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "light-cream",
+      "primary": "light cream",
+      "aliases": ["coffee cream", "table cream"],
+      "substitutes": [
+        {
+          "ingredient": "half and half",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Nearly identical. Slightly less fat.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "milk + butter",
+          "ratio": "1 cup:7/8 cup milk + 3 tbsp butter",
+          "direction": "convenience",
+          "notes": "Melt butter into milk. Won't whip.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "evaporated milk",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Slightly sweeter, cooked flavor.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "whipped-cream",
+      "primary": "whipped cream",
+      "aliases": ["whipping cream (whipped)", "fresh whipped cream"],
+      "substitutes": [
+        {
+          "ingredient": "frozen whipped topping",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Cool Whip or similar. Thaw before using.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut cream (whipped)",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Chill overnight, whip cold. Dairy-free. Slight coconut flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "evaporated milk (whipped)",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Chill can overnight, whip very cold. Lighter than cream.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "rum",
+      "primary": "rum",
+      "aliases": ["dark rum", "white rum", "light rum"],
+      "substitutes": [
+        {
+          "ingredient": "rum extract + water",
+          "ratio": "1/4 cup rum:1/2 tsp extract + water to equal 1/4 cup",
+          "direction": "convenience",
+          "notes": "Non-alcoholic. Good for baking.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "bourbon",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different flavor but works in many recipes.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "apple juice + almond extract",
+          "ratio": "1/4 cup rum:1/4 cup apple juice + 1/4 tsp almond extract",
+          "direction": "convenience",
+          "notes": "Non-alcoholic option for baking.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "brandy",
+      "primary": "brandy",
+      "aliases": ["cognac", "Armagnac"],
+      "substitutes": [
+        {
+          "ingredient": "brandy extract + water",
+          "ratio": "1/4 cup brandy:1 tsp extract + water to 1/4 cup",
+          "direction": "convenience",
+          "notes": "Non-alcoholic. Good for baking and sauces.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "bourbon or whiskey",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Different flavor profile but similar application.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "apple cider + vanilla",
+          "ratio": "1/4 cup brandy:1/4 cup cider + 1/4 tsp vanilla",
+          "direction": "convenience",
+          "notes": "Non-alcoholic option.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "quinoa",
+      "primary": "quinoa",
+      "aliases": ["white quinoa", "red quinoa"],
+      "substitutes": [
+        {
+          "ingredient": "couscous",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Faster cooking. Not gluten-free.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "bulgur wheat",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture. Not gluten-free.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "millet",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Gluten-free. Similar texture when cooked.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "cauliflower rice",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Low carb option. Very different texture.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "ketchup",
+      "primary": "ketchup",
+      "aliases": ["catsup", "tomato ketchup"],
+      "substitutes": [
+        {
+          "ingredient": "tomato sauce + sugar + vinegar",
+          "ratio": "1 cup ketchup:1 cup sauce + 1/4 cup sugar + 3 tbsp vinegar",
+          "direction": "convenience",
+          "notes": "Add pinch of cloves and salt. Simmer until thick.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "tomato paste + sugar + vinegar + water",
+          "ratio": "1/2 cup ketchup:1/4 cup paste + 2 tbsp sugar + 1 tbsp vinegar + 2 tbsp water",
+          "direction": "convenience",
+          "notes": "Mix well. Adjust consistency with water.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "chili sauce",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Spicier. May have chunks.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "tomato-juice",
+      "primary": "tomato juice",
+      "aliases": ["tomato cocktail"],
+      "substitutes": [
+        {
+          "ingredient": "tomato sauce + water",
+          "ratio": "1 cup juice:1/2 cup sauce + 1/2 cup water",
+          "direction": "convenience",
+          "notes": "Add dash of salt and sugar to taste.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "tomato paste + water",
+          "ratio": "1 cup juice:1/4 cup paste + 3/4 cup water",
+          "direction": "convenience",
+          "notes": "Mix well. Season to taste.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "V8 vegetable juice",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Has additional vegetable flavors.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "instant-potato-flakes",
+      "primary": "instant potato flakes",
+      "aliases": ["potato flakes", "instant mashed potatoes"],
+      "substitutes": [
+        {
+          "ingredient": "mashed potatoes",
+          "ratio": "1/2 cup flakes:1 cup mashed potatoes",
+          "direction": "convenience",
+          "notes": "Use leftover or fresh mashed potatoes.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "potato starch",
+          "ratio": "For thickening: 1 tbsp flakes:1 tsp potato starch",
+          "direction": "convenience",
+          "notes": "Only for thickening applications, not texture.",
+          "quality": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "salami",
+      "primary": "salami",
+      "aliases": ["Italian salami", "Genoa salami"],
+      "substitutes": [
+        {
+          "ingredient": "pepperoni",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Spicier. Works in pizza and sandwiches.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "prosciutto",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Thinner, less spicy. Different texture.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "ham",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Less fatty, milder flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "capicola",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar Italian cured meat. Slightly different flavor.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "dry-mustard",
+      "primary": "dry mustard",
+      "aliases": ["mustard powder", "ground mustard"],
+      "substitutes": [
+        {
+          "ingredient": "prepared mustard",
+          "ratio": "1 tsp dry:1 tbsp prepared",
+          "direction": "convenience",
+          "notes": "Reduce liquid in recipe slightly.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "Dijon mustard",
+          "ratio": "1 tsp dry:1 tbsp Dijon",
+          "direction": "convenience",
+          "notes": "Adds more complex flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "wasabi powder",
+          "ratio": "1 tsp dry:1/2 tsp wasabi",
+          "direction": "convenience",
+          "notes": "Much hotter! Use sparingly. Different flavor.",
+          "quality": "poor"
+        }
+      ]
+    },
+    {
+      "id": "chervil",
+      "primary": "chervil",
+      "aliases": ["French parsley"],
+      "substitutes": [
+        {
+          "ingredient": "parsley",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar appearance. Less anise flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "tarragon",
+          "ratio": "1 tbsp chervil:1/2 tbsp tarragon",
+          "direction": "convenience",
+          "notes": "Use less - stronger anise flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "parsley + tarragon",
+          "ratio": "1 tbsp chervil:1/2 tbsp parsley + 1/4 tbsp tarragon",
+          "direction": "convenience",
+          "notes": "Best approximation of chervil's delicate flavor.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "oat-bran",
+      "primary": "oat bran",
+      "substitutes": [
+        {
+          "ingredient": "wheat bran",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar fiber content. Slightly different flavor.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "wheat germ",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Higher in nutrients. Nuttier flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "ground oats",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Pulse oats in blender. Different texture.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "rice bran",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Gluten-free option. Mild flavor.",
+          "quality": "good"
         }
       ]
     }
