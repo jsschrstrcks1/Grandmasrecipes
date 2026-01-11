@@ -71,6 +71,7 @@ let allTags = new Set();
 let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
 let showMetric = false; // Toggle for metric conversions
 let recipeScale = 1; // Current recipe scale multiplier
+let currentRecipeId = null; // Currently displayed recipe (for re-rendering after substitutions)
 
 // Ingredient search state
 let ingredientIndex = null;
@@ -89,6 +90,10 @@ let justStaplesMode = false;
 // Substitutions system state
 let substitutionsData = null;
 let enableSubstitutions = true;
+
+// Recipe-level substitution state (for swapping ingredients on recipe page)
+let activeSubstitutions = {}; // Map: ingredientIndex -> { original, substitute, nutritionDelta }
+let currentRecipeNutrition = null; // Original nutrition to calculate adjustments
 
 // Kitchen tips state
 let kitchenTipsData = null;
@@ -951,6 +956,313 @@ function expandStaplesWithSubstitutions(staples) {
 
   return Array.from(expanded);
 }
+
+// =============================================================================
+// Recipe Ingredient Substitution Functions
+// =============================================================================
+
+/**
+ * Find available substitutions for an ingredient on the recipe page
+ * @param {string} ingredientName - The ingredient to find substitutes for
+ * @returns {Object|null} - Substitution rule with primary and substitutes, or null
+ */
+function findSubstitutionsForIngredient(ingredientName) {
+  if (!substitutionsData || !substitutionsData.substitutions) return null;
+
+  const normalized = normalizeIngredientName(ingredientName);
+
+  for (const rule of substitutionsData.substitutions) {
+    // Check primary ingredient
+    if (normalizeIngredientName(rule.primary) === normalized) {
+      return rule;
+    }
+
+    // Check aliases
+    if (rule.aliases) {
+      for (const alias of rule.aliases) {
+        if (normalizeIngredientName(alias) === normalized) {
+          return rule;
+        }
+      }
+    }
+
+    // Check if this ingredient IS a substitute (reverse lookup)
+    for (const sub of rule.substitutes) {
+      if (normalizeIngredientName(sub.ingredient) === normalized) {
+        // Return reverse substitution (can swap back to primary)
+        return {
+          primary: sub.ingredient,
+          substitutes: [{
+            ingredient: rule.primary,
+            ratio: reverseRatio(sub.ratio),
+            direction: sub.direction,
+            notes: `Original ingredient (reverse of: ${sub.notes || ''})`.trim(),
+            quality: sub.quality
+          }],
+          isReverse: true
+        };
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Reverse a ratio string (e.g., "1:2" becomes "2:1")
+ */
+function reverseRatio(ratio) {
+  if (!ratio || typeof ratio !== 'string') return '1:1';
+  const parts = ratio.split(':');
+  if (parts.length === 2) {
+    return `${parts[1]}:${parts[0]}`;
+  }
+  return ratio;
+}
+
+/**
+ * Reset all active substitutions for the current recipe
+ */
+function resetSubstitutions() {
+  activeSubstitutions = {};
+  currentRecipeNutrition = null;
+  renderCurrentRecipe();
+}
+
+/**
+ * Apply a substitution for an ingredient
+ * @param {number} ingredientIndex - Index of the ingredient in the recipe
+ * @param {Object} originalIng - Original ingredient object
+ * @param {Object} substitute - The substitute to apply
+ */
+function applySubstitution(ingredientIndex, originalIng, substitute) {
+  activeSubstitutions[ingredientIndex] = {
+    original: originalIng,
+    substitute: substitute,
+    nutritionDelta: estimateNutritionDelta(originalIng, substitute)
+  };
+
+  // Close modal and re-render
+  closeSubstitutionModal();
+  renderCurrentRecipe();
+}
+
+/**
+ * Remove a substitution (revert to original)
+ * @param {number} ingredientIndex - Index of the ingredient
+ */
+function revertSubstitution(ingredientIndex) {
+  delete activeSubstitutions[ingredientIndex];
+  renderCurrentRecipe();
+}
+
+/**
+ * Estimate nutrition delta for a substitution
+ * This is a simplified estimation based on known substitution patterns
+ */
+function estimateNutritionDelta(original, substitute) {
+  // Common nutritional differences per typical serving
+  const nutritionEstimates = {
+    // Fats
+    'butter': { calories: 100, fat: 11, carbs: 0, protein: 0 },
+    'margarine': { calories: 100, fat: 11, carbs: 0, protein: 0 },
+    'coconut oil': { calories: 120, fat: 14, carbs: 0, protein: 0 },
+    'applesauce': { calories: 25, fat: 0, carbs: 7, protein: 0 },
+    'olive oil': { calories: 120, fat: 14, carbs: 0, protein: 0 },
+
+    // Dairy
+    'milk': { calories: 150, fat: 8, carbs: 12, protein: 8 },
+    'almond milk': { calories: 30, fat: 2.5, carbs: 1, protein: 1 },
+    'oat milk': { calories: 120, fat: 5, carbs: 16, protein: 3 },
+    'heavy cream': { calories: 400, fat: 43, carbs: 3, protein: 3 },
+    'half and half': { calories: 150, fat: 14, carbs: 5, protein: 4 },
+    'evaporated milk': { calories: 170, fat: 10, carbs: 13, protein: 9 },
+    'sour cream': { calories: 230, fat: 23, carbs: 5, protein: 3 },
+    'greek yogurt': { calories: 100, fat: 0, carbs: 6, protein: 17 },
+
+    // Eggs
+    'eggs': { calories: 70, fat: 5, carbs: 0, protein: 6 },
+    'egg substitute': { calories: 25, fat: 0, carbs: 1, protein: 5 },
+    'flax egg': { calories: 37, fat: 3, carbs: 2, protein: 1 },
+
+    // Sweeteners
+    'sugar': { calories: 48, fat: 0, carbs: 12, protein: 0 },
+    'honey': { calories: 64, fat: 0, carbs: 17, protein: 0 },
+    'maple syrup': { calories: 52, fat: 0, carbs: 13, protein: 0 },
+    'stevia': { calories: 0, fat: 0, carbs: 0, protein: 0 },
+    'swerve': { calories: 0, fat: 0, carbs: 0, protein: 0 },
+    'monk fruit sweetener': { calories: 0, fat: 0, carbs: 0, protein: 0 },
+
+    // Cheese
+    'parmesan cheese': { calories: 110, fat: 7, carbs: 1, protein: 10 },
+    'pecorino romano': { calories: 110, fat: 8, carbs: 1, protein: 9 },
+    'nutritional yeast': { calories: 20, fat: 0, carbs: 1, protein: 3 },
+    'cream cheese': { calories: 100, fat: 10, carbs: 1, protein: 2 },
+    'neufchatel cheese': { calories: 70, fat: 6, carbs: 1, protein: 3 },
+
+    // Flour
+    'flour': { calories: 110, fat: 0, carbs: 23, protein: 3 },
+    'almond flour': { calories: 160, fat: 14, carbs: 6, protein: 6 },
+    'coconut flour': { calories: 60, fat: 2, carbs: 8, protein: 2 },
+    'whole wheat flour': { calories: 100, fat: 1, carbs: 21, protein: 4 },
+  };
+
+  const origName = normalizeIngredientName(original.item || original);
+  const subName = normalizeIngredientName(substitute.ingredient);
+
+  const origNutrition = nutritionEstimates[origName] || null;
+  const subNutrition = nutritionEstimates[subName] || null;
+
+  if (origNutrition && subNutrition) {
+    return {
+      calories: subNutrition.calories - origNutrition.calories,
+      fat: subNutrition.fat - origNutrition.fat,
+      carbs: subNutrition.carbs - origNutrition.carbs,
+      protein: subNutrition.protein - origNutrition.protein
+    };
+  }
+
+  // Check for caloric impact in the substitution notes
+  if (substitute.impact) {
+    const calorieMatch = substitute.impact.match(/(\d+)\s*calories?/i);
+    if (calorieMatch) {
+      const cal = parseInt(calorieMatch[1], 10);
+      if (substitute.impact.toLowerCase().includes('save')) {
+        return { calories: -cal, fat: 0, carbs: 0, protein: 0 };
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Calculate adjusted nutrition based on active substitutions
+ */
+function calculateAdjustedNutrition(baseNutrition) {
+  if (!baseNutrition || !baseNutrition.per_serving) return baseNutrition;
+
+  // Start with a copy of the base nutrition
+  const adjusted = JSON.parse(JSON.stringify(baseNutrition));
+
+  // Calculate total delta from all substitutions
+  let totalDelta = { calories: 0, fat: 0, carbs: 0, protein: 0 };
+  let hasDeltas = false;
+
+  for (const sub of Object.values(activeSubstitutions)) {
+    if (sub.nutritionDelta) {
+      totalDelta.calories += sub.nutritionDelta.calories || 0;
+      totalDelta.fat += sub.nutritionDelta.fat || 0;
+      totalDelta.carbs += sub.nutritionDelta.carbs || 0;
+      totalDelta.protein += sub.nutritionDelta.protein || 0;
+      hasDeltas = true;
+    }
+  }
+
+  if (!hasDeltas) return baseNutrition;
+
+  // Apply deltas (per serving)
+  if (adjusted.per_serving.calories !== null) {
+    adjusted.per_serving.calories = Math.max(0, Math.round(adjusted.per_serving.calories + totalDelta.calories));
+  }
+  if (adjusted.per_serving.fat_g !== null) {
+    adjusted.per_serving.fat_g = Math.max(0, Math.round((adjusted.per_serving.fat_g + totalDelta.fat) * 10) / 10);
+  }
+  if (adjusted.per_serving.carbs_g !== null) {
+    adjusted.per_serving.carbs_g = Math.max(0, Math.round((adjusted.per_serving.carbs_g + totalDelta.carbs) * 10) / 10);
+  }
+  if (adjusted.per_serving.protein_g !== null) {
+    adjusted.per_serving.protein_g = Math.max(0, Math.round((adjusted.per_serving.protein_g + totalDelta.protein) * 10) / 10);
+  }
+
+  // Add note about adjustments
+  adjusted.substitutionNote = `Adjusted for ${Object.keys(activeSubstitutions).length} substitution(s)`;
+
+  return adjusted;
+}
+
+/**
+ * Show the substitution modal for an ingredient
+ */
+function showSubstitutionModal(ingredientIndex, ingredient, rule) {
+  // Create modal if it doesn't exist
+  let modal = document.getElementById('substitution-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'substitution-modal';
+    modal.className = 'modal-overlay';
+    document.body.appendChild(modal);
+  }
+
+  const isActive = activeSubstitutions[ingredientIndex];
+
+  modal.innerHTML = `
+    <div class="modal-content substitution-modal">
+      <button class="modal-close" onclick="closeSubstitutionModal()" aria-label="Close">&times;</button>
+      <h3>Swap Ingredient</h3>
+
+      <div class="current-ingredient">
+        <span class="label">Current:</span>
+        <span class="ingredient-name">${escapeHtml(isActive ? isActive.substitute.ingredient : ingredient.item)}</span>
+        ${isActive ? '<span class="badge badge-swapped">Swapped</span>' : ''}
+      </div>
+
+      ${isActive ? `
+        <button class="btn btn-secondary revert-btn" onclick="revertSubstitution(${ingredientIndex})">
+          ↩ Revert to ${escapeHtml(isActive.original.item)}
+        </button>
+        <hr>
+      ` : ''}
+
+      <div class="substitution-options">
+        <p class="options-label">Available substitutes:</p>
+        ${rule.substitutes.map((sub, idx) => `
+          <div class="substitution-option" onclick="applySubstitution(${ingredientIndex}, ${escapeAttr(JSON.stringify(ingredient))}, ${escapeAttr(JSON.stringify(sub))})">
+            <div class="sub-header">
+              <span class="sub-name">${escapeHtml(sub.ingredient)}</span>
+              <span class="sub-quality quality-${sub.quality || 'moderate'}">${sub.quality || 'moderate'}</span>
+            </div>
+            <div class="sub-details">
+              <span class="sub-ratio">${escapeHtml(sub.ratio)}</span>
+              ${sub.direction ? `<span class="sub-direction">${escapeHtml(sub.direction)}</span>` : ''}
+            </div>
+            ${sub.notes ? `<p class="sub-notes">${escapeHtml(sub.notes)}</p>` : ''}
+            ${sub.impact ? `<p class="sub-impact">${escapeHtml(sub.impact)}</p>` : ''}
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+
+  modal.classList.add('active');
+
+  // Close on overlay click
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeSubstitutionModal();
+  });
+
+  // Close on escape
+  document.addEventListener('keydown', handleModalEscape);
+}
+
+function handleModalEscape(e) {
+  if (e.key === 'Escape') closeSubstitutionModal();
+}
+
+function closeSubstitutionModal() {
+  const modal = document.getElementById('substitution-modal');
+  if (modal) {
+    modal.classList.remove('active');
+  }
+  document.removeEventListener('keydown', handleModalEscape);
+}
+
+// Make functions globally available
+window.showSubstitutionModal = showSubstitutionModal;
+window.closeSubstitutionModal = closeSubstitutionModal;
+window.applySubstitution = applySubstitution;
+window.revertSubstitution = revertSubstitution;
+window.resetSubstitutions = resetSubstitutions;
 
 // =============================================================================
 // Nutrition & Time Filter Functions
@@ -3707,25 +4019,42 @@ function renderRecipeCard(recipe, ingredientMatchInfo = null) {
 }
 
 /**
+ * Re-render the current recipe (called after substitution changes)
+ */
+function renderCurrentRecipe() {
+  if (currentRecipeId) {
+    renderRecipeDetail(currentRecipeId, true); // true = skip loading message
+  }
+}
+
+/**
  * Render full recipe detail page
  */
-async function renderRecipeDetail(recipeId) {
+async function renderRecipeDetail(recipeId, skipLoading = false) {
   const container = document.getElementById('recipe-content');
 
   if (!container) return;
 
-  // Show loading state
-  container.innerHTML = `
-    <div class="text-center" style="padding: 2rem;">
-      <p>Loading recipe...</p>
-    </div>
-  `;
+  // Clear substitutions if navigating to a different recipe
+  if (currentRecipeId !== recipeId) {
+    activeSubstitutions = {};
+    currentRecipeId = recipeId;
+  }
+
+  // Show loading state (unless this is a re-render)
+  if (!skipLoading) {
+    container.innerHTML = `
+      <div class="text-center" style="padding: 2rem;">
+        <p>Loading recipe...</p>
+      </div>
+    `;
+  }
 
   // Load full recipe details (from cache or fetch)
   const recipe = await loadFullRecipe(recipeId);
 
-  // Load kitchen tips lazily when viewing a recipe
-  await loadKitchenTips();
+  // Load kitchen tips and substitutions lazily when viewing a recipe
+  await Promise.all([loadKitchenTips(), loadSubstitutions()]);
 
   if (!recipe) {
     container.innerHTML = `
@@ -3885,7 +4214,7 @@ function renderVariantsDropdown(currentRecipe, variants) {
 }
 
 /**
- * Render ingredients list (with metric toggle and scaling support)
+ * Render ingredients list (with metric toggle, scaling support, and substitution swapping)
  */
 function renderIngredientsList(recipe) {
   const ingredients = showMetric && recipe.conversions?.ingredients_metric?.length > 0
@@ -3894,28 +4223,49 @@ function renderIngredientsList(recipe) {
 
   return `
     <ul class="ingredients-list">
-      ${ingredients.map(ing => {
+      ${ingredients.map((ing, index) => {
+        // Check for active substitution
+        const activeSub = activeSubstitutions[index];
+        const displayItem = activeSub ? activeSub.substitute.ingredient : ing.item;
+
         // Apply scaling if not 1x
         const scaled = scaleQuantity(ing.quantity, recipeScale);
         const warning = checkPracticalMinimum(scaled.value, ing.unit);
 
+        // Check for available substitutions (use original ingredient for lookup)
+        const subRule = findSubstitutionsForIngredient(ing.item);
+        const hasSubstitutes = subRule && subRule.substitutes && subRule.substitutes.length > 0;
+
+        const swapClasses = [
+          hasSubstitutes ? 'has-substitutes' : '',
+          activeSub ? 'is-swapped' : ''
+        ].filter(Boolean).join(' ');
+
         return `
-        <li class="${warning ? 'has-warning' : ''}">
+        <li class="${warning ? 'has-warning' : ''} ${swapClasses}">
           <span class="ingredient-quantity ${recipeScale !== 1 ? 'scaled' : ''}">${escapeHtml(scaled.display)} ${escapeHtml(ing.unit || '')}</span>
-          <span class="ingredient-item">
-            ${escapeHtml(ing.item)}
+          <span class="ingredient-item ${hasSubstitutes ? 'swappable' : ''}"
+                ${hasSubstitutes ? `onclick="showSubstitutionModal(${index}, ${escapeAttr(JSON.stringify(ing))}, ${escapeAttr(JSON.stringify(subRule))})"` : ''}>
+            ${escapeHtml(displayItem)}
             ${ing.prep_note ? `<span class="ingredient-prep">, ${escapeHtml(ing.prep_note)}</span>` : ''}
+            ${hasSubstitutes ? '<span class="swap-icon" title="Click to swap ingredient">⇄</span>' : ''}
+            ${activeSub ? '<span class="swapped-badge">swapped</span>' : ''}
           </span>
           ${warning ? `<span class="ingredient-warning" title="${escapeAttr(warning)}">⚠️</span>` : ''}
         </li>
       `;
       }).join('')}
     </ul>
+    ${Object.keys(activeSubstitutions).length > 0 ? `
+      <button class="btn btn-link reset-subs-btn" onclick="resetSubstitutions()">
+        ↩ Reset all substitutions
+      </button>
+    ` : ''}
   `;
 }
 
 /**
- * Render nutrition information
+ * Render nutrition information (with substitution adjustments)
  */
 function renderNutrition(nutrition, servings) {
   if (!nutrition || nutrition.status === 'insufficient_data') {
@@ -3930,21 +4280,35 @@ function renderNutrition(nutrition, servings) {
     return '';
   }
 
-  const n = nutrition.per_serving;
+  // Apply substitution adjustments if any
+  const adjustedNutrition = Object.keys(activeSubstitutions).length > 0
+    ? calculateAdjustedNutrition(nutrition)
+    : nutrition;
+
+  const n = adjustedNutrition.per_serving;
   if (!n) return '';
 
+  const hasAdjustments = adjustedNutrition.substitutionNote;
+
   return `
-    <section class="nutrition-section">
-      <h3>Nutrition Information ${servings ? `<span class="text-muted">(per serving)</span>` : ''}</h3>
+    <section class="nutrition-section ${hasAdjustments ? 'nutrition-adjusted' : ''}">
+      <h3>Nutrition Information ${servings ? `<span class="text-muted">(per serving)</span>` : ''}
+        ${hasAdjustments ? '<span class="adjusted-badge">adjusted</span>' : ''}
+      </h3>
       <div class="nutrition-grid">
-        ${n.calories !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.calories)}</span><span class="nutrition-label">Calories</span></div>` : ''}
-        ${n.fat_g !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.fat_g)}g</span><span class="nutrition-label">Fat</span></div>` : ''}
-        ${n.carbs_g !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.carbs_g)}g</span><span class="nutrition-label">Carbs</span></div>` : ''}
-        ${n.protein_g !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.protein_g)}g</span><span class="nutrition-label">Protein</span></div>` : ''}
+        ${n.calories !== null ? `<div class="nutrition-item ${hasAdjustments ? 'adjusted' : ''}"><span class="nutrition-value">${escapeHtml(n.calories)}</span><span class="nutrition-label">Calories</span></div>` : ''}
+        ${n.fat_g !== null ? `<div class="nutrition-item ${hasAdjustments ? 'adjusted' : ''}"><span class="nutrition-value">${escapeHtml(n.fat_g)}g</span><span class="nutrition-label">Fat</span></div>` : ''}
+        ${n.carbs_g !== null ? `<div class="nutrition-item ${hasAdjustments ? 'adjusted' : ''}"><span class="nutrition-value">${escapeHtml(n.carbs_g)}g</span><span class="nutrition-label">Carbs</span></div>` : ''}
+        ${n.protein_g !== null ? `<div class="nutrition-item ${hasAdjustments ? 'adjusted' : ''}"><span class="nutrition-value">${escapeHtml(n.protein_g)}g</span><span class="nutrition-label">Protein</span></div>` : ''}
         ${n.sodium_mg !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.sodium_mg)}mg</span><span class="nutrition-label">Sodium</span></div>` : ''}
         ${n.fiber_g !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.fiber_g)}g</span><span class="nutrition-label">Fiber</span></div>` : ''}
         ${n.sugar_g !== null ? `<div class="nutrition-item"><span class="nutrition-value">${escapeHtml(n.sugar_g)}g</span><span class="nutrition-label">Sugar</span></div>` : ''}
       </div>
+      ${hasAdjustments ? `
+        <p class="nutrition-adjusted-note">
+          <small>${escapeHtml(adjustedNutrition.substitutionNote)} - estimates may vary</small>
+        </p>
+      ` : ''}
       ${nutrition.assumptions?.length > 0 ? `
         <p class="nutrition-assumptions text-muted">
           <small>Assumptions: ${escapeHtml(nutrition.assumptions.join('; '))}</small>
