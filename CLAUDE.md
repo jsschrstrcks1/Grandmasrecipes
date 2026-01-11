@@ -60,9 +60,17 @@ Grandmasrecipes/
 ├── README.md               # Project documentation
 ├── .claude/
 │   ├── settings.json       # Claude Code configuration + hooks
-│   └── hooks/
-│       ├── post-write-validate.sh  # Auto-validate after edits
-│       └── image-safety-check.sh   # Warn about oversized images
+│   ├── skill-rules.json    # Skill auto-activation rules
+│   ├── mcp-servers.md      # MCP server documentation
+│   ├── CROSS_REPO_STANDARDS.md  # Cross-repository sync standards
+│   ├── hooks/
+│   │   ├── post-write-validate.sh  # Auto-validate after edits
+│   │   └── image-safety-check.sh   # Warn about oversized images
+│   └── skills/
+│       ├── recipe-transcription/   # OCR + transcription skill
+│       │   └── SKILL.md
+│       └── recipe-validation/      # Schema validation skill
+│           └── SKILL.md
 ├── data/
 │   ├── recipes_master.json # Grandma Baker's recipes (LOCAL)
 │   ├── collections.json    # Hub configuration
@@ -302,6 +310,7 @@ python scripts/process_images.py
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v1.3 | 2026-01 | Added skills (recipe-transcription, recipe-validation), skill-rules.json, MCP docs, cross-repo standards |
 | v1.2 | 2026-01 | Added .claude/ hooks, OCR correction standards, measurement standardization |
 | v1.1 | 2026-01 | Added Quick Start, Priority Framework, Guardrails, expanded Do's/Don'ts |
 | v1.0 | — | Original CLAUDE.md structure |
