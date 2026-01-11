@@ -63,6 +63,7 @@ Grandmasrecipes/
 │   ├── skill-rules.json    # Skill auto-activation rules
 │   ├── mcp-servers.md      # MCP server documentation
 │   ├── CROSS_REPO_STANDARDS.md  # Cross-repository sync standards
+│   ├── MAINTENANCE.md      # Detailed maintenance workflows
 │   ├── hooks/
 │   │   ├── post-write-validate.sh  # Auto-validate after edits
 │   │   └── image-safety-check.sh   # Warn about oversized images
@@ -141,6 +142,47 @@ const FAMILY_COLLECTIONS = [
 ```
 
 When aggregating, image paths must be resolved to absolute URLs for remote collections.
+
+---
+
+## Family Repositories
+
+| Collection | GitHub Repo | GitHub Pages | Collection ID |
+|------------|-------------|--------------|---------------|
+| Grandma Baker | [Grandmasrecipes](https://github.com/jsschrstrcks1/Grandmasrecipes) | [Live Site](https://jsschrstrcks1.github.io/Grandmasrecipes/) | `grandma-baker` |
+| MomMom Baker | [MomsRecipes](https://github.com/jsschrstrcks1/MomsRecipes) | [Live Site](https://jsschrstrcks1.github.io/MomsRecipes/) | `mommom-baker` |
+| Granny Hudson | [Grannysrecipes](https://github.com/jsschrstrcks1/Grannysrecipes) | [Live Site](https://jsschrstrcks1.github.io/Grannysrecipes/) | `granny-hudson` |
+| Other Recipes | [Allrecipes](https://github.com/jsschrstrcks1/Allrecipes) | [Live Site](https://jsschrstrcks1.github.io/Allrecipes/) | `all` |
+
+---
+
+## Routine Maintenance
+
+For detailed workflows, see [.claude/MAINTENANCE.md](.claude/MAINTENANCE.md).
+
+### Adding a New Recipe
+
+1. Add image to `data/` (flat, no subdirectories)
+2. Process image: `python scripts/process_images.py`
+3. Transcribe using processed image in `data/processed/`
+4. Add recipe JSON to `data/recipes_master.json`
+5. Validate: `python scripts/validate-recipes.py`
+6. Rebuild indexes: `python scripts/build-ingredient-index.py`
+
+### Adding a New Image
+
+1. Place image in `data/` directory
+2. Run: `python scripts/process_images.py`
+3. Verify with: `python scripts/image_safeguards.py status`
+
+### Before Deployment
+
+```bash
+python scripts/validate-recipes.py      # Validate all recipes
+python scripts/build-ingredient-index.py # Rebuild ingredient index
+python scripts/build-pagefind.py         # Rebuild search index
+python scripts/minify.py                 # Minify assets (optional)
+```
 
 ---
 
@@ -310,6 +352,7 @@ python scripts/process_images.py
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v1.4 | 2026-01 | Added Family Repositories table, Routine Maintenance section, MAINTENANCE.md |
 | v1.3 | 2026-01 | Added skills (recipe-transcription, recipe-validation), skill-rules.json, MCP docs, cross-repo standards |
 | v1.2 | 2026-01 | Added .claude/ hooks, OCR correction standards, measurement standardization |
 | v1.1 | 2026-01 | Added Quick Start, Priority Framework, Guardrails, expanded Do's/Don'ts |
