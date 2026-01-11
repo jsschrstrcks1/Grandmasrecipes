@@ -6,12 +6,14 @@ This document defines standards that should be synchronized across all family re
 
 ## Family Recipe Repositories
 
-| Repository | Collection ID | Owner | Purpose |
-|------------|---------------|-------|---------|
-| Grandmasrecipes | `grandma-baker` | Grandma Baker | Primary archive + hub |
-| MomsRecipes | `mommom-baker` | MomMom Baker | MomMom's collection |
-| Grannysrecipes | `granny-hudson` | Granny Hudson | Granny's collection |
-| Allrecipes | `all` | Reference | Magazine clippings, misc |
+| Repository | Collection ID | GitHub Repo | GitHub Pages |
+|------------|---------------|-------------|--------------|
+| Grandma Baker | `grandma-baker` | [Grandmasrecipes](https://github.com/jsschrstrcks1/Grandmasrecipes) | [Live Site](https://jsschrstrcks1.github.io/Grandmasrecipes/) |
+| MomMom Baker | `mommom-baker` | [MomsRecipes](https://github.com/jsschrstrcks1/MomsRecipes) | [Live Site](https://jsschrstrcks1.github.io/MomsRecipes/) |
+| Granny Hudson | `granny-hudson` | [Grannysrecipes](https://github.com/jsschrstrcks1/Grannysrecipes) | [Live Site](https://jsschrstrcks1.github.io/Grannysrecipes/) |
+| Other Recipes | `all` | [Allrecipes](https://github.com/jsschrstrcks1/Allrecipes) | [Live Site](https://jsschrstrcks1.github.io/Allrecipes/) |
+
+**Hub Repository:** Grandmasrecipes serves as the central hub that aggregates all family collections.
 
 ---
 
