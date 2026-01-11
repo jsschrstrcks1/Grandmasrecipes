@@ -68,7 +68,7 @@ let recipes = [];           // Lightweight recipe index for list/search
 let fullRecipesCache = {};  // Cache for full recipe details (loaded on demand)
 let categories = new Set();
 let allTags = new Set();
-let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
+let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
 let showMetric = false; // Toggle for metric conversions
 let recipeScale = 1; // Current recipe scale multiplier
 
@@ -4144,7 +4144,7 @@ function getCategoryIcon(category) {
  * Clear all filters
  */
 function clearFilters() {
-  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
+  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
   pagefindSearchResults = null; // Clear Pagefind results
 
   const searchInput = document.getElementById('search-input');
