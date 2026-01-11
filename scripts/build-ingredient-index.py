@@ -135,12 +135,26 @@ SYNONYMS = {
     "ricotta": "ricotta cheese",
     "cottage cheese": "cottage cheese",
 
-    # Dairy - Milk
+    # Dairy - Milk (all types normalize to "milk")
     "dry milk": "milk",
     "nonfat dry milk": "milk",
     "nonfat dry milk powder": "milk",
     "non-fat dry milk": "milk",
     "warm milk": "milk",
+    "nonfat milk": "milk",
+    "non-fat milk": "milk",
+    "1% milk": "milk",
+    "1% low-fat milk": "milk",
+    "2% milk": "milk",
+    "low-fat milk": "milk",
+    "reduced fat milk": "milk",
+    "reduced-fat milk": "milk",
+    "fat-free milk": "milk",
+    "fat free milk": "milk",
+    "lukewarm milk": "milk",
+    "scalded milk": "milk",
+    "cold milk": "milk",
+    "room temperature milk": "milk",
 
     # Eggs
     "egg": "eggs",
@@ -188,6 +202,13 @@ SYNONYMS = {
     # Sugars
     "granulated sugar": "sugar",
     "white sugar": "sugar",
+    "granulated white sugar": "sugar",
+    "fine sugar": "sugar",
+    "superfine sugar": "sugar",
+    "caster sugar": "sugar",
+    "castor sugar": "sugar",
+    "regular sugar": "sugar",
+    "table sugar": "sugar",
     "powdered sugar": "confectioners sugar",
     "confectioners sugar": "powdered sugar",
     "confectioners' sugar": "powdered sugar",
@@ -195,11 +216,14 @@ SYNONYMS = {
     "confectioner's sugar": "powdered sugar",
     "sifted powdered sugar": "powdered sugar",
     "unsifted powdered sugar": "powdered sugar",
+    "10x sugar": "powdered sugar",
     "light brown sugar": "brown sugar",
     "dark brown sugar": "brown sugar",
     "packed brown sugar": "brown sugar",
     "firmly packed brown sugar": "brown sugar",
     "packed light brown sugar": "brown sugar",
+    "packed dark brown sugar": "brown sugar",
+    "golden brown sugar": "brown sugar",
 
     # Oils
     "vegetable oil": "oil",
@@ -542,6 +566,7 @@ def normalize_ingredient(name):
     Normalize an ingredient name for consistent matching.
 
     - Lowercase
+    - Strip quantities and measurements
     - Strip common modifiers (fresh, chopped, etc.)
     - Handle plurals
     - Trim whitespace
@@ -554,6 +579,14 @@ def normalize_ingredient(name):
 
     # Remove content in parentheses
     normalized = re.sub(r'\([^)]*\)', '', normalized)
+
+    # Strip leading quantities: "1/2 cup", "2 tablespoons", "1-1/2 cups", etc.
+    # Pattern matches: numbers, fractions, ranges at the start followed by measurements
+    quantity_pattern = r'^[\d\s/\-\.]+\s*(cups?|tablespoons?|tbsps?|teaspoons?|tsps?|ounces?|ozs?|pounds?|lbs?|cans?|packages?|pkgs?|cloves?|heads?|bunches?|stalks?|slices?|pieces?|sticks?|pinch(?:es)?|dash(?:es)?|sprigs?)\s+'
+    normalized = re.sub(quantity_pattern, '', normalized, flags=re.IGNORECASE)
+
+    # Also strip standalone leading numbers/fractions (e.g., "2 eggs" -> "eggs")
+    normalized = re.sub(r'^[\d\s/\-\.]+\s+', '', normalized)
 
     # Strip common modifiers
     for word in STRIP_WORDS:
