@@ -68,7 +68,7 @@ let recipes = [];           // Lightweight recipe index for list/search
 let fullRecipesCache = {};  // Cache for full recipe details (loaded on demand)
 let categories = new Set();
 let allTags = new Set();
-let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
+let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
 let showMetric = false; // Toggle for metric conversions
 let recipeScale = 1; // Current recipe scale multiplier
 
@@ -92,6 +92,11 @@ let enableSubstitutions = true;
 
 // Kitchen tips state
 let kitchenTipsData = null;
+
+// Pagefind search state
+let pagefind = null;
+let pagefindLoading = null;
+let pagefindSearchResults = null; // Array of recipe IDs from Pagefind, or null if not using Pagefind
 
 // Nutrition and time filter state
 let nutritionFilter = {
@@ -409,6 +414,91 @@ async function loadKitchenTips() {
   })();
 
   return kitchenTipsLoading;
+}
+
+/**
+ * Load Pagefind search library (lazy loaded on first search)
+ */
+async function loadPagefind() {
+  // Return if already loaded
+  if (pagefind) return pagefind;
+
+  // Return existing promise if already loading
+  if (pagefindLoading) return pagefindLoading;
+
+  // Start loading
+  pagefindLoading = (async () => {
+    try {
+      pagefind = await import('/_pagefind/pagefind.js');
+      await pagefind.init();
+      console.log('Pagefind search loaded');
+      return pagefind;
+    } catch (error) {
+      // Try relative path for local development
+      try {
+        pagefind = await import('./_pagefind/pagefind.js');
+        await pagefind.init();
+        console.log('Pagefind search loaded (relative path)');
+        return pagefind;
+      } catch (e) {
+        console.warn('Pagefind not available, using basic search:', e.message);
+        return null;
+      }
+    }
+  })();
+
+  return pagefindLoading;
+}
+
+/**
+ * Search recipes using Pagefind
+ * @param {string} query - Search query
+ * @returns {Object|null} - Object with localIds (for filtering) and remoteResults (for display), or null if Pagefind unavailable
+ */
+async function searchWithPagefind(query) {
+  if (!query || query.length < 2) {
+    return null; // Too short, use basic filter
+  }
+
+  const pf = await loadPagefind();
+  if (!pf) {
+    return null; // Pagefind not available, fall back to basic search
+  }
+
+  try {
+    const search = await pf.search(query);
+    if (!search || !search.results) {
+      return { localIds: [], remoteResults: [] };
+    }
+
+    const localIds = [];
+    const remoteResults = [];
+
+    for (const result of search.results.slice(0, 100)) { // Limit to top 100
+      const data = await result.data();
+      if (data.url) {
+        // Check if it's a remote URL (starts with http)
+        if (data.url.startsWith('http')) {
+          remoteResults.push({
+            title: data.meta?.title || 'Unknown Recipe',
+            url: data.url,
+            collection: data.meta?.collection || 'External',
+            category: data.meta?.category || '',
+            description: data.meta?.description || ''
+          });
+        } else {
+          // Local recipe - extract ID from "recipe.html#recipe-id"
+          const id = data.url.split('#')[1];
+          if (id) localIds.push(id);
+        }
+      }
+    }
+
+    return { localIds, remoteResults };
+  } catch (error) {
+    console.error('Pagefind search error:', error);
+    return null;
+  }
 }
 
 /**
@@ -2883,19 +2973,24 @@ function setupEventListeners() {
   // Search form
   const searchForm = document.getElementById('search-form');
   if (searchForm) {
-    searchForm.addEventListener('submit', (e) => {
+    searchForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       const query = document.getElementById('search-input').value;
       currentFilter.search = query.toLowerCase();
+      // Try Pagefind for better results
+      pagefindSearchResults = await searchWithPagefind(query);
       renderRecipeGrid();
     });
   }
 
-  // Search input (live search)
+  // Search input (live search with Pagefind)
   const searchInput = document.getElementById('search-input');
   if (searchInput) {
-    searchInput.addEventListener('input', debounce((e) => {
-      currentFilter.search = e.target.value.toLowerCase();
+    searchInput.addEventListener('input', debounce(async (e) => {
+      const query = e.target.value;
+      currentFilter.search = query.toLowerCase();
+      // Try Pagefind for better results (searches ingredients too)
+      pagefindSearchResults = await searchWithPagefind(query);
       renderRecipeGrid();
     }, 300));
   }
@@ -3377,16 +3472,22 @@ function renderRecipeGrid() {
       return false;
     }
 
-    // Search filter
+    // Search filter (uses Pagefind when available, falls back to basic search)
     if (currentFilter.search) {
-      const searchText = [
-        recipe.title,
-        recipe.description,
-        recipe.attribution,
-        ...recipe.tags || []
-      ].join(' ').toLowerCase();
+      if (pagefindSearchResults !== null && pagefindSearchResults.localIds) {
+        // Pagefind returned results - use those IDs for local recipes
+        if (!pagefindSearchResults.localIds.includes(recipe.id)) return false;
+      } else {
+        // Fall back to basic text search
+        const searchText = [
+          recipe.title,
+          recipe.description,
+          recipe.attribution,
+          ...recipe.tags || []
+        ].join(' ').toLowerCase();
 
-      if (!searchText.includes(currentFilter.search)) return false;
+        if (!searchText.includes(currentFilter.search)) return false;
+      }
     }
 
     // Category filter
@@ -3505,6 +3606,27 @@ function renderRecipeGrid() {
       : null;
     html += renderRecipeCard(recipe, matchInfo);
   });
+
+  // Add remote results from Pagefind if searching
+  if (pagefindSearchResults && pagefindSearchResults.remoteResults && pagefindSearchResults.remoteResults.length > 0) {
+    html += `
+      <div class="remote-results-section" style="grid-column: 1/-1; margin-top: 2rem; padding-top: 1rem; border-top: 2px dashed var(--color-teal-light);">
+        <h3 style="color: var(--color-teal-dark); margin-bottom: 1rem;">Also found in other collections:</h3>
+        <div class="remote-results-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem;">
+    `;
+    pagefindSearchResults.remoteResults.forEach(result => {
+      html += `
+        <a href="${escapeAttr(result.url)}" class="remote-recipe-card" target="_blank" rel="noopener"
+           style="display: block; padding: 1rem; background: var(--color-cream); border: 1px solid var(--color-border); border-radius: 8px; text-decoration: none; color: inherit; transition: transform 0.2s, box-shadow 0.2s;">
+          <div style="font-size: 0.75rem; color: var(--color-coral); margin-bottom: 0.25rem;">${escapeHtml(result.collection)}</div>
+          <div style="font-weight: 600; color: var(--color-teal-dark);">${escapeHtml(result.title)}</div>
+          ${result.category ? `<div style="font-size: 0.8rem; color: #666;">${escapeHtml(result.category)}</div>` : ''}
+          <div style="font-size: 0.7rem; color: var(--color-teal); margin-top: 0.5rem;">View on ${escapeHtml(result.collection)} →</div>
+        </a>
+      `;
+    });
+    html += `</div></div>`;
+  }
 
   container.innerHTML = html;
 }
@@ -4022,7 +4144,8 @@ function getCategoryIcon(category) {
  * Clear all filters
  */
 function clearFilters() {
-  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny'], ingredients: [], ingredientMatchInfo: null };
+  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
+  pagefindSearchResults = null; // Clear Pagefind results
 
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
