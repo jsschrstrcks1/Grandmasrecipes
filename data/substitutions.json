@@ -37,19 +37,104 @@
     {
       "id": "eggs-substitutes",
       "primary": "eggs",
+      "aliases": ["egg", "large eggs", "large egg"],
       "substitutes": [
         {
           "ingredient": "egg substitute",
           "ratio": "1 egg:1/4 cup",
           "direction": "health",
-          "notes": "Works for scrambles and baking",
+          "notes": "Works for scrambles and baking. Cholesterol-free.",
           "quality": "good"
         },
         {
           "ingredient": "flax egg",
-          "ratio": "1 egg:1 tbsp ground flax + 2.5-3 tbsp water",
+          "ratio": "1 egg:1 tbsp ground flax + 3 tbsp water",
           "direction": "health",
           "notes": "Let sit 10-15 min until gloppy. Works in baking only (cookies, muffins, pancakes). Won't work for recipes needing 3+ eggs.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "chia egg",
+          "ratio": "1 egg:1 tbsp chia seeds + 3 tbsp water",
+          "direction": "health",
+          "notes": "Let sit 5 min until gel forms. Good for baking, adds fiber.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "aquafaba",
+          "ratio": "1 egg:3 tbsp aquafaba",
+          "direction": "health",
+          "notes": "Liquid from canned chickpeas. Whips like egg whites. Great for meringues, macarons.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "mashed banana",
+          "ratio": "1 egg:1/4 cup mashed banana",
+          "direction": "health",
+          "notes": "Adds moisture and sweetness. Best for quick breads, muffins, pancakes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "unsweetened applesauce",
+          "ratio": "1 egg:1/4 cup applesauce",
+          "direction": "health",
+          "notes": "Adds moisture, works for cakes and muffins. Mild apple flavor.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "silken tofu",
+          "ratio": "1 egg:1/4 cup blended silken tofu",
+          "direction": "health",
+          "notes": "Blend until smooth. Good for dense baked goods like brownies.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "powdered egg",
+          "ratio": "1 egg:1 tbsp powder + 2 tbsp water",
+          "direction": "convenience",
+          "notes": "Reconstitute before using. Great pantry staple. Works for most recipes.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "egg-whites",
+      "primary": "egg whites",
+      "aliases": ["egg white"],
+      "substitutes": [
+        {
+          "ingredient": "aquafaba",
+          "ratio": "1 egg white:2 tbsp aquafaba",
+          "direction": "health",
+          "notes": "Whips just like egg whites. Perfect for meringues and macarons.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "powdered egg whites",
+          "ratio": "1 egg white:2 tsp powder + 2 tbsp water",
+          "direction": "convenience",
+          "notes": "Just Whites or similar. Reconstitute before using.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "egg-yolks",
+      "primary": "egg yolks",
+      "aliases": ["egg yolk"],
+      "substitutes": [
+        {
+          "ingredient": "whole egg",
+          "ratio": "2 yolks:1 whole egg",
+          "direction": "convenience",
+          "notes": "Slightly different texture, but works in most recipes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "mayonnaise",
+          "ratio": "1 yolk:1 tbsp mayo",
+          "direction": "convenience",
+          "notes": "For binding and richness. Works in some baking.",
           "quality": "moderate"
         }
       ]
@@ -984,6 +1069,41 @@
           "ratio": "1:1",
           "direction": "convenience",
           "notes": "Traditional for pie crusts, flaky texture",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "lard",
+      "primary": "lard",
+      "aliases": ["leaf lard", "pork fat"],
+      "substitutes": [
+        {
+          "ingredient": "shortening",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar texture, neutral flavor",
+          "quality": "good"
+        },
+        {
+          "ingredient": "butter",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds flavor, works well in pastries",
+          "quality": "good"
+        },
+        {
+          "ingredient": "coconut oil",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Solid at room temp, slight coconut flavor",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "bacon fat",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Adds smoky flavor, good for savory dishes",
           "quality": "good"
         }
       ]
