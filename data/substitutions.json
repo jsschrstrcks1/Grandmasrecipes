@@ -94,6 +94,20 @@
           "direction": "convenience",
           "notes": "Reconstitute before using. Great pantry staple. Works for most recipes.",
           "quality": "excellent"
+        },
+        {
+          "ingredient": "seltzer water",
+          "ratio": "1 egg:1/4 cup seltzer",
+          "direction": "convenience",
+          "notes": "Adds fluffiness but no richness. Best for lighter batters. Use immediately.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "mayonnaise",
+          "ratio": "1 egg:3 tbsp mayonnaise",
+          "direction": "convenience",
+          "notes": "Works well in cakes for moisture and richness. Contains eggs so not vegan.",
+          "quality": "good"
         }
       ]
     },
@@ -961,6 +975,20 @@
           "direction": "convenience",
           "notes": "Mix fresh and use immediately. For larger batches, add 1/4 tsp cornstarch per tsp to prevent clumping. 2:1 ratio (cream of tartar:baking soda).",
           "quality": "excellent"
+        },
+        {
+          "ingredient": "baking soda + buttermilk",
+          "ratio": "1 tsp baking powder:1/4 tsp soda + 1/2 cup buttermilk",
+          "direction": "convenience",
+          "notes": "Decrease other liquid in recipe by 1/2 cup. Buttermilk provides the acid.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "baking soda + vinegar",
+          "ratio": "1 tsp baking powder:1/4 tsp soda + 1/2 tsp vinegar",
+          "direction": "convenience",
+          "notes": "Add vinegar to wet ingredients. Creates immediate reaction - work quickly.",
+          "quality": "moderate"
         }
       ]
     },
@@ -2268,6 +2296,20 @@
           "direction": "convenience",
           "notes": "British alternative, slight butterscotch flavor.",
           "quality": "good"
+        },
+        {
+          "ingredient": "light brown sugar + water",
+          "ratio": "1 cup corn syrup:1 1/4 cup light brown sugar + 1/3 cup water",
+          "direction": "convenience",
+          "notes": "Heat until sugar dissolves. DIY invert sugar. Texture may differ after a few days.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "granulated sugar + water",
+          "ratio": "1 cup corn syrup:1 cup sugar + 1/4 cup water",
+          "direction": "convenience",
+          "notes": "Heat until dissolved. Simple syrup alternative. May crystallize in candy.",
+          "quality": "moderate"
         }
       ]
     },
