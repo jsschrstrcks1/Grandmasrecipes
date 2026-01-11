@@ -1906,6 +1906,90 @@
           "quality": "moderate"
         }
       ]
+    },
+    {
+      "id": "baking-soda",
+      "primary": "baking soda",
+      "aliases": ["bicarbonate of soda", "bicarb"],
+      "substitutes": [
+        {
+          "ingredient": "baking powder",
+          "ratio": "1 tsp soda:3 tsp powder",
+          "direction": "convenience",
+          "notes": "Use 3x the amount. Reduce other acidic ingredients. Results may be slightly different in texture.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "potassium bicarbonate",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Low-sodium alternative, works identically. Available at health food stores.",
+          "quality": "excellent"
+        }
+      ]
+    },
+    {
+      "id": "yeast",
+      "primary": "active dry yeast",
+      "aliases": ["dry yeast", "yeast"],
+      "substitutes": [
+        {
+          "ingredient": "instant yeast",
+          "ratio": "1 packet active:3/4 packet instant",
+          "direction": "convenience",
+          "notes": "Use 25% less instant yeast. Can add directly to dry ingredients (no proofing needed).",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "fresh yeast",
+          "ratio": "1 packet active:0.6 oz fresh",
+          "direction": "convenience",
+          "notes": "Also called cake yeast or compressed yeast. Crumble into warm liquid. Refrigerate, use within 2 weeks.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "sourdough starter",
+          "ratio": "1 packet:1 cup starter",
+          "direction": "health",
+          "notes": "Reduce liquid by 1/2 cup, flour by 1/4 cup. Longer rise time. Adds tangy flavor.",
+          "quality": "good"
+        }
+      ]
+    },
+    {
+      "id": "parmesan",
+      "primary": "parmesan cheese",
+      "aliases": ["parmesan", "parmigiano-reggiano", "grated parmesan"],
+      "substitutes": [
+        {
+          "ingredient": "pecorino romano",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Sharper, saltier flavor. Made from sheep's milk. Traditional in some pasta dishes.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "asiago cheese",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Similar nutty flavor. Fresh asiago is milder, aged asiago is closer to parmesan.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "grana padano",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Milder, less expensive cousin of parmesan. Made the same way but aged less.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "nutritional yeast",
+          "ratio": "1 tbsp parmesan:2 tbsp nutritional yeast",
+          "direction": "health",
+          "notes": "Vegan option. Adds umami, cheesy flavor. Won't melt. Good for pastas, popcorn, salads.",
+          "quality": "moderate"
+        }
+      ]
     }
   ],
   "stapleExpansions": {

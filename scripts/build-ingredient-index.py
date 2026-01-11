@@ -92,6 +92,11 @@ SYNONYMS = {
     "firm butter or margarine": "butter",
     "sweet butter": "butter",
     "unsalted butter": "butter",
+    "salted butter": "butter",
+    "stick butter": "butter",
+    "soft butter": "butter",
+    "room temperature butter": "butter",
+    "cubed butter": "butter",
 
     # Dairy - Cream
     "heavy cream": "cream",
@@ -135,12 +140,26 @@ SYNONYMS = {
     "ricotta": "ricotta cheese",
     "cottage cheese": "cottage cheese",
 
-    # Dairy - Milk
+    # Dairy - Milk (all types normalize to "milk")
     "dry milk": "milk",
     "nonfat dry milk": "milk",
     "nonfat dry milk powder": "milk",
     "non-fat dry milk": "milk",
     "warm milk": "milk",
+    "nonfat milk": "milk",
+    "non-fat milk": "milk",
+    "1% milk": "milk",
+    "1% low-fat milk": "milk",
+    "2% milk": "milk",
+    "low-fat milk": "milk",
+    "reduced fat milk": "milk",
+    "reduced-fat milk": "milk",
+    "fat-free milk": "milk",
+    "fat free milk": "milk",
+    "lukewarm milk": "milk",
+    "scalded milk": "milk",
+    "cold milk": "milk",
+    "room temperature milk": "milk",
 
     # Eggs
     "egg": "eggs",
@@ -173,21 +192,37 @@ SYNONYMS = {
     "sifted cake flour": "cake flour",
     "pillsbury's best all-purpose flour": "flour",
     "warm pillsbury's best all-purpose flour": "flour",
-    "self-rising flour": "self rising flour",
+    "self-rising flour": "self-rising flour",
     "self rising flour": "self-rising flour",
+    "self-raising flour": "self-rising flour",
     "bread flour": "flour",
     "cake flour": "flour",
     "cake flour or all-purpose flour": "flour",
+    "cake flour, sifted": "flour",
     "whole wheat flour": "whole wheat flour",
     "whole-wheat flour": "whole wheat flour",
+    "whole wheat pastry flour": "whole wheat flour",
+    "rye flour": "rye flour",
     "cornstarch": "corn starch",
     "corn starch": "cornstarch",
     "argo or kingsford's corn starch": "cornstarch",
     "unsifted cornstarch": "cornstarch",
+    # Flour tortillas
+    "flour tortillas": "tortillas",
+    "flour tortillas , warmed": "tortillas",
+    "corn tortillas": "tortillas",
+    "tortilla": "tortillas",
 
     # Sugars
     "granulated sugar": "sugar",
     "white sugar": "sugar",
+    "granulated white sugar": "sugar",
+    "fine sugar": "sugar",
+    "superfine sugar": "sugar",
+    "caster sugar": "sugar",
+    "castor sugar": "sugar",
+    "regular sugar": "sugar",
+    "table sugar": "sugar",
     "powdered sugar": "confectioners sugar",
     "confectioners sugar": "powdered sugar",
     "confectioners' sugar": "powdered sugar",
@@ -195,11 +230,14 @@ SYNONYMS = {
     "confectioner's sugar": "powdered sugar",
     "sifted powdered sugar": "powdered sugar",
     "unsifted powdered sugar": "powdered sugar",
+    "10x sugar": "powdered sugar",
     "light brown sugar": "brown sugar",
     "dark brown sugar": "brown sugar",
     "packed brown sugar": "brown sugar",
     "firmly packed brown sugar": "brown sugar",
     "packed light brown sugar": "brown sugar",
+    "packed dark brown sugar": "brown sugar",
+    "golden brown sugar": "brown sugar",
 
     # Oils
     "vegetable oil": "oil",
@@ -278,6 +316,9 @@ SYNONYMS = {
     "chopped green onions": "green onions",
     "sliced green onions": "green onions",
     "finely sliced green onions": "green onions",
+    "thinly green onions": "green onions",
+    "green onions, thinly": "green onions",
+    "thinly sliced green onions": "green onions",
 
     # Garlic
     "garlic": "garlic",
@@ -320,15 +361,31 @@ SYNONYMS = {
     "chicken broth": "chicken stock",
     "chicken bouillon cubes": "chicken broth",
     "chicken bouillon cube": "chicken broth",
+    "reduced-sodium chicken broth": "chicken broth",
+    "low-sodium chicken broth": "chicken broth",
+    "fat-free, less-sodium chicken broth": "chicken broth",
+    "fat-free chicken broth": "chicken broth",
     "beef stock": "beef broth",
     "beef broth": "beef stock",
     "beef bouillon cube": "beef broth",
     "beef bouillon cubes": "beef broth",
     "instant beef broth": "beef broth",
+    "reduced-sodium beef broth": "beef broth",
+    "low-sodium beef broth": "beef broth",
+    "beef bouillon granules": "beef broth",
     "bouillon cube": "broth",
     "bouillon cubes": "broth",
     "vegetable stock": "vegetable broth",
     "vegetable broth": "vegetable stock",
+
+    # Water
+    "boiling water": "water",
+    "lukewarm water": "water",
+    "ice water": "water",
+    "cold water": "water",
+    "warm water": "water",
+    "hot water": "water",
+    "room temperature water": "water",
 
     # Milk
     "whole milk": "milk",
@@ -364,12 +421,19 @@ SYNONYMS = {
     "fresh cracked black pepper": "black pepper",
     "cracked pepper": "black pepper",
     "cracked black pepper": "black pepper",
+    "freshly black pepper": "black pepper",
+    "freshly black pepper, divided": "black pepper",
+    "kosher salt and freshly pepper": "black pepper",
+    "kosher salt and black pepper": "black pepper",
     "white pepper": "white pepper",
     "ground white pepper": "white pepper",
     "cayenne pepper": "cayenne",
     "cayenne": "cayenne pepper",
     "red pepper": "cayenne",
     "ground red pepper": "cayenne",
+    "crushed red pepper": "red pepper flakes",
+    "red pepper flakes": "crushed red pepper",
+    "crushed red pepper flakes": "red pepper flakes",
 
     # Misc
     "vanilla": "vanilla extract",
@@ -387,6 +451,9 @@ SYNONYMS = {
     "shoyu": "soy sauce",
     "tamari": "soy sauce",
     "low-sodium soy sauce": "soy sauce",
+    "reduced-sodium soy sauce": "soy sauce",
+    "light soy sauce": "soy sauce",
+    "dark soy sauce": "soy sauce",
 
     # Mustard
     "dry mustard": "mustard",
@@ -512,6 +579,159 @@ SYNONYMS = {
     "marinara sauce": "pasta sauce",
     "spaghetti sauce": "pasta sauce",
     "ragu old world style pasta sauce": "pasta sauce",
+
+    # Lemon (zest, peel, rind all normalize)
+    "lemon": "lemon",
+    "lemon zest": "lemon zest",
+    "lemon peel": "lemon zest",
+    "lemon rind": "lemon zest",
+    "grated lemon peel": "lemon zest",
+    "grated lemon rind": "lemon zest",
+    "grated lemon zest": "lemon zest",
+    "finely grated lemon zest": "lemon zest",
+    "lemon slices": "lemon",
+    "lemon wedges": "lemon",
+
+    # Lime
+    "lime": "lime",
+    "lime zest": "lime zest",
+    "lime peel": "lime zest",
+    "lime rind": "lime zest",
+    "grated lime zest": "lime zest",
+    "key lime": "lime",
+    "key lime juice": "lime juice",
+
+    # Orange
+    "orange": "orange",
+    "orange zest": "orange zest",
+    "orange peel": "orange zest",
+    "orange rind": "orange zest",
+    "grated orange zest": "orange zest",
+    "grated orange peel": "orange zest",
+
+    # Cocoa
+    "cocoa powder": "cocoa",
+    "cocoa": "cocoa powder",
+    "unsweetened cocoa powder": "cocoa",
+    "unsweetened cocoa": "cocoa",
+    "dutch-process cocoa powder": "cocoa",
+    "dutch process cocoa": "cocoa",
+    "baking cocoa": "cocoa",
+    "unsweetened baking cocoa": "cocoa",
+    "hershey's cocoa": "cocoa",
+
+    # Cinnamon
+    "cinnamon": "cinnamon",
+    "ground cinnamon": "cinnamon",
+    "cinnamon stick": "cinnamon",
+    "cinnamon sticks": "cinnamon",
+    "stick cinnamon": "cinnamon",
+
+    # Nutmeg
+    "nutmeg": "nutmeg",
+    "ground nutmeg": "nutmeg",
+    "freshly grated nutmeg": "nutmeg",
+    "grated nutmeg": "nutmeg",
+
+    # Tomato (consolidate)
+    "tomato": "tomatoes",
+    "tomatoes": "tomato",
+    "plum tomato": "tomatoes",
+    "plum tomatoes": "tomatoes",
+    "roma tomato": "tomatoes",
+    "roma tomatoes": "tomatoes",
+    "cherry tomato": "tomatoes",
+    "grape tomatoes": "tomatoes",
+    "tomato slices": "tomatoes",
+    "diced tomato": "tomatoes",
+
+    # Chicken (consolidate)
+    "chicken": "chicken",
+    "chicken breast": "chicken",
+    "chicken breast halves": "chicken",
+    "boneless chicken": "chicken",
+    "skinless chicken": "chicken",
+    "rotisserie chicken": "chicken",
+
+    # Beef (consolidate)
+    "beef": "ground beef",
+    "lean beef": "ground beef",
+    "ground beef": "beef",
+    "extra lean beef": "ground beef",
+    "ground chuck": "ground beef",
+    "ground sirloin": "ground beef",
+
+    # Olive oil (consolidate variants)
+    "olive oil": "olive oil",
+    "extra-virgin olive oil": "olive oil",
+    "extra virgin olive oil": "olive oil",
+    "virgin olive oil": "olive oil",
+    "light olive oil": "olive oil",
+    "pure olive oil": "olive oil",
+    "olive oil, divided": "olive oil",
+    "extra-virgin olive oil, divided": "olive oil",
+
+    # Herbs - Parsley
+    "parsley": "parsley",
+    "parsley flakes": "parsley",
+    "flat-leaf parsley": "parsley",
+    "italian parsley": "parsley",
+    "curly parsley": "parsley",
+    "parsley leaves": "parsley",
+    "parsley sprigs": "parsley",
+
+    # Herbs - Basil
+    "basil": "basil",
+    "basil leaves": "basil",
+    "leaf basil": "basil",
+    "thai basil": "basil",
+    "sweet basil": "basil",
+
+    # Herbs - Oregano
+    "oregano": "oregano",
+    "oregano leaves": "oregano",
+    "leaf oregano": "oregano",
+
+    # Herbs - Thyme
+    "thyme": "thyme",
+    "thyme leaves": "thyme",
+    "thyme sprigs": "thyme",
+    "leaf thyme": "thyme",
+
+    # Herbs - Cilantro
+    "cilantro": "cilantro",
+    "cilantro leaves": "cilantro",
+    "coriander leaves": "cilantro",
+
+    # Herbs - Dill
+    "dill": "dill",
+    "dillweed": "dill",
+    "dill weed": "dill",
+    "dill sprigs": "dill",
+
+    # Herbs - Rosemary
+    "rosemary": "rosemary",
+    "rosemary leaves": "rosemary",
+    "rosemary sprig": "rosemary",
+    "rosemary sprigs": "rosemary",
+
+    # Cheese consolidation
+    "mozzarella": "mozzarella cheese",
+    "mozzarella cheese": "mozzarella",
+    "part-skim mozzarella cheese": "mozzarella cheese",
+    "part-skim mozzarella": "mozzarella cheese",
+    "low-moisture mozzarella": "mozzarella cheese",
+    "feta": "feta cheese",
+    "feta cheese": "feta",
+    "crumbled feta": "feta cheese",
+    "blue cheese": "blue cheese",
+    "crumbled blue cheese": "blue cheese",
+    "gorgonzola": "blue cheese",
+
+    # Applesauce
+    "applesauce": "applesauce",
+    "unsweetened applesauce": "applesauce",
+    "chunky applesauce": "applesauce",
 }
 
 
@@ -525,6 +745,10 @@ STRIP_WORDS = [
     "large", "medium", "small", "extra-large", "jumbo", "mini",
     "thick", "thin", "finely", "coarsely", "roughly",
     "optional", "or more", "to taste", "as needed", "for garnish",
+    "divided", "snipped", "crumbled", "packed", "firmly packed",
+    "drained", "rinsed", "undrained", "rinsed and drained",
+    "plus more", "plus extra", "for serving", "for topping",
+    "thinly", "julienned", "matchstick", "cubed",
 ]
 
 # Plural patterns for normalization
@@ -542,6 +766,7 @@ def normalize_ingredient(name):
     Normalize an ingredient name for consistent matching.
 
     - Lowercase
+    - Strip quantities and measurements
     - Strip common modifiers (fresh, chopped, etc.)
     - Handle plurals
     - Trim whitespace
@@ -554,6 +779,14 @@ def normalize_ingredient(name):
 
     # Remove content in parentheses
     normalized = re.sub(r'\([^)]*\)', '', normalized)
+
+    # Strip leading quantities: "1/2 cup", "2 tablespoons", "1-1/2 cups", etc.
+    # Pattern matches: numbers, fractions, ranges at the start followed by measurements
+    quantity_pattern = r'^[\d\s/\-\.]+\s*(cups?|tablespoons?|tbsps?|teaspoons?|tsps?|ounces?|ozs?|pounds?|lbs?|cans?|packages?|pkgs?|cloves?|heads?|bunches?|stalks?|slices?|pieces?|sticks?|pinch(?:es)?|dash(?:es)?|sprigs?)\s+'
+    normalized = re.sub(quantity_pattern, '', normalized, flags=re.IGNORECASE)
+
+    # Also strip standalone leading numbers/fractions (e.g., "2 eggs" -> "eggs")
+    normalized = re.sub(r'^[\d\s/\-\.]+\s+', '', normalized)
 
     # Strip common modifiers
     for word in STRIP_WORDS:
