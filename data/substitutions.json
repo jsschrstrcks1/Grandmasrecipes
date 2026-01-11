@@ -354,19 +354,90 @@
     {
       "id": "brown-sugar",
       "primary": "brown sugar",
+      "aliases": ["packed brown sugar", "light brown sugar", "dark brown sugar"],
       "substitutes": [
         {
-          "ingredient": "white sugar",
-          "ratio": "1 cup:1 cup + 1 tbsp molasses",
+          "ingredient": "white sugar + molasses (DIY light brown)",
+          "ratio": "1 cup:1 cup granulated + 1 tbsp molasses",
           "direction": "convenience",
-          "notes": "Mix well to distribute molasses",
+          "notes": "Combine with fingertips or pulse in food processor until uniform. Closest match to commercial brown sugar.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "white sugar + molasses (DIY dark brown)",
+          "ratio": "1 cup:1 cup granulated + 2 tbsp molasses",
+          "direction": "convenience",
+          "notes": "Combine with fingertips or pulse in food processor until uniform. Richer molasses flavor.",
           "quality": "excellent"
         },
         {
           "ingredient": "coconut sugar",
           "ratio": "1:1",
           "direction": "health",
-          "notes": "Lower glycemic index, slight caramel flavor",
+          "notes": "Similar flavor but slightly more intense. Lower glycemic index. Direct swap in most recipes.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "muscovado sugar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Unrefined sugar with similar moisture and rich flavor. Use light muscovado for light brown, dark for dark brown.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "jaggery",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Unrefined cane sugar. Similar moisture and caramel depth. Grate or chop before measuring.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "maple syrup",
+          "ratio": "1 cup brown sugar:3/4 cup maple syrup",
+          "direction": "convenience",
+          "notes": "Reduce other liquids in recipe slightly. Adds distinct maple flavor.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "honey",
+          "ratio": "1 cup brown sugar:3/4 cup honey",
+          "direction": "convenience",
+          "notes": "Reduce other liquids slightly. Sweeter than brown sugar. May alter texture.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "white sugar",
+          "ratio": "1:1",
+          "direction": "convenience",
+          "notes": "Works for sweetness but crisper texture, lacks depth. Add a touch of molasses if available.",
+          "quality": "moderate"
+        },
+        {
+          "ingredient": "monk fruit brown sugar blend",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Sugar-free, keto-friendly. Brands: Lakanto, Besti. Contains erythritol or allulose with molasses flavoring.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "allulose brown sugar blend",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Zero net carbs. Browns and caramelizes like real sugar. Great for cookies and cakes. Diabetic-friendly.",
+          "quality": "excellent"
+        },
+        {
+          "ingredient": "stevia brown sugar blend",
+          "ratio": "1:1",
+          "direction": "health",
+          "notes": "Sugar-free option. Brand example: Truvia Sweet Complete Brown. Contains molasses hint for authentic taste.",
+          "quality": "good"
+        },
+        {
+          "ingredient": "erythritol + molasses (DIY sugar-free)",
+          "ratio": "1 cup:1 cup granulated erythritol + 1-2 tsp blackstrap molasses",
+          "direction": "health",
+          "notes": "Blend well. Add drop of caramel extract for depth. Keto and diabetic-friendly.",
           "quality": "good"
         }
       ]
