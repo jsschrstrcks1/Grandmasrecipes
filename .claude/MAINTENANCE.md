@@ -340,7 +340,7 @@ The aggregation script fetches recipes from remote family repositories and merge
 | Collection | Source URL | Collection ID |
 |------------|------------|---------------|
 | MomMom Baker | `https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json` | `mommom-baker` |
-| Granny Hudson | `https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json` | `granny-hudson` |
+| Granny Hudson | `https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json` | `granny-hudson` |
 | Other Recipes | `https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json` | `all` |
 
 ### Running Aggregation

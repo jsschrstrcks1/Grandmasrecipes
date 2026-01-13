@@ -43,7 +43,7 @@ REMOTE_COLLECTIONS = {
         'legacy_ids': ['mommom', 'mommom-baker']
     },
     'granny-hudson': {
-        'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json',
+        'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
         'display_name': 'Granny Hudson',
         'base_url': 'https://jsschrstrcks1.github.io/Grannysrecipes/',
         'legacy_ids': ['granny', 'granny-hudson']
