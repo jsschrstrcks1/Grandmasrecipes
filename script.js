@@ -3197,8 +3197,9 @@ function updateCollectionCounts() {
   // Count recipes by collection
   const counts = {
     'grandma-baker': 0,
-    'mommom': 0,
-    'granny': 0
+    'mommom-baker': 0,
+    'granny-hudson': 0,
+    'all': 0
   };
 
   recipes.forEach(recipe => {

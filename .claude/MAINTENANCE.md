@@ -13,7 +13,8 @@ This document provides detailed workflows for routine maintenance tasks in the G
 5. [Pre-Deployment Checklist](#pre-deployment-checklist)
 6. [Fixing Validation Errors](#fixing-validation-errors)
 7. [Cross-Repository Synchronization](#cross-repository-synchronization)
-8. [Script Reference](#script-reference)
+8. [Hub Aggregation Workflow](#hub-aggregation-workflow)
+9. [Script Reference](#script-reference)
 
 ---
 
@@ -326,6 +327,116 @@ When updating shared standards, sync across all repositories:
 
 ---
 
+## Hub Aggregation Workflow
+
+Grandmasrecipes serves as the **hub** that aggregates recipes from all family collections into a single searchable archive.
+
+### Overview
+
+The aggregation script fetches recipes from remote family repositories and merges them with local recipes into `recipes_master.json`. This enables the hub to display all family recipes (~5,000+) in one place.
+
+### Remote Collections
+
+| Collection | Source URL | Collection ID |
+|------------|------------|---------------|
+| MomMom Baker | `https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json` | `mommom-baker` |
+| Granny Hudson | `https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json` | `granny-hudson` |
+| Other Recipes | `https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json` | `all` |
+
+### Running Aggregation
+
+```bash
+# Standard aggregation (fetches and merges all remote collections)
+python scripts/aggregate_collections.py
+
+# Dry run (shows what would be fetched without modifying files)
+python scripts/aggregate_collections.py --dry-run
+
+# Local only (skip remote fetch, just normalize existing recipes)
+python scripts/aggregate_collections.py --local-only
+```
+
+### What the Script Does
+
+1. **Loads local recipes** from `data/recipes_master.json`
+2. **Fetches remote recipes** from each family repository's GitHub Pages
+3. **Normalizes collection IDs** (e.g., `mommom` → `mommom-baker`, `reference` → `all`)
+4. **Resolves image paths** for remote collections (converts relative to absolute URLs)
+5. **Merges recipes** without duplicates (uses recipe ID + collection as key)
+6. **Updates meta counts** for accurate facet display
+7. **Saves merged results** back to `recipes_master.json`
+
+### Image Path Resolution
+
+For remote collections, the script converts relative image paths to absolute URLs:
+
+```
+# Before (relative)
+"image_refs": ["Moms Recipes - 42.jpeg"]
+
+# After (absolute URL)
+"image_refs": ["https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 42.jpeg"]
+```
+
+This ensures images display correctly when viewing recipes from remote collections in the hub.
+
+### After Aggregation
+
+After running the aggregation script, complete these steps:
+
+```bash
+# 1. Validate all merged recipes
+python scripts/validate-recipes.py
+
+# 2. Rebuild ingredient index with all recipes
+python scripts/build-ingredient-index.py
+
+# 3. Rebuild search index (if using Pagefind)
+python scripts/build-pagefind.py
+```
+
+### When to Run Aggregation
+
+| Scenario | Run Aggregation? |
+|----------|------------------|
+| Before major deployment | Yes |
+| After adding recipes to remote repos | Yes |
+| Weekly/monthly maintenance | Recommended |
+| Only local changes to Grandma Baker | Not required |
+
+### Troubleshooting
+
+#### Remote Collection Returns 404
+
+```
+WARNING: Could not fetch granny-hudson: 404 Client Error
+```
+
+**Cause:** The remote repository may not have published `data/recipes.json` yet.
+
+**Action:** Check that the remote repo has:
+1. A `data/recipes.json` file
+2. GitHub Pages enabled and deployed
+
+#### Collection ID Mismatch in UI
+
+If facet counts show 0 for a collection:
+
+1. Check `script.js` has the collection ID in the `counts` object
+2. Check `index.html` has a checkbox with matching `data-collection` attribute
+3. Verify recipes have the correct `collection` field value
+
+### Aggregation Checklist
+
+- [ ] Run `python scripts/aggregate_collections.py`
+- [ ] Verify expected recipe counts (check script output)
+- [ ] Run validation: `python scripts/validate-recipes.py`
+- [ ] Rebuild ingredient index: `python scripts/build-ingredient-index.py`
+- [ ] Test locally: open `index.html` and check facet counts
+- [ ] Commit and push changes
+
+---
+
 ## Script Reference
 
 ### validate-recipes.py
@@ -415,6 +526,27 @@ python scripts/minify.py
 
 ---
 
+### aggregate_collections.py
+
+**Purpose:** Fetch and merge recipes from all family repositories
+
+```bash
+python scripts/aggregate_collections.py            # Full aggregation
+python scripts/aggregate_collections.py --dry-run  # Preview without saving
+python scripts/aggregate_collections.py --local-only  # Skip remote fetch
+```
+
+**Actions:**
+- Fetches recipes from MomsRecipes, Grannysrecipes, Allrecipes
+- Normalizes collection IDs to standard format
+- Resolves image paths to absolute URLs for remote collections
+- Merges without duplicates
+- Updates meta counts
+
+**Output:** Updates `data/recipes_master.json` with all aggregated recipes
+
+---
+
 ## Quick Reference
 
 ### Most Common Tasks
@@ -426,6 +558,7 @@ python scripts/minify.py
 | Check image status | `python scripts/image_safeguards.py status` |
 | Rebuild ingredient index | `python scripts/build-ingredient-index.py` |
 | Rebuild search | `python scripts/build-pagefind.py` |
+| Aggregate all collections | `python scripts/aggregate_collections.py` |
 
 ### After Adding Recipe
 
@@ -447,6 +580,15 @@ python scripts/image_safeguards.py status
 python scripts/validate-recipes.py
 python scripts/build-ingredient-index.py
 python scripts/build-pagefind.py
+```
+
+### Before Deploy (Hub with All Collections)
+
+```bash
+python scripts/aggregate_collections.py   # Fetch all family recipes
+python scripts/validate-recipes.py        # Validate merged recipes
+python scripts/build-ingredient-index.py  # Rebuild ingredient index
+python scripts/build-pagefind.py          # Rebuild search index
 ```
 
 ---
