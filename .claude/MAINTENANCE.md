@@ -429,11 +429,56 @@ If facet counts show 0 for a collection:
 ### Aggregation Checklist
 
 - [ ] Run `python scripts/aggregate_collections.py`
+- [ ] Run `python scripts/aggregate_tips.py`
 - [ ] Verify expected recipe counts (check script output)
 - [ ] Run validation: `python scripts/validate-recipes.py`
 - [ ] Rebuild ingredient index: `python scripts/build-ingredient-index.py`
 - [ ] Test locally: open `index.html` and check facet counts
 - [ ] Commit and push changes
+
+---
+
+## Tips Aggregation
+
+Kitchen tips are also aggregated from family repositories to display relevant wisdom when viewing recipes.
+
+### Remote Tips Sources
+
+| Collection | Source URL | Tips Count |
+|------------|------------|------------|
+| MomMom Baker | `data/tips.json` | ~113 |
+| Other Recipes | `data/tips_master.json` | ~27 |
+| Granny Hudson | (embedded in recipe notes) | — |
+
+### Running Tips Aggregation
+
+```bash
+python scripts/aggregate_tips.py           # Full aggregation
+python scripts/aggregate_tips.py --dry-run # Preview without saving
+```
+
+### Tips Format
+
+Tips are organized by category in `data/kitchen-tips.json`:
+
+```json
+{
+  "categories": [
+    {
+      "id": "baking-general",
+      "name": "Baking Tips",
+      "icon": "🧁",
+      "tips": [
+        {
+          "text": "For high altitude baking...",
+          "attribution": "MomMom Baker",
+          "collection": "mommom-baker"
+        }
+      ]
+    }
+  ]
+}
+```
 
 ---
 
@@ -547,6 +592,24 @@ python scripts/aggregate_collections.py --local-only  # Skip remote fetch
 
 ---
 
+### aggregate_tips.py
+
+**Purpose:** Fetch and merge kitchen tips from family repositories
+
+```bash
+python scripts/aggregate_tips.py            # Full aggregation
+python scripts/aggregate_tips.py --dry-run  # Preview without saving
+```
+
+**Sources:**
+- MomsRecipes: `data/tips.json` (~113 tips)
+- Allrecipes: `data/tips_master.json` (~27 tips)
+- Local: `data/kitchen-tips.json` (~54 tips)
+
+**Output:** Updates `data/kitchen-tips.json` with merged tips organized by category
+
+---
+
 ## Quick Reference
 
 ### Most Common Tasks
@@ -558,7 +621,8 @@ python scripts/aggregate_collections.py --local-only  # Skip remote fetch
 | Check image status | `python scripts/image_safeguards.py status` |
 | Rebuild ingredient index | `python scripts/build-ingredient-index.py` |
 | Rebuild search | `python scripts/build-pagefind.py` |
-| Aggregate all collections | `python scripts/aggregate_collections.py` |
+| Aggregate recipes | `python scripts/aggregate_collections.py` |
+| Aggregate tips | `python scripts/aggregate_tips.py` |
 
 ### After Adding Recipe
 
@@ -586,6 +650,7 @@ python scripts/build-pagefind.py
 
 ```bash
 python scripts/aggregate_collections.py   # Fetch all family recipes
+python scripts/aggregate_tips.py          # Fetch all family tips
 python scripts/validate-recipes.py        # Validate merged recipes
 python scripts/build-ingredient-index.py  # Rebuild ingredient index
 python scripts/build-pagefind.py          # Rebuild search index
