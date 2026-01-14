@@ -1,36 +1,66 @@
 {
   "collections": {
-    "grandma": {
-      "id": "grandma",
+    "grandma-baker": {
+      "id": "grandma-baker",
       "display_name": "Grandma Baker",
       "folder": "data/",
       "description": "Michigan roots, Southern cooking",
-      "recipe_count": 624
+      "recipe_count": 624,
+      "local": true,
+      "sharded": false
     },
-    "mommom": {
-      "id": "mommom",
+    "mommom-baker": {
+      "id": "mommom-baker",
       "display_name": "MomMom Baker",
-      "folder": "data/mom/",
+      "base_url": "https://jsschrstrcks1.github.io/MomsRecipes/",
+      "recipes_url": "https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json",
+      "index_url": "https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-index.json",
       "description": "Family recipes passed down through generations",
-      "recipe_count": 0
+      "recipe_count": 1943,
+      "local": false,
+      "sharded": true,
+      "shard_strategy": "by_category",
+      "shard_count": 30
     },
-    "granny": {
-      "id": "granny",
+    "granny-hudson": {
+      "id": "granny-hudson",
       "display_name": "Granny Hudson",
-      "folder": "data/granny/",
+      "base_url": "https://jsschrstrcks1.github.io/Grannysrecipes/",
+      "recipes_url": "https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json",
+      "index_url": "https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes-index.json",
+      "data_path": "granny/",
       "description": "Additional family collection",
-      "recipe_count": 0
+      "recipe_count": 101,
+      "local": false,
+      "sharded": true,
+      "shard_strategy": "by_category",
+      "shard_count": 10
     },
-    "reference": {
-      "id": "reference",
-      "display_name": "Reference Cookbook",
-      "folder": "data/all/",
+    "all": {
+      "id": "all",
+      "display_name": "Other Recipes",
+      "base_url": "https://jsschrstrcks1.github.io/Allrecipes/",
+      "recipes_url": "https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json",
+      "index_url": "https://jsschrstrcks1.github.io/Allrecipes/data/recipes-index.json",
       "description": "Digital cookbook recipes (used with permission)",
       "recipe_count": 0,
+      "local": false,
+      "sharded": true,
+      "shard_strategy": "by_category",
       "hidden_from_filters": true,
       "show_only_in_all": true
     }
   },
   "default_collection": "all",
-  "version": "1.0.0"
+  "version": "2.0.0",
+  "sharding_notes": {
+    "description": "Collections can use category-based sharding for better performance",
+    "sharded_format": {
+      "index": "data/recipes-index.json",
+      "shards": "data/recipes-{category}.json"
+    },
+    "monolithic_format": {
+      "recipes": "data/recipes.json"
+    }
+  }
 }
