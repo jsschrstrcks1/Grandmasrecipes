@@ -52,7 +52,8 @@ REMOTE_COLLECTIONS = {
         'base_url': 'https://jsschrstrcks1.github.io/MomsRecipes/',
         'legacy_ids': ['mommom', 'mommom-baker'],
         'has_shards': True,
-        'shard_base': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-{}.json'
+        'shard_base': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-{}.json',
+        'extra_files': ['https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-reference.json']
     },
     'granny-hudson': {
         'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
@@ -127,7 +128,7 @@ def fetch_remote_recipes(url: str, timeout: int = 30) -> Tuple[List[Dict], Optio
 
 
 def fetch_collection_with_shards(config: Dict, verbose: bool = False) -> Tuple[List[Dict], List[str]]:
-    """Fetch all recipes from a collection, including main file and category shards.
+    """Fetch all recipes from a collection, including main file, shards, and extra files.
 
     Returns:
         Tuple of (all recipes, list of errors/warnings)
@@ -160,6 +161,20 @@ def fetch_collection_with_shards(config: Dict, verbose: bool = False) -> Tuple[L
                 shard_count += len(shard_recipes)
         if verbose and shard_count > 0:
             print(f"      Shards: {shard_count} recipes from {len(CATEGORY_SHARDS)} categories")
+
+    # Fetch extra files (like recipes-reference.json)
+    if config.get('extra_files'):
+        extra_count = 0
+        for extra_url in config['extra_files']:
+            extra_recipes, error = fetch_remote_recipes(extra_url)
+            if error:
+                if '404' not in str(error):
+                    errors.append(f"Extra file: {error}")
+            else:
+                all_recipes.extend(extra_recipes)
+                extra_count += len(extra_recipes)
+        if verbose and extra_count > 0:
+            print(f"      Extra files: {extra_count} recipes")
 
     return all_recipes, errors
 
