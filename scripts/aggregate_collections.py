@@ -11,9 +11,9 @@ Usage:
     python scripts/aggregate_collections.py --local-only # Skip remote fetch
 
 Remote Sources:
-    - MomsRecipes: https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json
-    - Grannysrecipes: https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json
-    - Allrecipes: https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json
+    - MomsRecipes: Main file + category shards
+    - Grannysrecipes: recipes_master.json
+    - Allrecipes: Main file + category shards
 
 Output:
     - Updates data/recipes_master.json with merged recipes
@@ -34,25 +34,40 @@ from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Optional, Tuple
 
+# Category shard names (shared across repos that use sharding)
+CATEGORY_SHARDS = [
+    'appetizers', 'basics', 'beverages', 'breads', 'breakfast',
+    'cakes', 'candy', 'canning', 'condiments', 'cookies',
+    'desserts', 'eggs', 'fish', 'frostings', 'legumes',
+    'main-dishes', 'mains', 'meat', 'pasta', 'salads',
+    'sandwiches', 'sauces', 'shellfish', 'sides', 'snacks',
+    'soups', 'vegetables'
+]
+
 # Collection configuration
 REMOTE_COLLECTIONS = {
     'mommom-baker': {
         'url': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json',
         'display_name': 'MomMom Baker',
         'base_url': 'https://jsschrstrcks1.github.io/MomsRecipes/',
-        'legacy_ids': ['mommom', 'mommom-baker']
+        'legacy_ids': ['mommom', 'mommom-baker'],
+        'has_shards': True,
+        'shard_base': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-{}.json'
     },
     'granny-hudson': {
         'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
         'display_name': 'Granny Hudson',
         'base_url': 'https://jsschrstrcks1.github.io/Grannysrecipes/',
-        'legacy_ids': ['granny', 'granny-hudson']
+        'legacy_ids': ['granny', 'granny-hudson'],
+        'has_shards': False
     },
     'all': {
         'url': 'https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json',
         'display_name': 'Other Recipes',
         'base_url': 'https://jsschrstrcks1.github.io/Allrecipes/',
-        'legacy_ids': ['reference', 'all', 'other']
+        'legacy_ids': ['reference', 'all', 'other'],
+        'has_shards': True,
+        'shard_base': 'https://jsschrstrcks1.github.io/Allrecipes/data/recipes-{}.json'
     }
 }
 
@@ -109,6 +124,44 @@ def fetch_remote_recipes(url: str, timeout: int = 30) -> Tuple[List[Dict], Optio
         return [], f"JSON decode error: {e}"
     except Exception as e:
         return [], f"Error: {e}"
+
+
+def fetch_collection_with_shards(config: Dict, verbose: bool = False) -> Tuple[List[Dict], List[str]]:
+    """Fetch all recipes from a collection, including main file and category shards.
+
+    Returns:
+        Tuple of (all recipes, list of errors/warnings)
+    """
+    all_recipes = []
+    errors = []
+
+    # Fetch main file
+    main_recipes, error = fetch_remote_recipes(config['url'])
+    if error:
+        errors.append(f"Main file: {error}")
+    else:
+        all_recipes.extend(main_recipes)
+        if verbose:
+            print(f"      Main file: {len(main_recipes)} recipes")
+
+    # Fetch category shards if available
+    if config.get('has_shards') and config.get('shard_base'):
+        shard_base = config['shard_base']
+        shard_count = 0
+        for category in CATEGORY_SHARDS:
+            shard_url = shard_base.format(category)
+            shard_recipes, error = fetch_remote_recipes(shard_url)
+            if error:
+                # Shards are optional - don't report 404s as errors
+                if '404' not in str(error):
+                    errors.append(f"Shard {category}: {error}")
+            else:
+                all_recipes.extend(shard_recipes)
+                shard_count += len(shard_recipes)
+        if verbose and shard_count > 0:
+            print(f"      Shards: {shard_count} recipes from {len(CATEGORY_SHARDS)} categories")
+
+    return all_recipes, errors
 
 
 def resolve_image_paths(recipe: Dict, base_url: str) -> Dict:
@@ -268,13 +321,21 @@ def main():
         for collection_id, config in REMOTE_COLLECTIONS.items():
             print(f"  {config['display_name']} ({collection_id})...")
             print(f"    URL: {config['url']}")
+            if config.get('has_shards'):
+                print(f"    Shards: Yes (checking {len(CATEGORY_SHARDS)} categories)")
 
-            recipes, error = fetch_remote_recipes(config['url'])
+            recipes, errors = fetch_collection_with_shards(config, verbose=args.verbose)
 
-            if error:
-                print(f"    ERROR: {error}")
+            if not recipes:
+                print(f"    ERROR: No recipes fetched")
+                for err in errors:
+                    print(f"      - {err}")
                 print(f"    Skipping this collection.")
                 continue
+
+            if errors and args.verbose:
+                for err in errors:
+                    print(f"    Warning: {err}")
 
             # Normalize each recipe
             normalized = []
