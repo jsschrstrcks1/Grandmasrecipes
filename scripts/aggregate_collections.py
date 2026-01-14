@@ -166,28 +166,39 @@ def filter_local_recipes(recipes: List[Dict]) -> List[Dict]:
     return [r for r in recipes if normalize_collection_id(r.get('collection', '')) == 'grandma-baker']
 
 
-def merge_recipes(local_recipes: List[Dict], remote_recipes: Dict[str, List[Dict]]) -> List[Dict]:
-    """Merge local and remote recipes, avoiding duplicates.
+def recipe_signature(recipe: Dict) -> str:
+    """Create a signature for exact duplicate detection.
 
-    Duplicates are detected by (recipe_id, collection) tuple.
-    This allows the same recipe ID in different collections.
+    Only drops recipes that are truly identical (same id, collection, title,
+    and ingredients). Variants with same ID but different content are kept.
     """
-    # Build set of (id, collection) tuples from local recipes
-    seen_keys = {(r.get('id'), r.get('collection')) for r in local_recipes if r.get('id')}
+    # Use key fields that define a unique recipe
+    recipe_id = recipe.get('id', '')
+    collection = recipe.get('collection', '')
+    title = recipe.get('title', '')
+    # Use first 3 ingredients as part of signature to detect variants
+    ingredients = recipe.get('ingredients', [])[:3]
+    ingredients_str = '|'.join(str(i) for i in ingredients)
+    return f"{recipe_id}::{collection}::{title}::{ingredients_str}"
+
+
+def merge_recipes(local_recipes: List[Dict], remote_recipes: Dict[str, List[Dict]]) -> List[Dict]:
+    """Merge local and remote recipes, avoiding exact duplicates only.
+
+    Variants of the same recipe (same ID but different content) are kept.
+    Only truly identical recipes are dropped.
+    """
+    # Build set of signatures from local recipes
+    seen_signatures = {recipe_signature(r) for r in local_recipes}
 
     merged = list(local_recipes)
 
     for collection_id, recipes in remote_recipes.items():
         for recipe in recipes:
-            recipe_id = recipe.get('id')
-            recipe_collection = recipe.get('collection', collection_id)
-            key = (recipe_id, recipe_collection)
-            if recipe_id and key not in seen_keys:
+            sig = recipe_signature(recipe)
+            if sig not in seen_signatures:
                 merged.append(recipe)
-                seen_keys.add(key)
-            elif key in seen_keys:
-                # Log duplicate but don't add
-                pass
+                seen_signatures.add(sig)
 
     return merged
 
