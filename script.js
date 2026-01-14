@@ -121,7 +121,8 @@ const REMOTE_COLLECTIONS = {
     displayName: 'MomMom Baker',
     baseUrl: 'https://jsschrstrcks1.github.io/MomsRecipes/',
     recipesUrl: 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json',
-    sharded: false
+    indexUrl: 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-index.json',
+    sharded: true  // MomsRecipes uses category-based sharding (30 shards)
   },
   'granny-hudson': {
     displayName: 'Granny Hudson',

@@ -14,10 +14,13 @@
       "display_name": "MomMom Baker",
       "base_url": "https://jsschrstrcks1.github.io/MomsRecipes/",
       "recipes_url": "https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json",
+      "index_url": "https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-index.json",
       "description": "Family recipes passed down through generations",
-      "recipe_count": 0,
+      "recipe_count": 1943,
       "local": false,
-      "sharded": false
+      "sharded": true,
+      "shard_strategy": "by_category",
+      "shard_count": 30
     },
     "granny-hudson": {
       "id": "granny-hudson",

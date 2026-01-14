@@ -53,10 +53,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 REMOTE_COLLECTIONS = {
     'mommom-baker': {
         'url': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json',
+        'index_url': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-index.json',
         'display_name': 'MomMom Baker',
         'base_url': 'https://jsschrstrcks1.github.io/MomsRecipes/',
         'legacy_ids': ['mommom', 'mommom-baker'],
-        'sharded': False  # Can be upgraded to sharded later
+        'sharded': True  # MomsRecipes uses category-based sharding (30 shards)
     },
     'granny-hudson': {
         'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
