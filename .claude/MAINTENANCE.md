@@ -610,6 +610,158 @@ python scripts/aggregate_tips.py --dry-run  # Preview without saving
 
 ---
 
+## Sharded Repository Support
+
+The hub supports both monolithic (`recipes.json`) and sharded (`recipes-index.json` + `recipes-{category}.json`) repository formats. Sharding improves performance for large collections by allowing on-demand loading of category-specific recipe data.
+
+### Repository Formats
+
+| Format | Structure | Best For |
+|--------|-----------|----------|
+| **Monolithic** | Single `recipes.json` file | Small collections (<500 recipes) |
+| **Sharded** | Index + category shards | Large collections (500+ recipes) |
+
+### Sharded Structure
+
+```
+data/
+├── recipes-index.json       # Minimal metadata for all recipes + shard manifest
+├── recipes-appetizers.json  # Full recipe data for appetizers
+├── recipes-beverages.json   # Full recipe data for beverages
+├── recipes-breads.json      # Full recipe data for breads
+├── recipes-breakfast.json   # Full recipe data for breakfast
+├── recipes-desserts.json    # Full recipe data for desserts
+├── recipes-mains.json       # Full recipe data for mains
+├── recipes-salads.json      # Full recipe data for salads
+├── recipes-sides.json       # Full recipe data for sides
+├── recipes-soups.json       # Full recipe data for soups
+└── recipes.json             # (Optional) Fallback monolithic file
+```
+
+### Index File Format (`recipes-index.json`)
+
+```json
+{
+  "meta": {
+    "sharded": true,
+    "shard_strategy": "by_category"
+  },
+  "shards": [
+    { "category": "desserts", "file": "recipes-desserts.json", "count": 150 },
+    { "category": "mains", "file": "recipes-mains.json", "count": 200 }
+  ],
+  "recipes": [
+    {
+      "id": "recipe-slug",
+      "title": "Recipe Name",
+      "category": "desserts",
+      "tags": ["tag1", "tag2"],
+      "description": "Brief description...",
+      "servings_yield": "12 servings",
+      "total_time": "45 minutes"
+    }
+  ]
+}
+```
+
+### How Aggregation Handles Sharded Repos
+
+The `aggregate_collections.py` script automatically:
+
+1. **Detects format**: Checks for `recipes-index.json` to determine if repo is sharded
+2. **Fetches shards**: Downloads all category shards in parallel
+3. **Falls back**: Uses monolithic `recipes.json` if shards fail
+4. **Merges**: Combines all recipes into local `recipes_master.json`
+
+```bash
+# Aggregation output shows format detection:
+python scripts/aggregate_collections.py -v
+
+# Example output:
+#   Other Recipes (all)...
+#     Sharded format detected (11 category shards)
+#       Fetching shard: recipes-desserts.json
+#       OK: recipes-desserts.json (150 recipes)
+#       ...
+#     Fetched: 1500 recipes
+```
+
+### Client-Side Shard Loading
+
+The `script.js` client also supports on-demand shard loading:
+
+- **Automatic**: When viewing a recipe from a sharded collection, only that category's shard is loaded
+- **Preload**: Use `preloadRemoteCollection('all')` in browser console to preload all shards
+- **Cached**: Loaded shards are cached in memory for the session
+
+### Converting a Repo to Sharded Format
+
+To convert a family repository to sharded format:
+
+```python
+# scripts/create_shards.py (run in the target repo)
+import json
+from pathlib import Path
+
+with open('data/recipes.json', 'r') as f:
+    data = json.load(f)
+
+recipes = data['recipes']
+meta = data.get('meta', {})
+
+# Group by category
+by_category = {}
+for r in recipes:
+    cat = r.get('category', 'uncategorized')
+    by_category.setdefault(cat, []).append(r)
+
+# Create index with minimal metadata
+index_recipes = [{
+    'id': r.get('id'),
+    'title': r.get('title'),
+    'category': r.get('category'),
+    'tags': r.get('tags', []),
+    'collection': r.get('collection'),
+    'description': (r.get('description', '') or '')[:100],
+    'servings_yield': r.get('servings_yield', ''),
+    'total_time': r.get('total_time', '') or r.get('cook_time', ''),
+} for r in recipes]
+
+# Build shard manifest
+shards = [{'category': cat, 'file': f'recipes-{cat}.json', 'count': len(recs)}
+          for cat, recs in sorted(by_category.items())]
+
+# Write index
+index_data = {
+    'meta': {**meta, 'sharded': True, 'shard_strategy': 'by_category'},
+    'shards': shards,
+    'recipes': index_recipes
+}
+with open('data/recipes-index.json', 'w') as f:
+    json.dump(index_data, f, indent=2)
+
+# Write category shards
+for cat, cat_recipes in by_category.items():
+    shard_data = {
+        'meta': {'category': cat, 'count': len(cat_recipes)},
+        'recipes': cat_recipes
+    }
+    with open(f'data/recipes-{cat}.json', 'w') as f:
+        json.dump(shard_data, f, indent=2)
+
+print(f"Created {len(shards)} shards from {len(recipes)} recipes")
+```
+
+### Updating Collection Configuration
+
+After a repo adopts sharding, update `REMOTE_COLLECTIONS` in:
+
+1. **`scripts/aggregate_collections.py`**: Set `'sharded': True` and add `'index_url'`
+2. **`script.js`**: Update the `REMOTE_COLLECTIONS` constant
+3. **`data/collections.json`**: Update collection metadata
+
+---
+
 ## Quick Reference
 
 ### Most Common Tasks
@@ -658,4 +810,4 @@ python scripts/build-pagefind.py          # Rebuild search index
 
 ---
 
-*Last updated: 2026-01*
+*Last updated: 2026-01 (added sharded repository support)*

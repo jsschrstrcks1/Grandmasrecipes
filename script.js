@@ -114,6 +114,35 @@ let nutritionFilter = {
   activeDietPreset: null
 };
 
+// Remote collection configuration for client-side fetching
+// Supports both monolithic (recipes.json) and sharded (recipes-index.json + recipes-{category}.json)
+const REMOTE_COLLECTIONS = {
+  'mommom-baker': {
+    displayName: 'MomMom Baker',
+    baseUrl: 'https://jsschrstrcks1.github.io/MomsRecipes/',
+    recipesUrl: 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json',
+    sharded: false
+  },
+  'granny-hudson': {
+    displayName: 'Granny Hudson',
+    baseUrl: 'https://jsschrstrcks1.github.io/Grannysrecipes/',
+    recipesUrl: 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
+    sharded: false
+  },
+  'all': {
+    displayName: 'Other Recipes',
+    baseUrl: 'https://jsschrstrcks1.github.io/Allrecipes/',
+    recipesUrl: 'https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json',
+    indexUrl: 'https://jsschrstrcks1.github.io/Allrecipes/data/recipes-index.json',
+    sharded: true  // Allrecipes uses category-based sharding
+  }
+};
+
+// Remote shard cache for on-demand loading
+let remoteShardCache = {};      // { 'collection:category': recipes[] }
+let remoteIndexCache = {};      // { 'collection': indexData }
+let loadingShards = {};         // Track in-progress shard loads
+
 // Diet preset definitions (per serving)
 const DIET_PRESETS = {
   'low-carb': {
@@ -258,8 +287,218 @@ async function loadFullRecipe(recipeId) {
   }
 
   await fullRecipesLoading;
-  return fullRecipesCache[recipeId] || null;
+
+  // If recipe is in cache, return it
+  if (fullRecipesCache[recipeId]) {
+    return fullRecipesCache[recipeId];
+  }
+
+  // Recipe not found locally - try to find it in the index to get collection/category
+  const indexEntry = recipes.find(r => r.id === recipeId);
+  if (indexEntry && indexEntry.collection) {
+    const collectionConfig = REMOTE_COLLECTIONS[indexEntry.collection];
+    if (collectionConfig) {
+      // Try to load from remote collection
+      const remoteRecipe = await loadRemoteRecipe(recipeId, indexEntry, collectionConfig);
+      if (remoteRecipe) {
+        fullRecipesCache[recipeId] = remoteRecipe;
+        return remoteRecipe;
+      }
+    }
+  }
+
+  return null;
 }
+
+/**
+ * Load a recipe from a remote collection (supports sharded repos)
+ * @param {string} recipeId - The recipe ID to load
+ * @param {Object} indexEntry - The recipe's entry in the local index (has category info)
+ * @param {Object} collectionConfig - The remote collection configuration
+ * @returns {Object|null} - The full recipe object or null if not found
+ */
+async function loadRemoteRecipe(recipeId, indexEntry, collectionConfig) {
+  const collection = indexEntry.collection;
+  const category = indexEntry.category;
+
+  // For sharded repos, load the specific category shard
+  if (collectionConfig.sharded && category) {
+    const shardKey = `${collection}:${category}`;
+
+    // Check shard cache first
+    if (remoteShardCache[shardKey]) {
+      const recipe = remoteShardCache[shardKey].find(r => r.id === recipeId);
+      if (recipe) return recipe;
+    }
+
+    // Load the category shard
+    try {
+      const shardUrl = `${collectionConfig.baseUrl}data/recipes-${category}.json`;
+      console.log(`Loading remote shard: ${shardUrl}`);
+
+      const response = await fetch(shardUrl);
+      if (!response.ok) {
+        console.warn(`Failed to load shard ${category}: ${response.status}`);
+        // Fall back to monolithic
+      } else {
+        const data = await response.json();
+        const shardRecipes = data.recipes || [];
+
+        // Cache the shard
+        remoteShardCache[shardKey] = shardRecipes;
+
+        // Cache all recipes from the shard
+        shardRecipes.forEach(r => {
+          fullRecipesCache[r.id] = r;
+        });
+
+        console.log(`Loaded remote shard ${category} (${shardRecipes.length} recipes)`);
+
+        // Return the requested recipe
+        const recipe = shardRecipes.find(r => r.id === recipeId);
+        if (recipe) return recipe;
+      }
+    } catch (error) {
+      console.warn(`Error loading shard ${category}:`, error);
+      // Fall back to monolithic
+    }
+  }
+
+  // Fall back to monolithic load for non-sharded or if shard load failed
+  if (collectionConfig.recipesUrl) {
+    try {
+      console.log(`Loading remote recipes (monolithic): ${collectionConfig.recipesUrl}`);
+      const response = await fetch(collectionConfig.recipesUrl);
+      if (!response.ok) {
+        console.error(`Failed to load remote recipes: ${response.status}`);
+        return null;
+      }
+
+      const data = await response.json();
+      const remoteRecipes = data.recipes || data || [];
+
+      // Cache all recipes from this collection
+      remoteRecipes.forEach(r => {
+        fullRecipesCache[r.id] = r;
+      });
+
+      console.log(`Loaded remote collection (${remoteRecipes.length} recipes)`);
+      return remoteRecipes.find(r => r.id === recipeId);
+    } catch (error) {
+      console.error('Error loading remote recipes:', error);
+      return null;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Load the index for a sharded remote collection
+ * @param {string} collection - The collection ID
+ * @param {Object} collectionConfig - The remote collection configuration
+ * @returns {Object|null} - The index data or null if not found/not sharded
+ */
+async function loadRemoteIndex(collection, collectionConfig) {
+  // Check cache first
+  if (remoteIndexCache[collection]) {
+    return remoteIndexCache[collection];
+  }
+
+  if (!collectionConfig.sharded || !collectionConfig.indexUrl) {
+    return null;
+  }
+
+  try {
+    const response = await fetch(collectionConfig.indexUrl);
+    if (!response.ok) {
+      console.warn(`Failed to load remote index: ${response.status}`);
+      return null;
+    }
+
+    const indexData = await response.json();
+    remoteIndexCache[collection] = indexData;
+    console.log(`Loaded remote index for ${collection} (${indexData.shards?.length || 0} shards)`);
+    return indexData;
+  } catch (error) {
+    console.error(`Error loading remote index for ${collection}:`, error);
+    return null;
+  }
+}
+
+/**
+ * Preload all shards from a remote sharded collection
+ * Useful for offline access or bulk operations
+ * @param {string} collection - The collection ID
+ * @returns {number} - Number of recipes loaded
+ */
+async function preloadRemoteCollection(collection) {
+  const collectionConfig = REMOTE_COLLECTIONS[collection];
+  if (!collectionConfig) {
+    console.warn(`Unknown collection: ${collection}`);
+    return 0;
+  }
+
+  if (!collectionConfig.sharded) {
+    // Load monolithic
+    try {
+      const response = await fetch(collectionConfig.recipesUrl);
+      const data = await response.json();
+      const recipes = data.recipes || data || [];
+      recipes.forEach(r => { fullRecipesCache[r.id] = r; });
+      console.log(`Preloaded ${recipes.length} recipes from ${collection} (monolithic)`);
+      return recipes.length;
+    } catch (error) {
+      console.error(`Failed to preload ${collection}:`, error);
+      return 0;
+    }
+  }
+
+  // Load sharded - first get the index
+  const indexData = await loadRemoteIndex(collection, collectionConfig);
+  if (!indexData || !indexData.shards) {
+    return 0;
+  }
+
+  let totalLoaded = 0;
+  const shardPromises = indexData.shards.map(async (shard) => {
+    const category = shard.category;
+    const shardKey = `${collection}:${category}`;
+
+    // Skip if already loaded
+    if (remoteShardCache[shardKey]) {
+      return remoteShardCache[shardKey].length;
+    }
+
+    try {
+      const shardFile = shard.file || `recipes-${category}.json`;
+      const shardUrl = `${collectionConfig.baseUrl}data/${shardFile}`;
+      const response = await fetch(shardUrl);
+
+      if (!response.ok) {
+        console.warn(`Failed to load shard ${shardFile}: ${response.status}`);
+        return 0;
+      }
+
+      const data = await response.json();
+      const shardRecipes = data.recipes || [];
+      remoteShardCache[shardKey] = shardRecipes;
+      shardRecipes.forEach(r => { fullRecipesCache[r.id] = r; });
+      return shardRecipes.length;
+    } catch (error) {
+      console.warn(`Error loading shard ${category}:`, error);
+      return 0;
+    }
+  });
+
+  const results = await Promise.all(shardPromises);
+  totalLoaded = results.reduce((sum, count) => sum + count, 0);
+  console.log(`Preloaded ${totalLoaded} recipes from ${collection} (${indexData.shards.length} shards)`);
+  return totalLoaded;
+}
+
+// Make preload function available globally for manual use
+window.preloadRemoteCollection = preloadRemoteCollection;
 
 /**
  * Load ingredient index from JSON file (lazy loaded on first use)
