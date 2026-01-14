@@ -27,10 +27,14 @@
       "display_name": "Granny Hudson",
       "base_url": "https://jsschrstrcks1.github.io/Grannysrecipes/",
       "recipes_url": "https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json",
+      "index_url": "https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes-index.json",
+      "data_path": "granny/",
       "description": "Additional family collection",
-      "recipe_count": 0,
+      "recipe_count": 101,
       "local": false,
-      "sharded": false
+      "sharded": true,
+      "shard_strategy": "by_category",
+      "shard_count": 10
     },
     "all": {
       "id": "all",

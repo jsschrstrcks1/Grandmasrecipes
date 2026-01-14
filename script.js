@@ -128,7 +128,9 @@ const REMOTE_COLLECTIONS = {
     displayName: 'Granny Hudson',
     baseUrl: 'https://jsschrstrcks1.github.io/Grannysrecipes/',
     recipesUrl: 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
-    sharded: false
+    indexUrl: 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes-index.json',
+    dataPath: 'granny/',  // Custom path (not 'data/')
+    sharded: true  // Grannysrecipes uses category-based sharding (10 shards)
   },
   'all': {
     displayName: 'Other Recipes',
@@ -321,6 +323,7 @@ async function loadFullRecipe(recipeId) {
 async function loadRemoteRecipe(recipeId, indexEntry, collectionConfig) {
   const collection = indexEntry.collection;
   const category = indexEntry.category;
+  const dataPath = collectionConfig.dataPath || 'data';  // Custom path support (e.g., 'granny' for Grannysrecipes)
 
   // For sharded repos, load the specific category shard
   if (collectionConfig.sharded && category) {
@@ -334,7 +337,7 @@ async function loadRemoteRecipe(recipeId, indexEntry, collectionConfig) {
 
     // Load the category shard
     try {
-      const shardUrl = `${collectionConfig.baseUrl}data/recipes-${category}.json`;
+      const shardUrl = `${collectionConfig.baseUrl}${dataPath}/recipes-${category}.json`;
       console.log(`Loading remote shard: ${shardUrl}`);
 
       const response = await fetch(shardUrl);
@@ -461,6 +464,7 @@ async function preloadRemoteCollection(collection) {
     return 0;
   }
 
+  const dataPath = collectionConfig.dataPath || 'data';  // Custom path support
   let totalLoaded = 0;
   const shardPromises = indexData.shards.map(async (shard) => {
     const category = shard.category;
@@ -473,7 +477,7 @@ async function preloadRemoteCollection(collection) {
 
     try {
       const shardFile = shard.file || `recipes-${category}.json`;
-      const shardUrl = `${collectionConfig.baseUrl}data/${shardFile}`;
+      const shardUrl = `${collectionConfig.baseUrl}${dataPath}/${shardFile}`;
       const response = await fetch(shardUrl);
 
       if (!response.ok) {

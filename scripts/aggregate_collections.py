@@ -61,10 +61,12 @@ REMOTE_COLLECTIONS = {
     },
     'granny-hudson': {
         'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
+        'index_url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes-index.json',
         'display_name': 'Granny Hudson',
         'base_url': 'https://jsschrstrcks1.github.io/Grannysrecipes/',
+        'data_path': 'granny/',  # Custom path (not 'data/')
         'legacy_ids': ['granny', 'granny-hudson'],
-        'sharded': False  # Can be upgraded to sharded later
+        'sharded': True  # Grannysrecipes uses category-based sharding (10 shards)
     },
     'all': {
         'url': 'https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json',
@@ -178,7 +180,7 @@ def check_sharded_repo(base_url: str, timeout: int = 30) -> Tuple[bool, Optional
 
 
 def fetch_sharded_recipes(base_url: str, index_data: Dict, verbose: bool = False,
-                          timeout: int = 30) -> Tuple[List[Dict], Optional[str]]:
+                          timeout: int = 30, data_path: str = 'data/') -> Tuple[List[Dict], Optional[str]]:
     """Fetch all recipes from a sharded repository.
 
     Reads the shard manifest from index_data and fetches all category shards
@@ -189,6 +191,7 @@ def fetch_sharded_recipes(base_url: str, index_data: Dict, verbose: bool = False
         index_data: The parsed recipes-index.json data
         verbose: Print detailed progress
         timeout: Request timeout in seconds
+        data_path: Custom path to data directory (default: 'data/')
 
     Returns:
         Tuple of (all recipes list, error message or None)
@@ -197,7 +200,7 @@ def fetch_sharded_recipes(base_url: str, index_data: Dict, verbose: bool = False
     if not shards:
         return [], "No shards defined in index"
 
-    data_url = base_url.rstrip('/') + '/data/'
+    data_url = base_url.rstrip('/') + '/' + data_path.strip('/') + '/'
     all_recipes = []
     errors = []
 
@@ -262,6 +265,7 @@ def fetch_collection_recipes(collection_id: str, config: Dict,
     """
     base_url = config.get('base_url', '')
     is_sharded = config.get('sharded', False)
+    data_path = config.get('data_path', 'data/')  # Custom data path (e.g., 'granny/' for Grannysrecipes)
     metadata = {
         'format': 'unknown',
         'shard_count': 0,
@@ -280,7 +284,7 @@ def fetch_collection_recipes(collection_id: str, config: Dict,
                 metadata['format'] = 'sharded'
                 metadata['shard_count'] = len(index_data.get('shards', []))
 
-                recipes, error = fetch_sharded_recipes(base_url, index_data, verbose)
+                recipes, error = fetch_sharded_recipes(base_url, index_data, verbose, data_path=data_path)
                 if error:
                     metadata['error'] = error
                     # Fall back to monolithic
@@ -297,7 +301,7 @@ def fetch_collection_recipes(collection_id: str, config: Dict,
                 metadata['format'] = 'sharded'
                 metadata['shard_count'] = len(index_data.get('shards', []))
 
-                recipes, error = fetch_sharded_recipes(base_url, index_data, verbose)
+                recipes, error = fetch_sharded_recipes(base_url, index_data, verbose, data_path=data_path)
                 if error:
                     metadata['error'] = error
                 else:
