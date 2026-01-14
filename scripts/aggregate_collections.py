@@ -169,21 +169,23 @@ def filter_local_recipes(recipes: List[Dict]) -> List[Dict]:
 def merge_recipes(local_recipes: List[Dict], remote_recipes: Dict[str, List[Dict]]) -> List[Dict]:
     """Merge local and remote recipes, avoiding duplicates.
 
-    Duplicates are detected by recipe ID.
-    Local recipes take precedence over remote ones with same ID.
+    Duplicates are detected by (recipe_id, collection) tuple.
+    This allows the same recipe ID in different collections.
     """
-    # Build ID set from local recipes
-    seen_ids = {r.get('id') for r in local_recipes if r.get('id')}
+    # Build set of (id, collection) tuples from local recipes
+    seen_keys = {(r.get('id'), r.get('collection')) for r in local_recipes if r.get('id')}
 
     merged = list(local_recipes)
 
     for collection_id, recipes in remote_recipes.items():
         for recipe in recipes:
             recipe_id = recipe.get('id')
-            if recipe_id and recipe_id not in seen_ids:
+            recipe_collection = recipe.get('collection', collection_id)
+            key = (recipe_id, recipe_collection)
+            if recipe_id and key not in seen_keys:
                 merged.append(recipe)
-                seen_ids.add(recipe_id)
-            elif recipe_id in seen_ids:
+                seen_keys.add(key)
+            elif key in seen_keys:
                 # Log duplicate but don't add
                 pass
 
