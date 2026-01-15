@@ -22,7 +22,10 @@ OPTIONAL_FIELDS = ['attribution', 'source_note', 'description', 'servings_yield'
                    'frosting', 'oven_directions']
 
 VALID_CATEGORIES = ['appetizers', 'beverages', 'breads', 'breakfast', 'desserts',
-                    'mains', 'salads', 'sides', 'soups', 'snacks']
+                    'mains', 'salads', 'sides', 'soups', 'snacks', 'tips', 'reference']
+
+# Categories that don't require ingredients (informational content)
+INGREDIENT_OPTIONAL_CATEGORIES = ['tips', 'reference']
 
 VALID_CONFIDENCE = ['high', 'medium', 'low']
 
@@ -56,9 +59,13 @@ class RecipeValidator:
     def validate_recipe(self, recipe):
         """Validate a single recipe."""
         recipe_id = recipe.get('id', 'UNKNOWN')
+        category = recipe.get('category', '')
 
-        # Check required fields
+        # Check required fields (with exceptions for tips/reference categories)
         for field in REQUIRED_FIELDS:
+            # Skip ingredients/instructions requirement for tips and reference
+            if field in ['ingredients', 'instructions'] and category in INGREDIENT_OPTIONAL_CATEGORIES:
+                continue
             if field not in recipe or not recipe[field]:
                 self.error(recipe_id, f"Missing required field: {field}")
 
@@ -84,7 +91,7 @@ class RecipeValidator:
 
         # Validate instructions
         if 'instructions' in recipe:
-            self.validate_instructions(recipe_id, recipe['instructions'])
+            self.validate_instructions(recipe_id, recipe['instructions'], category)
 
         # Validate temperature
         if 'temperature' in recipe and recipe['temperature']:
@@ -156,13 +163,14 @@ class RecipeValidator:
                     if qty_float > limits['max_tsp']:
                         self.warn(recipe_id, f"Suspicious: {qty} {unit} {item} (max expected: {limits['max_tsp']} tsp)")
 
-    def validate_instructions(self, recipe_id, instructions):
+    def validate_instructions(self, recipe_id, instructions, category=''):
         """Validate instructions list."""
         if not isinstance(instructions, list):
             self.error(recipe_id, "Instructions must be a list")
             return
 
-        if len(instructions) == 0:
+        # Allow empty instructions for tips and reference categories
+        if len(instructions) == 0 and category not in INGREDIENT_OPTIONAL_CATEGORIES:
             self.error(recipe_id, "Instructions list is empty")
             return
 
