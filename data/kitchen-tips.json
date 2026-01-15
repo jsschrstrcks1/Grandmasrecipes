@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "description": "Family kitchen wisdom aggregated from all collections",
-  "last_updated": "2026-01-14",
+  "last_updated": "2026-01-15",
   "categories": [
     {
       "id": "baking-bread",
@@ -1050,42 +1050,28 @@
           "attribution": "Kitchen wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "pomegranate",
-            "pomegranate seeds"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Zest lemons before juicing - it's much easier on a whole fruit. Use a microplane or fine grater and only remove the yellow part; the white pith is bitter. One medium lemon yields about 1 tablespoon of zest. For recipes calling for both zest and juice, zest first, then roll the lemon firmly on the counter before juicing to get more juice.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "lemon",
-            "lemons",
-            "lemon zest",
-            "lemon juice"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Use pure canned pumpkin (not pumpkin pie filling, which has sugar and spices added). If mixture seems watery, spread pumpkin on paper towels for 10 minutes to absorb excess moisture. One 15-oz can equals about 1 3/4 cups. Leftover pumpkin freezes well in portions for up to 3 months.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "canned pumpkin",
-            "pumpkin"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Fresh ginger can be intimidating if you don't know how to attack it, but there's an easy solution—and it isn't the powdered stuff! Simply use a spoon to scrape the skin off all those knobby nooks and crannies. Then slice or grate according to your recipe.",
           "attribution": "Food Network Magazine - Katherine Alford",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "ginger",
-            "fresh ginger"
-          ]
+          "relatedIngredients": []
         }
       ]
     },
@@ -1225,83 +1211,49 @@
           "attribution": "Family cooking wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "asparagus"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "For eating fresh: choose yellow bananas with light brown speckles. For baking (muffins, bread): use very ripe bananas with lots of brown spots - they're sweeter and easier to mash. For cooking (fried bananas): use firm, just-yellow bananas. Green bananas are starchy and not yet sweet.",
           "attribution": "Family cooking wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "banana",
-            "bananas"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Choose pomegranates that feel heavy for their size - this indicates juicy seeds. The skin should be firm, taut, and free of cracks or soft spots. Color ranges from pink to deep red depending on variety; darker isn't necessarily riper. Ripe pomegranates should have a slightly squared shape from the seeds pressing outward.",
           "attribution": "Kitchen wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "pomegranate",
-            "pomegranate seeds"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Fish can be categorized by texture and oil content for easy substitution. White, firm and rich: Atlantic shad, Chilean sea bass, cobia, bass, Lake trout, Pacific escolar, Pomfret, Sablefish. White, lean and flaky: Atlantic croaker, Black sea bass, Branzino, Flounder, Rainbow smelt, Red snapper, Tilapia, Trout, Weakfish, Whiting. Medium color and oil rich: Amberjack, Arctic char, Coho salmon, Hawaiian kampachi, Mahimahi, Paddlefish, Pompano, Salmon/Sockeye, Wahoo, Yellowfin tuna. Dark and oil rich: Anchovies, Bluefin tuna, Grey mullet, Herring, Mackerel (Atlantic, Boston, King), Salmon (farmed, Chinook), Sardines, Skipjack tuna. White, lean and firm: Alaska pollock, Catfish, Grouper, Haddock, Pacific cod, Pacific halibut, Pacific rockfish, Pacific sand dab, Sole, Striped bass, Swordfish. Generally, you can substitute any fish within one category for another.",
           "attribution": "Cooking Light magazine - Eating Smart",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "fish",
-            "salmon",
-            "tuna",
-            "cod",
-            "tilapia",
-            "halibut",
-            "trout",
-            "catfish",
-            "flounder",
-            "snapper"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "When choosing seafood, consider sustainability. The eight safest and most sustainable fish choices are: 1. Albacore Tuna (pole- or troll-caught), 2. Catfish (farmed), 3. Cod (Pacific), 4. Halibut (Pacific), 5. Pollock, 6. Salmon (wild Alaskan), 7. Striped Bass (farmed), 8. Tilapia (farmed). These options are better for the environment and typically have lower mercury levels.",
           "attribution": "Cooking Light magazine - Environmental Defense Fund, Monterey Bay Aquarium, Harvard School of Public Health",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "fish",
-            "tuna",
-            "catfish",
-            "cod",
-            "halibut",
-            "pollock",
-            "salmon",
-            "tilapia"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Dried fruits are a healthful, portable snack with many of the same nutritional benefits as fresh counterparts. They're a quick way to add fruit to oatmeal, muffins, scones, and cookies. However, calories are concentrated so enjoy in moderation. Dried Figs (1.5 oz serving): 120 calories, 5.2g fiber, 259mg potassium. Dried Dates (1.5 oz serving): 122 calories, 3.2g fiber, 286mg potassium. A quarter-cup serving of either offers healthy amounts of potassium, which helps regulate blood pressure.",
           "attribution": "Cooking Light magazine - Kathy Kitchens Downie, RD",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "figs",
-            "dates",
-            "dried fruit"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Jicama (HEE-kah-ma) is an edible root that resembles a turnip with thin brown skin and crisp, juicy white flesh that's mild in flavor (like a cross between water chestnut and pear). Native to Mexico, it's sometimes called yam bean, Mexican turnip, or Mexican potato. PURCHASE: Find jicama year-round in produce sections and Latin American markets. Select firm, dry roots with skin that doesn't appear shriveled, bruised, or blemished. USE: Remove skin with a sharp vegetable peeler, then cut into cubes or strips. Jicama doesn't brown or become soggy after cutting, making it great for crudité platters, salads, sushi rolls (in place of cucumber), and stir-fries. It performs best with quick-cooking methods that maintain crispness. STORE: Keep unpeeled jicama in a plastic bag in the refrigerator for up to two weeks.",
           "attribution": "Cooking Light magazine - Executive Chef Billy Strynkowski",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "jicama"
-          ]
+          "relatedIngredients": []
         }
       ]
     },
@@ -1455,32 +1407,21 @@
           "attribution": "Family cooking wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "asparagus"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Don't wash berries until ready to use - moisture speeds spoilage. Store in a single layer on paper towels in a ventilated container. Strawberries last longer with stems attached. For longer storage, rinse berries in 1 part vinegar to 3 parts water, dry completely, then refrigerate.",
           "attribution": "Family cooking wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "blueberries",
-            "raspberries",
-            "strawberries",
-            "blackberries",
-            "berries"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Whole lemons last 1 week at room temperature or up to 4 weeks refrigerated. For even longer storage, place in a sealed plastic bag in the fridge - they'll last 4-6 weeks. Cut lemons should be wrapped tightly and used within 2-3 days. Freeze lemon juice in ice cube trays for long-term storage.",
           "attribution": "Kitchen wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "lemon",
-            "lemons"
-          ]
+          "relatedIngredients": []
         }
       ]
     },
@@ -1494,38 +1435,21 @@
           "attribution": "Kitchen wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "buttermilk",
-            "milk",
-            "lemon juice",
-            "vinegar"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Make your own pumpkin pie spice: 3 tbsp ground cinnamon, 2 tsp ground ginger, 2 tsp ground nutmeg, 1 tsp ground allspice, 1 tsp ground cloves. Mix well and store in an airtight container. Adjust ratios to your taste - some prefer more cinnamon, others more ginger. Freshly ground spices have the best flavor.",
           "attribution": "Kitchen wisdom",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "pumpkin pie spice",
-            "cinnamon",
-            "ginger",
-            "nutmeg",
-            "allspice",
-            "cloves"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "For 1 cup cake flour: Measure 1 cup all-purpose flour, remove 2 tablespoons, and replace with 2 tablespoons cornstarch. Sift together 3-4 times to blend well. This approximates cake flour's lower protein content, resulting in more tender cakes and muffins.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "cake flour",
-            "all-purpose flour",
-            "flour",
-            "cornstarch"
-          ]
+          "relatedIngredients": []
         }
       ]
     },
@@ -1553,112 +1477,70 @@
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "flour",
-            "muffin",
-            "batter"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "For consistent results, use the spoon-and-level method: stir flour to loosen it, spoon into measuring cup (don't scoop directly), then level with a straight edge. Scooping packs flour and can add 20-30% more than intended, making baked goods dense and dry.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "flour",
-            "all-purpose flour",
-            "cake flour",
-            "bread flour"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Room temperature eggs blend more evenly into batters, creating better texture and more volume in cakes. Cold eggs can cause butter to seize up. To quickly warm eggs: place in a bowl of warm (not hot) water for 5-10 minutes. This is especially important for creaming butter-based recipes.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "egg",
-            "eggs"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Butter should be pliable but still cool - it should hold its shape when you press it, leaving a slight indent. If it's greasy or shiny, it's too soft. Microwave in 5-second bursts, or cut into cubes and leave at room temp for 30-60 minutes. Too-soft butter won't cream properly and makes cookies spread too much.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "butter"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Beat softened butter and sugar for 3-5 minutes until light and fluffy. The mixture should be pale yellow and increased in volume. This step incorporates air for tender, light baked goods. Don't rush it - under-creaming leads to dense results. Scrape the bowl occasionally.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "butter",
-            "sugar"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "Toss berries with a tablespoon of flour before folding into batter - this helps prevent them from sinking to the bottom. For frozen berries, don't thaw first; fold them in frozen to prevent bleeding. Use a gentle folding motion (not stirring) to avoid crushing delicate berries like raspberries.",
           "attribution": "Baking fundamentals",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "blueberries",
-            "raspberries",
-            "berries",
-            "cranberries"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "For deeper flavor, toast bay leaves and paprika (or other spices) in olive oil for a few seconds before adding other ingredients. This brings out the flavor of the spice and gives the dish a delicious warm, earthy quality. This trick works with any spice: ground or whole spices like cumin seeds or cinnamon sticks. It's a simple way to maximize flavor.",
           "attribution": "Food Network Magazine - Katherine Alford",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "bay leaves",
-            "paprika",
-            "cumin",
-            "cinnamon",
-            "spices"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "When you're short on time, make a habit of piercing tougher cuts of meat with a fork before cooking. The fork breaks up the fibers, which makes the meat more tender. It also helps marinades penetrate quickly below the surface.",
           "attribution": "Food Network Magazine - Katherine Alford",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "beef",
-            "meat",
-            "steak"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "When you open a can of beans, your first step is usually to drain and rinse them. But that starchy liquid might be worth saving! It can make your dish thick, creamy, and super flavorful. Try the trick in soups and stews to give them extra body.",
           "attribution": "Food Network Magazine - Katherine Alford",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "beans",
-            "canned beans",
-            "black beans",
-            "kidney beans"
-          ]
+          "relatedIngredients": []
         },
         {
           "text": "A classic Italian meat sauce has a special ingredient that might surprise you: milk! Just ½ cup milk makes ragù rich but not too creamy, with a subtle sweetness. You probably won't taste the milk in there, but if you leave it out, you'll know that something is missing.",
           "attribution": "Food Network Magazine - Katherine Alford",
           "collection": "all",
           "relatedRecipes": [],
-          "relatedIngredients": [
-            "milk",
-            "ground beef",
-            "meat sauce",
-            "ragù"
-          ]
+          "relatedIngredients": []
         }
       ]
     },
