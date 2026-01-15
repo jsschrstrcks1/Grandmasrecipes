@@ -575,6 +575,305 @@ NUTRITION_DB = {
     'hot water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
     'cold water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
     'boiling water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # SEAFOOD (ADDITIONAL)
+    # =========================================================================
+    'scallops': {'oz': {'cal': 26, 'fat': 0.2, 'carb': 1.5, 'protein': 5, 'sodium': 137, 'fiber': 0, 'sugar': 0},
+                 'lb': {'cal': 416, 'fat': 3.2, 'carb': 24, 'protein': 80, 'sodium': 2192, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # HERBS & SPICES (ADDITIONAL)
+    # =========================================================================
+    'file powder': {'tbsp': {'cal': 10, 'fat': 0.2, 'carb': 2, 'protein': 0.2, 'sodium': 1, 'fiber': 0.5, 'sugar': 0}},
+    'capers': {'tbsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 202, 'fiber': 0.2, 'sugar': 0}},
+    'chives': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.1, 'sugar': 0}},
+    'dried herbs': {'tsp': {'cal': 3, 'fat': 0.1, 'carb': 0.6, 'protein': 0.1, 'sodium': 1, 'fiber': 0.2, 'sugar': 0}},
+    'pickling spice': {'tbsp': {'cal': 15, 'fat': 0.5, 'carb': 3, 'protein': 0.5, 'sodium': 2, 'fiber': 1, 'sugar': 0}},
+    'lime zest': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.3, 'sugar': 0.2}},
+
+    # =========================================================================
+    # FRUITS (ADDITIONAL)
+    # =========================================================================
+    'grapes': {'cup': {'cal': 104, 'fat': 0.2, 'carb': 27, 'protein': 1, 'sodium': 3, 'fiber': 1.4, 'sugar': 23}},
+    'raspberries': {'cup': {'cal': 64, 'fat': 0.8, 'carb': 15, 'protein': 1.5, 'sodium': 1, 'fiber': 8, 'sugar': 5}},
+    'fruit topping': {'cup': {'cal': 200, 'fat': 0.5, 'carb': 50, 'protein': 1, 'sodium': 10, 'fiber': 2, 'sugar': 42}},
+
+    # =========================================================================
+    # PREPARED FOODS & CONVENIENCE ITEMS
+    # =========================================================================
+    'frozen meatballs': {'oz': {'cal': 70, 'fat': 5, 'carb': 2, 'protein': 4, 'sodium': 180, 'fiber': 0, 'sugar': 0},
+                         'lb': {'cal': 1120, 'fat': 80, 'carb': 32, 'protein': 64, 'sodium': 2880, 'fiber': 0, 'sugar': 0}},
+    'pizza sauce': {'cup': {'cal': 70, 'fat': 1.5, 'carb': 12, 'protein': 2, 'sodium': 580, 'fiber': 3, 'sugar': 8}},
+    'cranberry sauce': {'cup': {'cal': 418, 'fat': 0.4, 'carb': 108, 'protein': 0.6, 'sodium': 80, 'fiber': 3, 'sugar': 100}},
+    'condensed mushroom soup': {'can': {'cal': 225, 'fat': 15, 'carb': 18, 'protein': 4, 'sodium': 1870, 'fiber': 2, 'sugar': 2}},
+    'vegetable soup mix': {'package': {'cal': 80, 'fat': 0.5, 'carb': 16, 'protein': 2, 'sodium': 2200, 'fiber': 2, 'sugar': 4}},
+    'brownie mix': {'box': {'cal': 1600, 'fat': 32, 'carb': 320, 'protein': 16, 'sodium': 800, 'fiber': 8, 'sugar': 200}},
+
+    # =========================================================================
+    # BREADS & DOUGHS (ADDITIONAL)
+    # =========================================================================
+    'refrigerated biscuits': {'each': {'cal': 100, 'fat': 3.5, 'carb': 15, 'protein': 2, 'sodium': 340, 'fiber': 0, 'sugar': 2}},
+    'flaky biscuits': {'each': {'cal': 170, 'fat': 8, 'carb': 22, 'protein': 3, 'sodium': 530, 'fiber': 1, 'sugar': 4}},
+    'hawaiian rolls': {'each': {'cal': 90, 'fat': 2.5, 'carb': 15, 'protein': 3, 'sodium': 80, 'fiber': 1, 'sugar': 5}},
+    'sandwich rolls': {'each': {'cal': 150, 'fat': 2.5, 'carb': 28, 'protein': 5, 'sodium': 270, 'fiber': 1, 'sugar': 4}},
+    'israeli couscous': {'cup': {'cal': 650, 'fat': 1, 'carb': 134, 'protein': 22, 'sodium': 10, 'fiber': 6, 'sugar': 0}},
+    'pearl couscous': {'cup': {'cal': 650, 'fat': 1, 'carb': 134, 'protein': 22, 'sodium': 10, 'fiber': 6, 'sugar': 0}},
+
+    # =========================================================================
+    # CURING & SPECIALTY SALTS
+    # =========================================================================
+    'curing salt': {'tbsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 4200, 'fiber': 0, 'sugar': 0}},
+    'tender quick': {'tbsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 4000, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # SWEETENERS (ZERO/LOW CALORIE)
+    # =========================================================================
+    'artificial sweetener': {'packet': {'cal': 0, 'fat': 0, 'carb': 1, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'sweet n low': {'packet': {'cal': 0, 'fat': 0, 'carb': 1, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # SPECIALTY GRAINS
+    # =========================================================================
+    'kashi': {'cup': {'cal': 340, 'fat': 6, 'carb': 62, 'protein': 14, 'sodium': 0, 'fiber': 12, 'sugar': 0}},
+
+    # =========================================================================
+    # PIE CRUSTS & PASTRY
+    # =========================================================================
+    'pie crust': {'each': {'cal': 650, 'fat': 40, 'carb': 64, 'protein': 8, 'sodium': 400, 'fiber': 2, 'sugar': 2}},
+    'pie shell': {'each': {'cal': 650, 'fat': 40, 'carb': 64, 'protein': 8, 'sodium': 400, 'fiber': 2, 'sugar': 2}},
+    'piecrust': {'each': {'cal': 650, 'fat': 40, 'carb': 64, 'protein': 8, 'sodium': 400, 'fiber': 2, 'sugar': 2}},
+    'pastry shell': {'each': {'cal': 650, 'fat': 40, 'carb': 64, 'protein': 8, 'sodium': 400, 'fiber': 2, 'sugar': 2}},
+
+    # =========================================================================
+    # NUTS (ADDITIONAL)
+    # =========================================================================
+    'pecan pieces': {'cup': {'cal': 753, 'fat': 78, 'carb': 15, 'protein': 10, 'sodium': 0, 'fiber': 10, 'sugar': 4}},
+    'nut meats': {'cup': {'cal': 785, 'fat': 79, 'carb': 16, 'protein': 18, 'sodium': 1, 'fiber': 8, 'sugar': 3}},
+
+    # =========================================================================
+    # SYRUPS & TOPPINGS
+    # =========================================================================
+    'light syrup': {'cup': {'cal': 400, 'fat': 0, 'carb': 100, 'protein': 0, 'sodium': 50, 'fiber': 0, 'sugar': 80}},
+    'simple syrup': {'cup': {'cal': 512, 'fat': 0, 'carb': 132, 'protein': 0, 'sodium': 2, 'fiber': 0, 'sugar': 132}},
+    'caramel sauce': {'tbsp': {'cal': 60, 'fat': 1, 'carb': 13, 'protein': 0, 'sodium': 45, 'fiber': 0, 'sugar': 12}},
+    'caramel candies': {'oz': {'cal': 108, 'fat': 2, 'carb': 22, 'protein': 1, 'sodium': 75, 'fiber': 0, 'sugar': 17}},
+    'dessert topping': {'cup': {'cal': 239, 'fat': 19, 'carb': 17, 'protein': 1, 'sodium': 5, 'fiber': 0, 'sugar': 14}},
+
+    # =========================================================================
+    # VEGETABLES (ADDITIONAL)
+    # =========================================================================
+    'green chiles': {'can': {'cal': 30, 'fat': 0, 'carb': 6, 'protein': 1, 'sodium': 400, 'fiber': 2, 'sugar': 3}},
+    'diced green chiles': {'can': {'cal': 30, 'fat': 0, 'carb': 6, 'protein': 1, 'sodium': 400, 'fiber': 2, 'sugar': 3}},
+    'frozen vegetables': {'cup': {'cal': 82, 'fat': 0.5, 'carb': 16, 'protein': 4, 'sodium': 64, 'fiber': 5, 'sugar': 4}},
+    'mixed vegetables': {'cup': {'cal': 82, 'fat': 0.5, 'carb': 16, 'protein': 4, 'sodium': 64, 'fiber': 5, 'sugar': 4}},
+
+    # =========================================================================
+    # SEASONINGS & MIXES
+    # =========================================================================
+    'taco seasoning': {'packet': {'cal': 30, 'fat': 0.5, 'carb': 6, 'protein': 1, 'sodium': 1400, 'fiber': 1, 'sugar': 1}},
+    'taco mix': {'packet': {'cal': 30, 'fat': 0.5, 'carb': 6, 'protein': 1, 'sodium': 1400, 'fiber': 1, 'sugar': 1}},
+    'cardamom': {'tsp': {'cal': 6, 'fat': 0.1, 'carb': 1.4, 'protein': 0.2, 'sodium': 0, 'fiber': 0.6, 'sugar': 0}},
+
+    # =========================================================================
+    # CEREALS (ADDITIONAL)
+    # =========================================================================
+    'instant cereal': {'cup': {'cal': 150, 'fat': 2, 'carb': 30, 'protein': 4, 'sodium': 200, 'fiber': 3, 'sugar': 6}},
+    'hot cereal': {'cup': {'cal': 150, 'fat': 2, 'carb': 30, 'protein': 4, 'sodium': 200, 'fiber': 3, 'sugar': 6}},
+
+    # =========================================================================
+    # SEAFOOD ADDITIONS
+    # =========================================================================
+    'clam juice': {'cup': {'cal': 5, 'fat': 0, 'carb': 0, 'protein': 1, 'sodium': 516, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # STARCHES (ADDITIONAL)
+    # =========================================================================
+    'tapioca': {'tbsp': {'cal': 34, 'fat': 0, 'carb': 8, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'quick-cooking tapioca': {'tbsp': {'cal': 34, 'fat': 0, 'carb': 8, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # CANDIED/CONFECTION ITEMS
+    # =========================================================================
+    'orange slices': {'oz': {'cal': 100, 'fat': 0, 'carb': 25, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 22}},
+    'candied fruit': {'cup': {'cal': 320, 'fat': 0.3, 'carb': 82, 'protein': 0.5, 'sodium': 290, 'fiber': 5, 'sugar': 73}},
+
+    # =========================================================================
+    # BAKING STARTERS & LEAVENING
+    # =========================================================================
+    'sourdough starter': {'cup': {'cal': 100, 'fat': 0.5, 'carb': 20, 'protein': 3, 'sodium': 5, 'fiber': 1, 'sugar': 0}},
+
+    # =========================================================================
+    # HERBS (ADDITIONAL)
+    # =========================================================================
+    'dried rosemary': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0, 'sodium': 1, 'fiber': 0.2, 'sugar': 0}},
+    'fresh rosemary': {'tbsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0, 'sodium': 0, 'fiber': 0.2, 'sugar': 0}},
+
+    # =========================================================================
+    # FROSTINGS & ICINGS
+    # =========================================================================
+    'frosting': {'cup': {'cal': 600, 'fat': 20, 'carb': 100, 'protein': 1, 'sodium': 200, 'fiber': 0, 'sugar': 90}},
+    'icing': {'cup': {'cal': 600, 'fat': 20, 'carb': 100, 'protein': 1, 'sodium': 200, 'fiber': 0, 'sugar': 90}},
+
+    # =========================================================================
+    # BREAD ITEMS (ADDITIONAL)
+    # =========================================================================
+    'croutons': {'cup': {'cal': 122, 'fat': 2, 'carb': 22, 'protein': 4, 'sodium': 209, 'fiber': 2, 'sugar': 2}},
+    'seasoned croutons': {'cup': {'cal': 130, 'fat': 3, 'carb': 22, 'protein': 4, 'sodium': 300, 'fiber': 1, 'sugar': 2}},
+
+    # =========================================================================
+    # CONDIMENTS & LIQUIDS (ADDITIONAL)
+    # =========================================================================
+    'pickle juice': {'cup': {'cal': 5, 'fat': 0, 'carb': 1, 'protein': 0, 'sodium': 1200, 'fiber': 0, 'sugar': 0}},
+    'teriyaki sauce': {'tbsp': {'cal': 16, 'fat': 0, 'carb': 3, 'protein': 1, 'sodium': 690, 'fiber': 0, 'sugar': 3}},
+    'hoisin sauce': {'tbsp': {'cal': 35, 'fat': 0.5, 'carb': 7, 'protein': 0.5, 'sodium': 258, 'fiber': 0.4, 'sugar': 5}},
+
+    # =========================================================================
+    # OLIVES (ADDITIONAL)
+    # =========================================================================
+    'pimiento': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 0.6, 'protein': 0.1, 'sodium': 2, 'fiber': 0.2, 'sugar': 0.4}},
+    'pimiento-stuffed olives': {'cup': {'cal': 145, 'fat': 15, 'carb': 4, 'protein': 1, 'sodium': 1500, 'fiber': 2, 'sugar': 0}},
+    'black olives': {'cup': {'cal': 142, 'fat': 13, 'carb': 8, 'protein': 1, 'sodium': 735, 'fiber': 3, 'sugar': 0}},
+    'olives': {'cup': {'cal': 145, 'fat': 15, 'carb': 4, 'protein': 1, 'sodium': 1200, 'fiber': 2, 'sugar': 0}},
+
+    # =========================================================================
+    # CEREALS & BRAN (ADDITIONAL)
+    # =========================================================================
+    'bran cereal': {'cup': {'cal': 125, 'fat': 2.5, 'carb': 37, 'protein': 9, 'sodium': 360, 'fiber': 25, 'sugar': 6}},
+    'all-bran cereal': {'cup': {'cal': 125, 'fat': 2.5, 'carb': 37, 'protein': 9, 'sodium': 360, 'fiber': 25, 'sugar': 6}},
+    'flax meal': {'tbsp': {'cal': 37, 'fat': 3, 'carb': 2, 'protein': 1.3, 'sodium': 2, 'fiber': 2, 'sugar': 0}},
+
+    # =========================================================================
+    # FATS (ADDITIONAL)
+    # =========================================================================
+    'beef suet': {'oz': {'cal': 242, 'fat': 27, 'carb': 0, 'protein': 0.4, 'sodium': 2, 'fiber': 0, 'sugar': 0}},
+    'suet': {'oz': {'cal': 242, 'fat': 27, 'carb': 0, 'protein': 0.4, 'sodium': 2, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # SPECIALTY ITEMS
+    # =========================================================================
+    'mincemeat': {'cup': {'cal': 500, 'fat': 12, 'carb': 95, 'protein': 4, 'sodium': 450, 'fiber': 4, 'sugar': 70}},
+    'asparagus liquid': {'cup': {'cal': 5, 'fat': 0, 'carb': 1, 'protein': 0, 'sodium': 400, 'fiber': 0, 'sugar': 0}},
+    'raisin broth': {'cup': {'cal': 20, 'fat': 0, 'carb': 5, 'protein': 0, 'sodium': 10, 'fiber': 0, 'sugar': 4}},
+
+    # =========================================================================
+    # BATCH 3 - PASTA
+    # =========================================================================
+    'spaghetti': {'oz': {'cal': 105, 'fat': 0.5, 'carb': 21, 'protein': 4, 'sodium': 0, 'fiber': 1, 'sugar': 1}},
+    'fettuccine': {'oz': {'cal': 105, 'fat': 0.5, 'carb': 21, 'protein': 4, 'sodium': 0, 'fiber': 1, 'sugar': 1}},
+    'linguini': {'oz': {'cal': 105, 'fat': 0.5, 'carb': 21, 'protein': 4, 'sodium': 0, 'fiber': 1, 'sugar': 1}},
+
+    # =========================================================================
+    # BATCH 3 - FISH & SEAFOOD
+    # =========================================================================
+    'tuna': {'can': {'cal': 180, 'fat': 1, 'carb': 0, 'protein': 40, 'sodium': 500, 'fiber': 0, 'sugar': 0},
+             'oz': {'cal': 30, 'fat': 0.2, 'carb': 0, 'protein': 7, 'sodium': 90, 'fiber': 0, 'sugar': 0}},
+    'anchovies': {'can': {'cal': 94, 'fat': 4, 'carb': 0, 'protein': 13, 'sodium': 2000, 'fiber': 0, 'sugar': 0},
+                  'oz': {'cal': 37, 'fat': 1.5, 'carb': 0, 'protein': 5, 'sodium': 800, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # BATCH 3 - VEGETABLES (ADDITIONAL)
+    # =========================================================================
+    'cauliflower': {'head': {'cal': 150, 'fat': 1.5, 'carb': 30, 'protein': 12, 'sodium': 180, 'fiber': 12, 'sugar': 12},
+                    'cup': {'cal': 25, 'fat': 0.3, 'carb': 5, 'protein': 2, 'sodium': 30, 'fiber': 2, 'sugar': 2}},
+    'shallots': {'cup': {'cal': 72, 'fat': 0.1, 'carb': 17, 'protein': 2.5, 'sodium': 12, 'fiber': 3, 'sugar': 8},
+                 'each': {'cal': 7, 'fat': 0, 'carb': 1.7, 'protein': 0.2, 'sodium': 1, 'fiber': 0.3, 'sugar': 1}},
+    'jalapeno': {'each': {'cal': 4, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0.5}},
+    'squash': {'cup': {'cal': 20, 'fat': 0.2, 'carb': 4, 'protein': 1, 'sodium': 2, 'fiber': 1, 'sugar': 2}},
+    'salad greens': {'cup': {'cal': 10, 'fat': 0.1, 'carb': 2, 'protein': 1, 'sodium': 10, 'fiber': 1, 'sugar': 0.5}},
+
+    # =========================================================================
+    # BATCH 3 - FRUITS (ADDITIONAL)
+    # =========================================================================
+    'blackberries': {'cup': {'cal': 62, 'fat': 0.7, 'carb': 14, 'protein': 2, 'sodium': 1, 'fiber': 8, 'sugar': 7}},
+    'orange': {'large': {'cal': 86, 'fat': 0.2, 'carb': 22, 'protein': 1.7, 'sodium': 0, 'fiber': 4.4, 'sugar': 17},
+               'each': {'cal': 62, 'fat': 0.2, 'carb': 15, 'protein': 1.2, 'sodium': 0, 'fiber': 3.1, 'sugar': 12}},
+    'dried fruit': {'cup': {'cal': 400, 'fat': 0.5, 'carb': 100, 'protein': 3, 'sodium': 15, 'fiber': 8, 'sugar': 80}},
+    'mixed fruit': {'cup': {'cal': 80, 'fat': 0.3, 'carb': 20, 'protein': 1, 'sodium': 5, 'fiber': 2, 'sugar': 16}},
+
+    # =========================================================================
+    # BATCH 3 - HERBS & SPICES (ADDITIONAL)
+    # =========================================================================
+    'sage': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0.1, 'sodium': 0, 'fiber': 0.3, 'sugar': 0}},
+    'marjoram': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0.1, 'sodium': 0, 'fiber': 0.2, 'sugar': 0}},
+    'saffron': {'pinch': {'cal': 1, 'fat': 0, 'carb': 0.2, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'caraway seeds': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1, 'protein': 0.4, 'sodium': 0, 'fiber': 0.8, 'sugar': 0}},
+    'anise seed': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1, 'protein': 0.4, 'sodium': 0, 'fiber': 0.3, 'sugar': 0}},
+    'mace': {'tsp': {'cal': 8, 'fat': 0.5, 'carb': 0.9, 'protein': 0.1, 'sodium': 1, 'fiber': 0.3, 'sugar': 0}},
+
+    # =========================================================================
+    # BATCH 3 - SAUCES (ADDITIONAL)
+    # =========================================================================
+    'enchilada sauce': {'cup': {'cal': 80, 'fat': 4, 'carb': 10, 'protein': 2, 'sodium': 1200, 'fiber': 2, 'sugar': 4}},
+    'chili sauce': {'tbsp': {'cal': 15, 'fat': 0, 'carb': 4, 'protein': 0, 'sodium': 200, 'fiber': 0, 'sugar': 3}},
+    'spaghetti sauce': {'cup': {'cal': 140, 'fat': 6, 'carb': 18, 'protein': 4, 'sodium': 800, 'fiber': 4, 'sugar': 10}},
+    'beef gravy': {'cup': {'cal': 120, 'fat': 5, 'carb': 11, 'protein': 9, 'sodium': 1200, 'fiber': 0, 'sugar': 2}},
+    'horseradish': {'tbsp': {'cal': 7, 'fat': 0, 'carb': 2, 'protein': 0.2, 'sodium': 47, 'fiber': 0.5, 'sugar': 1}},
+
+    # =========================================================================
+    # BATCH 3 - BEVERAGES & LIQUIDS (ADDITIONAL)
+    # =========================================================================
+    'vegetable juice': {'cup': {'cal': 46, 'fat': 0.2, 'carb': 10, 'protein': 1.5, 'sodium': 650, 'fiber': 2, 'sugar': 7}},
+    'light cream': {'cup': {'cal': 350, 'fat': 29, 'carb': 11, 'protein': 7, 'sodium': 100, 'fiber': 0, 'sugar': 11}},
+    'vermouth': {'oz': {'cal': 45, 'fat': 0, 'carb': 4, 'protein': 0, 'sodium': 1, 'fiber': 0, 'sugar': 1}},
+    'liqueur': {'oz': {'cal': 100, 'fat': 0, 'carb': 11, 'protein': 0, 'sodium': 2, 'fiber': 0, 'sugar': 10}},
+    'cola': {'cup': {'cal': 100, 'fat': 0, 'carb': 26, 'protein': 0, 'sodium': 15, 'fiber': 0, 'sugar': 26}},
+
+    # =========================================================================
+    # BATCH 3 - CANNED GOODS (ADDITIONAL)
+    # =========================================================================
+    'canned chili': {'cup': {'cal': 287, 'fat': 14, 'carb': 22, 'protein': 17, 'sodium': 1100, 'fiber': 6, 'sugar': 4}},
+    'limeade concentrate': {'can': {'cal': 400, 'fat': 0, 'carb': 104, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 100}},
+
+    # =========================================================================
+    # BATCH 3 - BAKING & BREAKFAST
+    # =========================================================================
+    'oat bran': {'cup': {'cal': 231, 'fat': 6.5, 'carb': 62, 'protein': 16, 'sodium': 4, 'fiber': 14, 'sugar': 1}},
+    'farina': {'cup': {'cal': 170, 'fat': 0.5, 'carb': 36, 'protein': 5, 'sodium': 0, 'fiber': 1, 'sugar': 0}},
+    'grits': {'cup': {'cal': 180, 'fat': 1, 'carb': 38, 'protein': 4, 'sodium': 0, 'fiber': 1, 'sugar': 0}},
+    'biscuit mix': {'cup': {'cal': 480, 'fat': 16, 'carb': 72, 'protein': 12, 'sodium': 1400, 'fiber': 2, 'sugar': 4}},
+    'shredded wheat': {'each': {'cal': 85, 'fat': 0.5, 'carb': 20, 'protein': 3, 'sodium': 0, 'fiber': 3, 'sugar': 0}},
+
+    # =========================================================================
+    # BATCH 3 - MEATS (ADDITIONAL)
+    # =========================================================================
+    'beef chuck': {'lb': {'cal': 1152, 'fat': 80, 'carb': 0, 'protein': 100, 'sodium': 320, 'fiber': 0, 'sugar': 0}},
+    'duck': {'lb': {'cal': 1280, 'fat': 112, 'carb': 0, 'protein': 64, 'sodium': 200, 'fiber': 0, 'sugar': 0}},
+    'frankfurter': {'each': {'cal': 150, 'fat': 13, 'carb': 2, 'protein': 5, 'sodium': 460, 'fiber': 0, 'sugar': 1}},
+
+    # =========================================================================
+    # BATCH 3 - BRAND ITEMS / MISC
+    # =========================================================================
+    'cocoa powder': {'tbsp': {'cal': 12, 'fat': 0.7, 'carb': 3, 'protein': 1, 'sodium': 1, 'fiber': 2, 'sugar': 0}},
+    'chocolate kisses': {'each': {'cal': 22, 'fat': 1.3, 'carb': 2.6, 'protein': 0.3, 'sodium': 5, 'fiber': 0.1, 'sugar': 2.4}},
+    'hershey bar': {'each': {'cal': 210, 'fat': 13, 'carb': 24, 'protein': 3, 'sodium': 35, 'fiber': 1, 'sugar': 21}},
+    'sprinkles': {'tbsp': {'cal': 60, 'fat': 2, 'carb': 10, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 8}},
+    'ice cream': {'cup': {'cal': 270, 'fat': 15, 'carb': 31, 'protein': 5, 'sodium': 80, 'fiber': 0, 'sugar': 28}},
+    'taco shells': {'each': {'cal': 60, 'fat': 3, 'carb': 8, 'protein': 1, 'sodium': 50, 'fiber': 1, 'sugar': 0}},
+    'salsa': {'cup': {'cal': 70, 'fat': 0.5, 'carb': 14, 'protein': 3, 'sodium': 1200, 'fiber': 4, 'sugar': 8}},
+    'anise extract': {'tsp': {'cal': 12, 'fat': 0, 'carb': 0.5, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'orange extract': {'tsp': {'cal': 12, 'fat': 0, 'carb': 0.5, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'strawberry preserves': {'tbsp': {'cal': 50, 'fat': 0, 'carb': 13, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 12}},
+    'shortening': {'cup': {'cal': 1810, 'fat': 205, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'whipped topping mix': {'packet': {'cal': 80, 'fat': 4, 'carb': 10, 'protein': 0, 'sodium': 50, 'fiber': 0, 'sugar': 10}},
+    'karo syrup': {'cup': {'cal': 920, 'fat': 0, 'carb': 240, 'protein': 0, 'sodium': 190, 'fiber': 0, 'sugar': 100}},
+    'dry milk powder': {'cup': {'cal': 430, 'fat': 0.6, 'carb': 62, 'protein': 43, 'sodium': 640, 'fiber': 0, 'sugar': 62}},
+    'cap n crunch cereal': {'cup': {'cal': 147, 'fat': 2, 'carb': 30, 'protein': 1.5, 'sodium': 267, 'fiber': 0.8, 'sugar': 15}},
+    'walnut pieces': {'cup': {'cal': 765, 'fat': 76, 'carb': 16, 'protein': 18, 'sodium': 2, 'fiber': 8, 'sugar': 3}},
+    'cashew pieces': {'cup': {'cal': 750, 'fat': 62, 'carb': 40, 'protein': 21, 'sodium': 16, 'fiber': 4, 'sugar': 6}},
+    'candied citron': {'cup': {'cal': 300, 'fat': 0.2, 'carb': 76, 'protein': 0.4, 'sodium': 80, 'fiber': 5, 'sugar': 70}},
+    'guava': {'cup': {'cal': 112, 'fat': 1.6, 'carb': 24, 'protein': 4, 'sodium': 3, 'fiber': 9, 'sugar': 15}},
+
+    # =========================================================================
+    # BATCH 4 - FINAL FIXES
+    # =========================================================================
+    'asparagus': {'can': {'cal': 40, 'fat': 1, 'carb': 6, 'protein': 4, 'sodium': 700, 'fiber': 3, 'sugar': 2},
+                  'cup': {'cal': 27, 'fat': 0.2, 'carb': 5, 'protein': 3, 'sodium': 3, 'fiber': 3, 'sugar': 2}},
+    'malt': {'tbsp': {'cal': 30, 'fat': 0.1, 'carb': 7, 'protein': 0.5, 'sodium': 5, 'fiber': 0, 'sugar': 4}},
+    'dandelion greens': {'cup': {'cal': 25, 'fat': 0.4, 'carb': 5, 'protein': 1.5, 'sodium': 42, 'fiber': 2, 'sugar': 0.4}},
+    'stock': {'cup': {'cal': 10, 'fat': 0, 'carb': 1, 'protein': 1, 'sodium': 400, 'fiber': 0, 'sugar': 0}},
+    'candy': {'piece': {'cal': 20, 'fat': 0.5, 'carb': 4, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 4}},
+    'filling': {'cup': {'cal': 200, 'fat': 6, 'carb': 35, 'protein': 2, 'sodium': 100, 'fiber': 1, 'sugar': 25}},
 }
 
 # Ingredient aliases for fuzzy matching
@@ -592,6 +891,245 @@ INGREDIENT_ALIASES = {
     'chicken breast halves': 'chicken breast',
     'green onion': 'green onions',
     'scallions': 'green onions',
+    # Cream variations
+    'heavy (whipping) cream': 'heavy cream',
+    'whipping cream': 'heavy cream',
+    # Herbs
+    'italian parsley': 'fresh parsley',
+    'flat leaf parsley': 'fresh parsley',
+    'flat-leaf parsley': 'fresh parsley',
+    # Citrus zest
+    'fresh lime zest': 'lime zest',
+    'fresh lemon zest': 'lemon zest',
+    # Grapes
+    'red seedless grapes': 'grapes',
+    'green grapes': 'grapes',
+    'seedless grapes': 'grapes',
+    # Berries
+    'fresh raspberries': 'raspberries',
+    'fresh blueberries': 'blueberries',
+    'fresh strawberries': 'strawberries',
+    # Prepared items
+    'whole berry cranberry sauce': 'cranberry sauce',
+    'whole cranberry sauce': 'cranberry sauce',
+    'fresh fruit or fruit topping': 'fruit topping',
+    "campbell's condensed golden mushroom soup": 'condensed mushroom soup',
+    'golden mushroom soup': 'condensed mushroom soup',
+    'cream of mushroom soup': 'condensed mushroom soup',
+    # Pickling spice
+    'whole pickling spice': 'pickling spice',
+    'mixed pickling spice': 'pickling spice',
+    'mixed pickle spice': 'pickling spice',
+    # Curing
+    "morton's tender quick": 'tender quick',
+    'mortons tender quick': 'tender quick',
+    # Sweeteners
+    "sweet 'n' low sweetener": 'sweet n low',
+    "sweet'n low": 'sweet n low',
+    'sweetener': 'sweet n low',
+    # Biscuits
+    'refrigerated grand-size flaky biscuits': 'flaky biscuits',
+    'grand-size biscuits': 'flaky biscuits',
+    'grands biscuits': 'flaky biscuits',
+    'refrigerated buttermilk biscuits': 'refrigerated biscuits',
+    # Rolls
+    "king's hawaiian sandwich rolls": 'hawaiian rolls',
+    "king's hawaiian rolls": 'hawaiian rolls',
+    'kings hawaiian rolls': 'hawaiian rolls',
+    'hawaiian sweet rolls': 'hawaiian rolls',
+    # Couscous
+    'israeli cous cous (beads)': 'israeli couscous',
+    'israeli cous cous': 'israeli couscous',
+    'cous cous': 'couscous',
+    # Brownie batter
+    'low cost brownie batter': 'brownie mix',
+    'brownie batter': 'brownie mix',
+    # Pie crusts
+    'ready-to-use rolled-out piecrust': 'pie crust',
+    'ready-to-use rolled-out piecrusts': 'pie crust',
+    'rolled-out piecrust': 'pie crust',
+    'rolled-out piecrusts': 'pie crust',
+    'unbaked 10-inch pastry shell': 'pastry shell',
+    'unbaked 9-inch pastry shell': 'pastry shell',
+    'unbaked pastry shell': 'pastry shell',
+    'graham cracker crust': 'pie crust',
+    # Nuts
+    'chopped nut meats': 'nut meats',
+    'chopped nutmeats': 'nut meats',
+    'nut meat': 'nut meats',
+    # Cereals
+    'instant ralston cereal': 'instant cereal',
+    'ralston cereal': 'instant cereal',
+    'ralston': 'instant cereal',
+    # Vegetables
+    'frozen vegetable mixture': 'frozen vegetables',
+    'frozen mixed vegetables': 'frozen vegetables',
+    # Toppings
+    'frozen dessert topping': 'dessert topping',
+    'frozen whipped topping': 'dessert topping',
+    # Candied items
+    'orange slice candy': 'orange slices',
+    'candied orange slices': 'orange slices',
+    # Brand names (margarine)
+    "shedd's spread country crock plus calcium spread": 'margarine',
+    "shedd's spread country crock": 'margarine',
+    'country crock': 'margarine',
+    # Batch 2 additions - Starters & leavening
+    'bubbly, active starter': 'sourdough starter',
+    'active starter': 'sourdough starter',
+    'active sourdough starter': 'sourdough starter',
+    # Herbs (rosemary)
+    'rosemary': 'dried rosemary',
+    'fresh rosemary leaves': 'fresh rosemary',
+    'rosemary leaves': 'dried rosemary',
+    # Citrus zest/peel
+    'grated lime peel': 'lime zest',
+    'lime peel': 'lime zest',
+    'grated lemon peel': 'lemon zest',
+    'lemon peel': 'lemon zest',
+    'grated orange peel': 'orange zest',
+    'orange peel': 'orange zest',
+    # Croutons
+    'homemade croutons': 'croutons',
+    'seasoned croutons': 'croutons',
+    'garlic croutons': 'croutons',
+    # Asian sauces
+    'mandarin jah-jan sauce': 'hoisin sauce',
+    'jah-jan sauce': 'hoisin sauce',
+    # Vegetables (stir fry)
+    'frozen stir fry vegetable mix': 'frozen vegetables',
+    'stir fry vegetables': 'frozen vegetables',
+    'stir-fry vegetables': 'frozen vegetables',
+    'green cut asparagus': 'asparagus',
+    'cut asparagus': 'asparagus',
+    'canned asparagus': 'asparagus',
+    # Cereals (bran)
+    'all-bran cereal': 'bran cereal',
+    'bran buds cereal': 'bran cereal',
+    'bran buds': 'bran cereal',
+    'all-bran': 'bran cereal',
+    # Olives
+    'stuffed olives': 'pimiento-stuffed olives',
+    'sliced black olives': 'black olives',
+    'ripe olives': 'black olives',
+    'sliced ripe olives': 'black olives',
+    # Fats
+    'beef suet': 'suet',
+    'shredded suet': 'suet',
+    # Frosting
+    'vanilla frosting': 'frosting',
+    'chocolate frosting': 'frosting',
+    'cream cheese frosting': 'frosting',
+    'prepared frosting': 'frosting',
+    # Pickle juice
+    'dill pickle juice': 'pickle juice',
+    # Batch 3 additions - Pasta
+    'wide linguini': 'linguini',
+    'thin spaghetti': 'spaghetti',
+    'angel hair pasta': 'spaghetti',
+    # Tuna
+    'solid tuna': 'tuna',
+    'white tuna': 'tuna',
+    'canned tuna': 'tuna',
+    'chunk tuna': 'tuna',
+    # Brand names - Cocoa & Chocolate
+    "hershey's cocoa": 'cocoa powder',
+    'hersheys cocoa': 'cocoa powder',
+    'unsweetened cocoa': 'cocoa powder',
+    "hershey's mini kisses": 'chocolate kisses',
+    'hersheys mini kisses': 'chocolate kisses',
+    'mini kisses': 'chocolate kisses',
+    'chocolate chips': 'chocolate kisses',
+    # Brand names - Vegetables & Sauces
+    'v8 100% vegetable juice': 'vegetable juice',
+    'v8 juice': 'vegetable juice',
+    'pace picante sauce': 'salsa',
+    'picante sauce': 'salsa',
+    'barilla italian baking sauce or marinara': 'spaghetti sauce',
+    'marinara sauce': 'spaghetti sauce',
+    'spaghetti sauce with meat': 'spaghetti sauce',
+    # Seasonings
+    'rubbed sage': 'sage',
+    'ground sage': 'sage',
+    'dried marjoram': 'marjoram',
+    'fresh marjoram': 'marjoram',
+    'vegetable seasoning': 'italian seasoning',
+    "mccormick salad herbs": 'italian seasoning',
+    # Vegetables
+    'chopped shallots': 'shallots',
+    'diced shallots': 'shallots',
+    'large cauliflower': 'cauliflower',
+    'assorted salad greens': 'salad greens',
+    'mixed greens': 'salad greens',
+    'jalapenos': 'jalapeno',
+    'jalapeno peppers': 'jalapeno',
+    # Sauces & condiments
+    'prepared horseradish': 'horseradish',
+    'prepared brown beef gravy': 'beef gravy',
+    'brown gravy': 'beef gravy',
+    # Breakfast & cereals
+    'quick-cooking grits': 'grits',
+    'instant grits': 'grits',
+    'farina (cream of wheat)': 'farina',
+    'cream of wheat': 'farina',
+    'wheatena': 'farina',
+    'captain crunch cereal': 'cap n crunch cereal',
+    "cap'n crunch": 'cap n crunch cereal',
+    'shredded-wheat biscuits': 'shredded wheat',
+    'shredded wheat biscuits': 'shredded wheat',
+    # Fruits
+    'large orange': 'orange',
+    'medium orange': 'orange',
+    # Baking
+    'biscuit/baking mix': 'biscuit mix',
+    'all-purpose biscuit baking mix': 'biscuit mix',
+    'bisquick': 'biscuit mix',
+    # Syrups
+    'white karo syrup': 'karo syrup',
+    'light karo syrup': 'karo syrup',
+    'southern cane syrup': 'karo syrup',
+    # Nuts
+    'ground nutmeats': 'walnuts',
+    'nutmeats': 'walnuts',
+    'pecan meats': 'pecans',
+    'toasted cashews': 'cashew pieces',
+    # Dairy
+    'dream whip': 'whipped topping mix',
+    # Fats & oils
+    'crisco': 'shortening',
+    'fat': 'shortening',
+    # Beverages
+    'sweet vermouth': 'vermouth',
+    'dry vermouth': 'vermouth',
+    'drambuie or other liqueur': 'liqueur',
+    'drambuie': 'liqueur',
+    'pepsi': 'cola',
+    # Misc
+    'colored sprinkles': 'sprinkles',
+    'multicolored sprinkles': 'sprinkles',
+    'hot dogs': 'frankfurter',
+    'frankfurters': 'frankfurter',
+    'crisp taco shells': 'taco shells',
+    'frozen limeade concentrate': 'limeade concentrate',
+    'lime rind': 'lime zest',
+    'key lime rind': 'lime zest',
+    'saco mix\'n drink powder': 'dry milk powder',
+    'guava sauce': 'guava',
+    'yellow food color': 'food coloring',
+    'ice cubes': 'water',
+    # Batch 4 - Final fixes
+    'green cut asparagus': 'asparagus',
+    'malt blue ribbon (malt extract)': 'malt',
+    'malt extract': 'malt',
+    'malt blue ribbon': 'malt',
+    'dandelion heads': 'dandelion greens',
+    'dandelions': 'dandelion greens',
+    'meat stock or vegetable stock': 'stock',
+    'meat stock': 'stock',
+    'vegetable stock': 'stock',
+    'assorted candies': 'candy',
+    'hard candies': 'candy',
+    'filling of choice': 'filling',
 }
 
 # Unit conversions
