@@ -1,0 +1,3205 @@
+{
+  "timestamp": "2026-01-15T20:54:09.577279",
+  "dry_run": false,
+  "merges": [
+    {
+      "canonical_id": "crispy-herb-baked-chicken",
+      "merged_id": "crispy-herb-baked-chicken-idaho",
+      "merged_source": "grandma-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cherry-dream-pie",
+      "merged_id": "cherry-dream-pie-handwritten",
+      "merged_source": "grandma-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cheese-strata-bhg",
+      "merged_id": "cheese-strata-bhg-mommom",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "poached-eggs-bhg",
+      "merged_id": "poached-eggs-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "eggnog-bhg",
+      "merged_id": "eggnog-classic",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "hot-spiced-cider",
+      "merged_id": "hot-spiced-cider-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "hot-buttered-rum",
+      "merged_id": "hot-buttered-rum-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "glogg-bhg",
+      "merged_id": "glogg-swedish-punch",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "choose-a-flavor-float",
+      "merged_id": "ice-cream-float-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "orange-breakfast-nog",
+      "merged_id": "orange-breakfast-nog-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "party-punch-base",
+      "merged_id": "party-punch-base-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "ice-cream-punch",
+      "merged_id": "ice-cream-punch-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lemonade-or-limeade",
+      "merged_id": "lemonade-or-limeade-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lime-daiquiris",
+      "merged_id": "lime-daiquiris-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "bloody-marys",
+      "merged_id": "bloody-marys-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "wine-spritzer",
+      "merged_id": "wine-spritzer-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-cream-liqueur",
+      "merged_id": "chocolate-cream-liqueur-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "grasshoppers-bhg",
+      "merged_id": "grasshoppers-cocktail",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "crunchy-party-mix",
+      "merged_id": "crunchy-party-mix-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "nachos-bhg",
+      "merged_id": "nachos-loaded",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "italian-style-popcorn",
+      "merged_id": "italian-style-popcorn-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "potato-skins-baked",
+      "merged_id": "potato-skins-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "stuffed-mushrooms-bhg",
+      "merged_id": "stuffed-mushrooms-cheddar",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chili-con-queso-bhg",
+      "merged_id": "chili-con-queso-dip",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "sour-cream-fruit-dip",
+      "merged_id": "sour-cream-fruit-dip-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "hot-cheese-dip-beer",
+      "merged_id": "hot-cheese-dip-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cream-cheese-stuffed-slices",
+      "merged_id": "cream-cheese-stuffed-slices-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "nutty-cheese-spread",
+      "merged_id": "nutty-cheese-spread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "avocado-pita-wedges",
+      "merged_id": "avocado-pita-wedges-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "sweet-and-sour-franks",
+      "merged_id": "sweet-and-sour-franks-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "rumaki",
+      "merged_id": "rumaki-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "pastry-wrapped-olives",
+      "merged_id": "pastry-wrapped-olives-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "shrimp-cocktail-bhg",
+      "merged_id": "shrimp-cocktail-classic",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "stuffed-cherry-tomatoes",
+      "merged_id": "stuffed-cherry-tomatoes-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "marinated-cheese-and-olives",
+      "merged_id": "marinated-cheese-and-olives-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lemon-and-herb-mushrooms",
+      "merged_id": "lemon-and-herb-mushrooms-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "peters-peanut-brittle-mommom",
+      "merged_id": "peters-peanut-brittle-mommom-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "opera-fudge-bhg",
+      "merged_id": "opera-fudge-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "opera-fudge-bhg",
+      "merged_id": "opera-fudge-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "remarkable-fudge-bhg",
+      "merged_id": "remarkable-fudge-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "remarkable-fudge-bhg",
+      "merged_id": "remarkable-fudge-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "penuche",
+      "merged_id": "penuche-candy",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "penuche",
+      "merged_id": "penuche-candy-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "caramels-bhg",
+      "merged_id": "caramels-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "caramels-bhg",
+      "merged_id": "caramels-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "nut-brittle-bhg",
+      "merged_id": "nut-brittle-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "toffee-butter-crunch-bhg",
+      "merged_id": "toffee-butter-crunch-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "glazed-nuts-bhg",
+      "merged_id": "glazed-nuts-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "glazed-nuts-bhg",
+      "merged_id": "glazed-nuts-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-covered-cherries-bhg",
+      "merged_id": "chocolate-covered-cherries-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fondant-bhg",
+      "merged_id": "fondant-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fondant-bhg",
+      "merged_id": "fondant-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "peanut-butter-balls-bhg",
+      "merged_id": "peanut-butter-balls-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "caramel-snappers-bhg",
+      "merged_id": "caramel-snappers-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "caramel-snappers-bhg",
+      "merged_id": "caramel-snappers-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-fudge-bhg",
+      "merged_id": "chocolate-fudge-classic",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "pralines",
+      "merged_id": "pralines-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "haystacks-candy",
+      "merged_id": "haystacks-carol-willison",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "haystacks-candy",
+      "merged_id": "haystacks-family",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "yellow-cake",
+      "merged_id": "yellow-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "white-cake-bhg",
+      "merged_id": "white-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "white-cake-bhg",
+      "merged_id": "white-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "carrot-cake",
+      "merged_id": "carrot-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "gingerbread",
+      "merged_id": "gingerbread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "banana-cake-bhg",
+      "merged_id": "banana-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "banana-cake-bhg",
+      "merged_id": "banana-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "german-chocolate-cake-bhg",
+      "merged_id": "german-chocolate-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "one-layer-chocolate-cake-bhg",
+      "merged_id": "one-layer-chocolate-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "one-layer-chocolate-cake-bhg",
+      "merged_id": "one-layer-chocolate-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fudge-cake-bhg",
+      "merged_id": "fudge-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "fudge-cake-bhg",
+      "merged_id": "fudge-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "devils-food-cake-bhg",
+      "merged_id": "devils-food-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "devils-food-cake-bhg",
+      "merged_id": "devils-food-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pound-cake",
+      "merged_id": "pound-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "sponge-cake-bhg",
+      "merged_id": "sponge-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "sponge-cake-bhg",
+      "merged_id": "sponge-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "jelly-roll-bhg",
+      "merged_id": "jelly-roll-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "jelly-roll-bhg",
+      "merged_id": "jelly-roll-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "sour-cream-pound-cake",
+      "merged_id": "sour-cream-pound-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "hot-milk-sponge-cake",
+      "merged_id": "hot-milk-sponge-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "zucchini-bread",
+      "merged_id": "zucchini-bread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pumpkin-bread",
+      "merged_id": "pumpkin-bread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "biscuits",
+      "merged_id": "biscuits-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "white-bread-bhg",
+      "merged_id": "white-bread-classic",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "rye-bread-bhg",
+      "merged_id": "rye-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "rye-bread-bhg",
+      "merged_id": "rye-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "dark-rye-bread-bhg",
+      "merged_id": "dark-rye-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "dark-rye-bread-bhg",
+      "merged_id": "dark-rye-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "sourdough-bread-bhg",
+      "merged_id": "sourdough-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cherry-sourdough-coffee-cake-bhg",
+      "merged_id": "cherry-sourdough-coffee-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cherry-sourdough-coffee-cake-bhg",
+      "merged_id": "cherry-sourdough-coffee-cake-bhg-3",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "bacon-sourdough-muffins-bhg",
+      "merged_id": "bacon-sourdough-muffins-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "bacon-sourdough-muffins-bhg",
+      "merged_id": "bacon-sourdough-muffins-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "dill-batter-bread-bhg",
+      "merged_id": "dill-batter-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "dill-batter-bread-bhg",
+      "merged_id": "dill-batter-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "dill-batter-bread-bhg",
+      "merged_id": "dill-batter-bread-bhg-3",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "egg-bread",
+      "merged_id": "egg-bread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cornmeal-bubble-ring-bhg",
+      "merged_id": "cornmeal-bubble-ring-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cornmeal-bubble-ring-bhg",
+      "merged_id": "cornmeal-bubble-ring-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-swirl-bread-bhg",
+      "merged_id": "chocolate-swirl-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "chocolate-swirl-bread-bhg",
+      "merged_id": "chocolate-swirl-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "stollen-bhg",
+      "merged_id": "stollen-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "stollen-bhg",
+      "merged_id": "stollen-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apple-streusel-ladder-loaf-bhg",
+      "merged_id": "apple-streusel-ladder-loaf-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apple-streusel-ladder-loaf-bhg",
+      "merged_id": "apple-streusel-ladder-loaf-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruit-studded-bread-bhg",
+      "merged_id": "fruit-studded-bread-julekage-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "kuchen-bhg",
+      "merged_id": "kuchen-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "english-muffins-bhg",
+      "merged_id": "english-muffins-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "english-muffins-bhg",
+      "merged_id": "english-muffins-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pita-bread-bhg",
+      "merged_id": "pita-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pita-bread-bhg",
+      "merged_id": "pita-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "dinner-rolls-bhg",
+      "merged_id": "dinner-rolls-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "dinner-rolls-bhg",
+      "merged_id": "dinner-rolls-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "wheat-and-cottage-cheese-rolls",
+      "merged_id": "wheat-and-cottage-cheese-rolls-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "wheat-and-cottage-cheese-rolls",
+      "merged_id": "wheat-cottage-cheese-rolls",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "brioche-bhg",
+      "merged_id": "brioche-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "brioche-bhg",
+      "merged_id": "brioche-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "yeast-doughnuts",
+      "merged_id": "yeast-doughnuts-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "banana-bread-bhg",
+      "merged_id": "banana-bread-quick",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "nut-bread",
+      "merged_id": "nut-bread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "berry-banana-walnut-bread-bhg",
+      "merged_id": "berry-banana-walnut-bread-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "berry-banana-walnut-bread-bhg",
+      "merged_id": "berry-banana-walnut-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "french-breakfast-puffs-bhg",
+      "merged_id": "french-breakfast-puffs-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "refrigerator-bran-muffins-bhg",
+      "merged_id": "refrigerator-bran-muffins-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "refrigerator-bran-muffins-bhg",
+      "merged_id": "refrigerator-bran-muffins-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "honey-wheat-muffins-bhg",
+      "merged_id": "honey-wheat-muffins-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "honey-wheat-muffins-bhg",
+      "merged_id": "honey-wheat-muffins-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "any-fruit-coffee-cake-bhg",
+      "merged_id": "any-fruit-coffee-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "buttermilk-coffee-cake-bhg",
+      "merged_id": "buttermilk-coffee-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "buttermilk-coffee-cake-bhg",
+      "merged_id": "buttermilk-coffee-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "applesauce-coffee-cake-bhg",
+      "merged_id": "applesauce-coffee-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "peanut-butter-coffee-cake-bhg",
+      "merged_id": "peanut-butter-coffee-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "date-orange-coffee-cake",
+      "merged_id": "date-orange-coffee-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "streusel-coffee-cake",
+      "merged_id": "streusel-coffee-cake-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "date-nut-ring",
+      "merged_id": "date-nut-ring-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cocoa-ripple-ring-bhg",
+      "merged_id": "cocoa-ripple-ring-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "berry-coffee-cake-bhg",
+      "merged_id": "berry-coffee-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "nutty-sticky-rolls-bhg",
+      "merged_id": "nutty-sticky-rolls-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "nutty-sticky-rolls-bhg",
+      "merged_id": "nutty-sticky-rolls-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "pecan-biscuit-spirals",
+      "merged_id": "pecan-biscuit-spirals-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "irish-soda-bread-bhg",
+      "merged_id": "irish-soda-bread-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "oatmeal-raisin-scones-bhg",
+      "merged_id": "oatmeal-raisin-scones-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "oatmeal-raisin-scones-bhg",
+      "merged_id": "oatmeal-raisin-scones-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "corn-fritters-bhg",
+      "merged_id": "corn-fritters-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "hush-puppies-bhg",
+      "merged_id": "hush-puppies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "sopaipillas-bhg",
+      "merged_id": "sopaipillas-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "mexican-doughnut-strips-bhg",
+      "merged_id": "mexican-doughnut-strips-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "popovers-bhg",
+      "merged_id": "popovers-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "french-toast-bhg",
+      "merged_id": "french-toast-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "waffles-bhg",
+      "merged_id": "waffles-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "waffles-bhg",
+      "merged_id": "waffles-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pancakes",
+      "merged_id": "pancakes-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "crepes-bhg",
+      "merged_id": "crepes-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "puffed-oven-pancake-bhg",
+      "merged_id": "puffed-oven-pancake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "sourdough-starter-bhg",
+      "merged_id": "sourdough-starter-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-revel-bars-bhg",
+      "merged_id": "chocolate-revel-bars-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-revel-bars-bhg",
+      "merged_id": "chocolate-revel-bars-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cake-brownies-bhg",
+      "merged_id": "cake-brownies-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cake-brownies-bhg",
+      "merged_id": "cake-brownies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "buttermilk-brownies-bhg",
+      "merged_id": "buttermilk-brownies-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "toffee-bars-bhg",
+      "merged_id": "toffee-bars-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "chocolate-chip-cookies",
+      "merged_id": "chocolate-chip-cookies-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fudge-ecstasies-bhg",
+      "merged_id": "fudge-ecstasies-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fudge-ecstasies-bhg",
+      "merged_id": "fudge-ecstasies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "drop-cookies",
+      "merged_id": "drop-cookies-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lemon-tea-cookies-bhg",
+      "merged_id": "lemon-tea-cookies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cashew-nutmeg-drops-bhg",
+      "merged_id": "cashew-nutmeg-drops-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "hermits-bhg",
+      "merged_id": "hermits-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "hermits-bhg",
+      "merged_id": "hermits-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "banana-spice-cookies-bhg",
+      "merged_id": "banana-spice-cookies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "ranger-cookies-bhg",
+      "merged_id": "ranger-cookies-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "ranger-cookies-bhg",
+      "merged_id": "ranger-cookies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "spiced-slices-bhg",
+      "merged_id": "spiced-slices-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "santas-whiskers-bhg",
+      "merged_id": "santas-whiskers-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "santas-whiskers-bhg",
+      "merged_id": "santas-whiskers-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "date-pinwheel-cookies-bhg",
+      "merged_id": "date-pinwheel-cookies-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "date-pinwheel-cookies-bhg",
+      "merged_id": "date-pinwheel-cookies-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "chocolate-coconut-pinwheels-bhg",
+      "merged_id": "chocolate-coconut-pinwheels-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-coconut-pinwheels-bhg",
+      "merged_id": "chocolate-coconut-pinwheels-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "brandy-snaps-bhg",
+      "merged_id": "brandy-snaps-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "brandy-snaps-bhg",
+      "merged_id": "brandy-snaps-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "jam-thumbprints-bhg",
+      "merged_id": "jam-thumbprints-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "jam-thumbprints-bhg",
+      "merged_id": "jam-thumbprints-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "shortbread",
+      "merged_id": "shortbread-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-crinkles-bhg",
+      "merged_id": "chocolate-crinkles-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruit-filled-oatmeal-bars-bhg",
+      "merged_id": "fruit-filled-oatmeal-bars-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruit-filled-oatmeal-bars-bhg",
+      "merged_id": "fruit-filled-oatmeal-bars-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pecan-crunch",
+      "merged_id": "pecan-crunch-bars",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "orange-date-bars",
+      "merged_id": "orange-date-bars-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "pumpkin-bars",
+      "merged_id": "pumpkin-bars-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "peanut-butter-bars",
+      "merged_id": "peanut-butter-bars-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "seven-minute-frosting",
+      "merged_id": "seven-minute-frosting-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fluffy-white-frosting",
+      "merged_id": "fluffy-white-frosting-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "huevos-rancheros-bhg",
+      "merged_id": "huevos-rancheros-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "fried-eggs-bhg",
+      "merged_id": "fried-eggs-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "scrambled-eggs-bhg",
+      "merged_id": "scrambled-eggs-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "scrambled-eggs-bhg",
+      "merged_id": "scrambled-eggs-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "french-omelet-bhg",
+      "merged_id": "french-omelet-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "french-omelet-bhg",
+      "merged_id": "french-omelet-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "eggs-in-a-puff-bhg",
+      "merged_id": "eggs-in-a-puff-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cheese-souffle-bhg",
+      "merged_id": "cheese-souffle-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cheese-souffle-bhg",
+      "merged_id": "cheese-souffle-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "spinach-puff-bhg",
+      "merged_id": "spinach-puff-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "soft-cooked-hard-cooked-eggs-bhg",
+      "merged_id": "soft-hard-cooked-eggs",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cheesy-brunch-roll-ups",
+      "merged_id": "cheesy-brunch-roll-ups-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "meatless-red-beans-and-rice-bhg",
+      "merged_id": "meatless-red-beans-and-rice-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "meatless-tacos-bhg",
+      "merged_id": "meatless-tacos-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "bean-and-cheese-burritos-bhg",
+      "merged_id": "bean-and-cheese-burritos-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "bean-and-cheese-burritos-bhg",
+      "merged_id": "bean-and-cheese-burritos-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "fettuccine-with-cheese-sauce-bhg",
+      "merged_id": "fettuccine-with-cheese-sauce-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cheese-stuffed-manicotti",
+      "merged_id": "cheese-stuffed-manicotti-bhg-mommom-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "all-seasons-pesto-spaghetti-church",
+      "merged_id": "all-seasons-pesto-spaghetti-mommom",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "peanut-sauce-family",
+      "merged_id": "peanut-sauce-pat-groen",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "orange-sauce",
+      "merged_id": "orange-sauce-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "caramel-sauce-bhg",
+      "merged_id": "caramel-sauce-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "caramel-sauce-bhg",
+      "merged_id": "caramel-sauce-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "hard-sauce-bhg",
+      "merged_id": "hard-sauce-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "whipped-cream-bhg",
+      "merged_id": "whipped-cream-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "whipped-cream-bhg",
+      "merged_id": "whipped-cream-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "crunchy-snack-bars",
+      "merged_id": "crunchy-snack-bars-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "almond-lace-rolls",
+      "merged_id": "almond-lace-rolls-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apple-dumplings-bhg",
+      "merged_id": "apple-dumplings-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apple-dumplings-bhg",
+      "merged_id": "apple-dumplings-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruit-crisp-bhg",
+      "merged_id": "fruit-crisp-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cherries-jubilee-bhg",
+      "merged_id": "cherries-jubilee-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "bananas-foster-bhg",
+      "merged_id": "bananas-foster-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "bananas-foster-bhg",
+      "merged_id": "bananas-foster-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "swedish-fruit-soup-bhg",
+      "merged_id": "swedish-fruit-soup-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "crepes-suzette-bhg",
+      "merged_id": "crepes-suzette-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "meringue-shells-bhg",
+      "merged_id": "meringue-shells-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "meringue-shells-bhg",
+      "merged_id": "meringue-shells-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-souffle-bhg",
+      "merged_id": "chocolate-souffle-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "chocolate-souffle-bhg",
+      "merged_id": "chocolate-souffle-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "strawberry-shortcake-bhg",
+      "merged_id": "strawberry-shortcake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "brownie-pudding-cake-bhg",
+      "merged_id": "brownie-pudding-cake-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "brownie-pudding-cake-bhg",
+      "merged_id": "brownie-pudding-cake-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "bread-pudding",
+      "merged_id": "bread-pudding-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "stirred-rice-pudding",
+      "merged_id": "stirred-rice-pudding-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "no-cook-vanilla-ice-cream-bhg",
+      "merged_id": "no-cook-vanilla-ice-cream-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "no-cook-vanilla-ice-cream-bhg",
+      "merged_id": "no-cook-vanilla-ice-cream-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "vanilla-ice-cream",
+      "merged_id": "vanilla-ice-cream-cooked",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lemon-sherbet-bhg",
+      "merged_id": "lemon-sherbet-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "choose-a-fruit-frozen-yogurt-bhg",
+      "merged_id": "choose-a-fruit-frozen-yogurt-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "mocha-toffee-squares-bhg",
+      "merged_id": "mocha-toffee-squares-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "frosty-strawberry-squares-bhg",
+      "merged_id": "frosty-strawberry-squares-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "frosty-strawberry-squares-bhg",
+      "merged_id": "frosty-strawberry-squares-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "ice-cream-torte",
+      "merged_id": "ice-cream-torte-bhg",
+      "merged_source": "mommom-baker",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "chocolaty-velvet-ice-cream-bhg",
+      "merged_id": "chocolaty-velvet-ice-cream-bhg-1",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolaty-velvet-ice-cream-bhg",
+      "merged_id": "chocolaty-velvet-ice-cream-bhg-2",
+      "merged_source": "mommom-baker",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "warm-and-creamy-bacon-dip",
+      "merged_id": "warm-creamy-bacon-dip",
+      "merged_source": "all",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "perritos-verdes",
+      "merged_id": "perritos-verdes-chile-bible",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "coffee-flavored-eggnog",
+      "merged_id": "coffee-flavored-eggnog-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruity-smoothie-with-ground-flax-seed",
+      "merged_id": "fruity-smoothie-with-ground-flax-seed-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruity-yogurt-smoothie",
+      "merged_id": "fruity-yogurt-smoothie-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "quick-fruity-breakfast-smoothie",
+      "merged_id": "quick-fruity-breakfast-smoothie-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "german-pancakes",
+      "merged_id": "german-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lemon-blueberry-pancakes",
+      "merged_id": "lemon-blueberry-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "silver-dollar-pancakes-ref",
+      "merged_id": "silver-dollars-pancakes",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cinnamon-spice-cakes",
+      "merged_id": "cinnamon-spice-cakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "banana-sour-cream-pancakes",
+      "merged_id": "banana-sour-cream-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cinnamon-chocolate-pancakes",
+      "merged_id": "cinnamon-chocolate-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "toasted-pecan-blueberry-pancakes",
+      "merged_id": "toasted-pecan-blueberry-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "blueberry-buckwheat-pancakes",
+      "merged_id": "blueberry-buckwheat-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "banana-blueberry-pancakes",
+      "merged_id": "banana-blueberry-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "monkey-pancakes",
+      "merged_id": "monkey-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cornmeal-and-berry-pancakes",
+      "merged_id": "cornmeal-berry-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "toasted-pecan-buttermilk-pancakes",
+      "merged_id": "toasted-pecan-buttermilk-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "autumn-spiced-pumpkin-pancakes",
+      "merged_id": "autumn-spiced-pumpkin-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "healthy-apple-wheat-pancakes",
+      "merged_id": "healthy-apple-wheat-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "citrus-blueberry-pancakes",
+      "merged_id": "citrus-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apple-ginger-pancakes",
+      "merged_id": "apple-ginger-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "oven-apple-pancakes",
+      "merged_id": "oven-apple-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "old-fashioned-belgium-waffles",
+      "merged_id": "old-fashioned-belgium-waffles-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "waffles-strawberries-whip-cream",
+      "merged_id": "waffles-strawberries-whip-cream-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "waffles-summer-berries",
+      "merged_id": "waffles-summer-berries-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "peaches-and-cream-waffles",
+      "merged_id": "peaches-cream-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "bananas-foster-waffles",
+      "merged_id": "bananas-foster-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "anise-waffles",
+      "merged_id": "anise-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "egg-white-crepes",
+      "merged_id": "egg-white-crepes-ref",
+      "merged_source": "all",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "vegan-crepes",
+      "merged_id": "vegan-crepes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "texas-eggs",
+      "merged_id": "texas-eggs-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "polenta-and-eggs",
+      "merged_id": "polenta-and-eggs-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "johnnycakes",
+      "merged_id": "johnnycakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "almond-pancakes",
+      "merged_id": "almond-pancakes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "belgian-waffles",
+      "merged_id": "belgian-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "chocolate-waffle",
+      "merged_id": "chocolate-waffle-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "quiche-basic",
+      "merged_id": "quiche-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "filled-crepes",
+      "merged_id": "filled-crepes-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cheese-souffle-cookbook",
+      "merged_id": "cheese-souffle-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "breakfast-enchiladas",
+      "merged_id": "breakfast-enchiladas-full-ref",
+      "merged_source": "all",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "sausage-twist",
+      "merged_id": "sausage-twist-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "stuffed-french-toast",
+      "merged_id": "stuffed-french-toast-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "breakfast-tacos",
+      "merged_id": "breakfast-tacos-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "breakfast-quinoa",
+      "merged_id": "breakfast-quinoa-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "french-toast-casserole",
+      "merged_id": "french-toast-casserole-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "egg-and-cheese-frittata",
+      "merged_id": "egg-cheese-frittata-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cheesy-eggs-spinach-skillet-bake",
+      "merged_id": "cheesy-eggs-spinach-skillet-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "basic-flapjacks",
+      "merged_id": "basic-flapjacks-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "traditional-hotcakes",
+      "merged_id": "traditional-hotcakes-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "breakfast-churros",
+      "merged_id": "breakfast-churros-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "chocolate-chip-porridge",
+      "merged_id": "chocolate-chip-porridge-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "fruity-latvian-breakfast",
+      "merged_id": "fruity-latvian-breakfast-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "ham-cheese-open-faced-sandwiches",
+      "merged_id": "ham-cheese-open-faced-sandwiches-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "salmon-and-rocket-sandwich",
+      "merged_id": "salmon-and-rocket-sandwich-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "spicy-breakfast-migas",
+      "merged_id": "spicy-breakfast-migas-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "southern-grits",
+      "merged_id": "southern-grits-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "bacon-and-tomato-frittata",
+      "merged_id": "bacon-and-tomato-frittata-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "broccoli-and-cheese-frittata",
+      "merged_id": "broccoli-and-cheese-frittata-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cherry-chocolate-scones",
+      "merged_id": "cherry-chocolate-scones-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apricot-scones",
+      "merged_id": "apricot-scones-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cinnamon-oat-scones",
+      "merged_id": "cinnamon-oat-scones-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pumpkin-chocolate-chip-scones",
+      "merged_id": "pumpkin-chocolate-chip-scones-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "apple-cheddar-muffins",
+      "merged_id": "apple-cheddar-muffins-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "banana-cinnamon-muffins",
+      "merged_id": "banana-cinnamon-muffins-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "raisin-bran-muffins",
+      "merged_id": "raisin-bran-muffins-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "raspberry-cheesecake-poppy-seed-muffins",
+      "merged_id": "raspberry-cheesecake-poppy-seed-muffins-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "nutella-muffins",
+      "merged_id": "nutella-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "eggnog-muffins",
+      "merged_id": "eggnog-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "coconut-muffins",
+      "merged_id": "coconut-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "hash-brown-frittata",
+      "merged_id": "hash-brown-frittata-ref",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "gingerbread-waffles",
+      "merged_id": "gingerbread-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "norwegian-waffles",
+      "merged_id": "norwegian-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cornmeal-waffles",
+      "merged_id": "cornmeal-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "banana-waffles",
+      "merged_id": "banana-waffles-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "egg-chops-gutenberg",
+      "merged_id": "egg-chops-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "eggs-scrambled-with-fresh-tomatoes-gutenberg",
+      "merged_id": "eggs-scrambled-with-fresh-tomatoes-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "scrambled-eggs-with-asparagus-tips-gutenberg",
+      "merged_id": "scrambled-eggs-with-asparagus-tips-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "omelet-with-potatoes-gutenberg",
+      "merged_id": "omelet-with-potatoes-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "omelet-a-la-duchesse-gutenberg",
+      "merged_id": "omelet-a-la-duchesse-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "poppy-seed-muffins",
+      "merged_id": "poppy-seed-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "orange-cinnamon-muffins",
+      "merged_id": "orange-cinnamon-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "cheesy-corn-muffins",
+      "merged_id": "cheesy-corn-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "lemon-raspberry-almond-muffins",
+      "merged_id": "lemon-raspberry-almond-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "apple-white-chocolate-muffins",
+      "merged_id": "apple-white-chocolate-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "peanut-butter-and-jelly-muffins",
+      "merged_id": "peanut-butter-jelly-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "bacon-cheese-muffins",
+      "merged_id": "bacon-cheese-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "raspberry-lemon-muffins",
+      "merged_id": "raspberry-lemon-muffins-ref",
+      "merged_source": "all",
+      "reason": "High ingredient and instruction match"
+    },
+    {
+      "canonical_id": "chai-spiced-muffins",
+      "merged_id": "chai-spiced-muffins-ref",
+      "merged_source": "all",
+      "reason": "Same source duplicate (OCR/import variation)"
+    },
+    {
+      "canonical_id": "deviled-egg-salad-gutenberg",
+      "merged_id": "deviled-egg-salad-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "sour-cream-chocolate-cake",
+      "merged_id": "sour-cream-chocolate-cake-daisy",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "sweet-ravioli-gutenberg",
+      "merged_id": "sweet-ravioli-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "polenta-cake-gutenberg",
+      "merged_id": "polenta-cake-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "gnocchi-of-milka-dessert-gutenberg",
+      "merged_id": "gnocchi-of-milka-dessert-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "egg-pudding-gutenberg",
+      "merged_id": "egg-pudding-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "macaroni-with-tomato-sauce-gutenberg",
+      "merged_id": "macaroni-with-tomato-sauce-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "ravioli-of-curds-and-spinach-gutenberg",
+      "merged_id": "ravioli-of-curds-and-spinach-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "sauce-bechamel-gutenberg",
+      "merged_id": "sauce-bechamel-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "cream-or-white-sauce-gutenberg",
+      "merged_id": "cream-or-white-sauce-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "brown-butter-sauce-gutenberg",
+      "merged_id": "brown-butter-sauce-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "sauce-perigueux-gutenberg",
+      "merged_id": "sauce-perigueux-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "broccoli-chicken-noodle-soup-lighten-up",
+      "merged_id": "broccoli-chicken-noodle-soup-lightened",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "beef-soup-stock-gutenberg",
+      "merged_id": "beef-soup-stock-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "rice-soup-gutenberg",
+      "merged_id": "rice-soup-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "stracciatella-soup-gutenberg",
+      "merged_id": "stracciatella-soup-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "vegetable-chowder-gutenberg",
+      "merged_id": "vegetable-chowder-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lentil-soup-gutenberg",
+      "merged_id": "lentil-soup-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "lettuce-soup-gutenberg",
+      "merged_id": "lettuce-soup-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "pumpkin-soup-gutenberg",
+      "merged_id": "pumpkin-soup-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "french-onion-burgers",
+      "merged_id": "french-onion-burgers-campbells",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "ribbon-macaroni-gutenberg",
+      "merged_id": "ribbon-macaroni-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "rice-with-peas-gutenberg",
+      "merged_id": "rice-with-peas-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "rice-alla-romana-gutenberg",
+      "merged_id": "rice-alla-romana-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "polenta-gutenberg",
+      "merged_id": "polenta-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "polenta-alla-toscana-gutenberg",
+      "merged_id": "polenta-alla-toscana-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "polenta-pasticciata-gutenberg",
+      "merged_id": "polenta-pasticciata-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "gnocchi-of-farina-gutenberg",
+      "merged_id": "gnocchi-of-farina-gutenberg-6385",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "english-drawn-butter-gutenberg",
+      "merged_id": "english-drawn-butter-gutenberg-6429",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "recipe-via-meal-master-v-800-backcountr",
+      "merged_id": "recipe-via-meal-master-v-800-thebackcou",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "8-t-butter-or-margarine-4-t-garli-g-backcountr",
+      "merged_id": "8-t-butter-or-margarine-4-t-garli-g-thebackcou",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    },
+    {
+      "canonical_id": "c-broccoli-chopped-c-celery-root-ch-backcountr",
+      "merged_id": "c-broccoli-chopped-c-celery-root-ch-thebackcou",
+      "merged_source": "all",
+      "reason": "Near-identical recipe (transcription variation)"
+    }
+  ],
+  "variants_linked": [
+    {
+      "variant_id": "mystery-pecan-pie-chefs-garden",
+      "canonical_id": "mystery-pecan-pie",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "beef-jerky-homemade",
+      "canonical_id": "beef-jerky",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "carrot-date-salad-gorgonzola-mommom",
+      "canonical_id": "carrot-date-salad-gorgonzola",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "blueberry-muffins-gutenberg",
+      "canonical_id": "blueberry-muffins-handwritten",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "smoked-fish-brine-v2",
+      "canonical_id": "smoked-fish-brine",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "sheila-farris-chocolate-pie-family-circle",
+      "canonical_id": "sheila-farris-chocolate-pie-clipping",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "bread-butter-pickles-handwritten",
+      "canonical_id": "bread-and-butter-pickles-handwritten",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cheese-strata-bhg-2",
+      "canonical_id": "cheese-strata-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "cheese-strata-bhg-mommom-2",
+      "canonical_id": "cheese-strata-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "creamy-poached-eggs-bhg-mommom-2",
+      "canonical_id": "creamy-poached-eggs-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "hot-chocolate-homemade",
+      "canonical_id": "hot-chocolate-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fruity-yogurt-sipper-bhg",
+      "canonical_id": "fruity-yogurt-sipper",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "slushy-punch-bhg",
+      "canonical_id": "slushy-punch",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "margaritas-bhg",
+      "canonical_id": "margaritas",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "tomato-juice-cocktail-bhg-mommom",
+      "canonical_id": "tomato-juice-cocktail",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "tomato-juice-cocktail-bhg-mommom-2",
+      "canonical_id": "tomato-juice-cocktail",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cheese-fondue-bhg-2",
+      "canonical_id": "cheese-fondue-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "creamy-cheese-fondue-bhg-mommom",
+      "canonical_id": "creamy-cheese-fondue",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "toasted-chili-nuts-bhg",
+      "canonical_id": "toasted-chili-nuts",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "guacamole-classic",
+      "canonical_id": "guacamole-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "cheese-and-pesto-spread-bhg",
+      "canonical_id": "cheese-and-pesto-spread",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "eight-layer-spread-bhg",
+      "canonical_id": "eight-layer-spread",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "mustard-glazed-ribs-bhg",
+      "canonical_id": "mustard-glazed-ribs",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "barbecue-style-chicken-wings-bhg",
+      "canonical_id": "barbecue-style-chicken-wings",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cheese-twists-savory",
+      "canonical_id": "cheese-twists-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "spinach-phyllo-triangles-bhg",
+      "canonical_id": "spinach-phyllo-triangles",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fried-cheese-sticks",
+      "canonical_id": "fried-cheese-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "old-time-fudge-bhg-1",
+      "canonical_id": "old-time-fudge-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "old-time-fudge-bhg-2",
+      "canonical_id": "old-time-fudge-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "truffles-bhg-1",
+      "canonical_id": "truffles-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "peanut-clusters-bhg-1",
+      "canonical_id": "peanut-clusters-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cream-cheese-mints-bhg-1",
+      "canonical_id": "cream-cheese-mints-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "divinity-bhg",
+      "canonical_id": "divinity",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "peach-jam-bhg",
+      "canonical_id": "peach-jam",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "orange-marmalade-bhg",
+      "canonical_id": "orange-marmalade",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "apple-butter-bhg",
+      "canonical_id": "apple-butter",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "busy-day-cake-bhg-1",
+      "canonical_id": "busy-day-cake-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "german-chocolate-cake-bhg-2",
+      "canonical_id": "german-chocolate-cake-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fruitcake-bhg",
+      "canonical_id": "fruitcake",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "pumpkin-molasses-cake-bhg",
+      "canonical_id": "pumpkin-molasses-cake",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "date-cake-bhg",
+      "canonical_id": "date-cake",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "nut-torte-bhg",
+      "canonical_id": "nut-torte",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "sourdough-bread-bhg-2",
+      "canonical_id": "sourdough-bread-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cherry-sourdough-coffee-cake-bhg-1",
+      "canonical_id": "cherry-sourdough-coffee-cake-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "bacon-sourdough-muffins-bhg-3",
+      "canonical_id": "bacon-sourdough-muffins-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "kuchen-bhg-1",
+      "canonical_id": "kuchen-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "bagels-bhg-2",
+      "canonical_id": "bagels-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "sweet-rolls-bhg-1",
+      "canonical_id": "sweet-rolls-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "sweet-rolls-bhg-2",
+      "canonical_id": "sweet-rolls-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "croissants-bhg-1",
+      "canonical_id": "croissants-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "croissants-bhg-2",
+      "canonical_id": "croissants-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cinnamon-crisps-bhg",
+      "canonical_id": "cinnamon-crisps",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "coconut-cherry-carrot-bread-bhg",
+      "canonical_id": "coconut-cherry-carrot-bread",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "muffins-basic-bhg-2",
+      "canonical_id": "muffins-basic-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "muffins-bhg",
+      "canonical_id": "muffins-basic-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "french-breakfast-puffs-bhg-1",
+      "canonical_id": "french-breakfast-puffs-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "any-fruit-coffee-cake-bhg-1",
+      "canonical_id": "any-fruit-coffee-cake-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "applesauce-coffee-cake-bhg-1",
+      "canonical_id": "applesauce-coffee-cake-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "peanut-butter-coffee-cake-bhg-1",
+      "canonical_id": "peanut-butter-coffee-cake-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cocoa-ripple-ring-bhg-2",
+      "canonical_id": "cocoa-ripple-ring-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "berry-coffee-cake-bhg-2",
+      "canonical_id": "berry-coffee-cake-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "easy-biscuit-mix-bhg",
+      "canonical_id": "easy-biscuit-mix",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "apple-cheese-biscuits-bhg",
+      "canonical_id": "apple-cheese-biscuits",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "irish-soda-bread-bhg-1",
+      "canonical_id": "irish-soda-bread-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cake-doughnuts-bhg-2",
+      "canonical_id": "cake-doughnuts-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "corn-fritters-bhg-1",
+      "canonical_id": "corn-fritters-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "hush-puppies-bhg-1",
+      "canonical_id": "hush-puppies-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "sopaipillas-bhg-1",
+      "canonical_id": "sopaipillas-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "mexican-doughnut-strips-bhg-1",
+      "canonical_id": "mexican-doughnut-strips-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "popovers-bhg-1",
+      "canonical_id": "popovers-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "caramel-nut-pinwheels-bhg",
+      "canonical_id": "caramel-nut-pinwheels",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "crepes-bhg-2",
+      "canonical_id": "crepes-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fudge-brownies-bhg-1",
+      "canonical_id": "fudge-brownies-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fudge-brownies-bhg-2",
+      "canonical_id": "fudge-brownies-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "buttermilk-brownies-bhg-2",
+      "canonical_id": "buttermilk-brownies-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "toffee-bars-bhg-1",
+      "canonical_id": "toffee-bars-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "coconut-macaroons-mommom",
+      "canonical_id": "coconut-macaroons-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "orange-chocolate-slices-bhg-2",
+      "canonical_id": "orange-chocolate-slices-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "tiny-tarts-bhg-1",
+      "canonical_id": "tiny-tarts-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "crispy-cereal-squares-bhg-1",
+      "canonical_id": "crispy-cereal-squares-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "crispy-cereal-squares-bhg-2",
+      "canonical_id": "crispy-cereal-squares-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "granola-bars-bhg-1",
+      "canonical_id": "granola-bars-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "granola-bars-bhg-2",
+      "canonical_id": "granola-bars-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "christmas-tree-cookies-bhg",
+      "canonical_id": "christmas-tree-cookies",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "gingerbread-men-cookies",
+      "canonical_id": "gingerbread-men-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "creamy-white-frosting-bhg",
+      "canonical_id": "creamy-white-frosting",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "butter-frosting-bhg-2",
+      "canonical_id": "butter-frosting-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "chocolate-sour-cream-frosting-bhg",
+      "canonical_id": "chocolate-sour-cream-frosting",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "coconut-pecan-frosting-bhg-2",
+      "canonical_id": "coconut-pecan-frosting-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "penuche-frosting-bhg",
+      "canonical_id": "penuche-frosting",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "lemon-filling-bhg-2",
+      "canonical_id": "lemon-filling-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "dijon-mustard-fillets-bhg",
+      "canonical_id": "dijon-mustard-fillets",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fish-with-beer-cheese-sauce-bhg-1",
+      "canonical_id": "fish-with-beer-cheese-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "baked-fish-with-mushrooms-bhg-1",
+      "canonical_id": "baked-fish-with-mushrooms-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fish-en-papillote-bhg-1",
+      "canonical_id": "fish-en-papillote-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fish-en-papillote-bhg-2",
+      "canonical_id": "fish-en-papillote-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "poached-fish-with-dill-sauce-bhg-1",
+      "canonical_id": "poached-fish-with-dill-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "trout-amandine-bhg-1",
+      "canonical_id": "trout-amandine-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "deviled-eggs-bhg-1",
+      "canonical_id": "deviled-eggs-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "deviled-eggs-bhg-2",
+      "canonical_id": "deviled-eggs-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "baked-eggs-bhg-1",
+      "canonical_id": "baked-eggs-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "baked-eggs-bhg-2",
+      "canonical_id": "baked-eggs-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "farmers-breakfast-bhg-1",
+      "canonical_id": "farmers-breakfast-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "farmers-breakfast-bhg-2",
+      "canonical_id": "farmers-breakfast-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "denver-omelet-bhg-1",
+      "canonical_id": "denver-omelet-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "choose-a-flavor-quiche-bhg-1",
+      "canonical_id": "choose-a-flavor-quiche-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "choose-a-flavor-quiche-bhg-2",
+      "canonical_id": "choose-a-flavor-quiche-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "scrambled-egg-casserole-bhg-1",
+      "canonical_id": "scrambled-egg-casserole-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "scrambled-egg-casserole-bhg-2",
+      "canonical_id": "scrambled-egg-casserole-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "eggs-in-a-puff-bhg-2",
+      "canonical_id": "eggs-in-a-puff-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "egg-pita-sandwiches-bhg-1",
+      "canonical_id": "egg-pita-sandwiches-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "frittata-bhg-1",
+      "canonical_id": "frittata-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "frittata-bhg-2",
+      "canonical_id": "frittata-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "vegetable-souffle-bhg-1",
+      "canonical_id": "vegetable-souffle-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "asparagus-egg-casserole-bhg",
+      "canonical_id": "asparagus-egg-casserole",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "spinach-egg-casserole-bhg",
+      "canonical_id": "spinach-egg-casserole",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "meatless-red-beans-and-rice-bhg-1",
+      "canonical_id": "meatless-red-beans-and-rice-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fettuccine-with-cheese-sauce-bhg-mommom",
+      "canonical_id": "fettuccine-with-cheese-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "bacon-double-cheese-quiche-gahb-v",
+      "canonical_id": "bacon-double-cheese-quiche-gahb-mommom",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "cheese-stuffed-manicotti-bhg-mommom",
+      "canonical_id": "cheese-stuffed-manicotti",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "seafood-specialty-mommom",
+      "canonical_id": "seafood-specialty-church",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "beef-manicotti-mommom",
+      "canonical_id": "beef-manicotti-church",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fruit-sauce-dessert",
+      "canonical_id": "fruit-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "vanilla-sauce-bhg-1",
+      "canonical_id": "vanilla-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "vanilla-sauce-bhg-2",
+      "canonical_id": "vanilla-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "whiskey-sauce-bhg-1",
+      "canonical_id": "whiskey-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "whiskey-sauce-bhg-2",
+      "canonical_id": "whiskey-sauce-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "poached-pears-bhg-1",
+      "canonical_id": "poached-pears-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "poached-pears-bhg-2",
+      "canonical_id": "poached-pears-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "baked-apples-bhg",
+      "canonical_id": "baked-apples",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fruit-crisp-bhg-2",
+      "canonical_id": "fruit-crisp-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "cherries-jubilee-bhg-1",
+      "canonical_id": "cherries-jubilee-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "fresh-fruit-bowl-bhg-1",
+      "canonical_id": "fresh-fruit-bowl-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fresh-fruit-bowl-bhg-2",
+      "canonical_id": "fresh-fruit-bowl-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "swedish-fruit-soup-bhg-1",
+      "canonical_id": "swedish-fruit-soup-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "crepes-suzette-bhg-1",
+      "canonical_id": "crepes-suzette-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "baked-alaska-bhg-2",
+      "canonical_id": "baked-alaska-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cheesecake-supreme-bhg-2",
+      "canonical_id": "cheesecake-supreme-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "strawberry-shortcake-bhg-1",
+      "canonical_id": "strawberry-shortcake-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "holiday-baked-apples-family",
+      "canonical_id": "holiday-baked-apples",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "hot-fudge-topping-family",
+      "canonical_id": "hot-fudge-topping",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "chocolate-mousse-cake-bhg-2",
+      "canonical_id": "chocolate-mousse-cake-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "plum-pudding-bhg-1",
+      "canonical_id": "plum-pudding-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "vanilla-pudding-bhg-1",
+      "canonical_id": "vanilla-pudding-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "vanilla-pudding-bhg-2",
+      "canonical_id": "vanilla-pudding-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cream-puffs-bhg-2",
+      "canonical_id": "cream-puffs-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "stirred-custard-bhg-1",
+      "canonical_id": "stirred-custard-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "stirred-custard-bhg-2",
+      "canonical_id": "stirred-custard-bhg",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "trifle-bhg-2",
+      "canonical_id": "trifle-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "vanilla-ice-cream-bhg",
+      "canonical_id": "vanilla-ice-cream",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "lemon-sherbet-bhg-1",
+      "canonical_id": "lemon-sherbet-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fruit-ice-bhg-2",
+      "canonical_id": "fruit-ice-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "mocha-toffee-squares-bhg-1",
+      "canonical_id": "mocha-toffee-squares-bhg",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "poppy-seed-pinwheels-bhg",
+      "canonical_id": "poppy-seed-pinwheels",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "filbert-cookie-rafts-bhg",
+      "canonical_id": "filbert-cookie-rafts",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "frosted-snowmen-bhg",
+      "canonical_id": "frosted-snowmen",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "people-chow-mommom-2",
+      "canonical_id": "people-chow-mommom",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "maple-walnut-waffles-ref",
+      "canonical_id": "maple-walnut-waffles",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "apple-cinnamon-waffles-ref",
+      "canonical_id": "apple-cinnamon-waffles",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "traditional-crepes-ref",
+      "canonical_id": "traditional-crepes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "vanilla-crepes-ref",
+      "canonical_id": "vanilla-crepes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "strawberry-crepes-ref",
+      "canonical_id": "strawberry-crepes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "raspberry-crepes-ref",
+      "canonical_id": "raspberry-crepes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "blueberry-crepes-ref",
+      "canonical_id": "blueberry-crepes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "chocolate-hazelnut-crepes-ref",
+      "canonical_id": "chocolate-hazelnut-crepes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "egg-croquettes-ref",
+      "canonical_id": "egg-croquettes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "mexican-eggs-ref",
+      "canonical_id": "mexican-eggs",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "eggs-and-spinach-ref",
+      "canonical_id": "eggs-and-spinach",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "apple-pancakes-ref",
+      "canonical_id": "apple-pancakes",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "ham-cheese-souffle-ref",
+      "canonical_id": "ham-and-cheese-souffle",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "french-toast-souffle-ref",
+      "canonical_id": "french-toast-souffle",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "sausage-cheese-breakfast-pizza-ref",
+      "canonical_id": "sausage-cheese-breakfast-pizza",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "ham-cheese-muffins-ref",
+      "canonical_id": "ham-and-cheese-muffins",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "breakfast-parfait-ref",
+      "canonical_id": "breakfast-parfait",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "breakfast-calzone-ref",
+      "canonical_id": "breakfast-calzone",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "pancake-fruit-kabobs-ref",
+      "canonical_id": "pancake-fruit-kabobs",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "overnight-egg-sausage-bake-ref",
+      "canonical_id": "overnight-egg-sausage-bake",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "apple-pie-french-toast-ref",
+      "canonical_id": "apple-pie-french-toast",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "creamy-cheesy-french-toasts-ref",
+      "canonical_id": "creamy-cheesy-french-toasts",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "creamy-banana-cereal-ref",
+      "canonical_id": "creamy-banana-cereal",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "english-crumpets-ref",
+      "canonical_id": "english-crumpets",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "fruity-breakfast-sandwich-ref",
+      "canonical_id": "fruity-breakfast-sandwich",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "triple-threat-berry-muffins-ref",
+      "canonical_id": "triple-threat-berry-muffins",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "ginger-lemon-muffins-ref",
+      "canonical_id": "ginger-lemon-muffins",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "cinnamon-spice-muffins",
+      "canonical_id": "cinnamon-and-spice-muffins",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "apple-cranberry-muffins-ref",
+      "canonical_id": "apple-cranberry-muffins",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "cherry-chocolate-muffins-ref",
+      "canonical_id": "cherry-chocolate-muffins",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "candy-cane-muffins-ref",
+      "canonical_id": "candy-cane-muffins",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "maple-bacon-muffins-ref",
+      "canonical_id": "maple-bacon-muffins",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "shepherds-cheese-bake-ancients",
+      "canonical_id": "shepherds-cheese-bake",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "peach-muffins-ref",
+      "canonical_id": "peach-muffins",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "peanut-butter-banana-muffins-ref",
+      "canonical_id": "peanut-butter-banana-muffins",
+      "reason": "Same ingredients, different quantities"
+    },
+    {
+      "variant_id": "amaretto-muffins-ref",
+      "canonical_id": "amaretto-muffins",
+      "reason": "Similar recipe with variations"
+    },
+    {
+      "variant_id": "apple-and-eve-beets-ancients",
+      "canonical_id": "apple-and-eve-beets",
+      "reason": "Similar recipe with variations"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "recipes_merged": 370,
+    "recipes_deleted": 370,
+    "variants_linked": 194,
+    "errors": 0
+  }
+}
