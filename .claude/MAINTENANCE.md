@@ -771,6 +771,7 @@ After a repo adopts sharding, update `REMOTE_COLLECTIONS` in:
 | Validate recipes | `python scripts/validate-recipes.py` |
 | Process new images | `python scripts/process_images.py` |
 | Check image status | `python scripts/image_safeguards.py status` |
+| Rebuild recipe index | `python scripts/generate_index.py` |
 | Rebuild ingredient index | `python scripts/build-ingredient-index.py` |
 | Rebuild search | `python scripts/build-pagefind.py` |
 | Aggregate recipes | `python scripts/aggregate_collections.py` |
@@ -804,6 +805,7 @@ python scripts/build-pagefind.py
 python scripts/aggregate_collections.py   # Fetch all family recipes
 python scripts/aggregate_tips.py          # Fetch all family tips
 python scripts/validate-recipes.py        # Validate merged recipes
+python scripts/generate_index.py          # Rebuild lightweight recipe index (CRITICAL for correct counts!)
 python scripts/build-ingredient-index.py  # Rebuild ingredient index
 python scripts/build-pagefind.py          # Rebuild search index
 ```
