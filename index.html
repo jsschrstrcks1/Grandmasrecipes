@@ -65,6 +65,28 @@
           <p class="ingredient-search-subtitle">Enter ingredients you have on hand</p>
         </div>
 
+        <!-- Collapsible Help Card -->
+        <details class="search-help-card">
+          <summary class="search-help-toggle">
+            <span class="help-icon">?</span>
+            <span>How to use this search</span>
+          </summary>
+          <div class="search-help-content">
+            <p><strong>This search finds recipes two ways:</strong></p>
+            <ul>
+              <li><strong>By ingredient</strong> - Type what you have (chicken, pasta, etc.) and find recipes you can make</li>
+              <li><strong>By recipe name</strong> - Type a dish name (enchiladas, lasagna, etc.) to find matching recipes</li>
+            </ul>
+            <p><strong>Tips:</strong></p>
+            <ul>
+              <li>Ingredient pills appear in <span class="help-pill-example ingredient">coral</span></li>
+              <li>Recipe search terms appear in <span class="help-pill-example keyword">teal</span></li>
+              <li>Combine both! Add "chicken" + search "enchilada" to find chicken enchiladas</li>
+              <li>Click a recipe name in the dropdown to go directly to that recipe</li>
+            </ul>
+          </div>
+        </details>
+
         <!-- Layer 1: Simple Input (Default) -->
         <div class="ingredient-input-wrapper">
           <div class="ingredient-input-container">
@@ -72,8 +94,8 @@
               type="text"
               id="ingredient-input"
               class="ingredient-input"
-              placeholder="Type an ingredient..."
-              aria-label="Search by ingredients"
+              placeholder="Search ingredients or recipes..."
+              aria-label="Search by ingredients or recipe name"
               autocomplete="off"
             >
             <div id="ingredient-autocomplete" class="ingredient-autocomplete hidden" role="listbox"></div>
