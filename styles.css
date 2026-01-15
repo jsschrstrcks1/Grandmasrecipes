@@ -2048,6 +2048,95 @@ main {
   color: var(--color-teal-dark);
 }
 
+/* Search Help Card (collapsible) */
+.search-help-card {
+  margin: var(--spacing-md) auto;
+  max-width: 500px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  overflow: hidden;
+}
+
+.search-help-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  color: var(--color-cream);
+  font-size: 0.9rem;
+  list-style: none;
+  transition: background-color 0.2s ease;
+}
+
+.search-help-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.search-help-toggle:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.search-help-card[open] .search-help-toggle {
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: var(--color-teal);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.search-help-content {
+  padding: var(--spacing-md);
+  font-size: 0.85rem;
+  color: var(--color-cream);
+  line-height: 1.5;
+}
+
+.search-help-content p {
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.search-help-content ul {
+  margin: 0 0 var(--spacing-sm) 0;
+  padding-left: var(--spacing-lg);
+}
+
+.search-help-content li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.search-help-content li:last-child {
+  margin-bottom: 0;
+}
+
+.help-pill-example {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.help-pill-example.ingredient {
+  background: var(--color-coral);
+  color: white;
+}
+
+.help-pill-example.keyword {
+  background: var(--color-teal);
+  color: white;
+}
+
 /* Selected ingredients pills */
 .selected-ingredients {
   display: flex;
