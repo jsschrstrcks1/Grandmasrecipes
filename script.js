@@ -259,58 +259,96 @@ async function loadRecipes() {
 
 /**
  * Load full recipe details on demand (for detail page)
+ * Uses category-based sharding to avoid loading all recipes at once.
  */
-let fullRecipesLoading = null;
+let localShardCache = {};      // { category: recipes[] }
+let loadingShards = {};        // Track in-progress shard loads
+
 async function loadFullRecipe(recipeId) {
   // Check cache first
   if (fullRecipesCache[recipeId]) {
     return fullRecipesCache[recipeId];
   }
 
-  // Load full recipes file if not already loading
-  if (!fullRecipesLoading) {
-    fullRecipesLoading = (async () => {
-      try {
-        const response = await fetch('data/recipes_master.json');
-        const data = await response.json();
-        const fullRecipes = data.recipes || [];
+  // Find the recipe in the index to get its category
+  const indexEntry = recipes.find(r => r.id === recipeId);
+  if (!indexEntry) {
+    console.warn(`Recipe ${recipeId} not found in index`);
+    return null;
+  }
 
-        // Cache all recipes
-        fullRecipes.forEach(r => {
+  const category = indexEntry.category;
+  const collection = indexEntry.collection;
+
+  // All recipes (local and aggregated remote) are in local category shards
+  // The shards contain the full aggregated data from all collections
+  return await loadLocalShardRecipe(recipeId, category);
+}
+
+/**
+ * Load a recipe from local category shards
+ */
+async function loadLocalShardRecipe(recipeId, category) {
+  // Check if already cached
+  if (fullRecipesCache[recipeId]) {
+    return fullRecipesCache[recipeId];
+  }
+
+  // Check if shard is already loaded
+  if (localShardCache[category]) {
+    const recipe = localShardCache[category].find(r => r.id === recipeId);
+    if (recipe) {
+      fullRecipesCache[recipeId] = recipe;
+      return recipe;
+    }
+  }
+
+  // Load the category shard
+  if (!loadingShards[category]) {
+    loadingShards[category] = (async () => {
+      try {
+        const shardUrl = `data/recipes-${category}.json`;
+        console.log(`Loading local shard: ${shardUrl}`);
+
+        const response = await fetch(shardUrl);
+        if (!response.ok) {
+          console.warn(`Failed to load shard ${category}: ${response.status}`);
+          return false;
+        }
+
+        const data = await response.json();
+        const shardRecipes = data.recipes || [];
+
+        // Cache the shard
+        localShardCache[category] = shardRecipes;
+
+        // Cache all recipes from the shard
+        shardRecipes.forEach(r => {
           fullRecipesCache[r.id] = r;
         });
 
-        console.log(`Loaded full recipe details (${fullRecipes.length} recipes)`);
+        console.log(`Loaded local shard ${category} (${shardRecipes.length} recipes)`);
         return true;
       } catch (error) {
-        console.error('Failed to load full recipes:', error);
+        console.error(`Error loading shard ${category}:`, error);
         return false;
       }
     })();
   }
 
-  await fullRecipesLoading;
+  await loadingShards[category];
 
-  // If recipe is in cache, return it
-  if (fullRecipesCache[recipeId]) {
-    return fullRecipesCache[recipeId];
-  }
+  // Return the recipe from cache
+  return fullRecipesCache[recipeId] || null;
+}
 
-  // Recipe not found locally - try to find it in the index to get collection/category
-  const indexEntry = recipes.find(r => r.id === recipeId);
-  if (indexEntry && indexEntry.collection) {
-    const collectionConfig = REMOTE_COLLECTIONS[indexEntry.collection];
-    if (collectionConfig) {
-      // Try to load from remote collection
-      const remoteRecipe = await loadRemoteRecipe(recipeId, indexEntry, collectionConfig);
-      if (remoteRecipe) {
-        fullRecipesCache[recipeId] = remoteRecipe;
-        return remoteRecipe;
-      }
-    }
-  }
-
-  return null;
+/**
+ * Preload a category shard (for smoother filtering)
+ */
+async function preloadCategoryShard(category) {
+  if (localShardCache[category] || loadingShards[category]) return;
+  // Just trigger the load, don't wait
+  loadLocalShardRecipe('__preload__', category);
 }
 
 /**
