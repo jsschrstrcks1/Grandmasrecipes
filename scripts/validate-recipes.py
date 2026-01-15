@@ -135,6 +135,11 @@ class RecipeValidator:
         if not qty or qty == '' or '[UNCLEAR]' in str(qty):
             return
 
+        # Skip false positives - ingredient names containing "salt" but aren't salt
+        salt_false_positives = ['unsalted', 'salted', 'saltine', 'low-salt', 'no-salt', 'salt-free']
+        if any(fp in item for fp in salt_false_positives):
+            return
+
         try:
             # Handle fractions
             if '/' in str(qty):
