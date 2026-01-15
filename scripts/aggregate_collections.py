@@ -50,6 +50,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 #   - 'url': Direct path to recipes.json (monolithic)
 #   - 'sharded': True to auto-detect and fetch sharded format
 #   - 'index_url': Override URL for recipes-index.json (if sharded)
+#   - 'extra_files': Additional JSON files to fetch (e.g., reference recipes)
 REMOTE_COLLECTIONS = {
     'mommom-baker': {
         'url': 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json',
@@ -57,7 +58,8 @@ REMOTE_COLLECTIONS = {
         'display_name': 'MomMom Baker',
         'base_url': 'https://jsschrstrcks1.github.io/MomsRecipes/',
         'legacy_ids': ['mommom', 'mommom-baker'],
-        'sharded': True  # MomsRecipes uses category-based sharding (30 shards)
+        'sharded': True,  # MomsRecipes uses category-based sharding (30 shards)
+        'extra_files': ['https://jsschrstrcks1.github.io/MomsRecipes/data/recipes-reference.json']
     },
     'granny-hudson': {
         'url': 'https://jsschrstrcks1.github.io/Grannysrecipes/granny/recipes_master.json',
@@ -251,9 +253,39 @@ def fetch_sharded_recipes(base_url: str, index_data: Dict, verbose: bool = False
     return all_recipes, None
 
 
+def fetch_extra_files(config: Dict, verbose: bool = False) -> Tuple[List[Dict], List[str]]:
+    """Fetch recipes from extra files (like recipes-reference.json).
+
+    Returns:
+        Tuple of (recipes list, list of errors)
+    """
+    extra_files = config.get('extra_files', [])
+    if not extra_files:
+        return [], []
+
+    all_recipes = []
+    errors = []
+
+    for extra_url in extra_files:
+        if verbose:
+            print(f"    Fetching extra file: {extra_url}")
+        recipes, error = fetch_remote_recipes(extra_url)
+        if error:
+            if '404' not in str(error):
+                errors.append(f"Extra file {extra_url}: {error}")
+        else:
+            all_recipes.extend(recipes)
+            if verbose:
+                print(f"      OK: {len(recipes)} recipes")
+
+    return all_recipes, errors
+
+
 def fetch_collection_recipes(collection_id: str, config: Dict,
                              verbose: bool = False) -> Tuple[List[Dict], Dict]:
     """Fetch recipes from a collection, auto-detecting sharded vs monolithic.
+
+    Also fetches any extra_files configured for the collection.
 
     Args:
         collection_id: The collection identifier
@@ -269,8 +301,11 @@ def fetch_collection_recipes(collection_id: str, config: Dict,
     metadata = {
         'format': 'unknown',
         'shard_count': 0,
+        'extra_files_count': 0,
         'error': None
     }
+
+    recipes = []
 
     # Try sharded format first if configured or if we should auto-detect
     if is_sharded:
@@ -290,8 +325,7 @@ def fetch_collection_recipes(collection_id: str, config: Dict,
                     # Fall back to monolithic
                     if verbose:
                         print(f"    Shard fetch failed, trying monolithic fallback...")
-                else:
-                    return recipes, metadata
+                    recipes = []
         else:
             # Auto-detect sharded format
             is_sharded_detected, index_data = check_sharded_repo(base_url)
@@ -304,23 +338,32 @@ def fetch_collection_recipes(collection_id: str, config: Dict,
                 recipes, error = fetch_sharded_recipes(base_url, index_data, verbose, data_path=data_path)
                 if error:
                     metadata['error'] = error
-                else:
-                    return recipes, metadata
+                    recipes = []
 
-    # Monolithic format (or fallback)
-    url = config.get('url')
-    if not url:
-        metadata['error'] = "No URL configured"
-        return [], metadata
+    # Monolithic format (or fallback if sharded failed)
+    if not recipes:
+        url = config.get('url')
+        if not url:
+            metadata['error'] = "No URL configured"
+            return [], metadata
 
-    if verbose:
-        print(f"    Fetching monolithic: {url}")
+        if verbose:
+            print(f"    Fetching monolithic: {url}")
 
-    metadata['format'] = 'monolithic'
-    recipes, error = fetch_remote_recipes(url)
-    if error:
-        metadata['error'] = error
-        return [], metadata
+        metadata['format'] = 'monolithic'
+        recipes, error = fetch_remote_recipes(url)
+        if error:
+            metadata['error'] = error
+            return [], metadata
+
+    # Fetch extra files (like recipes-reference.json)
+    extra_recipes, extra_errors = fetch_extra_files(config, verbose)
+    if extra_recipes:
+        recipes.extend(extra_recipes)
+        metadata['extra_files_count'] = len(extra_recipes)
+    if extra_errors and verbose:
+        for err in extra_errors:
+            print(f"    Warning: {err}")
 
     return recipes, metadata
 
