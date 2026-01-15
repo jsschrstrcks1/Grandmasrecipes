@@ -2110,6 +2110,54 @@ main {
   background-color: rgba(255,255,255,0.3);
 }
 
+/* Keyword search pills (different color from ingredient pills) */
+.keyword-pill {
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  font-style: italic;
+}
+
+/* Autocomplete divider */
+.autocomplete-divider {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  background: var(--color-bg-alt);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-top: 1px solid var(--color-border);
+}
+
+/* Recipe link in autocomplete */
+.autocomplete-recipe {
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 128, 128, 0.05) 100%);
+}
+
+.autocomplete-recipe:hover {
+  background: rgba(0, 128, 128, 0.1);
+}
+
+.autocomplete-item-type {
+  font-size: 0.75rem;
+  color: var(--color-teal);
+  font-weight: 500;
+}
+
+/* Keyword search option in autocomplete */
+.autocomplete-keyword {
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 128, 128, 0.08) 100%);
+  border-top: 1px solid var(--color-border);
+}
+
+.autocomplete-keyword:hover {
+  background: rgba(0, 128, 128, 0.15);
+}
+
+.autocomplete-keyword .autocomplete-item-name {
+  font-style: italic;
+  color: var(--color-teal-dark);
+}
+
 /* Quick suggestions */
 .ingredient-suggestions {
   display: flex;
