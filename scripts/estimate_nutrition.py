@@ -503,6 +503,51 @@ NUTRITION_DB = {
     'pickling spices': {'tbsp': {'cal': 16, 'fat': 0.7, 'carb': 3, 'protein': 0.4, 'sodium': 3, 'fiber': 1.5, 'sugar': 0}},
     'msg': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 616, 'fiber': 0, 'sugar': 0}},
     'monosodium glutamate': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 616, 'fiber': 0, 'sugar': 0}},
+    'bbq sauce': {'cup': {'cal': 280, 'fat': 1, 'carb': 60, 'protein': 2, 'sodium': 2040, 'fiber': 2, 'sugar': 48}},
+
+    # =========================================================================
+    # ORGAN MEATS
+    # =========================================================================
+    'liver': {'lb': {'cal': 576, 'fat': 16, 'carb': 16, 'protein': 92, 'sodium': 304, 'fiber': 0, 'sugar': 0}},
+    'beef liver': {'lb': {'cal': 576, 'fat': 16, 'carb': 16, 'protein': 92, 'sodium': 304, 'fiber': 0, 'sugar': 0}},
+    'chicken liver': {'lb': {'cal': 560, 'fat': 20, 'carb': 4, 'protein': 88, 'sodium': 320, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # WHOLE GRAINS & ANCIENT GRAINS
+    # =========================================================================
+    'amaranth': {'cup': {'cal': 716, 'fat': 14, 'carb': 127, 'protein': 28, 'sodium': 8, 'fiber': 13, 'sugar': 3}},
+    'polenta': {'cup': {'cal': 442, 'fat': 4, 'carb': 94, 'protein': 10, 'sodium': 4, 'fiber': 9, 'sugar': 1}},
+    'quinoa': {'cup': {'cal': 626, 'fat': 10, 'carb': 109, 'protein': 24, 'sodium': 10, 'fiber': 12, 'sugar': 0}},
+    'wheat berries': {'cup': {'cal': 632, 'fat': 3, 'carb': 137, 'protein': 24, 'sodium': 4, 'fiber': 23, 'sugar': 0}},
+    'kamut': {'cup': {'cal': 640, 'fat': 4, 'carb': 132, 'protein': 28, 'sodium': 10, 'fiber': 18, 'sugar': 0}},
+    'millet': {'cup': {'cal': 756, 'fat': 8, 'carb': 146, 'protein': 22, 'sodium': 10, 'fiber': 17, 'sugar': 0}},
+    'bulgur': {'cup': {'cal': 479, 'fat': 2, 'carb': 106, 'protein': 17, 'sodium': 24, 'fiber': 26, 'sugar': 0}},
+    'couscous': {'cup': {'cal': 650, 'fat': 1, 'carb': 134, 'protein': 22, 'sodium': 17, 'fiber': 9, 'sugar': 0}},
+    'farro': {'cup': {'cal': 600, 'fat': 4, 'carb': 120, 'protein': 24, 'sodium': 8, 'fiber': 16, 'sugar': 0}},
+
+    # =========================================================================
+    # DRIED FRUITS (ADDITIONAL)
+    # =========================================================================
+    'prunes': {'lb': {'cal': 1089, 'fat': 2, 'carb': 287, 'protein': 10, 'sodium': 10, 'fiber': 32, 'sugar': 170}},
+    'figs': {'lb': {'cal': 1180, 'fat': 4, 'carb': 302, 'protein': 14, 'sodium': 44, 'fiber': 44, 'sugar': 226}},
+    'dried figs': {'lb': {'cal': 1180, 'fat': 4, 'carb': 302, 'protein': 14, 'sodium': 44, 'fiber': 44, 'sugar': 226}},
+    'fruit slices': {'cup': {'cal': 80, 'fat': 0.3, 'carb': 20, 'protein': 1, 'sodium': 2, 'fiber': 3, 'sugar': 14}},
+
+    # =========================================================================
+    # TEAS & HERBAL
+    # =========================================================================
+    'senna tea': {'oz': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'tea': {'cup': {'cal': 2, 'fat': 0, 'carb': 0.5, 'protein': 0, 'sodium': 7, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # LIQUEURS & MIXERS
+    # =========================================================================
+    'orange liqueur': {'oz': {'cal': 103, 'fat': 0, 'carb': 11, 'protein': 0, 'sodium': 1, 'fiber': 0, 'sugar': 11}},
+    'triple sec': {'oz': {'cal': 103, 'fat': 0, 'carb': 11, 'protein': 0, 'sodium': 1, 'fiber': 0, 'sugar': 11}},
+    'club soda': {'liter': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 75, 'fiber': 0, 'sugar': 0}},
+    'soda water': {'liter': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 75, 'fiber': 0, 'sugar': 0}},
+    'tonic water': {'cup': {'cal': 83, 'fat': 0, 'carb': 22, 'protein': 0, 'sodium': 12, 'fiber': 0, 'sugar': 22}},
+    'ginger ale': {'cup': {'cal': 83, 'fat': 0, 'carb': 22, 'protein': 0, 'sodium': 12, 'fiber': 0, 'sugar': 22}},
 
     # =========================================================================
     # BAKERY & DESSERTS
