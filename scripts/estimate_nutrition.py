@@ -392,7 +392,134 @@ NUTRITION_DB = {
     'parsley flakes': {'tbsp': {'cal': 4, 'fat': 0.1, 'carb': 0.6, 'protein': 0.3, 'sodium': 6, 'fiber': 0.2, 'sugar': 0.1}},
 
     # =========================================================================
+    # PRESERVES & JAMS
+    # =========================================================================
+    'pectin': {'box': {'cal': 10, 'fat': 0, 'carb': 3, 'protein': 0, 'sodium': 5, 'fiber': 1, 'sugar': 0}},
+    'sure jell': {'box': {'cal': 10, 'fat': 0, 'carb': 3, 'protein': 0, 'sodium': 5, 'fiber': 1, 'sugar': 0}},
+    'jam': {'cup': {'cal': 800, 'fat': 0, 'carb': 208, 'protein': 0.8, 'sodium': 48, 'fiber': 2, 'sugar': 176}},
+    'jelly': {'cup': {'cal': 800, 'fat': 0, 'carb': 208, 'protein': 0, 'sodium': 48, 'fiber': 0, 'sugar': 176}},
+
+    # =========================================================================
+    # REFRIGERATED DOUGHS & PREPARED FOODS
+    # =========================================================================
+    'crescent rolls': {'can': {'cal': 800, 'fat': 40, 'carb': 88, 'protein': 16, 'sodium': 1760, 'fiber': 0, 'sugar': 16}},
+    'refrigerated crescent dinner rolls': {'can': {'cal': 800, 'fat': 40, 'carb': 88, 'protein': 16, 'sodium': 1760, 'fiber': 0, 'sugar': 16}},
+    'pizza crust': {'can': {'cal': 680, 'fat': 8, 'carb': 136, 'protein': 20, 'sodium': 1360, 'fiber': 4, 'sugar': 8}},
+    'refrigerated pizza crust': {'can': {'cal': 680, 'fat': 8, 'carb': 136, 'protein': 20, 'sodium': 1360, 'fiber': 4, 'sugar': 8}},
+    'pesto': {'cup': {'cal': 600, 'fat': 56, 'carb': 12, 'protein': 16, 'sodium': 1200, 'fiber': 4, 'sugar': 2}},
+    'commercial pesto': {'cup': {'cal': 600, 'fat': 56, 'carb': 12, 'protein': 16, 'sodium': 1200, 'fiber': 4, 'sugar': 2}},
+    'roasted red bell peppers': {'cup': {'cal': 40, 'fat': 0.4, 'carb': 9, 'protein': 1.5, 'sodium': 600, 'fiber': 2, 'sugar': 6}},
+    'roasted red peppers': {'cup': {'cal': 40, 'fat': 0.4, 'carb': 9, 'protein': 1.5, 'sodium': 600, 'fiber': 2, 'sugar': 6}},
+    'deli meats': {'lb': {'cal': 560, 'fat': 24, 'carb': 8, 'protein': 80, 'sodium': 4000, 'fiber': 0, 'sugar': 4}},
+    'sliced deli meats': {'lb': {'cal': 560, 'fat': 24, 'carb': 8, 'protein': 80, 'sodium': 4000, 'fiber': 0, 'sugar': 4}},
+
+    # =========================================================================
+    # HERBS, EXTRACTS & FLAVORINGS
+    # =========================================================================
+    'mint extract': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+    'peppermint extract': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+    'mint essence': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+    'mint leaves': {'cup': {'cal': 6, 'fat': 0.1, 'carb': 1, 'protein': 0.5, 'sodium': 4, 'fiber': 1, 'sugar': 0}},
+    'fresh mint': {'cup': {'cal': 6, 'fat': 0.1, 'carb': 1, 'protein': 0.5, 'sodium': 4, 'fiber': 1, 'sugar': 0}},
+    'simple syrup': {'cup': {'cal': 774, 'fat': 0, 'carb': 200, 'protein': 0, 'sodium': 2, 'fiber': 0, 'sugar': 200}},
+    'glycerine': {'tsp': {'cal': 27, 'fat': 0, 'carb': 4, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 4}},
+    'tarragon': {'tbsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'fresh tarragon': {'tbsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'tarragon leaves': {'tbsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'poppy seeds': {'tbsp': {'cal': 46, 'fat': 3.7, 'carb': 2.5, 'protein': 1.6, 'sodium': 2, 'fiber': 1.7, 'sugar': 0.3}},
+
+    # =========================================================================
+    # ADDITIONAL PROTEINS & MEATS
+    # =========================================================================
+    'venison': {'lb': {'cal': 680, 'fat': 16, 'carb': 0, 'protein': 136, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'venison meat': {'lb': {'cal': 680, 'fat': 16, 'carb': 0, 'protein': 136, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'smoked meat': {'lb': {'cal': 800, 'fat': 48, 'carb': 4, 'protein': 80, 'sodium': 3200, 'fiber': 0, 'sugar': 0}},
+    'salmon steaks': {'oz': {'cal': 58, 'fat': 3.5, 'carb': 0, 'protein': 6.5, 'sodium': 17, 'fiber': 0, 'sugar': 0}},
+    'salmon': {'oz': {'cal': 58, 'fat': 3.5, 'carb': 0, 'protein': 6.5, 'sodium': 17, 'fiber': 0, 'sugar': 0}},
+    'anchovy': {'each': {'cal': 8, 'fat': 0.4, 'carb': 0, 'protein': 1.2, 'sodium': 147, 'fiber': 0, 'sugar': 0}},
+    'anchovy fillets': {'each': {'cal': 8, 'fat': 0.4, 'carb': 0, 'protein': 1.2, 'sodium': 147, 'fiber': 0, 'sugar': 0}},
+    'feta cheese': {'oz': {'cal': 75, 'fat': 6, 'carb': 1, 'protein': 4, 'sodium': 316, 'fiber': 0, 'sugar': 1}},
+    'greek cheese': {'oz': {'cal': 75, 'fat': 6, 'carb': 1, 'protein': 4, 'sodium': 316, 'fiber': 0, 'sugar': 1}},
+
+    # =========================================================================
+    # ADDITIONAL VEGETABLES
+    # =========================================================================
+    'collards': {'bunch': {'cal': 63, 'fat': 1, 'carb': 11, 'protein': 5, 'sodium': 28, 'fiber': 8, 'sugar': 1}},
+    'collard greens': {'bunch': {'cal': 63, 'fat': 1, 'carb': 11, 'protein': 5, 'sodium': 28, 'fiber': 8, 'sugar': 1}},
+    'artichoke hearts': {'can': {'cal': 84, 'fat': 0.4, 'carb': 18, 'protein': 5.6, 'sodium': 600, 'fiber': 10, 'sugar': 2}},
+    'watercress': {'cup': {'cal': 4, 'fat': 0, 'carb': 0.4, 'protein': 0.8, 'sodium': 14, 'fiber': 0.2, 'sugar': 0}},
+    'radishes': {'cup': {'cal': 19, 'fat': 0.1, 'carb': 4, 'protein': 0.8, 'sodium': 45, 'fiber': 2, 'sugar': 2}},
+    'cucumber': {'each': {'cal': 45, 'fat': 0.3, 'carb': 11, 'protein': 2, 'sodium': 6, 'fiber': 2, 'sugar': 5}},
+    'beets': {'can': {'cal': 75, 'fat': 0.2, 'carb': 18, 'protein': 2, 'sodium': 400, 'fiber': 3, 'sugar': 12}},
+
+    # =========================================================================
+    # ADDITIONAL FRUITS & BERRIES
+    # =========================================================================
+    'blueberries': {'cup': {'cal': 84, 'fat': 0.5, 'carb': 21, 'protein': 1, 'sodium': 1, 'fiber': 4, 'sugar': 15}},
+    'mixed berries': {'cup': {'cal': 70, 'fat': 0.5, 'carb': 16, 'protein': 1.2, 'sodium': 1, 'fiber': 5, 'sugar': 10}},
+    'fresh mixed berries': {'cup': {'cal': 70, 'fat': 0.5, 'carb': 16, 'protein': 1.2, 'sodium': 1, 'fiber': 5, 'sugar': 10}},
+    'mandarin oranges': {'can': {'cal': 154, 'fat': 0.2, 'carb': 40, 'protein': 2, 'sodium': 24, 'fiber': 4, 'sugar': 36}},
+    'maraschino cherries': {'bottle': {'cal': 200, 'fat': 0, 'carb': 50, 'protein': 0, 'sodium': 20, 'fiber': 1, 'sugar': 44}},
+    'fruit cocktail': {'can': {'cal': 220, 'fat': 0.2, 'carb': 56, 'protein': 1.5, 'sodium': 20, 'fiber': 4, 'sugar': 48}},
+    'lite fruit cocktail': {'can': {'cal': 140, 'fat': 0.2, 'carb': 36, 'protein': 1, 'sodium': 20, 'fiber': 4, 'sugar': 28}},
+
+    # =========================================================================
+    # CEREALS & GRAINS
+    # =========================================================================
+    'granola': {'cup': {'cal': 597, 'fat': 24, 'carb': 84, 'protein': 18, 'sodium': 26, 'fiber': 10, 'sugar': 24}},
+    'oat cereal': {'cup': {'cal': 110, 'fat': 2, 'carb': 23, 'protein': 3, 'sodium': 200, 'fiber': 3, 'sugar': 1}},
+    'rice chex': {'cup': {'cal': 100, 'fat': 0, 'carb': 23, 'protein': 2, 'sodium': 210, 'fiber': 0, 'sugar': 2}},
+    'wheat chex': {'cup': {'cal': 160, 'fat': 1, 'carb': 38, 'protein': 5, 'sodium': 300, 'fiber': 6, 'sugar': 5}},
+    'pretzel sticks': {'cup': {'cal': 229, 'fat': 2, 'carb': 48, 'protein': 5, 'sodium': 814, 'fiber': 2, 'sugar': 1}},
+    'self-rising flour': {'cup': {'cal': 443, 'fat': 1.2, 'carb': 93, 'protein': 12, 'sodium': 1520, 'fiber': 3, 'sugar': 0}},
+
+    # =========================================================================
+    # CONDIMENTS & SEASONINGS (ADDITIONAL)
+    # =========================================================================
+    'pickling salt': {'tbsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 6976, 'fiber': 0, 'sugar': 0}},
+    'mixed pickle spice': {'tbsp': {'cal': 16, 'fat': 0.7, 'carb': 3, 'protein': 0.4, 'sodium': 3, 'fiber': 1.5, 'sugar': 0}},
+    'peppercorns': {'tbsp': {'cal': 16, 'fat': 0.2, 'carb': 4, 'protein': 0.7, 'sodium': 3, 'fiber': 1.6, 'sugar': 0}},
+    'lime cordial': {'oz': {'cal': 80, 'fat': 0, 'carb': 20, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 19}},
+    'house seasoning': {'tbsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 2000, 'fiber': 0, 'sugar': 0}},
+    'texas pete': {'tbsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 450, 'fiber': 0, 'sugar': 0}},
+    'hot sauce': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 0.6, 'protein': 0, 'sodium': 372, 'fiber': 0, 'sugar': 0}},
+    'cajun seasoning': {'tsp': {'cal': 8, 'fat': 0.3, 'carb': 1.5, 'protein': 0.3, 'sodium': 200, 'fiber': 0.5, 'sugar': 0.2}},
+    'greek olives': {'cup': {'cal': 155, 'fat': 14, 'carb': 8, 'protein': 1, 'sodium': 1560, 'fiber': 3, 'sugar': 0}},
+    'salsa': {'cup': {'cal': 70, 'fat': 0.4, 'carb': 14, 'protein': 3, 'sodium': 1200, 'fiber': 4, 'sugar': 8}},
+    'salad dressing': {'cup': {'cal': 560, 'fat': 56, 'carb': 16, 'protein': 1.6, 'sodium': 1920, 'fiber': 0, 'sugar': 12}},
+    'taco seasoning mix': {'packet': {'cal': 30, 'fat': 0.5, 'carb': 5, 'protein': 1, 'sodium': 1120, 'fiber': 1, 'sugar': 1}},
+    'catsup': {'tbsp': {'cal': 19, 'fat': 0, 'carb': 5, 'protein': 0.2, 'sodium': 154, 'fiber': 0, 'sugar': 4}},
+    'pimento': {'oz': {'cal': 6, 'fat': 0.1, 'carb': 1, 'protein': 0.2, 'sodium': 5, 'fiber': 0.4, 'sugar': 0.7}},
+    'matzo meal': {'cup': {'cal': 514, 'fat': 1.4, 'carb': 109, 'protein': 13, 'sodium': 3, 'fiber': 3.4, 'sugar': 0}},
+    'currants': {'cup': {'cal': 408, 'fat': 0.4, 'carb': 107, 'protein': 6, 'sodium': 12, 'fiber': 10, 'sugar': 67}},
+    'sweet pickles': {'cup': {'cal': 146, 'fat': 0.5, 'carb': 36, 'protein': 0.6, 'sodium': 732, 'fiber': 1.4, 'sugar': 28}},
+    'beef bouillon': {'cube': {'cal': 5, 'fat': 0.1, 'carb': 0.6, 'protein': 0.5, 'sodium': 900, 'fiber': 0, 'sugar': 0}},
+    'beef bouillon cubes': {'each': {'cal': 5, 'fat': 0.1, 'carb': 0.6, 'protein': 0.5, 'sodium': 900, 'fiber': 0, 'sugar': 0}},
+    'chicken bouillon': {'cube': {'cal': 5, 'fat': 0.1, 'carb': 0.6, 'protein': 0.5, 'sodium': 900, 'fiber': 0, 'sugar': 0}},
+    'liquid smoke': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'fennel seeds': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1, 'protein': 0.3, 'sodium': 2, 'fiber': 0.8, 'sugar': 0}},
+    'orange rind': {'tbsp': {'cal': 6, 'fat': 0, 'carb': 2, 'protein': 0.1, 'sodium': 0, 'fiber': 0.6, 'sugar': 1}},
+    'chopped parsley': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.2, 'protein': 0.1, 'sodium': 2, 'fiber': 0.1, 'sugar': 0}},
+    'pickling spices': {'tbsp': {'cal': 16, 'fat': 0.7, 'carb': 3, 'protein': 0.4, 'sodium': 3, 'fiber': 1.5, 'sugar': 0}},
+    'msg': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 616, 'fiber': 0, 'sugar': 0}},
+    'monosodium glutamate': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 616, 'fiber': 0, 'sugar': 0}},
+
+    # =========================================================================
+    # BAKERY & DESSERTS
+    # =========================================================================
+    'angel food cake': {'each': {'cal': 876, 'fat': 2.4, 'carb': 192, 'protein': 24, 'sodium': 2520, 'fiber': 0, 'sugar': 144}},
+    'pound cake': {'each': {'cal': 2400, 'fat': 120, 'carb': 288, 'protein': 36, 'sodium': 1800, 'fiber': 4, 'sugar': 180}},
+
+    # =========================================================================
     # BEVERAGES & ALCOHOL
+    # =========================================================================
+    'sake': {'oz': {'cal': 39, 'fat': 0, 'carb': 1.5, 'protein': 0.1, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'beer': {'can': {'cal': 154, 'fat': 0, 'carb': 13, 'protein': 1.6, 'sodium': 14, 'fiber': 0, 'sugar': 0}},
+    'bourbon': {'oz': {'cal': 70, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'grape juice': {'cup': {'cal': 152, 'fat': 0.2, 'carb': 37, 'protein': 1, 'sodium': 8, 'fiber': 0.3, 'sugar': 36}},
+
+    # =========================================================================
+    # BEVERAGES & ALCOHOL (MAIN SECTION)
     # =========================================================================
     'wine': {'cup': {'cal': 200, 'fat': 0, 'carb': 5, 'protein': 0.2, 'sodium': 12, 'fiber': 0, 'sugar': 2}},
     'chinese cooking wine': {'tbsp': {'cal': 15, 'fat': 0, 'carb': 2, 'protein': 0, 'sodium': 180, 'fiber': 0, 'sugar': 1}},
