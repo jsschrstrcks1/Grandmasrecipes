@@ -101,8 +101,12 @@ class RecipeValidator:
         if 'image_refs' in recipe:
             self.validate_image_refs(recipe_id, recipe['image_refs'])
 
-        # Check for nutrition status consistency
-        if 'nutrition' in recipe and recipe['nutrition']:
+        # Check for nutrition - warn if missing, validate if present
+        if 'nutrition' not in recipe or not recipe['nutrition']:
+            # Only warn for actual recipes, not tips/reference
+            if category not in INGREDIENT_OPTIONAL_CATEGORIES:
+                self.warn(recipe_id, "Missing nutrition data")
+        else:
             self.validate_nutrition(recipe_id, recipe['nutrition'])
 
         # Check conversions if present
