@@ -68,7 +68,12 @@ let recipes = [];           // Lightweight recipe index for list/search
 let fullRecipesCache = {};  // Cache for full recipe details (loaded on demand)
 let categories = new Set();
 let allTags = new Set();
-let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
+let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom-baker', 'granny-hudson', 'all'], ingredients: [], ingredientMatchInfo: null };
+
+// Recipe grid pagination state
+let recipeGridPageSize = 50; // Number of recipes per page
+let recipeGridCurrentPage = 0; // Current page (0-indexed)
+let recipeGridFilteredRecipes = []; // Store filtered recipes for pagination
 let showMetric = false; // Toggle for metric conversions
 let recipeScale = 1; // Current recipe scale multiplier
 let currentRecipeId = null; // Currently displayed recipe (for re-rendering after substitutions)
@@ -4131,136 +4136,142 @@ function renderTagFilters() {
 }
 
 /**
- * Render recipe grid with current filters
+ * Render recipe grid with current filters (with pagination)
+ * @param {boolean} appendMore - If true, append to existing results (for "Load More")
  */
-function renderRecipeGrid() {
+function renderRecipeGrid(appendMore = false) {
   const container = document.getElementById('recipe-grid');
   if (!container) return;
 
-  // Filter recipes
-  let filtered = recipes.filter(recipe => {
-    // Exclude variants from main grid (show canonical only)
-    if (recipe.variant_of && recipe.variant_of !== recipe.id) {
-      return false;
-    }
+  // If not appending, reset pagination and re-filter
+  if (!appendMore) {
+    recipeGridCurrentPage = 0;
 
-    // Search filter (uses Pagefind when available, falls back to basic search)
-    if (currentFilter.search) {
-      if (pagefindSearchResults !== null && pagefindSearchResults.localIds) {
-        // Pagefind returned results - use those IDs for local recipes
-        if (!pagefindSearchResults.localIds.includes(recipe.id)) return false;
-      } else {
-        // Fall back to basic text search
-        const searchText = [
-          recipe.title,
-          recipe.description,
-          recipe.attribution,
-          ...recipe.tags || []
-        ].join(' ').toLowerCase();
-
-        if (!searchText.includes(currentFilter.search)) return false;
-      }
-    }
-
-    // Category filter
-    if (currentFilter.category && recipe.category !== currentFilter.category) {
-      return false;
-    }
-
-    // Tag filter
-    if (currentFilter.tag && (!recipe.tags || !recipe.tags.includes(currentFilter.tag))) {
-      return false;
-    }
-
-    // Collection filter (multi-select)
-    if (currentFilter.collections && currentFilter.collections.length > 0) {
-      const recipeCollection = recipe.collection || '';
-      if (!currentFilter.collections.includes(recipeCollection)) {
-        return false;
-      }
-    }
-
-    // Ingredient filter
-    if (currentFilter.ingredientMatchInfo && currentFilter.ingredientMatchInfo.matches.length > 0) {
-      const matchInfo = currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === recipe.id);
-      if (!matchInfo) {
-        return false;
-      }
-    }
-
-    // Time filter
-    if (nutritionFilter.timeLimit) {
-      const recipeTime = parseTimeToMinutes(recipe.total_time || recipe.cook_time);
-      if (recipeTime === null || recipeTime > nutritionFilter.timeLimit) {
-        return false;
-      }
-    }
-
-    // Nutrition filters
-    if (nutritionFilter.onlyWithNutrition && !recipe.nutrition) {
-      return false;
-    }
-
-    // Check nutrition ranges if recipe has data
-    if (recipe.nutrition) {
-      const n = recipe.nutrition;
-
-      // Calories filter
-      if (nutritionFilter.calories.min !== null && (n.calories === undefined || n.calories < nutritionFilter.calories.min)) {
-        return false;
-      }
-      if (nutritionFilter.calories.max !== null && n.calories !== undefined && n.calories > nutritionFilter.calories.max) {
+    // Filter recipes
+    recipeGridFilteredRecipes = recipes.filter(recipe => {
+      // Exclude variants from main grid (show canonical only)
+      if (recipe.variant_of && recipe.variant_of !== recipe.id) {
         return false;
       }
 
-      // Carbs filter
-      if (nutritionFilter.carbs.min !== null && (n.carbohydrates === undefined || n.carbohydrates < nutritionFilter.carbs.min)) {
-        return false;
+      // Search filter (uses Pagefind when available, falls back to basic search)
+      if (currentFilter.search) {
+        if (pagefindSearchResults !== null && pagefindSearchResults.localIds) {
+          // Pagefind returned results - use those IDs for local recipes
+          if (!pagefindSearchResults.localIds.includes(recipe.id)) return false;
+        } else {
+          // Fall back to basic text search
+          const searchText = [
+            recipe.title,
+            recipe.description,
+            recipe.attribution,
+            ...recipe.tags || []
+          ].join(' ').toLowerCase();
+
+          if (!searchText.includes(currentFilter.search)) return false;
+        }
       }
-      if (nutritionFilter.carbs.max !== null && n.carbohydrates !== undefined && n.carbohydrates > nutritionFilter.carbs.max) {
+
+      // Category filter
+      if (currentFilter.category && recipe.category !== currentFilter.category) {
         return false;
       }
 
-      // Protein filter
-      if (nutritionFilter.protein.min !== null && (n.protein === undefined || n.protein < nutritionFilter.protein.min)) {
-        return false;
-      }
-      if (nutritionFilter.protein.max !== null && n.protein !== undefined && n.protein > nutritionFilter.protein.max) {
+      // Tag filter
+      if (currentFilter.tag && (!recipe.tags || !recipe.tags.includes(currentFilter.tag))) {
         return false;
       }
 
-      // Fat filter
-      if (nutritionFilter.fat.min !== null && (n.fat === undefined || n.fat < nutritionFilter.fat.min)) {
+      // Collection filter (multi-select)
+      if (currentFilter.collections && currentFilter.collections.length > 0) {
+        const recipeCollection = recipe.collection || '';
+        if (!currentFilter.collections.includes(recipeCollection)) {
+          return false;
+        }
+      }
+
+      // Ingredient filter
+      if (currentFilter.ingredientMatchInfo && currentFilter.ingredientMatchInfo.matches.length > 0) {
+        const matchInfo = currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === recipe.id);
+        if (!matchInfo) {
+          return false;
+        }
+      }
+
+      // Time filter
+      if (nutritionFilter.timeLimit) {
+        const recipeTime = parseTimeToMinutes(recipe.total_time || recipe.cook_time);
+        if (recipeTime === null || recipeTime > nutritionFilter.timeLimit) {
+          return false;
+        }
+      }
+
+      // Nutrition filters
+      if (nutritionFilter.onlyWithNutrition && !recipe.nutrition) {
         return false;
       }
-      if (nutritionFilter.fat.max !== null && n.fat !== undefined && n.fat > nutritionFilter.fat.max) {
+
+      // Check nutrition ranges if recipe has data
+      if (recipe.nutrition) {
+        const n = recipe.nutrition;
+
+        // Calories filter
+        if (nutritionFilter.calories.min !== null && (n.calories === undefined || n.calories < nutritionFilter.calories.min)) {
+          return false;
+        }
+        if (nutritionFilter.calories.max !== null && n.calories !== undefined && n.calories > nutritionFilter.calories.max) {
+          return false;
+        }
+
+        // Carbs filter
+        if (nutritionFilter.carbs.min !== null && (n.carbohydrates === undefined || n.carbohydrates < nutritionFilter.carbs.min)) {
+          return false;
+        }
+        if (nutritionFilter.carbs.max !== null && n.carbohydrates !== undefined && n.carbohydrates > nutritionFilter.carbs.max) {
+          return false;
+        }
+
+        // Protein filter
+        if (nutritionFilter.protein.min !== null && (n.protein === undefined || n.protein < nutritionFilter.protein.min)) {
+          return false;
+        }
+        if (nutritionFilter.protein.max !== null && n.protein !== undefined && n.protein > nutritionFilter.protein.max) {
+          return false;
+        }
+
+        // Fat filter
+        if (nutritionFilter.fat.min !== null && (n.fat === undefined || n.fat < nutritionFilter.fat.min)) {
+          return false;
+        }
+        if (nutritionFilter.fat.max !== null && n.fat !== undefined && n.fat > nutritionFilter.fat.max) {
+          return false;
+        }
+      } else if (hasActiveNutritionFilter()) {
+        // No nutrition data but filters are active - skip unless showing all
         return false;
       }
-    } else if (hasActiveNutritionFilter()) {
-      // No nutrition data but filters are active - skip unless showing all
-      return false;
-    }
 
-    return true;
-  });
-
-  // If ingredient search is active, sort by match count first
-  if (currentFilter.ingredientMatchInfo && currentFilter.ingredientMatchInfo.matches.length > 0) {
-    filtered.sort((a, b) => {
-      const matchA = currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === a.id);
-      const matchB = currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === b.id);
-      const countA = matchA ? matchA.matchCount : 0;
-      const countB = matchB ? matchB.matchCount : 0;
-      if (countB !== countA) return countB - countA;
-      return a.title.localeCompare(b.title);
+      return true;
     });
-  } else {
-    // Sort by title
-    filtered.sort((a, b) => a.title.localeCompare(b.title));
+
+    // If ingredient search is active, sort by match count first
+    if (currentFilter.ingredientMatchInfo && currentFilter.ingredientMatchInfo.matches.length > 0) {
+      recipeGridFilteredRecipes.sort((a, b) => {
+        const matchA = currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === a.id);
+        const matchB = currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === b.id);
+        const countA = matchA ? matchA.matchCount : 0;
+        const countB = matchB ? matchB.matchCount : 0;
+        if (countB !== countA) return countB - countA;
+        return a.title.localeCompare(b.title);
+      });
+    } else {
+      // Sort by title
+      recipeGridFilteredRecipes.sort((a, b) => a.title.localeCompare(b.title));
+    }
   }
 
-  // Render
-  if (filtered.length === 0) {
+  // Render empty state
+  if (recipeGridFilteredRecipes.length === 0) {
     container.innerHTML = `
       <div class="text-center text-muted" style="grid-column: 1/-1; padding: 2rem;">
         <p>No recipes found matching your criteria.</p>
@@ -4270,8 +4281,30 @@ function renderRecipeGrid() {
     return;
   }
 
+  // Calculate pagination
+  const startIndex = appendMore ? recipeGridCurrentPage * recipeGridPageSize : 0;
+  const endIndex = (recipeGridCurrentPage + 1) * recipeGridPageSize;
+  const recipesToRender = recipeGridFilteredRecipes.slice(startIndex, endIndex);
+  const hasMoreRecipes = endIndex < recipeGridFilteredRecipes.length;
+  const totalCount = recipeGridFilteredRecipes.length;
+  const showingCount = Math.min(endIndex, totalCount);
+
+  // Build HTML for recipes
   let html = '';
-  filtered.forEach(recipe => {
+
+  // If appending, keep existing content but remove the old "Load More" section
+  if (appendMore) {
+    const existingLoadMore = container.querySelector('.load-more-section');
+    if (existingLoadMore) {
+      existingLoadMore.remove();
+    }
+    const existingRemote = container.querySelector('.remote-results-section');
+    if (existingRemote) {
+      existingRemote.remove();
+    }
+  }
+
+  recipesToRender.forEach(recipe => {
     // Get ingredient match info if available
     const matchInfo = currentFilter.ingredientMatchInfo
       ? currentFilter.ingredientMatchInfo.matches.find(m => m.recipeId === recipe.id)
@@ -4279,8 +4312,32 @@ function renderRecipeGrid() {
     html += renderRecipeCard(recipe, matchInfo);
   });
 
-  // Add remote results from Pagefind if searching
-  if (pagefindSearchResults && pagefindSearchResults.remoteResults && pagefindSearchResults.remoteResults.length > 0) {
+  // Add "Load More" button if there are more recipes
+  if (hasMoreRecipes) {
+    const remaining = totalCount - showingCount;
+    html += `
+      <div class="load-more-section" style="grid-column: 1/-1; text-align: center; padding: 1.5rem;">
+        <p style="color: var(--color-teal-dark); margin-bottom: 0.5rem;">
+          Showing ${showingCount} of ${totalCount} recipes
+        </p>
+        <button class="btn btn-primary" onclick="loadMoreRecipes()" style="padding: 0.75rem 2rem;">
+          Load More (${Math.min(remaining, recipeGridPageSize)} more)
+        </button>
+      </div>
+    `;
+  } else if (totalCount > recipeGridPageSize) {
+    // Show total count when all loaded
+    html += `
+      <div class="load-more-section" style="grid-column: 1/-1; text-align: center; padding: 1rem;">
+        <p style="color: var(--color-teal-dark); font-size: 0.9rem;">
+          Showing all ${totalCount} recipes
+        </p>
+      </div>
+    `;
+  }
+
+  // Add remote results from Pagefind if searching (only on first render, not append)
+  if (!appendMore && pagefindSearchResults && pagefindSearchResults.remoteResults && pagefindSearchResults.remoteResults.length > 0) {
     html += `
       <div class="remote-results-section" style="grid-column: 1/-1; margin-top: 2rem; padding-top: 1rem; border-top: 2px dashed var(--color-teal-light);">
         <h3 style="color: var(--color-teal-dark); margin-bottom: 1rem;">Also found in other collections:</h3>
@@ -4300,7 +4357,20 @@ function renderRecipeGrid() {
     html += `</div></div>`;
   }
 
-  container.innerHTML = html;
+  if (appendMore) {
+    // Append new recipes to existing grid
+    container.insertAdjacentHTML('beforeend', html);
+  } else {
+    container.innerHTML = html;
+  }
+}
+
+/**
+ * Load more recipes (pagination)
+ */
+function loadMoreRecipes() {
+  recipeGridCurrentPage++;
+  renderRecipeGrid(true);
 }
 
 /**
@@ -4868,8 +4938,9 @@ function getCategoryIcon(category) {
  * Clear all filters
  */
 function clearFilters() {
-  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
+  currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom-baker', 'granny-hudson', 'all'], ingredients: [], ingredientMatchInfo: null };
   pagefindSearchResults = null; // Clear Pagefind results
+  recipeGridCurrentPage = 0; // Reset pagination
 
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
