@@ -258,11 +258,15 @@ async function loadRecipes() {
 }
 
 /**
- * Load full recipe details on demand using collection-based shards
- * This loads only the shard for the recipe's collection, not the entire master file
+ * Load full recipe details on demand using two-level sharding
+ * - Small collections: Single collection shard (data/recipes-{collection}.json)
+ * - Large collections: Category sub-shards (data/recipes-{collection}-{category}.json)
  */
-let localShardCache = {};      // { 'collection': recipes[] }
+let localShardCache = {};      // { 'shardKey': recipes[] } - shardKey is 'collection' or 'collection:category'
 let loadingLocalShards = {};   // Track in-progress local shard loads
+
+// Collections that use category sub-shards (large collections >= 1000 recipes)
+const CATEGORY_SHARDED_COLLECTIONS = ['mommom-baker', 'all'];
 
 async function loadFullRecipe(recipeId) {
   // Check recipe cache first
@@ -270,7 +274,7 @@ async function loadFullRecipe(recipeId) {
     return fullRecipesCache[recipeId];
   }
 
-  // Find recipe in index to get its collection
+  // Find recipe in index to get its collection and category
   const indexEntry = recipes.find(r => r.id === recipeId);
   if (!indexEntry) {
     console.warn(`Recipe ${recipeId} not found in index`);
@@ -278,53 +282,56 @@ async function loadFullRecipe(recipeId) {
   }
 
   const collection = indexEntry.collection;
+  const category = indexEntry.category;
 
-  // Check if this is a remote collection
-  const collectionConfig = REMOTE_COLLECTIONS[collection];
-  if (collectionConfig) {
-    // Load from remote collection
-    const remoteRecipe = await loadRemoteRecipe(recipeId, indexEntry, collectionConfig);
-    if (remoteRecipe) {
-      fullRecipesCache[recipeId] = remoteRecipe;
-      return remoteRecipe;
-    }
-    return null;
+  // Check if this collection uses category sub-shards
+  const usesCategoryShards = CATEGORY_SHARDED_COLLECTIONS.includes(collection);
+
+  // Determine shard key and URL
+  let shardKey, shardUrl;
+  if (usesCategoryShards && category) {
+    // Large collection - use category sub-shard
+    shardKey = `${collection}:${category}`;
+    shardUrl = `data/recipes-${collection}-${category}.json`;
+  } else {
+    // Small collection - use single collection shard
+    shardKey = collection;
+    shardUrl = `data/recipes-${collection}.json`;
   }
 
-  // Local collection - load from collection shard
-  if (!localShardCache[collection]) {
+  // Load shard if not cached
+  if (!localShardCache[shardKey]) {
     // Load the shard if not already loading
-    if (!loadingLocalShards[collection]) {
-      loadingLocalShards[collection] = (async () => {
+    if (!loadingLocalShards[shardKey]) {
+      loadingLocalShards[shardKey] = (async () => {
         try {
-          const shardUrl = `data/recipes-${collection}.json`;
           console.log(`Loading local shard: ${shardUrl}`);
           const response = await fetch(shardUrl);
           if (!response.ok) {
-            console.warn(`Failed to load shard ${collection}: ${response.status}`);
+            console.warn(`Failed to load shard ${shardKey}: ${response.status}`);
             return false;
           }
           const data = await response.json();
           const shardRecipes = data.recipes || [];
 
           // Cache the shard
-          localShardCache[collection] = shardRecipes;
+          localShardCache[shardKey] = shardRecipes;
 
           // Also cache individual recipes for quick lookup
           shardRecipes.forEach(r => {
             fullRecipesCache[r.id] = r;
           });
 
-          console.log(`Loaded ${shardRecipes.length} recipes from ${collection} shard`);
+          console.log(`Loaded ${shardRecipes.length} recipes from ${shardKey} shard`);
           return true;
         } catch (error) {
-          console.error(`Error loading shard ${collection}:`, error);
+          console.error(`Error loading shard ${shardKey}:`, error);
           return false;
         }
       })();
     }
 
-    await loadingLocalShards[collection];
+    await loadingLocalShards[shardKey];
   }
 
   // Return from cache
@@ -332,7 +339,7 @@ async function loadFullRecipe(recipeId) {
     return fullRecipesCache[recipeId];
   }
 
-  console.warn(`Recipe ${recipeId} not found in ${collection} shard`);
+  console.warn(`Recipe ${recipeId} not found in ${shardKey} shard`);
   return null;
 }
 

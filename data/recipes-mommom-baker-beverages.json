@@ -1,0 +1,4205 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "beverages",
+    "total_recipes": 43,
+    "generated": "2026-01-16T14:00:19.517882Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "orange-julius-supreme",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Julius Supreme",
+      "category": "beverages",
+      "attribution": "Jessica Arkwright",
+      "source_note": "Church cookbook",
+      "description": "Refreshing orange smoothie drink.",
+      "servings_yield": "2-3 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "frozen orange juice concentrate",
+          "quantity": "1",
+          "unit": "6 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "10 to 15",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend ingredients together until like an icee."
+        },
+        {
+          "step": 2,
+          "text": "Add an orange slice to the glass for garnishment. Serve chilled."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "orange",
+        "smoothie"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 325,
+          "fat_g": 4.2,
+          "protein_g": 5.0,
+          "carbs_g": 69.0
+        },
+        "missing_inputs": [
+          "Not in database: ice cubes"
+        ],
+        "assumptions": [
+          "Based on 5/6 ingredients (83% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "russian-tea-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Russian Tea",
+      "category": "beverages",
+      "attribution": "Celeste Cochran",
+      "source_note": "Church cookbook",
+      "description": "Spiced tea mix with Tang and lemonade.",
+      "servings_yield": "Many servings",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "Tang",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "instant tea",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sweetened lemonade",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "if desired sweet"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all ingredients together and store in covered container."
+        },
+        {
+          "step": 2,
+          "text": "Use desired amount of tea in hot water to suit taste (1 to 3 teaspoons per cup)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Store in covered container"
+      ],
+      "tags": [
+        "beverage",
+        "tea",
+        "spiced"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 219,
+          "fat_g": 0.0,
+          "protein_g": 0.0,
+          "carbs_g": 56.8
+        },
+        "missing_inputs": [
+          "Not in database: Tang"
+        ],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 5/6 ingredients (83% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "strawberry-tea-punch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Strawberry Tea Punch",
+      "category": "beverages",
+      "attribution": "Diane Solberg",
+      "source_note": "Church cookbook",
+      "description": "Refreshing tea punch with strawberries and lemonade.",
+      "servings_yield": "8 to 10 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "4 minutes",
+      "ingredients": [
+        {
+          "item": "boiling water",
+          "quantity": "1 1/2",
+          "unit": "qt",
+          "prep_note": ""
+        },
+        {
+          "item": "family size tea bags",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemonade concentrate",
+          "quantity": "1",
+          "unit": "6 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen strawberries in syrup",
+          "quantity": "1",
+          "unit": "10 oz pkg",
+          "prep_note": "thawed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In pitcher, pour water over tea bags. Brew 4 minutes. Remove tea bags."
+        },
+        {
+          "step": 2,
+          "text": "Stir in sugar, lemonade, and strawberries. Serve over ice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "tea",
+        "punch",
+        "strawberry"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 92,
+          "fat_g": 0.1,
+          "protein_g": 0.1,
+          "carbs_g": 23.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "captain-morgan-spiced-rum-cocktail",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Captain Morgan Spiced Rum Cocktail",
+      "category": "beverages",
+      "attribution": "Captain Morgan",
+      "source_note": "Advertisement clipping",
+      "description": "Refreshing rum cocktail with cranberry and lime.",
+      "servings_yield": "1 drink",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "Captain Morgan Original Spiced Rum",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "cranberry juice",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh lime juice",
+          "quantity": "1/4",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "cola",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "lime wedge",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In an ice-filled Collins or rocks glass, combine all the ingredients."
+        },
+        {
+          "step": 2,
+          "text": "Stir to blend."
+        },
+        {
+          "step": 3,
+          "text": "Garnish with a lime wedge."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Collins or rocks glass",
+      "notes": [
+        "Contains alcohol"
+      ],
+      "tags": [
+        "cocktail",
+        "rum",
+        "beverage",
+        "alcoholic",
+        "cranberry",
+        "lime"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not in database: Captain Morgan Original Spiced Rum",
+          "Not in database: cranberry juice",
+          "Not in database: fresh lime juice",
+          "Not in database: cola",
+          "Not in database: lime wedge"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "baileys-peppermint-cream",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bailey's Peppermint Cream",
+      "category": "beverages",
+      "attribution": "Bailey's",
+      "source_note": "Advertisement clipping",
+      "description": "Festive hot cocoa spiked with Irish cream and topped with crushed candy cane.",
+      "servings_yield": "1 drink",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "Bailey's Original Irish Cream Liqueur",
+          "quantity": "3.5",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "hot cocoa",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "whipped cream",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "candy cane",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "mint leaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "optional, for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix Bailey's Original Irish Cream Liqueur and hot cocoa."
+        },
+        {
+          "step": 2,
+          "text": "Top with a dollop of whipped cream."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle crushed candy cane on top."
+        },
+        {
+          "step": 4,
+          "text": "Garnish with mint leaf (optional)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Contains alcohol",
+        "Perfect for holiday gatherings"
+      ],
+      "tags": [
+        "cocktail",
+        "hot cocoa",
+        "beverage",
+        "alcoholic",
+        "Bailey's",
+        "peppermint",
+        "Christmas",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 772,
+          "fat_g": 81.2,
+          "protein_g": 5.3,
+          "carbs_g": 9.2
+        },
+        "missing_inputs": [
+          "Not in database: candy cane"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for whipped cream",
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "holiday-sangria",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Holiday Sangria",
+      "category": "beverages",
+      "attribution": "Oak Leaf",
+      "source_note": "Advertisement clipping",
+      "description": "Festive white wine sangria with cranberries and apple.",
+      "servings_yield": "",
+      "prep_time": "10 minutes + 1 hour chill",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Oak Leaf Chardonnay",
+          "quantity": "1",
+          "unit": "bottle",
+          "prep_note": "or other white wine"
+        },
+        {
+          "item": "sparkling cranberry juice",
+          "quantity": "25",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "fresh cranberries",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "rosemary sprig",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "citrus slices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a large pitcher."
+        },
+        {
+          "step": 2,
+          "text": "Refrigerate for one hour or until ready to use."
+        },
+        {
+          "step": 3,
+          "text": "Add citrus slices as a festive garnish."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pitcher",
+      "notes": [
+        "Contains alcohol"
+      ],
+      "tags": [
+        "sangria",
+        "wine",
+        "beverage",
+        "alcoholic",
+        "cranberry",
+        "holiday",
+        "Christmas",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 121,
+          "fat_g": 0.1,
+          "protein_g": 0.2,
+          "carbs_g": 32.2
+        },
+        "missing_inputs": [
+          "Not in database: Oak Leaf Chardonnay",
+          "Not in database: citrus slices"
+        ],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 4/6 ingredients (67% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cranberry-delight-punch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Delight Punch",
+      "category": "beverages",
+      "attribution": "Walmart Holiday",
+      "source_note": "Walmart holiday entertaining recipe",
+      "description": "Festive cranberry slush punch with frozen juice concentrates and lemon-lime soda.",
+      "servings_yield": "20 servings",
+      "prep_time": "30 minutes + freezing overnight",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cranberry sauce",
+          "quantity": "3",
+          "unit": "cans",
+          "prep_note": "8 oz cans"
+        },
+        {
+          "item": "frozen apple juice concentrate",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "12 oz"
+        },
+        {
+          "item": "frozen cranberry juice concentrate",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "12 oz"
+        },
+        {
+          "item": "frozen pink lemonade concentrate",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "12 oz"
+        },
+        {
+          "item": "frozen regular lemonade concentrate",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "12 oz"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "Sierra Mist Lemon Lime or Cranberry Splash Soda",
+          "quantity": "2",
+          "unit": "2-liter bottles",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend the cranberry sauce, frozen juice concentrates, and spices into a blender on low until fully incorporated."
+        },
+        {
+          "step": 2,
+          "text": "Transfer the mixture into a large mixing bowl. Add the water and mix until fully incorporated."
+        },
+        {
+          "step": 3,
+          "text": "Split the mixture between two 1-gallon freezer bags and place into the freezer."
+        },
+        {
+          "step": 4,
+          "text": "After 2 hours, knead the concentrate inside the bag and replace into the freezer overnight."
+        },
+        {
+          "step": 5,
+          "text": "To serve, thaw the mixture in the freezer bag until it can be easily scooped."
+        },
+        {
+          "step": 6,
+          "text": "Place 1/2 cup of slush and 1/2 cup of Sierra Mist into a cup."
+        },
+        {
+          "step": 7,
+          "text": "Garnish with fresh cranberries and cinnamon sticks."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Non-alcoholic",
+        "Make ahead - freeze overnight"
+      ],
+      "tags": [
+        "punch",
+        "slush",
+        "cranberry",
+        "beverage",
+        "holiday",
+        "Christmas",
+        "party",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 34,
+          "fat_g": 0.0,
+          "protein_g": 0.1,
+          "carbs_g": 8.8
+        },
+        "missing_inputs": [
+          "Not in database: cranberry sauce"
+        ],
+        "assumptions": [
+          "Assumed 1.5 cup can for frozen apple juice concentrate",
+          "Assumed 1.5 cup can for frozen cranberry juice concentrate",
+          "Assumed 1.5 cup can for frozen pink lemonade concentrate",
+          "Assumed 1.5 cup can for frozen regular lemonade concentrate",
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "holiday-surprise-punch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Holiday Surprise Punch",
+      "category": "beverages",
+      "attribution": "Walmart Holiday",
+      "source_note": "Walmart holiday entertaining recipe (Holiday 2013)",
+      "description": "Festive punch with ginger ale ice cubes containing maraschino cherries and a hint of peppermint.",
+      "servings_yield": "16 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "8 hours 10 minutes (including freezing)",
+      "ingredients": [
+        {
+          "item": "maraschino cherries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "one per ice cube"
+        },
+        {
+          "item": "Canada Dry Ginger Ale",
+          "quantity": "2",
+          "unit": "liter",
+          "prep_note": ""
+        },
+        {
+          "item": "pineapple juice",
+          "quantity": "46",
+          "unit": "oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen orange juice concentrate",
+          "quantity": "6",
+          "unit": "oz can",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "peppermint extract",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place one cherry in each cube of an ice tray and fill with Canada Dry Ginger Ale. Freeze overnight."
+        },
+        {
+          "step": 2,
+          "text": "Combine chilled juices in punch bowl."
+        },
+        {
+          "step": 3,
+          "text": "Add peppermint extract and stir."
+        },
+        {
+          "step": 4,
+          "text": "Add Canada Dry Ginger Ale ice cubes to each glass."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Punch bowl",
+      "notes": [
+        "Non-alcoholic",
+        "Ice cubes need to freeze overnight"
+      ],
+      "tags": [
+        "punch",
+        "beverage",
+        "holiday",
+        "Christmas",
+        "party",
+        "ginger ale",
+        "pineapple",
+        "peppermint"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 386,
+          "fat_g": 0.2,
+          "protein_g": 0.8,
+          "carbs_g": 94.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for maraschino cherries",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "dessert-coffee-variations",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dessert Coffee",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Hot coffee with flavored liqueurs for after-dinner enjoyment.",
+      "servings_yield": "1 serving (6 ounces)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "hot strong coffee",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "desired coffee flavoring",
+          "quantity": "",
+          "unit": "see variations",
+          "prep_note": ""
+        },
+        {
+          "item": "whipped cream",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon or nutmeg",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together hot coffee and desired flavoring."
+        },
+        {
+          "step": 2,
+          "text": "Top with a dollop of whipped cream and sprinkle with cinnamon or nutmeg, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Chocolate-Orange: Add 1 tbsp chocolate syrup + 1 tbsp orange liqueur",
+        "Mocha: Add 1 tbsp chocolate syrup + 1 tbsp coffee liqueur",
+        "Irish: Add 1 tbsp Irish whiskey + 1 tsp brown sugar",
+        "Amaretto: Add 1 tbsp amaretto or hazelnut liqueur",
+        "Chocolate-Mint: Add 1 tbsp chocolate-mint liqueur",
+        "Chocolate-Cream: Add 2 tbsp chocolate-cream liqueur"
+      ],
+      "tags": [
+        "beverage",
+        "coffee",
+        "dessert",
+        "alcohol",
+        "after-dinner"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5192 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 409,
+          "fat_g": 42.0,
+          "protein_g": 2.1,
+          "carbs_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for desired coffee flavoring",
+          "Assumed 1 unit for whipped cream",
+          "Assumed 1 unit for ground cinnamon or nutmeg",
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cappuccino-homemade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cappuccino",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Brew finely ground espresso in an ordinary coffeepot, or use instant.",
+      "servings_yield": "6 servings (about 3 ounces each)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "hot espresso",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "orange peel",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "finely shredded"
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "",
+          "unit": "optional for stirrers",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brew finely ground espresso in an ordinary coffeepot. Or prepare instant espresso according to package directions."
+        },
+        {
+          "step": 2,
+          "text": "In a small mixing bowl beat whipping cream and powdered sugar till soft peaks form (tips curl)."
+        },
+        {
+          "step": 3,
+          "text": "Pour 2 cups hot espresso into six 4-ounce cups."
+        },
+        {
+          "step": 4,
+          "text": "Add a large spoonful of whipped cream mixture to each cup. Sprinkle with finely shredded orange peel. Gently stir to combine."
+        },
+        {
+          "step": 5,
+          "text": "Serve with cinnamon-stick stirrers, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "coffee",
+        "cappuccino",
+        "italian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5192 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 8,
+          "protein_g": 2,
+          "carbs_g": 2,
+          "cholesterol_mg": 2,
+          "sodium_mg": 97
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 26)"
+        ]
+      }
+    },
+    {
+      "id": "hot-chocolate-homemade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Chocolate",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "A delicious way to warm up.",
+      "servings_yield": "6 servings (about 6 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "unsweetened or semisweet chocolate",
+          "quantity": "2",
+          "unit": "squares (2 oz)",
+          "prep_note": "coarsely chopped, or 1/3 cup semisweet chocolate pieces"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "whipped cream or marshmallows",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan combine unsweetened or semisweet chocolate, sugar, and 1/2 cup of the milk."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over medium heat till mixture just comes to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Stir in remaining milk; heat through. Do not boil."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. If desired, beat milk mixture with a rotary beater till frothy."
+        },
+        {
+          "step": 5,
+          "text": "Serve hot in cups or mugs. Top each serving with a dollop of whipped cream or a few marshmallows, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "medium saucepan",
+      "notes": [
+        "Hot Mocha: Add 1 tbsp instant coffee crystals with remaining milk",
+        "Spiced Hot Chocolate: Add 1/2 tsp cinnamon and 1/4 tsp nutmeg with remaining milk",
+        "Hot Cocoa: Use 1/3 cup unsweetened cocoa powder instead of chocolate"
+      ],
+      "tags": [
+        "beverage",
+        "chocolate",
+        "hot drink",
+        "winter",
+        "comfort"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5193 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 24,
+          "protein_g": 9,
+          "carbs_g": 6,
+          "cholesterol_mg": 6,
+          "sodium_mg": 81
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 27)"
+        ]
+      },
+      "variant_of": "hot-chocolate-bhg",
+      "variant_note": "Similar recipe with variations"
+    },
+    {
+      "id": "cocoa-mix-homemade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cocoa Mix",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Make your own instant cocoa mix for quick hot chocolate anytime.",
+      "servings_yield": "about 15 cups mix (45 servings)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "nonfat dry milk powder",
+          "quantity": "1",
+          "unit": "8-quart package (about 10 cups)",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1",
+          "unit": "16-oz package (about 4 3/4 cups)",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered nondairy creamer",
+          "quantity": "1",
+          "unit": "6-oz jar (1 3/4 cups)",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large mixing bowl combine nonfat dry milk powder, powdered sugar, unsweetened cocoa powder, and nondairy creamer. Stir till thoroughly combined."
+        },
+        {
+          "step": 2,
+          "text": "Store cocoa mixture in an airtight container."
+        },
+        {
+          "step": 3,
+          "text": "For 1 serving, place 1/3 cup cocoa mixture in a coffee cup or mug; add 3/4 cup boiling water. Stir to dissolve."
+        },
+        {
+          "step": 4,
+          "text": "Top with a dollop of whipped cream or a few marshmallows, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "EASY recipe",
+        "Malted Cocoa Mix: Add 1 1/2 cups instant malted milk powder. Makes about 48 servings.",
+        "Mocha Mix: Add 1/2 cup instant coffee crystals."
+      ],
+      "tags": [
+        "beverage",
+        "cocoa",
+        "mix",
+        "make-ahead",
+        "easy",
+        "gift"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5193 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 153,
+          "fat_g": 26,
+          "protein_g": 8,
+          "carbs_g": 0,
+          "cholesterol_mg": 5,
+          "sodium_mg": 4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 27)"
+        ]
+      }
+    },
+    {
+      "id": "hot-spiced-cider",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Spiced Cider",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Warm spiced apple cider perfect for fall and winter gatherings.",
+      "servings_yield": "8 servings (about 8 ounces each)",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "apple cider or apple juice",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/4 to 1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "6",
+          "unit": "inches",
+          "prep_note": ""
+        },
+        {
+          "item": "whole allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "for spice bag"
+        },
+        {
+          "item": "thin orange wedges or slices",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": "optional for studding oranges"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan combine apple cider or juice and brown sugar."
+        },
+        {
+          "step": 2,
+          "text": "For spice bag, place cinnamon, allspice, and the 1 teaspoon whole cloves in a double thickness of cheesecloth. Bring up corners of cheesecloth and tie with string. Add spice bag to cider mixture."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boiling; reduce heat. Cover and simmer at least 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Meanwhile, stud orange wedges or slices with cloves, if desired."
+        },
+        {
+          "step": 5,
+          "text": "Remove and discard spice bag. Serve cider in mugs with studded orange wedges or slices, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large saucepan",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "cider",
+        "apple",
+        "spiced",
+        "fall",
+        "winter",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5194 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 35,
+          "protein_g": 0,
+          "carbs_g": 9,
+          "cholesterol_mg": 0,
+          "sodium_mg": 6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 28)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "hot-buttered-rum",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Buttered Rum",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Usually served at Christmas, this hot sipper tastes great all winter long.",
+      "servings_yield": "10 servings (about 6 ounces each)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "lemon peel",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "finely shredded"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground allspice",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "rum",
+          "quantity": "3",
+          "unit": "tbsp per serving",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1/2",
+          "unit": "cup per serving",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small mixing bowl combine brown sugar, margarine or butter, lemon peel, cinnamon, and allspice. Beat till well combined."
+        },
+        {
+          "step": 2,
+          "text": "Use immediately or cover and chill up to 1 month."
+        },
+        {
+          "step": 3,
+          "text": "For 1 serving, place 1 rounded tablespoon of the butter mixture in a mug. Add 3 tablespoons rum and 1/2 cup boiling water. Stir well."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Butter mixture can be made ahead and chilled up to 1 month",
+        "Hot Buttered Coffee or Tea: Substitute 1/2 cup hot strong coffee or tea for the rum and boiling water"
+      ],
+      "tags": [
+        "beverage",
+        "rum",
+        "hot drink",
+        "christmas",
+        "winter",
+        "alcohol",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5194 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 256,
+          "fat_g": 6,
+          "protein_g": 8,
+          "carbs_g": 0,
+          "cholesterol_mg": 9,
+          "sodium_mg": 0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 28)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "choose-a-flavor-milk-shakes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Choose-a-Flavor Milk Shakes",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Classic blended milkshakes with many flavor variations.",
+      "servings_yield": "2 servings (about 8 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ice cream",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "vanilla, chocolate, strawberry, butter brickle, cinnamon, or coffee"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place ice cream and milk in a blender container."
+        },
+        {
+          "step": 2,
+          "text": "Cover and blend till smooth. Serve immediately."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "EASY recipe",
+        "Malts: Add 2 tbsp instant malted milk powder",
+        "Peanut Butter: Use vanilla or chocolate ice cream, add 2 tbsp peanut butter",
+        "Mocha: Use chocolate ice cream, add 2 tsp instant coffee crystals",
+        "Cinnamon-Apple: Use vanilla ice cream, add 1 small cut-up apple and 1/2 tsp cinnamon",
+        "Candy: Add 6 peanut butter cups or chocolate-covered toffee bar, blend till coarsely chopped",
+        "Cookie: Add 4 chocolate sandwich cookies or chocolate-covered graham crackers, blend till coarsely chopped"
+      ],
+      "tags": [
+        "beverage",
+        "milkshake",
+        "ice cream",
+        "easy",
+        "blender"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 307,
+          "fat_g": 35,
+          "protein_g": 11,
+          "carbs_g": 4,
+          "cholesterol_mg": 16,
+          "sodium_mg": 64
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
+        ]
+      }
+    },
+    {
+      "id": "choose-a-flavor-float",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Choose-a-Flavor Float",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Choose your favorite ice cream and beverage combination.",
+      "servings_yield": "1 serving (about 12 ounces)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "desired ice cream or sherbet",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "desired carbonated beverage",
+          "quantity": "2/3 to 3/4",
+          "unit": "cup",
+          "prep_note": "chilled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add half of the ice cream to a chilled 12-ounce glass."
+        },
+        {
+          "step": 2,
+          "text": "Add enough carbonated beverage to half-fill the glass; stir gently to mix."
+        },
+        {
+          "step": 3,
+          "text": "Add remaining ice cream. Fill the glass with remaining carbonated beverage."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "FAST recipe",
+        "Fruit Juice Float: Substitute orange, apple, or pineapple juice for carbonated beverage"
+      ],
+      "tags": [
+        "beverage",
+        "float",
+        "ice cream",
+        "easy",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 385,
+          "fat_g": 20,
+          "protein_g": 11,
+          "carbs_g": 27,
+          "cholesterol_mg": 16,
+          "sodium_mg": 65
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "orange-breakfast-nog",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Breakfast Nog",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "A refreshing citrus breakfast drink.",
+      "servings_yield": "2 servings (about 10 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "buttermilk",
+          "quantity": "1 1/3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen orange juice concentrate",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "half of a 6-oz can"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "large ice cubes",
+          "quantity": "2 or 3",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container combine buttermilk, orange juice concentrate, brown sugar, and vanilla. Cover and blend till smooth."
+        },
+        {
+          "step": 2,
+          "text": "With blender running, add ice cubes, one at a time, through opening in lid. Blend till smooth and frothy."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "FAST recipe"
+      ],
+      "tags": [
+        "beverage",
+        "breakfast",
+        "orange",
+        "smoothie",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 10,
+          "protein_g": 1,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "fruity-yogurt-sipper",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruity Yogurt Sipper",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "A healthy blended fruit and yogurt drink.",
+      "servings_yield": "4 servings (about 8 ounces each)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fruit",
+          "quantity": "1",
+          "unit": "ripe large banana, 2 medium peaches, or 1 cup sliced strawberries",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla yogurt",
+          "quantity": "1",
+          "unit": "8-oz carton",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "large ice cubes",
+          "quantity": "3 or 4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "If using banana or peaches, cut into chunks."
+        },
+        {
+          "step": 2,
+          "text": "In a blender container combine fruit, milk, yogurt, and sugar. Cover and blend till smooth."
+        },
+        {
+          "step": 3,
+          "text": "With blender running, add ice cubes, one at a time, through opening in lid. Blend till smooth."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "smoothie",
+        "yogurt",
+        "fruit",
+        "healthy",
+        "breakfast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 137,
+          "fat_g": 31,
+          "protein_g": 10,
+          "carbs_g": 0,
+          "cholesterol_mg": 1,
+          "sodium_mg": 10
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
+        ]
+      }
+    },
+    {
+      "id": "homemade-soda-pop",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Homemade Soda Pop",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Make your own fruity carbonated beverage.",
+      "servings_yield": "3 servings (about 8 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "up to 6 hours chilling",
+      "ingredients": [
+        {
+          "item": "frozen juice concentrate",
+          "quantity": "1",
+          "unit": "6-oz can",
+          "prep_note": "lemonade, orange, apple, grape, or pineapple"
+        },
+        {
+          "item": "carbonated water",
+          "quantity": "18 to 24",
+          "unit": "oz",
+          "prep_note": "4 juice cans for lemonade, 3 cans for other juices"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together lemonade and four juice cans filled with carbonated water (three cans if using juice concentrate). Gently stir till combined."
+        },
+        {
+          "step": 2,
+          "text": "Using a funnel, pour mixture into a 4-cup bottle or jar; seal."
+        },
+        {
+          "step": 3,
+          "text": "Chill for up to 6 hours."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "EASY recipe"
+      ],
+      "tags": [
+        "beverage",
+        "soda",
+        "homemade",
+        "easy",
+        "kid-friendly"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 138,
+          "fat_g": 36,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 1,
+          "sodium_mg": 50
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
+        ]
+      }
+    },
+    {
+      "id": "party-punch-base",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Party-Punch Base",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "A versatile spiced fruit punch base that can be served many ways.",
+      "servings_yield": "6 cups base",
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "plus chilling",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "12",
+          "unit": "inches",
+          "prep_note": "broken"
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "apple juice",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "apricot nectar",
+          "quantity": "1",
+          "unit": "12-oz can",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan combine water, sugar, cinnamon, and cloves. Bring to boiling; reduce heat."
+        },
+        {
+          "step": 2,
+          "text": "Cover and simmer for 10 minutes. Chill."
+        },
+        {
+          "step": 3,
+          "text": "Strain and discard spices. Combine with apple juice, apricot nectar, and lemon juice."
+        },
+        {
+          "step": 4,
+          "text": "To serve, combine base with ingredients suggested in variations."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Party Wine Punch: Add two 750ml bottles dry white wine. Makes 24 servings.",
+        "Spiked Party Punch: Add 1 cup vodka, bourbon, brandy, or rum. Makes 14 servings.",
+        "Nonalcoholic Punch: Add two 1-liter bottles club soda or carbonated water. Makes 25 servings.",
+        "Individual Cocktails: Per serving - crushed ice, 2-3 tbsp liquor, 1/2 cup base. Makes 12 servings."
+      ],
+      "tags": [
+        "beverage",
+        "punch",
+        "party",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5196 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 165,
+          "fat_g": 0.1,
+          "protein_g": 0.5,
+          "carbs_g": 42.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "ice-cream-punch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Ice-Cream Punch",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "This creamy, frothy punch is a popular choice for wedding receptions.",
+      "servings_yield": "32 servings (about 4 ounces each)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "vanilla ice cream",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen lemonade concentrate",
+          "quantity": "1",
+          "unit": "12-oz can",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "lemon-lime carbonated beverage",
+          "quantity": "2",
+          "unit": "1-liter bottles",
+          "prep_note": "chilled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spoon ice cream by tablespoonfuls into a large punch bowl."
+        },
+        {
+          "step": 2,
+          "text": "Add water and lemonade concentrate; stir just till combined."
+        },
+        {
+          "step": 3,
+          "text": "Slowly pour carbonated beverage down the side of bowl. Stir gently to mix."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large punch bowl",
+      "notes": [
+        "Sherbet Punch: Substitute lime, orange, lemon, or raspberry sherbet for the ice cream"
+      ],
+      "tags": [
+        "beverage",
+        "punch",
+        "party",
+        "wedding",
+        "ice cream"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5196 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 23,
+          "protein_g": 2,
+          "carbs_g": 1,
+          "cholesterol_mg": 4,
+          "sodium_mg": 15
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 30)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "slushy-punch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Slushy Punch",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Keep this slush in the freezer for spur-of-the-moment guests.",
+      "servings_yield": "23 servings (about 4 ounces each)",
+      "prep_time": "20 minutes",
+      "cook_time": "",
+      "total_time": "several hours freezing",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe medium bananas",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "unsweetened pineapple juice",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen orange juice concentrate",
+          "quantity": "1",
+          "unit": "6-oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "carbonated water or lemon-lime beverage",
+          "quantity": "1",
+          "unit": "1-liter bottle",
+          "prep_note": "chilled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together sugar and 2 3/4 cups water till sugar dissolves."
+        },
+        {
+          "step": 2,
+          "text": "In a blender container combine bananas, half of the pineapple juice, and the orange juice concentrate. Cover; blend till smooth."
+        },
+        {
+          "step": 3,
+          "text": "Add to sugar mixture. Stir in remaining pineapple juice and lemon juice."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to a 13x9x2-inch baking pan. Freeze for several hours or till firm."
+        },
+        {
+          "step": 5,
+          "text": "To serve, let mixture stand at room temperature for 20 to 30 minutes. To form a slush, scrape a large spoon across the surface of the frozen mixture."
+        },
+        {
+          "step": 6,
+          "text": "Spoon into a punch bowl. Slowly pour carbonated water down the side of the bowl. Stir gently to mix."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "13x9x2-inch baking pan",
+      "notes": [
+        "Spiked Slushy Punch: Add 1 1/2 cups rum or vodka with lemon juice. Stand at room temp 5-10 minutes before scraping. Makes 26 servings."
+      ],
+      "tags": [
+        "beverage",
+        "punch",
+        "party",
+        "frozen",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5196 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 63,
+          "fat_g": 0.1,
+          "protein_g": 0.2,
+          "carbs_g": 15.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "lemonade-or-limeade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lemonade or Limeade",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "For fresh juice, use 4 to 5 medium lemons or 7 to 10 medium limes.",
+      "servings_yield": "5 servings (about 8 ounces each)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice or lime juice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a pitcher combine water, lemon or lime juice, and sugar."
+        },
+        {
+          "step": 2,
+          "text": "Stir till sugar dissolves."
+        },
+        {
+          "step": 3,
+          "text": "Serve immediately over ice or chill till serving time."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "lemonade",
+        "limeade",
+        "summer",
+        "refreshing"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5197 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 30,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "lime-daiquiris",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lime Daiquiris",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Use the empty can to measure the rum.",
+      "servings_yield": "6 servings (about 4 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "frozen limeade or lemonade concentrate",
+          "quantity": "1",
+          "unit": "6-oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "rum",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "one 6-oz can"
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "20 to 24",
+          "unit": "",
+          "prep_note": "about 2 cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container combine limeade or lemonade concentrate and rum. Cover and blend till smooth."
+        },
+        {
+          "step": 2,
+          "text": "With blender running, add ice cubes, one at a time, through opening in lid. Blend till slushy."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "FAST recipe",
+        "Berry and Banana Daiquiris: Use 1/3 cup concentrate. Add 10-oz pkg frozen berries, 1 banana, optional 1/3 cup powdered sugar. Makes 8.",
+        "Raspberry or Strawberry Daiquiris: Use 1/3 cup concentrate. Add 10-oz pkg frozen berries, optional 1/3 cup powdered sugar. Makes 7.",
+        "Peach Daiquiris: Use 1/3 cup concentrate. Add 3 peaches or 1 1/2 cups frozen peaches, optional 1/2 cup powdered sugar. Makes 8."
+      ],
+      "tags": [
+        "beverage",
+        "cocktail",
+        "rum",
+        "daiquiri",
+        "frozen",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5197 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 133,
+          "fat_g": 18,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "margaritas",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Margaritas",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Our favorite blend for this popular drink.",
+      "servings_yield": "4 servings (about 4 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "lime or lemon juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "tequila",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "orange liqueur",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together lime or lemon juice, tequila, sugar, orange liqueur, and 1 cup cold water till sugar dissolves."
+        },
+        {
+          "step": 2,
+          "text": "Serve over ice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "FAST recipe",
+        "Blended Margaritas: Blend ingredients (omit water) with 3 cups ice cubes till slushy. Makes 7 servings.",
+        "Frozen Margaritas: Use 2 cups water. Transfer to pan, freeze till firm. Scrape with spoon. Makes 7 servings."
+      ],
+      "tags": [
+        "beverage",
+        "cocktail",
+        "tequila",
+        "margarita",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5197 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 31,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
+        ]
+      }
+    },
+    {
+      "id": "bloody-marys",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bloody Marys",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Classic brunch cocktail with tomato juice and vodka.",
+      "servings_yield": "10 servings (about 4 ounces each)",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "tomato juice",
+          "quantity": "1",
+          "unit": "32-oz jar",
+          "prep_note": ""
+        },
+        {
+          "item": "vodka",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "several dashes",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        },
+        {
+          "item": "celery stalks or dill pickle spears",
+          "quantity": "",
+          "unit": "optional for garnish",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a pitcher stir together tomato juice, vodka, lemon juice, Worcestershire sauce, celery salt, and hot pepper sauce."
+        },
+        {
+          "step": 2,
+          "text": "Serve over ice. Garnish each glass with a celery stalk or pickle spear, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "FAST recipe",
+        "Virgin Marys: Omit vodka. Makes 9 servings."
+      ],
+      "tags": [
+        "beverage",
+        "cocktail",
+        "vodka",
+        "brunch",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5197 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 220,
+          "fat_g": 5,
+          "protein_g": 2,
+          "carbs_g": 28,
+          "cholesterol_mg": 59,
+          "sodium_mg": 8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "sangria",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sangria",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Spanish-style wine punch with fresh citrus.",
+      "servings_yield": "10 servings (about 4 ounces each)",
+      "prep_time": "15 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "orange",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dry red or white wine",
+          "quantity": "1",
+          "unit": "750-ml bottle",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "carbonated water",
+          "quantity": "1 to 2",
+          "unit": "cups",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "brandy",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut lemon and orange into 1/4-inch-thick slices. Place the 4 end slices from the lemon and orange in a saucepan; set aside remaining slices."
+        },
+        {
+          "step": 2,
+          "text": "For syrup, add sugar and water to the saucepan. Bring to boiling, stirring till sugar dissolves."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat; cool. Squeeze juice from cooked fruit into the syrup. Discard cooked fruit."
+        },
+        {
+          "step": 4,
+          "text": "In a pitcher combine remaining fruit slices, syrup, wine, carbonated water, and brandy. Serve over ice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Microwave option available"
+      ],
+      "tags": [
+        "beverage",
+        "wine",
+        "sangria",
+        "spanish",
+        "summer",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5198 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 0.0,
+          "protein_g": 0.2,
+          "carbs_g": 12.4
+        },
+        "missing_inputs": [
+          "Not in database: ice cubes"
+        ],
+        "assumptions": [
+          "Based on 7/8 ingredients (88% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "wine-spritzer",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wine Spritzer",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Light and refreshing wine with a splash of soda.",
+      "servings_yield": "1 serving (about 8 ounces)",
+      "prep_time": "2 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "dry white, red, or ros\u00e9 wine",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "club soda or lemon-lime carbonated beverage",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine wine and soda or carbonated beverage. Serve over ice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "EASY recipe"
+      ],
+      "tags": [
+        "beverage",
+        "wine",
+        "spritzer",
+        "easy",
+        "light"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5198 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 75,
+          "fat_g": 4,
+          "protein_g": 1,
+          "carbs_g": 9,
+          "cholesterol_mg": 15,
+          "sodium_mg": 2
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "chocolate-cream-liqueur",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate-Cream Liqueur",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Pour this luscious liqueur into decorative bottles for holiday gift giving.",
+      "servings_yield": "4 1/2 cups (9 servings)",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "4 hours chilling",
+      "ingredients": [
+        {
+          "item": "light cream",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sweetened condensed milk",
+          "quantity": "1",
+          "unit": "14-oz can (1 1/4 cups)",
+          "prep_note": ""
+        },
+        {
+          "item": "instant coffee crystals",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolk",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "Irish whiskey",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "rum",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chocolate-flavored syrup",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large heavy saucepan combine light cream, sweetened condensed milk, and instant coffee crystals. Cook and stir over medium heat till coffee crystals dissolve."
+        },
+        {
+          "step": 2,
+          "text": "Gradually stir about half of the hot milk mixture into the beaten egg yolk; return all to the saucepan. Bring mixture to a boil. Cook and stir over medium heat for 2 minutes. Remove saucepan from heat."
+        },
+        {
+          "step": 3,
+          "text": "Add Irish whiskey, rum, chocolate syrup, and vanilla to mixture in saucepan. Stir till well combined."
+        },
+        {
+          "step": 4,
+          "text": "Let mixture cool at room temperature. Transfer mixture to a container with a tight-fitting lid."
+        },
+        {
+          "step": 5,
+          "text": "Chill at least 4 hours before serving. Shake well before serving. Store in the refrigerator for up to 2 months."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Makes great holiday gifts"
+      ],
+      "tags": [
+        "beverage",
+        "liqueur",
+        "homemade",
+        "chocolate",
+        "irish cream",
+        "gift"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5198 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 17,
+          "protein_g": 1,
+          "carbs_g": 6,
+          "cholesterol_mg": 13,
+          "sodium_mg": 201
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 32)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "tomato-juice-cocktail",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tomato Juice Cocktail",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 199 (Freezing & Canning section)",
+      "description": "Homemade tomato juice cocktail seasoned with celery, onion, and spices. Can be canned or frozen.",
+      "servings_yield": "Makes about 4 pints",
+      "prep_time": "30 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "1 hour 15 minutes",
+      "ingredients": [
+        {
+          "item": "ripe tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "1-2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thoroughly wash tomatoes. Remove stems. Cut tomatoes into pieces. In an 8- or 10-quart kettle or Dutch oven combine tomatoes, celery, and onion."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling, stirring frequently. Cover and simmer about 15 minutes or till soft, stirring often."
+        },
+        {
+          "step": 3,
+          "text": "Press through a food mill or sieve to extract juice. Discard solids. Return juice to kettle."
+        },
+        {
+          "step": 4,
+          "text": "Stir in lemon juice, sugar, Worcestershire sauce, horseradish, salt, and hot pepper sauce. Bring to boiling."
+        },
+        {
+          "step": 5,
+          "text": "Pour hot juice into hot, clean pint jars, leaving 1/2-inch headspace."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [
+        "Pressure Canning: Process pints for 15 minutes at 10 pounds pressure (adjust for altitude)",
+        "Freezing: Cool juice. Pour into wide-top freezer containers, leaving 1/2-inch headspace. Process pints for 15 minutes. Seal, label, and freeze.",
+        "Note: Tomatoes should be ripe but still firm. Start with the smaller amount of horseradish and add more until you get the zest you like."
+      ],
+      "tags": [
+        "tomato",
+        "juice",
+        "beverage",
+        "canning",
+        "freezing",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5360 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 0.9,
+          "protein_g": 3.6,
+          "carbs_g": 19.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tomato-juice-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tomato Juice",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 198",
+      "description": "Homemade tomato juice for canning or freezing",
+      "servings_yield": "5 pints (twenty 1/2-cup servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ripe tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "per pint jar or 2 tablespoons per quart jar"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thoroughly wash 8 pounds ripe but firm tomatoes. Remove stems. Core and cut into pieces; drain."
+        },
+        {
+          "step": 2,
+          "text": "Place tomatoes in an 8- or 10-quart kettle. Cover and simmer about 15 minutes or till soft, stirring often. Press tomatoes through a food mill or sieve. Discard solids."
+        },
+        {
+          "step": 3,
+          "text": "Return tomato juice to the kettle and bring to boiling, stirring often. Boil gently, uncovered, for 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Boiling-Water Canning: Add 1 tablespoon lemon juice to each hot, clean pint jar or 2 tablespoons lemon juice to each quart jar. If desired, add 1/2 teaspoon salt to each pint or 1/2 teaspoon salt to each quart jar."
+        },
+        {
+          "step": 5,
+          "text": "Pour hot juice into jars, leaving a 1/2-inch headspace. Process pints for 35 minutes, quarts for 40 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Freezing: Cool tomato juice. Pour into wide-top freezer containers, leaving a 1/2-inch headspace. Seal, label, and freeze."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [
+        "Add lemon juice to ensure safe acidity for canning"
+      ],
+      "tags": [
+        "beverages",
+        "tomato",
+        "canning",
+        "freezing",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5359 Large.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5359 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 51,
+          "fat_g": 0.6,
+          "protein_g": 2.6,
+          "carbs_g": 11.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tomato-juice-cocktail-bhg-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tomato Juice Cocktail",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 199",
+      "description": "Spiced tomato juice cocktail - start with the smaller amount of horseradish and add more until you get just the zest you like",
+      "servings_yield": "about 4 pints (sixteen 1/2-cup servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "1 to 2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thoroughly wash tomatoes. Remove stems. Cut tomatoes into pieces; drain."
+        },
+        {
+          "step": 2,
+          "text": "In an 8- or 10-quart kettle or Dutch oven combine 10 cups tomato pieces, the celery, and onion."
+        },
+        {
+          "step": 3,
+          "text": "Cover and simmer about 15 minutes or till soft, stirring frequently. Press through a food mill or sieve. Discard solids."
+        },
+        {
+          "step": 4,
+          "text": "Return to kettle and bring to boiling. Boil gently, uncovered, for 15 minutes, stirring often."
+        },
+        {
+          "step": 5,
+          "text": "Stir in lemon juice, sugar, Worcestershire sauce, salt, prepared horseradish, and bottled hot pepper sauce. Simmer for 10 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Pressure Canning: Pour hot juice into hot, clean pint jars, leaving a 1/2-inch headspace. Process pints for 15 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Freezing: Cool juice. Pour into wide-top freezer containers, leaving a 1/2-inch headspace. Seal, label, and freeze."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle or Dutch oven",
+      "notes": [
+        "Note: Tomatoes should be ripe but still firm."
+      ],
+      "tags": [
+        "beverages",
+        "tomato",
+        "cocktail",
+        "spicy",
+        "canning",
+        "freezing",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5360 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 0.9,
+          "protein_g": 3.6,
+          "carbs_g": 19.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      },
+      "variant_of": "tomato-juice-cocktail",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "eggnog-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Eggnog",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 26",
+      "description": "Always a hit at our annual staff Christmas party.",
+      "servings_yield": "10 (4-ounce) servings",
+      "prep_time": "4 to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "beaten eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "light rum",
+          "quantity": "2 to 4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bourbon",
+          "quantity": "2 to 4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large heavy saucepan mix eggs, milk, and \u00bd cup sugar. Cook and stir over medium heat till mixture coats a metal spoon. Remove from heat."
+        },
+        {
+          "step": 2,
+          "text": "Cool quickly by placing pan in a sink or bowl of ice water and stirring 1 to 2 minutes. Stir in rum, bourbon, and vanilla. Chill 4 to 24 hours."
+        },
+        {
+          "step": 3,
+          "text": "At serving time, in a bowl whip cream and 2 tablespoons sugar till soft peaks form. Transfer chilled egg mixture to a punch bowl. Fold in whipped cream mixture. Serve at once. Sprinkle each serving with nutmeg."
+        }
+      ],
+      "notes": [
+        "Chocolate Eggnog: Prepare as above, except stir \u00bc to \u2153 cup chocolate-flavored syrup into egg mixture before chilling.",
+        "Nonalcoholic Eggnog: Prepare as above, except omit rum and bourbon. Increase milk to 2\u00bc to 2\u00bd cups."
+      ],
+      "tags": [
+        "beverage",
+        "eggnog",
+        "holiday",
+        "christmas"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5192 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 245,
+          "fat_g": 13.5,
+          "protein_g": 5.7,
+          "carbs_g": 25.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for sugar (standard quantity)",
+          "Assumed 1 unit for ground nutmeg",
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "hot-chocolate-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Chocolate",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 27",
+      "description": "A delicious way to warm up.",
+      "servings_yield": "6 (about 6-ounce) servings",
+      "ingredients": [
+        {
+          "item": "unsweetened or semisweet chocolate, coarsely chopped, or \u2153 cup semisweet chocolate pieces",
+          "quantity": "2",
+          "unit": "squares (2 ounces)",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "\u2153",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "whipped cream or marshmallows",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan combine unsweetened or semisweet chocolate, sugar, and \u2153 cup of the milk. Cook and stir over medium heat till mixture just comes to boiling. Stir in remaining milk; heat through. Do not boil."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat. If desired, beat milk mixture with a rotary beater till frothy."
+        },
+        {
+          "step": 3,
+          "text": "Serve hot in cups or mugs. Top each serving with a dollop of whipped cream or a few marshmallows, if desired."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In an 8-cup measure or 1\u00bd-quart casserole combine chocolate, sugar, and \u2153 cup milk. Micro-cook, uncovered, on 100% power (high) for 2\u00bd to 3 minutes or till mixture just comes to boiling, stirring once. Stir in remaining milk. Cook on high for 6 to 8 minutes more or till heated through, stirring once. Serve with whipped cream or marshmallows, if desired.",
+        "Hot Mocha: Prepare as above, except stir 1 tablespoon instant coffee crystals into chocolate mixture with remaining milk.",
+        "Spiced Hot Chocolate: Prepare as above, except stir \u00bd teaspoon ground cinnamon and \u00bc teaspoon ground nutmeg into chocolate mixture with remaining milk.",
+        "Hot Cocoa: Prepare as above, except substitute \u2153 cup unsweetened cocoa powder for the chocolate."
+      ],
+      "tags": [
+        "beverage",
+        "hot chocolate",
+        "cocoa",
+        "winter"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5193 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 347,
+          "fat_g": 15.3,
+          "protein_g": 6.3,
+          "carbs_g": 47.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for sugar (standard quantity)",
+          "Assumed 1 unit for whipped cream or marshmallows",
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cocoa-mix-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cocoa Mix",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 27",
+      "servings_yield": "About 15 cups mix or 45 (8-ounce) servings",
+      "ingredients": [
+        {
+          "item": "nonfat dry milk powder",
+          "quantity": "1",
+          "unit": "8-quart package (about 10 cups)",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "16-ounce package (about 4\u2153 cups)",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1\u00be",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered nondairy creamer",
+          "quantity": "1",
+          "unit": "6-ounce jar (1\u00be cups)",
+          "prep_note": ""
+        },
+        {
+          "item": "whipped cream or marshmallows",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large mixing bowl combine nonfat dry milk powder, powdered sugar, unsweetened cocoa powder, and nondairy creamer. Stir till thoroughly combined."
+        },
+        {
+          "step": 2,
+          "text": "Store cocoa mixture in an airtight container. Makes about 15 cups or enough for about 45 (8-ounce) servings."
+        },
+        {
+          "step": 3,
+          "text": "For 1 serving, place \u2153 cup cocoa mixture in a coffee cup or mug; add \u00be cup boiling water. Stir to dissolve. Top with a dollop of whipped cream or a few marshmallows, if desired."
+        }
+      ],
+      "notes": [
+        "Malted Cocoa Mix: Prepare as above, except stir 1\u00bd cups instant malted milk powder into dry ingredients. Makes about 16 cups or enough for about 48 (8-ounce) servings.",
+        "Mocha Mix: Prepare as above, except stir \u00bd cup instant coffee crystals into dry ingredients."
+      ],
+      "tags": [
+        "beverage",
+        "cocoa",
+        "mix",
+        "homemade",
+        "gift"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5193 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 9.2,
+          "protein_g": 1.1,
+          "carbs_g": 9.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for whipped cream or marshmallows",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "glogg-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Glogg",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 28",
+      "description": "Before sipping this potent Swedish punch, toast everyone's good health. It's tradition.",
+      "servings_yield": "8 (about 4-ounce) servings",
+      "cook_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "dry red wine",
+          "quantity": "1",
+          "unit": "750-milliliter bottle",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "gin, vodka, or aquavit",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "orange peel",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "peel from 1 orange"
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "8",
+          "unit": "inches",
+          "prep_note": "broken"
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cardamom pods",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "opened"
+        },
+        {
+          "item": "blanched whole almonds",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan stir together wine, raisins, gin, vodka, or aquavit; and sugar. For the spice bag, cut a double thickness of cheesecloth into a 6- or 8-inch square. Place orange peel, cinnamon, cloves, and cardamom in the center of the cheesecloth. Bring up the corners of the cheesecloth and tie them with a clean string. Add to saucepan with wine mixture."
+        },
+        {
+          "step": 2,
+          "text": "Heat mixture to simmering. Simmer, uncovered, for 10 minutes. Do not boil. Remove and discard the spice bag. Stir in almonds just before serving."
+        }
+      ],
+      "notes": [
+        "Crockery-cooker directions: In a 3\u00bd- or 4-quart electric crockery cooker combine ingredients as above. Cover and cook on low-heat setting for 3 hours. Remove and discard the spice bag. Stir in almonds just before serving."
+      ],
+      "tags": [
+        "beverage",
+        "wine",
+        "swedish",
+        "holiday",
+        "mulled"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5194 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 308,
+          "fat_g": 9.4,
+          "protein_g": 4.7,
+          "carbs_g": 48.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for raisins",
+          "Assumed 1 unit for gin, vodka, or aquavit",
+          "Inferred 1.0 for sugar (standard quantity)",
+          "Assumed 1 unit for orange peel",
+          "Assumed 1 unit for blanched whole almonds"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "milk-shakes-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Choose-a-Flavor Milk Shakes",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 29",
+      "servings_yield": "2 (about 8-ounce) servings",
+      "ingredients": [
+        {
+          "item": "vanilla, chocolate, strawberry, butter brickle, cinnamon, or coffee ice cream",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "\u00bc to \u00be",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place ice cream and milk in a blender container. Cover and blend till smooth. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Choose-a-Flavor Malts: Prepare as above, except add 2 tablespoons instant malted milk powder to blender container with milk.",
+        "Peanut Butter Milk Shakes: Prepare as above, except use vanilla or chocolate ice cream. Add 2 tablespoons peanut butter to blender container with milk.",
+        "Mocha Milk Shakes: Prepare as above, except use chocolate ice cream. Add 2 teaspoons instant coffee crystals with the milk.",
+        "Cinnamon-Apple Milk Shakes: Prepare as above, except use vanilla ice cream. Add 1 small cut-up apple and \u00bd teaspoon ground cinnamon to blender container with milk.",
+        "Candy Milk Shakes: Prepare as above, except use vanilla or chocolate ice cream. Add 6 bite-size chocolate-covered peanut butter cups or one broken-up 1\u2153-ounce bar chocolate-covered English toffee to blended mixture. Cover and blend just till candy is coarsely chopped.",
+        "Cookie Milk Shakes: Prepare as above, except use vanilla or chocolate ice cream. Add 4 chocolate sandwich cookies or 4 chocolate-covered graham crackers to blended mixture. Cover and blend just till cookies are coarsely chopped."
+      ],
+      "tags": [
+        "beverage",
+        "milkshake",
+        "ice cream",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 8.5,
+          "protein_g": 5.0,
+          "carbs_g": 14.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for milk (standard quantity)",
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fruity-yogurt-sipper-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruity Yogurt Sipper",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 29",
+      "servings_yield": "4 (about 8-ounce) servings",
+      "ingredients": [
+        {
+          "item": "ripe large banana, 2 medium peaches, or 1 cup sliced strawberries",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1\u00bd",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla yogurt",
+          "quantity": "1",
+          "unit": "8-ounce carton",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "large ice cubes",
+          "quantity": "3 or 4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "If using banana or peaches, cut into chunks. In a blender container combine fruit, milk, yogurt, and sugar. Cover and blend till smooth."
+        },
+        {
+          "step": 2,
+          "text": "With blender running, add ice cubes, one at a time, through opening in lid. Blend till smooth."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "smoothie",
+        "yogurt",
+        "fruit",
+        "healthy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 2.1,
+          "protein_g": 2.2,
+          "carbs_g": 8.0
+        },
+        "missing_inputs": [
+          "Not in database: large ice cubes"
+        ],
+        "assumptions": [
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      },
+      "variant_of": "fruity-yogurt-sipper",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "homemade-soda-pop-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Homemade Soda Pop",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 29",
+      "servings_yield": "3 (about 8-ounce) servings",
+      "prep_time": "Up to 6 hours ahead",
+      "ingredients": [
+        {
+          "item": "frozen lemonade concentrate or frozen orange, apple, grape, or pineapple juice concentrate",
+          "quantity": "1",
+          "unit": "6-ounce can",
+          "prep_note": ""
+        },
+        {
+          "item": "carbonated water",
+          "quantity": "18 to 24",
+          "unit": "ounces",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together lemonade and four juice cans filled with carbonated water (three cans if using juice concentrate). Gently stir till combined."
+        },
+        {
+          "step": 2,
+          "text": "Using a funnel, pour mixture into a 4-cup bottle or jar; seal. Chill for up to 6 hours."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "soda",
+        "homemade",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5195 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.0,
+          "protein_g": 0.0,
+          "carbs_g": 9.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "slushy-punch-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Slushy Punch",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 30",
+      "description": "Keep this slush in the freezer for spur-of-the-moment guests. For each serving, combine equal amounts of slush and carbonated water.",
+      "servings_yield": "23 (about 4-ounce) servings",
+      "prep_time": "Freeze several hours",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe medium bananas",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "unsweetened pineapple juice",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen orange juice concentrate",
+          "quantity": "1",
+          "unit": "6-ounce can",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "carbonated water or lemon-lime carbonated beverage",
+          "quantity": "1",
+          "unit": "1-liter bottle",
+          "prep_note": "chilled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together sugar and 2\u00be cups water till sugar dissolves. In a blender container combine bananas, half of the pineapple juice, and the orange juice concentrate. Cover; blend till smooth. Add to sugar mixture. Stir in remaining pineapple juice and lemon juice."
+        },
+        {
+          "step": 2,
+          "text": "Transfer to a 13x9x2-inch baking pan. Freeze for several hours or till firm."
+        },
+        {
+          "step": 3,
+          "text": "To serve, let mixture stand at room temperature for 20 to 30 minutes. To form a slush, scrape a large spoon across the surface of the frozen mixture. Spoon into a punch bowl. Slowly pour carbonated water down the side of the bowl. Stir gently to mix."
+        }
+      ],
+      "notes": [
+        "Spiked Slushy Punch: Prepare as above, except add 1\u00bd cups rum or vodka with the lemon juice. Let frozen mixture stand at room temperature for 5 to 10 minutes before scraping with a spoon. Makes 26 (about 4-ounce) servings."
+      ],
+      "tags": [
+        "beverage",
+        "punch",
+        "slushy",
+        "frozen",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5196 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 63,
+          "fat_g": 0.1,
+          "protein_g": 0.2,
+          "carbs_g": 15.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      },
+      "variant_of": "slushy-punch",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "margaritas-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Margaritas",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 31",
+      "description": "Our favorite blend for this popular drink.",
+      "servings_yield": "4 (about 4-ounce) servings",
+      "ingredients": [
+        {
+          "item": "lime or lemon juice",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "tequila",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "\u2153",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "orange liqueur",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together lime or lemon juice, tequila, sugar, orange liqueur, and 1 cup cold water till sugar dissolves."
+        },
+        {
+          "step": 2,
+          "text": "Serve over ice."
+        }
+      ],
+      "notes": [
+        "Blended Margaritas: Prepare as above, except place lime or lemon juice, tequila, sugar, and orange liqueur in a blender container. Cover; blend till sugar dissolves. With blender running, add 3 cups ice cubes, one at a time, through opening in lid. Blend till slushy. Makes 7 (about 4-ounce) servings.",
+        "Frozen Margaritas: Prepare as above, except use 2 cups cold water. Transfer mixture to an 8x4x2-inch or 9x5x3-inch pan. Freeze several hours or till firm. To serve, scrape a large spoon across surface of frozen mixture. Spoon into glasses. Makes 7 (about 4-ounce) servings."
+      ],
+      "tags": [
+        "beverage",
+        "cocktail",
+        "margarita",
+        "tequila",
+        "mexican",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5197 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 210,
+          "fat_g": 0.1,
+          "protein_g": 0.3,
+          "carbs_g": 54.0
+        },
+        "missing_inputs": [
+          "Not in database: tequila",
+          "Not in database: ice cubes"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for lime or lemon juice",
+          "Inferred 1.0 for sugar (standard quantity)",
+          "Assumed 1 unit for orange liqueur",
+          "Based on 3/5 ingredients (60% coverage)"
+        ]
+      },
+      "variant_of": "margaritas",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "sangria-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sangria",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 32",
+      "servings_yield": "10 (about 4-ounce) servings",
+      "ingredients": [
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "orange",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dry red or white wine",
+          "quantity": "1",
+          "unit": "750-milliliter bottle",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "carbonated water",
+          "quantity": "1 to 2",
+          "unit": "cups",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "brandy",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ice cubes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut lemon and orange into \u00bc-inch-thick slices. Place the 4 end slices from the lemon and orange in a saucepan; set aside remaining slices. For syrup, add sugar and water to the saucepan. Bring to boiling, stirring till sugar dissolves."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat; cool. Squeeze juice from cooked fruit into the syrup. Discard cooked fruit."
+        },
+        {
+          "step": 3,
+          "text": "In a pitcher combine remaining fruit slices, syrup, wine, carbonated water, and brandy. Serve over ice."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Cut fruit as above. In a 2-cup measure micro-cook fruit end slices, sugar, and water, uncovered, on 100% power (high) for 2 to 3 minutes or till boiling, stirring once. Continue as above."
+      ],
+      "tags": [
+        "beverage",
+        "wine",
+        "sangria",
+        "spanish",
+        "summer",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5198 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 0.0,
+          "protein_g": 0.2,
+          "carbs_g": 22.4
+        },
+        "missing_inputs": [
+          "Not in database: ice cubes"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for sugar (standard quantity)",
+          "Assumed 1 unit for water",
+          "Based on 7/8 ingredients (88% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "grasshoppers-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Grasshoppers",
+      "category": "beverages",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 32",
+      "description": "Smooth and refreshing, these drinks are perfect for after dinner or dessert.",
+      "servings_yield": "4 (about 4-ounce) servings",
+      "ingredients": [
+        {
+          "item": "vanilla ice cream",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "white cr\u00e8me de cacao",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green cr\u00e8me de menthe",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container combine ice cream, cr\u00e8me de cacao, and cr\u00e8me de menthe. Cover and blend till smooth."
+        }
+      ],
+      "notes": [
+        "Golden Cadillacs: Prepare as above, except substitute Galliano for the cr\u00e8me de menthe.",
+        "Velvet Hammers: Prepare as above, except substitute orange liqueur for cr\u00e8me de menthe.",
+        "Brandy Alexanders: Prepare as above, except substitute brandy for the cr\u00e8me de menthe."
+      ],
+      "tags": [
+        "beverage",
+        "cocktail",
+        "after dinner",
+        "ice cream",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5198 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 3.8,
+          "protein_g": 1.2,
+          "carbs_g": 7.8
+        },
+        "missing_inputs": [
+          "Not in database: white cr\u00e8me de cacao",
+          "Not in database: green cr\u00e8me de menthe"
+        ],
+        "assumptions": [
+          "Based on 1/3 ingredients (33% coverage)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    }
+  ]
+}

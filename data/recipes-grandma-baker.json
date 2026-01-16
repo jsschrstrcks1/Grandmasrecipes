@@ -2,8 +2,9 @@
   "meta": {
     "collection": "grandma-baker",
     "total_recipes": 687,
-    "generated": "2026-01-16T13:54:21.557654Z",
-    "source": "recipes_master.json"
+    "generated": "2026-01-16T14:00:19.386467Z",
+    "source": "recipes_master.json",
+    "sharded_by_category": false
   },
   "recipes": [
     {
