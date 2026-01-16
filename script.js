@@ -225,8 +225,12 @@ let selectedMealRecipes = [];
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
-  await loadRecipes();
-  // Ingredient index, substitutions, and kitchen tips are lazy loaded on first use
+  // Load recipe index and ingredient index in parallel
+  await Promise.all([
+    loadRecipes(),
+    loadIngredientIndex()
+  ]);
+  // Substitutions and kitchen tips are still lazy loaded on first use
   setupEventListeners();
   setupIngredientSearch();
   setupStaplesSystem();
