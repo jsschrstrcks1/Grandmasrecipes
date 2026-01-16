@@ -2695,97 +2695,89 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
     return { matches: [], perfectMatches: 0, partialMatches: 0 };
   }
 
-  const results = [];
+  // Use ingredientIndex to find recipes (works with sharded data)
+  // ingredientIndex.ingredients maps ingredient names to recipe IDs
+  const ingredientData = ingredientIndex.ingredients || {};
 
-  for (const recipe of recipes) {
-    // Skip variants from main grid
-    if (recipe.variant_of && recipe.variant_of !== recipe.id) continue;
+  // Build a map of recipeId -> { matchCount, matchedIngredients, missingIngredients }
+  const recipeMatches = new Map();
 
-    const recipeIngredients = recipe.ingredients || [];
-    const recipeIngredientNames = recipeIngredients.map(ing =>
-      normalizeIngredientName(ing.item)
-    );
+  for (const selectedIng of ingredients) {
+    const normalizedSelected = normalizeIngredientName(selectedIng);
+    const canonical = getCanonicalName(normalizedSelected);
 
-    // Check how many of the selected ingredients are in this recipe
-    let matchCount = 0;
-    const matchedIngredients = [];
-    const missingIngredients = [];
-    const substitutionMatches = []; // Track when a substitute was used
+    // Find all recipe IDs that contain this ingredient
+    // Check exact match, canonical match, and partial matches
+    const matchingRecipeIds = new Set();
 
-    for (const selectedIng of ingredients) {
-      const normalizedSelected = normalizeIngredientName(selectedIng);
-      const canonical = getCanonicalName(normalizedSelected);
+    for (const [ingName, recipeIds] of Object.entries(ingredientData)) {
+      const ingNormalized = normalizeIngredientName(ingName);
+      const ingCanonical = getCanonicalName(ingNormalized);
 
-      // Check if recipe contains this ingredient (or its synonym)
-      let found = false;
-      let foundViaSubstitution = null;
-
-      // Direct match check
-      for (const recipeName of recipeIngredientNames) {
-        const recipeCanonical = getCanonicalName(recipeName);
-        if (recipeName.includes(normalizedSelected) ||
-            normalizedSelected.includes(recipeName) ||
-            recipeCanonical === canonical ||
-            recipeName === normalizedSelected) {
-          found = true;
-          break;
+      // Check for match (exact, canonical, or partial)
+      if (ingNormalized === normalizedSelected ||
+          ingCanonical === canonical ||
+          ingNormalized.includes(normalizedSelected) ||
+          normalizedSelected.includes(ingNormalized)) {
+        for (const recipeId of recipeIds) {
+          matchingRecipeIds.add(recipeId);
         }
-      }
-
-      // If not found directly, check substitutions
-      if (!found && enableSubstitutions && substitutionsData) {
-        // Get what the user's ingredient can substitute for
-        const subs = findSubstitutes(selectedIng);
-        for (const sub of subs) {
-          const subNorm = normalizeIngredientName(sub.substitute);
-          // Check if recipe needs any of these substitutes
-          for (const recipeName of recipeIngredientNames) {
-            if (recipeName.includes(subNorm) || subNorm.includes(recipeName)) {
-              found = true;
-              foundViaSubstitution = {
-                userHas: selectedIng,
-                recipeNeeds: recipeName,
-                substituteInfo: sub
-              };
-              break;
-            }
-          }
-          if (found) break;
-        }
-      }
-
-      if (found) {
-        matchCount++;
-        matchedIngredients.push(selectedIng);
-        if (foundViaSubstitution) {
-          substitutionMatches.push(foundViaSubstitution);
-        }
-      } else {
-        missingIngredients.push(selectedIng);
       }
     }
 
-    // Determine if this recipe matches based on mode and threshold
+    // Update recipe match info
+    for (const recipeId of matchingRecipeIds) {
+      if (!recipeMatches.has(recipeId)) {
+        recipeMatches.set(recipeId, {
+          matchCount: 0,
+          matchedIngredients: [],
+          missingIngredients: [],
+          substitutionMatches: []
+        });
+      }
+      const info = recipeMatches.get(recipeId);
+      info.matchCount++;
+      info.matchedIngredients.push(selectedIng);
+    }
+  }
+
+  // Mark missing ingredients for each recipe
+  for (const [recipeId, info] of recipeMatches) {
+    for (const selectedIng of ingredients) {
+      if (!info.matchedIngredients.includes(selectedIng)) {
+        info.missingIngredients.push(selectedIng);
+      }
+    }
+  }
+
+  // Filter recipes based on match mode and threshold
+  const results = [];
+
+  for (const [recipeId, info] of recipeMatches) {
+    // Skip variants (check in lightweight index)
+    const recipe = recipes.find(r => r.id === recipeId);
+    if (recipe && recipe.variant_of && recipe.variant_of !== recipe.id) continue;
+
     let isMatch = false;
     if (matchMode === 'any') {
       // "Any" mode: at least one ingredient matches
-      isMatch = matchCount > 0;
+      isMatch = info.matchCount > 0;
     } else {
       // "All" mode: all selected ingredients must match (minus threshold)
       const requiredMatches = Math.max(1, ingredients.length - missingThreshold);
-      isMatch = matchCount >= requiredMatches;
+      isMatch = info.matchCount >= requiredMatches;
     }
 
     if (isMatch) {
       results.push({
-        recipeId: recipe.id,
-        matchCount: matchCount,
+        recipeId: recipeId,
+        matchCount: info.matchCount,
         totalSelected: ingredients.length,
-        matchedIngredients: matchedIngredients,
-        missingIngredients: missingIngredients,
-        substitutionMatches: substitutionMatches,
-        hasSubstitutions: substitutionMatches.length > 0,
-        isPerfectMatch: matchCount === ingredients.length
+        matchedIngredients: info.matchedIngredients,
+        missingIngredients: info.missingIngredients,
+        substitutionMatches: info.substitutionMatches,
+        hasSubstitutions: info.substitutionMatches.length > 0,
+        isPerfectMatch: info.matchCount === ingredients.length
       });
     }
   }
