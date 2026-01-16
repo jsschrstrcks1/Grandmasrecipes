@@ -1,0 +1,45 @@
+{
+  "critical": [],
+  "warning": [
+    {
+      "id": "jumbles-oursisters",
+      "title": "Jumbles",
+      "collection": "all",
+      "issues": [
+        "Possible merged text"
+      ]
+    },
+    {
+      "id": "orange-cake-theamerica",
+      "title": "Orange Cake",
+      "collection": "all",
+      "issues": [
+        "Possible merged text"
+      ]
+    },
+    {
+      "id": "blueberry-coffee-cake",
+      "title": "Blueberry Coffee Cake",
+      "collection": "grandma-baker",
+      "issues": [
+        "1 [UNCLEAR] marker(s)"
+      ]
+    },
+    {
+      "id": "silver-palate-chili-for-a-crowd",
+      "title": "Silver Palate Chili For a Crowd",
+      "collection": "grandma-baker",
+      "issues": [
+        "3 [UNCLEAR] marker(s)"
+      ]
+    },
+    {
+      "id": "pumpkin-sheet-cookies-granny",
+      "title": "Pumpkin Sheet Cookies",
+      "collection": "granny-hudson",
+      "issues": [
+        "3 [UNCLEAR] marker(s)"
+      ]
+    }
+  ]
+}
