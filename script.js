@@ -2782,6 +2782,9 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
   // Build a Set of valid recipe IDs for fast lookup
   const validRecipeIds = new Set(recipes.map(r => r.id));
 
+  // Get selected collections for filtering
+  const selectedCollections = currentFilter.collections || [];
+
   for (const [recipeId, info] of recipeMatches) {
     // Skip recipes not in local index (ingredient index may have more)
     if (!validRecipeIds.has(recipeId)) continue;
@@ -2789,6 +2792,11 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
     // Skip variants (check in lightweight index)
     const recipe = recipes.find(r => r.id === recipeId);
     if (recipe && recipe.variant_of && recipe.variant_of !== recipe.id) continue;
+
+    // Filter by selected collections
+    if (selectedCollections.length > 0 && recipe) {
+      if (!selectedCollections.includes(recipe.collection)) continue;
+    }
 
     let isMatch = false;
     if (matchMode === 'any') {
