@@ -771,10 +771,12 @@ After a repo adopts sharding, update `REMOTE_COLLECTIONS` in:
 | Validate recipes | `python scripts/validate-recipes.py` |
 | Process new images | `python scripts/process_images.py` |
 | Check image status | `python scripts/image_safeguards.py status` |
+| Shard recipes | `python scripts/shard_recipes.py` |
 | Rebuild ingredient index | `python scripts/build-ingredient-index.py` |
 | Rebuild search | `python scripts/build-pagefind.py` |
 | Aggregate recipes | `python scripts/aggregate_collections.py` |
 | Aggregate tips | `python scripts/aggregate_tips.py` |
+| Minify JS/CSS | `python scripts/minify.py` |
 
 ### After Adding Recipe
 
@@ -804,10 +806,12 @@ python scripts/build-pagefind.py
 python scripts/aggregate_collections.py   # Fetch all family recipes
 python scripts/aggregate_tips.py          # Fetch all family tips
 python scripts/validate-recipes.py        # Validate merged recipes
+python scripts/shard_recipes.py           # Create category shards + lightweight index (CRITICAL!)
 python scripts/build-ingredient-index.py  # Rebuild ingredient index
 python scripts/build-pagefind.py          # Rebuild search index
+python scripts/minify.py                  # Minify JS/CSS for production
 ```
 
 ---
 
-*Last updated: 2026-01 (added sharded repository support)*
+*Last updated: 2026-01 (added category-based sharding for faster page loads)*

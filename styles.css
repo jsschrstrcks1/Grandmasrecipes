@@ -2337,6 +2337,95 @@ main {
   color: var(--color-teal-dark);
 }
 
+/* Search Help Card (collapsible) */
+.search-help-card {
+  margin: var(--spacing-md) auto;
+  max-width: 500px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  overflow: hidden;
+}
+
+.search-help-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  color: var(--color-cream);
+  font-size: 0.9rem;
+  list-style: none;
+  transition: background-color 0.2s ease;
+}
+
+.search-help-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.search-help-toggle:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.search-help-card[open] .search-help-toggle {
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.help-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: var(--color-teal);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.search-help-content {
+  padding: var(--spacing-md);
+  font-size: 0.85rem;
+  color: var(--color-cream);
+  line-height: 1.5;
+}
+
+.search-help-content p {
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.search-help-content ul {
+  margin: 0 0 var(--spacing-sm) 0;
+  padding-left: var(--spacing-lg);
+}
+
+.search-help-content li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.search-help-content li:last-child {
+  margin-bottom: 0;
+}
+
+.help-pill-example {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.help-pill-example.ingredient {
+  background: var(--color-coral);
+  color: white;
+}
+
+.help-pill-example.keyword {
+  background: var(--color-teal);
+  color: white;
+}
+
 /* Selected ingredients pills */
 .selected-ingredients {
   display: flex;
@@ -2397,6 +2486,54 @@ main {
 
 .ingredient-pill-remove:hover {
   background-color: rgba(255,255,255,0.3);
+}
+
+/* Keyword search pills (different color from ingredient pills) */
+.keyword-pill {
+  background: linear-gradient(180deg, var(--color-teal) 0%, var(--color-teal-dark) 100%);
+  font-style: italic;
+}
+
+/* Autocomplete divider */
+.autocomplete-divider {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  background: var(--color-bg-alt);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-top: 1px solid var(--color-border);
+}
+
+/* Recipe link in autocomplete */
+.autocomplete-recipe {
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 128, 128, 0.05) 100%);
+}
+
+.autocomplete-recipe:hover {
+  background: rgba(0, 128, 128, 0.1);
+}
+
+.autocomplete-item-type {
+  font-size: 0.75rem;
+  color: var(--color-teal);
+  font-weight: 500;
+}
+
+/* Keyword search option in autocomplete */
+.autocomplete-keyword {
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 128, 128, 0.08) 100%);
+  border-top: 1px solid var(--color-border);
+}
+
+.autocomplete-keyword:hover {
+  background: rgba(0, 128, 128, 0.15);
+}
+
+.autocomplete-keyword .autocomplete-item-name {
+  font-style: italic;
+  color: var(--color-teal-dark);
 }
 
 /* Quick suggestions */
