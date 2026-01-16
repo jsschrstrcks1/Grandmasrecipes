@@ -50,7 +50,7 @@
   height: 100%;
   background: linear-gradient(180deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
   display: flex;
-  align-items: center;
+  align-items: flex-start;  /* Changed from center - prevents top cutoff when scrolling */
   justify-content: center;
   z-index: 10000;
   overflow-y: auto;
@@ -58,6 +58,7 @@
 }
 
 .sanctuary-content {
+  margin: auto 0;  /* Centers content vertically when shorter than viewport */
   max-width: 750px;
   width: 100%;
   color: #e8e4df;
