@@ -82,6 +82,26 @@ let ingredientSearchOptions = {
 };
 let autocompleteHighlightIndex = -1;
 
+// Common pantry staples to exclude from ingredient match display
+// These are so common they add noise - most households have them
+const COMMON_PANTRY_STAPLES = new Set([
+  // Seasonings
+  'salt', 'pepper', 'black pepper', 'white pepper', 'kosher salt', 'sea salt',
+  'garlic powder', 'onion powder', 'paprika', 'cayenne', 'cayenne pepper',
+  // Liquids
+  'water', 'cold water', 'warm water', 'hot water', 'boiling water', 'ice water',
+  'oil', 'vegetable oil', 'cooking oil', 'canola oil', 'olive oil', 'cooking spray',
+  // Baking basics
+  'flour', 'all-purpose flour', 'all purpose flour', 'ap flour',
+  'sugar', 'granulated sugar', 'white sugar',
+  'baking soda', 'baking powder',
+  'vanilla', 'vanilla extract', 'pure vanilla extract',
+  // Dairy staples
+  'butter', 'unsalted butter', 'salted butter', 'margarine',
+  'eggs', 'egg', 'large eggs', 'large egg',
+  'milk', 'whole milk', '2% milk', 'skim milk',
+]);
+
 // Staples system state
 let userStaples = [];
 let includeStaples = true;
@@ -2955,6 +2975,21 @@ function loadMoreIngredientResults() {
 }
 
 /**
+ * Check if an ingredient is a common pantry staple
+ */
+function isCommonPantryStaple(ingredient) {
+  const normalized = ingredient.toLowerCase().trim();
+  return COMMON_PANTRY_STAPLES.has(normalized);
+}
+
+/**
+ * Filter out common pantry staples from an ingredient list
+ */
+function filterOutCommonStaples(ingredients) {
+  return ingredients.filter(ing => !isCommonPantryStaple(ing));
+}
+
+/**
  * Create a recipe result card for ingredient search
  */
 function createIngredientResultCard(recipe, match) {
@@ -2976,24 +3011,28 @@ function createIngredientResultCard(recipe, match) {
     matchInfo = `<span class="match-badge partial">${match.matchedCount}/${match.totalInRecipe} ingredients</span>`;
   }
 
-  // Show matched ingredients
-  const matchedList = match.matchedIngredients
+  // Filter out common pantry staples from display (they add noise)
+  const displayMatched = filterOutCommonStaples(match.matchedIngredients);
+  const displayMissing = filterOutCommonStaples(match.missingIngredients || []);
+
+  // Show matched ingredients (excluding common staples)
+  const matchedList = displayMatched
     .slice(0, 5)
     .map(ing => escapeHtml(ing))
     .join(', ');
-  const moreMatched = match.matchedIngredients.length > 5
-    ? ` +${match.matchedIngredients.length - 5} more`
+  const moreMatched = displayMatched.length > 5
+    ? ` +${displayMatched.length - 5} more`
     : '';
 
-  // Show missing ingredients if any
+  // Show missing ingredients if any (excluding common staples)
   let missingHtml = '';
-  if (match.missingIngredients && match.missingIngredients.length > 0) {
-    const missingList = match.missingIngredients
+  if (displayMissing.length > 0) {
+    const missingList = displayMissing
       .slice(0, 3)
       .map(ing => escapeHtml(ing))
       .join(', ');
-    const moreMissing = match.missingIngredients.length > 3
-      ? ` +${match.missingIngredients.length - 3} more`
+    const moreMissing = displayMissing.length > 3
+      ? ` +${displayMissing.length - 3} more`
       : '';
     missingHtml = `<div class="missing-ingredients">Missing: ${missingList}${moreMissing}</div>`;
   }
@@ -3019,7 +3058,7 @@ function createIngredientResultCard(recipe, match) {
         ${matchInfo}
       </div>
       <div class="result-card-category">${escapeHtml(recipe.category || 'Uncategorized')}</div>
-      <div class="matched-ingredients">Have: ${matchedList}${moreMatched}</div>
+      ${displayMatched.length > 0 ? `<div class="matched-ingredients">Have: ${matchedList}${moreMatched}</div>` : ''}
       ${missingHtml}
       ${substitutionHtml}
       <a href="recipe.html?id=${escapeAttr(recipe.id)}" class="result-card-link">View Recipe</a>
