@@ -2633,6 +2633,7 @@ function renderSelectedIngredients() {
  */
 function clearIngredientSearch() {
   selectedIngredients = [];
+  searchKeywords = [];
   renderSelectedIngredients();
 
   const input = document.getElementById('ingredient-input');
@@ -2640,6 +2641,14 @@ function clearIngredientSearch() {
 
   const resultsDiv = document.getElementById('ingredient-search-results');
   if (resultsDiv) resultsDiv.classList.add('hidden');
+
+  // Show regular recipe grid again
+  const recipeGrid = document.getElementById('recipe-grid');
+  if (recipeGrid) recipeGrid.classList.remove('hidden');
+
+  // Clear ingredient recipe list
+  const recipeList = document.getElementById('ingredient-recipe-list');
+  if (recipeList) recipeList.innerHTML = '';
 
   // Reset just staples mode
   justStaplesMode = false;
@@ -2652,6 +2661,7 @@ function clearIngredientSearch() {
   // Reset current filter's ingredient state
   currentFilter.ingredients = [];
   currentFilter.ingredientMatchInfo = null;
+  currentFilter.keywords = [];
 
   renderRecipeGrid();
 }
@@ -2772,7 +2782,13 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
   // Filter recipes based on match mode and threshold
   const results = [];
 
+  // Build a Set of valid recipe IDs for fast lookup
+  const validRecipeIds = new Set(recipes.map(r => r.id));
+
   for (const [recipeId, info] of recipeMatches) {
+    // Skip recipes not in local index (ingredient index may have more)
+    if (!validRecipeIds.has(recipeId)) continue;
+
     // Skip variants (check in lightweight index)
     const recipe = recipes.find(r => r.id === recipeId);
     if (recipe && recipe.variant_of && recipe.variant_of !== recipe.id) continue;
@@ -2836,6 +2852,7 @@ function normalizeIngredientName(name) {
 function updateIngredientSearchResults(matchInfo) {
   const resultsDiv = document.getElementById('ingredient-search-results');
   const countSpan = document.getElementById('ingredient-match-count');
+  const recipeGrid = document.getElementById('recipe-grid');
 
   if (!resultsDiv || !countSpan) return;
 
@@ -2844,6 +2861,11 @@ function updateIngredientSearchResults(matchInfo) {
   // Store matches for pagination
   currentIngredientMatches = matchInfo.matches;
   ingredientResultsShown = 0;
+
+  // Hide regular recipe grid when showing PWA results
+  if (recipeGrid) {
+    recipeGrid.classList.add('hidden');
+  }
 
   if (total === 0) {
     countSpan.innerHTML = 'No recipes found with those ingredients';
