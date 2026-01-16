@@ -11,8 +11,107 @@
   <link rel="stylesheet" href="_pagefind/pagefind-ui.css">
 </head>
 <body>
+  <!-- Sanctuary Loading Screen - Tribute to the Matriarchs -->
+  <div id="sanctuary" class="sanctuary">
+    <div class="sanctuary-content">
+      <!-- Loading indicator -->
+      <div class="sanctuary-loading">
+        <div class="loading-spinner"></div>
+        <span id="loading-status">Loading the Legacy...</span>
+      </div>
+
+      <!-- Section 1: Title and Intro (0-5s) -->
+      <section class="sanctuary-section" id="sanctuary-intro">
+        <h1 class="sanctuary-title">The Sanctuary of Service</h1>
+        <p class="sanctuary-lead">
+          For my mother and my grandmothers, the kitchen was never merely a room for cooking. It was a sanctuary of service.
+        </p>
+        <p>
+          As these files download, you are accessing more than just ingredients and instructions. You are stepping into a lineage of hospitality that poured itself out, one meal at a time. You are seeing the evidence of God's providence, mediated through the hands of women who believed that feeding a family was a high calling—a daily act of worship through nourishment.
+        </p>
+      </section>
+
+      <!-- Section 2: Granny (5-15s) -->
+      <section class="sanctuary-section" id="sanctuary-granny">
+        <div class="sanctuary-memory">
+          <div class="memory-text">
+            <h2>Granny</h2>
+            <p>
+              We remember the smell of beef roast and fried dough on the farm. We remember the sound of a house that was never quiet—always full of people, strangers turned into family, and those on the margins finding shelter under her roof.
+            </p>
+            <p>
+              She lived by the work of her hands—<em>"If a man doesn't work, he doesn't eat"</em>—and she gave until she had nothing left to give, even her own couch. We remember the spaghetti made faithfully for church, and the boiled dinner with the hated rutabaga.
+            </p>
+            <p class="scripture-ref">
+              She looked well to the ways of her household, and she did not eat the bread of idleness.
+            </p>
+          </div>
+          <div class="memory-image">
+            <img src="data/Grandmas-recipes - 102.jpeg" alt="Handwritten recipe card - Rhubarb Preserves, Grandpa Ed's favorite" loading="eager">
+            <span class="image-caption">Grandpa Ed's favorite — with a smiley face</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Grandma Baker (15-25s) -->
+      <section class="sanctuary-section" id="sanctuary-grandma">
+        <div class="sanctuary-memory">
+          <div class="memory-image">
+            <img src="data/Grandmas-recipes - 428.jpeg" alt="Handwritten recipe card marked Best Recipe" loading="eager">
+            <span class="image-caption">"Best recipe" — the wear of love</span>
+          </div>
+          <div class="memory-text">
+            <h2>Grandma Baker</h2>
+            <p>
+              We remember life at the beach—the smell of the salt air mixing with the "Fry Daddy" working overtime on the counter. We remember the sound of Fox News turned up to volume 100, competing with the laughter of a home that was a refuge for granddaughters and servicemen's wives alike.
+            </p>
+            <p>
+              She knew the sting of austerity, yet she trusted in the Lord with all her heart, turning meager ingredients into feasts of fish, potatoes, and onions sautéing in the pan. Her table was an altar of gratitude for the Lord's provision.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: The Continuity (25-35s) -->
+      <section class="sanctuary-section" id="sanctuary-continuity">
+        <div class="sanctuary-theology">
+          <p class="scripture-quote">
+            "I am reminded of your sincere faith, a faith that dwelt first in your grandmother..."
+            <span class="scripture-attribution">— 2 Timothy 1:5</span>
+          </p>
+          <p>
+            This archive preserves that faith. You will see the stains on the pages—evidence of the Christmas morning casserole, the cobbler made whenever Jackie came to town, and the "nuts and bolts." You will see the wear and tear of love.
+          </p>
+          <div class="memory-image centered">
+            <img src="data/Grandmas-recipes - 97.jpeg" alt="Handwritten recipe with pie drawing" loading="eager">
+            <span class="image-caption">"Looks kinda cute" — her own illustration</span>
+          </div>
+          <p class="luther-quote">
+            Martin Luther said that the maid sweeping the floor, if done in faith, is a greater work than the monk's prayer. These recipes are the record of that work.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 5: Final (35s+) -->
+      <section class="sanctuary-section" id="sanctuary-final">
+        <p class="sanctuary-closing">
+          So please wait while we prepare the table. We are preserving these papers, stains and all, not just to remember how they cooked, but to remember <em>who they were</em>. This is your chance to stand at the counter with them one more time.
+        </p>
+        <p class="soli-deo-gloria">Soli Deo Gloria.</p>
+        <button id="enter-kitchen-btn" class="btn btn-primary sanctuary-enter" style="display: none;">
+          Enter the Kitchen
+        </button>
+      </section>
+
+      <!-- Preload progress (subtle) -->
+      <div id="preload-progress" class="preload-progress">
+        <div id="preload-bar" class="preload-bar"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Authentication Gate -->
-  <div id="auth-gate" class="auth-gate">
+  <div id="auth-gate" class="auth-gate" style="display: none;">
     <div class="auth-container">
       <h1>Grandma's Kitchen</h1>
       <p>This is a private family recipe archive.</p>
@@ -415,45 +514,232 @@
   </div><!-- end site-content -->
 
   <script>
-    // Authentication gate
+    // Sanctuary + Authentication System
     (function() {
       const AUTH_KEY = 'grandmas-kitchen-auth';
       const CORRECT_ANSWER = 'Baker';
+      const SHARD_CACHE_KEY = 'grandmas-kitchen-shards-cached';
 
+      // All shards in priority order: Grandma, Granny, MomMom categories, All categories
+      const ALL_SHARDS = [
+        'recipes-grandma-baker.json',
+        'recipes-granny-hudson.json',
+        // MomMom categories
+        'recipes-mommom-baker-desserts.json',
+        'recipes-mommom-baker-mains.json',
+        'recipes-mommom-baker-breads.json',
+        'recipes-mommom-baker-sides.json',
+        'recipes-mommom-baker-breakfast.json',
+        'recipes-mommom-baker-appetizers.json',
+        'recipes-mommom-baker-salads.json',
+        'recipes-mommom-baker-snacks.json',
+        'recipes-mommom-baker-soups.json',
+        'recipes-mommom-baker-beverages.json',
+        'recipes-mommom-baker-reference.json',
+        'recipes-mommom-baker-tips.json',
+        // All categories
+        'recipes-all-mains.json',
+        'recipes-all-desserts.json',
+        'recipes-all-breads.json',
+        'recipes-all-breakfast.json',
+        'recipes-all-sides.json',
+        'recipes-all-soups.json',
+        'recipes-all-salads.json',
+        'recipes-all-appetizers.json',
+        'recipes-all-beverages.json',
+        'recipes-all-reference.json',
+        'recipes-all-snacks.json'
+      ];
+
+      let shardsLoaded = 0;
+      let preloadComplete = false;
+      let sanctuaryTimerComplete = false;
+
+      // ===== Authentication Functions =====
       function checkAuth() {
         return localStorage.getItem(AUTH_KEY) === 'true';
       }
 
       function showSite() {
+        document.getElementById('sanctuary').style.display = 'none';
         document.getElementById('auth-gate').style.display = 'none';
         document.getElementById('site-content').style.display = 'block';
       }
 
       function showGate() {
+        document.getElementById('sanctuary').style.display = 'none';
         document.getElementById('auth-gate').style.display = 'flex';
         document.getElementById('site-content').style.display = 'none';
       }
 
-      // Check on load
-      if (checkAuth()) {
-        showSite();
-      } else {
-        showGate();
+      function showSanctuary() {
+        document.getElementById('sanctuary').style.display = 'flex';
+        document.getElementById('auth-gate').style.display = 'none';
+        document.getElementById('site-content').style.display = 'none';
       }
 
-      // Handle form submission
-      document.getElementById('auth-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-        const answer = document.getElementById('auth-answer').value;
-        if (answer === CORRECT_ANSWER) {
-          localStorage.setItem(AUTH_KEY, 'true');
+      // ===== Shard Preloading =====
+      async function checkShardsInCache() {
+        // Check if browser supports Cache API
+        if (!('caches' in window)) {
+          return false;
+        }
+        try {
+          // Simple check: see if the first few critical shards are cached
+          const cache = await caches.open('grandmas-kitchen-shards');
+          const criticalShards = ALL_SHARDS.slice(0, 4); // First 4 shards
+          for (const shard of criticalShards) {
+            const response = await cache.match(`data/${shard}`);
+            if (!response) return false;
+          }
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      async function preloadShard(shardFile) {
+        try {
+          const url = `data/${shardFile}`;
+          const response = await fetch(url);
+          if (response.ok) {
+            // Cache the response if Cache API is available
+            if ('caches' in window) {
+              const cache = await caches.open('grandmas-kitchen-shards');
+              cache.put(url, response.clone());
+            }
+            return true;
+          }
+        } catch (e) {
+          console.warn(`Failed to preload ${shardFile}:`, e);
+        }
+        return false;
+      }
+
+      async function preloadAllShards() {
+        const statusEl = document.getElementById('loading-status');
+        const progressBar = document.getElementById('preload-bar');
+
+        for (let i = 0; i < ALL_SHARDS.length; i++) {
+          const shard = ALL_SHARDS[i];
+          await preloadShard(shard);
+          shardsLoaded++;
+
+          // Update progress bar
+          const progress = (shardsLoaded / ALL_SHARDS.length) * 100;
+          if (progressBar) progressBar.style.width = `${progress}%`;
+
+          // Update status text periodically
+          if (statusEl && shardsLoaded % 3 === 0) {
+            const collection = shard.includes('grandma') ? 'Grandma' :
+                              shard.includes('granny') ? 'Granny' :
+                              shard.includes('mommom') ? 'MomMom' : 'Other';
+            statusEl.textContent = `Loading ${collection}'s recipes...`;
+          }
+        }
+
+        preloadComplete = true;
+        if (statusEl) statusEl.textContent = 'All recipes loaded!';
+        localStorage.setItem(SHARD_CACHE_KEY, Date.now().toString());
+
+        checkShowEnterButton();
+      }
+
+      // ===== Sanctuary Timing =====
+      function runSanctuarySequence() {
+        const sections = [
+          { id: 'sanctuary-intro', delay: 0 },
+          { id: 'sanctuary-granny', delay: 5000 },
+          { id: 'sanctuary-grandma', delay: 15000 },
+          { id: 'sanctuary-continuity', delay: 25000 },
+          { id: 'sanctuary-final', delay: 35000 }
+        ];
+
+        sections.forEach(({ id, delay }) => {
+          setTimeout(() => {
+            const section = document.getElementById(id);
+            if (section) section.classList.add('visible');
+          }, delay);
+        });
+
+        // After 35 seconds, allow entry
+        setTimeout(() => {
+          sanctuaryTimerComplete = true;
+          checkShowEnterButton();
+        }, 35000);
+      }
+
+      function checkShowEnterButton() {
+        // Show button if timer complete OR if all cached (instant entry)
+        if (sanctuaryTimerComplete || preloadComplete) {
+          const btn = document.getElementById('enter-kitchen-btn');
+          if (btn) {
+            btn.style.display = 'inline-block';
+          }
+          // Hide loading indicator
+          const loadingEl = document.querySelector('.sanctuary-loading');
+          if (loadingEl) loadingEl.classList.add('hidden');
+        }
+      }
+
+      // ===== Enter Kitchen Handler =====
+      function handleEnterKitchen() {
+        if (checkAuth()) {
           showSite();
         } else {
-          document.getElementById('auth-error').style.display = 'block';
-          document.getElementById('auth-answer').value = '';
-          document.getElementById('auth-answer').focus();
+          showGate();
         }
-      });
+      }
+
+      // ===== Initialization =====
+      async function init() {
+        // Check if shards are already cached
+        const allCached = await checkShardsInCache();
+
+        if (allCached) {
+          // Shards are cached - show sanctuary but allow immediate entry
+          showSanctuary();
+          runSanctuarySequence();
+
+          // Show all sections immediately and enable button
+          document.querySelectorAll('.sanctuary-section').forEach(s => s.classList.add('visible'));
+          sanctuaryTimerComplete = true;
+          preloadComplete = true;
+          checkShowEnterButton();
+        } else {
+          // Need to preload - show full sanctuary experience
+          showSanctuary();
+          runSanctuarySequence();
+          preloadAllShards(); // Start preloading in background
+        }
+
+        // Set up enter button handler
+        const enterBtn = document.getElementById('enter-kitchen-btn');
+        if (enterBtn) {
+          enterBtn.addEventListener('click', handleEnterKitchen);
+        }
+
+        // Set up auth form handler
+        document.getElementById('auth-form').addEventListener('submit', function(e) {
+          e.preventDefault();
+          const answer = document.getElementById('auth-answer').value;
+          if (answer === CORRECT_ANSWER) {
+            localStorage.setItem(AUTH_KEY, 'true');
+            showSite();
+          } else {
+            document.getElementById('auth-error').style.display = 'block';
+            document.getElementById('auth-answer').value = '';
+            document.getElementById('auth-answer').focus();
+          }
+        });
+      }
+
+      // Start when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
     })();
   </script>
   <script src="script.min.js"></script>
