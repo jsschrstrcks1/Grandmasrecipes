@@ -1,0 +1,53 @@
+{
+  "date": "2026-01-15",
+  "approach": "Ultra-conservative - only true garbage deleted",
+  "deleted_entries": [
+    {
+      "id": "sauces-especially-suita-housekeepi",
+      "title": "Sauces Especially Suita-",
+      "reason": "Index/TOC page"
+    },
+    {
+      "id": "additional-recipes-dainties19",
+      "title": "Additional Recipes",
+      "reason": "Index page"
+    },
+    {
+      "id": "memoranda-goodhousek",
+      "title": "Memoranda'",
+      "reason": "Garbled cookbook page"
+    },
+    {
+      "id": "adams-laundry-stevensonm",
+      "title": "Adams' Laundry",
+      "reason": "Advertisement"
+    },
+    {
+      "id": "distributors-theeastmil",
+      "title": "Distributors",
+      "reason": "Advertisement"
+    },
+    {
+      "id": "chaeles-scribners-sons-theplainsa",
+      "title": "Chaeles Scribner'S Sons",
+      "reason": "Publisher preface"
+    }
+  ],
+  "moved_to_tips": {
+    "from_all_collection": [
+      "helpful-hints-about-making-andusing-elementsof",
+      "helpful-hints-about-braising-andste-elementsof",
+      "substitutions-dutchovenc"
+    ],
+    "from_mommom_baker": "149 tips/guides (nutrition analyses, technique guides, identification charts)"
+  },
+  "removed_duplicates": 213,
+  "cross_collection_id_fixes": 32,
+  "flagged_for_repair": "1159 recipes with OCR artifacts or incomplete methods",
+  "notes": [
+    "Only 6 entries deleted - confirmed non-recipes (ads, index pages, publisher info)",
+    "All incomplete recipes KEPT and flagged for repair instead of deleted",
+    "152 total tips/guides moved to kitchen-tips.json",
+    "Sub-repos should apply same deletions from deleted_entries list"
+  ]
+}
