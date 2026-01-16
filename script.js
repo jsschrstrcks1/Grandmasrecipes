@@ -68,7 +68,7 @@ let recipes = [];           // Lightweight recipe index for list/search
 let fullRecipesCache = {};  // Cache for full recipe details (loaded on demand)
 let categories = new Set();
 let allTags = new Set();
-let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom', 'granny', 'all'], ingredients: [], ingredientMatchInfo: null };
+let currentFilter = { search: '', category: '', tag: '', collections: ['grandma-baker', 'mommom-baker', 'granny-hudson', 'all'], ingredients: [], ingredientMatchInfo: null, keywords: [] };
 let showMetric = false; // Toggle for metric conversions
 let recipeScale = 1; // Current recipe scale multiplier
 let currentRecipeId = null; // Currently displayed recipe (for re-rendering after substitutions)
@@ -142,7 +142,8 @@ const REMOTE_COLLECTIONS = {
   }
 };
 
-// Remote shard cache for on-demand loading
+// Shard cache for on-demand loading (local and remote)
+let localShardCache = {};       // { category: recipes[] } - local category shards
 let remoteShardCache = {};      // { 'collection:category': recipes[] }
 let remoteIndexCache = {};      // { 'collection': indexData }
 let loadingShards = {};         // Track in-progress shard loads
@@ -262,9 +263,6 @@ async function loadRecipes() {
  * Load full recipe details on demand (for detail page)
  * Uses category-based sharding to avoid loading all recipes at once.
  */
-let localShardCache = {};      // { category: recipes[] }
-let loadingShards = {};        // Track in-progress shard loads
-
 async function loadFullRecipe(recipeId) {
   // Check cache first
   if (fullRecipesCache[recipeId]) {
