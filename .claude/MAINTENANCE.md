@@ -571,6 +571,68 @@ python scripts/minify.py
 
 ---
 
+### generate_index.py
+
+**Purpose:** Create lightweight recipe index for faster page load
+
+```bash
+python scripts/generate_index.py
+```
+
+**Output:** Creates `data/recipes_index.json` from `recipes_master.json`
+
+**When to run:** After aggregating recipes or modifying `recipes_master.json`
+
+---
+
+### estimate_nutrition.py
+
+**Purpose:** Estimate nutritional information for recipes
+
+```bash
+python scripts/estimate_nutrition.py                    # Estimate all recipes
+python scripts/estimate_nutrition.py --dry-run          # Preview without saving
+python scripts/estimate_nutrition.py --recipe-id ID     # Specific recipe
+python scripts/estimate_nutrition.py --force            # Re-estimate all
+python scripts/estimate_nutrition.py --collection ID    # Specific collection
+```
+
+**Output:** Adds/updates `nutrition` field in recipes
+
+**When to run:** When adding nutrition data to recipes or after adding new recipes
+
+---
+
+### repair_ocr.py
+
+**Purpose:** Find and repair common OCR errors in recipes
+
+```bash
+python scripts/repair_ocr.py                # Find OCR issues
+python scripts/repair_ocr.py --fix          # Apply fixes
+python scripts/repair_ocr.py --dry-run      # Preview fixes
+```
+
+**Output:** Updates recipes with corrected OCR text
+
+**When to run:** Periodically to clean up transcription errors
+
+---
+
+### analyze_duplicates.py
+
+**Purpose:** Analyze potential duplicate recipes across collections
+
+```bash
+python scripts/analyze_duplicates.py
+```
+
+**Output:** Creates `data/duplicate_analysis.json` with duplicate candidates
+
+**When to run:** Before merging collections or cleaning up recipes
+
+---
+
 ### aggregate_collections.py
 
 **Purpose:** Fetch and merge recipes from all family repositories
@@ -771,11 +833,15 @@ After a repo adopts sharding, update `REMOTE_COLLECTIONS` in:
 | Validate recipes | `python scripts/validate-recipes.py` |
 | Process new images | `python scripts/process_images.py` |
 | Check image status | `python scripts/image_safeguards.py status` |
+| Generate recipe index | `python scripts/generate_index.py` |
 | Shard recipes | `python scripts/shard_recipes.py` |
 | Rebuild ingredient index | `python scripts/build-ingredient-index.py` |
 | Rebuild search | `python scripts/build-pagefind.py` |
 | Aggregate recipes | `python scripts/aggregate_collections.py` |
 | Aggregate tips | `python scripts/aggregate_tips.py` |
+| Estimate nutrition | `python scripts/estimate_nutrition.py` |
+| Find OCR errors | `python scripts/repair_ocr.py` |
+| Find duplicates | `python scripts/analyze_duplicates.py` |
 | Minify JS/CSS | `python scripts/minify.py` |
 
 ### After Adding Recipe
@@ -844,17 +910,72 @@ The PWA search respects the collection filter checkboxes. If user selects only "
 
 ---
 
+## Configuration Files
+
+### data/collections.json
+
+**Purpose:** Defines remote collection URLs and sharding configuration
+
+**When to update:**
+- Adding a new family repository
+- Changing repository URLs
+- Updating shard configuration
+
+**Key fields:**
+- `recipes_url` - URL to fetch recipes from
+- `index_url` - URL to fetch lightweight index
+- `sharded` - Whether collection uses category shards
+- `recipe_count` - Approximate count (for display)
+
+---
+
+### data/substitutions.json
+
+**Purpose:** Ingredient substitution rules for PWA search
+
+**When to update:**
+- Adding new ingredient substitutions
+- Updating substitution ratios or notes
+
+**Format:**
+```json
+{
+  "id": "butter-margarine",
+  "primary": "butter",
+  "substitutes": [
+    { "ingredient": "margarine", "ratio": "1:1", "notes": "..." }
+  ]
+}
+```
+
+---
+
+### script.js Configuration Constants
+
+Several constants in `script.js` may need periodic updates:
+
+| Constant | Line | Purpose |
+|----------|------|---------|
+| `COMMON_PANTRY_STAPLES` | ~87 | Ingredients to exclude from PWA display |
+| `CATEGORY_SHARDED_COLLECTIONS` | ~273 | Collections using category sub-shards |
+| `currentFilter.collections` | ~147 | Default collection filter state |
+
+After updating constants, run `python scripts/minify.py` and commit.
+
+---
+
 ## Important Maintenance Reminder
 
 **CRITICAL: Any time you add a feature that requires routine maintenance (rebuilding indexes, running scripts, updating configuration), ADD IT TO THIS FILE!**
 
 Common maintenance triggers:
-- Adding/modifying recipes → rebuild ingredient index
+- Adding/modifying recipes → rebuild ingredient index, regenerate shards
 - Adding/modifying images → process images
 - Changing search behavior → rebuild Pagefind
 - Changing ingredient handling → rebuild ingredient index
-- Adding new collections → update aggregation config
+- Adding new collections → update aggregation config, collections.json
+- Modifying PWA behavior → update script.js, run minify.py
 
 ---
 
-*Last updated: 2026-01 (added PWA maintenance, common staples exclusion)*
+*Last updated: 2026-01 (added missing scripts, configuration files, PWA maintenance)*
