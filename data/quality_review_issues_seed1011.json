@@ -1,0 +1,823 @@
+{
+  "critical": [],
+  "warning": [
+    {
+      "id": "filbert-cookie-rafts-bhg",
+      "title": "Filbert Cookie Rafts",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "russian-cream-inthekitch",
+      "title": "Russian Cream",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "lime-coconut-salad-granny",
+      "title": "Lime Coconut in Pineapple",
+      "collection": "granny-hudson",
+      "issues": [
+        "2 [UNCLEAR]",
+        "Run-together"
+      ]
+    },
+    {
+      "id": "parmesan-chicken-with-artichoke-hearts",
+      "title": "Parmesan Chicken with Artichoke Hearts",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "pineapple-carrot-cake",
+      "title": "Pineapple Carrot Cake",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chocolate-chunk-cookies",
+      "title": "Chocolate Chunk Cookies",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "i-owenscookb",
+      "title": "I",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "cold-strawberry-soup",
+      "title": "Cold Strawberry Soup",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "herb-rubbed-leg-of-lamb-bhg",
+      "title": "Herb-Rubbed Leg of Lamb",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "jolly-santas-cookies",
+      "title": "Jolly Santas Cookies",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "oatmeal-atlantawom",
+      "title": "Oatmeal",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "jeans-egg-nog",
+      "title": "Jean's Egg Nog",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "caramel-corn-bhg-2",
+      "title": "Caramel Corn",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "fudge-frosting-crazy-cake",
+      "title": "Fudge Frosting",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "crispy-stir-fry-chicken",
+      "title": "Crispy Stir Fry",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "skillet-pork-chops-with-apples-onion",
+      "title": "Skillet Pork Chops with Apples & Onion",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "brown-sugar-brownies",
+      "title": "Brown Sugar Brownies",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "snickerdoodle-cheesecake-bars",
+      "title": "Snickerdoodle Cheesecake Bars",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "snickerdoodle-cake",
+      "title": "Snickerdoodle Cake",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "mediterranean-chicken",
+      "title": "Mediterranean Chicken",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "easy-chana-masala",
+      "title": "Easy Chana Masala",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "jelly-remake-instructions",
+      "title": "Jelly Remake Instructions",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "margs-cherry-pie-coconut",
+      "title": "Marg's Cherry Pie",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "how-to-cook-a-ham",
+      "title": "How to Cook a Ham",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "cream-cheese-jello",
+      "title": "Cream Cheese Jello",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "february-puddinq-triedandtr",
+      "title": "February Puddinq",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "cinnamon-roll-macarons",
+      "title": "Cinnamon Roll Macarons",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "croque-madame-ref",
+      "title": "Croque Madame",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "boston-brown-bread-bhg-2",
+      "title": "Boston Brown Bread",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "old-fashioned-cheesecake",
+      "title": "Old Fashioned Cheesecake",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "hamsandwiches-cookeryfor",
+      "title": "Hamsandwiches",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "lois-ice-box-pickles",
+      "title": "Lois' Ice Box Pickles",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "sweet-hawaiian-crockpot-chicken-ref",
+      "title": "Sweet Hawaiian Crockpot Chicken",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "slow-cooker-marry-me-chicken",
+      "title": "Slow-Cooker Marry Me Chicken",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "onion-cheese-fondue-bhg",
+      "title": "Onion-Cheese Fondue",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "spice-cake-coffee-raisins",
+      "title": "Spice Cake",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "greek-pork-chops",
+      "title": "Greek Pork Chops",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "spice-herb-guide-caraway",
+      "title": "Caraway",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "cream-cheese-stuffed-slices",
+      "title": "Cream-Cheese-Stuffed Slices",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "homemade-beer",
+      "title": "Homemade Beer",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "kitchen-hint-butter-tips",
+      "title": "Butter and Shortening Tips",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "the-best-shepherd-s-pie",
+      "title": "The Best Shepherd\u2019s Pie",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "croissants-bhg-1",
+      "title": "Croissants",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "saucy-pork-chop-skillet",
+      "title": "Saucy Pork Chop Skillet",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "strawberry-butter",
+      "title": "Strawberry Butter",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "meat-thermometer-guide-bhg",
+      "title": "How to Use a Meat Thermometer",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "salt-roasted-beet-carpaccio",
+      "title": "Salt-Roasted Beet Carpaccio",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "divinity-bhg",
+      "title": "Divinity",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chocolate-sour-cream-frosting",
+      "title": "Chocolate-Sour-Cream Frosting",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "spinach-artichoke-dip-soup",
+      "title": "Spinach Artichoke Dip Soup",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chopped-chicken-caesar-salad-sandwiches",
+      "title": "Chopped Chicken Caesar Salad Sandwiches",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "egg-salad-sandwiches",
+      "title": "Egg-Salad Sandwiches",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "egg-croquettes-ref",
+      "title": "Egg Croquettes",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "janets-fruit-pie-glaze",
+      "title": "Janet's Fruit Pie Glaze",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "honey-garlic-pork-chops",
+      "title": "Honey-Garlic Pork Chops",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "carrot-raisin-muffins",
+      "title": "Carrot Raisin Muffins",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "creamy-dill-dip",
+      "title": "Creamy Dill Dip",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "hot-cross-buns-clipping",
+      "title": "Hot Cross Buns",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "white-chocolate-snack-mix",
+      "title": "White Chocolate Snack Mix",
+      "collection": "grandma-baker",
+      "issues": [
+        "2 [UNCLEAR]",
+        "Run-together"
+      ]
+    },
+    {
+      "id": "beef-jerky-homemade",
+      "title": "Beef Jerky",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "pineapple-cheese-ball",
+      "title": "Pineapple Cheese Ball",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "lemon-meringue-pie-womans-day",
+      "title": "Lemon Meringue Pie",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "unabashed-lemon-chess-pie",
+      "title": "Unabashed Lemon Chess Pie",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "creamy-poached-eggs-bhg-mommom",
+      "title": "Creamy Poached Eggs",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "garlic-herb-chicken",
+      "title": "Garlic Herb Chicken",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "basic-crust-granny",
+      "title": "Basic Crust",
+      "collection": "granny-hudson",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "broccoli-stuffed-baked-vidalias",
+      "title": "Broccoli Stuffed Baked Vidalias",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "sensational-double-layer-pumpkin-pie",
+      "title": "Sensational Double Layer Pumpkin Pie",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "italian-sausage-sandwiches-bhg",
+      "title": "Italian Sausage Sandwiches",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "shake-and-bake-homemade",
+      "title": "Homemade Shake & Bake",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "tomato-basil-topping",
+      "title": "Tomato Basil Topping",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chocolate-covered-cherry-cookies",
+      "title": "Chocolate Covered Cherry Cookies",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "breakfast-dishes-dutchovenc",
+      "title": "Breakfast Dishes",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "shrimp-crabmeat-dip",
+      "title": "Shrimp-Crabmeat Dip",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chocolate-chiffon-pie-harvester",
+      "title": "Chocolate Chiffon Pie",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "graham-cracker-crust-homemade",
+      "title": "Graham Cracker Crust",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "pickle-brine-turkey",
+      "title": "Pickle-Brine Turkey",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "sweet-potato-pie-deen",
+      "title": "Sweet Potato Pie",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "peanut-butter-balls-bhg-2",
+      "title": "Peanut Butter Balls",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "no-cook-fudge-frosting-bhg",
+      "title": "No-Cook Fudge Frosting",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "daisy-brand-quiche",
+      "title": "Daisy Brand Quiche",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "hanukkah-cookies",
+      "title": "Hanukkah Cookies",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "household-weights-andmeasures-justfortwo",
+      "title": "Household Weights Andmeasures",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chai-cinnamon-rolls",
+      "title": "Chai Cinnamon Rolls",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "adana-kabob",
+      "title": "Adana Kabob",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "roast-pork-mushroom-butter-sauce-bhg",
+      "title": "Roast Pork with Mushroom-Butter Sauce",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "soy-sauce-chicken",
+      "title": "Soy Sauce Chicken",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "spice-cake-bhg-1",
+      "title": "Spice Cake",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "sugar-cookies-dutchovenc",
+      "title": "Sugar Cookies",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "chocolate-rugelach",
+      "title": "Chocolate Rugelach",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "grilled-fruity-croissant-sandwich-ref",
+      "title": "Grilled Fruity Croissant Sandwich",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "oaxacan-coffee",
+      "title": "Oaxacan Coffee",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "irishpancakes-wilsonscoo",
+      "title": "Irishpancakes",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "eloises-chicken-casserole",
+      "title": "Eloise's Chicken Casserole",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "filled-croissants",
+      "title": "Filled Croissants",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "neiman-marcus-cookies",
+      "title": "Neiman Marcus $250 Cookies",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "spicy-minestrone",
+      "title": "Spicy Minestrone",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "lemon-tart-ref",
+      "title": "Lemon Tart",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "blueberry-muffins-handwritten",
+      "title": "Blueberry Muffins",
+      "collection": "grandma-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "freezing-prepared-food-guide-bhg",
+      "title": "Freezing Prepared Food Guide",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "snickerdoodles-mommom",
+      "title": "Snickerdoodles",
+      "collection": "mommom-baker",
+      "issues": [
+        "Run-together"
+      ]
+    },
+    {
+      "id": "soups-courseofle",
+      "title": "Soups",
+      "collection": "all",
+      "issues": [
+        "Run-together"
+      ]
+    }
+  ]
+}

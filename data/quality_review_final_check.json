@@ -1,0 +1,673 @@
+{
+  "unsampled_count": 3912,
+  "critical": [],
+  "warnings": [
+    {
+      "id": "drinks-theappledo",
+      "title": "Drinks",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe']"
+      ]
+    },
+    {
+      "id": "bacon-egg-cupcakes",
+      "title": "Bacon and Egg Cupcakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes', 'cupcakes', 'cupcake']"
+      ]
+    },
+    {
+      "id": "yogurt-pancakes",
+      "title": "Yogurt Pancakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupfuls']"
+      ]
+    },
+    {
+      "id": "eggs-scrambled-with-fresh-tomatoes-gutenberg",
+      "title": "Eggs Scrambled With Fresh Tomatoes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "omelet-with-potatoes-gutenberg",
+      "title": "Omelet With Potatoes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "fillets-of-eggs-gutenberg-6429",
+      "title": "Fillets Of Eggs",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "eggs-en-panade-gutenberg-6429",
+      "title": "Eggs En Panade",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "eggs-a-la-gretna-gutenberg-6429",
+      "title": "Eggs A La Gretna",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "eggs-a-la-regence-gutenberg-6429",
+      "title": "Eggs A La Regence",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "eggs-a-la-polonaise-gutenberg-6429",
+      "title": "Eggs A La Polonaise",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "eggs-a-la-hyde-gutenberg-6429",
+      "title": "Eggs A La Hyde",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "eggs-a-la-vinaigrette-gutenberg-6429",
+      "title": "Eggs A La Vinaigrette",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "breakfast-fruits-marionharl",
+      "title": "Breakfast Fruits",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe', 'inthe', 'ofthe']"
+      ]
+    },
+    {
+      "id": "boston-brcfwn-bread-everywoman",
+      "title": "Boston Brcfwn Bread",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupmolasses', 'cupofwater', 'cupmilk']"
+      ]
+    },
+    {
+      "id": "graham-muffins-themetropo",
+      "title": "Graham Muffins",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupsmilk', 'cupsmilk']"
+      ]
+    },
+    {
+      "id": "baking-powder-biscuits-themetropo",
+      "title": "Baking Powder Biscuits",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupmilk']"
+      ]
+    },
+    {
+      "id": "sourmilkgraham-bread-themetropo",
+      "title": "Sour Milk Graham Bread",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupssourmilk']"
+      ]
+    },
+    {
+      "id": "graham-baking-powder-nutbread-themetropo",
+      "title": "Graham Baking Powder Nut Bread",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupnutmeats']"
+      ]
+    },
+    {
+      "id": "entire-wheat-orbranbread-themetropo",
+      "title": "Entire Wheat or Bran Bread",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupscoarse']"
+      ]
+    },
+    {
+      "id": "nutginger-muffins-wilsonscoo",
+      "title": "Nutginger Muffins",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupsofflour', 'andthe']"
+      ]
+    },
+    {
+      "id": "deviled-egg-salad-gutenberg",
+      "title": "Deviled Egg Salad",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful', 'tspoonful']"
+      ]
+    },
+    {
+      "id": "coldslaw-dressing-themetropo",
+      "title": "Coldslaw Dressing",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cuphotvinegar', 'cupwhipped', 'inthe']"
+      ]
+    },
+    {
+      "id": "somesalads-toserve-inwhole-tomatoes-therockymo",
+      "title": "Somesalads Toserve Inwhole Tomatoes Or",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe']"
+      ]
+    },
+    {
+      "id": "crunchy-chocolate-malt-cupcakes",
+      "title": "Crunchy Chocolate Malt Cupcakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes', 'cupcakes', 'cupcakes']"
+      ]
+    },
+    {
+      "id": "chocolate-peanut-brittle-cupcakes",
+      "title": "Chocolate-Peanut Brittle Cupcakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes', 'cupcakes', 'cupcakes']"
+      ]
+    },
+    {
+      "id": "mint-patty-cakes",
+      "title": "Mint Patty Cakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes', 'cupcakes', 'cupcakes']"
+      ]
+    },
+    {
+      "id": "mini-peanut-butter-cupcakes",
+      "title": "Mini Peanut Butter Cupcakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes', 'cupcakes', 'cupcakes']"
+      ]
+    },
+    {
+      "id": "gingerbread-cupcakes-with-caramelized-mango-buttercream",
+      "title": "Gingerbread Cupcakes with Caramelized Mango Buttercream",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes', 'cupcakes', 'cupcakes']"
+      ]
+    },
+    {
+      "id": "espresso-chip-meringues",
+      "title": "Espresso Chip Meringues",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupfuls']"
+      ]
+    },
+    {
+      "id": "matzo-meal-pancakes",
+      "title": "Matzo Meal Pancakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupfuls']"
+      ]
+    },
+    {
+      "id": "cottage-cheese-cup-cakes-cottage-cheese",
+      "title": "Cottage Cheese Cup Cakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupcakes']"
+      ]
+    },
+    {
+      "id": "scripture-cake-atlantawom",
+      "title": "Scripture Cake",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupsjeremiah']"
+      ]
+    },
+    {
+      "id": "frozen-desserts-courseofle",
+      "title": "Frozen Desserts",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe']"
+      ]
+    },
+    {
+      "id": "cakes-dainties19",
+      "title": "Cakes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'andthe']"
+      ]
+    },
+    {
+      "id": "fruit-cookie-s-everywoman",
+      "title": "Fruit Cookie S-",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupbutter']"
+      ]
+    },
+    {
+      "id": "cottage-pudding-thecentury",
+      "title": "Cottage Pudding",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupfuls']"
+      ]
+    },
+    {
+      "id": "orange-pie-thecentury",
+      "title": "Orange Pie",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful', 'ofthe']"
+      ]
+    },
+    {
+      "id": "oneeggcake-thenewengl",
+      "title": "Oneeggcake",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe']"
+      ]
+    },
+    {
+      "id": "sugar-cookies-therockymo",
+      "title": "Sugar Cookies",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupofgrated', 'cupofsifted', 'cupofpecan']"
+      ]
+    },
+    {
+      "id": "nutmocha-cake-thewingold",
+      "title": "Nutmocha Cake",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspcalumet']"
+      ]
+    },
+    {
+      "id": "honey-ricepudding-wilsonscoo",
+      "title": "Honey Ricepudding",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe']"
+      ]
+    },
+    {
+      "id": "carrot-pudding-american-cookery-1796",
+      "title": "Carrot Pudding",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupfull']"
+      ]
+    },
+    {
+      "id": "sauce-bechamel-gutenberg",
+      "title": "Sauce Bechamel",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "cream-or-white-sauce-gutenberg",
+      "title": "Cream Or White Sauce",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "sauce-perigueux-gutenberg",
+      "title": "Sauce Perigueux",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspoonful']"
+      ]
+    },
+    {
+      "id": "vegetables-courseofle",
+      "title": "Vegetables",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe', 'ofthe']"
+      ]
+    },
+    {
+      "id": "pickled-oystem-inthekitch",
+      "title": "Pickled Oystem",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'andthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "raspberry-andcurrant-jelly-with-whi-thedinnery",
+      "title": "Raspberry Andcurrant Jelly With Whipped",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe', 'cupofcold', 'inthe']"
+      ]
+    },
+    {
+      "id": "yellow-sauce-thewingold",
+      "title": "Yellow Sauce",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspvanilla']"
+      ]
+    },
+    {
+      "id": "potatoes-alagolden-rod-triedandtr",
+      "title": "Potatoes Alagolden Rod",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe']"
+      ]
+    },
+    {
+      "id": "baltimore-dressing-wilsonscoo",
+      "title": "Baltimore Dressing",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe']"
+      ]
+    },
+    {
+      "id": "soups-carolineki",
+      "title": "Soups",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "soupverte-thedinnery",
+      "title": "Soupverte",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe', 'tothe', 'inthe']"
+      ]
+    },
+    {
+      "id": "sweet-potato-latkes",
+      "title": "Sweet Potato Latkes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupfuls']"
+      ]
+    },
+    {
+      "id": "published-forthebenefit-of-175choicer",
+      "title": "Published Forthebenefit Of",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe', 'tothe', 'tothe']"
+      ]
+    },
+    {
+      "id": "thekitchen-cabinet-should-contain-atlantawom",
+      "title": "Thekitchen Cabinet Should Contain",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'andthe']"
+      ]
+    },
+    {
+      "id": "floue-andyeast-mixtures-carolineki",
+      "title": "Floue Andyeast Mixtures",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe']"
+      ]
+    },
+    {
+      "id": "quick-raising-doughs-carolineki",
+      "title": "Quick-Raising Doughs",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe', 'inthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "methods-ofpreparing-food-materials-carolineki",
+      "title": "Methods Ofpreparing Food Materials",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe', 'ofthe']"
+      ]
+    },
+    {
+      "id": "popular-andstandard-books-commonsens",
+      "title": "Popular Andstandard Books",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe', 'andthe']"
+      ]
+    },
+    {
+      "id": "plain-pastry-cookeryfor",
+      "title": "Plain Pastry",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe']"
+      ]
+    },
+    {
+      "id": "creamed-dishes-courseofle",
+      "title": "Creamed Dishes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupofwhite']"
+      ]
+    },
+    {
+      "id": "cheese-relishes-culinaryec",
+      "title": "Cheese Relishes",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe']"
+      ]
+    },
+    {
+      "id": "marsh-mallow-tutti-frutti-dainties19",
+      "title": "Marsh Mallow Tutti Frutti",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe', 'tothe']"
+      ]
+    },
+    {
+      "id": "forthehedgehog-dainties19",
+      "title": "Forthehedgehog",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe', 'ofthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "mildred-maddocks-goodhousek",
+      "title": "Mildred Maddocks",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "whitesboro-yeast-inthekitch",
+      "title": "Whitesboro' Yeast",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "familiar-talk-marionharl",
+      "title": "Familiar Talk",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tothe']"
+      ]
+    },
+    {
+      "id": "someother-books-mybest250r",
+      "title": "Someother Books",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'tothe', 'inthe']"
+      ]
+    },
+    {
+      "id": "philadelphia-thealumnae",
+      "title": "Philadelphia",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe', 'ofthe', 'andthe']"
+      ]
+    },
+    {
+      "id": "scalloped-thedinnery",
+      "title": "Scalloped",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'inthe']"
+      ]
+    },
+    {
+      "id": "lemon-ice-cream-themetropo",
+      "title": "Lemon Ice-Cream",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupssugar']"
+      ]
+    },
+    {
+      "id": "chocolate-spicemacaroons-thewingold",
+      "title": "Chocolate Spicemacaroons",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tspeachwatkins']"
+      ]
+    },
+    {
+      "id": "important-equivalents-tomemorize-thewingold",
+      "title": "Important Equivalents Tomemorize",
+      "collection": "all",
+      "issues": [
+        "OCR: ['cupliquid', 'cupliquid', 'cupliquid']"
+      ]
+    },
+    {
+      "id": "shrimps-intomato-cases-triedandtr",
+      "title": "Shrimps Intomato Cases",
+      "collection": "all",
+      "issues": [
+        "OCR: ['ofthe']"
+      ]
+    },
+    {
+      "id": "orange-souffle-triedandtr",
+      "title": "Orange Souffle",
+      "collection": "all",
+      "issues": [
+        "OCR: ['tsplemon', 'tsplemon']"
+      ]
+    },
+    {
+      "id": "parfait-alacarlos-triedandtr",
+      "title": "Parfait Alacarlos",
+      "collection": "all",
+      "issues": [
+        "OCR: ['inthe', 'ofthe']"
+      ]
+    },
+    {
+      "id": "sourmilkgems-wilsonscoo",
+      "title": "Sourmilkgems",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe']"
+      ]
+    },
+    {
+      "id": "spiced-apples-wilsonscoo",
+      "title": "Spiced Apples",
+      "collection": "all",
+      "issues": [
+        "OCR: ['andthe']"
+      ]
+    }
+  ],
+  "new_ocr_sources": {
+    "theappledo": 1,
+    "cupcakes": 4,
+    "pancakes": 2,
+    "gutenberg": 6,
+    "6429": 7,
+    "marionharl": 2,
+    "everywoman": 2,
+    "themetropo": 7,
+    "wilsonscoo": 5,
+    "therockymo": 2,
+    "cakes": 1,
+    "buttercream": 1,
+    "meringues": 1,
+    "cheese": 1,
+    "atlantawom": 2,
+    "courseofle": 3,
+    "dainties19": 3,
+    "thecentury": 2,
+    "thenewengl": 1,
+    "thewingold": 4,
+    "1796": 1,
+    "inthekitch": 2,
+    "thedinnery": 3,
+    "triedandtr": 4,
+    "carolineki": 4,
+    "latkes": 1,
+    "175choicer": 1,
+    "commonsens": 1,
+    "cookeryfor": 1,
+    "culinaryec": 1,
+    "goodhousek": 1,
+    "mybest250r": 1,
+    "thealumnae": 1
+  }
+}
