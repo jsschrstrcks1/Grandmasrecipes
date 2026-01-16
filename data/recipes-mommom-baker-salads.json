@@ -1,0 +1,6241 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "salads",
+    "total_recipes": 55,
+    "generated": "2026-01-16T14:00:19.641985Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "carrot-date-salad-gorgonzola-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Carrot and Date Salad with Gorgonzola Dressing",
+      "category": "salads",
+      "attribution": "Georgeanne Brennan",
+      "source_note": "Magazine clipping - from 'Down to Earth'",
+      "variant_of": "carrot-date-salad-gorgonzola",
+      "variant_notes": "Same recipe found in both Grandma and MomMom's collections - likely shared clipping",
+      "description": "A unique salad with grated carrots and dates in a creamy Gorgonzola dressing.",
+      "servings_yield": "2-3 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "3-4",
+          "unit": "",
+          "prep_note": "about 1/2 pound in all"
+        },
+        {
+          "item": "dried dates",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "pitted"
+        },
+        {
+          "item": "Gorgonzola, Maytag or other blue cheese",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "firmly packed, crumbled"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Champagne or white wine vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cracked black pepper",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dandelion, arugula or young lettuce leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Using a vegetable peeler or paring knife, peel the carrots. Grate them on the large holes of a hand-held grater to make 1 cup. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Chop the dates into pieces about the size of corn kernels and set them aside as well."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl, combine cheese, olive oil, vinegar and pepper, mashing and whisking the cheese to make a thick dressing."
+        },
+        {
+          "step": 4,
+          "text": "Add carrots and dates to dressing and turn them until they are well-coated."
+        },
+        {
+          "step": 5,
+          "text": "Transfer to a serving bowl or to individual salad plates and garnish with dandelion, arugula or lettuce. Serve at once."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "carrot",
+        "dates",
+        "blue-cheese",
+        "gorgonzola"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      },
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "cauliflower-layer-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cauliflower Layer Salad",
+      "category": "salads",
+      "attribution": "Evelyn Bell",
+      "source_note": "Church cookbook",
+      "description": "A layered vegetable salad with cauliflower, lettuce, and Parmesan cheese.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "overnight",
+      "ingredients": [
+        {
+          "item": "head lettuce",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "head cauliflower",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "medium red onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen peas",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a 9x12 inch dish: Use 1 layer of broken pieces of lettuce, 1 layer of cauliflower pieces, 1 layer of red onion, 1 layer of frozen peas, and 1 layer Parmesan cheese (grated)."
+        },
+        {
+          "step": 2,
+          "text": "Seal top with approximately 2 cups mayonnaise."
+        },
+        {
+          "step": 3,
+          "text": "Set in refrigerator for overnight."
+        },
+        {
+          "step": 4,
+          "text": "Toss when ready to serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "9x12 inch dish",
+      "notes": [
+        "Make ahead - refrigerate overnight"
+      ],
+      "tags": [
+        "salad",
+        "layered",
+        "cauliflower",
+        "make-ahead",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "cherry-cream-cheese-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cherry Cream Cheese Salad",
+      "category": "salads",
+      "attribution": "Beverly Olson",
+      "source_note": "Church cookbook",
+      "description": "A sweet gelatin salad with pineapple, cherries, and cream cheese.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "unflavored gelatin",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "dissolved in 1/4 cup water"
+        },
+        {
+          "item": "maraschino cherries",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "cherry juice",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "12 oz",
+          "prep_note": ""
+        },
+        {
+          "item": "Dream Whip or Cool Whip",
+          "quantity": "2 pkg or 4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "nuts",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat slowly pineapple, sugar, and gelatin."
+        },
+        {
+          "step": 2,
+          "text": "Cool completely."
+        },
+        {
+          "step": 3,
+          "text": "Add cherries, cherry juice, softened cream cheese, and Cool Whip. Nuts are optional."
+        },
+        {
+          "step": 4,
+          "text": "Let set in refrigerator until firm."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Heat pineapple mixture thoroughly to begin thickening; it will thicken more when cooled"
+      ],
+      "tags": [
+        "salad",
+        "gelatin",
+        "cherry",
+        "cream-cheese",
+        "dessert-salad"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "coleslaw-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Coleslaw",
+      "category": "salads",
+      "attribution": "Celeste Cochran",
+      "source_note": "Church cookbook",
+      "description": "Classic creamy coleslaw with celery and mustard seed.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "medium size head cabbage",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/3",
+          "unit": "cup (2 tbsp)",
+          "prep_note": ""
+        },
+        {
+          "item": "Miracle Whip",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "carrot",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "shredded"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix spices, sugar, vinegar, and Miracle Whip and let stand in refrigerator a couple of hours before serving."
+        },
+        {
+          "step": 2,
+          "text": "Then pour over shredded cabbage and carrot."
+        },
+        {
+          "step": 3,
+          "text": "Can also be used for potato salad - just add eggs, pickles, etc."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Dressing can be used for potato salad too"
+      ],
+      "tags": [
+        "salad",
+        "coleslaw",
+        "cabbage",
+        "side"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 21,
+          "protein_g": 5,
+          "carbs_g": 13,
+          "cholesterol_mg": 7,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cranberry-salad-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Salad",
+      "category": "salads",
+      "attribution": "",
+      "source_note": "Church cookbook",
+      "description": "A festive gelatin salad with cranberry, pineapple, and sour cream.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "small pkg raspberry Jell-O",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen strawberries or raspberries",
+          "quantity": "1",
+          "unit": "small pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "large (20 oz) can",
+          "prep_note": ""
+        },
+        {
+          "item": "whole cranberry sauce",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nuts",
+          "quantity": "1/2",
+          "unit": "cup or more",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "[INFERRED] Dissolve Jell-O in boiling water."
+        },
+        {
+          "step": 2,
+          "text": "[INFERRED] Add frozen berries, pineapple, and cranberry sauce."
+        },
+        {
+          "step": 3,
+          "text": "[INFERRED] Pour half into mold, chill until set."
+        },
+        {
+          "step": 4,
+          "text": "[INFERRED] Spread sour cream over set layer."
+        },
+        {
+          "step": 5,
+          "text": "[INFERRED] Top with remaining gelatin mixture and nuts."
+        },
+        {
+          "step": 6,
+          "text": "[INFERRED] Chill until firm."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Recipe continues on next page - instructions partially inferred"
+      ],
+      "tags": [
+        "salad",
+        "gelatin",
+        "cranberry",
+        "holiday",
+        "dessert-salad"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          {
+            "field": "instructions",
+            "issue": "Recipe continues on next page",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "broccoli-mushroom-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Broccoli Mushroom Salad",
+      "category": "salads",
+      "attribution": "",
+      "source_note": "Church cookbook",
+      "description": "Fresh broccoli and mushroom salad with a tangy homemade dressing.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fresh mushrooms",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "large head broccoli",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "vinegar (cider or wine)",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "onion powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "for dressing"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and slice fresh mushrooms. Break off florets from head of broccoli."
+        },
+        {
+          "step": 2,
+          "text": "Combine with chopped onions."
+        },
+        {
+          "step": 3,
+          "text": "[INFERRED] Combine dressing ingredients and toss with vegetables."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Recipe continues on next page - dressing directions partially inferred"
+      ],
+      "tags": [
+        "salad",
+        "broccoli",
+        "mushroom",
+        "vegetable"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          {
+            "field": "instructions",
+            "issue": "Recipe continues on next page",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "broccoli-salad-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Broccoli Salad",
+      "category": "salads",
+      "attribution": "Carol Wynn",
+      "source_note": "Church cookbook",
+      "description": "Classic broccoli salad with bacon, raisins, and sweet dressing.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "overnight",
+      "ingredients": [
+        {
+          "item": "bunches broccoli",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cooked bacon",
+          "quantity": "10 to 12",
+          "unit": "pieces",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "red onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "for dressing"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "for dressing"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine broccoli, bacon, raisins, and red onion."
+        },
+        {
+          "step": 2,
+          "text": "Combine mayonnaise, sugar, and vinegar to form a sauce and pour over the salad."
+        },
+        {
+          "step": 3,
+          "text": "Chill overnight."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "broccoli",
+        "bacon",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "marinated-broccoli",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Broccoli",
+      "category": "salads",
+      "attribution": "Elaine Greene",
+      "source_note": "Church cookbook",
+      "description": "Fresh vegetable salad marinated in a tangy herb dressing.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dill weed",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "oil",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "marjoram",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": ""
+        },
+        {
+          "item": "Accent",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh broccoli",
+          "quantity": "3 to 6",
+          "unit": "bunches",
+          "prep_note": "washed and chopped"
+        },
+        {
+          "item": "small head cauliflower",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "washed and chopped"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "1",
+          "unit": "pt",
+          "prep_note": "halved"
+        },
+        {
+          "item": "fresh mushrooms",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "sliced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix together vinegar, dill weed, salt, sugar, oil, marjoram, garlic, Accent, and pepper and refrigerate."
+        },
+        {
+          "step": 2,
+          "text": "Combine broccoli, cauliflower, tomatoes, and mushrooms."
+        },
+        {
+          "step": 3,
+          "text": "Pour dressing over vegetables and marinate."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "marinated",
+        "broccoli",
+        "vegetable"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "three-bean-salad-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "3 Bean Salad",
+      "category": "salads",
+      "attribution": "Susan Roebuck",
+      "source_note": "Church cookbook",
+      "description": "Classic three bean salad - a great grandmother's recipe!",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "overnight",
+      "ingredients": [
+        {
+          "item": "kidney beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "wax beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "green beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "oil",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all ingredients together."
+        },
+        {
+          "step": 2,
+          "text": "Store overnight in refrigerator."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "This was my great grandmother's recipe"
+      ],
+      "tags": [
+        "salad",
+        "bean-salad",
+        "three-bean",
+        "make-ahead",
+        "potluck"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "taco-salad-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Taco Salad",
+      "category": "salads",
+      "attribution": "Pat Mallett",
+      "source_note": "Church cookbook",
+      "description": "Classic taco salad with crushed Doritos and Catalina dressing.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "head lettuce",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "large tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "medium green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "small bag shredded Cheddar cheese",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed Doritos (cheese)",
+          "quantity": "1/2",
+          "unit": "bag",
+          "prep_note": ""
+        },
+        {
+          "item": "chili beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "Catalina dressing",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put lettuce in bowl. Arrange other items in rings on top of lettuce."
+        },
+        {
+          "step": 2,
+          "text": "Add Doritos and salad dressing immediately before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "taco",
+        "mexican",
+        "main-dish"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 431,
+          "fat_g": 26,
+          "protein_g": 25,
+          "carbs_g": 22,
+          "cholesterol_mg": 900,
+          "sodium_mg": 91
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "turkey-fruit-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Turkey Fruit Salad",
+      "category": "salads",
+      "attribution": "Inga Van Dorple",
+      "source_note": "Church cookbook",
+      "description": "A fine main course for luncheon or supper - turkey with grapes and pineapple.",
+      "servings_yield": "6 generous servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "chopped, cooked turkey",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "pineapple tidbits",
+          "quantity": "1",
+          "unit": "8 1/2 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "seedless grapes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped apple",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toss ingredients together lightly; chill and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "A fine main course for luncheon or supper!"
+      ],
+      "tags": [
+        "salad",
+        "turkey",
+        "fruit",
+        "main-dish",
+        "lunch"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "red-white-and-blue-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Red, White, and Blue Salad",
+      "category": "salads",
+      "attribution": "Carol Willison",
+      "source_note": "Church cookbook",
+      "description": "Patriotic layered gelatin salad with strawberry, cream, and blueberry layers.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "strawberry jello",
+          "quantity": "1",
+          "unit": "3 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "unflavored gelatin",
+          "quantity": "1",
+          "unit": "env",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "raspberry jello (black cherry)",
+          "quantity": "1",
+          "unit": "3 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "blueberries",
+          "quantity": "1",
+          "unit": "15 oz can",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dissolve 1 package strawberry jello in 2 cups boiling water. Pour in 3 quart glass bowl; refrigerate until firmly set."
+        },
+        {
+          "step": 2,
+          "text": "Dissolve unflavored gelatin in 1/2 cup cold water; set aside."
+        },
+        {
+          "step": 3,
+          "text": "Dissolve sugar in whipping cream over low heat until nearly boiling. Remove from heat; add gelatin."
+        },
+        {
+          "step": 4,
+          "text": "Cool. Add sour cream and vanilla; pour over first layer. Refrigerate till firm."
+        },
+        {
+          "step": 5,
+          "text": "Dissolve raspberry jello in 1 cup boiling water; cool. Add berries and juice."
+        },
+        {
+          "step": 6,
+          "text": "Pour over second layer. Refrigerate until firm."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "3 quart glass bowl",
+      "notes": [
+        "This recipe takes a long time but it's worth it!"
+      ],
+      "tags": [
+        "salad",
+        "gelatin",
+        "patriotic",
+        "holiday",
+        "layered"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "seven-layer-salad-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Seven Layer Salad",
+      "category": "salads",
+      "attribution": "Joanne Denton",
+      "source_note": "Church cookbook",
+      "description": "Classic make-ahead layered salad with peas, bacon, and cheese.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "overnight",
+      "ingredients": [
+        {
+          "item": "head lettuce",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut fine"
+        },
+        {
+          "item": "frozen baby peas",
+          "quantity": "1",
+          "unit": "box",
+          "prep_note": ""
+        },
+        {
+          "item": "celery",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "red onion",
+          "quantity": "1/2 to 1",
+          "unit": "cup",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "hard-boiled eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1 1/2 to 2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded Cheddar cheese",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "cooked bacon",
+          "quantity": "4",
+          "unit": "slices",
+          "prep_note": "crumbled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place lettuce in large glass bowl."
+        },
+        {
+          "step": 2,
+          "text": "Arrange other ingredients in order given."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill. May be prepared a day ahead."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large glass bowl",
+      "notes": [
+        "May be prepared a day ahead"
+      ],
+      "tags": [
+        "salad",
+        "layered",
+        "make-ahead",
+        "party",
+        "potluck"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "dream-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dream Salad",
+      "category": "salads",
+      "attribution": "Debbie Malick",
+      "source_note": "Church cookbook",
+      "description": "Light and fluffy orange gelatin salad with cottage cheese and pineapple.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cottage cheese",
+          "quantity": "1",
+          "unit": "12 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "mandarin oranges",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "orange jello",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "Cool Whip",
+          "quantity": "1",
+          "unit": "9 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "large can",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain the juice from oranges and pineapple."
+        },
+        {
+          "step": 2,
+          "text": "Combine all together. Chill and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "gelatin",
+        "orange",
+        "cottage-cheese",
+        "dessert-salad"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "frozen-cranberry-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Frozen Cranberry Salad",
+      "category": "salads",
+      "attribution": "Karen Griner",
+      "source_note": "Church cookbook",
+      "description": "Frozen cranberry salad with sweetened condensed milk and Cool Whip.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Eagle Brand milk",
+          "quantity": "1",
+          "unit": "14 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "20 oz can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "whole cranberry sauce",
+          "quantity": "1",
+          "unit": "16 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Cool Whip",
+          "quantity": "1",
+          "unit": "8 oz container",
+          "prep_note": "thawed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine milk and lemon juice."
+        },
+        {
+          "step": 2,
+          "text": "Stir in cranberries, pineapple, and nuts."
+        },
+        {
+          "step": 3,
+          "text": "Fold in Cool Whip."
+        },
+        {
+          "step": 4,
+          "text": "Spread in 13x9 inch dish and freeze."
+        },
+        {
+          "step": 5,
+          "text": "Serve on lettuce leaves."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "13x9 inch dish",
+      "notes": [],
+      "tags": [
+        "salad",
+        "frozen",
+        "cranberry",
+        "holiday",
+        "dessert-salad"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "fruit-salad-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruit Salad",
+      "category": "salads",
+      "attribution": "",
+      "source_note": "Church cookbook",
+      "description": "Cooked fruit salad with pineapple glaze, apples, and bananas.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pineapple chunks",
+          "quantity": "1",
+          "unit": "20 oz can",
+          "prep_note": "drained, reserve juice"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "grated orange peel",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium apples",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut in pieces, don't peel"
+        },
+        {
+          "item": "bananas",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir sugar and cornstarch in pan."
+        },
+        {
+          "step": 2,
+          "text": "Blend in 3/4 cup pineapple juice, lemon juice, and orange peel."
+        },
+        {
+          "step": 3,
+          "text": "Cook over medium heat, stirring till thickens and boils. Boil 1 minute."
+        },
+        {
+          "step": 4,
+          "text": "[INFERRED] Cool slightly and pour over fruit."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Recipe continues on next page"
+      ],
+      "tags": [
+        "salad",
+        "fruit",
+        "dessert-salad"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          {
+            "field": "instructions",
+            "issue": "Recipe continues on next page",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 199,
+          "fat_g": 9,
+          "protein_g": 2,
+          "carbs_g": 29,
+          "cholesterol_mg": 30,
+          "sodium_mg": 123
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "easy-tuscan-pasta-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Easy Tuscan Pasta Salad",
+      "category": "salads",
+      "attribution": "Magazine/product clipping",
+      "source_note": "Printed recipe clipping featuring ATHENOS and GOOD SEASONS products",
+      "description": "A quick and easy pasta salad with Mediterranean flavors - cherry tomatoes, feta cheese, and sun-dried tomato vinaigrette.",
+      "servings_yield": "4 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "penne pasta",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "hot cooked"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "feta cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 oz, traditional crumbled"
+        },
+        {
+          "item": "sun dried tomato vinaigrette with roasted red pepper dressing",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh basil leaves",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "loosely packed, cut into strips"
+        },
+        {
+          "item": "red onions",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients."
+        },
+        {
+          "step": 2,
+          "text": "Serve immediately, or cover and refrigerate until ready to serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "MAKE IT A MEAL: Add 2 boneless skinless chicken breast halves, grilled or broiled, cut into 1/4 inch slices"
+      ],
+      "tags": [
+        "pasta salad",
+        "salad",
+        "tuscan",
+        "italian",
+        "quick",
+        "easy",
+        "feta",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 144,
+          "fat_g": 2.3,
+          "protein_g": 5.6,
+          "carbs_g": 25.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "athenos-greek-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Athenos Greek Salad",
+      "category": "salads",
+      "attribution": "Magazine/product clipping",
+      "source_note": "Printed recipe clipping featuring ATHENOS and KRAFT products",
+      "description": "A classic Greek salad with mixed greens, olives, tomatoes, cucumber, and feta cheese.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "mixed salad greens",
+          "quantity": "1",
+          "unit": "bag",
+          "prep_note": "10 oz"
+        },
+        {
+          "item": "ripe olives",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "pitted"
+        },
+        {
+          "item": "plum tomatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "red onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1/2",
+          "unit": "medium",
+          "prep_note": "peeled, cut into wedges"
+        },
+        {
+          "item": "Greek vinaigrette dressing",
+          "quantity": "1/2",
+          "unit": "pkg",
+          "prep_note": "4 oz"
+        },
+        {
+          "item": "feta cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "traditional crumbled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toss greens, olives, tomatoes, onion and cucumber in large bowl."
+        },
+        {
+          "step": 2,
+          "text": "Drizzle with dressing; toss to coat. Sprinkle with cheese."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "greek",
+        "vegetarian",
+        "quick",
+        "easy",
+        "feta",
+        "olives"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 71,
+          "fat_g": 3.9,
+          "protein_g": 2.2,
+          "carbs_g": 8.5
+        },
+        "missing_inputs": [
+          "Not in database: mixed salad greens",
+          "Not in database: Greek vinaigrette dressing"
+        ],
+        "assumptions": [
+          "Based on 5/7 ingredients (71% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chefs-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chef's Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 334",
+      "description": "Classic main-dish salad with meat, cheese, and fresh vegetables.",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "torn iceberg or leaf lettuce",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "torn romaine or spinach",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "fully cooked ham, chicken, turkey, beef, pork, or lamb",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "cut into thin strips"
+        },
+        {
+          "item": "cubed Swiss, cheddar, American, provolone, or Gruy\u00e8re cheese or crumbled blue cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 ounces"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut into wedges, or 8 cherry tomatoes, halved"
+        },
+        {
+          "item": "small green or sweet red pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into rings"
+        },
+        {
+          "item": "green onions",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "Croutons",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "see tip, page 357, or purchased"
+        },
+        {
+          "item": "Creamy French Dressing, Buttermilk Dressing, Creamy Italian Dressing, or other salad dressing",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large salad bowl toss together lettuce and romaine or spinach. Arrange meat or poultry, cheese, hard-cooked eggs, tomatoes, pepper rings, and green onions over the greens."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle with Croutons, if desired. Pour Creamy French Dressing or other salad dressing over all. Toss to coat. Makes 4 main-dish servings."
+        },
+        {
+          "step": 3,
+          "text": "Note: To serve Chef's Salad as individual salads, toss together lettuce and romaine or spinach and divide among four individual salad bowls. Top each serving with one-fourth of the meat or poultry, cheese, hard-cooked eggs, tomatoes, pepper rings, and green onions. Sprinkle each with Croutons, if desired. Pass Creamy French Dressing or other salad dressing."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "main-dish",
+        "chef",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5496 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "taco-salads-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Taco Salads",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 337",
+      "description": "Tex-Mex salad served in crispy tortilla cups with seasoned meat and all the fixings.",
+      "servings_yield": "6 main-dish servings",
+      "ingredients": [
+        {
+          "item": "ground beef, ground raw turkey, or bulk pork sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "dark red kidney beans",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "one can"
+        },
+        {
+          "item": "taco sauce",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one jar"
+        },
+        {
+          "item": "chili powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "torn iceberg lettuce",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced pitted ripe olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green onions",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "Tortilla Cups",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "medium avocado",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "pitted, peeled, and sliced (optional)"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "taco sauce or salsa",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For meat mixture, in a large skillet cook meat and garlic till meat is no longer pink. Drain off fat. Stir in undrained kidney beans, taco sauce, and chili powder. Bring to boiling; reduce heat. Cover; simmer for 10 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, for salads, combine lettuce, tomatoes, cheese, green pepper, olives, and green onions. Add hot meat mixture. Toss to mix. Divide among Tortilla Cups or individual salad plates."
+        },
+        {
+          "step": 3,
+          "text": "Garnish with avocado, if desired. Serve with sour cream and additional taco sauce or salsa, if desired. Makes 6 main-dish servings."
+        },
+        {
+          "step": 4,
+          "text": "Tortilla Cups: In a heavy 3-quart saucepan heat 2 inches cooking oil or melted shortening for deep-fat frying to 375\u00b0. Place one 7-inch flour tortilla on top of hot oil. Using a metal ladle, press tortilla into fat, forming the tortilla into a cup. Fry for 40 to 60 seconds or till golden. Remove with tongs. Drain on paper towels. Repeat with five more tortillas."
+        }
+      ],
+      "temperature": "375\u00b0F (for tortilla cups)",
+      "pan_size": "",
+      "notes": [
+        "Microwave directions available for meat mixture"
+      ],
+      "tags": [
+        "salad",
+        "taco",
+        "mexican",
+        "main-dish",
+        "ground-beef"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5499 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 431,
+          "fat_g": 26,
+          "protein_g": 25,
+          "carbs_g": 22,
+          "cholesterol_mg": 900,
+          "sodium_mg": 91
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caesar-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caesar Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 342",
+      "description": "The classic anchovy and Parmesan salad with homemade croutons.",
+      "servings_yield": "6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "halved"
+        },
+        {
+          "item": "olive or salad oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon or lime juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "few dashes"
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "torn romaine",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "croutons",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "see tip, page 357, or purchased"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "anchovy fillets",
+          "quantity": "2",
+          "unit": "oz",
+          "prep_note": "one can, drained, rinsed, and patted dry"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Allow egg to come to room temperature. To coddle egg, add egg in shell to a small saucepan of boiling water. Remove from heat; let stand 1 minute. Remove egg from water and cool slightly."
+        },
+        {
+          "step": 2,
+          "text": "Cut garlic clove in half lengthwise. Rub a large wooden salad bowl with cut sides of the garlic clove. Discard garlic. Add oil, lemon or lime juice, Worcestershire sauce, and hot pepper sauce to bowl. Break the coddled egg into the bowl. Using a fork or a wire whisk, beat till creamy. Add romaine. Toss to coat. Sprinkle with croutons, Parmesan cheese, and pepper; toss to mix. Top with anchovy fillets. Makes 6 side-dish servings."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "caesar",
+        "classic",
+        "anchovy",
+        "parmesan"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5504 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "three-bean-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Three-Bean Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 344",
+      "description": "Classic marinated bean salad that keeps well in the refrigerator.",
+      "servings_yield": "6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "cut wax beans or 8 1/2-ounce can lima beans",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one can, drained"
+        },
+        {
+          "item": "cut green beans",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one can, drained"
+        },
+        {
+          "item": "red kidney beans",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one can, drained"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine wax beans, green beans, red kidney beans, onion, and green pepper. For dressing, in a screw-top jar combine vinegar, oil, sugar, celery seed, and garlic. Cover and shake well. Add to vegetables; stir lightly."
+        },
+        {
+          "step": 2,
+          "text": "Cover; chill for 4 to 24 hours, stirring often. Makes 6 side-dish servings."
+        },
+        {
+          "step": 3,
+          "text": "Creamy Three-Bean Salad: Prepare as above, except omit salad oil and sugar. For dressing, combine 1/2 cup mayonnaise or salad dressing, 1 tablespoon vinegar, celery seed, 1 teaspoon prepared mustard, and garlic."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "EASY recipe tag in cookbook",
+        "Store any leftovers in the refrigerator for up to three days"
+      ],
+      "tags": [
+        "salad",
+        "bean",
+        "marinated",
+        "make-ahead",
+        "picnic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5506 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "coleslaw-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Coleslaw",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 346",
+      "description": "Classic creamy coleslaw with cabbage and carrots.",
+      "servings_yield": "4 side-dish servings",
+      "ingredients": [
+        {
+          "item": "shredded cabbage",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "medium carrot",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "small green or sweet red pepper",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl combine cabbage, carrot, green or sweet red pepper, and green onions. For dressing, stir together mayonnaise or salad dressing, vinegar, sugar, and celery seed. Pour the dressing over the cabbage mixture; toss to coat."
+        },
+        {
+          "step": 2,
+          "text": "Cover and chill for 1 to 24 hours. Makes 4 side-dish servings."
+        },
+        {
+          "step": 3,
+          "text": "Vinaigrette Coleslaw: Prepare as above, except substitute vinaigrette for dressing. For vinaigrette, in a screw-top jar combine 1/4 cup vinegar, 3 tablespoons salad oil, 2 to 3 tablespoons sugar, and, if desired, several dashes bottled hot pepper sauce. Cover and shake well."
+        },
+        {
+          "step": 4,
+          "text": "Nutty Citrus Coleslaw: Prepare as above, except omit green onions. Add 1 small orange, peeled, sliced, and chopped; 1/4 cup chopped walnuts; and 2 tablespoons raisins to the cabbage mixture. Makes 5 side-dish servings."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Variations: Vinaigrette Coleslaw, Nutty Citrus Coleslaw"
+      ],
+      "tags": [
+        "salad",
+        "coleslaw",
+        "cabbage",
+        "classic",
+        "bbq"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5508 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 21,
+          "protein_g": 5,
+          "carbs_g": 13,
+          "cholesterol_mg": 7,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "tabbouleh-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tabbouleh",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 348",
+      "description": "A classic Middle Eastern salad with bulgur (precooked cracked wheat).",
+      "servings_yield": "6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "bulgur",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "medium cucumber",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "seeded and coarsely chopped (1 cup)"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green onions",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "olive oil or salad oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dried mint",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse bulgur in a colander with cold water. Drain. Combine bulgur, cucumber, parsley, and onions."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, in a screw-top jar combine oil, lemon juice, mint, garlic salt, and pepper. Cover; shake to mix. Pour over bulgur mixture. Toss to coat."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill 4 to 24 hours. Before serving, stir in tomatoes. Makes 6 side-dish servings."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "tabbouleh",
+        "bulgur",
+        "middle-eastern",
+        "mediterranean"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5510 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 168,
+          "fat_g": 8,
+          "protein_g": 3,
+          "carbs_g": 19,
+          "cholesterol_mg": 84,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "waldorf-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Waldorf Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 350",
+      "description": "Classic apple salad with celery, nuts, and creamy dressing.",
+      "servings_yield": "4 to 6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "chopped apple",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped walnuts or pecans",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins or snipped pitted whole dates",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "seedless green grapes",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "halved (optional)"
+        },
+        {
+          "item": "whipping cream or 1/3 cup frozen whipped dessert topping, thawed",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl toss apple with lemon juice. Stir in celery, nuts, raisins, and, if desired, grapes."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, if using whipping cream, in a chilled mixing bowl whip cream to soft peaks. Fold mayonnaise into the whipped cream or dessert topping. Spread dressing over the top of the apple mixture. Sprinkle with nutmeg."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 2 to 24 hours. To serve, fold dressing into fruit mixture. Makes 4 to 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "waldorf",
+        "apple",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5512 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 283,
+          "fat_g": 23,
+          "protein_g": 2,
+          "carbs_g": 19,
+          "cholesterol_mg": 95,
+          "sodium_mg": 35
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "five-cup-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Five-Cup Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 351",
+      "description": "Simple, sweet fruit salad with coconut and marshmallows.",
+      "servings_yield": "6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "pineapple chunks",
+          "quantity": "8.25",
+          "unit": "oz",
+          "prep_note": "one can"
+        },
+        {
+          "item": "mandarin orange sections",
+          "quantity": "11",
+          "unit": "oz",
+          "prep_note": "one can, drained"
+        },
+        {
+          "item": "coconut",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "tiny marshmallows",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one carton"
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain pineapple chunks, reserving 1 tablespoon syrup. Combine pineapple chunks, reserved syrup, mandarin orange sections, coconut, marshmallows, and sour cream."
+        },
+        {
+          "step": 2,
+          "text": "Cover and chill for 2 to 24 hours. Before serving, sprinkle with pecans. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "fruit",
+        "easy",
+        "marshmallow",
+        "coconut"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5513 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "cranberry-salad-family",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Salad",
+      "category": "salads",
+      "attribution": "Family Recipe",
+      "source_note": "Typed recipe card",
+      "servings_yield": "Serves 8",
+      "ingredients": [
+        {
+          "item": "small pkg Raspberry Jello",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "unflavored gelatin",
+          "quantity": "1",
+          "unit": "pkg"
+        },
+        {
+          "item": "hot water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cold water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped celery",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Sugar",
+          "quantity": "3/4 to 1",
+          "unit": "cup"
+        },
+        {
+          "item": "can Pineapple (crushed)",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "fresh Cranberries",
+          "quantity": "1",
+          "unit": "pkg"
+        },
+        {
+          "item": "Nuts",
+          "quantity": "1/2 to 1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add juice of pineapple to the unflavored gelatin to dissolve."
+        },
+        {
+          "step": 2,
+          "text": "Dissolve Jello in hot water, add cold water."
+        },
+        {
+          "step": 3,
+          "text": "Put cranberries through a food grinder. Add sugar, mix well."
+        },
+        {
+          "step": 4,
+          "text": "When Jello begins to thicken, fold in cranberry mix and remainder of ingredients."
+        },
+        {
+          "step": 5,
+          "text": "Pour into a large mold or dish."
+        },
+        {
+          "step": 6,
+          "text": "Chill until firm."
+        }
+      ],
+      "tags": [
+        "salad",
+        "cranberry",
+        "gelatin",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5546 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 99,
+          "fat_g": 0.0,
+          "protein_g": 1.2,
+          "carbs_g": 24.8
+        },
+        "missing_inputs": [
+          "Not in database: Nuts"
+        ],
+        "assumptions": [
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "bean-sausage-bowl-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bean and Sausage Bowl",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 338",
+      "description": "Hearty main-dish salad with sausage, beans, and cheese",
+      "servings_yield": "3 main-dish servings",
+      "prep_time": "20 minutes",
+      "ingredients": [
+        {
+          "item": "thinly sliced salami, pepperoni, or summer sausage",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "torn iceberg lettuce",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "red kidney beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "8-oz, drained"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "celery",
+          "quantity": "1",
+          "unit": "stalk",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "2 ounces"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut salami, pepperoni, or summer sausage slices into quarters. In a large bowl toss together meat, lettuce, kidney beans, hard-cooked eggs, celery, cheese, and green onions."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, stir together mayonnaise or salad dressing, milk, mustard, and horseradish; pour over meat mixture. Toss to coat. Makes 3 main-dish servings."
+        }
+      ],
+      "notes": [
+        "Marked as FAST recipe"
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "sausage",
+        "beans",
+        "quick"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5500 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 279,
+          "fat_g": 9.6,
+          "protein_g": 18.7,
+          "carbs_g": 30.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Used standard can size (1.75 cups) for red kidney beans",
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "ham-rice-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Ham and Rice Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 338",
+      "description": "Colorful cold rice salad with ham and vegetables",
+      "servings_yield": "4 main-dish servings",
+      "prep_time": "25 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "frozen succotash",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "10-oz"
+        },
+        {
+          "item": "cold cooked long grain or brown rice",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cubed fully cooked ham",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "coarsely chopped"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Creamy Italian Dressing",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "see recipe, page 356, or other creamy salad dressing"
+        },
+        {
+          "item": "leaf lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook succotash according to package directions. Drain. In a large bowl stir together succotash, rice, ham, green pepper, tomato, onion, and parsley."
+        },
+        {
+          "step": 2,
+          "text": "Pour salad dressing over rice mixture. Toss to coat. Cover and chill for 4 to 24 hours. Serve on lettuce-lined salad plates and garnish with sliced egg, if desired. Makes 4 main-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "ham",
+        "rice"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5500 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 601,
+          "fat_g": 79,
+          "protein_g": 17,
+          "carbs_g": 40,
+          "cholesterol_mg": 352,
+          "sodium_mg": 981
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "italian-style-pasta-toss-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Italian-Style Pasta Toss",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 338",
+      "description": "Cold pasta salad with Italian meats, cheese, and vegetables",
+      "servings_yield": "6 main-dish servings",
+      "prep_time": "30 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "corkscrew macaroni or tortellini",
+          "quantity": "7",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "cubed Swiss or provolone cheese",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "6 ounces"
+        },
+        {
+          "item": "sliced salami",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "cut into strips"
+        },
+        {
+          "item": "cauliflower flowerets",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "small zucchini",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced (1 cup)"
+        },
+        {
+          "item": "chopped green or sweet red pepper",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced and separated into rings"
+        },
+        {
+          "item": "sliced pitted ripe olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil or salad oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "dried basil",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook pasta according to package directions. Drain pasta. Rinse with cold water; drain again."
+        },
+        {
+          "step": 2,
+          "text": "For salad, in a bowl toss together pasta, cubed cheese, salami, cauliflower, zucchini, green or red pepper, onion rings, olives, Parmesan cheese, and parsley."
+        },
+        {
+          "step": 3,
+          "text": "For dressing, in a screw-top jar combine oil, vinegar, garlic, basil, oregano, and pepper. Cover and shake well. Pour over salad. Toss to coat. Cover; chill 4 to 24 hours. To serve, add tomatoes; toss gently. Makes 6 main-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "pasta",
+        "italian"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5500 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 4,
+          "protein_g": 2,
+          "carbs_g": 3,
+          "cholesterol_mg": 497,
+          "sodium_mg": 65
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "bratwurst-pasta-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bratwurst and Pasta Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 339",
+      "description": "Hearty pasta salad with bratwurst and Italian seasoning",
+      "servings_yield": "4 main-dish servings",
+      "prep_time": "25 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "cavatelli, medium shell macaroni, or corkscrew macaroni",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh broccoli or frozen cut broccoli",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "fully cooked smoked bratwurst",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": "halved lengthwise and sliced"
+        },
+        {
+          "item": "small tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "green onions",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "dried Italian seasoning",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Creamy Italian Dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "see recipe, page 356, or other creamy salad dressing"
+        },
+        {
+          "item": "leaf lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook pasta according to package directions. Drain pasta; rinse with cold water. Drain again. Cut broccoli into 1-inch pieces. Cook broccoli in boiling salted water for 7 to 9 minutes or till crisp-tender. (Or, cook frozen broccoli according to package directions.) Drain."
+        },
+        {
+          "step": 2,
+          "text": "Toss together pasta, broccoli, bratwurst, tomatoes, and green onions. Stir Italian seasoning into salad dressing. Pour dressing mixture over salad."
+        },
+        {
+          "step": 3,
+          "text": "Toss to coat. Cover; chill for 4 to 24 hours. Serve over lettuce and sprinkle with Parmesan cheese, if desired. Makes 4 main-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "pasta",
+        "bratwurst"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5501 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 12.0,
+          "protein_g": 5.8,
+          "carbs_g": 18.9
+        },
+        "missing_inputs": [
+          "Not in database: fully cooked smoked bratwurst",
+          "Not in database: dried Italian seasoning"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for leaf lettuce",
+          "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
+          "Based on 7/9 ingredients (78% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "reuben-salads-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Reuben Salads",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 339",
+      "description": "Deconstructed Reuben sandwich as a salad with rye croutons",
+      "servings_yield": "4 main-dish servings",
+      "prep_time": "25 minutes",
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "ingredients": [
+        {
+          "item": "torn leaf lettuce",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sauerkraut",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "8-oz, chilled, drained, and snipped"
+        },
+        {
+          "item": "cooked corned beef",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "cut into strips (1 cup)"
+        },
+        {
+          "item": "cubed Swiss cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 ounces"
+        },
+        {
+          "item": "Rye Croutons",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Thousand Island salad dressing",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "caraway seed",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Divide lettuce among 4 salad plates. Arrange sauerkraut, beef, cheese, and croutons over lettuce."
+        },
+        {
+          "step": 2,
+          "text": "Combine salad dressing and caraway seed. Serve with salads. Makes 4 main-dish servings."
+        },
+        {
+          "step": 3,
+          "text": "Rye Croutons: Brush both sides of 2 slices rye bread with 4 teaspoons softened margarine or butter. Cut into 1/2-inch cubes. In a shallow baking pan spread bread cubes. Bake in a 300\u00b0 oven for 15 to 18 minutes or till dry, stirring once."
+        }
+      ],
+      "notes": [
+        "Marked as FAST recipe"
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "reuben",
+        "corned-beef",
+        "quick"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5501 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 515,
+          "fat_g": 70,
+          "protein_g": 40,
+          "carbs_g": 8,
+          "cholesterol_mg": 480,
+          "sodium_mg": 149
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chicken-garbanzo-bean-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicken and Garbanzo Bean Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 339",
+      "description": "Southwestern-style chicken salad with beans and chili",
+      "servings_yield": "4 or 5 main-dish servings",
+      "prep_time": "20 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "cubed cooked chicken, turkey, or beef",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "garbanzo beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "15-oz, drained"
+        },
+        {
+          "item": "cubed cheddar or Monterey Jack cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 ounces"
+        },
+        {
+          "item": "celery",
+          "quantity": "2",
+          "unit": "stalks",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "small green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chili powder",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "leaf lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium bowl combine chicken, garbanzo beans, cheese, celery, green pepper, and green onions."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, stir together mayonnaise, lemon juice, chili powder, garlic powder, 1/4 teaspoon salt, and 1/4 teaspoon pepper. Stir into chicken mixture."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 2 to 24 hours. Before serving, stir mixture. Serve on lettuce-lined salad plates. Garnish with tomato wedges. Makes 4 or 5 main-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "chicken",
+        "beans",
+        "southwestern"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5501 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 566,
+          "fat_g": 26.5,
+          "protein_g": 53.3,
+          "carbs_g": 28.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Used standard can size (1.75 cups) for garbanzo beans",
+          "Assumed 1 unit for leaf lettuce",
+          "Based on 12/12 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chicken-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicken Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 340",
+      "description": "Classic chicken salad served in tomato shells",
+      "servings_yield": "4 main-dish servings",
+      "prep_time": "20 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "finely chopped cooked chicken or turkey",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "or one 6 3/4-oz can chunk-style chicken, drained"
+        },
+        {
+          "item": "celery",
+          "quantity": "1",
+          "unit": "stalk",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sweet pickle relish or chopped green pepper",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes or leaf lettuce",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine chicken, celery, green onions, lemon juice, and 1/4 teaspoon pepper. Stir in eggs, mayonnaise, pickle relish, and mustard. Cover; chill at least 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, if using tomatoes, cut a thin slice off stem end of each tomato. Using a spoon, scoop out the centers of tomatoes, leaving 1/4- to 1/2-inch-thick shells. Reserve pulp for another use. Serve salad in tomato shells or on lettuce leaves. Makes 4 main-dish servings."
+        }
+      ],
+      "notes": [
+        "Tuna Salad: Prepare as above, except substitute one 6 1/2-oz can tuna, drained and broken into chunks, for the chicken. Omit mustard.",
+        "Salmon Salad: Prepare as above, except substitute one 7 3/4-oz can salmon, drained, flaked, and skin and bones removed, for the chicken. Omit pickle relish and mustard; add 1/2 teaspoon dried dillweed with the eggs.",
+        "Ham Salad: Prepare as above, except substitute finely chopped fully cooked ham for the chopped chicken."
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "chicken",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5502 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 387,
+          "fat_g": 19.8,
+          "protein_g": 38.7,
+          "carbs_g": 13.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "avocado-shrimp-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Avocado-Shrimp Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 340",
+      "description": "Creamy shrimp salad with avocado and cream cheese dressing",
+      "servings_yield": "6 main-dish servings",
+      "prep_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "small avocado",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "halved, pitted, and cut up"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "3-oz"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "peeled and deveined shrimp",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cooked and chilled"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "18",
+          "unit": "",
+          "prep_note": "halved"
+        },
+        {
+          "item": "Swiss or Gruy\u00e8re cheese",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "cut into julienne strips"
+        },
+        {
+          "item": "torn lettuce",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For dressing, in a blender container combine avocado, buttermilk, cream cheese, lemon juice, garlic, salt, and hot sauce. Cover and blend till smooth."
+        },
+        {
+          "step": 2,
+          "text": "Arrange shrimp, tomatoes, and cheese over lettuce. If desired, sprinkle with pepper. Drizzle with dressing. Makes 6 main-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "shrimp",
+        "avocado"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5502 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 270,
+          "fat_g": 10.1,
+          "protein_g": 22.9,
+          "carbs_g": 27.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "crab-louis-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crab Louis",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 340",
+      "description": "Classic West Coast crab salad with Louis dressing",
+      "servings_yield": "4 main-dish servings",
+      "prep_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "medium head iceberg lettuce",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen crabmeat",
+          "quantity": "2",
+          "unit": "packages",
+          "prep_note": "6-oz, thawed, or two 7-oz cans crabmeat, chilled, drained, and cartilage removed"
+        },
+        {
+          "item": "large tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "Louis Dressing",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove 4 large leaves from lettuce head. Set aside. Tear remaining lettuce into bite-size pieces."
+        },
+        {
+          "step": 2,
+          "text": "On each of 4 salad plates, place one lettuce leaf. Top with torn lettuce. Reserve four large pieces of crabmeat. Flake remaining crabmeat. Arrange flaked crabmeat, tomatoes, and eggs on lettuce."
+        },
+        {
+          "step": 3,
+          "text": "Drizzle with Louis Dressing. Sprinkle with paprika. Garnish with the reserved crabmeat and lemon. Makes 4 main-dish servings."
+        },
+        {
+          "step": 4,
+          "text": "Louis Dressing: Mix 1/2 cup mayonnaise or salad dressing, 1/4 cup finely chopped green pepper, 1/4 cup finely chopped green onion, 2 tablespoons chili sauce, 1 tablespoon milk, 1/2 teaspoon lemon juice, and dash Worcestershire sauce. Beat 1/4 cup whipping cream to soft peaks. Fold whipped cream into mayonnaise mixture."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "crab",
+        "seafood",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5502 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 259,
+          "fat_g": 4.8,
+          "protein_g": 44.1,
+          "carbs_g": 5.5
+        },
+        "missing_inputs": [
+          "Not in database: Louis Dressing"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for paprika",
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "salad-nicoise-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salad Ni\u00e7oise",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 341",
+      "description": "Classic French composed salad with tuna, eggs, and vegetables",
+      "servings_yield": "4 main-dish servings",
+      "prep_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "torn romaine",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "torn Boston or Bibb lettuce",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chunk white tuna",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "6 1/2-oz (water pack), chilled"
+        },
+        {
+          "item": "frozen cut green beans",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "cooked, drained, and chilled"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "chilled and cut into wedges"
+        },
+        {
+          "item": "medium potato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cooked, chilled, and sliced"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "10",
+          "unit": "",
+          "prep_note": "halved"
+        },
+        {
+          "item": "small green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into strips"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced and separated into rings"
+        },
+        {
+          "item": "pitted ripe olives",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chilled"
+        },
+        {
+          "item": "anchovy fillets",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "drained, rinsed, and patted dry, optional"
+        },
+        {
+          "item": "Vinaigrette",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 358, or other oil and vinegar salad dressing"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toss together romaine and lettuce. Arrange greens on a large platter. Drain tuna; break tuna into chunks. Mound in center of greens."
+        },
+        {
+          "step": 2,
+          "text": "Arrange green beans, hard-cooked eggs, potato slices, cherry tomatoes, green pepper, onion, olives, and, if desired, anchovies around tuna. Drizzle with Vinaigrette. Makes 4 main-dish servings."
+        }
+      ],
+      "notes": [
+        "Salmon Salad Ni\u00e7oise: Prepare as above, except substitute one 7 3/4-oz can chunk salmon, drained, flaked, and skin and bones removed, for the tuna."
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "tuna",
+        "french",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5503 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 266,
+          "fat_g": 7.2,
+          "protein_g": 21.1,
+          "carbs_g": 34.8
+        },
+        "missing_inputs": [
+          "Not in database: torn romaine",
+          "Not in database: anchovy fillets",
+          "Not in database: Vinaigrette"
+        ],
+        "assumptions": [
+          "Used standard can size (1.0 cups) for chunk white tuna",
+          "Based on 9/12 ingredients (75% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "salmon-pasta-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salmon Pasta Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 341",
+      "description": "Creamy salmon salad with pasta and vegetables",
+      "servings_yield": "6 main-dish servings",
+      "prep_time": "25 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "corkscrew, medium shell, or wagon wheel macaroni",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "soft-style cream cheese",
+          "quantity": "1",
+          "unit": "container",
+          "prep_note": "8-oz"
+        },
+        {
+          "item": "Buttermilk Dressing",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "see recipe, page 356, or other buttermilk salad dressing"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped dill or dried dillweed",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "or 1 teaspoon"
+        },
+        {
+          "item": "salmon",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "15 1/2-oz, drained, flaked, and skin and bones removed"
+        },
+        {
+          "item": "small cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded and chopped (about 1 cup)"
+        },
+        {
+          "item": "medium tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded and chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook macaroni according to package directions. Drain. Immediately transfer hot macaroni to a large bowl. Add cream cheese and Buttermilk Dressing. Toss till the macaroni is coated and mixture is blended."
+        },
+        {
+          "step": 2,
+          "text": "Stir in milk and dill. Add salmon, cucumber, tomato, and green onions. Toss lightly to mix. Cover and chill for 4 to 24 hours. Makes 6 main-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "main-dish",
+        "salmon",
+        "pasta"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5503 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 528,
+          "fat_g": 41,
+          "protein_g": 22,
+          "carbs_g": 19,
+          "cholesterol_mg": 435,
+          "sodium_mg": 44
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gazpacho-style-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Gazpacho-Style Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 342",
+      "description": "Fresh vegetable salad inspired by Spanish gazpacho soup",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "25 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "medium tomatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut into 8 wedges"
+        },
+        {
+          "item": "medium cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "medium green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "coarsely chopped"
+        },
+        {
+          "item": "small red onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced and separated into rings"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "snipped fresh basil or dried basil",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": "or 1/2 teaspoon dried"
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl combine tomatoes, cucumber, green pepper, onion, and parsley."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, in a screw-top jar combine oil, vinegar, sugar, garlic, basil, cumin, mustard, and hot pepper sauce. Cover and shake well. Pour over vegetable mixture; toss lightly to coat."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 2 to 3 hours, stirring occasionally. Transfer to a salad bowl. Garnish with croutons and avocado slices, if desired. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "gazpacho",
+        "spanish",
+        "vegetables"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5504 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 3,
+          "protein_g": 2,
+          "carbs_g": 9,
+          "cholesterol_mg": 291,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "greens-basil-vinaigrette-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Greens with Basil Vinaigrette",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 342",
+      "description": "Mixed greens with apple, mushrooms, and pineapple-basil dressing",
+      "servings_yield": "4 side-dish servings",
+      "prep_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "torn salad greens",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "quartered, cored, and sliced"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened pineapple juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped fresh basil or dried basil",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "or 1/4 teaspoon dried, crushed"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For salad, place salad greens in a large salad bowl. Top with apple and mushroom slices."
+        },
+        {
+          "step": 2,
+          "text": "For vinaigrette, in a screw-top jar combine pineapple juice, vinegar, salad oil, basil, salt, and pepper. Cover and shake well. Drizzle vinaigrette over salad. Toss to mix. Makes 4 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "greens",
+        "basil",
+        "vinaigrette"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5504 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 5,
+          "protein_g": 2,
+          "carbs_g": 4,
+          "cholesterol_mg": 11,
+          "sodium_mg": 1
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "marinated-mushroom-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Mushroom Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 342",
+      "description": "Fresh mushrooms marinated in tangy herb dressing",
+      "servings_yield": "4 to 6 side-dish servings",
+      "prep_time": "15 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried basil",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "torn Boston or Bibb lettuce",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "halved"
+        },
+        {
+          "item": "medium carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "shredded"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For dressing, in a screw-top jar combine lemon juice, salad oil, mustard, sugar, salt, basil, and pepper. Cover and shake well."
+        },
+        {
+          "step": 2,
+          "text": "Pour dressing over mushrooms; toss to coat. Cover and chill for 4 to 24 hours."
+        },
+        {
+          "step": 3,
+          "text": "To serve, in a large salad bowl combine lettuce, cherry tomatoes, and carrots. Top with mushroom mixture. Toss to coat all with dressing. Makes 4 to 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "mushrooms",
+        "marinated"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5504 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 117,
+          "fat_g": 10,
+          "protein_g": 0,
+          "carbs_g": 8,
+          "cholesterol_mg": 83,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "spinach-garbanzo-bean-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spinach and Garbanzo Bean Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 343",
+      "description": "Fresh spinach salad with beans, vegetables, and avocado dressing",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "large avocado",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "halved, seeded, and peeled"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4 to 1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "torn fresh spinach",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "garbanzo beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "15-oz, chilled and drained"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": "halved"
+        },
+        {
+          "item": "small cucumber",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "cauliflower flowerets",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "small red onion",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "thinly sliced and separated into rings"
+        },
+        {
+          "item": "coarsely chopped walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chilled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For dressing, mash half of the avocado. Stir together mashed avocado, sour cream, lemon juice, celery salt, and hot pepper sauce. Stir in milk till desired consistency. Cover and chill while preparing salad."
+        },
+        {
+          "step": 2,
+          "text": "For salad, combine spinach, garbanzo beans, tomatoes, cucumber, cauliflower, mushrooms, onion, and walnuts. Slice one hard-cooked egg."
+        },
+        {
+          "step": 3,
+          "text": "Slice remaining avocado half; brush with additional lemon juice, if desired. Add sliced egg and avocado to salad. Top with dressing; toss to mix. Cut the remaining egg into wedges. Garnish salad with egg wedges. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "spinach",
+        "garbanzo",
+        "avocado"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5505 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 274,
+          "fat_g": 18,
+          "protein_g": 21,
+          "carbs_g": 10,
+          "cholesterol_mg": 149,
+          "sodium_mg": 98
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "marinated-vegetable-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Vegetable Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 343",
+      "description": "Colorful mixed vegetables in herb-oregano marinade",
+      "servings_yield": "8 side-dish servings",
+      "prep_time": "20 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "small cauliflower flowerets",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "bias-sliced green beans",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "cut into 1-inch pieces"
+        },
+        {
+          "item": "medium carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "coarsely chopped green pepper",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced and separated into rings"
+        },
+        {
+          "item": "small zucchini",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "halved pitted ripe olives",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook 2 cups small cauliflower flowerets, 2 cups bias-sliced green beans cut into 1-inch pieces, 2 medium carrots, thinly sliced; 1 cup coarsely chopped green pepper; and 1 medium onion, sliced and separated into rings, in a small amount of boiling water for 5 minutes or till crisp-tender."
+        },
+        {
+          "step": 2,
+          "text": "Drain; transfer to a bowl. Stir in 1 small zucchini, thinly sliced, and 1/4 cup halved pitted ripe olives."
+        },
+        {
+          "step": 3,
+          "text": "For marinade, in a screw-top jar combine 1/2 cup white wine vinegar; 1/3 cup salad oil; 2 teaspoons sugar; 1 1/2 teaspoons dried oregano, crushed; 1/2 teaspoon salt; and 1/4 teaspoon pepper. Cover and shake well. Pour marinade over hot vegetables. Cover; chill for 4 to 24 hours, stirring occasionally. Serve with a slotted spoon. Makes 8 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "vegetables",
+        "marinated"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5505 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 127,
+          "fat_g": 10,
+          "protein_g": 2,
+          "carbs_g": 9,
+          "cholesterol_mg": 23,
+          "sodium_mg": 4
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "wilted-spinach-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wilted Spinach Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 344",
+      "description": "Warm spinach salad with hot bacon dressing",
+      "servings_yield": "4 side-dish servings",
+      "prep_time": "20 minutes",
+      "cook_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "torn fresh spinach",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "bacon",
+          "quantity": "3",
+          "unit": "slices",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine spinach, mushrooms, and green onion. If desired, sprinkle with pepper. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a 12-inch skillet cook bacon till crisp. Remove bacon, reserving drippings in skillet. Crumble bacon; set aside. Stir vinegar, sugar, and 1/4 teaspoon salt into drippings. Heat to boiling; remove from heat. Add the spinach mixture. Toss till coated."
+        },
+        {
+          "step": 3,
+          "text": "Transfer to a serving dish. Top with chopped egg and bacon. Serve immediately. Makes 4 side-dish servings."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Combine spinach, mushrooms, and onion. If desired, sprinkle with pepper. Set aside. In a 2-quart casserole microwave bacon, covered, on 100% power (high) for 3 to 5 minutes or till crisp. Remove bacon, reserving drippings in casserole. Crumble bacon; set aside. Stir vinegar, sugar, and salt into drippings. Cook, covered, for 30 to 45 seconds or till boiling. Add spinach mixture. Toss till coated. Top with chopped egg and bacon. Serve immediately."
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "spinach",
+        "wilted",
+        "bacon"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5506 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 147,
+          "fat_g": 10,
+          "protein_g": 9,
+          "carbs_g": 6,
+          "cholesterol_mg": 480,
+          "sodium_mg": 83
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "creamy-cucumbers-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Cucumbers",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 344",
+      "description": "Cool cucumber slices in creamy sour cream dressing",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "15 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "dairy sour cream or plain yogurt",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar or lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried dillweed",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "large cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "halved lengthwise and thinly sliced (about 3 cups)"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced and separated into rings"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together sour cream; vinegar; sugar; dillweed, if desired; 1 teaspoon salt and dash pepper."
+        },
+        {
+          "step": 2,
+          "text": "Add cucumber and onion slices; toss to coat. Cover; chill for 2 to 48 hours, stirring often. Stir before serving. Makes 6 side-dish servings."
+        }
+      ],
+      "notes": [
+        "Marinated Cucumbers: Prepare as above, except omit sour cream and dillweed. Increase vinegar or lemon juice to 1/4 cup and sugar to 2 tablespoons. If desired, stir 1/2 teaspoon celery seed into vinegar mixture. Cover and chill for 2 hours or up to 5 days, stirring occasionally."
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "cucumber",
+        "creamy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5506 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 53,
+          "fat_g": 3.8,
+          "protein_g": 0.9,
+          "carbs_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pea-cheese-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pea-Cheese Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 345",
+      "description": "Colorful salad with peas, cheese, and hard-cooked eggs",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "20 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "frozen peas or canned peas",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "10-oz, or one 17-oz can"
+        },
+        {
+          "item": "cubed cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 ounces"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "diced pimiento or sweet red pepper",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "leaf lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook frozen peas according to package directions. Thoroughly drain the cooked or canned peas. Cool cooked peas."
+        },
+        {
+          "step": 2,
+          "text": "In a large bowl combine peas, cheese cubes, hard-cooked eggs, celery, onion, and pimiento or sweet red pepper. Combine mayonnaise or salad dressing, salt, and pepper. Add to pea mixture; toss to mix."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 4 to 24 hours. Stir mixture well. If desired, cut each tomato into 8 wedges, cutting to, but not through, the bottom. Place tomatoes atop lettuce. Fill tomatoes with pea mixture. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "peas",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5507 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 229,
+          "fat_g": 19,
+          "protein_g": 8,
+          "carbs_g": 7,
+          "cholesterol_mg": 143,
+          "sodium_mg": 8
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "24-hour-vegetable-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "24-Hour Vegetable Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 345",
+      "description": "Layered make-ahead salad with vegetables, bacon, and cheese",
+      "servings_yield": "6 to 8 side-dish servings",
+      "prep_time": "30 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "torn iceberg lettuce, romaine, leaf lettuce, Bibb lettuce, or fresh spinach",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced fresh mushrooms or broccoli flowerets, or frozen peas",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded carrot",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "bacon",
+          "quantity": "6",
+          "unit": "slices",
+          "prep_note": "crisp-cooked, drained, and crumbled (1/2 pound)"
+        },
+        {
+          "item": "shredded Swiss, American, or cheddar cheese",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "3 ounces"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried dillweed",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place lettuce or spinach in the bottom of a bowl, about 8 inches in diameter. If desired, sprinkle with salt and pepper. Layer mushrooms, broccoli, or peas atop. Then layer carrots. Arrange egg slices and bacon over vegetables."
+        },
+        {
+          "step": 2,
+          "text": "Top with 1/2 cup of the cheese and the green onions. For dressing, combine mayonnaise, lemon juice, and, if desired, dillweed. Spread dressing over top of salad, sealing to edge of bowl. Sprinkle with remaining cheese."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 2 to 24 hours. Before serving, toss to coat the vegetables. Sprinkle with additional sliced green onion, if desired. Makes 6 to 8 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "layered",
+        "make-ahead"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5507 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 357,
+          "fat_g": 32,
+          "protein_g": 11,
+          "carbs_g": 8,
+          "cholesterol_mg": 459,
+          "sodium_mg": 127
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "carrot-raisin-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Carrot-Raisin Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 346",
+      "description": "Sweet and crunchy carrot salad with raisins and apples",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "15 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "medium carrots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "shredded (1 1/2 cups)"
+        },
+        {
+          "item": "small apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped (3/4 cup)"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "toasted slivered almonds",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl combine carrots, apple, and raisins. Sprinkle with lemon juice."
+        },
+        {
+          "step": 2,
+          "text": "Add mayonnaise or salad dressing. Stir gently to coat well. Cover and chill for 2 to 24 hours. (If dressing becomes too thick, stir in a little milk.)"
+        },
+        {
+          "step": 3,
+          "text": "Before serving, sprinkle with toasted almonds, if desired. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "carrot",
+        "raisins",
+        "sweet"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5508 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 5.0,
+          "protein_g": 3.6,
+          "carbs_g": 19.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for milk (standard quantity)",
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "creamy-potato-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Potato Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 346",
+      "description": "Classic American potato salad with eggs and mustard",
+      "servings_yield": "12 side-dish servings",
+      "prep_time": "30 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "medium potatoes",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "2 pounds"
+        },
+        {
+          "item": "celery",
+          "quantity": "2",
+          "unit": "stalks",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "medium green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon-style mustard or prepared mustard",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "coarsely chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a covered saucepan cook potatoes in boiling water for 20 to 25 minutes or till just tender; drain well. Peel and cube potatoes."
+        },
+        {
+          "step": 2,
+          "text": "In a very large bowl combine celery, green pepper, onion, mayonnaise or salad dressing, vinegar, mustard, salt, and pepper. Add potatoes and eggs. Toss lightly to mix."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 6 to 24 hours. Makes 12 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "potato",
+        "classic",
+        "picnic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5508 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 3.6,
+          "protein_g": 7.8,
+          "carbs_g": 41.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "marinated-potato-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Potato Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 346",
+      "description": "Elegant potato salad with artichoke hearts and vinaigrette",
+      "servings_yield": "4 or 5 side-dish servings",
+      "prep_time": "25 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "whole tiny new potatoes",
+          "quantity": "3/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "Vinaigrette",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "see recipe, page 358, or other oil and vinegar dressing"
+        },
+        {
+          "item": "artichoke hearts",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "13 3/4-oz, drained and halved"
+        },
+        {
+          "item": "small green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into strips"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "halved"
+        },
+        {
+          "item": "small red onion",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "sliced and separated into rings"
+        },
+        {
+          "item": "pitted ripe olives",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "halved"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "kale leaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a covered saucepan cook potatoes in boiling salted water for 15 to 20 minutes or just till tender; drain well. Cut potatoes into quarters."
+        },
+        {
+          "step": 2,
+          "text": "In a large bowl pour dressing over potatoes. Add artichoke hearts, green pepper, tomatoes, onion, olives, and parsley. Toss gently to mix."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 4 to 24 hours, stirring occasionally. Transfer to a serving bowl. Garnish with kale leaf, if desired. Makes 4 or 5 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "potato",
+        "marinated",
+        "artichoke"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5508 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 204,
+          "fat_g": 10,
+          "protein_g": 4,
+          "carbs_g": 21,
+          "cholesterol_mg": 14,
+          "sodium_mg": 6
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "german-style-potato-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "German-Style Potato Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 347",
+      "description": "Warm potato salad with bacon and tangy dressing",
+      "servings_yield": "4 side-dish servings",
+      "prep_time": "25 minutes",
+      "cook_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "medium potatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "about 1 1/4 pounds"
+        },
+        {
+          "item": "bacon",
+          "quantity": "4",
+          "unit": "slices",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped; 2 slices bacon, cooked, drained, and crumbled, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a covered saucepan cook potatoes in boiling salted water for 20 to 25 minutes or till just tender; drain well. Cool slightly. Peel and slice potatoes. Set aside while preparing dressing."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, in a large skillet cook 4 slices bacon till crisp. Drain and crumble, reserving 2 tablespoons drippings. Set the bacon aside. Add chopped onion to reserved drippings. Cook till tender."
+        },
+        {
+          "step": 3,
+          "text": "Stir in flour, sugar, salt, celery seed, and pepper. Stir in water and vinegar. Cook and stir till thickened and bubbly. Stir in potatoes and bacon. Cook for 2 to 3 minutes more or till heated through, stirring gently. Season to taste."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to a serving bowl. Garnish with hard-cooked egg, parsley, or additional bacon, if desired. Makes 4 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "potato",
+        "german",
+        "warm",
+        "bacon"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5509 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 438,
+          "fat_g": 5.0,
+          "protein_g": 14.0,
+          "carbs_g": 86.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cajun-style-rice-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cajun-Style Rice Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 347",
+      "description": "Spicy rice salad with shrimp and Cajun seasonings",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "25 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "cooked rice",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "medium green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "shrimp",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "4 1/2-oz, rinsed and drained"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl gently stir together rice, green pepper, shrimp, mushrooms, hard-cooked egg, and parsley. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "For dressing, in a screw-top jar combine salad oil, vinegar, water, paprika, horseradish, onion salt, and red pepper. Cover and shake well. Pour dressing over rice mixture. Toss to coat."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill for 4 to 24 hours. Serve on lettuce leaves. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "rice",
+        "cajun",
+        "shrimp"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5509 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 138,
+          "fat_g": 2.6,
+          "protein_g": 10.8,
+          "carbs_g": 17.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Used standard can size (0.5 cups) for shrimp",
+          "Based on 14/14 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "barley-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Barley Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 347",
+      "description": "Nutty grain salad with barley, carrots, and lemon",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "20 minutes + chilling time",
+      "cook_time": "12 minutes",
+      "ingredients": [
+        {
+          "item": "chicken broth",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "quick-cooking barley",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded carrot",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh snipped basil or dried basil",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": "or 1/2 teaspoon dried, crushed"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped peanuts or cashews, or toasted slivered almonds",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine chicken broth and barley. Bring to boiling; reduce heat. Cover and simmer for 10 to 12 minutes or till liquid is absorbed."
+        },
+        {
+          "step": 2,
+          "text": "In a mixing bowl combine barley, carrot, and parsley. For dressing, in a screw-top jar combine water, salad oil, lemon juice, basil, 1/4 teaspoon salt, and 1/4 teaspoon pepper. Cover and shake well."
+        },
+        {
+          "step": 3,
+          "text": "Pour dressing over barley mixture. Toss to coat. Cover and chill for 4 to 24 hours. Stir in nuts before serving. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "barley",
+        "grain",
+        "healthy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5509 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 111,
+          "fat_g": 6.5,
+          "protein_g": 3.7,
+          "carbs_g": 10.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cinnamon-fruit-salad-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cinnamon Fruit Salad",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 349",
+      "description": "Warm fruit salad with cinnamon-apricot dressing",
+      "servings_yield": "6 side-dish servings",
+      "prep_time": "20 minutes + chilling time",
+      "ingredients": [
+        {
+          "item": "unpeeled apricot halves",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "8-oz"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "2",
+          "unit": "inches",
+          "prep_note": "broken"
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "medium oranges",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled and sliced"
+        },
+        {
+          "item": "pineapple chunks",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "8-oz (juice pack), drained"
+        },
+        {
+          "item": "strawberries",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "halved"
+        },
+        {
+          "item": "leaf lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mint sprigs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For dressing, in a blender container or food processor bowl place undrained apricots. Cover and blend or process till smooth."
+        },
+        {
+          "step": 2,
+          "text": "In a saucepan combine blended apricots, sugar, lemon juice, cinnamon, and nutmeg. Bring to boiling; reduce heat. Cover and simmer for 10 minutes. Remove cinnamon."
+        },
+        {
+          "step": 3,
+          "text": "Meanwhile, in a mixing bowl stir together orange slices and pineapple chunks. Add dressing; stirring carefully to coat. Cover and chill for several hours."
+        },
+        {
+          "step": 4,
+          "text": "Just before serving, stir in strawberry halves. Spoon fruit mixture onto 6 lettuce-lined plates. If desired, garnish with fresh mint sprigs. Makes 6 side-dish servings."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "fruit",
+        "cinnamon"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5511 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 0.5,
+          "protein_g": 1.4,
+          "carbs_g": 23.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1.5 cup can for unpeeled apricot halves",
+          "Assumed 1 unit for ground nutmeg",
+          "Used standard can size (1.5 cups) for pineapple chunks",
+          "Assumed 1 unit for leaf lettuce",
+          "Assumed 1 unit for fresh mint sprigs"
+        ]
+      }
+    },
+    {
+      "id": "fruit-filled-melons-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruit-Filled Melons",
+      "category": "salads",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 349",
+      "description": "Cantaloupe bowls filled with fresh fruit and ginger dressing",
+      "servings_yield": "4 side-dish servings",
+      "prep_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "large cantaloupes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "medium orange",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled and sectioned"
+        },
+        {
+          "item": "medium apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cored and coarsely chopped"
+        },
+        {
+          "item": "medium peach",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled, pitted and thinly sliced"
+        },
+        {
+          "item": "blueberries",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "strawberries",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "hulled and halved"
+        },
+        {
+          "item": "pineapple yogurt",
+          "quantity": "1",
+          "unit": "carton",
+          "prep_note": "8-oz"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "grated gingerroot or ground ginger",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "or 1/4 teaspoon"
+        },
+        {
+          "item": "leaf lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut each cantaloupe in half and remove the seeds. Use a melon baller to scoop out pulp, reserving shells. Set aside 2 cups melon balls; reserve remaining melon for another use. Trim a thin slice from the bottom of each melon shell."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl mix the 2 cups melon balls, orange, apple, peach, blueberries, and strawberries. For dressing, stir together yogurt, mayonnaise, brown sugar, and gingerroot."
+        },
+        {
+          "step": 3,
+          "text": "Line each melon shell with lettuce leaves. Divide fruit among melon shells. Top each with one fourth of the dressing. Makes 4 side-dish servings."
+        },
+        {
+          "step": 4,
+          "text": "Note: If desired, sprinkle with lemon juice to keep fruit from darkening (see tip, page 351)."
+        }
+      ],
+      "tags": [
+        "salad",
+        "side-dish",
+        "fruit",
+        "melon",
+        "elegant"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5511 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 126,
+          "fat_g": 0.8,
+          "protein_g": 1.6,
+          "carbs_g": 31.3
+        },
+        "missing_inputs": [
+          "Not in database: medium peach"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for leaf lettuce",
+          "Based on 10/11 ingredients (91% coverage)"
+        ]
+      }
+    }
+  ]
+}

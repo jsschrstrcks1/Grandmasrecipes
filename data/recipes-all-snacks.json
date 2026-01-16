@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "collection": "all",
+    "category": "snacks",
+    "total_recipes": 3,
+    "generated": "2026-01-16T14:00:19.370409Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "chex-party-mix-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Chex Party Mix",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Recipe Keeper app screenshot",
+      "description": "Classic savory snack mix with Chex cereals, nuts, pretzels, and seasonings.",
+      "servings_yield": "24 servings (1/2 cup each)",
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "Corn Chex cereal",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "Rice Chex cereal",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "Wheat Chex cereal",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "mixed nuts",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "bite-size pretzels",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic-flavor bite-size bagel chips",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "broken into 1-inch pieces"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "seasoned salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion powder",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large microwavable bowl, mix cereals, nuts, pretzels and bagel chips; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In small microwavable bowl, microwave butter uncovered on High about 40 seconds or until melted. Stir in seasonings."
+        },
+        {
+          "step": 3,
+          "text": "Pour over cereal mixture; stir until evenly coated."
+        },
+        {
+          "step": 4,
+          "text": "Microwave uncovered on High 5 to 6 minutes, thoroughly stirring every 2 minutes. Spread on paper towels to cool."
+        },
+        {
+          "step": 5,
+          "text": "Store in airtight container."
+        },
+        {
+          "step": 6,
+          "text": "Oven Prep: Pre-heat oven to 250\u00b0F. Put cereal and seasoning mixture into ungreased roasting pan and bake for 1 hour stirring every 15 minutes. Spread on paper towels to cool, about 15 minutes."
+        }
+      ],
+      "temperature": "250\u00b0F (120\u00b0C) for oven method",
+      "pan_size": "",
+      "notes": [
+        "Can be made in microwave or oven"
+      ],
+      "tags": [
+        "snack",
+        "party",
+        "appetizer"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4479.PNG",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4480.PNG"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 61,
+          "fat_g": 5.9,
+          "carbs_g": 1.4,
+          "protein_g": 1.4,
+          "sodium_mg": 178,
+          "fiber_g": 0.7,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "3 cups Corn Chex cereal",
+          "3 cups Rice Chex cereal",
+          "3 cups Wheat Chex cereal",
+          "1 cup bite-size pretzels",
+          "1 cup garlic-flavor bite-size bagel chips"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
+      }
+    },
+    {
+      "id": "lebanese-seven-spices",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Lebanese Seven Spices",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Lebanese Recipes cookbook",
+      "description": "A classic Lebanese spice blend with black pepper, cumin, paprika, coriander, cloves, nutmeg, cinnamon, and cardamom.",
+      "servings_yield": "2 cups",
+      "prep_time": "5 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "ground black pepper",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground coriander",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cardamom",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Making this amazing spice is quite easy so let's begin by grabbing a container for storage."
+        },
+        {
+          "step": 2,
+          "text": "Put the following ingredients into the container: cardamom, black pepper, cinnamon, cumin, nutmeg, paprika, clove, and coriander."
+        },
+        {
+          "step": 3,
+          "text": "Make sure to mix the spices together nicely."
+        },
+        {
+          "step": 4,
+          "text": "Cover the container with a good lid so no air can penetrate."
+        },
+        {
+          "step": 5,
+          "text": "Store and enjoy."
+        }
+      ],
+      "tags": [
+        "spice blend",
+        "lebanese",
+        "middle eastern",
+        "pantry"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4960.PNG",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4961.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.3,
+          "carbs_g": 1.2,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.7
+        }
+      }
+    },
+    {
+      "id": "lebanese-lemon-salad-dressing",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Lebanese Lemon Salad Dressing",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Lebanese Recipes cookbook",
+      "description": "A simple and tangy Lebanese dressing with fresh lemon juice, olive oil, garlic, and salt.",
+      "servings_yield": "1 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "fresh lemon juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mild extra-virgin olive oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground black pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "This is a very simple, but tasty dressing so let's get started by grabbing a nice sized container for storage (preferably a bowl)."
+        },
+        {
+          "step": 2,
+          "text": "Now combine your items: pepper, juiced lemon, salt, olive oil, and garlic."
+        },
+        {
+          "step": 3,
+          "text": "Take care to mix everything nicely."
+        },
+        {
+          "step": 4,
+          "text": "Serve immediately as dressing for all types of salads."
+        },
+        {
+          "step": 5,
+          "text": "Enjoy."
+        }
+      ],
+      "tags": [
+        "dressing",
+        "lebanese",
+        "middle eastern",
+        "lemon",
+        "vegetarian",
+        "vegan"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4967.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 994,
+          "fat_g": 108.3,
+          "carbs_g": 11.5,
+          "protein_g": 1.1,
+          "sodium_mg": 2480,
+          "fiber_g": 0.8,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    }
+  ]
+}

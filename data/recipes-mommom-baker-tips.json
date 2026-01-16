@@ -1,0 +1,3616 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "tips",
+    "total_recipes": 92,
+    "generated": "2026-01-16T14:00:19.676936Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "spice-herb-guide-allspice",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Allspice",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "A pea-sized fruit that grows in Mexico, Jamaica, Central and South America. Its delicate flavor resembles a blend of cloves, cinnamon and nutmeg. USES: (Whole) Pickles, meats, boiled fish, gravies. (Ground) Puddings, relishes, fruit preserves, baking.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "A warm spice with flavors of cinnamon, nutmeg, and cloves combined.",
+      "tip_text": "Use in baked goods, fruit desserts, meat dishes, and Caribbean cuisine. Pairs well with cloves and cinnamon. Use sparingly - flavor intensifies during cooking.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: pies, cakes, cookies, ham glaze, jerk seasoning, mulled cider, pickles, and marinades."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-basil",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Basil",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The dried leaves and stems of an herb grown in the United States and North Mediterranean area. Has an aromatic, leafy flavor. USES: For flavoring tomato dishes and tomato paste, turtle soup; also use in cooked peas, squash, snap beans; sprinkle chopped over lamb chops and poultry.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 5,
+          "protein_g": 2,
+          "carbs_g": 4,
+          "cholesterol_mg": 11,
+          "sodium_mg": 1
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "description": "Sweet, aromatic herb essential to Italian and Thai cuisines.",
+      "tip_text": "Add fresh basil at the end of cooking to preserve flavor. Dried basil works in long-cooked dishes. Store fresh basil at room temperature in water, not refrigerated.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: tomato dishes, pasta, pizza, pesto, salads, Thai curries, and fresh mozzarella."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-bay-leaves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bay Leaves",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The dried leaves of an evergreen grown in the eastern Mediterranean countries. Has a sweet, herbaceous floral spice note. USES: For pickling, stews, for spicing sauces and soup. Also use with a variety of meats and fish.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Aromatic leaves that add subtle depth to slow-cooked dishes.",
+      "tip_text": "Always remove bay leaves before serving - they remain tough even after cooking. Use 1-2 leaves per pot. Crush slightly to release more flavor.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: soups, stews, stocks, braises, poaching liquid, rice dishes, and pickling brines."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-caraway",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caraway",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The seed of a plant grown in the Netherlands. Flavor that combines the tastes of Anise and Dill. USES: For the cordial Kummel, baking breads; often added to sauerkraut, noodles, cheese spreads. Also adds zest to French fried potatoes, liver; canned asparagus.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Distinctive seeds with an earthy, anise-like flavor.",
+      "tip_text": "Toast caraway seeds lightly to enhance flavor. Common in German, Austrian, and Eastern European cooking. A little goes a long way.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: rye bread, sauerkraut, coleslaw, pork dishes, cheese spreads, and cabbage dishes."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-curry-powder",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Curry Powder",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "A ground blend of ginger, turmeric, fenugreek seed, as many as 16 to 20 spices. USES: For all Indian curry recipes such as lamb, chicken, and rice, eggs, vegetables, and curry puffs.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "A blend of spices including turmeric, cumin, coriander, and others.",
+      "tip_text": "Toast curry powder briefly in oil to bloom flavors before adding liquid. Blends vary widely - taste and adjust. Store away from light.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: curries, rice dishes, soups, roasted vegetables, egg salad, and marinades."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-dill",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dill",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The small, dark seed of the dill plant grown in India, having a clean, aromatic taste. USES: Dill is a predominant seasoning in pickling recipes; also adds pleasing flavor to sauerkraut, potato salad, cooked macaroni, and green apple pie.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Delicate herb with feathery leaves and a fresh, slightly tangy flavor.",
+      "tip_text": "Add fresh dill at the end of cooking - heat destroys its flavor. Dill weed (leaves) and dill seed have different flavors. Seeds are stronger.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: fish, pickles, potatoes, cucumber salads, yogurt sauces, eggs, and Scandinavian dishes."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-mace",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mace",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The dried covering around the nutmeg seed. Its flavor is similar to nutmeg, but with a fragrant, delicate difference. USES: (Whole) For pickling, fish, fish sauce, stewed fruit. (Ground) Delicious in baked goods, pastries and doughnuts, adds unusual flavor to chocolate desserts.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "The outer covering of nutmeg with a subtler, more delicate flavor.",
+      "tip_text": "Use mace when you want nutmeg flavor without the intensity. Preferred in light-colored dishes where nutmeg's dark specks are unwanted.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: b\u00e9chamel sauce, pound cake, doughnuts, fruit pies, and creamy soups."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-marjoram",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marjoram",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "An herb of the mint family, grown in France and Chile. Has a minty-sweet flavor. USES: In beverages, jellies and to flavor soups, stews, fish, sauces. Also excellent to sprinkle on lamb while roasting.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Milder cousin of oregano with sweet, floral notes.",
+      "tip_text": "More delicate than oregano - add near end of cooking. Works well in herb blends. Often used in German and French cooking.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: poultry, lamb, vegetables, stuffing, sausages, and herb butter."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-msg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "MSG (Monosodium Glutamate)",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "A vegetable protein derivative for raising the effectiveness of natural food flavors. USES: Small amounts, adjusted to individual taste, can be added to steaks, roasts, chops, seafoods, stews, soups, chowder, chop suey and cooked vegetables.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Flavor enhancer that adds umami (savory) taste to dishes.",
+      "tip_text": "Use sparingly - 1/4 to 1/2 tsp per pound of meat or quart of soup. Enhances existing flavors rather than adding its own. Naturally present in tomatoes, parmesan, and soy sauce.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: soups, stews, stir-fries, gravies, and meat dishes. Add during cooking, not at table."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-oregano",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Oregano",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "A plant of the mint family and a species of marjoram of which the dried leaves are used to make an herb seasoning. USES: An excellent flavoring for any tomato dish, especially pizza, chili con carne, and Italian specialties.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Robust herb essential to Mediterranean and Mexican cuisines.",
+      "tip_text": "Dried oregano is often more flavorful than fresh for cooked dishes. Mexican oregano differs from Mediterranean - they're not interchangeable.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: pizza, pasta sauce, Greek salads, chili, tacos, and grilled meats."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-paprika",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Paprika",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "A mild, sweet red pepper growing in Spain, Central Europe and the United States. Slightly aromatic and prized for brilliant red color. USES: A colorful garnish for pale foods, and for seasoning Chicken Paprika, Hungarian Goulash, salad dressings.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Ground dried peppers ranging from sweet to hot.",
+      "tip_text": "Sweet, hot, and smoked paprika are not interchangeable. Hungarian paprika is sweeter; Spanish (piment\u00f3n) is often smoked. Burns easily - add to oil off heat.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: goulash, deviled eggs, chicken paprikash, roasted potatoes, and as a garnish."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-poppy",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Poppy Seeds",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The seed of a flower grown in Holland. Has a rich fragrance and crunchy, nut-like flavor. USES: Excellent as a topping for breads, rolls and cookies. Also delicious in buttered noodles.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Tiny blue-black seeds with a subtle nutty flavor.",
+      "tip_text": "Toast lightly to enhance flavor. Grind for fillings in pastries. Store in freezer to prevent rancidity. Seeds are from culinary poppies, not opium poppies.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: breads, muffins, bagels, lemon poppy seed cake, noodles, and Eastern European pastries."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-rosemary",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rosemary",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "An herb (like a curved pine needle) grown in France, Spain, and Portugal, and having a sweet, fresh taste. USES: In lamb dishes, in soups, stews and to sprinkle on beef before roasting.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Woody, pine-like herb with a strong, distinctive flavor.",
+      "tip_text": "Use sparingly - rosemary can overpower. Chop finely or use whole sprigs and remove before serving. Pairs wonderfully with roasted meats.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: lamb, chicken, pork, potatoes, focaccia, and roasted vegetables."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-sage",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sage",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The leaf of a shrub grown in Greece, Yugoslavia and Albania. Flavor is camphora-ceous and minty. USES: For meat and poultry stuffing, sausages, meat loaf, hamburgers, stews and salads.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 404,
+          "fat_g": 14,
+          "protein_g": 20,
+          "carbs_g": 38,
+          "cholesterol_mg": 689,
+          "sodium_mg": 381
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "description": "Earthy, slightly peppery herb with velvety leaves.",
+      "tip_text": "A little goes a long way - sage can become bitter if overused. Fry fresh leaves in butter until crispy for an elegant garnish.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: stuffing, sausage, pork, poultry, butternut squash, and brown butter sauce."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-thyme",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Thyme",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "The leaves and stems of a shrub grown in France and Spain. Has a strong, distinctive flavor. USES: For poultry seasoning, in croquettes, fricassees and fish dishes. Also tasty on fresh sliced tomatoes.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Versatile herb with subtle, earthy flavor that complements many dishes.",
+      "tip_text": "Strip leaves from woody stems before using, or add whole sprigs to soups and remove later. Lemon thyme adds citrus notes.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: soups, stews, roasted meats, vegetables, bouquet garni, and French cuisine."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "spice-herb-guide-turmeric",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Turmeric",
+      "category": "tips",
+      "subcategory": "spice-herb-guide",
+      "content": "A root of the ginger family, grown in India, Haiti, Jamaica and Peru, having a mild, ginger-pepper flavor. USES: As a flavoring and coloring in prepared mustard and in combination with mustard as a flavoring for meats, dressings, salads.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 7.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Golden-yellow spice with earthy, slightly bitter flavor.",
+      "tip_text": "Turmeric stains everything - use caution with clothing and counters. Pairs well with black pepper which enhances absorption. Key ingredient in curry powder.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Best uses: curries, rice dishes, golden milk, mustard, pickles, and as a natural food coloring."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-chart-equivalents",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Measurement Equivalents Chart",
+      "category": "tips",
+      "subcategory": "kitchen-charts",
+      "content": "Common measurement equivalents: 3 tsp = 1 Tbsp | 2 Tbsp = 1/8 cup | 4 Tbsp = 1/4 cup | 8 Tbsp = 1/2 cup | 16 Tbsp = 1 cup | 5 Tbsp + 1 tsp = 1/3 cup | 12 Tbsp = 3/4 cup | 4 oz = 1/2 cup | 8 oz = 1 cup | 16 oz = 1 lb | 1 oz = 2 Tbsp fat or liquid | 2 cups = 1 pt | 2 pt = 1 qt | 4 qt = 1 gal | 1 jigger = 1-1/2 fl oz (3 Tbsp) | 8 to 10 egg whites = 1 cup | 12 to 14 egg yolks = 1 cup | 1 cup unwhipped cream = 2 cups whipped | 1 lb shredded American cheese = 4 cups.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 10.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Common cooking measurement conversions.",
+      "tip_text": "3 tsp = 1 tbsp | 4 tbsp = 1/4 cup | 16 tbsp = 1 cup | 2 cups = 1 pint | 4 cups = 1 quart | 4 quarts = 1 gallon | 16 oz = 1 pound | 8 fl oz = 1 cup",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Volume: 1 cup = 8 fl oz = 16 tbsp = 48 tsp = 237 ml"
+        },
+        {
+          "step": 2,
+          "text": "Weight: 1 oz = 28g, 1 lb = 454g, 1 kg = 2.2 lb"
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-chart-substitutions",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Ingredient Substitutions",
+      "category": "tips",
+      "subcategory": "kitchen-charts",
+      "content": "Substitutions for missing ingredients: 1 square chocolate (1 oz) = 3-4 Tbsp cocoa + 1/2 Tbsp fat | 1 Tbsp cornstarch (for thickening) = 2 Tbsp flour | 1 cup sifted all-purpose flour = 1 cup + 2 Tbsp sifted cake flour | 1 cup sifted cake flour = 1 cup - 2 Tbsp sifted all-purpose flour | 1 tsp baking powder = 1/4 tsp baking soda + 1/2 tsp cream of tartar | 1 cup sour milk = 1 cup sweet milk + 1 Tbsp vinegar or lemon juice (stirred) | 1 cup sweet milk = 1 cup sour milk or buttermilk + 1/2 tsp baking soda | 3/4 cup cracker crumbs = 1 cup bread crumbs | 1 cup cream, sour, heavy = 1/3 cup butter + 2/3 cup milk | 1 tsp dried herbs = 1 Tbsp fresh herbs | 1 cup whole milk = 1/2 cup evaporated milk + 1/2 cup water OR 1 cup reconstituted nonfat dry milk + 1 Tbsp butter | 2 oz compressed yeast = 3 (1/4 oz) packets dry yeast | 1 Tbsp instant minced onion = 1 small fresh onion | 1 Tbsp prepared mustard = 1 tsp dry mustard | 1/8 tsp garlic powder = 1 small pressed clove garlic | 1 lb whole dates = 1-1/2 cups pitted and cut | 3 medium bananas = 1 cup mashed | 3 cups dry corn flakes = 1 cup crushed | 10 miniature marshmallows = 1 large marshmallow.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 10.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Emergency substitutions when you're missing an ingredient.",
+      "tip_text": "1 cup buttermilk = 1 cup milk + 1 tbsp vinegar (let stand 5 min) | 1 cup cake flour = 1 cup AP flour - 2 tbsp + 2 tbsp cornstarch | 1 cup self-rising flour = 1 cup AP flour + 1\u00bd tsp baking powder + \u00bc tsp salt",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Eggs: 1 egg = \u00bc cup applesauce or mashed banana (in baking)"
+        },
+        {
+          "step": 2,
+          "text": "Butter: 1 cup = 7/8 cup oil or 1 cup margarine"
+        },
+        {
+          "step": 3,
+          "text": "Cream: 1 cup heavy cream = \u00be cup milk + \u2153 cup melted butter (not for whipping)"
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-chart-oven-temps",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "General Oven Temperature Chart",
+      "category": "tips",
+      "subcategory": "kitchen-charts",
+      "content": "Oven temperature guide: Very slow oven = 250\u00b0 to 300\u00b0F | Slow oven = 300\u00b0 to 325\u00b0F | Moderate oven = 325\u00b0 to 375\u00b0F | Medium hot oven = 375\u00b0 to 400\u00b0F | Hot oven = 400\u00b0 to 450\u00b0F | Very hot oven = 450\u00b0 to 500\u00b0F.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 10.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Common oven temperature conversions and descriptions.",
+      "tip_text": "Very slow: 250-275\u00b0F (120-135\u00b0C) | Slow: 300-325\u00b0F (150-165\u00b0C) | Moderate: 350-375\u00b0F (175-190\u00b0C) | Hot: 400-425\u00b0F (200-220\u00b0C) | Very hot: 450-475\u00b0F (230-245\u00b0C)",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Convert F to C: Subtract 32, multiply by 5, divide by 9"
+        },
+        {
+          "step": 2,
+          "text": "Convert C to F: Multiply by 9, divide by 5, add 32"
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-chart-can-sizes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Contents of Cans - Standard Sizes",
+      "category": "tips",
+      "subcategory": "kitchen-charts",
+      "content": "Standard can sizes and contents: 8 oz = 1 cup | Picnic = 1-1/4 cups | No. 300 = 1-3/4 cups | No. 1 tall = 2 cups | No. 303 = 2 cups | No. 2 = 2-1/2 cups | No. 2-1/2 = 3-1/2 cups | No. 3 = 4 cups | No. 10 = 12 to 13 cups.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 10.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "What common can size labels actually mean in volume.",
+      "tip_text": "#1 can = 1\u00bc cups | #300 can = 1\u00be cups | #303 can = 2 cups | #2 can = 2\u00bd cups | #2\u00bd can = 3\u00bd cups | #3 can = 4 cups | #10 can = 12-13 cups (institutional size)",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Common equivalents: Most vegetable/fruit cans are #303 (15 oz) = about 2 cups drained"
+        },
+        {
+          "step": 2,
+          "text": "Tomato products: 6 oz paste, 8 oz sauce, 14.5 oz diced, 28 oz crushed/whole"
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-chart-food-quantities",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Food Quantities for 25, 50, and 100 Servings",
+      "category": "tips",
+      "subcategory": "kitchen-charts",
+      "content": "Guide for cooking for crowds - selected items for 25/50/100 servings: BREAD: Rolls 4 doz/8 doz/16 doz, Bread 50 slices or 3 1-lb loaves/100 slices or 6 loaves/200 slices or 12 loaves | MEAT: Weiners (beef) 6-1/2 lb/13 lb/25 lb, Hamburger 9 lb/18 lb/35 lb, Turkey or chicken 13 lb/25-35 lb/50-75 lb | SALADS: Potato Salad 4-1/4 qt/2-1/4 gal/4-1/2 gal | VEGETABLES: Mashed Potatoes 9 lb/18-20 lb/25-35 lb, Canned Vegetables 1 #10 can/2-1/2 #10 cans/4 #10 cans | DESSERTS: Cake 1 10x12\" sheet/1 12x20\" sheet/2 12x20\" sheets | BEVERAGES: Coffee 1/2 lb + 1-1/2 gal water/1 lb + 3 gal water/2 lb + 6 gal water.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 20.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Planning guide for cooking for crowds.",
+      "tip_text": "Main dish meat (boneless): 25 svgs = 6-8 lb, 50 svgs = 13 lb, 100 svgs = 25 lb | Vegetables: 25 svgs = 4 lb, 50 svgs = 8 lb | Coffee: 25 svgs = \u00bd lb, 100 svgs = 2 lb",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Plan 4-6 oz cooked meat per person, 3-4 oz vegetables, 1-2 oz salad"
+        },
+        {
+          "step": 2,
+          "text": "For buffets, increase quantities by 15-20% due to self-service portions"
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-blender",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Easy Blender Cleaning",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "Fill blender part way with hot water; add a drop of detergent; cover and turn it on for a few seconds. Rinse and drain dry.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Quick way to clean your blender after use.",
+      "tip_text": "Fill blender halfway with warm water, add a drop of dish soap. Run on low for 30 seconds, then rinse. Cleans even under the blades without disassembly.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add warm water and dish soap immediately after use."
+        },
+        {
+          "step": 2,
+          "text": "Blend on low 30 seconds, rinse thoroughly."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-can-opener",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Can Opener Cleaning",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "Loosen grime from can openers by brushing with an old toothbrush. To clean blades, run a paper towel through the cutting process.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Keep your can opener sanitary and working smoothly.",
+      "tip_text": "Run a folded paper towel through the can opener to remove debris. For manual openers, scrub wheels with an old toothbrush and soapy water. Dry thoroughly to prevent rust.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Clean cutting wheel after each use with paper towel."
+        },
+        {
+          "step": 2,
+          "text": "Deep clean weekly with toothbrush and dish soap."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-scorched-pan",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fix a Scorched Saucepan",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "Don't panic if you accidentally scorch the inside of your favorite saucepan. Just fill the pan halfway with water and add 1/4 cup baking soda. Boil awhile until the burned portions loosen and float to the top.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Remove burnt food from pots and pans.",
+      "tip_text": "Fill pan with water, add 2 tbsp baking soda, bring to boil. Let simmer 15 minutes. The burnt food will lift off easily. For stubborn spots, make a baking soda paste and scrub.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add water to cover burnt area plus 2 tbsp baking soda."
+        },
+        {
+          "step": 2,
+          "text": "Boil 15 minutes, let cool, then scrub gently."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-double-boiler",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Double-Boiler Water Warning",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "A jar lid or a couple of marbles in the bottom half of a double-boiler will rattle when the water gets low and warn you to add more before the pan scorches or burns.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Prevent damage when using a double boiler.",
+      "tip_text": "Always add a few glass marbles or a jar lid to the bottom pot. When water gets low, the rattling noise will alert you before the pot boils dry and gets damaged.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place marbles or metal lid in bottom pot before adding water."
+        },
+        {
+          "step": 2,
+          "text": "Listen for rattling - it means water is low, add more."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-teakettle-lime",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Lime from Teakettles",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "To remove lime deposits from teakettles, fill with equal parts vinegar and water. Bring to a boil and allow to stand overnight.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Descale mineral buildup from kettles.",
+      "tip_text": "Fill kettle with equal parts water and white vinegar. Bring to boil, let sit overnight. Rinse thoroughly. For stubborn buildup, repeat or use citric acid solution.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Fill with 1:1 water and vinegar, boil, let sit overnight."
+        },
+        {
+          "step": 2,
+          "text": "Rinse several times with fresh water before use."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-fine-china",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Washing Fine China and Crystal",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "Before washing fine china and crystal, place a towel in the bottom of the sink to act as a cushion.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Safely clean delicate dishes and glassware.",
+      "tip_text": "Wash one piece at a time in warm (not hot) soapy water. Place rubber mat in sink. Never stack wet china. Air dry or use soft lint-free cloth. Avoid dishwasher for gold trim.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use rubber mat in sink to prevent chips."
+        },
+        {
+          "step": 2,
+          "text": "Wash in warm water, dry immediately with soft cloth."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-coffee-tea-stains",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Coffee and Tea Stains",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "To remove coffee or tea stains and cigarette burns from fine china, rub with a damp cloth dipped in baking soda.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Clean stained mugs and teapots.",
+      "tip_text": "Make a paste of baking soda and water, scrub stained areas. For stubborn stains, fill with water and add denture cleaning tablet overnight. Vinegar soak also works.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Scrub with baking soda paste using soft cloth."
+        },
+        {
+          "step": 2,
+          "text": "For stubborn stains, soak overnight with denture tablet or vinegar."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-stuck-food",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Stuck Food from Casseroles",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "To quickly remove food that is stuck to a casserole dish, fill with boiling water and 2 tablespoons of baking soda or salt.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Clean baked-on food from casserole dishes.",
+      "tip_text": "Fill dish with hot water and add a dryer sheet. Let soak for 1-2 hours. The fabric softener loosens baked-on food. Alternatively, use baking soda and dish soap.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak with hot water and dryer sheet for 1-2 hours."
+        },
+        {
+          "step": 2,
+          "text": "Food will wipe away easily. Wash normally after."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-clear-drain",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Clear a Clogged Drain",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "To clear a sink or basin drain, pour 1/2 cup of baking soda followed by a cup of vinegar down the drain. Let the mixture foam, then run hot water. When a drain is clogged with grease, pour a cup of salt and a cup of baking soda followed by a kettle of boiling water.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Natural way to clear slow drains.",
+      "tip_text": "Pour 1/2 cup baking soda down drain, follow with 1/2 cup vinegar. Cover and let fizz 15 minutes. Flush with boiling water. Repeat monthly to prevent buildup.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pour baking soda, then vinegar down drain."
+        },
+        {
+          "step": 2,
+          "text": "Wait 15 minutes, flush with boiling water."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-silver-polish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Polish Silver with Baking Soda",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "Silver will gleam after a rubbing with damp baking soda on a soft cloth.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Clean tarnished silver naturally.",
+      "tip_text": "Line pan with aluminum foil, add 1 tbsp baking soda and salt per quart of boiling water. Submerge silver touching foil. Tarnish transfers to foil in minutes. Rinse and buff dry.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line pan with foil, add hot water, baking soda, and salt."
+        },
+        {
+          "step": 2,
+          "text": "Submerge silver items touching foil, watch tarnish disappear."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-grater",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Grater Cleaning Tips",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "For a fast and simple clean-up of your hand grater, rub salad oil on the grater before using. A toothbrush works great to clean lemon rind, cheese, onion, etc. out of the grater before washing it.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Clean cheese and other residue from graters.",
+      "tip_text": "Grate a piece of raw potato or stale bread after cheese - it pushes out stuck bits. Clean immediately after use. Brush from back side with vegetable brush.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grate raw potato after cheese to clean holes."
+        },
+        {
+          "step": 2,
+          "text": "Brush from inside out with stiff brush, rinse immediately."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-fruit-pie-spills",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Handle Fruit Pie Juice Spills",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "While baking fruit pies, does the juice runneth over? Shake salt into the spills. They'll burn to a crisp and can be easily scraped up with a spatula.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Clean up and prevent fruit pie overflow.",
+      "tip_text": "Sprinkle salt on oven spills immediately - it prevents burning and smoking. When cool, the spill lifts off easily. Prevent spills by placing pie on foil-lined baking sheet.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sprinkle salt on spills immediately while oven is hot."
+        },
+        {
+          "step": 2,
+          "text": "When cool, burnt spill brushes away easily."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "cleanup-tip-grease-splatters",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Grease Splatters",
+      "category": "tips",
+      "subcategory": "cleanups",
+      "content": "Grease splatters or other foods that have dried on the stove, burner rings, counter appliances, etc., may be removed by applying dry baking soda to the spots, then rubbing with a damp cloth. Rinse with clear water, dry and enjoy the like-new look.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 94.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Clean grease from stovetop and backsplash.",
+      "tip_text": "Spray with mixture of 1 part vinegar, 2 parts water, add drop of dish soap. Let sit 5 minutes, wipe clean. For baked-on grease, use baking soda paste.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spray vinegar-water-soap mixture on grease."
+        },
+        {
+          "step": 2,
+          "text": "Wait 5 minutes, wipe with damp cloth."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-corn-silk",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Corn Silk Easily",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A dampened paper towel or terry cloth brushed downward on a cob of corn will remove every strand of corn silk.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get every strand of silk off fresh corn.",
+      "tip_text": "After husking, use a damp paper towel to wipe down the ear - silk clings to the wet towel. Or, use a clean vegetable brush with gentle downward strokes.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Husk corn, then wipe with damp paper towel."
+        },
+        {
+          "step": 2,
+          "text": "Remaining silk clings to the wet towel."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-corn-kernels",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Corn Kernels from Cob",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "An easy way to remove the kernels of sweet corn from the cob is to use a shoe horn. It's built just right for shearing off those kernels in a jiffy.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Cut corn off the cob without it flying everywhere.",
+      "tip_text": "Stand ear in center hole of a Bundt pan. Cut downward - kernels fall into pan, not all over counter. Or, lay cob flat on towel and cut one side at a time.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place cob in center of Bundt pan for stability."
+        },
+        {
+          "step": 2,
+          "text": "Cut downward, kernels collect in pan."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-egg-freshness",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Test Egg Freshness",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "To determine whether an egg is fresh, immerse it in a pan of cool, salted water. If it sinks, it is fresh; if it rises to the surface, throw it away. Fresh eggs' shells are rough and chalky; old eggs are smooth and shiny. To determine whether an egg is hard-boiled, spin it. If it spins, it is hard-boiled; if it wobbles and will not spin it is raw.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Check if eggs are still good to use.",
+      "tip_text": "Place egg in bowl of cold water. Fresh eggs sink and lay flat. Week-old eggs sink but stand on end. Bad eggs float - discard immediately. The air cell grows as eggs age.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Fill bowl with cold water, gently lower egg in."
+        },
+        {
+          "step": 2,
+          "text": "Sinks flat = fresh, stands up = use soon, floats = discard."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-egg-whites",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Egg White Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Egg whites won't run while boiling or poaching if you'll add a little vinegar to the water. Eggs will beat up fluffier if they are allowed to come to cool room temperature before beating. For baking, it's best to use medium to large eggs; extra large eggs may cause cakes to fall when cooled.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get the best volume when beating egg whites.",
+      "tip_text": "Room temperature whites whip to greater volume. Ensure bowl and beaters are completely grease-free - even a speck of yolk prevents proper whipping. Add cream of tartar for stability.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring eggs to room temperature before separating."
+        },
+        {
+          "step": 2,
+          "text": "Use clean, grease-free bowl. Add pinch of cream of tartar."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-hard-boiled-eggs",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peel Hard-Boiled Eggs Easily",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Egg shells can be easily removed from hard-boiled eggs if they are quickly rinsed in cold water first.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get clean peels without pockmarks.",
+      "tip_text": "Use eggs at least a week old - fresh eggs are harder to peel. Add 1 tsp baking soda to cooking water. After cooking, transfer immediately to ice bath. Roll gently to crack shell all over.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use week-old eggs, add baking soda to water."
+        },
+        {
+          "step": 2,
+          "text": "Ice bath immediately after cooking, roll to crack shell."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-omelets-meringue",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fluffier Omelets and Never-Weep Meringue",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "For fluffier omelets, add a pinch of cornstarch before beating. For a never fail, never weep meringue, add a teaspoon of cornstarch to the sugar before beating it into the egg whites. Once your meringue is baked, cut it cleanly using a knife coated with butter.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Tips for better egg dishes.",
+      "tip_text": "For fluffier omelets, add 1 tbsp water per egg instead of milk. For meringue that won't weep, add 1/2 tsp cornstarch per egg white to the sugar.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Omelets: Use water not milk for lighter texture."
+        },
+        {
+          "step": 2,
+          "text": "Meringue: Add cornstarch to sugar to prevent weeping."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-meringue-pie",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cover Meringue Pie Without Sticking",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A meringue pie may be covered with waxed paper or plastic wrap with no fear of sticking, if you'll first grease the paper with oleo.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Store meringue pies without ruining the topping.",
+      "tip_text": "Coat knife blade with butter before cutting - meringue won't stick. To cover, insert toothpicks in meringue and drape plastic wrap over picks so wrap doesn't touch surface.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use butter-coated knife to cut cleanly."
+        },
+        {
+          "step": 2,
+          "text": "Insert toothpicks, drape plastic over them."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-bacon",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bacon Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "No 'curly' bacon for breakfast when you dip it into cold water before frying. Keep bacon slices from sticking together; roll the package into a tube shape and secure with rubber bands. A quick way to separate frozen bacon: heat a spatula over a burner, slide it under each slice to separate it from the others.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Cook perfect bacon every time.",
+      "tip_text": "Start bacon in a cold pan - it renders fat more evenly and cooks more uniformly. For less shrinkage, bake at 400\u00b0F on a rack for 15-20 minutes. Save bacon grease for cooking.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Start in cold pan, cook over medium heat."
+        },
+        {
+          "step": 2,
+          "text": "Or bake at 400\u00b0F on rack for even cooking."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-cheese",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Keep Cheese Fresh",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Cheese won't harden if you'll butter the exposed edges before storing. A cloth dampened with vinegar and wrapped around cheese will also prevent drying out.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Store cheese properly to prevent mold.",
+      "tip_text": "Wrap cheese in wax paper, then loosely in plastic. Change wrapping every few days. Store in warmest part of fridge (door or vegetable drawer). Bring to room temperature before serving for best flavor.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wrap in wax paper, then plastic wrap."
+        },
+        {
+          "step": 2,
+          "text": "Store in vegetable drawer, change wrap regularly."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-meat-tips",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Meat Cooking Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Thaw fish in milk. The milk draws out the frozen taste and provides a fresh-caught flavor. When browning any piece of meat, the job will be done more quickly and effectively if the meat is very dry and the fat is very hot.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get better results when cooking meat.",
+      "tip_text": "Let meat rest after cooking (5 min for steaks, 15-20 for roasts) - juices redistribute. Always slice against the grain for tenderness. Pat dry before searing for better browning.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rest meat after cooking before slicing."
+        },
+        {
+          "step": 2,
+          "text": "Slice against the grain, pat dry before searing."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-lemon-juice",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Get More Lemon Juice",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "You'll get more juice from a lemon if you'll first warm it slightly in the oven.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Extract maximum juice from lemons.",
+      "tip_text": "Roll lemon firmly on counter before cutting - breaks down internal membranes. Microwave 10-15 seconds for even more juice. Room temperature lemons yield more than cold.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Roll firmly on counter with palm pressure."
+        },
+        {
+          "step": 2,
+          "text": "Microwave 10-15 seconds if cold."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-popcorn",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Perfect Popcorn Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Popcorn will stay fresh and you will eliminate 'old maids' if you store it in the freezer. Running ice cold water over the kernels before popping will also eliminate 'old maids'.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Pop fluffy popcorn with fewer duds.",
+      "tip_text": "Store popcorn in freezer - cold kernels have more moisture and pop bigger. Use 3 tbsp oil per 1/3 cup kernels. Heat 3 test kernels first; when they pop, add the rest.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Store kernels in freezer for bigger pops."
+        },
+        {
+          "step": 2,
+          "text": "Test 3 kernels to know when oil is ready."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-fried-chicken",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Better Fried Chicken",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "After flouring chicken, chill for one hour. The coating adheres better during frying.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Tips for crispy, juicy fried chicken.",
+      "tip_text": "Soak chicken in buttermilk 2-24 hours for tender, juicy meat. Let breaded chicken rest 15 minutes before frying - coating adheres better. Fry at 350\u00b0F, don't crowd the pan.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Buttermilk soak tenderizes and adds flavor."
+        },
+        {
+          "step": 2,
+          "text": "Rest after breading, fry at 350\u00b0F."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-bread-crumbs",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Store Bread Crumbs",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Empty salt cartons with spouts make dandy containers for bread crumbs. A funnel is used for getting the crumbs into the carton.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Make and store homemade bread crumbs.",
+      "tip_text": "Toast stale bread, pulse in food processor for fresh crumbs. Store dried crumbs in freezer indefinitely. Season with salt, garlic powder, and herbs before freezing for ready-to-use coating.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toast stale bread, pulse in food processor."
+        },
+        {
+          "step": 2,
+          "text": "Store seasoned crumbs in freezer."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-lumpy-sugar",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fix Lumpy Sugar",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A sack of lumpy sugar won't be if you place it in the refrigerator for 24 hours.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 95.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Break up clumped granulated sugar.",
+      "tip_text": "Process clumped sugar briefly in blender or food processor. To prevent: store in airtight container away from moisture. A few saltine crackers in the container absorb humidity.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pulse in blender to break up clumps."
+        },
+        {
+          "step": 2,
+          "text": "Store with saltines to absorb moisture."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-brown-sugar",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Soften Brown Sugar",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A slice of soft bread placed in the package of hardened brown sugar will soften it again in a couple of hours.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Revive hardened brown sugar.",
+      "tip_text": "Microwave with damp paper towel for 20 seconds. Or place bread slice or marshmallow in container overnight. For long-term storage, add terra cotta sugar saver.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Quick fix: Microwave with damp paper towel."
+        },
+        {
+          "step": 2,
+          "text": "Overnight: Add bread slice to container."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-potatoes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Potato Cooking Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Potatoes will bake in a hurry if they are boiled in salted water for 10 minutes before popping into a very hot oven. A leftover baked potato can be rebaked if you dip it in water and bake in a 350\u00b0 oven for about 20 minutes. A thin slice cut from each end of the potato will speed up baking time as well.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Better ways to prepare potatoes.",
+      "tip_text": "Start potatoes in cold water for even cooking. Add salt to water for fluffy mashed potatoes. For crispy roasted potatoes, parboil first, rough up edges, roast in preheated fat.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Always start in cold salted water."
+        },
+        {
+          "step": 2,
+          "text": "Parboil and rough up for crispy roasted potatoes."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-onions-no-tears",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cut Onions Without Tears",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "You'll shed less tears if you'll cut the root end off of the onion last. No more tears when peeling onions if you place them in the deep freeze for four or five minutes first.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Minimize crying when chopping onions.",
+      "tip_text": "Chill onion 30 minutes before cutting - cold reduces volatile compounds. Cut near running water or vent. Use sharp knife for clean cuts. Cut root end last - it has most irritants.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chill onion 30 minutes before cutting."
+        },
+        {
+          "step": 2,
+          "text": "Use sharp knife, cut root end last."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-peeling-fruits",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Easy Fruit Peeling",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Scalding tomatoes, peaches, or pears in boiling water before peeling makes it easier on you and the fruit \u2014 skins slip right off.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Peel fruits quickly and cleanly.",
+      "tip_text": "Blanch peaches and tomatoes 30 seconds in boiling water, then ice bath - skins slip right off. For citrus, roll firmly before peeling. Kiwi: cut in half, scoop with spoon.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blanch stone fruits 30 sec, then ice bath."
+        },
+        {
+          "step": 2,
+          "text": "Roll citrus before peeling for easier removal."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-ripen-fruit",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Ripen Fruit Faster",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Ripen green fruits by placing in a perforated plastic bag. The holes allow air movement, yet retain the odorless gas which fruits produce to promote ripening. To hasten the ripening of garden tomatoes or avocados, put them in a brown paper bag, close the bag and leave at room temperature for a few days.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Speed up ripening of fruit.",
+      "tip_text": "Place unripe fruit in paper bag with banana or apple - they emit ethylene gas which speeds ripening. Close loosely and check daily. Don't refrigerate unripe fruit.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place in paper bag with ripe banana."
+        },
+        {
+          "step": 2,
+          "text": "Close loosely, check daily for ripeness."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-pan-frying",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pan Frying Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "When pan frying always heat the pan before adding the butter or oil. A little salt sprinkled into the frying pan will prevent spattering. Meat loaf will not stick if you place a slice of bacon on the bottom of the pan.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get better results when pan frying.",
+      "tip_text": "Heat pan before adding oil, then let oil heat before adding food. Don't move food until it releases naturally - it will stick until properly seared. Use tongs, not fork.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat pan first, then add oil, then food."
+        },
+        {
+          "step": 2,
+          "text": "Don't move food until it releases naturally."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-prevent-sticking",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Prevent Food from Sticking",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Vinegar brought to a boil in a new frying pan will prevent foods from sticking. Muffins will slide right out of tin pans if the hot pan is first placed on a wet towel. No sticking to the pan when you're scalding milk if you'll first rinse the pan in cold water.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Keep food from sticking to pans and grates.",
+      "tip_text": "Hot pan + cold oil = food won't stick. For baking, use parchment paper. For grill grates, oil the food not the grate. Ensure food is dry before adding to hot oil.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat pan thoroughly before adding oil."
+        },
+        {
+          "step": 2,
+          "text": "Pat food dry, oil the food for grilling."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-broiling-smoke",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Reduce Broiling Smoke",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Add a cup of water to the bottom portion of the broiling pan before sliding into the oven, to absorb smoke and grease.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Minimize smoke when broiling.",
+      "tip_text": "Add 1/2 inch water to broiler pan - catches drips and reduces smoke. Pat food dry and trim excess fat before broiling. Keep oven door slightly ajar when broiling.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add water to broiler pan to catch drips."
+        },
+        {
+          "step": 2,
+          "text": "Trim excess fat, pat food dry."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-cooking-odors",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hide Cooking Odors",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A few teaspoons of sugar and cinnamon slowly burned on top of the stove will hide unpleasant cooking odors and make your family think you've been baking all day!",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Eliminate strong cooking smells.",
+      "tip_text": "Simmer cinnamon sticks and citrus peels in water on stovetop. Leave bowl of vinegar out overnight to absorb odors. Microwave lemon juice and water 3 minutes to freshen microwave.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Simmer cinnamon and citrus peels in water."
+        },
+        {
+          "step": 2,
+          "text": "Leave bowl of vinegar out overnight."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-prevent-boilover",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Prevent Boiling Over",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A lump of butter or a few teaspoons of cooking oil added to water when boiling rice, noodles, or spaghetti will prevent boiling over. Rubbing the inside of the cooking vessel with vegetable oil will also prevent noodles, spaghetti, and similar starches from boiling over.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Stop pots from boiling over.",
+      "tip_text": "Lay wooden spoon across pot - bubbles retreat from dry wood. Use pot larger than needed. Add small amount of butter or oil to pasta water. Watch closely when adding starchy foods.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Lay wooden spoon across pot."
+        },
+        {
+          "step": 2,
+          "text": "Use large pot, add dash of oil to pasta water."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-rice-tips",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Better Rice",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "A few drops of lemon juice added to simmering rice will keep the grains separate.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Cook perfect fluffy rice.",
+      "tip_text": "Rinse rice until water runs clear to remove excess starch. Use 1.5:1 water to rice ratio for most white rice. Don't lift lid while cooking. Let rest 5 minutes off heat before fluffing.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse rice until water runs clear."
+        },
+        {
+          "step": 2,
+          "text": "Don't lift lid, rest 5 min before fluffing."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-butter-tips",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Butter and Shortening Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Grating a stick of butter softens it quickly. Soften butter for spreading by inverting a small heated pan over the butter dish for a while. A dip of the spoon or cup into hot water before measuring shortening or butter will cause the fat to slip out easily without sticking to the spoon.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Work with fats more effectively.",
+      "tip_text": "Softened butter should give slightly when pressed but hold shape. Cube cold butter for flaky pastry. For creaming, butter should be 65-67\u00b0F. 1 stick = 8 tbsp = 1/2 cup.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Proper softened butter: yields to pressure but holds shape."
+        },
+        {
+          "step": 2,
+          "text": "Cold cubed butter makes flaky pastry."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-sticky-ingredients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Measure Sticky Ingredients",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Before measuring honey or other syrup, oil the cup with cooking oil and rinse in hot water.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Measure honey, molasses, and peanut butter cleanly.",
+      "tip_text": "Spray measuring cup with cooking spray first - sticky ingredients slide right out. Or, if recipe calls for oil, measure oil first in same cup, then sticky ingredient.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spray measuring cup with cooking spray first."
+        },
+        {
+          "step": 2,
+          "text": "Or measure oil in cup first, then sticky ingredient."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-catsup-bottle",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Empty Catsup Bottle Faster",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Catsup will flow out of the bottle evenly if you will first insert a drinking straw, push it to the bottom of the bottle, and remove.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get the last bits out of condiment bottles.",
+      "tip_text": "Insert a drinking straw to the bottom of bottle - breaks vacuum seal and lets contents flow freely. Or, store nearly empty bottles upside down. Add small splash of vinegar, shake to loosen.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Insert straw to break vacuum seal."
+        },
+        {
+          "step": 2,
+          "text": "Store upside down, add vinegar to loosen."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-unmold-gelatin",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Unmold Gelatin Easily",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "If you wet the dish on which the gelatin is to be unmolded, it can be moved around until centered.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 96.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Release gelatin molds cleanly.",
+      "tip_text": "Spray mold with cooking spray before filling. To unmold: dip mold in warm (not hot) water for 10-15 seconds. Place serving plate on top, invert quickly with one firm shake.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spray mold before filling, chill until firm."
+        },
+        {
+          "step": 2,
+          "text": "Dip in warm water 10-15 sec, invert onto plate."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-oversalted",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fix Over-Salted Food",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "If you've over-salted soup or vegetables, add cut raw potatoes and discard once they have cooked and absorbed the salt. A teaspoon each of cider vinegar and sugar added to salty soup or vegetables will also remedy the situation. If you've over-sweetened a dish, add salt. A teaspoon of cider vinegar will take care of too-sweet vegetable or main dishes.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 97.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Rescue dishes with too much salt.",
+      "tip_text": "Add acid (lemon, vinegar) or dairy (cream, yogurt) to balance salt perception. Dilute soups/stews with unsalted broth. Add a peeled potato to absorb some salt (remove before serving).",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add acid or dairy to balance saltiness."
+        },
+        {
+          "step": 2,
+          "text": "Dilute with unsalted liquid or add potato."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-gravy-tips",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Perfect Gravy Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Pale gravy may be browned by adding a bit of instant coffee straight from the jar \u2014 no bitter taste, either. If you will brown the flour well before adding to the liquid when making gravy, you will avoid pale or lumpy gravy. A different way of browning flour is to put it in a custard cup placed beside meat in the oven. Thin gravy can be thickened by adding a mixture of flour or cornstarch and water, added gradually, stirring constantly, while bringing to a boil. Lumpless gravy can be your triumph if you add a pinch of salt to the flour before mixing it with water. A small amount of baking soda added to gravy will eliminate excess grease.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 97.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Make smooth, flavorful gravy.",
+      "tip_text": "For lump-free gravy, add cold liquid to fat-flour roux, whisking constantly. Or, shake flour and cold liquid in jar before adding. Strain lumpy gravy through fine mesh sieve.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add cold liquid slowly to roux, whisking constantly."
+        },
+        {
+          "step": 2,
+          "text": "Strain through sieve if lumps form."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-remove-fat",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remove Fat from Soups",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Drop a lettuce leaf into a pot of homemade soup to absorb excess grease from the top. If time allows, the best method of removing fat is refrigeration until the fat hardens. If you put a piece of waxed paper over the top of the soup, it can be peeled right off, along with the hardened fat. Ice cubes will also eliminate the fat from soup and stew. Just drop a few into the pot and stir; the fat will cling to the cubes; discard the cubes before they melt. Or, wrap ice cubes in paper towel or cheesecloth and skim over the top.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 97.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Degrease soups and stocks easily.",
+      "tip_text": "Refrigerate soup overnight - fat solidifies on top for easy removal. For quick degreasing, drag ice cube wrapped in cheesecloth across surface - fat clings to cold. Or use fat separator.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chill overnight, lift off solidified fat."
+        },
+        {
+          "step": 2,
+          "text": "Drag ice cube across surface for quick fix."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-fresh-vegetables",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Revive Wilted Vegetables",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "If fresh vegetables are wilted or blemished, pick off the brown edges, sprinkle with cool water, wrap in paper towel and refrigerate for an hour or so. Perk up soggy lettuce by adding lemon juice to a bowl of cold water and soak for an hour in the refrigerator. Lettuce and celery keep longer if you store them in paper bags instead of cellophane. To remove the core from a head of lettuce, hit the core end once against the counter sharply. The core will loosen and pull out easily.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 97.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Restore crispness to wilted produce.",
+      "tip_text": "Soak wilted greens in ice water for 30 minutes - they'll crisp right up. For carrots/celery, trim ends and stand upright in cold water in fridge. Revive herbs the same way.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak wilted greens in ice water 30 min."
+        },
+        {
+          "step": 2,
+          "text": "Stand carrots/celery in cold water in fridge."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-whipping-cream",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Whipping Cream Tips",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Cream will whip faster and better if you'll first chill the cream, bowl, and beaters well. Soupy whipped cream can be saved by adding an egg white, then chilling thoroughly. Re-beat for a fluffy surprise! A few drops of lemon juice added to whipping cream helps it whip faster and better. Cream whipped ahead of time will not separate if you add 1/4 teaspoon unflavored gelatin per cup of cream. A dampened and folded dish towel placed under the bowl in which you are whipping cream will keep the bowl from dancing all over the counter top.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 97.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Get the best whipped cream.",
+      "tip_text": "Chill bowl and beaters in freezer 15 minutes before whipping. Use heavy cream (36%+ fat). Add sugar and vanilla after soft peaks form. Don't overbeat - it turns to butter.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chill bowl and beaters before whipping."
+        },
+        {
+          "step": 2,
+          "text": "Add sugar at soft peaks, stop before butter forms."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-hint-brown-sugar-storage",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Brown Sugar Storage",
+      "category": "tips",
+      "subcategory": "kitchen-hints",
+      "content": "Brown sugar won't harden if an apple slice is placed in the container. But if your brown sugar is already brick-hard, put your cheese-grater to work and grate the amount you need.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 97.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Keep brown sugar soft long-term.",
+      "tip_text": "Transfer to airtight container immediately after opening. Add terra cotta brown sugar saver (soak in water 15 min first) or marshmallow. Replace bread slice weekly if using that method.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Store in airtight container with sugar saver."
+        },
+        {
+          "step": 2,
+          "text": "Terra cotta, marshmallow, or bread slice all work."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-softening",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Microwave Softening Tips",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "Soften hardened brown sugar: place open box in microwave with 1 cup hot water, microwave at high for 1\u00bd to 2 minutes for \u00bd pound or 2 to 3 minutes for 1 pound. Soften hard ice cream by microwaving at 30% power (one pint 15-30 seconds, one quart 30-45 seconds, half-gallon 45 seconds to one minute). Soften one stick of butter or margarine in 1 minute at 20% power. Soften one 8-ounce package of cream cheese at 30% power for 2 to 2\u00bd minutes (3-ounce package 1\u00bd to 2 minutes).",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Use microwave to soften foods quickly.",
+      "tip_text": "Soften butter: 10 sec on 30% power. Brown sugar: cover with damp paper towel, 20 sec. Ice cream: 10-15 sec for scoopable. Cream cheese: 15 sec on 50% power.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter: 10 sec at 30% power, rotate if needed."
+        },
+        {
+          "step": 2,
+          "text": "Brown sugar: damp towel, 20 sec, check and repeat."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-thawing",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Microwave Thawing Tips",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "Thaw frozen orange juice right in the container. Remove the top metal lid. Place the opened container in the microwave and heat on high power 30 seconds for 6 ounces and 45 seconds for 12 ounces. Thaw whipped topping (4\u00bd ounce carton) in 1 minute on the defrost setting. Whipped topping should be slightly firm in the center but will blend well when stirred. Do not overthaw!",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Safely defrost food in the microwave.",
+      "tip_text": "Use defrost setting or 30% power. Turn/rearrange food halfway through. Remove packaging and place on microwave-safe dish. Cook immediately after thawing - don't refreeze.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use defrost or 30% power, turn food halfway."
+        },
+        {
+          "step": 2,
+          "text": "Cook immediately after thawing."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-reheating",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Microwave Reheating and Refreshing",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "Soften jello that has set too hard by heating on a low power setting for a very short time. Dissolve gelatin in the microwave: measure liquid in a measuring cup, add jello and heat. There will be less stirring to dissolve the gelatin. Heat hot packs in a microwave oven (a wet finger tip towel will take about 25 seconds, depending on temperature of water used). To scald milk, cook 1 cup milk for 2-2\u00bd minutes, stirring once each minute. To make dry bread crumbs, cut 6 slices bread into \u00bd-inch cubes, microwave in 3-quart casserole 6-7 minutes or until dry, stirring after 3 minutes. Crush in blender. Refresh stale potato chips, crackers or other snacks by putting a plateful in the microwave oven for about 30-45 seconds. Let stand for 1 minute to crisp. Cereals can also be crisped.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Reheat food without drying it out.",
+      "tip_text": "Cover food with damp paper towel to add moisture. Heat in 30 sec intervals, stirring between. Arrange thicker portions toward outside of plate. Add splash of water to rice/pasta.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover with damp paper towel, heat in intervals."
+        },
+        {
+          "step": 2,
+          "text": "Add water to rice/pasta, stir between heating."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-cooking",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Microwave Cooking Tips",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "Melt almond bark for candy or dipping pretzels (one pound takes about 2 minutes, stirring twice). If it hardens while dipping candy, microwave for a few seconds longer. Nuts will be easier to shell if you place 2 cups of nuts in a 1-quart casserole with 1 cup of water. Cook for 4 to 5 minutes and the nut meats will slip out whole after cracking the shell. When thawing hamburger meat, the outside will many times begin cooking before the meat is completely thawed. Defrost for 3 minutes, then remove the outside portions that have de-frosted. Continue defrosting the hamburger, taking off the defrosted outside portions at short intervals. To drain the fat from hamburger while it is cooking in the microwave oven (one pound cooks in 5 minutes on high), cook it in a plastic colander placed inside a casserole dish. Cubed meat and chopped vegetables will cook more evenly if cut uniformly.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Cook foods effectively in the microwave.",
+      "tip_text": "Pierce skins of potatoes, squash, egg yolks. Arrange foods with thicker parts toward outside. Cover with vented plastic wrap or lid. Let stand 2-3 min after cooking - it continues.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pierce skins, arrange thick parts outside."
+        },
+        {
+          "step": 2,
+          "text": "Cover with vented lid, let stand after cooking."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-baking",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Microwave Baking Tips",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "When baking large cakes, brownies, or moist bars, place a juice glass in the center of the baking dish to prevent a soggy middle and ensure uniform baking throughout. Since cakes and quick breads rise higher in a microwave oven, fill pans just half full of batter. Using a round dish instead of a square one eliminates overcooked corners in baking cakes. When preparing chicken in a dish, place meaty pieces around the edges and the bony pieces in the center of the dish. Shaping meatloaf into a ring eliminates undercooked center (a glass set in the center of a dish can serve as the mold). A crusty coating of chopped walnuts surrounding many microwave-cooked cakes and quick breads enhances the looks and eating quality. Sprinkle a layer of medium finely chopped walnuts evenly onto the bottom and sides of a ring pan or Bundt cake pan. Pour in batter and microwave as recipe directs.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Tips for baking in the microwave.",
+      "tip_text": "Microwave baked goods don't brown - dust with cinnamon sugar or cocoa. Use round containers without corners. Fill only 1/2 full - they rise more. Rotate during cooking.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use round dishes, fill half full."
+        },
+        {
+          "step": 2,
+          "text": "Items won't brown - use toppings for color."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-food-safety",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Microwave Food Safety Tips",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "Treat fresh meat cuts for 15 to 20 seconds on high in the microwave oven. This cuts down on meat-spoiling types of bacteria. Do not salt foods on the surface as it causes dehydration (meats and vegetables) and toughens the food. Salt the meat after you remove it from the oven unless the recipe calls for using salt in the mixture.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Safe microwave practices.",
+      "tip_text": "Never microwave: metal, foil, sealed containers, eggs in shell. Use microwave-safe containers only. Stir and check temperature in multiple spots. Let stand time completes cooking.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "No metal, no sealed containers, no eggs in shell."
+        },
+        {
+          "step": 2,
+          "text": "Stir food, check temperature in multiple spots."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "microwave-hint-misc",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "More Microwave Tips",
+      "category": "tips",
+      "subcategory": "microwave-hints",
+      "content": "For stamp collectors: place a few drops of water on stamp to be removed from envelope. Heat in the microwave for 20 seconds and the stamp will come right off. Heat left-over custard and use it as frosting for a cake. Melt marshmallow creme in the microwave oven. Half of a 7-ounce jar will melt in 35-40 seconds on high. Stir to blend. Toast coconut in the microwave. Watch closely as it browns quickly once it begins to brown. Spread \u00bd cup coconut in a pie plate and cook for 3-4 minutes, stirring every 30 seconds after 2 minutes. Place a cake dish up on another dish or on a roasting rack if you have difficulty getting the bottom of the cake done. This also works for potatoes and other foods that don't quite get done on the bottom.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 85.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Additional microwave tricks.",
+      "tip_text": "Freshen stale chips/crackers: 30 sec, let stand 1 min. Get more juice from citrus: 15-20 sec before squeezing. Peel garlic: 15 sec, skins slip off. Dry herbs: 30 sec between paper towels.",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Freshen chips 30 sec, extract citrus juice 15-20 sec."
+        },
+        {
+          "step": 2,
+          "text": "Peel garlic easily after 15 sec, dry herbs between paper towels."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-meats",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Meats",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Beef calories per serving: Ground beef (lean, 10% fat, broiled) 4 oz = 248 | Sirloin steak (lean only, broiled) 4 oz = 245 | T-bone steak (lean only, broiled) 4 oz = 253 | Chuck roast (lean only, pot-roasted) 4 oz = 219 | Beef corned (medium-fat) 4 oz = 422. Pork: Boston butt (lean only, roasted) 4 oz = 279 | Pork chop (lean only, broiled) 4 oz = 308 | Pork loin (lean only, roasted) 4 oz = 288. Lamb: Chop (lean only, broiled) 2-3 oz = 122 | Leg (lean and fat, roasted, boneless) 4 oz = 317 | Shoulder (lean only, roasted) 4 oz = 233.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 99.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for common meat portions.",
+      "tip_text": "Per 3 oz cooked: Beef (lean) 180 cal | Pork (lean) 165 cal | Lamb 175 cal | Veal 150 cal | Ground beef (85%) 215 cal | Bacon (3 slices) 120 cal | Hot dog 150 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Lean meats: ~150-180 cal per 3 oz cooked portion."
+        },
+        {
+          "step": 2,
+          "text": "Higher fat cuts can be 250+ cal per 3 oz."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-poultry",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Poultry",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Chicken calories: Broiled (meat only) 4 oz = 154 | Roasted (dark meat, no skin) 4 oz = 207 | Roasted (light meat, no skin) 4 oz = 170 | Canned with beans 1/2 cup = 179 | Canned without beans 1/2 cup = 255. Turkey: Dark meat (roasted) 4 oz = 230 | Light meat (roasted) 4 oz = 200 | Canned (boned) 1/2 cup = 207. Duck (roasted, meat only) 4 oz = 352.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for chicken and turkey.",
+      "tip_text": "Per 3 oz cooked: Chicken breast (skinless) 140 cal | Chicken thigh (skinless) 180 cal | With skin add 50 cal | Turkey breast 125 cal | Ground turkey (93%) 170 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Skinless breast is leanest: ~140 cal per 3 oz."
+        },
+        {
+          "step": 2,
+          "text": "Skin adds about 50 calories per serving."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-seafood",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Seafood",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Fish calories: Cod (broiled with butter) 4 oz = 192 | Fish sticks (breaded) 5 sticks = 276 | Flounder (baked) 4 oz = 226 | Haddock (fried, breaded) 4 oz = 187 | Halibut (broiled with butter) 4 oz = 254 | Salmon (smoked) 4 oz = 254 | Tuna (canned in oil, drained) 1/2 cup = 158 | Tuna (canned in water) 4 oz = 144. Shellfish: Shrimp (fresh, breaded, fried) 4 oz = 255 | Shrimp (canned, drained) 10 medium = 37 | Crabmeat 3 oz = 85 | Lobster (cooked in shell, whole) 1 lb = 112 | Oysters (raw) 1 average = 65.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 99.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for fish and shellfish.",
+      "tip_text": "Per 3 oz cooked: Cod/Tilapia 90 cal | Salmon 175 cal | Tuna (canned in water) 100 cal | Shrimp 85 cal | Crab 80 cal | Lobster 80 cal | Scallops 95 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "White fish is lowest: 80-100 cal per 3 oz."
+        },
+        {
+          "step": 2,
+          "text": "Fatty fish (salmon) higher but has healthy omega-3s."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-dairy",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Dairy Products",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Milk calories: Whole (3.5% fat) 1 cup = 159 | 2% fat 1 cup = 145 | Skim 1 cup = 88 | Buttermilk (cultured) 1 cup = 88 | Evaporated (unsweetened) 1 cup = 345 | Condensed (sweetened) 1 cup = 982. Cream: Half and half 1/2 cup = 162 | Sour 1 tbsp = 26 | Whipping (heavy, unwhipped) 1/2 cup = 358. Cheese: American (processed) 1 oz = 105 | Cheddar (domestic) 1 oz = 113 | Cottage (creamed, small curd) 1/2 cup = 112 | Cream cheese 1 oz = 103 | Mozzarella (part-skim) 1 oz = 79 | Swiss 1 oz = 104.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 101.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for milk, cheese, and dairy.",
+      "tip_text": "Milk (1 cup): Whole 150 cal | 2% 120 cal | Skim 80 cal | Cheese (1 oz): Cheddar 115 cal | Mozzarella 85 cal | Cottage (1/2 cup) 110 cal | Yogurt (6 oz): Plain 100, Fruit 150 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Choose skim milk for lowest calories."
+        },
+        {
+          "step": 2,
+          "text": "Hard cheese: ~100-115 cal per oz; soft cheese less."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-eggs",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Eggs",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Egg calories: Boiled or poached (1 large egg) = 79 | Fried with 1 tsp butter (1 large egg) = 99 | Scrambled with 1 tsp butter (1 large egg) = 111 | Eggnog (8% fat, Borden's) 1/2 cup = 171. Egg substitutes available for lower calorie cooking.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for eggs prepared various ways.",
+      "tip_text": "Large egg: 70 cal | Egg white only: 17 cal | Egg yolk only: 55 cal | Scrambled (2 eggs with butter): 200 cal | Hard boiled: 70 cal | Fried in butter: 90 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Egg whites are low-cal protein option."
+        },
+        {
+          "step": 2,
+          "text": "Preparation method significantly affects calories."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-breads-grains",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Breads & Grains",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Bread calories per slice: White (firm-crumb type) = 53 | Whole wheat (firm-crumb type) = 56 | Rye (light) = 60 | Pumpernickel = 79 | French = 44 | Italian = 28. Rolls: Frankfurter or hamburger (1 roll) = 119 | Hard (1 roll) = 78. Cereals: All-bran 1 cup = 192 | Bran flakes (40%) 1 cup = 106 | Corn flakes 1 cup = 97 | Oatmeal (cooked) 1 cup = 132 | Rice (puffed) 1 cup = 60. Rice: White (long grain, cooked) 1/2 cup = 93 | Brown (long grain, cooked) 1/2 cup = 116.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 101.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 104.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for bread, rice, and pasta.",
+      "tip_text": "Bread (1 slice): White 70 cal | Wheat 80 cal | Rice (1 cup cooked): White 200 cal | Brown 215 cal | Pasta (1 cup cooked) 200 cal | Oatmeal (1 cup) 150 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whole grains have similar calories but more fiber."
+        },
+        {
+          "step": 2,
+          "text": "1 cup cooked grains/pasta \u2248 200 calories."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-fruits",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Fruits",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Fresh fruit calories: Apple (with skin, 2 1/2\" diameter) = 61 | Banana (1 average) = 118 | Cantaloupe (1/2 melon, 5\" diameter) = 58 | Grapes (fresh, 10) = 18 | Orange (1 fresh) = 71 | Peach (fresh, 1 average) = 38 | Pear (fresh, Bartlett) = 100 | Strawberries (fresh, whole) 1/2 cup = 27 | Watermelon (1 wedge, 4\" x 8\") = 322. Canned fruit: Peaches (in juice, 2 halves with 2 tbsp juice) = 45 | Pineapple (chunks, canned) 1/2 cup = 48 | Applesauce (unsweetened) 1/2 cup = 50.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 99.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 101.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for common fruits.",
+      "tip_text": "Apple (medium) 95 cal | Banana 105 cal | Orange 60 cal | Grapes (1 cup) 60 cal | Strawberries (1 cup) 50 cal | Watermelon (1 cup) 45 cal | Avocado (1/2) 160 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Most fruits: 50-100 cal per serving."
+        },
+        {
+          "step": 2,
+          "text": "Avocado is high-cal but has healthy fats."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-vegetables",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Vegetables",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Vegetable calories (cooked unless noted): Asparagus (6 spears) = 25 | Beans (green, snap, fresh) 1/2 cup = 16 | Broccoli (raw, 1 large spear) = 32 | Cabbage (raw, chopped) 1/2 cup = 14 | Carrots (1 average) = 21 | Cauliflower (raw, flowerbuds) 1/2 cup = 12 | Celery (raw, 1 outer stalk) = 7 | Corn (1 ear, 5\" x 1 3/4\") = 70 | Lettuce (iceberg, 1 leaf) = 3 | Mushrooms (raw, sliced) 1/2 cup = 10 | Onions (raw, 1 average) = 40 | Peas (green, fresh) 1/2 cup = 63 | Potatoes (baked, in skin) 1 medium = 145 | Spinach (boiled, drained) 1/2 cup = 21 | Tomatoes (raw, 1 average) = 20.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 99.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 101.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 104.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for common vegetables.",
+      "tip_text": "Per cup raw: Lettuce 5 cal | Broccoli 30 cal | Carrots 50 cal | Corn 125 cal | Peas 120 cal | Potato (1 medium baked) 160 cal | Sweet potato 105 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Non-starchy veggies: 5-50 cal per cup."
+        },
+        {
+          "step": 2,
+          "text": "Starchy vegetables higher: 100-160 cal."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-fats-oils",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Fats & Oils",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Fats and oils calories: Butter (1 tbsp) = 100 | Butter (whipped, 1 tbsp) = 67 | Margarine (1 tbsp) = 102 | Oil (cooking or salad, corn, safflower, sesame, soy) 1 tbsp = 120 | Olive or peanut oil (1 tbsp) = 119. Salad dressings: Blue cheese (1 tbsp) = 76 | French (1 tbsp) = 66 | Italian (1 tbsp) = 83 | Mayonnaise (1 tbsp) = 101 | Russian (1 tbsp) = 74 | Thousand Island (1 tbsp) = 80.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 99.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 104.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for cooking fats and oils.",
+      "tip_text": "All oils: 120 cal per tbsp | Butter: 100 cal per tbsp | Margarine: 100 cal per tbsp | Mayonnaise: 100 cal per tbsp | Cream cheese: 50 cal per tbsp | Sour cream: 25 cal per tbsp",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "All fats are calorie-dense: ~100-120 cal per tbsp."
+        },
+        {
+          "step": 2,
+          "text": "Choose unsaturated fats for heart health."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-sweets-desserts",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Sweets & Desserts",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Cake calories per slice: Angel food (1/12 of cake) = 269 | Devil's food (with chocolate icing, 3 1/2 oz) = 369 | Pound cake (1/17 of loaf) = 142 | Coffee cake (3 1/2 oz) = 322. Cookies: Chocolate chip (1 piece, 2 1/4\" diameter) = 50 | Brownie (1 piece, 2\" square) = 114 | Oatmeal with raisins (1 piece, 2 3/4\" diameter) = 59. Ice cream: Hardened (rich, 16% fat) 1/2 cup = 165 | Soft-serve (frozen custard) 1/2 cup = 167. Candy: Chocolate (milk) 1 oz = 147 | Fudge (chocolate) 1 oz = 121 | Hard candy 1 oz = 109.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 101.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for desserts and sweets.",
+      "tip_text": "Sugar (1 tbsp) 50 cal | Honey (1 tbsp) 65 cal | Chocolate (1 oz) 150 cal | Ice cream (1/2 cup) 140 cal | Cake (1 slice) 250-400 cal | Cookie (1 medium) 50-100 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sweets are calorie-dense, enjoy in moderation."
+        },
+        {
+          "step": 2,
+          "text": "Portion control is key for desserts."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-beverages",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Beverages",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Beverage calories: Coffee (black) = 2 | Tea (plain) = 2 | Cola (1 cup) = 96 | Cream soda (1 cup) = 96 | Fruit flavored (citrus, cherry, grape) 1 cup = 105 | Root beer (1 cup) = 97 | Apple juice (canned or bottled) 1 cup = 117 | Cranberry juice cocktail (1 cup) = 164 | Grapefruit juice (canned, sweetened) 1 cup = 133 | Orange juice (fresh) 1 cup = 112 | Tomato juice (canned or bottled) 1 cup = 46. Beer (12 oz) = 151 | Wine (table, 3.5 oz) = 87.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 100.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 104.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for drinks.",
+      "tip_text": "Coffee/Tea (plain) 0-5 cal | Soda (12 oz) 140 cal | Orange juice (8 oz) 110 cal | Beer (12 oz) 150 cal | Wine (5 oz) 125 cal | Cocktails 150-300 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Plain coffee/tea are calorie-free."
+        },
+        {
+          "step": 2,
+          "text": "Liquid calories add up quickly - drink water!"
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "calorie-counter-soups",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calorie Counter - Soups (condensed, diluted with water)",
+      "category": "tips",
+      "subcategory": "calorie-counter",
+      "content": "Soup calories per cup (condensed, diluted with equal part water): Asparagus (cream of) = 65 | Beans with pork = 168 | Beef broth/bouillon/consomme = 31 | Beef noodle = 67 | Celery (cream of) = 86 | Chicken consomme = 22 | Chicken (cream of) = 94 | Chicken gumbo = 55 | Chicken noodle = 62 | Chicken vegetable = 76 | Chicken with rice = 48 | Clam chowder (Manhattan type) = 81 | Minestrone = 105 | Mushroom (cream of) = 134 | Onion = 65 | Pea (split) = 145 | Tomato = 88 | Vegetable beef = 78 | Vegetarian vegetable = 78.",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Moms Recipes - 104.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      },
+      "description": "Calorie reference for canned soups.",
+      "tip_text": "Per cup prepared: Chicken noodle 75 cal | Tomato 90 cal | Cream of mushroom 130 cal | Vegetable beef 80 cal | Minestrone 80 cal | Cream soups generally 100-150 cal",
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Broth-based soups: 75-100 cal per cup."
+        },
+        {
+          "step": 2,
+          "text": "Cream-based soups: 100-150 cal per cup."
+        }
+      ],
+      "ingredients": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-tip-how-to-knead-bread",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Kitchen Tip: How to Knead Bread",
+      "category": "tips",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens New Cookbook",
+      "description": "Learn the proper technique for kneading bread dough.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Kneading should be done on a lightly floured surface, a board or counter top; add a little more flour if the dough remains sticky. Knead 8 to 10 minutes until smooth and elastic; it should have tiny air bubbles under the surface."
+        },
+        {
+          "step": 2,
+          "text": "Turn the dough on to a lightly floured board or counter top. With lightly floured hands, shape the dough into a ball and fold it toward you."
+        },
+        {
+          "step": 3,
+          "text": "With the heels of hands, using a rolling motion, push it away. Give dough a quarter of a turn."
+        },
+        {
+          "step": 4,
+          "text": "Knead 8 to 10 minutes; dough should no longer stick and will be ready for second rising or shaping, as recipe directs."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "tips",
+        "bread",
+        "baking",
+        "technique"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5171 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-tip-judging-ground-meat-doneness",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Kitchen Tip: Judging Ground Meat Doneness",
+      "category": "tips",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens New Cookbook, page 244",
+      "description": "Safety guidelines for cooking ground meat to proper doneness.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For safety's sake, we recommend cooking all meat loaves and meatloaf-type ground-meat patties to 170\u00b0 or till no pink remains."
+        },
+        {
+          "step": 2,
+          "text": "Ground-meat patties, with no other ingredients added, however, may be cooked till their centers are brownish pink (medium doneness)."
+        }
+      ],
+      "temperature": "170\u00b0F internal",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "tips",
+        "meat",
+        "safety",
+        "cooking"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5404 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      }
+    },
+    {
+      "id": "kitchen-tip-candy-stages",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Kitchen Tip: Candy Temperature Stages",
+      "category": "tips",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens New Cookbook, page 93",
+      "description": "Guide to the different temperature stages when making candy.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thread stage (230\u00b0 to 233\u00b0): When a teaspoon is dipped into the hot mixture, then removed, the candy falls off the spoon in a fine, thin thread."
+        },
+        {
+          "step": 2,
+          "text": "Soft-ball stage (234\u00b0 to 240\u00b0): When the ball of candy is removed from the cold water, the candy instantly flattens and runs between your fingers."
+        },
+        {
+          "step": 3,
+          "text": "Firm-ball stage (244\u00b0 to 248\u00b0): When the ball of candy is removed from the water, it is firm enough to hold its shape, but quickly flattens at room temperature."
+        },
+        {
+          "step": 4,
+          "text": "Hard-ball stage (250\u00b0 to 266\u00b0): When the ball of candy is removed from the water, it doesn't flatten until pressed."
+        },
+        {
+          "step": 5,
+          "text": "Soft-crack stage (270\u00b0 to 290\u00b0): When dropped into water, the candy separates into hard, but pliable and elastic, threads."
+        },
+        {
+          "step": 6,
+          "text": "Hard-crack stage (295\u00b0 to 310\u00b0): When dropped into water, the candy separates into hard, brittle threads that snap easily."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Always use a candy thermometer for best results",
+        "The water test is a backup method if you don't own a candy thermometer"
+      ],
+      "tags": [
+        "tips",
+        "candy",
+        "temperature",
+        "baking"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5257 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "not_applicable",
+        "per_serving": {},
+        "missing_inputs": [],
+        "assumptions": [
+          "Informational content without specific recipe"
+        ]
+      }
+    }
+  ]
+}

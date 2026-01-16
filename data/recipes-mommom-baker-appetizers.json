@@ -1,0 +1,6137 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "appetizers",
+    "total_recipes": 58,
+    "generated": "2026-01-16T14:00:19.511341Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "caramel-apple-dip-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Apple Dip",
+      "category": "appetizers",
+      "attribution": "Rosemary Weis",
+      "source_note": "Church cookbook",
+      "description": "A creamy caramel dip for apples and fruit made with milk powder and caramel topping.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "nonfat dry milk powder",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "softened butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "caramel ice cream topping",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place milk powder, sugar, butter, salt, and boiling water in blender. Blend until consistency is even and no sugar remains on sides of blender container."
+        },
+        {
+          "step": 2,
+          "text": "Add caramel topping and mix until well blended. Store in covered container."
+        },
+        {
+          "step": 3,
+          "text": "Dip apple slices, marshmallows, pineapple, or bananas, etc. into caramel mixture and eat. Chopped peanuts may be added, or used as a second dip on the side."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "dip",
+        "appetizer",
+        "fruit",
+        "caramel",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "layered-bean-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Layered Bean Dip",
+      "category": "appetizers",
+      "attribution": "Marsha Sayre",
+      "source_note": "Church cookbook",
+      "description": "A layered Tex-Mex dip with beans, taco seasoning, sour cream, and melted cheese.",
+      "servings_yield": "",
+      "prep_time": "15 minutes",
+      "cook_time": "15-20 minutes",
+      "total_time": "30-35 minutes",
+      "ingredients": [
+        {
+          "item": "bean dip",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "taco seasoning mix",
+          "quantity": "1/2",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mashed avocado",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Monterey Jack cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "Cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "diced tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spread bean dip around bottom and sides of pie plate."
+        },
+        {
+          "step": 2,
+          "text": "Mix together taco seasoning, sour cream, and mayonnaise; spread over beans."
+        },
+        {
+          "step": 3,
+          "text": "Spread mashed avocado over that."
+        },
+        {
+          "step": 4,
+          "text": "Sprinkle with chopped onion and then cheeses."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle with tomato and olives."
+        },
+        {
+          "step": 6,
+          "text": "Heat at 350\u00b0F until cheese melts, about 15 to 20 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Serve hot from oven with taco or corn chips."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "pie plate",
+      "notes": [],
+      "tags": [
+        "dip",
+        "appetizer",
+        "mexican",
+        "party",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "can size for bean dip"
+        ]
+      }
+    },
+    {
+      "id": "nacho-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nacho Dip",
+      "category": "appetizers",
+      "attribution": "Janice Jones",
+      "source_note": "Church cookbook",
+      "description": "A hearty ground beef and Velveeta cheese dip served with nacho chips.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ground beef (hamburger)",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Velveeta cheese",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "cream of mushroom soup",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "picante sauce",
+          "quantity": "1",
+          "unit": "small jar",
+          "prep_note": "more or less, to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown hamburger and onion; drain fat."
+        },
+        {
+          "step": 2,
+          "text": "Melt cheese; add soup and picante sauce."
+        },
+        {
+          "step": 3,
+          "text": "Mix. Add meat mixture; mix well."
+        },
+        {
+          "step": 4,
+          "text": "Serve with plain nacho chips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "You may want to melt cheese in microwave, then transfer to a slow cooker to keep the cheese warm."
+      ],
+      "tags": [
+        "dip",
+        "appetizer",
+        "beef",
+        "cheese",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "can size for soup",
+          "jar size for picante"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-crabmeat-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp-Crabmeat Dip",
+      "category": "appetizers",
+      "attribution": "Fay Doorneweerd",
+      "source_note": "Church cookbook",
+      "description": "An elegant seafood dip with cream cheese, shrimp, and crabmeat topped with Parmesan.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "8 oz pkg",
+          "prep_note": "softened"
+        },
+        {
+          "item": "seafood sauce",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "tiny cleaned shrimp",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flaked (frozen) crabmeat",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add enough milk or cream to cream cheese for good spreading consistency."
+        },
+        {
+          "step": 2,
+          "text": "Spread on large round plate."
+        },
+        {
+          "step": 3,
+          "text": "Spread seafood sauce over cheese."
+        },
+        {
+          "step": 4,
+          "text": "Top with shrimp and crabmeat."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle Parmesan cheese on and garnish with fresh parsley."
+        },
+        {
+          "step": 6,
+          "text": "Serve with crackers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "dip",
+        "appetizer",
+        "seafood",
+        "shrimp",
+        "crab",
+        "party"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          {
+            "field": "ingredients",
+            "issue": "Shrimp, crabmeat, and Parmesan quantities not specified",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "shrimp quantity",
+          "crabmeat quantity",
+          "Parmesan quantity"
+        ]
+      }
+    },
+    {
+      "id": "pineapple-cheese-ball",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pineapple Cheese Ball",
+      "category": "appetizers",
+      "attribution": "Dene Deweerd",
+      "source_note": "Church cookbook",
+      "description": "A sweet and savory cheese ball with crushed pineapple, rolled in chopped pecans.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "8 oz pkg",
+          "prep_note": "softened"
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "8 1/2 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "divided"
+        },
+        {
+          "item": "finely chopped green pepper",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "seasoned salt",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat cream cheese until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Drain pineapple and add along with 1 cup pecans, green pepper, onions, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Shape into ball and roll in remaining nuts."
+        },
+        {
+          "step": 4,
+          "text": "Wrap in foil and refrigerate until well chilled."
+        },
+        {
+          "step": 5,
+          "text": "Serve with assorted crackers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Also shown: Soften cream cheese; gradually stir in crushed pineapple, 1 cup of pecans, green pepper, onion, and salt. Chill well. Form into ball and roll in 1 cup pecans. Garnish with cherries and parsley."
+      ],
+      "tags": [
+        "appetizer",
+        "cheese-ball",
+        "pineapple",
+        "party",
+        "pecans"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-cheddar-english-muffins",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp and Cheddar Cheese on English Muffins",
+      "category": "appetizers",
+      "attribution": "Ellen Acquaro",
+      "source_note": "Church cookbook",
+      "description": "Easy appetizer bites with shrimp and cheese spread broiled on English muffins.",
+      "servings_yield": "6 pie shape pieces per muffin",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "small shrimp",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "Wispride soft Cheddar cheese",
+          "quantity": "1",
+          "unit": "12 oz",
+          "prep_note": ""
+        },
+        {
+          "item": "English muffins",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soften cheese."
+        },
+        {
+          "step": 2,
+          "text": "Mash up shrimp. Mix together; spread over muffins."
+        },
+        {
+          "step": 3,
+          "text": "Cut into 6 pie shape pieces. (Can freeze at this point!)"
+        },
+        {
+          "step": 4,
+          "text": "Put under broiler (10 minutes if frozen) until golden brown."
+        }
+      ],
+      "temperature": "broil",
+      "pan_size": "",
+      "notes": [
+        "Can be frozen before broiling"
+      ],
+      "tags": [
+        "appetizer",
+        "shrimp",
+        "cheese",
+        "party",
+        "freezer-friendly"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "can size for shrimp"
+        ]
+      }
+    },
+    {
+      "id": "stuffed-pumpernickel-surprise",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Stuffed Pumpernickel Surprise",
+      "category": "appetizers",
+      "attribution": "Wendy Downey",
+      "source_note": "Church cookbook",
+      "description": "A creamy spinach dip served in a hollowed pumpernickel bread bowl.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "flat bottom pumpernickel loaf",
+          "quantity": "1 1/2 to 2",
+          "unit": "pound",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen spinach",
+          "quantity": "1",
+          "unit": "10 oz pkg",
+          "prep_note": "thawed and squeezed dry"
+        },
+        {
+          "item": "Knorr vegetable soup and recipe mix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "real mayonnaise",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water chestnuts",
+          "quantity": "1",
+          "unit": "8 oz can",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix soup mix, sour cream, and mayonnaise until well blended."
+        },
+        {
+          "step": 2,
+          "text": "Stir in spinach, water chestnuts, and onions."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill 2 hours."
+        },
+        {
+          "step": 4,
+          "text": "Cut out top of loaf in a circle."
+        },
+        {
+          "step": 5,
+          "text": "Arrange on platter or tray. Pull bite-size pieces from center and inside loaf."
+        },
+        {
+          "step": 6,
+          "text": "Place around loaf. Fill the center of loaf with chilled dip."
+        },
+        {
+          "step": 7,
+          "text": "Enjoy."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "spinach",
+        "bread-bowl",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "cheese-ring",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Ring",
+      "category": "appetizers",
+      "attribution": "Joanne Denton",
+      "source_note": "Church cookbook",
+      "description": "A molded cheese appetizer ring coated in pecans, served with crackers.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "extra sharp Cheddar cheese",
+          "quantity": "1",
+          "unit": "16 oz pkg",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "medium Cheddar cheese",
+          "quantity": "1",
+          "unit": "16 oz pkg",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "red pepper",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "divided"
+        },
+        {
+          "item": "parsley sprigs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "strawberry preserves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional, for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine first 5 ingredients and mix well."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle about 1/4 cup pecans in an oiled 7-cup ring mold."
+        },
+        {
+          "step": 3,
+          "text": "Press cheese mixture into mold. Chill until firm."
+        },
+        {
+          "step": 4,
+          "text": "Unmold on platter. Pat remaining pecans onto cheese ring."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with parsley sprigs."
+        },
+        {
+          "step": 6,
+          "text": "Serve on crackers with strawberry preserves on top if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "7-cup ring mold",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "cheese",
+        "party",
+        "molded"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "holiday-cheese-ball-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Holiday Cheese Ball",
+      "category": "appetizers",
+      "attribution": "Jane Dhans",
+      "source_note": "Church cookbook",
+      "description": "A festive cheese ball with cream cheese, pineapple, and pecans.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "8 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "8 1/2 oz can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "seasoned salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onions",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soften cream cheese and beat until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Gradually stir in crushed pineapple, 1 cup of pecans, green pepper, onion, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Chill well."
+        },
+        {
+          "step": 4,
+          "text": "Form into ball and roll in remaining 1 cup pecans."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with cherries and parsley."
+        },
+        {
+          "step": 6,
+          "text": "Serve with assorted crackers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "cheese-ball",
+        "holiday",
+        "party",
+        "pineapple"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          {
+            "field": "instructions",
+            "issue": "Recipe starts on this page but instructions were on previous page (not captured)",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "crabbies",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crabbies",
+      "category": "appetizers",
+      "attribution": "Dee Diller",
+      "source_note": "Church cookbook",
+      "description": "Hot crabmeat and cheese appetizers on English muffins.",
+      "servings_yield": "4 pieces per muffin",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Old English cheese",
+          "quantity": "2",
+          "unit": "jars",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped white crabmeat",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "drained"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Lawry's seasoning salt",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "English muffins",
+          "quantity": "2",
+          "unit": "pkg",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix first 4 ingredients and spread on split muffins."
+        },
+        {
+          "step": 2,
+          "text": "Place on cookie sheets and broil until bubbly and golden on top."
+        },
+        {
+          "step": 3,
+          "text": "Cool for a few minutes, then cut into 4 pieces each and serve while hot."
+        }
+      ],
+      "temperature": "broil",
+      "pan_size": "cookie sheets",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "crab",
+        "seafood",
+        "cheese",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "jar size for cheese"
+        ]
+      }
+    },
+    {
+      "id": "pigs-in-a-blanket-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pigs in a Blanket",
+      "category": "appetizers",
+      "attribution": "Courtney Arkwright",
+      "source_note": "Church cookbook",
+      "description": "Hot dogs wrapped in cheese-topped biscuits - a kid-friendly appetizer.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "10 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "prepared biscuits",
+          "quantity": "4",
+          "unit": "cans",
+          "prep_note": ""
+        },
+        {
+          "item": "hot dogs",
+          "quantity": "2",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "slices cheese",
+          "quantity": "10",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "toothpicks",
+          "quantity": "40",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Flatten all biscuits, not touching sides on ungreased cookie sheets."
+        },
+        {
+          "step": 3,
+          "text": "Cut slices of cheese into fourths. Lay one piece on each biscuit."
+        },
+        {
+          "step": 4,
+          "text": "Cut hot dogs in halves. Lay the half into the biscuit and cheese."
+        },
+        {
+          "step": 5,
+          "text": "Fold sides of biscuits together over hot dog. Hold in place with toothpick."
+        },
+        {
+          "step": 6,
+          "text": "Cook for 10 minutes, or until golden brown."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "cookie sheets",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "hot-dogs",
+        "kid-friendly",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "spinach-dip-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spinach Dip",
+      "category": "appetizers",
+      "attribution": "",
+      "source_note": "Church cookbook",
+      "description": "Classic spinach dip served in a pumpernickel bread bowl.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "2",
+          "unit": "large tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Knorr vegetable dry soup mix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "splash",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen chopped spinach",
+          "quantity": "1",
+          "unit": "10 oz",
+          "prep_note": ""
+        },
+        {
+          "item": "onions",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "round loaf of pumpernickel bread",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw spinach and drain."
+        },
+        {
+          "step": 2,
+          "text": "Mix all ingredients together."
+        },
+        {
+          "step": 3,
+          "text": "Cut out center section of bread, then put dip mixture in bread."
+        },
+        {
+          "step": 4,
+          "text": "Use bread chunks from center and also sliced vegetables with dip."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "spinach",
+        "bread-bowl",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "taco-dip-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Taco Dip",
+      "category": "appetizers",
+      "attribution": "Diane Solberg",
+      "source_note": "Church cookbook",
+      "description": "A layered taco dip with cream cheese, taco sauce, and fresh toppings.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "8 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "Old El Paso taco sauce",
+          "quantity": "1",
+          "unit": "8 oz jar",
+          "prep_note": "mild"
+        },
+        {
+          "item": "Cheddar cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "grated"
+        },
+        {
+          "item": "tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "grated lettuce",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped black olives",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soften cream cheese. Stir in 3/4 of the jar of taco sauce."
+        },
+        {
+          "step": 2,
+          "text": "Spread on a platter."
+        },
+        {
+          "step": 3,
+          "text": "Top with lettuce, onion, cheese, tomatoes, and black olives."
+        },
+        {
+          "step": 4,
+          "text": "Serve with nacho chips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "taco",
+        "mexican",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "tex-mex-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tex-Mex Dip",
+      "category": "appetizers",
+      "attribution": "Karen Talbot",
+      "source_note": "Church cookbook",
+      "description": "A layered avocado and bean dip with all the Tex-Mex fixings.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "medium ripe avocados",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "taco seasoning",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded Cheddar cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "seeded and chopped"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "plain jalapeno flavored bean dip",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": ""
+        },
+        {
+          "item": "green onions",
+          "quantity": "1",
+          "unit": "large bunch",
+          "prep_note": "with tops, chopped"
+        },
+        {
+          "item": "black pitted ripe olives",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "coarsely chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel, pit, and mash avocados in medium size bowl with lemon juice, salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Combine sour cream, mayonnaise, and seasoning in a bowl."
+        },
+        {
+          "step": 3,
+          "text": "Spread bean dip in a large shallow serving platter and top with layers in the following order: Seasoned avocado mixture, sour cream/taco mix, sprinkle with chopped onions, tomatoes, olives, and cheese."
+        },
+        {
+          "step": 4,
+          "text": "Serve chilled with tortilla chips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "tex-mex",
+        "avocado",
+        "layered",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "creamy-fruit-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Fruit Dip",
+      "category": "appetizers",
+      "attribution": "Diane Solberg",
+      "source_note": "Church cookbook",
+      "description": "A simple two-ingredient dip for fresh fruit.",
+      "servings_yield": "",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "8 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "marshmallow cream",
+          "quantity": "1",
+          "unit": "7 oz jar",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soften cream cheese in microwave or let cream cheese get to room temperature."
+        },
+        {
+          "step": 2,
+          "text": "Mix in marshmallow cream. Stir well until well blended."
+        },
+        {
+          "step": 3,
+          "text": "Serve with fresh fruit."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "fruit",
+        "dessert",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "deviled-eggs-the-best",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Deviled Eggs - The Best",
+      "category": "appetizers",
+      "attribution": "Karen Griner",
+      "source_note": "Church cookbook",
+      "description": "Classic deviled eggs with bacon and sweet pickles.",
+      "servings_yield": "16 deviled egg halves",
+      "prep_time": "20 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "hard-boiled eggs",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sweet pickles",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Miracle Whip",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "yellow mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sweet pickle juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bacon",
+          "quantity": "5",
+          "unit": "slices",
+          "prep_note": "fried crisp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut eggs lengthwise and remove yolks. Mash yolks with a fork and add remaining ingredients."
+        },
+        {
+          "step": 2,
+          "text": "Blend well. Refill whites using approximately 2 teaspoons of egg mixture per half."
+        },
+        {
+          "step": 3,
+          "text": "Hint: Fix the day before to let the seasonings blend."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Make the day before for best flavor"
+      ],
+      "tags": [
+        "appetizer",
+        "eggs",
+        "deviled eggs",
+        "bacon"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 73,
+          "fat_g": 6,
+          "protein_g": 3,
+          "carbs_g": 1,
+          "cholesterol_mg": 66,
+          "sodium_mg": 140
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "gregs-eggs",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Greg's Eggs",
+      "category": "appetizers",
+      "attribution": "Greg Baker",
+      "source_note": "Church cookbook",
+      "description": "Spicy deviled eggs with jalapeno and bacon bits.",
+      "servings_yield": "24 deviled egg halves",
+      "prep_time": "25 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "1",
+          "unit": "dozen",
+          "prep_note": ""
+        },
+        {
+          "item": "sharp Cheddar cheese",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "salad dressing",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1 1/2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "real bacon bits",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "imitation ones get too soggy"
+        },
+        {
+          "item": "large dill pickles",
+          "quantity": "1 1/2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "medium jalapeno pepper",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "for the meek of spirit"
+        },
+        {
+          "item": "mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Hard-boil eggs and cut lengthwise; remove yolks."
+        },
+        {
+          "step": 2,
+          "text": "Mix yolks with salad dressing, vinegar, sugar, and mustard until creamy."
+        },
+        {
+          "step": 3,
+          "text": "Stir in shredded pickles and jalapeno pepper."
+        },
+        {
+          "step": 4,
+          "text": "Add bacon bits and grated cheese; don't overstir. Stuff into egg white halves."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Use real bacon bits - imitation ones get soggy",
+        "Adjust jalapeno to taste"
+      ],
+      "tags": [
+        "appetizer",
+        "eggs",
+        "deviled eggs",
+        "spicy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 11,
+          "fat_g": 0.6,
+          "protein_g": 0.5,
+          "carbs_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "spinach-nuggets-microwave",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spinach Nuggets (Microwave)",
+      "category": "appetizers",
+      "attribution": "Marsha Sayre",
+      "source_note": "Church cookbook",
+      "description": "Quick spinach appetizer balls cooked in the microwave.",
+      "servings_yield": "48 nuggets",
+      "prep_time": "20 minutes",
+      "cook_time": "9-11 minutes + 2-3 minutes to cook",
+      "ingredients": [
+        {
+          "item": "frozen chopped spinach",
+          "quantity": "2",
+          "unit": "10 oz pkgs",
+          "prep_note": ""
+        },
+        {
+          "item": "minced onion",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "herb seasoned stuffing mix",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place spinach and onion in 1 1/2 quart casserole with water. Cook, covered, on HIGH 9 to 11 minutes, stirring once. Let stand 3 minutes. Drain well."
+        },
+        {
+          "step": 2,
+          "text": "Add butter and stir till melted. Add stuffing mix and Parmesan cheese. Stir in eggs."
+        },
+        {
+          "step": 3,
+          "text": "Shape into 1 inch balls. May be frozen. (Put in freezer for 10 minutes after putting on waxed paper lined baking sheet; thaw before cooking.)"
+        },
+        {
+          "step": 4,
+          "text": "To cook now, place 1/2 of balls in a 12 x 7 1/2 x 2 inch baking dish. Cook, uncovered, on HIGH 2 to 3 minutes, or until heated through. Repeat with remaining 1/2 of balls."
+        }
+      ],
+      "temperature": "Microwave HIGH",
+      "pan_size": "12 x 7 1/2 x 2 inch baking dish",
+      "notes": [
+        "May be frozen ahead and thawed before cooking"
+      ],
+      "tags": [
+        "appetizer",
+        "spinach",
+        "microwave"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.6,
+          "protein_g": 0.5,
+          "carbs_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "greek-salsa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Greek Salsa",
+      "category": "appetizers",
+      "attribution": "Athenos/Churny Company, 2007",
+      "source_note": "Printed recipe clipping from ATHENOS product packaging",
+      "description": "A Mediterranean-style salsa dip with feta, olives, cucumber, and roasted red peppers. Served with pita chips.",
+      "servings_yield": "2 cups (16 servings, 2 tbsp each)",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "feta cheese",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "3.5 oz, crumbled reduced fat"
+        },
+        {
+          "item": "kalamata olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "halved"
+        },
+        {
+          "item": "red onions",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "mint leaves",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "cucumbers",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "roasted red peppers",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Greek vinaigrette dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "light, with oregano and feta"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all ingredients until well blended."
+        },
+        {
+          "step": 2,
+          "text": "Serve with pita chips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "salsa",
+        "greek",
+        "mediterranean",
+        "feta",
+        "vegetarian",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 103,
+          "fat_g": 6.9,
+          "protein_g": 3.2,
+          "carbs_g": 8.0
+        },
+        "missing_inputs": [
+          "Not in database: Greek vinaigrette dressing"
+        ],
+        "assumptions": [
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "seven-layer-taco-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "7-Layer Taco Dip",
+      "category": "appetizers",
+      "attribution": "Bob Evans Farms, 2011",
+      "source_note": "Printed recipe card from Bob Evans",
+      "description": "A hearty layered taco dip with sausage, beans, sour cream, salsa, and all the fixings. Perfect for game day.",
+      "servings_yield": "8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "roll sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "original"
+        },
+        {
+          "item": "refried beans",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "16 oz"
+        },
+        {
+          "item": "taco seasoning mix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "1.25 oz"
+        },
+        {
+          "item": "shredded Mexican cheese blend",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "8 oz"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "container",
+          "prep_note": "16 oz"
+        },
+        {
+          "item": "chopped green chilies",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "4.5 oz"
+        },
+        {
+          "item": "tomato",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "diced"
+        },
+        {
+          "item": "sliced black olives",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "6 oz"
+        },
+        {
+          "item": "green onions",
+          "quantity": "1",
+          "unit": "bunch",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salsa",
+          "quantity": "1",
+          "unit": "jar",
+          "prep_note": "11 oz"
+        },
+        {
+          "item": "tortilla chips",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large skillet over medium heat, crumble and cook sausage until browned."
+        },
+        {
+          "step": 2,
+          "text": "Stir in beans, chilies and taco seasoning mix."
+        },
+        {
+          "step": 3,
+          "text": "Spread sausage mix into 7\" x 11\" serving dish."
+        },
+        {
+          "step": 4,
+          "text": "Top with sour cream, then salsa."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle olives, tomato and onion on top. Cover with cheese."
+        },
+        {
+          "step": 6,
+          "text": "Serve immediately with chips. Refrigerate leftovers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "7\" x 11\" serving dish",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "taco",
+        "mexican",
+        "game day",
+        "party",
+        "sausage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 336,
+          "fat_g": 22.8,
+          "protein_g": 14.5,
+          "carbs_g": 17.9
+        },
+        "missing_inputs": [
+          "Not in database: taco seasoning mix"
+        ],
+        "assumptions": [
+          "Used standard can size (1.75 cups) for refried beans",
+          "Used standard can size (0.5 cups) for chopped green chilies",
+          "Used standard can size (0.75 cups) for sliced black olives",
+          "Used standard jar size (2.0 cups) for salsa",
+          "Assumed 1 unit for tortilla chips"
+        ]
+      }
+    },
+    {
+      "id": "cheese-fondue-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Fondue",
+      "category": "appetizers",
+      "source_note": "Better Homes and Gardens cookbook, page 158",
+      "description": "Also makes a great appetizer.",
+      "servings_yield": "5 servings",
+      "ingredients": [
+        {
+          "item": "coarsely shredded Gruy\u00e8re or Swiss cheese",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "12 ounces"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "clove garlic, halved",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "kirsch or dry sherry",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "dippers (cubed French or Italian bread or raw vegetables)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring shredded Gruy\u00e8re or Swiss cheese to room temperature. Toss flour with cheese; set aside. Rub inside of a fondue pot with garlic halves; discard garlic. Set pot aside."
+        },
+        {
+          "step": 2,
+          "text": "In medium saucepan heat wine over medium heat till small bubbles rise to surface. Just before wine boils, reduce heat to low and stir in cheese mixture, a little at a time, stirring constantly and making sure cheese melts before adding more. Stir till mixture bubbles gently."
+        },
+        {
+          "step": 3,
+          "text": "Stir in kirsch or sherry, nutmeg, and pepper. Transfer cheese mixture to the fondue pot; keep mixture bubbling gently over a fondue burner. Serve with bread cubes or raw vegetables. Makes 5 servings."
+        }
+      ],
+      "notes": [
+        "Onion-Cheese Fondue: Prepare as above, except stir 1/2 cup sliced green onion and 1/2 cup shredded carrot into the cheese mixture with the kirsch or sherry.",
+        "*Note: For a milder flavor, substitute 1/4 cup chicken broth or water for 1/4 cup of the wine."
+      ],
+      "tags": [
+        "appetizers",
+        "fondue",
+        "cheese",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5319 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 359,
+          "fat_g": 22,
+          "protein_g": 21,
+          "carbs_g": 2,
+          "cholesterol_mg": 228,
+          "sodium_mg": 75
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "creamy-cheese-fondue-bhg-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Cheese Fondue",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 159",
+      "description": "If you don't have a fondue pot, just serve this creamy fondue from a casserole dish.",
+      "servings_yield": "Serves 3",
+      "ingredients": [
+        {
+          "item": "dry white wine or apple juice",
+          "quantity": "\u00bd",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "\u00bd",
+          "unit": "tsp"
+        },
+        {
+          "item": "package cream cheese with chives, softened",
+          "quantity": "1",
+          "unit": "3-oz"
+        },
+        {
+          "item": "Dippers (breadsticks, cubed French bread, fruit wedges, or vegetables)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan heat wine or juice just till bubbling. Add American cheese and mustard, stirring till smooth and bubbly. Stir in cream cheese; cook and stir over low heat till smooth."
+        },
+        {
+          "step": 2,
+          "text": "Transfer mixture to a fondue pot. If desired, keep cheese mixture bubbling gently over a fondue burner. Serve with dippers. Serves 3."
+        },
+        {
+          "step": 3,
+          "text": "Microwave directions: In 1-quart casserole mix \u00bd cup wine or juice, American cheese, mustard, and cream cheese. Micro-cook on 100% power (high) for 4 to 5 minutes or till melted and bubbly, stir every minute. Serve as above."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "fondue",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5320 Large.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5321 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 429,
+          "fat_g": 34,
+          "protein_g": 19,
+          "carbs_g": 4,
+          "cholesterol_mg": 1169,
+          "sodium_mg": 103
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "variant_of": "creamy-cheese-fondue",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "cheese-fondue-bhg-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Fondue",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 158",
+      "description": "Also makes a great appetizer.",
+      "servings_yield": "5 servings",
+      "ingredients": [
+        {
+          "item": "coarsely shredded Gruy\u00e8re or Swiss cheese (12 ounces)",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic, halved",
+          "quantity": "1",
+          "unit": "clove"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "kirsch or dry sherry",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dash ground nutmeg",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "Dash pepper",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "Dippers (cubed French or Italian bread or raw vegetables)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring shredded Gruy\u00e8re or Swiss cheese to room temperature. Toss flour with cheese; set aside. Rub inside of a fondue pot with garlic halves; discard garlic. Set pot aside."
+        },
+        {
+          "step": 2,
+          "text": "In medium saucepan heat wine over medium heat till small bubbles rise to surface. Just before wine boils, reduce heat to low and stir in cheese mixture, a little at a time, stirring constantly and making sure cheese melts before adding more. Stir till mixture bubbles gently."
+        },
+        {
+          "step": 3,
+          "text": "Stir in kirsch or sherry, nutmeg, and pepper. Transfer cheese mixture to the fondue pot; keep mixture bubbling gently over a fondue burner. Serve with bread cubes or raw vegetables. Makes 5 servings."
+        }
+      ],
+      "notes": [
+        "Onion-Cheese Fondue: Prepare as above, except stir 1/2 cup sliced green onion and 1/2 cup shredded carrot into the cheese mixture with the kirsch or sherry.",
+        "Note: For a milder flavor, substitute 1/4 cup chicken broth or water for 1/4 cup of the wine."
+      ],
+      "tags": [
+        "appetizer",
+        "fondue",
+        "cheese",
+        "swiss"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5319 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 359,
+          "fat_g": 22,
+          "protein_g": 21,
+          "carbs_g": 2,
+          "cholesterol_mg": 228,
+          "sodium_mg": 75
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cheese-fondue-bhg-mommom-2",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Fondue",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 158",
+      "description": "Classic Swiss cheese fondue with crusty bread dippers",
+      "servings_yield": "16 appetizer servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Gruyere cheese",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "shredded (12 oz)"
+        },
+        {
+          "item": "Swiss cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "shredded (8 oz)"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "halved"
+        },
+        {
+          "item": "kirsch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "French bread",
+          "quantity": "1",
+          "unit": "loaf",
+          "prep_note": "cubed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring cheese to room temperature. Toss together Gruyere, Swiss cheese, and flour."
+        },
+        {
+          "step": 2,
+          "text": "In a saucepan heat wine and garlic over medium heat till small bubbles rise to surface."
+        },
+        {
+          "step": 3,
+          "text": "Remove and discard garlic."
+        },
+        {
+          "step": 4,
+          "text": "Gradually add small amounts of cheese mixture to wine, stirring constantly with a wire whisk after each addition till cheese is melted. Make sure cheese melts completely before adding more."
+        },
+        {
+          "step": 5,
+          "text": "Stir till fondue bubbles gently."
+        },
+        {
+          "step": 6,
+          "text": "Stir in kirsch and nutmeg."
+        },
+        {
+          "step": 7,
+          "text": "Transfer fondue to a fondue pot; keep warm over fondue burner."
+        },
+        {
+          "step": 8,
+          "text": "Serve with French bread cubes. (If fondue becomes too thick, stir in a little warmed wine.)"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "fondue pot",
+      "notes": [
+        "Bring cheese to room temperature for best melting",
+        "If fondue becomes too thick, stir in a little warmed wine"
+      ],
+      "tags": [
+        "fondue",
+        "cheese",
+        "appetizer",
+        "Swiss",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5319 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 359,
+          "fat_g": 22,
+          "protein_g": 21,
+          "carbs_g": 2,
+          "cholesterol_mg": 228,
+          "sodium_mg": 75
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "onion-cheese-fondue-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Onion-Cheese Fondue",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 158",
+      "description": "French onion soup-inspired fondue with crusty bread",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "condensed French onion soup",
+          "quantity": "1",
+          "unit": "can (10-3/4 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "process Swiss cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "French bread",
+          "quantity": "1",
+          "unit": "loaf",
+          "prep_note": "cubed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan bring soup to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Gradually stir in Swiss cheese till melted."
+        },
+        {
+          "step": 3,
+          "text": "Beat cream cheese till smooth. Gradually stir cream cheese into fondue mixture."
+        },
+        {
+          "step": 4,
+          "text": "Heat and stir till smooth."
+        },
+        {
+          "step": 5,
+          "text": "Transfer to fondue pot; keep warm over fondue burner."
+        },
+        {
+          "step": 6,
+          "text": "Serve with French bread cubes. Stir in broth or water (by 1/4 cup) if the mixture gets too thick."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "fondue pot",
+      "notes": [
+        "Quick version using canned soup",
+        "Stir in broth or water by 1/4 cup if mixture gets too thick"
+      ],
+      "tags": [
+        "fondue",
+        "cheese",
+        "appetizer",
+        "quick",
+        "French onion"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5319 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 359,
+          "fat_g": 22,
+          "protein_g": 21,
+          "carbs_g": 2,
+          "cholesterol_mg": 228,
+          "sodium_mg": 75
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "creamy-cheese-fondue-bhg-mommom-2",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Cheese Fondue",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 159",
+      "description": "If you don't have a fondue pot, just serve this creamy mixture from a casserole dish",
+      "servings_yield": "serves 3",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "dry white wine or apple juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "3-oz package",
+          "prep_note": "softened, with chives"
+        },
+        {
+          "item": "Dippers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "breadsticks, cubed French bread, fruit wedges, or vegetables"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan heat wine or juice just till bubbling. Add American cheese and mustard."
+        },
+        {
+          "step": 2,
+          "text": "Stir till smooth and bubbly. Stir in cream cheese; cook and stir over low heat till smooth."
+        },
+        {
+          "step": 3,
+          "text": "Transfer mixture to a fondue pot. If desired, keep cheese mixture bubbling gently over a fondue burner."
+        },
+        {
+          "step": 4,
+          "text": "Serve with dippers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Microwave directions: In 1-quart casserole mix 1/4 cup wine or juice, American cheese, mustard, and cream cheese. Micro-cook on 100% power (high) for 4 to 5 minutes or till melted and bubbly, stir every minute. Serve as above."
+      ],
+      "tags": [
+        "fondue",
+        "cheese",
+        "appetizer",
+        "dip"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5321 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 429,
+          "fat_g": 34,
+          "protein_g": 19,
+          "carbs_g": 4,
+          "cholesterol_mg": 1169,
+          "sodium_mg": 103
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pepperoni-bites-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pepperoni Bites",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 9",
+      "description": "Sink your teeth into these golden biscuits and savor the saucy pizza filling inside.",
+      "servings_yield": "Makes 20",
+      "ingredients": [
+        {
+          "item": "shredded mozzarella cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pepperoni",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pizza sauce",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "refrigerated biscuits",
+          "quantity": "2",
+          "unit": "packages (10 each)",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For filling, in a bowl combine mozzarella cheese, pepperoni, and pizza sauce. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Separate biscuits. Flatten biscuits to 3-inch circles. Place about 1 rounded tablespoon filling in the center of each circle. Bring edges of dough together. Pinch to seal."
+        },
+        {
+          "step": 3,
+          "text": "Place, seam side down, on greased baking sheets. Brush with milk. Sprinkle with Parmesan."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 12 to 15 minutes or till golden. Serve warm."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "appetizer",
+        "pizza",
+        "pepperoni",
+        "biscuits",
+        "easy",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5176 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 0.5,
+          "protein_g": 0.5,
+          "carbs_g": 0.1
+        },
+        "missing_inputs": [
+          "Not in database: pizza sauce",
+          "Not in database: refrigerated biscuits"
+        ],
+        "assumptions": [
+          "Inferred 0.25 for chopped pepperoni (standard quantity)",
+          "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
+          "Based on 4/6 ingredients (67% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "toasted-chili-nuts-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Toasted Chili Nuts",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 10",
+      "servings_yield": "2 cups (16 servings)",
+      "cook_time": "12-15 minutes",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chili powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion salt",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "walnut or pecan halves or pieces",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine margarine, Worcestershire sauce, chili powder, onion salt, and red pepper. Heat and stir till margarine melts."
+        },
+        {
+          "step": 2,
+          "text": "Spread nuts in a 9x9x2-inch baking pan. Toss with margarine mixture."
+        },
+        {
+          "step": 3,
+          "text": "Bake in a 350\u00b0 oven for 12 to 15 minutes or till toasted, stirring occasionally. Spread on foil; cool. Store in an airtight container."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "appetizer",
+        "snack",
+        "nuts",
+        "spicy",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5177 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 466,
+          "fat_g": 14,
+          "protein_g": 34,
+          "carbs_g": 35,
+          "cholesterol_mg": 1171,
+          "sodium_mg": 727
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "variant_of": "toasted-chili-nuts",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "nachos-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nachos",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 10",
+      "description": "Build this spicy snack up to seven layers high.",
+      "servings_yield": "8 servings",
+      "cook_time": "5-7 minutes",
+      "ingredients": [
+        {
+          "item": "bulk pork sausage or ground beef",
+          "quantity": "\u00bd",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "refried beans",
+          "quantity": "1",
+          "unit": "16-ounce can",
+          "prep_note": ""
+        },
+        {
+          "item": "tortilla chips",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced pitted ripe olives",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "diced green chili peppers",
+          "quantity": "1",
+          "unit": "4-ounce can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1\u00bd",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook meat, onion, and garlic till meat is brown. Drain. Stir in beans."
+        },
+        {
+          "step": 2,
+          "text": "Arrange half of the chips on each of two 12-inch ovenproof platters. Layer half of the meat-bean mixture, olives, chili peppers, and cheese on each platter."
+        },
+        {
+          "step": 3,
+          "text": "Bake in a 350\u00b0 oven for 5 to 7 minutes or till cheese melts. Serve with avocado dip, dairy sour cream, and salsa, if desired."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Microwave directions: In a 2-quart casserole micro-cook meat, onion, and garlic, covered, on 100% power (high) for 3 to 5 minutes or till no pink remains; stir once. Drain well. Stir in beans. Assemble as above. Cook on high for 2 to 3 minutes. Serve as above."
+      ],
+      "tags": [
+        "appetizer",
+        "mexican",
+        "nachos",
+        "cheese",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5177 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 283,
+          "fat_g": 16.3,
+          "protein_g": 14.6,
+          "carbs_g": 19.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for bulk pork sausage or ground beef (standard quantity)",
+          "Inferred 1.0 for chopped onion (standard quantity)",
+          "Assumed 1 unit for sliced pitted ripe olives",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "stuffed-mushrooms-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Stuffed Mushrooms",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 11",
+      "description": "These delectable morsels hold plenty of cheddar or blue cheese.",
+      "servings_yield": "Makes 24",
+      "cook_time": "8-10 minutes",
+      "ingredients": [
+        {
+          "item": "large fresh mushrooms",
+          "quantity": "24",
+          "unit": "",
+          "prep_note": "1\u00bd to 2 inches in diameter"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fine dry bread crumbs",
+          "quantity": "\u2154",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded cheddar or crumbled blue cheese",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": "2 ounces"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and drain mushrooms. Remove stems. Reserve caps. Chop enough stems to make 1 cup."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan cook stems, onion, and garlic in margarine or butter till tender."
+        },
+        {
+          "step": 3,
+          "text": "Stir in bread crumbs and cheese. Spoon crumb mixture into mushroom caps."
+        },
+        {
+          "step": 4,
+          "text": "Arrange mushrooms in a 15x10x1-inch baking pan. Bake in a 425\u00b0 oven 8 to 10 minutes or till heated through."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "notes": [
+        "Spinach-Stuffed Mushrooms: Prepare as above, except omit cheese. Cook 1 cup chopped fresh spinach with the stem mixture. Stir \u00bc cup grated Parmesan cheese and \u00bd teaspoon crushed dried marjoram into crumb mixture.",
+        "Sausage-Stuffed Mushrooms: Prepare as above, except omit margarine or butter and cheese. Reduce bread crumbs to 2 tablespoons. Cook \u00bd pound bulk Italian sausage with stem mixture till sausage is brown. Drain fat. Stir 2 tablespoons grated Parmesan cheese and bread crumbs into sausage mixture.",
+        "Pepperoni-Stuffed Mushrooms: Prepare as above, except omit cheese. Stir \u00bc cup chopped pepperoni and \u00bd teaspoon dried Italian seasoning into the crumb mixture.",
+        "Ham-Stuffed Mushrooms: Prepare as above, except substitute crushed corn bread stuffing mix for bread crumbs and omit cheese. Stir \u00bc cup finely chopped fully cooked ham and 2 tablespoons chopped pecans into stuffing mixture."
+      ],
+      "tags": [
+        "appetizer",
+        "mushrooms",
+        "stuffed",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5178 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 47,
+          "fat_g": 1.7,
+          "protein_g": 2.9,
+          "carbs_g": 5.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for sliced green onion (standard quantity)",
+          "Inferred 2 for margarine or butter (standard quantity)",
+          "Assumed 1 unit for fine dry bread crumbs",
+          "Inferred 1.0 for shredded cheddar or crumbled blue cheese (standard quantity)",
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "creamy-dill-dip-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Dill Dip",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 12",
+      "description": "For colorful dippers, serve carrot sticks, broccoli or cauliflower florets, and mushrooms.",
+      "servings_yield": "2 cups (16 servings)",
+      "prep_time": "Up to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "8-ounce package",
+          "prep_note": "softened"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1",
+          "unit": "8-ounce carton",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped green onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried dillweed",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "seasoned salt or salt",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable dippers, assorted crackers, or chips",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl beat cream cheese, sour cream, onion, dillweed, and seasoned salt with an electric mixer till fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Chill up to 24 hours. If dip thickens after chilling, stir in 1 or 2 tablespoons milk. Serve with vegetable dippers, crackers, or chips."
+        }
+      ],
+      "notes": [
+        "Creamy Onion Dip: Prepare as above, except omit onion, dillweed, and seasoned salt. Stir 2 tablespoons (\u00bd of an envelope) regular onion soup mix into beaten cream cheese mixture.",
+        "Creamy Blue Cheese Dip: Prepare as above, except omit dillweed and seasoned salt. Stir \u00bd cup crumbled blue cheese and \u00bd cup finely chopped walnuts into the beaten cream cheese mixture.",
+        "Creamy Seafood Dip: Prepare as above, except stir one 6\u00bd-ounce can minced clams, drained, or crabmeat, drained, flaked, and cartilage removed, into beaten cheese mixture.",
+        "Creamy Tarragon Dip: Prepare as above, except omit dillweed and seasoned salt. Stir \u00bd cup finely chopped watercress or parsley, 1 tablespoon lemon juice, 1 teaspoon anchovy paste, and \u00bd teaspoon crushed dried tarragon into the beaten cream cheese mixture."
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "cream cheese",
+        "dill"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5179 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 339,
+          "fat_g": 29.5,
+          "protein_g": 5.1,
+          "carbs_g": 15.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1 for seasoned salt or salt (standard quantity)",
+          "Assumed 1 unit for vegetable dippers, assorted crackers, or chips",
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chili-con-queso-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chili con Queso",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 12",
+      "servings_yield": "1\u00be cups (14 servings)",
+      "ingredients": [
+        {
+          "item": "finely chopped onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "seeded and chopped"
+        },
+        {
+          "item": "diced green chili peppers",
+          "quantity": "1",
+          "unit": "4-ounce can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded Monterey Jack cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "tortilla or corn chips",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook onion in margarine till tender. Stir in tomatoes and peppers. Simmer, uncovered, 10 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Toss cheeses with cornstarch. Gradually add to saucepan, stirring till melted. Stir in hot sauce. Heat through. Serve with chips."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 1\u00bd-quart casserole micro-cook onion and margarine, covered, on 100% power (high) for 1\u00bd to 2\u00bd minutes. Add tomatoes and peppers. Cook, covered, on high 2 to 4 minutes or till tender. Toss cheeses with cornstarch. Gradually add to casserole, stirring till melted. Stir in hot sauce. Cook, uncovered, on high 2 minutes or till heated; stir twice. Serve with chips."
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "cheese",
+        "mexican",
+        "spicy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5179 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 466,
+          "fat_g": 14,
+          "protein_g": 34,
+          "carbs_g": 35,
+          "cholesterol_mg": 1171,
+          "sodium_mg": 727
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "guacamole-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Guacamole",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 13",
+      "description": "Fiery chili peppers and creamy, cool avocados pair up in this Mexican favorite.",
+      "servings_yield": "2 cups (16 servings)",
+      "prep_time": "Up to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "medium very ripe avocados",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "seeded, peeled, and cut up"
+        },
+        {
+          "item": "small onion",
+          "quantity": "\u00bd",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "diced green chili peppers",
+          "quantity": "\u00bd",
+          "unit": "of a 4-ounce can (\u00bc cup)",
+          "prep_note": "drained, or several dashes bottled hot pepper sauce"
+        },
+        {
+          "item": "snipped cilantro or parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon or lime juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled, seeded, and finely chopped (optional)"
+        },
+        {
+          "item": "tortilla chips",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container or food processor bowl combine avocados, onion, chili peppers or hot pepper sauce, cilantro, lemon juice, garlic, and salt."
+        },
+        {
+          "step": 2,
+          "text": "Cover and blend or process till mixture is smooth, scraping sides as necessary. Stir in tomato, if desired."
+        },
+        {
+          "step": 3,
+          "text": "Transfer to a serving bowl. Cover and chill up to 24 hours. Serve with chips."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "mexican",
+        "avocado"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5180 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 413,
+          "fat_g": 30.5,
+          "protein_g": 6.6,
+          "carbs_g": 35.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for small onion (standard quantity)",
+          "Inferred 0.25 for diced green chili peppers (standard quantity)",
+          "Inferred 1 for salt (standard quantity)",
+          "Assumed 1 unit for tortilla chips",
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cheese-and-pesto-spread-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese and Pesto Spread",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 13",
+      "servings_yield": "3\u00bd cups (24 servings)",
+      "prep_time": "6 to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "8-ounce package",
+          "prep_note": ""
+        },
+        {
+          "item": "Brie cheese",
+          "quantity": "1",
+          "unit": "4\u00bd-ounce package",
+          "prep_note": ""
+        },
+        {
+          "item": "firmly packed fresh basil leaves",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "firmly packed parsley sprigs",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pine nuts, walnuts, or almonds",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "olive oil or cooking oil",
+          "quantity": "\u2153",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "crackers or sliced French bread",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soften cream cheese and Brie cheese."
+        },
+        {
+          "step": 2,
+          "text": "For pesto, in a blender container combine basil, parsley, Parmesan cheese, nuts, garlic, and 2 tablespoons oil. Cover; blend with on-off turns till a paste forms. Gradually add remaining oil, blending on low speed till smooth."
+        },
+        {
+          "step": 3,
+          "text": "Beat cream cheese and Brie together till nearly smooth. Beat whipping cream till soft peaks form. Fold whipped cream into cheese mixture."
+        },
+        {
+          "step": 4,
+          "text": "Line a 3\u00bd- or 4-cup mold with plastic wrap. Spread one-fourth of cheese mixture into mold. Top with one-third of pesto. Repeat layers twice. Top with cheese mixture. Chill 6 to 24 hours."
+        },
+        {
+          "step": 5,
+          "text": "To serve, unmold on plate. Remove plastic wrap. Garnish with fresh basil, if desired. Serve with crackers."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "spread",
+        "cheese",
+        "pesto",
+        "basil",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5180 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 779,
+          "fat_g": 77.1,
+          "protein_g": 12.5,
+          "carbs_g": 17.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for firmly packed parsley sprigs",
+          "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
+          "Assumed 1 unit for pine nuts, walnuts, or almonds",
+          "Inferred 2 for olive oil or cooking oil (standard quantity)",
+          "Assumed 1 unit for whipping cream"
+        ]
+      },
+      "variant_of": "cheese-and-pesto-spread",
+      "variant_note": "Similar recipe with variations"
+    },
+    {
+      "id": "cheddar-cheese-ball-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheddar Cheese Ball",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 14",
+      "description": "Skip last-minute hassle by making this appetizer ahead and freezing it.",
+      "servings_yield": "1\u00bd cups (12 servings)",
+      "prep_time": "4 to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "finely shredded cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "3-ounce package",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk or dry white wine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "diced pimiento",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "snipped parsley or finely chopped walnuts or pecans",
+          "quantity": "\u00bd to \u2153",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pimiento strips",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "assorted crackers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring cheddar cheese, cream cheese, and margarine to room temperature. Add milk, onion, pimiento, Worcestershire sauce, and hot sauce."
+        },
+        {
+          "step": 2,
+          "text": "Beat till combined. Cover and chill 4 to 24 hours."
+        },
+        {
+          "step": 3,
+          "text": "To serve, shape mixture into a ball. Roll in parsley or nuts. Let stand 15 minutes. Garnish with pimiento strips, if desired. Serve with crackers."
+        }
+      ],
+      "notes": [
+        "Blue Cheese Ball: Prepare as above, except omit diced pimiento and parsley, walnuts or pecans. Add \u00bc cup crumbled blue cheese to cheese mixture. Roll in chopped toasted almonds.",
+        "Deviled-Ham-and-Cheese Ball: Prepare as above, except substitute Swiss cheese for cheddar cheese and omit Worcestershire sauce. Add one 3-ounce can deviled ham to cheese mixture."
+      ],
+      "tags": [
+        "appetizer",
+        "cheese ball",
+        "cheddar",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5181 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1144,
+          "fat_g": 101.4,
+          "protein_g": 31.2,
+          "carbs_g": 42.4
+        },
+        "missing_inputs": [
+          "Not in database: diced pimiento",
+          "Not in database: pimiento strips"
+        ],
+        "assumptions": [
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Assumed 1 unit for snipped parsley or finely chopped walnuts or pecans",
+          "Assumed 1 unit for assorted crackers",
+          "Based on 9/11 ingredients (82% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "feta-cheese-ball-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Feta Cheese Ball",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 14",
+      "servings_yield": "2 cups (16 servings)",
+      "prep_time": "4 to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "8-ounce package",
+          "prep_note": ""
+        },
+        {
+          "item": "feta cheese",
+          "quantity": "1",
+          "unit": "4-ounce package",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped ripe olives",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped green onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley or finely chopped toasted almonds",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "assorted crackers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring cheeses and margarine to room temperature. Beat till combined."
+        },
+        {
+          "step": 2,
+          "text": "Stir in olives and onion. Cover and chill 4 to 24 hours."
+        },
+        {
+          "step": 3,
+          "text": "To serve, shape into a ball. Roll in parsley or almonds. Serve with crackers."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "cheese ball",
+        "feta",
+        "greek",
+        "olives"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5181 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 740,
+          "fat_g": 64.5,
+          "protein_g": 20.1,
+          "carbs_g": 28.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 2 for margarine or butter (standard quantity)",
+          "Assumed 1 unit for chopped ripe olives",
+          "Assumed 1 unit for snipped parsley or finely chopped toasted almonds",
+          "Assumed 1 unit for assorted crackers",
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "eight-layer-spread-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Eight-Layer Spread",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 14",
+      "description": "For variety, add a ninth layer of alfalfa sprouts.",
+      "servings_yield": "16 servings",
+      "prep_time": "Up to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "refried beans",
+          "quantity": "1",
+          "unit": "8\u00be-ounce can",
+          "prep_note": ""
+        },
+        {
+          "item": "picante or taco sauce",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded lettuce",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1",
+          "unit": "8-ounce carton",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen avocado dip",
+          "quantity": "1",
+          "unit": "6-ounce container",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "shredded Monterey Jack or cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 ounces"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced or chopped pitted ripe olives",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "tortilla chips or crackers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together beans and picante or taco sauce."
+        },
+        {
+          "step": 2,
+          "text": "Arrange lettuce on a 12-inch platter, leaving a 2-inch open rim at edge of platter. Spread bean mixture over lettuce, making a layer about \u00bc inch thick. Then layer sour cream and avocado dip. Top with cheese, onion, and olives."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill up to 24 hours. Before serving, arrange tomatoes on top. Arrange the chips on a platter around spread."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "mexican",
+        "layered",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5181 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 85,
+          "fat_g": 5.8,
+          "protein_g": 2.4,
+          "carbs_g": 6.8
+        },
+        "missing_inputs": [
+          "Not in database: picante or taco sauce"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for sliced green onion (standard quantity)",
+          "Assumed 1 unit for tortilla chips or crackers",
+          "Based on 9/10 ingredients (90% coverage)"
+        ]
+      },
+      "variant_of": "eight-layer-spread",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "shrimp-cucumber-spread-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp-Cucumber Spread",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 15",
+      "servings_yield": "1\u00bc cups (20 servings)",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "3-ounce package",
+          "prep_note": "softened"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "catsup",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon-style mustard or prepared mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "shrimp",
+          "quantity": "1",
+          "unit": "4\u00bd-ounce can",
+          "prep_note": "rinsed, drained, and chopped; or 1 cup cooked shrimp, peeled, deveined, and chopped"
+        },
+        {
+          "item": "finely chopped seeded cucumber",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "melba toast rounds or assorted crackers or bread",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl stir together cream cheese, mayonnaise or salad dressing, catsup, mustard, and garlic powder."
+        },
+        {
+          "step": 2,
+          "text": "Stir in shrimp, cucumber, and onion. Spread mixture over melba toast or crackers."
+        }
+      ],
+      "notes": [
+        "Cut white, wheat, or rye bread into decorative shapes with small cookie or hors d'oeuvres cutters, if desired."
+      ],
+      "tags": [
+        "appetizer",
+        "spread",
+        "shrimp",
+        "seafood"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5182 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 746,
+          "fat_g": 23.1,
+          "protein_g": 98.2,
+          "carbs_g": 34.1
+        },
+        "missing_inputs": [
+          "Not in database: catsup"
+        ],
+        "assumptions": [
+          "Inferred 2 for garlic powder (standard quantity)",
+          "Assumed 1 unit for finely chopped seeded cucumber",
+          "Assumed 1 unit for melba toast rounds or assorted crackers or bread",
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "curried-chicken-spread-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Curried Chicken Spread",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 15",
+      "description": "Curry powder and sour cream turn ordinary chicken salad into a tasty topping for party bread.",
+      "servings_yield": "\u00be cup (12 servings)",
+      "prep_time": "Up to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped green onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped nuts",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "curry powder",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "\u215b",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped cooked chicken",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": "about 3 ounces"
+        },
+        {
+          "item": "slices party rye or pumpernickel bread",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium mixing bowl combine mayonnaise or salad dressing, sour cream, green onion, nuts, curry powder, and salt."
+        },
+        {
+          "step": 2,
+          "text": "Stir in chicken. Spread chicken mixture over bread (or chill up to 24 hours before spreading)."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle with parsley, if desired."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "spread",
+        "chicken",
+        "curry"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5182 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 5.1,
+          "protein_g": 10.2,
+          "carbs_g": 15.2
+        },
+        "missing_inputs": [
+          "Not in database: finely chopped nuts"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for curry powder",
+          "Inferred 1 for salt (standard quantity)",
+          "Inferred 1.0 for finely chopped cooked chicken (standard quantity)",
+          "Assumed 1 unit for snipped parsley",
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cocktail-meatballs-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cocktail Meatballs",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 16",
+      "servings_yield": "10 servings",
+      "cook_time": "15-18 minutes",
+      "ingredients": [
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fine dry bread crumbs",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "Tangy Cranberry Sauce, Dill Sauce, or Polynesian Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine egg, bread crumbs, milk, parsley, mustard, salt, and pepper. Add beef. Mix well."
+        },
+        {
+          "step": 2,
+          "text": "Shape into 1-inch meatballs. Place in a 15x10x1-inch baking pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake in a 350\u00b0 oven for 15 to 18 minutes or till done. Drain."
+        },
+        {
+          "step": 4,
+          "text": "Meanwhile, prepare Tangy Cranberry Sauce, Dill Sauce, or Polynesian Sauce. Add meatballs to sauce and heat through."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Tangy Cranberry Sauce: In a saucepan combine one 8-ounce can jellied cranberry sauce, 2 tablespoons steak sauce, and 1 tablespoon brown sugar. Heat, stirring occasionally.",
+        "Dill Sauce: In a saucepan melt 2 tablespoons margarine or butter. Stir in 2 tablespoons all-purpose flour, 1 teaspoon instant beef bouillon granules, dash ground nutmeg, and dash pepper. Add \u00be cup water. Cook and stir till thickened and bubbly. Stir in \u00be cup light cream and 1 teaspoon dried dillweed.",
+        "Polynesian Sauce: Drain one 15\u00bc-ounce can pineapple chunks, reserving juice. Add water to juice to make 1 cup. In a saucepan combine juice mixture, 2 tablespoons catsup, 2 tablespoons vinegar, 1 tablespoon cornstarch, 1 tablespoon brown sugar, 1 tablespoon soy sauce, \u00bd teaspoon instant beef bouillon granules, and dash ground red pepper. Cook and stir till thickened and bubbly. Add pineapple and 1 green or sweet red pepper, cut into 1-inch pieces."
+      ],
+      "tags": [
+        "appetizer",
+        "meatballs",
+        "beef",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5183 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 181,
+          "fat_g": 10.7,
+          "protein_g": 10.8,
+          "carbs_g": 9.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for fine dry bread crumbs",
+          "Inferred 1.0 for milk (standard quantity)",
+          "Inferred 1 for salt (standard quantity)",
+          "Inferred 1 for pepper (standard quantity)",
+          "Assumed 1 unit for Tangy Cranberry Sauce, Dill Sauce, or Polynesian Sauce"
+        ]
+      }
+    },
+    {
+      "id": "mustard-glazed-ribs-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mustard-Glazed Ribs",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 16",
+      "description": "For easier eating, ask your butcher to saw the ribs in half across the bones.",
+      "servings_yield": "6 servings",
+      "cook_time": "1 hour + 30-45 minutes",
+      "ingredients": [
+        {
+          "item": "meaty pork loin back ribs or spareribs",
+          "quantity": "2\u00bd to 3",
+          "unit": "lbs",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground turmeric",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut ribs into single-rib portions. In a bowl combine 2 tablespoons brown sugar, paprika, turmeric, and \u00bd teaspoon salt. Rub mixture over ribs."
+        },
+        {
+          "step": 2,
+          "text": "Roast ribs, meaty side up, in a shallow roasting pan in a 350\u00b0 oven for 1 hour."
+        },
+        {
+          "step": 3,
+          "text": "For sauce, in a saucepan combine the remaining brown sugar, onion, vinegar, mustard, celery seed, and garlic powder. Bring to boiling, stirring till sugar dissolves."
+        },
+        {
+          "step": 4,
+          "text": "Drain fat from pan. Brush ribs with sauce. Roast 30 to 45 minutes more or till done, brushing frequently with sauce."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "appetizer",
+        "ribs",
+        "pork",
+        "glazed",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5183 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 484,
+          "fat_g": 24.1,
+          "protein_g": 27.0,
+          "carbs_g": 38.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for packed brown sugar (standard quantity)",
+          "Assumed 1 unit for ground turmeric",
+          "Inferred 1.0 for chopped onion (standard quantity)",
+          "Assumed 1 unit for vinegar",
+          "Assumed 1 unit for prepared mustard"
+        ]
+      },
+      "variant_of": "mustard-glazed-ribs",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "barbecue-style-chicken-wings-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Barbecue-Style Chicken Wings",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 17",
+      "description": "Provide lots of napkins with these saucy wings.",
+      "servings_yield": "Makes 15",
+      "cook_time": "20 minutes + 15-20 minutes",
+      "ingredients": [
+        {
+          "item": "chicken wings",
+          "quantity": "1\u00bd",
+          "unit": "lbs",
+          "prep_note": "about 8"
+        },
+        {
+          "item": "catsup",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse chicken; pat dry. Cut off and discard wing tips. Cut each wing at joint to make 2 sections. Place the wing pieces in a single layer in a 13x9x2-inch baking pan."
+        },
+        {
+          "step": 2,
+          "text": "Bake in a 375\u00b0 oven for 20 minutes. Drain fat from baking pan."
+        },
+        {
+          "step": 3,
+          "text": "For sauce, combine remaining ingredients. Brush wings with sauce. Bake 10 minutes. Turn wings over; brush again with sauce. Bake for 5 to 10 minutes or till chicken is tender."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "notes": [
+        "Microwave directions: Prepare the chicken wings as above. Place wing pieces in a single layer in a 12x7\u00bdx2-inch baking dish. Cover with waxed paper. Micro-cook on 100% power (high) for 5 minutes. Drain. For sauce, combine remaining ingredients. Brush wings with sauce. Turn wings over and rearrange. Brush with sauce. Cook, covered, on high for 3 to 5 minutes more or till chicken is no longer pink."
+      ],
+      "tags": [
+        "appetizer",
+        "chicken",
+        "wings",
+        "barbecue"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5184 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 55,
+          "fat_g": 2.8,
+          "protein_g": 5.9,
+          "carbs_g": 1.1
+        },
+        "missing_inputs": [
+          "Not in database: catsup"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for finely chopped onion (standard quantity)",
+          "Based on 5/6 ingredients (83% coverage)"
+        ]
+      },
+      "variant_of": "barbecue-style-chicken-wings",
+      "variant_note": "Same ingredients, different quantities"
+    },
+    {
+      "id": "cheese-twists-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Twists",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 17",
+      "description": "These pastry snacks go great alone or with salads.",
+      "servings_yield": "Makes 40",
+      "cook_time": "10-12 minutes",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "\u215b",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "finely shredded cheddar or American cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "4 ounces"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "3 to 5",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "toasted sesame seed or poppy seed",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large mixing bowl combine flour, garlic powder, salt, and, if desired, red pepper. Cut in cheese and margarine or butter till pieces are the size of small peas. Sprinkle 1 tablespoon of the water over part of the mixture. Gently toss with a fork. Push to side of bowl. Repeat till all of flour mixture is moistened. Shape dough into a ball."
+        },
+        {
+          "step": 2,
+          "text": "On a lightly floured surface, flatten dough with hands. Roll out dough from center to edges, forming a 10-inch square. Brush with egg. Sprinkle with sesame seed or poppy seed. Cut dough into 5x\u00bd-inch strips. Twist each strip."
+        },
+        {
+          "step": 3,
+          "text": "Place on lightly greased baking sheets. Bake in a 400\u00b0 oven for 10 to 12 minutes or till golden brown. Serve warm or cool."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "notes": [
+        "Herbed Parmesan Twists: Prepare as above, except do not use red pepper, add \u00bc teaspoon crushed dried oregano to the flour mixture, and substitute 3 tablespoons grated Parmesan cheese for the sesame or poppy seed.",
+        "Swiss-Caraway Twists: Prepare as above, except substitute Swiss cheese for the cheddar or American cheese and caraway seed for the sesame seed or poppy seed."
+      ],
+      "tags": [
+        "appetizer",
+        "pastry",
+        "cheese",
+        "twists"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5184 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 21,
+          "fat_g": 0.9,
+          "protein_g": 0.6,
+          "carbs_g": 2.4
+        },
+        "missing_inputs": [
+          "Not in database: toasted sesame seed or poppy seed"
+        ],
+        "assumptions": [
+          "Inferred 2 for garlic powder (standard quantity)",
+          "Inferred 1 for salt (standard quantity)",
+          "Inferred 0.25 for ground red pepper (standard quantity)",
+          "Inferred 2 for margarine or butter (standard quantity)",
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "egg-rolls-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Egg Rolls",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 18",
+      "description": "These crisp, golden egg rolls make a delicious start to any meal.",
+      "servings_yield": "8 servings",
+      "cook_time": "2-3 minutes per batch",
+      "ingredients": [
+        {
+          "item": "egg roll skins",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Crab Filling, Pork and Shrimp Filling, Ham-Orange Filling, or Vegetable Filling",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipes"
+        },
+        {
+          "item": "shortening or cooking oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for deep-fat frying"
+        },
+        {
+          "item": "Sweet-Sour Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 363"
+        },
+        {
+          "item": "Oriental-Style Mustard Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 365"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For each egg roll, place one egg roll skin on a flat surface with one corner toward you. Spoon about \u00bc cup of the desired filling just below the center of egg roll skin."
+        },
+        {
+          "step": 2,
+          "text": "Fold the corner nearest you over the filling, tucking the corner under the filling. Fold side corners over top, like an envelope. Roll up toward the remaining corner."
+        },
+        {
+          "step": 3,
+          "text": "Moisten the point with water and press firmly to seal."
+        },
+        {
+          "step": 4,
+          "text": "In a heavy saucepan or deep-fat fryer heat 2 inches of melted shortening or cooking oil to 365\u00b0. Fry the egg rolls, a few at a time, for 2 to 3 minutes or till golden brown. Drain on paper towels."
+        },
+        {
+          "step": 5,
+          "text": "Keep warm in a 300\u00b0 oven while frying the remainder. Serve warm egg rolls with Sweet-Sour Sauce or Oriental-Style Mustard Sauce, or both."
+        }
+      ],
+      "temperature": "365\u00b0F (frying), 300\u00b0F (keeping warm)",
+      "tags": [
+        "appetizer",
+        "egg rolls",
+        "asian",
+        "fried"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5185 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 176,
+          "fat_g": 6.3,
+          "protein_g": 14.5,
+          "carbs_g": 15.5
+        },
+        "missing_inputs": [
+          "Not in database: Sweet-Sour Sauce"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for Crab Filling, Pork and Shrimp Filling, Ham-Orange Filling, or Vegetable Filling (standard quantity)",
+          "Inferred 2 for shortening or cooking oil (standard quantity)",
+          "Assumed 1 unit for Oriental-Style Mustard Sauce",
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "wontons-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wontons",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 18",
+      "description": "Every bit as tasty as egg rolls, wontons are smaller and more manageable at appetizer parties. One or two bites and it's time to reach for another.",
+      "servings_yield": "Makes 40",
+      "cook_time": "2-3 minutes per batch",
+      "ingredients": [
+        {
+          "item": "wonton skins",
+          "quantity": "40",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Crab Filling, Pork and Shrimp Filling, Ham-Orange Filling, or Vegetable Filling",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipes"
+        },
+        {
+          "item": "shortening or cooking oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for deep-fat frying"
+        },
+        {
+          "item": "Sweet-Sour Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 363"
+        },
+        {
+          "item": "Oriental-Style Mustard Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 365"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For each wonton, place one wonton skin on a flat surface with one corner toward you. Spoon a rounded teaspoon of desired filling just below the center of wonton skin."
+        },
+        {
+          "step": 2,
+          "text": "Fold the corner closest to you over the filling and tuck it under the filling. Roll up, leaving 1 inch unrolled at the top. Moisten the right corner with water. Grasp right and left corners and bring them over the filling, lapping the right corner over the left corner. Press firmly to seal."
+        },
+        {
+          "step": 3,
+          "text": "In a heavy saucepan or deep-fat fryer heat 2 inches of melted shortening or oil to 365\u00b0. Fry the wontons, a few at a time, for 2 to 3 minutes or till golden brown. Drain on paper towels."
+        },
+        {
+          "step": 4,
+          "text": "Keep warm in a 300\u00b0 oven while frying the remainder. Serve warm with Sweet-Sour Sauce or Oriental-Style Mustard Sauce, or both."
+        }
+      ],
+      "temperature": "365\u00b0F (frying), 300\u00b0F (keeping warm)",
+      "tags": [
+        "appetizer",
+        "wontons",
+        "asian",
+        "fried"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5185 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 18,
+          "fat_g": 0.9,
+          "protein_g": 2.3,
+          "carbs_g": 0.1
+        },
+        "missing_inputs": [
+          "Not in database: wonton skins",
+          "Not in database: Sweet-Sour Sauce"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for Crab Filling, Pork and Shrimp Filling, Ham-Orange Filling, or Vegetable Filling (standard quantity)",
+          "Inferred 2 for shortening or cooking oil (standard quantity)",
+          "Assumed 1 unit for Oriental-Style Mustard Sauce",
+          "Based on 3/5 ingredients (60% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "crab-filling-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crab Filling",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 19",
+      "description": "Use this or any of the following three fillings for either Egg Rolls or Wontons.",
+      "servings_yield": "2 cups (enough for 8 egg rolls or 40 wontons)",
+      "ingredients": [
+        {
+          "item": "Chinese cabbage or cabbage",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "finely chopped pea pods",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped water chestnuts",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "crabmeat",
+          "quantity": "1",
+          "unit": "6-ounce can",
+          "prep_note": "drained, flaked, and cartilage removed"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "\u215b",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a skillet cook 1 cup chopped Chinese cabbage or cabbage, \u00bd cup finely chopped pea pods, \u00bc cup chopped water chestnuts, 2 tablespoons finely chopped onion, and 1 clove garlic, minced, in 1 tablespoon cooking oil for 2 to 3 minutes or till crisp-tender. Remove from heat."
+        },
+        {
+          "step": 2,
+          "text": "In a mixing bowl combine one 6-ounce can crabmeat, drained, flaked, and cartilage removed; 2 tablespoons soy sauce; 2 tablespoons dry sherry; \u215b teaspoon pepper; and the cooked vegetable mixture. Toss to mix."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "filling",
+        "crab",
+        "asian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5186 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 254,
+          "fat_g": 2.5,
+          "protein_g": 41.3,
+          "carbs_g": 11.6
+        },
+        "missing_inputs": [
+          "Not in database: finely chopped pea pods"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for chopped water chestnuts",
+          "Inferred 1 for pepper (standard quantity)",
+          "Based on 9/10 ingredients (90% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pork-and-shrimp-filling-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pork and Shrimp Filling",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 19",
+      "servings_yield": "2 cups (enough for 8 egg rolls or 40 wontons)",
+      "ingredients": [
+        {
+          "item": "frozen, peeled, cooked shrimp",
+          "quantity": "1",
+          "unit": "6-ounce package",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "finely chopped cooked pork",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped bean sprouts",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped fresh mushrooms",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "grated gingerroot",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw one 6-ounce package frozen, peeled, cooked shrimp. Cut up shrimp."
+        },
+        {
+          "step": 2,
+          "text": "In a mixing bowl combine shrimp, \u00bd cup finely chopped cooked pork, \u00bd cup finely chopped bean sprouts, \u00bd cup finely chopped fresh mushrooms, \u00bc cup sliced green onion, 2 tablespoons soy sauce, and 1 teaspoon grated gingerroot. Mix well."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "filling",
+        "pork",
+        "shrimp",
+        "asian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5186 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 764,
+          "fat_g": 40.2,
+          "protein_g": 88.1,
+          "carbs_g": 6.6
+        },
+        "missing_inputs": [
+          "Not in database: finely chopped bean sprouts"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for finely chopped cooked pork (standard quantity)",
+          "Inferred 1.0 for finely chopped fresh mushrooms (standard quantity)",
+          "Inferred 1.0 for sliced green onion (standard quantity)",
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "ham-orange-filling-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Ham-Orange Filling",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 19",
+      "servings_yield": "2 cups (enough for 8 egg rolls or 40 wontons)",
+      "ingredients": [
+        {
+          "item": "finely chopped fully cooked ham",
+          "quantity": "\u00be",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped bamboo shoots",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped broccoli",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "orange juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "\u215b",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine \u00be cup finely chopped fully cooked ham, \u00bd cup chopped bamboo shoots, \u00bd cup finely chopped onion, \u00bd cup finely chopped broccoli, \u00bd teaspoon finely shredded orange peel, 2 tablespoons orange juice, and \u215b teaspoon ground red pepper. Mix well."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "filling",
+        "ham",
+        "orange",
+        "asian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5186 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 230,
+          "fat_g": 6.5,
+          "protein_g": 28.4,
+          "carbs_g": 15.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.5 for finely chopped fully cooked ham (standard quantity)",
+          "Assumed 1 unit for chopped bamboo shoots",
+          "Inferred 1.0 for finely chopped onion (standard quantity)",
+          "Assumed 1 unit for finely chopped broccoli",
+          "Assumed 1 unit for finely shredded orange peel"
+        ]
+      }
+    },
+    {
+      "id": "vegetable-filling-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Vegetable Filling",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 19",
+      "servings_yield": "2 cups (enough for 8 egg rolls or 40 wontons)",
+      "ingredients": [
+        {
+          "item": "chopped fresh spinach",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded carrot",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped fresh mushrooms",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded zucchini",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "\u215b",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a steamer basket over boiling water place 1 cup chopped fresh spinach, 1 cup shredded carrot, 1 cup chopped fresh mushrooms, \u00bd cup shredded zucchini, and \u00bc cup finely chopped onion. Cover; steam for 4 minutes. Drain well."
+        },
+        {
+          "step": 2,
+          "text": "Transfer to a mixing bowl. Stir in 2 tablespoons soy sauce, \u00bd teaspoon dry mustard, \u00bc teaspoon pepper, and \u215b teaspoon garlic powder."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "filling",
+        "vegetable",
+        "asian",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5186 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 0.5,
+          "protein_g": 3.8,
+          "carbs_g": 17.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for shredded zucchini",
+          "Inferred 1.0 for finely chopped onion (standard quantity)",
+          "Assumed 1 unit for dry mustard",
+          "Inferred 1 for pepper (standard quantity)",
+          "Inferred 2 for garlic powder (standard quantity)"
+        ]
+      }
+    },
+    {
+      "id": "spinach-phyllo-triangles-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spinach Phyllo Triangles",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 19",
+      "servings_yield": "Makes 24",
+      "cook_time": "18-20 minutes",
+      "ingredients": [
+        {
+          "item": "frozen chopped spinach",
+          "quantity": "1",
+          "unit": "10-ounce package",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "feta cheese",
+          "quantity": "6",
+          "unit": "ounces",
+          "prep_note": "finely crumbled"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "sheets phyllo dough",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "8 to 10 ounces"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": "melted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For filling, cook spinach, onion, and garlic according to spinach package directions. Drain well in colander. Press the back of a spoon against mixture to force out excess moisture. Combine spinach mixture, feta cheese, and oregano."
+        },
+        {
+          "step": 2,
+          "text": "Lightly brush 1 sheet of phyllo with some of the melted margarine or butter. Place another phyllo sheet on top; brush with some margarine. Repeat with a third sheet of phyllo and margarine. (Cover the remaining phyllo with a damp cloth to prevent drying.) Cut the stack of phyllo lengthwise into 6 strips."
+        },
+        {
+          "step": 3,
+          "text": "For each triangle, spoon about 1 tablespoon of the filling about 1 inch from one end of each strip. Fold the end over the filling at a 45-degree angle. Continue folding to form a triangle that encloses filling. Repeat with remaining phyllo, margarine or butter, and filling."
+        },
+        {
+          "step": 4,
+          "text": "Place triangles on a baking sheet. Brush with margarine. Bake in a 375\u00b0 oven for 18 to 20 minutes or till golden. Serve warm."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "appetizer",
+        "phyllo",
+        "spinach",
+        "feta",
+        "greek"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5186 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 1.1,
+          "protein_g": 0.3,
+          "carbs_g": 0.7
+        },
+        "missing_inputs": [
+          "Not in database: sheets phyllo dough"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for chopped onion (standard quantity)",
+          "Assumed 1 unit for dried oregano",
+          "Inferred 2 for margarine or butter (standard quantity)",
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      },
+      "variant_of": "spinach-phyllo-triangles",
+      "variant_note": "Similar recipe with variations"
+    },
+    {
+      "id": "oysters-rockefeller-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Oysters Rockefeller",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 20",
+      "servings_yield": "8 servings",
+      "cook_time": "10-12 minutes",
+      "ingredients": [
+        {
+          "item": "chopped fresh spinach",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "oysters in shells",
+          "quantity": "24",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "melted"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "several drops"
+        },
+        {
+          "item": "fine dry seasoned bread crumbs",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "rock salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook spinach and onion in a small amount of boiling water for 2 to 3 minutes or till tender. Drain; press out excess moisture."
+        },
+        {
+          "step": 2,
+          "text": "Thoroughly wash oysters. Open shells with an oyster knife or other blunt-tipped knife. Remove oysters and dry. Discard flat top shells; wash deep bottom shells. Place each oyster in a shell."
+        },
+        {
+          "step": 3,
+          "text": "Combine spinach mixture, 2 tablespoons of margarine, parsley, garlic, hot sauce, and dash pepper. Spoon 1 teaspoon atop each oyster."
+        },
+        {
+          "step": 4,
+          "text": "Toss together crumbs and remaining margarine. Sprinkle over spinach-topped oysters."
+        },
+        {
+          "step": 5,
+          "text": "Line a shallow baking pan with rock salt to about \u00bd-inch depth. (Or, use crumpled foil to keep shells from tipping.) Arrange oysters atop."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 425\u00b0 oven 10 to 12 minutes or till edges of oysters begin to curl."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "tags": [
+        "appetizer",
+        "oysters",
+        "seafood",
+        "elegant",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5187 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 576,
+          "fat_g": 19.1,
+          "protein_g": 56.3,
+          "carbs_g": 42.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for finely chopped onion (standard quantity)",
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Assumed 1 unit for fine dry seasoned bread crumbs",
+          "Inferred 1 for rock salt (standard quantity)",
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "salmon-mousse-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salmon Mousse",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 20",
+      "servings_yield": "24 servings",
+      "prep_time": "4 to 24 hours ahead",
+      "ingredients": [
+        {
+          "item": "boneless, skinless salmon",
+          "quantity": "1",
+          "unit": "6\u00bd-ounce can",
+          "prep_note": ""
+        },
+        {
+          "item": "unflavored gelatin",
+          "quantity": "1",
+          "unit": "envelope",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chili sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "finely chopped celery",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped chives",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "assorted crackers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain salmon, reserving liquid. Add water to liquid to make \u00bd cup. In saucepan sprinkle gelatin over reserved liquid. Let stand 5 minutes. Heat and stir till gelatin dissolves. Remove from heat."
+        },
+        {
+          "step": 2,
+          "text": "Mix mayonnaise, chili sauce, and lemon juice. Stir into gelatin. Chill till partially set (consistency of unbeaten egg whites). Fold in salmon, eggs, celery, onion, chives, and \u215b teaspoon pepper."
+        },
+        {
+          "step": 3,
+          "text": "Beat cream till soft peaks form. Fold into gelatin mixture. Pour into a 3\u00bd- or 4-cup mold. Chill 4 to 24 hours."
+        },
+        {
+          "step": 4,
+          "text": "Unmold on lettuce-lined serving platter. Serve with crackers."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "salmon",
+        "mousse",
+        "seafood",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5187 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 85,
+          "fat_g": 6.6,
+          "protein_g": 4.9,
+          "carbs_g": 1.4
+        },
+        "missing_inputs": [
+          "Not in database: chili sauce"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for mayonnaise or salad dressing",
+          "Inferred 0.5 for finely chopped celery (standard quantity)",
+          "Assumed 1 unit for whipping cream",
+          "Assumed 1 unit for lettuce leaves",
+          "Assumed 1 unit for assorted crackers"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-cocktail-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp Cocktail",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 20",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen peeled shrimp",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cooked, deveined, and chilled"
+        },
+        {
+          "item": "lettuce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Cocktail Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 364"
+        },
+        {
+          "item": "lemon wedges",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange shrimp in six lettuce-lined cocktail cups or glasses."
+        },
+        {
+          "step": 2,
+          "text": "Spoon 1 tablespoon of the Cocktail Sauce over each. Serve with lemon."
+        }
+      ],
+      "notes": [
+        "Fruit Shrimp Cocktail: Prepare as above, except toss 1 peeled and sectioned orange, 1 peeled and sectioned grapefruit, and 1 seeded, peeled, and sliced avocado with the shrimp.",
+        "Crab Cocktail: Prepare as above, except substitute two 6-ounce packages frozen crabmeat, thawed, and 2 cups finely chopped celery for the shrimp."
+      ],
+      "tags": [
+        "appetizer",
+        "shrimp",
+        "seafood",
+        "cocktail",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5187 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 1.4,
+          "protein_g": 15.5,
+          "carbs_g": 1.7
+        },
+        "missing_inputs": [
+          "Not in database: Cocktail Sauce"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for lettuce",
+          "Assumed 1 unit for lemon wedges",
+          "Based on 3/4 ingredients (75% coverage)"
+        ]
+      },
+      "sources": [
+        "mommom-baker"
+      ],
+      "source_notes": "Consolidated from multiple sources: mommom-baker"
+    },
+    {
+      "id": "codfish-balls-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Codfish Balls",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 20",
+      "servings_yield": "Makes 15",
+      "prep_time": "4 to 24 hours soaking",
+      "cook_time": "10 minutes + 2 minutes frying",
+      "ingredients": [
+        {
+          "item": "salt cod",
+          "quantity": "4",
+          "unit": "ounces",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped, peeled potatoes",
+          "quantity": "1\u00bd",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "\u00bc",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening or cooking oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for deep-fat frying"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak cod in water to cover for 4 to 24 hours; change water often. Drain; cut into small pieces."
+        },
+        {
+          "step": 2,
+          "text": "Cook cod, potatoes, and onion in boiling water about 10 minutes or till tender; drain. Beat mixture till combined."
+        },
+        {
+          "step": 3,
+          "text": "Beat in egg, cheese, parsley, margarine, and \u00bc teaspoon pepper."
+        },
+        {
+          "step": 4,
+          "text": "In a heavy saucepan or deep-fat fryer heat 2 inches of melted shortening or oil to 375\u00b0. Drop cod mixture by heaping tablespoons, a few at a time, into hot fat. Fry about 2 minutes or till golden. Drain on paper towels. Serve with tartar or cocktail sauce, if desired."
+        }
+      ],
+      "temperature": "375\u00b0F (deep frying)",
+      "tags": [
+        "appetizer",
+        "cod",
+        "fish",
+        "fried",
+        "seafood"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5187 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 2.2,
+          "protein_g": 1.2,
+          "carbs_g": 6.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for chopped onion (standard quantity)",
+          "Inferred 2 for shortening or cooking oil (standard quantity)",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "batter-fried-vegetables-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Batter-Fried Vegetables",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 21",
+      "description": "Bottled buttermilk salad dressing or sweet-and-sour sauce also make flavorful dipping sauces.",
+      "servings_yield": "8 servings",
+      "cook_time": "2-3 minutes per batch",
+      "ingredients": [
+        {
+          "item": "slightly beaten egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ice water, cold milk, or cold beer",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetables (fresh whole mushrooms; cauliflower or broccoli flowerets; green pepper strips; onion rings; green onions; fresh green beans; fresh asparagus, cut into 2-inch lengths; sweet potato, peeled and cut into \u00bc-inch-thick slices; eggplant, peeled and cut into 1-inch cubes)",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": "any combination"
+        },
+        {
+          "item": "shortening or cooking oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for deep-fat frying"
+        },
+        {
+          "item": "Dipping Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For batter, in a medium mixing bowl stir together egg and ice water, milk, or beer. Add flour all at once. Beat with a rotary beater or wire whisk till mixture is smooth. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Rinse vegetables under cold water; drain. Pat dry with paper towels. Set aside."
+        },
+        {
+          "step": 3,
+          "text": "In a heavy saucepan or deep-fat fryer, heat 2 inches of melted shortening or cooking oil to 375\u00b0. Dip vegetables, a few at a time, into the batter, swirling to coat. Fry for 2 to 3 minutes or till light golden brown. Drain vegetables on paper towels."
+        },
+        {
+          "step": 4,
+          "text": "Keep warm in a 300\u00b0 oven. Repeat with remaining vegetables. Serve with individual bowls of Dipping Sauce."
+        }
+      ],
+      "temperature": "375\u00b0F (deep frying), 300\u00b0F (keeping warm)",
+      "notes": [
+        "Dipping Sauce: In a small saucepan stir together 1 cup water, \u00bc cup dry sherry, \u00bc cup soy sauce, and 1 teaspoon grated gingerroot. Bring just to boiling. Remove from heat; keep warm. Makes 1\u2153 cups."
+      ],
+      "tags": [
+        "appetizer",
+        "vegetables",
+        "tempura",
+        "fried"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5188 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 158,
+          "fat_g": 4.1,
+          "protein_g": 3.6,
+          "carbs_g": 26.9
+        },
+        "missing_inputs": [
+          "Not in database: Dipping Sauce"
+        ],
+        "assumptions": [
+          "Inferred 2 for shortening or cooking oil (standard quantity)",
+          "Based on 5/6 ingredients (83% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fried-cheese-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fried Cheese",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 21",
+      "description": "Seasoned crumbs keep the melted cheese inside.",
+      "servings_yield": "Makes about 20",
+      "prep_time": "2 to 4 hours chilling",
+      "cook_time": "30-45 seconds per batch",
+      "ingredients": [
+        {
+          "item": "cheddar or Swiss cheese",
+          "quantity": "8",
+          "unit": "ounces",
+          "prep_note": ""
+        },
+        {
+          "item": "cornflake crumbs",
+          "quantity": "\u00be",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fines herbes",
+          "quantity": "\u00bd",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening or cooking oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for deep-fat frying"
+        },
+        {
+          "item": "taco sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut the cheese into 2\u00bdx\u00bdx\u00bd-inch sticks. Combine crumbs and fines herbes."
+        },
+        {
+          "step": 2,
+          "text": "Dip cheese sticks into eggs, then roll in crumb mixture, coating evenly. Dip cheese into egg and crumbs again. (Be sure cheese is completely coated with crumbs.) Chill 2 to 4 hours to set the coating."
+        },
+        {
+          "step": 3,
+          "text": "In a heavy saucepan or a deep-fat fryer heat 2 inches of melted shortening or cooking oil to 375\u00b0. Fry the cheese sticks, a few at a time, for 30 to 45 seconds or till golden. Drain on paper towels."
+        },
+        {
+          "step": 4,
+          "text": "Keep warm in a 300\u00b0 oven while frying the remainder. Serve warm with taco sauce, if desired."
+        }
+      ],
+      "temperature": "375\u00b0F (deep frying), 300\u00b0F (keeping warm)",
+      "tags": [
+        "appetizer",
+        "cheese",
+        "fried"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5188 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 2.3,
+          "protein_g": 1.2,
+          "carbs_g": 1.6
+        },
+        "missing_inputs": [
+          "Not in database: fines herbes",
+          "Not in database: taco sauce"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for cornflake crumbs",
+          "Inferred 2 for shortening or cooking oil (standard quantity)",
+          "Based on 4/6 ingredients (67% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chicken-liver-pate-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicken Liver P\u00e2t\u00e9",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 22",
+      "servings_yield": "1 cup (serves 8)",
+      "prep_time": "3 to 24 hours ahead",
+      "cook_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "bacon",
+          "quantity": "2",
+          "unit": "slices",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken livers",
+          "quantity": "8",
+          "unit": "ounces",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "\u00bd",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "milk",
+          "quantity": "2 to 3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg or \u215b teaspoon ground allspice",
+          "quantity": "\u00bc",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "\u215b",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "assorted crackers",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large skillet cook bacon till crisp. Remove bacon from skillet, reserving 2 tablespoons of drippings. Drain and crumble bacon; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Add chicken livers, onion, and garlic to reserved drippings. Cook over medium heat, stirring constantly, about 5 minutes or till livers are no longer pink. Cool slightly."
+        },
+        {
+          "step": 3,
+          "text": "In a blender container or food processor bowl place 2 tablespoons milk, salt, nutmeg or allspice, pepper, chicken liver mixture, and bacon. Cover and blend or process till well combined. (Add 1 tablespoon milk if mixture appears stiff.)"
+        },
+        {
+          "step": 4,
+          "text": "Line a 1\u00bd-cup mold or small bowl with plastic wrap. Spoon mixture into mold. Cover; chill 3 to 24 hours."
+        },
+        {
+          "step": 5,
+          "text": "To serve, unmold and remove wrap. Serve with crackers."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "p\u00e2t\u00e9",
+        "chicken livers",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5189 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1053,
+          "fat_g": 53.8,
+          "protein_g": 98.2,
+          "carbs_g": 39.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for chopped onion (standard quantity)",
+          "Inferred 1 for salt (standard quantity)",
+          "Assumed 1 unit for ground nutmeg or \u215b teaspoon ground allspice",
+          "Inferred 1 for pepper (standard quantity)",
+          "Assumed 1 unit for assorted crackers"
+        ]
+      }
+    },
+    {
+      "id": "melon-and-prosciutto-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Melon and Prosciutto",
+      "category": "appetizers",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 22",
+      "description": "Spicy prosciutto, a thinly sliced Italian ham, meshes perfectly with cool crisp melon.",
+      "servings_yield": "Makes about 36",
+      "ingredients": [
+        {
+          "item": "large cantaloupe or honeydew melon, or half of each melon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "very thinly sliced prosciutto or fully cooked ham",
+          "quantity": "3",
+          "unit": "ounces",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut cantaloupe or honeydew melon in half and remove seeds. Use a melon baller to scoop out pulp, or cut pulp into bite-size cubes."
+        },
+        {
+          "step": 2,
+          "text": "Cut prosciutto or ham into 1-inch-wide strips."
+        },
+        {
+          "step": 3,
+          "text": "Wrap one strip of prosciutto or ham around each melon ball. Fasten with a toothpick."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "melon",
+        "prosciutto",
+        "italian",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5189 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 0.3,
+          "protein_g": 1.1,
+          "carbs_g": 0.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    }
+  ]
+}

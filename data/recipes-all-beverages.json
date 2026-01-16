@@ -1,0 +1,4902 @@
+{
+  "meta": {
+    "collection": "all",
+    "category": "beverages",
+    "total_recipes": 51,
+    "generated": "2026-01-16T14:00:19.001784Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "mexican-breakfast-choco-drink-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Mexican Breakfast Choco Drink",
+      "category": "beverages",
+      "description": "A rich and spiced hot chocolate drink.",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "6",
+          "unit": "cups"
+        },
+        {
+          "item": "cocoa powder",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "caster sugar",
+          "quantity": "1/2 cup plus 1 tbsp",
+          "unit": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "instant coffee",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla essence",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "freshly ground nutmeg",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cloves",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "ground"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine milk, cocoa powder, sugar, cinnamon, coffee, vanilla, nutmeg and cloves in deep pan or pot."
+        },
+        {
+          "step": 2,
+          "text": "Cook over medium heat until solid ingredients are dissolved and mixture is nearly simmering. Do not boil chocolate drink."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat and whisk until slightly thick."
+        },
+        {
+          "step": 4,
+          "text": "Pour into cups and top with whipped cream. Sprinkle grated chocolate and cinnamon over cream. Serve hot."
+        }
+      ],
+      "notes": [
+        "Serve with breakfast rolls and slices of fresh fruit."
+      ],
+      "tags": [
+        "beverages",
+        "breakfast",
+        "chocolate",
+        "mexican",
+        "hot drink"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4379",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4380"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 10.1,
+          "carbs_g": 23.7,
+          "protein_g": 10.9,
+          "sodium_mg": 108,
+          "fiber_g": 5.1,
+          "sugar_g": 15.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
+    },
+    {
+      "id": "yale-college-punch",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Yale College Punch",
+      "category": "beverages",
+      "source_note": "Cooking Light Magazine March 2009 - From Punch: The Delights (and Dangers) of the Flowing Bowl by David Wondrich (1867 recipe)",
+      "description": "Retro cocktails get all the attention these days, but punch predates individual mixed drinks by at least two centuries, according to Punch: The Delights (and Dangers) of the Flowing Bowl ($24; Perigee). The book, by drinks historian David Wondrich, includes historically accurate recipes dating back as far as 1668. Some of the punches call for far-out ingredients like whale cholesterol, but this recipe from 1867 is much more doable for modern-day spirit lovers. It's the 19th-century version of that college favorite 'jungle juice.'",
+      "ingredients": [
+        {
+          "item": "pineapple chunks",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cognac",
+          "quantity": "750",
+          "unit": "ml"
+        },
+        {
+          "item": "seltzer or club soda",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "superfine sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cold demi-sec champagne",
+          "quantity": "375-750",
+          "unit": "ml"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large punch bowl, steep 1 cup pineapple chunks in 750 ml cognac for an hour or two in the refrigerator. Add 2 1/2 cups seltzer or club soda and 1/4 cup superfine sugar, stirring until the sugar is dissolved, then add between 375 ml and 750 ml cold demi-sec champagne."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "punch",
+        "cocktail",
+        "champagne",
+        "cognac",
+        "party"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 75.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "notes": [
+        "Punch is back in style. Retro cocktails get all the attention these days, but punch predates individual mixed drinks by at least two centuries.",
+        "From 'Punch: The Delights (and Dangers) of the Flowing Bowl' by drinks historian David Wondrich.",
+        "Includes historically accurate recipes dating back as far as 1668.",
+        "This recipe from 1867 is the 19th-century version of that college favorite 'jungle juice.'"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 188,
+          "fat_g": 0.1,
+          "carbs_g": 21.0,
+          "protein_g": 0.4,
+          "sodium_mg": 8,
+          "fiber_g": 0.5,
+          "sugar_g": 17.7
+        },
+        "missing_inputs": [
+          "750 ml cognac",
+          "2 1/2 cups seltzer or club soda"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
+    },
+    {
+      "id": "gin-three-ways-cocktails",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Gin Three Ways",
+      "category": "beverages",
+      "source_note": "Food Network Magazine December 2010",
+      "description": "Buy one bottle of gin and mix up a trio of cocktails.",
+      "ingredients": [
+        {
+          "item": "gin",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "oz"
+        },
+        {
+          "item": "simple syrup",
+          "quantity": "1/2",
+          "unit": "oz"
+        },
+        {
+          "item": "champagne",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "for French 75"
+        },
+        {
+          "item": "dry vermouth",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": "for Gibson"
+        },
+        {
+          "item": "cocktail onions",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "for Gibson garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "French 75: In a cocktail shaker, combine 1 ounce gin, \u00bd ounce lemon juice and 1 teaspoon confectioners' sugar. Shake with ice for 30 seconds, then strain into a chilled flute; top with champagne."
+        },
+        {
+          "step": 2,
+          "text": "Gibson: In a mixing glass, combine 3 ounces gin and \u00bd ounce dry vermouth. Stir with ice for 30 seconds; let sit 1 to 2 minutes. Strain into a chilled martini glass and drop in a few cocktail onions."
+        },
+        {
+          "step": 3,
+          "text": "Bronx: In a cocktail shaker, combine 1 ounce gin, 2 ounces orange juice and \u00bd ounce each sweet and dry vermouth. Shake with ice for 30 seconds, then strain into a cocktail glass; garnish with an orange twist."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "cocktail",
+        "gin",
+        "party",
+        "holiday"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 114.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 188,
+          "fat_g": 0.1,
+          "carbs_g": 11.9,
+          "protein_g": 0.8,
+          "sodium_mg": 5,
+          "fiber_g": 1.5,
+          "sugar_g": 7.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
+    },
+    {
+      "id": "honey-punch",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Honey Punch",
+      "category": "beverages",
+      "source_note": "Food Network Magazine December 2010",
+      "ingredients": [
+        {
+          "item": "honey",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "apricot nectar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "vodka",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sparkling apple juice",
+          "quantity": "1",
+          "unit": "bottle"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dissolve \u00bd cup honey in \u00bd cup boiling water. Let cool, then pour into a pitcher; add the juice of 2 lemons, 2 cups apricot nectar and 1 cup vodka, if desired."
+        },
+        {
+          "step": 2,
+          "text": "Chill. Add a bottle of sparkling apple juice to the pitcher. Serve over ice with lemon slices."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "punch",
+        "honey",
+        "party",
+        "holiday"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 116.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 187,
+          "fat_g": 0.2,
+          "carbs_g": 48.4,
+          "protein_g": 1.1,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 45.5
+        },
+        "missing_inputs": [
+          "1 cup vodka",
+          "1 bottle sparkling apple juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
+    },
+    {
+      "id": "pineapple-lemon-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Pineapple Lemon Juice",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Fresh pineapple and lemon juice for digestive health.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "pineapple",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "skin removed, cubed"
+        },
+        {
+          "item": "lemon",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "quartered, skin on"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take the pineapple, remove the skin and cut it into cubes."
+        },
+        {
+          "step": 2,
+          "text": "Cut the lemon in quarters, leaving the skin on."
+        },
+        {
+          "step": 3,
+          "text": "Run the ingredients through the juicer and enjoy!"
+        }
+      ],
+      "notes": [
+        "Health relevance: Pineapple and lemon act as natural detergents for the intestine"
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "detox"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4754.PNG",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4755.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 50,
+          "fat_g": 0.2,
+          "carbs_g": 13.5,
+          "protein_g": 0.8,
+          "sodium_mg": 2,
+          "fiber_g": 1.8,
+          "sugar_g": 8.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "pear-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Pear Juice",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Simple fresh pear juice - excellent for rheumatism and arthritis.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "fresh pears",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "ripe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Core the pears but you can leave the peel on."
+        },
+        {
+          "step": 2,
+          "text": "Juice and enjoy!"
+        }
+      ],
+      "notes": [
+        "Health relevance: Pear juice is excellent for rheumatism, arthritis and gout due to its ability to dissolve uric acid crystals"
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4759.PNG",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4760.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4  fresh pears"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "papaya-energy-drink-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Papaya Energy Drink",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Energizing juice with papaya, orange, and kale.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "papaya",
+          "quantity": "1/2",
+          "unit": "medium",
+          "prep_note": ""
+        },
+        {
+          "item": "orange",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "kale",
+          "quantity": "4-6",
+          "unit": "leaves",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel the orange and papaya, remove papaya seeds."
+        },
+        {
+          "step": 2,
+          "text": "Juice and enjoy!"
+        }
+      ],
+      "notes": [
+        "Health relevance: This juice gives instant energy and a sense of wellbeing"
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "energy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4760.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 0.2,
+          "carbs_g": 15.0,
+          "protein_g": 1.0,
+          "sodium_mg": 0,
+          "fiber_g": 3.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "1/2 medium papaya",
+          "4-6 leaves kale"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "elixir-of-youth-3-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Elixir of Youth #3",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Anti-aging juice with papaya, ginger, and kale.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "papaya",
+          "quantity": "1/2",
+          "unit": "medium",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger",
+          "quantity": "1",
+          "unit": "small slice",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "kale",
+          "quantity": "4-6",
+          "unit": "leaves",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel the papaya and remove seeds."
+        },
+        {
+          "step": 2,
+          "text": "Clean kale thoroughly."
+        },
+        {
+          "step": 3,
+          "text": "Juice and enjoy!"
+        }
+      ],
+      "notes": [
+        "Health relevance: Ginger and kale combination boosts the immune system and has powerful anti-aging effects"
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "anti-aging"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4765.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1/2 medium papaya",
+          "4-6 leaves kale"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "antioxidant-delight-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Antioxidant Delight",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Antioxidant-rich juice with garlic, carrot, beet, and celery.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": ""
+        },
+        {
+          "item": "carrot",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": ""
+        },
+        {
+          "item": "beet",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "celery",
+          "quantity": "2-3",
+          "unit": "stalks",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Clean beets and carrots thoroughly."
+        },
+        {
+          "step": 2,
+          "text": "Remove the skin from the garlic."
+        },
+        {
+          "step": 3,
+          "text": "Juice and enjoy!"
+        }
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "antioxidant"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4765.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 69,
+          "fat_g": 0.5,
+          "carbs_g": 15.5,
+          "protein_g": 2.1,
+          "sodium_mg": 165,
+          "fiber_g": 5.6,
+          "sugar_g": 7.2
+        },
+        "missing_inputs": [
+          "1  beet"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "bright-juice-cocktail-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "The Bright Juice Cocktail",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Carrot, apple, and celery juice for eyes, skin, and energy.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "celery stalk",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel the carrots and dice."
+        },
+        {
+          "step": 2,
+          "text": "Core the apple but leave the skin on."
+        },
+        {
+          "step": 3,
+          "text": "Chop the celery stalk."
+        },
+        {
+          "step": 4,
+          "text": "Run all ingredients through the juicer/blender."
+        }
+      ],
+      "notes": [
+        "Health relevance: Excellent for eyes, skin and fat reduction"
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4770.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 261,
+          "fat_g": 1.1,
+          "carbs_g": 64.0,
+          "protein_g": 4.8,
+          "sodium_mg": 334,
+          "fiber_g": 18.4,
+          "sugar_g": 38.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "best-cold-remedy-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "The Best Cold Remedy",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Immune-boosting juice for fighting colds.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "oranges",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger",
+          "quantity": "1",
+          "unit": "small piece",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel the oranges and lemon."
+        },
+        {
+          "step": 2,
+          "text": "Juice all ingredients together."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "immune"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4770.PNG",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4771.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 0.5,
+          "carbs_g": 33.5,
+          "protein_g": 2.5,
+          "sodium_mg": 2,
+          "fiber_g": 6.9,
+          "sugar_g": 24.8
+        },
+        "missing_inputs": [
+          "1 small piece ginger"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "detox-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Detox Juice",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Multi-vegetable cleansing juice for blood, liver, and kidneys.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "apples",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1",
+          "unit": "inch"
+        },
+        {
+          "item": "celery",
+          "quantity": "1/4",
+          "unit": "stalk"
+        },
+        {
+          "item": "broccoli",
+          "quantity": "1",
+          "unit": "inch stem"
+        },
+        {
+          "item": "beetroot",
+          "quantity": "1",
+          "unit": "inch slice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Core the apples, but leave the skin on."
+        },
+        {
+          "step": 2,
+          "text": "Peel and chop the carrots, beet and cucumber."
+        },
+        {
+          "step": 3,
+          "text": "Chop the celery, green pepper."
+        },
+        {
+          "step": 4,
+          "text": "Run all ingredients through the juicer."
+        }
+      ],
+      "notes": [
+        "Health relevance: Cleanses blood, liver and kidneys while reducing body acidity",
+        "To improve the taste, you could add a little sea salt to the juice, stir and drink."
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "detox"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4775.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 192,
+          "fat_g": 0.6,
+          "carbs_g": 50.2,
+          "protein_g": 1.1,
+          "sodium_mg": 12,
+          "fiber_g": 9.0,
+          "sugar_g": 38.1
+        },
+        "missing_inputs": [
+          "1 inch cucumber",
+          "1 inch stem broccoli",
+          "1 inch slice beetroot"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "mango-delight-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Mango Delight",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Tropical juice with mango, greens, and honeydew melon.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "lettuce",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "spinach",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "red bell pepper",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": ""
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "medium",
+          "prep_note": ""
+        },
+        {
+          "item": "mango",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "honeydew melon",
+          "quantity": "1/4-1/8",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop the pepper, lettuce and spinach."
+        },
+        {
+          "step": 2,
+          "text": "Peel the carrots and dice."
+        },
+        {
+          "step": 3,
+          "text": "Chop the mango."
+        },
+        {
+          "step": 4,
+          "text": "Peel and chop the melon."
+        },
+        {
+          "step": 5,
+          "text": "Run all through the juicer."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "tropical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4780.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 92,
+          "fat_g": 0.6,
+          "carbs_g": 22.7,
+          "protein_g": 2.5,
+          "sodium_mg": 31,
+          "fiber_g": 3.0,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [
+          "1 small red bell pepper",
+          "3 medium carrots"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "pomegranate-antioxidant-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Pomegranate Antioxidant Juice",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "High antioxidant juice with pomegranate, carrots, and fruit.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "pomegranate",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "medium",
+          "prep_note": ""
+        },
+        {
+          "item": "apple, strawberries, pears, or peaches",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take the seeds out of the pomegranate fruit."
+        },
+        {
+          "step": 2,
+          "text": "Peel and dice the carrots."
+        },
+        {
+          "step": 3,
+          "text": "Core and peel the apple and chop."
+        },
+        {
+          "step": 4,
+          "text": "Dissolve the honey in water before adding to the juice."
+        },
+        {
+          "step": 5,
+          "text": "Run through the juicer/blender."
+        }
+      ],
+      "notes": [
+        "Health relevance: High in antioxidants, great for gum disorders and digestive problems"
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "antioxidant"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4785.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 234,
+          "fat_g": 3.3,
+          "carbs_g": 53.0,
+          "protein_g": 4.7,
+          "sodium_mg": 8,
+          "fiber_g": 11.0,
+          "sugar_g": 39.0
+        },
+        "missing_inputs": [
+          "3 medium carrots",
+          "1 cup apple, strawberries, pears, or peaches"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "uti-juice-ref",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Juice for Urinary Tract Infections",
+      "category": "beverages",
+      "source_note": "Kindle juicing cookbook screenshot",
+      "description": "Healing juice blend for urinary tract health.",
+      "servings_yield": "1 serving",
+      "ingredients": [
+        {
+          "item": "broccoli",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cranberries",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash all ingredients thoroughly."
+        },
+        {
+          "step": 2,
+          "text": "Core the apple."
+        },
+        {
+          "step": 3,
+          "text": "Juice all ingredients together."
+        }
+      ],
+      "tags": [
+        "beverage",
+        "juice",
+        "healthy",
+        "medicinal"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4785.PNG",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4786.PNG"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 0.6,
+          "carbs_g": 37.0,
+          "protein_g": 3.7,
+          "sodium_mg": 33,
+          "fiber_g": 8.5,
+          "sugar_g": 23.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "coffee-flavored-eggnog",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Coffee-Flavored Eggnog",
+      "category": "beverages",
+      "description": "A warm, comforting coffee beverage with the richness of eggnog.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "light brown sugar",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium-sized egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "full cream milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "strong hot coffee",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together sugar and egg yolks until light and frothy."
+        },
+        {
+          "step": 2,
+          "text": "Pour milk in a pan and bring to a boil. Spoon a little of the milk into beaten egg and beat until blended. Gradually pour egg-milk mixture into hot milk, whisking constantly to prevent egg yolks from curdling."
+        },
+        {
+          "step": 3,
+          "text": "Divide mixture into 4 heat-proof mugs or goblets. Stir with cinnamon sticks. Adjust sweetness, as desired. Serve hot or warm."
+        }
+      ],
+      "notes": [
+        "Replace coffee with hot chocolate to turn beverage into a drink for children."
+      ],
+      "tags": [
+        "beverages",
+        "breakfast",
+        "coffee",
+        "eggnog",
+        "warm drinks"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 341",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 342",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 343",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4374",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4375",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4376"
+      ],
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 6.5,
+          "carbs_g": 10.6,
+          "protein_g": 5.8,
+          "sodium_mg": 60,
+          "fiber_g": 1.4,
+          "sugar_g": 8.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "sources": [
+        "all"
+      ],
+      "source_notes": "Consolidated from multiple sources: all"
+    },
+    {
+      "id": "fruity-smoothie-with-ground-flax-seed",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Fruity Smoothie with Ground Flax Seed",
+      "category": "beverages",
+      "description": "A healthy and refreshing smoothie with blueberries, banana, and nutritious flax seeds.",
+      "servings_yield": "1 serving",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "banana",
+          "quantity": "1/2",
+          "unit": "large"
+        },
+        {
+          "item": "plain yogurt",
+          "quantity": "3",
+          "unit": "oz"
+        },
+        {
+          "item": "sweetened condensed milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "frozen berries",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "ground flaxseed",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine blueberries, banana, yogurt, milk and ice cubes in a blender. Pulse until smooth, about 2 to 3 minutes or until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Stir in ground flax seed and transfer to a tall glass. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Replace banana and blueberries with strawberries, peaches, pineapple, mango, or your choice of fruit in season. Adjust sweetness as needed."
+      ],
+      "tags": [
+        "beverages",
+        "breakfast",
+        "smoothie",
+        "blueberry",
+        "banana",
+        "healthy",
+        "flax seed"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 344",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4377"
+      ],
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 8.3,
+          "carbs_g": 17.1,
+          "protein_g": 7.2,
+          "sodium_mg": 71,
+          "fiber_g": 5.0,
+          "sugar_g": 11.6
+        },
+        "missing_inputs": [
+          "1/2 large banana"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      },
+      "sources": [
+        "all"
+      ],
+      "source_notes": "Consolidated from multiple sources: all"
+    },
+    {
+      "id": "fruity-yogurt-smoothie",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Fruity Yogurt Smoothie",
+      "category": "beverages",
+      "description": "A refreshing mango smoothie topped with crunchy cashew nuts.",
+      "servings_yield": "2 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "large ripe mango",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled, stoned and sliced"
+        },
+        {
+          "item": "apple juice or cider",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "yogurt",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "unsalted cashew nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "toasted and chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine mango slices, apple juice or cider, yogurt and honey in a blender. Pulse until smooth, about 2 to 3 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Divide smoothie into 2 tall glasses and sprinkle with chopped nuts. Serve right away."
+        }
+      ],
+      "notes": [
+        "Replace mango with cantaloupe slices, substitute apple juice with pineapple juice and increase honey to 3 tablespoons. You may also replace cashew with other nuts you prefer."
+      ],
+      "tags": [
+        "beverages",
+        "breakfast",
+        "smoothie",
+        "mango",
+        "cashews",
+        "healthy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 345",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4378"
+      ],
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 477,
+          "fat_g": 18.0,
+          "carbs_g": 79.1,
+          "protein_g": 8.8,
+          "sodium_mg": 32,
+          "fiber_g": 4.8,
+          "sugar_g": 63.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      },
+      "sources": [
+        "all"
+      ],
+      "source_notes": "Consolidated from multiple sources: all"
+    },
+    {
+      "id": "mexican-breakfast-choco-drink",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Mexican Breakfast Choco Drink",
+      "category": "beverages",
+      "description": "A rich, spiced hot chocolate drink with cinnamon, nutmeg and cloves.",
+      "servings_yield": "6 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "plus 1 tbsp"
+        },
+        {
+          "item": "cocoa powder",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "instant coffee",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "whipped cream",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for topping"
+        },
+        {
+          "item": "chocolate",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "grated, for topping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine milk, cocoa powder, sugar, cinnamon, coffee, vanilla, nutmeg and cloves in deep pan or pot."
+        },
+        {
+          "step": 2,
+          "text": "Cook over medium heat until solid ingredients are dissolved and mixture is nearly simmering. Do not boil chocolate drink."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat and whisk until slightly thick."
+        },
+        {
+          "step": 4,
+          "text": "Pour into cups and top with whipped cream. Sprinkle grated chocolate and cinnamon over cream. Serve hot."
+        }
+      ],
+      "notes": [
+        "Serve with breakfast rolls and slices of fresh fruit."
+      ],
+      "tags": [
+        "beverages",
+        "breakfast",
+        "hot chocolate",
+        "mexican",
+        "warm drinks",
+        "spiced"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 346",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 347"
+      ],
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 333,
+          "fat_g": 21.8,
+          "carbs_g": 30.3,
+          "protein_g": 6.9,
+          "sodium_mg": 87,
+          "fiber_g": 1.4,
+          "sugar_g": 28.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
+    },
+    {
+      "id": "quick-fruity-breakfast-smoothie",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Quick Fruity Breakfast Smoothie",
+      "category": "beverages",
+      "description": "A quick and healthy smoothie with pineapple, banana, and strawberries.",
+      "servings_yield": "2 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "banana",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "ripe"
+        },
+        {
+          "item": "yogurt",
+          "quantity": "4",
+          "unit": "oz"
+        },
+        {
+          "item": "strawberries",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "fresh or frozen"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine pineapple juice, banana, yogurt, strawberries, wheat germ (if using), vanilla, banana essence and ice in a blender."
+        },
+        {
+          "step": 2,
+          "text": "Process for 2 to 3 minutes or until smooth. Serve immediately."
+        }
+      ],
+      "notes": [
+        "If recipe will be made as snack, replace yogurt with vanilla ice cream. Omit ice and wheat germ."
+      ],
+      "tags": [
+        "beverages",
+        "breakfast",
+        "smoothie",
+        "strawberry",
+        "banana",
+        "pineapple",
+        "healthy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 348",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4381"
+      ],
+      "source_note": "Recipe Keeper digital cookbook",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 2.1,
+          "carbs_g": 6.0,
+          "protein_g": 2.5,
+          "sodium_mg": 29,
+          "fiber_g": 0.8,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [
+          "1 large banana"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      },
+      "sources": [
+        "all"
+      ],
+      "source_notes": "Consolidated from multiple sources: all"
+    },
+    {
+      "id": "batch-spicy-coconut-lime-margarita",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Batch Spicy Coconut Lime Margarita",
+      "category": "beverages",
+      "attribution": "Half Baked Harvest",
+      "source_note": "Half Baked Harvest - Mexican Recipes",
+      "description": "These tropical batch-style margaritas are a spicy, sweet take on the classic...great for easy serving!",
+      "servings_yield": "4",
+      "prep_time": "15 minutes",
+      "cook_time": "",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "2  jalape\u00f1os or serrano chiles",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/2 cup fresh basil leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "8 ounces (1 cup)  silver tequila",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "4 ounces (1/2 cup)  orange liquor",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/2 cup lime juice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 tablespoons honey or sugar, to your taste",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 cup canned unsweetened coconut milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger beer, for topping  ((optional))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/4 cup sea salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 tablespoon lime zest",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "1. Place the jalape\u00f1os (chiles) over a gas flame, or in a dry skillet over high heat. Char the chiles all over, turning a few times until blackened. Remove and let cool, then halve the chiles and de-seed, if desired.2. Combine the basil, tequila, orange liquor, lime juice, and charred jalape\u00f1os in a large pitcher. Stir to combine. Chill until ready to serve. The longer the jalape\u00f1os sit, the spicier the drink will be. Strain out the chiles and discard. Return the drink to the pitcher and chill until ready to serve.3. To make the lime salt. Combine all ingredients on a shallow plate. Rim your glasses.4. When ready to serve, fill the pitcher with ice. Stir well to incorporate the coconut milk. Pour into glasses and top off each glass with ginger beer (if using). Garnish with basil and lime zest.4.\u00a0To Make a Mocktail:\u00a0omit the tequila and orange liquor and use 2 tablespoons of orange juice and an additional tablespoon of lime juice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverages",
+        "mexican",
+        "latin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 372
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "frozen-aperol-peach-margarita-pitcher",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Frozen Aperol Peach Margarita Pitcher",
+      "category": "beverages",
+      "attribution": "Half Baked Harvest",
+      "source_note": "Half Baked Harvest - Mexican Recipes",
+      "description": "With a spicy tajin-lined rim...a refreshing summer cocktail that\u2019s perfectly icy, sweet, and so delicious!",
+      "servings_yield": "8",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Tajin, for the rim",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 1/2 cups silver tequila",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 cup Aperol",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3/4 cup Cointreau  ((orange liquor))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 cup fresh lime juice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "4 cups frozen peaches",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/4-1/2 cup honey, use more or less to your taste",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3-4 cups ice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3/4 cup coconut milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "1. Rim each glass with Tajin. 2. In a blender, combine the tequila, Aperol, orange liquor, lime juice, peaches, and honey. Add the ice and blend until slushy. Add the coconut milk and pulse to swirl it through the drink. Pour into your prepared glasses. Add popsicles and/or mint (if desired). Drink! Drink!"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverages",
+        "mexican",
+        "latin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 263
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "salted-spicy-watermelon-margarita-popsicles",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Salted Spicy Watermelon Margarita Popsicles",
+      "category": "beverages",
+      "attribution": "Half Baked Harvest",
+      "source_note": "Half Baked Harvest - Mexican Recipes",
+      "description": "The only popsicle you need to have stashed away in your freezer at all times.",
+      "servings_yield": "8",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "250 minutes",
+      "ingredients": [
+        {
+          "item": "4 cups cubed watermelon",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1  jalape\u00f1o, halved and seeded, if desired ((optional))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2-6 tablespoons granulated sugar, using more or less to your taste",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/3 cup, plus 1 tablespoon  tequila",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 tablespoon Cointreau (orange liquor) ((orange liquor))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/2 cup, plus 2 tablespoons  lime juice, plus 1 tablespoon lime zest",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "4  kiwi, peeled and chopped",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2  Persian cucumbers, peeled and chopped",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flaky sea salt, for sprinkling",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "1. In a blender, blend the watermelon, jalape\u00f1o, and sugar. Strain through a fine-mesh sieve into a pitcher.\u00a0Add the tequila, Cointreau, and 1/2 cup lime juice + lime zest, stirring to combine.\u00a0Pour the mixture among 6 popsicle molds or Dixie cups. Freeze one hour.2. Rinse the blender out and blend the kiwi, cucumbers, 2 tablespoons lime juice, and 1 tablespoon tequila, blend until smooth. Pour the kiwi over the watermelon layer, filling the molds to the top. Insert popsicles sticks. Freeze until firm, at least 4 hours. 3. Serve with lime wedges and salt...and maybe even a margarita too!"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverages",
+        "mexican",
+        "latin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 119
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "spicy-serrano-pineapple-margarita",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Spicy Serrano Pineapple Margarita",
+      "category": "beverages",
+      "attribution": "Half Baked Harvest",
+      "source_note": "Half Baked Harvest - Mexican Recipes",
+      "description": "A spicy, sweet take on the classic, the perfect cocktail to sip on with friends & family all summer long!",
+      "servings_yield": "1",
+      "prep_time": "10 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "1  serrano chile",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/3 cup very ripe pineapple chunks ((or 1/4 cup pineapple juice))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "4  fresh mint leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 ounces silver tequila",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/2 ounce orange liquor",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "juice from 1/2 lime juice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 teaspoons honey or sugar, to your taste",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger beer, or seltzer, for topping  ((optional))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/4 cup  sea salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 teaspoon  tajin",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1  small pinch granulated sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "1. Place the serrano chiles over a gas flame, or in a dry skillet over high heat. Char the chile all over, turning a few times, until blackened. Remove and let cool, then halve the chile and de-seed, if desired. 2. To make the tajin salt. Combine all 3 ingredients on a shallow plate. Rim your glass. 3. In a cocktail shaker or glass jar, add the pineapple, mint, tequila, orange liquor, lime juice, and honey (or sugar). Add 1-2 quarters of the chile. Muddle together, squashing everything to release the juices. Fill with ice and shake until combined, about 1 minute, the longer you shake, the spicier it will be.4. Strain into your prepared glass. Top with ginger beer, if desired. Garnish with mint and pineapple wedges. Enjoy!"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverages",
+        "mexican",
+        "latin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 391
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "spicy-cucumber-margarita",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Spicy Cucumber Margarita.",
+      "category": "beverages",
+      "attribution": "Half Baked Harvest",
+      "source_note": "Half Baked Harvest - Mexican Recipes",
+      "description": "Keeping things fun with this Spicy Cucumber Margarita...uses few ingredients, is a touch sweet, a little bit spicy, and so refreshing...perfect for spring!",
+      "servings_yield": "1",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "70 minutes",
+      "ingredients": [
+        {
+          "item": "4-6  cucumber slices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "4  fresh mint leaves ((optional))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 ounces silver tequila",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/2 ounce orange liquor ((or 2 teaspoons orange zest, see note))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "juice from 1/2 lime juice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1-2  jalape\u00f1o slices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 teaspoons honey or sugar, using more or less to your taste",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger beer, for topping ((optional))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1/4 cup pink sea salt or flaky sea salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 teaspoon chipotle chili powder",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 pinch granulated sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh thyme leaves  ((optional))",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "1. To make the chili salt. Combine the salt, chili powder, and sugar on a shallow plate. Rim your glasses in salt, then fill with ice.2. In a cocktail shaker or glass jar, add cucumbers, mint (if using), tequila, orange liquor, lime juice, and honey or sugar. Muddle together, squashing everything to release the juices. Add the jalape\u00f1o slices. Fill with ice and shake until combined, about 1 minute, the longer you shake, the spicier it will be. 3. Strain into your prepared glass. Top with ginger beer, if desired. Garnish as desired with cucumbers and thyme, if desired. Enjoy!"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverages",
+        "mexican",
+        "latin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 820
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "spicy-margarita-ice-lollies",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Spicy margarita ice lollies",
+      "category": "beverages",
+      "attribution": "Delicious Magazine",
+      "source_note": "Delicious Magazine - Mexican Recipes",
+      "description": "The zingy, fresh flavour of a margarita is always enhanced by a prickle of chilli (see our jalape\u00f1o mezcal margarita for example) and these spicy margarita lollies are the perfect way to cool off in the heat. Check out our espresso martini lollies, too.",
+      "servings_yield": "Serves 10",
+      "prep_time": "20 minutes",
+      "cook_time": "",
+      "total_time": "0 hour 20 minutes",
+      "ingredients": [
+        {
+          "item": "100g caster sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "50ml tequila blanco",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "15ml triple sec (orange liqueur) such as Cointreau",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2 dashes Angostura bitters",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1 green chilli, halved",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Juice 2 limes, plus 1 lime cut into 10 thin slices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Taj\u00edn seasoning to sprinkle (optional)",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Specialist kit",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "10 x 75ml ice lolly moulds",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small pan, mix the sugar, tequila, triple sec and bitters with 375ml water. Add the chilli and stir over a medium heat for a few minutes to dissolve the sugar. Remove from the heat, add the lime juice and leave to cool. (Or put the pan in a bowl of iced water and stir regularly until cool.)"
+        },
+        {
+          "step": 2,
+          "text": "Discard the chilli, then divide the mixture among the lolly moulds. Push a slice of lime into each, add the sticks (see Before you start), cover and freeze for at least 6 hours, ideally overnight, until solid."
+        },
+        {
+          "step": 3,
+          "text": "Remove from the freezer 10 minutes before eating. Dunk the moulds into a bowl of warm water if needed to help release the lollies. If using, spread some Taj\u00edn on a plate, then press the lollies into it to add a zingy crust."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "beverages",
+        "mexican",
+        "latin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 58,
+          "fat_g": 0,
+          "carbohydrates_g": 10,
+          "fiber_g": 0,
+          "protein_g": 0
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "coffee-carnation",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Coffee",
+      "category": "beverages",
+      "attribution": "Blake",
+      "source_note": "My hundred favorite recipes (Project Gutenberg, public domain)",
+      "description": "Vintage recipe using Carnation Milk",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "coffee",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "ground medium"
+        },
+        {
+          "item": "egg",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix the egg and \u00bd cup cold water and add to the coffee in the pot. Add boiling water, boil up once, stir with a spoon and boil up again. Add the \u00bc cup cold water to settle coffee. Serve immediately. Cream with undiluted Carnation. Serves 5."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "carnation",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 9,
+          "fat_g": 0.6,
+          "carbs_g": 0.1,
+          "protein_g": 0.8,
+          "sodium_mg": 10,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Default serving size assumed (4)"
+        ]
+      }
+    },
+    {
+      "id": "steamed-colonial-custard-grandmas-molasses",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Steamed Colonial Custard",
+      "category": "beverages",
+      "attribution": "American Molasses Company",
+      "source_note": "Grandma's Recipes for Mother and Daughter (Project Gutenberg, public domain)",
+      "description": "Vintage recipe",
+      "servings_yield": "6 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "GRANDMA\u2019S MOLASSES",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "scalded milk",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat eggs slightly; add molasses, salt, and vanilla. Stir in hot milk. Pour mixture into 6 custard cups; cover each with metal foil. Place cups on rack or jar lids in pan of hot water, coming half-way to top of cups. Cover pan tightly. Steam over low heat until knife inserted in center comes out clean (about 15 minutes). If water around cups is allowed to boil, custards will curdle. If desired, place a marshmallow in each cup before filling with mixture."
+        },
+        {
+          "step": 2,
+          "text": "Baked Colonial Custard: Bake custards in shallow pan of hot water in slow oven (300\u00b0 F.) until knife inserted in center comes out clean (40 to 50 minutes)."
+        }
+      ],
+      "temperature": "300\u00b0F",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 2.5,
+          "carbs_g": 10.8,
+          "protein_g": 3.0,
+          "sodium_mg": 137,
+          "fiber_g": 0.0,
+          "sugar_g": 7.9
+        },
+        "missing_inputs": [
+          "2 cup scalded milk"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
+    },
+    {
+      "id": "punch-tea-base-harvester",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Punch-Tea Base",
+      "category": "beverages",
+      "attribution": "Harding",
+      "source_note": "International Harvester Refrigerator Recipes (Project Gutenberg, public domain)",
+      "description": "Vintage recipe",
+      "servings_yield": "10 to 12 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "tea",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "orange juice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chilled ginger ale",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pour boiling water over tea. Cover and allow to stand 3 minutes. Strain over sugar. Stir until sugar is dissolved. Cool. Add orange and lemon juices and cold water. Ice well. Add ginger ale just before serving punch. Base can be stored in refrigerator for later use. Yield: 10 to 12 servings."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 83,
+          "fat_g": 0.1,
+          "carbs_g": 21.3,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.1,
+          "sugar_g": 20.4
+        },
+        "missing_inputs": [
+          "1 quart chilled ginger ale"
+        ],
+        "assumptions": [
+          "Calculated for 11 servings"
+        ]
+      }
+    },
+    {
+      "id": "cranberry-orange-punch-harvester",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Cranberry Orange Punch",
+      "category": "beverages",
+      "attribution": "Harding",
+      "source_note": "International Harvester Refrigerator Recipes (Project Gutenberg, public domain)",
+      "description": "Vintage recipe",
+      "servings_yield": "1\u00bd quarts",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "frozen orange juice concentrate",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "1 can"
+        },
+        {
+          "item": "cranberry juice",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "1 bottle"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add water to sugar; place over heat and bring to a boil, dissolving sugar. Cool. Add frozen orange juice, cranberry juice, lemon juice and few drops food coloring. Mix well and chill. Just before serving add ginger ale. Yield: 1\u00bd quarts."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 695,
+          "fat_g": 1.4,
+          "carbs_g": 171.5,
+          "protein_g": 5.5,
+          "sodium_mg": 6,
+          "fiber_g": 1.4,
+          "sugar_g": 157.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
+    },
+    {
+      "id": "frosty-ginger-ale-punch-harvester",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Frosty Ginger Ale Punch",
+      "category": "beverages",
+      "attribution": "Harding",
+      "source_note": "International Harvester Refrigerator Recipes (Project Gutenberg, public domain)",
+      "description": "Vintage recipe",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "lime sherbet",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger ale",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add ginger ale to sherbet in a punch bowl. When sherbet has partially melted, serve in punch cups. Other flavor sherbets can be used. Serves 24."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 166,
+          "fat_g": 0.0,
+          "carbs_g": 42.0,
+          "protein_g": 0.0,
+          "sodium_mg": 52,
+          "fiber_g": 0.0,
+          "sugar_g": 42.0
+        },
+        "missing_inputs": [
+          "2 quarts lime sherbet"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
+    },
+    {
+      "id": "coffee-and-spice-drops-betty-crocker",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Coffee-And-Spice Drops",
+      "category": "beverages",
+      "attribution": "Crocker",
+      "source_note": "Betty Crocker picture cooky book (Project Gutenberg, public domain)",
+      "description": "Classic cookie recipe from Betty Crocker",
+      "servings_yield": "varies",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "soft shortening",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cold coffee",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "\u00bd cups sifted GOLD MEDAL Flour",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix together thoroughly ..."
+        },
+        {
+          "step": 2,
+          "text": "Sift together and stir in ..."
+        },
+        {
+          "step": 3,
+          "text": "Chill at least 1 hour. Drop rounded teaspoonfuls about 2\u2033 apart on lightly greased baking sheet. Bake until set ... just until, when touched lightly with finger, almost no imprint remains."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "cookies",
+        "vintage",
+        "betty-crocker",
+        "public-domain"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "vintage-recipe"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 902,
+          "fat_g": 54.0,
+          "carbs_g": 105.5,
+          "protein_g": 3.7,
+          "sodium_mg": 933,
+          "fiber_g": 0.5,
+          "sugar_g": 100.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "chicken-fried-steak-chickenrec",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Chicken Fried Steak",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Chicken Recipes Obooko Fd0004 (PDF cookbook)",
+      "description": "Vintage recipe from Chicken Recipes Obooko Fd0004",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "beef round steak",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed saltine crackers",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pound the steak with knife, cut into servi ng pieces. Blend egg and milk. Mix on"
+        },
+        {
+          "step": 2,
+          "text": "separate plate, cracker crum bs, salt and pepper. Dip meat into egg mixture then"
+        },
+        {
+          "step": 3,
+          "text": "crackers. Brown meat on both sides in hot oil, then turn heat down to simmer, cover"
+        },
+        {
+          "step": 4,
+          "text": "skillet and cook until tender 40- 45 minutes. Gravy for meat: Remove meat when done"
+        },
+        {
+          "step": 5,
+          "text": "from pan, add a little water/flour mixture to dr ippings. Bring to a boil. Then simmer until"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 509,
+          "fat_g": 30.5,
+          "carbs_g": 8.5,
+          "protein_g": 46.8,
+          "sodium_mg": 302,
+          "fiber_g": 0.4,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "swanee-fruit-punch-auntcaroli",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Swanee Fruit Punch",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Aunt Carolines Dixieland Recipes A Rare Collection Of Choice Southern Dishes 1922 (PDF cookbook)",
+      "description": "Vintage recipe from Aunt Carolines Dixieland Recipes A Rare Collection Of Choice Southern Dishes 1922",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "strawberry syrup",
+          "quantity": "1",
+          "unit": "pint"
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "2",
+          "unit": "cans"
+        },
+        {
+          "item": "maraschino cherries",
+          "quantity": "1",
+          "unit": "jar",
+          "prep_note": "large"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make syrup by boiling sugar and water together for ten"
+        },
+        {
+          "step": 2,
+          "text": "minutes. add thetea, fruit juices, pineapple, and strawberry"
+        },
+        {
+          "step": 3,
+          "text": "syrup. let stand thirty minutes, strain and add enough iced"
+        },
+        {
+          "step": 4,
+          "text": "water to make on eoroneandone-half gallons of liquid."
+        },
+        {
+          "step": 5,
+          "text": "Turn into large punch bowl over a piece of ice and lastly"
+        },
+        {
+          "step": 6,
+          "text": "add cherries. This quantity willserve a bout tenpeople."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 580,
+          "fat_g": 0.0,
+          "carbs_g": 150.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 150.0
+        },
+        "missing_inputs": [
+          "2 cans crushed pineapple",
+          "1 jar maraschino cherries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "poor-mans-steak-dutchovenc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Poor Man'S Steak",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
+      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "2",
+          "unit": "lbs"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/3",
+          "unit": "cups"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cream of mushroom soup",
+          "quantity": "2",
+          "unit": "cans"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix together meat, salt, pepper, crumbs, and milk. Pack into"
+        },
+        {
+          "step": 2,
+          "text": "loaf pans. Let stand in refrigerator overnight or as least 6"
+        },
+        {
+          "step": 3,
+          "text": "hours. Cut into slices and brown in margarine. Mix soup with 1 c"
+        },
+        {
+          "step": 4,
+          "text": "of water and pour over meat placed in dutch oven. Bake at 350 for"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 806,
+          "fat_g": 61.2,
+          "carbs_g": 13.1,
+          "protein_g": 44.7,
+          "sodium_mg": 2264,
+          "fiber_g": 1.0,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "swiss-steak-dutchovenc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Swiss Steak",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
+      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "round steak",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "diced"
+        },
+        {
+          "item": "celery",
+          "quantity": "3",
+          "unit": "stalks",
+          "prep_note": "peeled, chopped"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown steak in butter. Add celery, catsup, parsley, and onion."
+        },
+        {
+          "step": 2,
+          "text": "Cover and simmer 2 to 2-1/2 hours. 1/2 c water may be needed if"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 790,
+          "fat_g": 50.8,
+          "carbs_g": 13.3,
+          "protein_g": 67.1,
+          "sodium_mg": 1184,
+          "fiber_g": 1.1,
+          "sugar_g": 9.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "steak-and-mushrooms-dutchovenc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Steak And Mushrooms",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
+      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "round steak",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut meat into strips and coat with flour. Saute in melted"
+        },
+        {
+          "step": 2,
+          "text": "butter for 5 min. Add onion and mushrooms, cook another 5 min or"
+        },
+        {
+          "step": 3,
+          "text": "until onion turn clear. Add remaining ingredients and stir well."
+        },
+        {
+          "step": 4,
+          "text": "Simmer 1 to 1-1/2 hours. Serve over rice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 342,
+          "fat_g": 21.3,
+          "carbs_g": 12.9,
+          "protein_g": 24.8,
+          "sodium_mg": 933,
+          "fiber_g": 1.9,
+          "sugar_g": 4.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "round-steak-hawaiian-dutchovenc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Round Steak Hawaiian",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
+      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "c cooking oil 1 can sliced water chestnuts,",
+          "quantity": "1/4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "/2 lb round steak 1 jar home style beef gravy",
+          "quantity": "1-1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "bell pepper cut into strips Chow mein noodles",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "sliced 1/2 tsp salt"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut steak into 1/4\" strips. Heat oil over medium-high heat."
+        },
+        {
+          "step": 2,
+          "text": "Add steak, onion, green pepper, mushrooms and salt. Cook until"
+        },
+        {
+          "step": 3,
+          "text": "meat is brown, stirring constantly. Drain and add water chestnuts"
+        },
+        {
+          "step": 4,
+          "text": "and gravy. Cover and simmer 1-1/2 to 2 hours, stirring"
+        },
+        {
+          "step": 5,
+          "text": "occasionally. Serve over rice and sprinkle with chow mein"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 14.7,
+          "carbs_g": 2.4,
+          "protein_g": 2.7,
+          "sodium_mg": 7,
+          "fiber_g": 0.7,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "flank-steak-teriyaki-dutchovenc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Flank Steak Teriyaki",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
+      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "flank steak",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "pineapple slices",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ginger",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To form marinade, combine all except steaks and pineapple. Mix"
+        },
+        {
+          "step": 2,
+          "text": "well and pour over steaks. Let marinate 1 to 1-1/2 hours. Fry"
+        },
+        {
+          "step": 3,
+          "text": "steaks in very hot oven or skillet brushing once with marinade."
+        },
+        {
+          "step": 4,
+          "text": "Add pineapple during last few minutes, brush with marinade and"
+        },
+        {
+          "step": 5,
+          "text": "cover. Cook 3-5 min. Serve over rice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 223,
+          "fat_g": 7.3,
+          "carbs_g": 33.5,
+          "protein_g": 8.0,
+          "sodium_mg": 1770,
+          "fiber_g": 4.5,
+          "sugar_g": 25.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "salisbury-steaks-dutchovenc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Salisbury Steaks",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
+      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "2",
+          "unit": "lbs"
+        },
+        {
+          "item": "breadcrumbs",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "beef broth",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "10 oz each"
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "canned"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "4",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix ground beef, bread crumbs, salt, pepper and eggs, shape"
+        },
+        {
+          "step": 2,
+          "text": "into 8 oval patties, each about 3/4\" thick. Cook patties over"
+        },
+        {
+          "step": 3,
+          "text": "medium heat, turning occasionally, until brown, about 10 min,"
+        },
+        {
+          "step": 4,
+          "text": "drain. Add onions broth and mushrooms. Heat to boiling, reduce"
+        },
+        {
+          "step": 5,
+          "text": "heat. Cover and simmer until beef is done, about 10 min."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "pdf-extraction",
+          "MISCLASSIFIED: This is a main dish, not a beverage"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 725,
+          "fat_g": 47.0,
+          "carbs_g": 23.1,
+          "protein_g": 48.7,
+          "sodium_mg": 1776,
+          "fiber_g": 1.5,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "lemonade-scottsnort",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Lemonade",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
+      "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "(half pint) lemon juice.",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": "or sweetening to taste."
+        },
+        {
+          "item": "lemon cut in very thin slices.",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "orange cut in very thin slices.",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water.",
+          "quantity": "4",
+          "unit": "quarts",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil sugar with 1 quart of water, set a side to cool; add"
+        },
+        {
+          "step": 2,
+          "text": "strained lemon juice and the rest of the water, the slices of"
+        },
+        {
+          "step": 3,
+          "text": "There is a difference in lemons; some are more acid than"
+        },
+        {
+          "step": 4,
+          "text": "others. Lemons must bewashed, dried and rolled before rim-"
+        },
+        {
+          "step": 5,
+          "text": "ming or squeezing. Put the skins in 2 quarts of cold water"
+        },
+        {
+          "step": 6,
+          "text": "halfhour, drain and strain the water for thelem on ade."
+        },
+        {
+          "step": 7,
+          "text": "a slice of lemon served with a cupofteaaddsverymuch."
+        },
+        {
+          "step": 8,
+          "text": "The lemon should bescrubbed with a vegetable brush, rinsed"
+        },
+        {
+          "step": 9,
+          "text": "and dried ; then cutinthin slices and served on a noblong dish,"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 400,
+          "fat_g": 0.1,
+          "carbs_g": 104.2,
+          "protein_g": 0.2,
+          "sodium_mg": 2,
+          "fiber_g": 0.2,
+          "sugar_g": 101.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "dripcoffee-scottsnort",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Drip Coffee",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
+      "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "heaping teaspoons finely ground coffee.",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh boiling water.",
+          "quantity": "5",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse drip pot with hot water. Place the finely ground or"
+        },
+        {
+          "step": 2,
+          "text": "pulverized coffee in the drip bag, pour the freshly boiled water"
+        },
+        {
+          "step": 3,
+          "text": "on coffee in the drip bag, and a fter it has dripped thru remove"
+        },
+        {
+          "step": 4,
+          "text": "bagfrom potandcoffee is ready to serve. When making less"
+        },
+        {
+          "step": 5,
+          "text": "than 4 cups, pour coffee thru dripbagasecond time."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "6  heaping teaspoons finely ground coffee."
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "french-coffee-scottsnort",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "French Coffee",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
+      "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ground coffee.",
+          "quantity": "11/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "freshly boiled water.",
+          "quantity": "6",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put coffee inaflannel bag, tietopandputinanold-"
+        },
+        {
+          "step": 2,
+          "text": "fashioned coffee pot;pourontheboiling water, boil 10 minutes;"
+        },
+        {
+          "step": 3,
+          "text": "serve inanother coffee pot.Oneeggshellmaybebroken and"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "11/2 cup ground coffee."
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "after-dinner-coffee-scottsnort",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "A fter-Dinner Coffee",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
+      "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "rounding tablespoons ground coffee.",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water.",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use drip pot. Put the coffee in the muslin bag and pour"
+        },
+        {
+          "step": 2,
+          "text": "over this water which has just reached the boiling point. a fter"
+        },
+        {
+          "step": 3,
+          "text": "the water filters thru into thelower receptacle draw itoff and"
+        },
+        {
+          "step": 4,
+          "text": "pour thru as econd time. Serve in a fter-dinner coffee cups"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "3  rounding tablespoons ground coffee."
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "thehealing-properties-ofteaandcoffe-theamerica",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "The Healing Properties of Tea and Coffee",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "The American Home Cook Book A Volume Of Tested Recipes 1913 2 (PDF cookbook)",
+      "description": "Vintage recipe from The American Home Cook Book A Volume Of Tested Recipes 1913 2",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "9",
+          "quantity": "44",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "BEVERAGES",
+          "quantity": "450",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "The coffee should beroasted just before use ; as ifkept",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "more than on edayafter roasting there is a decided loss of"
+        },
+        {
+          "step": 2,
+          "text": "2. The simplest way of roasting coffee is in an enamelled"
+        },
+        {
+          "step": 3,
+          "text": "frying-pan. Roast the beans over a mild, smokeless fire"
+        },
+        {
+          "step": 4,
+          "text": "until the beans turn a richbrown color, notblack. The"
+        },
+        {
+          "step": 5,
+          "text": "beans must beconstantly stirred and turned, or they will"
+        },
+        {
+          "step": 6,
+          "text": "3. Take on elarge tablespoonful of coffee powder for each,"
+        },
+        {
+          "step": 7,
+          "text": "4. Put thepowder into ajug and pour boiling water over"
+        },
+        {
+          "step": 8,
+          "text": "it in theproportion of halfacupful of water to each table-"
+        },
+        {
+          "step": 9,
+          "text": "spoonful of coffee powder. The water must beatfull boil-"
+        },
+        {
+          "step": 10,
+          "text": "5. let the coffee stand in thejugforhalfanhour, and"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "450  BEVERAGES",
+          "1  The coffee should beroasted justbefore use ;asifkept"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "OCR corruption (20 issues detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "drinks-theappledo",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Drinks",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "The Appledore Cook Book Containing Practical Receipts For Plain And Rich Cooking 1880 (PDF cookbook)",
+      "description": "Vintage recipe from The Appledore Cook Book Containing Practical Receipts For Plain And Rich Cooking 1880",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "5",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "5",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "6",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "8",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "6",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "6",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "8",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "8",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3",
+          "quantity": "19",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "0",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "0",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "0",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "1",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": ",2",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "2",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "4",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "5",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "5",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "6",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "7",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "3",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Frosting. No. 2,"
+        },
+        {
+          "step": 2,
+          "text": ".210 i Graham Pics,."
+        },
+        {
+          "step": 3,
+          "text": "tion(Mr. L. Scott), ."
+        },
+        {
+          "step": 4,
+          "text": "Soft. Gingerbread, ."
+        },
+        {
+          "step": 5,
+          "text": "THE a PPLEDORE COOK BOOK."
+        },
+        {
+          "step": 6,
+          "text": "Take either a codorhaddock ; skin it, loosen the skin"
+        },
+        {
+          "step": 7,
+          "text": "a bout the head, and draw itdown to wards the tail, when"
+        },
+        {
+          "step": 8,
+          "text": "it will peel of feasily. Then runyour knifedown the"
+        },
+        {
+          "step": 9,
+          "text": "back close to thebone, which youtake out. Cutyour"
+        },
+        {
+          "step": 10,
+          "text": "fishinsmall pieces, and wash in cold water. Put thehead"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification; Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "boiled-coffee-thewingold",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Boiled Coffee",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "The Wingold Cook Book 1916 (PDF cookbook)",
+      "description": "Vintage recipe from The Wingold Cook Book 1916",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "tbisp. coffee Ieggwhite",
+          "quantity": "4",
+          "unit": "large",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "qt",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mixeggwhite and 3 tblsp. water, beatwith fork,add coft'ee and"
+        },
+        {
+          "step": 2,
+          "text": "mixthoroughly. Putprepared coffee into scalded coffee pot,add"
+        },
+        {
+          "step": 3,
+          "text": "boiling water, then boil 5 min. Add jc.coldwater, letstand 3 min."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4 large tbisp. coffee Ieggwhite"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "broiled-hamburg-steak-wilsonscoo",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Broiled Hamburg Steak",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920 (PDF cookbook)",
+      "description": "Vintage recipe from Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "One onion, minced fine.",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "[quantity in ferred]"
+        },
+        {
+          "item": "Two tablespoons of parsley.",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix, form into flat cakes, brush with salad oil; place on"
+        },
+        {
+          "step": 2,
+          "text": "baking dish. Broil in gas broiler for eight minutes, the nplace"
+        },
+        {
+          "step": 3,
+          "text": "in hot oven for seven minutes longer. Spread with desired but-"
+        },
+        {
+          "step": 4,
+          "text": "terandsend to thetable in a baking dish. This willgiveade-"
+        },
+        {
+          "step": 5,
+          "text": "licious flavored meat in place of the usual dry, tasteless cake"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 11,
+          "fat_g": 0.0,
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "Two tablespoons ofparsley."
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "howtomakethecider-cup-wilsonscoo",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "How to Make the Cider Cup",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920 (PDF cookbook)",
+      "description": "Vintage recipe from Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "a pple cider",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "bananas",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "sliced thin"
+        },
+        {
+          "item": "a pples",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "baked, cut into bits"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "6",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix and then serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "pdf-extraction",
+          "OCR-CORRUPTED: Text has merged words and illegible formatting"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 728,
+          "fat_g": 2.3,
+          "carbs_g": 182.9,
+          "protein_g": 2.4,
+          "sodium_mg": 30,
+          "fiber_g": 8.2,
+          "sugar_g": 145.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      },
+      "needs_ocr_review": true,
+      "ocr_quality": "poor",
+      "review_reason": "OCR corruption (2 issues); Auto-repaired, needs verification",
+      "ocr_repaired": true
+    },
+    {
+      "id": "watermelon-smoothie-handwritten",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Watermelon Smoothie",
+      "category": "beverages",
+      "attribution": "MK",
+      "source_note": "Handwritten recipe (IMG_5658)",
+      "description": "A refreshing watermelon smoothie with vanilla yogurt and maple syrup.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "watermelon",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla yogurt",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "maple syrup",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put in blender all together."
+        },
+        {
+          "step": 2,
+          "text": "Mix until smooth."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "smoothie",
+        "watermelon",
+        "beverage",
+        "handwritten"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten-source"
+        ]
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_5658.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 4.2,
+          "carbs_g": 30.8,
+          "protein_g": 5.2,
+          "sodium_mg": 58,
+          "fiber_g": 0.6,
+          "sugar_g": 26.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
+    },
+    {
+      "id": "spruce-beer-american-cookery-1796",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Spruce Beer",
+      "category": "beverages",
+      "attribution": "Amelia Simmons",
+      "source_note": "American Cookery (1796), page 75 (IMG_5990)",
+      "description": "A traditional colonial spruce beer made with hops, molasses, and spruce essence.",
+      "servings_yield": "several gallons",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "1 week fermentation",
+      "ingredients": [
+        {
+          "item": "hops",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "for boiling hops"
+        },
+        {
+          "item": "warm water",
+          "quantity": "16",
+          "unit": "gallons",
+          "prep_note": ""
+        },
+        {
+          "item": "molasses",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": ""
+        },
+        {
+          "item": "essence of spruce",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "dissolved in 1 quart water"
+        },
+        {
+          "item": "emptins (yeast)",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take four ounces of hops, let them boil half an hour in one gallon of water."
+        },
+        {
+          "step": 2,
+          "text": "Strain the hop water then add sixteen gallons of warm water, two gallons of molasses, eight ounces of essence of spruce dissolved in one quart of water."
+        },
+        {
+          "step": 3,
+          "text": "Put it in a clean cask, then shake it well together, add half a pint of emptins (yeast)."
+        },
+        {
+          "step": 4,
+          "text": "Let it stand and work one week."
+        },
+        {
+          "step": 5,
+          "text": "If very warm weather less time will do, when it is drawn off to bottle, add one spoonful of molasses to every bottle."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "clean cask",
+      "notes": [
+        "Original 1796 recipe",
+        "Emptins = semiliquid prepared yeast",
+        "Spruce beer was a popular colonial beverage"
+      ],
+      "tags": [
+        "beverage",
+        "beer",
+        "spruce",
+        "colonial",
+        "1796",
+        "american-cookery",
+        "vintage",
+        "fermented"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "historical-recipe"
+        ]
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_5990.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 7824,
+          "fat_g": 0.2,
+          "carbs_g": 2017.0,
+          "protein_g": 0.5,
+          "sodium_mg": 970,
+          "fiber_g": 0.2,
+          "sugar_g": 1464.0
+        },
+        "missing_inputs": [
+          "4 oz hops",
+          "8 oz essence of spruce"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4011 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "soups",
+    "total_recipes": 35,
+    "generated": "2026-01-16T14:00:19.672426Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "cabbage-soup-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cabbage Soup",
+      "category": "soups",
+      "attribution": "Patti Templeton",
+      "source_note": "Church cookbook",
+      "description": "Hearty beef and cabbage soup with Heinz 57 sauce.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "stewing beef",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "2 1/2",
+          "unit": "16 oz cans",
+          "prep_note": ""
+        },
+        {
+          "item": "celery stalks",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Spanish onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "head cabbage",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "torn into medium pieces"
+        },
+        {
+          "item": "Heinz 57 Sauce",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "meat tenderizers or seasoned salt",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all ingredients in 3 quart Dutch oven."
+        },
+        {
+          "step": 2,
+          "text": "Cook on medium-low heat until cabbage is tender."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "3 quart Dutch oven",
+      "notes": [],
+      "tags": [
+        "soup",
+        "beef",
+        "cabbage",
+        "hearty"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "carrot-soup-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Carrot Soup",
+      "category": "soups",
+      "attribution": "Evelyn Hoeldtke",
+      "source_note": "Church cookbook",
+      "description": "Simple curried carrot soup - quick and flavorful.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "about 5 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "1",
+          "unit": "lb (5 or 6)",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe onions",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic clove",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "curry powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken broth or chicken bouillon",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring broth to boil."
+        },
+        {
+          "step": 2,
+          "text": "Add vegetables and curry powder."
+        },
+        {
+          "step": 3,
+          "text": "Cook until carrots are almost soft (about 5 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Serve. Garnish with fresh parsley, mint, or chives, chopped."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "soup",
+        "carrot",
+        "curry",
+        "vegetable",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 6,
+          "protein_g": 4,
+          "carbs_g": 17,
+          "cholesterol_mg": 456,
+          "sodium_mg": 6
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cheese-meatball-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Meatball Soup",
+      "category": "soups",
+      "attribution": "Fay Doorneweerd",
+      "source_note": "Church cookbook",
+      "description": "Hearty vegetable soup with homemade meatballs and Cheez Whiz.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "whole kernel corn",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped potato",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "carrot slices",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "beef bouillon cubes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Tabasco",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Cheez Whiz",
+          "quantity": "1",
+          "unit": "16 oz jar",
+          "prep_note": ""
+        },
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "for meatballs"
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for meatballs"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "for meatballs"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for meatballs"
+        },
+        {
+          "item": "Tabasco",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "for meatballs"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix meatball ingredients together. Shape into medium size balls."
+        },
+        {
+          "step": 2,
+          "text": "Place uncooked meatballs and all ingredients, except Cheez Whiz in large saucepan."
+        },
+        {
+          "step": 3,
+          "text": "Stir gently. Bring mixture to a boil. Cover and simmer on low till vegetables are tender."
+        },
+        {
+          "step": 4,
+          "text": "Before serving, add Cheez Whiz and stir gently until blended."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large saucepan",
+      "notes": [
+        "Crock Pot Method: Place meatballs and all ingredients, except Cheez Whiz, in slow cooker. Stir gently. Cover and cook on LOW setting. Add Cheez Whiz before serving."
+      ],
+      "tags": [
+        "soup",
+        "meatballs",
+        "cheese",
+        "hearty",
+        "slow-cooker"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "spicy-minestrone",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spicy Minestrone",
+      "category": "soups",
+      "attribution": "Patti Templeton",
+      "source_note": "Church cookbook",
+      "description": "Hearty Italian vegetable soup with hamburger, beans, zucchini, and pasta.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "about 1 hour",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "hamburger",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "large potato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "green bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "plum tomatoes",
+          "quantity": "2",
+          "unit": "16 oz cans",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "zucchini",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut in quarters lengthwise, then sliced"
+        },
+        {
+          "item": "beef stock",
+          "quantity": "1",
+          "unit": "qt",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried basil",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fennel seeds",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "kidney beans",
+          "quantity": "1",
+          "unit": "16 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "macaroni",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "optional"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown hamburger, onion, and garlic in Dutch oven. Drain all but 1 tablespoon fat."
+        },
+        {
+          "step": 2,
+          "text": "Add potatoes and bell pepper; cook 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add tomatoes with their liquid, herbs, spices, and pepper flakes, beef stock, salt, and pepper to taste."
+        },
+        {
+          "step": 4,
+          "text": "Bring to a boil. Reduce heat to low. Cover and simmer until potatoes are tender, about 30 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Stir in kidney beans with their liquid, zucchini, and pasta. Simmer until pasta is tender, about 20 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Add salt and pepper if needed. Pass cheese with the soup and let guests help themselves."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Dutch oven",
+      "notes": [],
+      "tags": [
+        "soup",
+        "minestrone",
+        "italian",
+        "beef",
+        "hearty"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 2,
+          "protein_g": 4,
+          "carbs_g": 12,
+          "cholesterol_mg": 230,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "steak-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Steak Soup",
+      "category": "soups",
+      "attribution": "Florence Keller",
+      "source_note": "Church cookbook",
+      "description": "Hearty slow-cooker beef and vegetable soup thickened with a roux.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "8-10 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "celery stalks",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "small can tomatoes",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen vegetables",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "Accent",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "small onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "Accent",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground chuck or ground round",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "browned"
+        },
+        {
+          "item": "beef bouillon granules",
+          "quantity": "2 to 4",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook, covered, on LOW for 8 to 10 hours."
+        },
+        {
+          "step": 2,
+          "text": "One hour before serving time, turn on HIGH."
+        },
+        {
+          "step": 3,
+          "text": "Mix together 1/2 cup flour and 1/2 cup oleo, melted, until smooth."
+        },
+        {
+          "step": 4,
+          "text": "Add to crock pot. Cook until thickened."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Crock Pot",
+      "notes": [
+        "Cook in Crock Pot"
+      ],
+      "tags": [
+        "soup",
+        "beef",
+        "slow-cooker",
+        "hearty"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "hot-sausage-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Sausage Soup",
+      "category": "soups",
+      "attribution": "Fay Doorneweerd",
+      "source_note": "Church cookbook",
+      "description": "Hearty sausage soup with potatoes, corn, beans, and cabbage.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "hot sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "onions",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "large potatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "whole kernel corn",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "drained"
+        },
+        {
+          "item": "kidney beans",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "drained and rinsed"
+        },
+        {
+          "item": "tomato juice or V-8 juice",
+          "quantity": "1",
+          "unit": "large can",
+          "prep_note": ""
+        },
+        {
+          "item": "small head cabbage",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Saute sausage and onions. Add potatoes and enough water to cover."
+        },
+        {
+          "step": 2,
+          "text": "Cook till tender."
+        },
+        {
+          "step": 3,
+          "text": "Add corn, beans, juice, and cabbage. Cook till cabbage is done."
+        },
+        {
+          "step": 4,
+          "text": "More juice can be added if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "soup",
+        "sausage",
+        "hearty",
+        "cabbage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "jacobs-pottage",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Jacob's Pottage",
+      "category": "soups",
+      "attribution": "Evelyn Hoeldtke",
+      "source_note": "Church cookbook",
+      "description": "Authentic Biblical-style lentil and rice stew - as food Esau bought!",
+      "servings_yield": "10 servings",
+      "prep_time": "several hours soaking",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "dried lentils",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "brown rice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "large dry onions (or leeks with green stalks)",
+          "quantity": "5",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "beef bouillon",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "not in original recipe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak lentils and rice in large soup kettle for several hours. Keep water 1 inch above mixture."
+        },
+        {
+          "step": 2,
+          "text": "When ready to cook, saute chopped onions in oil."
+        },
+        {
+          "step": 3,
+          "text": "Add to boiling lentil-rice mixture. Add bouillon."
+        },
+        {
+          "step": 4,
+          "text": "Cook until rice is soft. Serve thick, hot or cold."
+        },
+        {
+          "step": 5,
+          "text": "Drop into pita/pocket bread."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large soup kettle",
+      "notes": [
+        "Biblical recipe - what Esau traded his birthright for"
+      ],
+      "tags": [
+        "soup",
+        "lentils",
+        "biblical",
+        "vegetarian",
+        "middle-eastern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "potato-cheese-soup-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Potato-Cheese Soup",
+      "category": "soups",
+      "attribution": "Marsha Sayre",
+      "source_note": "Church cookbook",
+      "description": "Creamy pureed potato soup with sharp cheddar cheese.",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "25 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "potatoes",
+          "quantity": "1 1/2",
+          "unit": "",
+          "prep_note": "peeled and cut into 1/2 inch cubes (2 cups)"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped carrot",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken bouillon granules",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sharp Cheddar cheese",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "shredded (1 cup)"
+        },
+        {
+          "item": "minced parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large saucepan, place potatoes, water, carrot, celery, bouillon, and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Over medium-high heat, bring to a boil; reduce heat to low."
+        },
+        {
+          "step": 3,
+          "text": "Cover and simmer for 25 minutes, or until vegetables are tender."
+        },
+        {
+          "step": 4,
+          "text": "Place 1/2 in a blender container or food processor bowl; cover. Blend or process until smooth."
+        },
+        {
+          "step": 5,
+          "text": "Return to saucepan. Add cheese. Cook and stir over medium heat until cheese melts."
+        },
+        {
+          "step": 6,
+          "text": "To serve, sprinkle with parsley."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large saucepan",
+      "notes": [],
+      "tags": [
+        "soup",
+        "potato",
+        "cheese",
+        "vegetable"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 159,
+          "fat_g": 10,
+          "protein_g": 9,
+          "carbs_g": 7,
+          "cholesterol_mg": 578,
+          "sodium_mg": 374
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "french-onion-soup-quick",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "French Onion Soup (Quick)",
+      "category": "soups",
+      "attribution": "Marsha Sayre",
+      "source_note": "Church cookbook",
+      "description": "Quick French onion soup using frozen onions and canned broth.",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "frozen chopped onion",
+          "quantity": "1",
+          "unit": "12 oz pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "beef broth (bouillon)",
+          "quantity": "1",
+          "unit": "10 1/2 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "consomme",
+          "quantity": "1",
+          "unit": "10 1/2 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "American cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "Swiss cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "bread",
+          "quantity": "2",
+          "unit": "slices",
+          "prep_note": "toasted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Empty package of frozen onions into saucepan and heat until they brown lightly. (Do not add butter - as they thaw they brown in their own water.)"
+        },
+        {
+          "step": 2,
+          "text": "Add to onions 1 can bouillon and 1 can consomme. Do not dilute soup."
+        },
+        {
+          "step": 3,
+          "text": "Heat mixture until blended; remove and let cool. If made ahead of time, refrigerate until ready to serve."
+        },
+        {
+          "step": 4,
+          "text": "Toast 2 slices of bread and cut into halves."
+        },
+        {
+          "step": 5,
+          "text": "Pour soup mixture into 4 ovenproof bowls. Add 1/2 slice toast."
+        },
+        {
+          "step": 6,
+          "text": "Over toast, sprinkle Swiss cheese. Top with American."
+        },
+        {
+          "step": 7,
+          "text": "Place soup bowls under broiler about 5 minutes, or until brown."
+        },
+        {
+          "step": 8,
+          "text": "Remove and serve."
+        }
+      ],
+      "temperature": "broil",
+      "pan_size": "ovenproof bowls",
+      "notes": [],
+      "tags": [
+        "soup",
+        "french-onion",
+        "quick",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 270,
+          "fat_g": 24,
+          "protein_g": 11,
+          "carbs_g": 13,
+          "cholesterol_mg": 184,
+          "sodium_mg": 624
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "french-onion-soup-scratch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "French Onion Soup",
+      "category": "soups",
+      "attribution": "Patti Templeton",
+      "source_note": "Church cookbook",
+      "description": "Classic French onion soup with deeply caramelized onions and Gruyere cheese.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "about 2 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "onions",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": "cut into thin slices"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Campbell's beef broth",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brandy",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "French bread",
+          "quantity": "1/2",
+          "unit": "loaf",
+          "prep_note": ""
+        },
+        {
+          "item": "Gruyere cheese or Mozzarella cheese",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In Dutch oven, heat butter and oil over medium heat. Add onions, 1 teaspoon salt, and 1/2 teaspoon pepper; stir."
+        },
+        {
+          "step": 2,
+          "text": "Cook, stirring occasionally, until onions begin to soften, about 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Reduce heat to low and cook slowly, stirring occasionally, until onions are caramelized, about 1 hour and 15 minutes."
+        },
+        {
+          "step": 4,
+          "text": "After 30 minutes, the onions should be light golden brown, 30 to 45 minutes later, onions should be a deep brown."
+        },
+        {
+          "step": 5,
+          "text": "Stir flour into onions; bring to a bubble. Cook 2 to 3 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Slowly stir in broth, water, and brandy. Simmer, partially covered, about 15 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Add salt and pepper if needed. Heat oven to 325\u00b0F."
+        },
+        {
+          "step": 8,
+          "text": "Cut bread into 4 thick slices. Place on baking sheet and bake until dry, about 6 minutes per side."
+        },
+        {
+          "step": 9,
+          "text": "Pour soup into heatproof bowls. Put a piece of bread on top of each and mount cheese on bread."
+        },
+        {
+          "step": 10,
+          "text": "Place in broiler until golden brown (2 to 3 minutes)."
+        }
+      ],
+      "temperature": "325\u00b0F then broil",
+      "pan_size": "Dutch oven, heatproof bowls",
+      "notes": [],
+      "tags": [
+        "soup",
+        "french-onion",
+        "classic",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 270,
+          "fat_g": 24,
+          "protein_g": 11,
+          "carbs_g": 13,
+          "cholesterol_mg": 184,
+          "sodium_mg": 624
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "hamburger-soup-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hamburger Soup",
+      "category": "soups",
+      "attribution": "Diane Solberg",
+      "source_note": "Church cookbook",
+      "description": "Easy hamburger and vegetable soup with macaroni.",
+      "servings_yield": "5-6 servings",
+      "prep_time": "",
+      "cook_time": "2 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "lean ground beef",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "oregano",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "seasoned salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "basil",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion soup mix",
+          "quantity": "1",
+          "unit": "env",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1",
+          "unit": "8 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced carrots",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "macaroni",
+          "quantity": "1/2 to 1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown and drain ground beef."
+        },
+        {
+          "step": 2,
+          "text": "Add dry ingredients. Stir in water, sauce, celery, and carrots."
+        },
+        {
+          "step": 3,
+          "text": "Cover and cook on low for 2 hours."
+        },
+        {
+          "step": 4,
+          "text": "Cook macaroni. Add to soup."
+        },
+        {
+          "step": 5,
+          "text": "Stir in Parmesan cheese and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "soup",
+        "hamburger",
+        "beef",
+        "easy",
+        "macaroni"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "cream-of-broccoli-soup-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream of Broccoli Soup",
+      "category": "soups",
+      "attribution": "Florence Keller, Karen Hundley",
+      "source_note": "Church cookbook",
+      "description": "Creamy pureed broccoli and cauliflower soup.",
+      "servings_yield": "6 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cooked broccoli",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cooking onions",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cooked cauliflower",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "enriched flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken bouillon broth",
+          "quantity": "2 3/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "evaporated skim milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Puree broccoli and cauliflower."
+        },
+        {
+          "step": 2,
+          "text": "Melt margarine in medium saucepan; saute onions until soft."
+        },
+        {
+          "step": 3,
+          "text": "Add flour, stirring constantly. Add broth, salt, pepper, and nutmeg."
+        },
+        {
+          "step": 4,
+          "text": "Bring to a boil; add pureed vegetables."
+        },
+        {
+          "step": 5,
+          "text": "Reduce heat and gradually stir in milk."
+        },
+        {
+          "step": 6,
+          "text": "Heat thoroughly, but do not boil."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "medium saucepan",
+      "notes": [],
+      "tags": [
+        "soup",
+        "broccoli",
+        "cream-soup",
+        "vegetable"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 6,
+          "protein_g": 6,
+          "carbs_g": 7,
+          "cholesterol_mg": 299,
+          "sodium_mg": 9
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cod-chowder",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cod Chowder",
+      "category": "soups",
+      "attribution": "Peter Ohan",
+      "source_note": "Church cookbook",
+      "description": "New England-style fish chowder with cod, bacon, and clam juice.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cod fillets",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "bacon slices",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "clam juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "1",
+          "unit": "13 oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "peeled, diced, raw potatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse fish with cold water; pat dry with paper towels. Cut fish into 1/2 inch cubes; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a small skillet, saute bacon until crisp. Remove bacon from skillet; blot with paper towels and crumble; set aside."
+        },
+        {
+          "step": 3,
+          "text": "Discard all but 2 tablespoons bacon drippings from skillet. Add onion to skillet; saute until tender but not brown. Remove from heat."
+        },
+        {
+          "step": 4,
+          "text": "In deep saucepan, combine onion and potatoes. Add water, cover, and bring to gentle boil; reduce heat and simmer for 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add fish; cover and bring to boil again. Reduce heat and cook for additional 10 minutes, or until fish and potatoes are done."
+        },
+        {
+          "step": 6,
+          "text": "In small bowl, combine flour and clam juice; stir with fork until smooth."
+        },
+        {
+          "step": 7,
+          "text": "Add to fish and potato mixture, stirring constantly to blend flour. Stir in evaporated milk, butter, salt, and white pepper."
+        },
+        {
+          "step": 8,
+          "text": "Continue heating over medium heat until chowder thickens."
+        },
+        {
+          "step": 9,
+          "text": "Garnish with crumbled bacon before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "deep saucepan",
+      "notes": [],
+      "tags": [
+        "soup",
+        "chowder",
+        "fish",
+        "cod",
+        "seafood"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "cold-strawberry-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cold Strawberry Soup",
+      "category": "soups",
+      "attribution": "Karen Griner",
+      "source_note": "Church cookbook",
+      "description": "A sweet, refreshing cold soup perfect for summer - more like a dessert!",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fresh strawberries",
+          "quantity": "1",
+          "unit": "qt",
+          "prep_note": "hulled"
+        },
+        {
+          "item": "strawberry ice cream",
+          "quantity": "1",
+          "unit": "qt",
+          "prep_note": "softened"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a large bowl, stirring well."
+        },
+        {
+          "step": 2,
+          "text": "Transfer half to a container of an electric blender and process until almost smooth."
+        },
+        {
+          "step": 3,
+          "text": "Repeat procedure with remaining mixture. Serve immediately."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "May use vanilla ice cream in place of strawberry"
+      ],
+      "tags": [
+        "soup",
+        "cold-soup",
+        "strawberry",
+        "dessert",
+        "summer"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "pasta-fagiola",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pasta Fagiola",
+      "category": "soups",
+      "attribution": "Karen Griner",
+      "source_note": "Church cookbook",
+      "description": "Traditional Italian bean and pasta soup.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "1 hour 45 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "dried navy beans",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "2",
+          "unit": "cans (8 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "medium carrot",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "bacon slices",
+          "quantity": "5-6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried whole basil",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried whole oregano",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "minced garlic",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "elbow macaroni",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "uncooked"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sort and wash beans. Place bean in a large Dutch oven and cover with water 2 inches above beans; soak for 24 hours."
+        },
+        {
+          "step": 2,
+          "text": "Drain beans and return to Dutch oven."
+        },
+        {
+          "step": 3,
+          "text": "Add water and next 11 ingredients; stir well. Bring to a boil; cover and reduce heat."
+        },
+        {
+          "step": 4,
+          "text": "Simmer 1 hour and 35 minutes, or until beans are tender."
+        },
+        {
+          "step": 5,
+          "text": "Remove and discard bay leaf."
+        },
+        {
+          "step": 6,
+          "text": "Add macaroni and cook 10 minutes or until macaroni is tender."
+        },
+        {
+          "step": 7,
+          "text": "Ladle soup into individual soup bowls. Sprinkle with Parmesan cheese."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "soup",
+        "beans",
+        "pasta",
+        "italian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 212,
+          "fat_g": 5.3,
+          "protein_g": 11.4,
+          "carbs_g": 30.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
+          "Estimated 4 servings based on total calories",
+          "Based on 15/15 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "seafood-stew-mommom-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Seafood Stew",
+      "category": "soups",
+      "attribution": "Donny Willison",
+      "source_note": "MomMom's cookbook, page 46 - printed community cookbook",
+      "description": "A hearty stew with salt pork, potatoes, shrimp, and whitefish in a tomato base.",
+      "servings_yield": "6 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "55 minutes",
+      "total_time": "1 hour 20 minutes",
+      "ingredients": [
+        {
+          "item": "salt pork",
+          "quantity": "1/4",
+          "unit": "cup or 1/4 lb",
+          "prep_note": "diced"
+        },
+        {
+          "item": "onion",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "celery",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "raw potatoes",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "diced"
+        },
+        {
+          "item": "Italian tomatoes",
+          "quantity": "1",
+          "unit": "28 oz can",
+          "prep_note": "peeled, in juice, chopped"
+        },
+        {
+          "item": "ocean scallops",
+          "quantity": "3/4",
+          "unit": "lb",
+          "prep_note": "cut in half"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": "freshly ground"
+        },
+        {
+          "item": "ground thyme",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "Tabasco",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": "if desired"
+        },
+        {
+          "item": "medium raw shrimp",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": "deveined"
+        },
+        {
+          "item": "boneless whitefish",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": "diced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepot, cook salt pork until crisp. Remove pork and reserve."
+        },
+        {
+          "step": 2,
+          "text": "Add onion, green pepper, and celery and saute about 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add reserved pork, potatoes, tomatoes, and seasonings."
+        },
+        {
+          "step": 4,
+          "text": "Cover and simmer 45 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add shrimp, fish, and scallops and simmer 10 minutes longer."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large saucepot",
+      "notes": [],
+      "tags": [
+        "seafood",
+        "stew",
+        "soup"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "page_continuation": {
+        "continues_from": "",
+        "continues_to": ""
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 283,
+          "fat_g": 4.6,
+          "protein_g": 24.4,
+          "carbs_g": 36.7
+        },
+        "missing_inputs": [
+          "Not in database: bay leaves"
+        ],
+        "assumptions": [
+          "Inferred 0.25 for black pepper (standard quantity)",
+          "Assumed 1 unit for Tabasco",
+          "Based on 13/14 ingredients (93% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "italian-chicken-soup-partial",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Italian Chicken Soup",
+      "category": "soups",
+      "attribution": "",
+      "source_note": "Newspaper/magazine clipping - incomplete, only beginning visible",
+      "description": "Italian-style chicken soup.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "[INCOMPLETE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "remaining ingredients cut off"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "[INCOMPLETE - instructions cut off from clipping]"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Recipe incomplete - only first few ingredients visible in clipping"
+      ],
+      "tags": [
+        "soup",
+        "chicken",
+        "Italian"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "Recipe incomplete - most of recipe cut off from clipping"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 18,
+          "fat_g": 0.3,
+          "protein_g": 0.5,
+          "carbs_g": 3.8
+        },
+        "missing_inputs": [
+          "Not in database: [INCOMPLETE]"
+        ],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 3/4 ingredients (75% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "beef-stew-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Beef Stew",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 371",
+      "description": "Hearty classic beef stew with vegetables.",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beef or pork stew meat",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable juice cocktail",
+          "quantity": "3 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "instant beef bouillon granules",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "dried basil",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "dried thyme",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "cubed, peeled potatoes",
+          "quantity": "2 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced carrots",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place flour in a plastic bag. Add meat cubes, a few at a time, shaking to coat."
+        },
+        {
+          "step": 2,
+          "text": "In a large saucepan or Dutch oven brown meat, half at a time, in hot oil. Return meat to saucepan. Add juice cocktail, onion, bouillon granules, garlic, basil, and thyme."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boiling; reduce heat. Cover; simmer 1 to 1 1/4 hours for beef (30 minutes for pork) or till meat is nearly tender. Add potatoes, carrots, and celery. Cover; simmer 30 minutes more. Skim fat. Makes 4 main-dish servings."
+        }
+      ],
+      "notes": [
+        "Crockery-cooker directions: Prepare and brown meat as above. In the bottom of a 3 1/2- or 4-quart electric crockery cooker layer onion, potatoes, carrots, and celery. Sprinkle with bouillon granules, garlic, basil, and thyme; add meat. Pour 2 1/2 cups vegetable juice cocktail over meat. Cover; cook on low-heat setting for 10 to 12 hours or till meat and vegetables are tender."
+      ],
+      "tags": [
+        "stew",
+        "beef",
+        "main-dish",
+        "comfort-food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5532 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 378,
+          "fat_g": 22,
+          "protein_g": 28,
+          "carbs_g": 12,
+          "cholesterol_mg": 289,
+          "sodium_mg": 463
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "beef-broth-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Beef Broth",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 372",
+      "description": "Rich homemade beef broth from roasted soupbones.",
+      "servings_yield": "about 8 cups broth",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "ingredients": [
+        {
+          "item": "meaty beef soupbones (shank crosscuts, short ribs, or arm bones)",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "medium onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "stalks celery with leaves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "sprigs parsley",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "whole black peppers",
+          "quantity": "10",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "dried basil or thyme",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "halved"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place soupbones in a large shallow roasting pan. Bake in a 450\u00b0 oven about 30 minutes or till well browned, turning once. Place soupbones in a large Dutch oven. Pour 1/2 cup water into the roasting pan, scraping up crusty browned bits. Add water mixture to Dutch oven. Add carrots, onions, celery, parsley, peppers, bay leaves, basil, garlic, 10 cups water, and 1 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling; reduce heat. Cover and simmer 3 1/2 hours. Remove soupbones."
+        },
+        {
+          "step": 3,
+          "text": "Pour broth through a large sieve or colander lined with 2 layers of cheesecloth. Discard vegetables and seasonings. If desired, clarify broth (see tip, below). If using the broth while hot, skim fat. (Or chill broth, then lift off fat.) If desired, when bones are cool enough to handle, remove meat from bones and reserve meat for another use. Discard bones."
+        },
+        {
+          "step": 4,
+          "text": "Store broth and reserved meat, if any, in separate covered containers in the refrigerator up to 3 days or in the freezer up to 6 months. Makes about 8 cups broth."
+        }
+      ],
+      "tags": [
+        "broth",
+        "beef",
+        "stock",
+        "base",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5533 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 965
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "quick-vegetable-beef-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Quick Vegetable-Beef Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 372",
+      "description": "Using ground beef and frozen vegetables yields soup in a jiffy.",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "beef broth",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "see recipe, left, or tip, opposite"
+        },
+        {
+          "item": "frozen mixed vegetables",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": "one package"
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "7.5",
+          "unit": "oz",
+          "prep_note": "one can, cut up"
+        },
+        {
+          "item": "cubed, peeled potato",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced celery",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dried marjoram",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large Dutch oven or kettle cook beef and onion till beef is brown and onion is tender. Drain fat."
+        },
+        {
+          "step": 2,
+          "text": "Stir in beef broth, mixed vegetables, undrained tomatoes, potato, celery, marjoram, oregano, salt, pepper, and bay leaf."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boiling; reduce heat. Cover; simmer for 15 to 20 minutes or till vegetables are tender. Discard bay leaf. Makes 4 main-dish servings."
+        }
+      ],
+      "notes": [
+        "EASY recipe tag in cookbook"
+      ],
+      "tags": [
+        "soup",
+        "beef",
+        "vegetable",
+        "quick",
+        "main-dish"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5533 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 311,
+          "fat_g": 18,
+          "protein_g": 23,
+          "carbs_g": 17,
+          "cholesterol_mg": 655,
+          "sodium_mg": 323
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chicken-broth-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicken Broth",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 373",
+      "description": "For richer color, use an unpeeled yellow onion.",
+      "servings_yield": "about 5 cups broth and 2 1/2 cups meat",
+      "ingredients": [
+        {
+          "item": "bony chicken pieces (backs, necks, and wings from 2 chickens)",
+          "quantity": "2.5",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "stalks celery with leaves",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "large onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "sprigs parsley",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried thyme, sage, or basil",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large Dutch oven or kettle place chicken pieces, celery, carrots, onion, parsley, salt, thyme, sage, or basil, pepper, and bay leaves. Add water."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling; reduce heat. Cover and simmer for 2 hours. Remove chicken."
+        },
+        {
+          "step": 3,
+          "text": "To strain, pour broth through a large sieve or colander lined with 2 layers of cheesecloth. Discard vegetables and seasonings. If desired, clarify broth (see tip, opposite). If using the broth while hot, skim fat. (Or chill broth, then lift off fat.) If desired, when bones are cool enough to handle, remove meat from bones and reserve meat for another use. Discard bones."
+        },
+        {
+          "step": 4,
+          "text": "Store broth and reserved meat, if any, in separate covered containers in the refrigerator up to 3 days or in the freezer up to 6 months. Makes about 5 cups broth and 2 1/2 cups meat."
+        }
+      ],
+      "notes": [
+        "Crockery-cooker directions: In a 3 1/2- or 4-quart electric crockery cooker combine chicken pieces, celery, carrots, onion, parsley, salt, thyme, sage, or basil, pepper, bay leaves, and 4 cups water. Cover and cook on low-heat setting for 8 to 10 hours. Remove chicken. Strain and store broth and meat as above."
+      ],
+      "tags": [
+        "broth",
+        "chicken",
+        "stock",
+        "base",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5534 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 426
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "alphabet-meatball-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Alphabet-Meatball Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 373",
+      "description": "Fun soup for kids with tiny meatballs and alphabet pasta.",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fine dry bread crumbs",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground beef",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "beef broth",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "see recipe, opposite, or tip, below"
+        },
+        {
+          "item": "dark red kidney beans",
+          "quantity": "15.5",
+          "unit": "oz",
+          "prep_note": "one can"
+        },
+        {
+          "item": "stewed tomatoes",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one can"
+        },
+        {
+          "item": "thinly sliced carrot",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dried Italian seasoning",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "alphabet pasta or other small pasta",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh spinach",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "coarsely chopped, or 1/2 of a 10-ounce package frozen chopped spinach, thawed and well drained"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl combine egg, bread crumbs, parsley, Parmesan cheese, garlic salt, and pepper. Add ground beef; mix well. Shape meat mixture into sixteen 1-inch balls."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan combine beef broth, undrained beans, tomatoes, carrot, and Italian seasoning. Bring to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Drop meatballs, one at a time, into hot broth mixture. Add pasta. Return to boiling; reduce heat. Cover and simmer for 10 to 12 minutes or till meatballs are no longer pink."
+        },
+        {
+          "step": 4,
+          "text": "Stir in spinach and heat through. Season to taste. Makes 4 main-dish servings."
+        }
+      ],
+      "tags": [
+        "soup",
+        "meatball",
+        "kids",
+        "pasta",
+        "main-dish"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5534 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "missing_inputs": [
+          "Recipe data incomplete for nutrition calculation"
+        ]
+      }
+    },
+    {
+      "id": "chicken-and-sausage-gumbo-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicken and Sausage Gumbo",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 380",
+      "description": "A roux adds color and flavor to many basic Cajun dishes like gumbo.",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery or green pepper",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "4",
+          "unit": "cloves"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "chicken broth, heated",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "andouille or smoked sausage, quartered lengthwise and sliced",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "sliced okra or frozen cut okra, thawed",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "whole large chicken breast, skinned, boned, and cut into bite-size pieces",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "hot cooked rice",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For roux, in a large heavy saucepan or Dutch oven combine flour and oil till smooth. Cook over medium-high heat for 5 minutes, stirring constantly. Reduce heat to medium. Cook and stir about 15 minutes more or till roux is dark reddish brown."
+        },
+        {
+          "step": 2,
+          "text": "Stir in onion, celery or green pepper, garlic, black pepper, and red pepper. Cook over medium heat for 3 to 5 minutes or till vegetables are just crisp-tender, stirring often."
+        },
+        {
+          "step": 3,
+          "text": "Gradually stir in hot chicken broth, andouille or smoked sausage, okra, and bay leaves. Add chicken. Bring to boiling; reduce heat. Cover; simmer 20 to 30 minutes or till tender. Discard bay leaves. Serve over rice. If desired, garnish with a carrot top."
+        }
+      ],
+      "notes": [
+        "Seafood Gumbo: Prepare as above, except substitute 12 ounces frozen shelled shrimp and 6 ounces fresh or frozen crabmeat for the chicken. Thaw shrimp and crab, if frozen. Cut up crab. Cook roux till light reddish brown. Add shrimp and crab during last 5 minutes of cooking."
+      ],
+      "tags": [
+        "cajun",
+        "soup",
+        "chicken",
+        "sausage",
+        "gumbo"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5541 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 506,
+          "fat_g": 31,
+          "protein_g": 29,
+          "carbs_g": 28,
+          "cholesterol_mg": 578,
+          "sodium_mg": 874
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "manhattan-clam-chowder-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Manhattan Clam Chowder",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 380",
+      "description": "A full-flavored tomato broth loaded with vegetables and clams.",
+      "servings_yield": "4 main-dish or 6 to 8 side-dish servings",
+      "ingredients": [
+        {
+          "item": "shucked clams or minced clams",
+          "quantity": "1",
+          "unit": "pint"
+        },
+        {
+          "item": "bacon slices",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "can tomatoes, cut up",
+          "quantity": "1",
+          "unit": "28-oz"
+        },
+        {
+          "item": "finely chopped, peeled potatoes",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "dried basil or marjoram, crushed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop shucked clams, reserving juice; set aside. Strain clam juice to remove bits of shell. (Or, drain canned clams, reserving juice.) If necessary, add water to juice to equal 1 1/2 cups. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a large saucepan cook bacon till crisp. Remove bacon, reserving drippings. Drain bacon on paper towels; crumble. Set aside."
+        },
+        {
+          "step": 3,
+          "text": "Cook celery and onion in reserved bacon drippings over medium heat about 5 minutes or till tender. Drain. Stir in reserved clam juice, undrained tomatoes, potatoes, basil or marjoram, and pepper. Bring to boiling; reduce heat. Cover and simmer for 20 to 25 minutes or till vegetables are tender."
+        },
+        {
+          "step": 4,
+          "text": "With the back of a fork, slightly mash vegetables against side of pan. Stir in clams. Return to boiling; reduce heat. Cook 1 to 2 minutes more. Sprinkle each serving with bacon."
+        }
+      ],
+      "tags": [
+        "soup",
+        "clam",
+        "chowder",
+        "seafood"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5541 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 213,
+          "fat_g": 4,
+          "protein_g": 13,
+          "carbs_g": 32,
+          "cholesterol_mg": 970,
+          "sodium_mg": 34
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "bean-and-sausage-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bean and Sausage Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 381",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "vegetable juice cocktail",
+          "quantity": "1",
+          "unit": "24-oz can"
+        },
+        {
+          "item": "chili beans with chili gravy",
+          "quantity": "1",
+          "unit": "15-oz can"
+        },
+        {
+          "item": "loose-pack frozen hash brown potatoes with onions and peppers",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "fully cooked Polish sausage or fully cooked smoked turkey sausage, halved lengthwise and sliced",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan combine juice cocktail, undrained beans, potatoes, and sausage. Bring to boiling; reduce heat. Simmer for 10 minutes or till potatoes are tender and mixture is heated through. Sprinkle each serving with some of the cheese."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 2-quart casserole combine half of the vegetable juice and the potatoes. Micro-cook, covered, on 100% power (high) for 10 minutes or till potatoes are tender, stirring once. Add remaining vegetable juice, undrained beans, and sausage. Cook, uncovered, on high for 8 to 10 minutes or till heated through. Sprinkle each serving with some of the cheese."
+      ],
+      "tags": [
+        "soup",
+        "sausage",
+        "beans",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5542 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 404,
+          "fat_g": 14,
+          "protein_g": 20,
+          "carbs_g": 38,
+          "cholesterol_mg": 689,
+          "sodium_mg": 381
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "lentil-stew-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lentil Stew",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 381",
+      "description": "This stew is a good choice when you're short on time because the lentils cook in just 35 minutes.",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "dry lentils",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced leeks or chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "beef broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "can tomatoes, cut up",
+          "quantity": "1",
+          "unit": "7 1/2-oz"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried thyme or oregano, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "chopped carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "fully cooked smoked sausage links, sliced",
+          "quantity": "1/2",
+          "unit": "lb"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse lentils; set aside. In a large saucepan cook leeks or onion and garlic in hot oil till tender but not brown. Stir in lentils, beef broth, undrained tomatoes, Worcestershire sauce, thyme or oregano, pepper, cumin, and bay leaf. Bring to boiling; reduce heat and simmer for 15 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add carrot and celery. Return to boiling; reduce heat. Simmer for 15 to 20 minutes more or till lentils and vegetables are tender. Stir in sausage; heat through. Discard bay leaf. If desired, garnish each serving with snipped parsley."
+        }
+      ],
+      "tags": [
+        "soup",
+        "stew",
+        "lentils",
+        "sausage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5542 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 466,
+          "fat_g": 22,
+          "protein_g": 26,
+          "carbs_g": 42,
+          "cholesterol_mg": 1261,
+          "sodium_mg": 39
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "black-bean-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Black Bean Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 381",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "dry black beans",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "4",
+          "unit": "cloves"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "ground coriander",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/8 to 1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "fully cooked smoked turkey sausage or Polish sausage, chopped",
+          "quantity": "1/4",
+          "unit": "lb"
+        },
+        {
+          "item": "dry sherry (optional)",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse beans. In a large saucepan combine beans and 6 cups water. Bring to boiling; reduce heat. Simmer for 2 minutes. Remove from heat. Cover and let stand for 1 hour. (Or, skip boiling the water and soak beans overnight in a covered pan.) Drain and rinse beans."
+        },
+        {
+          "step": 2,
+          "text": "In a large saucepan or Dutch oven cook onion, celery, and garlic in hot oil till tender. Add beans, chicken broth, coriander, salt, and red pepper. Bring to boiling; reduce heat. Cover and simmer for 1 to 1 1/2 hours or till beans are tender."
+        },
+        {
+          "step": 3,
+          "text": "If desired, mash beans slightly with a potato masher. Stir in sausage and, if desired, dry sherry. Cook 2 to 3 minutes more or till heated through. If desired, garnish with dairy sour cream, shredded Monterey Jack cheese, or snipped parsley."
+        }
+      ],
+      "tags": [
+        "soup",
+        "black beans",
+        "sausage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5542 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 11,
+          "protein_g": 9,
+          "carbs_g": 5,
+          "cholesterol_mg": 43,
+          "sodium_mg": 71
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "split-pea-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Split Pea Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 382",
+      "servings_yield": "4 main-dish servings",
+      "ingredients": [
+        {
+          "item": "dry split peas",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "smoked pork hocks or meaty ham bone",
+          "quantity": "1 to 1 1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "dried marjoram, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "chopped carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse peas. In a large saucepan combine peas, broth, meat, marjoram, bay leaf, and dash pepper. Bring to boiling; reduce heat. Cover; simmer for 1 hour. Stir occasionally. Remove meat. When cool enough to handle, cut meat off bone and coarsely chop. Discard bone. Return meat to saucepan. Stir in carrot, celery, and onion. Return to boiling; reduce heat. Cover; simmer for 20 to 30 minutes or till vegetables are crisp-tender. Discard bay leaf."
+        }
+      ],
+      "tags": [
+        "soup",
+        "split pea",
+        "pork"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5543 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 336,
+          "fat_g": 18.8,
+          "protein_g": 26.4,
+          "carbs_g": 14.1
+        },
+        "missing_inputs": [
+          "Not in database: dried marjoram, crushed"
+        ],
+        "assumptions": [
+          "Based on 7/8 ingredients (88% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "minestrone-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Minestrone",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 382",
+      "servings_yield": "5 side-dish servings",
+      "ingredients": [
+        {
+          "item": "dry great northern beans",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped carrot",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "instant beef bouillon granules",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "1",
+          "unit": "clove"
+        },
+        {
+          "item": "dried basil, crushed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried oregano, crushed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "can tomatoes, cut up",
+          "quantity": "1",
+          "unit": "7 1/2-oz"
+        },
+        {
+          "item": "coarsely chopped cabbage",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "small zucchini, halved lengthwise and sliced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "thin spaghetti, broken",
+          "quantity": "1/2",
+          "unit": "oz"
+        },
+        {
+          "item": "bacon, crisp-cooked, drained, and crumbled",
+          "quantity": "2",
+          "unit": "slices"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse beans. In a medium saucepan combine beans and 2 1/2 cups water. Bring to boiling; reduce heat. Simmer for 2 minutes. Remove from heat. Cover and let stand for 1 hour. (Or, skip boiling the water and soak beans overnight in a covered pan.) Drain and rinse beans."
+        },
+        {
+          "step": 2,
+          "text": "In the same saucepan combine beans, 2 1/4 cups fresh water, carrot, celery, onion, bouillon granules, garlic, basil, oregano, and pepper. Bring to boiling; reduce heat. Cover; simmer for 15 minutes. Drain; stir in half of one 15-ounce can great northern beans or one 8-ounce can red kidney beans. Add tomatoes, cabbage, zucchini, and spaghetti. Return to boiling; reduce heat. Cover and simmer for 5 to 10 minutes more or till tender."
+        }
+      ],
+      "notes": [
+        "Quick Minestrone: Prepare as above, except do not use dry great northern beans. In a large saucepan combine 2 1/4 cups water, carrot, celery, onion, bouillon granules, garlic, basil, oregano, and pepper. Bring to boiling; reduce heat. Cover; simmer for 15 minutes. Drain; stir in half of one 15-ounce can great northern beans or one 8-ounce can red kidney beans. Add tomatoes, cabbage, zucchini, and spaghetti. Return to boiling; reduce heat. Cover and simmer for 5 to 10 minutes more or till tender."
+      ],
+      "tags": [
+        "soup",
+        "italian",
+        "vegetable",
+        "minestrone"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5543 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 2,
+          "protein_g": 4,
+          "carbs_g": 12,
+          "cholesterol_mg": 230,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "tortellini-vegetable-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tortellini-Vegetable Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 382",
+      "description": "Either frozen or dried tortellini works in this soup.",
+      "servings_yield": "6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "snipped dried basil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "olive oil or cooking oil",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "beef or chicken broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "beef or cheese tortellini",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped, peeled tomatoes",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "loose-pack frozen cut green beans",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Grated Parmesan cheese (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan cook basil and garlic in hot oil about 1 minute. Add broth, tortellini, salt, and pepper. Bring to boiling; reduce heat. Cover and simmer for 10 minutes. Add tomatoes, green beans, and carrot. Return to boiling; reduce heat. Cover and simmer 10 to 15 minutes more or till tortellini is done and vegetables are tender. If desired, sprinkle each serving with Parmesan cheese."
+        }
+      ],
+      "notes": [
+        "Note: If desired, substitute 2 tablespoons Pesto for Pasta for the basil, garlic, and oil. Stir in at the end of cooking."
+      ],
+      "tags": [
+        "soup",
+        "italian",
+        "tortellini",
+        "vegetable"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5543 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 40,
+          "fat_g": 1.5,
+          "protein_g": 3.0,
+          "carbs_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for Grated Parmesan cheese (optional) (standard quantity)",
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "wild-rice-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Rice Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 383",
+      "description": "A sumptuous side dish with a nutty flavor.",
+      "servings_yield": "4 to 6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "chicken broth",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "uncooked wild rice",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced green onions",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "light cream or milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "dry sherry (optional)",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Snipped parsley or chives",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan combine broth and rice. Bring to boiling; reduce heat. Cover and simmer 45 to 50 minutes or till tender. Stir in onions and carrot during last 5 minutes of cooking. Combine cream or milk, flour, and pepper. Stir into rice mixture. Cook and stir till slightly thickened and bubbly. Cook and stir 1 minute more. If desired, stir in sherry. Garnish with parsley or chives."
+        }
+      ],
+      "tags": [
+        "soup",
+        "wild rice",
+        "creamy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5544 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 263,
+          "fat_g": 22.6,
+          "protein_g": 4.5,
+          "carbs_g": 12.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for Snipped parsley or chives",
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "wonton-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wonton Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 383",
+      "servings_yield": "4 to 6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "Wontons",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "thinly bias-sliced carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "small green pepper, cut into 1/2-inch pieces, or frozen pea pods, thawed and halved",
+          "quantity": "1/2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare wontons as directed, except do not fry. Freeze half of the wontons for another use."
+        },
+        {
+          "step": 2,
+          "text": "In a saucepan bring 6 cups water to boiling. With a spoon, place wontons, one at a time, into boiling water. Reduce heat. Simmer for 5 minutes. Drain. Rinse with cool water; drain again."
+        },
+        {
+          "step": 3,
+          "text": "In a saucepan combine chicken broth, carrot, and green pepper. (If using the pea pods, add to broth during the last minute of cooking.) Bring to boiling; reduce heat. Cover and simmer for 2 to 4 minutes or till vegetables are crisp-tender. To serve, divide wontons among bowls. Spoon broth mixture atop."
+        }
+      ],
+      "tags": [
+        "soup",
+        "asian",
+        "wonton"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5544 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 0.6,
+          "protein_g": 2.3,
+          "carbs_g": 3.2
+        },
+        "missing_inputs": [
+          "Not in database: Wontons"
+        ],
+        "assumptions": [
+          "Based on 3/4 ingredients (75% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cheese-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cheese Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 384",
+      "servings_yield": "5 side-dish or 3 main-dish servings",
+      "ingredients": [
+        {
+          "item": "chicken broth",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "finely shredded carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped celery",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Dash pepper",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan combine chicken broth, carrot, celery, and onion. Bring to boiling; reduce heat. Cover and simmer for 6 to 8 minutes or till vegetables are tender. Combine milk, flour, and pepper. Stir into broth mixture. Cook and stir till thickened and bubbly. Cook and stir 1 minute more. Add cheese; stir till melted."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 1 1/2-quart casserole combine 1/2 cup of the chicken broth, the carrot, celery, and onion. Micro-cook, covered, on 100% power (high) for 6 to 8 minutes or till vegetables are tender. Combine milk, flour, and pepper. Stir into broth mixture. Stir in remaining chicken broth. Cook, uncovered, on high for 8 to 10 minutes or till thickened and bubbly, stirring every 2 minutes till mixture starts to thicken, then every 30 seconds. Stir in cheese. Cook, uncovered, on high about 1 minute or till hot and cheese melts.",
+        "Beer Cheese Soup: Prepare as above, except reduce chicken broth to 1 cup. Stir 3/4 cup beer into soup with the cheese."
+      ],
+      "tags": [
+        "soup",
+        "cheese",
+        "creamy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5545 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 159,
+          "fat_g": 10,
+          "protein_g": 9,
+          "carbs_g": 7,
+          "cholesterol_mg": 578,
+          "sodium_mg": 374
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "corn-chowder-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Corn Chowder",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 384",
+      "servings_yield": "4 to 6 side-dish servings",
+      "ingredients": [
+        {
+          "item": "fresh medium ears of corn or frozen whole kernel corn",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "cubed, peeled potato",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "If using fresh corn, use a sharp knife to cut off just the kernel tips from the ears of corn, then scrape the cobs with the dull edge of the knife. (You should have 2 cups corn.)"
+        },
+        {
+          "step": 2,
+          "text": "In a large saucepan combine fresh or frozen corn, potato, onion, water, bouillon granules, and pepper. Bring to boiling; reduce heat. Cover and simmer about 10 minutes or till corn and potatoes are just tender, stirring occasionally. Stir in 1 1/2 cups of the milk and the margarine or butter. Combine the remaining milk and flour. Stir milk-flour mixture into corn mixture. Cook and stir till thickened and bubbly. Cook and stir 1 minute more. If desired, garnish with snipped chives or snipped parsley and crisp-cooked, crumbled bacon."
+        }
+      ],
+      "tags": [
+        "soup",
+        "chowder",
+        "corn"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5545 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 186,
+          "fat_g": 6,
+          "protein_g": 7,
+          "carbs_g": 28,
+          "cholesterol_mg": 286,
+          "sodium_mg": 8
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cream-of-vegetable-soup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream of Vegetable Soup",
+      "category": "soups",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 384",
+      "servings_yield": "3 or 4 side-dish servings",
+      "ingredients": [
+        {
+          "item": "Cooked vegetable (see chart)",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Seasonings (see chart)",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Dash pepper",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "milk or light cream",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container or food processor bowl combine the cooked vegetable and 3/4 cup of the chicken broth. Cover and blend or process about 1 minute or till smooth. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan melt margarine. Stir in flour, seasonings, salt, and pepper. Add milk all at once. Cook and stir till slightly thickened and bubbly. Cook 1 minute more. Stir in vegetable mixture and remaining broth. Cook and stir till heated through. If necessary, stir in additional milk to make of desired consistency. Season to taste."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Blend or process the vegetable and chicken broth as above. Set aside. In a 1 1/2- or 2-quart casserole micro-cook margarine, uncovered, on 100% power (high) 30 to 60 seconds or till melted. Stir in flour, seasonings, salt, and pepper. Stir in milk all at once. Cook, uncovered, on high for 3 to 5 minutes or till thickened and bubbly, stirring every minute till the sauce starts to thicken, then every 30 seconds. Stir in vegetable mixture and remaining broth. Cook, uncovered, on high 3 to 5 minutes more or till heated through, stirring once. If necessary, stir in additional milk to make of desired consistency."
+      ],
+      "tags": [
+        "soup",
+        "vegetable",
+        "creamy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5545 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 293,
+          "fat_g": 29.8,
+          "protein_g": 3.0,
+          "carbs_g": 5.0
+        },
+        "missing_inputs": [
+          "Not in database: Cooked vegetable (see chart)",
+          "Not in database: Seasonings (see chart)"
+        ],
+        "assumptions": [
+          "Inferred 0.25 for Dash pepper (standard quantity)",
+          "Based on 6/8 ingredients (75% coverage)"
+        ]
+      }
+    }
+  ]
+}
