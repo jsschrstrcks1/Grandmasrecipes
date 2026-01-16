@@ -2979,7 +2979,15 @@ function loadMoreIngredientResults() {
  */
 function isCommonPantryStaple(ingredient) {
   const normalized = ingredient.toLowerCase().trim();
-  return COMMON_PANTRY_STAPLES.has(normalized);
+  // Check exact match first
+  if (COMMON_PANTRY_STAPLES.has(normalized)) return true;
+  // Check if any common staple appears as a word in the ingredient
+  for (const staple of COMMON_PANTRY_STAPLES) {
+    // Match as whole word (not part of another word like "assault")
+    const regex = new RegExp(`\\b${staple}\\b`, 'i');
+    if (regex.test(normalized)) return true;
+  }
+  return false;
 }
 
 /**

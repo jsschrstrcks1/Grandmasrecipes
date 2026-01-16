@@ -814,4 +814,47 @@ python scripts/minify.py                  # Minify JS/CSS for production
 
 ---
 
-*Last updated: 2026-01 (added category-based sharding for faster page loads)*
+## PWA Ingredient Search Maintenance
+
+### Common Pantry Staples Exclusion
+
+The PWA ingredient search excludes common pantry staples from the "Have:" and "Missing:" display to reduce noise. These are defined in `script.js` in the `COMMON_PANTRY_STAPLES` constant.
+
+**Currently excluded:**
+- Seasonings: salt, pepper, black pepper, white pepper, kosher salt, sea salt, garlic powder, onion powder, paprika, cayenne
+- Liquids: water, oil, vegetable oil, cooking oil, canola oil, olive oil, cooking spray
+- Baking: flour, all-purpose flour, sugar, granulated sugar, baking soda, baking powder, vanilla, vanilla extract
+- Dairy: butter, unsalted butter, salted butter, margarine, eggs, egg, milk
+
+**To add new exclusions:**
+1. Edit `COMMON_PANTRY_STAPLES` Set in `script.js` (around line 87)
+2. Add the ingredient in lowercase
+3. Run `python scripts/minify.py`
+4. Commit and push
+
+### PWA Collection Filtering
+
+The PWA search respects the collection filter checkboxes. If user selects only "Grandma", the ingredient search only returns Grandma's recipes.
+
+### PWA and Recipe Grid Behavior
+
+- When PWA search is active, the regular recipe grid is hidden
+- When search is cleared, recipe grid reappears
+- This is controlled in `updateIngredientSearchResults()` and `clearIngredientSearch()`
+
+---
+
+## Important Maintenance Reminder
+
+**CRITICAL: Any time you add a feature that requires routine maintenance (rebuilding indexes, running scripts, updating configuration), ADD IT TO THIS FILE!**
+
+Common maintenance triggers:
+- Adding/modifying recipes → rebuild ingredient index
+- Adding/modifying images → process images
+- Changing search behavior → rebuild Pagefind
+- Changing ingredient handling → rebuild ingredient index
+- Adding new collections → update aggregation config
+
+---
+
+*Last updated: 2026-01 (added PWA maintenance, common staples exclusion)*
