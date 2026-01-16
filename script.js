@@ -607,7 +607,6 @@ function updateLastUpdatedBadge() {
     const builtAt = new Date(ingredientIndex.meta.built_at);
     const timeAgo = formatTimeAgo(ingredientIndex.meta.built_at);
 
-    const collections = ingredientIndex.meta.collections || {};
     const collectionNames = {
       'grandma-baker': 'Grandma',
       'mommom-baker': 'MomMom',
@@ -615,13 +614,18 @@ function updateLastUpdatedBadge() {
       'all': 'Other'
     };
 
-    // Build collection status string
+    // Count recipes from local index (not ingredient index metadata)
+    const localCounts = {};
+    for (const recipe of recipes) {
+      const coll = recipe.collection || 'unknown';
+      localCounts[coll] = (localCounts[coll] || 0) + 1;
+    }
+
+    // Build collection status string from local counts
     const collectionParts = [];
-    let totalRecipes = 0;
-    for (const [id, info] of Object.entries(collections)) {
+    let totalRecipes = recipes.length;
+    for (const [id, count] of Object.entries(localCounts)) {
       const name = collectionNames[id] || id;
-      const count = typeof info === 'object' ? info.count : info;
-      totalRecipes += count;
       collectionParts.push(`${name}: ${count}`);
     }
 
@@ -629,14 +633,7 @@ function updateLastUpdatedBadge() {
       <span class="index-summary">Index updated ${timeAgo} (${totalRecipes} recipes)</span>
       <span class="collection-breakdown">${collectionParts.join(' | ')}</span>
     `;
-    badge.title = `Built: ${builtAt.toLocaleString()}\n` +
-      Object.entries(collections).map(([id, info]) => {
-        const name = collectionNames[id] || id;
-        if (typeof info === 'object' && info.fetched_at) {
-          return `${name}: ${info.count} recipes (${formatTimeAgo(info.fetched_at)})`;
-        }
-        return `${name}: ${info} recipes`;
-      }).join('\n');
+    badge.title = `Built: ${builtAt.toLocaleString()}\nRecipes loaded: ${totalRecipes}`;
   } catch (e) {
     console.error('Error updating last-updated badge:', e);
   }
