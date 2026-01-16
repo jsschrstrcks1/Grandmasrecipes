@@ -2706,26 +2706,41 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
   // Build a map of recipeId -> { matchCount, matchedIngredients, missingIngredients }
   const recipeMatches = new Map();
 
+  // Pre-build a list of all ingredient keys for partial matching (only once)
+  const allIngredientKeys = Object.keys(ingredientData);
+
   for (const selectedIng of ingredients) {
     const normalizedSelected = normalizeIngredientName(selectedIng);
     const canonical = getCanonicalName(normalizedSelected);
 
     // Find all recipe IDs that contain this ingredient
-    // Check exact match, canonical match, and partial matches
     const matchingRecipeIds = new Set();
 
-    for (const [ingName, recipeIds] of Object.entries(ingredientData)) {
-      const ingNormalized = normalizeIngredientName(ingName);
-      const ingCanonical = getCanonicalName(ingNormalized);
+    // 1. Try direct lookup first (O(1))
+    if (ingredientData[normalizedSelected]) {
+      for (const recipeId of ingredientData[normalizedSelected]) {
+        matchingRecipeIds.add(recipeId);
+      }
+    }
 
-      // Check for match (exact, canonical, or partial)
-      if (ingNormalized === normalizedSelected ||
-          ingCanonical === canonical ||
-          ingNormalized.includes(normalizedSelected) ||
-          normalizedSelected.includes(ingNormalized)) {
-        for (const recipeId of recipeIds) {
-          matchingRecipeIds.add(recipeId);
+    // 2. Try canonical name lookup
+    if (ingredientData[canonical] && canonical !== normalizedSelected) {
+      for (const recipeId of ingredientData[canonical]) {
+        matchingRecipeIds.add(recipeId);
+      }
+    }
+
+    // 3. Only do partial matching if no exact matches found and search term is specific enough
+    if (matchingRecipeIds.size === 0 && normalizedSelected.length >= 3) {
+      // Limit partial matching to avoid performance issues
+      for (const ingName of allIngredientKeys) {
+        if (ingName.includes(normalizedSelected) || normalizedSelected.includes(ingName)) {
+          for (const recipeId of ingredientData[ingName]) {
+            matchingRecipeIds.add(recipeId);
+          }
         }
+        // Stop if we have enough matches to avoid browser crash
+        if (matchingRecipeIds.size > 5000) break;
       }
     }
 
