@@ -1,0 +1,1010 @@
+{
+  "sample_size": 596,
+  "critical_count": 0,
+  "warning_count": 99,
+  "critical": [],
+  "warnings": [
+    {
+      "id": "illustrations-basicfoodp",
+      "title": "Illustrations",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very short single instruction",
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "black-nutcake-wilsonscoo",
+      "title": "Black Nutcake",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "cornstarch-pudding-scottsnort",
+      "title": "Cornstarch Pudding",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)",
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "baked-cherry-pudding-scottsnort",
+      "title": "Baked Cherry Pudding",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)",
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chili-mac-casserole",
+      "title": "Chili Mac Casserole",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "orange-julius-supreme",
+      "title": "Orange Julius Supreme",
+      "collection": "mommom-baker",
+      "category": "beverages",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "proportions-wilsonscoo",
+      "title": "Proportions",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "raisin-scones-handwritten",
+      "title": "Raisin Scones",
+      "collection": "grandma-baker",
+      "category": "breads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chicken-roll-ups-chickenrec",
+      "title": "Chicken Roll Ups",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "salmon-veggie-packets",
+      "title": "Salmon Veggie Packets",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "zucchini-panzanella-salad",
+      "title": "Zucchini Panzanella Salad",
+      "collection": "all",
+      "category": "salads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chocolate-fudge-auntcaroli",
+      "title": "Chocolate Fudge",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "cheese-andpepper-sandwiches-wilsonscoo",
+      "title": "Cheese Andpepper Sandwiches",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "millet-cooking-guide",
+      "title": "Millet (Cooking Guide)",
+      "collection": "grandma-baker",
+      "category": "reference",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "berry-coffee-cake-bhg",
+      "title": "Berry Coffee Cake",
+      "collection": "mommom-baker",
+      "category": "breads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "olive-sauce-thewingold",
+      "title": "Olive Sauce",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "peanut-butter-coffee-cake-bhg",
+      "title": "Peanut Butter Coffee Cake",
+      "collection": "mommom-baker",
+      "category": "breads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "garlic-butter-spread",
+      "title": "Garlic Butter",
+      "collection": "mommom-baker",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)",
+        "Very short single instruction"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "makes-two-to-three-cups-fromscratc",
+      "title": "Makes Two To Three Cups",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very short single instruction"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "lesson-and-check-your-answers-again-basicfoodp",
+      "title": "Lesson And Check Your Answers Against The",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very short single instruction",
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "stuffed-green-peppers-theamerica",
+      "title": "Stuffed Green Peppers",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "1-c-cooked-and-mashed-potato-sandwichre",
+      "title": "1 c Cooked and mashed potato",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)",
+        "Very short single instruction"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "ham-and-spinach-pie",
+      "title": "Ham and Spinach Pie",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "white-figcake-thewhysofc",
+      "title": "White Figcake",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "filling-forsquash-orpumpkin-pie-theplainsa",
+      "title": "Filling Forsquash Orpumpkin Pie",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "fruit-cupcustards-wilsonscoo",
+      "title": "Fruit Cupcustards",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "nana-reba-s-potato-knishes",
+      "title": "Nana Reba's Potato Knishes",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "fried-tripe-scottsnort",
+      "title": "Fried Tripe",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "divinity-candy-auntcaroli",
+      "title": "Divinity Candy",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "anewserving-forcreamed-eggs-scottsnort",
+      "title": "Anewserving Forcreamed Eggs",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Very few ingredients (2)",
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "soups-courseofle",
+      "title": "Soups",
+      "collection": "all",
+      "category": "soups",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "beef-manicotti-mommom",
+      "title": "Beef Manicotti",
+      "collection": "mommom-baker",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "vegetable-souffle-bhg-2",
+      "title": "Vegetable Souffl\u00e9",
+      "collection": "mommom-baker",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chocolate-drop-cookies-themetropo",
+      "title": "Chocolate Drop Cookies",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "helpful-hints-about-making-andusing-elementsof",
+      "title": "Helpful Hints About Making Andusing Soup-Stock",
+      "collection": "all",
+      "category": "soups",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "egglemonade-wilsonscoo",
+      "title": "Egglemonade",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "date-orange-coffee-cake",
+      "title": "Date-Orange Coffee Cake",
+      "collection": "mommom-baker",
+      "category": "breads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "whole-wheat-griddle-cakes-themetropo",
+      "title": "Whole Wheat Griddle Cakes",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "yorkshire-pudding-bhg",
+      "title": "Yorkshire Pudding",
+      "collection": "mommom-baker",
+      "category": "sides",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "hermits-aboard-ship",
+      "title": "Hermits Aboard Ship",
+      "collection": "grandma-baker",
+      "category": "desserts",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "potatosour-goodliving",
+      "title": "Potatosour",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "milksherbet-without-egg-thewingold",
+      "title": "Milksherbet Without Egg",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "smoky-pork-shoulder-tacos",
+      "title": "Smoky pork shoulder tacos",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "nutty-sticky-rolls-bhg",
+      "title": "Nutty Sticky Rolls",
+      "collection": "mommom-baker",
+      "category": "breads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "canadian-sauce-wilsonscoo",
+      "title": "Canadian Sauce",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "tomato-salad-themetropo",
+      "title": "Tomato Salad",
+      "collection": "all",
+      "category": "salads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "oatmeal-muffins-wilsonscoo",
+      "title": "Oatmeal Muffins",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chocolate-hazelnut-babka-buns",
+      "title": "Chocolate-Hazelnut Babka Buns",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "braised-rolled-flank-steak-wilsonscoo",
+      "title": "Braised Rolled Flank Steak",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Contains [RECONSTRUCTED] marker"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "cranberry-apple-crisp-mommom",
+      "title": "Cranberry Apple Crisp",
+      "collection": "mommom-baker",
+      "category": "desserts",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "toffee-bars-bhg",
+      "title": "Toffee Bars",
+      "collection": "mommom-baker",
+      "category": "desserts",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "richgraham-muffins-thewhysofc",
+      "title": "Richgraham Muffins",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "creamed-turnips-scottsnort",
+      "title": "Creamed Turnips",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)",
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "overnight-egg-sausage-bake",
+      "title": "Overnight Egg and Sausage Bake",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "andouille-sausage-and-peppers",
+      "title": "Andouille Sausage and Peppers",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chai-cinnamon-rolls",
+      "title": "Chai Cinnamon Rolls",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "almond-bread-thewingold",
+      "title": "Almond Bread",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "caramel-apple-cake-demarco",
+      "title": "Mrs. DeMarco's $5,000 Caramel Apple Cake",
+      "collection": "grandma-baker",
+      "category": "desserts",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "cocktail-meatballs-sauces",
+      "title": "Cocktail Meatballs",
+      "collection": "mommom-baker",
+      "category": "snacks",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "radish-salad-scottsnort",
+      "title": "Radish Salad",
+      "collection": "all",
+      "category": "salads",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "almond-macaroons-thewingold",
+      "title": "Almond Macaroons",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "ravioli-of-curds-and-spinach-gutenberg",
+      "title": "Ravioli Of Curds And Spinach",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (1)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "mulligatawney-wilsonscoo",
+      "title": "Mulligatawney",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "graham-bread-wilsonscoo",
+      "title": "Graham Bread",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "gnocchi-of-milka-dessert-gutenberg",
+      "title": "Gnocchi Of Milk\u2014A Dessert",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (1)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "boiled-steakfish-withsauce-scottsnort",
+      "title": "Boiled Steakfish Withsauce",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "lemon-cake-thewhysofc",
+      "title": "Lemon Cake",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "french-coffee-scottsnort",
+      "title": "French Coffee",
+      "collection": "all",
+      "category": "beverages",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "ragu-veggie-no-boiling-lasagna",
+      "title": "Rag\u00fa Veggie No Boiling Lasagna",
+      "collection": "grandma-baker",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "plum-conserve-thewingold",
+      "title": "Plum Conserve",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "english-chopped-pickle-auntcaroli",
+      "title": "English Chopped Pickle",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "choose-a-flavor-float",
+      "title": "Choose-a-Flavor Float",
+      "collection": "mommom-baker",
+      "category": "beverages",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "apple-crumble-kugel",
+      "title": "Apple Crumble Kugel",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "assistant-to-bensonwoma",
+      "title": "Assistant To",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)",
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "game-sauce-thewingold",
+      "title": "Game Sauce",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "asparagus-vinaigrette-wilsonscoo",
+      "title": "Asparagus Vinaigrette",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "oven-apple-pancakes",
+      "title": "Oven Apple Pancakes",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "sauce-to-mi-x-it-thecentury",
+      "title": "Sauce To Mi X It",
+      "collection": "all",
+      "category": "sides",
+      "issues": [
+        "Very short single instruction",
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "caesar-salmon-with-roasted-tomatoes-artichokes",
+      "title": "Caesar Salmon with Roasted Tomatoes & Artichokes",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "overnight-egg-sausage-bake-ref",
+      "title": "Overnight Egg and Sausage Bake",
+      "collection": "all",
+      "category": "breakfast",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chicken-with-sage-corn-bread-crust-chickenrec",
+      "title": "Chicken With Sage Corn - Bread Crust",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "sandwiches-courseofle",
+      "title": "Sandwiches",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "date-cake",
+      "title": "Date Cake",
+      "collection": "mommom-baker",
+      "category": "desserts",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "lemon-gelatin-pudding-thewingold",
+      "title": "Lemon Gelatin Pudding",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)",
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "appendix-basicfoodp",
+      "title": "Appendix",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "chicken-cordon-bleu-pizza",
+      "title": "Chicken Cordon Bleu Pizza",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "sassy-salsa-meat-loaves",
+      "title": "Sassy Salsa Meat Loaves",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "gnocchi-of-farina-gutenberg",
+      "title": "Gnocchi Of Farina",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (1)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "melon-and-prosciutto",
+      "title": "Melon and Prosciutto",
+      "collection": "mommom-baker",
+      "category": "snacks",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "mexican-pork-chops-and-beans",
+      "title": "Mexican Pork Chops and Beans",
+      "collection": "grandma-baker",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "sweet-rolls-themetropo",
+      "title": "Sweet Rolls",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "suggestive-menuforfamily-homeweddin-wilsonscoo",
+      "title": "Suggestive Menuforfamily Homewedding",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "figure-caption-page-basicfoodp",
+      "title": "Figure Caption Page",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "branbread-themetropo",
+      "title": "Branbread",
+      "collection": "all",
+      "category": "breads",
+      "issues": [
+        "Very short single instruction",
+        "Possible merged text (OCR)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "prune-pubding-themetropo",
+      "title": "Prune Pubding",
+      "collection": "all",
+      "category": "mains",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "sweet-cream-cake-thewingold",
+      "title": "Sweet Cream Cake",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (2)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "sweet-ravioli-gutenberg",
+      "title": "Sweet Ravioli",
+      "collection": "all",
+      "category": "desserts",
+      "issues": [
+        "Very few ingredients (1)"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "crispy-herb-baked-chicken",
+      "title": "Crispy Herb Baked Chicken",
+      "collection": "grandma-baker",
+      "category": "mains",
+      "issues": [
+        "Possible corrupted numbers"
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "tomato-juice-canning-bhg",
+      "title": "Tomato Juice",
+      "collection": "mommom-baker",
+      "category": "sides",
+      "issues": [
+        "Very few ingredients (1)"
+      ],
+      "severity": "warning"
+    }
+  ]
+}
