@@ -258,58 +258,81 @@ async function loadRecipes() {
 }
 
 /**
- * Load full recipe details on demand (for detail page)
+ * Load full recipe details on demand using collection-based shards
+ * This loads only the shard for the recipe's collection, not the entire master file
  */
-let fullRecipesLoading = null;
+let localShardCache = {};      // { 'collection': recipes[] }
+let loadingLocalShards = {};   // Track in-progress local shard loads
+
 async function loadFullRecipe(recipeId) {
-  // Check cache first
+  // Check recipe cache first
   if (fullRecipesCache[recipeId]) {
     return fullRecipesCache[recipeId];
   }
 
-  // Load full recipes file if not already loading
-  if (!fullRecipesLoading) {
-    fullRecipesLoading = (async () => {
-      try {
-        const response = await fetch('data/recipes_master.json');
-        const data = await response.json();
-        const fullRecipes = data.recipes || [];
-
-        // Cache all recipes
-        fullRecipes.forEach(r => {
-          fullRecipesCache[r.id] = r;
-        });
-
-        console.log(`Loaded full recipe details (${fullRecipes.length} recipes)`);
-        return true;
-      } catch (error) {
-        console.error('Failed to load full recipes:', error);
-        return false;
-      }
-    })();
-  }
-
-  await fullRecipesLoading;
-
-  // If recipe is in cache, return it
-  if (fullRecipesCache[recipeId]) {
-    return fullRecipesCache[recipeId];
-  }
-
-  // Recipe not found locally - try to find it in the index to get collection/category
+  // Find recipe in index to get its collection
   const indexEntry = recipes.find(r => r.id === recipeId);
-  if (indexEntry && indexEntry.collection) {
-    const collectionConfig = REMOTE_COLLECTIONS[indexEntry.collection];
-    if (collectionConfig) {
-      // Try to load from remote collection
-      const remoteRecipe = await loadRemoteRecipe(recipeId, indexEntry, collectionConfig);
-      if (remoteRecipe) {
-        fullRecipesCache[recipeId] = remoteRecipe;
-        return remoteRecipe;
-      }
-    }
+  if (!indexEntry) {
+    console.warn(`Recipe ${recipeId} not found in index`);
+    return null;
   }
 
+  const collection = indexEntry.collection;
+
+  // Check if this is a remote collection
+  const collectionConfig = REMOTE_COLLECTIONS[collection];
+  if (collectionConfig) {
+    // Load from remote collection
+    const remoteRecipe = await loadRemoteRecipe(recipeId, indexEntry, collectionConfig);
+    if (remoteRecipe) {
+      fullRecipesCache[recipeId] = remoteRecipe;
+      return remoteRecipe;
+    }
+    return null;
+  }
+
+  // Local collection - load from collection shard
+  if (!localShardCache[collection]) {
+    // Load the shard if not already loading
+    if (!loadingLocalShards[collection]) {
+      loadingLocalShards[collection] = (async () => {
+        try {
+          const shardUrl = `data/recipes-${collection}.json`;
+          console.log(`Loading local shard: ${shardUrl}`);
+          const response = await fetch(shardUrl);
+          if (!response.ok) {
+            console.warn(`Failed to load shard ${collection}: ${response.status}`);
+            return false;
+          }
+          const data = await response.json();
+          const shardRecipes = data.recipes || [];
+
+          // Cache the shard
+          localShardCache[collection] = shardRecipes;
+
+          // Also cache individual recipes for quick lookup
+          shardRecipes.forEach(r => {
+            fullRecipesCache[r.id] = r;
+          });
+
+          console.log(`Loaded ${shardRecipes.length} recipes from ${collection} shard`);
+          return true;
+        } catch (error) {
+          console.error(`Error loading shard ${collection}:`, error);
+          return false;
+        }
+      })();
+    }
+
+    await loadingLocalShards[collection];
+  }
+
+  // Return from cache
+  if (fullRecipesCache[recipeId]) {
+    return fullRecipesCache[recipeId];
+  }
+
+  console.warn(`Recipe ${recipeId} not found in ${collection} shard`);
   return null;
 }
 
