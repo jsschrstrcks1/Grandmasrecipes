@@ -82,6 +82,26 @@ let ingredientSearchOptions = {
 };
 let autocompleteHighlightIndex = -1;
 
+// Common pantry staples to exclude from ingredient match display
+// These are so common they add noise - most households have them
+const COMMON_PANTRY_STAPLES = new Set([
+  // Seasonings
+  'salt', 'pepper', 'black pepper', 'white pepper', 'kosher salt', 'sea salt',
+  'garlic powder', 'onion powder', 'paprika', 'cayenne', 'cayenne pepper',
+  // Liquids
+  'water', 'cold water', 'warm water', 'hot water', 'boiling water', 'ice water',
+  'oil', 'vegetable oil', 'cooking oil', 'canola oil', 'olive oil', 'cooking spray',
+  // Baking basics
+  'flour', 'all-purpose flour', 'all purpose flour', 'ap flour',
+  'sugar', 'granulated sugar', 'white sugar',
+  'baking soda', 'baking powder',
+  'vanilla', 'vanilla extract', 'pure vanilla extract',
+  // Dairy staples
+  'butter', 'unsalted butter', 'salted butter', 'margarine',
+  'eggs', 'egg', 'large eggs', 'large egg',
+  'milk', 'whole milk', '2% milk', 'skim milk',
+]);
+
 // Staples system state
 let userStaples = [];
 let includeStaples = true;
@@ -607,7 +627,6 @@ function updateLastUpdatedBadge() {
     const builtAt = new Date(ingredientIndex.meta.built_at);
     const timeAgo = formatTimeAgo(ingredientIndex.meta.built_at);
 
-    const collections = ingredientIndex.meta.collections || {};
     const collectionNames = {
       'grandma-baker': 'Grandma',
       'mommom-baker': 'MomMom',
@@ -615,13 +634,18 @@ function updateLastUpdatedBadge() {
       'all': 'Other'
     };
 
-    // Build collection status string
+    // Count recipes from local index (not ingredient index metadata)
+    const localCounts = {};
+    for (const recipe of recipes) {
+      const coll = recipe.collection || 'unknown';
+      localCounts[coll] = (localCounts[coll] || 0) + 1;
+    }
+
+    // Build collection status string from local counts
     const collectionParts = [];
-    let totalRecipes = 0;
-    for (const [id, info] of Object.entries(collections)) {
+    let totalRecipes = recipes.length;
+    for (const [id, count] of Object.entries(localCounts)) {
       const name = collectionNames[id] || id;
-      const count = typeof info === 'object' ? info.count : info;
-      totalRecipes += count;
       collectionParts.push(`${name}: ${count}`);
     }
 
@@ -629,14 +653,7 @@ function updateLastUpdatedBadge() {
       <span class="index-summary">Index updated ${timeAgo} (${totalRecipes} recipes)</span>
       <span class="collection-breakdown">${collectionParts.join(' | ')}</span>
     `;
-    badge.title = `Built: ${builtAt.toLocaleString()}\n` +
-      Object.entries(collections).map(([id, info]) => {
-        const name = collectionNames[id] || id;
-        if (typeof info === 'object' && info.fetched_at) {
-          return `${name}: ${info.count} recipes (${formatTimeAgo(info.fetched_at)})`;
-        }
-        return `${name}: ${info} recipes`;
-      }).join('\n');
+    badge.title = `Built: ${builtAt.toLocaleString()}\nRecipes loaded: ${totalRecipes}`;
   } catch (e) {
     console.error('Error updating last-updated badge:', e);
   }
@@ -2633,6 +2650,7 @@ function renderSelectedIngredients() {
  */
 function clearIngredientSearch() {
   selectedIngredients = [];
+  searchKeywords = [];
   renderSelectedIngredients();
 
   const input = document.getElementById('ingredient-input');
@@ -2640,6 +2658,14 @@ function clearIngredientSearch() {
 
   const resultsDiv = document.getElementById('ingredient-search-results');
   if (resultsDiv) resultsDiv.classList.add('hidden');
+
+  // Show regular recipe grid again
+  const recipeGrid = document.getElementById('recipe-grid');
+  if (recipeGrid) recipeGrid.classList.remove('hidden');
+
+  // Clear ingredient recipe list
+  const recipeList = document.getElementById('ingredient-recipe-list');
+  if (recipeList) recipeList.innerHTML = '';
 
   // Reset just staples mode
   justStaplesMode = false;
@@ -2652,6 +2678,7 @@ function clearIngredientSearch() {
   // Reset current filter's ingredient state
   currentFilter.ingredients = [];
   currentFilter.ingredientMatchInfo = null;
+  currentFilter.keywords = [];
 
   renderRecipeGrid();
 }
@@ -2772,10 +2799,24 @@ function findRecipesByIngredients(ingredients, matchMode, missingThreshold) {
   // Filter recipes based on match mode and threshold
   const results = [];
 
+  // Build a Set of valid recipe IDs for fast lookup
+  const validRecipeIds = new Set(recipes.map(r => r.id));
+
+  // Get selected collections for filtering
+  const selectedCollections = currentFilter.collections || [];
+
   for (const [recipeId, info] of recipeMatches) {
+    // Skip recipes not in local index (ingredient index may have more)
+    if (!validRecipeIds.has(recipeId)) continue;
+
     // Skip variants (check in lightweight index)
     const recipe = recipes.find(r => r.id === recipeId);
     if (recipe && recipe.variant_of && recipe.variant_of !== recipe.id) continue;
+
+    // Filter by selected collections
+    if (selectedCollections.length > 0 && recipe) {
+      if (!selectedCollections.includes(recipe.collection)) continue;
+    }
 
     let isMatch = false;
     if (matchMode === 'any') {
@@ -2836,6 +2877,7 @@ function normalizeIngredientName(name) {
 function updateIngredientSearchResults(matchInfo) {
   const resultsDiv = document.getElementById('ingredient-search-results');
   const countSpan = document.getElementById('ingredient-match-count');
+  const recipeGrid = document.getElementById('recipe-grid');
 
   if (!resultsDiv || !countSpan) return;
 
@@ -2844,6 +2886,11 @@ function updateIngredientSearchResults(matchInfo) {
   // Store matches for pagination
   currentIngredientMatches = matchInfo.matches;
   ingredientResultsShown = 0;
+
+  // Hide regular recipe grid when showing PWA results
+  if (recipeGrid) {
+    recipeGrid.classList.add('hidden');
+  }
 
   if (total === 0) {
     countSpan.innerHTML = 'No recipes found with those ingredients';
@@ -2928,6 +2975,21 @@ function loadMoreIngredientResults() {
 }
 
 /**
+ * Check if an ingredient is a common pantry staple
+ */
+function isCommonPantryStaple(ingredient) {
+  const normalized = ingredient.toLowerCase().trim();
+  return COMMON_PANTRY_STAPLES.has(normalized);
+}
+
+/**
+ * Filter out common pantry staples from an ingredient list
+ */
+function filterOutCommonStaples(ingredients) {
+  return ingredients.filter(ing => !isCommonPantryStaple(ing));
+}
+
+/**
  * Create a recipe result card for ingredient search
  */
 function createIngredientResultCard(recipe, match) {
@@ -2949,24 +3011,28 @@ function createIngredientResultCard(recipe, match) {
     matchInfo = `<span class="match-badge partial">${match.matchedCount}/${match.totalInRecipe} ingredients</span>`;
   }
 
-  // Show matched ingredients
-  const matchedList = match.matchedIngredients
+  // Filter out common pantry staples from display (they add noise)
+  const displayMatched = filterOutCommonStaples(match.matchedIngredients);
+  const displayMissing = filterOutCommonStaples(match.missingIngredients || []);
+
+  // Show matched ingredients (excluding common staples)
+  const matchedList = displayMatched
     .slice(0, 5)
     .map(ing => escapeHtml(ing))
     .join(', ');
-  const moreMatched = match.matchedIngredients.length > 5
-    ? ` +${match.matchedIngredients.length - 5} more`
+  const moreMatched = displayMatched.length > 5
+    ? ` +${displayMatched.length - 5} more`
     : '';
 
-  // Show missing ingredients if any
+  // Show missing ingredients if any (excluding common staples)
   let missingHtml = '';
-  if (match.missingIngredients && match.missingIngredients.length > 0) {
-    const missingList = match.missingIngredients
+  if (displayMissing.length > 0) {
+    const missingList = displayMissing
       .slice(0, 3)
       .map(ing => escapeHtml(ing))
       .join(', ');
-    const moreMissing = match.missingIngredients.length > 3
-      ? ` +${match.missingIngredients.length - 3} more`
+    const moreMissing = displayMissing.length > 3
+      ? ` +${displayMissing.length - 3} more`
       : '';
     missingHtml = `<div class="missing-ingredients">Missing: ${missingList}${moreMissing}</div>`;
   }
@@ -2992,7 +3058,7 @@ function createIngredientResultCard(recipe, match) {
         ${matchInfo}
       </div>
       <div class="result-card-category">${escapeHtml(recipe.category || 'Uncategorized')}</div>
-      <div class="matched-ingredients">Have: ${matchedList}${moreMatched}</div>
+      ${displayMatched.length > 0 ? `<div class="matched-ingredients">Have: ${matchedList}${moreMatched}</div>` : ''}
       ${missingHtml}
       ${substitutionHtml}
       <a href="recipe.html?id=${escapeAttr(recipe.id)}" class="result-card-link">View Recipe</a>
