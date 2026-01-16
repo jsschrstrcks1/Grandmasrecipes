@@ -54,7 +54,7 @@
   justify-content: center;
   z-index: 10000;
   overflow-y: auto;
-  padding: var(--spacing-xl) var(--spacing-md);
+  padding: var(--spacing-xxl) var(--spacing-md);
 }
 
 .sanctuary-content {
