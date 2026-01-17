@@ -179,6 +179,59 @@ python scripts/validate-recipes.py
 
 ---
 
+## Processing Cookbook Collections
+
+When processing scanned cookbook images (like church/community cookbooks), save ALL content - not just recipes.
+
+### What to Preserve
+
+| Content Type | How to Save |
+|--------------|-------------|
+| **Recipes** | Standard recipe JSON entries |
+| **Household Hints/Tips** | Separate JSON entry with category "tips" |
+| **Cooking Tips Pages** | Full transcription in notes or dedicated entry |
+| **Inspirational Quotes** | Include in recipe notes when on same page |
+| **Grandma's Handwritten Notes** | Always preserve - canonical precedence |
+| **Front Cover Indexes** | Note which recipes were Grandma's favorites |
+| **Publication Year** | Record in cookbook metadata |
+
+### Grandma's Handwriting Has Precedence
+
+When a recipe has both printed text AND Grandma's handwritten variations:
+1. Save the **original printed recipe** first
+2. Save **Grandma's variation** as a separate entry OR in notes
+3. Mark handwritten variations clearly - they take precedence over printed text
+
+### Cookbook Metadata to Track
+
+For each cookbook scanned:
+- Title and subtitle
+- Publisher/organization (e.g., church name)
+- Publication year
+- Location (city, state)
+- Grandma's favorites (noted in front cover indexes)
+
+### Example: Household Hints Entry
+
+```json
+{
+  "id": "household-hints-centennial-1986",
+  "collection": "grandma-baker",
+  "title": "Household Hints",
+  "category": "tips",
+  "source_cookbook": "Centennial Recipes 1886-1986, Calvary Lutheran Church",
+  "ingredients": [],
+  "instructions": [
+    "To prevent milk from scorching when scalding, rinse the pan in water first",
+    "Sugar in fried cakes should be added to the milk - prevents absorbing fat",
+    "Add one drop of vanilla to chocolate just before serving for improved flavor"
+  ],
+  "notes": ["From Centennial Recipes cookbook, Elk Rapids MI"]
+}
+```
+
+---
+
 ## Updating an Existing Recipe
 
 ### Finding a Recipe
