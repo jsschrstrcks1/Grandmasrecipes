@@ -16,3 +16,20 @@ Questions to ask about the unscanned cookbook images.
 
 2. **Inspirational quotes** - Many pages have quotes at the bottom (e.g., "It takes both rain and sunshine to make a rainbow" on page 90). Should these be preserved somewhere?
 
+3. **Reference pages with handwriting** - Found Grandma's handwriting on the following reference pages (must save images):
+   - IMG_7450: Table of Substitutions - "Carrot Pie - 78" written at top
+   - IMG_7451: Table of Equivalents - "Carrot Pie - 78" written at top
+   - IMG_7452: Cheese Guide - "Spaghetti" with page number written at top
+   - IMG_7453: Seasoning Guide - "Spaghetti 10-78" written at top
+
+4. **Grandma's indexed favorites from front cover** - These recipes should be marked as favorites:
+   - Blue cheese dressing pg 125
+   - Spaghetti pg 78
+   - Imp Pie (Impossible Pie)
+   - Carrot Bread pg 29
+   - Meat Loaf
+   - O.J. glazed duck - 89
+   - Food for the Gods pg 35 (marked "TRY")
+
+5. **Grandma's handwritten "Impossible Pie (without Bisquick)" recipe** - Found on appreciation page, needs full transcription as her personal variation
+
