@@ -203,6 +203,16 @@ When processing scanned cookbook images (like church/community cookbooks), save 
 | **Front Cover Indexes** | Note which recipes were Grandma's favorites |
 | **Publication Year** | Record in cookbook metadata |
 
+### Image Retention Policy
+
+| Image Type | Action |
+|------------|--------|
+| **Handwritten images** | NEVER DELETE - irreplaceable heirlooms |
+| **Images with ANY handwriting** | NEVER DELETE - save and link in `image_refs` |
+| **Typed/printed images (no handwriting)** | May delete ONLY after: (1) exhaustive search for handwriting, (2) user verification that image is empty/corrupt, (3) recipe fully transcribed to JSON |
+
+**IMPORTANT:** When in doubt, keep the image. Only delete typed/printed images after explicit user confirmation.
+
 ### Grandma's Handwriting Has Precedence
 
 When a recipe has both printed text AND Grandma's handwritten variations:
