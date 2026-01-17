@@ -16,6 +16,31 @@ Questions to ask about the unscanned cookbook images.
 
 2. **Inspirational quotes** - Many pages have quotes at the bottom (e.g., "It takes both rain and sunshine to make a rainbow" on page 90). Should these be preserved somewhere?
 
+3. **"Carrot Pie-78" handwritten note (IMG_7450)** - Grandma wrote "Carrot Pie-78" on the Table of Substitutions page. But page 78 appears to be the Spaghetti page. Is there a Carrot Pie recipe elsewhere, or could this be Carrot Bread (pg 29) that she mislabeled?
+
+4. **Page 51 tucked note** - There appears to be something tucked into page 51 (Rhubarb Crunch page). Is there a loose recipe card there that needs scanning?
+
+---
+
+## Handwriting Summary - Cookbook 3 (Centennial Recipes)
+
+**Pages with Grandma's handwriting:**
+- Cover + inside cover: Favorites index (Blue cheese dressing pg 125, Spaghetti pg 78, Imp Pie, Carrot Bread pg 29, Meat Loaf, O.J. glazed duck - 89)
+- Appreciation page: Complete handwritten "Impossible Pie (without Bisquick)" recipe
+- Page 35: "TRY" next to Food for the Gods
+- Table of Substitutions (yellow): "Carrot Pie-78"
+- Cheese Guide (blue): "Spaghetti"
+- Seasoning Guide: Additional notes at edges
+
+**Grandma's indexed favorites (to mark in JSON):**
+1. Blue Cheese Dressing - pg 125
+2. Spaghetti - pg 78
+3. Impossible Pie (her own version on appreciation page)
+4. Carrot Bread - pg 29
+5. Meat Loaf - pg 114
+6. Orange Juice Glazed Duck - pg 89
+7. Food for the Gods - pg 35 (marked "TRY")
+
 3. **Reference pages with handwriting** - Found Grandma's handwriting on the following reference pages (must save images):
    - IMG_7450: Table of Substitutions - "Carrot Pie - 78" written at top
    - IMG_7451: Table of Equivalents - "Carrot Pie - 78" written at top
