@@ -181,15 +181,23 @@ python scripts/validate-recipes.py
 
 ## Processing Cookbook Collections
 
-When processing scanned cookbook images (like church/community cookbooks), save ALL content - not just recipes.
+When processing scanned cookbook images (like church/community cookbooks), save **ALL** content.
+
+### CRITICAL REQUIREMENTS
+
+1. **ALL recipes** must be recorded in the JSON - no exceptions
+2. **ALL handwritten images** must be saved and linked in recipe cards via `image_refs`
+3. **ALL tips** must be saved as JSON entries
+4. **If a tip page has handwriting**, save the image AND link it in the database
 
 ### What to Preserve
 
 | Content Type | How to Save |
 |--------------|-------------|
-| **Recipes** | Standard recipe JSON entries |
+| **ALL Recipes** | Standard recipe JSON entries - EVERY recipe transcribed |
 | **Household Hints/Tips** | Separate JSON entry with category "tips" |
-| **Cooking Tips Pages** | Full transcription in notes or dedicated entry |
+| **Cooking Tips Pages** | Full transcription in dedicated entry |
+| **Handwritten Tips** | Save image + link in `image_refs` + transcribe |
 | **Inspirational Quotes** | Include in recipe notes when on same page |
 | **Grandma's Handwritten Notes** | Always preserve - canonical precedence |
 | **Front Cover Indexes** | Note which recipes were Grandma's favorites |
