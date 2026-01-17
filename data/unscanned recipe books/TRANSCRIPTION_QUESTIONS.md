@@ -31,5 +31,10 @@ Questions to ask about the unscanned cookbook images.
    - O.J. glazed duck - 89
    - Food for the Gods pg 35 (marked "TRY")
 
-5. **Grandma's handwritten "Impossible Pie (without Bisquick)" recipe** - Found on appreciation page, needs full transcription as her personal variation
+5. **Grandma's handwritten "Impossible Pie (without Bisquick)" recipe** - ✅ TRANSCRIBED (partial)
+   - Found on appreciation page (IMG_7298)
+   - Captured: "1/4 c (stick) butter, 1/2 tsp B.P., 1/2 c flour"
+   - **QUESTION FOR USER:** This appears to be just the key modifications - do you know the full recipe? Is there a standard Impossible Pie recipe she was modifying?
+
+6. **Who is "Mary"?** - On the Honey Spice Cake recipe, Grandma wrote "Ask Mary" - do you know who Mary was? This might help understand her cooking network.
 
