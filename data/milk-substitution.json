@@ -1,0 +1,595 @@
+{
+  "version": "1.1.0",
+  "last_updated": "2026-01-22",
+  "description": "Milk substitution data for cheese-making recipes. Supports mixed milk blends and exotic milk conversions.",
+
+  "available_milk_types": ["cow", "goat", "sheep"],
+
+  "milk_types": {
+    "cow": {
+      "id": "cow",
+      "name": "Cow Milk",
+      "available": true,
+      "fat_percent": 3.5,
+      "protein_percent": 3.2,
+      "casein_percent": 2.6,
+      "lactose_percent": 4.8,
+      "total_solids_percent": 12,
+      "calcium_level": "standard",
+      "fat_globule_size": "large",
+      "flavor_profile": ["mild", "grassy", "neutral"],
+      "texture_notes": "Dense, cohesive curds",
+      "cheese_yield_per_gallon_lb": 0.2,
+      "rennet_factor": 1.0,
+      "cacl2_needed": "pasteurized_only",
+      "coagulation_speed": "standard",
+      "curd_firmness": "firm",
+      "whey_expulsion": "standard",
+      "notes": "Baseline milk for most cheese recipes. Larger fat globules may require homogenization."
+    },
+    "goat": {
+      "id": "goat",
+      "name": "Goat Milk",
+      "available": true,
+      "fat_percent": 3.8,
+      "protein_percent": 3.1,
+      "casein_percent": 2.4,
+      "lactose_percent": 4.5,
+      "total_solids_percent": 12,
+      "calcium_level": "standard",
+      "fat_globule_size": "small",
+      "flavor_profile": ["tangy", "earthy", "peppery"],
+      "texture_notes": "Soft, crumbly curds; creamy when fresh",
+      "cheese_yield_per_gallon_lb": 0.2,
+      "rennet_factor": 0.625,
+      "cacl2_needed": "pasteurized_only",
+      "coagulation_speed": "faster",
+      "curd_firmness": "soft_fragile",
+      "whey_expulsion": "most_pronounced",
+      "notes": "Low alpha-s1 casein creates softer curds. Higher lipase gives distinctive tangy flavor. Naturally homogenized."
+    },
+    "sheep": {
+      "id": "sheep",
+      "name": "Sheep Milk",
+      "available": true,
+      "fat_percent": 7.0,
+      "protein_percent": 5.6,
+      "casein_percent": 4.5,
+      "lactose_percent": 4.8,
+      "total_solids_percent": 18,
+      "calcium_level": "high",
+      "fat_globule_size": "smallest",
+      "flavor_profile": ["buttery", "nutty", "rich", "gamy"],
+      "texture_notes": "Firm curds, creamy mouthfeel, highest yield",
+      "cheese_yield_per_gallon_lb": 0.75,
+      "rennet_factor": 0.65,
+      "cacl2_needed": "never",
+      "coagulation_speed": "fastest",
+      "curd_firmness": "firmest",
+      "whey_expulsion": "slowest",
+      "notes": "Highest fat and protein. Rich in calcium so no CaCl2 needed. Produces 2-3x more cheese per gallon than cow milk."
+    },
+    "buffalo": {
+      "id": "buffalo",
+      "name": "Water Buffalo Milk",
+      "available": false,
+      "fat_percent": 7.5,
+      "protein_percent": 4.5,
+      "casein_percent": 3.6,
+      "lactose_percent": 4.9,
+      "total_solids_percent": 17,
+      "calcium_level": "high",
+      "fat_globule_size": "large",
+      "flavor_profile": ["rich", "creamy", "sweet"],
+      "texture_notes": "Very creamy, stretchy curds, ideal for mozzarella",
+      "cheese_yield_per_gallon_lb": 0.6,
+      "rennet_factor": 0.7,
+      "cacl2_needed": "rarely",
+      "coagulation_speed": "faster",
+      "curd_firmness": "firm",
+      "whey_expulsion": "slow",
+      "best_substitute": "sheep",
+      "substitute_notes": "Sheep milk is closest in fat content; consider adding cream to cow milk for stretch",
+      "notes": "Traditional for mozzarella di bufala. Very high fat content creates exceptional creaminess.",
+      "famous_cheeses": ["Mozzarella di Bufala", "Burrata", "Stracciatella"]
+    },
+    "camel": {
+      "id": "camel",
+      "name": "Camel Milk",
+      "available": false,
+      "fat_percent": 3.5,
+      "protein_percent": 3.4,
+      "casein_percent": 2.7,
+      "lactose_percent": 4.4,
+      "total_solids_percent": 12,
+      "calcium_level": "standard",
+      "fat_globule_size": "smallest",
+      "flavor_profile": ["slightly salty", "sweet", "thin"],
+      "texture_notes": "Does not form traditional curds easily; requires special techniques",
+      "cheese_yield_per_gallon_lb": 0.15,
+      "rennet_factor": 2.0,
+      "cacl2_needed": "always",
+      "coagulation_speed": "slowest",
+      "curd_firmness": "very_soft",
+      "whey_expulsion": "difficult",
+      "best_substitute": "cow",
+      "substitute_notes": "Cow milk works well; camel milk requires special rennet and techniques",
+      "notes": "Lacks kappa-casein which makes traditional cheese-making very difficult. Requires acidification or special enzymes.",
+      "famous_cheeses": ["Caravane (specialty)"]
+    },
+    "yak": {
+      "id": "yak",
+      "name": "Yak Milk",
+      "available": false,
+      "fat_percent": 6.5,
+      "protein_percent": 5.2,
+      "casein_percent": 4.0,
+      "lactose_percent": 4.6,
+      "total_solids_percent": 17,
+      "calcium_level": "high",
+      "fat_globule_size": "medium",
+      "flavor_profile": ["sweet", "rich", "slightly gamy"],
+      "texture_notes": "Rich, firm curds similar to sheep",
+      "cheese_yield_per_gallon_lb": 0.55,
+      "rennet_factor": 0.7,
+      "cacl2_needed": "rarely",
+      "coagulation_speed": "faster",
+      "curd_firmness": "firm",
+      "whey_expulsion": "standard",
+      "best_substitute": "sheep",
+      "substitute_notes": "Sheep milk is excellent substitute; similar fat and protein content",
+      "notes": "Traditional in Himalayan regions. High altitude animals produce very rich milk.",
+      "famous_cheeses": ["Chhurpi", "Byaslag"]
+    },
+    "mare": {
+      "id": "mare",
+      "name": "Mare (Horse) Milk",
+      "available": false,
+      "fat_percent": 1.5,
+      "protein_percent": 2.2,
+      "casein_percent": 1.3,
+      "lactose_percent": 6.2,
+      "total_solids_percent": 10,
+      "calcium_level": "low",
+      "fat_globule_size": "small",
+      "flavor_profile": ["sweet", "thin", "watery"],
+      "texture_notes": "Very soft curds, difficult for hard cheese",
+      "cheese_yield_per_gallon_lb": 0.1,
+      "rennet_factor": 1.5,
+      "cacl2_needed": "always",
+      "coagulation_speed": "slowest",
+      "curd_firmness": "very_soft",
+      "whey_expulsion": "rapid",
+      "best_substitute": "goat",
+      "substitute_notes": "Goat milk recommended; mare milk is primarily used for fermented drinks",
+      "notes": "Very low fat and casein. Traditionally used for kumis (fermented drink) rather than cheese.",
+      "famous_cheeses": ["Airag cheese (rare)"]
+    },
+    "donkey": {
+      "id": "donkey",
+      "name": "Donkey Milk",
+      "available": false,
+      "fat_percent": 1.0,
+      "protein_percent": 1.8,
+      "casein_percent": 0.8,
+      "lactose_percent": 6.5,
+      "total_solids_percent": 9,
+      "calcium_level": "low",
+      "fat_globule_size": "smallest",
+      "flavor_profile": ["sweet", "light", "delicate"],
+      "texture_notes": "Extremely difficult to curdle, very low yield",
+      "cheese_yield_per_gallon_lb": 0.05,
+      "rennet_factor": 3.0,
+      "cacl2_needed": "always",
+      "coagulation_speed": "slowest",
+      "curd_firmness": "extremely_soft",
+      "whey_expulsion": "very_difficult",
+      "best_substitute": "goat",
+      "substitute_notes": "Any available milk works; donkey milk rarely used for cheese",
+      "notes": "Closest to human milk in composition. Very expensive and rarely used for cheese.",
+      "famous_cheeses": []
+    },
+    "reindeer": {
+      "id": "reindeer",
+      "name": "Reindeer Milk",
+      "available": false,
+      "fat_percent": 22.0,
+      "protein_percent": 10.3,
+      "casein_percent": 8.0,
+      "lactose_percent": 2.5,
+      "total_solids_percent": 36,
+      "calcium_level": "very_high",
+      "fat_globule_size": "small",
+      "flavor_profile": ["extremely rich", "thick", "gamey"],
+      "texture_notes": "Exceptionally thick and rich, requires dilution for cheese",
+      "cheese_yield_per_gallon_lb": 1.5,
+      "rennet_factor": 0.4,
+      "cacl2_needed": "never",
+      "coagulation_speed": "fastest",
+      "curd_firmness": "very_firm",
+      "whey_expulsion": "very_slow",
+      "best_substitute": "sheep",
+      "substitute_notes": "Sheep milk is closest available; may need to add cream for richness",
+      "notes": "Highest fat of any domesticated animal. Often diluted with water before cheese-making.",
+      "famous_cheeses": ["Juustoleipa (bread cheese)"]
+    },
+    "llama": {
+      "id": "llama",
+      "name": "Llama Milk",
+      "available": false,
+      "fat_percent": 3.2,
+      "protein_percent": 3.9,
+      "casein_percent": 3.0,
+      "lactose_percent": 5.6,
+      "total_solids_percent": 13,
+      "calcium_level": "standard",
+      "fat_globule_size": "small",
+      "flavor_profile": ["mild", "slightly sweet"],
+      "texture_notes": "Similar to cow milk curds",
+      "cheese_yield_per_gallon_lb": 0.22,
+      "rennet_factor": 0.9,
+      "cacl2_needed": "pasteurized_only",
+      "coagulation_speed": "standard",
+      "curd_firmness": "firm",
+      "whey_expulsion": "standard",
+      "best_substitute": "cow",
+      "substitute_notes": "Cow milk is excellent substitute with similar properties",
+      "notes": "Rarely milked commercially. Similar to cow milk in cheese-making properties.",
+      "famous_cheeses": []
+    },
+    "alpaca": {
+      "id": "alpaca",
+      "name": "Alpaca Milk",
+      "available": false,
+      "fat_percent": 3.5,
+      "protein_percent": 4.2,
+      "casein_percent": 3.2,
+      "lactose_percent": 5.5,
+      "total_solids_percent": 14,
+      "calcium_level": "standard",
+      "fat_globule_size": "small",
+      "flavor_profile": ["mild", "creamy", "slightly sweet"],
+      "texture_notes": "Good curd formation, similar to cow",
+      "cheese_yield_per_gallon_lb": 0.25,
+      "rennet_factor": 0.85,
+      "cacl2_needed": "pasteurized_only",
+      "coagulation_speed": "standard",
+      "curd_firmness": "firm",
+      "whey_expulsion": "standard",
+      "best_substitute": "cow",
+      "substitute_notes": "Cow or goat milk work well as substitutes",
+      "notes": "Similar to llama milk. Rarely available commercially.",
+      "famous_cheeses": []
+    }
+  },
+
+  "volume_conversions": {
+    "description": "Volume adjustments for equivalent cheese yield",
+    "baseline": "cow",
+    "factors": {
+      "cow_to_cow": 1.0,
+      "cow_to_goat": 1.0,
+      "cow_to_sheep": 0.625,
+      "goat_to_cow": 1.0,
+      "goat_to_goat": 1.0,
+      "goat_to_sheep": 0.625,
+      "sheep_to_cow": 1.6,
+      "sheep_to_goat": 1.6,
+      "sheep_to_sheep": 1.0,
+      "buffalo_to_cow": 1.5,
+      "buffalo_to_goat": 1.5,
+      "buffalo_to_sheep": 0.9,
+      "camel_to_cow": 1.3,
+      "camel_to_goat": 1.3,
+      "camel_to_sheep": 0.8,
+      "yak_to_cow": 1.4,
+      "yak_to_goat": 1.4,
+      "yak_to_sheep": 0.85,
+      "mare_to_cow": 2.0,
+      "mare_to_goat": 2.0,
+      "mare_to_sheep": 1.25,
+      "donkey_to_cow": 3.0,
+      "donkey_to_goat": 3.0,
+      "donkey_to_sheep": 1.9,
+      "reindeer_to_cow": 0.4,
+      "reindeer_to_goat": 0.4,
+      "reindeer_to_sheep": 0.25,
+      "llama_to_cow": 0.95,
+      "llama_to_goat": 0.95,
+      "llama_to_sheep": 0.6,
+      "alpaca_to_cow": 0.9,
+      "alpaca_to_goat": 0.9,
+      "alpaca_to_sheep": 0.55
+    },
+    "notes": [
+      "Sheep milk produces ~50-80% more cheese per volume",
+      "1 gallon sheep milk = ~1.6 gallons cow/goat milk for cheese yield",
+      "Buffalo and yak milk have high solids, requiring less volume",
+      "Mare and donkey milk have very low yield, requiring significantly more volume",
+      "Reindeer milk is extremely rich; use much less than other milks",
+      "Adjust volumes based on desired final cheese quantity"
+    ]
+  },
+
+  "rennet_adjustments": {
+    "description": "Rennet quantity adjustments when substituting milk types",
+    "baseline": "cow",
+    "factors": {
+      "cow": 1.0,
+      "goat": 0.625,
+      "sheep": 0.65,
+      "buffalo": 0.7,
+      "camel": 2.0,
+      "yak": 0.7,
+      "mare": 1.5,
+      "donkey": 3.0,
+      "reindeer": 0.4,
+      "llama": 0.9,
+      "alpaca": 0.85
+    },
+    "notes": [
+      "Sheep and goat milk require 30-40% less rennet than cow milk",
+      "Higher calcium in sheep milk accelerates coagulation",
+      "Lower alpha-s1 casein in goat milk affects curd structure",
+      "Species-specific rennets available (lamb rennet for sheep milk)",
+      "Camel milk requires significantly more rennet due to low kappa-casein",
+      "Reindeer milk coagulates very quickly due to extremely high protein"
+    ]
+  },
+
+  "calcium_chloride_guidelines": {
+    "description": "CaCl2 addition guidelines by milk type and processing",
+    "recommendations": {
+      "cow": {
+        "raw": "not_needed",
+        "pasteurized": "1/4 tsp per gallon",
+        "ultra_pasteurized": "not_suitable"
+      },
+      "goat": {
+        "raw": "not_needed",
+        "pasteurized": "1/4 tsp per gallon",
+        "ultra_pasteurized": "not_suitable"
+      },
+      "sheep": {
+        "raw": "never_needed",
+        "pasteurized": "not_needed",
+        "ultra_pasteurized": "not_suitable"
+      }
+    },
+    "notes": [
+      "Sheep milk casein is naturally rich in calcium",
+      "Pasteurization chelates calcium, reducing coagulation",
+      "Ultra-pasteurized/UHT milk destroys protein structure - unsuitable for cheese"
+    ]
+  },
+
+  "temperature_guidelines": {
+    "general_range_f": [86, 104],
+    "general_range_c": [30, 40],
+    "by_cheese_type": {
+      "soft_fresh": {
+        "temp_f": [86, 90],
+        "temp_c": [30, 32]
+      },
+      "semi_soft": {
+        "temp_f": [88, 96],
+        "temp_c": [31, 36]
+      },
+      "hard_aged": {
+        "temp_f": [90, 104],
+        "temp_c": [32, 40]
+      },
+      "swiss_parmesan": {
+        "temp_f": [104, 127],
+        "temp_c": [40, 53]
+      }
+    },
+    "sheep_milk_max_f": 104,
+    "sheep_milk_max_c": 40,
+    "notes": [
+      "Sheep milk should not exceed 104F (40C) for most cheeses",
+      "Higher temperatures accelerate whey expulsion",
+      "Lower temperatures produce moister, softer cheese"
+    ]
+  },
+
+  "curd_handling_notes": {
+    "cow": {
+      "cut_size": "standard",
+      "stirring": "gentle to moderate",
+      "notes": "Standard baseline handling"
+    },
+    "goat": {
+      "cut_size": "larger than cow",
+      "stirring": "very gentle",
+      "notes": "Fragile curds require delicate handling. Pronounced syneresis."
+    },
+    "sheep": {
+      "cut_size": "standard to smaller",
+      "stirring": "gentle",
+      "notes": "Firm curds tolerate handling. Slow whey expulsion - allow extra draining time."
+    }
+  },
+
+  "flavor_expectations": {
+    "cow": {
+      "young": "Mild, creamy, grassy",
+      "aged": "Nutty, caramel, complex",
+      "notes": "Most neutral flavor, highlights aging and cultures"
+    },
+    "goat": {
+      "young": "Fresh, tangy, bright",
+      "aged": "Peppery, earthy, pronounced",
+      "notes": "Distinctive tang from capric/caprylic fatty acids"
+    },
+    "sheep": {
+      "young": "Rich, buttery, slightly gamy",
+      "aged": "Nutty, caramel, robust, complex",
+      "notes": "Highest richness due to fat content. Famous cheeses: Roquefort, Pecorino, Manchego"
+    }
+  },
+
+  "famous_cheeses_by_milk": {
+    "cow": ["Cheddar", "Gouda", "Brie", "Camembert", "Parmesan", "Swiss", "Mozzarella"],
+    "goat": ["Chevre", "Bucheron", "Crottin", "Valancay", "Humboldt Fog"],
+    "sheep": ["Roquefort", "Pecorino Romano", "Manchego", "Feta", "Ossau-Iraty", "Ricotta Salata"],
+    "buffalo": ["Mozzarella di Bufala", "Burrata", "Stracciatella", "Ricotta di Bufala"],
+    "yak": ["Chhurpi", "Byaslag"],
+    "camel": ["Caravane"],
+    "reindeer": ["Juustoleipa"]
+  },
+
+  "substitution_warnings": [
+    "Cheese texture will differ when substituting milk types",
+    "Flavor profile will change significantly",
+    "Aging characteristics may vary",
+    "Some traditional cheeses are defined by their milk type (PDO/AOC)",
+    "Ultra-pasteurized milk cannot be used for cheese making"
+  ],
+
+  "ingredient_adjustments": {
+    "description": "Which recipe ingredients need adjustment when substituting",
+    "adjust": ["milk_volume", "rennet", "calcium_chloride"],
+    "no_change": ["salt", "cultures", "herbs", "flavorings"],
+    "notes": [
+      "Starter cultures work the same across milk types",
+      "Salt ratios based on cheese weight, not milk volume",
+      "Acidification rate may vary slightly"
+    ]
+  },
+
+  "nutrition_per_cup": {
+    "description": "Nutritional values per 1 cup (244g) of whole milk by type",
+    "cow": {
+      "calories": 149,
+      "fat_g": 8,
+      "saturated_fat_g": 4.6,
+      "carbs_g": 12,
+      "protein_g": 8,
+      "sodium_mg": 105,
+      "calcium_mg": 276,
+      "sugar_g": 12,
+      "cholesterol_mg": 24
+    },
+    "goat": {
+      "calories": 168,
+      "fat_g": 10,
+      "saturated_fat_g": 6.5,
+      "carbs_g": 11,
+      "protein_g": 9,
+      "sodium_mg": 122,
+      "calcium_mg": 327,
+      "sugar_g": 11,
+      "cholesterol_mg": 27
+    },
+    "sheep": {
+      "calories": 265,
+      "fat_g": 17,
+      "saturated_fat_g": 11.3,
+      "carbs_g": 13,
+      "protein_g": 15,
+      "sodium_mg": 108,
+      "calcium_mg": 473,
+      "sugar_g": 13,
+      "cholesterol_mg": 66
+    },
+    "buffalo": {
+      "calories": 237,
+      "fat_g": 17,
+      "saturated_fat_g": 11,
+      "carbs_g": 13,
+      "protein_g": 9,
+      "sodium_mg": 127,
+      "calcium_mg": 412,
+      "sugar_g": 13,
+      "cholesterol_mg": 46
+    },
+    "camel": {
+      "calories": 107,
+      "fat_g": 5,
+      "saturated_fat_g": 3,
+      "carbs_g": 11,
+      "protein_g": 5,
+      "sodium_mg": 150,
+      "calcium_mg": 120,
+      "sugar_g": 11,
+      "cholesterol_mg": 17
+    },
+    "yak": {
+      "calories": 220,
+      "fat_g": 15,
+      "saturated_fat_g": 9,
+      "carbs_g": 12,
+      "protein_g": 13,
+      "sodium_mg": 95,
+      "calcium_mg": 390,
+      "sugar_g": 12,
+      "cholesterol_mg": 50
+    },
+    "mare": {
+      "calories": 98,
+      "fat_g": 4,
+      "saturated_fat_g": 1.8,
+      "carbs_g": 15,
+      "protein_g": 5,
+      "sodium_mg": 54,
+      "calcium_mg": 89,
+      "sugar_g": 15,
+      "cholesterol_mg": 8
+    },
+    "donkey": {
+      "calories": 82,
+      "fat_g": 2,
+      "saturated_fat_g": 0.8,
+      "carbs_g": 16,
+      "protein_g": 4,
+      "sodium_mg": 35,
+      "calcium_mg": 65,
+      "sugar_g": 16,
+      "cholesterol_mg": 5
+    },
+    "reindeer": {
+      "calories": 510,
+      "fat_g": 46,
+      "saturated_fat_g": 28,
+      "carbs_g": 7,
+      "protein_g": 25,
+      "sodium_mg": 110,
+      "calcium_mg": 850,
+      "sugar_g": 6,
+      "cholesterol_mg": 120
+    },
+    "llama": {
+      "calories": 145,
+      "fat_g": 8,
+      "saturated_fat_g": 4.5,
+      "carbs_g": 14,
+      "protein_g": 10,
+      "sodium_mg": 90,
+      "calcium_mg": 260,
+      "sugar_g": 14,
+      "cholesterol_mg": 22
+    },
+    "alpaca": {
+      "calories": 155,
+      "fat_g": 9,
+      "saturated_fat_g": 5,
+      "carbs_g": 14,
+      "protein_g": 10,
+      "sodium_mg": 85,
+      "calcium_mg": 280,
+      "sugar_g": 14,
+      "cholesterol_mg": 25
+    }
+  },
+
+  "sources": [
+    "https://www.cheesescience.org/coagulation.html",
+    "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/sheep-milk",
+    "https://cheesemaking.com/blogs/learn/faq-rennet-for-cheese-making",
+    "https://help.cheesemaking.com/article/24-raw-goats-milk-faqs",
+    "https://culturesforhealth.com/blogs/learn/cheese-choosing-milk-cheese-making-raw-pasteurized",
+    "https://dairyprocessinghandbook.tetrapak.com/chapter/cheese",
+    "https://fdc.nal.usda.gov/"
+  ]
+}
