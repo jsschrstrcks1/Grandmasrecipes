@@ -24,9 +24,23 @@ import re
 import os
 import urllib.request
 import urllib.error
+import signal
 from collections import defaultdict
 from pathlib import Path
 from datetime import datetime, timezone
+
+# Timeout for remote collection fetches (can be overridden via REMOTE_TIMEOUT env var)
+REMOTE_TIMEOUT = int(os.environ.get('REMOTE_TIMEOUT', '60'))
+
+
+class TimeoutError(Exception):
+    """Raised when a remote fetch exceeds the timeout."""
+    pass
+
+
+def timeout_handler(signum, frame):
+    """Signal handler for timeout."""
+    raise TimeoutError("Remote fetch timed out")
 
 # Remote collections to fetch (in addition to local recipes)
 REMOTE_COLLECTIONS = [
@@ -966,44 +980,67 @@ def fetch_remote_recipes(collection):
     Fetch recipes from a remote collection.
     Tries multiple URLs in order until one succeeds.
     Returns dict with recipes, count, url, and timestamp.
+
+    Respects REMOTE_TIMEOUT env var (default 60s) for the entire collection.
+    On timeout or failure, returns None (caller should warn and proceed).
     """
     collection_id = collection["id"]
     collection_name = collection["name"]
     fetch_time = datetime.now(timezone.utc).isoformat()
 
-    for url in collection["urls"]:
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "GrandmasRecipes/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as response:
-                data = json.loads(response.read().decode('utf-8'))
+    # Set up timeout for entire collection fetch (Unix only, graceful fallback on Windows)
+    use_signal_timeout = hasattr(signal, 'SIGALRM')
+    if use_signal_timeout:
+        old_handler = signal.signal(signal.SIGALRM, timeout_handler)
+        signal.alarm(REMOTE_TIMEOUT)
 
-                # Handle both {recipes: [...]} and [...] formats
-                if isinstance(data, list):
-                    recipes = data
-                else:
-                    recipes = data.get('recipes', [])
+    try:
+        for url in collection["urls"]:
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "GrandmasRecipes/1.0"})
+                # Per-URL timeout is min of 30s or remaining time
+                with urllib.request.urlopen(req, timeout=min(30, REMOTE_TIMEOUT)) as response:
+                    data = json.loads(response.read().decode('utf-8'))
 
-                if recipes:
-                    print(f"    ✓ {collection_name}: {len(recipes)} recipes from {url}")
-                    return {
-                        "recipes": recipes,
-                        "count": len(recipes),
-                        "source": url,
-                        "fetched_at": fetch_time
-                    }
+                    # Handle both {recipes: [...]} and [...] formats
+                    if isinstance(data, list):
+                        recipes = data
+                    else:
+                        recipes = data.get('recipes', [])
 
-        except urllib.error.HTTPError as e:
-            if e.code != 404:
-                print(f"    ✗ {collection_name}: HTTP {e.code} from {url}")
-        except urllib.error.URLError as e:
-            print(f"    ✗ {collection_name}: Network error - {e.reason}")
-        except json.JSONDecodeError:
-            print(f"    ✗ {collection_name}: Invalid JSON from {url}")
-        except Exception as e:
-            print(f"    ✗ {collection_name}: Error - {e}")
+                    if recipes:
+                        print(f"    ✓ {collection_name}: {len(recipes)} recipes from {url}")
+                        return {
+                            "recipes": recipes,
+                            "count": len(recipes),
+                            "source": url,
+                            "fetched_at": fetch_time
+                        }
 
-    print(f"    ✗ {collection_name}: No valid source found")
-    return None
+            except urllib.error.HTTPError as e:
+                if e.code != 404:
+                    print(f"    ✗ {collection_name}: HTTP {e.code} from {url}")
+            except urllib.error.URLError as e:
+                print(f"    ✗ {collection_name}: Network error - {e.reason}")
+            except json.JSONDecodeError:
+                print(f"    ✗ {collection_name}: Invalid JSON from {url}")
+            except TimeoutError:
+                print(f"    ⚠ {collection_name}: Timed out after {REMOTE_TIMEOUT}s (proceeding without)")
+                return None
+            except Exception as e:
+                print(f"    ✗ {collection_name}: Error - {e}")
+
+        print(f"    ✗ {collection_name}: No valid source found (proceeding without)")
+        return None
+
+    except TimeoutError:
+        print(f"    ⚠ {collection_name}: Timed out after {REMOTE_TIMEOUT}s (proceeding without)")
+        return None
+    finally:
+        # Reset alarm
+        if use_signal_timeout:
+            signal.alarm(0)
+            signal.signal(signal.SIGALRM, old_handler)
 
 
 def main():
@@ -1056,7 +1093,8 @@ def main():
         print(f"    ✗ Grandma Baker: {recipes_path} not found")
 
     # Fetch remote collections
-    print(f"\n  Fetching remote collections...")
+    print(f"\n  Fetching remote collections (timeout: {REMOTE_TIMEOUT}s per collection)...")
+    failed_collections = []
     for collection in REMOTE_COLLECTIONS:
         result = fetch_remote_recipes(collection)
         if result:
@@ -1070,6 +1108,18 @@ def main():
                 "categories": remote_categories
             }
             print(f"      ({len(remote_tags)} tags, {len(remote_categories)} categories)")
+        else:
+            failed_collections.append(collection["name"])
+            collection_stats[collection["id"]] = {
+                "count": 0,
+                "source": "failed",
+                "fetched_at": build_time,
+                "error": "timeout or network failure"
+            }
+
+    if failed_collections:
+        print(f"\n  ⚠ Warning: {len(failed_collections)} collection(s) failed: {', '.join(failed_collections)}")
+        print(f"    Proceeding with available recipes...")
 
     print(f"\n  Total: {len(all_recipes)} recipes from {len(collection_stats)} collections")
 
