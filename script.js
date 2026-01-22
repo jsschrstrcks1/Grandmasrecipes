@@ -260,7 +260,53 @@ async function init() {
   setupIngredientSearch();
   setupStaplesSystem();
   setupNutritionFilters();
+
+  // Initialize Milk Substitution Tool (for cheesemaking recipes)
+  if (typeof MilkSubstitution !== 'undefined') {
+    try {
+      await MilkSubstitution.loadData();
+      setupMilkSubstitutionListeners();
+      console.log('Milk substitution tool initialized');
+    } catch (e) {
+      console.warn('Milk substitution tool not available:', e.message);
+    }
+  }
+
   handleRouting();
+}
+
+/**
+ * Set up listeners for milk substitution changes
+ */
+function setupMilkSubstitutionListeners() {
+  document.addEventListener('milkSubstitutionChanged', (e) => {
+    const { adjustedIngredients } = e.detail;
+    if (adjustedIngredients && adjustedIngredients.length > 0) {
+      updateIngredientsForMilkSubstitution(adjustedIngredients);
+    }
+  });
+}
+
+/**
+ * Update the ingredients list when milk substitution changes
+ */
+function updateIngredientsForMilkSubstitution(adjustedIngredients) {
+  const list = document.querySelector('.ingredients-list');
+  if (!list) return;
+
+  list.innerHTML = adjustedIngredients.map(ing => {
+    const adjusted = ing._adjusted ? ' ingredient-adjusted' : '';
+    const omitted = ing._omitted ? ' ingredient-omitted' : '';
+    const note = ing._adjustmentNote ? ` <span class="adjustment-note">(${escapeHtml(ing._adjustmentNote)})</span>` : '';
+
+    // Format the ingredient display
+    let display = '';
+    if (ing.quantity) display += escapeHtml(ing.quantity) + ' ';
+    if (ing.unit) display += escapeHtml(ing.unit) + ' ';
+    display += escapeHtml(ing.item);
+
+    return `<li class="${adjusted}${omitted}">${display}${note}</li>`;
+  }).join('');
 }
 
 /**
@@ -4538,6 +4584,9 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
         ${renderIngredientsList(recipe)}
       </section>
 
+      <!-- Milk Substitution Calculator (for cheesemaking recipes) -->
+      <div id="milk-substitution-container"></div>
+
       <section class="instructions-section">
         <h2>Instructions</h2>
         <ol class="instructions-list">
@@ -4597,6 +4646,14 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       }
     });
   });
+
+  // Render Milk Substitution Calculator for cheesemaking recipes
+  if (typeof MilkSubstitution !== 'undefined') {
+    const milkContainer = document.getElementById('milk-substitution-container');
+    if (milkContainer && MilkSubstitution.isCheeseRecipe(recipe)) {
+      MilkSubstitution.renderMilkSwitcher(recipe, 'milk-substitution-container');
+    }
+  }
 }
 
 /**
