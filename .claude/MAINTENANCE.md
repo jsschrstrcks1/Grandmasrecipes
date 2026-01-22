@@ -179,6 +179,77 @@ python scripts/validate-recipes.py
 
 ---
 
+## Processing Cookbook Collections
+
+When processing scanned cookbook images (like church/community cookbooks), save **ALL** content.
+
+### CRITICAL REQUIREMENTS
+
+1. **ALL recipes** must be recorded in the JSON - no exceptions
+2. **ALL handwritten images** must be saved and linked in recipe cards via `image_refs`
+3. **ALL tips** must be saved as JSON entries
+4. **If a tip page has handwriting**, save the image AND link it in the database
+
+### What to Preserve
+
+| Content Type | How to Save |
+|--------------|-------------|
+| **ALL Recipes** | Standard recipe JSON entries - EVERY recipe transcribed |
+| **Household Hints/Tips** | Separate JSON entry with category "tips" |
+| **Cooking Tips Pages** | Full transcription in dedicated entry |
+| **Handwritten Tips** | Save image + link in `image_refs` + transcribe |
+| **Inspirational Quotes** | Include in recipe notes when on same page |
+| **Grandma's Handwritten Notes** | Always preserve - canonical precedence |
+| **Front Cover Indexes** | Note which recipes were Grandma's favorites |
+| **Publication Year** | Record in cookbook metadata |
+
+### Image Retention Policy
+
+| Image Type | Action |
+|------------|--------|
+| **Handwritten images** | NEVER DELETE - irreplaceable heirlooms |
+| **Images with ANY handwriting** | NEVER DELETE - save and link in `image_refs` |
+| **Typed/printed images (no handwriting)** | May delete ONLY after: (1) exhaustive search for handwriting, (2) user verification that image is empty/corrupt, (3) recipe fully transcribed to JSON |
+
+**IMPORTANT:** When in doubt, keep the image. Only delete typed/printed images after explicit user confirmation.
+
+### Grandma's Handwriting Has Precedence
+
+When a recipe has both printed text AND Grandma's handwritten variations:
+1. Save the **original printed recipe** first
+2. Save **Grandma's variation** as a separate entry OR in notes
+3. Mark handwritten variations clearly - they take precedence over printed text
+
+### Cookbook Metadata to Track
+
+For each cookbook scanned:
+- Title and subtitle
+- Publisher/organization (e.g., church name)
+- Publication year
+- Location (city, state)
+- Grandma's favorites (noted in front cover indexes)
+
+### Example: Household Hints Entry
+
+```json
+{
+  "id": "household-hints-centennial-1986",
+  "collection": "grandma-baker",
+  "title": "Household Hints",
+  "category": "tips",
+  "source_cookbook": "Centennial Recipes 1886-1986, Calvary Lutheran Church",
+  "ingredients": [],
+  "instructions": [
+    "To prevent milk from scorching when scalding, rinse the pan in water first",
+    "Sugar in fried cakes should be added to the milk - prevents absorbing fat",
+    "Add one drop of vanilla to chocolate just before serving for improved flavor"
+  ],
+  "notes": ["From Centennial Recipes cookbook, Elk Rapids MI"]
+}
+```
+
+---
+
 ## Updating an Existing Recipe
 
 ### Finding a Recipe
