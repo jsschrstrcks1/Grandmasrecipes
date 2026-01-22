@@ -1,0 +1,65 @@
+name: Rebuild Indexes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/recipes_master.json'
+      - 'scripts/**'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node.js (for Pagefind)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate recipes (fail fast)
+        run: python scripts/validate-recipes.py
+
+      - name: Rebuild ingredient index
+        run: python scripts/build-ingredient-index.py
+        env:
+          REMOTE_TIMEOUT: '60'  # 60 second timeout for remote fetches
+
+      - name: Rebuild recipe shards
+        run: python scripts/build_shards.py
+
+      - name: Rebuild Pagefind search index
+        run: python scripts/build-pagefind.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rebuild indexes [skip ci]"
+          git push
