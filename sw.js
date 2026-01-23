@@ -30,7 +30,8 @@ const PRECACHE_ASSETS = [
   '/script.js',
   '/data/collections.json',
   '/data/recipes_index.json',
-  '/data/ingredient-index.json'
+  '/data/ingredient-index.json',
+  '/data/health-considerations.json'
 ];
 
 // Cross-origin resources to prefetch (cheese builder tools)
