@@ -1,0 +1,43 @@
+#!/bin/bash
+# Pre-commit hook: Ensure all HTML files have noindex meta tags
+# This is a private family archive - no indexing allowed
+#
+# To install: cp scripts/pre-commit-noindex-check .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+
+echo "Checking HTML files for noindex meta tags..."
+
+# Get list of staged HTML files
+staged_html=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.html$')
+
+if [ -z "$staged_html" ]; then
+    exit 0
+fi
+
+missing_noindex=()
+
+for file in $staged_html; do
+    if [ -f "$file" ]; then
+        # Check for robots noindex meta tag
+        if ! grep -q 'name="robots".*noindex' "$file"; then
+            missing_noindex+=("$file")
+        fi
+    fi
+done
+
+if [ ${#missing_noindex[@]} -gt 0 ]; then
+    echo ""
+    echo "ERROR: The following HTML files are missing noindex meta tags:"
+    for file in "${missing_noindex[@]}"; do
+        echo "  - $file"
+    done
+    echo ""
+    echo "All HTML files must include:"
+    echo '  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">'
+    echo '  <meta name="googlebot" content="noindex, nofollow">'
+    echo ""
+    echo "This is a private family archive. Commit blocked."
+    exit 1
+fi
+
+echo "✓ All HTML files have noindex meta tags."
+exit 0
