@@ -1,0 +1,3767 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "sauces",
+    "total_recipes": 46,
+    "generated": "2026-01-23T14:31:32.287023Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "peanut-sauce-pat-groen",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Sauce",
+      "category": "sauces",
+      "attribution": "Mrs. Pat Groen",
+      "source_note": "Community cookbook",
+      "description": "Indonesian-style peanut sauce perfect for satay, grilled meats, and rice.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "onion powder or grated onion",
+          "quantity": "1/4 tsp or 1/2 cup",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder or grated garlic",
+          "quantity": "1/2 tsp or 1-2 cloves",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "curry powder",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pepper paste or Tabasco",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "ketjap manis (sweet soy sauce)",
+          "quantity": "5-6",
+          "unit": "tbsp",
+          "prep_note": "use less if using regular soy sauce"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "peanut butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place all ingredients in a small saucepan. Stir over gentle heat until mixed."
+        },
+        {
+          "step": 2,
+          "text": "Heat only until hot, letting the sauce boil will cause the oil in the peanut butter to separate. A little more water may be added for desired consistency."
+        },
+        {
+          "step": 3,
+          "text": "Serve over Sat\u00e9, grilled meats, and or rice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "sauce",
+        "peanut",
+        "asian",
+        "indonesian",
+        "satay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 1.0,
+          "protein_g": 0.7,
+          "carbs_g": 4.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for hot pepper paste or Tabasco (standard quantity)",
+          "Estimated 4 servings based on total calories",
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "strawberry-butter",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Strawberry Butter",
+      "category": "sauces",
+      "source_note": "Community cookbook",
+      "description": "Sweet strawberry butter for bread and muffins.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "frozen strawberries",
+          "quantity": "1",
+          "unit": "10-oz pkg",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "softened butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend all ingredients together until smooth."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "spread",
+        "strawberry",
+        "butter",
+        "breakfast"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Instructions incomplete - recipe continued on next page"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 154,
+          "fat_g": 3.0,
+          "protein_g": 0.3,
+          "carbs_g": 32.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fruit-sauce-dessert",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruit Sauce",
+      "category": "sauces",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Sweeten to taste with 1 to 2 tablespoons sugar. Serve over ice cream, cake, cheesecake, or crepes.",
+      "servings_yield": "Makes 1 1/2 cups (6 servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "orange juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "canned or frozen fruit",
+          "quantity": "8-10",
+          "unit": "oz",
+          "prep_note": "apricot halves, cherries, fruit cocktail, peach slices, pear slices, pineapple, raspberries, strawberries"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan mix orange peel, orange juice, cornstarch, and cinnamon. Stir in undrained fruit."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir till bubbly. Cook and stir 2 minutes more. Serve over ice cream, cake, cheesecake, or crepes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Microwave directions: In a 4-cup measure mix orange peel and juice, cornstarch, and cinnamon. Stir in undrained fruit. Micro-cook, uncovered, on 100% power (high) for 3 to 5 minutes or till bubbly; stir every minute till slightly thickened, then every 30 seconds. Cook 30 seconds more."
+      ],
+      "tags": [
+        "sauce",
+        "fruit",
+        "dessert-topping"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 0.1,
+          "protein_g": 0.5,
+          "carbs_g": 7.1
+        },
+        "missing_inputs": [
+          "Not in database: canned or frozen fruit"
+        ],
+        "assumptions": [
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "orange-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Sauce",
+      "category": "sauces",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Tastes great with gingerbread or ice cream.",
+      "servings_yield": "Makes 3/4 cup (serves 4 to 6)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "orange juice",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine sugar, cornstarch, and orange peel. Stir in orange juice. Cook and stir till thickened and bubbly."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir 2 minutes more. Remove from heat; stir in margarine or butter. Serve warm."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Microwave directions: In a 2-cup measure mix sugar, cornstarch, and orange peel. Stir in orange juice. Micro-cook, uncovered, on 100% power (high) for 2 to 3 minutes or till bubbly; stir once. Stir in margarine. Serve warm.",
+        "Lemon Sauce: Prepare as above, except substitute lemon peel for the orange peel and 1/2 cup water plus 1 tablespoon lemon juice for the orange juice. Makes 2/3 cup (4 servings)."
+      ],
+      "tags": [
+        "sauce",
+        "orange",
+        "dessert-topping"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 0.3,
+          "protein_g": 0.5,
+          "carbs_g": 23.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "hot-fudge-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Fudge Sauce",
+      "category": "sauces",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Rich chocolate sauce for ice cream. To reheat 1/2 cup in your microwave oven, allow 15 to 30 seconds on high power.",
+      "servings_yield": "Makes about 1 1/2 cups (8 servings)",
+      "prep_time": "",
+      "cook_time": "8 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "5-oz can"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy small saucepan melt chocolate pieces and margarine or butter. Add the sugar; gradually stir in milk."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling, reduce heat. Boil gently over low heat for 8 minutes, stirring frequently."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Serve warm over ice cream."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Peanut-Butter Fudge Sauce: Prepare as above, except, after cooking 8 minutes, stir in 1/4 cup peanut butter. Then remove from heat."
+      ],
+      "tags": [
+        "sauce",
+        "chocolate",
+        "fudge",
+        "dessert-topping"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 625,
+          "fat_g": 22.2,
+          "protein_g": 12.8,
+          "carbs_g": 96.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "herbed-sauce-for-fish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Herbed Sauce for Fish",
+      "category": "sauces",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 167",
+      "description": "A quick herbed butter sauce to brush over fish during baking or broiling.",
+      "servings_yield": "1/4 cup sauce (enough for 1 pound fillets)",
+      "prep_time": "5 minutes",
+      "cook_time": "2 minutes",
+      "total_time": "7 minutes",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried dillweed, basil, rosemary, or oregano",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1",
+          "unit": "dash",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan melt margarine or butter."
+        },
+        {
+          "step": 2,
+          "text": "Stir in lemon juice, dried herb of choice (crushed), and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Brush over fish during baking or broiling (see fish cooking chart, page 185)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "small saucepan",
+      "notes": [
+        "Marked as FAST in cookbook",
+        "Choose your herb based on the fish: dillweed pairs well with salmon, basil with white fish, rosemary with heartier fish"
+      ],
+      "tags": [
+        "sauce",
+        "fish",
+        "seafood",
+        "butter-sauce",
+        "herb",
+        "quick",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5329 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 4,
+          "cholesterol_mg": 9,
+          "sodium_mg": 101
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 167)"
+        ]
+      }
+    },
+    {
+      "id": "fast-fish-fix-ups",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fast Fish Fix-Ups (Quick Sauces)",
+      "category": "sauces",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 177",
+      "description": "Three quick sauces to dress up baked fish fillets, fish portions, or fish sticks.",
+      "servings_yield": "about 1 cup each sauce",
+      "prep_time": "5 minutes",
+      "cook_time": "5 minutes",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "Note: Choose one of the three sauce recipes below",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "DILLY-BUTTER SAUCE: Melt 1/4 cup margarine or butter in a saucepan. Stir in 1 tablespoon flour and 1/4 teaspoon dried dillweed. Add 3/4 cup milk. Cook and stir till thickened and bubbly. Stir in one 2-1/2 oz jar shredded process Swiss cheese. Makes 1 cup."
+        },
+        {
+          "step": 2,
+          "text": "TEX-MEX SAUCE: Cook one 8-oz can tomato sauce, one 4-oz can diced green chili peppers, 1/2 teaspoon ground coriander, a pinch of sugar, and 1/4 teaspoon bottled hot pepper sauce till heated through."
+        },
+        {
+          "step": 3,
+          "text": "SWEET-SOUR SAUCE: Cook one 10-oz can pineapple tidbits, one 8-oz jar sweet-sour sauce, and half of a green or sweet red pepper (cut into strips) till heated through."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "saucepan",
+      "notes": [
+        "Marked as FAST in cookbook",
+        "For a delicious dinner in a hurry, put frozen breaded fish portions or fish sticks in the oven and top with one of these easy sauces"
+      ],
+      "tags": [
+        "sauce",
+        "fish",
+        "seafood",
+        "quick",
+        "fast",
+        "dill",
+        "tex-mex",
+        "sweet-sour"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not in database: Note: Choose one of the three sauce recipes below"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "peanut-sauce-family",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Sauce",
+      "category": "sauces",
+      "attribution": "Mrs. Pat Groen",
+      "source_note": "Family recipe insert",
+      "ingredients": [
+        {
+          "item": "onion powder or grated onion",
+          "quantity": "1/4",
+          "unit": "tsp or 1/2 cup"
+        },
+        {
+          "item": "garlic powder or grated garlic toes",
+          "quantity": "1/8",
+          "unit": "tsp or 1-2"
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "curry powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "hot pepper paste or Tabasco",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "ketjap manis (sweet soy sauce)",
+          "quantity": "5 to 6",
+          "unit": "tbsp",
+          "prep_note": "use less if using soy sauce"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "peanut butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place all ingredients in a small saucepan. Stir over gentle heat until mixed. Heat only until hot, letting the sauce boil will cause the oil in the peanut butter to separate. A little more water may be added for desired consistency. Serve over Sate, grilled meats, and or rice."
+        }
+      ],
+      "tags": [
+        "sauces",
+        "peanut",
+        "asian",
+        "family recipe"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5291 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 1.0,
+          "protein_g": 0.7,
+          "carbs_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for hot pepper paste or Tabasco (standard quantity)",
+          "Estimated 4 servings based on total calories",
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pesto-for-pasta",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pesto for Pasta",
+      "category": "sauces",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens New Cookbook, page 269",
+      "description": "Fresh basil pesto sauce perfect for tossing with hot pasta.",
+      "servings_yield": "4 portions (about 1 cup)",
+      "prep_time": "15 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "firmly packed fresh basil leaves",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "grated Parmesan or Romano cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pine nuts, walnuts, or almonds",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil or cooking oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic clove",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "quartered"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container or food processor bowl combine basil, Parmesan or Romano cheese, nuts, oil, and garlic. Cover and blend or process till the mixture is nearly smooth, stopping machine occasionally to scrape down sides."
+        },
+        {
+          "step": 2,
+          "text": "Divide pesto into 4 portions. Serve 1 portion at a time over 4 ounces hot cooked pasta. (For remaining pesto, place each portion in an airtight container and chill for 1 to 2 days. Or, freeze for up to 1 month.)"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Spinach Pesto for Pasta: Prepare as above, except use 1/2 cup torn fresh spinach and 1/2 cup firmly packed fresh basil leaves instead of 1 cup basil."
+      ],
+      "tags": [
+        "pesto",
+        "sauce",
+        "basil",
+        "italian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5430 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 179,
+          "fat_g": 7,
+          "protein_g": 6,
+          "carbs_g": 22,
+          "cholesterol_mg": 7,
+          "sodium_mg": 3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 269)"
+        ]
+      }
+    },
+    {
+      "id": "cream-gravy-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream Gravy",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 324",
+      "description": "The perfect crowning touch for fried poultry.",
+      "servings_yield": "6 or 7 servings (1 3/4 cups)",
+      "ingredients": [
+        {
+          "item": "fried poultry drippings",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "After frying poultry, transfer poultry to a platter; keep warm. Reserve 2 tablespoons of the drippings in the skillet (discard remaining drippings)."
+        },
+        {
+          "step": 2,
+          "text": "Stir in flour, bouillon granules, and pepper. Add milk all at once. Cook and stir over medium heat till thickened and bubbly. Cook and stir for 1 minute more. If necessary, thin with a little additional milk. Makes 1 3/4 cups (6 or 7 servings)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "gravy",
+        "cream",
+        "fried-chicken"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5487 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 53,
+          "fat_g": 2.4,
+          "protein_g": 2.6,
+          "carbs_g": 5.5
+        },
+        "missing_inputs": [
+          "Not in database: fried poultry drippings"
+        ],
+        "assumptions": [
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pan-gravy-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pan Gravy",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 325",
+      "description": "Classic pan gravy made from roast poultry drippings.",
+      "servings_yield": "8 to 10 servings (2 cups)",
+      "ingredients": [
+        {
+          "item": "pan drippings from roast poultry",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken broth or water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "After transferring roast poultry to a serving platter, pour pan drippings into a large measuring cup. Also scrape the browned bits into the cup."
+        },
+        {
+          "step": 2,
+          "text": "Skim and reserve fat from drippings. Place 1/4 cup of the fat in a medium saucepan (discard remaining fat). Stir in flour. Add enough broth or water to remaining drippings in the measuring cup to equal 2 cups. Add all at once to flour mixture."
+        },
+        {
+          "step": 3,
+          "text": "Cook and stir over medium heat till thickened and bubbly. Cook and stir 1 minute more. Season to taste with salt and pepper. Makes 2 cups (8 to 10 servings)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "gravy",
+        "turkey",
+        "thanksgiving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5488 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 16,
+          "fat_g": 0.1,
+          "protein_g": 0.7,
+          "carbs_g": 3.1
+        },
+        "missing_inputs": [
+          "Not in database: pan drippings from roast poultry"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for chicken broth or water (standard quantity)",
+          "Based on 2/3 ingredients (67% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "giblet-gravy-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Giblet Gravy",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 325",
+      "description": "Rich gravy with chopped giblets for extra flavor.",
+      "servings_yield": "8 to 10 servings (2 cups)",
+      "ingredients": [
+        {
+          "item": "turkey or chicken giblets and neck",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "celery with leaves",
+          "quantity": "1",
+          "unit": "stalk",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "pan drippings from roast turkey or chicken",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse giblets and neck. Refrigerate liver till needed. In a medium saucepan combine remaining giblets, neck, celery, onion, and lightly salted water to cover. Bring to boiling; reduce heat. Cover and simmer about 1 hour or till tender. Add liver; simmer 20 to 30 minutes more for turkey (5 to 10 minutes more for chicken) or till tender."
+        },
+        {
+          "step": 2,
+          "text": "Remove and finely chop giblets. Discard neck bones. Strain broth. Discard vegetables. Chill chopped giblets and broth till needed."
+        },
+        {
+          "step": 3,
+          "text": "After transferring roast turkey or chicken to a platter, pour pan drippings into a large measuring cup. Skim and reserve fat from pan drippings."
+        },
+        {
+          "step": 4,
+          "text": "Pour 1/4 cup of the fat into the saucepan (discard remaining fat). Stir in flour, 1/4 teaspoon salt, and 1/8 teaspoon pepper. Add reserved broth to the drippings to measure 1 1/2 cups. Add broth mixture all at once to flour mixture. Cook and stir till bubbly. Cook and stir 1 minute more. Stir in giblets. If desired, chop egg and stir in. Heat through. Makes 2 cups (8 to 10 servings)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "gravy",
+        "giblet",
+        "turkey",
+        "thanksgiving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5488 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 146,
+          "fat_g": 7.3,
+          "protein_g": 14.8,
+          "carbs_g": 4.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for pan drippings from roast turkey or chicken (standard quantity)",
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "white-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "White Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 361",
+      "description": "Basic white sauce - the foundation for many variations.",
+      "servings_yield": "3/4 cup (twelve 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan melt margarine or butter. Stir in flour, salt, and pepper. Add milk all at once."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over medium heat till thickened and bubbly. Cook and stir 1 minute more. Makes 3/4 cup (twelve 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Microwave directions available",
+        "Variations: Low-Calorie, Almond, Cheese, Curry, Herb-Garlic, Lemon-Chive, Mexicali, Parmesan, Sherry"
+      ],
+      "tags": [
+        "sauce",
+        "white-sauce",
+        "basic",
+        "bechamel"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5522 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 51,
+          "fat_g": 2.3,
+          "protein_g": 2.3,
+          "carbs_g": 5.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1 for pepper (standard quantity)",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "hollandaise-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hollandaise Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 362",
+      "description": "A classic creamy sauce with a rich lemon flavor.",
+      "servings_yield": "3/4 cup (twelve 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten egg yolks",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "white pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut margarine or butter into thirds and bring it to room temperature."
+        },
+        {
+          "step": 2,
+          "text": "In the top of a double boiler combine egg yolks, water, lemon juice, pepper, and dash salt. Add one piece of the margarine or butter. Place over boiling water (upper pan should not touch water). Cook, stirring rapidly, till margarine melts and sauce begins to thicken."
+        },
+        {
+          "step": 3,
+          "text": "Add the remaining margarine or butter, a piece at a time, stirring constantly. Cook and stir till sauce thickens (1 to 2 minutes). Immediately remove from heat. If sauce is too thick or curdles, immediately beat in 1 to 2 tablespoons hot tap water."
+        },
+        {
+          "step": 4,
+          "text": "Serve the sauce with cooked vegetables, poultry, fish, or eggs. Makes about 3/4 cup (twelve 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Microwave directions available"
+      ],
+      "tags": [
+        "sauce",
+        "hollandaise",
+        "classic",
+        "french",
+        "eggs-benedict"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5523 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 6.8,
+          "protein_g": 6.0,
+          "carbs_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for white pepper (standard quantity)",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "bearnaise-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "B\u00e9arnaise Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 363",
+      "description": "Classic French sauce with tarragon - perfect for steak.",
+      "servings_yield": "3/4 cup (twelve 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped green onion",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped fresh tarragon or 1/4 teaspoon dried tarragon, crushed",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped fresh chervil or pinch dried chervil, crushed",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten egg yolks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut margarine into thirds and bring it to room temperature. In a small saucepan combine vinegar, onion, tarragon, chervil, and pepper. Bring to boiling; boil 2 minutes on high or till reduced by about half."
+        },
+        {
+          "step": 2,
+          "text": "In the top of a double boiler combine yolks, 1 tablespoon water, and vinegar mixture. Add one piece of the margarine. Place over boiling water (upper pan should not touch water). Cook, stirring rapidly, till margarine melts and sauce begins to thicken."
+        },
+        {
+          "step": 3,
+          "text": "Add remaining margarine, a piece at a time, stirring constantly. Cook and stir till thickened (1 to 2 minutes). Immediately remove from heat. If sauce is too thick or curdles, immediately beat in 1 to 2 tablespoons hot tap water."
+        },
+        {
+          "step": 4,
+          "text": "Serve with beef, pork, or poultry. Makes 3/4 cup (twelve 1-tablespoon servings)."
+        }
+      ],
+      "tags": [
+        "sauce",
+        "bearnaise",
+        "french",
+        "steak",
+        "tarragon"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5524 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 113,
+          "fat_g": 8.5,
+          "protein_g": 8.0,
+          "carbs_g": 0.6
+        },
+        "missing_inputs": [
+          "Not in database: snipped fresh chervil or pinch dried chervil, crushed"
+        ],
+        "assumptions": [
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "sweet-sour-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sweet-Sour Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 363",
+      "description": "Perfect for spareribs, egg rolls, or fried wontons.",
+      "servings_yield": "1 1/4 cups (twenty 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened pineapple juice",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped green pepper",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pimiento",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan combine brown sugar and cornstarch. Stir in vinegar, pineapple juice, green pepper, pimiento, soy sauce, garlic powder, and ginger."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir till thickened and bubbly. Cook and stir 2 minutes more."
+        },
+        {
+          "step": 3,
+          "text": "Serve warm with spareribs, egg rolls, or fried wontons. Makes about 1 1/4 cups (twenty 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "FAST recipe tag",
+        "Microwave directions available"
+      ],
+      "tags": [
+        "sauce",
+        "sweet-sour",
+        "asian",
+        "chinese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5524 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 466,
+          "fat_g": 0.1,
+          "protein_g": 0.3,
+          "carbs_g": 119.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "basic-barbecue-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Basic Barbecue Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 364",
+      "description": "Vary the hotness by adjusting the amount of hot pepper sauce.",
+      "servings_yield": "1 1/2 cups (twenty-eight 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "catsup",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped onion or 1 tablespoon dried minced onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "several dashes"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine catsup, onion, vinegar, sugar, Worcestershire sauce, celery seed, hot pepper sauce, 1/2 cup water, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling; reduce heat. Simmer 10 to 15 minutes or to desired consistency."
+        },
+        {
+          "step": 3,
+          "text": "Brush on beef, pork, or poultry during the last 10 to 20 minutes of grilling or roasting. If desired, pass remaining sauce. Makes 1 1/2 cups (twenty-eight 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Hot-Style Barbecue Sauce: Add 1 teaspoon chili powder and 1/2 teaspoon ground red pepper with the catsup",
+        "Tangy Mustard Barbecue Sauce: Omit celery seed. Add 2 tablespoons prepared mustard and 1/4 teaspoon garlic powder with the catsup"
+      ],
+      "tags": [
+        "sauce",
+        "barbecue",
+        "bbq",
+        "grilling"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5525 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 87,
+          "fat_g": 0.1,
+          "protein_g": 0.6,
+          "carbs_g": 22.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tartar-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tartar Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 364",
+      "description": "Classic accompaniment for fish and seafood.",
+      "servings_yield": "1 1/4 cups (twenty 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped sweet or dill pickle or dill pickle relish",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "drained"
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "diced pimiento",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl combine mayonnaise or salad dressing, pickle, onion, parsley, pimiento, and lemon juice."
+        },
+        {
+          "step": 2,
+          "text": "Cover and chill at least 2 hours before serving. Store in the refrigerator up to 2 weeks."
+        },
+        {
+          "step": 3,
+          "text": "Serve with fish or seafood. Makes 1 1/4 cups (twenty 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "EASY recipe tag",
+        "Low-Fat Tartar Sauce: Substitute 1/3 cup reduced-calorie mayonnaise or salad dressing and 2/3 cup plain yogurt for the mayonnaise. Omit lemon juice."
+      ],
+      "tags": [
+        "sauce",
+        "tartar",
+        "seafood",
+        "fish"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5525 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 8.0,
+          "protein_g": 0.2,
+          "carbs_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cranberry-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 365",
+      "description": "Fresh homemade cranberry sauce for the holidays.",
+      "servings_yield": "about 2 cups (eight 1/4-cup servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cranberries",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "8 ounces"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine sugar and 1 cup water. Bring to boiling, stirring to dissolve sugar. Boil rapidly for 5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add cranberries. Return to boiling; reduce heat. Boil gently over medium-high heat for 3 to 4 minutes or till skins pop, stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Serve warm or chilled with beef, pork, or poultry. Makes about 2 cups (eight 1/4-cup servings)."
+        }
+      ],
+      "notes": [
+        "Molded Cranberry Sauce: Cook cranberry mixture for 13 to 16 minutes or till a drop gels on a cold plate. Pour into a 1 1/2-cup mold; chill till firm. Unmold.",
+        "Almond Cranberry Sauce: Substitute 1/3 cup honey for the sugar. Boil 8 minutes before adding cranberries. After removing from heat, stir in 1/4 cup apricot or peach preserves or orange marmalade and 1/4 cup toasted sliced almonds."
+      ],
+      "tags": [
+        "sauce",
+        "cranberry",
+        "thanksgiving",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5526 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 433,
+          "fat_g": 0.0,
+          "protein_g": 0.0,
+          "carbs_g": 112.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "plum-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Plum Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 365",
+      "description": "Asian-inspired sauce for beef, lamb, pork, or poultry.",
+      "servings_yield": "3/4 cup (twelve 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "red plum jam",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine red plum jam, sliced green onion, and cornstarch. Add dry sherry, soy sauce, and vinegar."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir till bubbly. Cook and stir 2 minutes more."
+        },
+        {
+          "step": 3,
+          "text": "Serve with beef, lamb, pork, or poultry. Makes 3/4 cup (twelve 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "FAST recipe tag",
+        "Microwave directions available"
+      ],
+      "tags": [
+        "sauce",
+        "plum",
+        "asian",
+        "chinese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5526 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 10,
+          "fat_g": 0.1,
+          "protein_g": 0.3,
+          "carbs_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "steak-and-burger-toppings-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Steak and Burger Toppings",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 243",
+      "description": "Dress up steaks and burgers with one of these sauces. Each makes enough for 4 servings.",
+      "notes": [
+        "Mushroom-Onion Sauce: Cook 1 cup sliced fresh mushrooms and \u00bc cup sliced green onion in 2 tablespoons margarine or butter. Stir in \u00bd cup dairy sour cream and \u00bc teaspoon pepper. Heat through; do not boil.",
+        "Sour Cream and Chive Sauce: Combine \u00bd cup dairy sour cream, 2 tablespoons snipped chives, 1 tablespoon prepared horseradish, and dash pepper. Chill.",
+        "Mustard-Chive Sauce: In a saucepan melt 1 tablespoon margarine or butter. Stir in 2 tablespoons all-purpose flour and \u00bd teaspoon salt till bubbly. Add \u00be cup milk. Cook and stir till bubbly. Remove from heat. Stir in 1 tablespoon snipped chives and 1 teaspoon Dijon-style mustard.",
+        "Parsley Pesto: In a blender container place 2 cups lightly packed chopped parsley, 2 tablespoons chopped walnuts, 1 clove garlic, quartered. Cover and blend till nearly smooth. Stir in \u00bc cup grated Parmesan cheese."
+      ],
+      "tags": [
+        "sauces",
+        "toppings",
+        "steak",
+        "burgers"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5403 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "No ingredients listed"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "spaghetti-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spaghetti Sauce",
+      "category": "sauces",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens New Cookbook, page 242",
+      "description": "Classic Italian-American meat sauce for spaghetti.",
+      "servings_yield": "6 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "1 hour 5 minutes",
+      "ingredients": [
+        {
+          "item": "ground beef or ground pork",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "canned tomatoes",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "1 can"
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "1 can"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "dried basil",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "hot cooked spaghetti",
+          "quantity": "6",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In Dutch oven cook meat, onion, green pepper, and celery till meat is brown. Drain. Stir in undrained tomatoes, tomato sauce, tomato paste, sugar, oregano, basil, bay leaf, and garlic. Bring to boiling; reduce heat."
+        },
+        {
+          "step": 2,
+          "text": "Cover and simmer about 30 minutes or till desired consistency. Discard bay leaf. Serve over hot pasta. Serves 6."
+        },
+        {
+          "step": 3,
+          "text": "Microwave directions: In a 3-quart casserole combine meat, onion, green pepper, and garlic on 100% power (high) for 6 to 8 minutes or till no pink remains, stirring twice. Drain. Stir in remaining ingredients except pasta. Micro-cook, covered, on high 6 to 8 minutes or till mixture bubbles, stirring once. Discard bay leaf. Serve over pasta. Makes 6 servings."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Dutch oven",
+      "notes": [],
+      "tags": [
+        "spaghetti",
+        "sauce",
+        "italian",
+        "pasta",
+        "beef"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5402 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 462,
+          "fat_g": 16.1,
+          "protein_g": 23.6,
+          "carbs_g": 53.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 13/13 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pan-gravy-for-roasted-meat-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pan Gravy for Roasted Meat",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 214",
+      "description": "Classic pan gravy made from roast drippings",
+      "servings_yield": "2 cups (8 servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "pan drippings from roast",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "beef broth or water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "After removing roasted meat from pan, pour drippings into a large measuring cup, scraping out the crusty browned bits. Skim fat. (To skim fat, tilt measuring cup and spoon off the oily liquid that rises to the top.) Reserve 1/4 cup fat."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan combine reserved fat and 1/4 cup all-purpose flour. Add enough beef broth or water to drippings in the measuring cup to equal 2 cups liquid."
+        },
+        {
+          "step": 3,
+          "text": "Add to flour mixture. Cook and stir over medium heat till thickened and bubbly. Cook and stir for 1 to 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Season to taste."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "medium saucepan",
+      "notes": [],
+      "tags": [
+        "sauces",
+        "gravy",
+        "beef",
+        "accompaniment"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5374 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 65,
+          "fat_g": 0.4,
+          "protein_g": 3.1,
+          "carbs_g": 11.9
+        },
+        "missing_inputs": [
+          "Not in database: pan drippings from roast"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for beef broth or water (standard quantity)",
+          "Based on 2/3 ingredients (67% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pan-gravy-roasted-meat-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pan Gravy for Roasted Meat",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 214",
+      "description": "Classic pan gravy made from roast meat drippings.",
+      "servings_yield": "2 cups",
+      "prep_time": "5 minutes",
+      "cook_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "pan drippings from roast",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "liquid (water, broth, or milk)",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "After removing roasted meat from pan, pour drippings into a large measuring cup, scraping out the crusty browned bits. Skim fat, reserving \u00bc cup fat. (To skim fat: The oily liquid that rises to the top.)"
+        },
+        {
+          "step": 2,
+          "text": "Reserve all the oily liquid and \u00bc cup of reserved fat."
+        },
+        {
+          "step": 3,
+          "text": "In a medium saucepan combine reserved fat and \u00bc cup all-purpose flour. Cook and stir for 1 to 2 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add enough beef broth or water to equal 2 cups liquid. Add all at once to flour mixture. Cook and stir till thickened and bubbly. Cook and stir for 1 to 2 minutes more. Season to taste."
+        }
+      ],
+      "temperature": "Stovetop",
+      "notes": [
+        "The browned bits from the pan add tremendous flavor"
+      ],
+      "tags": [
+        "gravy",
+        "sauce",
+        "beef",
+        "basic technique"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5374 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 0.1,
+          "protein_g": 1.6,
+          "carbs_g": 11.9
+        },
+        "missing_inputs": [
+          "Not in database: pan drippings from roast"
+        ],
+        "assumptions": [
+          "Based on 2/3 ingredients (67% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fruit-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruit Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 139",
+      "description": "Sweeten to taste with 1 to 2 tablespoons sugar.",
+      "ingredients": [
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "orange juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "8- to 8 1/2-ounce can fruit (unpeeled apricot halves, pitted light sweet cherries, fruit cocktail, peach slices, pear slices, or crushed pineapple) or one 10-ounce package frozen fruit, thawed (red raspberries, strawberries, or peach slices)",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan mix orange peel, orange juice, cornstarch, and cinnamon. Stir in undrained fruit. Cook and stir till bubbly. Cook and stir 2 minutes more. Serve over ice cream, cake, cheesecake, or crepes."
+        }
+      ],
+      "servings_yield": "Makes 1 1/3 cups (5 servings)",
+      "notes": [
+        "Lemon Sauce: Prepare as above, except substitute lemon peel for the orange peel and 1/2 cup water plus 1 tablespoon lemon juice for the orange juice. Makes 2/3 cup (4 servings)."
+      ],
+      "tags": [
+        "sauces",
+        "fruit",
+        "dessert sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5301 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 212,
+          "fat_g": 0.1,
+          "protein_g": 1.5,
+          "carbs_g": 54.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "caramel-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 139",
+      "ingredients": [
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "light cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy saucepan mix sugar and cornstarch. Stir in 1/4 cup water. Stir in cream and corn syrup. Cook and stir till bubbly (mixture may appear curdled). Cook and stir for 2 minutes more. Remove from heat; stir in margarine and vanilla. Serve warm or cool over ice cream, fruit, cheesecake, or cake."
+        }
+      ],
+      "servings_yield": "Makes 1 cup (8 servings)",
+      "tags": [
+        "sauces",
+        "caramel",
+        "dessert sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5301 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 843,
+          "fat_g": 44.7,
+          "protein_g": 2.5,
+          "carbs_g": 113.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "orange-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 139",
+      "description": "Tastes great with gingerbread or ice cream.",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "orange juice",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine sugar, cornstarch, and orange peel. Stir in orange juice. Cook and stir till thickened and bubbly. Cook and stir 2 minutes more. Remove from heat; stir in margarine or butter. Serve warm."
+        }
+      ],
+      "servings_yield": "Makes 3/4 cup (serves 4 to 6)",
+      "tags": [
+        "sauces",
+        "orange",
+        "dessert sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5301 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 0.3,
+          "protein_g": 0.5,
+          "carbs_g": 23.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "rhubarb-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rhubarb Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 139",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/2 to 2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "orange peel strip (optional)",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "1/2-inch rhubarb slices",
+          "quantity": "3",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan mix sugar, water, and, if desired, 1 strip orange peel. Bring to boiling. Add rhubarb slices. Reduce heat. Cover and simmer about 5 minutes or till rhubarb is tender. Remove peel. Serve over cake or ice cream."
+        }
+      ],
+      "servings_yield": "Makes 2 cups (8 servings)",
+      "tags": [
+        "sauces",
+        "rhubarb",
+        "fruit sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5301 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 264,
+          "fat_g": 0.1,
+          "protein_g": 2.0,
+          "carbs_g": 66.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "vanilla-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Vanilla Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 140",
+      "description": "Delicious with fresh or poached fruit.",
+      "ingredients": [
+        {
+          "item": "beaten egg yolks",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "milk or light cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan combine yolks, milk, and sugar. Cook and stir till mixture is thickened and bubbly. Remove from heat. Cool, then chill. To serve, whip cream and vanilla to soft peaks. Fold into yolk mixture."
+        }
+      ],
+      "servings_yield": "Makes 1 1/2 cups (12 servings)",
+      "tags": [
+        "sauces",
+        "vanilla",
+        "cream sauce",
+        "dessert sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5302 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1109,
+          "fat_g": 98.0,
+          "protein_g": 17.0,
+          "carbs_g": 45.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "whiskey-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Whiskey Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 140",
+      "description": "Southerners traditionally ladle this sauce over bread pudding.",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "beaten egg yolk",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bourbon",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan melt margarine or butter. Stir in sugar, egg yolk, and water. Cook and stir constantly over medium-low heat for 5 to 6 minutes or till sugar dissolves and mixture boils. Remove from heat and stir in bourbon. Serve warm."
+        }
+      ],
+      "servings_yield": "Makes 2/3 cup (8 servings)",
+      "tags": [
+        "sauces",
+        "bourbon",
+        "whiskey",
+        "bread pudding"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5302 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 3.9,
+          "protein_g": 3.0,
+          "carbs_g": 50.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "whipped-cream-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Whipped Cream",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 140",
+      "ingredients": [
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a chilled bowl combine whipping cream, sugar, and vanilla. Beat with chilled beaters of an electric mixer on medium speed till soft peaks form. Serve with pie, fruit desserts, cake, cream puffs, and hot drinks."
+        }
+      ],
+      "servings_yield": "Makes 2 cups (8 servings)",
+      "notes": [
+        "Flavored Whipped Cream: Prepare as above, except add one of the following with the vanilla: 2 tablespoons unsweetened cocoa powder plus 1 tablespoon additional sugar, 2 tablespoons amaretto or coffee, hazelnut, orange, or praline liqueur; 1 teaspoon instant coffee crystals; 1/2 teaspoon almond extract; 1/4 teaspoon finely shredded lemon, orange, or lime peel; or 1/4 teaspoon ground cinnamon, nutmeg, or ginger."
+      ],
+      "tags": [
+        "sauces",
+        "whipped cream",
+        "topping"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5302 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 458,
+          "fat_g": 44.0,
+          "protein_g": 2.5,
+          "carbs_g": 16.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "hard-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hard Sauce",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 140",
+      "description": "Traditionally served with steamed puddings and warm gingerbread.",
+      "ingredients": [
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small mixer bowl beat together softened margarine or butter and powdered sugar with an electric mixer on medium speed for 3 to 5 minutes or till mixture is well combined. Beat in vanilla. Spoon into serving bowl. Chill to harden. Serve with plum pudding or warm gingerbread."
+        }
+      ],
+      "servings_yield": "Makes 2/3 cup (10 to 12 servings)",
+      "notes": [
+        "Brandy Hard Sauce: Prepare as above, except substitute 1 tablespoon brandy or rum for the vanilla.",
+        "Orange Hard Sauce: Prepare as above, except substitute 1/4 teaspoon finely shredded orange peel and 1 tablespoon orange juice or orange liqueur for the vanilla."
+      ],
+      "tags": [
+        "sauces",
+        "hard sauce",
+        "butter sauce",
+        "Christmas"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5302 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 1.4,
+          "protein_g": 0.0,
+          "carbs_g": 59.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "herbed-sauce-for-fish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Herbed Sauce for Fish",
+      "category": "sauces",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 167",
+      "description": "Here's an easy sauce to brush over fish during baking or broiling (see chart, page 185). In a small saucepan melt 3 tablespoons margarine or butter.",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried dillweed or dried basil, rosemary, or oregano, crushed; and/or snipped parsley",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan melt 3 tablespoons margarine or butter. Stir in lemon juice, 1/2 teaspoon dried dillweed or dried basil, rosemary, or oregano, crushed, and/or 1 tablespoon snipped parsley, and 1/4 teaspoon pepper. Brush with margarine mixture. Grill for 3 to 7 minutes more or till fish flakes easily with a fork."
+        }
+      ],
+      "servings_yield": "Makes about 1/4 cup (enough for 1 pound of fillets)",
+      "tags": [
+        "sauces",
+        "fish",
+        "herb sauce",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5329 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 2.1,
+          "protein_g": 0.0,
+          "carbs_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "red-chile-sauce-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Red Chile Sauce",
+      "category": "sauces",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 37",
+      "ingredients": [
+        {
+          "item": "shortening",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red chile powder",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cold chicken broth",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt the shortening, add the flour, and stir. Add the chile powder and continue to stir until mixed."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add the chicken broth and stir until there are no lumps."
+        },
+        {
+          "step": 3,
+          "text": "Season with salt and garlic powder and simmer for 10 to 15 minutes."
+        }
+      ],
+      "notes": [
+        "Use with Mrs. Mondragon's Cocktail Meatballs"
+      ],
+      "tags": [
+        "sauce",
+        "red chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6024 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "caramel-syrup-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Syrup",
+      "category": "sauces",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 86",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan heat the sugar slowly until brown; add the remaining ingredients and bring to a boil."
+        },
+        {
+          "step": 2,
+          "text": "Serve hot over Sweet Chile Albondigas."
+        }
+      ],
+      "notes": [
+        "In New Mexico this is a traditional holiday dish among the Spanish-surnamed population, and it is usually served at Spanish weddings."
+      ],
+      "tags": [
+        "sauce",
+        "syrup",
+        "caramel",
+        "sweet"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6069 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "enchilada-sauce-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Enchilada Sauce",
+      "category": "sauces",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 138",
+      "servings_yield": "Makes 4 cups",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chile powder",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cumin",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "1",
+          "unit": "can (6 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "3 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make a roux of the butter and flour. Add the spices and tomato paste. Stir until well blended. Gradually add the milk, stirring constantly until all blended. Heat until hot. Serve over squares of Do-Ahead Chile Relleno Casserole."
+        }
+      ],
+      "notes": [
+        "Serve over Do-Ahead Chile Relleno Casserole"
+      ],
+      "tags": [
+        "sauce",
+        "enchilada sauce",
+        "chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6124 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "onion-soup-swedish-meatball-sauce-jasmine",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Onion-Soup-Based Swedish Meatball Sauce",
+      "category": "sauces",
+      "attribution": "Handwritten/printed recipe",
+      "source_note": "FBC Jasmine Cook Book",
+      "ingredients": [
+        {
+          "item": "mushroom gravy mix",
+          "quantity": "2",
+          "unit": "packages",
+          "prep_note": ""
+        },
+        {
+          "item": "onion soup mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "1 can of water"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "1/2 container"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine gravy and soup mixes and water."
+        },
+        {
+          "step": 2,
+          "text": "Bring to a boil stirring constantly."
+        },
+        {
+          "step": 3,
+          "text": "Simmer for one minute, reduce heat to low, and add sour cream."
+        }
+      ],
+      "notes": [
+        "Use as sauce for Swedish meatballs"
+      ],
+      "tags": [
+        "sauce",
+        "meatballs",
+        "Swedish"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5650 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "onion-soup-swedish-meatball-sauce-fbc",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Onion-Soup-Based Swedish Meatball Sauce",
+      "category": "sauces",
+      "attribution": "F.B.C. of Jasmine Lakes Cookbook",
+      "source_note": "Handwritten recipe insert",
+      "ingredients": [
+        {
+          "item": "mushroom gravy",
+          "quantity": "3",
+          "unit": "cans",
+          "prep_note": "soup style"
+        },
+        {
+          "item": "mushroom gravy mix",
+          "quantity": "2",
+          "unit": "packages",
+          "prep_note": ""
+        },
+        {
+          "item": "onion soup mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "about 1 can"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "about 1/2 container"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine gravy and soup mixes and water."
+        },
+        {
+          "step": 2,
+          "text": "Bring to a boil stirring constantly."
+        },
+        {
+          "step": 3,
+          "text": "Simmer for one minute."
+        },
+        {
+          "step": 4,
+          "text": "Reduce heat to low, and add sour cream."
+        }
+      ],
+      "notes": [
+        "Serve over meatballs with egg noodles"
+      ],
+      "tags": [
+        "sauce",
+        "meatballs",
+        "swedish",
+        "creamy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5650 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "foxfire2-horseradish-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Horseradish Sauce",
+      "category": "sauces",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian sauce from The Foxfire Book 2",
+      "description": "A classic horseradish sauce for beef.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling beef stock",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "horseradish",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine three tablespoons butter, one tablespoon flour, one and one-half cups boiling beef stock and horseradish to taste."
+        },
+        {
+          "step": 2,
+          "text": "Cook until thickened and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Eating horseradish is said to be good for rheumatism, scurvy, and hoarseness"
+      ],
+      "tags": [
+        "sauce",
+        "horseradish",
+        "condiment",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-wild-plum-catsup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Plum Catsup",
+      "category": "sauces",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian condiment from Foxfire 3",
+      "description": "A spiced plum catsup for meats.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "wild plums",
+          "quantity": "5",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil plums with one teaspoon soda. Bring to a rolling boil."
+        },
+        {
+          "step": 2,
+          "text": "Strain through a colander."
+        },
+        {
+          "step": 3,
+          "text": "Simmer with sugar, vinegar, and spices until thick as catsup."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Chickasaw plums have the best-tasting fruit"
+      ],
+      "tags": [
+        "catsup",
+        "plum",
+        "condiment",
+        "spiced",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-mint-syrup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mint Syrup",
+      "category": "sauces",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A sweet mint syrup for fresh fruit or puddings.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "1 hour steeping",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh or dried mint leaves",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped fine"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together sugar, water, and mint leaves."
+        },
+        {
+          "step": 2,
+          "text": "Simmer until sugar is completely dissolved."
+        },
+        {
+          "step": 3,
+          "text": "Cover and let stand one hour."
+        },
+        {
+          "step": 4,
+          "text": "Strain and use over fresh fruit or puddings."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "syrup",
+        "mint",
+        "sauce",
+        "dessert",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-mint-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mint Sauce",
+      "category": "sauces",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian sauce from Foxfire 3",
+      "description": "Classic mint sauce for lamb.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "mint",
+          "quantity": "1",
+          "unit": "bunch",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop mint very fine."
+        },
+        {
+          "step": 2,
+          "text": "Dissolve sugar in vinegar."
+        },
+        {
+          "step": 3,
+          "text": "Add mint and let stand one hour."
+        },
+        {
+          "step": 4,
+          "text": "Strain and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "sauce",
+        "mint",
+        "lamb",
+        "condiment",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-black-haw-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Black Haw Sauce",
+      "category": "sauces",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian sauce from Foxfire 3",
+      "description": "A honey-sweetened sauce from black haw berries.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "black haw berries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash berries well."
+        },
+        {
+          "step": 2,
+          "text": "Cook with honey and lemon juice until soft."
+        },
+        {
+          "step": 3,
+          "text": "Strain and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "sauce",
+        "haw",
+        "honey",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire4-sawmill-gravy",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sawmill Gravy",
+      "category": "sauces",
+      "attribution": "Traditional Appalachian logging camp, via Foxfire 4",
+      "source_note": "Traditional breakfast gravy from Foxfire Book 4 logging camp section",
+      "description": "Classic Appalachian white gravy made for logging camp breakfasts, served over biscuits.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "flour (or corn meal)",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "flour preferred"
+        },
+        {
+          "item": "pan drippings or grease",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "from bacon or meat"
+        },
+        {
+          "item": "milk (or water)",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "milk preferred"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put flour in a great big skillet."
+        },
+        {
+          "step": 2,
+          "text": "Let it brown a little bit in the pan drippings."
+        },
+        {
+          "step": 3,
+          "text": "Dump in milk or water if you don't have milk."
+        },
+        {
+          "step": 4,
+          "text": "Stir constantly until thickened."
+        },
+        {
+          "step": 5,
+          "text": "Season with salt and pepper."
+        },
+        {
+          "step": 6,
+          "text": "Serve over hot biscuits."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Large skillet",
+      "notes": [
+        "Can be made with corn meal instead of flour.",
+        "Served every morning in logging camps with eggs, bacon, and biscuits."
+      ],
+      "tags": [
+        "gravy",
+        "sauce",
+        "breakfast",
+        "biscuits",
+        "appalachian",
+        "foxfire",
+        "logging camp"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "haw-sauce-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Haw Sauce",
+      "category": "sauces",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Tangy condiment sauce made from hawthorn berries.",
+      "ingredients": [
+        {
+          "item": "stalkless hawthorn berries",
+          "quantity": "1.5",
+          "unit": "lbs"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "3/4",
+          "unit": "pint"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "oz"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": "optional"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash berries."
+        },
+        {
+          "step": 2,
+          "text": "Cook with vinegar for 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Press pulp through sieve."
+        },
+        {
+          "step": 4,
+          "text": "Return to pan with sugar and seasonings."
+        },
+        {
+          "step": 5,
+          "text": "Boil 10 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Bottle and seal."
+        }
+      ],
+      "tags": [
+        "sauce",
+        "hawthorn",
+        "haw",
+        "condiment",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "hawthorn-berry-catsup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hawthorn Berry Catsup",
+      "category": "sauces",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Tangy ketchup-style condiment from hawthorn berries.",
+      "ingredients": [
+        {
+          "item": "hawthorn berries",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "apple cider vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar or honey",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "black cherry juice",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "optional but recommended"
+        },
+        {
+          "item": "sea salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper or cayenne",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove berries from stalks, rinse."
+        },
+        {
+          "step": 2,
+          "text": "Place in saucepan with vinegar and water."
+        },
+        {
+          "step": 3,
+          "text": "Simmer 25 minutes until skins split."
+        },
+        {
+          "step": 4,
+          "text": "Cool, push through sieve to remove pits."
+        },
+        {
+          "step": 5,
+          "text": "Return to pan, add sweeteners."
+        },
+        {
+          "step": 6,
+          "text": "Slowly heat, stir frequently, add spices."
+        },
+        {
+          "step": 7,
+          "text": "Low boil 5-10 minutes until syrupy."
+        },
+        {
+          "step": 8,
+          "text": "Add cherry juice gradually for consistency."
+        },
+        {
+          "step": 9,
+          "text": "Pour into sterilized bottles."
+        },
+        {
+          "step": 10,
+          "text": "Refrigerate, use within 3 months."
+        }
+      ],
+      "tags": [
+        "catsup",
+        "ketchup",
+        "hawthorn",
+        "haw",
+        "condiment",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

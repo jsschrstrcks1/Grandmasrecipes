@@ -1,0 +1,1171 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "shellfish",
+    "total_recipes": 11,
+    "generated": "2026-01-23T14:31:32.291655Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "crab-cakes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crab Cakes",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 179",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "crabmeat, cooked, or two 6-ounce cans crabmeat, drained, flaked, and cartilage removed",
+          "quantity": "3/4",
+          "unit": "lb"
+        },
+        {
+          "item": "fine dry bread crumbs",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium bowl combine egg, mayonnaise, mustard, Worcestershire sauce, salt, and pepper. Stir in crab. Add half of the crumbs (about 3 minutes). Add half of margarine and heat about 3 minutes. Add half of the crab mixture to skillet. Press into four 3-inch patties."
+        },
+        {
+          "step": 2,
+          "text": "Fry for 3 to 4 minutes on each side or till golden. Remove; keep warm. Repeat with remaining margarine, oil, and crab mixture. Makes 4 servings."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "tags": [
+        "shellfish",
+        "crab",
+        "cakes",
+        "fried"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5341 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 241,
+          "fat_g": 15,
+          "protein_g": 13,
+          "carbs_g": 13,
+          "cholesterol_mg": 181,
+          "sodium_mg": 117
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 179)"
+        ]
+      }
+    },
+    {
+      "id": "crab-mornay",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crab Mornay",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 179",
+      "description": "Topped with a classic cheese sauce.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "sliced fresh mushrooms, onion, and celery",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "thinly sliced celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dash red pepper",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "crabmeat, cooked, or two 6-ounce cans crabmeat, drained, flaked, and cartilage removed",
+          "quantity": "3/4",
+          "unit": "lb"
+        },
+        {
+          "item": "dry white wine or milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded process Swiss cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "paprika",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook mushrooms, onion, and celery in margarine till tender. Add red pepper. Cook and stir till thickened and bubbly. Stir in crabmeat and wine. Cook and stir 1 minute more."
+        },
+        {
+          "step": 2,
+          "text": "Stir in crabmeat, chopped egg, pimiento, to and mustard. Spoon into four 10-ounce casseroles or coquille shells. Top with bread crumbs with the 1 tablespoon margarine; sprinkle over casseroles. Top with almonds. Bake in a 375\u00b0 oven about 20 minutes or till tops brown. Makes 4 servings."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "shellfish",
+        "crab",
+        "mornay",
+        "cheese sauce"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5341 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 498,
+          "fat_g": 34,
+          "protein_g": 20,
+          "carbs_g": 25,
+          "cholesterol_mg": 50,
+          "sodium_mg": 361
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 179)"
+        ]
+      }
+    },
+    {
+      "id": "deviled-crab",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Deviled Crab",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 179",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "crabmeat, cooked, or two 6 1/2-ounce cans crabmeat, drained, flaked, and cartilage removed",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "hard-cooked egg, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "chopped pimiento",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "shredded process Swiss cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fine dry bread crumbs",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, melted",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sliced almonds, toasted",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan melt the 2 tablespoons margarine. Stir in flour. Add milk and hot pepper sauce all at once. Cook and stir till thickened and bubbly. Stir in crabmeat, chopped egg, pimiento, cheese, and mustard. Spoon into four 10-ounce casseroles or coquille shells. Toss bread crumbs with the 1 tablespoon margarine; sprinkle over casseroles. Top with almonds. Bake in 375\u00b0 oven about 20 minutes or till tops brown. Makes 4 servings."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "shellfish",
+        "crab",
+        "deviled",
+        "baked"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5341 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 281,
+          "fat_g": 9,
+          "protein_g": 15,
+          "carbs_g": 19,
+          "cholesterol_mg": 90,
+          "sodium_mg": 285
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 179)"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-creole",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp Creole",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 180",
+      "description": "This spicy New Orleans classic is the perfect match for rice.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen peeled and deveined shrimp",
+          "quantity": "12",
+          "unit": "oz"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cloves garlic, minced",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "tomatoes, cut up",
+          "quantity": "1",
+          "unit": "16-oz can"
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cold water",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "4",
+          "unit": "tsp"
+        },
+        {
+          "item": "hot cooked rice",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw shrimp, if frozen. In a large skillet cook onion, celery, green pepper, and garlic in margarine or butter till tender. Stir in undrained tomatoes, tomato paste, bay leaf, sugar, paprika, red pepper, and salt. Bring to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Stir together water and cornstarch. Stir into tomato mixture. Cook and stir till thickened and bubbly."
+        },
+        {
+          "step": 3,
+          "text": "Add shrimp to the tomato mixture. Stir cook, covered, for 1 to 3 minutes or till shrimp turn pink. Remove bay leaf. Serve over rice. Serves 4."
+        }
+      ],
+      "notes": [
+        "Fish Creole: Prepare as above, except substitute 12 ounces fresh or frozen fish fillets for shrimp. Thaw fish, if frozen. Cut fillets into 1-inch pieces. Add fish to the tomato mixture. Cook and stir till the fish is thickened and bubbly. Cook and after 3 to 5 minutes, covered, on high for 1 to 2 minutes or till shrimp turn pink. Remove bay leaf. Serve over rice."
+      ],
+      "tags": [
+        "shellfish",
+        "shrimp",
+        "creole",
+        "cajun",
+        "rice"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5342 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 303,
+          "fat_g": 8,
+          "protein_g": 21,
+          "carbs_g": 37,
+          "cholesterol_mg": 129,
+          "sodium_mg": 575
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 180)"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-chow-mein",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp Chow Mein",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 180",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen peeled and deveined shrimp",
+          "quantity": "12",
+          "unit": "oz"
+        },
+        {
+          "item": "water",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "grated gingerroot or ground ginger",
+          "quantity": "1",
+          "unit": "tsp or 1/4 tsp"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "onion, halved lengthwise and sliced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "fresh mushrooms, halved",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "can sliced water chestnuts, drained",
+          "quantity": "1",
+          "unit": "8-oz"
+        },
+        {
+          "item": "package frozen pea pods, thawed",
+          "quantity": "1",
+          "unit": "6-oz"
+        },
+        {
+          "item": "can bean sprouts, drained",
+          "quantity": "1",
+          "unit": "16-oz"
+        },
+        {
+          "item": "hot cooked rice or chow mein noodles",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw shrimp, if frozen. Cut any large shrimp in half lengthwise. For sauce, combine water, soy sauce, cornstarch, bouillon granules, and ginger. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Preheat a wok or large skillet over high heat; add cooking oil. (Add more oil as necessary during cooking.) Stir-fry mushrooms, onion, and garlic for 1 minute. Remove. Stir-fry shrimp for 2 to 3 minutes or till shrimp turn pink. Push to side of wok or skillet."
+        },
+        {
+          "step": 3,
+          "text": "Stir sauce; add to center of wok. Cook and stir till thickened and bubbly. Add water chestnuts, bean sprouts, pea pods, and cooked vegetables. Heat ingredients together to coat with sauce. Heat through. Serve over hot cooked rice. Serves 4."
+        }
+      ],
+      "notes": [
+        "Scallop Chow Mein: Prepare as above, except substitute 12 ounces fresh or frozen scallops for the shrimp. Thaw scallops, if frozen. Cut any large scallops into bite-size pieces. Stir-fry scallops for 2 to 3 minutes or till they turn opaque."
+      ],
+      "tags": [
+        "shellfish",
+        "shrimp",
+        "chow mein",
+        "asian",
+        "stir-fry"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5342 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 301,
+          "fat_g": 10,
+          "protein_g": 24,
+          "carbs_g": 29,
+          "cholesterol_mg": 132,
+          "sodium_mg": 424
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 180)"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-in-garlic-butter",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp in Garlic Butter",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 181",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen peeled and deveined shrimp",
+          "quantity": "12",
+          "unit": "oz"
+        },
+        {
+          "item": "cloves garlic, minced",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw shrimp, if frozen. In a large skillet heat margarine or butter over medium-high heat. Add shrimp and garlic. Cook, stirring, for 2 to 4 minutes or till shrimp turn pink. Sprinkle with parsley."
+        },
+        {
+          "step": 2,
+          "text": "Above except for substitute 12 ounces fresh or frozen sea scallops for the shrimp. Makes 4 servings."
+        }
+      ],
+      "notes": [
+        "Scallops in Garlic Butter: Prepare as above, except substitute 12 ounces fresh or frozen scallops for the shrimp. Cut any large scallops in half. If frozen, thaw scallops. Stir-fry scallops for 3 to 5 minutes or till they turn opaque."
+      ],
+      "tags": [
+        "shellfish",
+        "shrimp",
+        "garlic butter",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5343 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 7,
+          "protein_g": 18,
+          "carbs_g": 2,
+          "cholesterol_mg": 29,
+          "sodium_mg": 182
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 181)"
+        ]
+      }
+    },
+    {
+      "id": "french-fried-shrimp",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "French-Fried Shrimp",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 181",
+      "description": "Putting the shrimp dry before dipping them into the batter gives a crisper coating.",
+      "servings_yield": "4 to 6 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen shrimp in shells",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "shortening or cooking oil for deep-fat frying",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "yellow cornmeal",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Cocktail Sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 364; optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw shrimp, if frozen. Peel shrimp, leaving the last few sections before the tails and the tails intact. To devein shrimp, use a sharp knife to make a shallow slit along the back of each shrimp. Remove the sandy black vein, if present."
+        },
+        {
+          "step": 2,
+          "text": "To butterfly shrimp, make a deeper slit along the back of shrimp, cutting almost all the way through the shrimp on a flat surface so that the sides open to resemble a butterfly. Rinse; pat dry with paper towels. Set aside."
+        },
+        {
+          "step": 3,
+          "text": "For batter, combine flour, cornmeal, sugar, and salt. Combine egg, water, and the 2 tablespoons oil. Add to flour mixture. Beat with a rotary beater till smooth."
+        },
+        {
+          "step": 4,
+          "text": "In a large deep saucepan or deep-fat fryer, heat 2 inches shortening or oil to 375\u00b0. Meanwhile, pat shrimp dry. Dip shrimp into batter. Fry shrimp, 5 or 6 at a time, in hot fat for 2 to 3 minutes or till golden. Remove from fat. Drain on paper towels. Keep warm in a 300\u00b0 oven while frying remainder. Serve with Cocktail Sauce, if desired. Makes 6 servings."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "shellfish",
+        "shrimp",
+        "fried",
+        "deep-fried",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5343 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 411,
+          "fat_g": 26,
+          "protein_g": 26,
+          "carbs_g": 17,
+          "cholesterol_mg": 318,
+          "sodium_mg": 478
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 181)"
+        ]
+      }
+    },
+    {
+      "id": "linguine-with-white-clam-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Linguine with White Clam Sauce",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 182",
+      "description": "The nutty rich taste of this alternative recipe is well worth the effort required.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "minced or clams, shucked",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "or one 6 1/2-ounce can minced clams"
+        },
+        {
+          "item": "light cream or milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried oregano, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "linguine or spaghetti",
+          "quantity": "8",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook linguine according to package directions. Meanwhile, drain clams, reserving liquid from clams. Add enough of the cream or milk to make 1 cup liquid. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a saucepan cook onion and garlic in margarine till tender. Stir in flour, oregano, salt, and pepper. Add the 1 cup liquid. Cook and stir for 1 minute more."
+        },
+        {
+          "step": 3,
+          "text": "Stir in clams, parsley and wine. Heat through. Sprinkle with Parmesan cheese. Makes 4 servings."
+        }
+      ],
+      "notes": [
+        "Linguine with Red Clam Sauce: Prepare as above, except stir one 15-ounce can tomato sauce and 1/4 cup dry red wine into cooked onion and garlic. Heat through. Serve sauce over linguine. Sprinkle with Parmesan cheese."
+      ],
+      "tags": [
+        "shellfish",
+        "clams",
+        "pasta",
+        "linguine",
+        "italian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5344 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 564,
+          "fat_g": 27,
+          "protein_g": 47,
+          "carbs_g": 51,
+          "cholesterol_mg": 36,
+          "sodium_mg": 413
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 182)"
+        ]
+      }
+    },
+    {
+      "id": "coquilles-saint-jacques",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Coquilles Saint-Jacques",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 182",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen scallops",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "chopped fresh mushrooms",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk, slightly beaten",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "soft bread crumbs",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "1 slice"
+        },
+        {
+          "item": "margarine, melted",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw scallops, if frozen. Halve any large scallops. In a large skillet, cook mushrooms and onion in the 1/4 cup margarine till tender. Stir in flour and pepper. Add cream. Cook and stir till thickened and bubbly."
+        },
+        {
+          "step": 2,
+          "text": "In egg yolk; stir about half of the hot mixture into yolk. Return all to skillet. Add scallops. Cook and stir for 1 to 2 minutes or till scallops turn opaque."
+        },
+        {
+          "step": 3,
+          "text": "Spoon scallop mixture into 4 coquille shells or au gratin dishes or four 10-ounce custard cups. Place together bread crumbs, melted margarine, and parsley; sprinkle over scallops or mixture. Bake in a 400\u00b0 oven for 7 to 9 minutes or till crumbs are brown. Serves 4."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "tags": [
+        "shellfish",
+        "scallops",
+        "french",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5344 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 350,
+          "fat_g": 22,
+          "protein_g": 23,
+          "carbs_g": 13,
+          "cholesterol_mg": 132,
+          "sodium_mg": 526
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 182)"
+        ]
+      }
+    },
+    {
+      "id": "crawfish-etouffee",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crawfish \u00c9touff\u00e9e",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 183",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen peeled crawfish tails or deveined shrimp",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped green pepper",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "crawfish fat, margarine, or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/2 to 3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "hot cooked rice",
+          "quantity": "3",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw crawfish tails or shrimp, if frozen. In a large skillet cook onion, celery, green pepper, and garlic in crawfish fat, margarine, or butter for 10 minutes or till tender. Add tomato sauce, red pepper, 1 cup water, 1/4 teaspoon salt, and 1/4 teaspoon black pepper. Cook and stir till bubbly."
+        },
+        {
+          "step": 2,
+          "text": "Add crawfish tails or shrimp. Return to boiling; reduce heat. Simmer, uncovered, for 4 to 5 minutes or till crawfish are tender (shrimp turn pink). Season to taste. Serve with rice. Serves 4."
+        }
+      ],
+      "tags": [
+        "shellfish",
+        "crawfish",
+        "cajun",
+        "etouffee"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5345 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 303,
+          "fat_g": 2.9,
+          "protein_g": 26.9,
+          "carbs_g": 40.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "oysters-au-gratin",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Oysters au Gratin",
+      "category": "shellfish",
+      "source_note": "Better Homes and Gardens cookbook, page 183",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "shucked oysters",
+          "quantity": "3",
+          "unit": "pints"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "soft bread crumbs",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, melted",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pat oysters dry. In a large skillet cook 4 oysters in 1 tablespoon of the margarine for 3 to 4 minutes or till edges curl. Transfer oysters to four 10-ounce casseroles. Drain."
+        },
+        {
+          "step": 2,
+          "text": "For sauce, in the same skillet cook mushrooms and garlic in the 2 tablespoons margarine till tender. Stir in flour. Add milk and wine all at once. Cook and stir till thickened and bubbly. Stir in parsley, Worcestershire sauce. Spoon over oysters."
+        },
+        {
+          "step": 3,
+          "text": "Mix crumbs, Parmesan, and melted margarine. Sprinkle over sauce. Bake in 400\u00b0 oven for 10 minutes or till crumbs are brown. Serves 4."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "tags": [
+        "shellfish",
+        "oysters",
+        "gratin",
+        "baked"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5345 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 295,
+          "fat_g": 18,
+          "protein_g": 15,
+          "carbs_g": 17,
+          "cholesterol_mg": 77,
+          "sodium_mg": 472
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 183)"
+        ]
+      }
+    }
+  ]
+}

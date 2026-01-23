@@ -1,0 +1,4786 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "fish",
+    "total_recipes": 53,
+    "generated": "2026-01-23T14:31:32.195952Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "marinated-salmon-steaks",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Salmon Steaks",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 167",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen salmon (or halibut) steaks, cut 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "lemon or lime juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely shredded lemon, lime, or orange peel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried rosemary or thyme, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut steaks into serving-size portions. For marinade, in a shallow dish combine juice, oil, lemon peel, Worcestershire sauce, rosemary or thyme, and garlic."
+        },
+        {
+          "step": 2,
+          "text": "Place fish in marinade. Pour marinade over fish. Cover and marinate in the refrigerator for 30 minutes, turning fish once."
+        },
+        {
+          "step": 3,
+          "text": "Place fish on the greased unheated rack of a broiler pan. Brush with half of the remaining marinade. Broil 4 inches from the heat 5 minutes. Turn fish. Brush with remaining marinade. Broil for 3 to 7 minutes more or till fish flakes easily with a fork. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "salmon",
+        "marinated",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5329 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 181,
+          "fat_g": 0,
+          "protein_g": 22,
+          "carbs_g": 1,
+          "cholesterol_mg": 63,
+          "sodium_mg": 506
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 167)"
+        ]
+      }
+    },
+    {
+      "id": "halibut-with-sherry-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Halibut with Sherry Sauce",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 168",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen halibut (or other fish) steaks, cut 1 inch thick",
+          "quantity": "1 to 1 1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "green onions, sliced",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "1/4 cup"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Place fish on the greased unheated rack of a broiler pan. Brush with half of the margarine, melted. Broil 4 inches from the heat 5 minutes. Turn fish. Brush with remaining margarine. Broil for 3 to 7 minutes more or till fish flakes easily with a fork."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in a small saucepan cook onions and garlic in the 4 tablespoons margarine or butter till tender. Stir in flour. Add sherry and broth all at once. Cook and stir till thickened and bubbly. Cook and stir 1 minute more. Add cheese and beer. Cook and stir till cheese melts. Spoon over fish. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "halibut",
+        "sherry",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 17,
+          "protein_g": 34,
+          "carbs_g": 1,
+          "cholesterol_mg": 58,
+          "sodium_mg": 90
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
+        ]
+      }
+    },
+    {
+      "id": "teriyaki-shark",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Teriyaki Shark",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 168",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen shark steaks, cut 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "grated gingerroot or ground ginger",
+          "quantity": "1",
+          "unit": "tsp or 1/4 tsp"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut fish into 1-inch cubes. Place fish, mushrooms, onions in a plastic bag; set bag into a bowl. Combine oil, wine or orange juice, garlic, orange peel, and marinate at room temperature for 2 hours, turning bag occasionally. Drain fish cubes."
+        },
+        {
+          "step": 2,
+          "text": "On eight 12-inch skewers alternately thread fish cubes, mushrooms, and onions, leaving about 1/4 inch between pieces. Place on the greased unheated rack of a broiler pan. Broil 4 inches from the heat for 4 to 5 minutes. Turn kabobs over. Broil for 4 to 6 minutes more or till fish flakes easily with a fork. To serve, add a tomato to each skewer. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "shark",
+        "teriyaki",
+        "asian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 142,
+          "fat_g": 2,
+          "protein_g": 25,
+          "carbs_g": 4,
+          "cholesterol_mg": 0,
+          "sodium_mg": 397
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
+        ]
+      }
+    },
+    {
+      "id": "sweet-and-sour-fish-kabobs",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sweet-and-Sour Fish Kabobs",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 169",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen swordfish, tuna, or tuna steaks, cut 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "bias-sliced carrots",
+          "quantity": "4",
+          "unit": "medium",
+          "prep_note": "1/4 inch thick"
+        },
+        {
+          "item": "pineapple pieces (or canned, drained)",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "pineapple preserves or orange marmalade",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "canola oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut fish into 1-inch cubes. Cook carrots in a small amount of boiling water for 10 to 12 minutes or till almost tender; drain."
+        },
+        {
+          "step": 2,
+          "text": "For the sauce, in a small saucepan combine preserves, lemon juice, and oil. Cook over low heat till preserves melt, stirring constantly."
+        },
+        {
+          "step": 3,
+          "text": "Alternately thread fish cubes, carrot slices, and pineapple chunks on four 8-inch kabobs, leaving about 1/4 inch between pieces. Place kabobs on the greased unheated rack of broiler pan. Broil 4 inches from the heat for 4 to 5 minutes. Turn kabobs. Brush with sauce during the last 2 minutes of broiling. Brush again with sauce before serving."
+        }
+      ],
+      "tags": [
+        "fish",
+        "kabobs",
+        "sweet and sour"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5331 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 203,
+          "fat_g": 6,
+          "protein_g": 29,
+          "carbs_g": 5,
+          "cholesterol_mg": 150,
+          "sodium_mg": 500
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 169)"
+        ]
+      }
+    },
+    {
+      "id": "fish-with-beer-cheese-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fish with Beer-Cheese Sauce",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 170",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets or steaks",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "sliced green onion or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "beer",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. In a large skillet cook fish in hot oil, uncovered, for 4 to 6 minutes per 1/2-inch thickness or till fish flakes easily with a fork (turning fish once if fish is 1 inch thick or more). Keep warm."
+        },
+        {
+          "step": 2,
+          "text": "For sauce, in a saucepan cook onion in margarine till tender. Add flour and, if desired, mustard. Add milk all at once. Cook and stir till thickened and bubbly. Add cheese and beer. Cook and stir till cheese melts. Spoon over fish. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "cheese sauce",
+        "beer",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5332 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 229,
+          "fat_g": 12,
+          "protein_g": 25,
+          "carbs_g": 5,
+          "cholesterol_mg": 64,
+          "sodium_mg": 564
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 170)"
+        ]
+      }
+    },
+    {
+      "id": "citrus-baked-halibut",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Citrus Baked Halibut",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 170",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen halibut steaks, chopped on thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "orange juice",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Arrange in an 8x8x2-inch baking dish. Cook orange and garlic in margarine. Stir in parsley and lemon juice. Pour over fish."
+        },
+        {
+          "step": 2,
+          "text": "Bake in a 400\u00b0 oven for 20 to 25 minutes or till fish flakes easily with a fork. Makes 4 servings."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "tags": [
+        "fish",
+        "halibut",
+        "citrus",
+        "baked"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5332 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 0,
+          "protein_g": 22,
+          "carbs_g": 4,
+          "cholesterol_mg": 55,
+          "sodium_mg": 352
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 170)"
+        ]
+      }
+    },
+    {
+      "id": "broccoli-stuffed-sole",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Broccoli-Stuffed Sole",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 171",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "frozen cut broccoli (or other fish fillets)",
+          "quantity": "1",
+          "unit": "4-oz package"
+        },
+        {
+          "item": "frozen cut broccoli",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cream cheese with chives and onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "white wine or dry white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. For stuffing, cook broccoli according to package directions. Drain. Cut up any large pieces. Combine broccoli and cheeses."
+        },
+        {
+          "step": 2,
+          "text": "Place stuffing at one end of each fillet. Roll up fish. Secure with wooden toothpicks, if necessary."
+        },
+        {
+          "step": 3,
+          "text": "Place fish rolls with stuffing side up in a 1-quart casserole; sprinkle with crumbs. Set aside."
+        },
+        {
+          "step": 4,
+          "text": "In a saucepan cook milk and wine over medium heat, stirring often. Serve over fish. Serves 4."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "fish",
+        "sole",
+        "stuffed",
+        "broccoli"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5333 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 460,
+          "fat_g": 25,
+          "protein_g": 34,
+          "carbs_g": 24,
+          "cholesterol_mg": 130,
+          "sodium_mg": 619
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 171)"
+        ]
+      }
+    },
+    {
+      "id": "baked-fish-with-mushrooms",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Baked Fish with Mushrooms",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 171",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets or steaks, cut 1/2 to 3/4 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dried tarragon, crushed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Arrange fish in a 12x7 1/2x2-inch baking dish. Sprinkle with mushrooms, onion, and tarragon. Dot with margarine. Sprinkle with salt and paprika."
+        },
+        {
+          "step": 2,
+          "text": "Bake, covered, in a 450\u00b0 oven for 6 to 10 minutes or till fish flakes easily with a fork. Makes 4 servings."
+        }
+      ],
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "tags": [
+        "fish",
+        "mushrooms",
+        "baked",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5333 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 4,
+          "protein_g": 21,
+          "carbs_g": 7,
+          "cholesterol_mg": 49,
+          "sodium_mg": 573
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 171)"
+        ]
+      }
+    },
+    {
+      "id": "fish-en-papillote",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fish en Papillote",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 172",
+      "description": "En papillote (pah-pee-YOHT) is French for 'in paper.' It's a simple yet elegant way to cook fish.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen skinless pompano, perch, sole, or flounder fish fillets",
+          "quantity": "4",
+          "unit": "3-oz",
+          "prep_note": "about 1/2 inch thick"
+        },
+        {
+          "item": "parchment paper or brown paper",
+          "quantity": "4",
+          "unit": "pieces",
+          "prep_note": "12 inches wide and 9 inches long"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon slices",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "medium carrot, coarsely shredded",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut 4 pieces of parchment paper or brown paper into heart shapes, 12 inches wide and 9 inches long."
+        },
+        {
+          "step": 2,
+          "text": "In a large skillet bring water, lemon slices, bay leaf, and bouillon granules to boiling. Add fish. Simmer, covered, for 4 to 6 minutes or till fish flakes easily. Using a slotted spoon, carefully remove fish."
+        },
+        {
+          "step": 3,
+          "text": "In a saucepan melt margarine; stir in flour and mustard. Add milk; cook and stir till thickened."
+        },
+        {
+          "step": 4,
+          "text": "To assemble each packet, place one fillet on half of each parchment heart. Top with one-fourth of the sauce. Fold the other half of the heart over fillet. Starting at the top, seal by turning up edges of heart and folding in twice. At bottom, twist the tip of heart to seal. Place packets on a large baking sheet. Bake in a 400\u00b0 oven for 10 to 12 minutes or till slightly puffed. Transfer to dinner plates. To serve, cut an X in top of each. Pull back the paper. Serves 4."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "tags": [
+        "fish",
+        "en papillote",
+        "french",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5334 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 232,
+          "fat_g": 15,
+          "protein_g": 18,
+          "carbs_g": 7,
+          "cholesterol_mg": 45,
+          "sodium_mg": 482
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 172)"
+        ]
+      }
+    },
+    {
+      "id": "chilled-salmon-steaks",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chilled Salmon Steaks",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 173",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen salmon steaks, cut 1/2 to 3/4 inches thick",
+          "quantity": "1 1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "chicken bouillon cube or 1/2 tsp instant bouillon granules",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "[RECONSTRUCTED - referenced in instructions]"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "[RECONSTRUCTED - referenced in instructions]"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sweet red pepper",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped [RECONSTRUCTED - referenced in instructions]"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Place steaks in a 12x7 1/2x2-inch baking dish. Add bouillon to boiling water. Pour over fish."
+        },
+        {
+          "step": 2,
+          "text": "Bake in a 450\u00b0 oven 8 to 12 minutes or till fish flakes. Remove fish. For marinade, stir in oil, parsley, sweet red pepper, onion, and mustard. Pour over fish. Cover; chill 4 to 24 hours. Shake well. Pour marinade over fish. Serves 4."
+        }
+      ],
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "tags": [
+        "fish",
+        "salmon",
+        "cold",
+        "marinated"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          {
+            "field": "ingredients",
+            "issue": "Several ingredients reconstructed from instructions (bouillon, water, red pepper)",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5335 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 137,
+          "fat_g": 3,
+          "protein_g": 24,
+          "carbs_g": 1,
+          "cholesterol_mg": 59,
+          "sodium_mg": 578
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 173)"
+        ]
+      }
+    },
+    {
+      "id": "poached-fish-with-dill-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Poached Fish with Dill Sauce",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 173",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen dressed fish",
+          "quantity": "1",
+          "unit": "3-lb"
+        },
+        {
+          "item": "Court Bouillon or water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see page 367"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "dried tarragon",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon slices",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. In a fish poacher or a large roasting pan that has a wire rack with handles, add enough water to almost reach the handles. Remove the rack. Add 3 lemon slices, bay leaf, 1/4 teaspoon dried tarragon, crushed, and grease rack; set aside. Add 3 lemon slices over pan top. Cover pan, set over two burners on range; bring to boiling. Reduce heat. Lower fish on rack into pan. Simmer, covered, 35 to 40 minutes or till fish flakes easily with a fork. Remove fish; keep warm. Reserve 1 cup of cooking liquid for the sauce."
+        },
+        {
+          "step": 2,
+          "text": "For dill sauce, in a saucepan cook 1/4 cup dillweed, snipped; 1/2 teaspoon dried dillweed; 1/4 teaspoon sugar. Cook in 4 tablespoons margarine or butter. Stir in 4 teaspoons all-purpose flour; 1/2 teaspoon dried dillweed. Add reserved liquid, stir about 1/2 cup of the mixture into 1 beaten egg yolk; return to saucepan. Cook and stir till bubbly. Cook and stir 1 minute more. Pass sauce with fish. Serves 6."
+        }
+      ],
+      "tags": [
+        "fish",
+        "poached",
+        "dill",
+        "sauce"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5335 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 183,
+          "fat_g": 6,
+          "protein_g": 29,
+          "carbs_g": 2,
+          "cholesterol_mg": 114,
+          "sodium_mg": 665
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 173)"
+        ]
+      }
+    },
+    {
+      "id": "trout-amandine",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Trout Amandine",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 174",
+      "description": "The perfect recipe for freshly caught trout. The fillets in your freezer also taste great pan-fried your catch of the day.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen dressed rainbow trout or other fish fillets (about 8 oz each)",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4 to 1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced almonds",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Bone fish if desired. Combine flour and salt."
+        },
+        {
+          "step": 2,
+          "text": "Coat fish with flour mixture. Dip in egg mixture, then coat with flour mixture again."
+        },
+        {
+          "step": 3,
+          "text": "In a 12-inch skillet heat oil. Fry fish on one side for 5 to 6 minutes or till golden. Fry fish on the other side for 5 to 6 minutes more or till fish flakes easily. Remove fish; keep warm in a 300\u00b0 oven while frying remaining fish."
+        },
+        {
+          "step": 4,
+          "text": "For almond sauce, in a medium saucepan stir together almonds, margarine, and lemon juice over fish. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "trout",
+        "almonds",
+        "pan-fried",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5336 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 328,
+          "fat_g": 14,
+          "protein_g": 35,
+          "carbs_g": 18,
+          "cholesterol_mg": 0,
+          "sodium_mg": 597
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 174)"
+        ]
+      }
+    },
+    {
+      "id": "pan-fried-fish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pan-Fried Fish",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 174",
+      "description": "The crispy coating seals in the fresh fish flavor.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets (1/4 to 1 inch thick)",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "cornmeal or fine dry bread crumbs",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening or cooking oil for frying",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. Cut into serving-size portions. Pat dry. In a shallow dish, mix egg and 2 tablespoons water. In another dish, mix cornmeal or bread crumbs, 1/2 teaspoon salt, and dash pepper. Dip fish into egg mixture, then coat with cornmeal mixture."
+        },
+        {
+          "step": 2,
+          "text": "In a large skillet heat 1/4 inch melted shortening or oil. Add fish in a single layer. (If fillets have skin, fry skin side last.) Fry fish on one side till golden. Allow 3 to 4 minutes per side for 1/2-inch-thick fillets (5 to 6 minutes per side for 3/4-inch-thick fillets). Turn carefully. Fry till golden and fish flakes easily with a fork. Dry on paper towels. Keep fish warm in a 300\u00b0 oven while frying remaining fish. Makes 4 servings."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "notes": [
+        "Curried Pan-Fried Fish: Prepare as above, except add 1 tablespoon lemon or lime juice and 2 teaspoons curry powder to cornmeal mixture. Serve with chutney.",
+        "Potato-Chip Pan-Fried Fish: Prepare as above, except substitute finely crushed potato chips or saltine crackers for the cornmeal."
+      ],
+      "tags": [
+        "fish",
+        "pan-fried",
+        "breaded"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5336 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 419,
+          "fat_g": 30,
+          "protein_g": 24,
+          "carbs_g": 12,
+          "cholesterol_mg": 118,
+          "sodium_mg": 663
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 174)"
+        ]
+      }
+    },
+    {
+      "id": "sweet-and-sour-stir-fried-fish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sweet-and-Sour Stir-Fried Fish",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 175",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen monkfish steaks, cut into pieces or cubed",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "pineapple chunks",
+          "quantity": "1 1/3",
+          "unit": "cups",
+          "prep_note": "juice pack"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cut-up green onions",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "hot cooked rice",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut fish into 1-inch pieces. Combine pineapple, reserving 2 tablespoons juice."
+        },
+        {
+          "step": 2,
+          "text": "In a large skillet or wok, combine sugar, cornstarch, reserved pineapple juice, sherry, 3 tablespoons soy sauce, and 1/4 cup water. Add pineapple, cook and stir till bubbly. Stir in fish and green onions. Cook, uncovered, for 3 to 5 minutes or till fish flakes easily. Stir frequently. Remove fish and vegetables."
+        },
+        {
+          "step": 3,
+          "text": "Serve over hot cooked rice. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "stir-fry",
+        "sweet and sour",
+        "asian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 364,
+          "fat_g": 6,
+          "protein_g": 25,
+          "carbs_g": 16,
+          "cholesterol_mg": 54,
+          "sodium_mg": 150
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
+        ]
+      }
+    },
+    {
+      "id": "fish-and-chips",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fish and Chips",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 175",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "medium potatoes, peeled",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "shortening or cooking oil for deep-fat frying",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "beer or milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. For chips, cut 3 peeled medium potatoes lengthwise into 3/8-inch-wide sticks. Pat dry."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy saucepan or deep-fat fryer heat 2 inches shortening or cooking oil for deep-fat frying to 375\u00b0. Fry potatoes in hot fat, about one-third at a time, for 4 to 6 minutes or till lightly browned. Remove from fat. Drain on paper towels. Keep warm in a 300\u00b0 oven while frying fish."
+        },
+        {
+          "step": 3,
+          "text": "Pat fish dry with paper towels. Cut into serving-size pieces. For batter, combine 1 cup all-purpose flour, 1 cup beer or milk, beat till smooth. Dip fish into batter. Fry fish in hot fat, 2 or 3 pieces at a time, about 2 minutes or till golden brown, about 2 minutes on each side or till golden brown. Drain; keep warm in oven while frying remaining fish. Serve with malt or cider vinegar, if desired. Serves 4."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "fish",
+        "fish and chips",
+        "fried",
+        "british"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 820,
+          "fat_g": 56,
+          "protein_g": 26,
+          "carbs_g": 51,
+          "cholesterol_mg": 49,
+          "sodium_mg": 958
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
+        ]
+      }
+    },
+    {
+      "id": "creamed-tuna",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamed Tuna",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 175",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "sliced green onion",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "can tuna, drained and flaked",
+          "quantity": "1",
+          "unit": "9 1/4-oz or 6 1/2-oz"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry white wine or milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "English muffins, split and toasted",
+          "quantity": "4",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook onion in margarine till tender. Stir in flour, 1/4 teaspoon pepper. Cook and stir till thickened and bubbly."
+        },
+        {
+          "step": 2,
+          "text": "Stir in tuna. Heat through. Serve over English muffin halves. If desired, sprinkle with almonds. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "tuna",
+        "creamed",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 466,
+          "fat_g": 19,
+          "protein_g": 30,
+          "carbs_g": 43,
+          "cholesterol_mg": 61,
+          "sodium_mg": 410
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
+        ]
+      }
+    },
+    {
+      "id": "tuna-noodle-casserole",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tuna-Noodle Casserole",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 176",
+      "description": "Homestyle cooking at its best.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "medium noodles",
+          "quantity": "3/4",
+          "unit": "cup (4 oz)"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "can condensed cream of mushroom soup",
+          "quantity": "1",
+          "unit": "10 3/4-oz"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "can chunk-style tuna, drained and broken into chunks",
+          "quantity": "1",
+          "unit": "9 1/4-oz"
+        },
+        {
+          "item": "chopped pimiento",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "parsley sprigs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook noodles according to package directions; drain and set aside. Meanwhile, in a saucepan cook celery and onion in margarine or butter till tender. Stir in tuna or salmon; pimiento. Gently stir in cooked noodles. Sprinkle with Parmesan cheese."
+        },
+        {
+          "step": 2,
+          "text": "Transfer to a 1 1/2-quart casserole. Sprinkle with Parmesan cheese. Bake in a 375\u00b0 oven for 25 to 30 minutes or till bubbly. Garnish with parsley sprigs, if desired. Makes 4 servings."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "notes": [
+        "Vegetable Tuna-Noodle Casserole: Prepare as above except stir in 1 cup cooked vegetable (such as peas, carrots, or green beans) with the tuna.",
+        "Extra-Creamy Tuna-Noodle Casserole: Prepare as above except substitute one 8-ounce carton dairy sour cream or substitute one 8-ounce carton plain yogurt for the milk. Stir 1 to 2 tablespoons milk into mixture, if necessary, to obtain desired consistency."
+      ],
+      "tags": [
+        "fish",
+        "tuna",
+        "casserole",
+        "noodles",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5338 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 397,
+          "fat_g": 20,
+          "protein_g": 20,
+          "carbs_g": 31,
+          "cholesterol_mg": 110,
+          "sodium_mg": 651
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 176)"
+        ]
+      }
+    },
+    {
+      "id": "tuna-broccoli-crepes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tuna-Broccoli Crepes",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 176",
+      "description": "Special enough for company.",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "package frozen chopped broccoli",
+          "quantity": "1",
+          "unit": "10-oz"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "can tuna, drained and flaked or one 7 1/2-ounce can salmon, drained, flaked, and skin and bones removed",
+          "quantity": "1",
+          "unit": "6 1/2-oz"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "Crepes",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "see recipe, page 72"
+        },
+        {
+          "item": "paprika",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "sliced or slivered almonds, toasted",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook broccoli according to package directions. Drain. Cut up any large broccoli pieces. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "For cheese sauce, in a medium saucepan cook onion in margarine or butter till tender but not brown. Stir in flour, mustard, and pepper. Add milk all at once. Cook and stir till thickened and bubbly. Add cheese. Cook and stir till melted and blended. Remove from heat."
+        },
+        {
+          "step": 3,
+          "text": "Combine broccoli and 3/4 cup of the tuna sauce. Spoon about 3 tablespoons of the tuna mixture onto the unbrowned side of each crepe; roll up. Place crepes, seam side down, in a 12x7 1/2x2-inch baking dish. Bake, covered, in a 375\u00b0 oven for 20 to 25 minutes or till heated through."
+        },
+        {
+          "step": 4,
+          "text": "Reheat the remaining cheese sauce. Stir in additional milk, if necessary, to obtain desired consistency. To serve, spoon remaining cheese sauce over crepes. Sprinkle with paprika and, if desired, top with toasted almonds. Makes 6 servings."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "fish",
+        "tuna",
+        "crepes",
+        "broccoli",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5338 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 308,
+          "fat_g": 15,
+          "protein_g": 22,
+          "carbs_g": 22,
+          "cholesterol_mg": 105,
+          "sodium_mg": 651
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 176)"
+        ]
+      }
+    },
+    {
+      "id": "tuna-biscuit-casseroles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tuna-Biscuit Casseroles",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 177",
+      "description": "Biscuits are refrigerated biscuits.",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "chopped onion",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried thyme, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "cooked mixed vegetables",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "can tuna, drained and flaked",
+          "quantity": "1",
+          "unit": "9 1/4-oz"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "package refrigerated biscuits",
+          "quantity": "1",
+          "unit": "10-oz",
+          "prep_note": "10 biscuits"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook onion in margarine till tender. Stir in flour, bouillon granules, thyme, and pepper. Add milk. Cook and stir till thickened and bubbly. Stir in vegetables, tuna, and parsley. Heat through."
+        },
+        {
+          "step": 2,
+          "text": "Spoon mixture into six 10-ounce casseroles or custard cups. Quarter each biscuit. Arrange 6 to 7 pieces atop each casserole. Place on baking sheet. Bake in a 400\u00b0 oven for 10 to 12 minutes or till biscuits are lightly browned. Makes 6 servings."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "tags": [
+        "fish",
+        "tuna",
+        "casserole",
+        "biscuits",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 284,
+          "fat_g": 13,
+          "protein_g": 24,
+          "carbs_g": 25,
+          "cholesterol_mg": 46,
+          "sodium_mg": 321
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 177)"
+        ]
+      }
+    },
+    {
+      "id": "salmon-loaf",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salmon Loaf",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 177",
+      "description": "No time for the sauce? Cook a package of frozen peas and onions to take over the loaf.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "finely chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "soft bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "slightly beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "can pink salmon, bones removed, drained and flaked",
+          "quantity": "1",
+          "unit": "15 1/2-oz"
+        },
+        {
+          "item": "cans tuna, drained, flaked, and two 6 1/2-ounce cans American cheese slices",
+          "quantity": "2",
+          "unit": "6 1/2-oz",
+          "prep_note": "or 2 American cheese slices (optional)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook onion, dillweed, and a dash pepper in margarine till onion is tender. Combine onion mixture, milk, and egg. Stir in salmon, bread crumbs. Shape mixture into a 6x3-inch loaf in a greased shallow baking pan. Bake in a 350\u00b0 oven for 30 to 35 minutes. Top with Cheese Sauce or 2 American cheese slices, if desired. Makes 4 servings."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "tags": [
+        "fish",
+        "salmon",
+        "loaf"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 239,
+          "fat_g": 12,
+          "protein_g": 22,
+          "carbs_g": 8,
+          "cholesterol_mg": 111,
+          "sodium_mg": 426
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 177)"
+        ]
+      }
+    },
+    {
+      "id": "salmon-pasta-skillet",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salmon-Pasta Skillet",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 177",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "chicken broth",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "packaged corkscrew macaroni",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "about 4 oz"
+        },
+        {
+          "item": "frozen peas",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "pitted ripe olives, cut into cubes",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon peel",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large skillet bring chicken broth to boiling. Add pasta. Cook, covered, 15 to 20 minutes or till pasta is tender, stirring frequently. Add broth and salmon. Cook, covered, about 3 more minutes. Stir in cheese, peas, and olives. Cook, covered, about 3 minutes more. Gently stir in salmon. Heat through. Sprinkle with lemon peel. Pass Parmesan cheese. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "salmon",
+        "pasta",
+        "skillet",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 286,
+          "fat_g": 27,
+          "protein_g": 46,
+          "carbs_g": 29,
+          "cholesterol_mg": 94,
+          "sodium_mg": 749
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 177)"
+        ]
+      }
+    },
+    {
+      "id": "dijon-mustard-fillets",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dijon-Mustard Fillets",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 168",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped chives",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. Place fish on the unheated rack of a broiler pan. Broil 4 inches from the heat till fish flakes easily with a fork. (Allow 4 to 6 minutes per 1/2-inch thickness. Turn once if more than 1 inch thick.)"
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in a small saucepan stir together sour cream, milk, mustard, chives, and a dash pepper. Cook till hot (do not boil). Serve over fish. Makes 4 servings."
+        }
+      ],
+      "tags": [
+        "fish",
+        "mustard",
+        "fast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 132,
+          "fat_g": 4,
+          "protein_g": 21,
+          "carbs_g": 1,
+          "cholesterol_mg": 56,
+          "sodium_mg": 502
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
+        ]
+      }
+    },
+    {
+      "id": "orange-swordfish-kabobs",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Swordfish Kabobs",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 168",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh or frozen swordfish steaks, cut 1 inch thick",
+          "quantity": "3/4",
+          "unit": "lb",
+          "prep_note": "tuna or shark makes great kabobs because of their firm, steak-like texture"
+        },
+        {
+          "item": "medium fresh mushrooms",
+          "quantity": "16",
+          "unit": ""
+        },
+        {
+          "item": "large green onions, cut into 2-inch lengths",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "finely shredded orange or cherry tomatoes",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "8",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut fish into 1-inch cubes. Place fish, mushrooms, and onions in a plastic bag; set bag in a bowl. Combine oil, wine or orange juice, garlic, orange peel. Seal bag and marinate at room temperature for 2 hours, turning bag occasionally. Drain fish cubes, mushrooms, and onions, reserving marinade."
+        },
+        {
+          "step": 2,
+          "text": "On eight 12-inch skewers alternately thread fish cubes, mushrooms, and onions, leaving about 1/4 inch between pieces. Place on the greased unheated rack of a broiler pan."
+        },
+        {
+          "step": 3,
+          "text": "Broil 4 inches from the heat for 4 to 5 minutes. Turn kabobs over. Broil for 4 to 6 minutes more or till fish flakes easily with a fork. To serve, add a tomato to each skewer. Serves 4."
+        }
+      ],
+      "tags": [
+        "fish",
+        "swordfish",
+        "kabobs",
+        "grilled"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 7,
+          "protein_g": 17,
+          "carbs_g": 5,
+          "cholesterol_mg": 30,
+          "sodium_mg": 476
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
+        ]
+      }
+    },
+    {
+      "id": "hot-tuna-sandwich-cups",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Tuna Sandwich Cups",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook, page 175",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "package refrigerated biscuits",
+          "quantity": "1",
+          "unit": "6"
+        },
+        {
+          "item": "sliced celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "can tuna, drained and flaked (water pack)",
+          "quantity": "2",
+          "unit": "6 1/2-oz"
+        },
+        {
+          "item": "cooked peas",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "thin tomato slices",
+          "quantity": "6",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Separate biscuits. Grease the outside of six 6-ounce custard cups. Press one biscuit over bottom and halfway down side of each custard cup, forming a biscuit cup. Place cups, biscuit side up, on a 15x10x1-inch baking pan. Bake in a 400\u00b0 oven 7 minutes or till lightly browned. Remove biscuits from cups. Place upright in baking pan."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in saucepan cook celery and onion in margarine till tender. Stir in mayonnaise, mustard, tuna, half of cheese, and the peas. Spoon tuna mixture immediately; remove biscuit from pan. Top with tomato slices and remaining cheese. Bake 2 to 3 minutes more or till cheese melts. Serves 6."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "tags": [
+        "fish",
+        "tuna",
+        "sandwich",
+        "biscuits"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 450,
+          "fat_g": 12,
+          "protein_g": 25,
+          "carbs_g": 51,
+          "cholesterol_mg": 61,
+          "sodium_mg": 305
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
+        ]
+      }
+    },
+    {
+      "id": "lobster-newburg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lobster Newburg",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "The rich Madeira-flavored sauce enhances the delicate taste of lobster.",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "red pepper, dashed",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "light cream or milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "Madeira or dry sherry",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cooked lobster",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "5-ounce cans, drained, and broken into bite-size pieces"
+        },
+        {
+          "item": "patty shells",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan melt margarine or butter. Stir in flour, salt, and red pepper. Add cream all at once. Cook and stir till thickened and bubbly. Cook and stir 1 minute more. Stir about half of the hot mixture into the beaten egg yolks; return all to saucepan."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over low heat about 2 minutes or till mixture just begins to thicken and bubble slightly. Stir in Madeira or dry sherry. Cook and stir 1 minute more. Add lobster; heat through. Serve in patty shells, if desired, or over toast points. Makes 4 servings."
+        }
+      ],
+      "servings_yield": "4 servings",
+      "notes": [
+        "Crab Newburg: Prepare as above, except substitute 2 cups cooked crabmeat for the lobster. Garnish with parsley sprigs.",
+        "Shrimp Newburg: Prepare as above, except substitute two 6-ounce packages frozen, peeled, cooked shrimp, thawed and drained, for the lobster."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5346 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 568,
+          "fat_g": 45,
+          "protein_g": 13,
+          "carbs_g": 23,
+          "cholesterol_mg": 226,
+          "sodium_mg": 305
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 184)"
+        ]
+      }
+    },
+    {
+      "id": "boiled-lobster",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Boiled Lobster",
+      "category": "fish",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "8",
+          "unit": "quarts"
+        },
+        {
+          "item": "salt",
+          "quantity": "1 1/2 to 2",
+          "unit": "tsp",
+          "prep_note": "per quart of water"
+        },
+        {
+          "item": "live lobsters",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "1 to 1 1/2 pounds each"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a 12-quart Dutch oven bring 8 quarts water and 1 1/2 to 2 teaspoons salt to boiling. Use two 1- to 1 1/2-pound live lobsters. Grasp each lobster just behind the eyes; rinse lobsters under cold running water."
+        },
+        {
+          "step": 2,
+          "text": "Quickly plunge lobsters headfirst into the boiling water. Return to boiling; reduce heat. Cover and simmer for 20 minutes. Drain lobsters."
+        },
+        {
+          "step": 3,
+          "text": "Remove the green tomalley (liver). Set aside and serve with the lobster meat, if desired."
+        }
+      ],
+      "servings_yield": "2 servings",
+      "notes": [
+        "Using kitchen shears, halve the body lengthwise up to the tail.",
+        "Cut and Remove the black vein running through the tail and the small sac near the head. (Found only in female lobsters.)",
+        "Remove the green tomalley (liver) and, if present, the roe. Mash the tomalley and roe. Make a Clarified Butter: Melt 1/2 cup butter over very low heat without stirring; cool slightly. Pour off clear top layer. Discard milky bottom layer."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5346 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 1,
+          "protein_g": 28,
+          "carbs_g": 1,
+          "cholesterol_mg": 143,
+          "sodium_mg": 0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 184)"
+        ]
+      }
+    },
+    {
+      "id": "marinated-salmon-steaks-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Salmon Steaks",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 167",
+      "description": "Thaw fish, if frozen. Cut steaks into serving-size portions. For marinating, in a shallow dish, combine lime peel, lemon or lime juice, oil, Worcestershire sauce, rosemary or thyme, garlic, and pepper.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen salmon (or halibut) steaks, 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "finely shredded lemon, lime or orange peel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon, lime, or orange juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried rosemary or thyme, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "dash"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut steaks into serving-size portions. For marinating, in a shallow dish, combine lime peel, lemon or lime juice, oil, Worcestershire sauce, rosemary or thyme, garlic, and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Place fish in marinade, turning to coat. Cover; marinate fish in the refrigerator for 30 minutes or till fish is opaque, turning steaks occasionally. Add 1 tablespoon water, if necessary, to keep fish moist."
+        },
+        {
+          "step": 3,
+          "text": "Drain fish, reserving marinade. Place fish steaks on a greased unheated rack of a broiler pan. Brush with marinade. Broil 4 inches from the heat for 5 minutes. Using a wide spatula, carefully turn fish over. Brush with marinade. Broil for 3 to 7 minutes more or till fish flakes easily with a fork."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "notes": [
+        "Grill directions: Place fish steaks on a greased grill rack. Grill directly over medium-hot coals for 5 minutes. Using a wide spatula, carefully turn fish. Grill for 3 to 7 minutes more or till fish flakes easily with a fork."
+      ],
+      "tags": [
+        "fish",
+        "salmon",
+        "marinated",
+        "broiled",
+        "grilled",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5329 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 137,
+          "fat_g": 2.8,
+          "protein_g": 24.2,
+          "carbs_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1 for pepper (standard quantity)",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "halibut-with-sherry-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Halibut with Sherry Sauce",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 168",
+      "ingredients": [
+        {
+          "item": "fresh or frozen halibut or other fish steaks, cut 1 inch thick",
+          "quantity": "1 1/2 to 2",
+          "unit": "lb"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "green onions, sliced (1/4 cup)",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "4",
+          "unit": "tsp"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "[SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "[RECONSTRUCTED section]"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped chives",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Place fish on the greased unheated rack of a broiler pan. Sprinkle with pepper. Broil 4 inches from the heat 5 minutes. Turn fish. Brush with remaining margarine. Broil 3 to 7 minutes more or till fish flakes easily with a fork."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in a small saucepan stir together sour cream, milk, mustard, chives, and a dash pepper. Cook till hot (do not boil). Serve over fish."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "halibut",
+        "sherry",
+        "sauce",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 176,
+          "fat_g": 3.2,
+          "protein_g": 26.7,
+          "carbs_g": 9.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "dijon-mustard-fillets-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dijon-Mustard Fillets",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 168",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped chives",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. Place fish on the unheated rack of a broiler pan. Broil 4 inches from the heat till fish flakes easily per 1/2-inch thickness (Allow 4 to 6 minutes per 1/2-inch thickness). Turn once if more than 1 inch thick."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in a small saucepan stir together sour cream, milk, mustard, chives, and a dash pepper. Cook till hot (do not boil). Serve over fish."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "fillets",
+        "mustard",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 143,
+          "fat_g": 5.4,
+          "protein_g": 20.4,
+          "carbs_g": 0.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "teriyaki-shark-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Teriyaki Shark",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 168",
+      "description": "Use 1 pound fresh or frozen shark, swordfish, tuna, or halibut steaks, cut 1 inch thick.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen shark, swordfish, tuna, or halibut steaks, cut 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "grated gingerroot",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground white pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried thyme, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Place fish on greased unheated rack of broiler pan. Combine seasoning; rub onto fish. Cover; chill for 30 minutes to 2 hours. Brush with melted margarine or butter."
+        },
+        {
+          "step": 2,
+          "text": "Broil 4 inches from the heat for 5 minutes. Turn fish. Brush with remaining margarine. Broil for 3 to 7 minutes more or till fish flakes easily with a fork."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "shark",
+        "teriyaki",
+        "Japanese",
+        "broiled"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 127,
+          "fat_g": 2.7,
+          "protein_g": 24.0,
+          "carbs_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "swordfish-kabobs-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Swordfish Kabobs",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 168",
+      "description": "Swordfish, tuna, or shark make great kabobs because of their firm, meatlike texture.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen swordfish, tuna, or shark steaks, cut 1 inch thick",
+          "quantity": "3/4",
+          "unit": "lb"
+        },
+        {
+          "item": "medium fresh mushrooms",
+          "quantity": "16",
+          "unit": ""
+        },
+        {
+          "item": "large green onions, cut into 2-inch lengths",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "finely shredded orange or cherry tomato peel",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut into 1-inch cubes. Place fish, mushrooms, and onions in a plastic bag; set bag into a bowl. Combine oil, wine, garlic, orange peel, and 1/4 teaspoon salt; add to bag. Seal bag and marinate at room temperature for 2 hours, turning bag occasionally. Drain fish and vegetables for 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "On eight 12-inch skewers alternately thread fish cubes, mushrooms, and onions, leaving about 1/4 inch between pieces. Place kabobs on the greased unheated rack of a broiler pan. Broil 4 inches from the heat for 4 to 5 minutes. Turn kabobs over. Broil for 4 to 6 minutes more or till fish flakes easily with a fork. Brush again with sauce during the last 2 minutes of grilling. Brush again with sauce before serving."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "kabobs",
+        "swordfish",
+        "grilled"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5330 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 2.8,
+          "protein_g": 17.6,
+          "carbs_g": 15.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "sweet-and-sour-fish-kabobs-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sweet-and-Sour Fish Kabobs",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 169",
+      "description": "Complete this Oriental-style meal with fried rice and buttered green peas.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen swordfish, sea bass, shark, or tuna steaks, cut 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "pineapple chunks or tidbits",
+          "quantity": "1",
+          "unit": "8-oz can"
+        },
+        {
+          "item": "apricot preserves or orange marmalade",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "canola oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "medium green or sweet red pepper, cut into 6 or 8 medium-size chunks",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "drained",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut fish into 1-inch cubes. Cook fish in a small amount of boiling salted water for 10 to 12 minutes or till nearly cooked. (Cook and stir for 10 minutes if the sauce is very thick). Drain."
+        },
+        {
+          "step": 2,
+          "text": "For the sauce, in a small bowl combine 1/4 cup of pineapple juice, preserves, and lemon juice, leaving the rest for another use. Add fish cubes and 1/4 inch between alternately thread fish, leaving about 1/4 inch between pieces. Place kabobs on the greased unheated rack of a broiler pan. Broil 4 inches from the heat for 5 minutes. Turn pan. Broil for 4 to 5 minutes more or till fish flakes easily with a fork, brushing with sauce during the last 2 minutes of broiling. Brush again with sauce before serving."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "kabobs",
+        "sweet and sour",
+        "Asian"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5331 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 1.6,
+          "protein_g": 10.5,
+          "carbs_g": 12.3
+        },
+        "missing_inputs": [
+          "Not in database: drained"
+        ],
+        "assumptions": [
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "blackened-redfish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Blackened Redfish",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 169",
+      "description": "Stand back! This Cajun specialty really smokes as it cooks. That's why it's best to grill it outdoors.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen redfish or other fish fillets (about 1/2 inch thick)",
+          "quantity": "4",
+          "unit": "4-oz"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground white pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried thyme, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "melted",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. Place some of the melted margarine on a cast-iron skilled grill rack; sprinkle evenly on both sides of fish for some of the melt 12-inch well-seasoned cast-iron skillet. Heat until very hot, about 5 minutes. Meanwhile, brush fish with remaining margarine."
+        },
+        {
+          "step": 2,
+          "text": "Place fish in pan. Cook, uncovered, over high, for 1 1/2 to 2 1/2 minutes per side or till fish flakes easily with a fork, turning once. Serve with lemon wedges."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "redfish",
+        "Cajun",
+        "blackened",
+        "spicy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5331 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 456,
+          "fat_g": 10.7,
+          "protein_g": 80.0,
+          "carbs_g": 0.0
+        },
+        "missing_inputs": [
+          "Not in database: melted"
+        ],
+        "assumptions": [
+          "Based on 7/8 ingredients (88% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fish-with-beer-cheese-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fish with Beer-Cheese Sauce",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 170",
+      "description": "The tangy cheese sauce tastes great over catfish, halibut, flounder, or sole fillets or steaks.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets or steaks",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "sliced green onion or butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "caraway seed (optional)",
+          "quantity": "3",
+          "unit": "tsp"
+        },
+        {
+          "item": "beer",
+          "quantity": "1/3",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. In a lightly greased 10x6x2-inch baking dish, arrange fish in a single layer, tucking under thin edges. Bake in a 450\u00b0 oven for 4 to 6 minutes per 1/2-inch thickness or till fish flakes easily with a fork."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, for sauce, cook onion in margarine till tender. Stir in flour, a pinch salt, and pepper. Add milk all at once. Cook and stir till thickened and bubbly. Add cheese and, if desired, caraway seed. Stir till cheese melts. Stir in beer. Cook and stir 1 minute more. Add cheese and beer; cook and stir till cheese melts. Spoon over fish."
+        }
+      ],
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "beer",
+        "cheese sauce",
+        "baked"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5332 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 5.4,
+          "protein_g": 22.5,
+          "carbs_g": 4.5
+        },
+        "missing_inputs": [
+          "Not in database: caraway seed (optional)"
+        ],
+        "assumptions": [
+          "Based on 7/8 ingredients (88% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "citrus-baked-halibut-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Citrus Baked Halibut",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 170",
+      "ingredients": [
+        {
+          "item": "fresh or frozen halibut steaks, chopped onion",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely shredded lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon peel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Arrange fish in an 8x8x2-inch baking dish. Cook onion and garlic in margarine till tender. Stir in paprika. Spread over fish. Pour lemon juice over all. Cover with vented plastic wrap or foil. Bake in a 400\u00b0 oven for 7 to 9 minutes or till fish is done, giving dish a half-turn once. Serve as above."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "halibut",
+        "citrus",
+        "baked",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5332 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 3.2,
+          "protein_g": 24.0,
+          "carbs_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "broccoli-stuffed-sole-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Broccoli-Stuffed Sole",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 171",
+      "ingredients": [
+        {
+          "item": "fresh or frozen sole or other skinless fish fillets (about 1/4 inch thick)",
+          "quantity": "4",
+          "unit": "4-oz"
+        },
+        {
+          "item": "frozen cut broccoli",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cheese with chives and onion, softened",
+          "quantity": "1",
+          "unit": "3-oz package"
+        },
+        {
+          "item": "herbed stuffing mix",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "dill",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. For stuffing, cook and drain broccoli. In a saucepan cook broccoli; milk, and wine till heated through. Stir in cheese; add to Parmesan cheese. Stir till end cheese melts. Spread stuffing onto end of each fillet. Roll up. Place, seam side down, in a 350\u00b0 oven for 30 to 35 minutes or till fish is cooked and stuffing is hot. Serve with lemon wedges, if desired. Bake in a 350\u00b0 oven for 30 to 35 minutes or till fish flakes easily with a fork."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "sole",
+        "stuffed",
+        "broccoli",
+        "baked"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5333 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 531,
+          "fat_g": 14.3,
+          "protein_g": 83.2,
+          "carbs_g": 7.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for dill",
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "baked-fish-with-mushrooms-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Baked Fish with Mushrooms",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 171",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets or steaks, cut 1/2 to 3/4 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dried tarragon, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Arrange fish in a 12x7 1/2x2-inch baking dish, turning under thin edges. Sprinkle with mushrooms, onion, and tarragon in margarine till tender. Spoon over fish; sprinkle with paprika. Bake, covered, in a 450\u00b0 oven for 6 to 10 minutes or till fish flakes easily with a fork."
+        }
+      ],
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "mushrooms",
+        "baked",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5333 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 121,
+          "fat_g": 3.0,
+          "protein_g": 20.4,
+          "carbs_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for paprika",
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "wild-rice-stuffed-fish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild-Rice-Stuffed Fish",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 171",
+      "description": "Two mid-western delicacies\u2014wild rice and whitefish\u2014from the Great Lakes region. Combine them for a memorable entr\u00e9e.",
+      "ingredients": [
+        {
+          "item": "dressed whitefish or other fish (about 2 to 2 1/2 pounds)",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "wild rice",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "sliced celery, minced",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic clove, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped pimiento",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "1 to 2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon peel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Rinse rice thoroughly; drain. In a medium saucepan cook mushrooms, onion, and garlic in margarine or butter. Stir in broth, sherry, and lemon peel. Cover and simmer for 45 to 60 minutes or till rice is tender and liquid is absorbed. Stir in pimiento."
+        },
+        {
+          "step": 2,
+          "text": "Place fish in a well-greased large, shallow baking pan. Spoon stuffing into fish cavity; press lightly to flatten. Cover with foil."
+        },
+        {
+          "step": 3,
+          "text": "Bake fish in a 350\u00b0 oven for 30 to 40 minutes or till fish flakes easily with a fork. Use two large spatulas to transfer fish to a serving plate."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "Makes 4 or 5 servings",
+      "tags": [
+        "fish",
+        "stuffed",
+        "wild rice",
+        "whitefish",
+        "baked"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5333 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 154,
+          "fat_g": 3.1,
+          "protein_g": 22.2,
+          "carbs_g": 7.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fish-en-papillote-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fish en Papillote",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 172",
+      "description": "En papillote (pah-pee-YOHT) is French for 'in paper.' It's a simple yet elegant way to cook fish.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen skinless pompano, perch, sole, or flounder fish fillets (about 1/2 inch thick)",
+          "quantity": "4",
+          "unit": "3-oz"
+        },
+        {
+          "item": "parchment paper or brown paper",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon slices",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "medium carrot, coarsely shredded",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut 4 pieces of parchment paper into heart shapes, 12 inches wide and 9 inches long. In a large skillet bring water, lemon slices, bay leaf, and bouillon granules to boiling; add fish in a single layer. Return liquid to boiling. Simmer, covered, for 4 to 6 minutes or till fish flakes easily. Using a slotted spoon, remove fish."
+        },
+        {
+          "step": 2,
+          "text": "For sauce, in the same skillet cook carrot and onion in margarine till tender. Stir in flour and mustard. Add reserved liquid. Cook and stir till bubbly. Cook and stir 1 minute more. Add milk. Cook and stir till mixture boils. Cook and stir 1 minute more."
+        },
+        {
+          "step": 3,
+          "text": "To assemble each packet, place one fillet on half of each parchment heart. Top with one-fourth of the sauce. Fold the other half of the heart over fillet. Starting at the top, seal by turning up edges of heart and folding in tightly; twist tip of heart to seal. Place packets on a large baking sheet. Bake in a 400\u00b0 oven for 10 to 12 minutes or till slightly puffed. Transfer to dinner plates. To serve, cut an X in top of each. Pull back the paper."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "French",
+        "en papillote",
+        "elegant"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5334 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 510,
+          "fat_g": 11.6,
+          "protein_g": 82.1,
+          "carbs_g": 10.4
+        },
+        "missing_inputs": [
+          "Not in database: parchment paper or brown paper"
+        ],
+        "assumptions": [
+          "Based on 11/12 ingredients (92% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chilled-salmon-steaks-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chilled Salmon Steaks",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 173",
+      "description": "Serve with Tartar Sauce (see page 367).",
+      "ingredients": [
+        {
+          "item": "fresh or frozen salmon or halibut steaks, cut 3/4 to 1 inch thick",
+          "quantity": "1 1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped green and/or red pepper",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Add fish to boiling Court Bouillon or water. Return to boiling. Simmer, covered, 8 to 12 minutes or till fish flakes easily with fork."
+        },
+        {
+          "step": 2,
+          "text": "Remove fish. For marinade, combine oil in a screwcap jar with milk. Shake well. Pour over fish and vegetables. Cover and chill 4 to 24 hours. Spoon marinade over fish occasionally. Drain."
+        },
+        {
+          "step": 3,
+          "text": "Court Bouillon: Simmer 2 cups water, 1 sliced celery stalk, 1 medium carrot, sliced, 2 tablespoons sliced onion, 1 bay leaf, 3 whole peppercorns, and 1/4 teaspoon salt, covered, 8 cups water for 30 minutes. Strain."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "salmon",
+        "chilled",
+        "marinated"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5335 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 208,
+          "fat_g": 4.7,
+          "protein_g": 36.2,
+          "carbs_g": 3.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "poached-fish-with-dill-sauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Poached Fish with Dill Sauce",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 173",
+      "ingredients": [
+        {
+          "item": "fresh or frozen dressed fish",
+          "quantity": "1",
+          "unit": "3-lb"
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "dried tarragon",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon slices",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. In a fish poacher or a large roasting pan that has a wire rack with handles, add enough water to almost reach the rack. Add bay leaf, tarragon, and 3 lemon slices. Place pan over two burners on range top. Bring to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Lower fish on rack into pan. Simmer, covered, for 35 to 40 minutes or till fish flakes easily with a fork. Remove fish. Keep warm. Reserve 1 cup cooking liquid."
+        },
+        {
+          "step": 3,
+          "text": "For dill sauce, cooking liquid. Stir in 1/4 teaspoon dried dillweed, 1/2 teaspoon sugar, 1/4 teaspoon salt, and dash pepper. Stir in 1 beaten egg yolk; return to saucepan. Cook and stir till bubbly."
+        }
+      ],
+      "servings_yield": "Serves 6",
+      "tags": [
+        "fish",
+        "poached",
+        "dill sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5335 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 1.8,
+          "protein_g": 13.6,
+          "carbs_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for water",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "vegetable-topped-fillets-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Vegetable-Topped Fillets",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 173",
+      "description": "Serve a colorful zucchini, squash, but use just summer squash if you wish.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen sole, orange roughy, or other fish fillets (about 1/2 inch thick)",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "sliced zucchini",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dried summer savory, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large skillet bring chicken broth just to boiling. Carefully add fish. Return to boiling; reduce heat. Cover and simmer 4 to 6 minutes or till fish flakes easily with a fork."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in another skillet cook vegetables and savory over medium-high heat in oil till vegetables are tender-crisp. Drain. Add remaining vegetables. Cook 4 to 6 minutes more or till vegetables are crisp-tender. Sprinkle with pepper. Spoon vegetables over fish."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "vegetables",
+        "healthy",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5335 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 1.0,
+          "protein_g": 0.8,
+          "carbs_g": 4.9
+        },
+        "missing_inputs": [
+          "Not in database: dried summer savory, crushed"
+        ],
+        "assumptions": [
+          "Based on 6/7 ingredients (86% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "trout-amandine-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Trout Amandine",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 174",
+      "description": "The perfect recipe for freshly caught pan-dressed fish\u2014your catch of the day or frozen market fish.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen pan-dressed trout or other fish (about 8 ounces each)",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced almonds",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Bone fish, if desired. Stir together egg and milk. Stir together flour and salt. Dip fish into egg mixture, then into flour mixture."
+        },
+        {
+          "step": 2,
+          "text": "Cook fish in hot oil for 5 to 6 minutes per side or till golden, skin side up. Fry fish on one side until golden. Turn and fry on the other side till golden. Remove fish to a serving platter; keep warm."
+        },
+        {
+          "step": 3,
+          "text": "Melt margarine in same skillet; stir in almonds. Cook and stir till almonds are lightly browned. Remove from heat. Stir in lemon juice. Spoon over fish."
+        }
+      ],
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "trout",
+        "almonds",
+        "pan-fried",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5336 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 723,
+          "fat_g": 31.2,
+          "protein_g": 89.5,
+          "carbs_g": 14.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pan-fried-fish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pan-Fried Fish",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 174",
+      "description": "The crispy coating seals in the fresh fish flavor.",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets (1/4 to 1 inch thick)",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "cornmeal or fine dry bread crumbs",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening or cooking oil for frying",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Measure thickness of fish. Cut into serving-size portions. Pat dry. In a shallow dish combine egg and 2 tablespoons water. In another dish, mix cornmeal or bread crumbs, 1/2 teaspoon salt, and dash pepper. Dip fish into egg mixture, then coat with cornmeal mixture."
+        },
+        {
+          "step": 2,
+          "text": "Dip both sides of the fish fillets into the egg mixture, then into the cornmeal mixture."
+        },
+        {
+          "step": 3,
+          "text": "Fry the fish in hot oil on one side till golden. Turn and cook on the other side."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "servings_yield": "Serves 4",
+      "notes": [
+        "Sole Amandine: Prepare as above, except use sole, flounder, or orange roughy fillets for the pan-dressed fish. Reduce fish to 1 tablespoon. Cook fish 3 to 4 minutes on each side.",
+        "Curried Pan-Fried Fish: Prepare as above, except add 1 teaspoon curry powder to cornmeal mixture. Serve with chutney.",
+        "Potato-Chip Pan-Fried Fish: Prepare as above, except add 2 teaspoons lemon or lime juice to egg mixture and substitute finely crushed potato chips or saltine crackers for the cornmeal."
+      ],
+      "tags": [
+        "fish",
+        "pan-fried",
+        "cornmeal",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5336 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 11.2,
+          "protein_g": 23.8,
+          "carbs_g": 13.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 2 for shortening or cooking oil for frying (standard quantity)",
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "sweet-and-sour-stir-fried-fish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sweet-and-Sour Stir-Fried Fish",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 175",
+      "ingredients": [
+        {
+          "item": "fresh or frozen monkfish, cusk, or catfish steaks, cut 3/4 to 1 inch thick",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "pineapple chunks (juice pack)",
+          "quantity": "1",
+          "unit": "15 1/4-oz can"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red wine vinegar or vinegar",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "celery, thinly bias sliced",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "medium green pepper, cut into 3/4-inch squares",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "hot cooked rice",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. Cut into 1-inch pieces. Drain pineapple, reserving 1/2 cup juice. For sauce, in a small bowl stir together reserved pineapple juice, brown sugar, cornstarch, vinegar, and soy sauce; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Add fish to wok or large skillet over high heat. Stir-fry fish for 3 to 5 minutes or till fish flakes easily with fork. Stir sauce; add to wok. Cook and stir till thickened and bubbly. Stir in pineapple and vegetables. Cook and stir till heated through. Serve over rice."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "stir-fry",
+        "sweet and sour",
+        "Asian"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 309,
+          "fat_g": 3.5,
+          "protein_g": 22.8,
+          "carbs_g": 45.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fish-and-chips-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fish and Chips",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 175",
+      "ingredients": [
+        {
+          "item": "fresh or frozen fish fillets",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "medium potatoes",
+          "quantity": "1 1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "shortening or cooking oil for deep-fat frying",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "beer or milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "malt vinegar or cider vinegar",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw fish, if frozen. For chips, cut 3 peeled medium potatoes lengthwise into 3/8-inch-wide sticks. Pat dry. In a heavy saucepan or deep-fat fryer heat 2 inches melted shortening or cooking oil for deep-fat frying to 375\u00b0. Fry potatoes, one-third at a time, for 4 to 6 minutes or till lightly browned. Remove; keep warm in a 300\u00b0 oven while frying remaining fish. Drain; keep warm in 300\u00b0 oven while frying fish."
+        },
+        {
+          "step": 2,
+          "text": "Pat fish dry with paper towels. Cut into serving-size pieces. Flour fish. For batter, combine 1 cup all-purpose flour, 1 cup beer or milk, beat till smooth. Dip fish into batter. Fry fish in hot fat, 2 or 3 pieces at a time, for 2 minutes. Fry fish in hot fat, 2 or 3 pieces at time, about 2 minutes or till golden brown, about 2 minutes. Drain; keep warm with malt or cider vinegar, if desired."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "fish and chips",
+        "British",
+        "deep-fried"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 452,
+          "fat_g": 11.5,
+          "protein_g": 28.6,
+          "carbs_g": 56.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 2 for shortening or cooking oil for deep-fat frying (standard quantity)",
+          "Assumed 1 unit for malt vinegar or cider vinegar",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "creamed-tuna-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamed Tuna",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 175",
+      "description": "Try this old favorite served over cooked noodles.",
+      "ingredients": [
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sour cream or plain yogurt",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine or milk",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried dillweed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "can tuna (water pack), drained and broken into chunks",
+          "quantity": "1",
+          "unit": "12 1/2-oz"
+        },
+        {
+          "item": "English muffins, split and toasted",
+          "quantity": "4",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook onion in margarine till tender. Stir in sour cream, wine, flour, dill, and pepper. Cook and stir till bubbly. Stir in tuna; heat through (do not boil). Serve over muffins. Sprinkle with almonds."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "tuna",
+        "creamed",
+        "easy",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 238,
+          "fat_g": 10.4,
+          "protein_g": 6.6,
+          "carbs_g": 30.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "hot-tuna-sandwich-cups-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot Tuna Sandwich Cups",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 175",
+      "ingredients": [
+        {
+          "item": "package (6) refrigerated biscuits",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "can tuna (water pack), drained and flaked",
+          "quantity": "1",
+          "unit": "6 1/2-oz"
+        },
+        {
+          "item": "sliced celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "thin tomato slices",
+          "quantity": "6",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Separate biscuits. Grease the outside of six 6-ounce custard cups. Press one biscuit down side of each custard cup. Place cups, dough side up, on a 15x10x1-inch baking pan. Bake in a 400\u00b0 oven 7 minutes or till lightly browned."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, in saucepan combine tuna, celery, and onion in margarine till tender. Stir in mayonnaise, mustard, and half of the cheese. Remove from heat."
+        },
+        {
+          "step": 3,
+          "text": "Remove biscuit cups from oven. Immediately remove from cups. Place upright in baking pan. Spoon tuna mixture into cups. Top with tomato slices and remaining cheese. Bake 2 to 3 minutes more or till cheese melts."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "servings_yield": "Serves 6",
+      "tags": [
+        "fish",
+        "tuna",
+        "sandwiches",
+        "biscuits"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5337 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 3.4,
+          "protein_g": 2.7,
+          "carbs_g": 8.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tuna-noodle-casserole-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tuna-Noodle Casserole",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 176",
+      "description": "Here's an old-time cooking at its best.",
+      "ingredients": [
+        {
+          "item": "medium noodles (4 ounces)",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "condensed cream of mushroom or celery soup",
+          "quantity": "1",
+          "unit": "10 3/4-oz can"
+        },
+        {
+          "item": "tuna, drained and broken into chunks, or two 6 1/2-ounce cans boneless, skinless salmon, drained and broken into chunks",
+          "quantity": "1",
+          "unit": "9 1/4-oz can"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped pimiento",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "parsley sprigs (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook noodles according to package directions; drain. Meanwhile, in a saucepan cook celery and onion in margarine or butter till tender. Stir in tuna or salmon. Stir in soup, milk. Gently stir in tuna or salmon pimiento. Add 1 1/2 cooked noodles. Sprinkle with Parmesan cheese. Bake in a 350\u00b0 oven for 20 to 25 minutes or till bubbly. Sprinkle with parsley, if desired. Makes 4 servings."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "servings_yield": "Makes 4 servings",
+      "notes": [
+        "Vegetable Tuna-Noodle Casserole: Prepare as above, except stir in 1 cup cooked vegetables with noodles. Sprinkle with Parmesan and, if desired, garnish with parsley.",
+        "Extra-Creamy Tuna-Noodle Casserole: Prepare as above except substitute one 8-ounce carton dairy sour cream or substitute one 8-ounce carton plain yogurt for the milk. Stir 1 to 2 tablespoons milk into mixture, if necessary, to obtain desired consistency."
+      ],
+      "tags": [
+        "fish",
+        "tuna",
+        "casserole",
+        "noodles",
+        "comfort food",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5338 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 406,
+          "fat_g": 15.6,
+          "protein_g": 30.3,
+          "carbs_g": 33.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for parsley sprigs (optional)",
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tuna-broccoli-crepes-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tuna-Broccoli Crepes",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 176",
+      "description": "Special enough for company.",
+      "ingredients": [
+        {
+          "item": "frozen chopped broccoli",
+          "quantity": "1",
+          "unit": "10-oz package"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "can tuna, drained and flaked, or one 6 1/2-ounce can crabmeat, drained, flaked, and cartilage removed",
+          "quantity": "1",
+          "unit": "6 1/2-oz"
+        },
+        {
+          "item": "Crepes (see recipe, page 72)",
+          "quantity": "12",
+          "unit": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "sliced or slivered almonds, toasted (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook broccoli according to package directions. Drain. Cut up any large broccoli pieces. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "For cheese sauce, in a medium saucepan cook onion in margarine or butter till tender but not browned. Stir in flour, mustard, and pepper. Add milk all at once. Cook and stir till thickened and bubbly. Add cheese. Cook and stir till cheese melts."
+        },
+        {
+          "step": 3,
+          "text": "Combine tuna or salmon and 3/4 cup of the sauce. Spoon about 3 tablespoons of the tuna mixture onto the unbrowned side of each crepe; roll up. Place crepes, seam side down, in a 12x7 1/2x2-inch baking dish. Bake, covered, in a 375\u00b0 oven for 20 to 25 minutes or till heated through."
+        },
+        {
+          "step": 4,
+          "text": "Reheat the remaining cheese sauce. Stir in additional milk, if necessary. To serve, spoon remaining cheese sauce over crepes. Sprinkle with paprika and, if desired, top with toasted almonds."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "servings_yield": "Makes 6 servings",
+      "tags": [
+        "fish",
+        "tuna",
+        "crepes",
+        "broccoli",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5338 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 261,
+          "fat_g": 17.6,
+          "protein_g": 15.9,
+          "carbs_g": 12.7
+        },
+        "missing_inputs": [
+          "Not in database: Crepes (see recipe, page 72)"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for paprika",
+          "Assumed 1 unit for sliced or slivered almonds, toasted (optional)",
+          "Based on 11/12 ingredients (92% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tuna-biscuit-casseroles-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tuna-Biscuit Casseroles",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 177",
+      "description": "Biscuits top this creamy tuna mixture.",
+      "ingredients": [
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried thyme, crushed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "frozen peas",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cooked rice",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "can tuna, drained and flaked",
+          "quantity": "1",
+          "unit": "6 1/2-oz"
+        },
+        {
+          "item": "refrigerated biscuits",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large skillet bring chicken broth to boiling. Cook onion in margarine till tender. Stir in flour, thyme, and bouillon. Add milk. Cook and stir till thickened and bubbly. Stir in peas, rice, Parmesan, and tuna. Cook, uncovered, on oven and biscuits in canned, in 3 custard cups or ramekins. Cut biscuits in half. Place 2 halves, cut side down, atop each. Bake in a 400\u00b0 oven about 20 minutes or till biscuits are golden brown."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "servings_yield": "Serves 3",
+      "tags": [
+        "fish",
+        "tuna",
+        "casserole",
+        "biscuits",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 347,
+          "fat_g": 11.2,
+          "protein_g": 22.2,
+          "carbs_g": 40.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "salmon-loaf-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salmon Loaf",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 177",
+      "description": "No time for this sauce? Cook a package of frozen creamed peas and onions to ladle over the loaf.",
+      "ingredients": [
+        {
+          "item": "finely chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "snipped dried dillweed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "soft bread crumbs",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "slightly beaten eggs",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "can pink salmon, drained, bones removed, and broken into small chunks, or two 6 1/2-ounce cans tuna, drained, or 2 American cheese slices (optional)",
+          "quantity": "1",
+          "unit": "15 1/2-oz"
+        },
+        {
+          "item": "Cheese Sauce (see recipe, page 361)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook onion, dillweed, and a dash pepper in margarine till onion is tender. Combine egg, bread crumbs, milk, and onion mixture. Add salmon; mix well. Shape into a 6x3-inch loaf in a greased shallow baking pan. Bake in a 350\u00b0 oven for 30 to 35 minutes. Top with Cheese Sauce or 2 American cheese slices, if desired."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "Makes 4 servings",
+      "tags": [
+        "fish",
+        "salmon",
+        "loaf",
+        "baked"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 193,
+          "fat_g": 7.9,
+          "protein_g": 8.6,
+          "carbs_g": 21.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for Cheese Sauce (see recipe, page 361) (standard quantity)",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "salmon-pasta-skillet-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salmon-Pasta Skillet",
+      "category": "fish",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 177",
+      "ingredients": [
+        {
+          "item": "chicken broth",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "packaged corkscrew pasta",
+          "quantity": "1",
+          "unit": "10-oz"
+        },
+        {
+          "item": "frozen peas",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetables broccoli flowerets or frozen mixed",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cream cheese spread",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "[CORRECTED - matched to instruction text]"
+        },
+        {
+          "item": "can salmon, drained and flaked",
+          "quantity": "1",
+          "unit": "15 1/2-oz"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large skillet bring chicken broth to boiling. Cook pasta according to package directions, cooking 15 to 20 minutes or till pasta is tender, stirring occasionally. Stir in peas and vegetables. Simmer for 1 minute more. Add Parmesan, cream cheese spread, salmon, and salt. Cook until heated through, stirring occasionally."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "fish",
+        "salmon",
+        "pasta",
+        "skillet",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 13.2,
+          "protein_g": 28.3,
+          "carbs_g": 18.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    }
+  ]
+}

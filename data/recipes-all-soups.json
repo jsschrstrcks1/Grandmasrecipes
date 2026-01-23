@@ -2,8 +2,8 @@
   "meta": {
     "collection": "all",
     "category": "soups",
-    "total_recipes": 139,
-    "generated": "2026-01-22T19:32:06.280581Z",
+    "total_recipes": 141,
+    "generated": "2026-01-23T14:31:31.898931Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -149,21 +149,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 434,
-          "fat_g": 24.8,
-          "carbs_g": 13.6,
-          "protein_g": 34.1,
-          "sodium_mg": 527,
-          "fiber_g": 1.4,
-          "sugar_g": 2.3
+          "calories": 1252,
+          "fat_g": 25.8,
+          "carbs_g": 165.0,
+          "protein_g": 94.5,
+          "sodium_mg": 2655,
+          "fiber_g": 61.5,
+          "sugar_g": 5.9
         },
-        "missing_inputs": [
-          "3  Anaheim chile peppers",
-          "10 oz box frozen chopped spinach, thawed and squeezed dry",
-          "15 oz can cannellini beans"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
@@ -280,20 +276,17 @@
         "Add up to 3/4 cup water if the soup is too thick."
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 654,
-          "fat_g": 62.2,
-          "carbs_g": 20.8,
-          "protein_g": 7.9,
-          "sodium_mg": 580,
-          "fiber_g": 3.7,
-          "sugar_g": 7.1
+          "calories": 839,
+          "fat_g": 68.7,
+          "carbs_g": 44.1,
+          "protein_g": 15.8,
+          "sodium_mg": 871,
+          "fiber_g": 4.6,
+          "sugar_g": 9.4
         },
-        "missing_inputs": [
-          "4  7-inch sourdough bread boules (round loaves)",
-          "2 1/2 cups (about 8 oz) grated sharp white and yellow cheddar cheese, plus more for garnish"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -415,21 +408,17 @@
       ],
       "attribution": "Aaron McCargo Jr.",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 880,
-          "fat_g": 80.1,
-          "carbs_g": 15.6,
-          "protein_g": 27.0,
-          "sodium_mg": 755,
-          "fiber_g": 1.8,
-          "sugar_g": 1.5
+          "calories": 1647,
+          "fat_g": 83.1,
+          "carbs_g": 152.8,
+          "protein_g": 78.5,
+          "sodium_mg": 2620,
+          "fiber_g": 53.3,
+          "sugar_g": 3.6
         },
-        "missing_inputs": [
-          "15 oz can cannellini beans, drained and rinsed",
-          "for garnish taco-blend cheese",
-          "for garnish guacamole, sour cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
@@ -539,19 +528,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 109,
-          "fat_g": 6.0,
-          "carbs_g": 11.9,
-          "protein_g": 3.7,
-          "sodium_mg": 513,
-          "fiber_g": 1.5,
-          "sugar_g": 2.7
+          "calories": 80,
+          "fat_g": 4.9,
+          "carbs_g": 7.9,
+          "protein_g": 3.0,
+          "sodium_mg": 456,
+          "fiber_g": 1.3,
+          "sugar_g": 2.6
         },
-        "missing_inputs": [
-          "for garnish chopped cilantro"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -696,21 +683,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 66,
-          "fat_g": 0.9,
-          "carbs_g": 12.0,
-          "protein_g": 3.7,
-          "sodium_mg": 68,
-          "fiber_g": 2.5,
-          "sugar_g": 5.0
+          "calories": 120,
+          "fat_g": 2.9,
+          "carbs_g": 17.7,
+          "protein_g": 6.6,
+          "sodium_mg": 108,
+          "fiber_g": 4.4,
+          "sugar_g": 5.1
         },
-        "missing_inputs": [
-          "3/4 cup chopped Spanish chorizo sausage",
-          "1 1/2 cups dried Anasazi beans (about 3/4 pound)",
-          "1/2 cup chopped poblano pepper"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -803,19 +786,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 178,
-          "fat_g": 6.8,
-          "carbs_g": 24.9,
-          "protein_g": 6.2,
-          "sodium_mg": 726,
-          "fiber_g": 5.0,
-          "sugar_g": 15.3
+          "calories": 138,
+          "fat_g": 6.5,
+          "carbs_g": 16.0,
+          "protein_g": 5.4,
+          "sodium_mg": 659,
+          "fiber_g": 2.4,
+          "sugar_g": 10.8
         },
-        "missing_inputs": [
-          "dash ground ginger"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -959,11 +940,7 @@
         "assumptions": [
           "Data extracted from magazine clipping"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "albondigas-soup",
@@ -1079,19 +1056,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 114,
-          "fat_g": 3.3,
-          "carbs_g": 6.4,
-          "protein_g": 14.2,
-          "sodium_mg": 308,
-          "fiber_g": 1.9,
-          "sugar_g": 2.9
+          "calories": 135,
+          "fat_g": 3.6,
+          "carbs_g": 10.6,
+          "protein_g": 15.1,
+          "sodium_mg": 439,
+          "fiber_g": 3.0,
+          "sugar_g": 6.2
         },
-        "missing_inputs": [
-          "1 32-oz carton less-sodium beef broth"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -1176,19 +1151,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 107,
-          "fat_g": 8.2,
-          "carbs_g": 4.2,
-          "protein_g": 4.2,
-          "sodium_mg": 250,
-          "fiber_g": 0.4,
-          "sugar_g": 2.9
+          "calories": 113,
+          "fat_g": 7.9,
+          "carbs_g": 6.2,
+          "protein_g": 4.9,
+          "sodium_mg": 256,
+          "fiber_g": 1.1,
+          "sugar_g": 3.5
         },
-        "missing_inputs": [
-          "1 package (10 oz) frozen broccoli florets, thawed"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -1294,19 +1267,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 184,
-          "fat_g": 3.3,
+          "calories": 173,
+          "fat_g": 2.2,
           "carbs_g": 28.2,
-          "protein_g": 11.7,
-          "sodium_mg": 628,
+          "protein_g": 11.3,
+          "sodium_mg": 610,
           "fiber_g": 4.6,
           "sugar_g": 10.9
         },
-        "missing_inputs": [
-          "Cilantro sprigs (optional)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -1706,21 +1677,17 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 119,
-          "fat_g": 11.5,
-          "carbs_g": 3.2,
-          "protein_g": 1.8,
-          "sodium_mg": 207,
-          "fiber_g": 0.7,
-          "sugar_g": 1.8
+          "calories": 277,
+          "fat_g": 9.3,
+          "carbs_g": 37.2,
+          "protein_g": 13.0,
+          "sodium_mg": 500,
+          "fiber_g": 9.2,
+          "sugar_g": 3.1
         },
-        "missing_inputs": [
-          "3 cans (15.5 oz each) GOYA Black Beans, divided",
-          "2 tsp GOYA Minced Garlic",
-          "1  small tomato, finely chopped"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -1814,21 +1781,17 @@
         }
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 95,
-          "fat_g": 0.9,
-          "carbs_g": 17.7,
-          "protein_g": 4.9,
-          "sodium_mg": 771,
-          "fiber_g": 4.5,
-          "sugar_g": 9.5
+          "calories": 735,
+          "fat_g": 19.3,
+          "carbs_g": 117.1,
+          "protein_g": 24.9,
+          "sodium_mg": 1783,
+          "fiber_g": 14.7,
+          "sugar_g": 49.1
         },
-        "missing_inputs": [
-          "1 1-inch piece ginger, peeled and thinly sliced",
-          "4 3-inch orange zest strips",
-          "24  frozen chicken or vegetable dumplings or pot stickers"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -1993,19 +1956,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 466,
-          "fat_g": 30.8,
-          "carbs_g": 18.9,
-          "protein_g": 28.3,
-          "sodium_mg": 2401,
-          "fiber_g": 3.1,
-          "sugar_g": 4.1
+          "calories": 462,
+          "fat_g": 30.7,
+          "carbs_g": 18.1,
+          "protein_g": 28.2,
+          "sodium_mg": 2382,
+          "fiber_g": 2.5,
+          "sugar_g": 3.9
         },
-        "missing_inputs": [
-          "1/2 tsp liquid smoke"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -2128,17 +2089,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 123,
-          "fat_g": 7.6,
-          "carbs_g": 8.4,
-          "protein_g": 6.8,
-          "sodium_mg": 1034,
-          "fiber_g": 1.5,
-          "sugar_g": 4.2
+          "calories": 193,
+          "fat_g": 8.3,
+          "carbs_g": 25.0,
+          "protein_g": 8.8,
+          "sodium_mg": 1184,
+          "fiber_g": 2.9,
+          "sugar_g": 8.2
         },
         "missing_inputs": [
-          "2  ears of corn",
-          "1 can creamed corn"
+          "2  ears of corn"
         ],
         "assumptions": [
           "Calculated for 3 servings"
@@ -2357,21 +2317,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 295,
-          "fat_g": 17.9,
-          "carbs_g": 7.0,
-          "protein_g": 24.0,
-          "sodium_mg": 186,
-          "fiber_g": 1.9,
-          "sugar_g": 0.7
+          "calories": 349,
+          "fat_g": 18.5,
+          "carbs_g": 19.0,
+          "protein_g": 26.0,
+          "sodium_mg": 803,
+          "fiber_g": 3.9,
+          "sugar_g": 5.0
         },
-        "missing_inputs": [
-          "2 large cans tomato sauce",
-          "1 can white corn",
-          "1 package taco seasoning"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 9 servings"
         ]
@@ -5768,27 +5724,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 268,
-          "fat_g": 7.2,
+          "calories": 393,
+          "fat_g": 15.7,
           "carbs_g": 22.3,
-          "protein_g": 27.5,
-          "sodium_mg": 74,
+          "protein_g": 39.0,
+          "sodium_mg": 110,
           "fiber_g": 2.9,
           "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "1/2 lb beef bones"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "rice-soup-gutenberg",
@@ -5856,11 +5806,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "stracciatella-soup-gutenberg",
@@ -5934,11 +5880,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "vegetable-chowder-gutenberg",
@@ -6004,11 +5946,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "lentil-soup-gutenberg",
@@ -6070,11 +6008,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "lettuce-soup-gutenberg",
@@ -6138,11 +6072,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "pumpkin-soup-gutenberg",
@@ -6204,11 +6134,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "potato-soup-gutenberg",
@@ -6478,19 +6404,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 162,
-          "fat_g": 0.8,
-          "carbs_g": 30.9,
-          "protein_g": 9.3,
-          "sodium_mg": 779,
-          "fiber_g": 8.6,
-          "sugar_g": 4.8
+          "calories": 231,
+          "fat_g": 4.0,
+          "carbs_g": 33.2,
+          "protein_g": 17.1,
+          "sodium_mg": 1001,
+          "fiber_g": 10.6,
+          "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "1  ham bone"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6582,19 +6506,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 158,
-          "fat_g": 0.6,
-          "carbs_g": 29.8,
-          "protein_g": 10.0,
-          "sodium_mg": 130,
+          "calories": 220,
+          "fat_g": 3.9,
+          "carbs_g": 30.6,
+          "protein_g": 17.3,
+          "sodium_mg": 551,
           "fiber_g": 10.6,
           "sugar_g": 6.7
         },
-        "missing_inputs": [
-          "1  ham bone"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6780,10 +6702,10 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 428,
-          "fat_g": 25.4,
+          "calories": 528,
+          "fat_g": 35.4,
           "carbs_g": 1.9,
-          "protein_g": 45.8,
+          "protein_g": 47.8,
           "sodium_mg": 234,
           "fiber_g": 0.1,
           "sugar_g": 0.3
@@ -7205,66 +7127,6 @@
         "missing_inputs": [
           "1 liberal pound of fresh codfish"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "potato-soup-gutenberg-6385",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Potato Soup",
-      "category": "soups",
-      "attribution": "Isola",
-      "source_note": "Simple Italian Cookery (Project Gutenberg, public domain)",
-      "description": "Vintage recipe: Zuppa alla Provinciale",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "potatoes 3 tablespoons of cream or milk 2 tablespoons of butter 2 yolks of eggs Soup stock",
-          "quantity": "2",
-          "unit": "large",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Boil the potatoes, then rub them through a sieve. Put them into a saucepan with the butter, a little salt, and the cream or milk. Simmer until it is thick, then add the yolks of the two eggs to form it into a paste. Turn out onto the bread-board, cut into small dice, and throw them into the stock, which must be boiling. If desired, before serving sprinkle a little Parmesan cheese into the soup."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Original: Zuppa alla Provinciale"
-      ],
-      "tags": [
-        "vintage",
-        "public-domain"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "vintage-recipe"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 36,
-          "fat_g": 2.5,
-          "carbs_g": 0.2,
-          "protein_g": 3.0,
-          "sodium_mg": 36,
-          "fiber_g": 0.0,
-          "sugar_g": 0.2
-        },
-        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -8208,19 +8070,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1,
-          "fat_g": 0.0,
+          "calories": 441,
+          "fat_g": 20.0,
           "carbs_g": 0.1,
-          "protein_g": 0.1,
-          "sodium_mg": 0,
+          "protein_g": 60.1,
+          "sodium_mg": 190,
           "fiber_g": 0.1,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "2 lb stewing chicken"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -8366,13 +8226,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 271,
+          "calories": 272,
           "fat_g": 4.1,
           "carbs_g": 41.4,
           "protein_g": 17.6,
-          "sodium_mg": 1850,
+          "sodium_mg": 1851,
           "fiber_g": 4.4,
-          "sugar_g": 4.6
+          "sugar_g": 3.6
         },
         "missing_inputs": [
           "1/2 lb Andoville saus age or Polish kielbas a in 1/4\" cubes"
@@ -8446,15 +8306,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "tomjato-soupcreole-style-auntcaroli",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "To Mjato Soupcreole Style",
+      "title": "Tomjato Soupcreole Style",
       "category": "soups",
       "attribution": "",
       "source_note": "Aunt Carolines Dixieland Recipes A Rare Collection Of Choice Southern Dishes 1922 (PDF cookbook)",
@@ -8465,32 +8323,32 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "One tablespoonful of butter.",
+          "item": "One tablespoonful ofbutter.",
           "quantity": "2",
           "unit": "tbsp",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "One tablespoonful of flour.",
+          "item": "One tablespoonful offlour.",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "One onion,",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Puttomatoes, onion, parsley, salt and pepper on to cook."
+          "text": "Puttomatoes, onion, parsley, saltandpepper ontocook."
         },
         {
           "step": 2,
-          "text": "When cooling a ddflourandbutter which havebeencreamed"
+          "text": "When cooling addflourandbutter which havebeencreamed"
         },
         {
           "step": 3,
@@ -8512,34 +8370,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 11,
-          "fat_g": 0.0,
-          "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.5,
-          "sugar_g": 1.2
+          "calories": 176,
+          "fat_g": 6.1,
+          "carbs_g": 26.2,
+          "protein_g": 3.5,
+          "sodium_mg": 40,
+          "fiber_g": 1.4,
+          "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "2 tbsp One tablespoonful ofbutter.",
-          "1 cup One tablespoonful offlour."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (6 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "dixieland-soup-auntcaroli",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Dixiel and Soup",
+      "title": "Dixieland Soup",
       "category": "soups",
       "attribution": "",
       "source_note": "Aunt Carolines Dixieland Recipes A Rare Collection Of Choice Southern Dishes 1922 (PDF cookbook)",
@@ -8556,38 +8407,38 @@
           "prep_note": ""
         },
         {
-          "item": "of milk.",
+          "item": "ofmilk.",
           "quantity": "3",
           "unit": "pints",
           "prep_note": ""
         },
         {
-          "item": "Small piece of onion.",
+          "item": "Small piece ofonion.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Take four large potatoes, boil until done and mash"
+          "text": "Take four large potatoes, boil until done andmash"
         },
         {
           "step": 2,
-          "text": "smooth, adding butter and salt to taste. Heat the milk in a"
+          "text": "smooth, adding butter and salttotaste. Heat themilk ina"
         },
         {
           "step": 3,
-          "text": "double boiler, cook the onion in itafewminutes and then"
+          "text": "double boiler, cook theonion initafewminutes andthen"
         },
         {
           "step": 4,
-          "text": "remove. Pour the milk slowly on the potato, strain, heat"
+          "text": "remove. Pour themilk slow^ly onthepotato, strain, heat"
         },
         {
           "step": 5,
-          "text": "and serve immediately. Thicken with on etablespoonful of"
+          "text": "andserve immediately. Thicken with onetablespoonful of"
         }
       ],
       "temperature": "",
@@ -8619,11 +8470,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (4 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "baltimore-oyster-stew-auntcaroli",
@@ -8646,13 +8493,13 @@
           "prep_note": ""
         },
         {
-          "item": "ful of flour,",
+          "item": "ful offlour,",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "of milk.",
+          "item": "ofmilk.",
           "quantity": "1",
           "unit": "quart",
           "prep_note": ""
@@ -8661,31 +8508,31 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Take tweny-five oysters, with their liquor and put these"
+          "text": "Take tweny-five oysters, with their liquor andputthese"
         },
         {
           "step": 2,
-          "text": "into a nagate dish on thestove with salt to taste, in a pint"
+          "text": "intoanagate dishonthestove with salt totaste, inapint"
         },
         {
           "step": 3,
-          "text": "of cold water. Boil fiveminutes. Stir into thisoneheaping*"
+          "text": "ofcold water. Boil fiveminutes. Stirinto thisoneheaping*"
         },
         {
           "step": 4,
-          "text": "teaspoonful of flour, which hasbeen wetwithtwo table-"
+          "text": "teaspoonful offlour, which hasbeen wetwithtwo table-"
         },
         {
           "step": 5,
-          "text": "spoonsful of cold water. a ddonequart of milk. Let itcome"
+          "text": "spoonsful ofcoldwater. Addonequart ofmilk. Let itcome"
         },
         {
           "step": 6,
-          "text": "to a boil, butbesurenottohave itboil. Remove from the"
+          "text": "toaboil,butbesurenottohave itboil.Remove from the"
         },
         {
           "step": 7,
-          "text": "fire, and a ddapiece of butter the size of a negg. This is"
+          "text": "fire,andaddapiece ofbutter thesizeofanegg. This is"
         }
       ],
       "temperature": "",
@@ -8717,17 +8564,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (8 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cream-ofpeasoup-auntcaroli",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Cream of Peasoup",
+      "title": "Cream Ofpeasoup",
       "category": "soups",
       "attribution": "",
       "source_note": "Aunt Carolines Dixieland Recipes A Rare Collection Of Choice Southern Dishes 1922 (PDF cookbook)",
@@ -8756,7 +8599,7 @@
           "prep_note": ""
         },
         {
-          "item": "hot milk,",
+          "item": "hotmilk,",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -8783,19 +8626,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Rinse the peas with cold water, and reserve one-fourth"
+          "text": "Rinse thepeaswith cold water, andreserve one-fourth"
         },
         {
           "step": 2,
-          "text": "cup; simmer the remainder with seasonings and hot water"
+          "text": "cup;simmer theremainder with seasonings andhotwater"
         },
         {
           "step": 3,
-          "text": "for twenty minutes, and press through as ieve; thicken the"
+          "text": "fortwenty minutes, andpress through asieve; thicken the"
         },
         {
           "step": 4,
-          "text": "milk with butter and flourblended together, and a ddtopeas."
+          "text": "milkwith butter andflourblended together, andaddtopeas."
         }
       ],
       "temperature": "",
@@ -8813,33 +8656,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 98,
-          "fat_g": 3.2,
-          "carbs_g": 14.2,
-          "protein_g": 3.7,
-          "sodium_mg": 220,
+          "calories": 173,
+          "fat_g": 7.2,
+          "carbs_g": 20.2,
+          "protein_g": 7.7,
+          "sodium_mg": 273,
           "fiber_g": 3.1,
-          "sugar_g": 5.2
+          "sugar_g": 11.2
         },
-        "missing_inputs": [
-          "2 cup hotmilk,"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (9 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cream-ofchicken-soup-auntcaroli",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Cream of Chicken Soup",
+      "title": "Cream Ofchicken Soup",
       "category": "soups",
       "attribution": "",
       "source_note": "Aunt Carolines Dixieland Recipes A Rare Collection Of Choice Southern Dishes 1922 (PDF cookbook)",
@@ -8850,7 +8687,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "of chicken stock,",
+          "item": "ofchicken stock,",
           "quantity": "3",
           "unit": "cup",
           "prep_note": ""
@@ -8874,7 +8711,7 @@
           "prep_note": ""
         },
         {
-          "item": "hot milk,",
+          "item": "hotmilk,",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -8889,19 +8726,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cook stock, onion, and celery for fifteen minutes, and"
+          "text": "Cook stock, onion, and celery forfifteen minutes, and"
         },
         {
           "step": 2,
-          "text": "strain ; a ddhotmilkandseasonings, and thicken with chicken"
+          "text": "strain ;addhotmilkandseasonings, andthicken with chicken"
         },
         {
           "step": 3,
-          "text": "fat and flour blended together. The a mount of salt will"
+          "text": "fatand flour blended together. Theamount ofsalt will"
         },
         {
           "step": 4,
-          "text": "dep\u00bbend upon the quantity in thestock. Celery saltmaybe"
+          "text": "dep\u00bbend upon thequantity inthestock. Celery saltmaybe"
         }
       ],
       "temperature": "",
@@ -8921,26 +8758,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 94,
-          "fat_g": 6.2,
-          "carbs_g": 7.8,
-          "protein_g": 2.4,
-          "sodium_mg": 685,
+          "calories": 132,
+          "fat_g": 8.2,
+          "carbs_g": 10.8,
+          "protein_g": 4.4,
+          "sodium_mg": 711,
           "fiber_g": 0.7,
-          "sugar_g": 1.2
+          "sugar_g": 4.2
         },
         "missing_inputs": [
-          "1/4 cup cekry tops,",
-          "1 cup hotmilk,"
+          "1/4 cup cekry tops,"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (8 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "oatmeal-soup-auntcaroli",
@@ -8957,7 +8789,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "hot milk,",
+          "item": "hotmilk,",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -8990,15 +8822,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cook oatmeal, onion, cloves, and bayleafinboiling water"
+          "text": "Cook oatmeal, onion, cloves, andbayleafinboiling water"
         },
         {
           "step": 2,
-          "text": "for twenty minutes, and press through as ieve; add milk,"
+          "text": "fortwenty minutes, andpress through asieve; add milk,"
         },
         {
           "step": 3,
-          "text": "seasonings, and butter, and serve with croutons."
+          "text": "seasonings, andbutter, andserve with croutons."
         }
       ],
       "temperature": "",
@@ -9016,27 +8848,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 581,
+          "calories": 74,
+          "fat_g": 4.0,
+          "carbs_g": 6.0,
+          "protein_g": 4.0,
+          "sodium_mg": 634,
           "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "sugar_g": 6.0
         },
-        "missing_inputs": [
-          "2 cup hotmilk,"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (4 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "philmont-stew-boyscoutco",
@@ -9165,7 +8991,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "shin of beeforother 1 onion",
+          "item": "shin ofbeeforother 1 onion",
           "quantity": "4",
           "unit": "lb",
           "prep_note": ""
@@ -9186,43 +9012,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In purchasing beef for thebrown stock, a lways"
+          "text": "Inpurchasing beef forthebrown stock, always"
         },
         {
           "step": 2,
-          "text": "remember that those sections taken from the mus-"
+          "text": "remember that those sections taken from themus-"
         },
         {
           "step": 3,
-          "text": "cular part of the a nimal willcontain more blood"
+          "text": "cular part oftheanimal willcontain more blood"
         },
         {
           "step": 4,
-          "text": "and willtherefore bemore nutritious for soupmak-"
+          "text": "and willtherefore bemore nutritious forsoupmak-"
         },
         {
           "step": 5,
-          "text": "in gthan the more tender pieces. While they re-"
+          "text": "ingthan themore tender pieces. While they re-"
         },
         {
           "step": 6,
-          "text": "quire long, slow cooking, they a rebetter for this"
+          "text": "quire long, slow cooking, they arebetter forthis"
         },
         {
           "step": 7,
-          "text": "purpose than the finest of roasting pieces."
+          "text": "purpose than thefinest ofroasting pieces."
         },
         {
           "step": 8,
-          "text": "Trim the leanmeatfrom the bone, cutitintosmall"
+          "text": "Trim theleanmeatfrom thebone, cutitintosmall"
         },
         {
           "step": 9,
-          "text": "pieces, and break the bone. Melt as mall piece of"
+          "text": "pieces, andbreak thebone. Melt asmall piece of"
         },
         {
           "step": 10,
-          "text": "fat in thefrying panandwhen hot, drop in half of"
+          "text": "fatinthefrying panandwhen hot,drop inhalf of"
         }
       ],
       "temperature": "",
@@ -9257,11 +9083,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "soups-courseofle",
@@ -9347,19 +9169,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 8,
-          "fat_g": 0.2,
-          "carbs_g": 0.5,
-          "protein_g": 1.0,
-          "sodium_mg": 430,
+          "calories": 11,
+          "fat_g": 0.4,
+          "carbs_g": 0.8,
+          "protein_g": 1.5,
+          "sodium_mg": 645,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1  Bouillon\u2014made from lean beef"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -9451,13 +9271,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 2285,
-          "fat_g": 44.3,
-          "carbs_g": 411.9,
-          "protein_g": 87.6,
-          "sodium_mg": 3137,
-          "fiber_g": 123.5,
-          "sugar_g": 206.2
+          "calories": 1367,
+          "fat_g": 37.5,
+          "carbs_g": 207.9,
+          "protein_g": 67.2,
+          "sodium_mg": 1573,
+          "fiber_g": 69.1,
+          "sugar_g": 104.2
         },
         "missing_inputs": [
           "1/2 tsp pepper 1 bay leaf"
@@ -9799,23 +9619,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 202,
-          "fat_g": 0.7,
-          "carbs_g": 46.0,
-          "protein_g": 5.5,
-          "sodium_mg": 1526,
-          "fiber_g": 6.5,
-          "sugar_g": 7.5
+          "calories": 2274,
+          "fat_g": 47.2,
+          "carbs_g": 378.8,
+          "protein_g": 122.9,
+          "sodium_mg": 7259,
+          "fiber_g": 62.1,
+          "sugar_g": 105.0
         },
-        "missing_inputs": [
-          "2  beef soup bones",
-          "1 1/2 lb stew beef",
-          "4 medium carrots",
-          "17 oz can whole kernel corn",
-          "15 oz can English peas"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -9877,19 +9691,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 177,
-          "fat_g": 0.2,
-          "carbs_g": 40.0,
-          "protein_g": 4.5,
-          "sodium_mg": 14,
+          "calories": 200,
+          "fat_g": 0.9,
+          "carbs_g": 41.5,
+          "protein_g": 7.5,
+          "sodium_mg": 1304,
           "fiber_g": 4.5,
           "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "6  beef broth cubes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -9899,7 +9711,7 @@
       "id": "helpful-hints-about-making-andusing-elementsof",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Helpful Hints a Bout Making and Using Soup-Stock",
+      "title": "Helpful Hints About Making Andusing Soup-Stock",
       "category": "soups",
       "attribution": "",
       "source_note": "Elements Of The Theory And Practice Of Cookery 1916 (PDF cookbook)",
@@ -9910,58 +9722,58 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Have a lltrimmings senthome by thebutcher tobe",
+          "item": "Have alltrimmings senthome bythebutcher tobe",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "On a ccount of itsstrong",
+          "item": "Onaccount ofitsstrong",
           "quantity": "2",
           "unit": "",
-          "prep_note": "fatty flavor, a void using"
+          "prep_note": "fatty flavor, avoid using"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "much mutton in stock containing other meat."
+          "text": "much mutton instock containing other meat."
         },
         {
           "step": 2,
-          "text": "3. For white stock use veal, or veal and chicken;"
+          "text": "3.Forwhite stock use veal, orveal and chicken;"
         },
         {
           "step": 3,
-          "text": "for darkbrown stock usebeef, part of itbrowned ; and"
+          "text": "fordarkbrown stock usebeef, part ofitbrowned ;and"
         },
         {
           "step": 4,
-          "text": "brown a llthevegetables. Caramel or Kitchen Bouquet"
+          "text": "brown allthevegetables. Caramel orKitchen Bouquet"
         },
         {
           "step": 5,
-          "text": "4. Stock made without vegetables keeps best inhot"
+          "text": "4.Stock made without vegetables keeps best inhot"
         },
         {
           "step": 6,
-          "text": "weather. When taking outaportion of such stock for"
+          "text": "weather. When taking outaportion ofsuch stock for"
         },
         {
           "step": 7,
-          "text": "soup, add for each pint of itoneheaping tablespoonful"
+          "text": "soup, add foreach pint ofitoneheaping tablespoonful"
         },
         {
           "step": 8,
-          "text": "of each vegetable in cluded in the Directions for Making"
+          "text": "ofeach vegetable included intheDirections forMaking"
         },
         {
           "step": 9,
-          "text": "Soup-stock, cook them in itonehour, and strain."
+          "text": "Soup-stock, cookthem initonehour, and strain."
         },
         {
           "step": 10,
-          "text": "5. a little salthelps to preserve stock, but itmust be"
+          "text": "5.Alittle salthelps topreserve stock, but itmust be"
         }
       ],
       "temperature": "",
@@ -9996,17 +9808,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (10 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "helpful-hints-about-braising-andste-elementsof",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Helpful Hints a Bout Braising and Stewing",
+      "title": "Helpful Hints About Braising Andstewing",
       "category": "soups",
       "attribution": "",
       "source_note": "Elements Of The Theory And Practice Of Cookery 1916 (PDF cookbook)",
@@ -10017,13 +9825,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Remnants of cooked meatmaybestewed",
+          "item": "Remnants ofcooked meatmaybestewed",
           "quantity": "1",
           "unit": "",
           "prep_note": "either by"
         },
         {
-          "item": "Only the bestportions of stewmeat should bebrowned;",
+          "item": "Only thebestportions ofstewmeat should bebrowned;",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
@@ -10032,43 +9840,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "very coarse or gristly pieces maybesimmered by them-"
+          "text": "very coarse orgristly pieces maybesimmered bythem-"
         },
         {
           "step": 2,
-          "text": "3. To make sure that the stew shall not boil, cook it"
+          "text": "3.Tomake sure that thestew shall not boil, cook it"
         },
         {
           "step": 3,
-          "text": "in a double boiler, a llowing halfagain as much time as"
+          "text": "inadouble boiler, allowing halfagain asmuch time as"
         },
         {
           "step": 4,
-          "text": "for cooking bydirect heat. Stew meat that hasboiled"
+          "text": "forcooking bydirect heat. Stew meat that hasboiled"
         },
         {
           "step": 5,
-          "text": "may looktender because itsfibres, loosened by thesoften-"
+          "text": "may looktender because itsfibres, loosened bythesoften-"
         },
         {
           "step": 6,
-          "text": "in g of theconnective tissue, fallapart ; butthefibresthem-"
+          "text": "ingoftheconnective tissue, fallapart ;butthefibresthem-"
         },
         {
           "step": 7,
-          "text": "4. In stewing, a ddwater from time to time, enough"
+          "text": "4.Instewing, addwater from time totime, enough"
         },
         {
           "step": 8,
-          "text": "to keep the meat covered. Ifthebroth is toowatery,"
+          "text": "tokeep themeat covered. Ifthebroth istoowatery,"
         },
         {
           "step": 9,
-          "text": "boil itdown before pouring itover the meat."
+          "text": "boil itdown before pouring itoverthemeat."
         },
         {
           "step": 10,
-          "text": "5. Braised meatmay be cooked uncovered the latter"
+          "text": "5.Braised meatmay becooked uncovered the latter"
         }
       ],
       "temperature": "",
@@ -10100,11 +9908,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (8 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stewed-meat-homehelpsa",
@@ -10177,7 +9981,7 @@
       "id": "asparagus-soup-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "As Paragus Soup",
+      "title": "Asparagus Soup",
       "category": "soups",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -10188,13 +9992,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "to 40 minutesi- mash thru strainer. To eachcup of a sparagus",
+          "item": "to 40 minutesi- mash thru strainer. Toeachcupofasparagus",
           "quantity": "35",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "of water havebeenadded",
+          "item": "ofwater havebeenadded",
           "quantity": "2",
           "unit": "cup",
           "prep_note": "butwhen ithasbeen boiled you"
@@ -10203,15 +10007,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "willhaveonly 1 cupofstock (water). add 1 cup of milk to each"
+          "text": "willhaveonly 1 cupofstock (water). Add 1 cupofmilk toeach"
         },
         {
           "step": 2,
-          "text": "cupofstock, 1 teaspoor. of butter sul Dstitute rubbed until smooth"
+          "text": "cupofstock, 1 teaspoor. ofbutter sulDstitute rubbed untilsmooth"
         },
         {
           "step": 3,
-          "text": "with 1 teaspoon of flour and boil 5 minutes."
+          "text": "with 1 teaspoon offlourandboil 5 minutes."
         },
         {
           "step": 4,
@@ -10227,15 +10031,15 @@
         },
         {
           "step": 7,
-          "text": "Put thetomato on to boil ; boil 5 minutes, the naddsoda,"
+          "text": "Putthetomato ontoboil ;boil 5 minutes, thenaddsoda,"
         },
         {
           "step": 8,
-          "text": "salt, sugar and pepper; strain into boiling milk or ricestock"
+          "text": "salt,sugar andpepper; strain intoboiling milk orricestock"
         },
         {
           "step": 9,
-          "text": "which hasbeen thickened with the butter and flour, which have"
+          "text": "which hasbeen thickened with thebutter and flour, which have"
         },
         {
           "step": 10,
@@ -10257,7 +10061,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -10267,17 +10071,11 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "35  to 40 minutesi- mash thru strainer. Toeachcupofasparagus"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (16 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "peasoupmadefrom-pods-scottsnort",
@@ -10294,34 +10092,34 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "small pieces; putintosaucepan and cover with cold water; add",
+          "item": "small pieces; putintosaucepan andcover with coldwater; add",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "sugar",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": "a little salt and 1 tablespocai of cutscallion"
+          "prep_note": "alittle saltand 1 tablespocai ofcutscallion"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "top. Boilslowly for 1 hour, dra in a ndtoeach 3 cups of thestock"
+          "text": "top. Boilslowly for 1 hour, drainandtoeach 3 cupsofthestock"
         },
         {
           "step": 2,
-          "text": "add 1 cup of milk, 1 tablespoon butter substitute and 1 table-"
+          "text": "add 1 cupofmilk, 1 tablespoon butter substitute and 1 table-"
         },
         {
           "step": 3,
-          "text": "spoon flour rubbed smooth. Boil 5 minutes, a ddseasoning to"
+          "text": "spoon flour rubbed smooth. Boil 5 minutes, addseasoning to"
         },
         {
           "step": 4,
-          "text": "Thiscanbemade without the milkandmakes a very tasty"
+          "text": "Thiscanbemade without themilkandmakes avery tasty"
         }
       ],
       "temperature": "",
@@ -10353,11 +10151,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (6 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "lambstewalamerion-scottsnort",
@@ -10395,39 +10189,39 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1/2 cupcutonion. 2 tablespoons flour."
+          "text": "V2 cupcutonion. 2 tablespoons flour."
         },
         {
           "step": 2,
-          "text": "2 teaspoons saltorsalt to taste. Paprika."
+          "text": "2 teaspoons saltorsalttotaste. Paprika."
         },
         {
           "step": 3,
-          "text": "The meat is cut into small pieces; puton to boilin 4 cups"
+          "text": "Themeat iscutintosmall pieces;putontoboilin 4 cups"
         },
         {
           "step": 4,
-          "text": "of boiling water and boil 1 hour; the naddonions and string"
+          "text": "ofboiling water andboil 1 hour; thenaddonions andstring"
         },
         {
           "step": 5,
-          "text": "beans, which have beenprepared as usual. Boil 15 minutes"
+          "text": "beans, which have beenprepared asusual. Boil 15 minutes"
         },
         {
           "step": 6,
-          "text": "and add the potatoes and s-alt; boil until a llaretender; add"
+          "text": "andaddthepotatoes and s-alt; boiluntil allaretender; add"
         },
         {
           "step": 7,
-          "text": "more water if needed. Thicken with flour."
+          "text": "morewater ifneeded. Thicken with flour."
         },
         {
           "step": 8,
-          "text": "Putmeat a ndbeans in center of chop plateand the potatoes"
+          "text": "Putmeatandbeans incenter ofchop plateandthepotatoes"
         },
         {
           "step": 9,
-          "text": "a round the edge; pourgravy over a llandsprinkle with parsley."
+          "text": "around theedge; pourgravy over allandsprinkle with parsley."
         }
       ],
       "temperature": "",
@@ -10445,27 +10239,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 321,
-          "fat_g": 22.1,
-          "carbs_g": 9.2,
-          "protein_g": 20.0,
-          "sodium_mg": 83,
-          "fiber_g": 1.0,
-          "sugar_g": 0.5
+          "calories": 352,
+          "fat_g": 22.2,
+          "carbs_g": 16.2,
+          "protein_g": 22.0,
+          "sodium_mg": 89,
+          "fiber_g": 4.0,
+          "sugar_g": 3.5
         },
-        "missing_inputs": [
-          "1 quart string beans."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "old-fashioned-vegetable-soup-scottsnort",
@@ -10488,7 +10276,7 @@
           "prep_note": ""
         },
         {
-          "item": "each of diced potatoes",
+          "item": "each ofdiced potatoes",
           "quantity": "1",
           "unit": "cup",
           "prep_note": "carrots, onion, cabbage, toma-"
@@ -10497,23 +10285,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "toes, beans and celery or a nyleft-over vegetables."
+          "text": "toes,beans andcelery oranyleft-over vegetables."
         },
         {
           "step": 2,
-          "text": "1/4 cupbarley. 1 tablespoon salt. a little pepper. 2 tablespoons cut parsley."
+          "text": "14 cupbarley. 1 tablespoon salt.Alittle pepper. 2 tablespoons cutparsley."
         },
         {
           "step": 3,
-          "text": "Put the meat on to boil with 3 quarts of cold water; when"
+          "text": "Putthemeat ontoboilwith 3 quarts ofcoldwater; when"
         },
         {
           "step": 4,
-          "text": "boiling, add thewell-washed barley and boillihours, then add"
+          "text": "boiling, addthewell-washed barley andboilli^hours, thenadd"
         },
         {
           "step": 5,
-          "text": "the vegetables, boil 45 minutes, a ddseasoning and parsley. The"
+          "text": "thevegetables, boil 45 minutes, addseasoning andparsley. The"
         }
       ],
       "temperature": "",
@@ -10526,8 +10314,7 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "pdf-extraction",
-          "OCR corrections applied"
+          "pdf-extraction"
         ]
       },
       "image_refs": [],
@@ -10548,11 +10335,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (10 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "mutton-chowder-scottsnort",
@@ -10569,7 +10352,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "neck or breast of mutton.",
+          "item": "neck orbreast ofmutton.",
           "quantity": "1",
           "unit": "lb",
           "prep_note": ""
@@ -10590,7 +10373,7 @@
           "item": "diced scallions",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "green and white part."
+          "prep_note": "green andwhite part."
         }
       ],
       "instructions": [
@@ -10600,27 +10383,27 @@
         },
         {
           "step": 2,
-          "text": "Have the butcher chop the mutton into small pieces; wash,"
+          "text": "Have thebutcher chop themutton intosmall pieces; wash,"
         },
         {
           "step": 3,
-          "text": "being careful that a llsplinters of bone a reremoved; put into"
+          "text": "being careful that allsplinters ofbone areremoved; putinto"
         },
         {
           "step": 4,
-          "text": "saucepan, cover with 2 quarts of cold water; boil 1 hour; re-"
+          "text": "saucepan, cover with 2 quarts ofcoldwater; boil 1 hour; re-"
         },
         {
           "step": 5,
-          "text": "move 4 cups of the stock to usenext day. add the carrots,"
+          "text": "move 4 cups ofthestock tousenext day.Add thecarrots,"
         },
         {
           "step": 6,
-          "text": "potatoes and scallions; boil 1 hour, a ddflourwhich hasbeen"
+          "text": "potatoes andscallions; boil 1 hour, addflourwhich hasbeen"
         },
         {
           "step": 7,
-          "text": "mixed in cold water; a ddseasoning and thegreen onion,"
+          "text": "mixed incoldwater; addseasoning andthegreen onion,"
         }
       ],
       "temperature": "",
@@ -10652,11 +10435,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (11 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "dandy-lambstew-scottsnort",
@@ -10685,52 +10464,52 @@
           "prep_note": ""
         },
         {
-          "item": "cut carrots",
+          "item": "cutcarrots",
           "quantity": "2",
           "unit": "cup",
-          "prep_note": "i/1/2 cupcutonions."
+          "prep_note": "i/^cupcutonions."
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "2 tablespoons flour. 1 tablespoon cut parsley."
+          "text": "2 tablespoons flour. 1 tablespoon cutparsley."
         },
         {
           "step": 2,
-          "text": "1 1/2teaspoons salt. Dash paprika."
+          "text": "1^teaspoons salt.Dash paprika."
         },
         {
           "step": 3,
-          "text": "The chops a rewiped with wetcloth; putinboiler; cover"
+          "text": "Thechops arewiped withwetcloth; putinboiler; cover"
         },
         {
           "step": 4,
-          "text": "with 4 cups of boiling water. Boilslowly 1 hour, add the pota-"
+          "text": "with 4 cups ofboiling water. Boilslowly 1 hour, addthepota-"
         },
         {
           "step": 5,
-          "text": "toes, which havebeen cutintothick slices; the carrots, which"
+          "text": "toes,which havebeen cutintothick slices; thecarrots, which"
         },
         {
           "step": 6,
-          "text": "havebeen cutinslices, on ions and seasoning. Boilslowly for"
+          "text": "havebeen cutinslices, onions andseasoning. Boilslowly for"
         },
         {
           "step": 7,
-          "text": "40 minutes, add flour, which has been mixed with a little cold"
+          "text": "40 minutes, add flour, which hasbeenmixed withalittle cold"
         },
         {
           "step": 8,
-          "text": "water. Serve a llonlarge platter; sprinkle with parsley and"
+          "text": "water. Serve allonlarge platter; sprinkle with parsley and"
         },
         {
           "step": 9,
-          "text": "Cold boiled or roast lamb, cut into thin slices."
+          "text": "Cold boiled orroast lamb, cutintothin slices."
         },
         {
           "step": 10,
-          "text": "2 tablespoons onion juice.1/2 teaspoon salt. Dash pepper."
+          "text": "2 tablespoons onion juice.%teaspoon salt.Dash pepper."
         }
       ],
       "temperature": "",
@@ -10762,11 +10541,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (9 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cornchowder-scottsnort",
@@ -10807,7 +10582,7 @@
           "prep_note": ""
         },
         {
-          "item": "oleomargarine or butter.",
+          "item": "oleomargarine orbutter.",
           "quantity": "1",
           "unit": "tbsp",
           "prep_note": ""
@@ -10826,23 +10601,23 @@
         },
         {
           "step": 2,
-          "text": "skin a nddicetheparboiled potatoes; putonintopofdou-"
+          "text": "Skinanddicetheparboiled potatoes; putonintopofdou-"
         },
         {
           "step": 3,
-          "text": "bleboiler with ricestockandseasoning, boil until verytender;"
+          "text": "bleboiler with ricestockandseasoning, boiluntil verytender;"
         },
         {
           "step": 4,
-          "text": "add the milkandcorn, put theboiler over water and boil 20"
+          "text": "addthemilkandcorn, puttheboiler overwater and boil 20"
         },
         {
           "step": 5,
-          "text": "minutes ; add flour, which has been mixed with cold water, and"
+          "text": "minutes ;addflour, which hasbeenmixed with coldwater, and"
         },
         {
           "step": 6,
-          "text": "boil 15 minutes; add butter and sprinkle with paprika."
+          "text": "boil 15 minutes; addbutter andsprinkle withpaprika."
         }
       ],
       "temperature": "",
@@ -10860,27 +10635,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 227,
-          "fat_g": 5.4,
+          "calories": 252,
+          "fat_g": 8.1,
           "carbs_g": 38.5,
           "protein_g": 9.6,
-          "sodium_mg": 488,
+          "sodium_mg": 510,
           "fiber_g": 3.6,
           "sugar_g": 9.0
         },
-        "missing_inputs": [
-          "1 tbsp oleomargarine orbutter."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "oyster-stew-scottsnort",
@@ -10918,39 +10687,39 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 levelteaspoon salt. a fewgrains of redpepper, or a dashofwhite pepper."
+          "text": "1 levelteaspoon salt.Afewgrains ofredpepper, oradashofwhite pepper."
         },
         {
           "step": 2,
-          "text": "Drain the oysters; put in a shallow pan; bring to boil"
+          "text": "Drain theoysters; putinashallow pan; bring toboil"
         },
         {
           "step": 3,
-          "text": "quickly. add the butter, salt, pepper and milk, which must be"
+          "text": "quickly. Addthebutter, salt,pepper andmilk,which must be"
         },
         {
           "step": 4,
-          "text": "at theboiling point. The milk is put on firebefore the oysters,"
+          "text": "attheboiling point. Themilk isputonfirebefore theoysters,"
         },
         {
           "step": 5,
-          "text": "as ittakes the 2 cups of milk longer to come to a boilthan it"
+          "text": "asittakes the 2 cups ofmilk longer tocome toaboilthan it"
         },
         {
           "step": 6,
-          "text": "does the 20 oysters. The quicker on ebrings the oysters to a boil"
+          "text": "doesthe 20 oysters. Thequicker onebrings theoysters toaboil"
         },
         {
           "step": 7,
-          "text": "the better they will be. Serve with oyster or theold-fashioned"
+          "text": "thebetter they will be.Serve with oyster ortheold-fashioned"
         },
         {
           "step": 8,
-          "text": "water crackers. Itaddsmuch to thestew ifthecrackers are"
+          "text": "water crackers. Itaddsmuch tothestew ifthecrackers are"
         },
         {
           "step": 9,
-          "text": "heated, as thecoldcrackers chill the stew. This a mount fills 4"
+          "text": "heated, asthecoldcrackers chill thestew. Thisamount fills 4"
         }
       ],
       "temperature": "",
@@ -10985,11 +10754,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (21 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "oyster-chowder-scottsnort",
@@ -11024,13 +10789,13 @@
           "prep_note": ""
         },
         {
-          "item": "drippings or butter substitute.",
+          "item": "drippings orbutter substitute.",
           "quantity": "1",
           "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "cracker crumbs or dried breadcrumbs.",
+          "item": "cracker crumbs ordried breadcrumbs.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -11039,43 +10804,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 teaspoon salt.1/2 teaspoon pepper."
+          "text": "1 teaspoon salt.%teaspoon pepper."
         },
         {
           "step": 2,
-          "text": "Bring the oysters to a boil, drain (save the stock for chow-"
+          "text": "Bring theoysters toaboil,drain (save thestock forchow-"
         },
         {
           "step": 3,
-          "text": "der)and chop oysters in small pieces ; a ddto the potatoes, which"
+          "text": "der)andchop oysters insmall pieces ;addtothepotatoes, which"
         },
         {
           "step": 4,
-          "text": "havebeenboiled until tender in very little water."
+          "text": "havebeenboiled until tender invery little water."
         },
         {
           "step": 5,
-          "text": "Putdrippings or butter substitute inpan, add the flour, stir"
+          "text": "Putdrippings orbutter substitute inpan,addtheflour, stir"
         },
         {
           "step": 6,
-          "text": "until smooth, the naddtopotatoes and oysters. a ddhotmilk,"
+          "text": "until smooth, thenaddtopotatoes andoysters. Addhotmilk,"
         },
         {
           "step": 7,
-          "text": "oyster stock and seasoning. Just before serving a ddcrumbs"
+          "text": "oyster stock andseasoning. Just before serving addcrumbs"
         },
         {
           "step": 8,
-          "text": "1 cup milk. 1 teaspoon salt."
+          "text": "1 cupmilk. 1 teaspoon salt."
         },
         {
           "step": 9,
-          "text": "a fewgrains redpepper or a littlewhite pepper."
+          "text": "Afewgrains redpepper oralittlewhite pepper."
         },
         {
           "step": 10,
-          "text": "Drain the oysters; putinshallow panoverquick fire. As"
+          "text": "Drain theoysters;putinshallow panoverquick fire.As"
         }
       ],
       "temperature": "",
@@ -11093,27 +10858,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1265,
-          "fat_g": 23.4,
-          "carbs_g": 58.8,
-          "protein_g": 190.3,
-          "sodium_mg": 922,
-          "fiber_g": 1.0,
-          "sugar_g": 12.5
+          "calories": 1386,
+          "fat_g": 27.2,
+          "carbs_g": 78.2,
+          "protein_g": 192.8,
+          "sodium_mg": 1192,
+          "fiber_g": 1.8,
+          "sugar_g": 14.0
         },
-        "missing_inputs": [
-          "1 cup cracker crumbs ordried breadcrumbs."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (10 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "old-style-oyster-soup-scottsnort",
@@ -11151,27 +10910,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 tablespoon finely cut parsley.1/2 teaspoon salt."
+          "text": "1 tablespoon finely cutparsley.%teaspoon salt."
         },
         {
           "step": 2,
-          "text": "Put the potatoes onin 4 cups boiling water ; boil until ten-"
+          "text": "Putthepotatoes onin 4 cups boiling water ;boiluntil ten-"
         },
         {
           "step": 3,
-          "text": "der; drain and putintopofdouble boiler in which youhave"
+          "text": "der;drain andputintopofdouble boiler inwhich youhave"
         },
         {
           "step": 4,
-          "text": "the boiling milkandrice stock. add the oysters, which have"
+          "text": "theboiling milkandrice stock. Add theoysters, which have"
         },
         {
           "step": 5,
-          "text": "beenputthruthefoodchopper; then the onion juice, seasoning"
+          "text": "beenputthruthefoodchopper; then theonion juice, seasoning"
         },
         {
           "step": 6,
-          "text": "and parsley. Rub the butter substitute and flour until smooth,"
+          "text": "andparsley. Rubthebutter substitute andflour until smooth,"
         }
       ],
       "temperature": "",
@@ -11205,11 +10964,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (10 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "soups-scottsnort",
@@ -11250,7 +11005,7 @@
           "prep_note": ""
         },
         {
-          "item": "finely cut onion.",
+          "item": "finely cutonion.",
           "quantity": "14",
           "unit": "cup",
           "prep_note": ""
@@ -11265,35 +11020,35 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 teaspoons salt. Pinch of redpepper."
+          "text": "2 teaspoons salt. Pinch ofredpepper."
         },
         {
           "step": 2,
-          "text": "1/2 teaspoon Worcestershire sauce. 1 tablespoon parsley."
+          "text": "l^teaspoon Worcestershire sauce. 1 tablespoon parsley."
         },
         {
           "step": 3,
-          "text": "Wash the meat, putinboiler with 3 quarts cold water, boil"
+          "text": "Wash themeat, putinboiler with 3 quarts coldwater, boil"
         },
         {
           "step": 4,
-          "text": "slowly 1 hour; a ddcarrots, onion and barley and later the pota-"
+          "text": "slowly 1 hour; addcarrots, onion andbarley andlater thepota-"
         },
         {
           "step": 5,
-          "text": "toes, salt, pepper and peas, which havebeensoaked over night;"
+          "text": "toes, salt,pepper andpeas,which havebeensoaked overnight;"
         },
         {
           "step": 6,
-          "text": "boil 1 hour, then add Worcestershire sauce and parsley. Re-"
+          "text": "boil 1 hour, thenaddWorcestershire sauce andparsley. Re-"
         },
         {
           "step": 7,
-          "text": "move the meat, cut 1 cupful into small cubes. Thismakes a"
+          "text": "move themeat, cut 1 cupful intosmall cubes. Thismakes a"
         },
         {
           "step": 8,
-          "text": "hearty soup. The remainder of the meat can be served"
+          "text": "hearty soup. Theremainder ofthemeat canbeserved"
         }
       ],
       "temperature": "",
@@ -11318,7 +11073,7 @@
           "carbs_g": 453.0,
           "protein_g": 46.8,
           "sodium_mg": 94,
-          "fiber_g": 67.4,
+          "fiber_g": 67.5,
           "sugar_g": 33.9
         },
         "missing_inputs": [
@@ -11327,11 +11082,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (13 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "lentil-soup-scottsnort",
@@ -11360,7 +11111,7 @@
           "prep_note": ""
         },
         {
-          "item": "finely cut onion.",
+          "item": "finely cutonion.",
           "quantity": "1",
           "unit": "tbsp",
           "prep_note": ""
@@ -11381,31 +11132,31 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 tablespoon salt.1/2 teaspoon white pepper."
+          "text": "1 tablespoon salt.%teaspoon white pepper."
         },
         {
           "step": 2,
-          "text": "Wash the lentils, cover with cold water and soak over night."
+          "text": "Wash thelentils, cover with coldwater andsoak overnight."
         },
         {
           "step": 3,
-          "text": "Drain and rinse. Puton to boil with 8 cups boiling water; boil"
+          "text": "Drain andrinse. Putontoboilwith 8 cups boiling water; boil"
         },
         {
           "step": 4,
-          "text": "slowly Sy 2 hours. then add thediced potatoes; put the bacon"
+          "text": "slowly Sy 2 hours. Thenaddthediced potatoes; putthebacon"
         },
         {
           "step": 5,
-          "text": "and onion in frypan, fryslowly, butdonotbrown ; a ddto the"
+          "text": "andonion infrypan, fryslowly, butdonotbrown ;addtothe"
         },
         {
           "step": 6,
-          "text": "lentils and potatoes; boil 30 minutes; add the salt, pepper and"
+          "text": "lentils andpotatoes; boil 30 minutes; addthesalt,pepper and"
         },
         {
           "step": 7,
-          "text": "parsley; mix the flour with a little cold water and a ddto the"
+          "text": "parsley; mixtheflourwithalittle coldwater andaddtothe"
         },
         {
           "step": 8,
@@ -11431,7 +11182,7 @@
         "per_serving": {
           "calories": 270,
           "fat_g": 0.9,
-          "carbs_g": 49.1,
+          "carbs_g": 49.0,
           "protein_g": 19.0,
           "sodium_mg": 8,
           "fiber_g": 17.3,
@@ -11443,11 +11194,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (12 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "lentil-chowder-scottsnort",
@@ -11470,7 +11217,7 @@
           "prep_note": ""
         },
         {
-          "item": "finely cut onion.",
+          "item": "finely cutonion.",
           "quantity": "2",
           "unit": "tbsp",
           "prep_note": ""
@@ -11479,23 +11226,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 cupstewed Tomatoes. 1 teaspoon salt."
+          "text": "1 cupstewed tomatoes. 1 teaspoon salt."
         },
         {
           "step": 2,
-          "text": "Wash the lentils and soak over night; the nextdayputon"
+          "text": "Wash thelentils andsoak overnight; thenextdayputon"
         },
         {
           "step": 3,
-          "text": "to boil with 6 cups boiling water ; add the onion and boilslowly"
+          "text": "toboilwith 6 cups boiling water ;addtheonion andboilslowly"
         },
         {
           "step": 4,
-          "text": "2 hours, or until very tender. Drain; add thestrained Tomato,"
+          "text": "2 hours, oruntil very tender. Drain; addthestrained tomato,"
         },
         {
           "step": 5,
-          "text": "salt, pepper, butter and parsley; mixwell and boil 3 minutes."
+          "text": "salt,pepper, butter andparsley; mixwellandboil 3 minutes."
         }
       ],
       "temperature": "",
@@ -11527,11 +11274,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (12 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "fishchowder-scottsnort",
@@ -11560,7 +11303,7 @@
           "prep_note": ""
         },
         {
-          "item": "cut onions.",
+          "item": "cutonions.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -11572,13 +11315,13 @@
           "prep_note": ""
         },
         {
-          "item": "cracker or dried breadcrumbs.",
+          "item": "cracker ordried breadcrumbs.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "ricestock or milk or halfstockandhalfmilk.",
+          "item": "ricestock ormilk orhalfstockandhalfmilk.",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -11591,23 +11334,23 @@
         },
         {
           "step": 2,
-          "text": "Boilandpick the fishintosmall pieces ; a ddto the potatoes"
+          "text": "Boilandpickthefishintosmall pieces ;addtothepotatoes"
         },
         {
           "step": 3,
-          "text": "and on ions, which havebeen boiled until tender in very little"
+          "text": "andonions, which havebeen boiled until tender invery little"
         },
         {
           "step": 4,
-          "text": "water. Putdrippings inpan, add the flour, stiruntil smooth,"
+          "text": "water. Putdrippings inpan,addtheflour, stiruntil smooth,"
         },
         {
           "step": 5,
-          "text": "the naddto the potatoes \"and fish. add riceandseasoning;"
+          "text": "thenaddtothepotatoes \"and fish.Add riceandseasoning;"
         },
         {
           "step": 6,
-          "text": "Steakfish or a nyother fishfromwhich the bones have been"
+          "text": "Steakfish oranyother fishfromwhich thebones have been"
         },
         {
           "step": 7,
@@ -11615,15 +11358,15 @@
         },
         {
           "step": 8,
-          "text": "Boilandblanch the riceasusual; spread on hotplatter,"
+          "text": "Boilandblanch thericeasusual; spread onhotplatter,"
         },
         {
           "step": 9,
-          "text": "cover the center of ricewith the fishthathasbeenseasoned and"
+          "text": "cover thecenter ofricewiththefishthathasbeenseasoned and"
         },
         {
           "step": 10,
-          "text": "fried niceandbrown. Peel and boil the onions in a very little"
+          "text": "fried niceandbrown. Peelandboiltheonions inavery little"
         }
       ],
       "temperature": "",
@@ -11641,34 +11384,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 93,
-          "fat_g": 3.6,
-          "carbs_g": 13.5,
-          "protein_g": 2.5,
-          "sodium_mg": 435,
+          "calories": 283,
+          "fat_g": 6.8,
+          "carbs_g": 14.8,
+          "protein_g": 30.6,
+          "sodium_mg": 618,
           "fiber_g": 1.8,
-          "sugar_g": 2.2
+          "sugar_g": 2.8
         },
-        "missing_inputs": [
-          "1 lb steakfish.",
-          "1 cup cracker ordried breadcrumbs."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "suetdumpungs-toserve-withstews-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Suetdumpungs to Serve with Stews",
+      "title": "Suetdumpungs Toserve Withstews",
       "category": "soups",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -11694,27 +11430,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 teaspoons baking powder.1/2 teaspoon salt."
+          "text": "2 teaspoons baking powder.^teaspoon salt."
         },
         {
           "step": 2,
-          "text": "The suet is putthrufoodchopper, the nadded to flour, which"
+          "text": "Thesuet isputthrufoodchopper, thenadded toflour, which"
         },
         {
           "step": 3,
-          "text": "hasbeen sifted with baking powder and salt. Rubtogether with"
+          "text": "hasbeen sifted withbaking powder and salt.Rubtogether with"
         },
         {
           "step": 4,
-          "text": "tipsoffingers, the naddenough cold water to make as tiffdough."
+          "text": "tipsoffingers, thenaddenough coldwater tomake astiffdough."
         },
         {
           "step": 5,
-          "text": "Take at a blespoon and roll into ballinfloured hands. Place in"
+          "text": "Take atablespoon and rollinto ballinfloured hands. Place in"
         },
         {
           "step": 6,
-          "text": "colander or strainer over boiling water; steam 1%hours."
+          "text": "colander orstrainer over boiling water; steam 1%hours."
         }
       ],
       "temperature": "",
@@ -11732,27 +11468,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 228,
-          "fat_g": 0.6,
+          "calories": 680,
+          "fat_g": 51.9,
           "carbs_g": 47.5,
           "protein_g": 6.5,
           "sodium_mg": 1,
           "fiber_g": 1.7,
           "sugar_g": 0.1
         },
-        "missing_inputs": [
-          "1 cup finely chopped beef suet."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stewed-kidneys-scottsnort",
@@ -11775,13 +11505,13 @@
           "prep_note": ""
         },
         {
-          "item": "oleomargarine or drippings.",
+          "item": "oleomargarine ordrippings.",
           "quantity": "2",
           "unit": "tbsp",
           "prep_note": ""
         },
         {
-          "item": "finely cut onion.",
+          "item": "finely cutonion.",
           "quantity": "2",
           "unit": "tbsp",
           "prep_note": ""
@@ -11802,7 +11532,7 @@
           "item": "salt",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": "pepper to taste."
+          "prep_note": "pepper totaste."
         },
         {
           "item": "powdered mace.",
@@ -11814,15 +11544,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Slice the kidney into thin pieces; remove a llfat a ndveins,"
+          "text": "Slice thekidney intothin pieces; remove allfatandveins,"
         },
         {
           "step": 2,
-          "text": "put into bowl, cover with warm water and a little salt ; let stand"
+          "text": "putintobowl, cover withwarm water andalittle salt ;letstand"
         },
         {
           "step": 3,
-          "text": "1 hour; drain and cover with cold water, puton to boil and boil"
+          "text": "1 hour; drain andcover with coldwater, putontoboiland boil"
         },
         {
           "step": 4,
@@ -11830,27 +11560,27 @@
         },
         {
           "step": 5,
-          "text": "Put fat, onion and kidney into frypan and fry until onion"
+          "text": "Put fat,onion andkidney intofrypan andfryuntil onion"
         },
         {
           "step": 6,
-          "text": "is cooked, butnotbrown ; sprinkle with flour ; stiruntil each piece"
+          "text": "iscooked, butnotbrown ;sprinkle with flour ;stiruntil each piece"
         },
         {
           "step": 7,
-          "text": "of kidney hassome flour onit, then add 1 1/2 cups coldvegetable"
+          "text": "ofkidney hassome flour onit,thenadd 1%cups coldvegetable"
         },
         {
           "step": 8,
-          "text": "stock or water; stiruntil ithasthickened; add salt, pepper, lemon"
+          "text": "stock orwater; stiruntil ithasthickened; add salt,pepper, lemon"
         },
         {
           "step": 9,
-          "text": "Make a border of mashed potatoes on hotplatter and put the"
+          "text": "Make aborder ofmashed potatoes onhotplatter andputthe"
         },
         {
           "step": 10,
-          "text": "kidney in center; sprinkle with parsley and paprika."
+          "text": "kidney incenter; sprinkle with parsley andpaprika."
         }
       ],
       "temperature": "",
@@ -11870,32 +11600,27 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 38,
-          "fat_g": 0.2,
+          "calories": 88,
+          "fat_g": 5.6,
           "carbs_g": 8.3,
           "protein_g": 0.9,
-          "sodium_mg": 583,
+          "sodium_mg": 628,
           "fiber_g": 1.1,
           "sugar_g": 2.6
         },
         "missing_inputs": [
-          "1  beefkidney.",
-          "2 tbsp oleomargarine ordrippings."
+          "1  beefkidney."
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (17 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "onionchowder-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "On Ionchowder",
+      "title": "Onionchowder",
       "category": "soups",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -11906,7 +11631,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "of on ions.",
+          "item": "ofonions.",
           "quantity": "1",
           "unit": "quart",
           "prep_note": ""
@@ -11930,7 +11655,7 @@
           "prep_note": ""
         },
         {
-          "item": "finely cut parsley.",
+          "item": "finely cutparsley.",
           "quantity": "2",
           "unit": "tsp",
           "prep_note": ""
@@ -11945,15 +11670,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Wash, pare and cut the onions in small pieces; putinsauce-"
+          "text": "Wash, pareandcuttheonions insmall pieces; putinsauce-"
         },
         {
           "step": 2,
-          "text": "pan and cover with boiling water ; boil until the on ions a revery"
+          "text": "panandcover with boiling water ;boiluntil theonions arevery"
         },
         {
           "step": 3,
-          "text": "tender (the water willhave boiled down to a bout 3 cups), add"
+          "text": "tender (thewater willhave boiled down toabout 3 cups), add"
         },
         {
           "step": 4,
@@ -11961,7 +11686,7 @@
         },
         {
           "step": 5,
-          "text": "gether until smooth; boil 3 minutes; add salt, pepper and"
+          "text": "gether until smooth; boil 3 minutes; add salt,pepper and"
         }
       ],
       "temperature": "",
@@ -11993,11 +11718,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (6 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "beefstewwithhominy-scottsnort",
@@ -12033,35 +11754,35 @@
         },
         {
           "step": 2,
-          "text": "1 tablespoon caramel. 1 teaspoon salt,1/2 teaspoon white pepper. Dash paprika."
+          "text": "1 tablespoon caramel. 1 teaspoon salt,%teaspoon white pepper. Dash paprika."
         },
         {
           "step": 3,
-          "text": "Wipe the meat, cut into 2-inch pieces, putinboiler and add"
+          "text": "Wipe themeat, cutinto 2-inch pieces, putinboiler andadd"
         },
         {
           "step": 4,
-          "text": "2 cups of boiling water; boilslowly 1/2 hour. add the onion"
+          "text": "2 cups ofboiling water; boilslowly 1/2 hour. Add theonion"
         },
         {
           "step": 5,
-          "text": "and carrot, which havebeen cutsmall, boil 20 minutes. add"
+          "text": "andcarrot, which havebeen cutsmall, boil 20 minutes. Add"
         },
         {
           "step": 6,
-          "text": "the cooked hominy, Tomatoes, salt and pepper ; boil 20 minutes."
+          "text": "thecooked hominy, tomatoes, saltandpepper ;boil 20 minutes."
         },
         {
           "step": 7,
-          "text": "Mix thethickening with a little cold water, add and boil 3 min-"
+          "text": "Mixthethickening with alittle coldwater, addandboil 3 min-"
         },
         {
           "step": 8,
-          "text": "utes; add thecaramel and chopped parsley. Serve onhot"
+          "text": "utes; addthecaramel andchopped parsley. Serve onhot"
         },
         {
           "step": 9,
-          "text": "Note : The hominy can be served a round the meat as a border."
+          "text": "Note :Thehominy canbeserved around themeat asaborder."
         }
       ],
       "temperature": "",
@@ -12081,26 +11802,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
+          "calories": 250,
+          "fat_g": 17.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 23.0,
+          "sodium_mg": 70,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 lb leanstewing beef.",
           "1 quart cooked hominy"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "oysteh-soup-theamerica",
@@ -12126,49 +11842,49 @@
           "item": "onion",
           "quantity": "1",
           "unit": "small",
-          "prep_note": "pt, cream."
+          "prep_note": "^pt,cream."
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "2 blades mace. pt. milk."
+          "text": "2 blades mace. ^pt.milk."
         },
         {
           "step": 2,
-          "text": "2 small redpeppers. 1 qt. oysters."
+          "text": "2 small redpeppers. 1 qt.oysters."
         },
         {
           "step": 3,
-          "text": "Boilveal with onion, mace, peppers, celery leaves and salt"
+          "text": "Boilvealwith onion, mace, peppers, celery leaves and salt"
         },
         {
           "step": 4,
-          "text": "to taste, in fourquarts of water, adding more water till the"
+          "text": "totaste, infourquarts ofwater, adding more water tillthe"
         },
         {
           "step": 5,
-          "text": "meat is boiled to shreds. Strain and settheliquor to cool."
+          "text": "meat isboiled toshreds. Strain and settheliquor tocool."
         },
         {
           "step": 6,
-          "text": "When coldskim of fevery particle of fat, and leave behind"
+          "text": "When coldskim offevery particle offat,andleave behind"
         },
         {
           "step": 7,
-          "text": "a nygrounds thatmaybeat the bottom of the jelly, which"
+          "text": "anygrounds thatmaybeatthebottom ofthejelly, which"
         },
         {
           "step": 8,
-          "text": "should befirm. Put thejelly over the fire; when boiling"
+          "text": "should befirm. Putthejelly over the fire;when boiling"
         },
         {
           "step": 9,
-          "text": "a ddcream and milk; thicken with flour previously blended"
+          "text": "addcream andmilk; thicken with flour previously blended"
         },
         {
           "step": 10,
-          "text": "to theconsistency of cream, or oyster crackers powdered."
+          "text": "totheconsistency ofcream, oroyster crackers powdered."
         }
       ],
       "temperature": "",
@@ -12186,27 +11902,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 7,
-          "fat_g": 0.0,
+          "calories": 73,
+          "fat_g": 4.5,
           "carbs_g": 1.8,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "protein_g": 6.2,
+          "sodium_mg": 19,
           "fiber_g": 0.2,
           "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "1  knuckle veal. 2 or 3 celery leaves,"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (11 issues detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stewed-ox-tails-theamerica",
@@ -12244,43 +11954,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1/2 teaspoonful a llspice.1/2 teaspoonful salt."
+          "text": "^teaspoonful allspice.^teaspoonful salt."
         },
         {
           "step": 2,
-          "text": "Mode: Divide the tails at thejoints, wash, and put them"
+          "text": "Mode: Divide thetails atthejoints, wash, andputthem"
         },
         {
           "step": 3,
-          "text": "into a stew-pan with sufficient water to cover, and setthemon"
+          "text": "intoastew-pan with sufficient water tocover, andsetthemon"
         },
         {
           "step": 4,
-          "text": "the fire ; when the water boilsremove the scum, and add the"
+          "text": "thefire ;when thewater boilsremove thescum, andaddthe"
         },
         {
           "step": 5,
-          "text": "on ions cut into rings, the spice, seasoning and herbs. Cover"
+          "text": "onions cutinto rings, thespice, seasoning andherbs. Cover"
         },
         {
           "step": 6,
-          "text": "the stew-pan closely, and simmer gently until tender, which"
+          "text": "thestew-pan closely, andsimmer gently until tender, which"
         },
         {
           "step": 7,
-          "text": "willbe in a bout Two and one-half hours. Take the tails out,"
+          "text": "willbeinabout twoandone-half hours. Take thetails out,"
         },
         {
           "step": 8,
-          "text": "make at hickening of butter and flour; add it to thegravy,"
+          "text": "make athickening ofbutter andflour; add ittothegravy,"
         },
         {
           "step": 9,
-          "text": "and letitboilforone-quarter of a nhour. Strain itthrough"
+          "text": "and letitboilforone-quarter ofanhour. Strain itthrough"
         },
         {
           "step": 10,
-          "text": "as ieve into a saucepan; putback the tails, add thelemon"
+          "text": "asieve into asaucepan; putback the tails,addthelemon"
         }
       ],
       "temperature": "",
@@ -12300,12 +12010,12 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 0.2,
-          "carbs_g": 2.8,
-          "protein_g": 0.3,
+          "calories": 11,
+          "fat_g": 0.1,
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
           "sodium_mg": 1,
-          "fiber_g": 0.6,
+          "fiber_g": 0.5,
           "sugar_g": 1.2
         },
         "missing_inputs": [
@@ -12314,11 +12024,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (19 issues detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stewed-salsify-theamerica",
@@ -12335,7 +12041,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "bunch of salsify. 3 tablespoonfula cracker",
+          "item": "bunch ofsalsify. 3 tablespoonfula cracker",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -12354,23 +12060,23 @@
         },
         {
           "step": 2,
-          "text": "Scrape a bunch of salsify and drop into cold water a syou"
+          "text": "Scrape abunch ofsalsify anddrop intocoldwater asyou"
         },
         {
           "step": 3,
-          "text": "cutintoinch lengths. Boil inhot, salted w-ater until tender."
+          "text": "cutintoinch lengths. Boil inhot,salted w-ater until tender."
         },
         {
           "step": 4,
-          "text": "Drain and pour into the saucepan with the salsify a cupful"
+          "text": "Drain andpour into thesaucepan with thesalsify acupful"
         },
         {
           "step": 5,
-          "text": "of hot milk. Simmer fiveminutes, and stirincracker-dust,"
+          "text": "ofhotmilk. Simmer fiveminutes, and stirincracker-dust,"
         },
         {
           "step": 6,
-          "text": "a vithpepper and salt. Stew gently for three minutes,"
+          "text": "Avithpepper and salt. Stew gently forthree minutes,"
         }
       ],
       "temperature": "",
@@ -12402,11 +12108,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (8 issues detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "soupverte-thedinnery",
@@ -12423,7 +12125,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Ibs. coarse beef",
+          "item": "Ibs.coarse beef",
           "quantity": "2",
           "unit": "",
           "prep_note": "choppedfin<"
@@ -12435,58 +12137,58 @@
           "prep_note": ""
         },
         {
-          "item": "lumps of sugar.",
+          "item": "lumpsofsugar.",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "ful of butter",
+          "item": "ful ofbutter",
           "quantity": "1",
           "unit": "tbsp",
-          "prep_note": "rubbed in flour."
+          "prep_note": "rubbed inflour."
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "a little of yesterday's pastry, cutintostripslike\"noo-"
+          "text": "Alittle ofyesterday's pastry,cutintostripslike\"noo-"
         },
         {
           "step": 2,
-          "text": "Stew the beef with the celery-seed in a quart of water"
+          "text": "Stew thebeef with thecelery-seedinaquart ofwater"
         },
         {
           "step": 3,
-          "text": "for twohours, or until the meat is inrags. Strain hard in"
+          "text": "fortwohours, oruntil themeat isinrags.Strain hard in"
         },
         {
           "step": 4,
-          "text": "abag. add the otherquart of water in which havebeen"
+          "text": "abag.Add theotherquartofwater inwhich havebeen"
         },
         {
           "step": 5,
-          "text": "simmering, for halfanhour, the grated carrot, the spinach"
+          "text": "simmering,forhalfanhour, thegrated carrot, thespinach"
         },
         {
           "step": 6,
-          "text": "cutsmall, and theothervegetablessliced. Stew all to-"
+          "text": "cutsmall, andtheothervegetablessliced. Stew allto-"
         },
         {
           "step": 7,
-          "text": "getherfifteen minutes; rubentirely throughacolander;"
+          "text": "getherfifteen minutes;rubentirely throughacolander;"
         },
         {
           "step": 8,
-          "text": "return to thefire, season; add sugar, chopped parsley,"
+          "text": "return tothefire,season;addsugar, chopped parsley,"
         },
         {
           "step": 9,
-          "text": "butter and flour; boilupanddrop in thenoodles, one"
+          "text": "butter andflour;boilupanddropinthenoodles, one"
         },
         {
           "step": 10,
-          "text": "byone. Simmer tenminutes, and pourout. it is a very"
+          "text": "byone. Simmer tenminutes, andpourout. Itisavery"
         }
       ],
       "temperature": "",
@@ -12521,11 +12223,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "scotch-broth-themetropo",
@@ -12548,7 +12246,7 @@
           "prep_note": ""
         },
         {
-          "item": "cold water 4 stalks celery",
+          "item": "coldwater 4 stalks celery",
           "quantity": "2",
           "unit": "quarts",
           "prep_note": ""
@@ -12569,31 +12267,31 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Remove the skin and fatfrommeat thsthasbeen wiped with a damp"
+          "text": "Remove theskinand fatfrommeat thsthasbeen wiped with adamp"
         },
         {
           "step": 2,
-          "text": "cloth. Cut the meat into small pieces, put into the kettle with the carrot,"
+          "text": "cloth. Cutthemeat intosmall pieces, putinto thekettle with thecarrot,"
         },
         {
           "step": 3,
-          "text": "onion and water. Heat gradually to boiling point and cook until meat is"
+          "text": "onion andwater. Heat gradually toboiling point andcook untilmeat is"
         },
         {
           "step": 4,
-          "text": "tender, strain and remove any fat. Reheat to boiling point, add thericeor"
+          "text": "tender, strain andremove any fat.Reheat toboiling point, addthericeor"
         },
         {
           "step": 5,
-          "text": "barley and cook until the riceorbarley is soft. The meat should notbe"
+          "text": "barley andcook until thericeorbarley issoft. Themeat should notbe"
         },
         {
           "step": 6,
-          "text": "thrown away, butused in stews, croquettes or meat cakes. Ifcombined"
+          "text": "thrown away, butused instews, croquettes ormeat cakes. Ifcombined"
         },
         {
           "step": 7,
-          "text": "with a little broth, the flavor is restored."
+          "text": "with alittle broth, theflavor isrestored."
         }
       ],
       "temperature": "",
@@ -12627,11 +12325,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "tomato-soup-themetropo",
@@ -12693,19 +12387,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cook first 7 ingredients 20 minutes. Strain. add salt and soda."
+          "text": "Cook first 7 ingredients 20 minutes. Strain. Add saltand soda."
         },
         {
           "step": 2,
-          "text": "Mix the flour with a nequal a mount of water until smooth, a ddmore water"
+          "text": "Mix theflour withanequal amount ofwater until smooth, addmore water"
         },
         {
           "step": 3,
-          "text": "until thinenough to pour. Stirsoupwhile adding gradually the flour mixture,"
+          "text": "until thinenough topour. Stirsoupwhile adding gradually theflour mixture,"
         },
         {
           "step": 4,
-          "text": "called thickening; boil 5 minutes. Strain, a ddboiled rice, fat, and serve."
+          "text": "called thickening; boil 5 minutes. Strain, addboiled rice, fat,andserve."
         },
         {
           "step": 5,
@@ -12713,23 +12407,23 @@
         },
         {
           "step": 6,
-          "text": "Cutvegetables into cubes. Cook the vegetables, except the potatoes"
+          "text": "Cutvegetables intocubes. Cook thevegetables, except thepotatoes"
         },
         {
           "step": 7,
-          "text": "and parsley, 10 minutes, in thesuet. a ddwater and potatoes and cook 1"
+          "text": "and parsley, 10 minutes, inthesuet. Addwater andpotatoes andcook 1"
         },
         {
           "step": 8,
-          "text": "hour. add parsley and seasonings. As oupbonemaybeadded. Barley"
+          "text": "hour. Add parsley andseasonings. Asoupbonemaybeadded. Barley"
         },
         {
           "step": 9,
-          "text": "or ricemaybecooked with thevegetables and served in thesoup. Tomatoes,"
+          "text": "orricemaybecooked withthevegetables andserved inthesoup. Tomatoes,"
         },
         {
           "step": 10,
-          "text": "cabbage, peas, beans, spinach, or a nyother vegetable, may be added as"
+          "text": "cabbage, peas, beans, spinach, oranyother vegetable, maybeadded as"
         }
       ],
       "temperature": "",
@@ -12761,11 +12455,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (17 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "split-peasoup-themetropo",
@@ -12782,13 +12472,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "dried sp Etpeas 4-inch cube saltfatpork |teaspoon pepper",
+          "item": "dried spEtpeas 4-inch cube saltfatpork |teaspoon pepper",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "cold water 1 hambone I1 teaspoons salt",
+          "item": "coldwater 1 hambone IJteaspoons salt",
           "quantity": "3",
           "unit": "quarts",
           "prep_note": ""
@@ -12797,23 +12487,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Pickoverpeas a ndsoak over night; drain; a ddcoldwater, pork, ham"
+          "text": "Pickoverpeasandsoak overnight; drain; addcoldwater, pork,ham"
         },
         {
           "step": 2,
-          "text": "boneandonion. Simmer 3 or 4 hours, or untilpeas a resoft. Rubthrough"
+          "text": "boneandonion. Simmer 3 or 4 hours, oruntilpeas aresoft. Rubthrough"
         },
         {
           "step": 3,
-          "text": "as ieve. add the flour mixed with cold water to thesoup. Boil 5 minutes,"
+          "text": "asieve. Addtheflourmixed with coldwater tothesoup. Boil 5 minutes,"
         },
         {
           "step": 4,
-          "text": "stirring constantly. add seasonings. Cubed potatoes or boiled parsnips"
+          "text": "stirring constantly. Add seasonings. Cubed potatoes orboiled parsnips"
         },
         {
           "step": 5,
-          "text": "may be added to thesoup; Tomato juiceandgreen peasmaybeadded to"
+          "text": "maybeadded tothesoup; tomato juiceandgreen peasmaybeadded to"
         }
       ],
       "temperature": "",
@@ -12826,8 +12516,7 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "pdf-extraction",
-          "OCR corrections applied"
+          "pdf-extraction"
         ]
       },
       "image_refs": [],
@@ -12846,11 +12535,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "baked-beansoup-themetropo",
@@ -12867,13 +12552,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "coldbaked beans Hcupsstewed and 1 tablespoon Chilis auce",
+          "item": "coldbaked beansHcupsstewed and 1 tablespoon Chilisauce",
           "quantity": "3",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "water strained Tomatoes Salt",
+          "item": "water strained tomatoes Salt",
           "quantity": "3",
           "unit": "pints",
           "prep_note": ""
@@ -12894,15 +12579,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Put first 4 ingredients in saucepan; bring to boiling point and simmer"
+          "text": "Put first 4 ingredients insaucepan; bring toboiling point andsimmer"
         },
         {
           "step": 2,
-          "text": "30 minutes. Rubthrough as ieve, a ddseasonings, thicken with the flour,"
+          "text": "30 minutes. Rubthrough asieve, addseasonings, thicken with theflour,"
         },
         {
           "step": 3,
-          "text": "Celery stalks,, celery salt, or thedried leaves of celerymaybeadded."
+          "text": "Celery stalks,, celery salt, orthedried leaves ofcelerymaybeadded."
         }
       ],
       "temperature": "",
@@ -12920,33 +12605,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 82,
-          "fat_g": 6.0,
-          "carbs_g": 6.8,
-          "protein_g": 1.2,
-          "sodium_mg": 44,
-          "fiber_g": 1.2,
-          "sugar_g": 2.2
+          "calories": 112,
+          "fat_g": 6.2,
+          "carbs_g": 13.5,
+          "protein_g": 2.7,
+          "sodium_mg": 49,
+          "fiber_g": 2.4,
+          "sugar_g": 6.0
         },
-        "missing_inputs": [
-          "3 cup coldbaked beansHcupsstewed and 1 tablespoon Chilisauce"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (6 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "general-directions-formaking-cream--themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "General Directions for Making Cream Soups",
+      "title": "General Directions Formaking Cream Soups",
       "category": "soups",
       "attribution": "",
       "source_note": "The Metropolitan Life Cook Book 1922 (PDF cookbook)",
@@ -12957,13 +12636,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "scalded milk 2 cups seasoned stock Seasonings to taste",
+          "item": "scalded milk 2 cups seasoned stock Seasonings totaste",
           "quantity": "3",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "onion or vegetable pulpandstock",
+          "item": "onion orvegetable pulpandstock",
           "quantity": "2",
           "unit": "slices",
           "prep_note": ""
@@ -12972,27 +12651,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Scald the milkwith the onion, remove the onion and thicken the milk"
+          "text": "Scald themilkwiththeonion, remove theonion andthicken themilk"
         },
         {
           "step": 2,
-          "text": "by adding the flour and water mixture and cooking It 20 minutes over hot"
+          "text": "byadding theflourandwater mixture andcooking It 20 minutes over hot"
         },
         {
           "step": 3,
-          "text": "water to prevent burning. Boil 2 cups vegetables, cutinsmall pieces, in"
+          "text": "water toprevent burning. Boil 2 cups vegetables, cutinsmall pieces, in"
         },
         {
           "step": 4,
-          "text": "water to cover; force the vegetables when done through as trainer or leave"
+          "text": "water tocover; force thevegetables when done through astrainer orleave"
         },
         {
           "step": 5,
-          "text": "pieces in soup. add the vegetable pulpandwater in which the vegetables"
+          "text": "pieces insoup. Add thevegetable pulpandwater inwhich thevegetables"
         },
         {
           "step": 6,
-          "text": "have been cooked to thethickened milk. Season and serve."
+          "text": "havebeencooked tothethickened milk. Season andserve."
         }
       ],
       "temperature": "",
@@ -13026,11 +12705,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (16 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cream-ofcarrot-soup-themetropo",
@@ -13047,7 +12722,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "finely-chopped carrots 1 teaspoon sugar |cupflourmixed with",
+          "item": "finely-chopped carrots Iteaspoon sugar |cupflourmixed with",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -13123,32 +12798,26 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "pdf-extraction",
-          "OCR corrections applied"
+          "pdf-extraction"
         ]
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 476,
-          "fat_g": 1.2,
-          "carbs_g": 119.2,
-          "protein_g": 3.3,
-          "sodium_mg": 62,
-          "fiber_g": 4.0,
-          "sugar_g": 104.5
+          "calories": 491,
+          "fat_g": 1.3,
+          "carbs_g": 122.0,
+          "protein_g": 3.9,
+          "sodium_mg": 124,
+          "fiber_g": 5.7,
+          "sugar_g": 105.4
         },
-        "missing_inputs": [
-          "3 cup milkCREAM OFCELERY",
-          "2 tbsp rice icupflourmixed with"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "cornchowder-themetropo",
@@ -13171,7 +12840,7 @@
           "prep_note": ""
         },
         {
-          "item": "'sliced onion 1 cancorn salt and pepper",
+          "item": "'sliced onion 1 cancorn Saltandpepper",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13180,23 +12849,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cutpork into small pieces and try itout in a panover a slow fire. add"
+          "text": "Cutpork intosmall pieces andtry itoutinapanover aslow fire.Add"
         },
         {
           "step": 2,
-          "text": "the sliced onion and cook 5 minutes without burning. Strain fat into a"
+          "text": "thesliced onion andcook 5 minutes without burning. Strain fatinto a"
         },
         {
           "step": 3,
-          "text": "saucepan. add potatoes and boiling water to fat and cook until potatoes"
+          "text": "saucepan. Add potatoes and boiling water tofatandcook until potatoes"
         },
         {
           "step": 4,
-          "text": "a resoft. then add the milkandcorn. Heat to boiling point. Season with salt"
+          "text": "aresoft.Then addthemilkandcorn. Heat toboiling point. Season with salt"
         },
         {
           "step": 5,
-          "text": "and pepper. Moisten crackers in cold milk. Serve crackers on topofchowder."
+          "text": "andpepper. Moisten crackers incoldmilk. Serve crackers ontopofchowder."
         }
       ],
       "temperature": "",
@@ -13228,11 +12897,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (10 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "fishchowder-themetropo",
@@ -13288,19 +12953,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Tryout fat, a ddsliced onion and cook to a lightbrown, without burning."
+          "text": "Tryout fat,addsliced onion andcook toalightbrown, without burning."
         },
         {
           "step": 2,
-          "text": "Strain fatintosaucepan, a ddpotatoes and boiling water and cook 10 minutes."
+          "text": "Strain fatintosaucepan, addpotatoes andboiling water andcook 10 minutes."
         },
         {
           "step": 3,
-          "text": "add theflshandsimmer 10 minutes. add the milk and seasonings. Heat to"
+          "text": "Addtheflshandsimmer 10 minutes. Addthemilkandseasonings. Heat to"
         },
         {
           "step": 4,
-          "text": "boiling point and serve with crackers, splitandpreviously dipped in cold milk."
+          "text": "boiling pointandserve withcrackers, splitandpreviously dipped incoldmilk."
         },
         {
           "step": 5,
@@ -13308,11 +12973,11 @@
         },
         {
           "step": 6,
-          "text": "to reduce the cost of living. Fish contains the same food value as meat"
+          "text": "toreduce thecost ofliving. Fish contains thesame food value asmeat"
         },
         {
           "step": 7,
-          "text": "at a much smaller cost, and furnishes a food thatnotonly tastes good, but"
+          "text": "atamuch smaller cost,andfurnishes afood thatnotonly tastes good, but"
         },
         {
           "step": 8,
@@ -13320,11 +12985,11 @@
         },
         {
           "step": 9,
-          "text": "sunfish and crappies belong to the white-fleshed family. Salmon, shad,"
+          "text": "sunfish andcrappies belong tothewhite-fleshed family. Salmon, shad,"
         },
         {
           "step": 10,
-          "text": "lake trout, butterfish and herring belong to thered-fleshed family."
+          "text": "lake trout, butterfish andherring belong tothered-fleshed family."
         }
       ],
       "temperature": "",
@@ -13358,11 +13023,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (21 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "soupstock-theplainsa",
@@ -13415,7 +13076,7 @@
           "prep_note": ""
         },
         {
-          "item": "cold water Large covered saucepan",
+          "item": "coldwaterLarge covered saucepan",
           "quantity": "3",
           "unit": "quarts",
           "prep_note": ""
@@ -13436,19 +13097,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Put a llthematerials in a saucepan, cover the pan,"
+          "text": "Put allthematerials inasaucepan, cover thepan,"
         },
         {
           "step": 2,
-          "text": "place iton the fire, and bring slowly to theboiling-"
+          "text": "place itonthe fire,andbring slowly totheboiling-"
         },
         {
           "step": 3,
-          "text": "With a large spoon, skim of fthefoamandother sur-"
+          "text": "With alarge spoon, skim offthefoamandother sur-"
         },
         {
           "step": 4,
-          "text": "Reduce the heat, cover the saucepan tightly, and let"
+          "text": "Reduce theheat, cover thesaucepan tightly, and let"
         },
         {
           "step": 5,
@@ -13456,23 +13117,23 @@
         },
         {
           "step": 6,
-          "text": "Takefrom the fire, pour the contents of the saucepan"
+          "text": "Takefrom the fire,pour thecontents ofthesaucepan"
         },
         {
           "step": 7,
-          "text": "through a colander into a bowl, and set the bowl in"
+          "text": "through acolander intoabowl,andsetthebowl in"
         },
         {
           "step": 8,
-          "text": "In themorning, remove the cake of fatfrom the sur-"
+          "text": "Inthemorning, remove thecake offatfrom thesur-"
         },
         {
           "step": 9,
-          "text": "face of the Soup Stock, and place the bowl in the"
+          "text": "faceoftheSoup Stock, andplace thebowl inthe"
         },
         {
           "step": 10,
-          "text": "ice-box until needed from time to time in theprep-"
+          "text": "ice-box untilneeded fromtime totime intheprep-"
         }
       ],
       "temperature": "",
@@ -13490,31 +13151,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 28500,
+          "calories": 28501,
           "fat_g": 1938.0,
-          "carbs_g": 0.0,
-          "protein_g": 2622.0,
-          "sodium_mg": 7980,
-          "fiber_g": 0.0,
+          "carbs_g": 0.2,
+          "protein_g": 2622.1,
+          "sodium_mg": 7981,
+          "fiber_g": 0.1,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1  bay-leaf",
-          "2  sprigs parsley",
-          "2  celery tops",
-          "Large spoon",
-          "2  DIRECTIONS"
+          "2  celery tops"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (13 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "vegetable-soup-theplainsa",
@@ -13611,21 +13264,18 @@
           "calories": 64,
           "fat_g": 0.4,
           "carbs_g": 13.4,
-          "protein_g": 2.5,
+          "protein_g": 2.4,
           "sodium_mg": 455,
           "fiber_g": 2.0,
           "sugar_g": 2.1
         },
         "missing_inputs": [
-          "1 small turnip",
-          "Small saucepan"
+          "1 small turnip"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "oyster-stew-theplainsa",
@@ -13669,43 +13319,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1. Pour the oysters into as trainer, a llowing the liquid to"
+          "text": "1.Pour theoysters intoastrainer, allowing theliquid to"
         },
         {
           "step": 2,
-          "text": "drain into as mall saucepan."
+          "text": "drain intoasmall saucepan."
         },
         {
           "step": 3,
-          "text": "2. While the oysters are still in thestrainer, pour cold"
+          "text": "2.While theoysters are stillinthestrainer, pour cold"
         },
         {
           "step": 4,
-          "text": "3. Put theoysters into the saucepan with their liquid."
+          "text": "3.Puttheoysters intothesaucepan with their liquid."
         },
         {
           "step": 5,
-          "text": "4. Place the saucepan over a verylow fire, heating until"
+          "text": "4.Place thesaucepan overaverylow fire,heating until"
         },
         {
           "step": 6,
-          "text": "the oysters begin to curlaround the edges, then"
+          "text": "theoysters begin tocurlaround theedges, then"
         },
         {
           "step": 7,
-          "text": "5. Put the butter in themedium-sized saucepan and"
+          "text": "5.Putthebutter inthemedium-sized saucepan and"
         },
         {
           "step": 8,
-          "text": "6. add the flour, salt, and pepper to themelted butter,"
+          "text": "6.Addtheflour, salt,andpepper tothemelted butter,"
         },
         {
           "step": 9,
-          "text": "7. add the milk slowly to this mixture, stirring con-"
+          "text": "7.Add themilk slowly tothismixture, stirring con-"
         },
         {
           "step": 10,
-          "text": "stantly, and continue heating until it boils."
+          "text": "stantly, andcontinue heating until itboils."
         }
       ],
       "temperature": "",
@@ -13723,7 +13373,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 26,
           "fat_g": 2.9,
@@ -13733,18 +13383,11 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "2 cup milk Small saucepan",
-          "1 tbsp flour Medium-sized saucepan"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (16 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "creole-soup-theplainsa",
@@ -13785,13 +13428,13 @@
           "prep_note": ""
         },
         {
-          "item": "1/2 cups Soup Stock (page 14) Bowl",
+          "item": "^cupsSoup Stock (page 14) Bowl",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Tomato pulp",
+          "item": "tomato pulp",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -13812,43 +13455,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1. Chop or cut thepeppers into very small bits."
+          "text": "1.Chop orcutthepeppers intovery small bits."
         },
         {
           "step": 2,
-          "text": "2. Melt the butter in a saucepan."
+          "text": "2.Melt thebutter inasaucepan."
         },
         {
           "step": 3,
-          "text": "3. add the flour and chopped peppers, and mixthor-"
+          "text": "3.Add theflourandchopped peppers, andmixthor-"
         },
         {
           "step": 4,
-          "text": "4. add the Soup Stock and Tomato pulp slowly, stirring"
+          "text": "4.AddtheSoup Stock andtomato pulp slowly, stirring"
         },
         {
           "step": 5,
-          "text": "constantly until the boiling-point is reached."
+          "text": "constantly until theboiling-point isreached."
         },
         {
           "step": 6,
-          "text": "5. Reduce the heat, cover the saucepan, and letsimmer"
+          "text": "5.Reduce theheat, cover thesaucepan, and letsimmer"
         },
         {
           "step": 7,
-          "text": "6. Strain into a bowl, season, and add thecorn."
+          "text": "6.Strain intoabowl, season, andaddthecorn."
         },
         {
           "step": 8,
-          "text": "7. Replace in the saucepan, reheat, and serve at once."
+          "text": "7.Replace inthesaucepan, reheat, andserve atonce."
         },
         {
           "step": 9,
-          "text": "Canned corn is ord in a rily used for this recipe. If"
+          "text": "Canned corn isordinarily used forthis recipe. If"
         },
         {
           "step": 10,
-          "text": "fresh corn is used, itmust firstbeboiled, and then cut"
+          "text": "fresh corn isused, itmust firstbeboiled, andthen cut"
         }
       ],
       "temperature": "",
@@ -13866,30 +13509,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 472,
-          "fat_g": 7.2,
-          "carbs_g": 103.1,
-          "protein_g": 18.2,
-          "sodium_mg": 801,
-          "fiber_g": 14.5,
-          "sugar_g": 18.2
+          "calories": 486,
+          "fat_g": 7.3,
+          "carbs_g": 106.4,
+          "protein_g": 18.9,
+          "sodium_mg": 1122,
+          "fiber_g": 15.3,
+          "sugar_g": 20.2
         },
         "missing_inputs": [
-          "1 tbsp redpepper Medium-sized covered sauce-",
-          "1 tbsp flour pan",
-          "1 tbsp butter Strainer",
-          "1 cup tomato pulp"
+          "1 tbsp flour pan"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (11 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "irishstew-theplainsa",
@@ -13933,43 +13569,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1. Cut the meat in pieces a bout a ninchandahalfsquare."
+          "text": "1.Cutthemeat inpieces about aninchandahalfsquare."
         },
         {
           "step": 2,
-          "text": "2. Put the meat in a saucepan, and cover with cold'"
+          "text": "2.Putthemeat inasaucepan, andcover with cold'"
         },
         {
           "step": 3,
-          "text": "3. Place the saucepan on the fire, and bring to theboil-"
+          "text": "3.Place thesaucepan onthe fire,andbring totheboil-"
         },
         {
           "step": 4,
-          "text": "4. Reduce the heat, cover the saucepan, and letsimmer"
+          "text": "4.Reduce theheat, cover thesaucepan, and letsimmer"
         },
         {
           "step": 5,
-          "text": "gently for on ehour, adding a littlehotwater from"
+          "text": "gently foronehour, adding alittlehotwater from"
         },
         {
           "step": 6,
-          "text": "6. While the meat is simmering, peel the potatoes, cut"
+          "text": "6.While themeat issimmering, peelthepotatoes, cut"
         },
         {
           "step": 7,
-          "text": "them in quarters, and boil in the small saucepan"
+          "text": "them inquarters, and boil inthesmall saucepan"
         },
         {
           "step": 8,
-          "text": "6. Drain the water from the potatoes, and when the"
+          "text": "6.Drain thewater from thepotatoes, andwhen the"
         },
         {
           "step": 9,
-          "text": "7. Mix the flourwith the cream or milk, and stir itinto"
+          "text": "7.Mixtheflourwiththecream ormilk,and stir itinto"
         },
         {
           "step": 10,
-          "text": "8. add the salt and pepper, in crease the heat, and let"
+          "text": "8.Addthesaltandpepper, increase theheat,and let"
         }
       ],
       "temperature": "",
@@ -13987,7 +13623,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 370,
           "fat_g": 20.2,
@@ -13997,17 +13633,11 @@
           "fiber_g": 2.1,
           "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "1 small onion Covered saucepan"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (12 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stewed-dried-fruit-theplainsa",
@@ -14030,40 +13660,40 @@
           "prep_note": ""
         },
         {
-          "item": "Wash the fruitvery carefully in plenty of water,",
+          "item": "Wash thefruitvery carefully inplenty ofwater,",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Put thefruit in a saucepan",
+          "item": "Putthefruit inasaucepan",
           "quantity": "2",
           "unit": "",
           "prep_note": "cover with water, and"
         },
         {
-          "item": "r Set the saucepan over a slow fire",
+          "item": "rSetthesaucepan over aslow fire",
           "quantity": "3",
           "unit": "",
-          "prep_note": "cover it, let the"
+          "prep_note": "cover it,letthe"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "fruitcome to a boil, and thensimmer for twohours."
+          "text": "fruitcome toaboil,andthensimmer fortwohours."
         },
         {
           "step": 2,
-          "text": "4. add the sugar to the fruit, and when itisdissolved"
+          "text": "4.Add thesugar tothe fruit, andwhen itisdissolved"
         },
         {
           "step": 3,
-          "text": "take the saucepan from the fire and letthefruit"
+          "text": "take thesaucepan from the fireand letthefruit"
         },
         {
           "step": 4,
-          "text": "a pricots and peaches require more, and figsandprunes"
+          "text": "Apricots andpeaches require more, and figsandprunes"
         }
       ],
       "temperature": "",
@@ -14081,7 +13711,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -14091,19 +13721,11 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "1/2 lb dried fruit Covered saucepan",
-          "2  Putthefruit inasaucepan",
-          "3  rSetthesaucepan over aslow fire"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (13 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "tomato-bisque-thewingold",
@@ -14120,7 +13742,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Tomatoes 1 onion",
+          "item": "tomatoes 1 onion",
           "quantity": "1",
           "unit": "qt",
           "prep_note": "chopped"
@@ -14145,7 +13767,7 @@
         },
         {
           "step": 2,
-          "text": "Cook Tomatoes, water, salt, sugar, onion, carrot, bayleaves, and"
+          "text": "Cook tomatoes, water, salt, sugar, onion, carrot, bayleaves, and"
         },
         {
           "step": 3,
@@ -14153,7 +13775,7 @@
         },
         {
           "step": 4,
-          "text": "then the strained Tomato and hotcream. Serve hot with wafers."
+          "text": "then thestrained tomato andhotcream. Serve hotwith wafers."
         }
       ],
       "temperature": "",
@@ -14187,11 +13809,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (3 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "creole-soup-triedandtr",
@@ -14284,16 +13902,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Three quarts cold water,",
+          "item": "Three quarts coldwater,",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Four on ions chopped fine.",
+          "item": "Four onions chopped fine.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "One carrot cutindice.",
@@ -14305,11 +13923,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "On eteaspoon . of thyme."
+          "text": "Oneteaspoon .ofthyme."
         },
         {
           "step": 2,
-          "text": "Cook slowly for three hours, season with pepper and salt"
+          "text": "Cook slowly forthree hours, season withpepper and salt"
         }
       ],
       "temperature": "",
@@ -14327,33 +13945,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 11,
-          "fat_g": 0.0,
-          "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.5,
-          "sugar_g": 1.2
+          "calories": 24,
+          "fat_g": 0.1,
+          "carbs_g": 5.5,
+          "protein_g": 0.6,
+          "sodium_mg": 23,
+          "fiber_g": 1.4,
+          "sugar_g": 2.8
         },
-        "missing_inputs": [
-          "One carrot cutindice."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (2 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "mulligatawny-soup-wilsonscoo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Mulligat Awny Soup",
+      "title": "Mulligatawny Soup",
       "category": "soups",
       "attribution": "",
       "source_note": "Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920 (PDF cookbook)",
@@ -14364,16 +13976,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Three pints of chicken stock.",
+          "item": "Three pints ofchicken stock.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Four on ions chopped fine.",
+          "item": "Four onions chopped fine.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "One clove.",
@@ -14385,23 +13997,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Simmer slowly for one-half hour."
+          "text": "Simmer slowly forone-half hour."
         },
         {
           "step": 2,
-          "text": "Blend together, and thenaddonepint of cold water, and"
+          "text": "Blend together, andthenaddonepint ofcoldwater, and"
         },
         {
           "step": 3,
-          "text": "as soon as itisthoroughly blended turn into thesoup ; stirto"
+          "text": "assoon asitisthoroughly blended turn intothesoup ;stirto"
         },
         {
           "step": 4,
-          "text": "prevent lumping and bring quickly to a boil ; cook tenminutes;"
+          "text": "prevent lumping andbring quickly toaboil ;cook tenminutes;"
         },
         {
           "step": 5,
-          "text": "strain through cheesecloth; a ddjuice one-half lemon and one-"
+          "text": "strain through cheesecloth; addjuice one-half lemon andone-"
         },
         {
           "step": 6,
@@ -14437,17 +14049,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "howtomake-thissoup-wilsonscoo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "How to Make Thissoup",
+      "title": "Howtomake Thissoup",
       "category": "soups",
       "attribution": "",
       "source_note": "Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920 (PDF cookbook)",
@@ -14458,30 +14066,30 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Three tablespoons of cornstarch, dissolved in",
+          "item": "Three tablespoons ofcornstarch, dissolved in",
           "quantity": "",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Four tablespoons of cold water to each pint",
+          "item": "Four tablespoons ofcoldwater toeach pint",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "of the fruit puree. Bring to boil and cook fiveminutes. Remove"
+          "text": "ofthefruit puree. Bring toboilandcook fiveminutes. Remove"
         },
         {
           "step": 2,
-          "text": "from the fire and a ddyolk of on eegg. Beatveryhard and then"
+          "text": "from thefireandaddyolk ofoneegg. Beatveryhardandthen"
         },
         {
           "step": 3,
-          "text": "foldinstiffly beaten white of egg ; season slightly with nutmeg,"
+          "text": "foldinstiffly beaten white ofegg ;season slightly withnutmeg,"
         },
         {
           "step": 4,
@@ -14489,11 +14097,11 @@
         },
         {
           "step": 5,
-          "text": "ries, grapes, currants, a pples, peaches, pears, or a nges, lemon"
+          "text": "ries, grapes, currants, apples, peaches, pears, oranges, lemon"
         },
         {
           "step": 6,
-          "text": "and quinces may be used for these soups. They a redelicious"
+          "text": "andquinces maybeused forthese soups. They aredelicious"
         }
       ],
       "temperature": "",
@@ -14527,11 +14135,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (8 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "chicken-gumbo-okra-wilsonscoo",
@@ -14548,16 +14152,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two quarts of water.",
+          "item": "Two quarts ofwater.",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Four on ions.",
+          "item": "Four onions.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "Two cloves.",
@@ -14569,19 +14173,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cook until the chicken is tender. Now thicken the liquid"
+          "text": "Cook until thechicken istender. Now thicken theliquid"
         },
         {
           "step": 2,
-          "text": "Send to thetable at once and serve with plenty of boiled rice."
+          "text": "Send tothetable atonceandserve withplenty ofboiled rice."
         },
         {
           "step": 3,
-          "text": "Note.\u2014Gumbo, or file, is a powder madeandsoldin Louis-"
+          "text": "Note.\u2014Gumbo, orfile, isapowder madeandsoldinLouis-"
         },
         {
           "step": 4,
-          "text": "iana. Itiscomposed of young sassafras leaves. FUecanbe"
+          "text": "iana. Itiscomposed ofyoung sassafras leaves. FUecanbe"
         }
       ],
       "temperature": "",
@@ -14599,27 +14203,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 11,
-          "fat_g": 0.0,
-          "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
-          "fiber_g": 0.5,
+          "calories": 13,
+          "fat_g": 0.1,
+          "carbs_g": 2.8,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.7,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Two cloves."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (9 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cabbage-soup-wilsonscoo",
@@ -14636,40 +14234,40 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two quarts of water.",
+          "item": "Two quarts ofwater.",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Three on ions, chopped fine.",
+          "item": "Three onions, chopped fine.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Two slices of saltpork, cut into dice.",
+          "item": "Two slices ofsaltpork, cutinto dice.",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "On eandone-quarter pounds of soup meat, with bone init."
+          "text": "Oneandone-quarter pounds ofsoup meat, withbone init."
         },
         {
           "step": 2,
-          "text": "Two and one-half cupsoffinely shredded cabbage."
+          "text": "Twoandone-half cupsoffinely shredded cabbage."
         },
         {
           "step": 3,
-          "text": "Place in a saucepan and cook slowly for on eand three-"
+          "text": "Place inasaucepan andcook slowly foroneand three-"
         },
         {
           "step": 4,
-          "text": "quarter hours. Nowaddtwotablespoons of flour, dissolved"
+          "text": "quarter hours. Nowaddtwotablespoons offlour, dissolved"
         }
       ],
       "temperature": "",
@@ -14703,11 +14301,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stewed-snapper-wilsonscoo",
@@ -14724,10 +14318,10 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Four tablespoons of cornstarch, dissolved in water.",
+          "item": "Four tablespoons ofcornstarch, dissolved inwater.",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "Two cloves.",
@@ -14736,20 +14330,20 @@
           "prep_note": ""
         },
         {
-          "item": "Two tablespoons of butter.",
+          "item": "Two tablespoons ofbutter.",
           "quantity": "2",
           "unit": "tbsp",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Bring to a boil and cook slowly for fifteen minutes;"
+          "text": "Bring toaboilandcook slowly for fifteen minutes;"
         },
         {
           "step": 2,
-          "text": "then add thesnapper meat, heat slowly 10 minutes, serve."
+          "text": "thenaddthesnapper meat, heat slowly 10 minutes, serve."
         }
       ],
       "temperature": "",
@@ -14769,26 +14363,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 51,
+          "calories": 53,
           "fat_g": 5.8,
-          "carbs_g": 0.0,
+          "carbs_g": 0.3,
           "protein_g": 0.1,
-          "sodium_mg": 39,
-          "fiber_g": 0.0,
+          "sodium_mg": 40,
+          "fiber_g": 0.2,
           "sugar_g": 0.0
         },
         "missing_inputs": [
-          "1 cup Four tablespoons ofcornstarch, dissolved inwater.",
-          "Two cloves."
+          "1 cup Four tablespoons ofcornstarch, dissolved inwater."
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (4 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "connecticut-fishchowder-wilsonscoo",
@@ -14805,16 +14394,16 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two quarts of cold water.",
+          "item": "Two quarts ofcoldwater.",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Two on ions, cutfine,",
+          "item": "Two onions, cutfine,",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "One carrot, cutintiny dice.",
@@ -14826,39 +14415,39 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cover and bring to a boil. Cook slowly for on ehour. Now"
+          "text": "Cover andbring toaboil. Cook slowly foronehour.Now"
         },
         {
           "step": 2,
-          "text": "remove the heads, finsandbackbones and pick the meatfrom"
+          "text": "remove theheads, finsandbackbones andpick themeatfrom"
         },
         {
           "step": 3,
-          "text": "the heads and backbones and return to thestock."
+          "text": "theheads andbackbones andreturn tothestock."
         },
         {
           "step": 4,
-          "text": "Nowrubonecupofstewed Tomatoes through as ieve and"
+          "text": "Nowrubonecupofstewed tomatoes through asieveand"
         },
         {
           "step": 5,
-          "text": "add fivetablespoons of cornstarch. Stiruntil the starch isdis-"
+          "text": "add fivetablespoons ofcornstarch. Stiruntil thestarch isdis-"
         },
         {
           "step": 6,
-          "text": "solved and then add to thestock. Bring quickly to a boil"
+          "text": "solved andthenaddtothestock. Bring quickly toaboil"
         },
         {
           "step": 7,
-          "text": "Two tablespoons of finely chopped parsley."
+          "text": "Two tablespoons offinely chopped parsley."
         },
         {
           "step": 8,
-          "text": "Let boiluponce and then serve. This is delicious. One"
+          "text": "Let boiluponceandthen serve. This isdelicious. One"
         },
         {
           "step": 9,
-          "text": "pound of fishmaybeused in place of heads, finsandbackbones."
+          "text": "pound offishmaybeused inplace ofheads, finsandbackbones."
         }
       ],
       "temperature": "",
@@ -14890,11 +14479,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (17 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cleartomato-soup-wilsonscoo",
@@ -14911,13 +14496,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two tablespoons of grated onion.",
+          "item": "Two tablespoons ofgrated onion.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Two tablespoons of finely minced parsley.",
+          "item": "Two tablespoons offinely minced parsley.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -14926,7 +14511,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat slowly, then serve with tinysquares of toast."
+          "text": "Heat slowly, then serve withtinysquares oftoast."
         }
       ],
       "temperature": "",
@@ -14944,27 +14529,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
           "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Two tablespoons offinely minced parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "southwestern-corn-chowder-chile-bible",
@@ -15060,19 +14639,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 201,
-          "fat_g": 9.2,
-          "carbs_g": 22.5,
-          "protein_g": 8.1,
-          "sodium_mg": 974,
-          "fiber_g": 1.8,
-          "sugar_g": 7.6
+          "calories": 208,
+          "fat_g": 9.3,
+          "carbs_g": 23.8,
+          "protein_g": 8.5,
+          "sodium_mg": 1096,
+          "fiber_g": 2.3,
+          "sugar_g": 8.3
         },
-        "missing_inputs": [
-          "1 cup (4 oz) green chiles, chopped"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -15171,19 +14748,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 174,
-          "fat_g": 6.3,
-          "carbs_g": 28.6,
-          "protein_g": 5.2,
-          "sodium_mg": 1933,
-          "fiber_g": 7.3,
-          "sugar_g": 16.8
+          "calories": 119,
+          "fat_g": 5.8,
+          "carbs_g": 16.7,
+          "protein_g": 2.9,
+          "sodium_mg": 730,
+          "fiber_g": 4.1,
+          "sugar_g": 9.3
         },
-        "missing_inputs": [
-          "dash dried oregano"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -15318,29 +14893,387 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 298,
-          "fat_g": 14.9,
-          "carbs_g": 25.9,
-          "protein_g": 13.9,
-          "sodium_mg": 208,
-          "fiber_g": 1.0,
-          "sugar_g": 1.6
+          "calories": 439,
+          "fat_g": 21.1,
+          "carbs_g": 30.1,
+          "protein_g": 30.3,
+          "sodium_mg": 421,
+          "fiber_g": 2.8,
+          "sugar_g": 3.1
         },
-        "missing_inputs": [
-          "1 lb coarsely ground lean beef",
-          "1 cup vegetable juice cocktail",
-          "1 pkg (10 oz) frozen cut okra",
-          "2 cans (4 oz each) green chiles, diced",
-          "2 tbsp chile powder flakes",
-          "1 tbsp chile powder",
-          "1 tbsp file powder"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
       }
+    },
+    {
+      "id": "french-onion-soup",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "French Onion Soup",
+      "category": "soups",
+      "source_note": "French bistro classic",
+      "description": "Deeply caramelized onions in rich beef broth, topped with crusty bread and melted Gruy\u00e8re.",
+      "servings_yield": "6 servings",
+      "prep_time": "20 min",
+      "cook_time": "1 hour 30 min",
+      "total_time": "2 hours",
+      "ingredients": [
+        {
+          "item": "yellow onions",
+          "quantity": "3",
+          "unit": "lbs",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "beef broth",
+          "quantity": "8",
+          "unit": "cups"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "4",
+          "unit": "sprigs"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "baguette",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced and toasted"
+        },
+        {
+          "item": "Gruy\u00e8re cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter with oil in a large pot over medium heat."
+        },
+        {
+          "step": 2,
+          "text": "Add onions and sugar. Cook, stirring occasionally, until deeply caramelized, 45-60 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle flour over onions and stir 2 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add wine and scrape up browned bits. Cook until evaporated."
+        },
+        {
+          "step": 5,
+          "text": "Add broth, thyme, and bay leaf. Simmer 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Season with salt and pepper. Remove thyme and bay leaf."
+        },
+        {
+          "step": 7,
+          "text": "Preheat broiler. Ladle soup into oven-safe bowls."
+        },
+        {
+          "step": 8,
+          "text": "Top each with bread slices and generous Gruy\u00e8re."
+        },
+        {
+          "step": 9,
+          "text": "Broil until cheese is bubbly and golden. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Don't rush the onion caramelization - it's the key to flavor",
+        "Swiss cheese can substitute for Gruy\u00e8re"
+      ],
+      "tags": [
+        "soup",
+        "French",
+        "onion",
+        "Gruy\u00e8re",
+        "comfort food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-cauliflower-blue-cheese-soup",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Cream of Cauliflower and Blue Cheese Soup",
+      "category": "soups",
+      "attribution": "CheeseForum.org community",
+      "source_note": "cheeseforum.org",
+      "description": "Velvety smooth soup with the bold flavor of blue cheese balanced by mild cauliflower.",
+      "servings_yield": "6 servings",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "total_time": "40 min",
+      "ingredients": [
+        {
+          "item": "cauliflower, 1 head",
+          "quantity": "1",
+          "unit": "medium"
+        },
+        {
+          "item": "canola oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "yellow onion, chopped",
+          "quantity": "1",
+          "unit": "medium"
+        },
+        {
+          "item": "garlic cloves, chopped",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "celery stalks, chopped",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "baking potato, peeled and thinly sliced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "blue cheese",
+          "quantity": "3",
+          "unit": "oz"
+        },
+        {
+          "item": "sea salt and white pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "fresh chives for garnish",
+          "quantity": "",
+          "unit": "as desired"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Reserve 3/4 cup small cauliflower florets. Parboil 2-3 minutes, cool under cold water, set aside for garnish."
+        },
+        {
+          "step": 2,
+          "text": "Chop remaining cauliflower."
+        },
+        {
+          "step": 3,
+          "text": "Heat oil in large saucepan. Cook onion, garlic, and celery about 5 minutes until translucent."
+        },
+        {
+          "step": 4,
+          "text": "Add potato, chopped cauliflower, broth, and wine. Bring to boil."
+        },
+        {
+          "step": 5,
+          "text": "Simmer about 15 minutes until vegetables are tender."
+        },
+        {
+          "step": 6,
+          "text": "Stir in milk and cream, heating almost to a simmer."
+        },
+        {
+          "step": 7,
+          "text": "Stir in blue cheese a bit at a time until melted."
+        },
+        {
+          "step": 8,
+          "text": "Blend until very smooth (immersion blender or regular blender)."
+        },
+        {
+          "step": 9,
+          "text": "Season with salt (about 1 tsp) and white pepper."
+        },
+        {
+          "step": 10,
+          "text": "Serve in bowls garnished with reserved florets and chives."
+        }
+      ],
+      "temperature": "Simmer",
+      "notes": [
+        "White pepper keeps soup visually appealing",
+        "Potato helps thicken and smooth the soup",
+        "Use any blue cheese - Gorgonzola, Roquefort, or Stilton"
+      ],
+      "tags": [
+        "vegetarian",
+        "cream-soup",
+        "soup",
+        "blue-cheese",
+        "cauliflower"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-gazpacho",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Gazpacho",
+      "category": "soups",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Refreshing cold Spanish tomato soup",
+      "servings_yield": "4 servings",
+      "prep_time": "50 min",
+      "cook_time": "0 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "cucumber, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "red pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "green pepper, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "ripe plum tomatoes, chopped",
+          "quantity": "1",
+          "unit": "kg"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "stale bread, chopped",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine vegetables, bread, and seasonings. Add vinegar and oil."
+        },
+        {
+          "step": 2,
+          "text": "Press down and chill at least 30 minutes or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Blend until smooth. Add more oil if needed."
+        },
+        {
+          "step": 4,
+          "text": "Adjust seasoning. Serve ice cold with toasted bread."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "soup",
+        "spanish",
+        "cold",
+        "summer",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

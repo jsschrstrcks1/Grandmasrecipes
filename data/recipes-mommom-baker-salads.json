@@ -2,8 +2,8 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "salads",
-    "total_recipes": 55,
-    "generated": "2026-01-22T19:32:06.527034Z",
+    "total_recipes": 75,
+    "generated": "2026-01-23T14:31:32.277225Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -107,12 +107,19 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 935,
+          "fat_g": 3.7,
+          "protein_g": 10.6,
+          "carbs_g": 238.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for dandelion, arugula or young lettuce leaves",
+          "Based on 7/7 ingredients (100% coverage)"
         ]
-      },
-      "variant_note": "Same ingredients, different quantities"
+      }
     },
     {
       "id": "cauliflower-layer-salad",
@@ -204,9 +211,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 105,
+          "fat_g": 5.7,
+          "protein_g": 3.7,
+          "carbs_g": 10.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 6/6 ingredients (100% coverage)"
         ]
       }
     },
@@ -312,9 +327,19 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 327,
+          "fat_g": 14.4,
+          "protein_g": 3.9,
+          "carbs_g": 48.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Used standard can size (1.5 cups) for crushed pineapple",
+          "Assumed 1 unit for nuts",
+          "Estimated 6 servings based on total calories",
+          "Based on 8/8 ingredients (100% coverage)"
         ]
       }
     },
@@ -532,9 +557,18 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 286,
+          "fat_g": 15.8,
+          "protein_g": 3.5,
+          "carbs_g": 35.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1.5 cup can for whole cranberry sauce",
+          "Estimated 8 servings based on total calories",
+          "Based on 7/7 ingredients (100% coverage)"
         ]
       }
     },
@@ -653,9 +687,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 155,
+          "fat_g": 3.7,
+          "protein_g": 2.1,
+          "carbs_g": 30.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 10/10 ingredients (100% coverage)"
         ]
       }
     },
@@ -748,9 +790,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 241,
+          "fat_g": 11.0,
+          "protein_g": 9.9,
+          "carbs_g": 27.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 7/7 ingredients (100% coverage)"
         ]
       }
     },
@@ -879,9 +929,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 101,
+          "fat_g": 5.7,
+          "protein_g": 3.4,
+          "carbs_g": 11.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 13/13 ingredients (100% coverage)"
         ]
       }
     },
@@ -985,9 +1043,20 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 1.1,
+          "protein_g": 5.9,
+          "carbs_g": 35.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Used standard can size (1.75 cups) for kidney beans",
+          "Used standard can size (1.75 cups) for wax beans",
+          "Used standard can size (1.75 cups) for green beans",
+          "Estimated 6 servings based on total calories",
+          "Based on 9/9 ingredients (100% coverage)"
         ]
       }
     },
@@ -1173,9 +1242,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 571,
+          "fat_g": 23.3,
+          "protein_g": 72.8,
+          "carbs_g": 15.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
         ]
       }
     },
@@ -1289,9 +1365,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 344,
+          "fat_g": 22.3,
+          "protein_g": 3.2,
+          "carbs_g": 35.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 8 servings based on total calories",
+          "Based on 8/8 ingredients (100% coverage)"
         ]
       }
     },
@@ -1393,9 +1477,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 5.7,
+          "protein_g": 5.8,
+          "carbs_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
         ]
       }
     },
@@ -1473,9 +1564,18 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 3.1,
+          "protein_g": 8.2,
+          "carbs_g": 25.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Used standard can size (1.375 cups) for mandarin oranges",
+          "Estimated 4 servings based on total calories",
+          "Based on 5/5 ingredients (100% coverage)"
         ]
       }
     },
@@ -1571,9 +1671,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 176,
+          "fat_g": 8.0,
+          "protein_g": 3.2,
+          "carbs_g": 25.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 6 servings based on total calories",
+          "Based on 6/6 ingredients (100% coverage)"
         ]
       }
     },
@@ -1992,9 +2100,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 257,
+          "fat_g": 12.3,
+          "protein_g": 19.9,
+          "carbs_g": 18.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
         ]
       }
     },
@@ -2263,9 +2378,22 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 1.4,
+          "protein_g": 1.5,
+          "carbs_g": 3.0
+        },
         "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+          "Not in database: torn romaine",
+          "Not in database: anchovy fillets"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for Worcestershire sauce",
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Inferred 1 for pepper (standard quantity)",
+          "Based on 9/11 ingredients (82% coverage)"
         ]
       }
     },
@@ -2379,9 +2507,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 116,
+          "fat_g": 1.0,
+          "protein_g": 5.1,
+          "carbs_g": 22.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
         ]
       }
     },
@@ -2805,9 +2940,18 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
+        "per_serving": {
+          "calories": 177,
+          "fat_g": 13.7,
+          "protein_g": 1.9,
+          "carbs_g": 13.8
+        },
         "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+          "Not in database: tiny marshmallows"
+        ],
+        "assumptions": [
+          "Based on 5/6 ingredients (83% coverage)"
         ]
       }
     },
@@ -2909,16 +3053,14 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 99,
-          "fat_g": 0.0,
-          "protein_g": 1.2,
-          "carbs_g": 24.8
+          "calories": 150,
+          "fat_g": 4.5,
+          "protein_g": 2.2,
+          "carbs_g": 26.2
         },
-        "missing_inputs": [
-          "Not in database: Nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Based on 8/9 ingredients (89% coverage)"
+          "Based on 9/9 ingredients (100% coverage)"
         ]
       }
     },
@@ -3931,6 +4073,60 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "cut into wedges"
+        },
+        {
+          "item": "[LOUIS DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "green onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "chili sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "heavy whipping cream",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -6236,6 +6432,1697 @@
           "Based on 10/11 ingredients (91% coverage)"
         ]
       }
+    },
+    {
+      "id": "green-chile-salad-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Green Chile Salad",
+      "category": "salads",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 46",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "cut"
+        },
+        {
+          "item": "large tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "fresh green chiles",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine the vinegar and salad oil. Rub a bowl with the cut garlic and add the diced tomato, onion, and green chiles. Let stand 5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add the vinegar and salad oil and toss gently. Serve on leaves or in the center of scoops of small curd cottage cheese."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "green chile",
+        "tomato"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6032 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "marinated-garden-salad-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Marinated Garden Salad",
+      "category": "salads",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 46",
+      "servings_yield": "Serves 8",
+      "ingredients": [
+        {
+          "item": "tomatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "peeled and diced"
+        },
+        {
+          "item": "green onions or chives",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "oregano leaves",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toss together the tomatoes, green chiles, onions, and lemon slices."
+        },
+        {
+          "step": 2,
+          "text": "Add oil, vinegar, salt, pepper, and oregano. Cover and marinate in refrigerator at least 2 hours."
+        },
+        {
+          "step": 3,
+          "text": "At serving time, remove the lemon slices and serve the salad in lettuce cups."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "green chile",
+        "tomato",
+        "marinated"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6032 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "piquant-salad-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Piquant Salad",
+      "category": "salads",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 48",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "lime gelatin",
+          "quantity": "1",
+          "unit": "pkg (3 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "hot water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "tomatoes and green chile sauce",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dissolve the gelatin in 1 cup hot water in an 8 X 10-inch pan."
+        },
+        {
+          "step": 2,
+          "text": "When lightly thickened, add the remaining ingredients. Chill."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "gelatin",
+        "green chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6034 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "green-chile-cucumber-salad-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Green Chile and Cucumber Salad",
+      "category": "salads",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 48",
+      "servings_yield": "Makes 12",
+      "ingredients": [
+        {
+          "item": "lime gelatin",
+          "quantity": "1",
+          "unit": "pkg (3 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon gelatin",
+          "quantity": "1",
+          "unit": "carton (8 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "peeled cucumber",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salad olives",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dissolve the gelatin according to the package directions. Stir in the remaining ingredients."
+        },
+        {
+          "step": 2,
+          "text": "Place 12 large paper baking cups in muffin tins and spoon the gelatin mixture into cups in muffin tins."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "gelatin",
+        "cucumber",
+        "green chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6034 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "salad-joshua-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salad Joshua",
+      "category": "salads",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 73",
+      "ingredients": [
+        {
+          "item": "pine nuts",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "head of leaf lettuce",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "washed and dried"
+        },
+        {
+          "item": "feta cheese",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "seedless grapes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "halved"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "pinch",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh lemon juice",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown pine nuts over medium heat, stirring continuously, about 2 minutes. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Tear lettuce into bite-sized pieces. Place in bowl and add pine nuts, feta cheese, and grapes. In a separate small bowl dissolve salt in lemon juice. Whisk in olive oil and taste for seasoning. Drizzle over salad, toss, and serve."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "feta",
+        "grapes",
+        "pine nuts",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6190 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "lotta-lentils-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lotta Lentils",
+      "category": "salads",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 73",
+      "ingredients": [
+        {
+          "item": "fresh lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mixed herbs: mint, basil, and thyme",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "mashed"
+        },
+        {
+          "item": "dried lentils",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "finely diced celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together lemon juice and olive oil. Beat in herbs and garlic."
+        },
+        {
+          "step": 2,
+          "text": "Wash lentils and boil in a quart of water until tender, about 30 minutes. Drain. While warm, toss with lemon dressing. Cool to room temperature."
+        },
+        {
+          "step": 3,
+          "text": "Add celery. Serve immediately or chill and serve cold."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "lentils",
+        "herbs",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6190 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "chicken-salad-ancients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicken Salad",
+      "category": "salads",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cooking With the Ancients page 64",
+      "ingredients": [
+        {
+          "item": "chicken",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "boiled following Chicken Pilaf recipe, cooled and diced"
+        },
+        {
+          "item": "homemade mayonnaise",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "grapes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "halved (or black olives)"
+        },
+        {
+          "item": "walnuts",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "pine nuts",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sage",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "basil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil chicken, following recipe in Chapter 7 for Chicken Pilaf. Dice cooked, cooled chicken."
+        },
+        {
+          "step": 2,
+          "text": "Mix with homemade mayonnaise, halved grapes (or black olives), chopped walnuts, and/or pine nuts."
+        },
+        {
+          "step": 3,
+          "text": "Season with sage, basil, and salt. Taste and adjust seasonings."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "chicken",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6181 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "juliuth-icthus-salad-ancients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Juliuth Icthus Salad",
+      "category": "salads",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cooking With the Ancients page 70",
+      "description": "A Caesar-style salad with homemade croutons",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "4",
+          "unit": "cloves",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": "more or less, to taste"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "anchovy fillets",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "romaine lettuce",
+          "quantity": "2",
+          "unit": "heads",
+          "prep_note": ""
+        },
+        {
+          "item": "croutons",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "freshly grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For croutons: Use slightly stale bread. Remove the crusts, then cut slices of bread into cubes. Saut\u00e9 in hot butter or olive oil. Add minced clove of garlic when all sides of the bread have browned, taking care not to let the garlic burn."
+        },
+        {
+          "step": 2,
+          "text": "In a blender, combine the olive oil and garlic. Blend until creamy. Add the lemon juice and salt."
+        },
+        {
+          "step": 3,
+          "text": "Pour the dressing into a large salad bowl. Add the anchovies and mash into the dressing."
+        },
+        {
+          "step": 4,
+          "text": "Wash and dry the lettuce leaves, discarding any that are blemished. Tear into bite-sized pieces."
+        },
+        {
+          "step": 5,
+          "text": "Add to the salad bowl and toss until the leaves are coated. Add the croutons and toss lightly."
+        },
+        {
+          "step": 6,
+          "text": "Just before serving, add the cheese."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "caesar-style",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6187 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "more-cucumber-salad-ancients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "More Cucumber Salad",
+      "category": "salads",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cooking With the Ancients page 72",
+      "ingredients": [
+        {
+          "item": "lowfat yogurt",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "scallions",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dill",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "dried"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard powder",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cucumbers",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "dill weed sprigs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In small bowl, combine the yogurt, scallions, dill, salt, and mustard powder. Blend."
+        },
+        {
+          "step": 2,
+          "text": "Add thinly sliced cucumbers and mix well to coat with dressing."
+        },
+        {
+          "step": 3,
+          "text": "Place 2 or 3 dill sprigs on top. Cover tightly and refrigerate for one hour."
+        },
+        {
+          "step": 4,
+          "text": "Before serving, remove dill."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "salad",
+        "cucumber",
+        "yogurt",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6189 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "foxfire2-cress-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cress Salad",
+      "category": "salads",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian salad from The Foxfire Book 2",
+      "description": "A fresh salad using wild water cress.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cresses",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "finely cut"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "French dressing",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toss together lightly: two cups finely cut cresses, one-fourth teaspoon salt, one tablespoon salad oil, one tablespoon vinegar, one tablespoon French dressing."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Can also chop and add hard-boiled egg"
+      ],
+      "tags": [
+        "salad",
+        "cress",
+        "wild-plants",
+        "appalachian",
+        "foxfire",
+        "foraging",
+        "raw"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-mixed-green-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mixed Wild Green Salad",
+      "category": "salads",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian salad from Foxfire 2",
+      "description": "A raw salad of wild spring greens with garlic dressing.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "dandelion",
+          "quantity": "",
+          "unit": "equal parts",
+          "prep_note": ""
+        },
+        {
+          "item": "shepherd's purse",
+          "quantity": "",
+          "unit": "equal parts",
+          "prep_note": ""
+        },
+        {
+          "item": "peppergrass",
+          "quantity": "",
+          "unit": "equal parts",
+          "prep_note": ""
+        },
+        {
+          "item": "curly dock",
+          "quantity": "",
+          "unit": "equal parts",
+          "prep_note": ""
+        },
+        {
+          "item": "poke shoots",
+          "quantity": "",
+          "unit": "equal parts",
+          "prep_note": "must be cooked first"
+        },
+        {
+          "item": "sorrel",
+          "quantity": "",
+          "unit": "equal parts",
+          "prep_note": ""
+        },
+        {
+          "item": "wild onion",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "oil",
+          "quantity": "",
+          "unit": "for dressing",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "",
+          "unit": "for dressing",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "",
+          "unit": "for dressing",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard",
+          "quantity": "",
+          "unit": "for dressing",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take equal parts of dandelion, shepherd's purse, peppergrass, curly dock, poke shoots (must be cooked first), and sorrel. Chop fine."
+        },
+        {
+          "step": 2,
+          "text": "Add wild onion to taste."
+        },
+        {
+          "step": 3,
+          "text": "Make a dressing of oil and vinegar, and flavor with garlic, mustard, salt, and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Serve on a bed of wild dock or lettuce leaves."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Poke shoots MUST be cooked before adding to raw salad"
+      ],
+      "tags": [
+        "salad",
+        "greens",
+        "wild-plants",
+        "raw",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-wilted-greens-bacon",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wilted Greens with Hot Bacon Dressing",
+      "category": "salads",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian recipe from Foxfire 2",
+      "description": "Wild greens wilted with hot bacon and vinegar dressing.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "bacon",
+          "quantity": "3",
+          "unit": "slices",
+          "prep_note": "cut fine"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "cress",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dandelions",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "wild lettuce",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Fry bacon until crisp."
+        },
+        {
+          "step": 2,
+          "text": "Add vinegar and salt to the hot bacon grease."
+        },
+        {
+          "step": 3,
+          "text": "Pour over the greens and toss."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "salad",
+        "wilted",
+        "bacon",
+        "greens",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-wild-lettuce-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Lettuce Salad",
+      "category": "salads",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Fresh salad made with wild lettuce and hot bacon dressing.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "20 minutes",
+      "ingredients": [
+        {
+          "item": "wild lettuce leaves",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "young, washed and chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "2-3",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "bacon",
+          "quantity": "3",
+          "unit": "strips",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut up wild lettuce greens and wash."
+        },
+        {
+          "step": 2,
+          "text": "Cut green onions in it."
+        },
+        {
+          "step": 3,
+          "text": "Fry bacon until crisp and crumbly."
+        },
+        {
+          "step": 4,
+          "text": "Add brown sugar and vinegar to the hot bacon grease."
+        },
+        {
+          "step": 5,
+          "text": "Pour hot dressing over the chopped wild lettuce leaves."
+        },
+        {
+          "step": 6,
+          "text": "For extra flavor, add chickweed or mustard."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Frying pan for bacon",
+      "notes": [
+        "Gather wild lettuce in early spring when plants are young.",
+        "Older plants get tough and wormy.",
+        "Wild lettuce has a milky juice when stems are broken."
+      ],
+      "tags": [
+        "salad",
+        "wild lettuce",
+        "wild foods",
+        "bacon",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-ramp-salad",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Appalachian Ramp Salad",
+      "category": "salads",
+      "attribution": "Foxfire Book 2",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Fresh wild ramp salad with multiple serving variations.",
+      "servings_yield": "2-4 servings",
+      "ingredients": [
+        {
+          "item": "young ramp leaves",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "chopped into tiny bits"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop up young ramp leaves into tiny bits."
+        },
+        {
+          "step": 2,
+          "text": "Eat raw, or cook and add vinegar when ready to eat."
+        },
+        {
+          "step": 3,
+          "text": "Alternatively, add a little to any salad."
+        },
+        {
+          "step": 4,
+          "text": "Or chop fine, parboil, drain and cool, and mix with mayonnaise and serve with trout."
+        }
+      ],
+      "notes": [
+        "You can also add one-half cup chopped fine to mashed potatoes just before serving."
+      ],
+      "tags": [
+        "salad",
+        "ramps",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "swamp-cabbage-slaw-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Swamp Cabbage Slaw (Heart of Palm)",
+      "category": "salads",
+      "attribution": "Eat the Weeds - Green Deane (from Marian Van Atta's Wild Edibles)",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Simple slaw made from fresh heart of palm.",
+      "ingredients": [
+        {
+          "item": "heart of palm",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cut fine or shredded"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "pickle relish",
+          "quantity": "1-2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Optionally soak shredded palm hearts in ice water for an hour."
+        },
+        {
+          "step": 2,
+          "text": "Mix with mayonnaise and pickle relish."
+        },
+        {
+          "step": 3,
+          "text": "Season to taste with salt and pepper."
+        }
+      ],
+      "tags": [
+        "salad",
+        "slaw",
+        "heart of palm",
+        "florida",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "amaranth-tabouli-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Amaranth Tabouli",
+      "category": "salads",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Middle Eastern-style grain salad made with amaranth instead of bulgur.",
+      "ingredients": [
+        {
+          "item": "pre-soaked amaranth seeds",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "scallions",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "fresh mint",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "pressed"
+        },
+        {
+          "item": "olives",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "whole, for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Simmer amaranth in equal volume of water for 12-15 minutes and cool completely."
+        },
+        {
+          "step": 2,
+          "text": "Combine all ingredients except lettuce and olives in a bowl, tossing gently."
+        },
+        {
+          "step": 3,
+          "text": "Refrigerate at least one hour to blend flavors."
+        },
+        {
+          "step": 4,
+          "text": "Line a serving bowl with washed, dried lettuce leaves."
+        },
+        {
+          "step": 5,
+          "text": "Add the amaranth mixture and garnish with olives."
+        }
+      ],
+      "notes": [
+        "Soak amaranth overnight in water to reduce saponin content before cooking"
+      ],
+      "tags": [
+        "salad",
+        "tabouli",
+        "amaranth",
+        "grain",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "bitter-melon-salad-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bitter Melon Salad (Philippine Style)",
+      "category": "salads",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Fresh Philippine-style bitter melon salad with tomatoes.",
+      "ingredients": [
+        {
+          "item": "bitter melon gourds",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "onion",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "vinaigrette",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Halve gourds lengthwise and scoop out seeds with a spoon."
+        },
+        {
+          "step": 2,
+          "text": "Cut into half-moon pieces and toss with salt; let sit to remove bitterness."
+        },
+        {
+          "step": 3,
+          "text": "Slice tomatoes into wedges and onion thinly."
+        },
+        {
+          "step": 4,
+          "text": "Rinse salt from melon and combine with tomatoes and onions."
+        },
+        {
+          "step": 5,
+          "text": "Dress with vinaigrette and chill before serving."
+        }
+      ],
+      "tags": [
+        "bitter melon",
+        "salad",
+        "philippine",
+        "vegetable",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "nasturtium-bouquet-salad-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nasturtium Bouquet Salad",
+      "category": "salads",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Elegant salad with radicchio, spinach, and nasturtium blossoms.",
+      "servings_yield": "8 servings",
+      "ingredients": [
+        {
+          "item": "white wine or champagne vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "light olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "freshly squeezed lime juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lime zest",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "finely grated"
+        },
+        {
+          "item": "radicchio",
+          "quantity": "3",
+          "unit": "heads",
+          "prep_note": "washed and dried"
+        },
+        {
+          "item": "chives",
+          "quantity": "1",
+          "unit": "small bunch"
+        },
+        {
+          "item": "tender spinach",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "trimmed, washed, and dried"
+        },
+        {
+          "item": "nasturtium blossoms",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk vinegar and mustard together in a bowl."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add oils while whisking. Add lime juice and zest."
+        },
+        {
+          "step": 3,
+          "text": "Season with salt and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Just before serving, toss greens, chives, and flowers with sufficient dressing to coat."
+        }
+      ],
+      "tags": [
+        "nasturtium",
+        "salad",
+        "flower",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "codium-salad-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Codium Salad",
+      "category": "salads",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Codiums article",
+      "description": "A refreshing raw seaweed salad with Asian-inspired dressing.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "codium seaweed",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "well cleaned"
+        },
+        {
+          "item": "sweet onion",
+          "quantity": "1",
+          "unit": "small"
+        },
+        {
+          "item": "tomato",
+          "quantity": "1",
+          "unit": "medium"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "wine vinegar",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sherry",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all dressing ingredients (soy sauce, wine vinegar, sugar, sherry, and black pepper) together."
+        },
+        {
+          "step": 2,
+          "text": "Pour the dressing over chopped onions."
+        },
+        {
+          "step": 3,
+          "text": "Just before serving, chop the tomatoes and codium into bite-sized pieces."
+        },
+        {
+          "step": 4,
+          "text": "Toss the chopped tomatoes and seaweed with the dressed onions."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with tomato slices."
+        },
+        {
+          "step": 6,
+          "text": "Chill before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Never cook codium - it becomes soft and disintegrates from heat",
+        "Always eat raw after thorough washing"
+      ],
+      "tags": [
+        "seaweed",
+        "codium",
+        "salad",
+        "raw",
+        "asian",
+        "foraged"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "sea-blite-sour-cream-salad-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sea Blite and Sour Cream Salad",
+      "category": "salads",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Sea Blite article",
+      "description": "A creamy salad featuring foraged sea blite with hard-boiled eggs.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "2 hours 30 minutes (including refrigeration)",
+      "ingredients": [
+        {
+          "item": "sea blite leaves, stems, or flowers",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "cooked, drained, chopped"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "onion",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "grated"
+        },
+        {
+          "item": "vinegar or lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional, to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook sea blite in boiling water until tender, then drain and chop."
+        },
+        {
+          "step": 2,
+          "text": "Combine all ingredients in a bowl and mix well."
+        },
+        {
+          "step": 3,
+          "text": "Refrigerate for two hours before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Sea blite is naturally salty, so taste before adding salt",
+        "Also known as Suaeda"
+      ],
+      "tags": [
+        "sea blite",
+        "salad",
+        "sour cream",
+        "foraged",
+        "coastal"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

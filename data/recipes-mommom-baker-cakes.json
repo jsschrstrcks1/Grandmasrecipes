@@ -1,0 +1,5312 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "cakes",
+    "total_recipes": 43,
+    "generated": "2026-01-23T14:31:32.125195Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "pineapple-upside-down-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pineapple Upside-Down Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 76",
+      "description": "A classic upside-down cake with caramelized pineapple and cherries.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pineapple slices",
+          "quantity": "1",
+          "unit": "8-ounce can",
+          "prep_note": "drained and halved"
+        },
+        {
+          "item": "maraschino cherries, halved",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Batter for Busy-Day Cake",
+          "quantity": "1",
+          "unit": "recipe",
+          "prep_note": "see recipe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt margarine in a 9x1-1/2-inch round baking pan. Stir in sugar and 1 tablespoon water."
+        },
+        {
+          "step": 2,
+          "text": "Arrange pineapple and cherries in the pan."
+        },
+        {
+          "step": 3,
+          "text": "Prepare batter for Busy-Day Cake; spoon into the pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Cool on a wire rack for 5 minutes. Loosen sides; invert onto a plate. Serve warm."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x1-1/2-inch round baking pan",
+      "notes": [
+        "Serve warm"
+      ],
+      "tags": [
+        "cake",
+        "upside-down-cake",
+        "pineapple"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5241 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 382,
+          "fat_g": 15,
+          "protein_g": 4,
+          "carbs_g": 60,
+          "cholesterol_mg": 36,
+          "sodium_mg": 198
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 76)"
+        ]
+      }
+    },
+    {
+      "id": "busy-day-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Busy-Day Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 77",
+      "description": "Stir up this one-layer cake in only minutes with easy-to-keep-on-hand ingredients.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "25-30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Broiled Coconut Topping",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 90, optional"
+        },
+        {
+          "item": "whipped cream and fresh fruit",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, and baking powder. Add milk, margarine or butter, egg, and vanilla."
+        },
+        {
+          "step": 2,
+          "text": "Beat with an electric mixer on low speed till combined. Beat on medium speed for 1 minute."
+        },
+        {
+          "step": 3,
+          "text": "Pour batter into a greased and floured 8x1-1/2-inch round baking pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 25 to 30 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Frost warm cake with Broiled Coconut Topping, if desired. Or, cool in the pan on a wire rack for 5 minutes. Remove cake from pan. Cool thoroughly. Serve with whipped cream and fresh fruit, if desired."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "8x1-1/2-inch round baking pan",
+      "notes": [
+        "EASY recipe",
+        "Microwave directions available"
+      ],
+      "tags": [
+        "cake",
+        "one-layer",
+        "easy",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 231,
+          "fat_g": 9.3,
+          "protein_g": 3.8,
+          "carbs_g": 34.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 2 for Broiled Coconut Topping (standard quantity)",
+          "Assumed 1 unit for whipped cream and fresh fruit",
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "yellow-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Yellow Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 77",
+      "description": "Delicious with just a dusting of powdered sugar.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "25-30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, and baking powder. Add milk, margarine, and vanilla."
+        },
+        {
+          "step": 2,
+          "text": "Beat with an electric mixer on low speed till combined. Beat on high speed for 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs and beat 2 minutes more. Pour into 2 greased and floured 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 375\u00b0 oven for 25 to 30 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Cool on wire racks for 10 minutes. Remove from pans. Cool thoroughly on racks."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "two 9x1-1/2-inch round baking pans",
+      "notes": [],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "yellow-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 340,
+          "fat_g": 9,
+          "protein_g": 5,
+          "carbs_g": 59,
+          "cholesterol_mg": 48,
+          "sodium_mg": 192
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 77)"
+        ]
+      }
+    },
+    {
+      "id": "white-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "White Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 78",
+      "description": "Buttermilk flavors this light, tender cake.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2-1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening, margarine, or butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg whites",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and 1/2 teaspoon salt. Add buttermilk, shortening, and vanilla."
+        },
+        {
+          "step": 2,
+          "text": "Beat with an electric mixer on low speed for 30 seconds, scraping bowl. Beat on medium to high speed for 2 minutes, scraping bowl occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Add egg whites and beat for 2 minutes more, scraping bowl."
+        },
+        {
+          "step": 4,
+          "text": "Pour into 2 greased and floured 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on wire racks for 10 minutes. Loosen sides. Remove from pans. Cool thoroughly on wire racks."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 9x1-1/2-inch round baking pans",
+      "notes": [],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "white-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5243 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 313,
+          "fat_g": 9,
+          "protein_g": 3,
+          "carbs_g": 56,
+          "cholesterol_mg": 1,
+          "sodium_mg": 138
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 78)"
+        ]
+      }
+    },
+    {
+      "id": "spice-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spice Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 78",
+      "description": "One of our taste testers exclaimed, 'It's perfect!'",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, cinnamon, nutmeg, cloves, and ginger."
+        },
+        {
+          "step": 2,
+          "text": "Add buttermilk or sour milk, margarine or butter, shortening, and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low to medium speed till combined. Beat 2 minutes on high speed. Add eggs and beat 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into a greased 13x9x2-inch baking pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on a wire rack."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9x2-inch baking pan",
+      "notes": [],
+      "tags": [
+        "cake",
+        "spice-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5243 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 321,
+          "fat_g": 14,
+          "protein_g": 4,
+          "carbs_g": 44,
+          "cholesterol_mg": 113,
+          "sodium_mg": 143
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 78)"
+        ]
+      }
+    },
+    {
+      "id": "banana-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Banana Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 81",
+      "description": "A moist cake made with ripe bananas.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1-1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mashed ripe banana",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and 1/2 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add banana, buttermilk, shortening, eggs, and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low speed till combined. Beat on medium speed for 3 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into 2 greased and floured 8x1-1/2- or 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on racks for 10 minutes. Remove from pans; cool on racks."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1-1/2- or 9x1-1/2-inch round baking pans",
+      "notes": [],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "banana"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5246 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 1.7,
+          "protein_g": 3.6,
+          "carbs_g": 35.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "german-chocolate-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "German Chocolate Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 81",
+      "description": "A rich chocolate cake made with German sweet cooking chocolate.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-40 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "German sweet cooking chocolate",
+          "quantity": "1",
+          "unit": "4-ounce package",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-2/3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1-1/3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened, or shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Coconut-Pecan Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 90"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine chocolate and 1/3 cup water; cook and stir over low heat till melted. Cool."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl combine flour, sugar, baking powder, soda, and 1/8 teaspoon salt."
+        },
+        {
+          "step": 3,
+          "text": "Add chocolate mixture, milk, margarine, and vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Beat with an electric mixer on low to medium speed till combined. Beat on high speed for 2 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add eggs and beat 2 minutes more. Pour into 2 greased and floured 8x1-1/2- or 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven for 30 to 40 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 7,
+          "text": "Cool on racks 10 minutes. Remove from pans. Cool on racks. Frost with Coconut-Pecan Frosting."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1-1/2- or 9x1-1/2-inch round baking pans",
+      "notes": [
+        "Frost with Coconut-Pecan Frosting (page 90)"
+      ],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "chocolate",
+        "german-chocolate"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5246 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 167,
+          "fat_g": 5.0,
+          "protein_g": 3.4,
+          "carbs_g": 27.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for Coconut-Pecan Frosting",
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "one-layer-chocolate-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "One-Layer Chocolate Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 81",
+      "description": "Just the right size for one meal and a few snacks.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, cocoa powder, baking powder, baking soda, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add milk, shortening, and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low speed till combined. Beat on medium speed for 2 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add egg and beat 2 minutes more. Pour into a greased and floured 9x1-1/2-inch round baking pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on a rack for 10 minutes. Remove from pan. Cool thoroughly on a rack."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x1-1/2-inch round baking pan",
+      "notes": [
+        "EASY recipe",
+        "Microwave directions available"
+      ],
+      "tags": [
+        "cake",
+        "one-layer",
+        "chocolate",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5246 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 181,
+          "fat_g": 2.0,
+          "protein_g": 3.2,
+          "carbs_g": 38.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fudge-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fudge Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 82",
+      "description": "Satisfy those chocolate cravings with this luscious layer cake.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1-3/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened chocolate",
+          "quantity": "3",
+          "unit": "squares (3 ounces)",
+          "prep_note": "melted and cooled"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and salt."
+        },
+        {
+          "step": 2,
+          "text": "Add water, shortening, and vanilla. Beat with an electric mixer on low to medium speed till combined. Beat on high speed for 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs and melted chocolate; beat 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into 2 greased and floured 8x1-1/2- or 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on wire racks for 10 minutes. Remove cakes from the pans. Cool thoroughly on wire racks."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1-1/2- or 9x1-1/2-inch round baking pans",
+      "notes": [],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "chocolate",
+        "fudge"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5247 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 196,
+          "fat_g": 3.8,
+          "protein_g": 3.7,
+          "carbs_g": 36.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "black-forest-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Black Forest Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 82",
+      "description": "This traditional German dessert is a wonderful combination of chocolate and cherries.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Fudge Cake",
+          "quantity": "1",
+          "unit": "recipe",
+          "prep_note": "see recipe, left"
+        },
+        {
+          "item": "Choose-a-Fruit Filling (cherry option)",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 90"
+        },
+        {
+          "item": "Chocolate Butter Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 89"
+        },
+        {
+          "item": "whipped cream",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "chocolate shavings",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare Fudge Cake; cool thoroughly. Prepare Choose-a-Fruit Filling using cherries; chill well. Prepare Chocolate Butter Frosting."
+        },
+        {
+          "step": 2,
+          "text": "Place one cake layer on a serving plate. Using 1 cup of the frosting, make a border around the edge of the layer 1/2 inch wide and 1 inch high."
+        },
+        {
+          "step": 3,
+          "text": "Using 1/4 cup more of the frosting, make a solid circle in the center of cake layer about 2-1/2 inches in diameter and 1 inch high."
+        },
+        {
+          "step": 4,
+          "text": "Spread the chilled filling between the frosting border and the circle."
+        },
+        {
+          "step": 5,
+          "text": "Place second cake layer on top. Frost with remaining frosting. If desired, garnish with dollops of whipped cream and chocolate shavings."
+        },
+        {
+          "step": 6,
+          "text": "Chill. Let stand at room temperature 20 minutes before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Chill before serving",
+        "Let stand at room temperature 20 minutes before serving"
+      ],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "chocolate",
+        "cherry",
+        "german",
+        "black-forest"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5247 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 2.8,
+          "protein_g": 0.5,
+          "carbs_g": 4.2
+        },
+        "missing_inputs": [
+          "Not in database: Fudge Cake",
+          "Not in database: Choose-a-Fruit Filling (cherry option)"
+        ],
+        "assumptions": [
+          "Inferred 2 for Chocolate Butter Frosting (standard quantity)",
+          "Assumed 1 unit for whipped cream",
+          "Assumed 1 unit for chocolate shavings",
+          "Based on 3/5 ingredients (60% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "devils-food-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Devil's Food Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 83",
+      "description": "A classic rich chocolate layer cake.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, cocoa powder, baking soda, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add milk, shortening, and vanilla. Beat with an electric mixer on low speed till combined. Beat on high speed for 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs and beat 2 minutes more. Pour into 2 greased and floured 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Cool on racks 10 minutes. Remove from pans. Cool on racks."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 9x1-1/2-inch round baking pans",
+      "notes": [],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "chocolate",
+        "devils-food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5248 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 235,
+          "fat_g": 2.3,
+          "protein_g": 3.9,
+          "carbs_g": 50.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "sponge-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sponge Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 84",
+      "description": "A hint of orange accents this moist, tender cake.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "55-60 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "egg yolks",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "orange juice or pineapple juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "egg whites",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat egg yolks with an electric mixer on high speed about 5 minutes or till thick and lemon colored."
+        },
+        {
+          "step": 2,
+          "text": "Add orange peel, juice, and vanilla. Beat at low speed till combined. Gradually beat in the 1 cup sugar at low speed. Increase to medium speed; beat till mixture thickens slightly and doubles in volume (about 5 minutes total)."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle 1/4 cup flour over yolk mixture; fold in till combined. Repeat with remaining flour, 1/4 cup at a time. Set yolk mixture aside."
+        },
+        {
+          "step": 4,
+          "text": "Thoroughly wash beaters. In a large bowl beat egg whites and cream of tartar at medium speed till soft peaks form (tips curl). Gradually add the 1/2 cup sugar, beating at high speed till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 5,
+          "text": "Fold 1 cup of the beaten egg white mixture into the yolk mixture; fold yolk mixture into remaining white mixture. Pour into an ungreased 10-inch tube pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 325\u00b0 oven for 55 to 60 minutes or till cake springs back when lightly touched near center."
+        },
+        {
+          "step": 7,
+          "text": "Immediately invert cake (leave in pan); cool thoroughly. Loosen sides of cake from pan; remove cake from pan."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "10-inch tube pan",
+      "notes": [
+        "Do not grease pan",
+        "Invert immediately after baking to cool"
+      ],
+      "tags": [
+        "cake",
+        "sponge-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5249 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 198,
+          "fat_g": 5,
+          "protein_g": 5,
+          "carbs_g": 30,
+          "cholesterol_mg": 36,
+          "sodium_mg": 162
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 84)"
+        ]
+      }
+    },
+    {
+      "id": "jelly-roll",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Jelly Roll",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 86",
+      "description": "Make a yule log by using apricot jam. Frost with chocolate frosting and draw bark lines with a fork. Pumpkin Cake Roll is pictured below right.",
+      "servings_yield": "10 servings",
+      "prep_time": "",
+      "cook_time": "12-15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "for yolk mixture"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "for whites"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for towel"
+        },
+        {
+          "item": "jelly or jam",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine flour and baking powder; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a mixing bowl beat egg yolks and vanilla with an electric mixer on high speed for 5 minutes or till thick and lemon colored. Gradually add the 1/3 cup sugar, beating on high speed till sugar is nearly dissolved."
+        },
+        {
+          "step": 3,
+          "text": "Thoroughly wash beaters. In another bowl beat egg whites on medium speed till soft peaks form (tips curl). Gradually add the 1/2 cup sugar, beating till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 4,
+          "text": "Fold yolk mixture into beaten egg whites. Sprinkle flour mixture over egg mixture; fold in gently just till combined."
+        },
+        {
+          "step": 5,
+          "text": "Spread batter evenly into a greased and floured 15x10x1-inch jelly-roll pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 375\u00b0 oven for 12 to 15 minutes or till cake springs back when lightly touched near center."
+        },
+        {
+          "step": 7,
+          "text": "Immediately loosen edges of cake from pan and turn cake out onto a towel sprinkled with powdered sugar. Roll up towel and cake, jelly-roll style, starting from one of the cake's short sides."
+        },
+        {
+          "step": 8,
+          "text": "Cool on a rack. Unroll cake; remove towel. Spread cake with jelly or jam to within 1 inch of edges. Roll up cake."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "15x10x1-inch jelly-roll pan",
+      "notes": [
+        "Roll while warm, then cool, then unroll to fill"
+      ],
+      "tags": [
+        "cake",
+        "jelly-roll",
+        "rolled-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5251 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 192,
+          "fat_g": 4.1,
+          "protein_g": 5.5,
+          "carbs_g": 33.6
+        },
+        "missing_inputs": [
+          "Not in database: jelly or jam"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for sifted powdered sugar (standard quantity)",
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "apricot-upside-down-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Apricot Upside-Down Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 76",
+      "description": "Upside-down cake variation with apricots or peaches and coconut.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "apricot halves or peach slices",
+          "quantity": "1",
+          "unit": "8-1/2-ounce can",
+          "prep_note": "drained and halved"
+        },
+        {
+          "item": "toasted coconut",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Batter for Busy-Day Cake",
+          "quantity": "1",
+          "unit": "recipe",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare as for Pineapple Upside-Down Cake, except substitute one 8-1/2-ounce can apricot halves, drained and halved, or peach slices, drained, and 2 tablespoons toasted coconut for the pineapple and cherries."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x1-1/2-inch round baking pan",
+      "notes": [
+        "Variation of Pineapple Upside-Down Cake"
+      ],
+      "tags": [
+        "cake",
+        "upside-down-cake",
+        "apricot",
+        "peach"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5241 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 0.6,
+          "protein_g": 0.2,
+          "carbs_g": 11.1
+        },
+        "missing_inputs": [
+          "Not in database: Batter for Busy-Day Cake"
+        ],
+        "assumptions": [
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pear-raisin-upside-down-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pear-Raisin Upside-Down Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 76",
+      "description": "Upside-down cake variation with pears and raisins.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pear slices",
+          "quantity": "1",
+          "unit": "8-1/2-ounce can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "raisins",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Batter for Busy-Day Cake",
+          "quantity": "1",
+          "unit": "recipe",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare as for Pineapple Upside-Down Cake, except substitute one 8-1/2-ounce can pear slices, drained, and 2 tablespoons raisins for the pineapple and cherries."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x1-1/2-inch round baking pan",
+      "notes": [
+        "Variation of Pineapple Upside-Down Cake"
+      ],
+      "tags": [
+        "cake",
+        "upside-down-cake",
+        "pear",
+        "raisin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5241 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 286,
+          "fat_g": 10,
+          "protein_g": 4,
+          "carbs_g": 45,
+          "cholesterol_mg": 36,
+          "sodium_mg": 199
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 76)"
+        ]
+      }
+    },
+    {
+      "id": "spiced-pecan-busy-day-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Pecan Busy-Day Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 77",
+      "description": "A spiced variation of Busy-Day Cake with pecans, walnuts, or peanuts.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "25-30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg or allspice",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pecans, walnuts, or peanuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare as for Busy-Day Cake, except add 1/4 teaspoon ground nutmeg or allspice with the flour."
+        },
+        {
+          "step": 2,
+          "text": "Stir in 1/2 cup chopped pecans, walnuts, or peanuts after beating."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "8x1-1/2-inch round baking pan",
+      "notes": [
+        "Variation of Busy-Day Cake"
+      ],
+      "tags": [
+        "cake",
+        "one-layer",
+        "spiced",
+        "pecan"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 6.5,
+          "protein_g": 4.2,
+          "carbs_g": 32.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "wheat-and-raisin-busy-day-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wheat and Raisin Busy-Day Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 77",
+      "description": "A whole wheat variation of Busy-Day Cake with raisins or dates.",
+      "servings_yield": "8 servings",
+      "prep_time": "",
+      "cook_time": "25-30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "reduced"
+        },
+        {
+          "item": "whole wheat flour",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins or snipped pitted whole dates",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare as for Busy-Day Cake, except reduce all-purpose flour to 1 cup and add 1/3 cup whole wheat flour to flour mixture."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle 1/4 cup raisins or snipped pitted whole dates atop batter in the baking pan."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "8x1-1/2-inch round baking pan",
+      "notes": [
+        "Variation of Busy-Day Cake"
+      ],
+      "tags": [
+        "cake",
+        "one-layer",
+        "whole-wheat",
+        "raisin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 185,
+          "fat_g": 1.9,
+          "protein_g": 3.9,
+          "carbs_g": 38.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "citrus-yellow-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Citrus Yellow Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 77",
+      "description": "Yellow cake with orange or lemon peel, filled with Lemon Filling.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "25-30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "finely shredded orange peel or finely shredded lemon peel",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Lemon Filling",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 90"
+        },
+        {
+          "item": "Lemon or Orange Butter Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 89"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare as for Yellow Cake, except add 2 teaspoons finely shredded orange peel or 1 teaspoon finely shredded lemon peel to the flour mixture."
+        },
+        {
+          "step": 2,
+          "text": "Fill with Lemon Filling (see recipe, page 90) and frost with Lemon or Orange Butter Frosting (see recipe, page 89), if desired."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "two 9x1-1/2-inch round baking pans",
+      "notes": [
+        "Variation of Yellow Cake"
+      ],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "yellow-cake",
+        "citrus",
+        "lemon",
+        "orange"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 290,
+          "fat_g": 4.2,
+          "protein_g": 5.0,
+          "carbs_g": 58.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for Lemon Filling",
+          "Inferred 2 for Lemon or Orange Butter Frosting (standard quantity)",
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "carrot-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Carrot Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 79",
+      "description": "To match the picture on page 73, frost with Cream Cheese Frosting (see recipe, page 88) and top with walnut halves and strips of orange peel.",
+      "servings_yield": "12 to 15 servings",
+      "prep_time": "",
+      "cook_time": "30-35 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "finely shredded carrot",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and cinnamon."
+        },
+        {
+          "step": 2,
+          "text": "Add carrot, oil, and eggs. Beat with an electric mixer till combined."
+        },
+        {
+          "step": 3,
+          "text": "Pour into 2 greased and floured 9x1-1/2-inch round baking pans."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Cool on wire racks for 10 minutes. Remove cakes from pans. Cool thoroughly on racks."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 9x1-1/2-inch round baking pans",
+      "notes": [
+        "Frost with Cream Cheese Frosting (page 88)"
+      ],
+      "tags": [
+        "cake",
+        "layer-cake",
+        "carrot-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5244 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 252,
+          "fat_g": 3.1,
+          "protein_g": 4.5,
+          "carbs_g": 52.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "gingerbread",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Gingerbread",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 80",
+      "description": "A moist, spiced cake with molasses flavor.",
+      "servings_yield": "9 servings",
+      "prep_time": "",
+      "cook_time": "35-40 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "light molasses",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, brown sugar, cinnamon, ginger, baking powder, and baking soda."
+        },
+        {
+          "step": 2,
+          "text": "Add shortening, molasses, egg, and 1/2 cup water. Beat with an electric mixer on low to medium speed till combined. Beat on high speed for 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Pour into a greased and floured 8x8x2-inch baking pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 35 to 40 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Cool on a rack 10 minutes. Remove from pan; serve warm."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "8x8x2-inch baking pan",
+      "notes": [
+        "Microwave directions available"
+      ],
+      "tags": [
+        "cake",
+        "gingerbread",
+        "spiced",
+        "molasses"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5245 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 3,
+          "protein_g": 1,
+          "carbs_g": 12,
+          "cholesterol_mg": 27,
+          "sodium_mg": 8
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pound-cake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pound Cake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 83",
+      "description": "Pound cake originally was made with a pound each of butter, sugar, eggs, and flour. We cut the recipe but kept the rich flavor.",
+      "servings_yield": "12 servings",
+      "prep_time": "",
+      "cook_time": "55-65 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Powdered Sugar Icing",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 88, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring butter and eggs to room temperature. In a mixing bowl stir together flour, baking powder, and, if desired, nutmeg."
+        },
+        {
+          "step": 2,
+          "text": "In another bowl beat butter with an electric mixer on medium speed for 30 seconds."
+        },
+        {
+          "step": 3,
+          "text": "Gradually add sugar to butter, 2 tablespoons at a time, beating on medium to high speed about 6 minutes total or till very light and fluffy. Add vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Add eggs, one at a time, beating 1 minute after each addition, scraping bowl often."
+        },
+        {
+          "step": 5,
+          "text": "Gradually add flour mixture to butter mixture, beating on low to medium speed just till combined."
+        },
+        {
+          "step": 6,
+          "text": "Pour batter into a greased and floured 9x5x3-inch loaf pan."
+        },
+        {
+          "step": 7,
+          "text": "Bake in a 325\u00b0 oven for 55 to 65 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 8,
+          "text": "Cool on a wire rack for 10 minutes. Remove cake from pan. Cool thoroughly on a wire rack. Drizzle Powdered Sugar Icing over cake, if desired."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "9x5x3-inch loaf pan",
+      "notes": [
+        "Bring butter and eggs to room temperature before starting"
+      ],
+      "tags": [
+        "cake",
+        "pound-cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5248 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 370,
+          "fat_g": 21,
+          "protein_g": 5,
+          "carbs_g": 40,
+          "cholesterol_mg": 93,
+          "sodium_mg": 180
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 83)"
+        ]
+      }
+    },
+    {
+      "id": "pumpkin-cake-roll",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pumpkin Cake Roll",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 86",
+      "description": "A spiced pumpkin cake rolled with cream cheese frosting.",
+      "servings_yield": "10 servings",
+      "prep_time": "",
+      "cook_time": "12-15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pumpkin pie spice",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "for yolk mixture"
+        },
+        {
+          "item": "canned pumpkin",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg whites",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "for whites"
+        },
+        {
+          "item": "Cream Cheese Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 88"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare as for Jelly Roll, except add 2 teaspoons pumpkin pie spice to flour mixture and stir 1/2 cup canned pumpkin into egg yolk and sugar mixture."
+        },
+        {
+          "step": 2,
+          "text": "Fill with Cream Cheese Frosting (see recipe, page 88). Roll up cake."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle with sifted powdered sugar."
+        },
+        {
+          "step": 4,
+          "text": "*Note: For another filling, try 2 cups softened ice cream. Freeze ice-cream-filled roll."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "15x10x1-inch jelly-roll pan",
+      "notes": [
+        "Variation of Jelly Roll",
+        "Can fill with ice cream and freeze"
+      ],
+      "tags": [
+        "cake",
+        "jelly-roll",
+        "rolled-cake",
+        "pumpkin",
+        "fall"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5251 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 7,
+          "protein_g": 2,
+          "carbs_g": 17,
+          "cholesterol_mg": 213,
+          "sodium_mg": 85
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 86)"
+        ]
+      }
+    },
+    {
+      "id": "fruitcake",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruitcake",
+      "category": "cakes",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 87",
+      "description": "A traditional fruitcake with candied fruits, nuts, and molasses. Store in refrigerator for 2 to 8 weeks to mellow flavors.",
+      "servings_yield": "16 servings",
+      "prep_time": "",
+      "cook_time": "1-1/4 to 1-1/2 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground allspice",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "diced mixed candied fruits and peels, or snipped mixed dried fruit",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins or snipped pitted dates",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "candied red or green cherries, quartered",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pecans, walnuts, or toasted slivered almonds",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "orange juice or apple juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter, melted",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "light molasses",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "brandy or fruit juice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for wrapping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grease an 8x4x2-inch loaf pan. Line bottom and sides of pan with brown paper to prevent overbrowning; grease paper."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl combine flour, cinnamon, baking powder, baking soda, nutmeg, allspice, and cloves. Add fruits and peels, raisins, cherries, and nuts; mix well."
+        },
+        {
+          "step": 3,
+          "text": "Beat eggs; stir in sugar, juice, margarine, and molasses till combined. Stir into fruit mixture."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into pan. Bake in a 300\u00b0 oven for 1-1/4 to 1-1/2 hours or till a toothpick inserted near the center comes out clean. (Cover pan loosely with foil after 1 hour of baking to prevent overbrowning.)"
+        },
+        {
+          "step": 5,
+          "text": "Cool in pan on rack. Remove from pan. Wrap cake in brandy- or fruit-juice-moistened cheesecloth. Overwrap with foil."
+        },
+        {
+          "step": 6,
+          "text": "Store in the refrigerator for 2 to 8 weeks to mellow flavors. Remoisten cheesecloth about once a week, or as needed."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "pan_size": "8x4x2-inch loaf pan",
+      "notes": [
+        "Store in refrigerator 2-8 weeks to mellow flavors",
+        "Remoisten cheesecloth weekly"
+      ],
+      "tags": [
+        "cake",
+        "fruitcake",
+        "holiday",
+        "christmas"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5252 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 142,
+          "fat_g": 3.3,
+          "protein_g": 2.4,
+          "carbs_g": 25.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for brandy or fruit juice",
+          "Based on 17/17 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pineapple-upside-down-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pineapple Upside-Down Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 76",
+      "servings_yield": "Serves 8",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x1 1/2-inch round baking pan",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "pineapple slices, drained and halved",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "1 can"
+        },
+        {
+          "item": "maraschino cherries, halved",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "Batter for Busy-Day Cake",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, opposite"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt margarine in a 9x1 1/2-inch round baking pan."
+        },
+        {
+          "step": 2,
+          "text": "Stir in sugar and 1 tablespoon water. Arrange pineapple and cherries in the pan."
+        },
+        {
+          "step": 3,
+          "text": "Prepare batter for Busy-Day Cake; spoon into the pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Cool on a wire rack for 5 minutes. Loosen sides; invert onto a plate."
+        },
+        {
+          "step": 6,
+          "text": "Serve warm."
+        }
+      ],
+      "notes": [
+        "Apricot Upside-Down Cake: Prepare as above, except substitute one 8 1/2-ounce can apricot halves, drained and halved, or peach slices, drained, and 2 tablespoons toasted coconut for the pineapple and cherries.",
+        "Pear-Raisin Upside-Down Cake: Prepare as above, except substitute one 8 1/2-ounce can pear slices, drained, and 2 tablespoons raisins for the pineapple and cherries."
+      ],
+      "tags": [
+        "cake",
+        "pineapple",
+        "upside-down",
+        "fruit"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5241 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 0.3,
+          "protein_g": 0.9,
+          "carbs_g": 22.8
+        },
+        "missing_inputs": [
+          "Not in database: Batter for Busy-Day Cake"
+        ],
+        "assumptions": [
+          "Based on 4/5 ingredients (80% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "busy-day-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Busy-Day Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 77",
+      "description": "Stir up this one-layer cake in only minutes with easy-to-keep-on-hand ingredients.",
+      "servings_yield": "8 servings",
+      "cook_time": "25-30 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "8x1 1/2-inch round baking pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/3",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "Broiled Coconut Topping or whipped cream and fresh fruit (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, and baking powder. Add milk, margarine or butter, egg, and vanilla."
+        },
+        {
+          "step": 2,
+          "text": "Beat with an electric mixer on low speed till combined. Beat on medium speed for 1 minute."
+        },
+        {
+          "step": 3,
+          "text": "Pour batter into a greased and floured 8x1 1/2-inch round baking pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 25 to 30 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 5,
+          "text": "Frost warm cake with Broiled Coconut Topping, if desired. Or, cool in the pan on a wire rack for 5 minutes. Remove cake from pan. Cool thoroughly."
+        },
+        {
+          "step": 6,
+          "text": "Serve with whipped cream and fresh fruit, if desired."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Prepare batter as above, except increase margarine or butter to 1/3 cup. Grease an 8x1 1/2-inch round baking dish; line bottom of dish with waxed paper. Pour batter into dish. Micro-cook, uncovered, on 50% power (medium) for 10 minutes, giving the dish a quarter-turn every 3 minutes. If not done, cook on 100% power (high) for 30 seconds to 2 minutes more or till surface is nearly dry. Cool on a wire rack for 5 minutes. Loosen, then invert onto a wire rack; remove waxed paper. If desired, place cake on a baking sheet and frost with Broiled Coconut Topping (do not put baking dish under broiler). Or, cool cake thoroughly. Serve with whipped cream and fruit, if desired.",
+        "Spiced Pecan Busy-Day Cake: Prepare as above, except add 1/4 teaspoon ground nutmeg or allspice with the flour. Stir in 1/2 cup chopped pecans, walnuts, or peanuts after beating.",
+        "Wheat and Raisin Busy-Day Cake: Prepare as above, except reduce all-purpose flour to 1 cup and add 1/3 cup whole wheat flour to flour mixture. Sprinkle 1/4 cup raisins or snipped pitted whole dates atop batter in the baking pan."
+      ],
+      "tags": [
+        "cake",
+        "one-layer",
+        "quick",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 178,
+          "fat_g": 3.3,
+          "protein_g": 3.6,
+          "carbs_g": 33.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 2 for Broiled Coconut Topping or whipped cream and fresh fruit (optional) (standard quantity)",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "yellow-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Yellow Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 77",
+      "description": "Delicious with just a dusting of powdered sugar.",
+      "servings_yield": "Serves 12",
+      "cook_time": "25-30 minutes",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "two 9x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, and baking powder."
+        },
+        {
+          "step": 2,
+          "text": "Add milk, margarine, and vanilla. Beat with an electric mixer on low speed till combined."
+        },
+        {
+          "step": 3,
+          "text": "Beat on high speed for 2 minutes. Add eggs and beat 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Pour into 2 greased and floured 9x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 375\u00b0 oven for 25 to 30 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on wire racks for 10 minutes. Remove from pans. Cool thoroughly on racks."
+        }
+      ],
+      "notes": [
+        "Citrus Yellow Cake: Prepare as above, except add 2 teaspoons finely shredded orange peel or 1 teaspoon finely shredded lemon peel to the flour mixture. Fill with Lemon Filling (see recipe, page 90) and frost with Lemon or Orange Butter Frosting (see recipe, page 89), if desired."
+      ],
+      "tags": [
+        "cake",
+        "yellow cake",
+        "layer cake",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5242 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 275,
+          "fat_g": 2.4,
+          "protein_g": 5.1,
+          "carbs_g": 58.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "white-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "White Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 78",
+      "description": "Buttermilk flavors this light, tender cake.",
+      "servings_yield": "Serves 12",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 9x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "shortening, margarine, or butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "4",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and 1/2 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add buttermilk, shortening, and vanilla. Beat with an electric mixer on low speed for 30 seconds, scraping bowl."
+        },
+        {
+          "step": 3,
+          "text": "Beat on medium to high speed for 2 minutes, scraping bowl occasionally."
+        },
+        {
+          "step": 4,
+          "text": "Add egg whites and beat for 2 minutes more, scraping bowl."
+        },
+        {
+          "step": 5,
+          "text": "Pour into 2 greased and floured 9x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 7,
+          "text": "Cool on wire racks for 10 minutes. Loosen sides. Remove from pans. Cool thoroughly on wire racks."
+        }
+      ],
+      "notes": [
+        "Lady Baltimore Cake: Prepare as above. Prepare Seven-Minute Frosting (see recipe, page 87). For filling, combine one-fourth of the frosting, 1/3 cup chopped candied cherries, 1/2 cup chopped pecans, and 1/2 cup snipped pitted whole dates, chopped figs, or raisins. Spread filling between layers. Frost with remaining frosting.",
+        "Petits Fours: Prepare as above, except pour batter into a greased and floured 13x9x2-inch baking pan. Bake in a 350\u00b0 oven for 40 to 45 minutes or till a toothpick inserted near the center comes out clean. Cool on a wire rack for 10 minutes; remove from pan. Cool thoroughly. Prepare Petits Fours Icing (see recipe, page 88). Trim sides of cake to make smooth, straight edges. Cut cake into 1 1/2-inch squares, diamonds, or circles. With fingertips, brush off crumbs. Place cake pieces on wire racks over waxed paper. Insert a 2- or 3-prong long-handled fork into the side of one cake piece. Holding cake over icing, spoon on enough icing to cover sides and top. Place on a wire rack. Repeat with remaining cake pieces. (Sides of pieces should not touch.) Let dry 15 minutes. Repeat for a second coat of icing, except place cake pieces atop prongs of the fork (do not spear). Repeat for a third layer of icing, if desired. Reuse the icing from the waxed paper, straining crumbs, if necessary. Makes 36 to 40."
+      ],
+      "tags": [
+        "cake",
+        "white cake",
+        "layer cake",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5243 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 255,
+          "fat_g": 2.7,
+          "protein_g": 5.4,
+          "carbs_g": 52.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "spice-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spice Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 78",
+      "description": "One of our taste testers exclaimed, 'It's perfect!'",
+      "servings_yield": "12 servings",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9x2-inch baking pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, cinnamon, nutmeg, cloves, and ginger."
+        },
+        {
+          "step": 2,
+          "text": "Add buttermilk or sour milk, margarine or butter, shortening, and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low to medium speed till combined."
+        },
+        {
+          "step": 4,
+          "text": "Beat 2 minutes on high speed. Add eggs and beat 2 minutes more."
+        },
+        {
+          "step": 5,
+          "text": "Pour batter into a greased 13x9x2-inch baking pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 7,
+          "text": "Cool on a wire rack."
+        }
+      ],
+      "notes": [
+        "Nutmeg Cake: Prepare as above, except omit cinnamon, cloves, and ginger. Increase nutmeg to 1 1/2 teaspoons.",
+        "Applesauce Spice Cake: Prepare as above, except reduce buttermilk or sour milk to 1/4 cup and add 1 cup applesauce."
+      ],
+      "tags": [
+        "cake",
+        "spice cake",
+        "cinnamon",
+        "nutmeg"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5243 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 203,
+          "fat_g": 2.1,
+          "protein_g": 4.3,
+          "carbs_g": 41.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 13/13 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "pumpkin-molasses-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pumpkin-Molasses Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 79",
+      "description": "Complement the flavor of this moist cake with Lemon Butter Frosting (see recipe, page 89).",
+      "servings_yield": "Serves 12",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9x2-inch baking pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening, margarine, or butter, softened",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "canned pumpkin or mashed cooked sweet potato",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "light molasses",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, brown sugar, baking powder, baking soda, cinnamon, and ginger."
+        },
+        {
+          "step": 2,
+          "text": "Add buttermilk, shortening, pumpkin or sweet potato, molasses, and orange peel."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low to medium speed till combined."
+        },
+        {
+          "step": 4,
+          "text": "Beat on high speed for 2 minutes. Add eggs and beat 2 minutes more."
+        },
+        {
+          "step": 5,
+          "text": "Pour into a greased 13x9x2-inch baking pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 7,
+          "text": "Cool on a wire rack."
+        }
+      ],
+      "tags": [
+        "cake",
+        "pumpkin",
+        "molasses",
+        "fall",
+        "spice"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5244 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 228,
+          "fat_g": 1.8,
+          "protein_g": 4.3,
+          "carbs_g": 49.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 12/12 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "date-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Date Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 80",
+      "description": "Don't worry about letting this light cake cool thoroughly. It's delicious served warm.",
+      "servings_yield": "Serves 12",
+      "cook_time": "35-40 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9x2-inch baking pan",
+      "ingredients": [
+        {
+          "item": "pitted whole dates, snipped",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one 8-ounce package (1 1/2 cups)"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine one 8-ounce package (1 1/2 cups) pitted whole dates, snipped, and 1 cup boiling water; cool to room temperature (about 1 hour). Do not drain."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl combine 1 1/2 cups all-purpose flour, 1 cup sugar, 2 teaspoons baking powder, 1/2 teaspoon baking soda, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 3,
+          "text": "Add date mixture, 1/2 cup shortening, 2 eggs, and 1 teaspoon vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Beat with an electric mixer on low to medium speed till combined. Beat on high speed for 3 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Stir in 1 cup chopped nuts."
+        },
+        {
+          "step": 6,
+          "text": "Pour into a greased 13x9x2-inch baking pan."
+        },
+        {
+          "step": 7,
+          "text": "Bake in a 350\u00b0 oven for 35 to 40 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 8,
+          "text": "Cool on a wire rack. Serve with whipped cream, if desired."
+        }
+      ],
+      "tags": [
+        "cake",
+        "date",
+        "nuts"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5245 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 239,
+          "fat_g": 7.6,
+          "protein_g": 4.5,
+          "carbs_g": 39.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "banana-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Banana Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 81",
+      "servings_yield": "Serves 12",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1 1/2-inch or 9x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "mashed ripe banana",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and 1/2 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add banana, buttermilk, shortening, eggs, and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low speed till combined."
+        },
+        {
+          "step": 4,
+          "text": "Beat on medium speed for 3 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Pour batter into 2 greased and floured 8x1 1/2- or 9x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 7,
+          "text": "Cool on racks for 10 minutes. Remove from pans; cool on racks."
+        }
+      ],
+      "tags": [
+        "cake",
+        "banana",
+        "layer cake"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5246 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 1.7,
+          "protein_g": 3.6,
+          "carbs_g": 43.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "german-chocolate-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "German Chocolate Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 81",
+      "servings_yield": "Makes 12 servings",
+      "cook_time": "30-40 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1 1/2-inch or 9x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "German sweet cooking chocolate",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "1 package"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 2/3",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk or sour milk",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened, or shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "Coconut-Pecan Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 90"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine chocolate and 1/2 cup water; cook and stir over low heat till melted. Cool."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl combine flour, sugar, baking powder, soda, and 1/8 teaspoon salt."
+        },
+        {
+          "step": 3,
+          "text": "Add chocolate mixture, milk, margarine, and vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Beat with an electric mixer on low to medium speed till combined. Beat on high speed for 2 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add eggs and beat 2 minutes more."
+        },
+        {
+          "step": 6,
+          "text": "Pour into 2 greased and floured 8x1 1/2- or 9x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 7,
+          "text": "Bake in a 350\u00b0 oven for 30 to 40 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 8,
+          "text": "Cool on racks 10 minutes. Remove from pans. Cool on racks."
+        },
+        {
+          "step": 9,
+          "text": "Frost with Coconut-Pecan Frosting."
+        }
+      ],
+      "tags": [
+        "cake",
+        "chocolate",
+        "German chocolate",
+        "layer cake",
+        "coconut",
+        "pecan"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5246 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 4.7,
+          "protein_g": 4.1,
+          "carbs_g": 40.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for Coconut-Pecan Frosting",
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "one-layer-chocolate-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "One-Layer Chocolate Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 81",
+      "description": "Just the right size for one meal and a few snacks.",
+      "servings_yield": "Serves 8",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x1 1/2-inch round baking pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, cocoa powder, baking powder, baking soda, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add milk, shortening, and vanilla. Beat with an electric mixer on low speed till combined."
+        },
+        {
+          "step": 3,
+          "text": "Beat on medium speed for 2 minutes. Add egg and beat 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Pour into a greased and floured 9x1 1/2-inch round baking pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the center comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on a rack for 10 minutes. Remove from pan. Cool thoroughly on a rack."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Prepare batter as above, except substitute softened margarine or butter for shortening. Grease the bottom of a 2-quart ring mold, line with waxed paper. Pour batter into the mold. Micro-cook, uncovered, on 50% power (medium) for 10 minutes, giving dish a quarter-turn every 3 minutes. If not done, cook on 100% power (high) for 30 seconds to 2 minutes more or till surface is nearly dry. Cool on a wire rack for 5 minutes. Invert onto a plate; remove waxed paper. Cool.",
+        "One-Layer Mocha Cake: Prepare as above, except add 1 to 2 tablespoons instant coffee crystals to the milk; stir to dissolve.",
+        "One-Layer Peanut Butter and Chocolate Cake: Prepare as above, except reduce the shortening to 2 tablespoons and add 1/4 cup peanut butter to the flour mixture."
+      ],
+      "tags": [
+        "cake",
+        "chocolate",
+        "one-layer",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5246 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 181,
+          "fat_g": 2.0,
+          "protein_g": 3.2,
+          "carbs_g": 38.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fudge-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fudge Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 82",
+      "description": "Satisfy those chocolate cravings with this luscious layer cake.",
+      "servings_yield": "Makes 12 servings",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1 1/2-inch or 9x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "unsweetened chocolate, melted and cooled",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "3 squares (3 ounces)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, baking soda, and salt."
+        },
+        {
+          "step": 2,
+          "text": "Add water, shortening, and vanilla. Beat with an electric mixer on low to medium speed till combined."
+        },
+        {
+          "step": 3,
+          "text": "Beat on high speed for 2 minutes. Add eggs and melted chocolate; beat 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into 2 greased and floured 8x1 1/2- or 9x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick inserted near the centers comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on wire racks for 10 minutes. Remove cakes from the pans. Cool thoroughly on wire racks."
+        }
+      ],
+      "tags": [
+        "cake",
+        "chocolate",
+        "fudge",
+        "layer cake"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5247 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 210,
+          "fat_g": 1.9,
+          "protein_g": 3.2,
+          "carbs_g": 45.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "black-forest-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Black Forest Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 82",
+      "description": "This traditional German dessert is a wonderful combination of chocolate and cherries.",
+      "servings_yield": "Makes 12 servings",
+      "ingredients": [
+        {
+          "item": "Fudge Cake",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, left"
+        },
+        {
+          "item": "Choose-a-Fruit Filling (cherry option)",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 90"
+        },
+        {
+          "item": "Chocolate Butter Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 89"
+        },
+        {
+          "item": "whipped cream (optional)",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "chocolate shavings (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare Fudge Cake; cool thoroughly."
+        },
+        {
+          "step": 2,
+          "text": "Prepare Choose-a-Fruit Filling using cherries; chill well."
+        },
+        {
+          "step": 3,
+          "text": "Prepare Chocolate Butter Frosting."
+        },
+        {
+          "step": 4,
+          "text": "Place one cake layer on a serving plate. Using 1 cup of the frosting, make a border around the edge of the layer 1/2 inch wide and 1 inch high."
+        },
+        {
+          "step": 5,
+          "text": "Using 1/4 cup more of the frosting, make a solid circle in the center of cake layer about 2 1/2 inches in diameter and 1 inch high."
+        },
+        {
+          "step": 6,
+          "text": "Spread the chilled filling between the frosting border and the circle."
+        },
+        {
+          "step": 7,
+          "text": "Place second cake layer on top. Frost with remaining frosting."
+        },
+        {
+          "step": 8,
+          "text": "If desired, garnish with dollops of whipped cream and chocolate shavings."
+        },
+        {
+          "step": 9,
+          "text": "Chill. Let stand at room temperature 20 minutes before serving."
+        }
+      ],
+      "tags": [
+        "cake",
+        "chocolate",
+        "cherry",
+        "Black Forest",
+        "German",
+        "layer cake"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5247 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 2.8,
+          "protein_g": 0.5,
+          "carbs_g": 4.2
+        },
+        "missing_inputs": [
+          "Not in database: Fudge Cake",
+          "Not in database: Choose-a-Fruit Filling (cherry option)"
+        ],
+        "assumptions": [
+          "Inferred 2 for Chocolate Butter Frosting (standard quantity)",
+          "Assumed 1 unit for whipped cream (optional)",
+          "Assumed 1 unit for chocolate shavings (optional)",
+          "Based on 3/5 ingredients (60% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "devils-food-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Devil's Food Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 83",
+      "servings_yield": "Serves 12",
+      "cook_time": "30-35 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 9x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, cocoa powder, baking soda, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add milk, shortening, and vanilla. Beat with an electric mixer on low speed till combined."
+        },
+        {
+          "step": 3,
+          "text": "Beat on high speed for 2 minutes. Add eggs and beat 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Pour into 2 greased and floured 9x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake in a 350\u00b0 oven for 30 to 35 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool on racks 10 minutes. Remove from pans. Cool on racks."
+        }
+      ],
+      "notes": [
+        "Sour Cream Devil's Food Cake: Prepare as above, except reduce milk to 1 1/4 cups and add 1/2 cup dairy sour cream with the milk."
+      ],
+      "tags": [
+        "cake",
+        "chocolate",
+        "devil's food",
+        "layer cake"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5248 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 241,
+          "fat_g": 2.6,
+          "protein_g": 4.2,
+          "carbs_g": 50.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "sour-cream-pound-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sour Cream Pound Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 83",
+      "servings_yield": "Serves 10",
+      "cook_time": "60-75 minutes",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "8x4x2-inch or 9x5x3-inch loaf pan",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring 1/2 cup butter, 3 eggs, and 1/2 cup dairy sour cream to room temperature."
+        },
+        {
+          "step": 2,
+          "text": "Combine 1 1/2 cups all-purpose flour, 1/4 teaspoon baking powder, and 1/8 teaspoon baking soda."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl beat butter with an electric mixer on medium to high speed for 30 seconds."
+        },
+        {
+          "step": 4,
+          "text": "Gradually add 1 cup sugar, beating about 10 minutes or till very light and fluffy."
+        },
+        {
+          "step": 5,
+          "text": "Add 1/2 teaspoon vanilla. Add eggs, one at a time, beating 1 minute after each addition and scraping bowl often."
+        },
+        {
+          "step": 6,
+          "text": "Add flour mixture and sour cream to egg mixture alternately, beating on low to medium speed after each addition just till combined."
+        },
+        {
+          "step": 7,
+          "text": "Pour into a greased and floured 8x4x2- or 9x5x3-inch loaf pan."
+        },
+        {
+          "step": 8,
+          "text": "Bake in a 325\u00b0 oven for 60 to 75 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 9,
+          "text": "Cool on a rack 10 minutes. Remove from pan. Cool."
+        }
+      ],
+      "notes": [
+        "Lemon-Poppy-Seed Pound Cake: Prepare as above, except substitute 1/2 cup lemon yogurt for sour cream. Add 1 teaspoon finely shredded lemon peel, 2 tablespoons lemon juice, and 2 tablespoons poppy seed to batter.",
+        "Blueberry Sour Cream Pound Cake: Prepare as above, except gently fold 1/2 cup fresh or frozen blueberries into the batter."
+      ],
+      "tags": [
+        "cake",
+        "pound cake",
+        "sour cream"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5248 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 195,
+          "fat_g": 4.5,
+          "protein_g": 4.0,
+          "carbs_g": 34.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "sponge-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sponge Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 84",
+      "description": "A hint of orange accents this moist, tender cake.",
+      "servings_yield": "Makes 12 servings",
+      "cook_time": "55-60 minutes",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "10-inch tube pan",
+      "ingredients": [
+        {
+          "item": "egg yolks",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "orange juice or pineapple juice",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat yolks with an electric mixer on high speed about 5 minutes or till thick and lemon colored."
+        },
+        {
+          "step": 2,
+          "text": "Add orange peel, juice, and vanilla. Beat at low speed till combined."
+        },
+        {
+          "step": 3,
+          "text": "Gradually beat in the 1 cup sugar at low speed. Increase to medium speed; beat till mixture thickens slightly and doubles in volume (about 5 minutes total)."
+        },
+        {
+          "step": 4,
+          "text": "Sprinkle 1/4 cup flour over yolk mixture; fold in till combined. Repeat with remaining flour, 1/4 cup at a time. Set yolk mixture aside."
+        },
+        {
+          "step": 5,
+          "text": "Thoroughly wash beaters. In a large bowl beat egg whites and cream of tartar at medium speed till soft peaks form (tips curl)."
+        },
+        {
+          "step": 6,
+          "text": "Gradually add the 1/2 cup sugar, beating at high speed till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 7,
+          "text": "Fold 1 cup of the beaten egg white mixture into the yolk mixture; fold yolk mixture into remaining white mixture."
+        },
+        {
+          "step": 8,
+          "text": "Pour into an ungreased 10-inch tube pan."
+        },
+        {
+          "step": 9,
+          "text": "Bake in a 325\u00b0 oven for 55 to 60 minutes or till cake springs back when lightly touched near center."
+        },
+        {
+          "step": 10,
+          "text": "Immediately invert cake (leave in pan); cool thoroughly."
+        },
+        {
+          "step": 11,
+          "text": "Loosen sides of cake from pan; remove cake from pan."
+        }
+      ],
+      "notes": [
+        "Lemon or Lime Sponge Cake: Prepare as above, except substitute 2 teaspoons finely shredded lemon peel or lime peel for the orange peel and 1/4 cup lemon juice or lime juice plus 1/4 cup water for the orange juice or pineapple juice.",
+        "Chocolate Sponge Cake: Prepare cake as above, except omit orange peel. Reduce flour to 1 cup. Stir 1/3 cup unsweetened cocoa powder into the flour.",
+        "Almond Sponge Cake: Prepare as above, except omit shredded orange peel and add 1/2 teaspoon almond extract with the orange juice or pineapple juice."
+      ],
+      "tags": [
+        "cake",
+        "sponge cake",
+        "orange",
+        "light"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5249 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 222,
+          "fat_g": 5.2,
+          "protein_g": 7.4,
+          "carbs_g": 36.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "hot-milk-sponge-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hot-Milk Sponge Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 85",
+      "description": "Great with Broiled Coconut Topping (see recipe, page 90).",
+      "servings_yield": "Serves 9",
+      "cook_time": "20-25 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9x9x2-inch baking pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine flour and baking powder. In a bowl beat eggs with an electric mixer on high speed about 4 minutes or till thick."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add sugar; beat at medium speed for 4 to 5 minutes or till light and fluffy."
+        },
+        {
+          "step": 3,
+          "text": "Add flour mixture; beat at low to medium speed just till combined."
+        },
+        {
+          "step": 4,
+          "text": "In a saucepan heat and stir milk and margarine till margarine melts; add to batter, beating till combined."
+        },
+        {
+          "step": 5,
+          "text": "Pour into a greased 9x9x2-inch baking pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven for 20 to 25 minutes or till a toothpick comes out clean."
+        },
+        {
+          "step": 7,
+          "text": "Serve warm or cool."
+        }
+      ],
+      "tags": [
+        "cake",
+        "sponge cake",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5250 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 162,
+          "fat_g": 1.8,
+          "protein_g": 3.2,
+          "carbs_g": 33.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "angel-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Angel Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 85",
+      "description": "Eat your cake and diet, too. Angel Cake is low in calories and has no fat.",
+      "servings_yield": "Makes 12 servings",
+      "cook_time": "40-45 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "10-inch tube pan",
+      "ingredients": [
+        {
+          "item": "egg whites",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "10 to 12 large"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "sifted cake flour or sifted all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring egg whites to room temperature."
+        },
+        {
+          "step": 2,
+          "text": "Sift powdered sugar and flour together 3 times."
+        },
+        {
+          "step": 3,
+          "text": "In a large bowl beat egg whites, cream of tartar, and vanilla with an electric mixer on medium speed till soft peaks form (tips curl)."
+        },
+        {
+          "step": 4,
+          "text": "Gradually add sugar, about 2 tablespoons at a time, beating till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 5,
+          "text": "Sift about one-fourth of the flour mixture over beaten egg whites; fold in gently. (If bowl is too full, transfer to a larger bowl.)"
+        },
+        {
+          "step": 6,
+          "text": "Repeat, folding in remaining flour mixture by fourths."
+        },
+        {
+          "step": 7,
+          "text": "Pour into an ungreased 10-inch tube pan."
+        },
+        {
+          "step": 8,
+          "text": "Bake on the lowest rack in a 350\u00b0 oven for 40 to 45 minutes or till top springs back when lightly touched."
+        },
+        {
+          "step": 9,
+          "text": "Immediately invert cake (leave in pan); cool thoroughly."
+        },
+        {
+          "step": 10,
+          "text": "Loosen sides of cake from pan; remove cake."
+        }
+      ],
+      "tags": [
+        "cake",
+        "angel food",
+        "fat-free",
+        "light"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5250 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 162,
+          "fat_g": 1.0,
+          "protein_g": 1.8,
+          "carbs_g": 37.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chiffon-cake-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chiffon Cake",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 85",
+      "servings_yield": "Serves 12",
+      "cook_time": "65-70 minutes",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "10-inch tube pan",
+      "ingredients": [
+        {
+          "item": "sifted cake flour or all-purpose flour",
+          "quantity": "2 1/4",
+          "unit": "cups",
+          "prep_note": "or 2 cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "7",
+          "unit": ""
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "finely shredded lemon peel",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "7",
+          "unit": ""
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine flour, sugar, baking powder, and 1/4 teaspoon salt."
+        },
+        {
+          "step": 2,
+          "text": "Add oil, yolks, orange and lemon peels, vanilla, and 3/4 cup cold water."
+        },
+        {
+          "step": 3,
+          "text": "Beat with an electric mixer on low speed till combined. Beat on high speed 5 minutes or till satin smooth."
+        },
+        {
+          "step": 4,
+          "text": "Thoroughly wash beaters. In a bowl combine egg whites and cream of tartar. Beat till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 5,
+          "text": "Pour batter in a thin stream over beaten egg whites; fold in gently."
+        },
+        {
+          "step": 6,
+          "text": "Pour into an ungreased 10-inch tube pan."
+        },
+        {
+          "step": 7,
+          "text": "Bake in a 325\u00b0 oven for 65 to 70 minutes or till top springs back when lightly touched."
+        },
+        {
+          "step": 8,
+          "text": "Immediately invert cake (leave in pan); cool."
+        }
+      ],
+      "tags": [
+        "cake",
+        "chiffon",
+        "citrus",
+        "light"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5250 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 272,
+          "fat_g": 6.7,
+          "protein_g": 9.4,
+          "carbs_g": 43.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "jelly-roll-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Jelly Roll",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 86",
+      "description": "Make a yule log by using apricot jam. Frost with chocolate frosting and draw bark lines with a fork. (Pumpkin Cake Roll is pictured below right.)",
+      "servings_yield": "Serves 10",
+      "cook_time": "12-15 minutes",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "15x10x1-inch jelly-roll pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "jelly or jam",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine flour and baking powder; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a mixing bowl beat egg yolks and vanilla with an electric mixer on high speed for 5 minutes or till thick and lemon colored."
+        },
+        {
+          "step": 3,
+          "text": "Gradually add the 1/3 cup sugar, beating on high speed till sugar is nearly dissolved."
+        },
+        {
+          "step": 4,
+          "text": "Thoroughly wash beaters."
+        },
+        {
+          "step": 5,
+          "text": "In another bowl beat egg whites on medium speed till soft peaks form (tips curl). Gradually add the 1/2 cup sugar, beating till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 6,
+          "text": "Fold yolk mixture into beaten egg whites. Sprinkle flour mixture over egg mixture; fold in gently just till combined."
+        },
+        {
+          "step": 7,
+          "text": "Spread batter evenly into a greased and floured 15x10x1-inch jelly-roll pan."
+        },
+        {
+          "step": 8,
+          "text": "Bake in a 375\u00b0 oven for 12 to 15 minutes or till cake springs back when lightly touched near center."
+        },
+        {
+          "step": 9,
+          "text": "Immediately loosen edges of cake from pan and turn cake out onto a towel sprinkled with powdered sugar."
+        },
+        {
+          "step": 10,
+          "text": "Roll up towel and cake, jelly roll style, starting from one of the cake's short sides. Cool on a rack."
+        },
+        {
+          "step": 11,
+          "text": "Unroll cake; remove towel. Spread cake with jelly or jam to within 1 inch of edges. Roll up cake."
+        }
+      ],
+      "notes": [
+        "Chocolate Cake Roll: Prepare as above, except reduce flour to 1/3 cup and omit baking powder. Add 1/4 cup unsweetened cocoa powder and 1/4 teaspoon baking soda to flour. Fill with 2 cups whipped cream or cooled chocolate pudding. Roll up cake. Drizzle half of Chocolate Glaze (see recipe, page 89) over cake. Chill.",
+        "Pumpkin Cake Roll: Prepare as above, except add 2 teaspoons pumpkin pie spice to flour mixture and stir 1/2 cup canned pumpkin into egg yolk and sugar mixture. Fill with Cream Cheese Frosting (see recipe, page 88). Roll up cake. Sprinkle with sifted powdered sugar.",
+        "*Note: For another filling, try 2 cups softened ice cream. Freeze ice-cream-filled roll."
+      ],
+      "tags": [
+        "cake",
+        "jelly roll",
+        "rolled cake"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5251 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 192,
+          "fat_g": 4.1,
+          "protein_g": 5.5,
+          "carbs_g": 33.6
+        },
+        "missing_inputs": [
+          "Not in database: jelly or jam"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for sifted powdered sugar (standard quantity)",
+          "Based on 8/9 ingredients (89% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "nut-torte-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nut Torte",
+      "category": "cakes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 87",
+      "description": "A blender or a food processor makes for fast mixing of this rich cake.",
+      "servings_yield": "Serves 12",
+      "cook_time": "about 20 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 8x1 1/2-inch round baking pans",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "finely shredded orange peel",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "walnuts, pecans, or hazelnuts",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "Chocolate Butter Frosting",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "see recipe, page 89"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together flour, baking powder, and orange peel; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a blender container or food processor bowl place eggs and sugar. Cover and blend or process till smooth."
+        },
+        {
+          "step": 3,
+          "text": "Add nuts. Blend or process about 1 minute or till nearly smooth."
+        },
+        {
+          "step": 4,
+          "text": "Add flour mixture; blend or process just till combined."
+        },
+        {
+          "step": 5,
+          "text": "Spread batter evenly into 2 greased and floured 8x1 1/2-inch round baking pans."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 350\u00b0 oven about 20 minutes or till lightly browned."
+        },
+        {
+          "step": 7,
+          "text": "Cool on wire racks for 10 minutes. Remove from pans; cool thoroughly on racks."
+        },
+        {
+          "step": 8,
+          "text": "Frost with Chocolate Butter Frosting."
+        }
+      ],
+      "tags": [
+        "cake",
+        "torte",
+        "nuts",
+        "European"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5252 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 280,
+          "fat_g": 20.3,
+          "protein_g": 6.6,
+          "carbs_g": 21.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 2 for Chocolate Butter Frosting (standard quantity)",
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    }
+  ]
+}

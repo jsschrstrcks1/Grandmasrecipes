@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "collection": "all",
+    "category": "basics",
+    "total_recipes": 3,
+    "generated": "2026-01-23T14:31:31.353864Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "fresh-tomato-sauce-technique",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "How to Make Fresh Tomato Sauce",
+      "category": "basics",
+      "source_note": "Cooking Light Magazine March 2009 - Cooking Class",
+      "description": "Fresh tomato sauce is a staple in Italy, where it's usually served with spaghetti. Although the sauce tastes rich and delicious, it only takes about 30 minutes to prepare. See recipe on page 138.",
+      "ingredients": [
+        {
+          "item": "fresh tomatoes",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "extra-virgin olive oil",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To peel tomatoes, core and cut a small X through the skin on the bottom of tomatoes with a sharp knife. Place them in boiling water for about 30 seconds or just until skins begin to peel back. Quickly remove tomatoes from pan, and plunge them into ice water. Drain and remove skins. Cut each tomato in half lengthwise, and squeeze the juices and seeds into a colander over a bowl. Reserve tomato juices, and discard seeds. Finely chop tomatoes."
+        },
+        {
+          "step": 2,
+          "text": "Heat extra-virgin olive oil in a large skillet over medium heat. Add garlic, and cook just until it begins to brown lightly, taking care not to burn it."
+        },
+        {
+          "step": 3,
+          "text": "Add tomatoes and reserved juices, and cook until almost all of the liquid evaporates."
+        },
+        {
+          "step": 4,
+          "text": "Finish cooking the pasta with the sauce, which should be in a skillet large enough to combine the two and allow for tossing. Add enough of the pasta cooking water to the sauce to give the dish a creamy texture and marry the sauce to the pasta."
+        }
+      ],
+      "tags": [
+        "basics",
+        "sauce",
+        "tomato",
+        "italian",
+        "technique"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 40.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "technique guide, not full recipe"
+        ]
+      },
+      "notes": [
+        "To peel tomatoes, core and cut a small X through the skin on the bottom with a sharp knife. Place in boiling water for about 30 seconds or just until skins begin to peel back. Quickly remove and plunge into ice water.",
+        "Add garlic, and cook just until it begins to brown lightly, taking care not to burn it.",
+        "Add enough of the pasta cooking water to the sauce to give the dish a creamy texture and marry the sauce to the pasta.",
+        "Learn about common pasta shapes and how to pair them with the proper sauce at CookingLight.com/features"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 3.5,
+          "carbs_g": 1.5,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from basics category"
+        ]
+      }
+    },
+    {
+      "id": "fresh-pasta-dough-technique",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "How to Make Fresh Pasta",
+      "category": "basics",
+      "source_note": "Cooking Light Magazine March 2009 - Cooking Class",
+      "description": "In Emilia-Romagna, the region in Italy where fresh pasta rules, the dough is classically made with soft wheat flour and whole fresh eggs. Purists in the province prefer pasta doughs that have been rolled out on a wooden board to those rolled out with a machine, saying that sauce clings much better to the hand-rolled variety.",
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place flour, salt, and eggs in a food processor, and process until combined and crumbly\u2014the mixture won't form a ball."
+        },
+        {
+          "step": 2,
+          "text": "Transfer to a lightly floured surface, and knead several minutes to form a soft dough. Then wrap dough into a disc, wrap it tightly with plastic, and allow it to rest for at least 20 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Divide dough into equal portions. Pass each portion through rollers with width gauge on the widest setting to stretch pasta. Run dough through rollers in each successive setting, moving gauge to a lower setting after each pass to form pasta sheets."
+        }
+      ],
+      "notes": [
+        "For ravioli: Lay one pasta sheet on a flat, lightly floured work surface. Spoon the filling at three-inch intervals along the length of the sheet, leaving plenty of space on all sides.",
+        "Use a pastry brush or your fingers to moisten the edges, and the space between the filling portions on each pasta sheet, with water. Place a second pasta sheet over filling, pressing edges to seal."
+      ],
+      "tags": [
+        "basics",
+        "pasta",
+        "italian",
+        "technique",
+        "fresh pasta"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 41.jpeg",
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 42.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "technique guide"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 25,
+          "fat_g": 1.3,
+          "carbs_g": 1.6,
+          "protein_g": 1.7,
+          "sodium_mg": 93,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from basics category"
+        ]
+      }
+    },
+    {
+      "id": "classic-pasta-dough",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Classic Pasta Dough",
+      "category": "basics",
+      "source_note": "Cooking Light Magazine March 2009 - Cooking Class",
+      "servings_yield": "4 servings (serving size: 2 ounces uncooked pasta)",
+      "description": "Italians use soft wheat flour to make fresh pasta. We tested the recipe with soft wheat flour and all-purpose flour and tasted them side by side, and we much prefer the soft wheat version\u2014it gives the pasta a silkier texture. Order Italian-style flour from www.kingarthurflour.com, or look for Italian 00 flour at gourmet or online stores. Use this dough to make Ravioli with Herbed Ricotta Filling (page 141).",
+      "ingredients": [
+        {
+          "item": "soft wheat flour (about 1 1/4 cups)",
+          "quantity": "5.6",
+          "unit": "oz"
+        },
+        {
+          "item": "fine sea salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "large eggs",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Weigh or lightly spoon flour into dry measuring cups; level with a knife. Combine flour, salt, and eggs in a food processor; pulse 10 times or until mixture is crumbly (dough will not form a ball). Turn dough out onto a lightly floured surface; knead until smooth and elastic (about 4 minutes). Shape dough into a disc; wrap with plastic wrap. Let dough stand at room temperature for 20 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Unwrap dough. Divide dough into 8 equal portions. Working with 1 portion at a time (keep remaining dough covered to prevent drying), pass dough through pasta rollers of a pasta machine on the widest setting. Fold dough in half crosswise; fold in half again. Pass dough through rollers again. Move width gauge to next setting; pass pasta through rollers. Continue moving width gauge to narrower settings; pass dough through rollers once at each setting to form 8 (15 x 3-inch) pasta strips. Lay strips flat on a lightly floured surface; cover. Repeat procedure with remaining dough portions. Yield: 4 servings (serving size: 2 ounces uncooked pasta)."
+        }
+      ],
+      "notes": [
+        "CALORIES 178; FAT 2.9g (sat 0.8g, mono 1g, poly 0.3g); PROTEIN 6.9g; CARB 30.2g; FIBER 0.2g; CHOL 106mg; IRON 0.9mg; SODIUM 107mg; CALC 21mg"
+      ],
+      "tags": [
+        "basics",
+        "pasta",
+        "dough",
+        "italian",
+        "homemade"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 46.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 180,
+          "fat_g": 2.9,
+          "carbs_g": 31.0,
+          "protein_g": 7.2,
+          "sodium_mg": 326,
+          "fiber_g": 1.1,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    }
+  ]
+}

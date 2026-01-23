@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "pasta",
+    "total_recipes": 2,
+    "generated": "2026-01-23T14:31:32.264750Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "fettuccine-with-cheese-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fettuccine with Cheese Sauce",
+      "category": "pasta",
+      "source_note": "Better Homes and Gardens cookbook, page 158",
+      "description": "Elegant for entertaining.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "packaged fettuccine, linguine, or egg noodles",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cloves garlic, minced",
+          "quantity": "1 or 2",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "instant chicken bouillon granules",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded process Swiss, Gruy\u00e8re, or American cheese",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "6 ounces"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "freshly ground pepper",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook fettuccine according to package directions (or see chart, page 278); drain well."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, for cheese sauce, in a saucepan cook onion and garlic in margarine till tender. Stir in flour, bouillon granules, and the 1/8 teaspoon pepper. Add milk all at once. Cook and stir till slightly thickened and bubbly. Add shredded cheese; stir till melted."
+        },
+        {
+          "step": 3,
+          "text": "Stir in cheese. Cook and stir till cheese melts. Stir in parsley. If cheese sauce is too thick, stir in 1 to 2 tablespoons additional milk."
+        },
+        {
+          "step": 4,
+          "text": "Serve cheese sauce over hot cooked pasta. Sprinkle with freshly ground pepper. Serves 4."
+        }
+      ],
+      "notes": [
+        "Fettuccine with Broccoli and Cheese Sauce: Prepare as above, except add one 10-ounce package frozen chopped broccoli to pasta after it has simmered for 5 minutes.",
+        "Fettuccine with Asparagus and Swiss Cheese Sauce: Prepare as above, except add one 10-ounce package frozen cut asparagus to pasta after it has simmered for 5 minutes. For sauce, use the process Swiss cheese. Substitute 2 tablespoons toasted sliced almonds for the freshly ground pepper."
+      ],
+      "tags": [
+        "pasta",
+        "cheese",
+        "fettuccine"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5319 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 420,
+          "fat_g": 15,
+          "protein_g": 19,
+          "carbs_g": 51,
+          "cholesterol_mg": 819,
+          "sodium_mg": 39
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "macaroni-and-cheese",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Macaroni and Cheese",
+      "category": "pasta",
+      "source_note": "Better Homes and Gardens cookbook, page 160",
+      "description": "For homemade flavor in a hurry, try the Shortcut Macaroni and Cheese.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "elbow macaroni",
+          "quantity": "1",
+          "unit": "cup (4 oz)"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "8 ounces"
+        },
+        {
+          "item": "medium tomato, sliced",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook macaroni according to package directions (or see chart, page 278); drain well."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, for cheese sauce, in a saucepan cook onion in margarine or butter till tender but not brown. Stir in flour and pepper. Add milk all at once. Cook and stir till slightly thickened and bubbly. Add shredded cheese; stir till melted."
+        },
+        {
+          "step": 3,
+          "text": "Stir macaroni into cheese sauce. Transfer to a 1-quart casserole. Bake, uncovered, in a 350\u00b0 oven for 25 to 30 minutes or till bubbly. During the last 5 minutes of baking, arrange tomato slices atop macaroni, if desired. Let stand 10 minutes. Makes 4 servings."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Vegetable Macaroni and Cheese: Prepare as above, except stir 2 cups frozen mixed vegetables, thawed, or one 16-ounce can mixed vegetables, drained, into cheese sauce with macaroni. Transfer to a 1 1/2-quart casserole.",
+        "Shortcut Macaroni and Cheese: Prepare as above, except immediately return the drained macaroni to the saucepan it was cooked in. Pour the cheese sauce over the macaroni; mix well. Cook over low heat for 3 to 5 minutes or till heated through, stirring frequently. Let stand for 10 minutes."
+      ],
+      "tags": [
+        "pasta",
+        "cheese",
+        "macaroni",
+        "comfort food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5322 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 295,
+          "fat_g": 16,
+          "protein_g": 14,
+          "carbs_g": 25,
+          "cholesterol_mg": 301,
+          "sodium_mg": 1016
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    }
+  ]
+}

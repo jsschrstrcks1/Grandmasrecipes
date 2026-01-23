@@ -2,6 +2,12 @@
 
 The Milk Substitution Tool automatically detects cheesemaking recipes to enable milk type switching (cow, goat, sheep) with ingredient adjustments.
 
+## Related Tools
+
+- **[Milk Substitution Tool](./AGGREGATOR-INTEGRATION-PROMPT.md)** - Switch between milk types with automatic ingredient adjustments
+- **[Adulterant Companion](./ADULTERANT-COMPANION-GUIDE.md)** - Add herbs, spices, and flavorings to cheese recipes (156 additives across 9 categories)
+- **[Cheese Builder](https://jsschrstrcks1.github.io/Allrecipes/cheese-builder.html)** - Interactive cheese recipe creation wizard
+
 ## Detection Methods (At Least One Required)
 
 **1. Explicit Marker (Recommended)**

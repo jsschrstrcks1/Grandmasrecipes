@@ -1,0 +1,1359 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "frostings",
+    "total_recipes": 16,
+    "generated": "2026-01-23T14:31:32.201161Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "seven-minute-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Seven-Minute Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 87",
+      "description": "This glossy, divinitylike frosting requires a sturdy portable electric mixer.",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers or top and sides of one 10-inch tube cake",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cold water",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "cream of tartar or light corn syrup",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "or 2 teaspoons"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In the top of a double boiler combine sugar, water, egg whites, and cream of tartar."
+        },
+        {
+          "step": 2,
+          "text": "Beat with an electric mixer on low speed for 30 seconds."
+        },
+        {
+          "step": 3,
+          "text": "Place over boiling water (upper pan should not touch water)."
+        },
+        {
+          "step": 4,
+          "text": "Cook, beating constantly with the electric mixer on high speed, about 7 minutes or till frosting forms stiff peaks."
+        },
+        {
+          "step": 5,
+          "text": "Remove from the heat; add vanilla. Beat 2 to 3 minutes more or till of spreading consistency."
+        }
+      ],
+      "notes": [
+        "Peppermint Frosting: Prepare as above, except substitute a few drops of peppermint extract for the vanilla. Garnish cake with crushed peppermint candies."
+      ],
+      "tags": [
+        "frosting",
+        "fluffy",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5252 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 1.2,
+          "protein_g": 1.5,
+          "carbs_g": 37.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fluffy-white-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fluffy White Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 88",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers or one 10-inch tube cake",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine sugar, water, and cream of tartar. Cook and stir till bubbly and sugar dissolves."
+        },
+        {
+          "step": 2,
+          "text": "In a small mixer bowl combine egg whites and vanilla. Add sugar mixture very slowly to egg whites, beating constantly with an electric mixer on high speed about 7 minutes or till stiff peaks form (tips stand up)."
+        }
+      ],
+      "tags": [
+        "frosting",
+        "fluffy",
+        "white"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5253 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 115,
+          "fat_g": 1.3,
+          "protein_g": 1.5,
+          "carbs_g": 25.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "creamy-white-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy White Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 88",
+      "description": "Firm enough to use for piping decorations.",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "shortening",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon extract, orange extract, or almond extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "4 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "3 to 4",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat shortening, vanilla, and extract with an electric mixer on medium speed for 30 seconds."
+        },
+        {
+          "step": 2,
+          "text": "Slowly add half of the powdered sugar, beating well."
+        },
+        {
+          "step": 3,
+          "text": "Add 2 tablespoons milk. Gradually beat in remaining powdered sugar and enough remaining milk to make of spreading consistency."
+        }
+      ],
+      "tags": [
+        "frosting",
+        "white",
+        "piping"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5253 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 280,
+          "fat_g": 1.8,
+          "protein_g": 0.2,
+          "carbs_g": 67.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cream-cheese-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream Cheese Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 88",
+      "description": "The tangy flavor of the cream cheese provides a nice accent to both cakes and cookies.",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "two 3-ounce packages"
+        },
+        {
+          "item": "softened margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "4 1/2 to 4 3/4",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat together cream cheese, margarine or butter, and vanilla till light and fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add 2 cups powdered sugar, beating well."
+        },
+        {
+          "step": 3,
+          "text": "Gradually beat in enough remaining powdered sugar to make frosting of spreading consistency."
+        },
+        {
+          "step": 4,
+          "text": "Cover cake; store in refrigerator."
+        }
+      ],
+      "notes": [
+        "Chocolate Cream Cheese Frosting: Prepare as above, except substitute 1/2 cup unsweetened cocoa powder for 1/2 cup powdered sugar."
+      ],
+      "tags": [
+        "frosting",
+        "cream cheese",
+        "tangy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5253 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 249,
+          "fat_g": 1.6,
+          "protein_g": 0.2,
+          "carbs_g": 59.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "powdered-sugar-icing-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Powdered Sugar Icing",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 88",
+      "servings_yield": "Makes 1/2 cup or enough to drizzle over one 10-inch tube cake",
+      "ingredients": [
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk or orange juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix powdered sugar, vanilla, and 1 tablespoon milk or juice."
+        },
+        {
+          "step": 2,
+          "text": "Stir in milk or juice, 1 teaspoon at a time, till of drizzling consistency."
+        },
+        {
+          "step": 3,
+          "text": "(Let cake stand 2 hours before slicing.)"
+        }
+      ],
+      "notes": [
+        "Chocolate Powdered Sugar Icing: Prepare as above, except add 2 tablespoons unsweetened cocoa powder to the powdered sugar.",
+        "Liqueur Powdered Sugar Icing: Prepare as above, except substitute 1 tablespoon desired liqueur for the first 1 tablespoon milk or juice."
+      ],
+      "tags": [
+        "frosting",
+        "icing",
+        "glaze",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5253 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 474,
+          "fat_g": 0.0,
+          "protein_g": 0.1,
+          "carbs_g": 120.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "petits-fours-icing-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Petits Fours Icing",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 88",
+      "description": "This glossy icing coats cake cutouts beautifully. Use it with Petits Fours (see recipe, page 78) or Hot-Milk Sponge Cake (see recipe, page 85).",
+      "servings_yield": "Makes about 3 1/2 cups or enough for 36 to 40 petits fours",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "hot water",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "clear vanilla flavoring or vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "food coloring (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan combine sugar, water, and cream of tartar. Bring mixture to boiling over medium-high heat, stirring constantly till sugar dissolves (allow 5 to 9 minutes)."
+        },
+        {
+          "step": 2,
+          "text": "Reduce heat to medium-low. Clip a candy thermometer to the side of the saucepan."
+        },
+        {
+          "step": 3,
+          "text": "Cook till thermometer registers 226\u00b0, stirring only as necessary to prevent sticking."
+        },
+        {
+          "step": 4,
+          "text": "Remove saucepan from the heat. Cool at room temperature, without stirring, to 110\u00b0 (allow about 1 hour)."
+        },
+        {
+          "step": 5,
+          "text": "Add vanilla. Stir in enough powdered sugar (about 4 cups) to make of drizzling consistency."
+        },
+        {
+          "step": 6,
+          "text": "If necessary, beat icing with a rotary beater or wire whisk to remove any lumps."
+        },
+        {
+          "step": 7,
+          "text": "If desired, stir in a few drops of food coloring."
+        }
+      ],
+      "notes": [
+        "Note: If icing becomes too thick, beat in a few drops of warm water."
+      ],
+      "tags": [
+        "frosting",
+        "icing",
+        "petits fours",
+        "glossy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5253 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 931,
+          "fat_g": 0.2,
+          "protein_g": 0.0,
+          "carbs_g": 239.7
+        },
+        "missing_inputs": [
+          "Not in database: food coloring (optional)"
+        ],
+        "assumptions": [
+          "Inferred 1.0 for sifted powdered sugar (standard quantity)",
+          "Based on 5/6 ingredients (83% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "butter-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Butter Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 89",
+      "description": "An easy-to-spread frosting in six flavors.",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "4 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "additional if needed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat butter or margarine till fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add 2 cups of the powdered sugar, beating well."
+        },
+        {
+          "step": 3,
+          "text": "Slowly beat in the 1/4 cup milk and vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Slowly beat in remaining sugar. Beat in additional milk, if needed, to make of spreading consistency."
+        },
+        {
+          "step": 5,
+          "text": "Tint with food coloring, if desired."
+        }
+      ],
+      "notes": [
+        "Chocolate Butter Frosting: Prepare as above, except beat 1/2 cup unsweetened cocoa powder into butter.",
+        "Mocha Butter Frosting: Prepare as above, except beat 1/2 cup unsweetened cocoa powder into butter or margarine. Add 1 tablespoon instant coffee crystals to the 1/4 cup milk. Let stand 3 minutes; stir well.",
+        "Lemon or Orange Butter Frosting: Prepare as above, except substitute fresh lemon juice or orange juice for the milk and add 1/2 teaspoon finely shredded lemon peel or 1 teaspoon finely shredded orange peel with the juice.",
+        "Peanut-Butter Frosting: Prepare as above, except substitute creamy peanut butter for the butter or margarine."
+      ],
+      "tags": [
+        "frosting",
+        "butter",
+        "classic",
+        "versatile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5254 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 290,
+          "fat_g": 1.7,
+          "protein_g": 1.2,
+          "carbs_g": 68.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for milk (standard quantity)",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "no-cook-fudge-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "No-Cook Fudge Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 89",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "4 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix powdered sugar and cocoa."
+        },
+        {
+          "step": 2,
+          "text": "Add margarine, boiling water, and vanilla. Beat with an electric mixer on low speed till combined."
+        },
+        {
+          "step": 3,
+          "text": "Beat for 1 minute on medium speed."
+        },
+        {
+          "step": 4,
+          "text": "Cool for 20 to 30 minutes or till of spreading consistency."
+        }
+      ],
+      "tags": [
+        "frosting",
+        "fudge",
+        "chocolate",
+        "no-cook",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5254 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 284,
+          "fat_g": 0.7,
+          "protein_g": 0.1,
+          "carbs_g": 70.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chocolate-sour-cream-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate-Sour-Cream Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 89",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan melt chocolate and margarine over low heat, stirring frequently."
+        },
+        {
+          "step": 2,
+          "text": "Cool about 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Stir in sour cream. Gradually add powdered sugar, beating till smooth and of spreading consistency."
+        },
+        {
+          "step": 4,
+          "text": "Store cake in the refrigerator."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 1 1/2-quart casserole micro-cook chocolate pieces and margarine, uncovered, on 100% power (high) for 1 to 2 minutes or till softened, stirring once. Stir till smooth. Cool 5 minutes. Continue as above."
+      ],
+      "tags": [
+        "frosting",
+        "chocolate",
+        "sour cream"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5254 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 5.0,
+          "protein_g": 0.6,
+          "carbs_g": 39.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "chocolate-glaze-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate Glaze",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 89",
+      "servings_yield": "Glazes top of a 10-inch tube cake or tops of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "semisweet chocolate, cut up",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "4 squares (4 ounces)"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan melt chocolate and margarine or butter over low heat, stirring frequently."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat; stir in powdered sugar and 3 tablespoons hot water."
+        },
+        {
+          "step": 3,
+          "text": "Stir in additional hot water, if needed, to make of drizzling consistency."
+        },
+        {
+          "step": 4,
+          "text": "Spoon over cake, allowing excess to drip down sides."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 1-quart casserole micro-cook chocolate and margarine or butter, uncovered, on 100% power (high) for 1 to 1 1/2 minutes or till softened, stirring once. Stir till smooth. Continue as above."
+      ],
+      "tags": [
+        "frosting",
+        "glaze",
+        "chocolate"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5254 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 0.7,
+          "protein_g": 0.1,
+          "carbs_g": 18.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "rocky-road-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rocky Road Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 89",
+      "servings_yield": "Frosts top of one 8- or 9-inch cake layer",
+      "ingredients": [
+        {
+          "item": "tiny marshmallows",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "unsweetened chocolate, cut up",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": "1 square (1 ounce)"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "tiny marshmallows",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "coarsely chopped walnuts",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium saucepan combine 1/2 cup marshmallows, the chocolate, margarine, and 2 tablespoons water."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over low heat till marshmallows and chocolate melt."
+        },
+        {
+          "step": 3,
+          "text": "Cool 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add powdered sugar and vanilla; beat till smooth."
+        },
+        {
+          "step": 5,
+          "text": "Stir in 1/2 cup marshmallows and the walnuts."
+        }
+      ],
+      "tags": [
+        "frosting",
+        "rocky road",
+        "chocolate",
+        "marshmallow",
+        "walnuts"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5254 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 6,
+          "protein_g": 2,
+          "carbs_g": 10,
+          "cholesterol_mg": 13,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "coconut-pecan-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Coconut-Pecan Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 90",
+      "servings_yield": "Frosts top of one 13x9-inch cake or tops of two 8- or 9-inch cake layers",
+      "ingredients": [
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "5",
+          "unit": "oz",
+          "prep_note": "one 5-ounce can (2/3 cup)"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flaked coconut",
+          "quantity": "1 1/3",
+          "unit": "cups"
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan beat egg slightly. Stir in milk, sugar, and margarine."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over medium heat about 12 minutes or till thickened and bubbly."
+        },
+        {
+          "step": 3,
+          "text": "Stir in coconut and pecans. Cool thoroughly."
+        },
+        {
+          "step": 4,
+          "text": "Spread on cake."
+        }
+      ],
+      "tags": [
+        "frosting",
+        "coconut",
+        "pecan",
+        "German chocolate"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 121,
+          "fat_g": 7.3,
+          "protein_g": 2.0,
+          "carbs_g": 13.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "broiled-coconut-topping-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Broiled Coconut Topping",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 90",
+      "description": "Bake the cake in a metal pan so it's broiler-ready.",
+      "servings_yield": "Frosts one 8- or 9-inch cake layer",
+      "ingredients": [
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flaked coconut",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped nuts (optional)",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat sugar and margarine till combined."
+        },
+        {
+          "step": 2,
+          "text": "Stir in milk. Stir in coconut and, if desired, nuts."
+        },
+        {
+          "step": 3,
+          "text": "Spread over warm cake in pan."
+        },
+        {
+          "step": 4,
+          "text": "Broil about 4 inches from heat for 3 to 4 minutes or till golden. Serve warm."
+        }
+      ],
+      "tags": [
+        "frosting",
+        "topping",
+        "coconut",
+        "broiled"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 4.2,
+          "protein_g": 0.8,
+          "carbs_g": 8.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "penuche-frosting-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Penuche Frosting",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 90",
+      "servings_yield": "Immediately frost tops of two 8- or 9-inch cake layers or top of one 13x9-inch cake",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "3 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In saucepan melt margarine; stir in brown sugar."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir till bubbly. Remove from the heat."
+        },
+        {
+          "step": 3,
+          "text": "Add milk; beat vigorously till smooth."
+        },
+        {
+          "step": 4,
+          "text": "Add powdered sugar; beat by hand till of spreading consistency."
+        },
+        {
+          "step": 5,
+          "text": "Immediately frost."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 1-quart casserole micro-cook margarine on 100% power (high) for 1 to 1 1/2 minutes or till melted. Stir in brown sugar. Cook on high for 1 to 2 minutes or till bubbly over entire surface, stirring every minute. Add 3 tablespoons milk; continue as above."
+      ],
+      "tags": [
+        "frosting",
+        "penuche",
+        "brown sugar",
+        "caramel"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 2,
+          "protein_g": 0,
+          "carbs_g": 17,
+          "cholesterol_mg": 39,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "choose-a-fruit-filling-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Choose-a-Fruit Filling",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 90",
+      "description": "No liqueur on hand? Substitute two tablespoons orange juice for the liqueur.",
+      "servings_yield": "Makes enough to spread between two 8- or 9-inch cake layers (about 1 1/4 cups)",
+      "ingredients": [
+        {
+          "item": "pitted dark sweet cherries, peach slices, blueberries, or crushed pineapple",
+          "quantity": "15 to 17",
+          "unit": "oz",
+          "prep_note": "1 can"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cherry liqueur or orange liqueur",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain fruit, reserving 3/4 cup liquid. Cut up any large pieces of fruit."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan combine reserved liquid and cornstarch; add fruit."
+        },
+        {
+          "step": 3,
+          "text": "Cook and stir till thickened and bubbly. Cook and stir 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Stir in liqueur. Cool."
+        },
+        {
+          "step": 5,
+          "text": "Cover; chill thoroughly without stirring."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Drain and cut up fruit as above. In a 4-cup measure stir together reserved fruit liquid and cornstarch; add fruit. Micro-cook, uncovered, on 100% power (high) for 3 to 4 minutes or till mixture is thickened and bubbly, stirring every minute. Cook on high for 30 seconds more. Stir in liqueur. Cool. Cover; chill."
+      ],
+      "tags": [
+        "filling",
+        "fruit",
+        "cake filling"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 15,
+          "fat_g": 0.0,
+          "protein_g": 0.2,
+          "carbs_g": 3.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "lemon-filling-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lemon Filling",
+      "category": "frostings",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 90",
+      "description": "Transforms a simple cake into a luscious dessert.",
+      "servings_yield": "Makes enough to spread between two 8- or 9-inch cake layers (about 1 cup)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "beaten egg yolks",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "finely shredded lemon peel",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan combine sugar and cornstarch."
+        },
+        {
+          "step": 2,
+          "text": "Stir in water. Stir in egg yolks, lemon peel, and juice."
+        },
+        {
+          "step": 3,
+          "text": "Cook and stir over medium heat till bubbly. Cook for 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Stir in margarine or butter till melted."
+        },
+        {
+          "step": 5,
+          "text": "Cover surface with clear plastic wrap; cool."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a 1-quart casserole combine sugar and cornstarch. Stir in water. Stir in egg yolks, lemon peel, and lemon juice. Micro-cook, uncovered, on 100% power (high) for 3 to 4 minutes or till thickened and bubbly, stirring every minute. Cook 30 seconds more. Stir in margarine till melted. Cover; cool."
+      ],
+      "tags": [
+        "filling",
+        "lemon",
+        "cake filling"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 92,
+          "fat_g": 1.3,
+          "protein_g": 1.5,
+          "carbs_g": 19.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    }
+  ]
+}
