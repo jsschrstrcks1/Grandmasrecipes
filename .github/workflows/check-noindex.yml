@@ -1,0 +1,42 @@
+name: Check noindex tags
+
+on:
+  push:
+    paths:
+      - '**.html'
+  pull_request:
+    paths:
+      - '**.html'
+
+jobs:
+  check-noindex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check HTML files for noindex meta tags
+        run: |
+          echo "Checking all HTML files for noindex meta tags..."
+
+          missing=()
+          for file in $(find . -name "*.html" -type f); do
+            if ! grep -q 'name="robots".*noindex' "$file"; then
+              missing+=("$file")
+            fi
+          done
+
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo ""
+            echo "ERROR: The following HTML files are missing noindex meta tags:"
+            for file in "${missing[@]}"; do
+              echo "  - $file"
+            done
+            echo ""
+            echo "All HTML files must include:"
+            echo '  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">'
+            echo ""
+            echo "This is a private family archive - no indexing allowed."
+            exit 1
+          fi
+
+          echo "✓ All HTML files have noindex meta tags."

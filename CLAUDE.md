@@ -118,6 +118,20 @@ Many images exceed Claude's 2000px API limit:
 - Always use `data/processed/*.jpeg` for AI reading
 - Run `python scripts/process_images.py` to create safe versions
 
+### API Image Limit (CRITICAL)
+
+**Claude API limit: 100 images maximum per request**
+
+Exceeding this causes the error:
+```
+Too much media: 0 document pages + 101 images > 100
+```
+
+**Safeguards:**
+- Never batch-process more than 100 images at once
+- Use `image_safeguards.py get_batches()` for safe batching
+- Process images one-by-one when possible
+
 ### Before Reading ANY Image
 
 ```bash
