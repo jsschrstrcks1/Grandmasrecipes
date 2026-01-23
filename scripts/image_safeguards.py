@@ -37,6 +37,7 @@ except ImportError:
 # Configuration
 MANIFEST_FILE = "image_manifest.json"
 MAX_DIMENSION = 2000
+MAX_IMAGES_PER_API_CALL = 100  # Claude API limit - cannot exceed 100 images per request
 
 COLLECTIONS = {
     "grandma": {"path": "", "prefix": "Grandmas-recipes"},
@@ -322,6 +323,34 @@ class ImageManifest:
         """Get the saved session position."""
         return self.manifest.get("session", {})
 
+    def get_batches(self, collection_id: Optional[str] = None, batch_size: int = None) -> List[List[Dict]]:
+        """
+        Get images in batches safe for Claude API (max 100 images per request).
+
+        IMPORTANT: Claude's API has a hard limit of 100 images per request.
+        Exceeding this causes: "Too much media: X images > 100"
+
+        Args:
+            collection_id: Optional collection to filter by
+            batch_size: Batch size (default: MAX_IMAGES_PER_API_CALL)
+
+        Returns:
+            List of batches, where each batch is a list of image dicts
+        """
+        if batch_size is None:
+            batch_size = MAX_IMAGES_PER_API_CALL
+
+        # Safety check - never exceed API limit
+        batch_size = min(batch_size, MAX_IMAGES_PER_API_CALL)
+
+        images = self.get_processable_images(collection_id)
+        batches = []
+
+        for i in range(0, len(images), batch_size):
+            batches.append(images[i:i + batch_size])
+
+        return batches
+
     def print_status(self):
         """Print current manifest status."""
         stats = self.manifest.get("stats", {})
@@ -338,6 +367,14 @@ class ImageManifest:
         print(f"  Oversized:       {stats.get('oversized', 0)}")
         print(f"  Processed:       {stats.get('processed', 0)}")
         print(f"  Skipped:         {stats.get('skipped', 0)}")
+
+        # Warn about API limits
+        total = stats.get('total', 0)
+        if total > MAX_IMAGES_PER_API_CALL:
+            print(f"\n⚠️  WARNING: {total} images exceeds Claude API limit of {MAX_IMAGES_PER_API_CALL}")
+            print(f"   Process images in batches using get_batches() method")
+            batches = self.get_batches()
+            print(f"   Recommended: {len(batches)} batches of ≤{MAX_IMAGES_PER_API_CALL} images each")
 
         if session.get("last_processed"):
             print(f"\nSession State:")
