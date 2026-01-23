@@ -464,6 +464,379 @@ const result = converter.generateConvertedRecipe();
 
 ---
 
+### Heart-Smart Recipe Converter
+
+**Status:** Research Required
+**Added:** 2026-01-23
+**Complexity:** High
+
+Create a tool that converts recipes to heart-healthy versions by reducing sodium, saturated fat, and cholesterol while maintaining flavor through herbs, spices, and healthy fat substitutions.
+
+#### Goals
+
+- Target: **Under 600mg sodium per serving** (AHA recommendation)
+- Target: **Under 13g saturated fat per serving** (based on 2000 cal diet)
+- Target: **Under 300mg cholesterol per day** (general guideline)
+- Increase omega-3 fatty acids where possible
+- Increase fiber content
+- Maintain flavor through herb/spice enhancement
+
+#### Heart Health Targets (Per Serving)
+
+| Metric | Target | Danger Zone | Notes |
+|--------|--------|-------------|-------|
+| Sodium | <600mg | >1500mg | AHA recommends <2300mg/day total |
+| Saturated Fat | <5g | >13g | <10% of daily calories |
+| Trans Fat | 0g | Any | Avoid completely |
+| Cholesterol | <100mg | >200mg | <300mg/day total |
+| Fiber | >5g | <2g | 25-30g/day recommended |
+| Added Sugar | <6g | >12g | AHA: <25g/day women, <36g men |
+
+#### Sodium Reduction Strategies
+
+**1. Salt Substitutions**
+| Original | Substitute | Sodium Saved | Flavor Notes |
+|----------|------------|--------------|--------------|
+| 1 tsp salt (2300mg) | 1/2 tsp salt + herbs | ~1150mg | Use fresh herbs generously |
+| 1 tsp salt | Salt-free seasoning blend | ~2300mg | Mrs. Dash, homemade blends |
+| 1 tsp salt | 1/4 tsp salt + acid (lemon/vinegar) | ~1725mg | Acid brightens without salt |
+| 1 tsp salt | Potassium chloride (Nu-Salt) | ~2300mg | Slightly bitter, use 1/2 amount |
+
+**2. High-Sodium Ingredient Swaps**
+| Original | Sodium | Substitute | Sodium | Savings |
+|----------|--------|------------|--------|---------|
+| Soy sauce (1 tbsp) | 920mg | Low-sodium soy | 575mg | 345mg |
+| Soy sauce (1 tbsp) | 920mg | Coconut aminos | 90mg | 830mg |
+| Canned beans (1 cup) | 400mg | Rinse 1 min / dried | 150mg / 0mg | 250-400mg |
+| Canned tomatoes | 300mg | No-salt-added | 25mg | 275mg |
+| Chicken broth (1 cup) | 860mg | Low-sodium broth | 140mg | 720mg |
+| Chicken broth | 860mg | Homemade unsalted | 70mg | 790mg |
+| Bacon (2 slices) | 370mg | Turkey bacon | 180mg | 190mg |
+| Bacon | 370mg | Uncured, low-sodium | 150mg | 220mg |
+| Parmesan (1 oz) | 450mg | Nutritional yeast | 10mg | 440mg |
+| Feta (1 oz) | 320mg | Goat cheese | 130mg | 190mg |
+| Pickles | 800mg | Quick-pickled (low salt) | 200mg | 600mg |
+
+**3. Flavor Enhancement (Salt-Free)**
+| Technique | Examples | Best For |
+|-----------|----------|----------|
+| Acid brightness | Lemon, lime, vinegar, wine | Finish dishes, cut richness |
+| Umami depth | Mushrooms, tomato paste, miso (low-sodium) | Savory dishes, soups |
+| Fresh herbs | Basil, cilantro, parsley, dill | Added at end for brightness |
+| Dried herbs | Oregano, thyme, rosemary | Cooked into dishes |
+| Spice heat | Black pepper, cayenne, crushed red pepper | Awakens palate |
+| Aromatics | Garlic, onion, shallots, ginger | Sautéed as base |
+| Toasted elements | Nuts, seeds, spices (dry-toasted) | Adds complexity |
+
+#### Fat Substitutions
+
+**1. Saturated Fat Swaps**
+| Original | Sat Fat | Substitute | Sat Fat | Notes |
+|----------|---------|------------|---------|-------|
+| Butter (1 tbsp) | 7g | Olive oil | 2g | Better for sautéing |
+| Butter | 7g | Avocado oil | 1.6g | High smoke point |
+| Butter | 7g | Ghee (clarified) | 8g | NOT lower, but lactose-free |
+| Butter (baking) | 7g | Applesauce (1/2 amt) | 0g | Adds moisture, reduce sugar |
+| Butter (baking) | 7g | Greek yogurt | 0.5g | Tangy, keeps moisture |
+| Cream (1 cup) | 28g | Evaporated milk | 5g | Still creamy, less rich |
+| Cream | 28g | Cashew cream | 2g | Blend soaked cashews |
+| Cream | 28g | Silken tofu blended | 0.5g | Neutral flavor |
+| Cream cheese (1 oz) | 6g | Neufchâtel | 4g | 1/3 less fat |
+| Cream cheese | 6g | Greek yogurt + cream cheese (1:1) | 3g | Tangy, lighter |
+| Sour cream | 3g/tbsp | Greek yogurt | 0.5g/tbsp | Nearly identical taste |
+| Whole milk | 5g/cup | 2% milk | 3g/cup | Minimal taste difference |
+| Whole milk | 5g/cup | Skim + 1 tbsp oil | 1.5g | For baking |
+| Coconut milk | 48g/cup | Light coconut milk | 13g | Still creamy |
+| Ground beef 80/20 | 8g/3oz | 93/7 lean | 3g | Brown with onions for moisture |
+| Ground beef | 8g/3oz | Ground turkey 93/7 | 2.5g | Season well |
+| Pork sausage | 8g/link | Chicken sausage | 2g | Look for low-sodium |
+| Bacon | 3g/slice | Canadian bacon | 0.8g | Leaner, less smoky |
+
+**2. Cholesterol Swaps**
+| Original | Cholesterol | Substitute | Cholesterol | Notes |
+|----------|-------------|------------|-------------|-------|
+| 1 whole egg (186mg) | 186mg | 2 egg whites | 0mg | Lose richness, add 1 yolk per 3 eggs |
+| 1 egg | 186mg | Flax egg (1T flax + 3T water) | 0mg | Baking only |
+| 1 egg | 186mg | 1/4 cup aquafaba | 0mg | Chickpea liquid, meringues |
+| Shrimp (3oz) | 166mg | Scallops | 28mg | Similar texture |
+| Liver (3oz) | 330mg | Avoid | — | Extremely high cholesterol |
+
+**3. Increase Omega-3s**
+| Addition | Omega-3 | How to Use |
+|----------|---------|------------|
+| Salmon (3oz) | 1.5g | Replace other proteins 2x/week |
+| Sardines | 1.8g/3oz | Add to salads, pastas |
+| Walnuts (1oz) | 2.5g | Top salads, oatmeal |
+| Flaxseed (1 tbsp) | 1.6g | Add to smoothies, baking |
+| Chia seeds (1 tbsp) | 1.7g | Puddings, oatmeal |
+| Hemp hearts (3 tbsp) | 3g | Top anything |
+
+#### Fiber Boosting
+
+| Addition | Fiber | How to Add |
+|----------|-------|------------|
+| Beans (1/2 cup) | 7g | Add to soups, salads, any dish |
+| Lentils (1/2 cup) | 8g | Bulk up meat dishes |
+| Oats (1/2 cup) | 4g | Meatloaf binder, smoothies |
+| Chia seeds (2 tbsp) | 10g | Puddings, baked goods |
+| Flaxseed (2 tbsp) | 4g | Baking, smoothies |
+| Avocado (1/2) | 5g | Top dishes, replace mayo |
+| Raspberries (1 cup) | 8g | Desserts, breakfast |
+| Artichoke hearts | 7g/cup | Add to pasta, salads |
+
+#### Implementation Plan
+
+**Phase 1: Data Foundation**
+
+```json
+// data/heart-smart-database.json
+{
+  "ingredients": {
+    "salt": {
+      "sodium_per_tsp_mg": 2300,
+      "heart_concern": "primary",
+      "substitutes": [
+        {
+          "name": "reduced_salt_with_herbs",
+          "ratio": "1 tsp : 1/2 tsp salt + 1 tsp herb blend",
+          "sodium_reduction_mg": 1150,
+          "flavor_notes": "Use Italian herbs for pasta, herbs de Provence for French"
+        }
+      ]
+    },
+    "butter": {
+      "saturated_fat_per_tbsp_g": 7,
+      "cholesterol_per_tbsp_mg": 31,
+      "heart_concerns": ["saturated_fat", "cholesterol"],
+      "substitutes": [...]
+    }
+  }
+}
+```
+
+**Phase 2: Heart-Smart Analyzer**
+
+```javascript
+class HeartSmartConverter {
+  constructor(recipe, targets = {}) {
+    this.recipe = recipe;
+    this.targets = {
+      maxSodiumPerServing: targets.sodium || 600,
+      maxSatFatPerServing: targets.satFat || 5,
+      maxCholesterolPerServing: targets.cholesterol || 100,
+      minFiberPerServing: targets.fiber || 5,
+      ...targets
+    };
+  }
+
+  analyze() {
+    return {
+      currentSodium: this.calculateSodium(),
+      currentSatFat: this.calculateSatFat(),
+      currentCholesterol: this.calculateCholesterol(),
+      currentFiber: this.calculateFiber(),
+      concerns: this.identifyConcerns(), // ['high_sodium', 'high_sat_fat']
+      flaggedIngredients: this.flagIngredients()
+    };
+  }
+
+  getSuggestions(ingredient) {
+    // Return substitution options sorted by health impact
+  }
+
+  applySubstitution(ingredientIndex, substituteId) {
+    // Apply and recalculate all metrics
+  }
+
+  addFlavorEnhancers() {
+    // Suggest herbs/spices to compensate for reduced salt
+    return [
+      { add: "1 tbsp fresh lemon juice", reason: "Brightens without sodium" },
+      { add: "1/2 tsp black pepper", reason: "Adds bite, enhances flavor" },
+      { add: "2 cloves garlic, minced", reason: "Umami depth" }
+    ];
+  }
+
+  generateHeartSmartRecipe() {
+    return {
+      recipe: this.modifiedRecipe,
+      improvements: {
+        sodiumReduction: `${this.originalSodium - this.newSodium}mg`,
+        satFatReduction: `${this.originalSatFat - this.newSatFat}g`,
+        fiberIncrease: `+${this.newFiber - this.originalFiber}g`
+      },
+      warnings: this.warnings,
+      flavorEnhancements: this.suggestedEnhancements
+    };
+  }
+}
+```
+
+**Phase 3: Combined Converter (Heart-Smart + Diabetic)**
+
+```javascript
+class HealthyRecipeConverter {
+  constructor(recipe, options = {}) {
+    this.recipe = recipe;
+    this.diabeticMode = options.diabetic || false;
+    this.heartSmartMode = options.heartSmart || false;
+
+    if (this.diabeticMode) {
+      this.diabeticConverter = new DiabeticConverter(recipe, options.diabeticTargets);
+    }
+    if (this.heartSmartMode) {
+      this.heartSmartConverter = new HeartSmartConverter(recipe, options.heartTargets);
+    }
+  }
+
+  analyze() {
+    const result = { concerns: [], metrics: {} };
+
+    if (this.diabeticMode) {
+      const diabeticAnalysis = this.diabeticConverter.analyze();
+      result.metrics.carbs = diabeticAnalysis;
+      if (diabeticAnalysis.currentNetCarbs > 50) {
+        result.concerns.push('high_carbs');
+      }
+    }
+
+    if (this.heartSmartMode) {
+      const heartAnalysis = this.heartSmartConverter.analyze();
+      result.metrics.heart = heartAnalysis;
+      result.concerns.push(...heartAnalysis.concerns);
+    }
+
+    return result;
+  }
+
+  // Handle conflicts between modes
+  resolveConflicts(substitutions) {
+    // Example: Diabetic suggests almond flour (high fat)
+    //          Heart-smart concerned about fat
+    // Resolution: Use almond flour but reduce other fats in recipe
+
+    const conflicts = [];
+    // Check if diabetic sub increases sat fat
+    // Check if heart-smart sub increases carbs
+    // Suggest balanced alternatives
+
+    return { substitutions, conflicts, resolutions };
+  }
+
+  generateHealthyRecipe() {
+    // Apply both converters, resolve conflicts, return unified result
+    return {
+      recipe: this.finalRecipe,
+      diabeticImprovements: {...},
+      heartSmartImprovements: {...},
+      conflictsResolved: [...],
+      overallHealthScore: this.calculateHealthScore()
+    };
+  }
+}
+```
+
+**Phase 4: UI Integration**
+
+```html
+<div class="health-converter-panel">
+  <h3>Make This Recipe Healthier</h3>
+
+  <div class="converter-options">
+    <label>
+      <input type="checkbox" id="diabetic-mode"> Diabetic-Friendly
+      <span class="target">(<50g carbs)</span>
+    </label>
+    <label>
+      <input type="checkbox" id="heart-smart-mode"> Heart-Smart
+      <span class="target">(<600mg sodium, <5g sat fat)</span>
+    </label>
+  </div>
+
+  <div class="health-metrics">
+    <div class="metric sodium">
+      <span class="label">Sodium</span>
+      <span class="original">1,240mg</span>
+      <span class="arrow">→</span>
+      <span class="converted">380mg</span>
+      <span class="badge good">-69%</span>
+    </div>
+    <div class="metric carbs">
+      <span class="label">Net Carbs</span>
+      <span class="original">62g</span>
+      <span class="arrow">→</span>
+      <span class="converted">14g</span>
+      <span class="badge good">-77%</span>
+    </div>
+    <!-- More metrics -->
+  </div>
+
+  <div class="substitution-list">
+    <!-- Interactive substitution cards -->
+  </div>
+
+  <div class="flavor-enhancements">
+    <h4>Flavor Boosters (to compensate for reduced salt)</h4>
+    <ul>
+      <li>+ 1 tbsp lemon juice</li>
+      <li>+ 1/2 tsp cracked black pepper</li>
+      <li>+ Fresh herbs: basil, parsley</li>
+    </ul>
+  </div>
+</div>
+```
+
+#### AHA-Compliant Presets
+
+```javascript
+const HEALTH_PRESETS = {
+  'aha-recommended': {
+    sodium: 600,      // Per serving (2300mg/day ÷ ~4 meals)
+    satFat: 5,        // ~13g/day for 2000 cal
+    cholesterol: 100, // 300mg/day ÷ 3 meals
+    fiber: 7,         // 25-30g/day
+    addedSugar: 6     // 25g/day ÷ ~4 meals
+  },
+  'dash-diet': {
+    sodium: 575,      // Stricter (2300mg max, ideally 1500mg)
+    satFat: 4,
+    fiber: 8,
+    potassium: 1200   // High potassium emphasized
+  },
+  'mediterranean': {
+    sodium: 600,
+    satFat: 6,        // More olive oil allowed
+    omega3: 1,        // Minimum omega-3 per serving
+    fiber: 8
+  }
+};
+```
+
+#### Research Required
+
+- [ ] Complete sodium content database for common ingredients
+- [ ] Saturated fat database with cooking method variations
+- [ ] Herb/spice flavor pairing research
+- [ ] How salt reduction affects food safety (curing, preservation)
+- [ ] Interaction effects (reducing salt + reducing fat = double flavor loss)
+- [ ] Regional herb blends for different cuisines
+
+#### Success Metrics
+
+- [ ] 85%+ of recipes convertible to <600mg sodium
+- [ ] User flavor satisfaction >3.5/5 after conversion
+- [ ] Combined diabetic+heart-smart possible for 70%+ of recipes
+- [ ] Clear conflict resolution when modes compete
+
+#### Dependencies
+
+- Nutrition estimation tool
+- Diabetic converter (for combined mode)
+- Ingredient parser
+- Herb/spice flavor database
+
+---
+
 ## Medium Priority
 
 ### Recipe Scaling Intelligence
