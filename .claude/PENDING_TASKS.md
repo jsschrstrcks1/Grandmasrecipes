@@ -31,20 +31,41 @@ Create an interactive tool that helps users substitute proteins or vegetables in
    - Fresh vs frozen considerations
    - Mercury content warnings where applicable
 
-3. **Vegetable Substitutions**
+3. **Vegetable Protein Substitutions** (Plant-Based)
+   | Protein Source | Protein/Serving | Complete? | Best For | Notes |
+   |----------------|-----------------|-----------|----------|-------|
+   | Tofu (firm) | 20g/cup | Yes | Stir-fry, grilling, scrambles | Press to remove water, absorbs marinades |
+   | Tempeh | 31g/cup | Yes | Grilling, crumbling, slicing | Fermented, nuttier flavor, firmer texture |
+   | Seitan | 25g/100g | No* | Stews, stir-fry, "meat" dishes | *Cook in soy sauce broth for complete protein |
+   | Lentils | 18g/cup | No | Soups, curries, meat extender | Combine with rice for complete protein |
+   | Chickpeas | 15g/cup | No | Curries, salads, hummus | Very versatile, good texture |
+   | Black beans | 15g/cup | No | Tacos, burgers, soups | Combine with corn/rice |
+   | Edamame | 17g/cup | Yes | Salads, snacks, stir-fry | Young soybeans, mild flavor |
+   | Quinoa | 8g/cup | Yes | Grain substitute, salads | Also a complete protein grain |
+   | Hemp seeds | 10g/3tbsp | Yes | Toppings, smoothies | Nutty flavor, omega-3s |
+   | Nutritional yeast | 8g/2tbsp | Yes | Cheese flavor, sauces | B12 fortified usually |
+
+   **Protein Combining for Complete Proteins:**
+   - Legumes + Grains = Complete (beans + rice, lentils + bread)
+   - Legumes + Seeds = Complete (hummus with tahini)
+   - Legumes + Nuts = Complete (bean salad with walnuts)
+
+4. **Vegetable Substitutions**
    - Moisture content warnings (e.g., "Adding tomatoes to Alfredo will make it soupy")
    - Cooking time differences
    - Texture impact (crispy vs soft)
    - Flavor profile changes (bitter, sweet, earthy)
    - Starch content considerations (potatoes vs cauliflower)
 
-4. **Research Areas**
+5. **Research Areas**
    - Fat content differences between proteins
    - How different proteins absorb marinades
    - Collagen content and braising requirements
    - Vegetable water release during cooking
    - Acidity interactions (tomatoes with cream sauces)
    - Starch release and sauce thickening
+   - Plant protein digestibility (PDCAAS scores)
+   - Anti-nutrients in legumes (phytates, lectins) and how to reduce them
 
 #### Data Structure (Proposed)
 
@@ -834,6 +855,333 @@ const HEALTH_PRESETS = {
 - Diabetic converter (for combined mode)
 - Ingredient parser
 - Herb/spice flavor database
+
+---
+
+---
+
+## CRITICAL: Health Safeguards System
+
+**Status:** Research Complete, Implementation Required
+**Added:** 2026-01-23
+**Priority:** HIGHEST - User Safety
+
+A comprehensive health safeguards system that warns users about dangerous food interactions with medications, medical conditions, and allergens. **This must be implemented before deploying any health converter tools.**
+
+### Drug-Food Interactions (Life-Threatening)
+
+#### 1. Warfarin (Blood Thinners) + Vitamin K
+
+**Risk Level: CRITICAL**
+**Consequence:** Uncontrolled bleeding or dangerous clots
+
+| Vitamin K Foods (CONSISTENT intake required) | Action |
+|---------------------------------------------|--------|
+| Kale, spinach, collard greens, Swiss chard | Maintain consistent amounts, don't suddenly increase/decrease |
+| Broccoli, Brussels sprouts, asparagus | Same serving size week-to-week |
+| Green tea, matcha | Limit or maintain consistency |
+| Liver (beef, chicken) | Very high Vitamin K, avoid |
+| Mayonnaise, canola oil, soybean oil | Moderate Vitamin K |
+
+**Warning Text:** "You've indicated you take blood thinners (warfarin). This recipe contains [X]g of Vitamin K from [ingredients]. Maintain consistent Vitamin K intake - sudden changes can affect your medication's effectiveness. Consult your doctor."
+
+**Foods that INCREASE warfarin effect (bleeding risk):**
+- Cranberry juice, pomegranate juice
+- Grapefruit and grapefruit juice
+- Mango, papaya
+- Fish oil supplements
+- Alcohol (large amounts)
+
+#### 2. MAOIs (Antidepressants) + Tyramine
+
+**Risk Level: CRITICAL - Can be fatal**
+**Consequence:** Hypertensive crisis (stroke, death)
+
+MAOIs include: phenelzine (Nardil), tranylcypromine (Parnate), isocarboxazid (Marplan), selegiline (Emsam patch)
+
+| HIGH-TYRAMINE FOODS TO AVOID | Tyramine Content |
+|-----------------------------|------------------|
+| Aged cheeses (cheddar, Parmesan, blue cheese, Gouda) | Very High |
+| Cured meats (salami, pepperoni, summer sausage) | Very High |
+| Fermented foods (sauerkraut, kimchi, miso, soy sauce) | High |
+| Draft/unpasteurized beer, red wine | High |
+| Smoked/pickled fish | High |
+| Overripe bananas, avocados | Moderate-High |
+| Broad beans (fava beans) | High |
+| Yeast extracts (Marmite, Vegemite) | Very High |
+
+**SAFE alternatives:**
+- Fresh cheeses (cream cheese, cottage cheese, ricotta)
+- Fresh meats (not aged/cured)
+- White wine, bottled beer (in moderation)
+- Fresh fruits and vegetables
+
+**Warning Text:** "⚠️ DANGER: You've indicated you take an MAOI antidepressant. This recipe contains [aged cheese/cured meat/fermented ingredient] which is HIGH in tyramine. Consuming this could cause a hypertensive crisis (dangerous blood pressure spike). This interaction can be FATAL. Please choose a different recipe or substitute these ingredients."
+
+**Note:** Tyramine restriction must continue 2-3 weeks AFTER stopping MAOIs.
+
+#### 3. Grapefruit + Multiple Medications
+
+**Risk Level: HIGH**
+**Consequence:** Medication overdose or reduced effectiveness
+
+Grapefruit inhibits CYP3A4 enzyme, affecting 85+ medications:
+
+| Medication Class | Effect of Grapefruit |
+|-----------------|----------------------|
+| Statins (atorvastatin, simvastatin) | Increases drug levels → muscle damage |
+| Calcium channel blockers (amlodipine, felodipine) | Increases drug levels → low blood pressure |
+| Immunosuppressants (cyclosporine, tacrolimus) | Increases toxicity |
+| Anti-anxiety (buspirone, diazepam) | Increased sedation |
+| Erectile dysfunction (sildenafil) | Dangerous blood pressure drop |
+| Some cancer drugs | Altered effectiveness |
+
+**Also avoid:** Pomelo, Seville oranges, tangelos (same compounds)
+
+**Warning Text:** "This recipe contains grapefruit/pomelo/Seville orange. Grapefruit interacts with many medications including [common examples]. If you take prescription medications, consult your pharmacist before consuming grapefruit."
+
+#### 4. ACE Inhibitors + Potassium-Rich Foods
+
+**Risk Level: HIGH**
+**Consequence:** Hyperkalemia (dangerous heart rhythm)
+
+ACE inhibitors (lisinopril, enalapril, etc.) and ARBs cause potassium retention.
+
+| High-Potassium Foods to Moderate | Potassium (mg) |
+|----------------------------------|----------------|
+| Baked potato with skin | 926mg |
+| Sweet potato | 542mg |
+| Banana | 422mg |
+| Orange juice (1 cup) | 496mg |
+| Spinach (1 cup cooked) | 839mg |
+| Tomato sauce (1 cup) | 728mg |
+| Salt substitutes (potassium chloride) | VERY HIGH - AVOID |
+
+**Warning Text:** "You've indicated you take ACE inhibitors or ARBs. This recipe is high in potassium ([X]mg per serving). Your medications cause potassium retention. Monitor your potassium intake and discuss with your doctor."
+
+### Kidney Disease (CKD) Dietary Restrictions
+
+**Risk Level: HIGH**
+**Consequence:** Dialysis complications, heart problems, bone disease
+
+| CKD Stage | Sodium | Potassium | Phosphorus | Protein |
+|-----------|--------|-----------|------------|---------|
+| 1-2 | <2300mg/day | Usually OK | Usually OK | Normal |
+| 3 | <2300mg/day | May need limit | Limit if elevated | Moderate |
+| 4 | <2000mg/day | <2000-3000mg/day | <800-1000mg/day | Limit |
+| 5/Dialysis | <2000mg/day | <2000mg/day | <800mg/day | Higher (dialysis) |
+
+**High-Phosphorus Foods to Flag:**
+- Dairy products (milk, cheese, yogurt)
+- Nuts and seeds
+- Whole grains (brown rice, whole wheat bread)
+- Cola drinks (phosphoric acid)
+- Processed foods with phosphate additives (PHOS in ingredients)
+- Organ meats
+
+**Warning Text:** "You've indicated you have kidney disease. This recipe contains [X]mg phosphorus and [X]mg potassium per serving. Recommended limits for your stage: phosphorus <[X]mg, potassium <[X]mg. Consult your renal dietitian."
+
+### Immunocompromised Food Safety
+
+**Applies to:** Pregnant women, chemotherapy patients, HIV/AIDS, transplant recipients, elderly (65+)
+
+**Risk Level: HIGH**
+**Consequence:** Listeriosis, salmonella, severe foodborne illness
+
+| AVOID These Foods | Risk | Safe Alternative |
+|-------------------|------|------------------|
+| Soft cheeses (brie, feta, queso fresco) | Listeria | Hard cheeses, pasteurized options |
+| Deli meats, hot dogs (unless heated to steaming) | Listeria | Heat until steaming (165°F) |
+| Raw/undercooked eggs | Salmonella | Cook until firm, use pasteurized eggs |
+| Raw sprouts (alfalfa, bean) | E. coli, Salmonella | Cooked sprouts only |
+| Unpasteurized juice/cider | E. coli | Pasteurized only |
+| Raw fish (sushi, sashimi) | Parasites, bacteria | Fully cooked fish |
+| Smoked seafood (unless in cooked dish) | Listeria | Canned or fully cooked |
+| Raw cookie dough/batter | Salmonella, E. coli | Bake fully |
+
+**Pregnancy-Specific:**
+- **Listeriosis risk:** 10x higher in pregnancy
+- **Mercury in fish:** Limit albacore tuna, avoid shark/swordfish/king mackerel
+- **Caffeine:** Limit to 200mg/day
+
+**Warning Text:** "⚠️ IMMUNOCOMPROMISED WARNING: This recipe contains [raw eggs/unpasteurized cheese/deli meat]. For pregnant women, chemotherapy patients, or those with weakened immune systems, these ingredients carry serious infection risks including Listeria. Please cook thoroughly or substitute with safer alternatives."
+
+### Allergen Cross-Contamination Warnings
+
+**Top 9 Allergens (US):**
+1. Milk
+2. Eggs
+3. Fish
+4. Shellfish
+5. Tree nuts
+6. Peanuts
+7. Wheat
+8. Soybeans
+9. Sesame
+
+**Hidden Allergens to Flag:**
+| Allergen | Hidden In |
+|----------|-----------|
+| Milk | Casein, whey, lactose, ghee, some margarines |
+| Eggs | Mayonnaise, meringue, some pasta, marshmallows |
+| Wheat | Soy sauce, some stocks, breading, communion wafers |
+| Soy | Vegetable oil, lecithin, tofu, miso, edamame |
+| Tree nuts | Pesto (pine nuts), marzipan, nut oils |
+| Peanuts | Some Asian sauces, some candies, "arachis oil" |
+| Shellfish | Fish sauce, some Caesar dressings, glucosamine |
+| Sesame | Tahini, hummus, some breads, "benne seeds" |
+
+**Cross-Contamination Warnings:**
+- Shared fryers (fish/shellfish with other foods)
+- Shared cutting boards/utensils
+- "May contain" labeling
+- Restaurant/bakery cross-contact risks
+
+**Warning Text:** "You've indicated allergies to [X]. This recipe contains [ingredient] which is/contains [allergen]. Additionally, [related ingredient] may contain traces of [allergen]. Please verify all ingredients and consider cross-contamination risks."
+
+### Implementation Requirements
+
+```javascript
+class HealthSafeguards {
+  constructor(userProfile) {
+    this.medications = userProfile.medications || [];
+    this.conditions = userProfile.conditions || []; // ['CKD_stage_3', 'pregnant', 'immunocompromised']
+    this.allergies = userProfile.allergies || [];
+  }
+
+  analyzeRecipe(recipe) {
+    const warnings = [];
+
+    // Check drug-food interactions
+    warnings.push(...this.checkDrugInteractions(recipe));
+
+    // Check condition-specific restrictions
+    warnings.push(...this.checkConditionRestrictions(recipe));
+
+    // Check allergens
+    warnings.push(...this.checkAllergens(recipe));
+
+    // Check food safety for vulnerable populations
+    warnings.push(...this.checkFoodSafety(recipe));
+
+    return {
+      warnings: warnings,
+      riskLevel: this.calculateOverallRisk(warnings),
+      canProceed: !warnings.some(w => w.level === 'critical'),
+      substitutionSuggestions: this.getSafeSubstitutions(warnings)
+    };
+  }
+
+  checkDrugInteractions(recipe) {
+    const interactions = [];
+
+    // Warfarin + Vitamin K
+    if (this.medications.includes('warfarin')) {
+      const vitKContent = this.calculateVitaminK(recipe);
+      if (vitKContent > 50) { // mcg per serving
+        interactions.push({
+          level: 'high',
+          type: 'drug_interaction',
+          drug: 'warfarin',
+          nutrient: 'vitamin_k',
+          amount: vitKContent,
+          message: `High Vitamin K content (${vitKContent}mcg). Maintain consistent intake.`,
+          ingredients: this.getVitKIngredients(recipe)
+        });
+      }
+    }
+
+    // MAOIs + Tyramine
+    if (this.medications.some(m => MAOI_DRUGS.includes(m))) {
+      const tyramineIngredients = this.findTyramineIngredients(recipe);
+      if (tyramineIngredients.length > 0) {
+        interactions.push({
+          level: 'critical', // LIFE THREATENING
+          type: 'drug_interaction',
+          drug: 'MAOI',
+          nutrient: 'tyramine',
+          message: '⚠️ DANGER: Contains tyramine-rich foods. Risk of hypertensive crisis.',
+          ingredients: tyramineIngredients,
+          mustAvoid: true
+        });
+      }
+    }
+
+    return interactions;
+  }
+}
+```
+
+### User Profile Setup (Required)
+
+Before using health converters, users must complete a health profile:
+
+```javascript
+const healthProfile = {
+  // Medications (for drug-food interactions)
+  medications: {
+    bloodThinners: false,      // warfarin, etc.
+    maois: false,              // antidepressants
+    statins: false,            // cholesterol
+    aceInhibitors: false,      // blood pressure
+    immunosuppressants: false, // transplant drugs
+    other: []
+  },
+
+  // Medical conditions
+  conditions: {
+    kidneyDisease: null,       // null, 'stage_1', 'stage_2', ... 'dialysis'
+    diabetes: null,            // null, 'type_1', 'type_2', 'prediabetes'
+    heartDisease: false,
+    pregnant: false,
+    breastfeeding: false,
+    immunocompromised: false,  // cancer treatment, HIV, transplant
+    celiac: false,
+    ibs: false
+  },
+
+  // Allergies (severity: 'mild', 'moderate', 'severe', 'anaphylactic')
+  allergies: [
+    // { allergen: 'peanuts', severity: 'anaphylactic' }
+  ],
+
+  // Dietary preferences (for suggestions, not safety)
+  preferences: {
+    vegetarian: false,
+    vegan: false,
+    kosher: false,
+    halal: false,
+    lowSodium: false
+  }
+};
+```
+
+### Data Files Required
+
+```
+data/
+├── drug-food-interactions.json    # Medication-food interaction database
+├── allergen-database.json         # Hidden allergens, cross-contamination
+├── nutrient-database.json         # Vitamin K, tyramine, potassium per ingredient
+├── food-safety-risks.json         # Listeria, salmonella risk foods
+└── medical-condition-diets.json   # CKD stages, diabetes targets, etc.
+```
+
+### Disclaimer Requirements
+
+**MANDATORY disclaimer on all health-related tools:**
+
+> **Medical Disclaimer:** This tool provides general dietary guidance only and is NOT a substitute for professional medical advice. Always consult your doctor, pharmacist, or registered dietitian before making dietary changes, especially if you have medical conditions or take medications. Food-drug interactions can be serious or life-threatening. If you experience adverse symptoms, seek medical attention immediately.
+
+### Research Sources
+
+- [Pharmacy Times: 5 Dangerous Food-Drug Interactions](https://www.pharmacytimes.com/view/5-dangerous-food-drug-interactions)
+- [AHA: Medication Interactions with Food](https://www.heart.org/en/health-topics/consumer-healthcare/medication-information/medication-interactions-food-supplements-and-other-drugs)
+- [NIH: Warfarin Food Interactions](https://www.ncbi.nlm.nih.gov/books/NBK563197/)
+- [NIDDK: Healthy Eating for CKD](https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease)
+- [CDC: Food Safety for Pregnant Women](https://www.cdc.gov/food-safety/foods/pregnant-women.html)
+- [FDA: Listeria Safety](https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be)
+- [Memorial Sloan Kettering: Neutropenic Diet](https://www.mskcc.org/experience/patient-support/nutrition-cancer/diet-plans-cancer/neutropenic-diet)
 
 ---
 
