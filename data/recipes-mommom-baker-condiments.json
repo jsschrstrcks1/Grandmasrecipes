@@ -1,0 +1,2522 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "condiments",
+    "total_recipes": 24,
+    "generated": "2026-01-23T14:31:32.137902Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "nut-flavored-oil-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nut-Flavored Oil",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 334",
+      "description": "Homemade nut-infused oil to add zest to salads and dressings.",
+      "servings_yield": "2 1/2 cups (forty 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "unblanched shelled whole hazelnuts, almonds, or walnuts",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "added gradually"
+        },
+        {
+          "item": "salad oil",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To make flavored oil, place 1 1/2 cups unblanched shelled whole hazelnuts, almonds, or walnuts in a blender container or food processor. Cover; blend or process till chopped. With blender on slow speed, gradually add 1/2 cup salad oil through opening in lid. Blend till the nuts are finely chopped."
+        },
+        {
+          "step": 2,
+          "text": "Transfer mixture to a small saucepan. Place a candy thermometer in the pan. Cook over low heat, stirring often, till thermometer registers 160\u00b0. Remove from heat; cool slightly. Combine mixture with 2 cups salad oil. Cover tightly; let stand in a cool place for 1 to 2 weeks."
+        },
+        {
+          "step": 3,
+          "text": "Line a colander with several layers of cheesecloth. Pour mixture through colander; let drain in a bowl. Discard nut paste. Pour strained oil into a clean 1-pint jar; cover tightly. Store in the refrigerator up to 3 months. Makes 2 1/2 cups (forty 1-tablespoon servings)."
+        }
+      ],
+      "temperature": "160\u00b0F",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "oil",
+        "nuts",
+        "homemade",
+        "dressing"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5496 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 14,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 0,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "mayonnaise-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mayonnaise",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 355",
+      "description": "Homemade mayonnaise - creamy and fresh.",
+      "servings_yield": "about 2 cups (thirty-two 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "dry mustard",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar or lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salad oil",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small mixer bowl combine mustard, salt, paprika, if desired, and red pepper. Add egg yolks and vinegar or lemon juice. Beat with an electric mixer on medium speed till combined."
+        },
+        {
+          "step": 2,
+          "text": "With mixer running, add the oil, 1 teaspoon at a time, till 2 tablespoons oil have been added. Add the remaining oil in a thin, steady stream. (This should take about 5 minutes.)"
+        },
+        {
+          "step": 3,
+          "text": "Cover and store in the refrigerator up to 2 weeks. Makes about 2 cups (thirty-two 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Variations: Blender Mayonnaise, Herb Blender Mayonnaise, Citrus Blender Mayonnaise"
+      ],
+      "tags": [
+        "condiment",
+        "mayonnaise",
+        "homemade",
+        "dressing"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5517 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 11,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "cholesterol_mg": 17,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "green-goddess-dressing-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Green Goddess Dressing",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 356",
+      "description": "Creamy herb dressing with anchovy - transforms into a refreshing vegetable dip without the milk.",
+      "servings_yield": "about 1 cup (sixteen 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "packed parsley leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dairy sour cream or plain yogurt",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "anchovy paste or 1 anchovy fillet",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "dried basil",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried tarragon",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container or food processor bowl combine parsley, mayonnaise, sour cream, onion, vinegar, anchovy paste, basil, garlic powder, and tarragon. Cover and blend or process till smooth."
+        },
+        {
+          "step": 2,
+          "text": "Cover and store in the refrigerator up to 2 weeks. Before serving, stir in milk to make of desired consistency. Makes about 1 cup (sixteen 1-tablespoon servings)."
+        }
+      ],
+      "tags": [
+        "dressing",
+        "green-goddess",
+        "herb",
+        "anchovy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5518 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 47,
+          "fat_g": 3,
+          "protein_g": 0,
+          "carbs_g": 5,
+          "cholesterol_mg": 4,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "thousand-island-dressing-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Thousand Island Dressing",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 356",
+      "description": "Classic creamy dressing with chili sauce and eggs.",
+      "servings_yield": "1 1/4 cups (twenty-four 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chili sauce",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "pimiento-stuffed olives",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "green or sweet red pepper",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "Worcestershire sauce or prepared horseradish",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine mayonnaise and chili sauce. Stir in egg, olives, sweet pepper, onion, and, if desired, Worcestershire sauce."
+        },
+        {
+          "step": 2,
+          "text": "Cover; store in the refrigerator up to 1 week. If necessary, stir in milk to make of desired consistency. Makes 1 1/4 cups (twenty-four 1-tablespoon servings)."
+        }
+      ],
+      "tags": [
+        "dressing",
+        "thousand-island",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5518 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 8,
+          "protein_g": 0,
+          "carbs_g": 1,
+          "cholesterol_mg": 111,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "vinaigrette-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Vinaigrette",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 358",
+      "description": "Basic oil and vinegar dressing with herbs.",
+      "servings_yield": "1/4 cup (twelve 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "salad oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "white wine vinegar or vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped fresh thyme, oregano, or basil; or 1/2 teaspoon dried thyme, oregano, or basil, crushed",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dry mustard or 1 teaspoon Dijon-style mustard",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a screw-top jar mix oil, vinegar, sugar, herb, paprika, mustard, if desired, and pepper. Cover; shake well."
+        },
+        {
+          "step": 2,
+          "text": "Store in the refrigerator up to 2 weeks. Shake before serving. Makes 3/4 cup (twelve 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Variations: French, Italian, Red Wine, Garlic, Onion, Ginger, Citrus and Poppy Seed Vinaigrette"
+      ],
+      "tags": [
+        "dressing",
+        "vinaigrette",
+        "basic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5520 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 85,
+          "fat_g": 9,
+          "protein_g": 0,
+          "carbs_g": 1,
+          "cholesterol_mg": 0,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "blue-cheese-dressing-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Blue Cheese Dressing",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 357",
+      "description": "Creamy dressing with crumbled blue cheese.",
+      "servings_yield": "1 1/2 cups (twenty 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "plain yogurt or dairy sour cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cream-style cottage cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "crumbled blue cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2 to 3",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container or food processor bowl combine yogurt or sour cream, cottage cheese, mayonnaise, and 1/4 cup of the blue cheese. Cover and blend or process till smooth."
+        },
+        {
+          "step": 2,
+          "text": "Stir in remaining blue cheese. If necessary, stir in milk to make of desired consistency. Cover and store in the refrigerator up to 2 weeks. Makes 1 1/2 cups (twenty 1-tablespoon servings)."
+        }
+      ],
+      "tags": [
+        "dressing",
+        "blue-cheese",
+        "creamy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5519 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 364,
+          "fat_g": 32.0,
+          "protein_g": 13.5,
+          "carbs_g": 7.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cranberry-orange-relish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry-Orange Relish",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 366",
+      "description": "Fresh relish that can be stored in the refrigerator up to 2 weeks or frozen up to 6 months.",
+      "servings_yield": "3 3/4 cups (fifteen 1/4-cup servings)",
+      "ingredients": [
+        {
+          "item": "medium oranges",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh cranberries",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "1 pound"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped walnuts",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Finely shred 1 tablespoon orange peel. Peel and section oranges. Using a food processor or food grinder with a coarse blade, process or grind orange sections and cranberries. (If using a food processor, process half at a time.)"
+        },
+        {
+          "step": 2,
+          "text": "Stir in sugar, walnuts, and orange peel. Cover and store in the refrigerator up to 2 weeks or freeze up to 6 months."
+        },
+        {
+          "step": 3,
+          "text": "Serve with ham or poultry. Makes 3 3/4 cups (fifteen 1/4-cup servings)."
+        }
+      ],
+      "tags": [
+        "relish",
+        "cranberry",
+        "orange",
+        "thanksgiving",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5527 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 682,
+          "fat_g": 6.5,
+          "protein_g": 2.2,
+          "carbs_g": 160.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "salsa-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Salsa",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 368",
+      "description": "Boost the flavor of omelets or scrambled eggs by spooning this spicy sauce over them.",
+      "servings_yield": "about 2 cups (thirty-two 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "finely chopped, peeled tomato",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "diced green chili peppers",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "one can, drained"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely chopped green pepper",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "snipped cilantro or parsley",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "several dashes (optional)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl combine tomato; tomato sauce; chili peppers; green onion; green pepper; cilantro or parsley; lemon juice; garlic; hot pepper sauce, if desired; and 1/8 teaspoon pepper."
+        },
+        {
+          "step": 2,
+          "text": "Place about half of the tomato mixture in a blender container or food processor bowl. Cover and blend or process till smooth. Stir in remaining tomato mixture."
+        },
+        {
+          "step": 3,
+          "text": "Cover and chill at least 4 hours before serving, stirring occasionally. Store in refrigerator up to 1 week. Use as a dip for tortilla chips or spoon over main dishes or vegetables. Makes about 2 cups (thirty-two 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Salsa Verde: Prepare as above, except omit tomato and tomato sauce. Add 6 to 8 fresh tomatillos, finely chopped, or one 13-ounce can tomatillos, rinsed, drained, and finely chopped, to chili pepper mixture. Makes about 1 3/4 cups."
+      ],
+      "tags": [
+        "salsa",
+        "mexican",
+        "dip",
+        "condiment"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5529 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 0.3,
+          "protein_g": 1.8,
+          "carbs_g": 8.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "papaya-apple-chutney-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Papaya-Apple Chutney",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 367",
+      "description": "Chutneys are often served as a condiment with highly spiced dishes.",
+      "servings_yield": "2 1/4 cups (thirty-six 1-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "medium tart cooking apples",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled, cored, and chopped (2 cups)"
+        },
+        {
+          "item": "medium papaya",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded, peeled, and chopped (1 1/2 cups)"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lime or lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "slivered almonds",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "toasted (optional)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan combine apples, papaya, brown sugar, green pepper, vinegar, raisins, water, onion, lime or lemon juice, salt, and garlic."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling; reduce heat. Simmer for 30 minutes, stirring occasionally. Cool. Cover and store in the refrigerator up to 4 weeks. Or freeze up to 12 months."
+        },
+        {
+          "step": 3,
+          "text": "Before serving, if desired, stir in almonds. Serve with beef, ham, lamb, pork, or poultry. Makes about 2 1/4 cups (thirty-six 1-tablespoon servings)."
+        }
+      ],
+      "notes": [
+        "Pineapple-Date Chutney: Prepare as above, except omit apples, papaya, and raisins. Combine 1/2 of a medium pineapple, peeled, cored, and chopped (about 2 cups), or one 20-ounce can pineapple chunks, drained, 3/4 cup pitted whole dates, snipped, and 1/4 teaspoon ground cinnamon with vinegar mixture."
+      ],
+      "tags": [
+        "chutney",
+        "papaya",
+        "apple",
+        "indian",
+        "condiment"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5528 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 502,
+          "fat_g": 9.6,
+          "protein_g": 5.8,
+          "carbs_g": 106.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 12/12 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "cucumber-relish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cucumber Relish",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 367",
+      "description": "Fresh cucumber relish for frankfurters or hamburgers.",
+      "servings_yield": "1 1/4 cups (ten 2-tablespoon servings)",
+      "ingredients": [
+        {
+          "item": "large cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "12 ounces"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried dillweed or dried mint",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "several dashes"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Slice cucumber in half lengthwise; scoop out seeds and discard. Using a food processor or food grinder with a coarse blade, process or grind cucumber and onion (or finely chop by hand)."
+        },
+        {
+          "step": 2,
+          "text": "Drain. Stir in vinegar, sugar, oil, dillweed or mint, salt, and hot pepper sauce. Chill at least 8 hours before serving."
+        },
+        {
+          "step": 3,
+          "text": "Cover; store in the refrigerator up to 1 week. Serve with frankfurters or hamburgers. Makes 1 1/4 cups (ten 2-tablespoon servings)."
+        }
+      ],
+      "tags": [
+        "relish",
+        "cucumber",
+        "pickled",
+        "condiment"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5528 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 138,
+          "fat_g": 1.2,
+          "protein_g": 2.8,
+          "carbs_g": 32.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
+          "Based on 8/8 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "catsup-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Catsup",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 200",
+      "description": "The tomato flavor comes through in this homemade ketchup",
+      "servings_yield": "4 half-pints",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ripe tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "3",
+          "unit": "inches",
+          "prep_note": "broken"
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": "(24 medium)"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan combine vinegar, stick cinnamon, cloves, and celery seed; bring to boiling. Remove from heat."
+        },
+        {
+          "step": 2,
+          "text": "Wash, core, and quarter tomatoes. Drain in a colander; discard liquid. Place tomatoes in an 8- or 10-quart kettle or Dutch oven. Add onion. Bring to boiling. Cook 15 minutes, stirring often."
+        },
+        {
+          "step": 3,
+          "text": "Rinse through a food mill or sieve; discard seeds. Return puree to kettle; add sugar, salt, and ground red pepper. Bring to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Strain vinegar mixture into tomato mixture; stir. Simmer for 1-1/2 to 2 hours or till reduced by half, stirring occasionally."
+        },
+        {
+          "step": 5,
+          "text": "Ladle catsup into hot, sterilized pint jars, leaving a 1/2-inch headspace. Adjust lids. Process in a boiling-water canner for 10 minutes."
+        },
+        {
+          "step": 6,
+          "text": "May refrigerate up to 1 month. Makes 4 half-pints."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "canning",
+        "preserving",
+        "ketchup",
+        "tomato"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5361 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 335,
+          "fat_g": 1.6,
+          "protein_g": 6.7,
+          "carbs_g": 81.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "dill-pickles-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dill Pickles",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 201",
+      "description": "Classic homemade dill pickles",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "pickling cucumbers",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh dill",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "heads"
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thoroughly wash cucumbers. Rinse well."
+        },
+        {
+          "step": 2,
+          "text": "Cut off a slice from stem end of cucumbers. Pack cucumbers into hot, sterilized jars, leaving 1/2-inch headspace."
+        },
+        {
+          "step": 3,
+          "text": "Combine water, vinegar, and pickling salt. Bring to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Pour hot liquid over cucumbers, leaving 1/2-inch headspace. Add dill and mustard seed. Adjust lids."
+        },
+        {
+          "step": 5,
+          "text": "Process in a boiling-water canner."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Kosher-Style Dill Pickles: Prepare as above, substitute 2 cloves garlic, halved, for each jar (12 servings)"
+      ],
+      "tags": [
+        "condiments",
+        "pickles",
+        "dill",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 0.2,
+          "protein_g": 0.8,
+          "carbs_g": 4.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for fresh dill",
+          "Assumed 1 unit for mustard seed",
+          "Estimated 4 servings based on total calories",
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "bread-n-butter-pickles-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bread 'n' Butter Pickles",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 201",
+      "description": "Sweet and tangy sliced pickles",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "medium sliced cucumbers",
+          "quantity": "4",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "medium white onions",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "halved"
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cracked ice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "turmeric",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large bowl combine cucumbers, onions, salt, and cracked ice."
+        },
+        {
+          "step": 2,
+          "text": "Let stand 3 hours. Stir in a large amount of cracked ice. Remove garlic."
+        },
+        {
+          "step": 3,
+          "text": "In a large kettle, combine sugar, vinegar, turmeric, mustard seed, and celery seed. Add drained mixture."
+        },
+        {
+          "step": 4,
+          "text": "Bring to boiling. Pack cucumber mixture, with liquid, into hot, sterilized pint jars, leaving a 1/2-inch headspace."
+        },
+        {
+          "step": 5,
+          "text": "Adjust lids. Process in a boiling-water canner for 10 minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "pickles",
+        "sweet pickles",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 372,
+          "fat_g": 0.2,
+          "protein_g": 1.6,
+          "carbs_g": 95.0
+        },
+        "missing_inputs": [
+          "Not in database: cracked ice"
+        ],
+        "assumptions": [
+          "Estimated 12 servings based on total calories",
+          "Based on 9/10 ingredients (90% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "corn-relish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Corn Relish",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 201",
+      "description": "Fresh corn relish for canning",
+      "servings_yield": "7 pints (224 one-tablespoon servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fresh ears of corn",
+          "quantity": "12 to 16",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped sweet red pepper",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": "(2 medium)"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2-3/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "[RECONSTRUCTED - standard corn relish ingredient]"
+        },
+        {
+          "item": "apple cider or apple juice",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "ground allspice",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut corn from cobs (do not scrape cobs). Measure 6 cups corn."
+        },
+        {
+          "step": 2,
+          "text": "In an 8- or 10-quart kettle or Dutch oven combine corn and 2 cups water."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boiling; reduce heat. Simmer, covered, about 12 minutes or till nearly tender."
+        },
+        {
+          "step": 4,
+          "text": "Add celery, red pepper, and green pepper, and onion. Stir in 2 cups vinegar, sugar, pickling salt, and celery seed. Return to boiling."
+        },
+        {
+          "step": 5,
+          "text": "Boil, uncovered, 5 minutes, stirring occasionally. Stir together remaining vinegar, flour, dry mustard, and turmeric."
+        },
+        {
+          "step": 6,
+          "text": "Add to corn mixture. Cook and stir till bubbly; cook 1 minute more."
+        },
+        {
+          "step": 7,
+          "text": "Ladle into hot, sterilized pint jars, leaving a 1/2-inch headspace. Adjust lids. Process in a boiling-water canner for 15 minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "relish",
+        "corn",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          {
+            "field": "ingredients",
+            "issue": "Vinegar reconstructed - required for corn relish preservation",
+            "candidates": []
+          }
+        ]
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 497,
+          "fat_g": 3.5,
+          "protein_g": 9.1,
+          "carbs_g": 118.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "vegetable-relish-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Vegetable Relish",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 202",
+      "description": "Mixed vegetable relish for burgers and hot dogs",
+      "servings_yield": "about 8 pints",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "firm ripe tomatoes",
+          "quantity": "7",
+          "unit": "",
+          "prep_note": "peeled, cored (about 2-1/2 pounds)"
+        },
+        {
+          "item": "medium zucchini",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "quartered lengthwise (about 3 pounds)"
+        },
+        {
+          "item": "large sweet red peppers",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "seeded and cut up"
+        },
+        {
+          "item": "large green peppers",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "large onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "quartered"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": ""
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "dried thyme",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Using coarse blade of a food grinder, grind tomatoes, zucchini, peppers, onions, and garlic."
+        },
+        {
+          "step": 2,
+          "text": "Place ground vegetable mixture in a colander. Let stand overnight. Drain well with plastic wrap. Place in a container."
+        },
+        {
+          "step": 3,
+          "text": "Add salt. Bring to boiling, stirring often. Reduce heat. Simmer, stirring occasionally, for 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Return mixture to ground vegetable mixture to boiling, stirring often. Stir in sugar, vinegar, water, thyme, and pepper. Bring to boiling."
+        },
+        {
+          "step": 5,
+          "text": "Boiling-Water Canning: Ladle hot vegetables into hot, sterilized pint jars, leaving a 1/2-inch headspace. Adjust lids. Process in a boiling-water canner for 10 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Freezing: Cool vegetable mixture quickly by setting kettle into a sink of ice water. Ladle relish into freezer containers, leaving a 1/2-inch headspace. Seal, label, and freeze."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "relish",
+        "vegetables",
+        "canning",
+        "freezing",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5363 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 276,
+          "fat_g": 0.8,
+          "protein_g": 3.8,
+          "carbs_g": 68.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 12/12 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fruit-juice-jelly-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruit-Juice Jelly",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 203",
+      "description": "Easy jelly made from unsweetened fruit juice",
+      "servings_yield": "6 half-pints",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "unsweetened apple, grape, or cranberry juice or low-calorie cranberry juice cocktail",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fruit pectin",
+          "quantity": "1",
+          "unit": "1-3/4 oz package",
+          "prep_note": "powdered"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pour fruit juice into a large kettle. (If using fresh apple juice, strain it through cheesecloth first.) Add 1/4 cup lemon juice and powdered pectin."
+        },
+        {
+          "step": 2,
+          "text": "Bring to full rolling boil, stirring constantly. Stir in sugar. Return to full rolling boil; boil hard 1 minute, stirring constantly."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat; quickly skim off foam with metal spoon."
+        },
+        {
+          "step": 4,
+          "text": "Ladle into hot, sterilized half-pint jars, leaving 1/4-inch headspace. Adjust lids. Process in boiling-water canner for 5 minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "jelly",
+        "fruit",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 595,
+          "fat_g": 0.0,
+          "protein_g": 0.0,
+          "carbs_g": 154.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "peach-jam-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peach Jam",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 203",
+      "description": "Classic homemade peach jam",
+      "servings_yield": "7 half-pints",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "peaches",
+          "quantity": "2-1/2 to 3",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "fruit pectin",
+          "quantity": "1",
+          "unit": "1-3/4 oz package",
+          "prep_note": "powdered"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel, pit, and coarsely grind or mash peaches. Measure 4 cups."
+        },
+        {
+          "step": 2,
+          "text": "In an 8- or 10-quart kettle combine peaches, pectin, and lemon juice. Stir in sugar."
+        },
+        {
+          "step": 3,
+          "text": "Bring to full rolling boil, stirring constantly. Stir in sugar."
+        },
+        {
+          "step": 4,
+          "text": "Return to full rolling boil; boil hard 1 minute, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Remove from heat; quickly skim off foam with a metal spoon. Ladle into hot, sterilized half-pint jars, leaving 1/4-inch headspace."
+        },
+        {
+          "step": 6,
+          "text": "Adjust lids. Process in boiling-water canner for 5 minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [
+        "Peach-Plum Jam: Prepare as above, except add 1 pound fully ripe Italian prune plums, pitted and finely chopped (2 cups ground).",
+        "Peach-Berry Jam: Prepare as above except reduce peaches to 2 pounds (3 cups ground).",
+        "Add 2 cups strawberries, blackberries, or raspberries."
+      ],
+      "tags": [
+        "condiments",
+        "jam",
+        "peach",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 571,
+          "fat_g": 0.0,
+          "protein_g": 0.3,
+          "carbs_g": 147.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "grape-jam-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Grape Jam",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 203",
+      "description": "Homemade Concord grape jam",
+      "servings_yield": "about 6 half-pints",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Concord grapes",
+          "quantity": "3-1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "4-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and stem grapes. Measure 10 cups. Remove skins from half of the grapes by squeezing each grape between fingers."
+        },
+        {
+          "step": 2,
+          "text": "In a large kettle cook skinned grapes, covered, about 10 minutes or till very soft. Strain into a bowl, pressing to extract juice. Discard seeds."
+        },
+        {
+          "step": 3,
+          "text": "Add unskinned grapes and their skins to cooked pulp. Cook and stir over low heat about 10 minutes or till skins are tender."
+        },
+        {
+          "step": 4,
+          "text": "Stir in sugar. Bring to full rolling boil, stirring often. Boil hard, uncovered, for 10 to 12 minutes or till mixture sheets off a metal spoon or jam reaches 220\u00b0F."
+        },
+        {
+          "step": 5,
+          "text": "Remove from heat; quickly skim off foam. Ladle hot jam at once into hot, sterilized half-pint jars, leaving 1/4-inch headspace."
+        },
+        {
+          "step": 6,
+          "text": "Process in a boiling-water canner for 5 minutes."
+        }
+      ],
+      "temperature": "220\u00b0F jam stage",
+      "pan_size": "large kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "jam",
+        "grape",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 568,
+          "fat_g": 0.1,
+          "protein_g": 0.5,
+          "carbs_g": 146.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "orange-marmalade-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Marmalade",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 203",
+      "description": "Classic citrus marmalade",
+      "servings_yield": "6 half-pints (96 one-tablespoon servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "medium oranges",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "medium lemons",
+          "quantity": "1-1/2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "liquid fruit pectin",
+          "quantity": "1",
+          "unit": "6-oz package (1 foil pouch)",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Score orange and lemon peels into 4 lengthwise sections. Remove peels. Scrape off white portions from peels; discard."
+        },
+        {
+          "step": 2,
+          "text": "Cut peels into very thin strips. Bring to boiling. Combine peels, water, and baking soda. Bring to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Cover; simmer for 20 minutes. Do not drain. Section fruits. Add fruit and juices to peel mixture. Return to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Cover and simmer for 10 minutes. Measure 3 cups fruit mixture. Return to kettle or combine 3 cups fruit and sugar in an 8- or 10-quart kettle."
+        },
+        {
+          "step": 5,
+          "text": "Bring to full rolling boil, stirring constantly. Add pectin. Return to full rolling boil; boil hard 1 minute. Remove from heat; skim off foam."
+        },
+        {
+          "step": 6,
+          "text": "Ladle into hot, sterilized half-pint jars, leaving 1/4-inch headspace. (May take 2 weeks to set.)"
+        },
+        {
+          "step": 7,
+          "text": "Process in boiling-water canner for 15 minutes. Adjust lids."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "marmalade",
+        "orange",
+        "citrus",
+        "canning",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 691,
+          "fat_g": 0.2,
+          "protein_g": 0.8,
+          "carbs_g": 177.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "rhubarb-raspberry-jam-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rhubarb-Raspberry Jam",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 204",
+      "description": "Tangy-sweet rhubarb and raspberry combination",
+      "servings_yield": "5 half-pints",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fresh rhubarb",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen loose-pack raspberries or one 12-ounce package frozen raspberries",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "raspberry-flavored gelatin",
+          "quantity": "1",
+          "unit": "3-oz package",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large Dutch oven combine rhubarb and sugar. Let stand 20 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling, stirring frequently. Boil hard for 10 minutes, stirring frequently."
+        },
+        {
+          "step": 3,
+          "text": "Add raspberries. Return to full rolling boil; boil 5 to 6 minutes or till thick, stirring frequently."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Add gelatin; stir till dissolved."
+        },
+        {
+          "step": 5,
+          "text": "Ladle into hot, sterilized half-pint jars or freezer containers, leaving a 1/4-inch headspace. Seal, label. Let stand at room temperature about 2 hours or till jam is set."
+        },
+        {
+          "step": 6,
+          "text": "Store up to 3 weeks in the refrigerator or 1 year in the freezer."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large Dutch oven",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "jam",
+        "rhubarb",
+        "raspberry",
+        "preserving",
+        "EASY"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 705,
+          "fat_g": 0.5,
+          "protein_g": 2.5,
+          "carbs_g": 180.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "berry-freezer-jam-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Berry Freezer Jam",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 204",
+      "description": "Quick no-cook freezer jam with fresh berries",
+      "servings_yield": "4 half-pints (sixty 1-tablespoon servings)",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "blackberries, raspberries, or strawberries",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded lemon peel or orange peel",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "liquid fruit pectin",
+          "quantity": "1/2",
+          "unit": "of a 6-oz package (1 foil pouch)",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush berries. Measure 2 cups blackberries, raspberries, or strawberries."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl combine berries, sugar, and lemon peel or orange peel. Let stand 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Combine pectin and lemon juice. Add to berry mixture, stirring for 3 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Ladle at once into jars or freezer containers, leaving a 1/2-inch headspace. Let stand at room temperature about 2 hours or till jam is set."
+        },
+        {
+          "step": 5,
+          "text": "Store up to 3 weeks in the refrigerator or 1 year in the freezer."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "jam",
+        "berry",
+        "freezer jam",
+        "no-cook",
+        "preserving",
+        "FAST"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 832,
+          "fat_g": 0.5,
+          "protein_g": 1.1,
+          "carbs_g": 214.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "harvest-applesauce-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Harvest Applesauce",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 204",
+      "description": "Homemade applesauce with cinnamon",
+      "servings_yield": "6 pints (twenty-four 1/2-cup servings)",
+      "prep_time": "",
+      "cook_time": "15-20 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cooking apples",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": "cored and quartered (24 cups)"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "1 to 1-1/2",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 to 1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large kettle combine apples, water, and, if desired, stick cinnamon."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling. Reduce heat; simmer for 15 to 20 minutes or till apples are very tender."
+        },
+        {
+          "step": 3,
+          "text": "Remove stick cinnamon, if using. Mash apples with a food mill or press through a sieve."
+        },
+        {
+          "step": 4,
+          "text": "Return pulp to kettle. Stir in sugar. (If desired, add 1/2 cup butter, stirring till melted.) Bring to boiling."
+        },
+        {
+          "step": 5,
+          "text": "Boiling-Water Canning: Spoon hot applesauce into hot, sterilized pint jars, leaving a 1/2-inch headspace. Adjust lids. Process in boiling-water canner for 5 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Freezing: Cool applesauce. Spoon into freezer containers, leaving the recommended headspace (see tip, page 193). Seal, label, and freeze."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "applesauce",
+        "apple",
+        "canning",
+        "freezing",
+        "preserving",
+        "EASY"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 257,
+          "fat_g": 0.4,
+          "protein_g": 0.7,
+          "carbs_g": 67.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "apple-butter-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Apple Butter",
+      "category": "condiments",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 204",
+      "description": "Spiced apple butter spread",
+      "servings_yield": "about 8 half-pints (128 one-tablespoon servings)",
+      "prep_time": "",
+      "cook_time": "2 hours",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "tart cooking apples",
+          "quantity": "6",
+          "unit": "lb",
+          "prep_note": "cored and quartered (18 cups)"
+        },
+        {
+          "item": "apple cider or apple juice",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground allspice",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In an 8- or 10-quart kettle or Dutch oven combine apples and cider or juice."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling; reduce heat. Simmer, covered, about 30 minutes or till very tender, stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Press through a food mill or sieve. Return pulp to kettle (you should have about 15 cups)."
+        },
+        {
+          "step": 4,
+          "text": "Stir in sugar, cinnamon, and allspice. Bring to boiling; reduce heat. Simmer, uncovered, for about 2 hours or till very thick, stirring often."
+        },
+        {
+          "step": 5,
+          "text": "Boiling-Water Canning: Spoon hot apple butter into hot, sterilized pint jars, leaving a 1/4-inch headspace. Adjust lids. Process in boiling-water canner for 5 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Freezing: Cool apple butter. Place kettle in a sink of ice water to cool apple butter quickly, leaving the recommended headspace. Seal, label, and freeze."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8- or 10-quart kettle",
+      "notes": [],
+      "tags": [
+        "condiments",
+        "apple butter",
+        "apple",
+        "spread",
+        "canning",
+        "freezing",
+        "preserving"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 447,
+          "fat_g": 0.2,
+          "protein_g": 0.4,
+          "carbs_g": 114.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "foxfire-4-sassafras-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sassafras Jelly",
+      "category": "condiments",
+      "attribution": "Foxfire 4 - Pearl",
+      "source_note": "Traditional Appalachian recipe from Foxfire 4",
+      "description": "A unique jelly made from sassafras root tea.",
+      "servings_yield": "Several jars",
+      "prep_time": "30 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sassafras tea",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": "from 4 roots boiled in 1 gallon water 15-20 min"
+        },
+        {
+          "item": "Sure-Jell",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make tea: Boil 4 sassafras roots in 1 gallon water for 15-20 minutes. Strain."
+        },
+        {
+          "step": 2,
+          "text": "Mix Sure-Jell with 8 cups sassafras tea in large saucepan."
+        },
+        {
+          "step": 3,
+          "text": "Bring quickly to a hard boil, stirring occasionally."
+        },
+        {
+          "step": 4,
+          "text": "Add 8 cups sugar and bring to a full rolling boil."
+        },
+        {
+          "step": 5,
+          "text": "Boil hard one minute, stirring constantly."
+        },
+        {
+          "step": 6,
+          "text": "Skim off foam with metal spoon."
+        },
+        {
+          "step": 7,
+          "text": "Pour at once into jelly jars and seal with paraffin."
+        }
+      ],
+      "temperature": "High (rolling boil)",
+      "pan_size": "Large saucepan",
+      "notes": [
+        "The stronger the tea, the stronger the jelly flavor."
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "sassafras",
+        "appalachian",
+        "foxfire",
+        "traditional"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

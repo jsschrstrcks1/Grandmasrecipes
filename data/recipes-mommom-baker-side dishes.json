@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "side dishes",
+    "total_recipes": 5,
+    "generated": "2026-01-23T14:31:32.293459Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "foxfire2-fried-milkweed",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fried Milkweed",
+      "category": "side dishes",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Young milkweed shoots fried with eggs and cheese.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "young milkweed shoots",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "very young, before leaves unfold"
+        },
+        {
+          "item": "water",
+          "quantity": "to cover",
+          "unit": "",
+          "prep_note": "salted"
+        },
+        {
+          "item": "fat for frying",
+          "quantity": "small amount",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2-3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cheese",
+          "quantity": "optional",
+          "unit": "",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut young milkweed shoots in small pieces."
+        },
+        {
+          "step": 2,
+          "text": "Boil fifteen minutes in salted water."
+        },
+        {
+          "step": 3,
+          "text": "Drain well."
+        },
+        {
+          "step": 4,
+          "text": "Fry in small amount of fat."
+        },
+        {
+          "step": 5,
+          "text": "Add eggs, salt and pepper, and cheese if desired."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Frying pan",
+      "notes": [
+        "Only use very young shoots before leaves unfold. Do not gather milkweed after July."
+      ],
+      "tags": [
+        "side dish",
+        "milkweed",
+        "wild foods",
+        "eggs",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire2-milkweed-greens",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Milkweed Greens",
+      "category": "side dishes",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Simple preparation of young milkweed stalks as a green vegetable.",
+      "servings_yield": "4 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "very young milkweed stalks",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "to cover",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "wild onions",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook one pound very young milkweed stalks in water with salt and butter, covered, for ten minutes."
+        },
+        {
+          "step": 2,
+          "text": "Drain."
+        },
+        {
+          "step": 3,
+          "text": "Add more butter and chopped wild onions."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Saucepan",
+      "notes": [
+        "In Tennessee and Kentucky, milkweed is considered a tonic, 'good for what ails you.'"
+      ],
+      "tags": [
+        "greens",
+        "side dish",
+        "milkweed",
+        "wild foods",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire2-chicory-with-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chicory with Sauce",
+      "category": "side dishes",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Chicory greens served with a tangy mustard sauce.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "35 minutes",
+      "ingredients": [
+        {
+          "item": "chicory greens",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cooked and drained"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "scalded milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook chicory greens and drain well."
+        },
+        {
+          "step": 2,
+          "text": "Make sauce: combine sugar, salt, egg yolks, scalded milk, vinegar, and mustard."
+        },
+        {
+          "step": 3,
+          "text": "Blend until thick in a double boiler."
+        },
+        {
+          "step": 4,
+          "text": "Serve sauce over the drained chicory."
+        }
+      ],
+      "temperature": "Medium heat (double boiler)",
+      "pan_size": "Double boiler",
+      "notes": [
+        "The tangy sauce complements the slightly bitter chicory greens."
+      ],
+      "tags": [
+        "greens",
+        "side dish",
+        "chicory",
+        "wild foods",
+        "sauce",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire2-panned-chicory",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Panned Chicory",
+      "category": "side dishes",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Quick pan-steamed chicory greens in cream sauce.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "5 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "fat",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chicory greens",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cream",
+          "quantity": "small amount",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt two tablespoons fat in pan."
+        },
+        {
+          "step": 2,
+          "text": "Add chopped chicory greens."
+        },
+        {
+          "step": 3,
+          "text": "Cover and steam for fifteen minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add one tablespoon flour, a small amount of cream, salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Let simmer five minutes more."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Large covered pan",
+      "notes": [
+        "A quick and creamy way to prepare wild chicory."
+      ],
+      "tags": [
+        "greens",
+        "side dish",
+        "chicory",
+        "wild foods",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire2-cochan-greens",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cochan (Tall Coneflower) Greens",
+      "category": "side dishes",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Greens from the tall coneflower plant, parboiled and fried.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "young cochan (tall coneflower) leaves",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "tender"
+        },
+        {
+          "item": "grease",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "boiled eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pick cochan leaves when tender."
+        },
+        {
+          "step": 2,
+          "text": "Parboil until tender."
+        },
+        {
+          "step": 3,
+          "text": "Wash until water is clear."
+        },
+        {
+          "step": 4,
+          "text": "Squeeze water out."
+        },
+        {
+          "step": 5,
+          "text": "Put in pan with grease and fry."
+        },
+        {
+          "step": 6,
+          "text": "Alternatively, after cooking, chop fine and add salt and margarine."
+        },
+        {
+          "step": 7,
+          "text": "Top with chopped boiled eggs."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Frying pan",
+      "notes": [
+        "Cochan grows along branch banks.",
+        "Looks like golden globe flowers.",
+        "Be careful not to confuse with wild parsnip, which has more whitish leaves.",
+        "Has a distinctive odor when cooking."
+      ],
+      "tags": [
+        "greens",
+        "side dish",
+        "coneflower",
+        "wild foods",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

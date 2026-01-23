@@ -2,8 +2,8 @@
   "meta": {
     "collection": "all",
     "category": "appetizers",
-    "total_recipes": 77,
-    "generated": "2026-01-22T19:32:05.964116Z",
+    "total_recipes": 107,
+    "generated": "2026-01-23T14:31:31.339935Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -90,23 +90,109 @@
         "Brush inside and outside of skins with steak seasoning and Parmesan."
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 253,
-          "fat_g": 16.5,
+          "calories": 232,
+          "fat_g": 14.4,
           "carbs_g": 19.2,
-          "protein_g": 7.4,
-          "sodium_mg": 610,
+          "protein_g": 6.9,
+          "sodium_mg": 658,
           "fiber_g": 2.0,
           "sugar_g": 1.4
         },
-        "missing_inputs": [
-          "3/4 tsp steak seasoning"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
       }
+    },
+    {
+      "id": "warm-creamy-bacon-dip",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Warm and Creamy Bacon Dip",
+      "category": "appetizers",
+      "source_note": "Daisy Brand Sour Cream",
+      "servings_yield": "12 servings (makes 3 cups)",
+      "prep_time": "5 min",
+      "total_time": "35 min",
+      "ingredients": [
+        {
+          "item": "softened cream cheese",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "Daisy Brand Sour Cream",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "bacon bits",
+          "quantity": "3",
+          "unit": "oz"
+        },
+        {
+          "item": "shredded Cheddar cheese",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "chopped green onion",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring cream cheese to room temperature. Preheat oven to 400\u00b0F. In a bowl, combine all ingredients. Place in 1-quart baking dish. Cover."
+        },
+        {
+          "step": 2,
+          "text": "Heat 25-30 minutes or until hot. Serve with sliced French bread, crackers and/or chips. Makes 3 cups."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "notes": [
+        "Serving option: Dip may also be placed in hollowed round sourdough loaf, wrapped in foil and heated in 400\u00b0F oven for 30 minutes.",
+        "Dip may also be placed in hollowed round sourdough loaf, wrapped in foil and heated in 400\u00b0F oven for 30 minutes.",
+        "Serve with sliced French bread, crackers and/or chips."
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "bacon",
+        "cheese",
+        "sour cream",
+        "warm"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 18.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 28.9,
+          "carbs_g": 2.8,
+          "protein_g": 11.1,
+          "sodium_mg": 410,
+          "fiber_g": 0.2,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      },
+      "variants": [
+        "warm-and-creamy-bacon-dip"
+      ]
     },
     {
       "id": "bhel-puri",
@@ -311,16 +397,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 73,
+          "calories": 75,
           "fat_g": 5.4,
-          "carbs_g": 5.3,
-          "protein_g": 1.4,
-          "sodium_mg": 204,
-          "fiber_g": 0.4,
+          "carbs_g": 5.6,
+          "protein_g": 1.5,
+          "sodium_mg": 205,
+          "fiber_g": 0.6,
           "sugar_g": 1.0
         },
         "missing_inputs": [
-          "1 cup mint",
           "1 cup rice flour"
         ],
         "assumptions": [
@@ -511,20 +596,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 14,
           "fat_g": 0.0,
-          "carbs_g": 3.6,
+          "carbs_g": 3.8,
           "protein_g": 0.0,
-          "sodium_mg": 3,
+          "sodium_mg": 8,
           "fiber_g": 0.1,
-          "sugar_g": 2.9
+          "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "1 12-oz bottle Heinz Chili Sauce",
-          "1 2-lb bag frozen, pre-cooked, cocktail-size meatballs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 30 servings"
         ]
@@ -584,20 +666,17 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 17,
-          "fat_g": 0.0,
-          "carbs_g": 4.5,
-          "protein_g": 0.0,
-          "sodium_mg": 3,
+          "calories": 249,
+          "fat_g": 10.0,
+          "carbs_g": 4.7,
+          "protein_g": 32.0,
+          "sodium_mg": 110,
           "fiber_g": 0.1,
-          "sugar_g": 3.6
+          "sugar_g": 3.8
         },
-        "missing_inputs": [
-          "1 12-oz bottle Heinz Chili Sauce",
-          "24  chicken drummettes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 24 servings"
         ]
@@ -896,17 +975,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 1.5,
-          "carbs_g": 0.4,
-          "protein_g": 2.1,
-          "sodium_mg": 42,
-          "fiber_g": 0.1,
+          "calories": 29,
+          "fat_g": 1.9,
+          "carbs_g": 0.7,
+          "protein_g": 2.2,
+          "sodium_mg": 96,
+          "fiber_g": 0.2,
           "sugar_g": 0.1
         },
         "missing_inputs": [
-          "2 packages pie dough",
-          "1 can black olives"
+          "2 packages pie dough"
         ],
         "assumptions": [
           "Calculated for 36 servings"
@@ -983,16 +1061,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 30,
+          "calories": 32,
           "fat_g": 2.8,
-          "carbs_g": 0.3,
-          "protein_g": 1.0,
-          "sodium_mg": 50,
+          "carbs_g": 0.6,
+          "protein_g": 1.1,
+          "sodium_mg": 53,
           "fiber_g": 0.0,
           "sugar_g": 0.2
         },
         "missing_inputs": [
-          "1  baguette",
           "2 cans canned pears"
         ],
         "assumptions": [
@@ -1104,17 +1181,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 361,
-          "fat_g": 24.0,
-          "carbs_g": 8.1,
-          "protein_g": 28.1,
-          "sodium_mg": 224,
-          "fiber_g": 0.3,
-          "sugar_g": 7.3
+          "calories": 500,
+          "fat_g": 26.0,
+          "carbs_g": 35.2,
+          "protein_g": 33.4,
+          "sodium_mg": 447,
+          "fiber_g": 1.4,
+          "sugar_g": 9.9
         },
         "missing_inputs": [
-          "1 bunch fresh dill",
-          "1 loaf pumpernickel bread"
+          "1 bunch fresh dill"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -1202,7 +1278,7 @@
       }
     },
     {
-      "id": "swedish-meatballs-clipping",
+      "id": "swedish-meatballs",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Swedish Meatballs",
@@ -1352,19 +1428,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 322,
-          "fat_g": 19.4,
-          "carbs_g": 18.6,
-          "protein_g": 16.9,
-          "sodium_mg": 312,
-          "fiber_g": 1.1,
-          "sugar_g": 4.5
+          "calories": 279,
+          "fat_g": 16.2,
+          "carbs_g": 10.2,
+          "protein_g": 13.7,
+          "sodium_mg": 132,
+          "fiber_g": 0.3,
+          "sugar_g": 7.4
         },
-        "missing_inputs": [
-          "3 tbsp lingonberry preserves or cranberry preserves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -1427,8 +1501,7 @@
         "party"
       ],
       "image_refs": [
-        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 118.jpeg",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 18.jpeg"
+        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 118.jpeg"
       ],
       "confidence": {
         "overall": "high",
@@ -1437,27 +1510,24 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 277,
-          "fat_g": 26.0,
+          "calories": 314,
+          "fat_g": 28.9,
           "carbs_g": 2.8,
-          "protein_g": 8.5,
-          "sodium_mg": 291,
+          "protein_g": 11.1,
+          "sodium_mg": 410,
           "fiber_g": 0.2,
           "sugar_g": 1.8
         },
-        "missing_inputs": [
-          "3 oz bacon bits"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
       },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      "variants": [
+        "warm-creamy-bacon-dip"
+      ]
     },
     {
       "id": "cheddar-chive-turnovers",
@@ -1525,20 +1595,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 116,
-          "fat_g": 10.3,
-          "carbs_g": 0.8,
-          "protein_g": 5.3,
-          "sodium_mg": 140,
-          "fiber_g": 0.0,
-          "sugar_g": 0.5
+          "calories": 119,
+          "fat_g": 9.8,
+          "carbs_g": 2.8,
+          "protein_g": 5.2,
+          "sodium_mg": 152,
+          "fiber_g": 0.1,
+          "sugar_g": 0.7
         },
-        "missing_inputs": [
-          "1 sheet puff pastry",
-          "1 pinch cayenne"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from appetizers category"
@@ -1657,19 +1724,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 410,
-          "fat_g": 30.8,
+          "calories": 347,
+          "fat_g": 26.0,
           "carbs_g": 15.9,
-          "protein_g": 17.9,
-          "sodium_mg": 742,
-          "fiber_g": 1.6,
-          "sugar_g": 6.5
+          "protein_g": 13.1,
+          "sodium_mg": 409,
+          "fiber_g": 1.8,
+          "sugar_g": 6.1
         },
-        "missing_inputs": [
-          "2 10-oz bags spinach, stems removed"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 5 servings"
         ]
@@ -1743,20 +1808,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 4,
-          "fat_g": 0.0,
-          "carbs_g": 0.8,
-          "protein_g": 0.2,
-          "sodium_mg": 80,
+          "calories": 114,
+          "fat_g": 9.0,
+          "carbs_g": 1.8,
+          "protein_g": 6.7,
+          "sodium_mg": 410,
           "fiber_g": 0.2,
           "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "40 slices pepperoni",
-          "4 pieces mozzarella string cheese"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -1914,7 +1976,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 295,
           "fat_g": 18.6,
@@ -1924,9 +1986,7 @@
           "fiber_g": 0.4,
           "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "for topping toasted sesame seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 10 servings"
         ]
@@ -6446,12 +6506,10 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {},
         "missing_inputs": [],
-        "assumptions": [],
-        "estimation_status": "partial",
-        "notes": "Status updated: no nutrition values present"
+        "assumptions": []
       }
     },
     {
@@ -7477,20 +7535,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 41,
+          "calories": 48,
           "fat_g": 0.6,
-          "carbs_g": 1.5,
-          "protein_g": 7.0,
-          "sodium_mg": 230,
-          "fiber_g": 0.0,
-          "sugar_g": 1.2
+          "carbs_g": 3.1,
+          "protein_g": 7.3,
+          "sodium_mg": 568,
+          "fiber_g": 0.2,
+          "sugar_g": 1.9
         },
-        "missing_inputs": [
-          "1 tbsp bouillon paste",
-          "few drops onion juice"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings",
           "Serving size inferred from appetizers category"
@@ -7501,7 +7556,7 @@
       "id": "lemon-appetizer-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Lemon a Ppetizer",
+      "title": "Lemon Appetizer",
       "category": "appetizers",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -7524,24 +7579,24 @@
           "prep_note": ""
         },
         {
-          "item": "sugar",
+          "item": "ugar",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "1 1/2 cups water."
+          "prep_note": "li^cupswater."
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Boil sugar and water together 10 minutes. Remove from"
+          "text": "Boilsugar andwater together 10 minutes. Remove from"
         },
         {
           "step": 2,
-          "text": "fire and add the strained lemon juice and grated rind. When"
+          "text": "fireandaddthestrained lemon juiceandgrated rind.When"
         },
         {
           "step": 3,
-          "text": "cold serve over shaved ice a ndgarnish with candied cherries"
+          "text": "coldserve overshaved iceandgarnish with candied cherries"
         }
       ],
       "temperature": "",
@@ -7573,11 +7628,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (5 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "italian-canape-wilsonscoo",
@@ -7606,7 +7657,7 @@
           "prep_note": ""
         },
         {
-          "item": "Tomato",
+          "item": "tomato",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -7615,23 +7666,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Now place four tablespoons of shortening in a saucepan"
+          "text": "Now place four tablespoons ofshortening inasaucepan"
         },
         {
           "step": 2,
-          "text": "and add the vegetables. Cook slowly until tender and then add"
+          "text": "andaddthevegetables. Cook slowly until tender andthenadd"
         },
         {
           "step": 3,
-          "text": "Mix thoroughly and then spread on thin slices of toast."
+          "text": "Mixthoroughly andthen spread onthin slices oftoast."
         },
         {
           "step": 4,
-          "text": "Garnish with sliced stuffed olives and dustwithpaprika."
+          "text": "Garnish with sliced stuffed olives anddustwithpaprika."
         },
         {
           "step": 5,
-          "text": "Dissolve the flour in milk and water ; bring to a boil ; cook"
+          "text": "Dissolve theflour inmilkandwater ;bring toaboil ;cook"
         }
       ],
       "temperature": "",
@@ -7649,27 +7700,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 16,
-          "fat_g": 0.1,
-          "carbs_g": 3.8,
-          "protein_g": 0.5,
-          "sodium_mg": 2,
-          "fiber_g": 0.9,
-          "sugar_g": 2.0
+          "calories": 22,
+          "fat_g": 0.2,
+          "carbs_g": 4.8,
+          "protein_g": 1.0,
+          "sodium_mg": 10,
+          "fiber_g": 1.4,
+          "sugar_g": 2.1
         },
-        "missing_inputs": [
-          "4 branches parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (7 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "labrete-canape-wilsonscoo",
@@ -7733,9 +7778,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "conch-fritters-bahamian-style",
@@ -7941,20 +7984,17 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_5657.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1045,
-          "fat_g": 114.5,
-          "carbs_g": 12.7,
-          "protein_g": 2.8,
-          "sodium_mg": 163,
+          "calories": 1067,
+          "fat_g": 114.8,
+          "carbs_g": 13.6,
+          "protein_g": 6.4,
+          "sodium_mg": 179,
           "fiber_g": 0.8,
-          "sugar_g": 2.5
+          "sugar_g": 2.6
         },
-        "missing_inputs": [
-          "1 cup chopped conch",
-          "1/4  yellow bell pepper"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -8036,20 +8076,17 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_6015_medium.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 5,
-          "fat_g": 0.0,
-          "carbs_g": 1.2,
-          "protein_g": 0.2,
-          "sodium_mg": 90,
-          "fiber_g": 0.3,
-          "sugar_g": 0.6
+          "calories": 130,
+          "fat_g": 12.3,
+          "carbs_g": 3.0,
+          "protein_g": 2.7,
+          "sodium_mg": 250,
+          "fiber_g": 0.4,
+          "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "4-6  green chiles",
-          "2 packages cream cheese"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 13 servings"
         ]
@@ -8122,20 +8159,17 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_6015_medium.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 1,
-          "fat_g": 0.0,
-          "carbs_g": 0.3,
-          "protein_g": 0.1,
-          "sodium_mg": 332,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 69,
+          "fat_g": 6.4,
+          "carbs_g": 2.3,
+          "protein_g": 1.0,
+          "sodium_mg": 428,
+          "fiber_g": 0.3,
+          "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "1 carton sour cream",
-          "4 oz green chiles"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
@@ -8223,19 +8257,17 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_6015_medium.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 169,
+          "calories": 173,
           "fat_g": 14.6,
-          "carbs_g": 3.8,
-          "protein_g": 6.5,
-          "sodium_mg": 159,
-          "fiber_g": 2.7,
-          "sugar_g": 0.4
+          "carbs_g": 4.6,
+          "protein_g": 6.6,
+          "sodium_mg": 231,
+          "fiber_g": 2.9,
+          "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "8 oz green chiles"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 10 servings"
         ]
@@ -8321,19 +8353,17 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_6030_medium.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 25,
+          "calories": 26,
           "fat_g": 1.2,
           "carbs_g": 2.9,
-          "protein_g": 0.7,
-          "sodium_mg": 88,
-          "fiber_g": 0.1,
+          "protein_g": 0.8,
+          "sodium_mg": 92,
+          "fiber_g": 0.2,
           "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "4 oz green chilies"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 80 servings"
         ]
@@ -8410,27 +8440,24 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_6030_medium.jpeg"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 821,
-          "fat_g": 69.4,
-          "carbs_g": 46.9,
-          "protein_g": 7.3,
-          "sodium_mg": 840,
-          "fiber_g": 3.9,
-          "sugar_g": 2.6
+          "calories": 1145,
+          "fat_g": 105.3,
+          "carbs_g": 32.3,
+          "protein_g": 18.7,
+          "sodium_mg": 2026,
+          "fiber_g": 2.0,
+          "sugar_g": 4.0
         },
-        "missing_inputs": [
-          "20  hot dogs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 7 servings"
         ]
       },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      "variants": [
+        "perritos-verdes-chile-bible"
+      ]
     },
     {
       "id": "chile-cheese-squares-chile-bible",
@@ -8504,19 +8531,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 222,
+          "calories": 224,
           "fat_g": 16.8,
-          "carbs_g": 1.0,
-          "protein_g": 16.0,
-          "sodium_mg": 282,
-          "fiber_g": 0.1,
-          "sugar_g": 0.8
+          "carbs_g": 1.4,
+          "protein_g": 16.1,
+          "sodium_mg": 317,
+          "fiber_g": 0.2,
+          "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "2 cans (4 oz each) green chiles, chopped"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -8596,20 +8621,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 2,
-          "fat_g": 0.0,
-          "carbs_g": 0.3,
-          "protein_g": 0.0,
-          "sodium_mg": 14,
+          "calories": 28,
+          "fat_g": 1.9,
+          "carbs_g": 0.7,
+          "protein_g": 1.9,
+          "sodium_mg": 94,
           "fiber_g": 0.1,
           "sugar_g": 0.2
         },
-        "missing_inputs": [
-          "1 large pkg hot roll mix",
-          "1/2 lb crisp bacon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 48 servings"
         ]
@@ -8695,23 +8717,104 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 27,
           "fat_g": 1.1,
-          "carbs_g": 3.4,
+          "carbs_g": 3.5,
           "protein_g": 0.8,
-          "sodium_mg": 79,
+          "sodium_mg": 84,
           "fiber_g": 0.2,
-          "sugar_g": 0.4
+          "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "4 oz green chilies"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 80 servings"
         ]
       }
+    },
+    {
+      "id": "perritos-verdes-chile-bible",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Perritos Verdes (Green Chile Puppies)",
+      "category": "appetizers",
+      "source_note": "The Chile Bible (IMG_6030)",
+      "description": "Hot dogs wrapped in green chile strips and tortillas, then deep-fried.",
+      "servings_yield": "6-8 servings",
+      "ingredients": [
+        {
+          "item": "hot dogs",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": "cooked, or 1 lb cut into 1.5-inch strips"
+        },
+        {
+          "item": "green chile sauce",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": "canned"
+        },
+        {
+          "item": "corn tortillas",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "cut into 1.5-inch pieces"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "for frying"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wrap the franks in strips of green chile or slice them partially through and fill the openings with green chile sauce."
+        },
+        {
+          "step": 2,
+          "text": "Wrap tortilla strips around the franks and secure them with toothpicks."
+        },
+        {
+          "step": 3,
+          "text": "Fry them briefly in hot deep fat until crisp."
+        }
+      ],
+      "tags": [
+        "appetizer",
+        "hot dogs",
+        "chile",
+        "fried",
+        "southwestern"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/Allrecipes/data/processed/img_6030_medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1153,
+          "fat_g": 105.3,
+          "carbs_g": 33.6,
+          "protein_g": 19.0,
+          "sodium_mg": 2147,
+          "fiber_g": 2.3,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      },
+      "variants": [
+        "perritos-verdes"
+      ]
     },
     {
       "id": "chile-mushroom-fritters-chile-bible",
@@ -8814,23 +8917,3019 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 276,
+          "calories": 284,
           "fat_g": 18.7,
-          "carbs_g": 19.9,
-          "protein_g": 6.9,
-          "sodium_mg": 1041,
-          "fiber_g": 0.8,
-          "sugar_g": 3.2
+          "carbs_g": 21.5,
+          "protein_g": 7.2,
+          "sodium_mg": 1183,
+          "fiber_g": 1.2,
+          "sugar_g": 4.3
         },
-        "missing_inputs": [
-          "4 tbsp green chile, chopped"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
       }
+    },
+    {
+      "id": "pecorino-and-honey",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Pecorino with Honey and Walnuts",
+      "category": "appetizers",
+      "source_note": "Italian antipasto",
+      "description": "A simple Italian appetizer pairing sharp Pecorino with sweet honey and crunchy walnuts.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "5 min",
+      "total_time": "5 min",
+      "ingredients": [
+        {
+          "item": "Pecorino cheese (sheep milk)",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "cut into wedges or shaved"
+        },
+        {
+          "item": "honey",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "chestnut or wildflower preferred"
+        },
+        {
+          "item": "walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "toasted"
+        },
+        {
+          "item": "fresh pear",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange Pecorino wedges on a serving board."
+        },
+        {
+          "step": 2,
+          "text": "Scatter toasted walnuts around the cheese."
+        },
+        {
+          "step": 3,
+          "text": "Drizzle honey generously over the cheese."
+        },
+        {
+          "step": 4,
+          "text": "Add pear slices if using."
+        },
+        {
+          "step": 5,
+          "text": "Serve with crusty bread or crackers."
+        }
+      ],
+      "notes": [
+        "Use aged Pecorino Toscano for a milder flavor or Pecorino Romano for sharper taste",
+        "Pairs beautifully with a robust red wine"
+      ],
+      "tags": [
+        "appetizer",
+        "Italian",
+        "Pecorino",
+        "honey",
+        "cheese board",
+        "sheep milk",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "manchego-membrillo",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Manchego with Membrillo (Quince Paste)",
+      "category": "appetizers",
+      "source_note": "Traditional Spanish tapa",
+      "description": "The classic Spanish pairing of nutty Manchego cheese with sweet quince paste. Simple perfection.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "10 min",
+      "total_time": "10 min",
+      "ingredients": [
+        {
+          "item": "Manchego cheese (sheep milk)",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "aged 6+ months, sliced or cubed"
+        },
+        {
+          "item": "membrillo (quince paste)",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "Marcona almonds",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "crusty bread or crackers",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange Manchego slices on a serving board."
+        },
+        {
+          "step": 2,
+          "text": "Place membrillo slices alongside the cheese."
+        },
+        {
+          "step": 3,
+          "text": "Scatter Marcona almonds around the board."
+        },
+        {
+          "step": 4,
+          "text": "Serve with crusty bread. Instruct guests to pair a piece of cheese with membrillo in each bite."
+        }
+      ],
+      "notes": [
+        "True Manchego is made only from Manchega sheep milk in La Mancha, Spain",
+        "Look for Denominaci\u00f3n de Origen label for authentic Manchego"
+      ],
+      "tags": [
+        "appetizer",
+        "Spanish",
+        "Manchego",
+        "quince",
+        "cheese board",
+        "sheep milk",
+        "tapa"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "manchego-croquetas",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Manchego Croquetas",
+      "category": "appetizers",
+      "source_note": "Spanish tapa",
+      "description": "Crispy fried croquettes filled with creamy b\u00e9chamel and Manchego cheese. A beloved Spanish bar snack.",
+      "servings_yield": "24 croquetas",
+      "prep_time": "30 min plus 4 hours chilling",
+      "cook_time": "20 min",
+      "total_time": "5 hours",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "whole milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "warm"
+        },
+        {
+          "item": "Manchego cheese (sheep milk)",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "finely grated"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and white pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "breadcrumbs",
+          "quantity": "1.5",
+          "unit": "cups",
+          "prep_note": "fine, for coating"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "",
+          "unit": "for frying"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter in a saucepan over medium heat. Whisk in flour and cook 2 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Gradually whisk in warm milk. Cook, stirring constantly, until very thick, about 5-7 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Stir in Manchego, nutmeg, salt, and pepper until cheese melts."
+        },
+        {
+          "step": 4,
+          "text": "Spread mixture in a baking dish. Cover and refrigerate at least 4 hours or overnight."
+        },
+        {
+          "step": 5,
+          "text": "Shape cold mixture into small cylinders or ovals using wet hands."
+        },
+        {
+          "step": 6,
+          "text": "Dip each croqueta in beaten egg, then coat in breadcrumbs. Double-coat for extra crunch."
+        },
+        {
+          "step": 7,
+          "text": "Heat 2 inches of oil to 350\u00b0F (175\u00b0C). Fry croquetas in batches until golden, about 2-3 minutes."
+        },
+        {
+          "step": 8,
+          "text": "Drain on paper towels. Serve hot."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C) for frying",
+      "notes": [
+        "Can add jam\u00f3n serrano to the b\u00e9chamel",
+        "Croquetas can be frozen before frying"
+      ],
+      "tags": [
+        "appetizer",
+        "Spanish",
+        "Manchego",
+        "fried",
+        "tapa",
+        "sheep milk"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "roquefort-stuffed-endive",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Endive Boats with Roquefort and Pear",
+      "category": "appetizers",
+      "source_note": "French hors d'oeuvre",
+      "description": "Crisp endive leaves filled with Roquefort, pear, and walnuts. An elegant appetizer.",
+      "servings_yield": "24 pieces",
+      "prep_time": "20 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "Belgian endive",
+          "quantity": "4",
+          "unit": "heads",
+          "prep_note": "leaves separated"
+        },
+        {
+          "item": "Roquefort cheese (sheep milk)",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "ripe pear",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "finely diced"
+        },
+        {
+          "item": "walnuts",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped and toasted"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh chives",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "snipped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend Roquefort and cream cheese until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Fold in half the diced pear and half the walnuts."
+        },
+        {
+          "step": 3,
+          "text": "Spoon or pipe mixture into endive leaves."
+        },
+        {
+          "step": 4,
+          "text": "Top each with remaining pear, walnuts, and a drizzle of honey."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with snipped chives."
+        },
+        {
+          "step": 6,
+          "text": "Arrange on platter and serve immediately."
+        }
+      ],
+      "notes": [
+        "Can substitute radicchio cups if endive unavailable",
+        "Prepare filling ahead, assemble just before serving"
+      ],
+      "tags": [
+        "appetizer",
+        "French",
+        "Roquefort",
+        "blue cheese",
+        "pear",
+        "sheep milk",
+        "elegant"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cheese-fondue",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Classic Swiss Cheese Fondue",
+      "category": "appetizers",
+      "source_note": "Swiss tradition",
+      "description": "Traditional Swiss fondue with Gruy\u00e8re and Emmental, white wine, and kirsch. Perfect for sharing.",
+      "servings_yield": "6 servings",
+      "prep_time": "15 min",
+      "cook_time": "15 min",
+      "total_time": "30 min",
+      "ingredients": [
+        {
+          "item": "Gruy\u00e8re cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "Emmental cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "halved"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kirsch (cherry brandy)",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "crusty bread",
+          "quantity": "1",
+          "unit": "loaf",
+          "prep_note": "cubed for dipping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rub fondue pot with cut garlic. Discard garlic."
+        },
+        {
+          "step": 2,
+          "text": "Add wine and lemon juice. Heat over medium until simmering."
+        },
+        {
+          "step": 3,
+          "text": "Toss cheeses with cornstarch."
+        },
+        {
+          "step": 4,
+          "text": "Add cheese by handfuls, stirring constantly in a figure-8 motion."
+        },
+        {
+          "step": 5,
+          "text": "Wait for each addition to melt before adding more."
+        },
+        {
+          "step": 6,
+          "text": "Once smooth, stir in kirsch, nutmeg, and pepper."
+        },
+        {
+          "step": 7,
+          "text": "Transfer to fondue pot over low flame."
+        },
+        {
+          "step": 8,
+          "text": "Serve with bread cubes for dipping. Stir occasionally."
+        }
+      ],
+      "notes": [
+        "If fondue gets too thick, add a splash of warm wine",
+        "Also great with apple slices, vegetables, or small potatoes"
+      ],
+      "tags": [
+        "appetizer",
+        "Swiss",
+        "fondue",
+        "Gruy\u00e8re",
+        "party",
+        "cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "baked-brie-honey-nuts",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Baked Brie with Honey and Nuts",
+      "category": "appetizers",
+      "source_note": "Party appetizer favorite",
+      "description": "Warm, gooey brie topped with honey, walnuts, and fresh rosemary. An irresistible appetizer.",
+      "servings_yield": "8 servings",
+      "prep_time": "5 min",
+      "cook_time": "15 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "brie wheel",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "walnuts or pecans",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "fresh rosemary",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "flaky sea salt",
+          "quantity": "",
+          "unit": "pinch"
+        },
+        {
+          "item": "crackers or sliced baguette",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F (175\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Place brie on a small baking dish or oven-safe plate."
+        },
+        {
+          "step": 3,
+          "text": "Score the top rind in a crosshatch pattern (optional - helps cheese ooze)."
+        },
+        {
+          "step": 4,
+          "text": "Bake 12-15 minutes until soft and gooey inside."
+        },
+        {
+          "step": 5,
+          "text": "Drizzle with honey and top with nuts and rosemary."
+        },
+        {
+          "step": 6,
+          "text": "Sprinkle with flaky salt."
+        },
+        {
+          "step": 7,
+          "text": "Serve immediately with crackers or bread."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Don't overbake or cheese will run everywhere",
+        "Can add fig jam or dried cranberries"
+      ],
+      "tags": [
+        "appetizer",
+        "brie",
+        "baked",
+        "honey",
+        "party",
+        "French",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "brie-en-croute",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Brie en Cro\u00fbte",
+      "category": "appetizers",
+      "source_note": "Elegant French appetizer",
+      "description": "Brie wrapped in golden puff pastry with a layer of jam. Impressive yet easy.",
+      "servings_yield": "12 servings",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "total_time": "40 min",
+      "ingredients": [
+        {
+          "item": "brie wheel",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "puff pastry sheet",
+          "quantity": "1",
+          "unit": "sheet",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "apricot or fig jam",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten for egg wash"
+        },
+        {
+          "item": "sliced almonds",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F (200\u00b0C). Line baking sheet with parchment."
+        },
+        {
+          "step": 2,
+          "text": "Roll puff pastry slightly larger if needed."
+        },
+        {
+          "step": 3,
+          "text": "Spread jam on top of brie."
+        },
+        {
+          "step": 4,
+          "text": "Place brie jam-side down in center of pastry."
+        },
+        {
+          "step": 5,
+          "text": "Fold pastry up and over brie, pleating to enclose. Trim excess."
+        },
+        {
+          "step": 6,
+          "text": "Flip seam-side down onto baking sheet."
+        },
+        {
+          "step": 7,
+          "text": "Brush with egg wash. Score decorative pattern if desired."
+        },
+        {
+          "step": 8,
+          "text": "Bake 20-25 minutes until pastry is deep golden."
+        },
+        {
+          "step": 9,
+          "text": "Let rest 10 minutes before serving."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "notes": [
+        "Letting it rest prevents cheese from running out when cut",
+        "Can add prosciutto or dried fruit inside"
+      ],
+      "tags": [
+        "appetizer",
+        "brie",
+        "puff pastry",
+        "elegant",
+        "French",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "labneh-dip",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Labneh Dip with Za'atar and Olive Oil",
+      "category": "appetizers",
+      "source_note": "Middle Eastern mezze",
+      "description": "Creamy strained yogurt cheese drizzled with olive oil and za'atar. Essential Middle Eastern mezze.",
+      "servings_yield": "6 servings",
+      "prep_time": "5 min",
+      "total_time": "5 min",
+      "ingredients": [
+        {
+          "item": "labneh",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "za'atar",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh mint",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped, optional"
+        },
+        {
+          "item": "pine nuts",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "toasted, optional"
+        },
+        {
+          "item": "Aleppo pepper or paprika",
+          "quantity": "",
+          "unit": "pinch"
+        },
+        {
+          "item": "pita bread",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spread labneh on a plate or shallow bowl, creating a well in the center."
+        },
+        {
+          "step": 2,
+          "text": "Pool olive oil in the well."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle generously with za'atar."
+        },
+        {
+          "step": 4,
+          "text": "Add mint and pine nuts if using."
+        },
+        {
+          "step": 5,
+          "text": "Finish with Aleppo pepper."
+        },
+        {
+          "step": 6,
+          "text": "Serve with warm pita for scooping."
+        }
+      ],
+      "notes": [
+        "Za'atar is a blend of thyme, sumac, and sesame - essential for this dish",
+        "Can shape labneh into balls and roll in za'atar for a different presentation"
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "labneh",
+        "Middle Eastern",
+        "mezze",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "provoleta-clasica-argentina",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Classic Provoleta Argentina",
+      "category": "appetizers",
+      "attribution": "Traditional Argentine asado appetizer",
+      "source_note": "Traditional Argentine grilled cheese, created by Italian immigrants in 1940s Buenos Aires",
+      "description": "Grilled provolone cheese with oregano and red pepper flakes, the essential opening act of an Argentine asado.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "5 min",
+      "cook_time": "5-8 min",
+      "total_time": "10 min",
+      "ingredients": [
+        {
+          "item": "provolone cheese wheel",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "1-inch thick, 4-6 inches diameter"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "crusty bread or baguette",
+          "quantity": "1",
+          "unit": "loaf",
+          "prep_note": "sliced and toasted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Let cheese come to room temperature for 30 minutes to an hour before cooking. This helps form a better crust."
+        },
+        {
+          "step": 2,
+          "text": "Lightly coat a cast iron skillet with olive oil and place over medium-high heat (375-400\u00b0F) on grill or stovetop."
+        },
+        {
+          "step": 3,
+          "text": "When skillet is hot, place the cheese wheel in the pan."
+        },
+        {
+          "step": 4,
+          "text": "Sprinkle oregano and red pepper flakes over the top of the cheese."
+        },
+        {
+          "step": 5,
+          "text": "Cover and cook for about 5 minutes until cheese is fully melted, bubbly, and edges are golden brown and crispy."
+        },
+        {
+          "step": 6,
+          "text": "Carefully remove from heat and serve immediately with toasted bread for dipping."
+        }
+      ],
+      "temperature": "375-400\u00b0F (190-200\u00b0C)",
+      "notes": [
+        "Use a cast iron skillet to prevent cheese from melting through grill grates",
+        "Best enjoyed immediately while hot and gooey",
+        "For indoor cooking, finish under broiler for golden crust"
+      ],
+      "tags": [
+        "appetizer",
+        "provoleta",
+        "Argentine",
+        "cheese",
+        "grilled",
+        "asado"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "provoleta-con-chimichurri",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Provoleta with Chimichurri",
+      "category": "appetizers",
+      "attribution": "Argentine asado tradition",
+      "source_note": "Provoleta served with traditional chimichurri sauce",
+      "description": "Grilled provolone topped with fresh, herbaceous chimichurri sauce for a burst of Argentine flavor.",
+      "servings_yield": "2-4 servings",
+      "prep_time": "15 min",
+      "cook_time": "10 min",
+      "total_time": "25 min",
+      "ingredients": [
+        {
+          "item": "provolone cheese wheel",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "1-inch thick"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "roughly chopped"
+        },
+        {
+          "item": "fresh oregano leaves",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "5-6",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "baguette",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "sliced 1/2-inch thick"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make chimichurri: Combine parsley, oregano, garlic, red pepper flakes, and both vinegars in a mortar and pestle or food processor. Work into a thick paste."
+        },
+        {
+          "step": 2,
+          "text": "Add salt and olive oil, mixing until you have a thick, chunky sauce. Set aside."
+        },
+        {
+          "step": 3,
+          "text": "Set up grill for two-zone cooking with one side at high heat."
+        },
+        {
+          "step": 4,
+          "text": "Preheat a cast iron skillet over high heat, then move to indirect heat zone."
+        },
+        {
+          "step": 5,
+          "text": "Place cold cheese directly over high heat for 2 minutes to brown the bottom."
+        },
+        {
+          "step": 6,
+          "text": "Transfer cheese to the hot skillet and cover until melted and bubbly, 2-3 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Meanwhile, brush baguette slices with oil and grill until charred, about 1 minute per side."
+        },
+        {
+          "step": 8,
+          "text": "Top hot melted cheese with a generous dollop of chimichurri and serve with grilled bread."
+        }
+      ],
+      "temperature": "High heat grill",
+      "notes": [
+        "Chimichurri can be made ahead and refrigerated for up to 1 week",
+        "Hand-chopping herbs gives better texture than food processor",
+        "Chimichurri should be loose and chunky, not paste-like"
+      ],
+      "tags": [
+        "appetizer",
+        "provoleta",
+        "chimichurri",
+        "Argentine",
+        "cheese",
+        "grilled",
+        "asado"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "provoleta-con-salsa-criolla",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Provoleta with Salsa Criolla",
+      "category": "appetizers",
+      "attribution": "Argentine grilled cheese with fresh vegetable relish",
+      "source_note": "Provoleta served with traditional salsa criolla",
+      "description": "Grilled provolone served with salsa criolla, a zesty relish of fresh tomatoes, peppers, and onions.",
+      "servings_yield": "4 servings",
+      "prep_time": "20 min",
+      "cook_time": "6-10 min",
+      "total_time": "30 min",
+      "ingredients": [
+        {
+          "item": "provolone cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "1-inch thick slice"
+        },
+        {
+          "item": "extra-virgin olive oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "plus 1 tsp for skillet"
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "green bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cored, seeded, finely chopped"
+        },
+        {
+          "item": "white onion",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "large tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded and finely chopped"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "kosher salt and black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "sliced baguette",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make salsa criolla: Combine olive oil, vinegar, parsley, garlic, bell pepper, onion, and tomato in a medium bowl. Season with salt and pepper. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Preheat oven to 425\u00b0F with rack in upper third."
+        },
+        {
+          "step": 3,
+          "text": "Heat 1 tsp oil in a cast iron skillet over medium-high heat."
+        },
+        {
+          "step": 4,
+          "text": "Add provolone and sprinkle half the oregano and pepper flakes on top."
+        },
+        {
+          "step": 5,
+          "text": "Cook, flipping once, until cheese bubbles and edges brown, 4-6 minutes total."
+        },
+        {
+          "step": 6,
+          "text": "Transfer to oven and bake until melted and golden brown, about 3 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Top with remaining oregano and pepper flakes."
+        },
+        {
+          "step": 8,
+          "text": "Serve immediately with salsa criolla and sliced baguette."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "notes": [
+        "Salsa criolla can be made up to 4 hours ahead",
+        "The relish should be fresh and crunchy, not cooked",
+        "Let cheese come to room temperature before cooking for best crust"
+      ],
+      "tags": [
+        "appetizer",
+        "provoleta",
+        "salsa criolla",
+        "Argentine",
+        "cheese",
+        "grilled"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "crostini-con-sardo",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Sardo Cheese Crostini with Sun-Dried Tomatoes",
+      "category": "appetizers",
+      "attribution": "Argentine Italian appetizer",
+      "source_note": "Toasted bread topped with Argentine grating cheese and sun-dried tomatoes",
+      "description": "Crispy crostini topped with sharp Sardo cheese, sun-dried tomatoes, and fresh herbs.",
+      "servings_yield": "12 crostini",
+      "prep_time": "15 min",
+      "cook_time": "8 min",
+      "total_time": "23 min",
+      "ingredients": [
+        {
+          "item": "baguette",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced 1/2-inch thick on the bias"
+        },
+        {
+          "item": "extra-virgin olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sun-dried tomatoes in oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "drained and sliced"
+        },
+        {
+          "item": "grated Sardo cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh basil leaves",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": "small leaves"
+        },
+        {
+          "item": "garlic clove",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "halved"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "freshly cracked"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F (200\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Arrange baguette slices on a baking sheet. Brush lightly with olive oil."
+        },
+        {
+          "step": 3,
+          "text": "Bake until golden and crisp, 5-6 minutes."
+        },
+        {
+          "step": 4,
+          "text": "While still warm, rub each slice with the cut side of garlic clove."
+        },
+        {
+          "step": 5,
+          "text": "Top each crostini with sun-dried tomato slices."
+        },
+        {
+          "step": 6,
+          "text": "Sprinkle generously with grated Sardo cheese."
+        },
+        {
+          "step": 7,
+          "text": "Return to oven for 2 minutes until cheese is slightly melted."
+        },
+        {
+          "step": 8,
+          "text": "Top with fresh basil leaf and crack of black pepper. Serve warm."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "notes": [
+        "Sardo's sharp, salty flavor pairs perfectly with sweet sun-dried tomatoes",
+        "Can substitute fresh tomatoes in summer",
+        "Add a drizzle of balsamic reduction for extra flavor"
+      ],
+      "tags": [
+        "appetizer",
+        "crostini",
+        "sardo",
+        "Argentine",
+        "Italian",
+        "cheese",
+        "tomatoes"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "picada-argentina-magnasco-edam",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Picada Argentina with Magnasco Edam",
+      "category": "appetizers",
+      "attribution": "Traditional Argentine cheese board",
+      "source_note": "Argentine snack board featuring the country's distinctive Edam cheese",
+      "description": "A traditional Argentine snack platter featuring Magnasco Edam alongside cured meats, olives, and accompaniments.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "20 min",
+      "cook_time": "0 min",
+      "total_time": "20 min",
+      "ingredients": [
+        {
+          "item": "Magnasco Edam cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "cubed or sliced"
+        },
+        {
+          "item": "salami",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "jam\u00f3n cocido (cooked ham)",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "green olives",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "black olives",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "roasted almonds",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "roasted peanuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "crusty bread",
+          "quantity": "1",
+          "unit": "loaf",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "breadsticks (grisines)",
+          "quantity": "1",
+          "unit": "package"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for dipping"
+        },
+        {
+          "item": "mustard",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "quince paste (dulce de membrillo)",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Select a large wooden board or platter for presentation."
+        },
+        {
+          "step": 2,
+          "text": "Arrange cubed or sliced Magnasco Edam cheese in the center of the board."
+        },
+        {
+          "step": 3,
+          "text": "Fan salami and ham slices on one side of the cheese."
+        },
+        {
+          "step": 4,
+          "text": "Place olives in small bowls or pile directly on the board."
+        },
+        {
+          "step": 5,
+          "text": "Scatter nuts around the board."
+        },
+        {
+          "step": 6,
+          "text": "Add bread slices and breadsticks along the edges."
+        },
+        {
+          "step": 7,
+          "text": "Place small dishes of mayonnaise and mustard for dipping."
+        },
+        {
+          "step": 8,
+          "text": "If using quince paste, cut into small squares and arrange near the cheese."
+        },
+        {
+          "step": 9,
+          "text": "Serve with red wine at room temperature for the traditional experience."
+        }
+      ],
+      "notes": [
+        "Picada comes from the verb 'picar' meaning to pick at or nibble",
+        "Magnasco Edam is dryer and harder than Dutch Edam, perfect for slicing",
+        "This is Argentina's answer to charcuterie boards, enjoyed before asado or with evening wine"
+      ],
+      "tags": [
+        "appetizer",
+        "picada",
+        "magnasco",
+        "edam",
+        "Argentine",
+        "cheese board",
+        "charcuterie"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "magnasco-edam-wine-crackers",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Magnasco Edam with Wine and Crackers",
+      "category": "appetizers",
+      "attribution": "Classic Argentine cheese pairing",
+      "source_note": "Simple presentation of Argentina's distinctive Edam cheese",
+      "description": "Argentine Magnasco Edam served simply with crackers and paired with robust red wine.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 min",
+      "cook_time": "0 min",
+      "total_time": "10 min",
+      "ingredients": [
+        {
+          "item": "Magnasco Edam ball",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "water crackers",
+          "quantity": "1",
+          "unit": "box"
+        },
+        {
+          "item": "whole grain crackers",
+          "quantity": "1",
+          "unit": "box"
+        },
+        {
+          "item": "fresh grapes",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "dried apricots",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "walnuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Malbec or robust red wine",
+          "quantity": "1",
+          "unit": "bottle"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove Magnasco Edam from refrigerator 30 minutes before serving to bring to room temperature."
+        },
+        {
+          "step": 2,
+          "text": "Cut a wedge from the Edam ball to reveal the interior. Alternatively, cut into cubes or thin slices."
+        },
+        {
+          "step": 3,
+          "text": "Arrange crackers in a fan pattern on a serving board."
+        },
+        {
+          "step": 4,
+          "text": "Place cheese wedge or cubes in the center."
+        },
+        {
+          "step": 5,
+          "text": "Add grapes, dried apricots, and walnuts around the cheese."
+        },
+        {
+          "step": 6,
+          "text": "Open red wine and let it breathe for 10 minutes before serving."
+        },
+        {
+          "step": 7,
+          "text": "Serve cheese at room temperature with wine."
+        }
+      ],
+      "notes": [
+        "Magnasco is Argentina's oldest dairy, founded by Italian immigrants 155 years ago",
+        "Argentine Edam is sharper and harder than Dutch Edam",
+        "The red wax coating is traditional and beautiful for presentation",
+        "Pairs excellently with Argentine Malbec"
+      ],
+      "tags": [
+        "appetizer",
+        "magnasco",
+        "edam",
+        "Argentine",
+        "cheese",
+        "wine pairing",
+        "crackers"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-baked-feta",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Divine Baked Feta",
+      "category": "appetizers",
+      "attribution": "CheeseForum.org community",
+      "source_note": "cheeseforum.org",
+      "description": "Simple baked feta with olive oil, crushed red pepper, and oregano. Surprisingly mild despite the heat.",
+      "servings_yield": "4-6 appetizer servings",
+      "prep_time": "5 min",
+      "cook_time": "10 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "feta cheese, sliced",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "crushed red pepper with seeds",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "dried oregano, crushed",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh ground black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "bread rounds or crackers for serving",
+          "quantity": "",
+          "unit": "as desired"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 300\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Slice feta and arrange in an oven-safe dish."
+        },
+        {
+          "step": 3,
+          "text": "Drizzle generously with olive oil."
+        },
+        {
+          "step": 4,
+          "text": "Sprinkle heavily with crushed red pepper (seeds and all)."
+        },
+        {
+          "step": 5,
+          "text": "Add crushed oregano (dried is fine, but not powdered)."
+        },
+        {
+          "step": 6,
+          "text": "Grind fresh black pepper over the top."
+        },
+        {
+          "step": 7,
+          "text": "Bake for 10 minutes until feta is soft and warm."
+        },
+        {
+          "step": 8,
+          "text": "Serve immediately with bread rounds or crackers."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "notes": [
+        "Feta's saltiness balances the pepper heat",
+        "Use crushed dried oregano, not powdered",
+        "Serve immediately while warm and soft"
+      ],
+      "tags": [
+        "appetizer",
+        "feta",
+        "greek",
+        "baked",
+        "easy",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-israeli-hummus",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Israeli-Style Hummus",
+      "category": "appetizers",
+      "attribution": "CheeseForum.org community",
+      "source_note": "cheeseforum.org",
+      "description": "Authentic smooth hummus made from scratch with dried chickpeas. Served warm with olive oil.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "12 hours (including soaking)",
+      "cook_time": "1.5 hours",
+      "total_time": "14 hours",
+      "ingredients": [
+        {
+          "item": "dried chickpeas (small variety)",
+          "quantity": "1",
+          "unit": "kg"
+        },
+        {
+          "item": "baking soda (for soaking)",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "tahini",
+          "quantity": "250",
+          "unit": "ml"
+        },
+        {
+          "item": "lemon, juiced",
+          "quantity": "1",
+          "unit": "large"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2-4",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ground cumin (optional)",
+          "quantity": "1",
+          "unit": "pinch"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "",
+          "unit": "generous"
+        },
+        {
+          "item": "paprika (sweet or hot)",
+          "quantity": "",
+          "unit": "for garnish"
+        },
+        {
+          "item": "pita bread",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak chickpeas overnight in cold water with 1 tbsp baking soda (speeds cooking)."
+        },
+        {
+          "step": 2,
+          "text": "Drain and rinse well. Place in pressure cooker covered by 2 inches water."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boil, skim foam, then cook 1-1.5 hours until beans are 'soft as butter'."
+        },
+        {
+          "step": 4,
+          "text": "CRITICAL: Never add salt during cooking - beans won't soften."
+        },
+        {
+          "step": 5,
+          "text": "Separate cooked beans from liquid, reserving both."
+        },
+        {
+          "step": 6,
+          "text": "Pass beans through sieve to remove skins for smoothest texture."
+        },
+        {
+          "step": 7,
+          "text": "While still warm: add half the lemon juice, 3-4 tbsp hot cooking water, minced garlic, tahini, and salt."
+        },
+        {
+          "step": 8,
+          "text": "Mix thoroughly. Taste and adjust lemon, salt, and consistency."
+        },
+        {
+          "step": 9,
+          "text": "Serve warm in bowls topped with whole chickpeas, cooking liquid, generous olive oil, and paprika."
+        },
+        {
+          "step": 10,
+          "text": "Serve with fresh pita bread."
+        }
+      ],
+      "temperature": "Served warm",
+      "notes": [
+        "Baking soda in soaking water dramatically speeds cooking",
+        "Never salt until after cooking - prevents softening",
+        "Removing skins creates silkiest texture",
+        "Serve warm for authentic Israeli style"
+      ],
+      "tags": [
+        "appetizer",
+        "hummus",
+        "israeli",
+        "middle-eastern",
+        "chickpeas",
+        "tahini",
+        "vegan"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-maltese-pastizzi",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Maltese Pastizzi (Cheese Pies)",
+      "category": "appetizers",
+      "attribution": "CheeseForum.org community",
+      "source_note": "cheeseforum.org",
+      "description": "Traditional Maltese savory pastries filled with ricotta-style cheese and herbs in flaky puff pastry.",
+      "servings_yield": "About 60 pastizzi",
+      "prep_time": "30 min",
+      "cook_time": "20 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "Maltese cheese or ricotta",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "fresh basil or herbs of choice",
+          "quantity": "2",
+          "unit": "tbsp chopped"
+        },
+        {
+          "item": "puff pastry sheets",
+          "quantity": "2",
+          "unit": "packages"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven according to puff pastry package directions (usually 400\u00b0F)."
+        },
+        {
+          "step": 2,
+          "text": "Mix cheese, egg, and herbs thoroughly. Drain any excess whey."
+        },
+        {
+          "step": 3,
+          "text": "Roll puff pastry thinner than usual."
+        },
+        {
+          "step": 4,
+          "text": "Cut each sheet into 9 equal squares."
+        },
+        {
+          "step": 5,
+          "text": "Place 1 tsp cheese mixture in center of each square."
+        },
+        {
+          "step": 6,
+          "text": "Fold two opposite corners over the filling."
+        },
+        {
+          "step": 7,
+          "text": "Twist remaining two corners like a candy wrapper."
+        },
+        {
+          "step": 8,
+          "text": "Trim excess pastry from twisted ends."
+        },
+        {
+          "step": 9,
+          "text": "Place on parchment-lined baking sheet."
+        },
+        {
+          "step": 10,
+          "text": "Bake until golden brown, about 15-20 minutes."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "notes": [
+        "Can be frozen before baking",
+        "Thaw before baking or add a few extra minutes",
+        "Traditional Maltese cheese can be substituted with ricotta",
+        "Serve with marinara or preferred dipping sauce"
+      ],
+      "tags": [
+        "maltese",
+        "cheese-pie",
+        "appetizer",
+        "party-food",
+        "pastry"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-feta-pumpkin-pastries",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Feta and Pumpkin Pastries",
+      "category": "appetizers",
+      "attribution": "CheeseForum.org community",
+      "source_note": "cheeseforum.org",
+      "description": "Flaky filo triangles filled with roasted butternut pumpkin and tangy feta cheese.",
+      "servings_yield": "About 24 pastries",
+      "prep_time": "30 min",
+      "cook_time": "45 min",
+      "total_time": "1 hr 15 min",
+      "ingredients": [
+        {
+          "item": "butternut pumpkin, cubed (1 inch)",
+          "quantity": "1/2",
+          "unit": ""
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "2-3",
+          "unit": ""
+        },
+        {
+          "item": "herb oil or olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "feta cheese",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "butter, melted",
+          "quantity": "1/4",
+          "unit": "lb"
+        },
+        {
+          "item": "filo pastry",
+          "quantity": "1",
+          "unit": "packet"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F (200\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "Place pumpkin cubes on baking tray. Crush garlic over top."
+        },
+        {
+          "step": 3,
+          "text": "Drizzle with herb oil, season with salt and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Roast until pumpkin is soft, about 25-30 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Transfer roasted pumpkin to bowl. Add feta."
+        },
+        {
+          "step": 6,
+          "text": "Mash together with potato masher. Adjust seasoning."
+        },
+        {
+          "step": 7,
+          "text": "Layer two filo sheets together, brush with melted butter."
+        },
+        {
+          "step": 8,
+          "text": "Cut lengthwise into 3 strips."
+        },
+        {
+          "step": 9,
+          "text": "Place spoonful of filling at bottom of each strip."
+        },
+        {
+          "step": 10,
+          "text": "Fold diagonally up the strip to form triangles."
+        },
+        {
+          "step": 11,
+          "text": "Brush tops with butter."
+        },
+        {
+          "step": 12,
+          "text": "Bake about 15-20 minutes until golden brown."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "notes": [
+        "Don't overfill or they may burst open",
+        "Can be frozen before baking",
+        "Serve with dipping sauce of choice",
+        "Butternut can be substituted with other squash"
+      ],
+      "tags": [
+        "appetizer",
+        "filo",
+        "pumpkin",
+        "feta",
+        "greek",
+        "party-food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "hillbilly-fondue",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Hillbilly Fondue",
+      "category": "appetizers",
+      "source_note": "CheeseForum.org - Favorite Recipes",
+      "description": "A simple Swiss and Gruyere cheese fondue made in a double boiler. Perfect for dipping French bread.",
+      "servings_yield": "2 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "garlic clove, halved",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Swiss cheese",
+          "quantity": "1/4",
+          "unit": "lb"
+        },
+        {
+          "item": "grated Gruyere cheese",
+          "quantity": "1/4",
+          "unit": "lb"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "nutmeg (optional)",
+          "quantity": "1",
+          "unit": "pinch"
+        },
+        {
+          "item": "French bread, cut into pieces",
+          "quantity": "4-5",
+          "unit": "slices"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Set up a double boiler (one pot nested in another containing hot water)."
+        },
+        {
+          "step": 2,
+          "text": "Rub the inside of the top pot with garlic. Discard the garlic clove(s)."
+        },
+        {
+          "step": 3,
+          "text": "Combine cornstarch with the grated cheeses."
+        },
+        {
+          "step": 4,
+          "text": "Simmer the wine in the top pot of your double boiler. Heat should be at medium or less."
+        },
+        {
+          "step": 5,
+          "text": "Add Swiss cheese and Gruyere cheese a bit at a time making sure the cheese is melted before adding more. Stir constantly."
+        },
+        {
+          "step": 6,
+          "text": "Add nutmeg if desired."
+        },
+        {
+          "step": 7,
+          "text": "Place the pot on a hotplate set to low heat to maintain the fondue's melting consistency."
+        },
+        {
+          "step": 8,
+          "text": "Spear bread pieces on a fork and dip into the fondue."
+        }
+      ],
+      "notes": [
+        "Double quantities for 4 servings",
+        "Any cheese that melts easily works well"
+      ],
+      "tags": [
+        "fondue",
+        "appetizer",
+        "cheese",
+        "party",
+        "Swiss"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "harvest-chicken-liver-pate",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Harvest Chicken Liver P\u00e2t\u00e9",
+      "category": "appetizers",
+      "source_note": "CheeseForum.org - Favorite Recipes",
+      "description": "A rich and flavorful chicken liver p\u00e2t\u00e9 with apple, bourbon, and warm spices. Perfect for entertaining.",
+      "servings_yield": "2 ramekins",
+      "prep_time": "30 minutes (plus 24 hour soak)",
+      "cook_time": "20 minutes",
+      "total_time": "Overnight plus 50 minutes",
+      "ingredients": [
+        {
+          "item": "chicken livers, cleaned",
+          "quantity": "3/4",
+          "unit": "lb (about 6)"
+        },
+        {
+          "item": "butter at room temperature, divided",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bacon, diced",
+          "quantity": "2",
+          "unit": "slices"
+        },
+        {
+          "item": "medium onion, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "celery stalk, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "garlic clove, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "large tart apple, peeled, cored and chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "rubbed sage",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "allspice",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "bourbon",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "heavy cream (optional)",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "clarified butter, melted",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Clean livers by removing fibrous bits and dark spots, rinse well, and soak in milk for 24 hours (optional but recommended). Drain, rinse, and pat dry."
+        },
+        {
+          "step": 2,
+          "text": "Saut\u00e9 bacon in butter until crispy. Add onion, celery, and garlic. Saut\u00e9 until tender."
+        },
+        {
+          "step": 3,
+          "text": "Add apple and livers, cooking until livers are firm but pink inside and apple softens. Add sage, allspice, and nutmeg, cooking one minute more."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to bowl. Deglaze pan with bourbon, reducing to 3 tablespoons, then transfer to bowl with seasonings and cream if desired."
+        },
+        {
+          "step": 5,
+          "text": "Pur\u00e9e with stick blender until smooth."
+        },
+        {
+          "step": 6,
+          "text": "Pack into ramekins and top with clarified butter."
+        },
+        {
+          "step": 7,
+          "text": "Refrigerate overnight or up to 10 days."
+        }
+      ],
+      "notes": [
+        "Soaking livers in milk removes bitterness",
+        "Serve with sliced baguette, crackers or mini toasts"
+      ],
+      "tags": [
+        "appetizer",
+        "pate",
+        "liver",
+        "French",
+        "entertaining"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "deep-fried-cheese-curds",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Deep Fried Cheese Curds",
+      "category": "appetizers",
+      "source_note": "CheeseForum.org - Favorite Recipes",
+      "description": "Classic Wisconsin-style fried cheese curds with a light, crispy batter. A state fair favorite.",
+      "servings_yield": "24 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "1 minute per batch",
+      "total_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs, beaten",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cheese curds",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "oil for frying",
+          "quantity": "1",
+          "unit": "quart"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium bowl, sift together the flour, baking powder, and salt."
+        },
+        {
+          "step": 2,
+          "text": "Stir in the eggs and milk. Mix until smooth. Add more milk for a thinner batter."
+        },
+        {
+          "step": 3,
+          "text": "Coat the cheese curds with the batter."
+        },
+        {
+          "step": 4,
+          "text": "Heat the oil in a large, heavy skillet over medium heat to 375\u00b0F."
+        },
+        {
+          "step": 5,
+          "text": "Fry the coated cheese curds approximately 1 minute each, until golden brown."
+        },
+        {
+          "step": 6,
+          "text": "Drain on paper towels and serve hot."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C) oil",
+      "notes": [
+        "Freezing curds before breading prevents cheese from liquefying",
+        "Serve immediately while hot and gooey",
+        "Fresh curds that squeak are best"
+      ],
+      "tags": [
+        "Wisconsin",
+        "appetizer",
+        "fried",
+        "state fair",
+        "cheese curds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-tyropites-greek-cheese-pies",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Tyropites (Greek Cheese Pies)",
+      "category": "appetizers",
+      "source_note": "CheeseForum.org - Favorite Recipes (reconstructed from traditional recipe)",
+      "description": "Flaky phyllo triangles filled with a mixture of feta and ricotta cheese. A beloved Greek appetizer or snack.",
+      "servings_yield": "About 24 triangles",
+      "prep_time": "45 minutes",
+      "cook_time": "20-25 minutes",
+      "total_time": "1 hour 10 minutes",
+      "ingredients": [
+        {
+          "item": "crumbled feta cheese",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "ricotta cheese",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs, lightly beaten",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "fresh dill, chopped (optional)",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "phyllo dough, thawed",
+          "quantity": "1",
+          "unit": "lb package"
+        },
+        {
+          "item": "butter, melted",
+          "quantity": "1",
+          "unit": "cup (2 sticks)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F (190\u00b0C). Line baking sheets with parchment paper."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl, mix feta, ricotta, eggs, dill (if using), and pepper until well combined."
+        },
+        {
+          "step": 3,
+          "text": "Unroll phyllo and cover with a damp towel to prevent drying."
+        },
+        {
+          "step": 4,
+          "text": "Take one sheet of phyllo, brush lightly with melted butter, and fold in half lengthwise."
+        },
+        {
+          "step": 5,
+          "text": "Brush the folded strip with more butter."
+        },
+        {
+          "step": 6,
+          "text": "Place a heaping tablespoon of filling at one end of the strip."
+        },
+        {
+          "step": 7,
+          "text": "Fold the corner over the filling to form a triangle, then continue folding (like folding a flag) to the end of the strip."
+        },
+        {
+          "step": 8,
+          "text": "Brush the outside with butter and place seam-side down on the baking sheet."
+        },
+        {
+          "step": 9,
+          "text": "Repeat with remaining phyllo and filling."
+        },
+        {
+          "step": 10,
+          "text": "Bake for 20-25 minutes until golden brown and crispy."
+        },
+        {
+          "step": 11,
+          "text": "Let cool slightly before serving (filling will be very hot)."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "notes": [
+        "Can be frozen unbaked - bake from frozen adding 5-10 minutes",
+        "Similar to spanakopita but without spinach",
+        "Some versions add a pinch of nutmeg"
+      ],
+      "tags": [
+        "Mediterranean",
+        "appetizer",
+        "feta",
+        "cheese",
+        "Greek",
+        "phyllo"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "Recipe reconstructed from forum discussion of traditional method"
+        ]
+      },
+      "image_refs": []
+    },
+    {
+      "id": "lgc-baked-ricotta",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Baked Ricotta",
+      "category": "appetizers",
+      "source_note": "Little Green Cheese - littlegreencheese.com",
+      "description": "A simple, elegant appetizer of creamy baked ricotta served with crusty bread.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {
+          "item": "fresh ricotta",
+          "quantity": "2",
+          "unit": "cups (1 lb)"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic cloves (minced)",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "fresh herbs (thyme, rosemary, or oregano)",
+          "quantity": "1",
+          "unit": "tbsp chopped"
+        },
+        {
+          "item": "lemon zest",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "crusty bread",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F (190\u00b0C)."
+        },
+        {
+          "step": 2,
+          "text": "If ricotta is very wet, drain in cheesecloth for 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Mix ricotta with 1 tbsp olive oil, garlic, herbs, lemon zest, salt, and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to a small oven-safe dish. Smooth top."
+        },
+        {
+          "step": 5,
+          "text": "Drizzle remaining olive oil over top."
+        },
+        {
+          "step": 6,
+          "text": "Bake 40-45 minutes until golden on top."
+        },
+        {
+          "step": 7,
+          "text": "Let rest 5 minutes. Drizzle with more olive oil."
+        },
+        {
+          "step": 8,
+          "text": "Serve warm with sliced crusty bread."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "notes": [
+        "Top with cherry tomatoes before baking for variation",
+        "Best with homemade ricotta"
+      ],
+      "tags": [
+        "appetizer",
+        "ricotta",
+        "Italian",
+        "baked",
+        "easy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "taoc-lemony-baked-ricotta-with-herbs",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Lemony Baked Ricotta with Herbs",
+      "category": "appetizers",
+      "source_note": "The Art of Cheese - theartofcheese.com",
+      "description": "A delicious appetizer of warm ricotta baked with lemon zest and herbs until bubbly and slightly browned. Perfect served with toasted baguette slices.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "fresh ricotta (warm)",
+          "quantity": "2-3",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon zest",
+          "quantity": "1",
+          "unit": "lemon"
+        },
+        {
+          "item": "dried herbs (Italian blend or herbs de Provence)",
+          "quantity": "1 1/2",
+          "unit": "teaspoons"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2-3",
+          "unit": "tablespoons"
+        },
+        {
+          "item": "sea salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "baguette",
+          "quantity": "1",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Mix lemon zest into warm ricotta."
+        },
+        {
+          "step": 3,
+          "text": "Add 1 teaspoon dried herbs and sea salt to taste; stir to combine."
+        },
+        {
+          "step": 4,
+          "text": "Coat an oven-proof skillet with 2 tablespoons olive oil."
+        },
+        {
+          "step": 5,
+          "text": "Spoon ricotta mixture into the skillet."
+        },
+        {
+          "step": 6,
+          "text": "Drizzle with additional olive oil and sprinkle remaining herbs on top."
+        },
+        {
+          "step": 7,
+          "text": "Bake at 375\u00b0F for 15 minutes until bubbly and slightly browned."
+        },
+        {
+          "step": 8,
+          "text": "Serve warm with lightly toasted baguette slices."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "notes": [
+        "Can use store-bought or homemade ricotta",
+        "Best served immediately while warm and bubbly",
+        "Try different herb combinations based on preference"
+      ],
+      "tags": [
+        "Italian",
+        "ricotta",
+        "appetizers",
+        "cheese",
+        "baked",
+        "herbs"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "taoc-greek-layer-dip",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Greek Layer Dip",
+      "category": "appetizers",
+      "source_note": "The Art of Cheese - theartofcheese.com (June Small, The Small Farm)",
+      "description": "A Mediterranean-inspired layered dip with hummus, pesto, artichokes, fresh vegetables, olives, and crumbled feta. Perfect for parties.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "0 minutes",
+      "total_time": "20 minutes plus chilling",
+      "ingredients": [
+        {
+          "item": "hummus (prepared or homemade)",
+          "quantity": "16",
+          "unit": "oz"
+        },
+        {
+          "item": "pesto (prepared or homemade)",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "marinated artichokes (chopped)",
+          "quantity": "1",
+          "unit": "small jar"
+        },
+        {
+          "item": "English cucumber (finely chopped)",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "grape tomatoes (finely chopped)",
+          "quantity": "1",
+          "unit": "small container"
+        },
+        {
+          "item": "large olives (coarsely chopped)",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "item": "marinated or plain feta (crumbled)",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "pita chips",
+          "quantity": "",
+          "unit": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spread hummus evenly across the bottom of a serving dish."
+        },
+        {
+          "step": 2,
+          "text": "Layer pesto over the hummus."
+        },
+        {
+          "step": 3,
+          "text": "Scatter chopped marinated artichokes over pesto."
+        },
+        {
+          "step": 4,
+          "text": "Add layer of finely chopped cucumber."
+        },
+        {
+          "step": 5,
+          "text": "Add layer of finely chopped grape tomatoes."
+        },
+        {
+          "step": 6,
+          "text": "Scatter coarsely chopped olives on top."
+        },
+        {
+          "step": 7,
+          "text": "Top with crumbled feta cheese."
+        },
+        {
+          "step": 8,
+          "text": "For best flavor, chill in refrigerator for a couple of hours before serving."
+        },
+        {
+          "step": 9,
+          "text": "Serve with pita chips."
+        }
+      ],
+      "notes": [
+        "Can use homemade feta for even better flavor",
+        "Marinated feta adds extra flavor dimension",
+        "Layers can be adjusted based on preference"
+      ],
+      "tags": [
+        "appetizers",
+        "dips",
+        "Greek",
+        "Mediterranean",
+        "feta",
+        "party food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-pork-dumplings",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Pork Dumplings",
+      "category": "appetizers",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Pork and chive dumplings with black vinegar dipping sauce",
+      "servings_yield": "25 dumplings",
+      "prep_time": "1 hr",
+      "cook_time": "10 min",
+      "total_time": "1 hr 30 min",
+      "ingredients": [
+        {
+          "item": "dumpling flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "ground pork",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "shiitake mushrooms, minced",
+          "quantity": "2",
+          "unit": "oz"
+        },
+        {
+          "item": "garlic, grated",
+          "quantity": "3",
+          "unit": "cloves"
+        },
+        {
+          "item": "ginger, grated",
+          "quantity": "1",
+          "unit": "oz"
+        },
+        {
+          "item": "Chinese chives, sliced",
+          "quantity": "1",
+          "unit": "bunch"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black vinegar",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix flour and salt, gradually add water while stirring. Knead until smooth, rest 1 hour."
+        },
+        {
+          "step": 2,
+          "text": "Combine pork with mushrooms, garlic, ginger, chives, soy sauce, and sesame oil."
+        },
+        {
+          "step": 3,
+          "text": "Roll dough into thin wrappers about 3.5 inches in diameter."
+        },
+        {
+          "step": 4,
+          "text": "Fill each wrapper with 1 tbsp filling, fold and pleat edges to seal."
+        },
+        {
+          "step": 5,
+          "text": "Pan-fry dumplings in oil, add water, cover and steam 5-7 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Remove lid, crisp bottoms 1-2 minutes. Serve with black vinegar dipping sauce."
+        }
+      ],
+      "temperature": "Medium heat",
+      "tags": [
+        "asian",
+        "pork",
+        "dumplings",
+        "appetizer",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-baked-chicken-wings",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Baked Chicken Wings",
+      "category": "appetizers",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Crispy baked chicken wings with hot sauce glaze",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "cook_time": "35 min",
+      "total_time": "50 min",
+      "ingredients": [
+        {
+          "item": "chicken wings",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "smoked paprika",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "kosher salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "canola oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "hot sauce",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Pat wings dry, season with garlic powder, paprika, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Heat oil and butter in oven-safe pan. Brown wings on both sides."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to oven, bake 15 minutes until cooked to 165\u00b0F."
+        },
+        {
+          "step": 5,
+          "text": "Toss with hot sauce and additional butter. Serve immediately."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "tags": [
+        "chicken",
+        "wings",
+        "appetizer",
+        "game-day",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-chilli-beef-lettuce-wraps",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Chilli Beef Lettuce Wraps",
+      "category": "appetizers",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Spicy beef and pork mince in crisp lettuce cups",
+      "servings_yield": "4 servings",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "total_time": "30 min",
+      "ingredients": [
+        {
+          "item": "lean minced beef",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "minced pork",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "garlic, chopped",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "ginger, chopped",
+          "quantity": "2",
+          "unit": "inches"
+        },
+        {
+          "item": "red chillies",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fish sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lime",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "spring onions",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "little gem lettuce",
+          "quantity": "2",
+          "unit": "heads"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "coriander",
+          "quantity": "1",
+          "unit": "bunch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown mixed mince in oil until crispy. Drain excess fat."
+        },
+        {
+          "step": 2,
+          "text": "Add garlic, ginger, and chillies with sesame oil. Cook 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar and fish sauce. Stir in lime zest, juice, and spring onions."
+        },
+        {
+          "step": 4,
+          "text": "Make dressing with soy, lime, sesame oil, chilli, coriander, fish sauce, and sugar."
+        },
+        {
+          "step": 5,
+          "text": "Spoon mince into lettuce cups, drizzle with dressing and serve."
+        }
+      ],
+      "temperature": "High heat",
+      "tags": [
+        "asian",
+        "beef",
+        "pork",
+        "appetizer",
+        "low-carb",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

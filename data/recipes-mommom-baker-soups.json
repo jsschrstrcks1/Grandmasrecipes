@@ -2,8 +2,8 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "soups",
-    "total_recipes": 35,
-    "generated": "2026-01-22T19:32:06.553764Z",
+    "total_recipes": 61,
+    "generated": "2026-01-23T14:31:32.316561Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -92,9 +92,18 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 223,
+          "fat_g": 12.1,
+          "protein_g": 15.8,
+          "carbs_g": 12.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1 for meat tenderizers or seasoned salt (standard quantity)",
+          "Estimated 6 servings based on total calories",
+          "Based on 7/7 ingredients (100% coverage)"
         ]
       }
     },
@@ -337,9 +346,18 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 301,
+          "fat_g": 17.5,
+          "protein_g": 17.8,
+          "carbs_g": 17.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1 for salt (standard quantity)",
+          "Estimated 6 servings based on total calories",
+          "Based on 14/14 ingredients (100% coverage)"
         ]
       }
     },
@@ -631,9 +649,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 15.7,
+          "protein_g": 15.2,
+          "carbs_g": 14.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 6 servings based on total calories",
+          "Based on 10/10 ingredients (100% coverage)"
         ]
       }
     },
@@ -730,9 +756,20 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 495,
+          "fat_g": 14.0,
+          "protein_g": 21.2,
+          "carbs_g": 73.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 1.0 for onions (standard quantity)",
+          "Used standard can size (1.75 cups) for whole kernel corn",
+          "Used standard can size (1.75 cups) for kidney beans",
+          "Estimated 8 servings based on total calories",
+          "Based on 7/7 ingredients (100% coverage)"
         ]
       }
     },
@@ -824,9 +861,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 103,
+          "fat_g": 0.8,
+          "protein_g": 5.0,
+          "carbs_g": 20.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
         ]
       }
     },
@@ -1348,9 +1392,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 284,
+          "fat_g": 18.2,
+          "protein_g": 18.2,
+          "carbs_g": 10.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 12/12 ingredients (100% coverage)"
         ]
       }
     },
@@ -1618,9 +1669,17 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 232,
+          "fat_g": 6.2,
+          "protein_g": 20.5,
+          "carbs_g": 22.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 6 servings based on total calories",
+          "Based on 11/11 ingredients (100% coverage)"
         ]
       }
     },
@@ -1698,9 +1757,173 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
+        "per_serving": {
+          "calories": 183,
+          "fat_g": 14.9,
+          "protein_g": 2.1,
+          "carbs_g": 11.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 4 servings based on total calories",
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "seafood-stew-mommom",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Seafood Stew",
+      "category": "soups",
+      "attribution": "Donny Willison",
+      "source_note": "MomMom's cookbook, page 46 - printed community cookbook",
+      "description": "A hearty stew with salt pork, potatoes, shrimp, and whitefish in a tomato base.",
+      "servings_yield": "6 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "55 minutes",
+      "total_time": "1 hour 20 minutes",
+      "ingredients": [
+        {
+          "item": "salt pork",
+          "quantity": "1/4",
+          "unit": "cup or 1/4 lb",
+          "prep_note": "diced"
+        },
+        {
+          "item": "onion",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "celery",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "raw potatoes",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "diced"
+        },
+        {
+          "item": "Italian tomatoes",
+          "quantity": "1",
+          "unit": "28 oz can",
+          "prep_note": "peeled, in juice, chopped"
+        },
+        {
+          "item": "ocean scallops",
+          "quantity": "3/4",
+          "unit": "lb",
+          "prep_note": "cut in half"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": "freshly ground"
+        },
+        {
+          "item": "ground thyme",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "Tabasco",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": "if desired"
+        },
+        {
+          "item": "medium raw shrimp",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": "deveined"
+        },
+        {
+          "item": "boneless whitefish",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": "diced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepot, cook salt pork until crisp. Remove pork and reserve."
+        },
+        {
+          "step": 2,
+          "text": "Add onion, green pepper, and celery and saute about 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add reserved pork, potatoes, tomatoes, and seasonings."
+        },
+        {
+          "step": 4,
+          "text": "Cover and simmer 45 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add shrimp, fish, and scallops and simmer 10 minutes longer."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large saucepot",
+      "notes": [],
+      "tags": [
+        "seafood",
+        "stew",
+        "soup"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "page_continuation": {
+        "continues_from": "",
+        "continues_to": ""
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 283,
+          "fat_g": 4.6,
+          "protein_g": 24.4,
+          "carbs_g": 36.7
+        },
         "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+          "Not in database: bay leaves"
+        ],
+        "assumptions": [
+          "Inferred 0.25 for black pepper (standard quantity)",
+          "Assumed 1 unit for Tabasco",
+          "Based on 13/14 ingredients (93% coverage)"
         ]
       }
     },
@@ -1866,162 +2089,6 @@
           "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
           "Estimated 4 servings based on total calories",
           "Based on 15/15 ingredients (100% coverage)"
-        ]
-      }
-    },
-    {
-      "id": "seafood-stew-mommom-mommom",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Seafood Stew",
-      "category": "soups",
-      "attribution": "Donny Willison",
-      "source_note": "MomMom's cookbook, page 46 - printed community cookbook",
-      "description": "A hearty stew with salt pork, potatoes, shrimp, and whitefish in a tomato base.",
-      "servings_yield": "6 servings",
-      "prep_time": "25 minutes",
-      "cook_time": "55 minutes",
-      "total_time": "1 hour 20 minutes",
-      "ingredients": [
-        {
-          "item": "salt pork",
-          "quantity": "1/4",
-          "unit": "cup or 1/4 lb",
-          "prep_note": "diced"
-        },
-        {
-          "item": "onion",
-          "quantity": "1 1/2",
-          "unit": "cups",
-          "prep_note": "finely chopped"
-        },
-        {
-          "item": "green pepper",
-          "quantity": "3",
-          "unit": "cups",
-          "prep_note": "finely chopped"
-        },
-        {
-          "item": "celery",
-          "quantity": "3/4",
-          "unit": "cup",
-          "prep_note": "finely chopped"
-        },
-        {
-          "item": "raw potatoes",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": "diced"
-        },
-        {
-          "item": "Italian tomatoes",
-          "quantity": "1",
-          "unit": "28 oz can",
-          "prep_note": "peeled, in juice, chopped"
-        },
-        {
-          "item": "ocean scallops",
-          "quantity": "3/4",
-          "unit": "lb",
-          "prep_note": "cut in half"
-        },
-        {
-          "item": "salt",
-          "quantity": "2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "black pepper",
-          "quantity": "",
-          "unit": "to taste",
-          "prep_note": "freshly ground"
-        },
-        {
-          "item": "ground thyme",
-          "quantity": "2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "bay leaves",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "crushed"
-        },
-        {
-          "item": "Tabasco",
-          "quantity": "",
-          "unit": "to taste",
-          "prep_note": "if desired"
-        },
-        {
-          "item": "medium raw shrimp",
-          "quantity": "1/4",
-          "unit": "lb",
-          "prep_note": "deveined"
-        },
-        {
-          "item": "boneless whitefish",
-          "quantity": "1/4",
-          "unit": "lb",
-          "prep_note": "diced"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "In a large saucepot, cook salt pork until crisp. Remove pork and reserve."
-        },
-        {
-          "step": 2,
-          "text": "Add onion, green pepper, and celery and saute about 5 minutes."
-        },
-        {
-          "step": 3,
-          "text": "Add reserved pork, potatoes, tomatoes, and seasonings."
-        },
-        {
-          "step": 4,
-          "text": "Cover and simmer 45 minutes."
-        },
-        {
-          "step": 5,
-          "text": "Add shrimp, fish, and scallops and simmer 10 minutes longer."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "large saucepot",
-      "notes": [],
-      "tags": [
-        "seafood",
-        "stew",
-        "soup"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [],
-      "page_continuation": {
-        "continues_from": "",
-        "continues_to": ""
-      },
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 283,
-          "fat_g": 4.6,
-          "protein_g": 24.4,
-          "carbs_g": 36.7
-        },
-        "missing_inputs": [
-          "Not in database: bay leaves"
-        ],
-        "assumptions": [
-          "Inferred 0.25 for black pepper (standard quantity)",
-          "Assumed 1 unit for Tabasco",
-          "Based on 13/14 ingredients (93% coverage)"
         ]
       }
     },
@@ -2739,9 +2806,18 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
+        "per_serving": {
+          "calories": 357,
+          "fat_g": 13.7,
+          "protein_g": 24.6,
+          "carbs_g": 32.8
+        },
         "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+          "Not in database: dried Italian seasoning"
+        ],
+        "assumptions": [
+          "Based on 13/14 ingredients (93% coverage)"
         ]
       }
     },
@@ -3338,11 +3414,9 @@
           "protein_g": 26.4,
           "carbs_g": 14.1
         },
-        "missing_inputs": [
-          "Not in database: dried marjoram, crushed"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Based on 7/8 ingredients (88% coverage)"
+          "Based on 8/8 ingredients (100% coverage)"
         ]
       }
     },
@@ -4006,6 +4080,2718 @@
           "Based on 6/8 ingredients (75% coverage)"
         ]
       }
+    },
+    {
+      "id": "southwestern-corn-chowder-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Southwestern Corn Chowder",
+      "category": "soups",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 54",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "bacon",
+          "quantity": "4",
+          "unit": "slices",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "large potato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cream-style corn",
+          "quantity": "1",
+          "unit": "can (17 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "condensed cream of mushroom soup",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "2",
+          "unit": "oz",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook the bacon until crisp. Drain. Pour off all but 3 tablespoons of bacon drippings. Add the onion and potato and cook over medium heat, stirring, until the onion is lightly browned."
+        },
+        {
+          "step": 2,
+          "text": "Add water, cover, and simmer until the potato is just tender, 15 to 20 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add the corn, soup, mushrooms, milk, and salt. Heat to boiling, lower the heat, add the chiles, and simmer a few minutes."
+        },
+        {
+          "step": 4,
+          "text": "Serve in soup bowls or a tureen. Crumble bacon on top."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "soup",
+        "chowder",
+        "corn",
+        "green chile",
+        "bacon"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6039 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "traditional-gazpacho-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Traditional Gazpacho",
+      "category": "soups",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 54",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "tomato juice",
+          "quantity": "1 1/2",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped or equivalent onion powder"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled and chopped"
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "2 to 4",
+          "unit": "",
+          "prep_note": "peeled and chopped"
+        },
+        {
+          "item": "green chile",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "or equivalent garlic powder"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1 to 2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "oregano",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1 to 2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all the ingredients in a bowl and chill for 6 to 8 hours."
+        },
+        {
+          "step": 2,
+          "text": "Serve with crackers or French bread."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "soup",
+        "cold soup",
+        "gazpacho",
+        "green chile",
+        "no-cook"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6039 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "foxfire2-dock-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dock Soup",
+      "category": "soups",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian soup from The Foxfire Book 2",
+      "description": "A creamy soup made from young dock leaves.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "young dock leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook young leaves, drain off water and strain."
+        },
+        {
+          "step": 2,
+          "text": "Add milk, onion, butter, and two tablespoons flour."
+        },
+        {
+          "step": 3,
+          "text": "Cook slowly one-half hour."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "soup",
+        "greens",
+        "wild-plants",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-sorrel-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sorrel Soup",
+      "category": "soups",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian recipe from The Foxfire Book 2",
+      "description": "A rich, creamy soup from sheep sorrel leaves, high in vitamin C.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sorrel leaves",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "bruised"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop sorrel and onion together (or ramps, if available)."
+        },
+        {
+          "step": 2,
+          "text": "Simmer in butter until wilted."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs and cream."
+        },
+        {
+          "step": 4,
+          "text": "Bring to a quick boil and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Ramps can be substituted for onion if available"
+      ],
+      "tags": [
+        "soup",
+        "sorrel",
+        "wild-plants",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-nettle-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nettle Soup",
+      "category": "soups",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian soup from The Foxfire Book 2",
+      "description": "A nutritious soup made from stinging nettles. Must gather with stout gloves!",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "Long time",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "nettles",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "gathered in early spring with gloves"
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Gather plants in early spring with stout gloves."
+        },
+        {
+          "step": 2,
+          "text": "Cook a long time to destroy sting."
+        },
+        {
+          "step": 3,
+          "text": "Add water, thicken with butter, flour, and egg yolks."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Must gather with stout gloves",
+        "Repeated cookings destroy the sting"
+      ],
+      "tags": [
+        "soup",
+        "nettles",
+        "wild-plants",
+        "appalachian",
+        "foxfire",
+        "foraging",
+        "spring"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-milkweed-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Milkweed Soup",
+      "category": "soups",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "Hearty soup made from milkweed shoots or young pods.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "young milkweed shoots or pods",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cut in small pieces"
+        },
+        {
+          "item": "hambone or bacon drippings",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "rice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "wild onions or ramps",
+          "quantity": "handful",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "water",
+          "quantity": "to cover",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For shoots: Gather young shoots while young and tender (not after July). Wash, cook, and drain."
+        },
+        {
+          "step": 2,
+          "text": "Add more water, rice, bacon drippings, salt, pepper, and wild onions."
+        },
+        {
+          "step": 3,
+          "text": "Cook over a slow fire until done."
+        },
+        {
+          "step": 4,
+          "text": "For pods: Boil a hambone in water."
+        },
+        {
+          "step": 5,
+          "text": "Add young milkweed pods cut in small pieces, wild onions or ramps, and a handful of rice."
+        },
+        {
+          "step": 6,
+          "text": "Cook slowly. Add salt and pepper before serving."
+        }
+      ],
+      "temperature": "Low heat",
+      "pan_size": "Large pot",
+      "notes": [
+        "Two methods: one using shoots, one using young pods. Only gather milkweed before July."
+      ],
+      "tags": [
+        "soup",
+        "milkweed",
+        "wild foods",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-ramp-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Appalachian Ramp Soup",
+      "category": "soups",
+      "attribution": "Foxfire Book 2",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Traditional soup made with wild ramps, with three variations using beef or venison.",
+      "servings_yield": "4-6 servings",
+      "ingredients": [
+        {
+          "item": "beef or venison",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cut in small pieces"
+        },
+        {
+          "item": "ramps",
+          "quantity": "36",
+          "unit": "",
+          "prep_note": "cleaned"
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut in small pieces"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "cut in small pieces"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to cover"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut one pound of beef in small pieces, add salt and water, and boil."
+        },
+        {
+          "step": 2,
+          "text": "Skim the foam from the top."
+        },
+        {
+          "step": 3,
+          "text": "Add ramps, carrots, and potatoes cut in small pieces."
+        },
+        {
+          "step": 4,
+          "text": "Take out meat and eat separately."
+        },
+        {
+          "step": 5,
+          "text": "Put vegetables through sieve and serve hot."
+        }
+      ],
+      "notes": [
+        "Variation 1: Cook beef or venison and add celery leaves, bay leaves, three cloves, and thirty-six ramps. Take meat out and serve separately. Lift out ramps and serve broth with rice.",
+        "Variation 2: Add fried ramps to beef stock. Season with black pepper and serve."
+      ],
+      "tags": [
+        "soup",
+        "ramps",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-mustard-ramp-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mustard-Ramp Soup",
+      "category": "soups",
+      "attribution": "Foxfire Book 2",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Creamy soup made with wild mustard greens and ramps.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "mustard leaves",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "cleaned and washed"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "bacon fat",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "ramps",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Clean and wash mustard leaves."
+        },
+        {
+          "step": 2,
+          "text": "Heat one quart milk almost to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Meanwhile melt bacon fat in skillet, add chopped ramps, cook until brown."
+        },
+        {
+          "step": 4,
+          "text": "Add salt, pepper, flour, and mustard. Cook five minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add milk and simmer."
+        }
+      ],
+      "tags": [
+        "soup",
+        "ramps",
+        "mustard greens",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cream-of-dandelion-soup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream of Dandelion Soup",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Creamy soup made with dandelion leaves, petals, and buds.",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "dandelion leaves",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dandelion flower petals",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "dandelion buds",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "butter or olive oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "wild leeks or onions",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "6",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "half-and-half or heavy cream",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Gently boil dandelion leaves in 6 cups water. Pour off bitter water."
+        },
+        {
+          "step": 2,
+          "text": "Boil gently a second time and drain."
+        },
+        {
+          "step": 3,
+          "text": "In heavy-bottom soup pot, saut\u00e9 leeks and garlic in butter until tender."
+        },
+        {
+          "step": 4,
+          "text": "Add 4 cups water, dandelion leaves, flower petals, buds, and salt."
+        },
+        {
+          "step": 5,
+          "text": "Simmer 45 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Add cream and simmer several minutes more. Garnish with flower petals."
+        }
+      ],
+      "tags": [
+        "soup",
+        "cream",
+        "dandelion",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "garlic-mustard-vichyssoise-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Garlic Mustard Vichyssoise",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Chilled potato soup with garlic mustard and goat cheese.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "three cornered garlic stems",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "water",
+          "quantity": "800",
+          "unit": "ml"
+        },
+        {
+          "item": "large potato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled, diced and rinsed"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "garlic mustard",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "goat cheese",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "milk for foam",
+          "quantity": "75",
+          "unit": "ml"
+        },
+        {
+          "item": "cumin",
+          "quantity": "1",
+          "unit": "pinch"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1",
+          "unit": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy bottomed pan add water and potatoes with salt and boil until potatoes soften. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter in a medium saucepan. Add onion and cook until softened. Pour over boiled potatoes and water."
+        },
+        {
+          "step": 3,
+          "text": "Blend in food processor until smooth. Add water as needed for consistency. Pass through a sieve."
+        },
+        {
+          "step": 4,
+          "text": "Chill in refrigerator. Check seasoning."
+        },
+        {
+          "step": 5,
+          "text": "Blanch garlic mustard for 10 seconds in salted boiling water and refresh in ice water."
+        },
+        {
+          "step": 6,
+          "text": "Add garlic mustard and blend until smooth."
+        },
+        {
+          "step": 7,
+          "text": "Add three cornered garlic and blend until smooth. Check seasoning."
+        },
+        {
+          "step": 8,
+          "text": "Serve with crumbled goat's cheese, frothed milk, pinch of cumin, and white pepper."
+        }
+      ],
+      "prep_time": "30 minutes",
+      "cook_time": "10 minutes",
+      "tags": [
+        "soup",
+        "vichyssoise",
+        "garlic mustard",
+        "chilled",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "hungarian-chestnut-soup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hungarian Cream of Chestnut Soup (Gesztenye Leves)",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Rich Hungarian soup with chestnuts, ham, and cream.",
+      "servings_yield": "6-8 servings",
+      "ingredients": [
+        {
+          "item": "cooked chestnuts",
+          "quantity": "12-14",
+          "unit": "oz",
+          "prep_note": "peeled, finely chopped"
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "parsnips",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled and thinly sliced"
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled and thinly sliced diagonally"
+        },
+        {
+          "item": "apples",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled, cored, quartered and thinly sliced"
+        },
+        {
+          "item": "leeks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "white part only, thinly sliced"
+        },
+        {
+          "item": "Hungarian paprika",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "sweet or hot"
+        },
+        {
+          "item": "ham",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "julienne-sliced, leftover"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1.5",
+          "unit": "cups"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Prepare chestnuts: Score fresh chestnuts with an X on the bottom. Boil in water 30 minutes, cool slightly, and peel. Chop finely once completely cooled."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter in a large saucepan. Add parsnips, carrots, apples, and leeks. Cook 10 minutes, stirring occasionally, until nearly tender."
+        },
+        {
+          "step": 3,
+          "text": "Mix in ham, chestnuts, and paprika. Cook one minute."
+        },
+        {
+          "step": 4,
+          "text": "Add stock and bring to boil. Reduce heat and simmer uncovered 20 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Whisk cream and egg yolks together. Temper by slowly adding hot soup broth while whisking."
+        },
+        {
+          "step": 6,
+          "text": "Pour mixture back into soup, whisking constantly for one minute until thickened."
+        },
+        {
+          "step": 7,
+          "text": "Season to taste. Serve with sour cream if desired."
+        }
+      ],
+      "tags": [
+        "soup",
+        "chestnut",
+        "Hungarian",
+        "cream",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "hawthorn-berry-soup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hawthorn Berry Soup",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Sweet spiced soup from hawthorn berries.",
+      "ingredients": [
+        {
+          "item": "stalkless hawthorn berries",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "adjust to taste"
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "chili flakes or powder",
+          "quantity": "",
+          "unit": "pinch",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add berries to pot with water."
+        },
+        {
+          "step": 2,
+          "text": "Simmer gently 30 minutes, covered."
+        },
+        {
+          "step": 3,
+          "text": "Cool and pass through sieve (discard seeds)."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to pan, add sugar, cinnamon, chili."
+        },
+        {
+          "step": 5,
+          "text": "Cook until sauce thickens."
+        },
+        {
+          "step": 6,
+          "text": "Serve."
+        }
+      ],
+      "notes": [
+        "Do not eat the seeds"
+      ],
+      "tags": [
+        "soup",
+        "hawthorn",
+        "haw",
+        "sweet",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "bulrush-broth-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bulrush Broth",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Hearty broth with bulrush shoots, roots, and oxtail.",
+      "ingredients": [
+        {
+          "item": "oxtail",
+          "quantity": "1.5",
+          "unit": "lbs",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "salt",
+          "quantity": "1.5",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "bulrush flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bacon fat",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "water",
+          "quantity": "6",
+          "unit": "cups"
+        },
+        {
+          "item": "bulrush shoots",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "wild onions",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "wild rice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "bulrush roots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Roll meat in flour-salt mixture."
+        },
+        {
+          "step": 2,
+          "text": "Saut\u00e9 in hot fat until browned."
+        },
+        {
+          "step": 3,
+          "text": "Add water, shoots, onions, cover, and simmer 1.5 hours until rice is tender."
+        }
+      ],
+      "tags": [
+        "bulrush",
+        "cattail",
+        "soup",
+        "broth",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "chaya-soup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chaya Soup",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Creamy soup made with chaya (tree spinach) leaves.",
+      "ingredients": [
+        {
+          "item": "tender chaya leaves",
+          "quantity": "20",
+          "unit": "",
+          "prep_note": "washed"
+        },
+        {
+          "item": "organic whole milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "fresh basil leaves",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "crushed garlic clove",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "vegetable bouillon",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "unsweetened cream",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place chopped chaya leaves, onions, and garlic in a pot with vegetable bouillon."
+        },
+        {
+          "step": 2,
+          "text": "Cook 10 minutes on medium heat until leaves are blanched."
+        },
+        {
+          "step": 3,
+          "text": "Add milk and allow to cool slightly."
+        },
+        {
+          "step": 4,
+          "text": "Blend remaining ingredients until smooth, return to pot."
+        },
+        {
+          "step": 5,
+          "text": "Heat 5-10 minutes until hot (do not boil)."
+        },
+        {
+          "step": 6,
+          "text": "Serve with cream drizzled on top and optional crushed dried red chili."
+        }
+      ],
+      "notes": [
+        "Cook chaya for at least 10-20 minutes to eliminate hydrogen cyanide",
+        "Avoid aluminum cookware - use glass or pottery"
+      ],
+      "tags": [
+        "chaya",
+        "soup",
+        "tree spinach",
+        "tropical",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "sea-lettuce-soup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sea Lettuce Soup",
+      "category": "soups",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Light Asian-style soup with sea lettuce (ulva) seaweed.",
+      "ingredients": [
+        {
+          "item": "chicken stock",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "ulva (sea lettuce) sheets",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "green scallions",
+          "quantity": "1-2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring stock to a boil."
+        },
+        {
+          "step": 2,
+          "text": "Add sea lettuce and stir until soft."
+        },
+        {
+          "step": 3,
+          "text": "Stir in beaten eggs and boil briefly, then remove from heat."
+        },
+        {
+          "step": 4,
+          "text": "Season with salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Add sesame oil, garnish with scallions, and serve."
+        }
+      ],
+      "notes": [
+        "Wash sea lettuce well and optionally soak 2 hours before using"
+      ],
+      "tags": [
+        "seaweed",
+        "ulva",
+        "sea lettuce",
+        "soup",
+        "asian",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "garlic-mustard-vichyssoisse-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Garlic Mustard Vichyssoisse",
+      "category": "soups",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Garlic Mustard article",
+      "description": "A cold soup featuring foraged garlic mustard (jack-by-the-hedge) and three-cornered garlic.",
+      "servings_yield": "4 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "three-cornered garlic stems",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "water",
+          "quantity": "800",
+          "unit": "ml"
+        },
+        {
+          "item": "potato",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "peeled, diced, rinsed"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "freshly ground, to taste"
+        },
+        {
+          "item": "garlic mustard (jack-by-the-hedge)",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "goat's cheese",
+          "quantity": "75",
+          "unit": "g"
+        },
+        {
+          "item": "milk",
+          "quantity": "75",
+          "unit": "ml",
+          "prep_note": "for foam"
+        },
+        {
+          "item": "cumin",
+          "quantity": "1",
+          "unit": "pinch"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1",
+          "unit": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy bottomed pan, add water and potatoes with a good pinch of salt. Boil until potatoes are soft. Remove from heat and set aside."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter in a medium saucepan. Add the onion and cook until softened. Pour over the boiled potatoes and water."
+        },
+        {
+          "step": 3,
+          "text": "Blitz in food processor until smooth. Add water if needed to reach desired consistency. Pass through a sieve."
+        },
+        {
+          "step": 4,
+          "text": "Chill in the refrigerator. Check seasoning."
+        },
+        {
+          "step": 5,
+          "text": "Blanch jack-by-the-hedge for 10 seconds in salted boiling water and refresh in ice water."
+        },
+        {
+          "step": 6,
+          "text": "Add jack-by-the-hedge and blitz again until smooth."
+        },
+        {
+          "step": 7,
+          "text": "Add the three-cornered garlic, blitz until smooth, and check seasoning again."
+        },
+        {
+          "step": 8,
+          "text": "Serve with crumbled goat's cheese, frothed milk, a pinch of cumin, crispy fried nettle dusted with white pepper, and a three-cornered garlic flower."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Serve cold",
+        "Garlic mustard is also known as jack-by-the-hedge or sauce-alone"
+      ],
+      "tags": [
+        "soup",
+        "cold soup",
+        "foraged",
+        "garlic mustard",
+        "wild greens",
+        "vichyssoisse"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "bulrush-stew-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bulrush Stew",
+      "category": "soups",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Bulrush Bonanza",
+      "description": "A simple stew with bulrush roots and wild game.",
+      "servings_yield": "varies",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "bulrush roots",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "peeled, cut into 1-inch pieces"
+        },
+        {
+          "item": "wild onions or mint",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "porcupine or small game",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel root skin and cut into inch-long pieces."
+        },
+        {
+          "step": 2,
+          "text": "Boil with water, onions or mint, and meat for one hour."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Traditional survival recipe"
+      ],
+      "tags": [
+        "bulrush",
+        "stew",
+        "foraged",
+        "wild game",
+        "survival"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "sea-blite-chicken-soup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sea Blite Chicken Soup",
+      "category": "soups",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Sea Blite article",
+      "description": "A hearty chicken soup featuring foraged sea blite and Parmesan.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "1 hour 15 minutes",
+      "ingredients": [
+        {
+          "item": "chicken breasts",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "quarts"
+        },
+        {
+          "item": "sea blite leaves",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "washed, chopped"
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "scallions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "celery stalks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "thyme",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "parsley flakes",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil chicken in water for 30 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Remove chicken and cut into bite-sized pieces."
+        },
+        {
+          "step": 3,
+          "text": "Add all remaining ingredients except cheese to broth."
+        },
+        {
+          "step": 4,
+          "text": "Simmer 45 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Return chicken to pot."
+        },
+        {
+          "step": 6,
+          "text": "Stir in Parmesan cheese before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large pot",
+      "notes": [
+        "Sea blite adds natural saltiness - taste before adding salt"
+      ],
+      "tags": [
+        "sea blite",
+        "chicken soup",
+        "soup",
+        "foraged",
+        "coastal"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "coquina-beach-chowder-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Coquina Beach Chowder",
+      "category": "soups",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Cast Netting article",
+      "description": "A foraged beach chowder using coquina clams and sea purslane.",
+      "servings_yield": "varies",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "coquina clams",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "sifted from sand with colander"
+        },
+        {
+          "item": "mole crabs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sea purslane",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "cream",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil coquina clams and mole crabs together for broth."
+        },
+        {
+          "step": 2,
+          "text": "Cook sea purslane separately in plain water to reduce its natural salt."
+        },
+        {
+          "step": 3,
+          "text": "Combine broth with purslane and some coquina meat."
+        },
+        {
+          "step": 4,
+          "text": "Warm together and serve."
+        },
+        {
+          "step": 5,
+          "text": "Add butter and cream if available for richer chowder."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Coquina broth also makes excellent base for creamed potato soup",
+        "Can stuff fish with sea purslane or sea rocket"
+      ],
+      "tags": [
+        "chowder",
+        "beach",
+        "foraged",
+        "coquina",
+        "coastal"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire-ramp-soup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Ramp Soup",
+      "category": "soups",
+      "attribution": "Foxfire Book of Wild Plant Foods",
+      "source_note": "Foxfire Americana Library - Wild Plant Foods",
+      "description": "A simple, flavorful soup made with wild ramps.",
+      "ingredients": [
+        {
+          "item": "ramps",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "cleaned and chopped"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "diced"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Saut\u00e9 ramps in butter until softened."
+        },
+        {
+          "step": 2,
+          "text": "Add potatoes and broth; simmer until potatoes are tender."
+        },
+        {
+          "step": 3,
+          "text": "Mash some potatoes against side of pot to thicken."
+        },
+        {
+          "step": 4,
+          "text": "Stir in cream and season to taste."
+        },
+        {
+          "step": 5,
+          "text": "Serve hot."
+        }
+      ],
+      "notes": [
+        "Ramps have a strong garlic-onion flavor",
+        "Available only in early spring"
+      ],
+      "tags": [
+        "soup",
+        "ramps",
+        "wild-foods",
+        "spring",
+        "foxfire",
+        "appalachian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire-turtle-stew",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Turtle Stew",
+      "category": "soups",
+      "attribution": "Foxfire Book of Wild Game",
+      "source_note": "Foxfire Americana Library - Meats and Small Game",
+      "description": "Rich, hearty stew from snapping turtle.",
+      "ingredients": [
+        {
+          "item": "turtle meat",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "diced"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "beef broth",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Parboil turtle meat 30 minutes; drain."
+        },
+        {
+          "step": 2,
+          "text": "Brown meat and onion in pot."
+        },
+        {
+          "step": 3,
+          "text": "Add broth, tomatoes, and bay leaf."
+        },
+        {
+          "step": 4,
+          "text": "Simmer 1 hour until meat is tender."
+        },
+        {
+          "step": 5,
+          "text": "Add potatoes; cook 30 minutes more. Season to taste."
+        }
+      ],
+      "notes": [
+        "Turtle meat has seven distinct textures and flavors"
+      ],
+      "tags": [
+        "turtle",
+        "stew",
+        "wild-game",
+        "soup",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire-hogs-head-stew",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hog's Head Stew",
+      "category": "soups",
+      "attribution": "Foxfire Book of Hog Dressing",
+      "source_note": "Foxfire Americana Library - Meats and Small Game",
+      "description": "Traditional use of hog's head meat in a rich stew.",
+      "ingredients": [
+        {
+          "item": "hog's head",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "cleaned and split"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sage",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover head with water; simmer until meat falls off bone, about 3 hours."
+        },
+        {
+          "step": 2,
+          "text": "Remove meat from broth; pick meat from bones."
+        },
+        {
+          "step": 3,
+          "text": "Return meat to broth; add vegetables and seasonings."
+        },
+        {
+          "step": 4,
+          "text": "Simmer until vegetables are tender."
+        },
+        {
+          "step": 5,
+          "text": "Serve hot with cornbread."
+        }
+      ],
+      "notes": [
+        "Nothing was wasted in traditional hog butchering"
+      ],
+      "tags": [
+        "pork",
+        "hog",
+        "stew",
+        "traditional",
+        "foxfire",
+        "appalachian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "creole-turtle-soup-hf",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creole Turtle Soup",
+      "category": "soups",
+      "attribution": "Hank Shaw / Hunter Angler Gardener Cook",
+      "source_note": "From honest-food.net - Creole Turtle Soup",
+      "description": "Classic New Orleans-style turtle soup with sherry and hard-boiled eggs.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "45 minutes",
+      "cook_time": "2.5 hours",
+      "ingredients": [
+        {
+          "item": "turtle meat",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": "diced small"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "onion",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "diced"
+        },
+        {
+          "item": "celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "green bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "6",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "crushed tomatoes",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "beef or turtle stock",
+          "quantity": "8",
+          "unit": "cups"
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "plus more for serving"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cayenne pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "hard-boiled eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "chopped, for garnish"
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced thin, for garnish"
+        },
+        {
+          "item": "parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped, for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make a dark roux: Melt butter in a large pot over medium heat. Add flour and cook, stirring constantly, until it turns the color of milk chocolate (20-30 minutes)."
+        },
+        {
+          "step": 2,
+          "text": "Add onion, celery, and bell pepper. Cook until softened, about 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add garlic and tomato paste. Cook 2 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add crushed tomatoes, stock, sherry, Worcestershire, bay leaves, thyme, and cayenne."
+        },
+        {
+          "step": 5,
+          "text": "Add turtle meat and bring to a simmer."
+        },
+        {
+          "step": 6,
+          "text": "Simmer gently for 2 hours until turtle is very tender."
+        },
+        {
+          "step": 7,
+          "text": "Remove bay leaves. Season with salt and pepper to taste."
+        },
+        {
+          "step": 8,
+          "text": "Serve in bowls, garnished with chopped hard-boiled eggs, thin lemon slices, and parsley. Pass extra sherry at the table."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large pot",
+      "notes": [
+        "A Commander's Palace classic",
+        "Pass sherry at the table for diners to add more",
+        "Snapping turtle is traditional"
+      ],
+      "tags": [
+        "turtle",
+        "soup",
+        "creole",
+        "new orleans",
+        "sherry",
+        "unusual protein"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "grouse-wild-rice-soup-hf",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Grouse Soup with Wild Rice",
+      "category": "soups",
+      "attribution": "Honest Food / Hank Shaw",
+      "source_note": "From honest-food.net - Forest flavors in a bowl",
+      "description": "The essence of the forest in a bowl - grouse meat with wild rice, porcini mushrooms, and chestnuts or acorns.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "1.5 hours",
+      "ingredients": [
+        {
+          "item": "grouse carcasses",
+          "quantity": "2-3",
+          "unit": "",
+          "prep_note": "with meat reserved"
+        },
+        {
+          "item": "game or chicken broth",
+          "quantity": "3",
+          "unit": "quarts"
+        },
+        {
+          "item": "wild rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "grouse meat",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dried porcini mushrooms",
+          "quantity": "1",
+          "unit": "oz"
+        },
+        {
+          "item": "chestnuts or acorns",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "cooked and chopped"
+        },
+        {
+          "item": "chard or spinach",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "celery",
+          "quantity": "2",
+          "unit": "stalks",
+          "prep_note": "diced"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place grouse carcasses, dried mushrooms, onion, carrots, and celery in a large pot with broth."
+        },
+        {
+          "step": 2,
+          "text": "Simmer for 1 hour to extract flavor."
+        },
+        {
+          "step": 3,
+          "text": "Strain broth through a fine strainer lined with paper towel. You need 2-3 quarts."
+        },
+        {
+          "step": 4,
+          "text": "Chop the rehydrated mushrooms and reserve."
+        },
+        {
+          "step": 5,
+          "text": "Bring strained broth to a simmer. Add salt and wild rice."
+        },
+        {
+          "step": 6,
+          "text": "Cook at a slow boil. True wild rice cooks in about 25 minutes; cultivated takes longer."
+        },
+        {
+          "step": 7,
+          "text": "When rice is nearly done, add grouse meat, chestnuts, mushrooms, and greens."
+        },
+        {
+          "step": 8,
+          "text": "Simmer 5 minutes more and serve."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large soup pot",
+      "notes": [
+        "For non-hunters: use turkey or chicken thighs, cultivated wild rice, and chestnuts",
+        "Real foraged wild rice cooks faster than cultivated",
+        "Save grouse carcasses in freezer until you have enough"
+      ],
+      "tags": [
+        "grouse",
+        "soup",
+        "wild rice",
+        "mushrooms",
+        "wild game"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "turkey-leg-stew-hf",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Southwestern Turkey Leg Stew",
+      "category": "soups",
+      "attribution": "Honest Food / Hank Shaw",
+      "source_note": "From honest-food.net - New Mexican stew with chicos",
+      "description": "A classic New Mexican stew with dried corn (chicos), chiles, and braised turkey legs. The perfect use for tough wild turkey drumsticks.",
+      "servings_yield": "6 servings",
+      "prep_time": "30 minutes plus soaking",
+      "cook_time": "3 hours",
+      "ingredients": [
+        {
+          "item": "turkey legs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "wild or domestic"
+        },
+        {
+          "item": "dried chicos or posole corn",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "soaked overnight"
+        },
+        {
+          "item": "dried New Mexico chiles",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "stemmed and seeded"
+        },
+        {
+          "item": "chicken or turkey stock",
+          "quantity": "6",
+          "unit": "cups"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "diced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "4",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "cumin",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "oregano",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "lime wedges",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "cilantro",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        },
+        {
+          "item": "radishes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "sliced, for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak chicos or posole in water overnight. Drain."
+        },
+        {
+          "step": 2,
+          "text": "Toast dried chiles in a dry pan until fragrant. Cover with hot water and soak 20 minutes. Blend smooth."
+        },
+        {
+          "step": 3,
+          "text": "In a large pot, brown turkey legs on all sides. Remove and set aside."
+        },
+        {
+          "step": 4,
+          "text": "Saut\u00e9 onion until soft, add garlic, cumin, and oregano."
+        },
+        {
+          "step": 5,
+          "text": "Add chile puree, stock, corn, and turkey legs."
+        },
+        {
+          "step": 6,
+          "text": "Simmer until turkey is fall-off-the-bone tender and corn is soft, 2-3 hours."
+        },
+        {
+          "step": 7,
+          "text": "Remove turkey, shred meat, discard bones and tendons."
+        },
+        {
+          "step": 8,
+          "text": "Return meat to pot. Season with salt."
+        },
+        {
+          "step": 9,
+          "text": "Serve with lime, cilantro, and radishes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large soup pot",
+      "notes": [
+        "Chicos are dried roasted corn used in New Mexican cooking",
+        "Can substitute hominy if chicos unavailable",
+        "The long cooking time tenderizes even old wild turkey"
+      ],
+      "tags": [
+        "wild turkey",
+        "stew",
+        "southwestern",
+        "new mexico",
+        "wild game"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "turkey-gumbo-hf",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Turkey Gumbo",
+      "category": "soups",
+      "attribution": "Honest Food / Hank Shaw",
+      "source_note": "From honest-food.net - Classic Louisiana gumbo with turkey",
+      "description": "One of the great uses for turkey drumsticks - a rich gumbo with andouille sausage and seafood. Uses turkey legs, thighs, and wings.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "45 minutes",
+      "cook_time": "3 hours",
+      "ingredients": [
+        {
+          "item": "turkey legs and thighs",
+          "quantity": "3",
+          "unit": "lb"
+        },
+        {
+          "item": "andouille sausage",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "shrimp",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "peeled (or crawfish)"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "onion",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "diced"
+        },
+        {
+          "item": "celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "green bell pepper",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "6",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "turkey or chicken stock",
+          "quantity": "8",
+          "unit": "cups"
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "thyme",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "fresh"
+        },
+        {
+          "item": "cayenne pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "okra",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "sliced, optional"
+        },
+        {
+          "item": "fil\u00e9 powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "green onions",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "cooked rice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Simmer turkey in stock until tender, 2-3 hours. Remove turkey, reserve stock. Shred meat when cool."
+        },
+        {
+          "step": 2,
+          "text": "Make roux: Heat oil in a large pot over medium heat. Whisk in flour."
+        },
+        {
+          "step": 3,
+          "text": "Cook roux, stirring constantly, until dark chocolate brown, 30-45 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add onion, celery, and bell pepper (the 'trinity'). Cook 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add garlic and cook 1 minute."
+        },
+        {
+          "step": 6,
+          "text": "Add reserved stock, bay leaves, thyme, and cayenne. Simmer 30 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Add andouille sausage and cook 15 minutes."
+        },
+        {
+          "step": 8,
+          "text": "Add okra if using and cook 10 minutes."
+        },
+        {
+          "step": 9,
+          "text": "Add shredded turkey and shrimp. Cook until shrimp are pink, about 5 minutes."
+        },
+        {
+          "step": 10,
+          "text": "Remove from heat, stir in fil\u00e9 powder if using. Top with green onions."
+        },
+        {
+          "step": 11,
+          "text": "Serve over rice."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large Dutch oven",
+      "notes": [
+        "Never boil gumbo after adding fil\u00e9 or it becomes stringy",
+        "Turkey breast doesn't work well - use dark meat",
+        "Can use any smoked sausage if andouille unavailable"
+      ],
+      "tags": [
+        "wild turkey",
+        "gumbo",
+        "cajun",
+        "louisiana",
+        "wild game"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

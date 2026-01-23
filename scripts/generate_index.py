@@ -10,6 +10,8 @@ import json
 import os
 
 # Fields to include in the lightweight index
+# NOTE: 'ingredients' removed - handled by data/ingredient-index.json (saves ~4MB)
+# NOTE: 'nutrition' removed - loaded on-demand from shards (saves ~2MB)
 INDEX_FIELDS = [
     'id',
     'collection',
@@ -21,10 +23,8 @@ INDEX_FIELDS = [
     'prep_time',
     'cook_time',
     'total_time',
-    'ingredients',  # Needed for ingredient search
     'tags',
     'image_refs',
-    'nutrition',  # Needed for nutrition filtering
 ]
 
 def generate_index():

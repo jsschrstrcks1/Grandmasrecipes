@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "grains",
+    "total_recipes": 1,
+    "generated": "2026-01-23T14:31:32.203425Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "wokas-pond-lily-seeds-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wokas (Yellow Pond Lily Seeds)",
+      "category": "grains",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Yellow Pond Lily article",
+      "description": "Traditional Native American preparation of pond lily seeds.",
+      "servings_yield": "varies",
+      "prep_time": "3 weeks",
+      "cook_time": "varies",
+      "ingredients": [
+        {
+          "item": "yellow pond lily seed pods",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "ripe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Collect ripe seed pods."
+        },
+        {
+          "step": 2,
+          "text": "Place in water for EXACTLY three weeks - this removes bitterness through enzyme action."
+        },
+        {
+          "step": 3,
+          "text": "Remove seeds from rotted pods."
+        },
+        {
+          "step": 4,
+          "text": "Air dry seeds completely."
+        },
+        {
+          "step": 5,
+          "text": "Pop like popcorn (they crack rather than puff), or grind into flour."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Seeds can be stored as staple or used to thicken soups",
+        "Roots are NOT recommended - extremely bitter even after extensive processing",
+        "Young leaves can go in soups but may be bitter"
+      ],
+      "tags": [
+        "pond lily",
+        "wokas",
+        "native american",
+        "foraged",
+        "survival"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

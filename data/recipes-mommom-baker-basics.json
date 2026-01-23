@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "basics",
+    "total_recipes": 7,
+    "generated": "2026-01-23T14:31:32.075056Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "cream-cheese-frosting",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream Cheese Frosting",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 88",
+      "description": "The tangy flavor of the cream cheese provides a nice accent to both cakes and cookies.",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "3-ounce packages",
+          "prep_note": ""
+        },
+        {
+          "item": "softened margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "4-1/2 to 4-3/4",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat together cream cheese, margarine or butter, and vanilla till light and fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add 2 cups powdered sugar, beating well."
+        },
+        {
+          "step": 3,
+          "text": "Gradually beat in enough remaining powdered sugar to make frosting of spreading consistency."
+        },
+        {
+          "step": 4,
+          "text": "Frosts tops and sides of two 8- or 9-inch cake layers. Cover cake; store in refrigerator."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Store frosted cake in refrigerator"
+      ],
+      "tags": [
+        "frosting",
+        "cream-cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5253 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "butter-frosting",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Butter Frosting",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 89",
+      "description": "An easy-to-spread frosting in six flavors.",
+      "servings_yield": "Frosts tops and sides of two 8- or 9-inch cake layers",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "4-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1-1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "additional if needed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl beat butter or margarine till fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add 2 cups of the powdered sugar, beating well."
+        },
+        {
+          "step": 3,
+          "text": "Slowly beat in the 1/4 cup milk and vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Slowly beat in remaining sugar. Beat in additional milk, if needed, to make of spreading consistency."
+        },
+        {
+          "step": 5,
+          "text": "Tint with food coloring, if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Chocolate Butter Frosting: Beat 1/2 cup unsweetened cocoa powder into butter.",
+        "Mocha Butter Frosting: Beat 1/2 cup cocoa powder into butter. Add 1 tablespoon instant coffee crystals to milk. Let stand 3 minutes; stir well.",
+        "Lemon or Orange Butter Frosting: Substitute fresh lemon juice or orange juice for the milk and add 1/2 teaspoon finely shredded lemon peel or 1 teaspoon finely shredded orange peel with the juice.",
+        "Peanut-Butter Frosting: Substitute creamy peanut butter for the butter or margarine."
+      ],
+      "tags": [
+        "frosting",
+        "butter-frosting"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5254 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "coconut-pecan-frosting",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Coconut-Pecan Frosting",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 90",
+      "description": "The traditional frosting for German Chocolate Cake.",
+      "servings_yield": "Frosts top of one 13x9-inch cake or tops of two 8- or 9-inch cake layers",
+      "prep_time": "",
+      "cook_time": "12 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "1",
+          "unit": "5-ounce can (2/3 cup)",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "flaked coconut",
+          "quantity": "1-1/3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan beat egg slightly. Stir in milk, sugar, and margarine."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over medium heat about 12 minutes or till thickened and bubbly."
+        },
+        {
+          "step": 3,
+          "text": "Stir in coconut and pecans. Cool thoroughly."
+        },
+        {
+          "step": 4,
+          "text": "Spread on cake. Frosts top of one 13x9-inch cake or tops of two 8- or 9-inch cake layers."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Traditional frosting for German Chocolate Cake"
+      ],
+      "tags": [
+        "frosting",
+        "coconut",
+        "pecan"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "lemon-filling",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lemon Filling",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 90",
+      "description": "Transforms a simple cake into a luscious dessert.",
+      "servings_yield": "Enough to spread between two 8- or 9-inch cake layers (about 1 cup)",
+      "prep_time": "",
+      "cook_time": "10 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "finely shredded lemon peel",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small saucepan combine sugar and cornstarch."
+        },
+        {
+          "step": 2,
+          "text": "Stir in water. Stir in egg yolks, lemon peel, and juice."
+        },
+        {
+          "step": 3,
+          "text": "Cook and stir over medium heat till bubbly. Cook for 2 minutes more."
+        },
+        {
+          "step": 4,
+          "text": "Stir in margarine or butter till melted."
+        },
+        {
+          "step": 5,
+          "text": "Cover surface with clear plastic wrap; cool."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Microwave directions available"
+      ],
+      "tags": [
+        "filling",
+        "lemon"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5255 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cherry-filling",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cherry Filling",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 43",
+      "description": "A tart cherry filling for coffee cakes.",
+      "servings_yield": "",
+      "prep_time": "5 minutes",
+      "cook_time": "7 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fresh or frozen unsweetened pitted tart red cherries",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring 1-1/2 cups fresh or frozen unsweetened pitted tart red cherries to boiling; reduce heat."
+        },
+        {
+          "step": 2,
+          "text": "Cover and simmer for 5 minutes. Stir in 1 tablespoon lemon juice."
+        },
+        {
+          "step": 3,
+          "text": "Combine 1/2 cup sugar and 2 tablespoons cornstarch; add to cherry mixture."
+        },
+        {
+          "step": 4,
+          "text": "Cook and stir till bubbly. Cook and stir 2 minutes more. Cool completely."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "filling",
+        "cherry"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5208 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "streusel-topping-chocolate-bread",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Streusel Topping (for Chocolate Swirl Bread)",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 45",
+      "description": "A crumb topping with chocolate and nuts for Chocolate Swirl Bread.",
+      "servings_yield": "",
+      "prep_time": "5 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chocolate pieces",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "remaining from bread"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together 1/4 cup all-purpose flour, 1/4 cup sugar, and 1 teaspoon ground cinnamon."
+        },
+        {
+          "step": 2,
+          "text": "Cut in 1/4 cup margarine or butter."
+        },
+        {
+          "step": 3,
+          "text": "Stir in 1/4 cup chopped nuts and the remaining chocolate pieces."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "topping",
+        "streusel",
+        "chocolate"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5211 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "apple-raisin-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Apple-Raisin Sauce",
+      "category": "basics",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook, page 72",
+      "description": "A warm apple sauce to serve with Puffed Oven Pancake.",
+      "servings_yield": "2 cups",
+      "prep_time": "",
+      "cook_time": "10 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "large cooking apples",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "peeled, cored, and thinly sliced"
+        },
+        {
+          "item": "apple juice or water",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a skillet combine 2 large cooking apples, peeled, cored, and thinly sliced; 3/4 cup apple juice or water; 1/3 cup raisins; 2 tablespoons sugar; and 1/4 teaspoon ground cinnamon."
+        },
+        {
+          "step": 2,
+          "text": "Simmer, covered, till apples are just tender."
+        },
+        {
+          "step": 3,
+          "text": "Stir together 2 tablespoons cornstarch and 2 tablespoons cold water. Add to apple mixture."
+        },
+        {
+          "step": 4,
+          "text": "Cook and stir till thickened and bubbly. Cook and stir 2 minutes more."
+        },
+        {
+          "step": 5,
+          "text": "Stir in 1 teaspoon margarine or butter. Keep warm."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "skillet",
+      "notes": [],
+      "tags": [
+        "sauce",
+        "apple",
+        "breakfast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5238 Large.jpeg"
+      ],
+      "conversions": {
+        "has_conversions": false
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "Not a recipe - reference/tip content"
+        ],
+        "assumptions": []
+      }
+    }
+  ]
+}

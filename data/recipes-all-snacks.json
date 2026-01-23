@@ -2,8 +2,8 @@
   "meta": {
     "collection": "all",
     "category": "snacks",
-    "total_recipes": 3,
-    "generated": "2026-01-22T19:32:06.280140Z",
+    "total_recipes": 7,
+    "generated": "2026-01-23T14:31:31.897455Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -133,23 +133,17 @@
         "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4480.PNG"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 61,
-          "fat_g": 5.9,
-          "carbs_g": 1.4,
-          "protein_g": 1.4,
-          "sodium_mg": 178,
-          "fiber_g": 0.7,
-          "sugar_g": 0.3
+          "calories": 117,
+          "fat_g": 6.4,
+          "carbs_g": 13.3,
+          "protein_g": 2.5,
+          "sodium_mg": 296,
+          "fiber_g": 1.2,
+          "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "3 cups Corn Chex cereal",
-          "3 cups Rice Chex cereal",
-          "3 cups Wheat Chex cereal",
-          "1 cup bite-size pretzels",
-          "1 cup garlic-flavor bite-size bagel chips"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 24 servings"
         ]
@@ -364,6 +358,423 @@
           "Calculated for 1 servings"
         ]
       }
+    },
+    {
+      "id": "cheese-curds",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Cheese Curds",
+      "category": "snacks",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "Fresh curds of cheddar cheese with a mild flavor and springy, squeaky texture. A Wisconsin specialty perfect for snacking or making poutine.",
+      "servings_yield": "About 1.5 lbs from 2 gallons milk",
+      "prep_time": "30 min",
+      "cook_time": "3 hours",
+      "total_time": "3.5 hours",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter culture",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "calcium chloride",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "if using pasteurized milk"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup cool water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F (32\u00b0C). Add calcium chloride if using pasteurized milk."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, hydrate 2 minutes, stir in. Ripen 45 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add diluted rennet, stir gently. Let set 45 minutes until clean break."
+        },
+        {
+          "step": 4,
+          "text": "Cut curds into 1/2 inch cubes. Rest 5 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Slowly heat to 100\u00b0F (38\u00b0C) over 30 minutes while stirring. Hold at temperature 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Drain whey. Perform brief cheddaring: stack curds, flip every 15 minutes for 1 hour."
+        },
+        {
+          "step": 7,
+          "text": "Break into bite-sized pieces. Toss with salt."
+        },
+        {
+          "step": 8,
+          "text": "Eat immediately for maximum squeak! Best within 12 hours of making."
+        }
+      ],
+      "temperature": "90\u00b0F (32\u00b0C) to 100\u00b0F (38\u00b0C)",
+      "tags": [
+        "cheese",
+        "homemade",
+        "snack",
+        "Wisconsin",
+        "poutine"
+      ],
+      "notes": [
+        "The signature 'squeak' comes from the protein structure rubbing against tooth enamel.",
+        "Curds lose their squeak after about 12-24 hours as proteins relax."
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "traditional-cheese-curds",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Traditional Cheese Curds (Extended Squeak)",
+      "category": "snacks",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A method for making cheese curds that retain their squeak for longer. More complex flavor and texture than quick curds.",
+      "servings_yield": "About 1.5 lbs from 2 gallons milk",
+      "prep_time": "30 min",
+      "cook_time": "4 hours",
+      "total_time": "4.5 hours",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "2",
+          "unit": "gallons"
+        },
+        {
+          "item": "mesophilic starter culture",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "calcium chloride",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "if using pasteurized milk"
+        },
+        {
+          "item": "liquid rennet",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "diluted in 1/4 cup cool water"
+        },
+        {
+          "item": "cheese salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat milk to 90\u00b0F (32\u00b0C). Add calcium chloride if using pasteurized milk."
+        },
+        {
+          "step": 2,
+          "text": "Add starter, hydrate 2 minutes, stir in. Ripen 60 minutes (longer than quick method)."
+        },
+        {
+          "step": 3,
+          "text": "Add diluted rennet, stir gently. Let set 45-60 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Cut curds into 1/2 inch cubes. Rest 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Heat to 102\u00b0F (39\u00b0C) over 40 minutes while stirring gently."
+        },
+        {
+          "step": 6,
+          "text": "Drain whey. Let curds mat and cheddar for 2 hours, flipping every 30 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Mill into bite-sized pieces. Toss with salt."
+        },
+        {
+          "step": 8,
+          "text": "The extended cheddaring helps curds retain squeak longer - up to several days if refrigerated."
+        }
+      ],
+      "temperature": "90\u00b0F (32\u00b0C) to 102\u00b0F (39\u00b0C)",
+      "tags": [
+        "cheese",
+        "homemade",
+        "snack",
+        "Wisconsin",
+        "squeaky",
+        "curds"
+      ],
+      "notes": [
+        "The longer ripening and cheddaring creates more complex flavor.",
+        "The secret to extended squeak is proper acid development and handling."
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "puppy-chow-muddy-buddies",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Puppy Chow (Muddy Buddies)",
+      "category": "snacks",
+      "attribution": "Chex / General Mills",
+      "source_note": "A classic no-bake snack that's been on the back of Chex cereal boxes for decades. Officially called 'Muddy Buddies' by General Mills, but known as 'Puppy Chow' or 'Monkey Munch' in different regions. Perfect for parties and gifts.",
+      "description": "Crispy Chex cereal coated in melted chocolate, peanut butter, and butter, then tossed in powdered sugar until every piece is covered in white. Addictively good and impossible to stop eating.",
+      "servings_yield": "About 9 cups",
+      "prep_time": "10 min",
+      "cook_time": "0 min",
+      "total_time": "10 min (plus cooling)",
+      "ingredients": [
+        {
+          "item": "Rice Chex cereal",
+          "quantity": "9",
+          "unit": "cups"
+        },
+        {
+          "item": "semisweet chocolate chips",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "creamy peanut butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Measure cereal into a large bowl. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a microwave-safe bowl, combine chocolate chips, peanut butter, and butter."
+        },
+        {
+          "step": 3,
+          "text": "Microwave on high for 1 minute. Stir. Microwave 30 seconds more if needed until smooth."
+        },
+        {
+          "step": 4,
+          "text": "Stir in vanilla extract."
+        },
+        {
+          "step": 5,
+          "text": "Pour chocolate mixture over cereal. Gently fold until all cereal is evenly coated."
+        },
+        {
+          "step": 6,
+          "text": "Put powdered sugar in a large zip-lock bag or paper grocery bag."
+        },
+        {
+          "step": 7,
+          "text": "Add the coated cereal to the bag. Seal and shake vigorously until all pieces are covered in powdered sugar."
+        },
+        {
+          "step": 8,
+          "text": "Spread on wax paper or parchment to cool and dry."
+        },
+        {
+          "step": 9,
+          "text": "Store in an airtight container at room temperature."
+        }
+      ],
+      "temperature": "No bake",
+      "notes": [
+        "Officially called 'Muddy Buddies' by General Mills",
+        "Also known as 'Puppy Chow' or 'Monkey Munch' in different regions",
+        "Use regular peanut butter (Jif, Skippy) - not natural style",
+        "Semisweet chips work better than milk chocolate (less sweet)",
+        "The bag-shaking method is traditional and mess-free",
+        "Stores at room temperature for up to a week"
+      ],
+      "tags": [
+        "snack",
+        "no-bake",
+        "Chex",
+        "chocolate",
+        "peanut butter",
+        "puppy chow",
+        "muddy buddies",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-herb-flatbread-crackers",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Herb Flatbread Crackers",
+      "category": "snacks",
+      "attribution": "CheeseForum.org community",
+      "source_note": "cheeseforum.org",
+      "description": "Crispy homemade crackers with herbs - the perfect accompaniment for cheese plates.",
+      "servings_yield": "4 six-inch rounds",
+      "prep_time": "25 min",
+      "cook_time": "15 min",
+      "total_time": "45 min",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "dried herbs (thyme, rosemary, chive, or parsley)",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground black pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sea salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cold water",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all dry ingredients and olive oil in a bowl."
+        },
+        {
+          "step": 2,
+          "text": "Add half the cold water and combine into crumbly dough."
+        },
+        {
+          "step": 3,
+          "text": "Gradually add remaining water until dough forms a cohesive ball."
+        },
+        {
+          "step": 4,
+          "text": "Knead until smooth and slightly flexible. Add flour if too wet."
+        },
+        {
+          "step": 5,
+          "text": "Preheat oven to 400\u00b0F (200\u00b0C) fan or 425\u00b0F (220\u00b0C) conventional."
+        },
+        {
+          "step": 6,
+          "text": "Divide dough into 4 pieces. Rest 10 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Roll each piece into a thin 6-inch circle on floured surface."
+        },
+        {
+          "step": 8,
+          "text": "Place on baking trays and prick all over with a fork."
+        },
+        {
+          "step": 9,
+          "text": "Bake 5 minutes, flip, bake another 5 minutes, flip again, bake 5 more minutes."
+        },
+        {
+          "step": 10,
+          "text": "Watch closely - aim for mid-brown edges with no burning."
+        },
+        {
+          "step": 11,
+          "text": "Turn off oven, crack door, let crackers cool and dry completely inside."
+        },
+        {
+          "step": 12,
+          "text": "Store in airtight container. Break into pieces before serving."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C) fan or 425\u00b0F (220\u00b0C) conventional",
+      "notes": [
+        "Perfect for cheese plates and dips",
+        "Can use any dried herb combination",
+        "Thinner = crispier",
+        "Store in airtight container to maintain crispness"
+      ],
+      "tags": [
+        "crackers",
+        "cheese-accompaniment",
+        "bread",
+        "herbs",
+        "snack"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

@@ -1,0 +1,1226 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "canning",
+    "total_recipes": 16,
+    "generated": "2026-01-23T14:31:32.135298Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "catsup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Catsup",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "The fresh tomato flavor comes through in this classic condiment.",
+      "ingredients": [
+        {
+          "item": "tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": "24 medium"
+        },
+        {
+          "item": "onions, chopped",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "celery, chopped",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "stick cinnamon",
+          "quantity": "1 1/2",
+          "unit": "inches"
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped red pepper",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash, core, and quarter tomatoes. Drain in a colander; discard liquid. Place tomatoes in an 8- or 10-quart kettle or Dutch oven. Add onions in an 8- or 10-quart kettle or Dutch oven. Bring to boiling; cook 15 minutes, stirring often."
+        },
+        {
+          "step": 2,
+          "text": "(Measure about 7 cups.) Return puree to kettle; add sugar. Bring to boiling. Clip candy thermometer to pan. Cook and stir to 220\u00b0 (about 30 minutes or to desired consistency). Strain vinegar mixture into tomatoes; discard spices. Add salt. Simmer about 30 minutes more or till of desired consistency, stirring often."
+        },
+        {
+          "step": 3,
+          "text": "May refrigerate up to 1 month. Makes 4 half-pints."
+        },
+        {
+          "step": 4,
+          "text": "Boiling-Water Canning Directions: Ladle hot catsup into hot, sterilized half-pint jars, leaving a 1/4-inch headspace. Adjust lids. Process in a boiling-water canner for 15 minutes (start timing when water returns to boiling)."
+        }
+      ],
+      "servings_yield": "4 half-pints",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5361 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 197,
+          "fat_g": 1.7,
+          "protein_g": 4.1,
+          "carbs_g": 46.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 10/10 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "dill-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dill Pickles",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "pickling cucumbers",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": "about 36"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh dill heads or dried dillseed",
+          "quantity": "1 1/2",
+          "unit": "tbsp",
+          "prep_note": "or 2 to 3 tbsp dillseed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thoroughly rinse cucumbers. Remove stems and cut off a thin slice from blossom end. Cut into spears or slice. Pack into hot, sterilized pint jars. In a saucepan combine water, vinegar, and salt. Bring to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Pour hot liquid over cucumbers, leaving 1/2-inch headspace. Adjust lids. Process in a boiling-water canner for 15 minutes. Makes about 8 pints."
+        }
+      ],
+      "servings_yield": "About 8 pints",
+      "notes": [
+        "Kosher-Style Dill Pickles: Prepare as above except substitute 2 cloves garlic, halved, for 1/2 teaspoon mustard seed or 2 to 3 tablespoons."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 10,
+          "fat_g": 0.1,
+          "protein_g": 0.3,
+          "carbs_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "bread-n-butter-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bread 'n' Butter Pickles",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "medium cucumbers",
+          "quantity": "4",
+          "unit": "quarts",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "medium white onions, sliced",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "green peppers, cut into strips",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "garlic cloves, halved",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "cracked ice",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "celery seed",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "turmeric",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large bowl combine cucumbers, onions, salt, and large kettle. Stir in a thin well. Remove garlic. In a large kettle combine vinegar, sugar, and dried mixture and celery seed. Add drained mix. Bring to boiling, stirring occasionally. Pack into hot sterilized pint jars, leaving 1/2-inch headspace. Adjust lids. Process 10 minutes. Makes 8 pints (80 servings)."
+        }
+      ],
+      "servings_yield": "8 pints (80 servings)",
+      "notes": [
+        "Horseradish Pickles: Prepare as above, except add 1/2 cup prepared horseradish to the sugar mixture."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 568,
+          "fat_g": 0.3,
+          "protein_g": 2.8,
+          "carbs_g": 144.7
+        },
+        "missing_inputs": [
+          "Not in database: cracked ice"
+        ],
+        "assumptions": [
+          "Based on 10/11 ingredients (91% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "mustard-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mustard Pickles",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "medium head cauliflower, broken into flowerets",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "pound or head cauliflower, broken",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "pickling cucumbers",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "cups water",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "celery seed, prepared mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "tablespoons prepared horseradish",
+          "quantity": "1 1/2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut cucumbers into 3/4-inch chunks or 1/2-inch slices. Pack cucumbers or other vegetables into hot, sterilized pint jars, leaving 1/2-inch headspace. Mix pickling salt and water and bring to a boil. Ladle hot brine over cucumbers, remaining in a boiling-water canner for 15 minutes. Makes 5 pints (50 servings)."
+        }
+      ],
+      "servings_yield": "5 pints (50 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Some text unclear from image"
+        ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 0.2,
+          "protein_g": 1.4,
+          "carbs_g": 3.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1 unit for pickling cucumbers",
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "corn-relish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Corn Relish",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "fresh ears of corn",
+          "quantity": "12 to 16",
+          "unit": "",
+          "prep_note": "do not scrape cobs"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped sweet red pepper",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "2 medium"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2 3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut corn from cobs (do not scrape cobs). Measure 4 cups. In an 8- or 10-quart Dutch oven combine corn and 1 cup water. Bring to boiling; reduce heat. Simmer, covered, about 12 minutes or till nearly tender."
+        },
+        {
+          "step": 2,
+          "text": "Add celery, red and green peppers, and onion. Stir in 2 cups vinegar, sugar, pickling salt, and celery seed. Return to boiling. Stir together remaining vinegar, flour, dry mustard, and turmeric. Add to corn mixture. Cook and stir 5 minutes, stirring occasionally. Stir together remaining corn and all flour mixture to boiling; stir occasionally. Ladle into hot, sterilized pint jars, leaving a 1/2-inch headspace. Adjust lids. Process in a boiling-water canner for 15 minutes. Makes 7 pints (224 one-tablespoon servings)."
+        }
+      ],
+      "servings_yield": "7 pints (224 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 551,
+          "fat_g": 3.6,
+          "protein_g": 9.2,
+          "carbs_g": 132.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 9/9 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "vegetable-relish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Vegetable Relish",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "medium firm ripe tomatoes, peeled, cored",
+          "quantity": "7",
+          "unit": ""
+        },
+        {
+          "item": "medium zucchini",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "about 3 pounds"
+        },
+        {
+          "item": "large sweet red peppers, seeded, stems and seeds removed, cut up",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "large green peppers, quartered",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "2",
+          "unit": "cloves"
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "dried thyme, crushed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Using coarse blade of a food grinder, grind tomatoes. Drain in a colander to drain in a large bowl. Place ground vegetables mixture in a clean, large bowl. Sprinkle with salt. Let stand overnight. Drain well."
+        },
+        {
+          "step": 2,
+          "text": "Rinse well. Let stand overnight. Drain well. In an 8- or 10-quart kettle or Dutch oven combine sugar, water, thyme, and pepper. Bring to boiling, stirring to dissolve sugar. Stir in ground vegetable mixture. Return mixture to boiling. Remove from heat. Makes about 8 pints."
+        }
+      ],
+      "servings_yield": "About 8 pints",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5363 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 309,
+          "fat_g": 0.7,
+          "protein_g": 3.3,
+          "carbs_g": 76.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 11/11 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "fruit-juice-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fruit-Juice Jelly",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "unsweetened apple, grape, or cranberry juice cocktail, or low-calorie cranberry juice",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "powdered fruit pectin",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "1 3/4 ounces"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pour fruit juice into a 6- to 8-quart kettle. Bring to full rolling boil; stir in pectin. Add sugar. Return to full rolling boil, stirring constantly. Boil hard for 1 minute, stirring constantly. Remove from heat. Quickly skim off foam with a metal spoon. Ladle into hot, sterilized half-pint jars, leaving 1/4-inch headspace. Adjust lids. Process 5 minutes. Makes 6 half-pints."
+        }
+      ],
+      "servings_yield": "6 half-pints",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 660,
+          "fat_g": 0.0,
+          "protein_g": 0.0,
+          "carbs_g": 171.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "peach-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peach Jam",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "peaches",
+          "quantity": "2 1/2 to 3",
+          "unit": "lb",
+          "prep_note": "10 to 12"
+        },
+        {
+          "item": "powdered fruit pectin",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "1 3/4 ounces"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "5 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel, pit, and coarsely grind or mash peaches. Measure 4 cups. In an 8- or 10-quart kettle combine peaches, pectin, and lemon juice. Stir in sugar. Bring to a full rolling boil, stirring constantly. Boil hard for 1 minute, stirring constantly. Remove from heat. Quickly skim off foam with a metal spoon. Ladle into hot, sterilized half-pint jars, leaving 1/4-inch headspace. Adjust lids. Process 5 minutes. Makes 7 half-pints."
+        }
+      ],
+      "servings_yield": "7 half-pints",
+      "notes": [
+        "Peach-Plum Jam: Prepare as above, except reduce peaches to 1 1/2 pounds (2 cups ground). Add 1 pound fully ripe Italian prune plums, pitted and finely chopped (2 cups), with pectin.",
+        "Peach-Berry Jam: Prepare as above, except add 2 cups strawberries, blackberries, or raspberries, crushed (1 cup), with pectin."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 627,
+          "fat_g": 0.0,
+          "protein_g": 0.3,
+          "carbs_g": 161.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "orange-marmalade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Orange Marmalade",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "medium oranges",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid fruit pectin",
+          "quantity": "1",
+          "unit": "pouch",
+          "prep_note": "of a 6-ounce package (1 foil pouch)"
+        },
+        {
+          "item": "medium lemon",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Score orange and lemon peel into 4 lengthwise sections. Remove peels; discard from fruits. Scrape off white portions of white pith from peel. Combine peel strips. Bring to boiling; Reduce heat. Cover and cook 20 minutes. Do not drain."
+        },
+        {
+          "step": 2,
+          "text": "Remove membranes from fruits. Section fruits and chop; combine 3 cups juice and simmer for 10 minutes. Return to boiling. Measure 3 cups mixture and sugar. Bring to a full rolling boil. Quickly stir in pectin. Return to a full boil; stir, uncovered, 1 minute. Remove from heat. Skim off foam. Ladle at once into hot, sterilized half-pint jars, leaving 1/4-inch headspace. Adjust lids. Process in boiling-water canner for 15 minutes. (May take 2 weeks to set.) Makes about 6 half-pints (96 one-tablespoon servings)."
+        }
+      ],
+      "servings_yield": "About 6 half-pints (96 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 691,
+          "fat_g": 0.2,
+          "protein_g": 0.8,
+          "carbs_g": 177.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "grape-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Grape Jam",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "One gallon of grapes should make about 10 cups.",
+      "ingredients": [
+        {
+          "item": "Concord grapes",
+          "quantity": "3 1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and stem grapes. Measure 10 cups. Remove skins from half of the grapes by squeezing the skinned grapes. Combine the skinned grapes and remaining grapes. Cook uncovered for 10 minutes and stir about 10 minutes or until very soft. Sieve about 2 cups water and cooked grapes. Return to kettle."
+        },
+        {
+          "step": 2,
+          "text": "Stir in sugar. Bring to a full rolling boil, stirring constantly. Boil and stir for 12 minutes or till jam sheets off a metal spoon. Remove from heat. Quickly skim off foam. Ladle jam at once into hot, sterilized half-pint jars, leaving a 1/4-inch headspace. Adjust lids. Process in a boiling-water canner for 5 minutes. Makes 6 half-pints (96 one-tablespoon servings)."
+        }
+      ],
+      "servings_yield": "6 half-pints (96 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5364 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 641,
+          "fat_g": 0.1,
+          "protein_g": 0.6,
+          "carbs_g": 165.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 2/2 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "rhubarb-raspberry-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rhubarb-Raspberry Jam",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "tags": [
+        "easy"
+      ],
+      "ingredients": [
+        {
+          "item": "fresh or frozen loose-pack rhubarb",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "fresh or frozen loose-pack raspberries",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "package raspberry-flavored gelatin",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "3-ounce package"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large Dutch oven combine rhubarb and raspberries. Bring to boiling. Let stand for 20 minutes or till sugar is dissolved, stirring frequently. Boil hard for 10 minutes. Let stand 20 minutes. Bring to boiling; boil, uncovered, for 5 to 6 minutes or till thick, stirring frequently. Remove from heat. Add gelatin; stir till dissolved. Ladle into hot half-pint jars or freezer containers, leaving 1/4-inch headspace. Seal, label, and freeze or 1 year in the freezer. Makes about 5 half-pints."
+        }
+      ],
+      "servings_yield": "About 5 half-pints",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 847,
+          "fat_g": 0.3,
+          "protein_g": 2.2,
+          "carbs_g": 217.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "berry-freezer-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Berry Freezer Jam",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "tags": [
+        "fast"
+      ],
+      "ingredients": [
+        {
+          "item": "blackberries, raspberries, or strawberries, caps removed",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "finely shredded lemon peel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid fruit pectin",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "of a 6-ounce package (1 foil pouch)"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush berries. Measure 2 cups blackberries or raspberries, 1 3/4 cups strawberries. In a bowl combine berries, sugar, and lemon peel. Let stand 10 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Combine pectin and lemon juice. Add to berry mixture; stir for 3 minutes. Ladle at once into jars or freezer containers, leaving a 1/2-inch headspace. Seal. Let stand at room temperature about 2 hours or till jam is set. Store up to 3 weeks in the refrigerator or 1 year in the freezer. Makes 4 half-pints (sixty-four 1-tablespoon servings)."
+        }
+      ],
+      "servings_yield": "4 half-pints (64 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 824,
+          "fat_g": 0.5,
+          "protein_g": 1.0,
+          "carbs_g": 212.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "harvest-applesauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Harvest Applesauce",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "cooking apples, cored and quartered",
+          "quantity": "8",
+          "unit": "lb"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 to 1 1/4",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In an 8- or 10-quart kettle combine apples, water, and, if desired, cinnamon. Bring to a boil, reduce heat. Simmer for 20 minutes, stirring occasionally. Press through a food mill or sieve (you should have about 13 cups pulp)."
+        },
+        {
+          "step": 2,
+          "text": "Return pulp to kettle. Stir in sugar, cinnamon. Simmer, uncovered, about 2 hours or till very thick, stirring often. Makes about 8 half-pints (128 one-tablespoon servings)."
+        },
+        {
+          "step": 3,
+          "text": "Boiling-Water Canning: Spoon hot apple butter into hot, sterilized pint jars, leaving a 1/4-inch headspace. Adjust lids. Process in boiling-water canner for 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Freezing: Spoon hot apple butter into a sink of ice water to cool apple butter. Place kettle in a sink of ice water to cool apple butter. Spoon into freezer containers, leaving the recommended headspace (see tip, page 193). Seal, label, and freeze."
+        }
+      ],
+      "servings_yield": "About 8 half-pints (128 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 193,
+          "fat_g": 0.3,
+          "protein_g": 0.5,
+          "carbs_g": 50.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 4/4 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "apple-butter",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Apple Butter",
+      "category": "canning",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Freeze or can this spicy spread.",
+      "ingredients": [
+        {
+          "item": "cooking apples, cored and quartered",
+          "quantity": "6",
+          "unit": "lb",
+          "prep_note": "18 cups"
+        },
+        {
+          "item": "apple cider or apple juice",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground allspice",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In an 8- or 10-quart kettle combine apples and cider. Bring to a boil; reduce heat. Simmer for 30 minutes, stirring occasionally. Press through a food mill or sieve (you should have about 13 cups pulp)."
+        },
+        {
+          "step": 2,
+          "text": "Return pulp to kettle. Stir in sugar, cinnamon, and allspice. Bring to boiling; reduce heat. Simmer, uncovered, for 1 1/2 to 2 hours or till very thick, stirring often. Spoon into hot, sterilized jars or freezer containers for quart or pint jars, leaving a 1/4-inch headspace. Adjust lids. Process in boiling-water canner for 5 minutes. (For pints, process for 5 minutes.) Makes 5 half-pints (see tip, page 193). Seal, label, and freeze."
+        }
+      ],
+      "servings_yield": "5 half-pints",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5365 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 647,
+          "fat_g": 0.4,
+          "protein_g": 0.6,
+          "carbs_g": 166.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "tomato-juice-canning-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tomato Juice",
+      "category": "canning",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 198",
+      "description": "Home-canned tomato juice with optional freezing instructions",
+      "servings_yield": "About 5 pints (twenty 1/2-cup servings)",
+      "prep_time": "45 minutes",
+      "cook_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "ripe tomatoes",
+          "quantity": "8",
+          "unit": "lb",
+          "prep_note": "firm but ripe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thoroughly wash 8 pounds ripe but firm tomatoes. Remove stems. Core and cut into pieces; drain."
+        },
+        {
+          "step": 2,
+          "text": "Place tomatoes in an 8- or 10-quart kettle. Bring to boiling over low heat, stirring frequently. Cover and simmer about 15 minutes or till soft; stir often to prevent sticking."
+        },
+        {
+          "step": 3,
+          "text": "Press tomatoes through a food mill or sieve. Discard solids. Return tomato juice to the kettle and bring to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Boil gently, uncovered, for 5 minutes, stirring often. Discard solids."
+        },
+        {
+          "step": 5,
+          "text": "Pour hot juice into hot, clean pint jar or 2 tablespoons lemon juice to each quart jar. Pour hot juice into jars, leaving a 1/2-inch headspace."
+        },
+        {
+          "step": 6,
+          "text": "Process pints for 35 minutes, quarts for 40 minutes in a boiling-water canner."
+        }
+      ],
+      "notes": [
+        "Boiling-Water Canning: Add 1 tablespoon lemon juice to each hot, clean pint jar or 2 tablespoons lemon juice to each quart jar. If desired, add 1/4 teaspoon salt to each pint or 1/2 teaspoon salt to each quart jar.",
+        "Freezing: Cool tomato juice. Pour into wide-top freezer containers, leaving a 1/2-inch headspace. Seal, label, and freeze."
+      ],
+      "tags": [
+        "canning",
+        "tomato",
+        "juice",
+        "preserving"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5359 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 51,
+          "fat_g": 0.6,
+          "protein_g": 2.6,
+          "carbs_g": 11.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 1/1 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "mustard-pickles-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mustard Pickles",
+      "category": "canning",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 201",
+      "description": "Tangy mustard-flavored cucumber pickles",
+      "servings_yield": "Makes about 7 pints",
+      "ingredients": [
+        {
+          "item": "medium pickling cucumbers",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "cauliflower",
+          "quantity": "1",
+          "unit": "head",
+          "prep_note": "broken into florets"
+        },
+        {
+          "item": "cups water",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "pickling salt",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut cucumbers into 6-inch chunks or 1/4-inch. Pack cucumbers, pint jars, leaving a 1/2-inch headspace."
+        },
+        {
+          "step": 2,
+          "text": "Add celery seed. Return to boiling. Stir together remaining vinegar, mustard and turmeric. Add to corn mixture. Ladle into hot, sterilized jars. Adjust lids. Process in a boiling-water canner for 15 minutes. Makes 7 pints (22 one-tablespoon servings)."
+        }
+      ],
+      "tags": [
+        "canning",
+        "pickles",
+        "mustard",
+        "preserving"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5362 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Some text difficult to read"
+        ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 8,
+          "fat_g": 0.1,
+          "protein_g": 0.5,
+          "carbs_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 7/7 ingredients (100% coverage)"
+        ]
+      }
+    }
+  ]
+}

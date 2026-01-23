@@ -1,0 +1,6872 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "preserves",
+    "total_recipes": 86,
+    "generated": "2026-01-23T14:31:32.265825Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "foxfire2-sassafras-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sassafras Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian recipe from The Foxfire Book 2",
+      "description": "A unique jelly made from strong sassafras tea.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "strong sassafras tea",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "powdered pectin",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": ""
+        },
+        {
+          "item": "strained honey",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil two cups strong sassafras tea and one package powdered pectin."
+        },
+        {
+          "step": 2,
+          "text": "Add three cups strained honey."
+        },
+        {
+          "step": 3,
+          "text": "Strain and put in jars."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "jelly",
+        "preserves",
+        "sassafras",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-rhubarb-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rhubarb Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian recipe from The Foxfire Book 2",
+      "description": "A tangy jelly made from fresh rhubarb.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "rhubarb",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": "washed and sliced"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": "about 7 cups"
+        },
+        {
+          "item": "liquid pectin",
+          "quantity": "1",
+          "unit": "bottle",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and slice three pounds rhubarb."
+        },
+        {
+          "step": 2,
+          "text": "Add one cup water and bring to a boil."
+        },
+        {
+          "step": 3,
+          "text": "Reduce heat and simmer ten minutes."
+        },
+        {
+          "step": 4,
+          "text": "Strain through cheesecloth."
+        },
+        {
+          "step": 5,
+          "text": "Add three pounds of sugar (about seven cups) and bring to a rolling boil."
+        },
+        {
+          "step": 6,
+          "text": "Add one bottle liquid pectin."
+        },
+        {
+          "step": 7,
+          "text": "Cook, stirring, one more minute."
+        },
+        {
+          "step": 8,
+          "text": "Pour in glasses. Jelly should harden in three to four hours."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "jelly",
+        "preserves",
+        "rhubarb",
+        "appalachian",
+        "foxfire",
+        "canning"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-poke-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Poke Pickles",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian pickles from The Foxfire Book 2",
+      "description": "Pickled young poke stalks, preserved in spiced vinegar.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "very young poke stalks",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "scraped, leaves removed"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon stick",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "",
+          "unit": "several",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Collect very young stalks, scrape, remove leaves, and pack in jars."
+        },
+        {
+          "step": 2,
+          "text": "Combine one cup vinegar, half cup sugar, one tablespoon salt, one stick cinnamon, several whole cloves."
+        },
+        {
+          "step": 3,
+          "text": "Boil, pour over poke, and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "pickles",
+        "poke",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "canning"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-pickled-pussley",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pickled Pussley",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian pickles from The Foxfire Book 2",
+      "description": "Pickled purslane tips in mustard vinegar.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "pussley tips",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "wild onions",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ground mustard seed",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook wild onions with vinegar and one-quarter cup ground mustard seed."
+        },
+        {
+          "step": 2,
+          "text": "Simmer, strain."
+        },
+        {
+          "step": 3,
+          "text": "Pour over pussley tips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "pickles",
+        "preserves",
+        "purslane",
+        "wild-plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-blackberry-syrup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Blackberry Syrup",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A spiced blackberry syrup for pancakes.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "blackberry juice",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix all ingredients together."
+        },
+        {
+          "step": 2,
+          "text": "Boil for fifteen minutes."
+        },
+        {
+          "step": 3,
+          "text": "Use over pancakes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "syrup",
+        "blackberry",
+        "pancakes",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-blackberry-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Blackberry Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Simple blackberry jelly made without commercial pectin.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "blackberries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "per cup of juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush one quart berries in a pan without sugar or water."
+        },
+        {
+          "step": 2,
+          "text": "Cook slowly eight minutes."
+        },
+        {
+          "step": 3,
+          "text": "Strain; measure; bring to boiling point."
+        },
+        {
+          "step": 4,
+          "text": "Add 1 1/2 cups sugar to each cup juice gradually, so the boiling does not stop."
+        },
+        {
+          "step": 5,
+          "text": "Bring to a brisk boil, skim, and bottle."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "No commercial pectin needed - natural pectin in berries"
+      ],
+      "tags": [
+        "jelly",
+        "blackberry",
+        "preserves",
+        "canning",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-sumac-elderberry-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sumac and Elderberry Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A unique jelly combining tart sumac with sweet elderberries.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sumac berries",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "3",
+          "unit": "pints",
+          "prep_note": ""
+        },
+        {
+          "item": "elderberries",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "per cup juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil one pint sumac berries in three pints water."
+        },
+        {
+          "step": 2,
+          "text": "Add one pint elderberries."
+        },
+        {
+          "step": 3,
+          "text": "Strain through cloth."
+        },
+        {
+          "step": 4,
+          "text": "Add one cup sugar for each cup juice and cook into jelly."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "jelly",
+        "sumac",
+        "elderberry",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-elderberry-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Elderberry Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Classic elderberry jelly.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "elderberries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "ripe"
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "small amount",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "per pint juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook elderberries with a small amount of water until thoroughly cooked."
+        },
+        {
+          "step": 2,
+          "text": "Strain, and to one pint juice, add one pound sugar."
+        },
+        {
+          "step": 3,
+          "text": "Cook until it jellies."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "jelly",
+        "elderberry",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-spiced-elderberries",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Elderberries",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Spiced preserved elderberries.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "elderberries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "washed"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "",
+          "unit": "to cover",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "per jar"
+        },
+        {
+          "item": "allspice",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "per jar"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash elderberries and pack in self-sealing jars with a half teaspoon each of cloves and allspice."
+        },
+        {
+          "step": 2,
+          "text": "Cover with vinegar."
+        },
+        {
+          "step": 3,
+          "text": "Boil one cup of sugar and pour over the berries."
+        },
+        {
+          "step": 4,
+          "text": "Seal while hot."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Self-sealing jars",
+      "notes": [],
+      "tags": [
+        "spiced",
+        "elderberry",
+        "preserves",
+        "canning",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-wild-strawberry-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Strawberry Jam",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian recipe from Foxfire 2",
+      "description": "Jam from tiny wild strawberries. As they say, 'If it is four o'clock by the time you get your clothes on, it will be light enough to pick strawberries.'",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "wild strawberries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "added 1 cup at a time"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put a quart of berries in a pot, add a cup of sugar, and bring to a boil, stirring gently."
+        },
+        {
+          "step": 2,
+          "text": "Boil three minutes, add another cup of sugar and boil three more minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add a final cup of sugar, skim off foam and put in jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Wild strawberries are rich in iron and vitamin C"
+      ],
+      "tags": [
+        "jam",
+        "strawberry",
+        "wild",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-wild-strawberry-preserves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Strawberry Preserves",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian recipe from Foxfire 2",
+      "description": "Old-fashioned strawberry preserves that rest overnight.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "Overnight",
+      "ingredients": [
+        {
+          "item": "wild strawberries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To a quart of strawberries, add one cup of sugar and three tablespoons water."
+        },
+        {
+          "step": 2,
+          "text": "Boil slowly fifteen minutes. Let stand overnight."
+        },
+        {
+          "step": 3,
+          "text": "Next morning, bring to boiling point and pour in jars while hot."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "preserves",
+        "strawberry",
+        "wild",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-strawberry-leather",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Strawberry Leather",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian fruit leather from Foxfire 2",
+      "description": "Sun-dried strawberry leather, rolled up like a jelly cake.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ripe strawberries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "mashed to pulp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "for dusting",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mash ripe berries to pulp."
+        },
+        {
+          "step": 2,
+          "text": "Spread on platters."
+        },
+        {
+          "step": 3,
+          "text": "When dry, dust with sugar and roll up like a jelly cake into pieces."
+        },
+        {
+          "step": 4,
+          "text": "Pack into clean jars."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Platters",
+      "notes": [
+        "A traditional method of preserving fruit before glass jars were available"
+      ],
+      "tags": [
+        "fruit-leather",
+        "strawberry",
+        "dried",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-canned-wild-greens",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Canned Wild Greens",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian canning method from Foxfire 2",
+      "description": "How to can wild greens for winter use.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "30 minutes in pressure cooker",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "mustard greens",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "wild"
+        },
+        {
+          "item": "wild turnip greens",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "buff sallet",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        },
+        {
+          "item": "creases",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix mustard and wild turnip greens, or buff sallet and mustard mixed, or with creases."
+        },
+        {
+          "step": 2,
+          "text": "Fix and precook until tender."
+        },
+        {
+          "step": 3,
+          "text": "Put in jars, add water, seal."
+        },
+        {
+          "step": 4,
+          "text": "Cook thirty minutes in pressure cooker."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Canning jars",
+      "notes": [
+        "Most wild sallets can be canned this way"
+      ],
+      "tags": [
+        "canning",
+        "greens",
+        "wild-plants",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-candied-persimmons",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Candied Persimmons",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Persimmons preserved with sugar until candied.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "persimmons",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "for layering",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pack persimmons in jars, alternating with layers of sugar."
+        },
+        {
+          "step": 2,
+          "text": "Put on lids and store in a cool place until they become candied."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Jars",
+      "notes": [],
+      "tags": [
+        "candied",
+        "persimmon",
+        "preserved",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-persimmon-butter",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Persimmon Butter",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian fruit butter from Foxfire 3",
+      "description": "A spiced persimmon spread like apple butter.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "persimmons",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cooked and strained"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "per cup pulp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "spices or orange rind",
+          "quantity": "",
+          "unit": "for flavoring",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook and strain persimmons."
+        },
+        {
+          "step": 2,
+          "text": "Add 1/2 teaspoon soda to each cup pulp."
+        },
+        {
+          "step": 3,
+          "text": "Sweeten and flavor with spices or orange rind."
+        },
+        {
+          "step": 4,
+          "text": "Cook thoroughly and bottle."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "butter",
+        "persimmon",
+        "spread",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-wild-plum-conserve",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Plum Conserve",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A rich conserve with plums, oranges, and raisins.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "wild plums",
+          "quantity": "7",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "seeded raisins",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": "ground"
+        },
+        {
+          "item": "oranges",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "sliced thin with rind"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and pick over plums. Cover with boiling water, and add 1/2 teaspoon soda."
+        },
+        {
+          "step": 2,
+          "text": "Bring to rolling boil. Pour off the soda water, rinse plums, and strain through a colander."
+        },
+        {
+          "step": 3,
+          "text": "Slice oranges in thin slices, rind and all, removing seeds, and grind the raisins."
+        },
+        {
+          "step": 4,
+          "text": "Combine fruit and sugar, adding enough water to keep them from sticking."
+        },
+        {
+          "step": 5,
+          "text": "Simmer until thick and clear."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "conserve",
+        "plum",
+        "preserves",
+        "oranges",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-plum-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Plum Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Classic wild plum jelly.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "20-30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "half-ripe plums",
+          "quantity": "1/2",
+          "unit": "gallon",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "to cover",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "per pint juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover 1/2 gallon half-ripe plums with water in a porcelain kettle."
+        },
+        {
+          "step": 2,
+          "text": "Boil ten minutes."
+        },
+        {
+          "step": 3,
+          "text": "Pour off the juice and strain through flannel."
+        },
+        {
+          "step": 4,
+          "text": "Add one pound sugar to each pint juice."
+        },
+        {
+          "step": 5,
+          "text": "Boil until it will harden when cold (about twenty to thirty minutes)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Porcelain kettle",
+      "notes": [
+        "Use half-ripe plums for best jelling"
+      ],
+      "tags": [
+        "jelly",
+        "plum",
+        "wild",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-elderberry-apple-orange-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Elderberry-Apple-Orange Jam",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A complex jam combining elderberries with apples and citrus.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "elderberries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "large cooking apples",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "medium oranges",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook apples until mushy."
+        },
+        {
+          "step": 2,
+          "text": "Add the berries, oranges, and lemon chopped fine."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar and cook until thick."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "jam",
+        "elderberry",
+        "apple",
+        "orange",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-spiced-grapes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Grapes",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Pickled spiced grapes.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "grapes",
+          "quantity": "5",
+          "unit": "lb",
+          "prep_note": "stemmed"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "stick",
+          "prep_note": ""
+        },
+        {
+          "item": "apple vinegar",
+          "quantity": "1 1/2",
+          "unit": "pints",
+          "prep_note": "good quality"
+        },
+        {
+          "item": "allspice",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stem and wash five pounds grapes."
+        },
+        {
+          "step": 2,
+          "text": "Boil one and one-half pints of good apple vinegar with sugar and one stick cinnamon and half teaspoon allspice."
+        },
+        {
+          "step": 3,
+          "text": "Add grapes and boil until thick."
+        },
+        {
+          "step": 4,
+          "text": "Bottle and seal while hot."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "spiced",
+        "grapes",
+        "pickled",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-mayapple-marmalade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mayapple Marmalade",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A marmalade from ripe mayapple fruits with their strawberry-like flavor.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ripe mayapple fruits",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "must be fully ripe"
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Gather ripe fruits and simmer until soft."
+        },
+        {
+          "step": 2,
+          "text": "Strain through a colander."
+        },
+        {
+          "step": 3,
+          "text": "Boil the pulp with sugar to taste."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "CAUTION: Only the ripe fruit is edible - all other parts of the plant are poisonous",
+        "Green mayapples can cause stomach ache"
+      ],
+      "tags": [
+        "marmalade",
+        "mayapple",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "Only ripe fruit is safe - rest of plant is poisonous"
+        ]
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-groundcherry-preserves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Groundcherry Preserves",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Preserves made from groundcherries (husk tomatoes).",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "groundcherries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": "husked"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove husks from groundcherries and wash."
+        },
+        {
+          "step": 2,
+          "text": "Combine with sugar, water, and lemon juice."
+        },
+        {
+          "step": 3,
+          "text": "Cook slowly until thick."
+        },
+        {
+          "step": 4,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Also called cape gooseberry or husk tomato"
+      ],
+      "tags": [
+        "preserves",
+        "groundcherry",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-pickled-walnuts",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pickled Walnuts",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian pickle from Foxfire 3",
+      "description": "Green walnuts pickled in spiced vinegar.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "Several weeks",
+      "ingredients": [
+        {
+          "item": "green walnuts",
+          "quantity": "100",
+          "unit": "",
+          "prep_note": "young, before shell hardens"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "for brining",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "ginger",
+          "quantity": "1/2",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "mace",
+          "quantity": "1/2",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1/2",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1/2",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "mustard seed",
+          "quantity": "1/2",
+          "unit": "oz",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Gather green walnuts before the shell hardens (test with a needle)."
+        },
+        {
+          "step": 2,
+          "text": "Soak in brine for nine days, changing brine every three days."
+        },
+        {
+          "step": 3,
+          "text": "Drain and spread on trays in sun until they turn black."
+        },
+        {
+          "step": 4,
+          "text": "Pack in jars."
+        },
+        {
+          "step": 5,
+          "text": "Boil vinegar with spices and pour over walnuts."
+        },
+        {
+          "step": 6,
+          "text": "Seal and store."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Must use young green walnuts before shell hardens"
+      ],
+      "tags": [
+        "pickled",
+        "walnuts",
+        "green",
+        "spiced",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-icicle-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Icicle Pickles",
+      "category": "preserves",
+      "attribution": "Foxfire 2 - Margaret Norton",
+      "source_note": "Traditional Appalachian pickles from Foxfire 2",
+      "description": "Sweet, crisp cucumber pickles that take about two weeks to make.",
+      "servings_yield": "2 gallons",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "About 2 weeks",
+      "ingredients": [
+        {
+          "item": "cucumbers",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": "split lengthwise"
+        },
+        {
+          "item": "coarse salt",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": ""
+        },
+        {
+          "item": "alum",
+          "quantity": "1",
+          "unit": "walnut-sized lump",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "white sugar",
+          "quantity": "4",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "saccharine",
+          "quantity": "1",
+          "unit": "tablet",
+          "prep_note": ""
+        },
+        {
+          "item": "pickling spice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon buds",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Split cucumbers lengthwise, no matter how small. Add salt to boiling water and pour over cucumbers. Let stand one week."
+        },
+        {
+          "step": 2,
+          "text": "Drain, cover with boiling water again and let stand twenty-four hours."
+        },
+        {
+          "step": 3,
+          "text": "Drain, dissolve alum in boiling water and pour over pickles. Let stand twenty-four hours."
+        },
+        {
+          "step": 4,
+          "text": "Drain. Boil vinegar, sugar, and all spices together and pour over pickles."
+        },
+        {
+          "step": 5,
+          "text": "Do this for four mornings - pouring off liquid, reboiling it, and pouring back over pickles boiling hot."
+        },
+        {
+          "step": 6,
+          "text": "Seal in cans."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Will also keep in an open jar but most people seal them for winter"
+      ],
+      "tags": [
+        "pickles",
+        "cucumber",
+        "sweet",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "canning"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-lime-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Lime Pickles",
+      "category": "preserves",
+      "attribution": "Foxfire 2 - Margaret Norton",
+      "source_note": "Traditional Appalachian pickles from Foxfire 2",
+      "description": "Crisp pickles made with builder's lime for extra crunch.",
+      "servings_yield": "7 quarts",
+      "prep_time": "",
+      "cook_time": "1 hour",
+      "total_time": "About 2 days",
+      "ingredients": [
+        {
+          "item": "green tomatoes or cucumbers",
+          "quantity": "7",
+          "unit": "lb",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "builder's lime",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "2",
+          "unit": "gallons",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "3",
+          "unit": "pints",
+          "prep_note": ""
+        },
+        {
+          "item": "white sugar",
+          "quantity": "5",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "pickling spice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Let tomatoes or cucumbers soak with lime and water for twenty-four hours."
+        },
+        {
+          "step": 2,
+          "text": "Then let pickles soak in clear water for four hours, changing water every hour."
+        },
+        {
+          "step": 3,
+          "text": "Make syrup of vinegar, sugar, and pickling spice and bring to a boil."
+        },
+        {
+          "step": 4,
+          "text": "Add cucumbers and let stand overnight."
+        },
+        {
+          "step": 5,
+          "text": "Boil for one hour, pack in glass jars, and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "pickles",
+        "lime",
+        "crisp",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "canning"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-spiced-grapes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Grapes Relish",
+      "category": "preserves",
+      "attribution": "Foxfire 2 - Margaret Norton",
+      "source_note": "Traditional Appalachian relish from Foxfire 2",
+      "description": "A spiced grape relish used with meat and bread.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "grapes",
+          "quantity": "7",
+          "unit": "lb",
+          "prep_note": "Concord or wine grapes"
+        },
+        {
+          "item": "fruit vinegar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash, stem, and pulp grapes."
+        },
+        {
+          "step": 2,
+          "text": "Put pulp with seeds over fire and cook until seeds come free."
+        },
+        {
+          "step": 3,
+          "text": "Add skins and pulp together, and also add sugar, vinegar, and spices."
+        },
+        {
+          "step": 4,
+          "text": "Cook until thick and can."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "relish",
+        "grapes",
+        "spiced",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-pickled-green-tomatoes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pickled Green Tomatoes",
+      "category": "preserves",
+      "attribution": "Foxfire 2 - Margaret Norton",
+      "source_note": "Traditional Appalachian pickles from Foxfire 2",
+      "description": "Hot and sweet pickled green tomatoes.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "15 minutes processing",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "green tomatoes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "washed and quartered"
+        },
+        {
+          "item": "hot pepper pods",
+          "quantity": "2-3",
+          "unit": "small whole",
+          "prep_note": "per pint jar"
+        },
+        {
+          "item": "bell pepper",
+          "quantity": "1",
+          "unit": "pod",
+          "prep_note": "quartered, per jar"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "parts",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "part",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "part",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and quarter green tomatoes. Pack raw into pint jars."
+        },
+        {
+          "step": 2,
+          "text": "Add to each jar two-three small whole pods of hot pepper and one quartered pod of bell pepper."
+        },
+        {
+          "step": 3,
+          "text": "Make brine of two parts vinegar, one part water, one part sugar; heat until sugar melts."
+        },
+        {
+          "step": 4,
+          "text": "Pour into packed jars leaving half-inch at top."
+        },
+        {
+          "step": 5,
+          "text": "Put on lids and rings and process fifteen minutes in water bath."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Pint jars",
+      "notes": [],
+      "tags": [
+        "pickles",
+        "tomatoes",
+        "green",
+        "hot",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "canning"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-pickled-peaches-apples",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pickled Peaches or Apples",
+      "category": "preserves",
+      "attribution": "Foxfire 2 - Margaret Norton",
+      "source_note": "Traditional Appalachian pickled fruit from Foxfire 2",
+      "description": "Spiced pickled peaches or apples.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "peaches or apples",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "peeled and quartered"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "parts",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "parts",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "part",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel apples or peaches, quarter, and put in a pot."
+        },
+        {
+          "step": 2,
+          "text": "Make enough brine of two parts vinegar, two parts sugar, and one part water to cover fruit."
+        },
+        {
+          "step": 3,
+          "text": "Add ground cinnamon, nutmeg, and allspice to taste, and cook until tender."
+        },
+        {
+          "step": 4,
+          "text": "When done, lift fruit out and pack into jars."
+        },
+        {
+          "step": 5,
+          "text": "Keep brine simmering and pour into jars over fruit leaving one-half inch at top."
+        },
+        {
+          "step": 6,
+          "text": "Seal immediately."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "pickled",
+        "peaches",
+        "apples",
+        "spiced",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire2-pepper-sauce",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pepper Sauce (Hot Pepper Relish)",
+      "category": "preserves",
+      "attribution": "Foxfire 2",
+      "source_note": "Traditional Appalachian hot pepper sauce from Foxfire 2",
+      "description": "A hot pepper and onion relish.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "large onions",
+          "quantity": "14",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "green bell peppers",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe bell peppers",
+          "quantity": "12",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2-3",
+          "unit": "pints",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop onions and peppers up fine."
+        },
+        {
+          "step": 2,
+          "text": "Pour boiling water over them and let stand for five minutes, then drain."
+        },
+        {
+          "step": 3,
+          "text": "Put back in kettle and pour on more boiling water, let boil two minutes, drain."
+        },
+        {
+          "step": 4,
+          "text": "Put back in kettle again."
+        },
+        {
+          "step": 5,
+          "text": "Add vinegar, sugar, and salt and boil for fifteen minutes."
+        },
+        {
+          "step": 6,
+          "text": "Can while hot."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "pepper-sauce",
+        "relish",
+        "hot",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "canning"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-mint-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mint Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Fresh mint jelly, traditionally served with lamb.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "mint leaves",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "fresh"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "",
+          "unit": "to cover",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "pectin",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Do not boil leaves, but pour boiling water over them and let steep."
+        },
+        {
+          "step": 2,
+          "text": "Strain."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar and pectin."
+        },
+        {
+          "step": 4,
+          "text": "Cook until it jells."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "jelly",
+        "mint",
+        "preserves",
+        "lamb",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-mint-vinegar",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mint Vinegar",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian flavored vinegar from Foxfire 3",
+      "description": "Mint-infused vinegar that ripens over several weeks.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "Several weeks to ripen",
+      "ingredients": [
+        {
+          "item": "tender mint leaves",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Let mint stand covered by sugar for five minutes."
+        },
+        {
+          "step": 2,
+          "text": "Bring vinegar to a boil."
+        },
+        {
+          "step": 3,
+          "text": "Add mint and sugar to vinegar and boil three minutes."
+        },
+        {
+          "step": 4,
+          "text": "Strain through cheesecloth and bottle."
+        },
+        {
+          "step": 5,
+          "text": "Let stand several weeks to ripen."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vinegar",
+        "mint",
+        "flavored",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-fig-preserves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fig Preserves",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Simple fig preserves.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "Overnight",
+      "ingredients": [
+        {
+          "item": "figs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "to cover figs",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put figs in a pan, and add sugar until it covers the figs."
+        },
+        {
+          "step": 2,
+          "text": "Let stand overnight."
+        },
+        {
+          "step": 3,
+          "text": "In the morning, cook until thick and clear."
+        },
+        {
+          "step": 4,
+          "text": "Put in jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Figs should be picked in early morning"
+      ],
+      "tags": [
+        "preserves",
+        "figs",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-crabapple-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crabapple Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Classic crabapple jelly, can add mint leaves if desired.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "20 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "crabapples",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "to cover",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "per cup juice"
+        },
+        {
+          "item": "mint leaves",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Simmer crabapples twenty minutes. Mash in pan."
+        },
+        {
+          "step": 2,
+          "text": "Strain. Add one cup sugar to one cup juice."
+        },
+        {
+          "step": 3,
+          "text": "Add mint leaves if desired."
+        },
+        {
+          "step": 4,
+          "text": "Put in jars, and set in a dark place to thicken."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Crabapples were often added to blackberries or blueberries to help jelly set"
+      ],
+      "tags": [
+        "jelly",
+        "crabapple",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-crabapple-butter",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Crabapple Butter",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian fruit butter from Foxfire 3",
+      "description": "A spiced crabapple butter.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "crabapples",
+          "quantity": "4",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sweet cider",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook crabapples with peelings and run through a food mill."
+        },
+        {
+          "step": 2,
+          "text": "Boil slowly until thick."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar and spices and cook until thick."
+        },
+        {
+          "step": 4,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "butter",
+        "crabapple",
+        "spiced",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-sweet-pickled-crabapples",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sweet Pickled Crabapples",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian pickle from Foxfire 3",
+      "description": "Spiced pickled crabapples.",
+      "servings_yield": "2 quarts",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "crabapples",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon sticks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash crabapples. Cut out blossom ends, but leave stems intact."
+        },
+        {
+          "step": 2,
+          "text": "Combine sugar, spices, vinegar, and water in large saucepan and heat until sugar dissolves."
+        },
+        {
+          "step": 3,
+          "text": "Add crabapples and simmer gently until tender."
+        },
+        {
+          "step": 4,
+          "text": "Pack in jars, pour syrup over, and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "pickled",
+        "crabapple",
+        "sweet",
+        "spiced",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-possum-haw-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Possum Haw Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "Jelly from possum haw berries, often combined with crabapples.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "possum haw berries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "crabapples",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil berries until soft."
+        },
+        {
+          "step": 2,
+          "text": "Strain through cloth."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar to taste."
+        },
+        {
+          "step": 4,
+          "text": "Boil again until thickened."
+        },
+        {
+          "step": 5,
+          "text": "Combine with crabapples if desired."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Haw berries are extremely seedy"
+      ],
+      "tags": [
+        "jelly",
+        "haw",
+        "preserves",
+        "appalachian",
+        "foxfire",
+        "foraging"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-red-haw-relish",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Red Haw (Hawthorn) Relish",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A spiced relish from hawthorn fruits.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "red haw (hawthorn) fruit",
+          "quantity": "3",
+          "unit": "lb",
+          "prep_note": "crushed, not too ripe"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush three pounds fruit (not too ripe)."
+        },
+        {
+          "step": 2,
+          "text": "Add four cups water and cook until soft."
+        },
+        {
+          "step": 3,
+          "text": "Strain through cloth."
+        },
+        {
+          "step": 4,
+          "text": "Add sugar, vinegar, and spices."
+        },
+        {
+          "step": 5,
+          "text": "Boil until thick. Bottle and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "relish",
+        "hawthorn",
+        "haw",
+        "spiced",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire3-haw-marmalade",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Haw Marmalade",
+      "category": "preserves",
+      "attribution": "Foxfire 3",
+      "source_note": "Traditional Appalachian recipe from Foxfire 3",
+      "description": "A marmalade from hawthorn fruits.",
+      "servings_yield": "",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "haw fruits",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "very little",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook haws in very little water."
+        },
+        {
+          "step": 2,
+          "text": "Press through a colander to remove seeds."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar to taste."
+        },
+        {
+          "step": 4,
+          "text": "Cook until thick and bottle."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "marmalade",
+        "haw",
+        "hawthorn",
+        "preserves",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
+      ]
+    },
+    {
+      "id": "foxfire4-sassafras-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pearl's Sassafras Jelly",
+      "category": "preserves",
+      "attribution": "Pearl, via Foxfire 4",
+      "source_note": "Traditional Appalachian sassafras jelly recipe from Foxfire Book 4",
+      "description": "A unique jelly made from sassafras tea, capturing the distinctive flavor of this Appalachian root.",
+      "servings_yield": "Several jars",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "sassafras tea",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": "made by boiling 4 roots in 1 gallon water for 15-20 minutes"
+        },
+        {
+          "item": "Sure-Jell",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make sassafras tea: Boil 4 average-sized sassafras roots in 1 gallon of water for 15-20 minutes. The longer boiled, the stronger the tea. Strain."
+        },
+        {
+          "step": 2,
+          "text": "Mix one package of Sure-Jell with 8 cups of sassafras tea in a large saucepan."
+        },
+        {
+          "step": 3,
+          "text": "Bring quickly to a hard boil, stirring occasionally."
+        },
+        {
+          "step": 4,
+          "text": "Add 8 cups sugar and bring to a full rolling boil."
+        },
+        {
+          "step": 5,
+          "text": "Boil hard one minute, stirring constantly."
+        },
+        {
+          "step": 6,
+          "text": "Skim off foam with a metal spoon."
+        },
+        {
+          "step": 7,
+          "text": "Pour at once into jelly jars and seal with paraffin."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large saucepan",
+      "notes": [
+        "Pearl also makes sassafras tea, serving it hot or iced, sweetened with sugar or honey.",
+        "Sassafras tea can be made stronger or weaker by adjusting boiling time."
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "sassafras",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire2-violet-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Violet Jelly",
+      "category": "preserves",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional wild food recipe from Foxfire Book 2",
+      "description": "A delicate jelly made from wild violet flowers.",
+      "servings_yield": "Several jars",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "violet flowers",
+          "quantity": "several cups",
+          "unit": "",
+          "prep_note": "fresh"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "to cover",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "pectin",
+          "quantity": "as needed",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "juice only"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook violet flowers with boiling water."
+        },
+        {
+          "step": 2,
+          "text": "Strain the liquid."
+        },
+        {
+          "step": 3,
+          "text": "Add sugar, pectin, and juice of half a lemon."
+        },
+        {
+          "step": 4,
+          "text": "Simmer until it jells."
+        },
+        {
+          "step": 5,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large saucepan",
+      "notes": [
+        "Violet flowers give this jelly a beautiful color and delicate flavor."
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "violet",
+        "wild foods",
+        "appalachian",
+        "foxfire",
+        "flowers"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire2-violet-syrup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Violet Syrup",
+      "category": "preserves",
+      "attribution": "Traditional Appalachian, via Foxfire 2",
+      "source_note": "Traditional cold remedy from Foxfire Book 2",
+      "description": "A medicinal syrup made from violet blossoms, good for colds or coughs.",
+      "servings_yield": "Several jars",
+      "prep_time": "2 days",
+      "cook_time": "15 minutes",
+      "total_time": "2 days plus 15 minutes",
+      "ingredients": [
+        {
+          "item": "violet blossoms",
+          "quantity": "as needed",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "to cover",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "to taste",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "juice only"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover violet blossoms with water."
+        },
+        {
+          "step": 2,
+          "text": "Let stand two days."
+        },
+        {
+          "step": 3,
+          "text": "Strain the liquid."
+        },
+        {
+          "step": 4,
+          "text": "Cook with honey and juice of lemon."
+        },
+        {
+          "step": 5,
+          "text": "Stir well and bring to a boil."
+        },
+        {
+          "step": 6,
+          "text": "Put in jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Saucepan",
+      "notes": [
+        "Good for colds or coughs."
+      ],
+      "tags": [
+        "syrup",
+        "preserves",
+        "violet",
+        "remedy",
+        "cold",
+        "cough",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-garlic-vinegar",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Garlic Vinegar",
+      "category": "preserves",
+      "attribution": "Foxfire Book 2",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Infused vinegar made with wild garlic bulbs.",
+      "servings_yield": "1 pint",
+      "ingredients": [
+        {
+          "item": "wild garlic bulbs",
+          "quantity": "6-8",
+          "unit": "",
+          "prep_note": "peeled"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "pint"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel garlic bulbs."
+        },
+        {
+          "step": 2,
+          "text": "Place in one pint vinegar."
+        },
+        {
+          "step": 3,
+          "text": "Cover tightly and let stand for ten to fourteen days."
+        },
+        {
+          "step": 4,
+          "text": "Strain and bottle."
+        }
+      ],
+      "tags": [
+        "preserves",
+        "vinegar",
+        "wild garlic",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-raspberry-pickles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Raspberry Pickles",
+      "category": "preserves",
+      "attribution": "Foxfire Three",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Spiced pickled raspberries preserved in sweetened vinegar.",
+      "servings_yield": "About 1/2 gallon",
+      "ingredients": [
+        {
+          "item": "fresh raspberries",
+          "quantity": "1/2",
+          "unit": "gallon",
+          "prep_note": "almost ripe"
+        },
+        {
+          "item": "cloves",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "allspice",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon stick",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "good apple vinegar",
+          "quantity": "1 1/2",
+          "unit": "pints"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash 1/2 gallon fresh, almost ripe berries."
+        },
+        {
+          "step": 2,
+          "text": "Place them in self-sealing jars with a half teaspoon each of cloves and allspice, and one stick of cinnamon."
+        },
+        {
+          "step": 3,
+          "text": "Boil 1 1/2 pints of good apple vinegar with a half cup of sugar."
+        },
+        {
+          "step": 4,
+          "text": "Pour over the berries."
+        },
+        {
+          "step": 5,
+          "text": "Seal while hot."
+        }
+      ],
+      "tags": [
+        "preserves",
+        "pickles",
+        "raspberry",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-raspberry-vinegar",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Raspberry Vinegar",
+      "category": "preserves",
+      "attribution": "Foxfire Three",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Sweetened raspberry-infused vinegar, a traditional Appalachian condiment.",
+      "servings_yield": "About 2 gallons",
+      "ingredients": [
+        {
+          "item": "ripe raspberries",
+          "quantity": "4",
+          "unit": "gallons",
+          "prep_note": "divided into 2 batches"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "1",
+          "unit": "gallon"
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "equal measure to juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put two gallons ripe raspberries in a stone jar."
+        },
+        {
+          "step": 2,
+          "text": "Pour a gallon cider vinegar over them and let stand twenty-four hours."
+        },
+        {
+          "step": 3,
+          "text": "Drain, then pour the liquor over a gallon fresh berries and let stand overnight."
+        },
+        {
+          "step": 4,
+          "text": "Strain and add one measure of sugar for every measure of juice."
+        },
+        {
+          "step": 5,
+          "text": "Boil and skim."
+        },
+        {
+          "step": 6,
+          "text": "Bottle when cold."
+        }
+      ],
+      "tags": [
+        "preserves",
+        "vinegar",
+        "raspberry",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-sumac-elderberry-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Sumac and Elderberry Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Three",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Unique jelly combining wild sumac berries and elderberries.",
+      "servings_yield": "About 3 cups",
+      "ingredients": [
+        {
+          "item": "sumac berries",
+          "quantity": "1",
+          "unit": "pint"
+        },
+        {
+          "item": "elderberries",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "water",
+          "quantity": "6",
+          "unit": "pints",
+          "prep_note": "divided"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "per cup juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil one pint sumac berries in three pints water until there is one quart juice."
+        },
+        {
+          "step": 2,
+          "text": "Separately, boil one quart elderberries in three pints water until fruit is soft."
+        },
+        {
+          "step": 3,
+          "text": "Mash the elderberries."
+        },
+        {
+          "step": 4,
+          "text": "Strain juice from both through a thick white cloth."
+        },
+        {
+          "step": 5,
+          "text": "Mix the juices together."
+        },
+        {
+          "step": 6,
+          "text": "Add one cup sugar for each cup juice and cook into jelly."
+        }
+      ],
+      "tags": [
+        "preserves",
+        "jelly",
+        "sumac",
+        "elderberry",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-elderberry-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Elderberry Jam",
+      "category": "preserves",
+      "attribution": "Foxfire Three",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Simple jam made from wild elderberries with vinegar.",
+      "servings_yield": "About 6 cups",
+      "ingredients": [
+        {
+          "item": "elderberries",
+          "quantity": "8",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "6",
+          "unit": "cups"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush and measure the berries."
+        },
+        {
+          "step": 2,
+          "text": "Add sugar and vinegar."
+        },
+        {
+          "step": 3,
+          "text": "Boil until thick."
+        },
+        {
+          "step": 4,
+          "text": "Pour boiling into scalded jars and seal."
+        }
+      ],
+      "tags": [
+        "preserves",
+        "jam",
+        "elderberry",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "appalachian-elderberry-apple-orange-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Elderberry-Apple-Orange Jam",
+      "category": "preserves",
+      "attribution": "Foxfire Three",
+      "source_note": "Traditional Appalachian wild plant recipes",
+      "description": "Rich jam combining elderberries with apples and citrus.",
+      "servings_yield": "About 8 cups",
+      "ingredients": [
+        {
+          "item": "elderberries",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "large cooking apples",
+          "quantity": "12",
+          "unit": ""
+        },
+        {
+          "item": "medium oranges",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook apples until mushy."
+        },
+        {
+          "step": 2,
+          "text": "Add the berries, oranges, and lemon chopped fine."
+        },
+        {
+          "step": 3,
+          "text": "Grate the rinds of one orange and the lemon."
+        },
+        {
+          "step": 4,
+          "text": "Mix together with sugar."
+        },
+        {
+          "step": 5,
+          "text": "Boil thirty minutes."
+        },
+        {
+          "step": 6,
+          "text": "Pour into sterilized jars and seal."
+        }
+      ],
+      "tags": [
+        "preserves",
+        "jam",
+        "elderberry",
+        "apple",
+        "orange",
+        "wild plants",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "dandelion-blossom-syrup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dandelion Blossom Syrup",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Honey-like syrup made from dandelion blossoms.",
+      "servings_yield": "2-3 pints",
+      "ingredients": [
+        {
+          "item": "dandelion flowers",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon or orange",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "chopped with peel, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place blossoms and water in pot."
+        },
+        {
+          "step": 2,
+          "text": "Bring just to boil, turn off heat, cover, and let sit overnight."
+        },
+        {
+          "step": 3,
+          "text": "The next day, strain and press liquid from spent flowers."
+        },
+        {
+          "step": 4,
+          "text": "Add sugar and citrus, then heat slowly, stirring occasionally."
+        },
+        {
+          "step": 5,
+          "text": "Continue for several hours until reduced to thick, honey-like consistency."
+        },
+        {
+          "step": 6,
+          "text": "Can in half-pint or pint jars."
+        }
+      ],
+      "tags": [
+        "syrup",
+        "preserves",
+        "dandelion",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "kudzu-blossom-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Kudzu Blossom Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Purple jelly made from kudzu blossoms.",
+      "servings_yield": "6 half pints",
+      "ingredients": [
+        {
+          "item": "kudzu blossoms",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "powdered pectin",
+          "quantity": "1 3/4",
+          "unit": "oz"
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash blossoms and place in a large bowl."
+        },
+        {
+          "step": 2,
+          "text": "Pour boiling water over blossoms; refrigerate 8 hours or overnight."
+        },
+        {
+          "step": 3,
+          "text": "Strain blossoms and liquid through colander into Dutch oven."
+        },
+        {
+          "step": 4,
+          "text": "Add lemon juice and pectin; bring to rolling boil over high heat, stirring constantly."
+        },
+        {
+          "step": 5,
+          "text": "Stir in sugar; return to rolling boil and boil 1 minute while stirring."
+        },
+        {
+          "step": 6,
+          "text": "Remove from heat; skim foam with spoon."
+        },
+        {
+          "step": 7,
+          "text": "Pour into sterilized jars, filling to 1/4 inch from top."
+        },
+        {
+          "step": 8,
+          "text": "Process in boiling water bath for 5 minutes."
+        }
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "kudzu",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "beautyberry-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Beautyberry Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Purple jelly made from American beautyberries.",
+      "servings_yield": "4-5 half pints",
+      "ingredients": [
+        {
+          "item": "ripe beautyberries",
+          "quantity": "1 1/2",
+          "unit": "quarts",
+          "prep_note": "washed and cleaned"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "quarts"
+        },
+        {
+          "item": "beautyberry infusion",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "Sure-Jell pectin",
+          "quantity": "1",
+          "unit": "envelope"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and clean beautyberries, removing all green stems and leaves."
+        },
+        {
+          "step": 2,
+          "text": "Cover berries with 2 quarts water."
+        },
+        {
+          "step": 3,
+          "text": "Boil for 20 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Strain to create infusion."
+        },
+        {
+          "step": 5,
+          "text": "Use 3 cups of the infusion and bring to boil."
+        },
+        {
+          "step": 6,
+          "text": "Add Sure-Jell and sugar."
+        },
+        {
+          "step": 7,
+          "text": "Return to second boil and boil for 2 minutes."
+        },
+        {
+          "step": 8,
+          "text": "Remove from heat and let stand until foam forms."
+        },
+        {
+          "step": 9,
+          "text": "Skim off foam."
+        },
+        {
+          "step": 10,
+          "text": "Pour into sterilized jars and cap."
+        }
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "beautyberry",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "loquat-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Loquat Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Clear jelly made from loquat fruit.",
+      "servings_yield": "5-6 half pints",
+      "ingredients": [
+        {
+          "item": "ripe loquats",
+          "quantity": "5",
+          "unit": "lbs"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "pectin",
+          "quantity": "1",
+          "unit": "package"
+        },
+        {
+          "item": "sugar",
+          "quantity": "5 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash loquats, remove seeds and blossom ends."
+        },
+        {
+          "step": 2,
+          "text": "Barely cover with cold water. Simmer covered 15 minutes until soft."
+        },
+        {
+          "step": 3,
+          "text": "Strain through jelly bag."
+        },
+        {
+          "step": 4,
+          "text": "Measure 3 1/2 cups juice and lemon juice."
+        },
+        {
+          "step": 5,
+          "text": "Add pectin, stir well. Bring to boil, stirring constantly."
+        },
+        {
+          "step": 6,
+          "text": "Add sugar, return to rolling boil for exactly 2 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Remove from heat, skim."
+        },
+        {
+          "step": 8,
+          "text": "Pour into sterilized glasses, seal with paraffin."
+        }
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "loquat",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "spiced-loquats-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Loquats",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Pickled loquats with warm spices.",
+      "servings_yield": "3-4 pints",
+      "ingredients": [
+        {
+          "item": "firm loquats",
+          "quantity": "3",
+          "unit": "lbs"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "whole cloves",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "whole allspice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cinnamon stick",
+          "quantity": "2",
+          "unit": "inches"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash loquats, remove stem and blossom ends."
+        },
+        {
+          "step": 2,
+          "text": "Combine sugar, water, and vinegar."
+        },
+        {
+          "step": 3,
+          "text": "Tie spices in cheesecloth, add to mixture. Boil 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add fruit, cook gently until tender."
+        },
+        {
+          "step": 5,
+          "text": "Remove fruit, pour syrup into sterilized jars, fill with hot syrup."
+        },
+        {
+          "step": 6,
+          "text": "Seal immediately."
+        }
+      ],
+      "tags": [
+        "pickled",
+        "preserves",
+        "loquat",
+        "spiced",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "mulberry-vinegar-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mulberry Vinegar",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Fruit vinegar made from mulberries.",
+      "servings_yield": "Several pints",
+      "ingredients": [
+        {
+          "item": "clean mulberries",
+          "quantity": "3",
+          "unit": "quarts"
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "boiling hot"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "per cup of juice"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place mulberries in large bowl."
+        },
+        {
+          "step": 2,
+          "text": "Mash berries and pour hot vinegar over them."
+        },
+        {
+          "step": 3,
+          "text": "Cover with towel; stir with wooden spoon daily for 3 days."
+        },
+        {
+          "step": 4,
+          "text": "Strain juice through jelly bag."
+        },
+        {
+          "step": 5,
+          "text": "Add 1 cup sugar per cup juice."
+        },
+        {
+          "step": 6,
+          "text": "Boil together for 5 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Pour into sterilized jars and seal."
+        },
+        {
+          "step": 8,
+          "text": "To serve: Mix 2 tablespoons vinegar in 8-ounce glass with water and ice."
+        }
+      ],
+      "tags": [
+        "vinegar",
+        "preserves",
+        "mulberry",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "mulberry-sauce-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mulberry Sauce",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Spiced fruit sauce from mulberries.",
+      "servings_yield": "2-3 pints",
+      "ingredients": [
+        {
+          "item": "mulberries",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add sugar and spices to mashed berries."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boil."
+        },
+        {
+          "step": 3,
+          "text": "Simmer until thick, stirring frequently."
+        },
+        {
+          "step": 4,
+          "text": "Bottle and seal."
+        }
+      ],
+      "tags": [
+        "sauce",
+        "preserves",
+        "mulberry",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "maypop-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Maypop Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Jelly made from wild passion fruit (maypops).",
+      "servings_yield": "2 1/2 pints",
+      "ingredients": [
+        {
+          "item": "ripe maypops",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "pectin",
+          "quantity": "1 3/4",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine maypops and water, then boil gently for five minutes."
+        },
+        {
+          "step": 2,
+          "text": "Strain the mixture, discarding the pulp."
+        },
+        {
+          "step": 3,
+          "text": "Combine the liquid with sugar and bring to a full rolling boil."
+        },
+        {
+          "step": 4,
+          "text": "Add pectin and return to rolling boil."
+        },
+        {
+          "step": 5,
+          "text": "Remove from heat and pour into hot, sterilized jars."
+        },
+        {
+          "step": 6,
+          "text": "Seal the jars."
+        }
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "maypop",
+        "passion fruit",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "daylily-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Day Lily Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Floral jelly made from daylily petals.",
+      "servings_yield": "5-6 half pints",
+      "ingredients": [
+        {
+          "item": "day lily petals",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "harvested early morning"
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to cover petals"
+        },
+        {
+          "item": "day lily juice",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": "from steeped petals"
+        },
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "pectin",
+          "quantity": "1",
+          "unit": "package"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bring petals and water to a boil, then remove from heat."
+        },
+        {
+          "step": 2,
+          "text": "Cover and let steep for 10-15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Pour mixture through jelly bag or doubled cheesecloth into strainer."
+        },
+        {
+          "step": 4,
+          "text": "Allow liquid to drip into bowl overnight\u2014do not squeeze."
+        },
+        {
+          "step": 5,
+          "text": "Measure 5 cups of juice into pot."
+        },
+        {
+          "step": 6,
+          "text": "Add sugar, lemon juice, and pectin."
+        },
+        {
+          "step": 7,
+          "text": "Follow standard jelly-making procedures to set."
+        }
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "daylily",
+        "floral",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "pindo-palm-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pindo Palm Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Jelly made from pindo palm (jelly palm) fruit.",
+      "servings_yield": "4-5 half pints",
+      "ingredients": [
+        {
+          "item": "ripe pindo fruit",
+          "quantity": "6",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2-3",
+          "unit": "cups",
+          "prep_note": "depending on taste"
+        },
+        {
+          "item": "pectin",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "per Sure Jell box instructions"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut and scrape fruit from seeds (aim for 3 cups cleaned fruit from 6 cups starting amount)."
+        },
+        {
+          "step": 2,
+          "text": "Cover fruit with 3 cups water."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boil and cook until approximately 3.5 cups infused juice remains."
+        },
+        {
+          "step": 4,
+          "text": "Filter juice (optional for clarity)."
+        },
+        {
+          "step": 5,
+          "text": "Follow Sure Jell box recipe for three cups fruit juice."
+        },
+        {
+          "step": 6,
+          "text": "Adjust sugar to taste and can jars."
+        }
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "pindo palm",
+        "jelly palm",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cactus-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Prickly Pear Cactus Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Beautiful pink-red jelly from prickly pear cactus fruit.",
+      "servings_yield": "About 4 half-pints",
+      "ingredients": [
+        {
+          "item": "cactus fruit",
+          "quantity": "1-2",
+          "unit": "quarts",
+          "prep_note": "about 1.5 pounds"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "liquid fruit pectin",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "cheesecloth",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place fruit in large saucepan, cover with boiling water, let stand 2-3 minutes, drain."
+        },
+        {
+          "step": 2,
+          "text": "Peel fruit, cut into pieces, cover with water and boil 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Pour through cheesecloth, drain thoroughly, discard seeds."
+        },
+        {
+          "step": 4,
+          "text": "Combine juice, sugar, and lemon juice in large saucepan."
+        },
+        {
+          "step": 5,
+          "text": "Bring to rolling boil, reduce heat to medium-high."
+        },
+        {
+          "step": 6,
+          "text": "Add pectin, cook 8-12 minutes until thickened."
+        },
+        {
+          "step": 7,
+          "text": "Skim foam, pour into sterilized jars."
+        },
+        {
+          "step": 8,
+          "text": "Process in boiling water bath 5 minutes."
+        }
+      ],
+      "notes": [
+        "Ripe fruit flesh tastes similar to raspberries",
+        "Eating ripe fruit can turn urine reddish (normal)"
+      ],
+      "tags": [
+        "jelly",
+        "cactus",
+        "prickly pear",
+        "preserves",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "juneberry-jam-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Juneberry Jam",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Simple jam made with juneberries and rhubarb.",
+      "ingredients": [
+        {
+          "item": "juneberries",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "cleaned"
+        },
+        {
+          "item": "cut-up rhubarb",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "white sugar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grind berries and combine with sugar and rhubarb."
+        },
+        {
+          "step": 2,
+          "text": "Bring to simmer."
+        },
+        {
+          "step": 3,
+          "text": "Stir and cook until thick. Burns easily - watch carefully."
+        },
+        {
+          "step": 4,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "tags": [
+        "jam",
+        "juneberry",
+        "serviceberry",
+        "rhubarb",
+        "preserves",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "hawthorn-jelly-no-cook-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hawthorn Jelly (No-Cook Method)",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Simple no-cook jelly from single-seed hawthorn berries.",
+      "ingredients": [
+        {
+          "item": "one-seed hawthorn berries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "Crataegus monogyna"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush berries thoroughly by hand in a bowl."
+        },
+        {
+          "step": 2,
+          "text": "Resulting liquid should be pudding-like consistency (add water if dry year)."
+        },
+        {
+          "step": 3,
+          "text": "Work quickly: squeeze seeds from berries."
+        },
+        {
+          "step": 4,
+          "text": "Filter thick slurry into bowl."
+        },
+        {
+          "step": 5,
+          "text": "In about five minutes, mixture will jell."
+        },
+        {
+          "step": 6,
+          "text": "Flip onto plate; eat as-is, slice, or sun-dry."
+        }
+      ],
+      "notes": [
+        "Keeps for many years when dried",
+        "Do not eat the seeds - they contain cyanide bonded with sugar (amygdalin)"
+      ],
+      "tags": [
+        "jelly",
+        "hawthorn",
+        "haw",
+        "no-cook",
+        "preserves",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "hawthorn-jelly-gibbons-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hawthorn Jelly (Euell Gibbons' Recipe)",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane (from Euell Gibbons)",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Traditional cooked hawthorn jelly from the famous forager.",
+      "ingredients": [
+        {
+          "item": "hawthorn fruit",
+          "quantity": "3",
+          "unit": "lbs"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "powdered pectin",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "if berries very ripe"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "lemons",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sugar",
+          "quantity": "7",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush fruit, add water."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boil, cover, simmer 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Strain through jelly bag, discard pulp/seeds/skins."
+        },
+        {
+          "step": 4,
+          "text": "Add pectin and lemon juice if needed."
+        },
+        {
+          "step": 5,
+          "text": "Boil 4 cups juice, add sugar."
+        },
+        {
+          "step": 6,
+          "text": "Return to boil until perfect jelly test achieved."
+        }
+      ],
+      "notes": [
+        "Do not eat the seeds - they contain cyanide bonded with sugar (amygdalin)"
+      ],
+      "tags": [
+        "jelly",
+        "hawthorn",
+        "haw",
+        "preserves",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "dandelion-burdock-syrup-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Dandelion and Burdock Syrup",
+      "category": "preserves",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Sweet syrup concentrate for making soft drinks.",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "1.5",
+          "unit": "liters"
+        },
+        {
+          "item": "fine ground dandelion root",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "fine ground burdock root",
+          "quantity": "1.5",
+          "unit": "tsp"
+        },
+        {
+          "item": "root ginger slices",
+          "quantity": "5",
+          "unit": ""
+        },
+        {
+          "item": "star anise",
+          "quantity": "1.5",
+          "unit": ""
+        },
+        {
+          "item": "citric acid",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "orange zest",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "750",
+          "unit": "g"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat water and add all ingredients except sugar."
+        },
+        {
+          "step": 2,
+          "text": "Simmer 15-20 minutes, then strain."
+        },
+        {
+          "step": 3,
+          "text": "Dissolve sugar while hot."
+        },
+        {
+          "step": 4,
+          "text": "To serve: Dilute with soda (1:4 ratio)."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with borage flowers in summer."
+        }
+      ],
+      "tags": [
+        "syrup",
+        "dandelion",
+        "burdock",
+        "soft drink",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "bulrush-flour-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bulrush Flour",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Bulrush Bonanza",
+      "description": "How to make flour from dried bulrush roots.",
+      "servings_yield": "varies",
+      "prep_time": "varies",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "bulrush roots",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cleaned"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Clean roots thoroughly."
+        },
+        {
+          "step": 2,
+          "text": "Dry roots completely in sun."
+        },
+        {
+          "step": 3,
+          "text": "Remove fibers."
+        },
+        {
+          "step": 4,
+          "text": "Pound pulp into flour. The texture depends upon how much elbow grease you use."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Can be used in place of regular flour in recipes"
+      ],
+      "tags": [
+        "bulrush",
+        "flour",
+        "foraged",
+        "survival",
+        "preservation"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "euell-gibbons-hawthorn-jelly-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Euell Gibbons' Hawthorn Jelly",
+      "category": "preserves",
+      "attribution": "Eat the Weeds / Euell Gibbons",
+      "source_note": "From eattheweeds.com - The Crataegus Clan",
+      "description": "A classic hawthorn jelly recipe from foraging legend Euell Gibbons.",
+      "servings_yield": "6-8 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "hawthorn fruit",
+          "quantity": "3",
+          "unit": "lb"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "7",
+          "unit": "cups"
+        },
+        {
+          "item": "powdered pectin",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "if needed for overripe fruit"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "juice of 2 lemons, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crush three pounds of fruit."
+        },
+        {
+          "step": 2,
+          "text": "Add water, bring to boil, cover and simmer 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Strain juice through jelly bag, discard pulp and seeds."
+        },
+        {
+          "step": 4,
+          "text": "If fruit is overripe, add pectin; add lemon juice if desired."
+        },
+        {
+          "step": 5,
+          "text": "Place 4 cups juice in large saucepan and bring to boil."
+        },
+        {
+          "step": 6,
+          "text": "Add 7 cups sugar and return to boil."
+        },
+        {
+          "step": 7,
+          "text": "Test for gel consistency and jar using standard canning methods."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large saucepan",
+      "notes": [
+        "Euell Gibbons was a famous American forager and author",
+        "Pectin may not be needed if fruit is not overripe"
+      ],
+      "tags": [
+        "hawthorn",
+        "jelly",
+        "preserves",
+        "canning",
+        "foraged",
+        "euell gibbons"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "josep-mercader-garum-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Josep Mercader's Garum",
+      "category": "preserves",
+      "attribution": "Eat the Weeds / Josep Mercader",
+      "source_note": "From eattheweeds.com - Fish Sauce article",
+      "description": "A modern interpretation of ancient Roman garum using olives, anchovies, and fresh herbs.",
+      "servings_yield": "about 2 cups",
+      "prep_time": "20 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "black olives",
+          "quantity": "560",
+          "unit": "g",
+          "prep_note": "stones removed"
+        },
+        {
+          "item": "anchovy fillets",
+          "quantity": "16",
+          "unit": "",
+          "prep_note": "soaked in water 1 hour, patted dry"
+        },
+        {
+          "item": "hard-boiled egg yolk",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "capers",
+          "quantity": "90",
+          "unit": "g"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "grainy mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "fresh marjoram",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "fresh rosemary",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "60",
+          "unit": "ml"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a blender or food processor."
+        },
+        {
+          "step": 2,
+          "text": "Process until light and fluffy."
+        },
+        {
+          "step": 3,
+          "text": "Pass mixture through a food mill or push through a sieve with a wooden spoon."
+        },
+        {
+          "step": 4,
+          "text": "Return to blender or processor and briefly process until smooth."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate until ready to use."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Use fresh herbs only - do not substitute dried",
+        "Store refrigerated"
+      ],
+      "tags": [
+        "garum",
+        "roman",
+        "anchovy",
+        "condiment",
+        "sauce",
+        "mediterranean"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "quick-garum-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Quick Garum",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Fish Sauce article",
+      "description": "A quick approximation of ancient Roman garum using grape juice and anchovy paste.",
+      "servings_yield": "about 1/2 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "30-45 minutes",
+      "ingredients": [
+        {
+          "item": "grape juice",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "anchovy paste",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "oregano",
+          "quantity": "1",
+          "unit": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook grape juice over medium heat, reducing to one-tenth its original volume (about 3/4 cup)."
+        },
+        {
+          "step": 2,
+          "text": "Dilute anchovy paste in the concentrated juice."
+        },
+        {
+          "step": 3,
+          "text": "Mix in a pinch of oregano."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "A quick substitute for traditional fermented garum",
+        "Use as a savory condiment"
+      ],
+      "tags": [
+        "garum",
+        "roman",
+        "anchovy",
+        "condiment",
+        "quick",
+        "sauce"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire-rose-hip-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rose Hip Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian jelly from wild rose hips",
+      "description": "A delicate jelly made from wild rose hips, high in vitamin C.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "50 minutes",
+      "ingredients": [
+        {
+          "item": "rose hips",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "washed, ends removed"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup per cup juice",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put rose hips in boiler with water."
+        },
+        {
+          "step": 2,
+          "text": "Simmer until soft, then strain juice."
+        },
+        {
+          "step": 3,
+          "text": "Let juice start simmering, add one cup sugar per cup juice."
+        },
+        {
+          "step": 4,
+          "text": "Boil until jelly stage is reached."
+        },
+        {
+          "step": 5,
+          "text": "Pour into jars and set in dark place to thicken."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Can substitute haws (hawthorn berries) for rose hips",
+        "High in vitamin C"
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "rose hip",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-scuppernong-preserves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Scuppernong Preserves",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Southern muscadine grape preserves",
+      "description": "Sweet preserves made from scuppernong grapes, a native Southern muscadine variety.",
+      "servings_yield": "About 6 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "1 hour 15 minutes",
+      "ingredients": [
+        {
+          "item": "scuppernong grapes",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup per cup juice",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook grapes until seeds come free."
+        },
+        {
+          "step": 2,
+          "text": "Strain through sieve or colander."
+        },
+        {
+          "step": 3,
+          "text": "Add half cup sugar per cup juice."
+        },
+        {
+          "step": 4,
+          "text": "Cook until mixture jellies."
+        },
+        {
+          "step": 5,
+          "text": "Pack in hot jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "For spiced preserves, add cinnamon, mace, and one cup vinegar",
+        "Scuppernongs are bronze-colored muscadine grapes native to the South"
+      ],
+      "tags": [
+        "preserves",
+        "scuppernong",
+        "grape",
+        "muscadine",
+        "appalachian",
+        "foxfire",
+        "southern"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-hawthorn-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hawthorn (Red Haw) Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian jelly from hawthorn berries",
+      "description": "A brown-colored jelly from hawthorn berries that tastes similar to guava.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "hawthorn berries (haws)",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "not too ripe"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb per pint liquid",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "dash",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Simmer haws in water until soft."
+        },
+        {
+          "step": 2,
+          "text": "Mash the berries and strain through jelly bag."
+        },
+        {
+          "step": 3,
+          "text": "Add one pound sugar per pint of liquid plus a dash of lemon juice."
+        },
+        {
+          "step": 4,
+          "text": "Boil until jelly stage is reached."
+        },
+        {
+          "step": 5,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Results in a brown jelly tasting like guava",
+        "Haws are also called thornapples"
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "hawthorn",
+        "haw",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-maypop-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Maypop Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional jelly from wild passionflower fruit",
+      "description": "A delicate jelly made from maypops (wild passionflower fruit).",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "1 hour 5 minutes",
+      "ingredients": [
+        {
+          "item": "ripe maypops",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "seeds and pulp"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "pint per pint juice",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Use the seeds and pulp of ripe maypops."
+        },
+        {
+          "step": 2,
+          "text": "Boil for 15 minutes in water."
+        },
+        {
+          "step": 3,
+          "text": "Strain through jelly bag."
+        },
+        {
+          "step": 4,
+          "text": "Add one pint sugar per pint juice."
+        },
+        {
+          "step": 5,
+          "text": "Boil 25-30 minutes until mixture jellies."
+        },
+        {
+          "step": 6,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "For syrup, boil only until thin syrup - good with biscuits or pancakes",
+        "Maypops are wild passionflower fruit native to the Southeast"
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "maypop",
+        "passionflower",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-jerusalem-artichoke-pickle",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Jerusalem Artichoke Pickle",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian pickle from sunchokes",
+      "description": "A spiced pickle made from Jerusalem artichokes (sunchokes).",
+      "servings_yield": "About 4 pint jars",
+      "prep_time": "1 hour (plus 24 hours soaking)",
+      "cook_time": "20 minutes",
+      "total_time": "25 hours",
+      "ingredients": [
+        {
+          "item": "Jerusalem artichokes",
+          "quantity": "2",
+          "unit": "quarts",
+          "prep_note": "scraped and peeled"
+        },
+        {
+          "item": "white onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "turmeric",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel artichokes and slice. Sprinkle well with salt."
+        },
+        {
+          "step": 2,
+          "text": "Slice onions and salt them as well."
+        },
+        {
+          "step": 3,
+          "text": "Let stand 24 hours, then wash off salt well."
+        },
+        {
+          "step": 4,
+          "text": "Boil vinegar, sugar, and spices for 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add onions and artichokes and boil 10 minutes more."
+        },
+        {
+          "step": 6,
+          "text": "Seal in hot jars."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Jerusalem artichokes are also called sunchokes",
+        "Some add horseradish instead of other spices"
+      ],
+      "tags": [
+        "pickle",
+        "preserves",
+        "artichoke",
+        "sunchoke",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-pumpkin-butter",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pumpkin Butter",
+      "category": "preserves",
+      "attribution": "Foxfire Pickling and Preserving",
+      "source_note": "Traditional Appalachian spread",
+      "description": "A smooth, spiced spread made from cooked pumpkin, similar to apple butter.",
+      "servings_yield": "About 4 pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "1 hour",
+      "total_time": "1 hour 30 minutes",
+      "ingredients": [
+        {
+          "item": "pumpkin",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "cut and peeled"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "or to taste"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut and peel pumpkin."
+        },
+        {
+          "step": 2,
+          "text": "Cook pumpkin thoroughly until very soft."
+        },
+        {
+          "step": 3,
+          "text": "Mash until smooth."
+        },
+        {
+          "step": 4,
+          "text": "Add sugar and cinnamon to taste."
+        },
+        {
+          "step": 5,
+          "text": "Cook down until thick and spreadable."
+        },
+        {
+          "step": 6,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "Medium-low heat",
+      "pan_size": "Large pot",
+      "notes": [
+        "Can use pie pumpkins or butternut squash",
+        "Makes excellent toast or biscuit spread"
+      ],
+      "tags": [
+        "butter",
+        "preserves",
+        "pumpkin",
+        "spread",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-pickling"
+      ]
+    },
+    {
+      "id": "foxfire-quince-honey",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Quince Honey",
+      "category": "preserves",
+      "attribution": "Foxfire Pickling and Preserving",
+      "source_note": "Traditional Appalachian quince preserve",
+      "description": "A sweet preserve made from grated quinces cooked in sugar syrup.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "25 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {
+          "item": "quinces",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "grated"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "quart (2 lbs)",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grate the quinces."
+        },
+        {
+          "step": 2,
+          "text": "Boil sugar and water together to make syrup."
+        },
+        {
+          "step": 3,
+          "text": "Add grated quinces to the syrup."
+        },
+        {
+          "step": 4,
+          "text": "Boil for twenty minutes."
+        },
+        {
+          "step": 5,
+          "text": "Seal in jars."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "The same method works for pear honey",
+        "Quinces must be cooked - too hard and tart to eat raw"
+      ],
+      "tags": [
+        "preserves",
+        "honey",
+        "quince",
+        "appalachian",
+        "foxfire",
+        "traditional"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-pickling"
+      ]
+    },
+    {
+      "id": "foxfire-raspberry-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Raspberry Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian wild raspberry jelly",
+      "description": "A bright, flavorful jelly made from wild raspberries.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "raspberries",
+          "quantity": "1/2",
+          "unit": "gallon",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb per pint juice",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Boil raspberries in water until cooked."
+        },
+        {
+          "step": 2,
+          "text": "Strain through jelly bag."
+        },
+        {
+          "step": 3,
+          "text": "Add one pound sugar per pint of juice."
+        },
+        {
+          "step": 4,
+          "text": "Boil until mixture sets."
+        },
+        {
+          "step": 5,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Wild raspberries have more intense flavor than cultivated",
+        "Works with black or red raspberries"
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "raspberry",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-raspberry-preserves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Raspberry Preserves",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian raspberry preserves",
+      "description": "Thick preserves made from nearly-ripe raspberries.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "50 minutes",
+      "ingredients": [
+        {
+          "item": "raspberries",
+          "quantity": "1/2",
+          "unit": "gallon",
+          "prep_note": "nearly ripe"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb per lb berries",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Gather nearly-ripe berries."
+        },
+        {
+          "step": 2,
+          "text": "Boil berries with water for ten minutes."
+        },
+        {
+          "step": 3,
+          "text": "Drain off two-thirds of the juice."
+        },
+        {
+          "step": 4,
+          "text": "Add one pound sugar per pound of berries."
+        },
+        {
+          "step": 5,
+          "text": "Boil until thick."
+        },
+        {
+          "step": 6,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Nearly-ripe berries hold their shape better",
+        "Save the drained juice for other uses"
+      ],
+      "tags": [
+        "preserves",
+        "raspberry",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-blackberry-syrup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Blackberry Syrup",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional spiced blackberry syrup for pancakes",
+      "description": "A spiced syrup made from blackberry juice, perfect for pancakes.",
+      "servings_yield": "About 1 quart",
+      "prep_time": "20 minutes",
+      "cook_time": "20 minutes",
+      "total_time": "40 minutes",
+      "ingredients": [
+        {
+          "item": "blackberry juice",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": "from cooked berries"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "nutmeg",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook blackberries and strain to get juice."
+        },
+        {
+          "step": 2,
+          "text": "Mix juice with sugar and all spices."
+        },
+        {
+          "step": 3,
+          "text": "Boil for 15 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Pour into bottles and seal."
+        },
+        {
+          "step": 5,
+          "text": "Serve over pancakes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Medium pot",
+      "notes": [
+        "Adjust spices to taste",
+        "Also good over waffles or ice cream"
+      ],
+      "tags": [
+        "syrup",
+        "blackberry",
+        "pancakes",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-huckleberry-jam",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Huckleberry Jam",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian wild huckleberry jam",
+      "description": "A thick, flavorful jam made from wild huckleberries.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "15 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "50 minutes",
+      "ingredients": [
+        {
+          "item": "huckleberries",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "washed"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash berries and place in pot with water."
+        },
+        {
+          "step": 2,
+          "text": "Boil until very tender."
+        },
+        {
+          "step": 3,
+          "text": "Add half pound sugar per pound fruit."
+        },
+        {
+          "step": 4,
+          "text": "Boil 30 minutes until thick."
+        },
+        {
+          "step": 5,
+          "text": "Pour into jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Huckleberries are found in mountain forests",
+        "Jam thickens more as it cools"
+      ],
+      "tags": [
+        "jam",
+        "preserves",
+        "huckleberry",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-fig-preserves",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fig Preserves",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Southern fig preserves",
+      "description": "Sweet whole fig preserves, a Southern delicacy.",
+      "servings_yield": "About 6 pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "3-4 hours (over 3 days)",
+      "total_time": "3 days",
+      "ingredients": [
+        {
+          "item": "figs",
+          "quantity": "6",
+          "unit": "quarts",
+          "prep_note": "firm and ripe"
+        },
+        {
+          "item": "sugar",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "3-4",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash figs and pat dry."
+        },
+        {
+          "step": 2,
+          "text": "Bring sugar and water to a boil, add figs."
+        },
+        {
+          "step": 3,
+          "text": "Cook slowly until tender, let stand overnight."
+        },
+        {
+          "step": 4,
+          "text": "Day 2: Drain syrup, boil again, pour over figs, stand overnight."
+        },
+        {
+          "step": 5,
+          "text": "Day 3: Cook figs in syrup until clear, add lemon juice."
+        },
+        {
+          "step": 6,
+          "text": "Pack in jars and process 30 minutes in hot water bath."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Large pot",
+      "notes": [
+        "The multi-day process keeps figs whole and plump",
+        "Use firm ripe figs for best results"
+      ],
+      "tags": [
+        "preserves",
+        "fig",
+        "southern",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-grape-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Grape Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Appalachian wild grape jelly",
+      "description": "A flavorful jelly made from wild grapes with a hint of vinegar.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "40 minutes",
+      "total_time": "1 hour 10 minutes",
+      "ingredients": [
+        {
+          "item": "wild grapes",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "washed, stems removed"
+        },
+        {
+          "item": "apple vinegar",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "lbs",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash grapes and remove stems."
+        },
+        {
+          "step": 2,
+          "text": "Crush grapes in large pan."
+        },
+        {
+          "step": 3,
+          "text": "Add vinegar and cinnamon if desired."
+        },
+        {
+          "step": 4,
+          "text": "Cook slowly 15 minutes, then strain through cheesecloth."
+        },
+        {
+          "step": 5,
+          "text": "Boil juice 20 minutes, add sugar."
+        },
+        {
+          "step": 6,
+          "text": "Cook until starts to jell, pour into jars."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Fox grapes, possum grapes, or muscadines all work",
+        "The vinegar adds brightness and helps preserve"
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "grape",
+        "wild foods",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-spiced-grapes",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Wild Grapes",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional spiced grape preserve",
+      "description": "Wild grapes preserved in a sweet, spiced vinegar syrup.",
+      "servings_yield": "About 6 pint jars",
+      "prep_time": "45 minutes",
+      "cook_time": "45 minutes",
+      "total_time": "1 hour 30 minutes",
+      "ingredients": [
+        {
+          "item": "fox or possum grapes",
+          "quantity": "7",
+          "unit": "lbs",
+          "prep_note": ""
+        },
+        {
+          "item": "fruit vinegar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "5",
+          "unit": "lbs",
+          "prep_note": ""
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "allspice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and stem grapes."
+        },
+        {
+          "step": 2,
+          "text": "Pulp grapes (squeeze pulp from skins)."
+        },
+        {
+          "step": 3,
+          "text": "Put pulp with seeds over fire, cook until seeds come free."
+        },
+        {
+          "step": 4,
+          "text": "Add skins and pulp with sugar, vinegar, and spices."
+        },
+        {
+          "step": 5,
+          "text": "Cook until thick."
+        },
+        {
+          "step": 6,
+          "text": "Can while hot."
+        }
+      ],
+      "temperature": "Medium heat",
+      "pan_size": "Large pot",
+      "notes": [
+        "Pulping separates the skins from the seedy centers",
+        "Excellent with game meats"
+      ],
+      "tags": [
+        "preserves",
+        "spiced",
+        "grape",
+        "appalachian",
+        "foxfire",
+        "wild foods"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "foxfire-muscadine-jelly",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Muscadine Jelly",
+      "category": "preserves",
+      "attribution": "Foxfire Wild Plant Foods",
+      "source_note": "Traditional Southern muscadine jelly",
+      "description": "A classic Southern jelly made from half-ripe muscadine grapes.",
+      "servings_yield": "About 4 half-pint jars",
+      "prep_time": "30 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "muscadines",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "half-ripe"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "lb per pint juice",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Take pulp and juice of half-ripe muscadines."
+        },
+        {
+          "step": 2,
+          "text": "Nearly cover with water and boil few minutes."
+        },
+        {
+          "step": 3,
+          "text": "Strain through jelly bag."
+        },
+        {
+          "step": 4,
+          "text": "Measure juice and add one pound white sugar per pint juice."
+        },
+        {
+          "step": 5,
+          "text": "Boil until congeals when dropped on cold dry surface (20-30 minutes)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "Large pot",
+      "notes": [
+        "Half-ripe grapes have more pectin for better jelling",
+        "Test by dropping on cold plate"
+      ],
+      "tags": [
+        "jelly",
+        "preserves",
+        "muscadine",
+        "grape",
+        "southern",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
+      ]
+    },
+    {
+      "id": "cranberry-sauce-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Sauce",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Cranberry/Lingonberry article",
+      "description": "A simple two-ingredient cranberry sauce.",
+      "servings_yield": "about 3 cups",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "cranberries",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash berries."
+        },
+        {
+          "step": 2,
+          "text": "Add sugar to berries, stirring thoroughly."
+        },
+        {
+          "step": 3,
+          "text": "Cook slowly without additional water (just what remains from washing)."
+        },
+        {
+          "step": 4,
+          "text": "Boil for 10 minutes."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "No additional water needed - the washing water is sufficient"
+      ],
+      "tags": [
+        "cranberry",
+        "sauce",
+        "thanksgiving",
+        "holiday",
+        "preserves"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "spiced-cranberries-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spiced Cranberries",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Cranberry/Lingonberry article",
+      "description": "Tangy spiced cranberries preserved in vinegar with warm spices.",
+      "servings_yield": "several pints",
+      "prep_time": "10 minutes",
+      "cook_time": "2 hours",
+      "ingredients": [
+        {
+          "item": "cranberries",
+          "quantity": "5",
+          "unit": "lb"
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "3.5",
+          "unit": "cups"
+        },
+        {
+          "item": "cinnamon or allspice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cloves",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a large pot."
+        },
+        {
+          "step": 2,
+          "text": "Boil for 2 hours."
+        },
+        {
+          "step": 3,
+          "text": "Place in hot sterilized jars and seal."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large pot",
+      "notes": [
+        "For canning - use proper canning procedures"
+      ],
+      "tags": [
+        "cranberry",
+        "spiced",
+        "preserves",
+        "canning",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cranberry-orange-relish-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Orange Relish",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Cranberry/Lingonberry article",
+      "description": "A fresh, no-cook cranberry orange relish.",
+      "servings_yield": "2 pints",
+      "prep_time": "15 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "cranberries",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "about 1 lb"
+        },
+        {
+          "item": "oranges",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "quartered, seeds removed"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put berries and oranges (including rind) through food grinder using coarse blade."
+        },
+        {
+          "step": 2,
+          "text": "Stir in sugar."
+        },
+        {
+          "step": 3,
+          "text": "Chill before serving."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Keeps several weeks refrigerated",
+        "Include the orange rind for best flavor"
+      ],
+      "tags": [
+        "cranberry",
+        "orange",
+        "relish",
+        "no-cook",
+        "thanksgiving",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cranberry-salsa-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cranberry Salsa",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Cranberry/Lingonberry article",
+      "description": "A unique cranberry salsa with cilantro, jalape\u00f1o, and lime.",
+      "servings_yield": "about 3 cups",
+      "prep_time": "15 minutes",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "cranberries",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": "fresh or frozen"
+        },
+        {
+          "item": "cilantro",
+          "quantity": "1",
+          "unit": "bunch",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "1",
+          "unit": "bunch",
+          "prep_note": "cut into 3-inch lengths"
+        },
+        {
+          "item": "jalape\u00f1o pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded and minced"
+        },
+        {
+          "item": "limes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "juiced"
+        },
+        {
+          "item": "white sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in food processor fitted with medium blade."
+        },
+        {
+          "step": 2,
+          "text": "Chop to medium consistency."
+        },
+        {
+          "step": 3,
+          "text": "Refrigerate if not using immediately."
+        },
+        {
+          "step": 4,
+          "text": "Serve at room temperature."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Great with tortilla chips or as a topping for turkey"
+      ],
+      "tags": [
+        "cranberry",
+        "salsa",
+        "cilantro",
+        "lime",
+        "holiday",
+        "appetizer"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "jerusalem-artichoke-pickles-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Jerusalem Artichoke Pickles",
+      "category": "preserves",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Jerusalem Artichoke article",
+      "description": "Pickled sunchokes using bread and butter pickle method.",
+      "servings_yield": "varies",
+      "prep_time": "30 minutes",
+      "cook_time": "varies",
+      "ingredients": [
+        {
+          "item": "Jerusalem artichokes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cleaned, sliced"
+        },
+        {
+          "item": "bread and butter pickle brine",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Clean tubers thoroughly - they are lumpy and tedious."
+        },
+        {
+          "step": 2,
+          "text": "Slice tubers."
+        },
+        {
+          "step": 3,
+          "text": "Pickle using bread and butter style method (works better than dill)."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Pick tubers two weeks after flowers fade",
+        "Flavor improves after frost",
+        "Don't store except in ground - dig as needed",
+        "Build digestive tolerance by eating small portions for 3-4 days first"
+      ],
+      "tags": [
+        "jerusalem artichoke",
+        "sunchoke",
+        "pickles",
+        "foraged",
+        "preserves"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "foxfire-pickled-pigs-feet",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pickled Pig's Feet",
+      "category": "preserves",
+      "attribution": "Foxfire Book of Hog Dressing",
+      "source_note": "Foxfire Americana Library - Meats and Small Game",
+      "description": "Tangy preserved pig's feet in spiced brine.",
+      "ingredients": [
+        {
+          "item": "pig's feet",
+          "quantity": "8",
+          "unit": "",
+          "prep_note": "cleaned and split"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "white vinegar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "bay leaves",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "peppercorns",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "red pepper flakes",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cover pig's feet with salted water; simmer 3-4 hours until tender."
+        },
+        {
+          "step": 2,
+          "text": "Remove feet and pack into clean jars."
+        },
+        {
+          "step": 3,
+          "text": "Boil vinegar, water, and spices together."
+        },
+        {
+          "step": 4,
+          "text": "Pour hot brine over feet in jars."
+        },
+        {
+          "step": 5,
+          "text": "Seal and refrigerate at least 1 week before eating."
+        }
+      ],
+      "notes": [
+        "A traditional way to preserve meat without refrigeration"
+      ],
+      "tags": [
+        "pickled",
+        "pigs-feet",
+        "pork",
+        "preserved",
+        "foxfire",
+        "appalachian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

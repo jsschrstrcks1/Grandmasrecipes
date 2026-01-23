@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "techniques",
+    "total_recipes": 1,
+    "generated": "2026-01-23T14:31:32.324974Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "wild-yeast-starter-culture-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Yeast Starter Culture",
+      "category": "techniques",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging technique from eattheweeds.com",
+      "description": "Reusable wild yeast starter for making cider and other fermented drinks.",
+      "servings_yield": "Reusable for 2+ years",
+      "ingredients": [
+        {
+          "item": "pasteurized cider",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "no preservatives"
+        },
+        {
+          "item": "organic apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "unwashed, for wild yeast"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Peel organic apple; place peeling in cider."
+        },
+        {
+          "step": 2,
+          "text": "Cover loosely; keep in warm, dark place."
+        },
+        {
+          "step": 3,
+          "text": "After 2-3 weeks, visible bubbles indicate active yeast."
+        },
+        {
+          "step": 4,
+          "text": "Use 1/2 cup of this culture per batch of cider."
+        },
+        {
+          "step": 5,
+          "text": "To maintain: After bottling each batch, save dregs (sediment + yeast + juice). Add 2 tbsp sugar and store in warm place (refresh every few days) or refrigerate long-term."
+        }
+      ],
+      "notes": [
+        "Reusable for 2+ years before genetic drift requires starting fresh"
+      ],
+      "tags": [
+        "starter",
+        "yeast",
+        "fermentation",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

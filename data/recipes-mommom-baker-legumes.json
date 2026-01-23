@@ -1,0 +1,688 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "legumes",
+    "total_recipes": 7,
+    "generated": "2026-01-23T14:31:32.204145Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "meatless-red-beans-and-rice",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Meatless Red Beans and Rice",
+      "category": "legumes",
+      "source_note": "Better Homes and Gardens cookbook, page 161",
+      "description": "Adjust the amount of ground red pepper to give this dish the zing you like.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "dry red beans or dry red kidney beans",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": "1/2 pound"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cloves garlic, minced",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "fennel seed, crushed",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "1/4 to 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "hot cooked rice",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse beans. In a large saucepan combine beans and 3 cups water. Bring to boiling; reduce heat. Simmer for 2 minutes. Remove from heat. Cover and let stand 1 hour. (Or, soak by placing beans and 3 cups water in a bowl. Cover and set in a cool place for 6 to 8 hours or overnight.)"
+        },
+        {
+          "step": 2,
+          "text": "Drain beans in a colander and rinse. Return beans to the saucepan. Stir in onion, garlic, bay leaf, salt, fennel seed, red pepper, and 3 cups fresh water. Bring to boiling; reduce heat. Cover and simmer about 2 1/2 hours or till beans are tender, adding more water, if necessary, and stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Uncover and simmer, stirring occasionally, for 15 to 20 minutes more or till a thick gravy forms. Discard bay leaf. Serve over rice. Serves 4."
+        }
+      ],
+      "notes": [
+        "Meaty Red Beans and Rice: Prepare as above, except omit salt and fennel seed. Add 1/2 pound smoked pork hocks or meaty ham bone with onion. When beans are tender, remove hocks or ham bone. Cut meat from bones or bone. Discard bones or bone and return meat to bean mixture along with 1/2 pound smoked sausage, cut into bite-size pieces.",
+        "Red Beans and Corn Bread: Prepare as above, except omit rice and spoon bean mixture over squares of corn bread."
+      ],
+      "tags": [
+        "legumes",
+        "beans",
+        "rice",
+        "vegetarian",
+        "cajun"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5323 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 184,
+          "fat_g": 0.5,
+          "protein_g": 7.0,
+          "carbs_g": 37.4
+        },
+        "missing_inputs": [
+          "Not in database: fennel seed, crushed"
+        ],
+        "assumptions": [
+          "Based on 7/8 ingredients (88% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "meatless-tacos",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Meatless Tacos",
+      "category": "legumes",
+      "source_note": "Better Homes and Gardens cookbook, page 162",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "lentils",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1",
+          "unit": "8-oz can"
+        },
+        {
+          "item": "taco seasoning mix",
+          "quantity": "1/2",
+          "unit": "of a 1 1/4- or 1 1/2-oz envelope (5 tsp)"
+        },
+        {
+          "item": "tofu (fresh bean curd), drained and finely chopped",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "taco shells, warmed",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "shredded lettuce",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "medium tomato, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salsa",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse lentils; drain. In a medium saucepan combine lentils, onion, and 1 1/2 cup water. Bring to boiling; reduce heat. Cover and simmer about 30 minutes or till tender and liquid is absorbed."
+        },
+        {
+          "step": 2,
+          "text": "Stir tomato sauce and seasoning mix into lentils. Simmer, uncovered, for 5 minutes. Stir in tofu; heat through. Spoon into taco shells. Top with lettuce, tomato, cheese, and salsa. Serves 4."
+        }
+      ],
+      "notes": [
+        "Bulgur Tacos: Prepare as above, except substitute bulgur for lentils. Cover and simmer bulgur, onion, and 3/4 cup water about 10 minutes or till tender and liquid is absorbed."
+      ],
+      "tags": [
+        "legumes",
+        "tacos",
+        "vegetarian",
+        "mexican"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5325 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 378,
+          "fat_g": 19,
+          "protein_g": 16,
+          "carbs_g": 36,
+          "cholesterol_mg": 604,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "bean-and-cheese-burritos",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bean and Cheese Burritos",
+      "category": "legumes",
+      "source_note": "Better Homes and Gardens cookbook, page 162",
+      "servings_yield": "3 servings",
+      "ingredients": [
+        {
+          "item": "flour tortillas",
+          "quantity": "6",
+          "unit": "8-inch"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "refried beans",
+          "quantity": "1",
+          "unit": "16-oz can"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "shredded lettuce",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "salsa",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stack six 8-inch flour tortillas and wrap in foil. Heat in a 350\u00b0 oven for 10 minutes to soften. In a skillet cook 1 cup chopped onion in 1 tablespoon cooking oil till tender. Add one 16-ounce can refried beans. Cook and stir till heated through."
+        },
+        {
+          "step": 2,
+          "text": "Spoon about 1/4 cup bean mixture onto each tortilla just below center. Divide 1 1/2 cups shredded cheddar cheese among tortillas. Fold edge nearest filling up and over just till mixture is covered. Fold in 2 sides just till they meet; roll up."
+        },
+        {
+          "step": 3,
+          "text": "Place on a baking sheet. Bake in a 350\u00b0 oven about 10 minutes or till heated through. Serve with shredded lettuce and salsa. Serves 3."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Bean and Cheese Chimichangas: Prepare as above, except use 10-inch flour tortillas and omit baking. Secure rolled-up tortillas with wooden toothpicks. In a 3-quart saucepan fry tortillas, 2 or 3 at a time, in 1 inch hot cooking oil (375\u00b0) about 1 minute on each side or till golden. Drain. Keep warm in a 300\u00b0 oven. Remove picks. Pass dairy sour cream and guacamole."
+      ],
+      "tags": [
+        "legumes",
+        "burritos",
+        "mexican",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5325 Large 2.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 382,
+          "fat_g": 10,
+          "protein_g": 29,
+          "carbs_g": 65,
+          "cholesterol_mg": 762,
+          "sodium_mg": 1196
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "meatless-tacos-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Meatless Tacos",
+      "category": "legumes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 162",
+      "ingredients": [
+        {
+          "item": "lentils",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1",
+          "unit": "8-oz can"
+        },
+        {
+          "item": "1 1/4- or 1 1/2-ounce envelope (5 teaspoons) taco seasoning mix",
+          "quantity": "1/2",
+          "unit": ""
+        },
+        {
+          "item": "tofu (fresh bean curd), drained and finely chopped",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "taco shells, warmed",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "shredded lettuce",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "medium tomato, chopped",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salsa",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse lentils; drain. In a medium saucepan combine lentils, onion, and 1/2 cup water. Bring to boiling; reduce heat. Cover and simmer about 30 minutes or till tender and liquid is absorbed."
+        },
+        {
+          "step": 2,
+          "text": "Stir tomato sauce and seasoning mix into lentils. Simmer, uncovered, for 5 minutes. Stir in tofu; heat through. Spoon into taco shells. Top with lettuce, tomato, cheese, and salsa."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "notes": [
+        "Bulgur Tacos: Prepare as above, except substitute bulgur for lentils. Cover and simmer bulgur, onion, and 3/4 cup water about 10 minutes or till tender and liquid is absorbed."
+      ],
+      "tags": [
+        "legumes",
+        "tacos",
+        "vegetarian",
+        "Mexican",
+        "tofu"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5325 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 378,
+          "fat_g": 19,
+          "protein_g": 16,
+          "carbs_g": 36,
+          "cholesterol_mg": 604,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "garbanzo-sandwich-spread-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Garbanzo Sandwich Spread",
+      "category": "legumes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 162",
+      "description": "Serve this spread for lunch in pita bread or on bagels, or as appetizer on party rye bread.",
+      "ingredients": [
+        {
+          "item": "garbanzo beans, drained",
+          "quantity": "1",
+          "unit": "15-oz can"
+        },
+        {
+          "item": "tahini (sesame seed paste)",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "olive or salad oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cloves garlic, quartered",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "snipped parsley",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "diced pimiento, drained",
+          "quantity": "1",
+          "unit": "2-oz jar"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a blender container or food processor bowl combine beans, tahini, juice, oil, garlic, paprika, and 1/4 teaspoon salt. Cover, blend or process till smooth, scraping sides as necessary. Transfer to a bowl. Stir in parsley and pimiento. Cover; chill 2 to 24 hours."
+        }
+      ],
+      "servings_yield": "Makes about 1 3/4 cups (5 servings)",
+      "notes": [
+        "Mediterranean Sandwich: Spread about 1/3 cup cold Garbanzo Sandwich Spread on 1 slice whole wheat bread. Top with 2 tomato slices, 1 slice Swiss or brick cheese, and another slice bread. Makes 1 serving.",
+        "Tahini Substitute: Stir together 3 tablespoons creamy peanut butter and 1 tablespoon sesame oil till well combined. Makes 1/4 cup."
+      ],
+      "tags": [
+        "legumes",
+        "spread",
+        "hummus",
+        "vegetarian",
+        "Middle Eastern"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5325 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 10,
+          "protein_g": 5,
+          "carbs_g": 15,
+          "cholesterol_mg": 115,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "fried-rice-supper-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fried-Rice Supper",
+      "category": "legumes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 162",
+      "description": "The rice is chilled to keep it from sticking.",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "green onions, sliced (1/3 cup)",
+          "quantity": "5",
+          "unit": ""
+        },
+        {
+          "item": "clove garlic, minced",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cooked brown rice, chilled",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "dark red kidney beans, drained",
+          "quantity": "1",
+          "unit": "15-oz can"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry sherry",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground red pepper",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "coarsely chopped peanuts",
+          "quantity": "1/3",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large skillet melt the 1 teaspoon margarine. Add beaten egg. Cook egg without stirring till set. Invert skillet to remove egg; cut into strips. In the skillet cook onions and garlic in the 1 tablespoon margarine till tender. Add rice; cook and stir for 3 minutes. Stir in beans, soy sauce, sherry, oil, and red pepper. Cook and stir till heated through. Toss with nuts and egg strips."
+        }
+      ],
+      "servings_yield": "Serves 4",
+      "tags": [
+        "legumes",
+        "rice",
+        "vegetarian",
+        "Asian",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5325 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 267,
+          "fat_g": 8.1,
+          "protein_g": 12.6,
+          "carbs_g": 38.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Inferred 0.25 for ground red pepper (standard quantity)",
+          "Based on 12/12 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "bean-and-cheese-burritos-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Bean and Cheese Burritos",
+      "category": "legumes",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 162",
+      "ingredients": [
+        {
+          "item": "8-inch flour tortillas",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "refried beans",
+          "quantity": "1",
+          "unit": "16-oz can"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "shredded lettuce",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "salsa",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stack six 8-inch flour tortillas and wrap in foil. Heat in a 350\u00b0 oven for 10 minutes to soften. In a skillet cook 1 cup chopped onion in 1 tablespoon cooking oil till tender. Add one 16-ounce can refried beans. Cook and stir till heated through."
+        },
+        {
+          "step": 2,
+          "text": "Spoon about 1/4 cup bean mixture onto each tortilla just below center. Divide 1 1/2 cups shredded cheddar cheese among tortillas. Fold edge nearest filling up and over just till mixture is covered. Fold in 2 sides just till they meet; roll up. Place on a baking sheet. Bake in a 350\u00b0 oven about 10 minutes or till heated through. Serve with shredded lettuce and salsa."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "Serves 3",
+      "notes": [
+        "Bean and Cheese Chimichangas: Prepare as above, except use 10-inch flour tortillas and omit baking. Secure rolled-up tortillas with wooden toothpicks. In a 3-quart saucepan fry tortillas, 2 or 3 at a time, in 1 inch hot cooking oil (375\u00b0) about 1 minute on each side or till golden. Drain. Keep warm in a 300\u00b0 oven. Remove picks. Pass dairy sour cream and guacamole."
+      ],
+      "tags": [
+        "legumes",
+        "burritos",
+        "vegetarian",
+        "Mexican",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5325 Large 2.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 382,
+          "fat_g": 10,
+          "protein_g": 29,
+          "carbs_g": 65,
+          "cholesterol_mg": 762,
+          "sodium_mg": 1196
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    }
+  ]
+}

@@ -7,6 +7,14 @@
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="googlebot" content="noindex, nofollow">
   <title>Grandma's Kitchen - Family Recipe Archive</title>
+  <!-- Preconnect to family recipe repositories for faster cross-site navigation -->
+  <link rel="preconnect" href="https://jsschrstrcks1.github.io" crossorigin>
+  <link rel="dns-prefetch" href="https://jsschrstrcks1.github.io">
+  <!-- Prefetch cheese builder resources for faster tool loading -->
+  <link rel="prefetch" href="https://jsschrstrcks1.github.io/Allrecipes/cheese-builder.html" as="document">
+  <link rel="prefetch" href="https://jsschrstrcks1.github.io/Allrecipes/cheese-builder.js" as="script">
+  <link rel="prefetch" href="https://jsschrstrcks1.github.io/Allrecipes/adulterant-companion.js" as="script">
+  <link rel="prefetch" href="https://jsschrstrcks1.github.io/Allrecipes/data/adulterants.json" as="fetch">
   <link rel="stylesheet" href="styles.min.css">
   <link rel="stylesheet" href="_pagefind/pagefind-ui.css">
 </head>
@@ -148,9 +156,11 @@
         <li><a href="index.html" class="active">All Recipes</a></li>
         <li><a href="#" onclick="filterByCategory('desserts'); return false;">Desserts</a></li>
         <li><a href="#" onclick="filterByCategory('mains'); return false;">Main Dishes</a></li>
+        <li><a href="#" onclick="filterByCategory('cheese'); return false;">Cheese</a></li>
         <li><a href="#" onclick="filterByCategory('sides'); return false;">Sides</a></li>
         <li><a href="#" onclick="filterByCategory('snacks'); return false;">Snacks</a></li>
         <li><a href="#" onclick="filterByCategory('beverages'); return false;">Beverages</a></li>
+        <li><a href="https://jsschrstrcks1.github.io/Allrecipes/cheese-builder.html" target="_blank" rel="noopener" class="tool-link">Cheese Builder</a></li>
       </ul>
     </div>
   </nav>
@@ -840,6 +850,26 @@
       await originalLoadRecipes();
       window.recipes = recipes;
     };
+  </script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('[App] Service worker registered:', registration.scope);
+
+            // Check for updates periodically
+            setInterval(() => {
+              registration.update();
+            }, 60 * 60 * 1000); // Check every hour
+          })
+          .catch((error) => {
+            console.log('[App] Service worker registration failed:', error);
+          });
+      });
+    }
   </script>
 </body>
 </html>

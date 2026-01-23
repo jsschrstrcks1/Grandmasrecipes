@@ -1,0 +1,3853 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "candy",
+    "total_recipes": 46,
+    "generated": "2026-01-23T14:31:32.130865Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "opera-fudge",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Opera Fudge",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "light cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x4x2-inch loaf pan with foil, extending foil over edges of pan. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 2-quart saucepan. In saucepan combine sugar, milk, cream, and corn syrup. Cook and stir over medium-high heat to boiling. Carefully clip a candy thermometer to side of pan. Cook and stir over medium-low heat to 238\u00b0, soft-ball stage (25 to 35 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "Remove saucepan from heat. Add margarine and vanilla, but do not stir. Cool, without stirring, to 110\u00b0, lukewarm (about 55 minutes). Remove candy thermometer from saucepan. Beat mixture vigorously with a wooden spoon till fudge becomes very thick and just starts to lose its gloss (about 10 minutes total)."
+        },
+        {
+          "step": 4,
+          "text": "Immediately spread fudge into prepared pan. Score into squares while warm. When candy is firm, use the foil to lift it out of the pan; cut into squares. Store tightly covered. Makes about 1 pound (32 servings)."
+        }
+      ],
+      "servings_yield": "About 1 pound (32 servings)",
+      "pan_size": "8x4x2-inch loaf pan",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5258 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 1,
+          "protein_g": 0,
+          "carbs_g": 13,
+          "cholesterol_mg": 8,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "old-time-fudge",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Old-Time Fudge",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "So rich and creamy, it melts in your mouth.",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "unsweetened chocolate",
+          "quantity": "2",
+          "unit": "squares",
+          "prep_note": "2 ounces, cut up"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a 9x5x3-inch loaf pan with foil, extending foil over edges of pan. Butter the foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 2-quart saucepan. In saucepan combine sugar, milk, chocolate, and corn syrup. Cook and stir over medium-high heat to boiling. Carefully clip a candy thermometer to side of pan. Cook and stir over medium-low heat to 234\u00b0, soft-ball stage (20 to 25 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "Remove saucepan from heat. Add margarine and vanilla, but do not stir. Cool, without stirring, to 110\u00b0, lukewarm (about 55 minutes). Remove candy thermometer from saucepan. Beat mixture vigorously with a wooden spoon till fudge just begins to thicken. Add chopped nuts, if desired. Continue beating till fudge becomes very thick and just starts to lose its gloss (about 10 minutes total)."
+        },
+        {
+          "step": 4,
+          "text": "Immediately spread fudge into prepared pan. Score into squares while warm. When candy is firm, use foil to lift it out of pan; cut candy into squares. Store tightly covered. Makes about 1 1/4 pounds (32 servings)."
+        }
+      ],
+      "servings_yield": "About 1 1/4 pounds (32 servings)",
+      "pan_size": "9x5x3-inch loaf pan",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5258 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 1,
+          "protein_g": 0,
+          "carbs_g": 13,
+          "cholesterol_mg": 8,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "remarkable-fudge",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remarkable Fudge",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "5-ounce cans (1 1/3 cups total)"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "12-ounce package (2 cups)"
+        },
+        {
+          "item": "marshmallow creme",
+          "quantity": "1",
+          "unit": "jar",
+          "prep_note": "7-ounce jar"
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a 13x9x2-inch baking pan with foil; extend foil over edges. Butter foil; set aside. Butter sides of a heavy 3-quart saucepan. In it, combine sugar, milk, and margarine. Cook and stir over medium-high heat to boiling. Clip candy thermometer to side of pan. Cook and stir over medium heat to 236\u00b0, soft-ball stage (about 12 minutes)."
+        },
+        {
+          "step": 2,
+          "text": "Remove saucepan from heat; remove thermometer. Add chocolate pieces, marshmallow creme, nuts, and vanilla; stir till chocolate melts. Spread into pan. Score into squares while warm. When firm, cut into squares. Store in the refrigerator. Makes about 3 1/2 pounds (96 servings)."
+        }
+      ],
+      "servings_yield": "About 3 1/2 pounds (96 servings)",
+      "pan_size": "13x9x2-inch",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 86,
+          "fat_g": 4,
+          "protein_g": 1,
+          "carbs_g": 13,
+          "cholesterol_mg": 27,
+          "sodium_mg": 1
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramels",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramels",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "notes": [
+        "Don't use corn-oil margarine. It will make your caramels too soft."
+      ],
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "2 1/4",
+          "unit": "cups",
+          "prep_note": "1 16-ounce package"
+        },
+        {
+          "item": "light cream",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x8x2- or 9x9x2-inch baking pan with foil, extending foil over edges of pan. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy 3-quart saucepan melt margarine or butter over low heat. Add brown sugar, cream, and corn syrup; mix well. Cook and stir over medium-high heat to boiling. Carefully clip a candy thermometer to the side of the pan. Cook and stir mixture over medium heat to 248\u00b0, firm-ball stage (45 to 60 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "Remove the saucepan from heat; remove thermometer. Stir in vanilla. Immediately pour caramel mixture into the prepared pan. When caramel mixture is firm, use foil to lift it out of pan. Use a buttered knife to cut into 1-inch squares. Wrap each caramel in clear plastic wrap. Makes about 2 pounds (64 servings)."
+        }
+      ],
+      "servings_yield": "About 2 pounds (64 servings)",
+      "pan_size": "8x8x2-inch or 9x9x2-inch",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 85,
+          "fat_g": 6,
+          "protein_g": 0,
+          "carbs_g": 8,
+          "cholesterol_mg": 14,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramel-apples",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Apples",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "small tart apples",
+          "quantity": "14 to 16",
+          "unit": ""
+        },
+        {
+          "item": "wooden skewers",
+          "quantity": "14 to 16",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and dry 14 to 16 small tart apples; remove stems. Insert a wooden skewer into the stem end of each apple."
+        },
+        {
+          "step": 2,
+          "text": "Prepare Caramels as above, except do not pour caramel mixture into prepared pan. Working quickly, dip each apple into hot caramel mixture; turn to coat. If desired, dip bottoms of apples into 1 cup chopped peanuts."
+        },
+        {
+          "step": 3,
+          "text": "Set on a buttered baking sheet; chill, if desired. Makes 14 to 16 caramel apples."
+        }
+      ],
+      "servings_yield": "14 to 16 caramel apples",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 439,
+          "fat_g": 20,
+          "protein_g": 23,
+          "carbs_g": 68,
+          "cholesterol_mg": 292,
+          "sodium_mg": 132
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "nut-brittle",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nut Brittle",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "raw peanuts or other coarsely chopped nuts",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda, sifted",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter 2 large baking sheets; set aside. Butter sides of a heavy 3-quart saucepan. In saucepan combine sugar, corn syrup, margarine, and 1/4 cup water. Cook and stir over medium-high heat to boiling. Clip candy thermometer to side of pan. Cook and stir over medium-low heat to 275\u00b0, soft-crack stage (about 30 minutes). Add nuts; cook and stir to 295\u00b0, hard-crack stage (15 to 20 minutes more). Remove saucepan from heat; remove thermometer."
+        },
+        {
+          "step": 2,
+          "text": "Quickly sprinkle soda over mixture, stirring constantly. Immediately pour onto prepared baking sheets. Cool; break into pieces. Store tightly covered. Makes about 2 1/4 pounds (72 servings)."
+        }
+      ],
+      "servings_yield": "About 2 1/4 pounds (72 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 10,
+          "protein_g": 1,
+          "carbs_g": 7,
+          "cholesterol_mg": 37,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "toffee-butter-crunch",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Toffee Butter Crunch",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Butter is a must for top-notch toffee flavor.",
+      "ingredients": [
+        {
+          "item": "coarsely chopped toasted almonds or pecans",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped toasted almonds or pecans",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a 13x9x2-inch baking pan with foil, extending foil over edges. Sprinkle the 1/2 cup coarsely chopped nuts in pan. Butter sides of a heavy 2-quart saucepan. In saucepan melt butter. Add sugar, corn syrup, and 3 tablespoons water. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Clip candy thermometer to pan. Cook and stir over medium heat to 290\u00b0, soft-crack stage (about 15 minutes). Watch carefully after 280\u00b0 to prevent scorching. Remove saucepan from heat; remove thermometer. Pour mixture into prepared pan. Let stand 5 minutes or till firm; sprinkle with chocolate pieces."
+        },
+        {
+          "step": 3,
+          "text": "Let stand 1 to 2 minutes. When softened, spread chocolate over mixture. Sprinkle with nuts. Chill till firm. Lift candy out of pan; break into pieces. Store tightly covered. Makes about 1 1/2 pounds (48 servings)."
+        }
+      ],
+      "servings_yield": "About 1 1/2 pounds (48 servings)",
+      "pan_size": "13x9x2-inch",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 83,
+          "fat_g": 6,
+          "protein_g": 1,
+          "carbs_g": 7,
+          "cholesterol_mg": 42,
+          "sodium_mg": 11
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "glazed-nuts",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Glazed Nuts",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Cashews, peanuts, whole almonds, or pecan halves all taste great in this crunchy candy.",
+      "ingredients": [
+        {
+          "item": "raw or roasted nuts",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a baking sheet with foil. Butter the foil; set aside. In a heavy 10-inch skillet combine nuts, sugar, margarine or butter, and vanilla. Cook over medium-high heat, shaking skillet occasionally, till sugar begins to melt. Do not stir. Reduce heat to low and cook till sugar is golden brown, stirring occasionally. Remove skillet from heat."
+        },
+        {
+          "step": 2,
+          "text": "Pour onto prepared baking sheet. Cool completely. Break candy into clusters. Store tightly covered. Makes about 10 ounces (12 servings)."
+        }
+      ],
+      "servings_yield": "About 10 ounces (12 servings)",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 59,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 14,
+          "cholesterol_mg": 34,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramel-corn",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Corn",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "This sweet snack is oven-baked for extra crunch.",
+      "ingredients": [
+        {
+          "item": "popped popcorn",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": "about 1/3 to 1/2 cup unpopped"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove all unpopped kernels from popped corn. Place popcorn in a greased 17x12x2-inch baking pan. Keep popcorn warm in a 300\u00b0 oven while making caramel mixture."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 1 1/2-quart saucepan. In saucepan combine brown sugar, margarine or butter, and corn syrup. Cook and stir over medium heat to boiling. Clip candy thermometer to side of pan. Cook and stir over medium heat to 255\u00b0, hard-ball stage (about 4 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "Remove saucepan from heat. Stir in baking soda and vanilla; pour over popcorn. Stir gently to coat. Bake in a 300\u00b0 oven for 15 minutes; stir. Bake 5 minutes more. Transfer popcorn mixture to a large piece of foil; cool completely. Break into clusters. Store tightly covered. Makes about 9 cups (9 servings)."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "servings_yield": "About 9 cups (9 servings)",
+      "pan_size": "17x12x2-inch",
+      "notes": [
+        "Nutty Caramel Corn: Prepare as above, except add 1 1/2 cups peanuts, walnut halves, cashews, or pecan halves to caramel-coated corn before baking. Toss gently. Makes about 10 1/2 cups (10 servings)."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 7,
+          "protein_g": 1,
+          "carbs_g": 27,
+          "cholesterol_mg": 42,
+          "sodium_mg": 4
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chocolate-covered-cherries",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate-Covered Cherries",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "maraschino cherries with stems",
+          "quantity": "60",
+          "unit": "",
+          "prep_note": "about three 10-ounce jars"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "chocolate-flavored confectioners' coating",
+          "quantity": "1",
+          "unit": "lb"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain cherries thoroughly on paper towels for several hours. Combine margarine and corn syrup. Stir in powdered sugar; knead mixture till smooth (chill if too soft to handle)."
+        },
+        {
+          "step": 2,
+          "text": "Shape about 1/2 teaspoon powdered sugar mixture around each cherry. Place coated cherries upright on a baking sheet lined with waxed paper, chill about 1 hour or till firm (do not chill too long or sugar mixture will begin to dissolve)."
+        },
+        {
+          "step": 3,
+          "text": "Melt confectioners' coating (see tip, opposite). Holding cherries by stems, dip into coating. (Be sure to completely seal cherries in coating to prevent cherry juice from leaking.) Let excess coating drip off cherries. Place cherries, stem side up, on a baking sheet lined with waxed paper. Chill till coating is firm. Store in refrigerator in a tightly covered container. Let candies ripen in refrigerator for 1 to 2 weeks before serving. (Ripening allows powdered sugar mixture around cherries to soften and liquefy.) Makes 60 pieces."
+        }
+      ],
+      "servings_yield": "60 pieces",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5262 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 40,
+          "fat_g": 4,
+          "protein_g": 4,
+          "carbs_g": 1,
+          "cholesterol_mg": 39,
+          "sodium_mg": 4
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chocolate-dipped-fruit",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate-Dipped Fruit",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Chocolate-dipped strawberries are pictured on page 91.",
+      "ingredients": [
+        {
+          "item": "fresh strawberries, maraschino cherries, canned pineapple chunks or mandarin orange sections, or a combination",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "chocolate- or vanilla-flavored confectioners' coating",
+          "quantity": "8",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain fruit on paper towels for several hours. Melt confectioners' coating (see tip, opposite). Holding fruit by one end, dip a portion into melted coating. (Or, to completely cover the fruit, drop one piece at a time into melted coating. Use a fork to lift fruit out of coating.) Let excess coating drip off fruit; place on a baking sheet lined with waxed paper."
+        },
+        {
+          "step": 2,
+          "text": "Let dry. If desired, drizzle with additional melted coating. Serve fruit the same day it is dipped. Makes about 50 pieces."
+        }
+      ],
+      "servings_yield": "About 50 pieces",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5262 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 4,
+          "protein_g": 0,
+          "carbs_g": 4,
+          "cholesterol_mg": 77,
+          "sodium_mg": 1
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "fondant",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fondant",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter sides of a heavy 1 1/2-quart saucepan. In saucepan combine sugar, corn syrup, and 1 1/2 cups water. Cook and stir over medium-high heat to boiling. Cover and cook 45 seconds more. Uncover; clip candy thermometer to pan. Cook over medium-low heat, without stirring, to 240\u00b0, soft-ball stage (35 to 45 minutes). Pour mixture onto a 12-inch platter. Do not scrape pan. Cool, without stirring, till slightly warm to the touch (about 50 minutes)."
+        },
+        {
+          "step": 2,
+          "text": "Using a wooden spoon or a heavy-duty rubber spatula, beat vigorously till candy is white and firm (about 5 minutes). Form into a ball. Wrap in clear plastic wrap; let ripen at room temperature for 24 hours. (Ripening is necessary for smooth and creamy fondant.) If desired, use fondant to stuff whole pitted dates, prunes, or dried figs. Or, shape into 3/4-inch balls and dip into melted confectioners' coating (see tip, opposite). Makes about 3/4 pound (24 servings)."
+        }
+      ],
+      "servings_yield": "About 3/4 pound (24 servings)",
+      "notes": [
+        "Mint Patties: Prepare as above, except heat and stir ripened fondant in top of a double boiler over hot, not boiling, water till melted. Remove pan from heat, but leave fondant over hot water. Stir in 1 tablespoon softened margarine, 2 to 3 drops oil of peppermint or oil of cinnamon, and a few drops food coloring. Drop from a teaspoon onto waxed paper, swirling tops. Let stand till set. Cover to store. Makes 30 to 36 (1 1/2-inch) patties."
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5262 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 10,
+          "protein_g": 3,
+          "carbs_g": 14,
+          "cholesterol_mg": 25,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "truffles",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Truffles",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Instead of dipping them into coating, roll these nuggets in cocoa powder, chocolate sprinkles, or chopped nuts. (Pictured on page 91.)",
+      "ingredients": [
+        {
+          "item": "semisweet chocolate, coarsely chopped",
+          "quantity": "6",
+          "unit": "squares",
+          "prep_note": "6 ounces"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg yolk",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "rum, Irish whiskey, brandy, coffee liqueur, or orange liqueur",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chocolate-flavored confectioners' coating",
+          "quantity": "12",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy 2-quart saucepan combine semisweet chocolate, margarine or butter, and whipping cream. Cook and stir over low heat till chocolate melts (about 10 minutes). Remove saucepan from heat."
+        },
+        {
+          "step": 2,
+          "text": "Gradually stir about half of the hot mixture into the beaten egg yolk. Return the mixture to the saucepan. Cook and stir over medium heat till the mixture is slightly thickened. Remove saucepan from heat."
+        },
+        {
+          "step": 3,
+          "text": "Stir in rum, whiskey, brandy, or coffee or orange liqueur. Transfer mixture to a small mixing bowl. Cover and chill till completely cool and smooth, stirring occasionally (about 1 1/2 hours)."
+        },
+        {
+          "step": 4,
+          "text": "Beat chilled mixture with an electric mixer on medium speed till slightly fluffy (about 2 minutes). Chill till mixture holds its shape (10 to 15 minutes). Drop mixture by well-rounded teaspoons onto a baking sheet lined with waxed paper. Chill till firm (about 30 minutes). If desired, gently shape into balls."
+        },
+        {
+          "step": 5,
+          "text": "Melt chocolate-flavored confectioners' coating (see tip, right). Dip candy into melted confectioners' coating; let excess coating drip off candy. Place dipped candy on a baking sheet lined with waxed paper; let stand till coating is dry. Store tightly covered in a cool, dry place up to 2 weeks. Makes about 32 pieces."
+        }
+      ],
+      "servings_yield": "About 32 pieces",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5263 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 108,
+          "fat_g": 7,
+          "protein_g": 1,
+          "carbs_g": 10,
+          "cholesterol_mg": 27,
+          "sodium_mg": 12
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "peanut-butter-balls",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Butter Balls",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Fun for kids to make and eat.",
+      "tags": [
+        "easy",
+        "kid-friendly"
+      ],
+      "ingredients": [
+        {
+          "item": "peanut butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chocolate-flavored confectioners' coating",
+          "quantity": "8",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together peanut butter and margarine. Gradually add sugar, stirring till combined. Shape into 1-inch balls; place on waxed paper. Let stand till dry (about 20 minutes). Melt confectioners' coating (see tip, below). Cool slightly. Dip balls into melted coating; let excess drip off. Place on waxed paper; let stand till coating is dry. Makes about 30 pieces."
+        }
+      ],
+      "servings_yield": "About 30 pieces",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5263 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 6,
+          "protein_g": 2,
+          "carbs_g": 9,
+          "cholesterol_mg": 91,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "peanut-clusters",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Clusters",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "To keep the chocolate firm, remove only a few clusters at a time from the refrigerator.",
+      "tags": [
+        "easy"
+      ],
+      "ingredients": [
+        {
+          "item": "vanilla-flavored confectioners' coating, cut up",
+          "quantity": "1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "1 6-ounce package"
+        },
+        {
+          "item": "peanuts or cashews",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy medium saucepan melt confectioners' coating and chocolate pieces over low heat, stirring constantly. Stir in peanuts or cashews. Drop mixture from a teaspoon onto a baking sheet lined with waxed paper. Chill till firm (about 30 minutes). Store tightly covered in the refrigerator. Makes about 36 pieces."
+        },
+        {
+          "step": 2,
+          "text": "Microwave directions: In a medium bowl micro-cook confectioners' coating and chocolate pieces, uncovered, on 100% power (high) for 2 1/2 to 3 minutes or till mixture becomes smooth when stirred. Stir in nuts. Continue as above."
+        }
+      ],
+      "servings_yield": "About 36 pieces",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 105,
+          "fat_g": 8,
+          "protein_g": 3,
+          "carbs_g": 8,
+          "cholesterol_mg": 91,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramel-snappers",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Snappers",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Layers of toasted pecans, chewy caramel, and creamy chocolate make an irresistible candy. (Pictured on page 91.)",
+      "ingredients": [
+        {
+          "item": "pecan halves",
+          "quantity": "90",
+          "unit": "",
+          "prep_note": "about 1 1/2 cups"
+        },
+        {
+          "item": "vanilla caramels",
+          "quantity": "25",
+          "unit": "",
+          "prep_note": "1/2 of a 14-ounce package"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spread pecans into a single layer in a shallow baking pan. Bake in a 350\u00b0 oven about 10 minutes or till toasted, stirring occasionally. Line a baking sheet with foil. Butter the foil. On foil, arrange pecans in groups of 3, flat side down."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy saucepan combine caramels and margarine. Cook and stir over low heat till melted and smooth. Remove from heat. Drop about 1 teaspoon melted caramel mixture onto each group of pecans. Let caramel pieces stand till firm (about 20 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "In a small saucepan heat chocolate pieces and shortening over low heat, stirring constantly, till melted and smooth. Remove from heat. With a narrow spatula, spread a small amount of melted chocolate mixture over the top of each caramel piece. Let stand till firm. Remove from baking sheet. Store tightly covered. Makes 30 pieces."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "30 pieces",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 4,
+          "protein_g": 1,
+          "carbs_g": 4,
+          "cholesterol_mg": 19,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cream-cheese-mints",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream Cheese Mints",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Make these rich-tasting mints ahead, then store them in the freezer for up to 1 month.",
+      "ingredients": [
+        {
+          "item": "cream cheese, softened",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "1 package"
+        },
+        {
+          "item": "peppermint extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "food coloring",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "few drops"
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small mixing bowl stir together softened cream cheese and peppermint extract. Gradually add powdered sugar, stirring till mixture is smooth. (Knead in the last of the powdered sugar with your hands.) Add food coloring. Knead till food coloring is evenly distributed."
+        },
+        {
+          "step": 2,
+          "text": "Form cream cheese mixture into 3/4-inch balls. Roll each ball in sugar; place on waxed paper. Flatten each ball with the bottom of a juice glass or with the tines of a fork. (Or, sprinkle small candy molds lightly with sugar. Press about 3/4 to 1 teaspoon cream cheese mixture into each mold. Remove from molds.)"
+        },
+        {
+          "step": 3,
+          "text": "Cover mints with paper towels; let dry overnight. Store tightly covered in the refrigerator. Makes 48 to 60 mints."
+        }
+      ],
+      "servings_yield": "48 to 60 mints",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 17,
+          "protein_g": 0,
+          "carbs_g": 7,
+          "cholesterol_mg": 5,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "peters-peanut-brittle",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peter's Peanut Brittle",
+      "category": "candy",
+      "attribution": "Peter Ohan",
+      "source_note": "Family recipe insert",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "white Karo syrup",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "raw peanuts",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine sugar, peanuts, syrup, water, and salt. Cook over medium heat, stirring continuously, until peanuts are brown (hard crackle stage). Add soda and stir well. Pour into buttered pan. Break into pieces when cool."
+        }
+      ],
+      "tags": [
+        "candy",
+        "peanut",
+        "brittle",
+        "family recipe"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5291 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 10,
+          "protein_g": 1,
+          "carbs_g": 7,
+          "cholesterol_mg": 37,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      },
+      "servings_yield": "Makes about 1 pound"
+    },
+    {
+      "id": "peanut-butter-fudge-family",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Butter Fudge",
+      "category": "candy",
+      "attribution": "Karen Talbot",
+      "source_note": "Family recipe insert",
+      "ingredients": [
+        {
+          "item": "confectioners sugar",
+          "quantity": "2",
+          "unit": "lb"
+        },
+        {
+          "item": "peanut butter",
+          "quantity": "28",
+          "unit": "oz"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "marshmallows cream",
+          "quantity": "13",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix sugar and milk in saucepan and boil for 2 minutes. Remove from heat and stir in rest of the ingredients. Beat well with a greased, wooden spoon. Quickly pour into ungreased 9x13 inch pan."
+        }
+      ],
+      "pan_size": "9x13 inch pan",
+      "tags": [
+        "candy",
+        "fudge",
+        "peanut butter",
+        "family recipe"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5291 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 343,
+          "fat_g": 22.4,
+          "protein_g": 3.8,
+          "carbs_g": 34.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Estimated 8 servings based on total calories",
+          "Based on 5/5 ingredients (100% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "penuche",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Penuche",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "This brown sugar fudge is pictured on page 91.",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped pecans or walnuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x4x2- or a 9x5x3-inch loaf pan with foil; extend foil over edges. Butter foil; set aside. Butter the sides of a heavy 2-quart saucepan. Combine sugars, cream, and milk. Cook and stir over medium-high heat to boiling. Clip candy thermometer to side of pan. Cook and stir over medium-low heat to 236\u00b0, soft-ball stage (15 to 20 minutes)."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat. Add margarine and vanilla, but do not stir. Cool, without stirring, to 110\u00b0, lukewarm (about 50 minutes). Remove thermometer. Beat mixture vigorously till penuche just begins to thicken; add nuts. Continue beating till penuche becomes very thick and just starts to lose its gloss (about 10 minutes total). Spread into pan. Score into squares. Cut when firm. Makes about 1 1/4 pounds (32 servings)."
+        }
+      ],
+      "servings_yield": "About 1 1/4 pounds (32 servings)",
+      "pan_size": "8x4x2-inch or 9x5x3-inch loaf pan",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 2,
+          "protein_g": 0,
+          "carbs_g": 17,
+          "cholesterol_mg": 39,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "rocky-road",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rocky Road",
+      "category": "candy",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Marshmallows and chopped nuts are the rocks in this delicious chocolate road.",
+      "tags": [
+        "fast"
+      ],
+      "ingredients": [
+        {
+          "item": "milk chocolate, broken up",
+          "quantity": "2",
+          "unit": "bars",
+          "prep_note": "8-ounce bars"
+        },
+        {
+          "item": "tiny marshmallows",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "coarsely chopped nuts",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x8x2-inch baking pan with foil, extending foil over edges of pan. Butter foil; set aside. In a medium saucepan slowly melt chocolate over low heat, stirring constantly. Remove from heat. Stir in marshmallows and nuts. Spread into prepared pan. Chill till firm (at least 1 hour). Use foil to lift candy out of pan; cut into squares. Store in the refrigerator. Makes about 36 pieces."
+        },
+        {
+          "step": 2,
+          "text": "Microwave directions: Line pan and butter foil as above. In a medium bowl micro-cook chocolate, uncovered, on 100% power (high) for 1 1/2 to 2 1/4 minutes or till chocolate becomes smooth when stirred. Stir in marshmallows and nuts. Spread into prepared pan. Chill till firm. Lift candy from pan and cut into squares. Store in the refrigerator."
+        }
+      ],
+      "servings_yield": "About 36 pieces",
+      "pan_size": "8x8x2-inch",
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 6,
+          "protein_g": 2,
+          "carbs_g": 10,
+          "cholesterol_mg": 13,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chocolate-fudge-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate Fudge",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cakes, Cookies, Candies card",
+      "servings_yield": "32 pieces",
+      "prep_time": "2\u00bd hrs ahead",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "unsweetened chocolate",
+          "quantity": "2",
+          "unit": "squares"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped walnuts or pecans",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large saucepan over medium heat, heat sugar, milk, corn syrup, and unsweetened chocolate squares to boiling, stirring constantly."
+        },
+        {
+          "step": 2,
+          "text": "Set candy thermometer in place and continue cooking, stirring occasionally, until temperature reaches 238\u00b0F, or until a small amount of mixture dropped into very cold water forms a soft ball."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat; immediately add butter or margarine and vanilla extract."
+        },
+        {
+          "step": 4,
+          "text": "Cool mixture, without stirring, to 110\u00b0F, or until outside of saucepan feels lukewarm to hand. Meanwhile, butter 8\" by 8\" baking pan."
+        },
+        {
+          "step": 5,
+          "text": "With spoon, beat until mixture becomes thick and begins to lose its gloss. Quickly stir in nuts; pour into pan. (Don't scrape saucepan; mixture on side may be sugary.) Cool in pan; when cold, cut into 32 squares."
+        }
+      ],
+      "notes": [
+        "122 cals per piece",
+        "Peanut Butter Fudge: Prepare as above but use \u00bc cup creamy peanut butter for butter and substitute 1 cup chopped salted peanuts for walnuts. Makes 32 pieces. 160 cals per piece.",
+        "Chocolate-Marshmallow Fudge: Prepare as above but stir in 1 cup miniature marshmallows just before pouring mixture into pan. Makes 32 pieces. 126 cals per piece."
+      ],
+      "tags": [
+        "candy",
+        "fudge",
+        "chocolate"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5167 Large.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5168 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 4,
+          "protein_g": 1,
+          "carbs_g": 14,
+          "cholesterol_mg": 9,
+          "sodium_mg": 18
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "candy-apples-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Candy Apples",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cakes, Cookies, Candies card",
+      "description": "A classic fair treat - bright red candy-coated apples on a stick.",
+      "servings_yield": "8 apples",
+      "prep_time": "Begin early in day",
+      "ingredients": [
+        {
+          "item": "small Red Delicious apples",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "wooden ice-cream-bar sticks",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "\u00bd",
+          "unit": "cup"
+        },
+        {
+          "item": "red-hot candies",
+          "quantity": "\u00bc",
+          "unit": "cup"
+        },
+        {
+          "item": "red food color",
+          "quantity": "\u00bd",
+          "unit": "tsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Early in day: Wash and thoroughly dry apples; carefully insert a wooden stick part way through stem end of each. Grease large cookie sheet; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In medium saucepan over medium heat, heat remaining ingredients to boiling, stirring frequently until sugar and candies are dissolved."
+        },
+        {
+          "step": 3,
+          "text": "Set candy thermometer in place and continue cooking, without stirring, until temperature reaches 290\u00b0F or until a small amount of mixture dropped into very cold water separates into thin, hard threads, about 20 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Immediately remove syrup from heat and dip in apples: Tip saucepan and swirl each apple in mixture to coat evenly; lift out apple and swirl over saucepan a few more seconds to catch drips. Place apples on greased cookie sheet to cool. Work quickly before syrup hardens; if it does harden, place over very low heat to soften. Cool apples for at least 1 hour before serving."
+        }
+      ],
+      "notes": [
+        "416 cals per apple"
+      ],
+      "tags": [
+        "candy",
+        "apples",
+        "fair food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5168 Large.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5169 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1212,
+          "fat_g": 88.3,
+          "protein_g": 5.5,
+          "carbs_g": 109.0
+        },
+        "missing_inputs": [
+          "Not in database: red-hot candies",
+          "Not in database: red food color"
+        ],
+        "assumptions": [
+          "Assumed 1 unit for light corn syrup",
+          "Based on 5/7 ingredients (71% coverage)"
+        ]
+      }
+    },
+    {
+      "id": "opera-fudge-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Opera Fudge",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 94",
+      "servings_yield": "Makes about 1 pound (32 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "light cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x4x2-inch loaf pan with foil, extending foil over edges of pan. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 2-quart saucepan."
+        },
+        {
+          "step": 3,
+          "text": "In saucepan combine sugar, milk, cream, and corn syrup. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Carefully clip a candy thermometer to side of pan. Cook and stir over medium-low heat to 238\u00b0, soft-ball stage (25 to 35 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Remove saucepan from heat. Add margarine and vanilla, but do not stir. Cool, without stirring, to 110\u00b0, lukewarm (about 55 minutes)."
+        },
+        {
+          "step": 6,
+          "text": "Remove candy thermometer from saucepan. Beat mixture vigorously with a wooden spoon till fudge becomes very thick and just starts to lose its gloss (about 10 minutes total)."
+        },
+        {
+          "step": 7,
+          "text": "Immediately spread fudge into prepared pan. Score into squares while warm. When candy is firm, use the foil to lift it out of the pan; cut into squares."
+        },
+        {
+          "step": 8,
+          "text": "Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "fudge",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5258 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 1,
+          "protein_g": 0,
+          "carbs_g": 13,
+          "cholesterol_mg": 8,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "old-time-fudge-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Old-Time Fudge",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 94",
+      "description": "So rich and creamy, it melts in your mouth.",
+      "servings_yield": "Makes about 1 1/4 pounds (32 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "unsweetened chocolate, cut up",
+          "quantity": "2",
+          "unit": "oz",
+          "prep_note": "2 squares (2 ounces)"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped nuts (optional)",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a 9x5x3-inch loaf pan with foil, extending foil over edges of pan. Butter the foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 2-quart saucepan."
+        },
+        {
+          "step": 3,
+          "text": "In saucepan combine sugar, milk, chocolate, and corn syrup. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Carefully clip a candy thermometer to side of pan. Cook and stir over medium-low heat to 234\u00b0, soft-ball stage (20 to 25 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Remove saucepan from heat. Add margarine and vanilla, but do not stir. Cool, without stirring, to 110\u00b0, lukewarm (about 55 minutes)."
+        },
+        {
+          "step": 6,
+          "text": "Remove candy thermometer from saucepan. Beat mixture vigorously with a wooden spoon till fudge just begins to thicken. Add chopped nuts, if desired."
+        },
+        {
+          "step": 7,
+          "text": "Continue beating till fudge becomes very thick and just starts to lose its gloss (about 10 minutes total)."
+        },
+        {
+          "step": 8,
+          "text": "Immediately spread fudge into prepared pan. Score into squares while warm. When candy is firm, use foil to lift it out of pan; cut candy into squares."
+        },
+        {
+          "step": 9,
+          "text": "Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "fudge",
+        "chocolate",
+        "classic"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5258 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 1,
+          "protein_g": 0,
+          "carbs_g": 13,
+          "cholesterol_mg": 8,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "remarkable-fudge-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Remarkable Fudge",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 95",
+      "servings_yield": "Makes about 3 1/2 pounds (96 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "4",
+          "unit": "cups"
+        },
+        {
+          "item": "evaporated milk",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": "two 5-ounce cans (1 1/3 cups total)"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": "one 12-ounce package (2 cups)"
+        },
+        {
+          "item": "marshmallow creme",
+          "quantity": "7",
+          "unit": "oz",
+          "prep_note": "1 jar"
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a 13x9x2-inch baking pan with foil; extend foil over edges. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter sides of a heavy 3-quart saucepan. In it, combine sugar, milk, and margarine. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Clip candy thermometer to side of pan. Cook and stir over medium heat to 236\u00b0, soft-ball stage (about 12 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Remove saucepan from heat; remove thermometer. Add chocolate pieces, marshmallow creme, nuts, and vanilla; stir till chocolate melts."
+        },
+        {
+          "step": 5,
+          "text": "Spread into pan. Score into squares while warm."
+        },
+        {
+          "step": 6,
+          "text": "When firm, cut into squares. Store in the refrigerator."
+        }
+      ],
+      "tags": [
+        "candy",
+        "fudge",
+        "chocolate",
+        "marshmallow"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 86,
+          "fat_g": 4,
+          "protein_g": 1,
+          "carbs_g": 13,
+          "cholesterol_mg": 27,
+          "sodium_mg": 1
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "penuche-candy-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Penuche",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 95",
+      "description": "This brown sugar fudge is pictured on page 91.",
+      "servings_yield": "Makes about 1 1/4 pounds (32 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped pecans or walnuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x4x2- or a 9x5x3-inch loaf pan with foil; extend foil over edges. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 2-quart saucepan. Combine sugars, cream, and milk. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Clip candy thermometer to side of pan. Cook and stir over medium-low heat to 236\u00b0, soft-ball stage (15 to 20 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Add margarine and vanilla, but do not stir. Cool, without stirring, to 110\u00b0, lukewarm (about 50 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Remove thermometer. Beat mixture vigorously till penuche just begins to thicken; add nuts."
+        },
+        {
+          "step": 6,
+          "text": "Continue beating till penuche becomes very thick and just starts to lose its gloss (about 10 minutes total)."
+        },
+        {
+          "step": 7,
+          "text": "Spread into pan. Score into squares. Cut when firm."
+        }
+      ],
+      "tags": [
+        "candy",
+        "penuche",
+        "brown sugar",
+        "fudge"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 2,
+          "protein_g": 0,
+          "carbs_g": 17,
+          "cholesterol_mg": 39,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramels-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramels",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 95",
+      "description": "Don't use corn-oil margarine. It will make your caramels too soft.",
+      "servings_yield": "Makes about 2 pounds (64 servings)",
+      "ingredients": [
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "one 16-ounce package (2 1/4 cups)"
+        },
+        {
+          "item": "light cream",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x8x2- or 9x9x2-inch baking pan with foil, extending foil over edges of pan. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy 3-quart saucepan melt margarine or butter over low heat."
+        },
+        {
+          "step": 3,
+          "text": "Add brown sugar, cream, and corn syrup; mix well. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Carefully clip a candy thermometer to the side of the pan. Cook and stir mixture over medium heat to 248\u00b0, firm-ball stage (45 to 60 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Remove the saucepan from heat; remove thermometer. Stir in vanilla."
+        },
+        {
+          "step": 6,
+          "text": "Immediately pour caramel mixture into the prepared pan. When caramel mixture is firm, use foil to lift it out of pan."
+        },
+        {
+          "step": 7,
+          "text": "Use a buttered knife to cut into 1-inch squares. Wrap each caramel in clear plastic wrap."
+        }
+      ],
+      "notes": [
+        "Walnut Caramels: Prepare as above, except sprinkle 1 cup chopped walnuts onto the bottom of the buttered, foil-lined pan. Pour hot caramel mixture over nuts in prepared pan.",
+        "Mocha Caramels: Prepare as above, except reduce margarine or butter to 3/4 cup and melt 2 squares (2 ounces) unsweetened chocolate with the margarine. Add 1 tablespoon instant coffee crystals to margarine mixture with sugar, cream, and corn syrup.",
+        "Shortcut Caramels: Prepare as above, except substitute one 14-ounce can (1 1/4 cups) sweetened condensed milk for the cream. This mixture will take less time to reach 248\u00b0 (about 15 to 20 minutes instead of 45 to 60 minutes)."
+      ],
+      "tags": [
+        "candy",
+        "caramels",
+        "chewy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 85,
+          "fat_g": 6,
+          "protein_g": 0,
+          "carbs_g": 8,
+          "cholesterol_mg": 14,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramel-apples-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Apples",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 95",
+      "servings_yield": "Makes 14 to 16 caramel apples",
+      "ingredients": [
+        {
+          "item": "small tart apples",
+          "quantity": "14 to 16",
+          "unit": ""
+        },
+        {
+          "item": "wooden skewers",
+          "quantity": "14 to 16",
+          "unit": ""
+        },
+        {
+          "item": "Caramels mixture",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "prepare as above"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and dry 14 to 16 small tart apples; remove stems."
+        },
+        {
+          "step": 2,
+          "text": "Insert a wooden skewer into the stem end of each apple."
+        },
+        {
+          "step": 3,
+          "text": "Prepare as above, except do not pour caramel mixture into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Working quickly, dip each apple into hot caramel mixture; turn to coat."
+        },
+        {
+          "step": 5,
+          "text": "If desired, dip bottoms of apples into 1 cup chopped peanuts."
+        },
+        {
+          "step": 6,
+          "text": "Set on a buttered baking sheet; chill, if desired."
+        }
+      ],
+      "tags": [
+        "candy",
+        "caramel apples",
+        "fall",
+        "Halloween"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5259 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 439,
+          "fat_g": 20,
+          "protein_g": 23,
+          "carbs_g": 68,
+          "cholesterol_mg": 292,
+          "sodium_mg": 132
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "saltwater-taffy-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Saltwater Taffy",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 96",
+      "description": "Be sure to recruit some help when it's time to pull this tasty taffy.",
+      "servings_yield": "Makes about 1 1/2 pounds (48 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "peppermint extract, rum flavoring, or few drops oil of cinnamon (optional)",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "few drops food coloring (optional)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter a 15x10x1-inch baking pan; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 2-quart saucepan. In saucepan combine sugar, corn syrup, 1 cup water, and 1 1/2 teaspoons salt. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Clip candy thermometer to side of pan. Cook over medium heat, without stirring, to 265\u00b0, hard-ball stage (about 40 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Remove saucepan from heat. Stir in margarine. Stir in flavoring and coloring, if desired."
+        },
+        {
+          "step": 5,
+          "text": "Pour into prepared pan. Cool for 15 to 20 minutes or till easy to handle."
+        },
+        {
+          "step": 6,
+          "text": "Butter hands; divide candy into four pieces. Twist and pull each piece till it turns a creamy color (about 10 minutes)."
+        },
+        {
+          "step": 7,
+          "text": "Candy is ready if it cracks when tapped on counter. With buttered scissors, snip taffy into bite-size pieces. Wrap in clear plastic wrap."
+        }
+      ],
+      "tags": [
+        "candy",
+        "taffy",
+        "pulled candy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5260 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 13,
+          "cholesterol_mg": 10,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pralines-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Pralines",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 96",
+      "servings_yield": "Makes about 36",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "light cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pecan halves",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter sides of a heavy 2-quart saucepan. In it, combine sugars and cream. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Clip candy thermometer to side of pan. Cook and stir over medium-low heat to 234\u00b0, soft-ball stage (16 to 18 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Add margarine, but do not stir. Cool, without stirring, to 150\u00b0 (about 30 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Stir in nuts. Beat till candy just begins to thicken but is still glossy (about 3 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Drop by spoonfuls onto waxed paper. If candy becomes too stiff, stir in a few drops hot water."
+        },
+        {
+          "step": 6,
+          "text": "Store tightly covered."
+        }
+      ],
+      "notes": [
+        "Chocolate Pralines: Prepare as above, except add 2 squares (2 ounces) finely chopped unsweetened chocolate with the margarine."
+      ],
+      "tags": [
+        "candy",
+        "pralines",
+        "pecans",
+        "Southern"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5260 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 132,
+          "fat_g": 7,
+          "protein_g": 1,
+          "carbs_g": 19,
+          "cholesterol_mg": 17,
+          "sodium_mg": 4
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "divinity-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Divinity",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 96",
+      "servings_yield": "Makes about 40 pieces",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "food coloring (optional)",
+          "quantity": "1 or 2",
+          "unit": "drops"
+        },
+        {
+          "item": "chopped candied fruit or nuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy 2-quart saucepan mix sugar, corn syrup, and 1/2 cup water. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 2,
+          "text": "Clip candy thermometer to pan. Cook over medium heat, without stirring, to 260\u00b0, hard-ball stage (10 to 15 minutes). Remove from heat. Remove candy thermometer."
+        },
+        {
+          "step": 3,
+          "text": "In a large mixing bowl, beat egg whites with a sturdy, freestanding electric mixer on medium speed till stiff peaks form (tips stand straight)."
+        },
+        {
+          "step": 4,
+          "text": "Gradually pour hot mixture in a thin stream over whites, beating on high about 3 minutes; scrape bowl."
+        },
+        {
+          "step": 5,
+          "text": "Add vanilla and, if desired, food coloring. Continue beating on high just till candy starts to lose its gloss."
+        },
+        {
+          "step": 6,
+          "text": "When beaters are lifted, mixture should fall in ribbon that mounds on itself. This final beating should take 5 to 6 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Drop a spoonful of candy mixture onto waxed paper. If it stays mounded, the mixture has been beaten sufficiently. Immediately stir in fruit or nuts."
+        },
+        {
+          "step": 8,
+          "text": "Quickly drop remaining mixture from a teaspoon onto waxed paper."
+        },
+        {
+          "step": 9,
+          "text": "If mixture flattens out, beat 1/4 to 1 minute more; check again. If mixture is too stiff to spoon, beat in a few drops hot water till candy is a softer consistency."
+        },
+        {
+          "step": 10,
+          "text": "Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "divinity",
+        "fluffy",
+        "holiday"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5260 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 69,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 18,
+          "cholesterol_mg": 1,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "nut-brittle-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nut Brittle",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 97",
+      "servings_yield": "Makes about 2 1/4 pounds (72 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "raw peanuts or other coarsely chopped nuts",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda, sifted",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter 2 large baking sheets; set aside."
+        },
+        {
+          "step": 2,
+          "text": "Butter sides of a heavy 3-quart saucepan. In saucepan combine sugar, corn syrup, margarine, and 1/4 cup water. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 3,
+          "text": "Clip candy thermometer to side of pan. Cook and stir over medium-low heat to 275\u00b0, soft-crack stage (about 30 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Add nuts; cook and stir to 295\u00b0, hard-crack stage (15 to 20 minutes more)."
+        },
+        {
+          "step": 5,
+          "text": "Remove saucepan from heat; remove thermometer."
+        },
+        {
+          "step": 6,
+          "text": "Quickly sprinkle soda over mixture, stirring constantly. Immediately pour onto prepared baking sheets."
+        },
+        {
+          "step": 7,
+          "text": "Cool; break into pieces. Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "brittle",
+        "peanut brittle",
+        "nuts"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 10,
+          "protein_g": 1,
+          "carbs_g": 7,
+          "cholesterol_mg": 37,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "toffee-butter-crunch-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Toffee Butter Crunch",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 97",
+      "description": "Butter is a must for top-notch toffee flavor.",
+      "servings_yield": "Makes about 1 1/2 pounds (48 servings)",
+      "ingredients": [
+        {
+          "item": "coarsely chopped toasted almonds or pecans",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped toasted almonds or pecans",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a 13x9x2-inch baking pan with foil, extending foil over edges."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle the 1/2 cup coarsely chopped nuts in pan."
+        },
+        {
+          "step": 3,
+          "text": "Butter sides of a heavy 2-quart saucepan. In saucepan melt butter. Add sugar, corn syrup, and 3 tablespoons water. Cook and stir over medium-high heat to boiling."
+        },
+        {
+          "step": 4,
+          "text": "Clip candy thermometer to pan. Cook and stir over medium heat to 290\u00b0, soft-crack stage (about 15 minutes). Watch carefully after 280\u00b0 to prevent scorching."
+        },
+        {
+          "step": 5,
+          "text": "Remove saucepan from heat; remove thermometer. Pour mixture into prepared pan."
+        },
+        {
+          "step": 6,
+          "text": "Let stand 5 minutes or till firm; sprinkle with chocolate pieces."
+        },
+        {
+          "step": 7,
+          "text": "Let stand 1 to 2 minutes. When softened, spread chocolate over mixture. Sprinkle with nuts."
+        },
+        {
+          "step": 8,
+          "text": "Chill till firm. Lift candy out of pan; break into pieces."
+        },
+        {
+          "step": 9,
+          "text": "Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "toffee",
+        "chocolate",
+        "almonds"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 83,
+          "fat_g": 6,
+          "protein_g": 1,
+          "carbs_g": 7,
+          "cholesterol_mg": 42,
+          "sodium_mg": 11
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "glazed-nuts-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Glazed Nuts",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 97",
+      "description": "Cashews, peanuts, whole almonds, or pecan halves all taste great in this crunchy candy.",
+      "servings_yield": "Makes about 10 ounces (12 servings)",
+      "ingredients": [
+        {
+          "item": "raw or roasted nuts",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line a baking sheet with foil. Butter the foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy 10-inch skillet combine nuts, sugar, margarine or butter, and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Cook over medium-high heat, shaking skillet occasionally, till sugar begins to melt. Do not stir."
+        },
+        {
+          "step": 4,
+          "text": "Reduce heat to low and cook till sugar is golden brown, stirring occasionally. Remove skillet from heat."
+        },
+        {
+          "step": 5,
+          "text": "Pour onto prepared baking sheet. Cool completely. Break candy into clusters."
+        },
+        {
+          "step": 6,
+          "text": "Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "nuts",
+        "glazed",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 59,
+          "fat_g": 0,
+          "protein_g": 0,
+          "carbs_g": 14,
+          "cholesterol_mg": 34,
+          "sodium_mg": 5
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramel-corn-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Corn",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 97",
+      "description": "This sweet snack is oven-baked for extra crunch.",
+      "servings_yield": "Makes about 9 cups (9 servings)",
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "ingredients": [
+        {
+          "item": "popped popcorn",
+          "quantity": "8",
+          "unit": "cups",
+          "prep_note": "about 1/3 to 1/2 cup unpopped"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove all unpopped kernels from popped corn. Place popcorn in a greased 17x12x2-inch baking pan. Keep popcorn warm in a 300\u00b0 oven while making caramel mixture."
+        },
+        {
+          "step": 2,
+          "text": "Butter the sides of a heavy 1 1/2-quart saucepan. In saucepan combine brown sugar, margarine or butter, and corn syrup."
+        },
+        {
+          "step": 3,
+          "text": "Cook and stir over medium heat to boiling. Clip candy thermometer to side of pan."
+        },
+        {
+          "step": 4,
+          "text": "Cook and stir over medium heat to 255\u00b0, hard-ball stage (about 4 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Remove saucepan from heat. Stir in baking soda and vanilla; pour over popcorn. Stir gently to coat."
+        },
+        {
+          "step": 6,
+          "text": "Bake in a 300\u00b0 oven for 15 minutes; stir. Bake 5 minutes more."
+        },
+        {
+          "step": 7,
+          "text": "Transfer popcorn mixture to a large piece of foil; cool completely."
+        },
+        {
+          "step": 8,
+          "text": "Break into clusters. Store tightly covered."
+        }
+      ],
+      "notes": [
+        "Nutty Caramel Corn: Prepare as above, except add 1 1/2 cups peanuts, walnut halves, cashews, or pecan halves to caramel-coated corn before baking. Toss gently. Makes about 10 1/2 cups (10 servings)."
+      ],
+      "tags": [
+        "candy",
+        "caramel corn",
+        "popcorn",
+        "snack"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5261 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 7,
+          "protein_g": 1,
+          "carbs_g": 27,
+          "cholesterol_mg": 42,
+          "sodium_mg": 4
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chocolate-covered-cherries-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate-Covered Cherries",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 98",
+      "servings_yield": "Makes 60 pieces",
+      "ingredients": [
+        {
+          "item": "maraschino cherries with stems",
+          "quantity": "60",
+          "unit": "",
+          "prep_note": "about three 10-ounce jars"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "chocolate-flavored confectioners' coating",
+          "quantity": "1",
+          "unit": "lb"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain cherries thoroughly on paper towels for several hours."
+        },
+        {
+          "step": 2,
+          "text": "Combine margarine and corn syrup. Stir in powdered sugar; knead mixture till smooth (chill if too soft to handle)."
+        },
+        {
+          "step": 3,
+          "text": "Shape about 1/2 teaspoon powdered sugar mixture around each cherry. Place coated cherries upright on a baking sheet lined with waxed paper, chill about 1 hour or till firm (do not chill too long or sugar mixture will begin to dissolve)."
+        },
+        {
+          "step": 4,
+          "text": "Melt confectioners' coating (see tip, opposite)."
+        },
+        {
+          "step": 5,
+          "text": "Holding cherries by stems, dip into coating. (Be sure to completely seal cherries in coating to prevent cherry juice from leaking.)"
+        },
+        {
+          "step": 6,
+          "text": "Let excess coating drip off cherries. Place cherries, stem side up, on a baking sheet lined with waxed paper."
+        },
+        {
+          "step": 7,
+          "text": "Chill till coating is firm. Store in refrigerator in a tightly covered container. Let candies ripen in refrigerator for 1 to 2 weeks before serving. (Ripening allows powdered sugar mixture around cherries to soften and liquefy.)"
+        }
+      ],
+      "tags": [
+        "candy",
+        "chocolate",
+        "cherries",
+        "dipped"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5262 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 40,
+          "fat_g": 4,
+          "protein_g": 4,
+          "carbs_g": 1,
+          "cholesterol_mg": 39,
+          "sodium_mg": 4
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "chocolate-dipped-fruit-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chocolate-Dipped Fruit",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 98",
+      "description": "Chocolate-dipped strawberries are pictured on page 91.",
+      "servings_yield": "Makes about 50 pieces",
+      "ingredients": [
+        {
+          "item": "fresh strawberries, maraschino cherries, canned pineapple chunks, or mandarin orange sections, or a combination",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "chocolate- or vanilla-flavored confectioners' coating",
+          "quantity": "8",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain fruit on paper towels for several hours."
+        },
+        {
+          "step": 2,
+          "text": "Melt confectioners' coating (see tip, opposite)."
+        },
+        {
+          "step": 3,
+          "text": "Holding fruit by one end, dip a portion into melted coating. (Or, to completely cover the fruit, drop one piece at a time into melted coating. Use a fork to lift fruit out of coating.)"
+        },
+        {
+          "step": 4,
+          "text": "Let excess coating drip off fruit; place on a baking sheet lined with waxed paper."
+        },
+        {
+          "step": 5,
+          "text": "Let dry. If desired, drizzle with additional melted coating."
+        },
+        {
+          "step": 6,
+          "text": "Serve fruit the same day it is dipped."
+        }
+      ],
+      "tags": [
+        "candy",
+        "chocolate",
+        "fruit",
+        "dipped"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5262 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 4,
+          "protein_g": 0,
+          "carbs_g": 4,
+          "cholesterol_mg": 77,
+          "sodium_mg": 1
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "fondant-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fondant",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 98",
+      "servings_yield": "Makes about 3/4 pound (24 servings)",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Butter sides of a heavy 1 1/2-quart saucepan. In saucepan combine sugar, corn syrup, and 1 1/2 cups water."
+        },
+        {
+          "step": 2,
+          "text": "Cook and stir over medium-high heat to boiling. Cover and cook 45 seconds more."
+        },
+        {
+          "step": 3,
+          "text": "Uncover; clip candy thermometer to pan. Cook over medium-low heat, without stirring, to 240\u00b0, soft-ball stage (35 to 45 minutes)."
+        },
+        {
+          "step": 4,
+          "text": "Pour mixture onto a 12-inch platter. Do not scrape pan. Cool, without stirring, till slightly warm to the touch (about 50 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Using a wooden spoon or a heavy-duty rubber spatula, beat vigorously till candy is white and firm (about 10 minutes)."
+        },
+        {
+          "step": 6,
+          "text": "Knead till smooth, about 5 minutes. Form into a ball. Wrap in clear plastic wrap; let ripen at room temperature for 24 hours. (Ripening is necessary for smooth and creamy fondant.)"
+        },
+        {
+          "step": 7,
+          "text": "If desired, use fondant to stuff whole pitted dates, prunes, or dried figs. Or, shape into 3/4-inch balls and dip into melted confectioners' coating (see tip, opposite)."
+        }
+      ],
+      "notes": [
+        "Mint Patties: Prepare as above, except heat and stir ripened fondant in top of a double boiler over hot, not boiling, water till melted. Remove pan from heat, but leave fondant over hot water. Stir in 1 tablespoon softened margarine, 2 to 3 drops oil of peppermint or oil of cinnamon, and a few drops food coloring. Drop from a teaspoon onto waxed paper, swirling tops. Let stand till set. Cover to store. Makes 30 to 36 (1 1/2-inch) patties."
+      ],
+      "tags": [
+        "candy",
+        "fondant",
+        "classic",
+        "versatile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5262 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 10,
+          "protein_g": 3,
+          "carbs_g": 14,
+          "cholesterol_mg": 25,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "truffles-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Truffles",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 99",
+      "description": "Instead of dipping them into coating, roll these nuggets in cocoa powder, chocolate sprinkles, or chopped nuts. (Pictured on page 91.)",
+      "servings_yield": "Makes about 32 pieces",
+      "ingredients": [
+        {
+          "item": "semisweet chocolate, coarsely chopped",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "6 squares (6 ounces)"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "beaten egg yolk",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "rum, Irish whiskey, brandy, coffee liqueur, or orange liqueur",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chocolate-flavored confectioners' coating",
+          "quantity": "12",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy 2-quart saucepan combine semisweet chocolate, margarine or butter, and whipping cream. Cook and stir over low heat till chocolate melts (about 10 minutes). Remove saucepan from heat."
+        },
+        {
+          "step": 2,
+          "text": "Gradually stir about half of the hot mixture into the beaten egg yolk. Return the mixture to the saucepan."
+        },
+        {
+          "step": 3,
+          "text": "Cook and stir over medium heat till the mixture is slightly thickened. Remove saucepan from heat."
+        },
+        {
+          "step": 4,
+          "text": "Stir in rum, whiskey, brandy, or coffee or orange liqueur."
+        },
+        {
+          "step": 5,
+          "text": "Transfer mixture to a small mixing bowl. Cover and chill till completely cool and smooth, stirring occasionally (about 1 1/2 hours)."
+        },
+        {
+          "step": 6,
+          "text": "Beat chilled mixture with an electric mixer on medium speed till slightly fluffy (about 2 minutes)."
+        },
+        {
+          "step": 7,
+          "text": "Chill till mixture holds its shape (10 to 15 minutes). Drop mixture by well-rounded teaspoons onto a baking sheet lined with waxed paper."
+        },
+        {
+          "step": 8,
+          "text": "Chill till firm (about 30 minutes). If desired, gently shape into balls."
+        },
+        {
+          "step": 9,
+          "text": "Melt chocolate-flavored confectioners' coating (see tip, right)."
+        },
+        {
+          "step": 10,
+          "text": "Dip candy into melted confectioners' coating; let excess coating drip off candy."
+        },
+        {
+          "step": 11,
+          "text": "Place dipped candy on a baking sheet lined with waxed paper; let stand till coating is dry."
+        },
+        {
+          "step": 12,
+          "text": "Store tightly covered in a cool, dry place up to 2 weeks."
+        }
+      ],
+      "tags": [
+        "candy",
+        "truffles",
+        "chocolate",
+        "fancy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5263 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 108,
+          "fat_g": 7,
+          "protein_g": 1,
+          "carbs_g": 10,
+          "cholesterol_mg": 27,
+          "sodium_mg": 12
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "peanut-butter-balls-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Butter Balls",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 99",
+      "description": "Fun for kids to make and eat.",
+      "servings_yield": "Makes about 30 pieces",
+      "ingredients": [
+        {
+          "item": "peanut butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter, softened",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chocolate-flavored confectioners' coating",
+          "quantity": "8",
+          "unit": "oz"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together peanut butter and margarine. Gradually add sugar, stirring till combined."
+        },
+        {
+          "step": 2,
+          "text": "Shape into 1-inch balls; place on waxed paper. Let stand till dry (about 20 minutes)."
+        },
+        {
+          "step": 3,
+          "text": "Melt confectioners' coating (see tip, below). Cool slightly."
+        },
+        {
+          "step": 4,
+          "text": "Dip balls into melted coating; let excess drip off."
+        },
+        {
+          "step": 5,
+          "text": "Place on waxed paper; let stand till coating is dry."
+        }
+      ],
+      "tags": [
+        "candy",
+        "peanut butter",
+        "chocolate",
+        "easy",
+        "kids"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5263 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 6,
+          "protein_g": 2,
+          "carbs_g": 9,
+          "cholesterol_mg": 91,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "peanut-clusters-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Peanut Clusters",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 100",
+      "description": "To keep the chocolate firm, remove only a few clusters at a time from the refrigerator.",
+      "servings_yield": "Makes about 36 pieces",
+      "ingredients": [
+        {
+          "item": "vanilla-flavored confectioners' coating, cut up",
+          "quantity": "1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "one 6-ounce package (1 cup)"
+        },
+        {
+          "item": "peanuts or cashews",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy medium saucepan melt confectioners' coating and chocolate pieces over low heat, stirring constantly."
+        },
+        {
+          "step": 2,
+          "text": "Stir in peanuts or cashews."
+        },
+        {
+          "step": 3,
+          "text": "Drop mixture from a teaspoon onto a baking sheet lined with waxed paper."
+        },
+        {
+          "step": 4,
+          "text": "Chill till firm (about 30 minutes)."
+        },
+        {
+          "step": 5,
+          "text": "Store tightly covered in the refrigerator."
+        }
+      ],
+      "notes": [
+        "Microwave directions: In a medium bowl micro-cook confectioners' coating and chocolate pieces, uncovered, on 100% power (high) for 2 1/2 to 3 minutes or till mixture becomes smooth when stirred. Stir in nuts. Continue as above."
+      ],
+      "tags": [
+        "candy",
+        "peanut clusters",
+        "chocolate",
+        "easy"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 105,
+          "fat_g": 8,
+          "protein_g": 3,
+          "carbs_g": 8,
+          "cholesterol_mg": 91,
+          "sodium_mg": 7
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "caramel-snappers-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Caramel Snappers",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 100",
+      "description": "Layers of toasted pecans, chewy caramel, and creamy chocolate make an irresistible candy. (Pictured on page 91.)",
+      "servings_yield": "Makes 30 pieces",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "ingredients": [
+        {
+          "item": "pecan halves",
+          "quantity": "90",
+          "unit": "",
+          "prep_note": "about 1 1/2 cups"
+        },
+        {
+          "item": "vanilla caramels",
+          "quantity": "7",
+          "unit": "oz",
+          "prep_note": "1/2 of a 14-ounce package (about 25)"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spread pecans into a single layer in a shallow baking pan. Bake in a 350\u00b0 oven about 10 minutes or till toasted, stirring occasionally."
+        },
+        {
+          "step": 2,
+          "text": "Line a baking sheet with foil. Butter the foil. On foil, arrange pecans in groups of 3, flat side down."
+        },
+        {
+          "step": 3,
+          "text": "In a heavy saucepan combine caramels and margarine. Cook and stir over low heat till melted and smooth."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Drop about 1 teaspoon melted caramel mixture onto each group of pecans."
+        },
+        {
+          "step": 5,
+          "text": "Let caramel pieces stand till firm (about 20 minutes)."
+        },
+        {
+          "step": 6,
+          "text": "In a small saucepan heat chocolate pieces and shortening over low heat, stirring constantly, till melted and smooth. Remove from heat."
+        },
+        {
+          "step": 7,
+          "text": "With a narrow spatula, spread a small amount of melted chocolate mixture over the top of each caramel piece."
+        },
+        {
+          "step": 8,
+          "text": "Let stand till firm. Remove from baking sheet. Store tightly covered."
+        }
+      ],
+      "tags": [
+        "candy",
+        "caramel",
+        "pecan",
+        "chocolate",
+        "turtles"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 4,
+          "protein_g": 1,
+          "carbs_g": 4,
+          "cholesterol_mg": 19,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "rocky-road-candy-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Rocky Road",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 100",
+      "description": "Marshmallows and chopped nuts are the rocks in this delicious chocolate road.",
+      "servings_yield": "Makes about 36 pieces",
+      "ingredients": [
+        {
+          "item": "milk chocolate bars, broken up",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "two 8-ounce bars"
+        },
+        {
+          "item": "tiny marshmallows",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "coarsely chopped nuts",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line an 8x8x2-inch baking pan with foil, extending foil over edges of pan. Butter foil; set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan slowly melt chocolate over low heat, stirring constantly. Remove from heat."
+        },
+        {
+          "step": 3,
+          "text": "Stir in marshmallows and nuts. Spread into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Chill till firm (at least 1 hour). Use foil to lift candy out of pan; cut into squares."
+        },
+        {
+          "step": 5,
+          "text": "Store in the refrigerator."
+        }
+      ],
+      "notes": [
+        "Microwave directions: Line pan and butter foil as above. In a medium bowl micro-cook chocolate, uncovered, on 100% power (high) for 1 1/2 to 2 1/4 minutes or till chocolate becomes smooth when stirred. Stir in marshmallows and nuts. Spread into prepared pan. Chill till firm. Lift candy from the pan and cut into squares. Store in the refrigerator."
+      ],
+      "tags": [
+        "candy",
+        "rocky road",
+        "chocolate",
+        "marshmallow",
+        "fast"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 6,
+          "protein_g": 2,
+          "carbs_g": 10,
+          "cholesterol_mg": 13,
+          "sodium_mg": 3
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cream-cheese-mints-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cream Cheese Mints",
+      "category": "candy",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 100",
+      "description": "Make these rich-tasting mints ahead, then store them in the freezer for up to 1 month.",
+      "servings_yield": "Makes 48 to 60 mints",
+      "ingredients": [
+        {
+          "item": "cream cheese, softened",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "one 3-ounce package"
+        },
+        {
+          "item": "peppermint extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "few drops food coloring",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for rolling"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small mixing bowl stir together softened cream cheese and peppermint extract."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add powdered sugar, stirring till mixture is smooth. (Knead in the last of the powdered sugar with your hands.)"
+        },
+        {
+          "step": 3,
+          "text": "Add food coloring. Knead till food coloring is evenly distributed."
+        },
+        {
+          "step": 4,
+          "text": "Form cream cheese mixture into 3/4-inch balls. Roll each ball in sugar; place on waxed paper."
+        },
+        {
+          "step": 5,
+          "text": "Flatten each ball with the bottom of a juice glass or with the tines of a fork. (Or, sprinkle small candy molds lightly with sugar. Press about 3/4 to 1 teaspoon cream cheese mixture into each mold. Remove from molds.)"
+        },
+        {
+          "step": 6,
+          "text": "Cover mints with paper towels; let dry overnight."
+        },
+        {
+          "step": 7,
+          "text": "Store tightly covered in the refrigerator."
+        }
+      ],
+      "tags": [
+        "candy",
+        "mints",
+        "cream cheese",
+        "party"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5264 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 17,
+          "protein_g": 0,
+          "carbs_g": 7,
+          "cholesterol_mg": 5,
+          "sodium_mg": 0
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "haystacks-candy",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Haystacks",
+      "category": "candy",
+      "attribution": "Carol Willison",
+      "source_note": "Family recipe collection page 79",
+      "ingredients": [
+        {
+          "item": "semi-sweet chocolate chips",
+          "quantity": "1",
+          "unit": "bag"
+        },
+        {
+          "item": "butterscotch chips",
+          "quantity": "1",
+          "unit": "bag"
+        },
+        {
+          "item": "dry Chinese noodles",
+          "quantity": "2",
+          "unit": "cans"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt chips separately. Add 1 can of noodles to each bowl of chips. Mix carefully. Drop by teaspoonfuls onto wax paper. Refrigerate."
+        }
+      ],
+      "tags": [
+        "candy",
+        "no-bake",
+        "chocolate",
+        "butterscotch"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5290 Large.jpeg",
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5292 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 261,
+          "fat_g": 11.8,
+          "protein_g": 5.2,
+          "carbs_g": 35.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Assumed 1.5 cup can for dry Chinese noodles",
+          "Estimated 6 servings based on total calories",
+          "Based on 3/3 ingredients (100% coverage)"
+        ]
+      }
+    }
+  ]
+}

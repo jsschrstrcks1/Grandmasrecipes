@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "sandwiches",
+    "total_recipes": 5,
+    "generated": "2026-01-23T14:31:32.285728Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "egg-salad-sandwiches-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Egg-Salad Sandwiches",
+      "category": "sandwiches",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 147",
+      "ingredients": [
+        {
+          "item": "hard-cooked eggs, chopped",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "finely chopped green onion",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "diced pimiento",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mayonnaise or salad dressing",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "prepared mustard or Dijon-style mustard",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "slices bread, or 2 small pita bread rounds or 2 bagels, split",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl combine chopped eggs, green onion, and pimiento; stir in mayonnaise and mustard. Add salt and pepper to taste. Spread egg mixture on 2 slices of bread, in pita rounds, or on bagel bottoms. Top with lettuce and, if not using pitas, remaining bread slices or bagel tops."
+        }
+      ],
+      "servings_yield": "Serves 2",
+      "notes": [
+        "Greek-Style Egg-Salad Sandwiches: Prepare as above, except omit the pimiento and mustard. Stir 1/4 cup crumbled feta cheese, 1/4 cup finely chopped tomato, and 2 tablespoons chopped pitted ripe olives into egg mixture.",
+        "California-Style Egg-Salad Sandwiches: Prepare as above, except omit pimiento. Stir 1/4 cup chopped avocado and 1/4 cup shredded Monterey Jack cheese into egg mixture. Substitute alfalfa sprouts for lettuce."
+      ],
+      "tags": [
+        "sandwiches",
+        "eggs",
+        "lunch",
+        "egg salad"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5308 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 416,
+          "fat_g": 24,
+          "protein_g": 17,
+          "carbs_g": 31,
+          "cholesterol_mg": 654,
+          "sodium_mg": 558
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "egg-pita-sandwiches-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Egg-Pita Sandwiches",
+      "category": "sandwiches",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 149",
+      "ingredients": [
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "sliced green onion or chopped green pepper",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried basil, crushed",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "pita bread round",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium skillet cook mushrooms and green onion or chopped green pepper in margarine or butter till tender. In a bowl beat together 3 eggs; 3 tablespoons milk; 1/8 teaspoon dried basil, crushed; dash salt; and dash pepper. Pour over mushroom mixture. Cook, without stirring, till eggs begin to set on bottom and around edge. Lift and fold partially cooked eggs so uncooked portion flows underneath. Continue cooking till thoroughly cooked but still glossy and moist."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle 1/4 cup shredded cheddar cheese over eggs. Remove from heat. Let stand 1 minute or till cheese melts slightly. Halve 1 pita bread round; spoon egg mixture into halves."
+        }
+      ],
+      "servings_yield": "Serves 2",
+      "tags": [
+        "sandwiches",
+        "eggs",
+        "breakfast",
+        "pita"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5310 Large.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 364,
+          "fat_g": 21,
+          "protein_g": 18,
+          "carbs_g": 26,
+          "cholesterol_mg": 336,
+          "sodium_mg": 436
+        },
+        "source": "Better Homes and Gardens cookbook nutrition analysis",
+        "assumptions": []
+      }
+    },
+    {
+      "id": "reuben-sandwiches-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Reuben Sandwiches",
+      "category": "sandwiches",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Meat section (FAST)",
+      "description": "Classic grilled Reuben with corned beef, sauerkraut, and Swiss cheese.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "slices dark rye or pumpernickel bread",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "Thousand Island salad dressing",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "thinly sliced cooked corned beef",
+          "quantity": "1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "Swiss cheese slices",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "sauerkraut",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "well drained"
+        },
+        {
+          "item": "softened butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spread one side of bread slices with dressing."
+        },
+        {
+          "step": 2,
+          "text": "Top 4 slices with corned beef, cheese, and sauerkraut."
+        },
+        {
+          "step": 3,
+          "text": "Cover with remaining bread, dressing side down."
+        },
+        {
+          "step": 4,
+          "text": "Butter top and bottom of sandwiches."
+        },
+        {
+          "step": 5,
+          "text": "Grill in skillet over medium heat till bread is golden and cheese melts, turning once."
+        }
+      ],
+      "cook_time": "10 minutes",
+      "tags": [
+        "corned beef",
+        "sandwich",
+        "reuben",
+        "grilled",
+        "fast",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
+      ]
+    },
+    {
+      "id": "barbecue-style-sandwiches-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Barbecue-Style Sandwiches",
+      "category": "sandwiches",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Meat section (EASY)",
+      "description": "Sloppy Joe-style sandwiches with tangy barbecue sauce.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "tomato sauce",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "finely chopped green pepper",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic, minced",
+          "quantity": "1",
+          "unit": "clove"
+        },
+        {
+          "item": "chili powder",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "thinly sliced cooked beef, pork, or lamb",
+          "quantity": "1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "French-style rolls",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "split and toasted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In medium saucepan combine tomato sauce, onion, green pepper, brown sugar, vinegar, Worcestershire, mustard, celery seed, garlic, and chili powder."
+        },
+        {
+          "step": 2,
+          "text": "Bring to boiling; reduce heat. Cover; simmer 15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Stir some of the meat mixture onto bottom half of each roll."
+        },
+        {
+          "step": 4,
+          "text": "Spoon some of the meat mixture onto bottom half of each roll. Top with other half of roll."
+        }
+      ],
+      "cook_time": "15 minutes",
+      "tags": [
+        "beef",
+        "sandwich",
+        "barbecue",
+        "easy",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
+      ]
+    },
+    {
+      "id": "meat-stuffed-pita-pockets-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Meat-Stuffed Pita Pockets",
+      "category": "sandwiches",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Meat section (FAST)",
+      "description": "Pita bread stuffed with seasoned ground beef and fresh vegetables.",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "skinny worcester cream or salad dressing",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cooked ground beef, pork, or lamb",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded carrot",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "celery",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "pita bread rounds",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "4",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together sour cream and horseradish."
+        },
+        {
+          "step": 2,
+          "text": "Combine meat, carrot, and celery with half the sour cream mixture."
+        },
+        {
+          "step": 3,
+          "text": "Cut pita rounds in half; open pockets."
+        },
+        {
+          "step": 4,
+          "text": "Line each half with lettuce."
+        },
+        {
+          "step": 5,
+          "text": "Spoon in meat mixture. Drizzle with remaining sour cream mixture."
+        }
+      ],
+      "tags": [
+        "ground beef",
+        "pita",
+        "sandwich",
+        "fast",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
+      ]
+    }
+  ]
+}

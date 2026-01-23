@@ -2,8 +2,8 @@
   "meta": {
     "collection": "all",
     "category": "salads",
-    "total_recipes": 139,
-    "generated": "2026-01-22T19:32:06.242699Z",
+    "total_recipes": 143,
+    "generated": "2026-01-23T14:31:31.844396Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -208,20 +208,17 @@
         "This salad also tastes great with ham or smoked chicken from the deli."
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 274,
-          "fat_g": 17.3,
-          "carbs_g": 12.8,
-          "protein_g": 18.4,
-          "sodium_mg": 226,
-          "fiber_g": 4.7,
-          "sugar_g": 5.3
+          "calories": 203,
+          "fat_g": 7.9,
+          "carbs_g": 16.5,
+          "protein_g": 20.0,
+          "sodium_mg": 230,
+          "fiber_g": 5.7,
+          "sugar_g": 8.3
         },
-        "missing_inputs": [
-          "1  large pink or red grapefruit",
-          "1 bunch watercress, trimmed"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -352,19 +349,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 252,
-          "fat_g": 21.1,
-          "carbs_g": 14.3,
-          "protein_g": 4.7,
-          "sodium_mg": 195,
+          "calories": 302,
+          "fat_g": 25.0,
+          "carbs_g": 15.2,
+          "protein_g": 7.8,
+          "sodium_mg": 247,
           "fiber_g": 4.9,
-          "sugar_g": 8.2
+          "sugar_g": 8.5
         },
-        "missing_inputs": [
-          "1/2 cup goat cheese"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -1615,7 +1610,7 @@
           "prep_note": ""
         },
         {
-          "item": "12 ounces French or ciabatta bread, cut into 1-inch cubes (about 1/2 cups)",
+          "item": "12 ounces French or ciabatta bread, cut into 1-inch cubes (about 12 cups)",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -1700,9 +1695,7 @@
       ],
       "confidence": {
         "overall": "high",
-        "flags": [
-          "OCR corrections applied"
-        ]
+        "flags": []
       },
       "image_refs": [],
       "nutrition": {
@@ -1919,7 +1912,7 @@
           "prep_note": ""
         },
         {
-          "item": "1/2 cups torn fresh spinach (about 9 ounces)",
+          "item": "12 cups torn fresh spinach (about 9 ounces)",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -1956,9 +1949,7 @@
       ],
       "confidence": {
         "overall": "high",
-        "flags": [
-          "OCR corrections applied"
-        ]
+        "flags": []
       },
       "image_refs": [],
       "nutrition": {
@@ -5361,12 +5352,10 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {},
         "missing_inputs": [],
-        "assumptions": [],
-        "estimation_status": "partial",
-        "notes": "Status updated: no nutrition values present"
+        "assumptions": []
       }
     },
     {
@@ -5669,7 +5658,7 @@
           "prep_note": ""
         },
         {
-          "item": "ful of chopped boiled to ngue",
+          "item": "ful of chopped boiled tongue",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
@@ -5690,7 +5679,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Hard-boil the eggs, throw them into cold water, remove the shells, cut them lengthwise. Take out the yolks without breaking the whites. Rub the yolks through a sieve into a bowl, then add the to ngue and all the seasoning. If the mixture is dry add a tablespoonful or two of cream or olive oil. Roll the mixture into balls that will fit the spaces from which they were taken in the whites, making each ball round. arrange the lettuce over a platter, stand the whites in the lettuce, and at serving time baste thoroughly with French dressing."
+          "text": "Hard-boil the eggs, throw them into cold water, remove the shells, cut them lengthwise. Take out the yolks without breaking the whites. Rub the yolks through a sieve into a bowl, then add the tongue and all the seasoning. If the mixture is dry add a tablespoonful or two of cream or olive oil. Roll the mixture into balls that will fit the spaces from which they were taken in the whites, making each ball round. Arrange the lettuce over a platter, stand the whites in the lettuce, and at serving time baste thoroughly with French dressing."
         }
       ],
       "temperature": "",
@@ -5710,31 +5699,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 132,
-          "fat_g": 7.8,
-          "carbs_g": 5.7,
-          "protein_g": 10.5,
-          "sodium_mg": 196,
-          "fiber_g": 2.1,
-          "sugar_g": 3.2
+          "calories": 176,
+          "fat_g": 10.0,
+          "carbs_g": 8.1,
+          "protein_g": 13.8,
+          "sodium_mg": 206,
+          "fiber_g": 2.6,
+          "sugar_g": 4.4
         },
-        "missing_inputs": [
-          "1/2 cup ful of chopped boiled tongue"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all",
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "fruit-salad-dressing-gutenberg",
@@ -5900,19 +5879,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 276,
+          "calories": 309,
           "fat_g": 23.1,
-          "carbs_g": 10.2,
-          "protein_g": 8.7,
+          "carbs_g": 18.7,
+          "protein_g": 8.9,
           "sodium_mg": 89,
-          "fiber_g": 3.2,
-          "sugar_g": 4.2
+          "fiber_g": 4.7,
+          "sugar_g": 10.7
         },
-        "missing_inputs": [
-          "2 cup apples"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6192,13 +6169,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 258,
+          "calories": 268,
           "fat_g": 7.0,
-          "carbs_g": 32.8,
-          "protein_g": 16.0,
-          "sodium_mg": 449,
-          "fiber_g": 9.5,
-          "sugar_g": 2.3
+          "carbs_g": 35.0,
+          "protein_g": 16.8,
+          "sodium_mg": 150,
+          "fiber_g": 12.5,
+          "sugar_g": 2.0
         },
         "missing_inputs": [
           "2  tblsp. pickle relish or 1-large pickle"
@@ -6294,19 +6271,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 193,
-          "fat_g": 19.3,
-          "carbs_g": 1.3,
-          "protein_g": 3.9,
-          "sodium_mg": 420,
+          "calories": 236,
+          "fat_g": 22.6,
+          "carbs_g": 1.4,
+          "protein_g": 6.9,
+          "sodium_mg": 557,
           "fiber_g": 0.2,
           "sugar_g": 1.1
         },
-        "missing_inputs": [
-          "4 thick slices bacon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -6511,13 +6486,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 25,
-          "fat_g": 1.3,
+          "calories": 20,
+          "fat_g": 0.7,
           "carbs_g": 2.7,
-          "protein_g": 0.5,
-          "sodium_mg": 87,
+          "protein_g": 0.3,
+          "sodium_mg": 78,
           "fiber_g": 0.5,
-          "sugar_g": 1.4
+          "sugar_g": 1.3
         },
         "missing_inputs": [
           "2 medium cucumbers"
@@ -6714,17 +6689,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 111,
-          "fat_g": 5.0,
-          "carbs_g": 4.3,
-          "protein_g": 12.5,
-          "sodium_mg": 428,
-          "fiber_g": 0.0,
-          "sugar_g": 2.6
+          "calories": 156,
+          "fat_g": 8.5,
+          "carbs_g": 6.8,
+          "protein_g": 13.5,
+          "sodium_mg": 441,
+          "fiber_g": 0.3,
+          "sugar_g": 4.5
         },
         "missing_inputs": [
-          "2 tbsp plain",
-          "1 cup cream or top milk"
+          "2 tbsp plain"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -6839,19 +6813,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 325,
-          "fat_g": 26.9,
-          "carbs_g": 18.8,
-          "protein_g": 2.6,
-          "sodium_mg": 899,
+          "calories": 361,
+          "fat_g": 28.6,
+          "carbs_g": 20.1,
+          "protein_g": 6.8,
+          "sodium_mg": 1036,
           "fiber_g": 3.0,
-          "sugar_g": 3.2
+          "sugar_g": 4.0
         },
-        "missing_inputs": [
-          "1 cup creamy cottage cheese"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -7265,19 +7237,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 249,
+          "calories": 250,
           "fat_g": 20.5,
-          "carbs_g": 15.1,
-          "protein_g": 2.9,
-          "sodium_mg": 164,
-          "fiber_g": 2.3,
-          "sugar_g": 13.8
+          "carbs_g": 15.2,
+          "protein_g": 3.0,
+          "sodium_mg": 165,
+          "fiber_g": 2.4,
+          "sugar_g": 13.9
         },
-        "missing_inputs": [
-          "Lettuce leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from salads category"
@@ -7502,20 +7472,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 86,
-          "fat_g": 7.6,
-          "carbs_g": 1.3,
-          "protein_g": 2.6,
-          "sodium_mg": 773,
-          "fiber_g": 0.4,
+          "calories": 362,
+          "fat_g": 19.6,
+          "carbs_g": 1.2,
+          "protein_g": 41.0,
+          "sodium_mg": 917,
+          "fiber_g": 0.3,
           "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "12 medium sized cooked potatoes",
-          "1/3 cup chopped sweet pickle"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 10 servings"
         ]
@@ -7611,19 +7578,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 139,
-          "fat_g": 12.3,
-          "carbs_g": 2.9,
-          "protein_g": 4.4,
-          "sodium_mg": 328,
+          "calories": 198,
+          "fat_g": 12.6,
+          "carbs_g": 2.6,
+          "protein_g": 17.7,
+          "sodium_mg": 543,
           "fiber_g": 0.6,
-          "sugar_g": 1.6
+          "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "2 cup flaked tuna fish (two 7-ounce cans)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -8092,19 +8057,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 119,
+          "calories": 122,
           "fat_g": 7.4,
           "carbs_g": 14.0,
-          "protein_g": 1.7,
-          "sodium_mg": 4,
+          "protein_g": 2.5,
+          "sodium_mg": 5,
           "fiber_g": 4.7,
           "sugar_g": 6.9
         },
-        "missing_inputs": [
-          "1 pkg raspberry flavored gelatin"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -8300,16 +8263,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 14,
-          "fat_g": 0.7,
-          "carbs_g": 1.4,
-          "protein_g": 0.9,
-          "sodium_mg": 75,
-          "fiber_g": 0.2,
+          "calories": 7,
+          "fat_g": 0.4,
+          "carbs_g": 1.2,
+          "protein_g": 0.1,
+          "sodium_mg": 37,
+          "fiber_g": 0.1,
           "sugar_g": 0.4
         },
         "missing_inputs": [
-          "1 can cherries"
+          "1 can cherries",
+          "1 pkg gelatin"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -8557,19 +8521,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 55,
+          "calories": 63,
           "fat_g": 0.1,
-          "carbs_g": 13.2,
-          "protein_g": 1.5,
+          "carbs_g": 15.3,
+          "protein_g": 1.6,
           "sodium_mg": 84,
-          "fiber_g": 0.7,
-          "sugar_g": 11.4
+          "fiber_g": 1.1,
+          "sugar_g": 13.0
         },
-        "missing_inputs": [
-          "1 cup apple"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -8647,20 +8609,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 16,
+          "calories": 18,
           "fat_g": 0.0,
-          "carbs_g": 2.6,
+          "carbs_g": 3.4,
           "protein_g": 1.5,
-          "sodium_mg": 7,
+          "sodium_mg": 4,
           "fiber_g": 0.0,
-          "sugar_g": 2.6
+          "sugar_g": 3.3
         },
         "missing_inputs": [
-          "1 pkg frozen rhubarb",
-          "1 pkg frozen strawberries",
-          "Red vegetable coloring"
+          "1 pkg frozen rhubarb"
         ],
         "assumptions": [
           "Calculated for 8 servings"
@@ -8763,7 +8723,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 71,
           "fat_g": 6.3,
@@ -8773,9 +8733,7 @@
           "fiber_g": 0.4,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Few drops green food coloring"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
@@ -8859,19 +8817,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 54,
-          "fat_g": 5.0,
-          "carbs_g": 2.0,
-          "protein_g": 0.3,
-          "sodium_mg": 237,
-          "fiber_g": 0.5,
-          "sugar_g": 0.9
+          "calories": 192,
+          "fat_g": 17.0,
+          "carbs_g": 6.7,
+          "protein_g": 5.3,
+          "sodium_mg": 238,
+          "fiber_g": 3.3,
+          "sugar_g": 1.9
         },
-        "missing_inputs": [
-          "1 cup flaked salmon"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings",
           "Serving size inferred from salads category"
@@ -9298,27 +9254,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 182,
-          "fat_g": 20.0,
-          "carbs_g": 0.4,
-          "protein_g": 0.3,
-          "sodium_mg": 166,
-          "fiber_g": 0.2,
-          "sugar_g": 0.1
+          "calories": 259,
+          "fat_g": 23.8,
+          "carbs_g": 0.7,
+          "protein_g": 9.9,
+          "sodium_mg": 282,
+          "fiber_g": 0.3,
+          "sugar_g": 0.3
         },
-        "missing_inputs": [
-          "1 can chicken",
-          "1/3 cup chopped sweet pickle",
-          "1  boiled egg"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "chinese-chicken-salad-dressing-chickenrec",
@@ -9436,16 +9386,15 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 153,
-          "fat_g": 16.6,
-          "carbs_g": 1.5,
-          "protein_g": 0.9,
-          "sodium_mg": 40,
-          "fiber_g": 0.5,
-          "sugar_g": 0.2
+          "calories": 151,
+          "fat_g": 14.3,
+          "carbs_g": 6.8,
+          "protein_g": 0.1,
+          "sodium_mg": 39,
+          "fiber_g": 0.0,
+          "sugar_g": 6.5
         },
         "missing_inputs": [
-          "2 tbsp sug ar",
           "2 tbsp sho yu"
         ],
         "assumptions": [
@@ -9793,17 +9742,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 478,
+          "calories": 493,
           "fat_g": 39.7,
-          "carbs_g": 19.3,
-          "protein_g": 12.3,
-          "sodium_mg": 1401,
-          "fiber_g": 4.7,
-          "sugar_g": 4.0
+          "carbs_g": 22.8,
+          "protein_g": 12.5,
+          "sodium_mg": 1403,
+          "fiber_g": 5.1,
+          "sugar_g": 4.6
         },
         "missing_inputs": [
           "4 cup diced chicken (6 breasts",
-          "1 can sliced water chestnuts"
+          "1 small jar chopped pimiento"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -9923,7 +9872,7 @@
           "prep_note": ""
         },
         {
-          "item": "or a nges",
+          "item": "oranges",
           "quantity": "6",
           "unit": "",
           "prep_note": ""
@@ -9944,23 +9893,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Whip the cream, sweeten and flavor to taste. Mix the"
+          "text": "Whip thecream, sweeten andflavor totaste. Mixthe"
         },
         {
           "step": 2,
-          "text": "cream and thedressing. Put in thefruit, butdonotuse the"
+          "text": "cream andthedressing. Put inthefruit, butdonotusethe"
         },
         {
           "step": 3,
-          "text": "juice of the fruit. Pack the mixture in coffee or baking pow-"
+          "text": "juice ofthe fruit. Pack themixture incoffee orbaking pow-"
         },
         {
           "step": 4,
-          "text": "dercans and letthem remain in theicefourorfivehours."
+          "text": "dercansand letthem remain intheicefourorfivehours."
         },
         {
           "step": 5,
-          "text": "As mall tubcanbeused to setthecans in a ndpack ice and"
+          "text": "Asmall tubcanbeused tosetthecans inandpack iceand"
         }
       ],
       "temperature": "",
@@ -9994,214 +9943,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (6 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
-    },
-    {
-      "id": "salads-courseofle",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Salads",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "Course Of Lessons In Domestic Science 1913 (PDF cookbook)",
-      "description": "Vintage recipe from Course Of Lessons In Domestic Science 1913",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Composition orbasis:",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Accordinr tofood principles:",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "French Dressing isused with\u2014",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Ameat salad should notbeserved with aheavy dinner."
-        },
-        {
-          "step": 2,
-          "text": "Either alone orincombination should beused\u2014"
-        },
-        {
-          "step": 3,
-          "text": "Have thesalad course atdinner dainty andsimple. Donot"
-        },
-        {
-          "step": 4,
-          "text": "unite toomany foods. Donotchop materials toofine."
-        },
-        {
-          "step": 5,
-          "text": "Utmost careshould beused inpreparing fruitandvegetables"
-        },
-        {
-          "step": 6,
-          "text": "forasalad, astheir daintiness andagreeability aretheir chief"
-        },
-        {
-          "step": 7,
-          "text": "Allleafvegetables, aslettuce, should bethoroughly washed"
-        },
-        {
-          "step": 8,
-          "text": "!Mix ingredients inorder given, and stir until well"
-        },
-        {
-          "step": 9,
-          "text": "2 Surround bowl containing mixture with icewater,"
-        },
-        {
-          "step": 10,
-          "text": "andbeatmixture until ofacreamy consistency-"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "1  Composition orbasis:",
-          "2  Accordinr tofood principles:",
-          "2  French Dressing isused with\u2014"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "flagged_for_review": true,
-      "flag_reason": "Chapter header - not a recipe"
-    },
-    {
-      "id": "salad-vegetables-homehelpsa",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Salad Vegetables",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "Home Helps A Pure Food Cook Book A Useful Collection Of Up To Date Practical Recipes 1910 (PDF cookbook)",
-      "description": "Vintage recipe from Home Helps A Pure Food Cook Book A Useful Collection Of Up To Date Practical Recipes 1910",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "PURE FOOD RECIPES",
-          "quantity": "52",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "large dark leaves outside, andso",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "small ones incenter, asifhalf",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "three inchlengths. With radishes,",
-          "quantity": "",
-          "unit": "",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Method not fully extracted - see original source."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "52  PURE FOOD RECIPES",
-          "large dark leaves outside, andso",
-          "small ones incenter, asifhalf",
-          "three inchlengths. With radishes,"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "flagged_for_review": true,
-      "flag_reason": "Book text fragment - not a recipe",
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "dandelion-andscallion-salad-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Dandelion and Scallion Salad",
+      "title": "Dandelion Andscallion Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -10233,31 +9981,31 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Clean, wash and cut thedandelion into%-inch pieces; scal-"
+          "text": "Clean, wash andcutthedandelion into%-inch pieces; scal-"
         },
         {
           "step": 2,
-          "text": "lions a recutthesame. Put into cold water for 1 hour; dr: dn;"
+          "text": "lions arecutthesame. Putinto coldwater for 1 hour; dr:dn;"
         },
         {
           "step": 3,
-          "text": "put into a flourbagthatyoukeep for thatpurpose. The egg is"
+          "text": "putintoaflourbagthatyoukeep forthatpurpose. Theegg is"
         },
         {
           "step": 4,
-          "text": "hard boiled at a nytimeduring the morning. Dressing can be"
+          "text": "hard boiled atanytimeduring themorning. Dressing canbe"
         },
         {
           "step": 5,
-          "text": "made the daybefore. a good plan is to make enough salad dress-"
+          "text": "made thedaybefore. Agood plan istomake enough salad dress-"
         },
         {
           "step": 6,
-          "text": "in gf or a week. When mealtime comes, mixdandelion, scallions"
+          "text": "ingforaweek. When mealtime comes, mixdandelion, scallions"
         },
         {
           "step": 7,
-          "text": "and dressing together, and garnish with finely chopped hard-"
+          "text": "anddressing together, andgarnish with finely chopped hard-"
         }
       ],
       "temperature": "",
@@ -10280,10 +10028,10 @@
           "calories": 26,
           "fat_g": 1.3,
           "carbs_g": 1.9,
-          "protein_g": 1.9,
+          "protein_g": 2.0,
           "sodium_mg": 22,
-          "fiber_g": 0.7,
-          "sugar_g": 0.7
+          "fiber_g": 0.8,
+          "sugar_g": 0.6
         },
         "missing_inputs": [
           "1 quart dandelion."
@@ -10291,11 +10039,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (11 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "lambandmintsalad-scottsnort",
@@ -10318,7 +10062,7 @@
           "prep_note": ""
         },
         {
-          "item": "cut celery.",
+          "item": "cutcelery.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -10333,27 +10077,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 cups shredded lettuce.1/2 cupsalad dressing."
+          "text": "2 cupsshredded lettuce.%cupsalad dressing."
         },
         {
           "step": 2,
-          "text": "Remove a llfatfrom cold boiled or roasted lamb; cut into"
+          "text": "Remove allfatfrom cold boiled orroasted lamb; cutinto"
         },
         {
           "step": 3,
-          "text": "small pieces ; mix with celery, green peppers, seasoning and half"
+          "text": "small pieces ;mixwith celery, green peppers, seasoning andhalf"
         },
         {
           "step": 4,
-          "text": "Put thelettuce on shallow plateand the meat in center. Cut"
+          "text": "Putthelettuce onshallow plateandthemeat incenter. Cut"
         },
         {
           "step": 5,
-          "text": "the mint gelatin, which is made as usual, into small blocks ornar-"
+          "text": "themint gelatin, which ismade asusual, intosmall blocks ornar-"
         },
         {
           "step": 6,
-          "text": "row strips, and place a round the meat. Put theremainder of"
+          "text": "row strips, andplace around themeat. Puttheremainder of"
         }
       ],
       "temperature": "",
@@ -10373,26 +10117,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 12,
-          "fat_g": 0.1,
-          "carbs_g": 2.8,
-          "protein_g": 0.5,
-          "sodium_mg": 2,
-          "fiber_g": 1.0,
-          "sugar_g": 1.5
+          "calories": 16,
+          "fat_g": 0.2,
+          "carbs_g": 3.5,
+          "protein_g": 0.7,
+          "sodium_mg": 22,
+          "fiber_g": 1.5,
+          "sugar_g": 1.8
         },
         "missing_inputs": [
-          "2 cup coldlamb.",
-          "1 cup cutcelery."
+          "2 cup coldlamb."
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "rhubarb-salad-scottsnort",
@@ -10412,10 +10151,10 @@
           "item": "rhubarb",
           "quantity": "4",
           "unit": "cup",
-          "prep_note": "cutini/-inch pieces."
+          "prep_note": "cutini/^-inch pieces."
         },
         {
-          "item": "sugar.",
+          "item": "ugar.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -10430,23 +10169,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Put therhubarb on a gate platter; sprinkle with sugar and"
+          "text": "Puttherhubarb onagate platter; sprinkle withsugar and"
         },
         {
           "step": 2,
-          "text": "place in moderate oven. Bake until tender, butnotbroken. When"
+          "text": "place inmoderate oven. Bake until tender, butnotbroken. When"
         },
         {
           "step": 3,
-          "text": "cold, liftrhubarb from syrup and placeonlettuce. Serve with"
+          "text": "cold, liftrhubarb from syrup andplaceonlettuce. Serve with"
         },
         {
           "step": 4,
-          "text": "French dressing, ma, yonnaise or boiled dressing. The syrup is"
+          "text": "French dressing, ma,yonnaise orboiled dressing. Thesyrup is"
         },
         {
           "step": 5,
-          "text": "used for rhubarb whip or gelatin. Care should betaken notto"
+          "text": "used forrhubarb whip orgelatin. Care should betaken notto"
         }
       ],
       "temperature": "",
@@ -10478,17 +10217,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (4 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cherry-andbanana-salad-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Cherry and Banana Salad",
+      "title": "Cherry Andbanana Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -10499,7 +10234,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "ripe banana.",
+          "item": "ripebananas.",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
@@ -10514,11 +10249,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 cups shredded lettuce.1/2 cup cream mayonnaise."
+          "text": "2 cupsshredded lettuce.%cupcream mayonnaise."
         },
         {
           "step": 2,
-          "text": "skin a ndscrape the bananas and put thru fruit press or mash"
+          "text": "Skinandscrape thebananas andputthru fruit press ormash"
         },
         {
           "step": 3,
@@ -10526,7 +10261,7 @@
         },
         {
           "step": 4,
-          "text": "with cold water and cover with cherry gelatin, made as usual."
+          "text": "with coldwater andcover with cherry gelatin, made asusual."
         },
         {
           "step": 5,
@@ -10534,7 +10269,7 @@
         },
         {
           "step": 6,
-          "text": "The redgelatin and white banana make a very at tractive"
+          "text": "Theredgelatin andwhite banana make avery attractive"
         },
         {
           "step": 7,
@@ -10558,26 +10293,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 52,
+          "fat_g": 0.2,
+          "carbs_g": 13.5,
+          "protein_g": 0.7,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 1.6,
+          "sugar_g": 7.0
         },
         "missing_inputs": [
-          "2  ripebananas.",
           "2 cup cherry gelatin."
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "hawaiian-salad-scottsnort",
@@ -10606,7 +10336,7 @@
           "prep_note": ""
         },
         {
-          "item": "finely cut apples.",
+          "item": "finely cutapples.",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -10621,23 +10351,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 cupsalad dressing.1/2 teaspoon salt."
+          "text": "1 cupsalad dressing.%teaspoon salt."
         },
         {
           "step": 2,
-          "text": "Wash the raisins in warm water, drain sddry; mix with"
+          "text": "Wash theraisins inwarm water, drain s^ddry;mixwith"
         },
         {
           "step": 3,
-          "text": "finely chopped a pples, saltandhalfthecocoanut. Line salad dish"
+          "text": "finely chopped apples, saltandhalfthecocoanut. Line salad dish"
         },
         {
           "step": 4,
-          "text": "with shredded lettuce, putmixture in center; cover with mayon-"
+          "text": "withshredded lettuce, putmixture incenter; cover withmayon-"
         },
         {
           "step": 5,
-          "text": "naise or salad dressing of choice; sprinkle to pwi Siremainder of"
+          "text": "naise orsalad dressing ofchoice; sprinkle topwiSiremainder of"
         },
         {
           "step": 6,
@@ -10659,27 +10389,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 290,
-          "fat_g": 7.0,
-          "carbs_g": 61.0,
-          "protein_g": 3.5,
+          "calories": 323,
+          "fat_g": 7.1,
+          "carbs_g": 69.5,
+          "protein_g": 3.6,
           "sodium_mg": 16,
-          "fiber_g": 4.5,
-          "sugar_g": 44.5
+          "fiber_g": 6.0,
+          "sugar_g": 51.0
         },
-        "missing_inputs": [
-          "2 cup finely cutapples."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "crabsalad-scottsnort",
@@ -10705,25 +10429,25 @@
           "item": "mayonnaise",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "well seasoned."
+          "prep_note": "wellseasoned."
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "1 cupdiced beets.1/2 cupcutpickles."
+          "text": "1 cupdiced beets.%cupcutpickles."
         },
         {
           "step": 2,
-          "text": "Idneshallow bowlwithshredded lettuce; put thecrab flake"
+          "text": "Idneshallow bowlwithshredded lettuce; putthecrab flake"
         },
         {
           "step": 3,
-          "text": "in center; cover with well-seasoned mayonnaise. Garnish with"
+          "text": "incenter; cover with well-seasoned mayonnaise. Garnish with"
         },
         {
           "step": 4,
-          "text": "pickles cutinrounds and diced redbeetsandsprinkle with finely"
+          "text": "pickles cutinrounds anddiced redbeetsandsprinkle with finely"
         }
       ],
       "temperature": "",
@@ -10757,17 +10481,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (4 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "salads-anddressings-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Salads and Dressings",
+      "title": "Salads Anddressings",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -10817,19 +10537,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cover salad dish with lettuce. Mixcabbage, seasoning and"
+          "text": "Cover salad dishwith lettuce. Mixcabbage, seasoning and"
         },
         {
           "step": 2,
-          "text": "flavoring and halfthedressing together in small bowlandpress"
+          "text": "flavoring andhalfthedressing together insmall bowlandpress"
         },
         {
           "step": 3,
-          "text": "itdown, the nturnoutinto the center of shredded lettuce. The"
+          "text": "itdown, thenturnoutintothecenter ofshredded lettuce. The"
         },
         {
           "step": 4,
-          "text": "remainder of the dressing is put on topandsprinkled with"
+          "text": "remainder ofthedressing isputontopandsprinkled with"
         }
       ],
       "temperature": "",
@@ -10861,11 +10581,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "radish-salad-scottsnort",
@@ -10909,11 +10625,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mixradishes and scallions together, place on lettuce, cover"
+          "text": "Mixradishes andscallions together, place onlettuce, cover"
         },
         {
           "step": 2,
-          "text": "wi'th dressing. Besure to serve itcold."
+          "text": "wi'th dressing. Besure toserve itcold."
         }
       ],
       "temperature": "",
@@ -10936,10 +10652,10 @@
           "calories": 10,
           "fat_g": 0.1,
           "carbs_g": 2.2,
-          "protein_g": 0.7,
+          "protein_g": 0.8,
           "sodium_mg": 6,
-          "fiber_g": 0.9,
-          "sugar_g": 0.8
+          "fiber_g": 1.0,
+          "sugar_g": 0.7
         },
         "missing_inputs": [
           "14 cup French dressing."
@@ -10947,17 +10663,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (3 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "tomato-andscallion-salad-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Tomato and Scallion Salad",
+      "title": "Tomato Andscallion Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -10968,13 +10680,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Tomatoes.",
+          "item": "tomatoes.",
           "quantity": "4",
           "unit": "small",
           "prep_note": ""
         },
         {
-          "item": "1/2 cupcutscallions.",
+          "item": "^cupcutscallions.",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -10986,7 +10698,7 @@
           "prep_note": ""
         },
         {
-          "item": "/1/2 cup French dressing.",
+          "item": "/^cupFrench dressing.",
           "quantity": "3",
           "unit": "",
           "prep_note": ""
@@ -10995,15 +10707,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Wash and skin Tomatoes, cut in halfandlayinshallow"
+          "text": "Wash andskin tomatoes, cutinhalfandlayinshallow"
         },
         {
           "step": 2,
-          "text": "bowl, which hasbeencovered with shredded lettuce; cover the"
+          "text": "bowl, which hasbeencovered withshredded lettuce; cover the"
         },
         {
           "step": 3,
-          "text": "Tomato with the scallion and pouroverthe French dressing."
+          "text": "tomato with thescallion andpourovertheFrench dressing."
         }
       ],
       "temperature": "",
@@ -11023,13 +10735,13 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 30,
+          "calories": 23,
           "fat_g": 0.2,
-          "carbs_g": 6.8,
-          "protein_g": 1.4,
-          "sodium_mg": 10,
-          "fiber_g": 2.1,
-          "sugar_g": 3.6
+          "carbs_g": 5.2,
+          "protein_g": 1.1,
+          "sodium_mg": 6,
+          "fiber_g": 1.6,
+          "sugar_g": 3.1
         },
         "missing_inputs": [
           "1 cup hredded lettuce.",
@@ -11038,11 +10750,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cherry-salad-scottsnort",
@@ -11086,31 +10794,31 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 tablespoons lemon juice.1/2 teaspoon salt."
+          "text": "2 tablespoons lemon juice.%teaspoon salt."
         },
         {
           "step": 2,
-          "text": "Line in dividual salad plates with crisp, cold lettuce; puta"
+          "text": "Line individual salad plates with crisp, cold lettuce; puta"
         },
         {
           "step": 3,
-          "text": "tablespoon of cherries in center; putgelatin, cut in half-inch"
+          "text": "tablespoon ofcherries incenter; putgelatin, cutinhalf-inch"
         },
         {
           "step": 4,
-          "text": "dice, a round the cherries. Ifyouhavea French potato cutter,"
+          "text": "dice,around thecherries. IfyouhaveaFrench potato cutter,"
         },
         {
           "step": 5,
-          "text": "use ittomake the redgelatin balls. Serve with French dressing"
+          "text": "use ittomake theredgelatin balls. Serve withFrench dressing"
         },
         {
           "step": 6,
-          "text": "made with oilandlemon juiceandapinch of salt. The gelatin"
+          "text": "made with oilandlemon juiceandapinch ofsalt.Thegelatin"
         },
         {
           "step": 7,
-          "text": "Cherry salad is very nicewhenyouuseoxheart and black"
+          "text": "Cherry salad isvery nicewhenyouuseoxheart andblack"
         },
         {
           "step": 8,
@@ -11118,11 +10826,11 @@
         },
         {
           "step": 9,
-          "text": "Wash and stew the cherries. With as mall, pointed knife"
+          "text": "Wash andstew thecherries. With asmall, pointed knife"
         },
         {
           "step": 10,
-          "text": "remove the stones and in sert as mall piece of marshmallow or"
+          "text": "remove thestones andinsert asmall piece ofmarshmallow or"
         }
       ],
       "temperature": "",
@@ -11156,17 +10864,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "shrimp-salad-withtomatoes-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Shrimp Salad with Tomatoes",
+      "title": "Shrimp Salad Withtomatoes",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -11189,7 +10893,7 @@
           "prep_note": ""
         },
         {
-          "item": "mayonnaise or salad dressing.",
+          "item": "mayonnaise orsalad dressing.",
           "quantity": "14",
           "unit": "cup",
           "prep_note": ""
@@ -11198,27 +10902,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 Tomatoes. 1 pickle."
+          "text": "2 tomatoes. 1 pickle."
         },
         {
           "step": 2,
-          "text": "Put theshrimp into cold water 30 minutes; drain, remo/e"
+          "text": "Puttheshrimp intocoldwater 30 minutes; drain, remo/e"
         },
         {
           "step": 3,
-          "text": "the thin shellandbreak the shrimp into small pieces; cut 2"
+          "text": "thethin shellandbreak theshrimp intosmall pieces; cut 2"
         },
         {
           "step": 4,
-          "text": "Tomatoes in half, remove center and put theshrimp in them."
+          "text": "tomatoes inhalf,remove center andputtheshrimp inthem."
         },
         {
           "step": 5,
-          "text": "Place on shredded lettuce, and cover with dressing. Dust top"
+          "text": "Place onshredded lettuce, andcover with dressing. Dust top"
         },
         {
           "step": 6,
-          "text": "with paprika, garnish with thin slices of pickle."
+          "text": "withpaprika, garnish with thin slices ofpickle."
         }
       ],
       "temperature": "",
@@ -11236,27 +10940,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 5042,
-          "fat_g": 560.0,
+          "calories": 5044,
+          "fat_g": 560.1,
           "carbs_g": 0.5,
-          "protein_g": 7.2,
-          "sodium_mg": 4378,
+          "protein_g": 7.6,
+          "sodium_mg": 4381,
           "fiber_g": 0.2,
           "sugar_g": 0.2
         },
-        "missing_inputs": [
-          "1 can hrimp."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (12 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "shrimp-salad-scottsnort",
@@ -11298,15 +10996,15 @@
         },
         {
           "step": 2,
-          "text": "Prepare the shrimp as usual; break into small pieces and"
+          "text": "Prepare theshrimp asusual; break intosmall pieces and"
         },
         {
           "step": 3,
-          "text": "mix with vegetables; season with saltandpaprika to taste."
+          "text": "mixwith vegetables; season with saltandpaprika totaste."
         },
         {
           "step": 4,
-          "text": "Lineshallow bowl with lettuce; putsalad in center and garnish"
+          "text": "Lineshallow bowlwith lettuce;putsalad incenter andgarnish"
         }
       ],
       "temperature": "",
@@ -11326,26 +11024,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 12,
+          "calories": 14,
           "fat_g": 0.1,
           "carbs_g": 2.5,
-          "protein_g": 0.4,
-          "sodium_mg": 2,
+          "protein_g": 0.8,
+          "sodium_mg": 5,
           "fiber_g": 0.8,
           "sugar_g": 1.5
         },
         "missing_inputs": [
-          "1 can hrimp.",
           "2 tbsp finely cutrawcarrot."
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (5 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "salads-scottsnort",
@@ -11362,7 +11055,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "finely cut apples.",
+          "item": "finely cutapples.",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -11395,15 +11088,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Skin, scrape and slice the bananas, mix with the a pples."
+          "text": "Skin, scrape and slice thebananas, mixwith theapples."
         },
         {
           "step": 2,
-          "text": "Linebowl with lettuce leaves, put in thefruit, cover with lemon"
+          "text": "Linebowlwith lettuce leaves, putinthefruit, cover withlemon"
         },
         {
           "step": 3,
-          "text": "juice. Serve with 1 cupofmayonnaise over the top. Garnish"
+          "text": "juice. Serve with 1 cupofmayonnaise over thetop.Garnish"
         }
       ],
       "temperature": "",
@@ -11421,33 +11114,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 417,
-          "fat_g": 40.2,
-          "carbs_g": 14.5,
-          "protein_g": 1.4,
+          "calories": 450,
+          "fat_g": 40.4,
+          "carbs_g": 23.0,
+          "protein_g": 1.6,
           "sodium_mg": 316,
-          "fiber_g": 1.8,
-          "sugar_g": 7.4
+          "fiber_g": 3.3,
+          "sugar_g": 13.9
         },
-        "missing_inputs": [
-          "2 cup finely cutapples."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (5 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "dateandorange-salad-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Dateand Orange Salad",
+      "title": "Dateandorange Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -11461,10 +11148,10 @@
           "item": "washed",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "stoned and finely cutdates."
+          "prep_note": "stoned andfinely cutdates."
         },
         {
-          "item": "finely cuttart a pples.",
+          "item": "finely cuttart apples.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -11473,27 +11160,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "2 cups orange pulp.1/2 cupfinely cut celery.1/2 cupcocoanut."
+          "text": "2 cupsorange pulp.%cupfinely cutcelery.%cupcocoanut."
         },
         {
           "step": 2,
-          "text": "Cut the orange in half and remove the pulp with sharp"
+          "text": "Cuttheorange inhalfandremove thepulpwith sharp"
         },
         {
           "step": 3,
-          "text": "spoon soasnottobreak the fruit. Saw-tooth the skins with"
+          "text": "spoon soasnottobreak thefruit. Saw-tooth theskins with"
         },
         {
           "step": 4,
-          "text": "sharp knife. Mix thefruit together, fill into the orange cups;"
+          "text": "sharp knife. Mixthefruit together, fillintotheorange cups;"
         },
         {
           "step": 5,
-          "text": "place on lettuce; putadessertspoonful of cream dressing in"
+          "text": "place onlettuce; putadessertspoonful ofcream dressing in"
         },
         {
           "step": 6,
-          "text": "top; sprinkle with cocoanut. The dressing, celery and lettuce"
+          "text": "top;sprinkle with cocoanut. Thedressing, celery andlettuce"
         }
       ],
       "temperature": "",
@@ -11513,26 +11200,21 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 16,
+          "fat_g": 0.1,
+          "carbs_g": 4.2,
+          "protein_g": 0.1,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 0.8,
+          "sugar_g": 3.2
         },
         "missing_inputs": [
-          "1 cup washed",
-          "1 cup finely cuttart apples."
+          "1 cup washed"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (12 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "daisy-salad-scottsnort",
@@ -11552,7 +11234,7 @@
           "item": "hard-boiled eggs",
           "quantity": "4",
           "unit": "",
-          "prep_note": "1/2 cup French dressing."
+          "prep_note": "l^cupFrench dressing."
         },
         {
           "item": "shredded lettuce.",
@@ -11564,27 +11246,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut the eggs in half, the longway, remove the yolks. Cut"
+          "text": "Cuttheeggs inhalf, thelongway,remove theyolks. Cut"
         },
         {
           "step": 2,
-          "text": "the whites in narrow strips ; mash the yolks thruastrainer. Put"
+          "text": "thewhites innarrow strips ;mash theyolks thruastrainer. Put"
         },
         {
           "step": 3,
-          "text": "a little lettuce on each plate and putabout at easpoonful of the"
+          "text": "alittle lettuce oneach plateandputabout ateaspoonful ofthe"
         },
         {
           "step": 4,
-          "text": "yellow right in the center and arrange the pieces of white a round"
+          "text": "yellow right inthecenter andarrange thepieces ofwhite around"
         },
         {
           "step": 5,
-          "text": "the yellow, soastomake itlook likeadaisy. Serve with French"
+          "text": "theyellow, soastomake itlook likeadaisy. Serve withFrench"
         },
         {
           "step": 6,
-          "text": "dressing. The dressing should havealittle grated onion init."
+          "text": "dressing. Thedressing should havealittle grated onion init."
         }
       ],
       "temperature": "",
@@ -11616,11 +11298,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (14 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "stuffed-pepper-salad-scottsnort",
@@ -11652,39 +11330,39 @@
       "instructions": [
         {
           "step": 1,
-          "text": "1 tablespoon grated on ions.1/2 teaspoon curry powder or drymustard."
+          "text": "1 tablespoon grated onions.%teaspoon curry powder ordrymustard."
         },
         {
           "step": 2,
-          "text": "2 cups cold boiled riceormashed potatoes.1/2 cupmayonnaise or boiled dressing."
+          "text": "2 cups coldboiled riceormashed potatoes.%cupmayonnaise orboiled dressing."
         },
         {
           "step": 3,
-          "text": "The peppers should bethelong, thinkind. The to psarecut"
+          "text": "Thepeppers should bethelong, thinkind. Thetopsarecut"
         },
         {
           "step": 4,
-          "text": "of fat thestem end, washed and a llseeds and white fiber re-"
+          "text": "offatthestem end,washed and allseeds andwhite fiber re-"
         },
         {
           "step": 5,
-          "text": "moved. The pepper is chopped fine and added to therice with the"
+          "text": "moved. Thepepper ischopped fineandadded tothericewiththe"
         },
         {
           "step": 6,
-          "text": "onion, curry powder and dressing. Mixwell and fill the pepper"
+          "text": "onion, curry powder anddressing. Mixwelland fillthepepper"
         },
         {
           "step": 7,
-          "text": "and press very firm. Setincold place. Linebowlwithshredded"
+          "text": "andpress very firm. Setincold place. Linebowlwithshredded"
         },
         {
           "step": 8,
-          "text": "lettuce and with sharp knife cut thepepper intoi-inch rings and"
+          "text": "lettuce andwithsharp knife cutthepepper intoi^-inch ringsand"
         },
         {
           "step": 9,
-          "text": "layonlettuce. Garnish to pwith the olives thathavebeen cut in"
+          "text": "layonlettuce. Garnish topwith theolives thathavebeen cutin"
         }
       ],
       "temperature": "",
@@ -11702,7 +11380,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 12,
           "fat_g": 0.1,
@@ -11712,23 +11390,17 @@
           "fiber_g": 0.8,
           "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "2 tbsp finely chopped peppers."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (16 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "appleandfresh-grated-cocoanut-salad-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "A Ppleandfresh Grated Cocoanut Salad",
+      "title": "Appleandfresh Grated Cocoanut Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -11739,7 +11411,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "chopped a pples.",
+          "item": "chopped apples.",
           "quantity": "4",
           "unit": "cup",
           "prep_note": ""
@@ -11764,116 +11436,27 @@
         },
         {
           "step": 2,
-          "text": "1. teaspoon drymustard. 1 teaspoon sugar.1/2 cupvinegar."
+          "text": "1.teaspoon drymustard. 1 teaspoon sugar.%cupvinegar."
         },
         {
           "step": 3,
-          "text": "Mix the a pples and cocoanut, reserving 2 tablespoons of"
+          "text": "Mix theapples andcocoanut, reserving 2 tablespoons of"
         },
         {
           "step": 4,
-          "text": "Make a dressing of 1/4 cupvinegar, mixing the dry ingredients"
+          "text": "Make adressing of 14 cupvinegar, mixing thedryingredients"
         },
         {
           "step": 5,
-          "text": "until smooth with a little vinegar, add the oil, boil 3 minutes."
+          "text": "until smooth withalittle vinegar, addthe oil,boil 3 minutes."
         },
         {
           "step": 6,
-          "text": "Line dish with lettuce, cover with a pple and cocoanut; cover with"
+          "text": "Line dishwith lettuce, cover with apple andcocoanut; cover with"
         },
         {
           "step": 7,
-          "text": "the dressing and sprinkle with cocoanut. Dust with paprika."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction",
-          "OCR corrections applied"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 76,
-          "fat_g": 6.8,
-          "carbs_g": 4.0,
-          "protein_g": 1.2,
-          "sodium_mg": 9,
-          "fiber_g": 2.2,
-          "sugar_g": 1.6
-        },
-        "missing_inputs": [
-          "4 cup chopped apples."
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
-    },
-    {
-      "id": "chicken-salad-scottsnort",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Chicken Salad",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
-      "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "cold boiled chicken.",
-          "quantity": "4",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "finely cut celery.",
-          "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "shredded lettuce or lettuce leaves.",
-          "quantity": "4",
-          "unit": "cup",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "1/2 cupstuffedolives. 2 hard-boiled eggs."
-        },
-        {
-          "step": 2,
-          "text": "Mixchicken, celery and halfmayonnaise. Season to taste"
-        },
-        {
-          "step": 3,
-          "text": "and putonsalad dishthathasbeen lined with lettuce. Cover with"
-        },
-        {
-          "step": 4,
-          "text": "the remainder of mayonnaise, sprinkle with paprika and garnish"
+          "text": "thedressing andsprinkle with cocoanut. Dust with paprika."
         }
       ],
       "temperature": "",
@@ -11891,29 +11474,105 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 141,
+          "fat_g": 7.0,
+          "carbs_g": 21.0,
+          "protein_g": 1.6,
+          "sodium_mg": 10,
+          "fiber_g": 5.2,
+          "sugar_g": 14.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
+    },
+    {
+      "id": "chicken-salad-scottsnort",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Chicken Salad",
+      "category": "salads",
+      "attribution": "",
+      "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
+      "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "coldboiled chicken.",
+          "quantity": "4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely cutcelery.",
+          "quantity": "2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded lettuce orlettuce leaves.",
+          "quantity": "4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "y 2 cupstuffedolives. 2 hard-boiled eggs."
+        },
+        {
+          "step": 2,
+          "text": "Mixchicken, celery andhalfmayonnaise. Season totaste"
+        },
+        {
+          "step": 3,
+          "text": "andputonsalad dishthathasbeen linedwith lettuce. Cover with"
+        },
+        {
+          "step": 4,
+          "text": "theremainder ofmayonnaise, sprinkle withpaprika andgarnish"
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 13,
+          "fat_g": 0.2,
+          "carbs_g": 2.5,
+          "protein_g": 0.8,
+          "sodium_mg": 45,
+          "fiber_g": 1.5,
+          "sugar_g": 0.9
         },
         "missing_inputs": [
-          "4 cup coldboiled chicken.",
-          "2 cup finely cutcelery.",
-          "4 cup shredded lettuce orlettuce leaves."
+          "4 cup coldboiled chicken."
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "russian-salad-dressing-scottsnort",
@@ -12001,13 +11660,16 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "russian-salad-dressing-themetropo"
+      ]
     },
     {
       "id": "cream-cheese-forsalad-decoration-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Cream Cheese for Salad Dec or a Tion",
+      "title": "Cream Cheese Forsalad Decoration",
       "category": "salads",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -12045,19 +11707,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix thecheese, peanut butter and salt together. Itmust be"
+          "text": "Mixthecheese, peanut butter andsalttogether. Itmust be"
         },
         {
           "step": 2,
-          "text": "the consistency that itcanberolled into balls. There should be"
+          "text": "theconsistency that itcanberolled into balls. There should be"
         },
         {
           "step": 3,
-          "text": "12 balls. Shape the balls into eggs and put theshredded lettuce"
+          "text": "12 balls. Shape theballs intoeggsandputtheshredded lettuce"
         },
         {
           "step": 4,
-          "text": "on cheese plate, placing the cheese eggs on top."
+          "text": "oncheese plate, placing thecheese eggsontop."
         }
       ],
       "temperature": "",
@@ -12075,33 +11737,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 36,
-          "fat_g": 3.2,
-          "carbs_g": 0.9,
-          "protein_g": 1.2,
-          "sodium_mg": 8164,
-          "fiber_g": 0.2,
-          "sugar_g": 0.5
+          "calories": 39,
+          "fat_g": 4.2,
+          "carbs_g": 0.4,
+          "protein_g": 0.4,
+          "sodium_mg": 8169,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
         },
-        "missing_inputs": [
-          "1 cup finely shredded outside lettuce leaves."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (6 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "salads-anddressings-theamerica",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Salads and Dressings",
+      "title": "Salads Anddressings",
       "category": "salads",
       "attribution": "",
       "source_note": "The American Home Cook Book A Volume Of Tested Recipes 1913 2 (PDF cookbook)",
@@ -12131,15 +11787,15 @@
         },
         {
           "step": 2,
-          "text": "Cheese and Mustard 348 Sandwiches\u2014Continued."
+          "text": "Cheese andMustard 348 Sandwiches\u2014Continued."
         },
         {
           "step": 3,
-          "text": "Habitant 350 Hamand Chutney 347 Ham 351 Jam 349"
+          "text": "Habitant 350 HamandChutney 347 Ham 351 Jam 349"
         },
         {
           "step": 4,
-          "text": "Rolled Bread and Butter. ..351"
+          "text": "Rolled Bread andButter. ..351"
         },
         {
           "step": 5,
@@ -12151,19 +11807,19 @@
         },
         {
           "step": 7,
-          "text": "Chicken and Corn Broth... 17"
+          "text": "Chicken andCorn Broth... 17"
         },
         {
           "step": 8,
-          "text": "Quenelles for Clear Soup. ..6"
+          "text": "Quenelles forClear Soup. ..6"
         },
         {
           "step": 9,
-          "text": "Vegetables Used in Soup ...3"
+          "text": "Vegetables Used inSoup ...3"
         },
         {
           "step": 10,
-          "text": "Hair Tonic' 512 To ilet Recipes\u2014Continued."
+          "text": "Hair Tonic' 512 Toilet Recipes\u2014Continued."
         }
       ],
       "temperature": "",
@@ -12195,11 +11851,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (8 issues detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "russian-salad-dressing-themetropo",
@@ -12263,7 +11915,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "russian-salad-dressing-scottsnort"
+      ]
     },
     {
       "id": "cooked-salad-dressing-themetropo",
@@ -12292,7 +11947,7 @@
           "prep_note": ""
         },
         {
-          "item": "sugar 2|tablespoons flour Jcuphotvinegar",
+          "item": "sugar 2|tablespoons flourJcuphotvinegar",
           "quantity": "2",
           "unit": "tsp",
           "prep_note": ""
@@ -12301,27 +11956,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix the salt, mustard, 2 tablespoons oil, sugar and cayenne. add the"
+          "text": "Mixthe salt,mustard, 2 tablespoons oil,sugar andcayenne. Add the"
         },
         {
           "step": 2,
-          "text": "yolks and mix thoroughly. Stir flour. with 1 tablespoon cold water until"
+          "text": "yolks andmixthoroughly. Stir flour. with 1 tablespoon coldwater until"
         },
         {
           "step": 3,
-          "text": "smooth. a ddalitde of the scalded milk, stir, pour it into thescalded milk."
+          "text": "smooth. Addalitde ofthescalded milk, stir,pour itintothescalded milk."
         },
         {
           "step": 4,
-          "text": "Cook in a double boiler, continue stirring until thickened. Pour itinto the"
+          "text": "Cook inadouble boiler, continue stirring until thickened. Pour itintothe"
         },
         {
           "step": 5,
-          "text": "yolk mixture, return to double boiler, add thehotvinegar, stirring con-"
+          "text": "yolk mixture, return todouble boiler, addthehotvinegar, stirring con-"
         },
         {
           "step": 6,
-          "text": "stantly until the mixture thickens. Cool before using. Ifcooked to olong,"
+          "text": "stantly until themixture thickens. Cool before using. Ifcooked toolong,"
         }
       ],
       "temperature": "",
@@ -12339,27 +11994,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 16,
+          "calories": 19,
           "fat_g": 1.0,
-          "carbs_g": 2.0,
+          "carbs_g": 2.6,
           "protein_g": 0.0,
-          "sodium_mg": 6,
+          "sodium_mg": 7,
           "fiber_g": 0.0,
-          "sugar_g": 2.0
+          "sugar_g": 2.4
         },
-        "missing_inputs": [
-          "1 tsp salt Fewgrains cayenne Yolks"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "coldslaw-dressing-themetropo",
@@ -12397,11 +12046,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix the first 8 ingredients in order given. Cook in double boiler unt H"
+          "text": "Mixthe first 8 ingredients inorder given. Cook indouble boiler untH"
         },
         {
           "step": 2,
-          "text": "thickened. Strain and cool. Fold in thewhipped cream."
+          "text": "thickened. Strain and cool. Fold inthewhipped cream."
         }
       ],
       "temperature": "",
@@ -12419,27 +12068,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 17,
+          "calories": 19,
           "fat_g": 1.4,
-          "carbs_g": 1.1,
+          "carbs_g": 1.7,
           "protein_g": 0.1,
           "sodium_mg": 1,
           "fiber_g": 0.0,
-          "sugar_g": 1.1
+          "sugar_g": 1.6
         },
-        "missing_inputs": [
-          "1 tsp salt Fewgrains pepper Jcuphotvinegar"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "macedoine-salad-themetropo",
@@ -12499,20 +12142,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 8,
+          "fat_g": 0.1,
+          "carbs_g": 1.8,
+          "protein_g": 0.5,
+          "sodium_mg": 2,
+          "fiber_g": 0.8,
+          "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "1 cup cooked potato cubes chopped parsley French dressing .",
-          "1 cup cooked string beans"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12533,13 +12173,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "-sized Tomatoes 1 cupcooked chicken 1 cupmayonnaise dress-",
+          "item": "-sized tomatoes 1 cupcooked chicken 1 cupmayonnaise dress-",
           "quantity": "8",
           "unit": "medium",
           "prep_note": ""
         },
         {
-          "item": "celery or cucumber cutincubes ing",
+          "item": "celery orcucumber cutincubes ing",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -12548,11 +12188,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Scald and peeltomatoes; slice of ftheir tops. Scrape outtheseeds and"
+          "text": "Scald andpeeltomatoes; slice offtheir tops. Scrape outtheseeds and"
         },
         {
           "step": 2,
-          "text": "a little of the pulp, and fillcavities with the celery, cucumbers and chicken,"
+          "text": "alittle ofthepulp,and fillcavities with thecelery, cucumbers andchicken,"
         }
       ],
       "temperature": "",
@@ -12586,11 +12226,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "fruit-salad-themetropo",
@@ -12648,19 +12284,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 31,
-          "fat_g": 0.1,
-          "carbs_g": 7.5,
-          "protein_g": 0.5,
-          "sodium_mg": 0,
-          "fiber_g": 1.5,
-          "sugar_g": 6.0
+          "calories": 110,
+          "fat_g": 0.4,
+          "carbs_g": 27.8,
+          "protein_g": 1.5,
+          "sodium_mg": 1,
+          "fiber_g": 3.8,
+          "sugar_g": 16.5
         },
-        "missing_inputs": [
-          "3  bananas 4 sUces pineapple"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -12681,7 +12315,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "cubed a pple Icupnutmeats Salad dressing to moisten",
+          "item": "cubed apple Icupnutmeats Salad dressing tomoisten",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
@@ -12696,15 +12330,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut slicefrom tops of green or redapples; scoop outtheinside pulp,"
+          "text": "Cut slicefrom tops ofgreen orredapples; scoop outtheinside pulp,"
         },
         {
           "step": 2,
-          "text": "leaving justenough to hold the skin in place. Filltheshells with the salad"
+          "text": "leaving justenough tohold theskin inplace. Filltheshells with thesalad"
         },
         {
           "step": 3,
-          "text": "mixture and serve on lettuce leaves. a little salad dressing maybeputon"
+          "text": "mixture andserve onlettuce leaves. Alittle salad dressing maybeputon"
         }
       ],
       "temperature": "",
@@ -12736,151 +12370,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification",
-      "ocr_repaired": true
-    },
-    {
-      "id": "tomato-jelly-salad-theplainsa",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Tomato- Jelly Salad",
-      "category": "salads",
-      "attribution": "",
-      "source_note": "The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922 (PDF cookbook)",
-      "description": "Vintage recipe from The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "Tomato juice Bowl",
-          "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "chopped parsley Tablespoon",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "onion juice Saucepan",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "Soak the gelatine in a bowl with 2 tablespoons of",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "Put a lltheother materials in a saucepan",
-          "quantity": "2",
-          "unit": "",
-          "prep_note": "setover the"
-        },
-        {
-          "item": "Take the saucepan from the fire",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": "add thegelatine,"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "4. Pour into small cups or moulds, and set in a coolplace"
-        },
-        {
-          "step": 2,
-          "text": "The jelly should beprepared sixoreight hours before"
-        },
-        {
-          "step": 3,
-          "text": "serving time, and set in theice-box to chill. When ready"
-        },
-        {
-          "step": 4,
-          "text": "to serve, wrap a cloth wrung outofvery hot water"
-        },
-        {
-          "step": 5,
-          "text": "a round eachcupormould, and letthejelly slipout of"
-        },
-        {
-          "step": 6,
-          "text": "Serve with at easpoon of French Dressing (page 82)"
-        },
-        {
-          "step": 7,
-          "text": "poured over each portion, and at a blespoon of Mayon-"
-        },
-        {
-          "step": 8,
-          "text": "naise (page 83)puton the top. Afew slices of cucum-"
-        },
-        {
-          "step": 9,
-          "text": "ber, a piece of hard-boiled egg, or afew olives, capers,"
-        },
-        {
-          "step": 10,
-          "text": "etc., may be used with thissalad."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "medium",
-        "flags": [
-          "pdf-extraction"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {
-          "calories": 15,
-          "fat_g": 0.1,
-          "carbs_g": 3.2,
-          "protein_g": 0.6,
-          "sodium_mg": 321,
-          "fiber_g": 0.8,
-          "sugar_g": 2.0
-        },
-        "missing_inputs": [
-          "1 tsp chopped parsley Tablespoon",
-          "1 tsp onion juice Saucepan",
-          "1  Soak thegelatine inabowl with 2 tablespoons of",
-          "2  Put alltheother materials inasaucepan",
-          "3  Take thesaucepan from the fire"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (15 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "somesalads-toserve-inwhole-tomatoes-therockymo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Somesalads to Serve in Whole Tomatoes or",
+      "title": "Somesalads Toserve Inwhole Tomatoes Or",
       "category": "salads",
       "attribution": "",
       "source_note": "The Rocky Mountain Cook Book For High Altitude Cooking 1903 (PDF cookbook)",
@@ -12891,13 +12387,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "cold water.",
+          "item": "coldwater.",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "celery cut in%-mch",
+          "item": "celery cutin%-mch",
           "quantity": "2",
           "unit": "cup",
           "prep_note": ""
@@ -12910,15 +12406,15 @@
         },
         {
           "step": 2,
-          "text": "Cook slowly until the celery is very tender, keep-"
+          "text": "Cook slowly until thecelery isvery tender, keep-"
         },
         {
           "step": 3,
-          "text": "tender, mash through as trainer. To twocups of"
+          "text": "tender, mash through astrainer. Totwocups of"
         },
         {
           "step": 4,
-          "text": "celery, a fter itisstrained, a ddonetablespoonful of"
+          "text": "celery, after itisstrained, addonetablespoonful of"
         },
         {
           "step": 5,
@@ -12926,19 +12422,19 @@
         },
         {
           "step": 6,
-          "text": "tablespoonfuls of cold water. Eeheat until the gela-"
+          "text": "tablespoonfuls ofcoldwater. Eeheat until thegela-"
         },
         {
           "step": 7,
-          "text": "tine is dissolved, then pour in moulds. Mould as"
+          "text": "tine isdissolved, thenpour inmoulds. Mould as"
         },
         {
           "step": 8,
-          "text": "Scald and sk in them, select a llasnear the same"
+          "text": "Scald andskinthem, select allasnear thesame"
         },
         {
           "step": 9,
-          "text": "sizeaspossible. Place on iceuntil halfanhour before"
+          "text": "sizeaspossible. Place oniceuntil halfanhour before"
         },
         {
           "step": 10,
@@ -12976,11 +12472,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "salad-dressings-thewhysofc",
@@ -12997,13 +12489,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "tablospoonfuls oil'_1 teaspoonful salt",
+          "item": "tablospoonfuls oil'_iteaspoonful salt",
           "quantity": "3",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "to Stablospoonfuls k'luon Jsteaspoonful pepper",
+          "item": "toStablospoonfuls k'luon Jsteaspoonful pepper",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13012,43 +12504,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "The ingredients for theilressing may be mixed l and poured at once over the"
+          "text": "Theingredients fortheilressing may bemixed landpoured atonce over the"
         },
         {
           "step": 2,
-          "text": "salad materials, which a rethen turned over and. over until the dressinj; has"
+          "text": "salad materials, which arethen turned over and.over until thedressinj; has"
         },
         {
           "step": 3,
-          "text": "beentaken upby them; or theeonilinienls, mixed with the oil. maybefirst"
+          "text": "beentaken upbythem; ortheeonilinienls, mixed with the oil.maybefirst"
         },
         {
           "step": 4,
-          "text": "used, then, a fter each leaforseparate i)icec hasbeen thoroughly coated with"
+          "text": "used, then, after each leaforseparate i)icec hasbeen thoroughly coated with"
         },
         {
           "step": 5,
-          "text": "the oil, the a cidmay bepouroil on and thesalad turned over a nilover until"
+          "text": "the oil,theacidmay bepouroil onandthesalad turned over anilover until"
         },
         {
           "step": 6,
-          "text": "the acid is evenly mixed throughout. Neither I'Vench normayonnaise dressini,'"
+          "text": "theacid isevenly mixed throughout. Neither I'Vench normayonnaise dressini,'"
         },
         {
           "step": 7,
-          "text": "should bestrongly aeid, and on etablespoonful of acid to three of oilis a good"
+          "text": "should bestrongly aeid,andonetablespoonful ofacid tothree ofoilisagood"
         },
         {
           "step": 8,
-          "text": "jiroportion in most salads. For fishandbeets twotablespoonfuls of acid to"
+          "text": "jiroportion inmost salads. For fishandbeets twotablespoonfuls ofacid to"
         },
         {
           "step": 9,
-          "text": "three of oilwould bepreferred bymany. Equal quantities of oilandacidare"
+          "text": "three ofoilwould bepreferred bymany. Equal quantities ofoilandacidare"
         },
         {
           "step": 10,
-          "text": "favored bypeople aecustomeil to using so-called \"boiled dressings\" orby"
+          "text": "favored bypeople aecustomeil tousing so-called \"boiled dressings\" orby"
         }
       ],
       "temperature": "",
@@ -13061,8 +12553,7 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "pdf-extraction",
-          "OCR corrections applied"
+          "pdf-extraction"
         ]
       },
       "image_refs": [],
@@ -13084,17 +12575,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (13 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "cabbage-salad-with-oil-thewingold",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Cabbage Salad with Oil",
+      "title": "Cabbage Salad With Oil",
       "category": "salads",
       "attribution": "",
       "source_note": "The Wingold Cook Book 1916 (PDF cookbook)",
@@ -13105,13 +12592,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "solidheadcabbage jc. vinegar",
+          "item": "solidheadcabbage jc.vinegar",
           "quantity": "1",
           "unit": "small",
           "prep_note": ""
         },
         {
-          "item": "onion Itsp. paprika",
+          "item": "onion Itsp.paprika",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13126,11 +12613,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Chop cabbage, onion and pepper. Mix other ingredients until"
+          "text": "Chop cabbage, onion andpepper. Mix other ingredients until"
         },
         {
           "step": 2,
-          "text": "thick, pour over cabbage and serve."
+          "text": "thick, pour overcabbage and serve."
         }
       ],
       "temperature": "",
@@ -13162,17 +12649,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (2 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "orange-andcelery-salad-thewingold",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Orange and Celery Salad",
+      "title": "Orange Andcelery Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "The Wingold Cook Book 1916 (PDF cookbook)",
@@ -13183,19 +12666,19 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "celery roots 1 c. sugar",
+          "item": "celery roots 1 c.sugar",
           "quantity": "3",
           "unit": "large",
           "prep_note": ""
         },
         {
-          "item": "or a nges",
+          "item": "oranges",
           "quantity": "6",
           "unit": "large",
-          "prep_note": "sliced thin tsp salt"
+          "prep_note": "sliced thin ^tsp salt"
         },
         {
-          "item": "c. raisins",
+          "item": "c.raisins",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13208,15 +12691,15 @@
         },
         {
           "step": 2,
-          "text": "and salt. Place a layer of celery into a crock, then a layer of orange,"
+          "text": "and salt. Place alayer ofcelery intoacrock, then alayer oforange,"
         },
         {
           "step": 3,
-          "text": "sprinkle with raisins, salt and sugar, repeat until crock is filled. Set"
+          "text": "sprinkle with raisins, saltandsugar, repeat until crock isfilled. Set"
         },
         {
           "step": 4,
-          "text": "into cool place and putaweight on it. Usethenext day."
+          "text": "into cool place andputaweight on it.Usethenext day."
         }
       ],
       "temperature": "",
@@ -13250,11 +12733,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (7 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "potato-salad-thewingold",
@@ -13358,16 +12837,16 @@
           "item": "tallcansalmon",
           "quantity": "1",
           "unit": "",
-          "prep_note": "minced 1 c. shredded cabbage"
+          "prep_note": "minced 1 c.shredded cabbage"
         },
         {
-          "item": "c. chopped celery 1 small onion",
+          "item": "c.chopped celery 1 small onion",
           "quantity": "1",
           "unit": "",
           "prep_note": "chopped fine"
         },
         {
-          "item": "c. chopped boiledham",
+          "item": "c.chopped boiledham",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13376,27 +12855,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix theabove ingredients, the naddfollowing dressing:"
+          "text": "Mixtheabove ingredients, thenaddfollowing dressing:"
         },
         {
           "step": 2,
-          "text": "2 tblsp. sugar 1 heaping tsp. Wingold flour"
+          "text": "2 tblsp. sugar 1 heaping tsp.Wingold flour"
         },
         {
           "step": 3,
-          "text": "1 tblsp. butter |tsp. drymustard"
+          "text": "1 tblsp. butter |tsp.drymustard"
         },
         {
           "step": 4,
-          "text": "1 tsp. salt c. vinegar"
+          "text": "1 tsp. salt ^c.vinegar"
         },
         {
           "step": 5,
-          "text": "Boil and stiruntil thick, remove from fire, add 1 well beaten egg,"
+          "text": "Boiland stiruntil thick, remove from fire,add 1 wellbeaten egg,"
         },
         {
           "step": 6,
-          "text": "stir until smooth and cool, then add 1 c. cream or milk."
+          "text": "stiruntilsmooth and cool, thenadd 1 c.cream ormilk."
         }
       ],
       "temperature": "",
@@ -13414,7 +12893,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
@@ -13424,23 +12903,17 @@
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "1  c.chopped boiledham"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (3 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "salmon-orshrimp-salad-thewingold",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Salmon or Shrimp Salad",
+      "title": "Salmon Orshrimp Salad",
       "category": "salads",
       "attribution": "",
       "source_note": "The Wingold Cook Book 1916 (PDF cookbook)",
@@ -13451,13 +12924,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "a lmon or shrimp 1 c. dressing",
+          "item": "almon orshrimp 1 c.dressing",
           "quantity": "1",
           "unit": "can",
           "prep_note": ""
         },
         {
-          "item": "c. celery Lettuce",
+          "item": "^c.celery Lettuce",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13466,11 +12939,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Free the salmon from skin, bones, and oil. Pick the fishapart,"
+          "text": "Free thesalmon from skin, bones, and oil. Pick the fishapart,"
         },
         {
           "step": 2,
-          "text": "the naddcelery and dressing. Season to taste, then serve on lettuce."
+          "text": "thenaddcelery anddressing. Season totaste, then serve onlettuce."
         }
       ],
       "temperature": "",
@@ -13505,11 +12978,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (4 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "sardine-salad-thewingold",
@@ -13526,36 +12995,36 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "a rdines 1 c. thincream",
+          "item": "ardines 1 c.thincream",
           "quantity": "1",
           "unit": "can",
           "prep_note": ""
         },
         {
-          "item": "c. butter",
+          "item": "c.butter",
           "quantity": "5",
           "unit": "",
           "prep_note": "melted 2 hard boiled eggs"
         },
         {
-          "item": "c. bread crumbs Salt",
+          "item": "c.bread crumbs Salt",
           "quantity": "1",
           "unit": "",
-          "prep_note": "and Watkins' pepper to taste\u2014194\u2014"
+          "prep_note": "andWatkins' pepper totaste\u2014194\u2014"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Drain sardines, remove bone, and mash. Thoroughly heat but-"
+          "text": "Drain sardines, remove bone, andmash. Thoroughly heat but-"
         },
         {
           "step": 2,
-          "text": "ter, crumbs, and cream; the naddchopped eggs, sardines, and season"
+          "text": "ter,crumbs, andcream; thenaddchopped eggs, sardines, andseason"
         },
         {
           "step": 3,
-          "text": "ing. Serve on crackers or to a sted bread."
+          "text": "ing. Serve oncrackers ortoasted bread."
         }
       ],
       "temperature": "",
@@ -13573,28 +13042,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 107,
-          "fat_g": 1.5,
+          "calories": 234,
+          "fat_g": 15.9,
           "carbs_g": 19.5,
-          "protein_g": 3.5,
-          "sodium_mg": 198,
+          "protein_g": 3.6,
+          "sodium_mg": 295,
           "fiber_g": 1.2,
           "sugar_g": 1.5
         },
-        "missing_inputs": [
-          "1 can ardines 1 c.thincream",
-          "5  c.butter"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "summer-salad-thewingold",
@@ -13611,7 +13073,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "of celery 2 tblsp. cream",
+          "item": "ofcelery 2 tblsp. cream",
           "quantity": "2",
           "unit": "stalks",
           "prep_note": "whipped"
@@ -13623,24 +13085,24 @@
           "prep_note": ""
         },
         {
-          "item": "Tomatoes Vinegar",
+          "item": "tomatoes Vinegar",
           "quantity": "2",
           "unit": "",
-          "prep_note": "salt, and pepper"
+          "prep_note": "salt,andpepper"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Skin and cut tomatoes; cut celery and peppers into small pieces."
+          "text": "Skinandcuttomatoes; cutcelery andpeppers intosmall pieces."
         },
         {
           "step": 2,
-          "text": "add dressing to cream, season with vinegar, salt, and pepper, then"
+          "text": "Add dressing tocream, season with vinegar, salt,and pepper, then"
         },
         {
           "step": 3,
-          "text": "mix with the vegetables. Serve on shredded lettuce."
+          "text": "mixwith thevegetables. Serve onshredded lettuce."
         }
       ],
       "temperature": "",
@@ -13658,27 +13120,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 23,
+          "calories": 26,
           "fat_g": 0.2,
-          "carbs_g": 5.0,
-          "protein_g": 0.9,
-          "sodium_mg": 4,
-          "fiber_g": 1.5,
-          "sugar_g": 3.0
+          "carbs_g": 5.5,
+          "protein_g": 1.1,
+          "sodium_mg": 20,
+          "fiber_g": 1.8,
+          "sugar_g": 3.2
         },
-        "missing_inputs": [
-          "2 stalks ofcelery 2 tblsp. cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (7 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "tuna-fishsalad-thewingold",
@@ -13695,13 +13151,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "can Tuna 1 chopped green pepper",
+          "item": "canTuna 1 chopped green pepper",
           "quantity": "1",
           "unit": "large",
           "prep_note": ""
         },
         {
-          "item": "c. chopped celery Salad dressing",
+          "item": "c.chopped celery Salad dressing",
           "quantity": "2",
           "unit": "",
           "prep_note": ""
@@ -13710,15 +13166,15 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Remove bones and skinfrom fish, separate into small pieces, add"
+          "text": "Remove bones andskinfrom fish,separate intosmall pieces, add"
         },
         {
           "step": 2,
-          "text": "celery and pepper, then mix lightly with dressing. Season to taste,"
+          "text": "celery andpepper, thenmix lightly with dressing. Season totaste,"
         },
         {
           "step": 3,
-          "text": "then serve on shredded lettuce."
+          "text": "then serve onshredded lettuce."
         }
       ],
       "temperature": "",
@@ -13750,11 +13206,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (3 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "white-fruit-salad-thewingold",
@@ -13771,13 +13223,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "c. diced pineapple 2 pears",
+          "item": "c.diced pineapple 2 pears",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "c. malaga grapes 1 a pple",
+          "item": "c.malaga grapes 1 apple",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -13792,11 +13244,11 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Peel, seed; and cutgrapes, dicebananas, pears, and a pple, re-"
+          "text": "Peel, seed; andcutgrapes, dicebananas, pears, andapple, re-"
         },
         {
           "step": 2,
-          "text": "move grape fruit from skins in sections. Serve with mayonnaise"
+          "text": "move grape fruit from skins insections. Serve with mayonnaise"
         }
       ],
       "temperature": "",
@@ -13814,29 +13266,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
+          "calories": 52,
+          "fat_g": 0.1,
+          "carbs_g": 13.0,
+          "protein_g": 1.0,
           "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "fiber_g": 2.0,
+          "sugar_g": 8.5
         },
-        "missing_inputs": [
-          "1  c.diced pineapple 2 pears",
-          "1  c.malaga grapes 1 apple",
-          "2  bananas 1 grape fruit"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (3 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "chicken-jelly-salad-triedandtr",
@@ -13917,13 +13361,13 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Two or a nges.",
+          "item": "Two oranges.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Two a pples.",
+          "item": "Two apples.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -13938,31 +13382,31 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Place in a bowl and a ddonecupofcocoanut and to ssgently"
+          "text": "Place inabowlandaddonecupofcocoanut andtossgently"
         },
         {
           "step": 2,
-          "text": "to mix. Now place in a nestoflettuce. Prepare a fruit salad"
+          "text": "tomix.Now place inanestoflettuce. Prepare afruit salad"
         },
         {
           "step": 3,
-          "text": "Dissolve the sugar and starch and bring to a boil. Cook"
+          "text": "Dissolve thesugar andstarch andbring toaboil. Cook"
         },
         {
           "step": 4,
-          "text": "for fiveminutes and then remove from the fire, and a ddyolk of"
+          "text": "forfiveminutes andthenremove from the fire,andaddyolkof"
         },
         {
           "step": 5,
-          "text": "on eegg. Beat hard to mix and then fold in the stiffly beaten"
+          "text": "oneegg. Beathard tomixandthen fold inthe stiffly beaten"
         },
         {
           "step": 6,
-          "text": "white of on eegg. Cool, and then pour over the fruit salad."
+          "text": "white ofoneegg. Cool, andthenpour over thefruit salad."
         },
         {
           "step": 7,
-          "text": "Garnish with maraschino cherries. This a mount of salad will"
+          "text": "Garnish withmaraschino cherries. Thisamount ofsalad will"
         },
         {
           "step": 8,
@@ -13984,27 +13428,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 39,
-          "fat_g": 0.1,
-          "carbs_g": 10.0,
-          "protein_g": 0.4,
-          "sodium_mg": 0,
-          "fiber_g": 1.9,
-          "sugar_g": 7.8
+          "calories": 66,
+          "fat_g": 0.2,
+          "carbs_g": 16.8,
+          "protein_g": 0.7,
+          "sodium_mg": 1,
+          "fiber_g": 2.6,
+          "sugar_g": 11.2
         },
-        "missing_inputs": [
-          "Three bananas."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (13 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "salmon-salad-wilsonscoo",
@@ -14024,27 +13462,27 @@
           "item": "Two green peppers, chopped fine.",
           "quantity": "1/4",
           "unit": "tsp",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "One onion, chopped fine.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Mix, shred the coarse outer green leaves of the lettuce fine"
+          "text": "Mix, shred thecoarse outer green leaves ofthelettuce fine"
         },
         {
           "step": 2,
-          "text": "and then lineabowl with crisp lettuce. Place the shredded"
+          "text": "andthen lineabowl with crisp lettuce. Place theshredded"
         },
         {
           "step": 3,
-          "text": "lettuce in thenest and then the prepared salmon. Serve with"
+          "text": "lettuce inthenestandthen theprepared salmon. Serve with"
         },
         {
           "step": 4,
@@ -14080,11 +13518,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (6 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "olive-salad-wilsonscoo",
@@ -14101,7 +13535,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Four slices of nicely browned bacon, cutintotiny bits.",
+          "item": "Four slices ofnicely browned bacon, cutintotiny bits.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -14110,23 +13544,23 @@
           "item": "One onion, grated.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
           "item": "Two green peppers, chopped fine.",
           "quantity": "1/4",
           "unit": "tsp",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "mix thoroughly and then lift into a nest of crisp lettuce"
+          "text": "Mixthoroughly andthen liftintoanest ofcrisp lettuce"
         },
         {
           "step": 2,
-          "text": "leaves and garnish with slices of hard-boiled egg. This salad"
+          "text": "leaves andgarnish with slices ofhard-boiled egg. This salad"
         }
       ],
       "temperature": "",
@@ -14158,11 +13592,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (3 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "potato-salad-wilsonscoo",
@@ -14226,9 +13656,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_review": true,
-      "review_reason": "Incomplete extraction"
+      }
     },
     {
       "id": "jellied-potato-salad-wilsonscoo",
@@ -14245,60 +13673,60 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Three medium-sized on ions, chopped fine.",
+          "item": "Three medium-sized onions, chopped fine.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Five tablespoons of finely chopped parsley.",
+          "item": "Five tablespoons offinely chopped parsley.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "Two teaspoons of salt.",
+          "item": "Two teaspoons ofsalt.",
           "quantity": "1",
           "unit": "tsp",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Now chillabaking panbyplacing onice. Make twoquarts"
+          "text": "Now chillabaking panbyplacing onice.Make twoquarts"
         },
         {
           "step": 2,
-          "text": "of lemon gelatine. Poursome gelatine in the panandturn itso"
+          "text": "oflemon gelatine. Poursome gelatine inthepanandturn itso"
         },
         {
           "step": 3,
-          "text": "as to make one-half-inch coating of gelatine a llover the pan."
+          "text": "astomake one-half-inch coating ofgelatine allover thepan."
         },
         {
           "step": 4,
-          "text": "Nowspread on the potato salad in a neven layer. Pour over the"
+          "text": "Nowspread onthepotato salad inaneven layer. Pour over the"
         },
         {
           "step": 5,
-          "text": "salad a little gelatin every fewminutes to fillthecrevices and"
+          "text": "salad alittle gelatin every fewminutes tofillthecrevices and"
         },
         {
           "step": 6,
-          "text": "cover the top. set a side to mould and thenwhen ready to serve,"
+          "text": "cover thetop. Setaside tomould andthenwhen ready toserve,"
         },
         {
           "step": 7,
-          "text": "dip the pan in warm water for a fewminutes and thenunmould"
+          "text": "dipthepan inwarm water forafewminutes andthenunmould"
         },
         {
           "step": 8,
-          "text": "on a pastry board. Cut into squares and place in a nest"
+          "text": "onapastry board. Cut into squares andplace inanest"
         },
         {
           "step": 9,
-          "text": "of crisp lettuce leaves and garnish with at easpoon of may-"
+          "text": "ofcrisp lettuce leaves andgarnish with ateaspoon ofmay-"
         }
       ],
       "temperature": "",
@@ -14316,7 +13744,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
@@ -14326,17 +13754,11 @@
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Five tablespoons offinely chopped parsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (12 issues); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "green-chile-salad-chile-bible",
@@ -14508,19 +13930,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 76,
+          "calories": 77,
           "fat_g": 6.9,
-          "carbs_g": 3.4,
+          "carbs_g": 3.7,
           "protein_g": 0.7,
-          "sodium_mg": 76,
-          "fiber_g": 1.1,
-          "sugar_g": 1.8
+          "sodium_mg": 99,
+          "fiber_g": 1.2,
+          "sugar_g": 1.9
         },
-        "missing_inputs": [
-          "4  green chiles, roasted, peeled and sliced"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 8 servings"
         ]
@@ -14581,20 +14001,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 4,
+          "calories": 12,
           "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 1.0,
-          "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "carbs_g": 1.5,
+          "protein_g": 1.3,
+          "sodium_mg": 141,
+          "fiber_g": 0.5,
+          "sugar_g": 0.8
         },
-        "missing_inputs": [
-          "2  green chiles, chopped",
-          "1 can (8 oz) tomato and green chile sauce"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -14671,24 +14088,761 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 125,
-          "fat_g": 13.4,
-          "carbs_g": 0.7,
-          "protein_g": 0.8,
-          "sodium_mg": 106,
-          "fiber_g": 0.1,
-          "sugar_g": 0.3
+          "calories": 164,
+          "fat_g": 17.1,
+          "carbs_g": 1.7,
+          "protein_g": 1.3,
+          "sodium_mg": 135,
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
         },
-        "missing_inputs": [
-          "1 carton lemon (8 oz) sour cream",
-          "1/3 cup green chiles, chopped"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 12 servings"
         ]
       }
+    },
+    {
+      "id": "greek-salad-horiatiki",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Greek Salad (Horiatiki)",
+      "category": "salads",
+      "source_note": "Traditional Greek recipe",
+      "description": "The classic Greek village salad with chunks of feta, ripe tomatoes, cucumbers, and Kalamata olives. Authentic versions don't use lettuce.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "ripe tomatoes",
+          "quantity": "4",
+          "unit": "large",
+          "prep_note": "cut into wedges"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "peeled and chunked"
+        },
+        {
+          "item": "red onion",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "green bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "sliced into rings"
+        },
+        {
+          "item": "Kalamata olives",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "feta cheese (sheep milk preferred)",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "one thick slab or crumbled"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange tomato wedges, cucumber chunks, onion slices, and pepper rings on a large platter."
+        },
+        {
+          "step": 2,
+          "text": "Scatter olives over the vegetables."
+        },
+        {
+          "step": 3,
+          "text": "Place the feta slab on top (traditional) or crumble over salad."
+        },
+        {
+          "step": 4,
+          "text": "Drizzle generously with olive oil."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle with oregano, salt, and pepper. Add vinegar if desired."
+        },
+        {
+          "step": 6,
+          "text": "Serve immediately with crusty bread to soak up the juices."
+        }
+      ],
+      "notes": [
+        "Authentic Greek feta is made from sheep milk or a sheep/goat blend",
+        "Do not refrigerate tomatoes - use room temperature for best flavor"
+      ],
+      "tags": [
+        "salad",
+        "Greek",
+        "feta",
+        "vegetarian",
+        "Mediterranean",
+        "sheep milk"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "watermelon-feta-salad",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Watermelon Feta Salad with Mint",
+      "category": "salads",
+      "source_note": "Mediterranean summer salad",
+      "description": "A refreshing summer salad combining sweet watermelon with salty feta and fresh mint.",
+      "servings_yield": "6 servings",
+      "prep_time": "15 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "seedless watermelon",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "feta cheese (sheep milk)",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "cubed or crumbled"
+        },
+        {
+          "item": "fresh mint leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "torn"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lime juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flaky sea salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "red onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "very thinly sliced, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange watermelon cubes on a serving platter."
+        },
+        {
+          "step": 2,
+          "text": "Scatter feta cheese over the watermelon."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle with torn mint leaves and red onion if using."
+        },
+        {
+          "step": 4,
+          "text": "Drizzle with olive oil and lime juice."
+        },
+        {
+          "step": 5,
+          "text": "Finish with a pinch of flaky salt and fresh cracked pepper."
+        },
+        {
+          "step": 6,
+          "text": "Serve immediately while cold."
+        }
+      ],
+      "notes": [
+        "Can add arugula for a peppery base",
+        "Balsamic glaze also works well as a drizzle"
+      ],
+      "tags": [
+        "salad",
+        "summer",
+        "watermelon",
+        "feta",
+        "mint",
+        "vegetarian",
+        "sheep milk"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "manchego-salad-sherry-vinaigrette",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Manchego Salad with Sherry Vinaigrette",
+      "category": "salads",
+      "source_note": "Spanish-inspired salad",
+      "description": "Mixed greens with shaved Manchego, Marcona almonds, and a sherry vinaigrette.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "mixed greens or arugula",
+          "quantity": "8",
+          "unit": "cups"
+        },
+        {
+          "item": "Manchego cheese (sheep milk)",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "shaved with vegetable peeler"
+        },
+        {
+          "item": "Marcona almonds",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "dried cranberries or figs",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "optional"
+        },
+        {
+          "item": "sherry vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together sherry vinegar, mustard, honey, salt, and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Slowly whisk in olive oil to emulsify."
+        },
+        {
+          "step": 3,
+          "text": "Place greens in a large bowl. Toss with enough vinaigrette to lightly coat."
+        },
+        {
+          "step": 4,
+          "text": "Divide among plates. Top with Manchego shavings, almonds, and dried fruit."
+        },
+        {
+          "step": 5,
+          "text": "Drizzle with a little extra vinaigrette and serve."
+        }
+      ],
+      "notes": [
+        "Sherry vinegar is key - its nutty flavor complements Manchego perfectly"
+      ],
+      "tags": [
+        "salad",
+        "Spanish",
+        "Manchego",
+        "sherry",
+        "sheep milk",
+        "vegetarian"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "roquefort-walnut-salad",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Roquefort and Walnut Salad",
+      "category": "salads",
+      "source_note": "French bistro classic",
+      "description": "A classic French salad with peppery greens, creamy Roquefort, and toasted walnuts.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "fris\u00e9e or mixed bitter greens",
+          "quantity": "8",
+          "unit": "cups"
+        },
+        {
+          "item": "Roquefort cheese (sheep milk)",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "toasted"
+        },
+        {
+          "item": "pear or apple",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "walnut oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "or extra virgin olive oil"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "shallot",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together vinegar, mustard, shallot, salt, and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Gradually whisk in walnut oil."
+        },
+        {
+          "step": 3,
+          "text": "Place greens in a large bowl. Toss with vinaigrette."
+        },
+        {
+          "step": 4,
+          "text": "Divide among plates. Top with Roquefort, walnuts, and pear slices."
+        },
+        {
+          "step": 5,
+          "text": "Serve immediately."
+        }
+      ],
+      "notes": [
+        "Roquefort is made exclusively from raw sheep milk in caves near Roquefort-sur-Soulzon, France",
+        "Walnut oil enhances the pairing but olive oil works too"
+      ],
+      "tags": [
+        "salad",
+        "French",
+        "Roquefort",
+        "blue cheese",
+        "walnut",
+        "sheep milk"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "grilled-halloumi-salad",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Grilled Halloumi Salad",
+      "category": "salads",
+      "source_note": "Mediterranean recipe",
+      "description": "Warm grilled halloumi over fresh vegetables with a lemon herb dressing. The cheese gets beautifully golden and squeaky.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "cook_time": "10 min",
+      "total_time": "25 min",
+      "ingredients": [
+        {
+          "item": "halloumi cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "sliced 1/4 inch thick"
+        },
+        {
+          "item": "mixed greens or arugula",
+          "quantity": "6",
+          "unit": "cups"
+        },
+        {
+          "item": "cherry tomatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "halved"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "red onion",
+          "quantity": "1/4",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "Kalamata olives",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh mint",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together 2 tbsp olive oil, lemon juice, mint, oregano, salt, and pepper for dressing."
+        },
+        {
+          "step": 2,
+          "text": "Combine greens, tomatoes, cucumber, onion, and olives in a large bowl."
+        },
+        {
+          "step": 3,
+          "text": "Brush halloumi slices with remaining olive oil."
+        },
+        {
+          "step": 4,
+          "text": "Grill or pan-fry halloumi 2-3 minutes per side until golden with grill marks."
+        },
+        {
+          "step": 5,
+          "text": "Toss salad with dressing and divide among plates."
+        },
+        {
+          "step": 6,
+          "text": "Top with warm halloumi and serve immediately."
+        }
+      ],
+      "notes": [
+        "Halloumi must be served warm - it becomes tough when cold",
+        "Can also add watermelon for a sweet contrast"
+      ],
+      "tags": [
+        "salad",
+        "halloumi",
+        "grilled",
+        "Mediterranean",
+        "vegetarian",
+        "Cypriot"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "cf-caprese-pasta-salad",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Caprese Pasta Salad with Fresh Mozzarella",
+      "category": "salads",
+      "source_note": "CheeseForum.org - Favorite Recipes (reconstructed)",
+      "description": "A light and fresh Italian-inspired pasta salad with cherry tomatoes, fresh mozzarella, and basil. Perfect for summer potlucks.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes (plus chilling)",
+      "ingredients": [
+        {
+          "item": "quality pasta (rotini or penne)",
+          "quantity": "360",
+          "unit": "g (about 12 oz)"
+        },
+        {
+          "item": "fresh mozzarella balls",
+          "quantity": "2",
+          "unit": "balls (8 oz each)"
+        },
+        {
+          "item": "cherry tomatoes, halved",
+          "quantity": "12",
+          "unit": "small (or 2-4 larger)"
+        },
+        {
+          "item": "extra virgin olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "balsamic vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh basil leaves, torn",
+          "quantity": "1/2",
+          "unit": "cup (packed)"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "to taste"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "",
+          "unit": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook pasta according to package directions until al dente. Drain and rinse with cold water to stop cooking. Let cool completely."
+        },
+        {
+          "step": 2,
+          "text": "Cut mozzarella into bite-sized cubes or tear into rough pieces."
+        },
+        {
+          "step": 3,
+          "text": "Halve the cherry tomatoes (or dice larger tomatoes)."
+        },
+        {
+          "step": 4,
+          "text": "In a large bowl, whisk together olive oil and balsamic vinegar."
+        },
+        {
+          "step": 5,
+          "text": "Add cooled pasta, mozzarella, and tomatoes to the bowl. Toss gently to coat."
+        },
+        {
+          "step": 6,
+          "text": "Season with salt and pepper to taste."
+        },
+        {
+          "step": 7,
+          "text": "Just before serving, add torn basil leaves and toss again."
+        },
+        {
+          "step": 8,
+          "text": "Serve immediately or refrigerate for up to 4 hours (add basil just before serving)."
+        }
+      ],
+      "notes": [
+        "Use the best quality mozzarella you can find - fresh buffalo mozzarella is ideal",
+        "Add basil at the last minute to prevent wilting",
+        "Can add pine nuts or olives for variation"
+      ],
+      "tags": [
+        "salad",
+        "pasta",
+        "Italian",
+        "caprese",
+        "summer",
+        "potluck"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "Recipe reconstructed from partial forum post"
+        ]
+      },
+      "image_refs": []
+    },
+    {
+      "id": "gr-quinoa-salad",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Quinoa Salad",
+      "category": "salads",
+      "attribution": "Gordon Ramsay",
+      "source_note": "gordonramsay.com (used with permission)",
+      "description": "Nutty quinoa salad with almonds, cucumber, and fresh herbs",
+      "servings_yield": "4 servings",
+      "prep_time": "15 min",
+      "cook_time": "0 min",
+      "total_time": "15 min",
+      "ingredients": [
+        {
+          "item": "quinoa, cooked",
+          "quantity": "200",
+          "unit": "g"
+        },
+        {
+          "item": "flaked almonds",
+          "quantity": "50",
+          "unit": "g"
+        },
+        {
+          "item": "cucumber",
+          "quantity": "1/2",
+          "unit": "large"
+        },
+        {
+          "item": "cherry tomatoes, halved",
+          "quantity": "125",
+          "unit": "g"
+        },
+        {
+          "item": "raisins",
+          "quantity": "50",
+          "unit": "g"
+        },
+        {
+          "item": "spring onions",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "mint leaves",
+          "quantity": "1",
+          "unit": "bunch"
+        },
+        {
+          "item": "lime juice",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook quinoa and spread on plate to cool quickly."
+        },
+        {
+          "step": 2,
+          "text": "Toast almonds until golden."
+        },
+        {
+          "step": 3,
+          "text": "Peel cucumber in strips, remove seeds, slice into half-moons."
+        },
+        {
+          "step": 4,
+          "text": "Combine quinoa, almonds, cucumber, tomatoes, raisins, spring onions, and half the mint."
+        },
+        {
+          "step": 5,
+          "text": "Dress with lime juice and olive oil. Season and garnish with remaining mint."
+        }
+      ],
+      "temperature": "No cooking required",
+      "tags": [
+        "salad",
+        "quinoa",
+        "healthy",
+        "vegetarian",
+        "gordon-ramsay"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

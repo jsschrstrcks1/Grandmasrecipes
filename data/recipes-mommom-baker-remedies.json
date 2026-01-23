@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "remedies",
+    "total_recipes": 1,
+    "generated": "2026-01-23T14:31:32.276685Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "foxfire4-tar-cough-syrup",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Tar Cough Syrup",
+      "category": "remedies",
+      "attribution": "Traditional Appalachian, via Foxfire 4",
+      "source_note": "Traditional home remedy from Foxfire Book 4",
+      "description": "A traditional cough syrup made from pine tar, molasses, and sulfur.",
+      "servings_yield": "About 1 cup",
+      "prep_time": "5 minutes",
+      "cook_time": "None",
+      "total_time": "5 minutes",
+      "ingredients": [
+        {
+          "item": "pine tar (resin)",
+          "quantity": "1",
+          "unit": "part",
+          "prep_note": "melted from fat pine"
+        },
+        {
+          "item": "molasses",
+          "quantity": "5",
+          "unit": "parts",
+          "prep_note": ""
+        },
+        {
+          "item": "sulfur",
+          "quantity": "2",
+          "unit": "parts",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix one part tar with five parts molasses and two parts sulfur."
+        },
+        {
+          "step": 2,
+          "text": "Stir until well combined."
+        },
+        {
+          "step": 3,
+          "text": "Take one teaspoonful at a time for coughs."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Tar was also used on blisters, sores, and sometimes poison ivy.",
+        "Pine tar was traditionally melted from fat pine on a special rock."
+      ],
+      "tags": [
+        "remedy",
+        "cough",
+        "syrup",
+        "traditional medicine",
+        "appalachian",
+        "foxfire"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "historical remedy - not for modern medical use"
+        ]
+      },
+      "image_refs": []
+    }
+  ]
+}

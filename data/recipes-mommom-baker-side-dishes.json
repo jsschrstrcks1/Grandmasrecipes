@@ -1,0 +1,3171 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "side-dishes",
+    "total_recipes": 35,
+    "generated": "2026-01-23T14:31:32.294319Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "southwest-baked-beans-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Southwest Baked Beans",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 64",
+      "servings_yield": "Serves 8 to 10",
+      "ingredients": [
+        {
+          "item": "pork and beans",
+          "quantity": "4",
+          "unit": "cans (32 oz each)",
+          "prep_note": ""
+        },
+        {
+          "item": "bacon",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "drained"
+        },
+        {
+          "item": "soybeans",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "small onion",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles with tomatoes",
+          "quantity": "1",
+          "unit": "can (10 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "bacon slices",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400 degrees."
+        },
+        {
+          "step": 2,
+          "text": "In a large mixing bowl, combine all the ingredients except the bacon; mix thoroughly. Pour into a 2- or 3-quart ovenproof casserole or bean pot."
+        },
+        {
+          "step": 3,
+          "text": "Top with the bacon and in 1-inch pieces. Bake for 1 hour."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "beans",
+        "green chile",
+        "bacon"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6048 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "broccoli-green-chile-delight-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Broccoli-Green Chile Delight",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 64",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "onion",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen broccoli",
+          "quantity": "1",
+          "unit": "pkg (10 oz)",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "condensed cream of mushroom soup",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "instant rice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "uncooked"
+        },
+        {
+          "item": "processed cheese spread",
+          "quantity": "1",
+          "unit": "jar (8 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Saute the onion and celery in oil; add the thawed broccoli. Simmer over low heat 15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add the soup, milk, water, rice, cheese, and chiles; bring the mixture to a boil."
+        },
+        {
+          "step": 4,
+          "text": "Pour into a buttered 1 1/2-quart casserole. Bake for 25 minutes or until well heated."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "1 1/2-quart casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "broccoli",
+        "rice",
+        "cheese",
+        "green chile",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6048 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "cauliflower-chile-souffle-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cauliflower-Chile Souffl\u00e9",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 65",
+      "servings_yield": "Serves 6 to 8",
+      "ingredients": [
+        {
+          "item": "cauliflower",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "fresh or frozen"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "wheat germ",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "light cream or half-and-half",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "5 to 7",
+          "unit": "",
+          "prep_note": "peeled and chopped"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg whites",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "stiffly beaten"
+        },
+        {
+          "item": "wheat germ",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for topping"
+        },
+        {
+          "item": "cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Clean and cook the cauliflower until tender. Mash the cauliflower into a smooth paste. Add the butter, 1/4 cup wheat germ, cream, egg yolks, chiles, onion, and salt. Blend well."
+        },
+        {
+          "step": 3,
+          "text": "Fold in the egg whites."
+        },
+        {
+          "step": 4,
+          "text": "Pour the mixture into a buttered 2-quart casserole. Sprinkle with a small amount of wheat germ. Top with the grated cheese. Bake for 25 to 30 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "2-quart casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "cauliflower",
+        "souffle",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6049 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "creamy-corn-casserole-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Corn Casserole",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 65",
+      "servings_yield": "Serves 6 to 8",
+      "ingredients": [
+        {
+          "item": "creamed-style corn",
+          "quantity": "1",
+          "unit": "can (12 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "cracker crumbs",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Combine all the ingredients and pour into a greased 1 1/2-quart casserole."
+        },
+        {
+          "step": 3,
+          "text": "Bake 50 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "1 1/2-quart casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "corn",
+        "casserole",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6049 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "curried-corn-with-chile-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Curried Corn with Chile",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 66",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "finely minced"
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "corn",
+          "quantity": "8",
+          "unit": "ears",
+          "prep_note": ""
+        },
+        {
+          "item": "curry powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and freshly ground black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt the butter in a heavy skillet and add the garlic and onion. Cook until the onion is translucent."
+        },
+        {
+          "step": 2,
+          "text": "Using a sharp knife, cut the corn kernels off the cobs; then scrape the cobs to remove the corn milk. Add the kernels and corn milk to the pan."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle with the curry powder, salt, and pepper; add the cream. Partially cover and simmer 20 to 30 minutes over very low heat. Stir in the chiles; cook 3 minutes longer and serve."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "corn",
+        "curry",
+        "green chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6050 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "cornfetti-casserole-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cornfetti Casserole",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 66",
+      "servings_yield": "Serves 6 to 8",
+      "ingredients": [
+        {
+          "item": "cream-style corn",
+          "quantity": "1",
+          "unit": "can (23 1/2 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "yellow cornmeal",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "green chiles and cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Mix together all the ingredients except the cheese and chiles and pour the mixture with chiles in a greased 2-quart casserole."
+        },
+        {
+          "step": 3,
+          "text": "Top with the grated cheese. Bake for 1 hour or until set."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "2-quart casserole",
+      "notes": [
+        "Variation: Add 1 cup sour cream and 1 jar (2 oz) chopped pimentos to the mixture."
+      ],
+      "tags": [
+        "side dish",
+        "corn",
+        "casserole",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6050 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "corn-and-green-chile-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Corn and Green Chile",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 67",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "fresh corn",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cooking oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "2 to 4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat the oil in a skillet and add the corn, chiles, and garlic. Cover and cook until the corn is tender, 10 to 15 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add the seasonings. If the corn is too dry, add several tablespoons of boiling water while cooking."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "corn",
+        "green chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6051 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "eggplant-ole-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Eggplant Ol\u00e9",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 67",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "large eggplant",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled and cut into 1/2-inch slices"
+        },
+        {
+          "item": "whole green chiles",
+          "quantity": "5 or 6",
+          "unit": "",
+          "prep_note": "cut in strips"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "cornflake crumbs",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/3",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chile enchilada sauce",
+          "quantity": "1",
+          "unit": "can (10 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "longhorn cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 450 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Grease two pizza pans. Dip the eggplant slices in butter, then in cornflake crumbs; sprinkle with salt. Place the slices on pans and cover each slice with strips of green chile."
+        },
+        {
+          "step": 3,
+          "text": "Spoon enchilada sauce over each slice and generously sprinkle with grated cheese. Bake 15 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Freeze well."
+        }
+      ],
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "notes": [
+        "Freezes well"
+      ],
+      "tags": [
+        "side dish",
+        "eggplant",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6051 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "garbanzos-calientes-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Garbanzos Calientes",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 70",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "oregano",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled and chopped"
+        },
+        {
+          "item": "canned green chiles",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped (or more)"
+        },
+        {
+          "item": "red chile powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garbanzo beans (chickpeas)",
+          "quantity": "1",
+          "unit": "can (15 oz)",
+          "prep_note": "drained"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat the oil in a skillet and saute the onion, garlic, oregano, tomato, chiles, and chile powder over low heat about 10 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add the garbanzos and salt; simmer 20 minutes."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "beans",
+        "chickpeas",
+        "green chile"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6054 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "mexicali-spuds-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mexicali Spuds",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 70",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "bacon",
+          "quantity": "4",
+          "unit": "strips",
+          "prep_note": ""
+        },
+        {
+          "item": "medium potatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cooked"
+        },
+        {
+          "item": "cream",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "pt",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green onions",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Fry the bacon, drain on paper towels, and crumble. Cook the potatoes in salted boiling water until tender; drain and cool for 45 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Mix together the crumbled bacon, cream, sour cream, green chiles, and onions. Fold into the potatoes and season to taste with salt, pepper, and garlic salt."
+        },
+        {
+          "step": 3,
+          "text": "Can be served immediately or can be chilled."
+        }
+      ],
+      "notes": [
+        "Can be served warm or chilled"
+      ],
+      "tags": [
+        "side dish",
+        "potatoes",
+        "bacon",
+        "green chile",
+        "sour cream"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6054 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "green-chile-mashed-potatoes-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Green Chile Mashed Potatoes",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 72",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "instant or fresh mashed potatoes",
+          "quantity": "4",
+          "unit": "servings",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "canned or frozen, chopped"
+        },
+        {
+          "item": "Colby or longhorn cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Prepare the mashed potatoes according to the instructions and add the remaining ingredients. Spread the mixture in a buttered casserole and bake 10 to 15 minutes or until the cheese has melted and blended with the potatoes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "potatoes",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6056 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "roundup-mashed-potatoes-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Roundup Mashed Potatoes",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 72",
+      "servings_yield": "Serves 8",
+      "ingredients": [
+        {
+          "item": "whole green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mashed potatoes",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": "fresh or instant"
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "separated"
+        },
+        {
+          "item": "small curd cottage cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Chop the chiles. Combine the chiles with the mashed potatoes, egg yolks, and cheeses. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Beat the egg whites until stiff and fold them into the potato mixture. Turn into a 2-quart casserole and bake for 40 minutes or until browned and heated."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "2-quart casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "potatoes",
+        "green chile",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6056 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "southwestern-spinach-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Southwestern Spinach",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 73",
+      "servings_yield": "Serves 6 to 8",
+      "ingredients": [
+        {
+          "item": "frozen chopped spinach",
+          "quantity": "2",
+          "unit": "pkg (10 oz each)",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "spinach cooking water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sharp cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "buttered bread crumbs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Cook the spinach according to the package directions. Drain, saving 1/2 cup liquid."
+        },
+        {
+          "step": 3,
+          "text": "Saute the onion in butter until soft. Blend in the flour. Add the milk and water slowly, stirring constantly to avoid lumps. Cook until smooth and thickened."
+        },
+        {
+          "step": 4,
+          "text": "Add the remaining ingredients except the bread crumbs. Pour into a 9-inch square baking dish and top with the bread crumbs. Bake 25 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9-inch square baking dish",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "spinach",
+        "green chile",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6057 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "zucchini-espanolas-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Zucchini Espa\u00f1olas",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 73",
+      "servings_yield": "Serves 8",
+      "ingredients": [
+        {
+          "item": "margarine",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "zucchini",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "minced"
+        },
+        {
+          "item": "large green chiles",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "frozen whole kernel white corn",
+          "quantity": "1",
+          "unit": "pkg (10 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "ricotta cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan melt the margarine. Add the zucchini and simmer, covered, until tender. Add the onion and cook until translucent."
+        },
+        {
+          "step": 2,
+          "text": "Add the chiles, corn, and salt and simmer 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Turn off the heat and add the cheese. Mix well and let stand until the cheese is melted."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "zucchini",
+        "corn",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6057 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "zucchini-esquibel-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Zucchini Esquibel",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 76",
+      "servings_yield": "Serves 6 to 8",
+      "ingredients": [
+        {
+          "item": "zucchini",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Roma or plum tomatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "4",
+          "unit": "cloves",
+          "prep_note": ""
+        },
+        {
+          "item": "cilantro (fresh coriander)",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (7 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "sharp cheddar cheese",
+          "quantity": "1 1/2",
+          "unit": "cup",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Pour the oil to a depth of 1/4 inch in a skillet and heat to 445 degrees. Fry the sliced zucchini in the oil until tender and transparent on both sides. Drain on paper towels."
+        },
+        {
+          "step": 3,
+          "text": "Grind together the cilantro, chiles, tomatoes, garlic, and salt in a blender or mortar and pestle. Combine the tomato paste and tomatoes in a saucepan and add the herb mixture. Cook, stirring, 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Arrange the cooked zucchini in the bottom of a 12 X 17-inch ovenproof casserole. Pour the sauce over the zucchini and top with the cheese. Cover and bake 45 minutes."
+        }
+      ],
+      "temperature": "400\u00b0F (205\u00b0C)",
+      "pan_size": "12 X 17-inch casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "zucchini",
+        "green chile",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6060 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "creamy-vegetable-melange-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Creamy Vegetable M\u00e9lange",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 76",
+      "servings_yield": "Serves 8 to 10",
+      "ingredients": [
+        {
+          "item": "margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beef bouillon",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "zucchini",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "whole kernel white corn",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "drained"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped (or to taste)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Make a white sauce by combining the margarine, flour, seasonings, and milk over low heat. Turn the heat up to medium and cook the sauce until it thickens, stirring often."
+        },
+        {
+          "step": 2,
+          "text": "(Continued on next page)"
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "vegetables",
+        "zucchini",
+        "corn",
+        "green chile",
+        "cream sauce"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6060 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "calabacitas-zovio-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Calabacitas Zovio",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 77",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "margarine",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "zucchini or yellow summer squash",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh green chiles",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "whole kernel white corn",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Old English or Monterey Jack cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Melt the margarine in a heavy saucepan. Saute the onion until tender; add the squash, green chiles, corn, and salt and toss until well-coated with margarine and onion."
+        },
+        {
+          "step": 3,
+          "text": "Transfer to a casserole and sprinkle with the grated cheese. Cover and bake for 30 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Variation: Season with garlic powder and add chopped, canned or fresh tomatoes. Mix in 6 slices bacon, fried, crisp, and crumbled.",
+        "Variation: Add 1/2 cup evaporated milk and 1 cup creamed-style corn before baking. Sprinkle with grated Parmesan cheese."
+      ],
+      "tags": [
+        "side dish",
+        "squash",
+        "zucchini",
+        "corn",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6061 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "chile-mushroom-fritters-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chile-Mushroom Fritters",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 78",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "biscuit mix",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mushrooms",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green chile",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "celery seed",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten egg yolk",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg white",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cooking oil for deep-fat frying",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In mixing bowl, combine biscuit mix, mushrooms, onion, chile, salt, and celery seed. Mix together egg yolk and sour cream; stir into dry ingredients just until moistened."
+        },
+        {
+          "step": 2,
+          "text": "Beat egg white to stiff peaks. Gently fold beaten egg white into mushroom mixture."
+        },
+        {
+          "step": 3,
+          "text": "In heavy saucepan or electric deep-fat fryer, heat oil to 375 degrees. Drop batter by tablespoonfuls into hot oil. Fry about 2 minutes or until golden brown, turning once. Transfer to rack to drain."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C) oil",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "fritters",
+        "mushrooms",
+        "green chile",
+        "fried"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6062 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "noodles-with-green-chile-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Noodles with Green Chile",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 82",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "noodles",
+          "quantity": "1",
+          "unit": "pkg (8 oz)",
+          "prep_note": "cooked and drained"
+        },
+        {
+          "item": "cottage cheese",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "carton (8 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "large onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "black olives",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "grated"
+        },
+        {
+          "item": "butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Mix the noodles with all the ingredients except the Parmesan cheese and turn into a greased 1-quart casserole. Sprinkle with the Parmesan cheese and dot with butter. Bake for 30 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "1-quart casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "noodles",
+        "pasta",
+        "green chile",
+        "cheese"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6065 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "yum-yum-rice-casserole-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Yum-Yum Rice Casserole",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 82",
+      "servings_yield": "Serves 6",
+      "ingredients": [
+        {
+          "item": "cooked rice",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "carton (8 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "cheddar or Monterey Jack cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "condensed cream of celery soup",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "canned mushrooms",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "drained (optional)"
+        },
+        {
+          "item": "green chile",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Mix the cooked rice with the undiluted soup, sour cream, and mushrooms. Layer a third of this mixture on the bottom of a greased 1-quart casserole. Add a layer of green chiles. Repeat the layers process twice."
+        },
+        {
+          "step": 3,
+          "text": "Top with the grated cheese and bake for 20 minutes."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "1-quart casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "rice",
+        "green chile",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6065 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "hominy-grits-casserole-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hominy Grits Casserole",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 83",
+      "servings_yield": "Serves 8",
+      "ingredients": [
+        {
+          "item": "boiling water",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "white hominy grits",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sharp cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "grated"
+        },
+        {
+          "item": "savory salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1",
+          "unit": "can (4 oz)",
+          "prep_note": "chopped (or more to taste)"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350 degrees."
+        },
+        {
+          "step": 2,
+          "text": "Cook the hominy grits in boiling water 15 minutes. Add the butter and cheese and stir until melted. Add the seasonings; then fold in the eggs and green chiles."
+        },
+        {
+          "step": 3,
+          "text": "Pour into a greased 9 X 12-inch casserole and bake 1 hour."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9 X 12-inch casserole",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "grits",
+        "cheese",
+        "green chile",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6066 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "green-chile-gnocci-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Green Chile Gnocci",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 83",
+      "servings_yield": "Serves 8",
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hominy grits",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "uncooked"
+        },
+        {
+          "item": "margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "cut up"
+        },
+        {
+          "item": "green chiles",
+          "quantity": "1/2 to 1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "grated"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "lightly beaten"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine the first 4 ingredients and cook over low heat, stirring, until the margarine is melted."
+        },
+        {
+          "step": 2,
+          "text": "Add the remaining ingredients and pour into a greased 2-quart casserole."
+        },
+        {
+          "step": 3,
+          "text": "Let stand at room temperature until ready to bake. Bake at 350 degrees for 1 hour. Cover the last 10 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "2-quart casserole",
+      "notes": [
+        "Excellent for buffets"
+      ],
+      "tags": [
+        "side dish",
+        "gnocci",
+        "grits",
+        "green chile",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6066 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "cornmeal-mush-gcb",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Cornmeal Mush",
+      "category": "side-dishes",
+      "attribution": "Green Chile Bible",
+      "source_note": "Cookbook page 126",
+      "ingredients": [
+        {
+          "item": "cornmeal",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix the cornmeal with the cold water and add the boiling water and salt. Cook over medium heat 7 to 10 minutes, stirring occasionally."
+        }
+      ],
+      "notes": [
+        "Serve with Italian Green Chile Casserole"
+      ],
+      "tags": [
+        "side dish",
+        "cornmeal",
+        "base recipe"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Green Chile Bible/IMG_6111 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "asparagus-ruth-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Asparagus Ruth",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 90",
+      "ingredients": [
+        {
+          "item": "cooked asparagus tips",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "hard-cooked eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "shelled and sliced"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1 1/2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0."
+        },
+        {
+          "step": 2,
+          "text": "Prepare the sauce by melting the butter over a low heat. Blend in the flour and cook over the low heat for 3 or 4 minutes. Very slowly, stir in the milk and continue to cook and stir with a wire whisk or wooden spoon until thickened and smooth, about 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Place the eggs in a gratin dish, arrange asparagus tips, and pour the sauce over all. Cover with bread crumbs, dot with butter, and bake until the top has browned, about 15-20 minutes."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "asparagus",
+        "eggs",
+        "cream sauce",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6201 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "basic-barley-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Basic Barley",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 96",
+      "ingredients": [
+        {
+          "item": "pearled barley",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Rinse barley. Bring water and salt to boil. Add barley. Stir. Cover and simmer for 30 minutes. Remove from heat. Stir in butter and chopped walnuts."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "barley",
+        "grains",
+        "walnuts",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6203 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "basic-beans-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Basic Beans",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 99",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable stock",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "shelled fresh green fava beans",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "Parmesan or other hard cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "shaved"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Warm the olive oil in a saucepan. Add the vegetable stock and bring to a boil. Add everything but the Parmesan cheese. Cook 5 minutes or until the beans are tender. Top with the shaved cheese. Drizzle more olive oil on top and serve."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "fava beans",
+        "Parmesan",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6207 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "fava-beans-corinthian-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Fava Beans Corinthian",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 101",
+      "ingredients": [
+        {
+          "item": "very young fava beans",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "leave in pods"
+        },
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "seasoned with salt and pepper for coating"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon wedges",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash the beans, removing any strings with the tops and tails. Do not shell. Drop them into boiling, salted water. Cook rapidly for 5 minutes. Drain and pat dry."
+        },
+        {
+          "step": 2,
+          "text": "Roll the bean pods in the seasoned flour. Pour enough olive oil in a pan to cover the bottom. Heat. Fry the beans until golden brown, turning once. Serve with lemon wedges."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "fava beans",
+        "fried",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6209 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "baked-lentils-lazarus-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Baked Lentils Lazarus",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 103",
+      "ingredients": [
+        {
+          "item": "dried lentils",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped onions",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "diced celery",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "carrots",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "whole wheat flour",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beef, chicken, or vegetable stock",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "basil",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground thyme",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Swiss cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "additional butter",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook lentils in a quart of boiling water until barely tender, about 30 minutes. Drain."
+        },
+        {
+          "step": 2,
+          "text": "While lentils are cooking, saute vegetables in butter over low heat until tender. Stir in flour and cook one minute, stirring constantly. Whisk in stock and bring sauce to a boil. Remove from heat and add basil, thyme, and parsley. Season to taste."
+        },
+        {
+          "step": 3,
+          "text": "Preheat oven to 375\u00b0."
+        },
+        {
+          "step": 4,
+          "text": "When lentils are cooked, drain and stir into sauce. Spread in a shallow, buttered pan. Sprinkle with bread crumbs and cheese. Dot with butter. Bake 40 minutes."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "notes": [],
+      "tags": [
+        "side dish",
+        "lentils",
+        "casserole",
+        "cheese",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6211 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "esaus-pottage-cwa",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Esau's Pottage",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cookbook page 105",
+      "ingredients": [
+        {
+          "item": "brown lentils",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "cumin",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "large onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "pearled barley",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put the washed lentils in a saucepan with the water and cumin. Bring to a boil and cook 30 minutes or until almost soft."
+        },
+        {
+          "step": 2,
+          "text": "Cut the peeled onions lengthwise in half and slice thinly. Cook half the onions in the olive oil until soft and golden. Add the washed barley, salt, pepper, and cumin to the lentils with the saut\u00e9ed onions and most of the olive oil in the pan. Mix and simmer slowly another 15 minutes."
+        },
+        {
+          "step": 3,
+          "text": "In the meantime, cook the rest of the onions very slowly in the remaining olive oil until almost caramelized."
+        },
+        {
+          "step": 4,
+          "text": "Remove the lentil mixture from the heat, cover and let stand 10 minutes. Serve with the onions spread on top."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "side dish",
+        "lentils",
+        "barley",
+        "onions",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6213 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "naomis-carrot-cheese-bake-ancients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Naomi's Carrot-Cheese Bake",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cooking With the Ancients page 85",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "leeks",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "julienned"
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "peeled and diced"
+        },
+        {
+          "item": "almonds",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "slivered, toasted"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0."
+        },
+        {
+          "step": 2,
+          "text": "Steam carrots and leeks for two minutes. Coat the inside of a gratin dish with one tablespoon of butter."
+        },
+        {
+          "step": 3,
+          "text": "Arrange the steamed carrots and leeks on top."
+        },
+        {
+          "step": 4,
+          "text": "Melt two tablespoons of butter in a saucepan over very low heat. Stir in the flour until blended."
+        },
+        {
+          "step": 5,
+          "text": "Slowly add the milk and grated cheese, stirring until smooth and thick. Pour over carrots."
+        },
+        {
+          "step": 6,
+          "text": "In the same skillet, heat the olive oil and garlic, then add the toasted almonds and brown until crisp."
+        },
+        {
+          "step": 7,
+          "text": "Distribute over the carrots and sauce. Salt and pepper to taste. Bake 20 minutes."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "vegetable",
+        "cheese",
+        "side-dish",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6196 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "mahanaim-beans-ancients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Mahanaim Beans",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cooking With the Ancients page 100",
+      "ingredients": [
+        {
+          "item": "fava bean pods",
+          "quantity": "5 1/2",
+          "unit": "lbs",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken or vegetable stock",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "pinch",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh savory",
+          "quantity": "1",
+          "unit": "sprig",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "additional"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Shell and skin the beans."
+        },
+        {
+          "step": 2,
+          "text": "In a shallow pan, bring the stock to the boil. Add the beans, 1 tbsp butter, salt, and savory."
+        },
+        {
+          "step": 3,
+          "text": "Boil over high heat 5 minutes uncovered."
+        },
+        {
+          "step": 4,
+          "text": "When no more than 2 tbsp liquid remain, the beans are done."
+        },
+        {
+          "step": 5,
+          "text": "Add the rest of the butter and chopped parsley. Stir just until the butter is melted."
+        },
+        {
+          "step": 6,
+          "text": "Adjust seasoning and serve."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "beans",
+        "fava",
+        "side-dish",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6208 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "our-fava-beans-ancients",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Our Fava Beans",
+      "category": "side-dishes",
+      "attribution": "Cooking With the Ancients",
+      "source_note": "Cooking With the Ancients page 102",
+      "ingredients": [
+        {
+          "item": "unshelled fava beans",
+          "quantity": "4",
+          "unit": "lbs",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "5",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "basil",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "pistachio nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Shell the beans."
+        },
+        {
+          "step": 2,
+          "text": "Melt the butter in a saucepan, add the onion and garlic and saut\u00e9 until soft."
+        },
+        {
+          "step": 3,
+          "text": "Add the beans and enough water to cover. Cook, covered, for about 15 minutes or until the beans are tender."
+        },
+        {
+          "step": 4,
+          "text": "Drain, saving the liquid. Put the beans in a warm oven."
+        },
+        {
+          "step": 5,
+          "text": "Return the liquid to the pan. Add the crushed basil and pistachio nuts. Turn the heat up to high."
+        },
+        {
+          "step": 6,
+          "text": "When the liquid is reduced to about 1/2 cup, season to taste. Pour over the beans and serve."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "beans",
+        "fava",
+        "pistachio",
+        "side-dish",
+        "biblical"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/Cooking With the Ancients/IMG_6210 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "hungarian-bread-dumplings-fbc",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Hungarian Bread Dumplings a la Matt Kubick",
+      "category": "side-dishes",
+      "attribution": "F.B.C. of Jasmine Lakes Cookbook",
+      "source_note": "FBC Jasmine Cook Book page 18",
+      "ingredients": [
+        {
+          "item": "dried cubed bread",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "5 slices or rolls"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "sm",
+          "prep_note": "minced, optional"
+        },
+        {
+          "item": "parsley",
+          "quantity": "2",
+          "unit": "sprigs",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "oz",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "add more as needed"
+        },
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": "add as required"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "maggi",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Saute onions and parsley in margarine. Place bread in pan and brown to slightly yellow."
+        },
+        {
+          "step": 2,
+          "text": "Add salt, flour and stir until well mixed. Beat egg and milk and add to bread mix; let stand until absorbed."
+        },
+        {
+          "step": 3,
+          "text": "Bring water to boil (add salt). Make large balls and drop into boiling water."
+        },
+        {
+          "step": 4,
+          "text": "Cook 10 minutes; drain and run cold water on."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "dumplings",
+        "Hungarian",
+        "side dish",
+        "bread"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5680 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "spinach-casserole-fbc",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Spinach Casserole",
+      "category": "side-dishes",
+      "attribution": "F.B.C. of Jasmine Lakes Cookbook",
+      "source_note": "FBC Jasmine Cook Book page 143",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "45 to 60 minutes",
+      "ingredients": [
+        {
+          "item": "frozen chopped spinach",
+          "quantity": "5",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen artichoke hearts",
+          "quantity": "2",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "marinated artichoke hearts",
+          "quantity": "1",
+          "unit": "jar",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "8 oz"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/3 to 1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green onion dip mix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat cream cheese, butter, milk and green onion. Dip mix until creamy."
+        },
+        {
+          "step": 2,
+          "text": "Layer artichoke hearts on bottom of ungreased casserole. Mix 1/2 creamy mix with drained spinach, pour over artichoke hearts."
+        },
+        {
+          "step": 3,
+          "text": "Pour remainder of creamy mix over top. Sprinkle with Parmesan. Bake at 350 degrees for 30 minutes."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "spinach",
+        "artichoke",
+        "casserole",
+        "side dish",
+        "vegetable"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5810 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "zucchini-casserole-fbc",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Zucchini Casserole",
+      "category": "side-dishes",
+      "attribution": "F.B.C. of Jasmine Lakes Cookbook",
+      "source_note": "FBC Jasmine Cook Book page 143",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "zucchini",
+          "quantity": "3",
+          "unit": "lbs",
+          "prep_note": "cut in chunks (if large are used)"
+        },
+        {
+          "item": "med. onions",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "stick margarine",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cream of mushroom soup",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": ""
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "box Stove Top stuffing chicken flavor",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "prepared as directed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Steam zucchini for about 5 minutes or cook in microwave until partially cooked. Drain."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, saute onions in margarine, remove from heat. Add cream of chicken soup, and sour cream."
+        },
+        {
+          "step": 3,
+          "text": "In greased casserole, layer 1/2 of zucchini, 1/2 of onion, and soup mixture and 1/2 of stuffing."
+        },
+        {
+          "step": 4,
+          "text": "Repeat layers ending with stuffing. Bake for 1 hour at 350 degrees."
+        }
+      ],
+      "notes": [],
+      "tags": [
+        "zucchini",
+        "casserole",
+        "side dish",
+        "vegetable"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5810 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    }
+  ]
+}

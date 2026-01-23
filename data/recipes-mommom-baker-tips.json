@@ -2,8 +2,8 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "tips",
-    "total_recipes": 92,
-    "generated": "2026-01-22T19:32:06.557251Z",
+    "total_recipes": 98,
+    "generated": "2026-01-23T14:31:32.325682Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -24,21 +24,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "A warm spice with flavors of cinnamon, nutmeg, and cloves combined.",
-      "tip_text": "Use in baked goods, fruit desserts, meat dishes, and Caribbean cuisine. Pairs well with cloves and cinnamon. Use sparingly - flavor intensifies during cooking.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: pies, cakes, cookies, ham glaze, jerk seasoning, mulled cider, pickles, and marinades."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -65,21 +50,6 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      },
-      "description": "Sweet, aromatic herb essential to Italian and Thai cuisines.",
-      "tip_text": "Add fresh basil at the end of cooking to preserve flavor. Dried basil works in long-cooked dishes. Store fresh basil at room temperature in water, not refrigerated.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: tomato dishes, pasta, pizza, pesto, salads, Thai curries, and fresh mozzarella."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -99,21 +69,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Aromatic leaves that add subtle depth to slow-cooked dishes.",
-      "tip_text": "Always remove bay leaves before serving - they remain tough even after cooking. Use 1-2 leaves per pot. Crush slightly to release more flavor.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: soups, stews, stocks, braises, poaching liquid, rice dishes, and pickling brines."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -135,21 +90,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Distinctive seeds with an earthy, anise-like flavor.",
-      "tip_text": "Toast caraway seeds lightly to enhance flavor. Common in German, Austrian, and Eastern European cooking. A little goes a long way.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: rye bread, sauerkraut, coleslaw, pork dishes, cheese spreads, and cabbage dishes."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -169,21 +109,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "A blend of spices including turmeric, cumin, coriander, and others.",
-      "tip_text": "Toast curry powder briefly in oil to bloom flavors before adding liquid. Blends vary widely - taste and adjust. Store away from light.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: curries, rice dishes, soups, roasted vegetables, egg salad, and marinades."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -205,21 +130,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Delicate herb with feathery leaves and a fresh, slightly tangy flavor.",
-      "tip_text": "Add fresh dill at the end of cooking - heat destroys its flavor. Dill weed (leaves) and dill seed have different flavors. Seeds are stronger.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: fish, pickles, potatoes, cucumber salads, yogurt sauces, eggs, and Scandinavian dishes."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -239,21 +149,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "The outer covering of nutmeg with a subtler, more delicate flavor.",
-      "tip_text": "Use mace when you want nutmeg flavor without the intensity. Preferred in light-colored dishes where nutmeg's dark specks are unwanted.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: b\u00e9chamel sauce, pound cake, doughnuts, fruit pies, and creamy soups."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -275,21 +170,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Milder cousin of oregano with sweet, floral notes.",
-      "tip_text": "More delicate than oregano - add near end of cooking. Works well in herb blends. Often used in German and French cooking.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: poultry, lamb, vegetables, stuffing, sausages, and herb butter."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -309,21 +189,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Flavor enhancer that adds umami (savory) taste to dishes.",
-      "tip_text": "Use sparingly - 1/4 to 1/2 tsp per pound of meat or quart of soup. Enhances existing flavors rather than adding its own. Naturally present in tomatoes, parmesan, and soy sauce.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: soups, stews, stir-fries, gravies, and meat dishes. Add during cooking, not at table."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -345,21 +210,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Robust herb essential to Mediterranean and Mexican cuisines.",
-      "tip_text": "Dried oregano is often more flavorful than fresh for cooked dishes. Mexican oregano differs from Mediterranean - they're not interchangeable.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: pizza, pasta sauce, Greek salads, chili, tacos, and grilled meats."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -379,21 +229,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Ground dried peppers ranging from sweet to hot.",
-      "tip_text": "Sweet, hot, and smoked paprika are not interchangeable. Hungarian paprika is sweeter; Spanish (piment\u00f3n) is often smoked. Burns easily - add to oil off heat.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: goulash, deviled eggs, chicken paprikash, roasted potatoes, and as a garnish."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -415,21 +250,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Tiny blue-black seeds with a subtle nutty flavor.",
-      "tip_text": "Toast lightly to enhance flavor. Grind for fillings in pastries. Store in freezer to prevent rancidity. Seeds are from culinary poppies, not opium poppies.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: breads, muffins, bagels, lemon poppy seed cake, noodles, and Eastern European pastries."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -449,21 +269,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Woody, pine-like herb with a strong, distinctive flavor.",
-      "tip_text": "Use sparingly - rosemary can overpower. Chop finely or use whole sprigs and remove before serving. Pairs wonderfully with roasted meats.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: lamb, chicken, pork, potatoes, focaccia, and roasted vegetables."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -490,21 +295,6 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      },
-      "description": "Earthy, slightly peppery herb with velvety leaves.",
-      "tip_text": "A little goes a long way - sage can become bitter if overused. Fry fresh leaves in butter until crispy for an elegant garnish.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: stuffing, sausage, pork, poultry, butternut squash, and brown butter sauce."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -524,21 +314,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Versatile herb with subtle, earthy flavor that complements many dishes.",
-      "tip_text": "Strip leaves from woody stems before using, or add whole sprigs to soups and remove later. Lemon thyme adds citrus notes.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: soups, stews, roasted meats, vegetables, bouquet garni, and French cuisine."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -560,21 +335,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Golden-yellow spice with earthy, slightly bitter flavor.",
-      "tip_text": "Turmeric stains everything - use caution with clothing and counters. Pairs well with black pepper which enhances absorption. Key ingredient in curry powder.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Best uses: curries, rice dishes, golden milk, mustard, pickles, and as a natural food coloring."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -594,25 +354,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Common cooking measurement conversions.",
-      "tip_text": "3 tsp = 1 tbsp | 4 tbsp = 1/4 cup | 16 tbsp = 1 cup | 2 cups = 1 pint | 4 cups = 1 quart | 4 quarts = 1 gallon | 16 oz = 1 pound | 8 fl oz = 1 cup",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Volume: 1 cup = 8 fl oz = 16 tbsp = 48 tsp = 237 ml"
-        },
-        {
-          "step": 2,
-          "text": "Weight: 1 oz = 28g, 1 lb = 454g, 1 kg = 2.2 lb"
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -634,29 +375,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Emergency substitutions when you're missing an ingredient.",
-      "tip_text": "1 cup buttermilk = 1 cup milk + 1 tbsp vinegar (let stand 5 min) | 1 cup cake flour = 1 cup AP flour - 2 tbsp + 2 tbsp cornstarch | 1 cup self-rising flour = 1 cup AP flour + 1\u00bd tsp baking powder + \u00bc tsp salt",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Eggs: 1 egg = \u00bc cup applesauce or mashed banana (in baking)"
-        },
-        {
-          "step": 2,
-          "text": "Butter: 1 cup = 7/8 cup oil or 1 cup margarine"
-        },
-        {
-          "step": 3,
-          "text": "Cream: 1 cup heavy cream = \u00be cup milk + \u2153 cup melted butter (not for whipping)"
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -676,25 +394,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Common oven temperature conversions and descriptions.",
-      "tip_text": "Very slow: 250-275\u00b0F (120-135\u00b0C) | Slow: 300-325\u00b0F (150-165\u00b0C) | Moderate: 350-375\u00b0F (175-190\u00b0C) | Hot: 400-425\u00b0F (200-220\u00b0C) | Very hot: 450-475\u00b0F (230-245\u00b0C)",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Convert F to C: Subtract 32, multiply by 5, divide by 9"
-        },
-        {
-          "step": 2,
-          "text": "Convert C to F: Multiply by 9, divide by 5, add 32"
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -716,25 +415,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "What common can size labels actually mean in volume.",
-      "tip_text": "#1 can = 1\u00bc cups | #300 can = 1\u00be cups | #303 can = 2 cups | #2 can = 2\u00bd cups | #2\u00bd can = 3\u00bd cups | #3 can = 4 cups | #10 can = 12-13 cups (institutional size)",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Common equivalents: Most vegetable/fruit cans are #303 (15 oz) = about 2 cups drained"
-        },
-        {
-          "step": 2,
-          "text": "Tomato products: 6 oz paste, 8 oz sauce, 14.5 oz diced, 28 oz crushed/whole"
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -754,25 +434,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Planning guide for cooking for crowds.",
-      "tip_text": "Main dish meat (boneless): 25 svgs = 6-8 lb, 50 svgs = 13 lb, 100 svgs = 25 lb | Vegetables: 25 svgs = 4 lb, 50 svgs = 8 lb | Coffee: 25 svgs = \u00bd lb, 100 svgs = 2 lb",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Plan 4-6 oz cooked meat per person, 3-4 oz vegetables, 1-2 oz salad"
-        },
-        {
-          "step": 2,
-          "text": "For buffets, increase quantities by 15-20% due to self-service portions"
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -794,25 +455,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Quick way to clean your blender after use.",
-      "tip_text": "Fill blender halfway with warm water, add a drop of dish soap. Run on low for 30 seconds, then rinse. Cleans even under the blades without disassembly.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Add warm water and dish soap immediately after use."
-        },
-        {
-          "step": 2,
-          "text": "Blend on low 30 seconds, rinse thoroughly."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -832,25 +474,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Keep your can opener sanitary and working smoothly.",
-      "tip_text": "Run a folded paper towel through the can opener to remove debris. For manual openers, scrub wheels with an old toothbrush and soapy water. Dry thoroughly to prevent rust.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Clean cutting wheel after each use with paper towel."
-        },
-        {
-          "step": 2,
-          "text": "Deep clean weekly with toothbrush and dish soap."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -872,25 +495,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Remove burnt food from pots and pans.",
-      "tip_text": "Fill pan with water, add 2 tbsp baking soda, bring to boil. Let simmer 15 minutes. The burnt food will lift off easily. For stubborn spots, make a baking soda paste and scrub.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Add water to cover burnt area plus 2 tbsp baking soda."
-        },
-        {
-          "step": 2,
-          "text": "Boil 15 minutes, let cool, then scrub gently."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -910,25 +514,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Prevent damage when using a double boiler.",
-      "tip_text": "Always add a few glass marbles or a jar lid to the bottom pot. When water gets low, the rattling noise will alert you before the pot boils dry and gets damaged.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Place marbles or metal lid in bottom pot before adding water."
-        },
-        {
-          "step": 2,
-          "text": "Listen for rattling - it means water is low, add more."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -950,25 +535,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Descale mineral buildup from kettles.",
-      "tip_text": "Fill kettle with equal parts water and white vinegar. Bring to boil, let sit overnight. Rinse thoroughly. For stubborn buildup, repeat or use citric acid solution.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Fill with 1:1 water and vinegar, boil, let sit overnight."
-        },
-        {
-          "step": 2,
-          "text": "Rinse several times with fresh water before use."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -988,25 +554,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Safely clean delicate dishes and glassware.",
-      "tip_text": "Wash one piece at a time in warm (not hot) soapy water. Place rubber mat in sink. Never stack wet china. Air dry or use soft lint-free cloth. Avoid dishwasher for gold trim.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Use rubber mat in sink to prevent chips."
-        },
-        {
-          "step": 2,
-          "text": "Wash in warm water, dry immediately with soft cloth."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1028,25 +575,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Clean stained mugs and teapots.",
-      "tip_text": "Make a paste of baking soda and water, scrub stained areas. For stubborn stains, fill with water and add denture cleaning tablet overnight. Vinegar soak also works.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Scrub with baking soda paste using soft cloth."
-        },
-        {
-          "step": 2,
-          "text": "For stubborn stains, soak overnight with denture tablet or vinegar."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1066,25 +594,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Clean baked-on food from casserole dishes.",
-      "tip_text": "Fill dish with hot water and add a dryer sheet. Let soak for 1-2 hours. The fabric softener loosens baked-on food. Alternatively, use baking soda and dish soap.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Soak with hot water and dryer sheet for 1-2 hours."
-        },
-        {
-          "step": 2,
-          "text": "Food will wipe away easily. Wash normally after."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1106,25 +615,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Natural way to clear slow drains.",
-      "tip_text": "Pour 1/2 cup baking soda down drain, follow with 1/2 cup vinegar. Cover and let fizz 15 minutes. Flush with boiling water. Repeat monthly to prevent buildup.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Pour baking soda, then vinegar down drain."
-        },
-        {
-          "step": 2,
-          "text": "Wait 15 minutes, flush with boiling water."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1144,25 +634,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Clean tarnished silver naturally.",
-      "tip_text": "Line pan with aluminum foil, add 1 tbsp baking soda and salt per quart of boiling water. Submerge silver touching foil. Tarnish transfers to foil in minutes. Rinse and buff dry.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Line pan with foil, add hot water, baking soda, and salt."
-        },
-        {
-          "step": 2,
-          "text": "Submerge silver items touching foil, watch tarnish disappear."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1184,25 +655,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Clean cheese and other residue from graters.",
-      "tip_text": "Grate a piece of raw potato or stale bread after cheese - it pushes out stuck bits. Clean immediately after use. Brush from back side with vegetable brush.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Grate raw potato after cheese to clean holes."
-        },
-        {
-          "step": 2,
-          "text": "Brush from inside out with stiff brush, rinse immediately."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1222,25 +674,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Clean up and prevent fruit pie overflow.",
-      "tip_text": "Sprinkle salt on oven spills immediately - it prevents burning and smoking. When cool, the spill lifts off easily. Prevent spills by placing pie on foil-lined baking sheet.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Sprinkle salt on spills immediately while oven is hot."
-        },
-        {
-          "step": 2,
-          "text": "When cool, burnt spill brushes away easily."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1262,25 +695,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Clean grease from stovetop and backsplash.",
-      "tip_text": "Spray with mixture of 1 part vinegar, 2 parts water, add drop of dish soap. Let sit 5 minutes, wipe clean. For baked-on grease, use baking soda paste.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Spray vinegar-water-soap mixture on grease."
-        },
-        {
-          "step": 2,
-          "text": "Wait 5 minutes, wipe with damp cloth."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1300,25 +714,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Get every strand of silk off fresh corn.",
-      "tip_text": "After husking, use a damp paper towel to wipe down the ear - silk clings to the wet towel. Or, use a clean vegetable brush with gentle downward strokes.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Husk corn, then wipe with damp paper towel."
-        },
-        {
-          "step": 2,
-          "text": "Remaining silk clings to the wet towel."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1340,25 +735,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Cut corn off the cob without it flying everywhere.",
-      "tip_text": "Stand ear in center hole of a Bundt pan. Cut downward - kernels fall into pan, not all over counter. Or, lay cob flat on towel and cut one side at a time.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Place cob in center of Bundt pan for stability."
-        },
-        {
-          "step": 2,
-          "text": "Cut downward, kernels collect in pan."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1378,25 +754,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Check if eggs are still good to use.",
-      "tip_text": "Place egg in bowl of cold water. Fresh eggs sink and lay flat. Week-old eggs sink but stand on end. Bad eggs float - discard immediately. The air cell grows as eggs age.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Fill bowl with cold water, gently lower egg in."
-        },
-        {
-          "step": 2,
-          "text": "Sinks flat = fresh, stands up = use soon, floats = discard."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1418,25 +775,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Get the best volume when beating egg whites.",
-      "tip_text": "Room temperature whites whip to greater volume. Ensure bowl and beaters are completely grease-free - even a speck of yolk prevents proper whipping. Add cream of tartar for stability.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Bring eggs to room temperature before separating."
-        },
-        {
-          "step": 2,
-          "text": "Use clean, grease-free bowl. Add pinch of cream of tartar."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1456,25 +794,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Get clean peels without pockmarks.",
-      "tip_text": "Use eggs at least a week old - fresh eggs are harder to peel. Add 1 tsp baking soda to cooking water. After cooking, transfer immediately to ice bath. Roll gently to crack shell all over.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Use week-old eggs, add baking soda to water."
-        },
-        {
-          "step": 2,
-          "text": "Ice bath immediately after cooking, roll to crack shell."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1496,25 +815,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Tips for better egg dishes.",
-      "tip_text": "For fluffier omelets, add 1 tbsp water per egg instead of milk. For meringue that won't weep, add 1/2 tsp cornstarch per egg white to the sugar.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Omelets: Use water not milk for lighter texture."
-        },
-        {
-          "step": 2,
-          "text": "Meringue: Add cornstarch to sugar to prevent weeping."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1534,25 +834,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Store meringue pies without ruining the topping.",
-      "tip_text": "Coat knife blade with butter before cutting - meringue won't stick. To cover, insert toothpicks in meringue and drape plastic wrap over picks so wrap doesn't touch surface.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Use butter-coated knife to cut cleanly."
-        },
-        {
-          "step": 2,
-          "text": "Insert toothpicks, drape plastic over them."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1574,25 +855,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Cook perfect bacon every time.",
-      "tip_text": "Start bacon in a cold pan - it renders fat more evenly and cooks more uniformly. For less shrinkage, bake at 400\u00b0F on a rack for 15-20 minutes. Save bacon grease for cooking.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Start in cold pan, cook over medium heat."
-        },
-        {
-          "step": 2,
-          "text": "Or bake at 400\u00b0F on rack for even cooking."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1612,25 +874,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Store cheese properly to prevent mold.",
-      "tip_text": "Wrap cheese in wax paper, then loosely in plastic. Change wrapping every few days. Store in warmest part of fridge (door or vegetable drawer). Bring to room temperature before serving for best flavor.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Wrap in wax paper, then plastic wrap."
-        },
-        {
-          "step": 2,
-          "text": "Store in vegetable drawer, change wrap regularly."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1652,25 +895,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Get better results when cooking meat.",
-      "tip_text": "Let meat rest after cooking (5 min for steaks, 15-20 for roasts) - juices redistribute. Always slice against the grain for tenderness. Pat dry before searing for better browning.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Rest meat after cooking before slicing."
-        },
-        {
-          "step": 2,
-          "text": "Slice against the grain, pat dry before searing."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1690,25 +914,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Extract maximum juice from lemons.",
-      "tip_text": "Roll lemon firmly on counter before cutting - breaks down internal membranes. Microwave 10-15 seconds for even more juice. Room temperature lemons yield more than cold.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Roll firmly on counter with palm pressure."
-        },
-        {
-          "step": 2,
-          "text": "Microwave 10-15 seconds if cold."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1730,25 +935,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Pop fluffy popcorn with fewer duds.",
-      "tip_text": "Store popcorn in freezer - cold kernels have more moisture and pop bigger. Use 3 tbsp oil per 1/3 cup kernels. Heat 3 test kernels first; when they pop, add the rest.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Store kernels in freezer for bigger pops."
-        },
-        {
-          "step": 2,
-          "text": "Test 3 kernels to know when oil is ready."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1768,25 +954,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Tips for crispy, juicy fried chicken.",
-      "tip_text": "Soak chicken in buttermilk 2-24 hours for tender, juicy meat. Let breaded chicken rest 15 minutes before frying - coating adheres better. Fry at 350\u00b0F, don't crowd the pan.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Buttermilk soak tenderizes and adds flavor."
-        },
-        {
-          "step": 2,
-          "text": "Rest after breading, fry at 350\u00b0F."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1808,25 +975,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Make and store homemade bread crumbs.",
-      "tip_text": "Toast stale bread, pulse in food processor for fresh crumbs. Store dried crumbs in freezer indefinitely. Season with salt, garlic powder, and herbs before freezing for ready-to-use coating.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Toast stale bread, pulse in food processor."
-        },
-        {
-          "step": 2,
-          "text": "Store seasoned crumbs in freezer."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1846,25 +994,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Break up clumped granulated sugar.",
-      "tip_text": "Process clumped sugar briefly in blender or food processor. To prevent: store in airtight container away from moisture. A few saltine crackers in the container absorb humidity.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Pulse in blender to break up clumps."
-        },
-        {
-          "step": 2,
-          "text": "Store with saltines to absorb moisture."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1886,25 +1015,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Revive hardened brown sugar.",
-      "tip_text": "Microwave with damp paper towel for 20 seconds. Or place bread slice or marshmallow in container overnight. For long-term storage, add terra cotta sugar saver.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Quick fix: Microwave with damp paper towel."
-        },
-        {
-          "step": 2,
-          "text": "Overnight: Add bread slice to container."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -1924,25 +1034,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Better ways to prepare potatoes.",
-      "tip_text": "Start potatoes in cold water for even cooking. Add salt to water for fluffy mashed potatoes. For crispy roasted potatoes, parboil first, rough up edges, roast in preheated fat.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Always start in cold salted water."
-        },
-        {
-          "step": 2,
-          "text": "Parboil and rough up for crispy roasted potatoes."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -1964,25 +1055,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Minimize crying when chopping onions.",
-      "tip_text": "Chill onion 30 minutes before cutting - cold reduces volatile compounds. Cut near running water or vent. Use sharp knife for clean cuts. Cut root end last - it has most irritants.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Chill onion 30 minutes before cutting."
-        },
-        {
-          "step": 2,
-          "text": "Use sharp knife, cut root end last."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2002,25 +1074,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Peel fruits quickly and cleanly.",
-      "tip_text": "Blanch peaches and tomatoes 30 seconds in boiling water, then ice bath - skins slip right off. For citrus, roll firmly before peeling. Kiwi: cut in half, scoop with spoon.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Blanch stone fruits 30 sec, then ice bath."
-        },
-        {
-          "step": 2,
-          "text": "Roll citrus before peeling for easier removal."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2042,25 +1095,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Speed up ripening of fruit.",
-      "tip_text": "Place unripe fruit in paper bag with banana or apple - they emit ethylene gas which speeds ripening. Close loosely and check daily. Don't refrigerate unripe fruit.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Place in paper bag with ripe banana."
-        },
-        {
-          "step": 2,
-          "text": "Close loosely, check daily for ripeness."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2080,25 +1114,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Get better results when pan frying.",
-      "tip_text": "Heat pan before adding oil, then let oil heat before adding food. Don't move food until it releases naturally - it will stick until properly seared. Use tongs, not fork.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Heat pan first, then add oil, then food."
-        },
-        {
-          "step": 2,
-          "text": "Don't move food until it releases naturally."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2120,25 +1135,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Keep food from sticking to pans and grates.",
-      "tip_text": "Hot pan + cold oil = food won't stick. For baking, use parchment paper. For grill grates, oil the food not the grate. Ensure food is dry before adding to hot oil.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Heat pan thoroughly before adding oil."
-        },
-        {
-          "step": 2,
-          "text": "Pat food dry, oil the food for grilling."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2158,25 +1154,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Minimize smoke when broiling.",
-      "tip_text": "Add 1/2 inch water to broiler pan - catches drips and reduces smoke. Pat food dry and trim excess fat before broiling. Keep oven door slightly ajar when broiling.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Add water to broiler pan to catch drips."
-        },
-        {
-          "step": 2,
-          "text": "Trim excess fat, pat food dry."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2198,25 +1175,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Eliminate strong cooking smells.",
-      "tip_text": "Simmer cinnamon sticks and citrus peels in water on stovetop. Leave bowl of vinegar out overnight to absorb odors. Microwave lemon juice and water 3 minutes to freshen microwave.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Simmer cinnamon and citrus peels in water."
-        },
-        {
-          "step": 2,
-          "text": "Leave bowl of vinegar out overnight."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2236,25 +1194,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Stop pots from boiling over.",
-      "tip_text": "Lay wooden spoon across pot - bubbles retreat from dry wood. Use pot larger than needed. Add small amount of butter or oil to pasta water. Watch closely when adding starchy foods.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Lay wooden spoon across pot."
-        },
-        {
-          "step": 2,
-          "text": "Use large pot, add dash of oil to pasta water."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2276,25 +1215,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Cook perfect fluffy rice.",
-      "tip_text": "Rinse rice until water runs clear to remove excess starch. Use 1.5:1 water to rice ratio for most white rice. Don't lift lid while cooking. Let rest 5 minutes off heat before fluffing.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Rinse rice until water runs clear."
-        },
-        {
-          "step": 2,
-          "text": "Don't lift lid, rest 5 min before fluffing."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2314,25 +1234,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Work with fats more effectively.",
-      "tip_text": "Softened butter should give slightly when pressed but hold shape. Cube cold butter for flaky pastry. For creaming, butter should be 65-67\u00b0F. 1 stick = 8 tbsp = 1/2 cup.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Proper softened butter: yields to pressure but holds shape."
-        },
-        {
-          "step": 2,
-          "text": "Cold cubed butter makes flaky pastry."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2354,25 +1255,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Measure honey, molasses, and peanut butter cleanly.",
-      "tip_text": "Spray measuring cup with cooking spray first - sticky ingredients slide right out. Or, if recipe calls for oil, measure oil first in same cup, then sticky ingredient.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Spray measuring cup with cooking spray first."
-        },
-        {
-          "step": 2,
-          "text": "Or measure oil in cup first, then sticky ingredient."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2392,25 +1274,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Get the last bits out of condiment bottles.",
-      "tip_text": "Insert a drinking straw to the bottom of bottle - breaks vacuum seal and lets contents flow freely. Or, store nearly empty bottles upside down. Add small splash of vinegar, shake to loosen.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Insert straw to break vacuum seal."
-        },
-        {
-          "step": 2,
-          "text": "Store upside down, add vinegar to loosen."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2432,25 +1295,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Release gelatin molds cleanly.",
-      "tip_text": "Spray mold with cooking spray before filling. To unmold: dip mold in warm (not hot) water for 10-15 seconds. Place serving plate on top, invert quickly with one firm shake.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Spray mold before filling, chill until firm."
-        },
-        {
-          "step": 2,
-          "text": "Dip in warm water 10-15 sec, invert onto plate."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2470,25 +1314,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Rescue dishes with too much salt.",
-      "tip_text": "Add acid (lemon, vinegar) or dairy (cream, yogurt) to balance salt perception. Dilute soups/stews with unsalted broth. Add a peeled potato to absorb some salt (remove before serving).",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Add acid or dairy to balance saltiness."
-        },
-        {
-          "step": 2,
-          "text": "Dilute with unsalted liquid or add potato."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2510,25 +1335,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Make smooth, flavorful gravy.",
-      "tip_text": "For lump-free gravy, add cold liquid to fat-flour roux, whisking constantly. Or, shake flour and cold liquid in jar before adding. Strain lumpy gravy through fine mesh sieve.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Add cold liquid slowly to roux, whisking constantly."
-        },
-        {
-          "step": 2,
-          "text": "Strain through sieve if lumps form."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2548,25 +1354,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Degrease soups and stocks easily.",
-      "tip_text": "Refrigerate soup overnight - fat solidifies on top for easy removal. For quick degreasing, drag ice cube wrapped in cheesecloth across surface - fat clings to cold. Or use fat separator.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Chill overnight, lift off solidified fat."
-        },
-        {
-          "step": 2,
-          "text": "Drag ice cube across surface for quick fix."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2588,25 +1375,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Restore crispness to wilted produce.",
-      "tip_text": "Soak wilted greens in ice water for 30 minutes - they'll crisp right up. For carrots/celery, trim ends and stand upright in cold water in fridge. Revive herbs the same way.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Soak wilted greens in ice water 30 min."
-        },
-        {
-          "step": 2,
-          "text": "Stand carrots/celery in cold water in fridge."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2626,25 +1394,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Get the best whipped cream.",
-      "tip_text": "Chill bowl and beaters in freezer 15 minutes before whipping. Use heavy cream (36%+ fat). Add sugar and vanilla after soft peaks form. Don't overbeat - it turns to butter.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Chill bowl and beaters before whipping."
-        },
-        {
-          "step": 2,
-          "text": "Add sugar at soft peaks, stop before butter forms."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2666,25 +1415,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Keep brown sugar soft long-term.",
-      "tip_text": "Transfer to airtight container immediately after opening. Add terra cotta brown sugar saver (soak in water 15 min first) or marshmallow. Replace bread slice weekly if using that method.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Store in airtight container with sugar saver."
-        },
-        {
-          "step": 2,
-          "text": "Terra cotta, marshmallow, or bread slice all work."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2704,25 +1434,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Use microwave to soften foods quickly.",
-      "tip_text": "Soften butter: 10 sec on 30% power. Brown sugar: cover with damp paper towel, 20 sec. Ice cream: 10-15 sec for scoopable. Cream cheese: 15 sec on 50% power.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Butter: 10 sec at 30% power, rotate if needed."
-        },
-        {
-          "step": 2,
-          "text": "Brown sugar: damp towel, 20 sec, check and repeat."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2744,25 +1455,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Safely defrost food in the microwave.",
-      "tip_text": "Use defrost setting or 30% power. Turn/rearrange food halfway through. Remove packaging and place on microwave-safe dish. Cook immediately after thawing - don't refreeze.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Use defrost or 30% power, turn food halfway."
-        },
-        {
-          "step": 2,
-          "text": "Cook immediately after thawing."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2782,25 +1474,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Reheat food without drying it out.",
-      "tip_text": "Cover food with damp paper towel to add moisture. Heat in 30 sec intervals, stirring between. Arrange thicker portions toward outside of plate. Add splash of water to rice/pasta.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cover with damp paper towel, heat in intervals."
-        },
-        {
-          "step": 2,
-          "text": "Add water to rice/pasta, stir between heating."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2822,25 +1495,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Cook foods effectively in the microwave.",
-      "tip_text": "Pierce skins of potatoes, squash, egg yolks. Arrange foods with thicker parts toward outside. Cover with vented plastic wrap or lid. Let stand 2-3 min after cooking - it continues.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Pierce skins, arrange thick parts outside."
-        },
-        {
-          "step": 2,
-          "text": "Cover with vented lid, let stand after cooking."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2860,25 +1514,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Tips for baking in the microwave.",
-      "tip_text": "Microwave baked goods don't brown - dust with cinnamon sugar or cocoa. Use round containers without corners. Fill only 1/2 full - they rise more. Rotate during cooking.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Use round dishes, fill half full."
-        },
-        {
-          "step": 2,
-          "text": "Items won't brown - use toppings for color."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2900,25 +1535,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Safe microwave practices.",
-      "tip_text": "Never microwave: metal, foil, sealed containers, eggs in shell. Use microwave-safe containers only. Stir and check temperature in multiple spots. Let stand time completes cooking.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "No metal, no sealed containers, no eggs in shell."
-        },
-        {
-          "step": 2,
-          "text": "Stir food, check temperature in multiple spots."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -2938,25 +1554,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Additional microwave tricks.",
-      "tip_text": "Freshen stale chips/crackers: 30 sec, let stand 1 min. Get more juice from citrus: 15-20 sec before squeezing. Peel garlic: 15 sec, skins slip off. Dry herbs: 30 sec between paper towels.",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Freshen chips 30 sec, extract citrus juice 15-20 sec."
-        },
-        {
-          "step": 2,
-          "text": "Peel garlic easily after 15 sec, dry herbs between paper towels."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -2979,25 +1576,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for common meat portions.",
-      "tip_text": "Per 3 oz cooked: Beef (lean) 180 cal | Pork (lean) 165 cal | Lamb 175 cal | Veal 150 cal | Ground beef (85%) 215 cal | Bacon (3 slices) 120 cal | Hot dog 150 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Lean meats: ~150-180 cal per 3 oz cooked portion."
-        },
-        {
-          "step": 2,
-          "text": "Higher fat cuts can be 250+ cal per 3 oz."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3017,25 +1595,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Calorie reference for chicken and turkey.",
-      "tip_text": "Per 3 oz cooked: Chicken breast (skinless) 140 cal | Chicken thigh (skinless) 180 cal | With skin add 50 cal | Turkey breast 125 cal | Ground turkey (93%) 170 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Skinless breast is leanest: ~140 cal per 3 oz."
-        },
-        {
-          "step": 2,
-          "text": "Skin adds about 50 calories per serving."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -3058,25 +1617,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for fish and shellfish.",
-      "tip_text": "Per 3 oz cooked: Cod/Tilapia 90 cal | Salmon 175 cal | Tuna (canned in water) 100 cal | Shrimp 85 cal | Crab 80 cal | Lobster 80 cal | Scallops 95 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "White fish is lowest: 80-100 cal per 3 oz."
-        },
-        {
-          "step": 2,
-          "text": "Fatty fish (salmon) higher but has healthy omega-3s."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3098,25 +1638,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for milk, cheese, and dairy.",
-      "tip_text": "Milk (1 cup): Whole 150 cal | 2% 120 cal | Skim 80 cal | Cheese (1 oz): Cheddar 115 cal | Mozzarella 85 cal | Cottage (1/2 cup) 110 cal | Yogurt (6 oz): Plain 100, Fruit 150 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Choose skim milk for lowest calories."
-        },
-        {
-          "step": 2,
-          "text": "Hard cheese: ~100-115 cal per oz; soft cheese less."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3136,25 +1657,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Calorie reference for eggs prepared various ways.",
-      "tip_text": "Large egg: 70 cal | Egg white only: 17 cal | Egg yolk only: 55 cal | Scrambled (2 eggs with butter): 200 cal | Hard boiled: 70 cal | Fried in butter: 90 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Egg whites are low-cal protein option."
-        },
-        {
-          "step": 2,
-          "text": "Preparation method significantly affects calories."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -3177,25 +1679,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for bread, rice, and pasta.",
-      "tip_text": "Bread (1 slice): White 70 cal | Wheat 80 cal | Rice (1 cup cooked): White 200 cal | Brown 215 cal | Pasta (1 cup cooked) 200 cal | Oatmeal (1 cup) 150 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Whole grains have similar calories but more fiber."
-        },
-        {
-          "step": 2,
-          "text": "1 cup cooked grains/pasta \u2248 200 calories."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3216,25 +1699,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Calorie reference for common fruits.",
-      "tip_text": "Apple (medium) 95 cal | Banana 105 cal | Orange 60 cal | Grapes (1 cup) 60 cal | Strawberries (1 cup) 50 cal | Watermelon (1 cup) 45 cal | Avocado (1/2) 160 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Most fruits: 50-100 cal per serving."
-        },
-        {
-          "step": 2,
-          "text": "Avocado is high-cal but has healthy fats."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -3258,25 +1722,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for common vegetables.",
-      "tip_text": "Per cup raw: Lettuce 5 cal | Broccoli 30 cal | Carrots 50 cal | Corn 125 cal | Peas 120 cal | Potato (1 medium baked) 160 cal | Sweet potato 105 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Non-starchy veggies: 5-50 cal per cup."
-        },
-        {
-          "step": 2,
-          "text": "Starchy vegetables higher: 100-160 cal."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3297,25 +1742,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Calorie reference for cooking fats and oils.",
-      "tip_text": "All oils: 120 cal per tbsp | Butter: 100 cal per tbsp | Margarine: 100 cal per tbsp | Mayonnaise: 100 cal per tbsp | Cream cheese: 50 cal per tbsp | Sour cream: 25 cal per tbsp",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "All fats are calorie-dense: ~100-120 cal per tbsp."
-        },
-        {
-          "step": 2,
-          "text": "Choose unsaturated fats for heart health."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -3338,25 +1764,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for desserts and sweets.",
-      "tip_text": "Sugar (1 tbsp) 50 cal | Honey (1 tbsp) 65 cal | Chocolate (1 oz) 150 cal | Ice cream (1/2 cup) 140 cal | Cake (1 slice) 250-400 cal | Cookie (1 medium) 50-100 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Sweets are calorie-dense, enjoy in moderation."
-        },
-        {
-          "step": 2,
-          "text": "Portion control is key for desserts."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3378,25 +1785,6 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      },
-      "description": "Calorie reference for drinks.",
-      "tip_text": "Coffee/Tea (plain) 0-5 cal | Soda (12 oz) 140 cal | Orange juice (8 oz) 110 cal | Beer (12 oz) 150 cal | Wine (5 oz) 125 cal | Cocktails 150-300 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Plain coffee/tea are calorie-free."
-        },
-        {
-          "step": 2,
-          "text": "Liquid calories add up quickly - drink water!"
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
-        ]
       }
     },
     {
@@ -3416,25 +1804,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Informational content without specific recipe"
-        ]
-      },
-      "description": "Calorie reference for canned soups.",
-      "tip_text": "Per cup prepared: Chicken noodle 75 cal | Tomato 90 cal | Cream of mushroom 130 cal | Vegetable beef 80 cal | Minestrone 80 cal | Cream soups generally 100-150 cal",
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Broth-based soups: 75-100 cal per cup."
-        },
-        {
-          "step": 2,
-          "text": "Cream-based soups: 100-150 cal per cup."
-        }
-      ],
-      "ingredients": [],
-      "confidence": {
-        "overall": "high",
-        "flags": [
-          "[RECONSTRUCTED] Content added based on standard kitchen knowledge"
         ]
       }
     },
@@ -3611,6 +1980,155 @@
           "Informational content without specific recipe"
         ]
       }
+    },
+    {
+      "id": "tip-to-skin-or-not-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "To Skin or Not to Skin (Chicken)",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Poultry section tip",
+      "description": "Guide for when to leave chicken skin on or remove it during cooking.",
+      "content": "Our recipes deal with chicken skin in three ways. In some recipes, we call for the skin to be left on, either because it is too difficult to remove or because it is necessary to keep the chicken from overcooking. In other recipes, we give you a choice. Remove the skin if you wish to save calories and cut down on fat. Finally, in still other recipes, we tell you to remove the skin. In these dishes, the skin develops an unpleasant texture if it is left on. Keep these guidelines in mind when you're trying to decide whether to skin chicken for your own recipes. One last tip: If you're micro-cooking skinned chicken, be sure to cover the baking dish with vented clear plastic wrap to keep the chicken moist.",
+      "tags": [
+        "tip",
+        "chicken",
+        "poultry",
+        "technique",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5473 Large.jpeg"
+      ]
+    },
+    {
+      "id": "tip-carving-roasted-bird-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Carving a Roasted Bird",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Poultry section tip",
+      "description": "Step-by-step instructions for carving whole roasted poultry.",
+      "content": "To carve poultry with confidence, use a sharp knife and these directions. When the bird is done, remove it from the oven and cover it with foil. Let it stand for 15 to 20 minutes before beginning to carve. Standing lets the bird's flesh firm up, meaning the carved slices will hold together better. Place the bird on a cutting board. Remove the stuffing. Grasp the tip of one drumstick and pull it away from the body. Cut through the skin and meat between the thigh and the body. Repeat on the other side. With the tip of the knife, separate the thighbone from the backbone by cutting through the joint. Repeat on other side. To separate the thighs and drumsticks, cut through the joints where the drumstick bones and thighbones meet. To carve the meat from the drumsticks, hold each drumstick vertically by the tip with the large end resting on the cutting board. Slice the meat parallel to the bone and under some tendons, turning the leg to get even slices. Slice thigh meat the same way. To carve the breast meat, make a deep horizontal cut into the breast above each wing. This cut marks one end of each breast meat slice. Beginning at the outer edge of one side of each breast, cut slices from the top of the breast down to the horizontal cut. Cut the final smaller slices following the curve of the breastbone. Remove wings by cutting through the joints where the wing bones and backbone meet.",
+      "tags": [
+        "tip",
+        "carving",
+        "roasting",
+        "poultry",
+        "technique",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5485 Large.jpeg"
+      ]
+    },
+    {
+      "id": "tip-brown-bag-pointers-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Brown-Bag Pointers",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Meat section tip",
+      "description": "Tips for packing lunches safely.",
+      "content": "Here are three-bag tips to keep your lunch fresh: Most bag lunches are easy to keep at room temperature. Pack cold foods in an insulated lunch box with ice packs. Seal cold foods in clean airtight containers. For sandwiches, pack meats separate from bread. Fill hot thermoses only with foods at temperatures of 165\u00b0F or higher. Pack foods that can stay at room temperature safely in paper bags. Keep your lunch in a cool, dry place.",
+      "tags": [
+        "tip",
+        "lunch",
+        "food safety",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
+      ]
+    },
+    {
+      "id": "tip-food-safety-storage-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Food Safety and Storage",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Special Helps section",
+      "description": "Comprehensive guide to keeping food safe and storing it properly.",
+      "content": "Keeping food safe to eat is as simple as keeping hot foods hot, cold foods cold, and all foods clean. Keeping Foods Hot: To prevent the buildup of illness-causing bacteria, cook foods thoroughly, especially meat, poultry, and dishes containing eggs. Since bacteria grow at room temperature, discard any cooked or chilled food that has been left out longer than two hours. Cover leftovers while reheating to retain moisture. Be sure, too, to heat the food completely. Keeping Foods Cold: Keep your refrigerator at about 40\u00b0F and your freezer at 0\u00b0F or less. Check them both periodically with an appliance thermometer. Thaw meat and poultry in the refrigerator overnight. For faster thawing, place frozen packages in a watertight plastic bag under cold water. Change the water often. Do not thaw meat on the kitchen counter. Store leftovers in the refrigerator as soon as possible. Do not let food cool on the counter. When shopping, pick up perishables last. Be sure frozen foods are solid and refrigerated foods are cold. If you live more than 30 minutes from the store, you may want to stow frozen, refrigerated, and perishable foods in an ice chest for the trip home. Keeping Foods Clean: Since bacteria live all around us, always wash and dry your hands with clean cloths before you begin to cook. When working with raw meat and poultry, wash hands, counters, and utensils in hot soapy water between each recipe step. Bacteria on raw meat and poultry can contaminate other foods. Never put cooked meat or poultry on the same plate that held the raw food.",
+      "tags": [
+        "tip",
+        "food safety",
+        "storage",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5580 Large.jpeg"
+      ]
+    },
+    {
+      "id": "tip-measuring-techniques-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Measuring Techniques",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Special Helps section",
+      "description": "Guide to properly measuring ingredients for consistent results.",
+      "content": "Correctly measuring ingredients is important for consistent results. 1. Measuring Liquids: Use a glass or clear plastic measuring cup. Place the cup on a level surface and bend down so your eye is level with the marking you wish to read. Fill the cup to the marking. Don't lift the cup off the counter to your eye; your hand is not as steady as the countertop. When using measuring spoons to measure a liquid, pour the liquid just to the top of the spoon without letting it spill over. Don't measure over the mixing bowl because the liquid could overflow from the spoon into the bowl. 2. Measuring Flour: Stir the flour in the canister to lighten it. (Sifting flours, except cake flour, no longer is necessary.) Then gently spoon the flour into a dry measuring cup and level off the top with the straight edge of a knife or a metal spatula. 3. Measuring Sugar: Press brown sugar firmly into a dry measuring cup so that it holds the shape of the cup when turned out. To measure granulated sugar, spoon the sugar into a dry measuring cup, then level it off with the straight edge of a knife or a metal spatula. 4. Measuring Solid Shortening: Using a rubber spatula, press the shortening firmly into a dry measuring cup. Level it off with the straight edge of a knife or a metal spatula. 5. Measuring Margarine or Butter: For stick margarine or butter, use an entire 1/4-pound stick for 1/2 cup, half of a stick for 1/4 cup, or an eighth of a stick for 1 tablespoon. With a sharp knife, cut off the amount needed, following the guidelines on the wrapper. For unwrapped margarine or butter, soften it, then measure as directed for solid shortening. 6. Measuring Dried Herbs: Lightly fill a measuring spoon just to the top with the dried herb (leveling with a spatula is not necessary). Then empty the spoon into your hand. Crush the herb with the fingers of your other hand. This breaks the leaves and releases their flavor. (Some of the harder dried herbs, such as rosemary and thyme, are best crushed with a mortar and pestle.)",
+      "tags": [
+        "tip",
+        "measuring",
+        "technique",
+        "baking",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5590 Large.jpeg"
+      ]
+    },
+    {
+      "id": "tip-garnishing-techniques-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Garnishing Techniques",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens",
+      "source_note": "BHG Cookbook - Special Helps section",
+      "description": "Easy garnishing ideas to make everyday meals special.",
+      "content": "Make even the most everyday meal seem special with these easy-to-do garnishes. 1. Radish Accordions: Make 8 to 10 narrow crosswise cuts 1/4 inch apart in long narrow radishes, cutting only partially through each radish. (To keep from cutting through the radishes, place them between two parallel wooden sticks when cutting.) Place the radishes in ice water so the slices fan out. Use with meats or salads. 2. Citrus Twists: Thinly slice lemons, limes, and oranges. Cut into center of each slice; twist ends in opposite directions. Use with fish and citrus or cream pies. 3. Fluted Mushrooms: With a paring knife held at an angle, and beginning at the top of each mushroom cap, make cuts in the form of an inverted V. Turn mushroom slightly; cut another inverted V; repeat around cap. For a similar effect, make a series of slight indentations in mushroom cap with a punch-type can opener. Use with salads and meats. 4. Tomato Roses: Cut a base from the stem end of each tomato (do not sever). Cut a continuous narrow strip in spiral fashion, tapering end to remove. Curl strip onto its base in a rose shape. Use with salads and dips. 5. Scored Cucumbers: Make a V-shape cut lengthwise down each cucumber (or run the tines of a fork lengthwise down each cucumber, pressing to break the skin). Repeat at regular intervals around cucumber. Slice or bias-slice. Use with salads and dips. 6. Onion Brushes: Slice roots from ends of green onions; remove most of green portion. Make slashes at both ends of the onion pieces to make fringes. Place in ice water to curl the ends. Use with steaks or roasts. 7. Carrot Curls/Zigzags: Using a vegetable peeler, cut thin lengthwise strips from carrots. For curls, roll up; secure with toothpicks. For zigzags, thread on toothpicks accordion-style. Put curls and zigzags in ice water; remove toothpicks before using. Use with salads, sauces, and thickened soups. 8. Chocolate Curls/Grated Chocolate: For curls, use a bar of chocolate at room temperature. Carefully draw a vegetable peeler across the chocolate, making thin strips that curl. To grate, rub a cool, firm square of chocolate across a hand grater. Use to garnish cakes, tortes, custards, or ice-cream drinks.",
+      "tags": [
+        "tip",
+        "garnish",
+        "presentation",
+        "technique",
+        "bhg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5600 Large.jpeg"
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "beverages",
     "total_recipes": 51,
-    "generated": "2026-01-22T19:32:05.972865Z",
+    "generated": "2026-01-23T14:31:31.354988Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -109,7 +109,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "mexican-breakfast-choco-drink"
+      ]
     },
     {
       "id": "yale-college-punch",
@@ -174,107 +177,15 @@
         "This recipe from 1867 is the 19th-century version of that college favorite 'jungle juice.'"
       ],
       "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 188,
-          "fat_g": 0.1,
-          "carbs_g": 21.0,
-          "protein_g": 0.4,
-          "sodium_mg": 8,
-          "fiber_g": 0.5,
-          "sugar_g": 17.7
-        },
-        "missing_inputs": [
-          "750 ml cognac",
-          "2 1/2 cups seltzer or club soda"
-        ],
-        "assumptions": [
-          "Calculated for 4 servings",
-          "Serving size inferred from beverages category"
-        ]
-      }
-    },
-    {
-      "id": "gin-three-ways-cocktails",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Gin Three Ways",
-      "category": "beverages",
-      "source_note": "Food Network Magazine December 2010",
-      "description": "Buy one bottle of gin and mix up a trio of cocktails.",
-      "ingredients": [
-        {
-          "item": "gin",
-          "quantity": "6",
-          "unit": "oz"
-        },
-        {
-          "item": "lemon juice",
-          "quantity": "1",
-          "unit": "oz"
-        },
-        {
-          "item": "simple syrup",
-          "quantity": "1/2",
-          "unit": "oz"
-        },
-        {
-          "item": "champagne",
-          "quantity": "4",
-          "unit": "oz",
-          "prep_note": "for French 75"
-        },
-        {
-          "item": "dry vermouth",
-          "quantity": "1",
-          "unit": "oz",
-          "prep_note": "for Gibson"
-        },
-        {
-          "item": "cocktail onions",
-          "quantity": "3",
-          "unit": "",
-          "prep_note": "for Gibson garnish"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "French 75: In a cocktail shaker, combine 1 ounce gin, \u00bd ounce lemon juice and 1 teaspoon confectioners' sugar. Shake with ice for 30 seconds, then strain into a chilled flute; top with champagne."
-        },
-        {
-          "step": 2,
-          "text": "Gibson: In a mixing glass, combine 3 ounces gin and \u00bd ounce dry vermouth. Stir with ice for 30 seconds; let sit 1 to 2 minutes. Strain into a chilled martini glass and drop in a few cocktail onions."
-        },
-        {
-          "step": 3,
-          "text": "Bronx: In a cocktail shaker, combine 1 ounce gin, 2 ounces orange juice and \u00bd ounce each sweet and dry vermouth. Shake with ice for 30 seconds, then strain into a cocktail glass; garnish with an orange twist."
-        }
-      ],
-      "tags": [
-        "beverage",
-        "cocktail",
-        "gin",
-        "party",
-        "holiday"
-      ],
-      "image_refs": [
-        "https://jsschrstrcks1.github.io/Allrecipes/data/magazine-recipes - 114.jpeg"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 188,
+          "calories": 346,
           "fat_g": 0.1,
-          "carbs_g": 11.9,
-          "protein_g": 0.8,
-          "sodium_mg": 5,
-          "fiber_g": 1.5,
-          "sugar_g": 7.4
+          "carbs_g": 24.9,
+          "protein_g": 0.5,
+          "sodium_mg": 17,
+          "fiber_g": 0.5,
+          "sugar_g": 19.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -344,17 +255,16 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 187,
-          "fat_g": 0.2,
-          "carbs_g": 48.4,
-          "protein_g": 1.1,
-          "sodium_mg": 3,
-          "fiber_g": 0.2,
-          "sugar_g": 45.5
+          "calories": 301,
+          "fat_g": 0.6,
+          "carbs_g": 76.4,
+          "protein_g": 1.3,
+          "sodium_mg": 13,
+          "fiber_g": 0.5,
+          "sugar_g": 69.5
         },
         "missing_inputs": [
-          "1 cup vodka",
-          "1 bottle sparkling apple juice"
+          "1 cup vodka"
         ],
         "assumptions": [
           "Calculated for 4 servings",
@@ -477,19 +387,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 260,
+          "fat_g": 0.8,
+          "carbs_g": 68.0,
+          "protein_g": 1.2,
+          "sodium_mg": 4,
+          "fiber_g": 12.0,
+          "sugar_g": 52.0
         },
-        "missing_inputs": [
-          "4  fresh pears"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -551,20 +459,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 62,
-          "fat_g": 0.2,
-          "carbs_g": 15.0,
-          "protein_g": 1.0,
-          "sodium_mg": 0,
-          "fiber_g": 3.0,
-          "sugar_g": 12.0
+          "calories": 170,
+          "fat_g": 1.1,
+          "carbs_g": 40.0,
+          "protein_g": 4.5,
+          "sodium_mg": 32,
+          "fiber_g": 6.3,
+          "sugar_g": 29.0
         },
-        "missing_inputs": [
-          "1/2 medium papaya",
-          "4-6 leaves kale"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -630,20 +535,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 108,
+          "fat_g": 0.9,
+          "carbs_g": 25.0,
+          "protein_g": 3.5,
+          "sodium_mg": 32,
+          "fiber_g": 3.4,
+          "sugar_g": 17.0
         },
-        "missing_inputs": [
-          "1/2 medium papaya",
-          "4-6 leaves kale"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -712,19 +614,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 69,
-          "fat_g": 0.5,
-          "carbs_g": 15.5,
-          "protein_g": 2.1,
-          "sodium_mg": 165,
-          "fiber_g": 5.6,
-          "sugar_g": 7.2
+          "calories": 127,
+          "fat_g": 0.7,
+          "carbs_g": 28.5,
+          "protein_g": 4.3,
+          "sodium_mg": 271,
+          "fiber_g": 9.4,
+          "sugar_g": 16.2
         },
-        "missing_inputs": [
-          "1  beet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -869,19 +769,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 136,
+          "calories": 142,
           "fat_g": 0.5,
-          "carbs_g": 33.5,
-          "protein_g": 2.5,
+          "carbs_g": 34.8,
+          "protein_g": 2.7,
           "sodium_mg": 2,
-          "fiber_g": 6.9,
+          "fiber_g": 7.1,
           "sugar_g": 24.8
         },
-        "missing_inputs": [
-          "1 small piece ginger"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -959,19 +857,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 192,
-          "fat_g": 0.6,
-          "carbs_g": 50.2,
-          "protein_g": 1.1,
-          "sodium_mg": 12,
-          "fiber_g": 9.0,
-          "sugar_g": 38.1
+          "calories": 222,
+          "fat_g": 0.9,
+          "carbs_g": 56.2,
+          "protein_g": 4.1,
+          "sodium_mg": 42,
+          "fiber_g": 11.0,
+          "sugar_g": 40.1
         },
         "missing_inputs": [
           "1 inch cucumber",
-          "1 inch stem broccoli",
           "1 inch slice beetroot"
         ],
         "assumptions": [
@@ -1062,20 +959,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 92,
-          "fat_g": 0.6,
-          "carbs_g": 22.7,
-          "protein_g": 2.5,
-          "sodium_mg": 31,
-          "fiber_g": 3.0,
-          "sugar_g": 19.2
+          "calories": 190,
+          "fat_g": 1.1,
+          "carbs_g": 45.7,
+          "protein_g": 5.0,
+          "sodium_mg": 160,
+          "fiber_g": 9.7,
+          "sugar_g": 31.2
         },
-        "missing_inputs": [
-          "1 small red bell pepper",
-          "3 medium carrots"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -1149,20 +1043,17 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 234,
-          "fat_g": 3.3,
-          "carbs_g": 53.0,
-          "protein_g": 4.7,
-          "sodium_mg": 8,
-          "fiber_g": 11.0,
-          "sugar_g": 39.0
+          "calories": 374,
+          "fat_g": 3.8,
+          "carbs_g": 88.0,
+          "protein_g": 6.8,
+          "sodium_mg": 135,
+          "fiber_g": 19.1,
+          "sugar_g": 61.0
         },
-        "missing_inputs": [
-          "3 medium carrots",
-          "1 cup apple, strawberries, pears, or peaches"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
@@ -1316,10 +1207,7 @@
       "image_refs": [
         "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 341",
         "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 342",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 343",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4374",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4375",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4376"
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 343"
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
@@ -1337,11 +1225,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "fruity-smoothie-with-ground-flax-seed",
@@ -1408,32 +1292,25 @@
         "flags": []
       },
       "image_refs": [
-        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 344",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4377"
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 344"
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 163,
-          "fat_g": 8.3,
-          "carbs_g": 17.1,
-          "protein_g": 7.2,
-          "sodium_mg": 71,
-          "fiber_g": 5.0,
-          "sugar_g": 11.6
+          "calories": 298,
+          "fat_g": 12.6,
+          "carbs_g": 39.4,
+          "protein_g": 10.8,
+          "sodium_mg": 113,
+          "fiber_g": 6.5,
+          "sugar_g": 26.6
         },
-        "missing_inputs": [
-          "1/2 large banana"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "fruity-yogurt-smoothie",
@@ -1504,8 +1381,7 @@
         "flags": []
       },
       "image_refs": [
-        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 345",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4378"
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 345"
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
@@ -1523,11 +1399,7 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "mexican-breakfast-choco-drink",
@@ -1633,7 +1505,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "mexican-breakfast-choco-drink-ref"
+      ]
     },
     {
       "id": "quick-fruity-breakfast-smoothie",
@@ -1697,32 +1572,25 @@
         "flags": []
       },
       "image_refs": [
-        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 348",
-        "https://jsschrstrcks1.github.io/Allrecipes/data/IMG_4381"
+        "https://jsschrstrcks1.github.io/Allrecipes/data/recipes - 348"
       ],
       "source_note": "Recipe Keeper digital cookbook",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 56,
-          "fat_g": 2.1,
-          "carbs_g": 6.0,
-          "protein_g": 2.5,
+          "calories": 125,
+          "fat_g": 2.4,
+          "carbs_g": 23.8,
+          "protein_g": 3.2,
           "sodium_mg": 29,
-          "fiber_g": 0.8,
-          "sugar_g": 4.8
+          "fiber_g": 2.8,
+          "sugar_g": 15.2
         },
-        "missing_inputs": [
-          "1 large banana"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      },
-      "sources": [
-        "all"
-      ],
-      "source_notes": "Consolidated from multiple sources: all"
+      }
     },
     {
       "id": "batch-spicy-coconut-lime-margarita",
@@ -2508,19 +2376,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 79,
-          "fat_g": 2.5,
-          "carbs_g": 10.8,
-          "protein_g": 3.0,
-          "sodium_mg": 137,
+          "calories": 128,
+          "fat_g": 5.2,
+          "carbs_g": 14.8,
+          "protein_g": 5.7,
+          "sodium_mg": 172,
           "fiber_g": 0.0,
-          "sugar_g": 7.9
+          "sugar_g": 11.9
         },
-        "missing_inputs": [
-          "2 cup scalded milk"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 6 servings"
         ]
@@ -2604,19 +2470,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 83,
+          "calories": 113,
           "fat_g": 0.1,
-          "carbs_g": 21.3,
+          "carbs_g": 29.0,
           "protein_g": 0.2,
-          "sodium_mg": 1,
+          "sodium_mg": 10,
           "fiber_g": 0.1,
-          "sugar_g": 20.4
+          "sugar_g": 28.0
         },
-        "missing_inputs": [
-          "1 quart chilled ginger ale"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 11 servings"
         ]
@@ -2744,19 +2608,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 166,
-          "fat_g": 0.0,
-          "carbs_g": 42.0,
-          "protein_g": 0.0,
-          "sodium_mg": 52,
-          "fiber_g": 0.0,
-          "sugar_g": 42.0
+          "calories": 740,
+          "fat_g": 30.0,
+          "carbs_g": 114.0,
+          "protein_g": 10.0,
+          "sodium_mg": 214,
+          "fiber_g": 1.4,
+          "sugar_g": 108.0
         },
-        "missing_inputs": [
-          "2 quarts lime sherbet"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
@@ -3015,27 +2877,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Make syrup by boiling sugar and water together for ten"
+          "text": "Make syrup byboiling sugar andwater together forten"
         },
         {
           "step": 2,
-          "text": "minutes. add thetea, fruit juices, pineapple, and strawberry"
+          "text": "minutes. Addthetea,fruit juices, pineapple, andstrawberry"
         },
         {
           "step": 3,
-          "text": "syrup. let stand thirty minutes, strain and add enough iced"
+          "text": "syrup. Letstand thirty minutes, strain andaddenough iced"
         },
         {
           "step": 4,
-          "text": "water to make on eoroneandone-half gallons of liquid."
+          "text": "water tomake oneoroneandone-half gallons ofliquid."
         },
         {
           "step": 5,
-          "text": "Turn into large punch bowl over a piece of ice and lastly"
+          "text": "Turn into large punch bowl over apiece oficeand lastly"
         },
         {
           "step": 6,
-          "text": "add cherries. This quantity willserve a bout tenpeople."
+          "text": "add cherries. This quantity willserve about tenpeople."
         }
       ],
       "temperature": "",
@@ -3055,117 +2917,17 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 580,
-          "fat_g": 0.0,
-          "carbs_g": 150.0,
-          "protein_g": 0.0,
-          "sodium_mg": 2,
-          "fiber_g": 0.0,
-          "sugar_g": 150.0
+          "calories": 712,
+          "fat_g": 0.2,
+          "carbs_g": 184.0,
+          "protein_g": 1.0,
+          "sodium_mg": 4,
+          "fiber_g": 2.0,
+          "sugar_g": 178.0
         },
         "missing_inputs": [
-          "2 cans crushed pineapple",
           "1 jar maraschino cherries"
         ],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
-    },
-    {
-      "id": "poor-mans-steak-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Poor Man'S Steak",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "ground beef",
-          "quantity": "2",
-          "unit": "lbs"
-        },
-        {
-          "item": "milk",
-          "quantity": "1 1/3",
-          "unit": "cups"
-        },
-        {
-          "item": "salt",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "margarine",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/4",
-          "unit": "tsp"
-        },
-        {
-          "item": "cream of mushroom soup",
-          "quantity": "2",
-          "unit": "cans"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix together meat, salt, pepper, crumbs, and milk. Pack into"
-        },
-        {
-          "step": 2,
-          "text": "loaf pans. Let stand in refrigerator overnight or as least 6"
-        },
-        {
-          "step": 3,
-          "text": "hours. Cut into slices and brown in margarine. Mix soup with 1 c"
-        },
-        {
-          "step": 4,
-          "text": "of water and pour over meat placed in dutch oven. Bake at 350 for"
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 806,
-          "fat_g": 61.2,
-          "carbs_g": 13.1,
-          "protein_g": 44.7,
-          "sodium_mg": 2264,
-          "fiber_g": 1.0,
-          "sugar_g": 6.0
-        },
-        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -3270,112 +3032,6 @@
       }
     },
     {
-      "id": "steak-and-mushrooms-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Steak And Mushrooms",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "round steak",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "mushrooms",
-          "quantity": "1",
-          "unit": "lb"
-        },
-        {
-          "item": "tomato sauce",
-          "quantity": "8",
-          "unit": "oz"
-        },
-        {
-          "item": "flour",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "onion",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": "sliced"
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/4",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cut meat into strips and coat with flour. Saute in melted"
-        },
-        {
-          "step": 2,
-          "text": "butter for 5 min. Add onion and mushrooms, cook another 5 min or"
-        },
-        {
-          "step": 3,
-          "text": "until onion turn clear. Add remaining ingredients and stir well."
-        },
-        {
-          "step": 4,
-          "text": "Simmer 1 to 1-1/2 hours. Serve over rice."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 342,
-          "fat_g": 21.3,
-          "carbs_g": 12.9,
-          "protein_g": 24.8,
-          "sodium_mg": 933,
-          "fiber_g": 1.9,
-          "sugar_g": 4.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "round-steak-hawaiian-dutchovenc",
       "collection": "all",
       "collection_display": "Other Recipes",
@@ -3468,222 +3124,6 @@
       }
     },
     {
-      "id": "flank-steak-teriyaki-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Flank Steak Teriyaki",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "flank steak",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "pineapple slices",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "1",
-          "unit": "tbsp"
-        },
-        {
-          "item": "soy sauce",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "sugar",
-          "quantity": "2",
-          "unit": "tbsp"
-        },
-        {
-          "item": "garlic",
-          "quantity": "1",
-          "unit": "clove",
-          "prep_note": "minced"
-        },
-        {
-          "item": "ginger",
-          "quantity": "1/2",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "To form marinade, combine all except steaks and pineapple. Mix"
-        },
-        {
-          "step": 2,
-          "text": "well and pour over steaks. Let marinate 1 to 1-1/2 hours. Fry"
-        },
-        {
-          "step": 3,
-          "text": "steaks in very hot oven or skillet brushing once with marinade."
-        },
-        {
-          "step": 4,
-          "text": "Add pineapple during last few minutes, brush with marinade and"
-        },
-        {
-          "step": 5,
-          "text": "cover. Cook 3-5 min. Serve over rice."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 223,
-          "fat_g": 7.3,
-          "carbs_g": 33.5,
-          "protein_g": 8.0,
-          "sodium_mg": 1770,
-          "fiber_g": 4.5,
-          "sugar_g": 25.4
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
-      "id": "salisbury-steaks-dutchovenc",
-      "collection": "all",
-      "collection_display": "Other Recipes",
-      "title": "Salisbury Steaks",
-      "category": "beverages",
-      "attribution": "",
-      "source_note": "Dutch Oven Cookbook Pdf (PDF cookbook)",
-      "description": "Vintage recipe from Dutch Oven Cookbook Pdf",
-      "servings_yield": "4 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "ground beef",
-          "quantity": "2",
-          "unit": "lbs"
-        },
-        {
-          "item": "breadcrumbs",
-          "quantity": "2/3",
-          "unit": "cup"
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "1/2",
-          "unit": "tsp"
-        },
-        {
-          "item": "beef broth",
-          "quantity": "2",
-          "unit": "cans",
-          "prep_note": "10 oz each"
-        },
-        {
-          "item": "mushrooms",
-          "quantity": "8",
-          "unit": "oz",
-          "prep_note": "canned"
-        },
-        {
-          "item": "cornstarch",
-          "quantity": "4",
-          "unit": "tbsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix ground beef, bread crumbs, salt, pepper and eggs, shape"
-        },
-        {
-          "step": 2,
-          "text": "into 8 oval patties, each about 3/4\" thick. Cook patties over"
-        },
-        {
-          "step": 3,
-          "text": "medium heat, turning occasionally, until brown, about 10 min,"
-        },
-        {
-          "step": 4,
-          "text": "drain. Add onions broth and mushrooms. Heat to boiling, reduce"
-        },
-        {
-          "step": 5,
-          "text": "heat. Cover and simmer until beef is done, about 10 min."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
-      "tags": [
-        "vintage",
-        "pdf-extracted"
-      ],
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "pdf-extraction",
-          "MISCLASSIFIED: This is a main dish, not a beverage"
-        ]
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 725,
-          "fat_g": 47.0,
-          "carbs_g": 23.1,
-          "protein_g": 48.7,
-          "sodium_mg": 1776,
-          "fiber_g": 1.5,
-          "sugar_g": 2.3
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Calculated for 4 servings"
-        ]
-      }
-    },
-    {
       "id": "lemonade-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
@@ -3707,16 +3147,16 @@
           "item": "sugar",
           "quantity": "2",
           "unit": "cup",
-          "prep_note": "or sweetening to taste."
+          "prep_note": "orsweetening totaste."
         },
         {
-          "item": "lemon cut in very thin slices.",
+          "item": "lemon cutinvery thin slices.",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "orange cut in very thin slices.",
+          "item": "orange cutinvery thin slices.",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -3731,39 +3171,39 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Boil sugar with 1 quart of water, set a side to cool; add"
+          "text": "Boilsugar with 1 quart ofwater, setaside tocool; add"
         },
         {
           "step": 2,
-          "text": "strained lemon juice and the rest of the water, the slices of"
+          "text": "strained lemon juice andtherestofthewater, theslices of"
         },
         {
           "step": 3,
-          "text": "There is a difference in lemons; some are more acid than"
+          "text": "There isadifference inlemons; some aremore acidthan"
         },
         {
           "step": 4,
-          "text": "others. Lemons must bewashed, dried and rolled before rim-"
+          "text": "others. Lemons must bewashed, dried androlled before rim-"
         },
         {
           "step": 5,
-          "text": "ming or squeezing. Put the skins in 2 quarts of cold water"
+          "text": "ming orsqueezing. Puttheskins in 2 quarts ofcoldwater"
         },
         {
           "step": 6,
-          "text": "halfhour, drain and strain the water for thelem on ade."
+          "text": "halfhour, drain andstrain thewater forthelemonade."
         },
         {
           "step": 7,
-          "text": "a slice of lemon served with a cupofteaaddsverymuch."
+          "text": "Aslice oflemon served with acupofteaaddsverymuch."
         },
         {
           "step": 8,
-          "text": "The lemon should bescrubbed with a vegetable brush, rinsed"
+          "text": "Thelemon should bescrubbed with avegetable brush, rinsed"
         },
         {
           "step": 9,
-          "text": "and dried ; then cutinthin slices and served on a noblong dish,"
+          "text": "anddried ;then cutinthin slices andserved onanoblong dish,"
         }
       ],
       "temperature": "",
@@ -3795,17 +3235,13 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (15 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "dripcoffee-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Drip Coffee",
+      "title": "Dripcoffee",
       "category": "beverages",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -3831,19 +3267,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Rinse drip pot with hot water. Place the finely ground or"
+          "text": "Rinse drippotwithhotwater. Place thefinely ground or"
         },
         {
           "step": 2,
-          "text": "pulverized coffee in the drip bag, pour the freshly boiled water"
+          "text": "pulverized coffee inthedripbag,pour thefreshly boiled water"
         },
         {
           "step": 3,
-          "text": "on coffee in the drip bag, and a fter it has dripped thru remove"
+          "text": "oncoffee inthedripbag,andafter ithasdripped thruremove"
         },
         {
           "step": 4,
-          "text": "bagfrom potandcoffee is ready to serve. When making less"
+          "text": "bagfrom potandcoffee isready toserve. When making less"
         },
         {
           "step": 5,
@@ -3865,27 +3301,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 3,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.4,
+          "sodium_mg": 8,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "6  heaping teaspoons finely ground coffee."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (8 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "french-coffee-scottsnort",
@@ -3943,19 +3373,17 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 3,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.4,
+          "sodium_mg": 7,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "11/2 cup ground coffee."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
@@ -3965,7 +3393,7 @@
       "id": "after-dinner-coffee-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "A fter-Dinner Coffee",
+      "title": "After-Dinner Coffee",
       "category": "beverages",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -3991,19 +3419,19 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Use drip pot. Put the coffee in the muslin bag and pour"
+          "text": "Usedrip pot.Putthecoffee inthemuslin bagandpour"
         },
         {
           "step": 2,
-          "text": "over this water which has just reached the boiling point. a fter"
+          "text": "over thiswater which hasjustreached theboiling point. After"
         },
         {
           "step": 3,
-          "text": "the water filters thru into thelower receptacle draw itoff and"
+          "text": "thewater filters thru intothelower receptacle draw itoffand"
         },
         {
           "step": 4,
-          "text": "pour thru as econd time. Serve in a fter-dinner coffee cups"
+          "text": "pour thru asecond time. Serve inafter-dinner coffee cups"
         }
       ],
       "temperature": "",
@@ -4021,33 +3449,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
-          "calories": 0,
+          "calories": 2,
           "fat_g": 0.0,
           "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
+          "protein_g": 0.2,
+          "sodium_mg": 4,
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "3  rounding tablespoons ground coffee."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "Severe OCR corruption (7 merged word groups detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "thehealing-properties-ofteaandcoffe-theamerica",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "The Healing Properties of Tea and Coffee",
+      "title": "Thehealing Properties Ofteaandcoffee",
       "category": "beverages",
       "attribution": "",
       "source_note": "The American Home Cook Book A Volume Of Tested Recipes 1913 2 (PDF cookbook)",
@@ -4070,7 +3492,7 @@
           "prep_note": ""
         },
         {
-          "item": "The coffee should beroasted just before use ; as ifkept",
+          "item": "The coffee should beroasted justbefore use ;asifkept",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
@@ -4079,43 +3501,43 @@
       "instructions": [
         {
           "step": 1,
-          "text": "more than on edayafter roasting there is a decided loss of"
+          "text": "more than onedayafter roasting there isadecided lossof"
         },
         {
           "step": 2,
-          "text": "2. The simplest way of roasting coffee is in an enamelled"
+          "text": "2.Thesimplest way ofroasting coffee isinanenamelled"
         },
         {
           "step": 3,
-          "text": "frying-pan. Roast the beans over a mild, smokeless fire"
+          "text": "frying-pan. Roast thebeans over amild, smokeless fire"
         },
         {
           "step": 4,
-          "text": "until the beans turn a richbrown color, notblack. The"
+          "text": "until thebeans turn arichbrown color, notblack. The"
         },
         {
           "step": 5,
-          "text": "beans must beconstantly stirred and turned, or they will"
+          "text": "beans must beconstantly stirred andturned, orthey will"
         },
         {
           "step": 6,
-          "text": "3. Take on elarge tablespoonful of coffee powder for each,"
+          "text": "3.Take onelarge tablespoonful ofcoffee powder foreach,"
         },
         {
           "step": 7,
-          "text": "4. Put thepowder into ajug and pour boiling water over"
+          "text": "4.Putthepowder intoajugandpour boiling water over"
         },
         {
           "step": 8,
-          "text": "it in theproportion of halfacupful of water to each table-"
+          "text": "itintheproportion ofhalfacupful ofwater toeach table-"
         },
         {
           "step": 9,
-          "text": "spoonful of coffee powder. The water must beatfull boil-"
+          "text": "spoonful ofcoffee powder. Thewater must beatfull boil-"
         },
         {
           "step": 10,
-          "text": "5. let the coffee stand in thejugforhalfanhour, and"
+          "text": "5.Letthecoffee stand inthejugforhalfanhour, and"
         }
       ],
       "temperature": "",
@@ -4133,7 +3555,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 0,
           "fat_g": 0.0,
@@ -4143,18 +3565,11 @@
           "fiber_g": 0.0,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "450  BEVERAGES",
-          "1  The coffee should beroasted justbefore use ;asifkept"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (20 issues detected); Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "drinks-theappledo",
@@ -4376,39 +3791,39 @@
         },
         {
           "step": 2,
-          "text": ".210 i Graham Pics,."
+          "text": ".210 iGraham Pics,."
         },
         {
           "step": 3,
-          "text": "tion(Mr. L. Scott), ."
+          "text": "tion(Mr.L.Scott), ."
         },
         {
           "step": 4,
-          "text": "Soft. Gingerbread, ."
+          "text": "Soft.Gingerbread, ."
         },
         {
           "step": 5,
-          "text": "THE a PPLEDORE COOK BOOK."
+          "text": "THEAPPLEDORE COOK BOOK."
         },
         {
           "step": 6,
-          "text": "Take either a codorhaddock ; skin it, loosen the skin"
+          "text": "Take either acodorhaddock ;skin it,loosen theskin"
         },
         {
           "step": 7,
-          "text": "a bout the head, and draw itdown to wards the tail, when"
+          "text": "about thehead, anddraw itdown towards the tail,when"
         },
         {
           "step": 8,
-          "text": "it will peel of feasily. Then runyour knifedown the"
+          "text": "itwill peel offeasily. Then runyour knifedown the"
         },
         {
           "step": 9,
-          "text": "back close to thebone, which youtake out. Cutyour"
+          "text": "back close tothebone, which youtake out. Cutyour"
         },
         {
           "step": 10,
-          "text": "fishinsmall pieces, and wash in cold water. Put thehead"
+          "text": "fishinsmall pieces, andwash incoldwater. Putthehead"
         }
       ],
       "temperature": "",
@@ -4440,11 +3855,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption detected in final review; Auto-repaired, needs verification; Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "boiled-coffee-thewingold",
@@ -4538,10 +3949,10 @@
           "item": "One onion, minced fine.",
           "quantity": "1",
           "unit": "medium",
-          "prep_note": "[quantity in ferred]"
+          "prep_note": "[quantity inferred]"
         },
         {
-          "item": "Two tablespoons of parsley.",
+          "item": "Two tablespoons ofparsley.",
           "quantity": "",
           "unit": "",
           "prep_note": ""
@@ -4550,23 +3961,23 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix, form into flat cakes, brush with salad oil; place on"
+          "text": "Mix,form into flatcakes, brush with salad oil;place on"
         },
         {
           "step": 2,
-          "text": "baking dish. Broil in gas broiler for eight minutes, the nplace"
+          "text": "baking dish. Broil ingasbroiler foreight minutes, thenplace"
         },
         {
           "step": 3,
-          "text": "in hot oven for seven minutes longer. Spread with desired but-"
+          "text": "inhotoven forseven minutes longer. Spread with desired but-"
         },
         {
           "step": 4,
-          "text": "terandsend to thetable in a baking dish. This willgiveade-"
+          "text": "terandsend tothetable inabaking dish. This willgiveade-"
         },
         {
           "step": 5,
-          "text": "licious flavored meat in place of the usual dry, tasteless cake"
+          "text": "licious flavored meat inplace oftheusual dry, tasteless cake"
         }
       ],
       "temperature": "",
@@ -4584,33 +3995,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "per_serving": {
           "calories": 11,
           "fat_g": 0.0,
           "carbs_g": 2.5,
-          "protein_g": 0.2,
-          "sodium_mg": 1,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
           "fiber_g": 0.5,
           "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Two tablespoons ofparsley."
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (5 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "howtomakethecider-cup-wilsonscoo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "How to Make the Cider Cup",
+      "title": "Howtomakethecider Cup",
       "category": "beverages",
       "attribution": "",
       "source_note": "Wilsons Cook Book Numerous New Recipes On Present Economic Conditions 1920 (PDF cookbook)",
@@ -4621,7 +4026,7 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "a pple cider",
+          "item": "apple cider",
           "quantity": "1",
           "unit": "gallon"
         },
@@ -4632,7 +4037,7 @@
           "prep_note": "sliced thin"
         },
         {
-          "item": "a pples",
+          "item": "apples",
           "quantity": "3",
           "unit": "",
           "prep_note": "baked, cut into bits"
@@ -4656,7 +4061,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix and then serve."
+          "text": "Mixandthen serve."
         }
       ],
       "temperature": "",
@@ -4689,11 +4094,7 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      },
-      "needs_ocr_review": true,
-      "ocr_quality": "poor",
-      "review_reason": "OCR corruption (2 issues); Auto-repaired, needs verification",
-      "ocr_repaired": true
+      }
     },
     {
       "id": "watermelon-smoothie-handwritten",
@@ -4890,13 +4291,418 @@
           "sugar_g": 1464.0
         },
         "missing_inputs": [
-          "4 oz hops",
           "8 oz essence of spruce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
         ]
       }
+    },
+    {
+      "id": "kefir-homemade",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Homemade Kefir",
+      "category": "beverages",
+      "attribution": "New England Cheesemaking Supply Co.",
+      "source_note": "cheesemaking.com",
+      "description": "A traditional fermented milk drink prepared in homes for centuries. Tangy, effervescent, and full of probiotics.",
+      "servings_yield": "About 1 quart",
+      "prep_time": "5 min",
+      "cook_time": "12-48 hours",
+      "total_time": "12-48 hours",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "kefir grains OR kefir starter",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place kefir grains or starter in clean glass jar."
+        },
+        {
+          "step": 2,
+          "text": "Add room temperature milk. Stir gently."
+        },
+        {
+          "step": 3,
+          "text": "Cover loosely with cloth and let culture at room temperature."
+        },
+        {
+          "step": 4,
+          "text": "At 12 hours: nice tang, thicker (pH 5.1-4.7). At 24-48 hours: thick soft curd, wonderfully refreshing acidity (pH 4.3-4.5)."
+        },
+        {
+          "step": 5,
+          "text": "Strain out kefir grains (if using) and reserve for next batch."
+        },
+        {
+          "step": 6,
+          "text": "Stir or blend kefir to desired consistency."
+        },
+        {
+          "step": 7,
+          "text": "Refrigerate. Drink plain or add fruit, honey, or flavorings."
+        }
+      ],
+      "temperature": "Room temperature (68-75\u00b0F / 20-24\u00b0C)",
+      "tags": [
+        "dairy",
+        "homemade",
+        "kefir",
+        "fermented",
+        "probiotic",
+        "beverage"
+      ],
+      "notes": [
+        "Kefir grains can be reused indefinitely with proper care.",
+        "A staple in many cultures for its flavor and health benefits."
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "psr-cultured-buttermilk",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Cultured Buttermilk",
+      "category": "beverages",
+      "attribution": "Ashley Adamant, Practical Self Reliance",
+      "source_note": "practicalselfreliance.com",
+      "description": "Making cultured buttermilk at home is a simple, rewarding process that yields a tangy, creamy liquid perfect for baking, cooking, or dressings. Prized for its ability to tenderize baked goods and provide slight acidity.",
+      "servings_yield": "About 1 cup buttermilk (plus 8 oz butter)",
+      "prep_time": "10 min",
+      "cook_time": "24-48 hours culturing",
+      "total_time": "About 24 hours",
+      "ingredients": [
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "preferably grass-fed or high-quality"
+        },
+        {
+          "item": "cultured buttermilk with live cultures",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "buttermilk starter culture",
+          "quantity": "1",
+          "unit": "packet",
+          "prep_note": "optional, if cultured buttermilk unavailable"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Culture the Cream: Pour heavy cream into a clean jar or bowl."
+        },
+        {
+          "step": 2,
+          "text": "Add approximately 1/8 to 1/4 cup cultured buttermilk; stir gently to combine."
+        },
+        {
+          "step": 3,
+          "text": "Cover loosely and let sit at room temperature for 24-48 hours until thickened with a tangy aroma."
+        },
+        {
+          "step": 4,
+          "text": "Churn into Butter: Pour cultured cream into stand mixer, food processor, or use hand mixer."
+        },
+        {
+          "step": 5,
+          "text": "Mix on medium-low speed for 15-20 minutes until butter separates from liquid."
+        },
+        {
+          "step": 6,
+          "text": "Stop mixing when butter clumps together."
+        },
+        {
+          "step": 7,
+          "text": "Strain and Store: Strain buttermilk into clean container; refrigerate for about one week."
+        },
+        {
+          "step": 8,
+          "text": "Optional: Wash butter in cold water to extend shelf life."
+        }
+      ],
+      "notes": [
+        "Traditionally, buttermilk is the liquid left behind after churning cream to make butter",
+        "Use in pancakes, biscuits, dressings, marinades, cornbread, fried chicken",
+        "The tangy flavor comes from beneficial bacteria in the culture"
+      ],
+      "tags": [
+        "buttermilk",
+        "homemade",
+        "cultured",
+        "fermented",
+        "dairy",
+        "baking"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "psr-kefir-yogurt",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Kefir Yogurt",
+      "category": "beverages",
+      "attribution": "David Asher / Ashley Adamant, Practical Self Reliance",
+      "source_note": "practicalselfreliance.com (from 'The Art of Natural Cheesemaking' by David Asher)",
+      "description": "A thick, creamy yogurt made at home using a kefir starter culture. The kefir offers a rich, diverse mix of beneficial microbes that create a flavorful yogurt without commercial packets.",
+      "servings_yield": "About 3 quarts (12 servings)",
+      "prep_time": "30 min",
+      "cook_time": "30-60 min cooking + 12-36 hours culturing",
+      "total_time": "About 8 hours active + culturing time",
+      "ingredients": [
+        {
+          "item": "whole milk",
+          "quantity": "1",
+          "unit": "gallon",
+          "prep_note": "pasteurized or raw, preferably unhomogenized"
+        },
+        {
+          "item": "active kefir",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "180 mL, strained kefir grains, prepared the day before, or yogurt"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Warm the milk: Slowly heat milk to 185\u00b0F (85\u00b0C) over medium heat, stirring continuously."
+        },
+        {
+          "step": 2,
+          "text": "Cook the milk: Maintain 185\u00b0F for 30 minutes to 1 hour with constant stirring. Extended cooking time produces thicker yogurt."
+        },
+        {
+          "step": 3,
+          "text": "Cool: Remove from heat and stir until temperature drops to 110\u00b0F (43\u00b0C). Wait for proper cooling before adding culture to avoid killing beneficial bacteria."
+        },
+        {
+          "step": 4,
+          "text": "Add culture: Incorporate 1/4 cup (60 mL) kefir into the warm milk and stir thoroughly."
+        },
+        {
+          "step": 5,
+          "text": "Incubate: Culture for 12 to 36 hours until desired flavor and consistency develop. Check every 12 hours as kefir culture timing varies unpredictably."
+        }
+      ],
+      "temperature": "185\u00b0F (85\u00b0C) for cooking, 110\u00b0F (43\u00b0C) for culturing",
+      "notes": [
+        "The longer the milk is cooked at 185\u00b0F, the thicker the yogurt will be",
+        "Culturing time can vary widely (12-36 hours)",
+        "Uses kefir instead of commercial yogurt starter"
+      ],
+      "tags": [
+        "yogurt",
+        "homemade",
+        "kefir",
+        "fermented",
+        "probiotic",
+        "dairy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "psr-water-kefir",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Water Kefir (Natural Probiotic Soda)",
+      "category": "beverages",
+      "attribution": "Ashley Adamant, Practical Self Reliance",
+      "source_note": "practicalselfreliance.com",
+      "description": "A delightfully fizzy fermented drink that's like a probiotic homemade soda. An all-natural probiotic soda that's easy to make at home.",
+      "servings_yield": "1 quart",
+      "prep_time": "10 min",
+      "cook_time": "12-48 hours fermentation",
+      "total_time": "12-48 hours",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "hot water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "room-temperature water",
+          "quantity": "3",
+          "unit": "cup"
+        },
+        {
+          "item": "water kefir grains",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "rehydrated, or 1 packet"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine sugar and hot water in a quart-size jar, stirring until sugar fully dissolves."
+        },
+        {
+          "step": 2,
+          "text": "Add 3 cups of room-temperature water."
+        },
+        {
+          "step": 3,
+          "text": "Introduce rehydrated kefir grains."
+        },
+        {
+          "step": 4,
+          "text": "Cover jar with breathable fabric like cloth napkin or muslin."
+        },
+        {
+          "step": 5,
+          "text": "Keep in a warm location (68-85\u00b0F) for 12 to 48 hours."
+        },
+        {
+          "step": 6,
+          "text": "Strain kefir grains from liquid, preserving both the finished beverage and grains."
+        },
+        {
+          "step": 7,
+          "text": "Consume immediately or bottle and refrigerate."
+        }
+      ],
+      "temperature": "68-85\u00b0F (20-29\u00b0C) for fermentation",
+      "notes": [
+        "For extra fizz, do a second ferment: transfer to swing-top bottle and add 1/2 cup favorite fruit juice",
+        "Preserve the grains for future batches",
+        "Start with just a pinch of water kefir grains"
+      ],
+      "tags": [
+        "kefir",
+        "homemade",
+        "probiotic",
+        "fermented",
+        "soda",
+        "beverage",
+        "water kefir"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "mock-kahlua-coffee-liqueur",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Mock Kahlua (Coffee Liqueur)",
+      "category": "beverages",
+      "source_note": "CheeseForum.org - Favorite Recipes",
+      "description": "A homemade coffee liqueur that rivals the commercial version. Perfect for cocktails or tiramisu.",
+      "servings_yield": "About 4 cups",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "25 minutes (plus 1-2 weeks aging)",
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "white sugar",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "fresh ground coffee beans",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vodka",
+          "quantity": "2 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan over medium heat, combine water, sugar, and ground coffee."
+        },
+        {
+          "step": 2,
+          "text": "Bring to a boil, reduce heat to low, and simmer for 10 minutes, stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Allow the mixture to cool completely."
+        },
+        {
+          "step": 4,
+          "text": "Strain out the coffee grounds."
+        },
+        {
+          "step": 5,
+          "text": "Stir the vanilla extract into the cooled mixture."
+        },
+        {
+          "step": 6,
+          "text": "Once cool, add the vodka and stir well."
+        },
+        {
+          "step": 7,
+          "text": "Transfer the liqueur into a bottle and store in a cool location."
+        },
+        {
+          "step": 8,
+          "text": "Allow to age for 1-2 weeks before use for best flavor."
+        }
+      ],
+      "notes": [
+        "Blend with equal parts cream for a luxurious cocktail",
+        "Excellent in tiramisu",
+        "Improves with age"
+      ],
+      "tags": [
+        "beverage",
+        "liqueur",
+        "coffee",
+        "cocktail",
+        "homemade"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

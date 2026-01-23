@@ -1,8 +1,8 @@
 {
   "meta": {
     "collection": "grandma-baker",
-    "total_recipes": 932,
-    "generated": "2026-01-22T19:32:06.293761Z",
+    "total_recipes": 933,
+    "generated": "2026-01-23T14:31:31.911882Z",
     "source": "recipes_master.json",
     "sharded_by_category": false
   },
@@ -132179,6 +132179,50 @@
       "image_refs": [
         "unscanned recipe books/IMG_7295 Medium.jpeg"
       ]
+    },
+    {
+      "id": "gens-nut-cookies",
+      "collection": "grandma-baker",
+      "collection_display": "Grandma Baker",
+      "title": "Gens Nut Cookies",
+      "category": "desserts",
+      "source_note": "Typed recipe card (deleted image 796)",
+      "description": "Rich rolled cookies coated with ground nuts and egg whites, featuring sour cream for tenderness.",
+      "servings_yield": "About 4 dozen cookies",
+      "ingredients": [
+        "4 C. flour",
+        "1/2 C. white sugar",
+        "1/2 C. brown sugar",
+        "1/2 lb. shortening",
+        "3 egg yolks",
+        "1 T. vanilla",
+        "1 T. cinnamon",
+        "1/2 pt. sour cream",
+        "1 C. ground nutmeats",
+        "Topping: 1 C. nutmeats, 4 T. sugar, 1 tsp. cinnamon"
+      ],
+      "instructions": [
+        "Mix flour, sugars, shortening, egg yolks, vanilla, cinnamon, sour cream, and 1 C. ground nutmeats together well.",
+        "Beat egg whites slightly.",
+        "For the topping, combine 1 cup ground nutmeats with 4 T. sugar and 1 tsp. cinnamon.",
+        "Roll out cookies.",
+        "Dip cookies in egg whites, then coat in the ground nut mixture."
+      ],
+      "notes": [
+        "Recipe transcribed from typed card that was deleted after transcription.",
+        "The '3 egg yolks' suggests using the egg whites for the coating."
+      ],
+      "tags": [
+        "cookies",
+        "nuts",
+        "rolled-cookies",
+        "sour-cream"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }

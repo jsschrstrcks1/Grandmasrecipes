@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "collection": "mommom-baker",
+    "category": "charcuterie",
+    "total_recipes": 1,
+    "generated": "2026-01-23T14:31:32.137330Z",
+    "source": "recipes_master.json"
+  },
+  "recipes": [
+    {
+      "id": "wild-boar-sausage-hf",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Wild Boar Sausage",
+      "category": "charcuterie",
+      "attribution": "Hank Shaw / Hunter Angler Gardener Cook",
+      "source_note": "From honest-food.net - Wild Boar Sausage",
+      "description": "A coarse, country-style wild boar sausage that highlights the flavor of the boar.",
+      "servings_yield": "about 5 pounds",
+      "prep_time": "1 hour",
+      "cook_time": "",
+      "ingredients": [
+        {
+          "item": "wild boar shoulder or leg",
+          "quantity": "4",
+          "unit": "lb",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "pork fat (back fat or belly)",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cubed"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "freshly ground"
+        },
+        {
+          "item": "fresh sage",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "fresh thyme",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "4",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ice water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "hog casings",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "soaked"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cube meat and fat. Freeze for 30 minutes to make grinding easier."
+        },
+        {
+          "step": 2,
+          "text": "Grind meat and fat together through a coarse plate (3/8 inch)."
+        },
+        {
+          "step": 3,
+          "text": "Mix ground meat with salt, pepper, sage, thyme, and garlic."
+        },
+        {
+          "step": 4,
+          "text": "Add ice water and mix until the mixture becomes sticky and cohesive."
+        },
+        {
+          "step": 5,
+          "text": "Fry a small test patty to check seasoning. Adjust if needed."
+        },
+        {
+          "step": 6,
+          "text": "Stuff into soaked hog casings, twisting into 6-inch links."
+        },
+        {
+          "step": 7,
+          "text": "Let rest uncovered in refrigerator overnight to dry slightly before cooking."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Use 20-25% fat for best results",
+        "Wild boar fat can be softer - mixing with domestic pork fat helps",
+        "Can be used as bulk sausage without casings"
+      ],
+      "tags": [
+        "wild boar",
+        "sausage",
+        "charcuterie",
+        "wild game",
+        "pork"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}

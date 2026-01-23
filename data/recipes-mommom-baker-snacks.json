@@ -2,8 +2,8 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "snacks",
-    "total_recipes": 59,
-    "generated": "2026-01-22T19:32:06.548394Z",
+    "total_recipes": 65,
+    "generated": "2026-01-23T14:31:32.309371Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -101,9 +101,16 @@
         "has_conversions": false
       },
       "nutrition": {
-        "status": "insufficient_data",
-        "missing_inputs": [
-          "Recipe data incomplete for nutrition calculation"
+        "status": "partial",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 3.7,
+          "protein_g": 2.0,
+          "carbs_g": 28.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Based on 6/6 ingredients (100% coverage)"
         ]
       }
     },
@@ -423,18 +430,18 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 95,
-          "fat_g": 7.1,
-          "protein_g": 6.2,
-          "carbs_g": 1.0
+          "calories": 101,
+          "fat_g": 7.4,
+          "protein_g": 6.3,
+          "carbs_g": 1.8
         },
         "missing_inputs": [
-          "Not in database: Pillsbury Grands Flaky Layers Original Biscuits",
           "Not in database: wooden skewers or toothpicks"
         ],
         "assumptions": [
+          "Assumed 1.5 cup can for Pillsbury Grands Flaky Layers Original Biscuits",
           "Inferred 2 for canola oil (standard quantity)",
-          "Based on 3/5 ingredients (60% coverage)"
+          "Based on 4/5 ingredients (80% coverage)"
         ]
       }
     },
@@ -826,9 +833,9 @@
         "status": "partial",
         "per_serving": {
           "calories": 10,
-          "fat_g": 0.5,
+          "fat_g": 0.6,
           "protein_g": 0.3,
-          "carbs_g": 1.0
+          "carbs_g": 0.9
         },
         "missing_inputs": [
           "Not in database: Oscar Mayer Mini Smokies"
@@ -933,8 +940,8 @@
         "per_serving": {
           "calories": 559,
           "fat_g": 53.4,
-          "protein_g": 12.8,
-          "carbs_g": 10.3
+          "protein_g": 12.7,
+          "carbs_g": 10.2
         },
         "missing_inputs": [
           "Not in database: Hidden Valley Ranch Dip Seasoning Mix"
@@ -1174,11 +1181,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 10)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "toasted-chili-nuts",
@@ -1284,6 +1287,126 @@
       }
     },
     {
+      "id": "nachos-loaded",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nachos",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Seven-layer spicy snack with meat, beans, and melted cheese.",
+      "servings_yield": "8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "5-7 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "bulk pork sausage or ground beef",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "refried beans",
+          "quantity": "1",
+          "unit": "16-oz can",
+          "prep_note": ""
+        },
+        {
+          "item": "tortilla chips",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced pitted ripe olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "diced green chili peppers",
+          "quantity": "1",
+          "unit": "4-oz can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook meat, onion, and garlic till meat is brown. Drain. Stir in beans."
+        },
+        {
+          "step": 2,
+          "text": "Arrange half of the chips on each of two 12-inch ovenproof platters."
+        },
+        {
+          "step": 3,
+          "text": "Layer half of the meat-bean mixture, olives, chili peppers, and cheese on each platter."
+        },
+        {
+          "step": 4,
+          "text": "Bake in a 350\u00b0 oven for 5 to 7 minutes or till cheese melts."
+        },
+        {
+          "step": 5,
+          "text": "Serve with avocado dip, dairy sour cream, and salsa, if desired."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "two 12-inch ovenproof platters",
+      "notes": [
+        "Microwave option: cook meat, onion, garlic in 2-quart casserole on high 3-5 minutes. Assemble and microwave on high 2-3 minutes."
+      ],
+      "tags": [
+        "snacks",
+        "mexican",
+        "cheese",
+        "party",
+        "appetizer"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5177 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 308,
+          "fat_g": 16,
+          "protein_g": 14,
+          "carbs_g": 26,
+          "cholesterol_mg": 33,
+          "sodium_mg": 736
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 10)"
+        ]
+      }
+    },
+    {
       "id": "italian-style-popcorn",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
@@ -1371,11 +1494,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 11)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "potato-skins-baked",
@@ -1484,11 +1603,113 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 11)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
+      }
+    },
+    {
+      "id": "stuffed-mushrooms-cheddar",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Stuffed Mushrooms",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Delectable morsels filled with cheddar or blue cheese.",
+      "servings_yield": "24 mushrooms",
+      "prep_time": "20 minutes",
+      "cook_time": "8-10 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "large fresh mushrooms",
+          "quantity": "24",
+          "unit": "",
+          "prep_note": "1 1/2 to 2 inches diameter"
+        },
+        {
+          "item": "sliced green onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "fine dry bread crumbs",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded cheddar or crumbled blue cheese",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "2 ounces"
+        }
       ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash and drain mushrooms. Remove stems. Reserve caps. Chop enough stems to make 1 cup."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan cook stems, onion, and garlic in margarine or butter till tender."
+        },
+        {
+          "step": 3,
+          "text": "Stir in bread crumbs and cheese. Spoon crumb mixture into mushroom caps."
+        },
+        {
+          "step": 4,
+          "text": "Arrange mushrooms in a 15x10x1-inch baking pan. Bake in a 425\u00b0 oven 8 to 10 minutes or till heated through."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "pan_size": "15x10x1-inch baking pan",
+      "notes": [
+        "Spinach-Stuffed: Add 1 cup chopped fresh spinach, 1/4 cup Parmesan, 1/2 tsp marjoram",
+        "Sausage-Stuffed: Omit butter/cheese. Use 2 tbsp crumbs. Cook 1/2 lb Italian sausage with stems. Add 2 tbsp Parmesan.",
+        "Pepperoni-Stuffed: Omit cheese. Add 1/4 cup chopped pepperoni, 1/2 tsp Italian seasoning",
+        "Ham-Stuffed: Use corn bread stuffing mix, omit cheese. Add 1/4 cup ham, 2 tbsp pecans"
+      ],
+      "tags": [
+        "appetizer",
+        "mushrooms",
+        "cheese",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5178 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 40,
+          "fat_g": 3,
+          "protein_g": 2,
+          "carbs_g": 1,
+          "cholesterol_mg": 4,
+          "sodium_mg": 299
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 11)"
+        ]
+      }
     },
     {
       "id": "creamy-dill-dip",
@@ -1667,11 +1888,129 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 12)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
+      }
+    },
+    {
+      "id": "chili-con-queso-dip",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Chili con Queso",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Classic Tex-Mex cheese dip with tomatoes and green chiles.",
+      "servings_yield": "1 3/4 cups (14 servings)",
+      "prep_time": "10 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium tomatoes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "seeded and chopped"
+        },
+        {
+          "item": "diced green chili peppers",
+          "quantity": "1",
+          "unit": "4-oz can",
+          "prep_note": "drained"
+        },
+        {
+          "item": "shredded American cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded Monterey Jack cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "bottled hot pepper sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "tortilla or corn chips",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        }
       ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan cook onion in margarine till tender."
+        },
+        {
+          "step": 2,
+          "text": "Stir in tomatoes and peppers. Simmer, uncovered, 10 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Toss cheeses with cornstarch. Gradually add to saucepan, stirring till melted."
+        },
+        {
+          "step": 4,
+          "text": "Stir in hot sauce. Heat through. Serve with chips."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Microwave option available"
+      ],
+      "tags": [
+        "dip",
+        "mexican",
+        "cheese",
+        "appetizer",
+        "party"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5179 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 75,
+          "fat_g": 6,
+          "protein_g": 4,
+          "carbs_g": 2,
+          "cholesterol_mg": 15,
+          "sodium_mg": 171
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 12)"
+        ]
+      }
     },
     {
       "id": "hot-cheese-dip-beer",
@@ -1794,11 +2133,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 12)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "guacamole-classic",
@@ -1912,9 +2247,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 13)"
         ]
-      },
-      "variant_of": "guacamole-bhg",
-      "variant_note": "Similar recipe with variations"
+      }
     },
     {
       "id": "cheese-and-pesto-spread",
@@ -2491,17 +2824,11 @@
           "protein_g": 0.4,
           "carbs_g": 1.6
         },
-        "missing_inputs": [
-          "Not in database: diced pimiento"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Based on 6/7 ingredients (86% coverage)"
+          "Based on 7/7 ingredients (100% coverage)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "shrimp-cucumber-spread",
@@ -2715,11 +3042,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 15)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "curried-chicken-spread",
@@ -2936,11 +3259,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 15)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "cocktail-meatballs-sauces",
@@ -3163,11 +3482,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 16)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "barbecue-style-chicken-wings",
@@ -3397,11 +3712,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 17)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "cheese-twists-savory",
@@ -3527,9 +3838,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 7)"
         ]
-      },
-      "variant_of": "cheese-twists-bhg",
-      "variant_note": "Similar recipe with variations"
+      }
     },
     {
       "id": "pastry-wrapped-olives",
@@ -3622,11 +3931,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 17)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "egg-rolls-crispy",
@@ -3918,16 +4223,14 @@
       "nutrition": {
         "status": "partial",
         "per_serving": {
-          "calories": 231,
+          "calories": 246,
           "fat_g": 2.5,
-          "protein_g": 40.9,
-          "carbs_g": 6.0
+          "protein_g": 41.8,
+          "carbs_g": 8.9
         },
-        "missing_inputs": [
-          "Not in database: pea pods"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Based on 9/10 ingredients (90% coverage)"
+          "Based on 10/10 ingredients (100% coverage)"
         ]
       }
     },
@@ -4483,6 +4786,90 @@
       }
     },
     {
+      "id": "shrimp-cocktail-classic",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Shrimp Cocktail",
+      "category": "snacks",
+      "attribution": "",
+      "source_note": "Better Homes and Gardens cookbook",
+      "description": "Classic appetizer with chilled shrimp and cocktail sauce.",
+      "servings_yield": "6 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "fresh or frozen peeled shrimp",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "cooked, deveined, and chilled"
+        },
+        {
+          "item": "lettuce",
+          "quantity": "",
+          "unit": "for lining",
+          "prep_note": ""
+        },
+        {
+          "item": "cocktail sauce",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon wedges",
+          "quantity": "",
+          "unit": "for serving",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange shrimp in six lettuce-lined cocktail cups or glasses."
+        },
+        {
+          "step": 2,
+          "text": "Spoon 1 tablespoon of the Cocktail Sauce over each. Serve with lemon."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Fruit Shrimp Cocktail: Add 1 sectioned orange, 1 sectioned grapefruit, and 1 seeded, peeled, sliced avocado.",
+        "Crab Cocktail: Substitute two 6-oz packages frozen crabmeat, thawed, and 2 cups finely chopped celery for the shrimp."
+      ],
+      "tags": [
+        "appetizer",
+        "shrimp",
+        "seafood",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5187 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 111,
+          "fat_g": 5,
+          "protein_g": 13,
+          "carbs_g": 12,
+          "cholesterol_mg": 93,
+          "sodium_mg": 311
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "From Better Homes and Gardens cookbook nutrition analysis (p. 20)"
+        ]
+      }
+    },
+    {
       "id": "salmon-mousse",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
@@ -4952,9 +5339,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 21)"
         ]
-      },
-      "variant_of": "fried-cheese-bhg",
-      "variant_note": "Same ingredients, different quantities"
+      }
     },
     {
       "id": "stuffed-cherry-tomatoes",
@@ -5058,11 +5443,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 21)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "chicken-liver-pate",
@@ -5298,11 +5679,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 22)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "lemon-and-herb-mushrooms",
@@ -5430,11 +5807,7 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 22)"
         ]
-      },
-      "sources": [
-        "mommom-baker"
-      ],
-      "source_notes": "Consolidated from multiple sources: mommom-baker"
+      }
     },
     {
       "id": "melon-and-prosciutto",
@@ -5511,113 +5884,6 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 22)"
         ]
-      }
-    },
-    {
-      "id": "caramel-corn-bhg-2",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Caramel Corn",
-      "category": "snacks",
-      "attribution": "",
-      "source_note": "Better Homes and Gardens cookbook",
-      "description": "This sweet snack is oven-baked for extra crunch.",
-      "servings_yield": "About 9 cups (9 servings)",
-      "prep_time": "",
-      "cook_time": "20 minutes",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "popped popcorn",
-          "quantity": "8",
-          "unit": "cups",
-          "prep_note": "about \u2153 to \u00bd cup unpopped"
-        },
-        {
-          "item": "packed brown sugar",
-          "quantity": "\u00be",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "margarine or butter",
-          "quantity": "\u2153",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "light corn syrup",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "baking soda",
-          "quantity": "\u00bc",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "vanilla",
-          "quantity": "\u00bc",
-          "unit": "tsp",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Remove all unpopped kernels from popped corn. Place popcorn in a greased 17x12x2-inch baking pan. Keep popcorn warm in a 300\u00b0 oven while making caramel mixture."
-        },
-        {
-          "step": 2,
-          "text": "Butter the sides of a heavy 1\u00bd-quart saucepan. In saucepan combine brown sugar, margarine or butter, and corn syrup. Cook and stir over medium heat to boiling. Clip candy thermometer to side of pan."
-        },
-        {
-          "step": 3,
-          "text": "Cook and stir over medium heat to 255\u00b0, hard-ball stage (about 4 minutes)."
-        },
-        {
-          "step": 4,
-          "text": "Remove saucepan from heat. Stir in baking soda and vanilla; pour over popcorn. Stir gently to coat."
-        },
-        {
-          "step": 5,
-          "text": "Bake in a 300\u00b0 oven for 15 minutes; stir. Bake 5 minutes more."
-        },
-        {
-          "step": 6,
-          "text": "Transfer popcorn mixture to a large piece of foil; cool completely. Break into clusters. Store tightly covered."
-        }
-      ],
-      "temperature": "300\u00b0F",
-      "pan_size": "17x12x2-inch baking pan",
-      "notes": [
-        "Nutty Caramel Corn: Prepare as above, except add 1\u00bd cups peanuts, walnut halves, cashews, or pecan halves to caramel-coated corn before baking. Toss gently. Makes about 10\u00bd cups (10 servings)."
-      ],
-      "tags": [
-        "snack",
-        "dessert",
-        "popcorn",
-        "caramel"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 169,
-          "fat_g": 7,
-          "protein_g": 1,
-          "carbs_g": 27,
-          "cholesterol_mg": 42,
-          "sodium_mg": 4
-        },
-        "source": "Better Homes and Gardens cookbook nutrition analysis",
-        "assumptions": []
       }
     },
     {
@@ -5721,83 +5987,60 @@
       }
     },
     {
-      "id": "people-chow-mommom",
+      "id": "people-chow",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "People Chow",
       "category": "snacks",
       "attribution": "Janice Jones",
-      "source_note": "Community cookbook",
-      "description": "Addictive chocolate-peanut butter coated cereal snack also known as Muddy Buddies.",
-      "servings_yield": "",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
+      "source_note": "Family recipe insert",
       "ingredients": [
         {
-          "item": "chocolate or butterscotch chips",
+          "item": "chocolate or butterscotch chips (or 1/2 cup each)",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": "or 1/2 cup each"
+          "unit": "cup"
         },
         {
           "item": "butter",
           "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
           "item": "peanut butter",
           "quantity": "3/4",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
           "item": "Rice Chex",
-          "quantity": "8-9",
-          "unit": "cups",
-          "prep_note": ""
+          "quantity": "8 to 9",
+          "unit": "cups"
         },
         {
           "item": "powdered sugar",
           "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
+          "unit": "cups"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "In large bowl with lid, pour in Rice Chex."
-        },
-        {
-          "step": 2,
-          "text": "Melt chips, butter, and peanut butter. Pour melted mixture over Rice Chex."
-        },
-        {
-          "step": 3,
-          "text": "Mix carefully so you don't break Rice Chex."
-        },
-        {
-          "step": 4,
-          "text": "Pour in powdered sugar. Cover container with lid and shake until coated."
+          "text": "In large bowl with lid, pour in Rice Chex. Melt chips, butter, and peanut butter. Pour melted mixture over Rice Chex. Mix carefully so you don't break Rice Chex. Pour in powdered sugar. Cover container with lid and shake until coated."
         }
       ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [],
       "tags": [
-        "snack",
+        "snacks",
         "chocolate",
-        "peanut-butter",
+        "peanut butter",
         "cereal",
-        "no-bake"
+        "family recipe"
       ],
       "confidence": {
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5291 Large.jpeg"
+      ],
       "nutrition": {
         "status": "partial",
         "per_serving": {
@@ -5812,218 +6055,6 @@
           "Based on 5/5 ingredients (100% coverage)"
         ]
       }
-    },
-    {
-      "id": "deviled-eggs-bhg-2",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Deviled Eggs",
-      "category": "snacks",
-      "source_note": "Better Homes and Gardens cookbook",
-      "description": "Four different flavors to choose from.",
-      "servings_yield": "Makes 12 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "hard-cooked eggs",
-          "quantity": "6",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "mayonnaise or salad dressing",
-          "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "prepared mustard",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "vinegar",
-          "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "paprika or parsley sprigs",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "optional"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Halve hard-cooked eggs lengthwise and remove yolks. Place yolks in a bowl; mash with a fork."
-        },
-        {
-          "step": 2,
-          "text": "Add mayonnaise, mustard, and vinegar; mix well. Season with salt and pepper, if desired."
-        },
-        {
-          "step": 3,
-          "text": "Stuff egg white halves with yolk mixture. Garnish with paprika or parsley, if desired."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "",
-      "notes": [
-        "Italian-Style Deviled Eggs: Prepare as above, except omit mayonnaise, mustard, and vinegar. Add 1/4 cup creamy Italian salad dressing and 2 tablespoons grated Parmesan cheese to mashed yolks; mix well.",
-        "Indian-Style Deviled Eggs: Prepare as above, except omit mustard and vinegar. Add 1/4 cup finely chopped peanuts and 1/2 teaspoon curry powder to yolk mixture; mix well.",
-        "Mexican-Style Deviled Eggs: Prepare as above, except omit mustard and vinegar. Add 2 tablespoons canned diced green chili peppers, 1 tablespoon chopped pitted ripe olives, 1/2 teaspoon chili powder, and 1/8 teaspoon ground red pepper to yolk mixture; mix well. Garnish with sliced pitted ripe olives or cilantro and serve with salsa, if desired."
-      ],
-      "tags": [
-        "appetizer",
-        "eggs",
-        "deviled",
-        "party-food"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 73,
-          "fat_g": 6,
-          "protein_g": 3,
-          "carbs_g": 1,
-          "cholesterol_mg": 66,
-          "sodium_mg": 140
-        },
-        "source": "Better Homes and Gardens cookbook nutrition analysis",
-        "assumptions": []
-      },
-      "variant_of": "deviled-eggs-bhg",
-      "variant_note": "Same ingredients, different quantities"
-    },
-    {
-      "id": "cheese-fondue-bhg-2",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Cheese Fondue",
-      "category": "snacks",
-      "attribution": "",
-      "source_note": "Better Homes and Gardens cookbook",
-      "description": "Also makes a great appetizer.",
-      "servings_yield": "Makes 5 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "coarsely shredded Gruy\u00e8re or Swiss cheese",
-          "quantity": "3",
-          "unit": "cups",
-          "prep_note": "12 ounces"
-        },
-        {
-          "item": "all-purpose flour",
-          "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "garlic",
-          "quantity": "1",
-          "unit": "clove",
-          "prep_note": "halved"
-        },
-        {
-          "item": "dry white wine",
-          "quantity": "1-1/2",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "kirsch or dry sherry",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "ground nutmeg",
-          "quantity": "1",
-          "unit": "dash",
-          "prep_note": ""
-        },
-        {
-          "item": "pepper",
-          "quantity": "1",
-          "unit": "dash",
-          "prep_note": ""
-        },
-        {
-          "item": "cubed French or Italian bread or raw vegetables",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "for dipping"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Bring shredded cheese to room temperature. Toss flour with cheese; set aside."
-        },
-        {
-          "step": 2,
-          "text": "Rub inside of a fondue pot with garlic halves; discard garlic. Set pot aside."
-        },
-        {
-          "step": 3,
-          "text": "In medium saucepan heat wine over medium heat till small bubbles rise to surface. Just before wine boils, reduce heat to low and stir in cheese mixture, a little at a time, stirring constantly and making sure cheese melts before adding more. Stir till mixture bubbles gently."
-        },
-        {
-          "step": 4,
-          "text": "Stir in kirsch or sherry, nutmeg, and pepper."
-        },
-        {
-          "step": 5,
-          "text": "Transfer cheese mixture to the fondue pot; keep mixture bubbling gently over a fondue burner. Serve with bread cubes or raw vegetables."
-        }
-      ],
-      "temperature": "",
-      "pan_size": "fondue pot",
-      "notes": [
-        "Onion-Cheese Fondue: Prepare as above, except stir 1/2 cup sliced green onion and 1/2 cup shredded carrot into the cheese mixture with the kirsch or sherry.",
-        "For a milder flavor, substitute 1/4 cup chicken broth or water for 1/4 cup of the wine."
-      ],
-      "tags": [
-        "appetizer",
-        "fondue",
-        "cheese",
-        "fast",
-        "swiss",
-        "party"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 359,
-          "fat_g": 22,
-          "protein_g": 21,
-          "carbs_g": 2,
-          "cholesterol_mg": 228,
-          "sodium_mg": 75
-        },
-        "source": "Better Homes and Gardens cookbook nutrition analysis",
-        "assumptions": []
-      },
-      "variant_of": "cheese-fondue-bhg",
-      "variant_note": "Similar recipe with variations"
     },
     {
       "id": "creamy-cheese-fondue",
@@ -6304,76 +6335,381 @@
       }
     },
     {
-      "id": "people-chow-mommom-2",
+      "id": "peanut-butter-popcorn-fbc",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
-      "title": "People Chow",
+      "title": "Peanut Butter Popcorn",
       "category": "snacks",
-      "attribution": "Janice Jones",
-      "source_note": "Family recipe insert",
+      "attribution": "F.B.C. of Jasmine Lakes Cookbook",
+      "source_note": "FBC Jasmine Cook Book page 160",
       "ingredients": [
         {
-          "item": "chocolate or butterscotch chips (or 1/2 cup each)",
-          "quantity": "1",
-          "unit": "cup"
+          "item": "chunky peanut butter",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
         },
         {
           "item": "butter",
-          "quantity": "1/2",
-          "unit": "cup"
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
         },
         {
-          "item": "peanut butter",
-          "quantity": "3/4",
-          "unit": "cup"
-        },
-        {
-          "item": "Rice Chex",
-          "quantity": "8 to 9",
-          "unit": "cups"
-        },
-        {
-          "item": "powdered sugar",
-          "quantity": "2",
-          "unit": "cups"
+          "item": "popcorn kernels",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "popped"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "In large bowl with lid, pour in Rice Chex. Melt chips, butter, and peanut butter. Pour melted mixture over Rice Chex. Mix carefully so you don't break Rice Chex. Pour in powdered sugar. Cover container with lid and shake until coated."
+          "text": "Melt the butter over low heat and mix in the peanut butter."
+        },
+        {
+          "step": 2,
+          "text": "Then use a big spoon to drizzle it over the popcorn."
         }
       ],
+      "notes": [],
       "tags": [
-        "snacks",
-        "chocolate",
+        "popcorn",
         "peanut butter",
-        "cereal",
-        "family recipe"
+        "snack"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5830 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "nuts-n-bolts-fbc-jasmine",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Nuts 'N' Bolts",
+      "category": "snacks",
+      "attribution": "F.B.C. of Jasmine Lakes Cookbook",
+      "source_note": "Church cookbook page 218",
+      "ingredients": [
+        {
+          "item": "oleo",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Karo syrup",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Spanish peanuts",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": "or other nuts"
+        },
+        {
+          "item": "pretzels",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a 3-quart microwave container (preferably not glass), combine sugars and Karo."
+        },
+        {
+          "step": 2,
+          "text": "Cover and microwave on high for 3 minutes, stir well."
+        },
+        {
+          "step": 3,
+          "text": "Microwave 2 to 3 minutes more, or until it boils."
+        },
+        {
+          "step": 4,
+          "text": "Stir in vanilla, pretzels and peanuts until mixture coats."
+        },
+        {
+          "step": 5,
+          "text": "Spread on wax paper."
+        },
+        {
+          "step": 6,
+          "text": "Let stand until firm. Store in airtight container."
+        }
+      ],
+      "notes": [
+        "Other nuts can be substituted for Spanish peanuts"
+      ],
+      "tags": [
+        "snack",
+        "candy",
+        "nuts",
+        "microwave",
+        "party food"
+      ],
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/processed/IMG_5895 Medium.jpeg"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "roasted-ginkgo-nuts-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Roasted Ginkgo Nuts",
+      "category": "snacks",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Traditional roasted ginkgo nuts for snacking or adding to dishes.",
+      "ingredients": [
+        {
+          "item": "cleaned ginkgo seeds",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Roast cleaned seeds at 350\u00b0F for one hour."
+        },
+        {
+          "step": 2,
+          "text": "Crush seeds between towels while tapping gently with a hammer."
+        },
+        {
+          "step": 3,
+          "text": "Shell and serve."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Ginkgo nuts can be used in soups, stuffings, desserts, meat dishes, poultry dishes and vegetarian dishes"
+      ],
+      "tags": [
+        "ginkgo",
+        "nuts",
+        "roasted",
+        "snacks",
+        "foraging",
+        "eat the weeds"
       ],
       "confidence": {
         "overall": "high",
         "flags": []
       },
-      "image_refs": [
-        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5291 Large.jpeg"
-      ],
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 357,
-          "fat_g": 3.0,
-          "protein_g": 4.6,
-          "carbs_g": 77.2
+      "image_refs": []
+    },
+    {
+      "id": "boiled-ginkgo-nuts-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Boiled Ginkgo Nuts",
+      "category": "snacks",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Simple boiled ginkgo nuts as a snack.",
+      "ingredients": [
+        {
+          "item": "raw ginkgo seeds",
+          "quantity": "",
+          "unit": ""
         },
-        "missing_inputs": [],
-        "assumptions": [
-          "Estimated 8 servings based on total calories",
-          "Based on 5/5 ingredients (100% coverage)"
-        ]
+        {
+          "item": "salted water",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Crack seeds raw using a nutcracker."
+        },
+        {
+          "step": 2,
+          "text": "Boil seeds in salty water until tender."
+        },
+        {
+          "step": 3,
+          "text": "Rub with a ladle to remove the brown membrane."
+        },
+        {
+          "step": 4,
+          "text": "Salt and serve."
+        }
+      ],
+      "tags": [
+        "ginkgo",
+        "nuts",
+        "boiled",
+        "snacks",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
       },
-      "variant_of": "people-chow-mommom",
-      "variant_note": "Same ingredients, different quantities"
+      "image_refs": []
+    },
+    {
+      "id": "toasted-sea-lettuce-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Toasted Sea Lettuce",
+      "category": "snacks",
+      "attribution": "Eat the Weeds - Green Deane",
+      "source_note": "Wild foraging recipe from eattheweeds.com",
+      "description": "Crispy toasted sea lettuce with sesame, similar to Korean nori.",
+      "ingredients": [
+        {
+          "item": "ulva (sea lettuce) sheets",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sesame oil",
+          "quantity": "1.5",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix salt and sesame oil, rubbing thinly onto the sea lettuce."
+        },
+        {
+          "step": 2,
+          "text": "Stack 6 sheets and roll; marinate 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Unroll and cook each sheet separately in a hot pan over low heat until crisp."
+        },
+        {
+          "step": 4,
+          "text": "Cut into pieces and serve with hot rice."
+        }
+      ],
+      "notes": [
+        "Refrigerate 2-3 days or freeze for six months",
+        "Can also toast over charcoal"
+      ],
+      "tags": [
+        "seaweed",
+        "ulva",
+        "sea lettuce",
+        "toasted",
+        "snacks",
+        "foraging",
+        "eat the weeds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "popped-wild-rice-maple-etw",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Popped Wild Rice with Maple Sugar",
+      "category": "snacks",
+      "attribution": "Eat the Weeds",
+      "source_note": "From eattheweeds.com - Wild Rice article",
+      "description": "Traditional Ojibwa preparation of popped wild rice.",
+      "servings_yield": "varies",
+      "prep_time": "5 minutes",
+      "cook_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "wild rice grains",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "parched/dried"
+        },
+        {
+          "item": "maple sugar or syrup solids",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat a dry pan."
+        },
+        {
+          "step": 2,
+          "text": "Add parched wild rice grains."
+        },
+        {
+          "step": 3,
+          "text": "Pop like popcorn, stirring constantly."
+        },
+        {
+          "step": 4,
+          "text": "Mix with maple sugar or leftover maple syrup solids."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Harvest mid-August to mid-September when plants still green",
+        "Sun dry at least 2 days before parching",
+        "Hull immediately after parching or grains reabsorb moisture",
+        "Keep away from sand"
+      ],
+      "tags": [
+        "wild rice",
+        "popped",
+        "maple",
+        "native american",
+        "foraged",
+        "snack"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ]
 }
