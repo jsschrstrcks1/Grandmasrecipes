@@ -40,8 +40,23 @@ LOW_TEMP_CATEGORIES = ['cheese', 'dairy', 'candy']  # Cheese making: 85-195°F, 
 
 # Keywords in title/description that indicate low-temp cooking is normal
 LOW_TEMP_KEYWORDS = [
-    # Cheese making
-    'cheese', 'curd', 'whey', 'rennet', 'anari', 'ricotta', 'paneer', 'halloumi',
+    # Cheese making - generic
+    'cheese', 'curd', 'whey', 'rennet', 'cultures', 'culture',
+    # Cheese making - specific varieties
+    'anari', 'ricotta', 'paneer', 'halloumi', 'mascarpone', 'mozzarella',
+    'fromage', 'queso', 'feta', 'brie', 'camembert', 'cheddar', 'gouda',
+    'gruyere', 'emmental', 'parmesan', 'romano', 'asiago', 'provolone',
+    'burrata', 'stracciatella', 'scamorza', 'caciocavallo',
+    # Eastern European cheeses
+    'tvorog', 'twarog', 'tvaruzky', 'olomouc', 'quark', 'sirene', 'brynza', 'bryndza',
+    # Mediterranean/Middle Eastern
+    'labneh', 'jibneh', 'akkawi', 'nabulsi', 'shanklish',
+    # African/Asian
+    'ayib', 'aaruul', 'chhena', 'chhurpi', 'panir',
+    # Iberian
+    'manchego', 'cabrales', 'torta', 'azeitao', 'serra',
+    # Other dairy
+    'creme', 'fraiche', 'sour cream', 'buttermilk', 'clabber', 'cream', 'crepe',
     # Dehydrating/drying
     'jerky', 'dehydrat', 'dried', 'drying',
     # Proofing/fermentation/rising
@@ -60,7 +75,9 @@ LOW_TEMP_KEYWORDS = [
     # Infusing oils/flavors
     'infuse', 'infused', 'flavored oil', 'nut oil',
     # Pretzel (dipping in lye solution is low temp)
-    'pretzel'
+    'pretzel',
+    # Traditional recipes often involve artisan temps
+    'traditional-', 'homemade-'
 ]
 
 VALID_CONFIDENCE = ['high', 'medium', 'low']
@@ -75,9 +92,9 @@ SANITY_LIMITS = {
     'baking powder': {'max_tbsp': 4},
 }
 
-# Higher salt limits for marinades, brines, and large-batch recipes
-MARINADE_BRINE_KEYWORDS = ['marinade', 'brine', 'basting', 'mop sauce', 'injection', 'pickle', 'jerky', 'cure', 'cured']
-MARINADE_SALT_LIMITS = {'max_cups': 1, 'max_tbsp': 8, 'max_tsp': 24}
+# Higher salt limits for marinades, brines, cheese making, and large-batch recipes
+MARINADE_BRINE_KEYWORDS = ['marinade', 'brine', 'basting', 'mop sauce', 'injection', 'pickle', 'jerky', 'cure', 'cured', 'cheese', 'feta', 'gouda', 'havarti']
+MARINADE_SALT_LIMITS = {'max_cups': 2, 'max_tbsp': 16, 'max_tsp': 48}  # Cheese brines need 1.5+ cups
 
 # Higher sugar limits for preserves, canning, and jams
 PRESERVE_KEYWORDS = ['preserve', 'jam', 'jelly', 'marmalade', 'canning', 'pickle', 'chutney', 'conserve']
@@ -85,7 +102,7 @@ PRESERVE_SUGAR_LIMITS = {'max_cups': 10}
 
 # Temperature sanity (Fahrenheit)
 TEMP_MIN = 200  # Standard baking/roasting minimum
-TEMP_MIN_LOW = 85  # Cheese making, candy, etc.
+TEMP_MIN_LOW = 50  # Cheese aging (caves 50-55°F), cheese making (85-195°F)
 TEMP_MAX = 550
 
 
