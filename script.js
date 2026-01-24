@@ -123,6 +123,9 @@ let currentRecipeNutrition = null; // Original nutrition to calculate adjustment
 // Kitchen tips state
 let kitchenTipsData = null;
 
+// Health considerations state
+let healthConsiderationsData = null;
+
 // Pagefind search state
 let pagefind = null;
 let pagefindLoading = null;
@@ -765,6 +768,147 @@ async function loadKitchenTips() {
   })();
 
   return kitchenTipsLoading;
+}
+
+// Health considerations loading state
+let healthConsiderationsLoading = null;
+
+/**
+ * Load health considerations data (lazy loaded when viewing a recipe)
+ */
+async function loadHealthConsiderations() {
+  // Return if already loaded
+  if (healthConsiderationsData) return healthConsiderationsData;
+
+  // Return existing promise if already loading
+  if (healthConsiderationsLoading) return healthConsiderationsLoading;
+
+  // Start loading
+  healthConsiderationsLoading = (async () => {
+    try {
+      const response = await fetch('data/health-considerations.json');
+      healthConsiderationsData = await response.json();
+      console.log(`Loaded health considerations: ${healthConsiderationsData.meta.total_flagged_ingredients} ingredients, ${healthConsiderationsData.meta.concern_categories} categories`);
+      return healthConsiderationsData;
+    } catch (error) {
+      console.error('Failed to load health considerations:', error);
+      // Non-fatal - health panel just won't show
+      return null;
+    }
+  })();
+
+  return healthConsiderationsLoading;
+}
+
+/**
+ * Analyze recipe ingredients for health concerns
+ * @param {Object} recipe - The recipe to analyze
+ * @returns {Array} - Array of warnings sorted by severity
+ */
+async function analyzeRecipeHealth(recipe) {
+  const db = await loadHealthConsiderations();
+  if (!db || !recipe.ingredients) return [];
+
+  const warnings = new Map(); // concernId -> { concern, ingredients: [] }
+
+  for (const ingredient of recipe.ingredients) {
+    // Get the ingredient name (handle both string and object formats)
+    let ingText = '';
+    if (typeof ingredient === 'string') {
+      ingText = ingredient.toLowerCase();
+    } else if (ingredient.item) {
+      ingText = ingredient.item.toLowerCase();
+    } else {
+      continue;
+    }
+
+    // Check if this ingredient (or parts of it) has any health concerns
+    // Try exact match first, then partial match
+    let concerns = db.ingredients[ingText];
+
+    if (!concerns) {
+      // Try partial match - check if any flagged ingredient is contained in this one
+      for (const [flaggedIng, flaggedConcerns] of Object.entries(db.ingredients)) {
+        if (ingText.includes(flaggedIng) || flaggedIng.includes(ingText)) {
+          concerns = flaggedConcerns;
+          break;
+        }
+      }
+    }
+
+    if (concerns) {
+      for (const concernId of concerns) {
+        if (!warnings.has(concernId)) {
+          warnings.set(concernId, {
+            concern: db.concerns[concernId],
+            concernId: concernId,
+            ingredients: []
+          });
+        }
+        // Add the original ingredient name (not lowercased)
+        const displayName = typeof ingredient === 'string' ? ingredient : ingredient.item;
+        if (!warnings.get(concernId).ingredients.includes(displayName)) {
+          warnings.get(concernId).ingredients.push(displayName);
+        }
+      }
+    }
+  }
+
+  // Sort by severity: critical > high > allergen > moderate > info
+  const severityOrder = { critical: 0, high: 1, allergen: 2, moderate: 3, info: 4 };
+  return Array.from(warnings.values())
+    .sort((a, b) => severityOrder[a.concern.severity] - severityOrder[b.concern.severity]);
+}
+
+/**
+ * Render health considerations panel HTML
+ * @param {Array} warnings - Array of health warnings
+ * @returns {string} - HTML string for the health panel
+ */
+function renderHealthPanel(warnings) {
+  if (!warnings || warnings.length === 0) {
+    return '';
+  }
+
+  const warningsHtml = warnings.map(warning => {
+    const severityClass = warning.concern.severity;
+    const title = warning.concern.title;
+    const description = escapeHtml(warning.concern.description);
+    const ingredients = warning.ingredients.map(i => escapeHtml(i)).join(', ');
+    const medications = warning.concern.medications && warning.concern.medications.length > 0
+      ? `<p class="health-medications"><em>Medications affected:</em> ${warning.concern.medications.map(m => escapeHtml(m)).join(', ')}</p>`
+      : '';
+
+    return `
+      <div class="health-warning ${severityClass}">
+        <h4>${severityClass === 'critical' ? '⚠️ ' : ''}${escapeHtml(title)}</h4>
+        <p><strong>Ingredients:</strong> ${ingredients}</p>
+        <p>${description}</p>
+        ${medications}
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <details class="health-considerations">
+      <summary class="health-header">
+        <span class="health-icon">⚕️</span>
+        <span class="health-title">Health Considerations</span>
+        <span class="health-count">(${warnings.length} items)</span>
+        <span class="chevron">▶</span>
+      </summary>
+      <div class="health-content">
+        ${warningsHtml}
+        <p class="health-disclaimer">
+          <strong>Medical Disclaimer:</strong> This information is for general
+          awareness only and is NOT medical advice. Always consult your doctor,
+          pharmacist, or registered dietitian before making dietary changes,
+          especially if you have medical conditions or take medications.
+          Food-drug interactions can be serious or life-threatening.
+        </p>
+      </div>
+    </details>
+  `;
 }
 
 /**
@@ -4530,7 +4674,7 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
   const recipe = await loadFullRecipe(recipeId);
 
   // Load kitchen tips and substitutions lazily when viewing a recipe
-  await Promise.all([loadKitchenTips(), loadSubstitutions()]);
+  await Promise.all([loadKitchenTips(), loadSubstitutions(), loadHealthConsiderations()]);
 
   if (!recipe) {
     container.innerHTML = `
@@ -4545,6 +4689,9 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
 
   // Find variants of this recipe
   const variants = findVariants(recipe);
+
+  // Analyze health considerations
+  const healthWarnings = await analyzeRecipeHealth(recipe);
 
   // Update page title
   document.title = `${recipe.title} - Grandma's Recipe Archive`;
@@ -4583,6 +4730,9 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
         <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}${recipeScale !== 1 ? `<span class="scale-badge">${recipeScale}×</span>` : ''}</h2>
         ${renderIngredientsList(recipe)}
       </section>
+
+      <!-- Health Considerations Panel -->
+      ${renderHealthPanel(healthWarnings)}
 
       <!-- Milk Substitution Calculator (for cheesemaking recipes) -->
       <div id="milk-substitution-container"></div>

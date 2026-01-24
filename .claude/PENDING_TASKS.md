@@ -1039,139 +1039,357 @@ ACE inhibitors (lisinopril, enalapril, etc.) and ARBs cause potassium retention.
 
 **Warning Text:** "You've indicated allergies to [X]. This recipe contains [ingredient] which is/contains [allergen]. Additionally, [related ingredient] may contain traces of [allergen]. Please verify all ingredients and consider cross-contamination risks."
 
-### Implementation Requirements
+### Implementation: Collapsible Health Considerations Section
+
+**NO USER ACCOUNTS REQUIRED** - Instead, display a collapsible "Health Considerations" section on any recipe that contains flagged ingredients. The section starts **closed by default** and users can expand it to view relevant warnings.
+
+#### Data File Created
+
+✅ **`data/health-considerations.json`** - Comprehensive database with:
+- **6,369 flagged ingredients** (of 10,980 total)
+- **28 health concern categories**
+- Severity levels: `critical`, `high`, `moderate`, `allergen`, `info`
+
+**Categories include:**
+| Category | Ingredients Flagged | Severity |
+|----------|---------------------|----------|
+| High Phosphorus (Kidney Disease) | 1,464 | moderate |
+| Milk/Dairy Allergen | 1,332 | allergen |
+| High FODMAP Content | 1,325 | info |
+| Calcium/Antibiotic Interaction | 1,106 | moderate |
+| Vitamin K (Warfarin) | 951 | high |
+| High Histamine Content | 920 | info |
+| Wheat/Gluten Allergen | 875 | allergen |
+| High Potassium (ACE Inhibitors) | 796 | moderate |
+| High Sodium (Kidney/Heart) | 778 | moderate |
+| Tyramine (MAOI) | 708 | **critical** |
+| High Glycemic Index | 677 | moderate |
+| Egg Allergen | 266 | allergen |
+| Goitrogen (Thyroid) | 248 | info |
+| Contains Alcohol | 232 | info |
+| Contains Caffeine | 206 | info |
+| Tree Nut Allergen | 180 | allergen |
+| Fish Allergen | 164 | allergen |
+| Shellfish Allergen | 69 | allergen |
+| Peanut Allergen | 43 | allergen |
+| Unpasteurized (Immunocompromised) | 40 | high |
+| Soy Allergen | 39 | allergen |
+| Sesame Allergen | 37 | allergen |
+| Raw Seafood (Immunocompromised) | 13 | high |
+| Raw Sprouts (Immunocompromised) | 11 | moderate |
+| Grapefruit (CYP3A4) | 9 | high |
+| Raw Eggs (Immunocompromised) | 8 | high |
+| Raw Meat (Immunocompromised) | 1 | high |
+
+#### UI Design: Collapsible Health Considerations
+
+```html
+<!-- On recipe.html, after ingredients section -->
+<details class="health-considerations" id="health-panel">
+  <summary class="health-header">
+    <span class="health-icon">⚕️</span>
+    <span class="health-title">Health Considerations</span>
+    <span class="health-count">(5 items)</span>
+    <span class="chevron">▶</span>
+  </summary>
+
+  <div class="health-content">
+    <!-- Critical warnings first (red) -->
+    <div class="health-warning critical">
+      <h4>⚠️ MAOI Drug Interaction - CRITICAL</h4>
+      <p><strong>Ingredients:</strong> aged parmesan cheese, soy sauce</p>
+      <p>CRITICAL: Tyramine can cause dangerous blood pressure spikes with MAOI medications. This interaction can be fatal.</p>
+      <p><em>Medications affected:</em> phenelzine (Nardil), tranylcypromine (Parnate)</p>
+    </div>
+
+    <!-- High severity (orange) -->
+    <div class="health-warning high">
+      <h4>Vitamin K Content (Warfarin Interaction)</h4>
+      <p><strong>Ingredients:</strong> spinach, broccoli, olive oil</p>
+      <p>High vitamin K content may reduce warfarin effectiveness. Maintain consistent intake if on blood thinners.</p>
+    </div>
+
+    <!-- Allergen warnings (yellow) -->
+    <div class="health-warning allergen">
+      <h4>Contains Milk/Dairy</h4>
+      <p><strong>Ingredients:</strong> butter, parmesan cheese, cream</p>
+      <p>Contains milk or dairy products. One of the top 9 allergens.</p>
+    </div>
+
+    <!-- Moderate/Info (blue/gray) -->
+    <div class="health-warning moderate">
+      <h4>High Sodium (Kidney/Heart Disease)</h4>
+      <p><strong>Ingredients:</strong> soy sauce, parmesan cheese</p>
+      <p>May contain high sodium. People with kidney or heart disease should limit sodium.</p>
+    </div>
+  </div>
+</details>
+```
+
+#### CSS Styling
+
+```css
+/* Health Considerations Panel */
+.health-considerations {
+  margin: 1rem 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.health-considerations[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.health-header {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  user-select: none;
+}
+
+.health-header:hover {
+  background: #f0f0f0;
+}
+
+.health-count {
+  color: #666;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.chevron {
+  margin-left: auto;
+  transition: transform 0.2s;
+}
+
+.health-content {
+  padding: 0 1rem 1rem;
+}
+
+/* Warning severity levels */
+.health-warning {
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+.health-warning.critical {
+  background: #fee2e2;
+  border-color: #dc2626;
+}
+
+.health-warning.critical h4 {
+  color: #dc2626;
+}
+
+.health-warning.high {
+  background: #ffedd5;
+  border-color: #ea580c;
+}
+
+.health-warning.high h4 {
+  color: #ea580c;
+}
+
+.health-warning.allergen {
+  background: #fef3c7;
+  border-color: #d97706;
+}
+
+.health-warning.allergen h4 {
+  color: #d97706;
+}
+
+.health-warning.moderate {
+  background: #dbeafe;
+  border-color: #2563eb;
+}
+
+.health-warning.moderate h4 {
+  color: #2563eb;
+}
+
+.health-warning.info {
+  background: #f3f4f6;
+  border-color: #6b7280;
+}
+
+.health-warning.info h4 {
+  color: #6b7280;
+}
+
+.health-warning h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.health-warning p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+```
+
+#### JavaScript Implementation
 
 ```javascript
-class HealthSafeguards {
-  constructor(userProfile) {
-    this.medications = userProfile.medications || [];
-    this.conditions = userProfile.conditions || []; // ['CKD_stage_3', 'pregnant', 'immunocompromised']
-    this.allergies = userProfile.allergies || [];
+// Load health considerations database
+let healthConsiderations = null;
+
+async function loadHealthConsiderations() {
+  if (!healthConsiderations) {
+    const response = await fetch('data/health-considerations.json');
+    healthConsiderations = await response.json();
   }
+  return healthConsiderations;
+}
 
-  analyzeRecipe(recipe) {
-    const warnings = [];
+// Analyze recipe ingredients for health concerns
+async function analyzeRecipeHealth(recipe) {
+  const db = await loadHealthConsiderations();
+  const warnings = new Map(); // concernId -> { concern, ingredients: [] }
 
-    // Check drug-food interactions
-    warnings.push(...this.checkDrugInteractions(recipe));
+  for (const ingredient of recipe.ingredients) {
+    const ingText = ingredient.item?.toLowerCase() || ingredient.toLowerCase();
 
-    // Check condition-specific restrictions
-    warnings.push(...this.checkConditionRestrictions(recipe));
-
-    // Check allergens
-    warnings.push(...this.checkAllergens(recipe));
-
-    // Check food safety for vulnerable populations
-    warnings.push(...this.checkFoodSafety(recipe));
-
-    return {
-      warnings: warnings,
-      riskLevel: this.calculateOverallRisk(warnings),
-      canProceed: !warnings.some(w => w.level === 'critical'),
-      substitutionSuggestions: this.getSafeSubstitutions(warnings)
-    };
-  }
-
-  checkDrugInteractions(recipe) {
-    const interactions = [];
-
-    // Warfarin + Vitamin K
-    if (this.medications.includes('warfarin')) {
-      const vitKContent = this.calculateVitaminK(recipe);
-      if (vitKContent > 50) { // mcg per serving
-        interactions.push({
-          level: 'high',
-          type: 'drug_interaction',
-          drug: 'warfarin',
-          nutrient: 'vitamin_k',
-          amount: vitKContent,
-          message: `High Vitamin K content (${vitKContent}mcg). Maintain consistent intake.`,
-          ingredients: this.getVitKIngredients(recipe)
-        });
+    // Check if this ingredient has any health concerns
+    const concerns = db.ingredients[ingText];
+    if (concerns) {
+      for (const concernId of concerns) {
+        if (!warnings.has(concernId)) {
+          warnings.set(concernId, {
+            concern: db.concerns[concernId],
+            concernId: concernId,
+            ingredients: []
+          });
+        }
+        warnings.get(concernId).ingredients.push(ingText);
       }
     }
+  }
 
-    // MAOIs + Tyramine
-    if (this.medications.some(m => MAOI_DRUGS.includes(m))) {
-      const tyramineIngredients = this.findTyramineIngredients(recipe);
-      if (tyramineIngredients.length > 0) {
-        interactions.push({
-          level: 'critical', // LIFE THREATENING
-          type: 'drug_interaction',
-          drug: 'MAOI',
-          nutrient: 'tyramine',
-          message: '⚠️ DANGER: Contains tyramine-rich foods. Risk of hypertensive crisis.',
-          ingredients: tyramineIngredients,
-          mustAvoid: true
-        });
-      }
+  // Sort by severity: critical > high > allergen > moderate > info
+  const severityOrder = { critical: 0, high: 1, allergen: 2, moderate: 3, info: 4 };
+  return Array.from(warnings.values())
+    .sort((a, b) => severityOrder[a.concern.severity] - severityOrder[b.concern.severity]);
+}
+
+// Render health considerations panel
+function renderHealthPanel(warnings, container) {
+  if (warnings.length === 0) {
+    container.style.display = 'none';
+    return;
+  }
+
+  const details = document.createElement('details');
+  details.className = 'health-considerations';
+
+  // Summary (always visible)
+  const summary = document.createElement('summary');
+  summary.className = 'health-header';
+  summary.innerHTML = `
+    <span class="health-icon">⚕️</span>
+    <span class="health-title">Health Considerations</span>
+    <span class="health-count">(${warnings.length} items)</span>
+    <span class="chevron">▶</span>
+  `;
+  details.appendChild(summary);
+
+  // Content (hidden by default)
+  const content = document.createElement('div');
+  content.className = 'health-content';
+
+  for (const warning of warnings) {
+    const div = document.createElement('div');
+    div.className = `health-warning ${warning.concern.severity}`;
+
+    let html = `<h4>${warning.concern.title}</h4>`;
+    html += `<p><strong>Ingredients:</strong> ${warning.ingredients.join(', ')}</p>`;
+    html += `<p>${warning.concern.description}</p>`;
+
+    if (warning.concern.medications && warning.concern.medications.length > 0) {
+      html += `<p><em>Medications affected:</em> ${warning.concern.medications.join(', ')}</p>`;
     }
 
-    return interactions;
+    div.innerHTML = html;
+    content.appendChild(div);
+  }
+
+  details.appendChild(content);
+  container.appendChild(details);
+}
+
+// Usage in recipe page
+async function displayRecipe(recipe) {
+  // ... existing recipe display code ...
+
+  // Add health considerations panel
+  const healthContainer = document.getElementById('health-container');
+  const warnings = await analyzeRecipeHealth(recipe);
+  renderHealthPanel(warnings, healthContainer);
+}
+```
+
+#### Integration Points
+
+1. **recipe.html**: Add `<div id="health-container"></div>` after ingredients
+2. **script.js**: Call `analyzeRecipeHealth()` when displaying recipe
+3. **styles.css**: Add health panel CSS
+4. **Service Worker**: Cache `health-considerations.json` for offline use
+
+#### Data Structure: health-considerations.json
+
+```json
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Health considerations for recipe ingredients",
+    "total_flagged_ingredients": 6369,
+    "concern_categories": 28
+  },
+  "concerns": {
+    "maoi_tyramine": {
+      "title": "Tyramine Content (MAOI Interaction)",
+      "severity": "critical",
+      "description": "CRITICAL: Tyramine can cause dangerous blood pressure spikes...",
+      "medications": ["phenelzine (Nardil)", "tranylcypromine (Parnate)"]
+    },
+    "allergen_milk": {
+      "title": "Milk/Dairy Allergen",
+      "severity": "allergen",
+      "description": "Contains milk or dairy products. One of the top 9 allergens.",
+      "medications": []
+    }
+    // ... 26 more categories
+  },
+  "ingredients": {
+    "aged parmesan cheese": ["maoi_tyramine", "allergen_milk", "ckd_high_phosphorus"],
+    "spinach": ["warfarin_vitamin_k", "ace_potassium", "ckd_high_potassium"],
+    "peanut butter": ["allergen_peanuts", "ckd_high_phosphorus"]
+    // ... 6,366 more ingredients
   }
 }
 ```
 
-### User Profile Setup (Required)
-
-Before using health converters, users must complete a health profile:
-
-```javascript
-const healthProfile = {
-  // Medications (for drug-food interactions)
-  medications: {
-    bloodThinners: false,      // warfarin, etc.
-    maois: false,              // antidepressants
-    statins: false,            // cholesterol
-    aceInhibitors: false,      // blood pressure
-    immunosuppressants: false, // transplant drugs
-    other: []
-  },
-
-  // Medical conditions
-  conditions: {
-    kidneyDisease: null,       // null, 'stage_1', 'stage_2', ... 'dialysis'
-    diabetes: null,            // null, 'type_1', 'type_2', 'prediabetes'
-    heartDisease: false,
-    pregnant: false,
-    breastfeeding: false,
-    immunocompromised: false,  // cancer treatment, HIV, transplant
-    celiac: false,
-    ibs: false
-  },
-
-  // Allergies (severity: 'mild', 'moderate', 'severe', 'anaphylactic')
-  allergies: [
-    // { allergen: 'peanuts', severity: 'anaphylactic' }
-  ],
-
-  // Dietary preferences (for suggestions, not safety)
-  preferences: {
-    vegetarian: false,
-    vegan: false,
-    kosher: false,
-    halal: false,
-    lowSodium: false
-  }
-};
-```
-
-### Data Files Required
-
-```
-data/
-├── drug-food-interactions.json    # Medication-food interaction database
-├── allergen-database.json         # Hidden allergens, cross-contamination
-├── nutrient-database.json         # Vitamin K, tyramine, potassium per ingredient
-├── food-safety-risks.json         # Listeria, salmonella risk foods
-└── medical-condition-diets.json   # CKD stages, diabetes targets, etc.
-```
-
 ### Disclaimer Requirements
 
-**MANDATORY disclaimer on all health-related tools:**
+**MANDATORY disclaimer in Health Considerations panel:**
 
-> **Medical Disclaimer:** This tool provides general dietary guidance only and is NOT a substitute for professional medical advice. Always consult your doctor, pharmacist, or registered dietitian before making dietary changes, especially if you have medical conditions or take medications. Food-drug interactions can be serious or life-threatening. If you experience adverse symptoms, seek medical attention immediately.
+```html
+<p class="health-disclaimer">
+  <strong>Medical Disclaimer:</strong> This information is for general
+  awareness only and is NOT medical advice. Always consult your doctor,
+  pharmacist, or registered dietitian before making dietary changes,
+  especially if you have medical conditions or take medications.
+  Food-drug interactions can be serious or life-threatening.
+</p>
+```
+
+**Display at bottom of Health Considerations panel when expanded.**
 
 ### Research Sources
 
@@ -1252,6 +1470,7 @@ Automatically estimate recipe difficulty based on:
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| Create health-considerations.json | 2026-01-23 | 6,369 ingredients flagged across 28 concern categories |
 | Add 2,013 cheese recipes from Allrecipes | 2026-01-23 | Aggregated via aggregate_collections.py |
 | Create service worker for PWA | 2026-01-23 | sw.js with multi-repo caching |
 | Document adulterant companion tool | 2026-01-23 | ADULTERANT-COMPANION-GUIDE.md |

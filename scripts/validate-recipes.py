@@ -22,10 +22,63 @@ OPTIONAL_FIELDS = ['attribution', 'source_note', 'description', 'servings_yield'
                    'frosting', 'oven_directions']
 
 VALID_CATEGORIES = ['appetizers', 'beverages', 'breads', 'breakfast', 'desserts',
-                    'mains', 'salads', 'sides', 'soups', 'snacks', 'tips', 'reference']
+                    'mains', 'salads', 'sides', 'soups', 'snacks', 'tips', 'reference',
+                    # Extended categories from aggregated collections
+                    'cheese', 'basics', 'cakes', 'candy', 'canning', 'charcuterie',
+                    'condiments', 'cookies', 'dairy', 'eggs', 'fish', 'frostings',
+                    'grains', 'legumes', 'main dishes', 'main-dishes', 'marinades',
+                    'meat', 'meats', 'pasta', 'pies', 'poultry', 'preserves', 'sauces',
+                    'seafood', 'shellfish', 'side-dishes', 'side dishes', 'vegetables',
+                    # Additional categories found in data
+                    'sandwiches', 'remedies', 'techniques', 'fermentation']
 
 # Categories that don't require ingredients (informational content)
-INGREDIENT_OPTIONAL_CATEGORIES = ['tips', 'reference']
+INGREDIENT_OPTIONAL_CATEGORIES = ['tips', 'reference', 'basics']
+
+# Categories with special temperature ranges
+LOW_TEMP_CATEGORIES = ['cheese', 'dairy', 'candy']  # Cheese making: 85-195°F, Candy: varies
+
+# Keywords in title/description that indicate low-temp cooking is normal
+LOW_TEMP_KEYWORDS = [
+    # Cheese making - generic
+    'cheese', 'curd', 'whey', 'rennet', 'cultures', 'culture',
+    # Cheese making - specific varieties
+    'anari', 'ricotta', 'paneer', 'halloumi', 'mascarpone', 'mozzarella',
+    'fromage', 'queso', 'feta', 'brie', 'camembert', 'cheddar', 'gouda',
+    'gruyere', 'emmental', 'parmesan', 'romano', 'asiago', 'provolone',
+    'burrata', 'stracciatella', 'scamorza', 'caciocavallo',
+    # Eastern European cheeses
+    'tvorog', 'twarog', 'tvaruzky', 'olomouc', 'quark', 'sirene', 'brynza', 'bryndza',
+    # Mediterranean/Middle Eastern
+    'labneh', 'jibneh', 'akkawi', 'nabulsi', 'shanklish',
+    # African/Asian
+    'ayib', 'aaruul', 'chhena', 'chhurpi', 'panir',
+    # Iberian
+    'manchego', 'cabrales', 'torta', 'azeitao', 'serra',
+    # Other dairy
+    'creme', 'fraiche', 'sour cream', 'buttermilk', 'clabber', 'cream', 'crepe',
+    # Dehydrating/drying
+    'jerky', 'dehydrat', 'dried', 'drying',
+    # Proofing/fermentation/rising
+    'proof', 'ferment', 'sourdough', 'starter', 'yogurt', 'kefir', 'rise', 'rising', 'yeast',
+    'bread', 'dough', 'rolls', 'buns', 'pizza dough', 'focaccia',
+    # Tempering
+    'temper', 'chocolate',
+    # Slow cooking / sausage making
+    'sous vide', 'confit', 'sausage', 'boudin', 'kielbasa',
+    # Cold prep/storage
+    'chill', 'cold', 'refrigerat', 'cool',
+    # Microwave (internal temps, not oven temps)
+    'microwave',
+    # Kitchen tips (often reference internal temps)
+    'tip', 'doneness', 'internal',
+    # Infusing oils/flavors
+    'infuse', 'infused', 'flavored oil', 'nut oil',
+    # Pretzel (dipping in lye solution is low temp)
+    'pretzel',
+    # Traditional recipes often involve artisan temps
+    'traditional-', 'homemade-'
+]
 
 VALID_CONFIDENCE = ['high', 'medium', 'low']
 
@@ -39,8 +92,17 @@ SANITY_LIMITS = {
     'baking powder': {'max_tbsp': 4},
 }
 
+# Higher salt limits for marinades, brines, cheese making, and large-batch recipes
+MARINADE_BRINE_KEYWORDS = ['marinade', 'brine', 'basting', 'mop sauce', 'injection', 'pickle', 'jerky', 'cure', 'cured', 'cheese', 'feta', 'gouda', 'havarti']
+MARINADE_SALT_LIMITS = {'max_cups': 2, 'max_tbsp': 16, 'max_tsp': 48}  # Cheese brines need 1.5+ cups
+
+# Higher sugar limits for preserves, canning, and jams
+PRESERVE_KEYWORDS = ['preserve', 'jam', 'jelly', 'marmalade', 'canning', 'pickle', 'chutney', 'conserve']
+PRESERVE_SUGAR_LIMITS = {'max_cups': 10}
+
 # Temperature sanity (Fahrenheit)
-TEMP_MIN = 200
+TEMP_MIN = 200  # Standard baking/roasting minimum
+TEMP_MIN_LOW = 50  # Cheese aging (caves 50-55°F), cheese making (85-195°F)
 TEMP_MAX = 550
 
 
@@ -87,7 +149,7 @@ class RecipeValidator:
 
         # Validate ingredients
         if 'ingredients' in recipe:
-            self.validate_ingredients(recipe_id, recipe['ingredients'])
+            self.validate_ingredients(recipe_id, recipe['ingredients'], recipe.get('title', ''))
 
         # Validate instructions
         if 'instructions' in recipe:
@@ -95,7 +157,7 @@ class RecipeValidator:
 
         # Validate temperature
         if 'temperature' in recipe and recipe['temperature']:
-            self.validate_temperature(recipe_id, recipe['temperature'])
+            self.validate_temperature(recipe_id, recipe['temperature'], category, recipe.get('title', ''))
 
         # Validate image_refs exist
         if 'image_refs' in recipe:
@@ -113,11 +175,19 @@ class RecipeValidator:
         if 'conversions' in recipe and recipe['conversions']:
             self.validate_conversions(recipe_id, recipe['conversions'])
 
-    def validate_ingredients(self, recipe_id, ingredients):
+    def validate_ingredients(self, recipe_id, ingredients, title=''):
         """Validate ingredients list."""
         if not isinstance(ingredients, list):
             self.error(recipe_id, "Ingredients must be a list")
             return
+
+        # Check if this is a marinade/brine recipe (use higher salt limits)
+        title_lower = title.lower()
+        id_lower = recipe_id.lower()
+        is_marinade = any(kw in title_lower for kw in MARINADE_BRINE_KEYWORDS) or \
+                      any(kw in id_lower for kw in MARINADE_BRINE_KEYWORDS)
+        is_preserve = any(kw in title_lower for kw in PRESERVE_KEYWORDS) or \
+                      any(kw in id_lower for kw in PRESERVE_KEYWORDS)
 
         for i, ing in enumerate(ingredients):
             if not isinstance(ing, dict):
@@ -132,15 +202,18 @@ class RecipeValidator:
             qty = ing.get('quantity', '')
             unit = ing.get('unit', '').lower()
 
-            self.check_quantity_sanity(recipe_id, item, qty, unit)
+            self.check_quantity_sanity(recipe_id, item, qty, unit, is_marinade, is_preserve)
 
-    def check_quantity_sanity(self, recipe_id, item, qty, unit):
+    def check_quantity_sanity(self, recipe_id, item, qty, unit, is_marinade=False, is_preserve=False):
         """Check if quantity seems reasonable."""
         if not qty or qty == '' or '[UNCLEAR]' in str(qty):
             return
 
-        # Skip false positives - ingredient names containing "salt" but aren't salt
-        salt_false_positives = ['unsalted', 'salted', 'saltine', 'low-salt', 'no-salt', 'salt-free']
+        # Skip false positives - ingredient names containing "salt" but aren't table salt
+        salt_false_positives = ['unsalted', 'salted', 'saltine', 'low-salt', 'no-salt', 'salt-free',
+                                'cheese salt', 'curing salt', 'kosher salt', 'sea salt', 'flake salt',
+                                'finishing salt', 'fleur de sel', 'himalayan', 'celtic salt',
+                                'salt cod', 'salt pork', 'salt beef', 'epsom salt', 'bath salt']
         if any(fp in item for fp in salt_false_positives):
             return
 
@@ -156,12 +229,26 @@ class RecipeValidator:
                     frac_parts = str(qty).split('/')
                     qty_float = float(frac_parts[0]) / float(frac_parts[1])
             else:
-                qty_float = float(qty.replace('-', '.').split()[0])
+                # Handle ranges like "3-4" - take the higher value for checking
+                qty_str = str(qty).replace('-', ' ').split()[0]
+                if '-' in str(qty):
+                    # For ranges, check the max value
+                    range_parts = str(qty).split('-')
+                    qty_float = max(float(p.strip().split()[0]) for p in range_parts if p.strip())
+                else:
+                    qty_float = float(qty_str)
         except (ValueError, IndexError):
             return  # Can't parse, skip check
 
         for check_item, limits in SANITY_LIMITS.items():
             if check_item in item:
+                # Use higher limits for salt in marinades/brines/pickles
+                if check_item == 'salt' and is_marinade:
+                    limits = MARINADE_SALT_LIMITS
+                # Use higher limits for sugar in preserves/jams
+                if check_item == 'sugar' and is_preserve:
+                    limits = PRESERVE_SUGAR_LIMITS
+
                 if 'cup' in unit and 'max_cups' in limits:
                     if qty_float > limits['max_cups']:
                         self.warn(recipe_id, f"Suspicious: {qty} {unit} {item} (max expected: {limits['max_cups']} cups)")
@@ -191,14 +278,20 @@ class RecipeValidator:
             if 'text' not in inst:
                 self.error(recipe_id, f"Instruction {i} missing 'text' field")
 
-    def validate_temperature(self, recipe_id, temp):
+    def validate_temperature(self, recipe_id, temp, category='', title=''):
         """Validate temperature is reasonable."""
         # Extract Fahrenheit number
         match = re.search(r'(\d+)\s*°?F', temp)
         if match:
             temp_f = int(match.group(1))
-            if temp_f < TEMP_MIN or temp_f > TEMP_MAX:
-                self.warn(recipe_id, f"Temperature {temp_f}°F outside typical range ({TEMP_MIN}-{TEMP_MAX}°F)")
+            # Use lower minimum for cheese, dairy, candy (cheese making: 85-195°F)
+            # Also check for low-temp keywords in title or recipe ID
+            is_low_temp_context = category in LOW_TEMP_CATEGORIES or \
+                                  any(kw in title.lower() for kw in LOW_TEMP_KEYWORDS) or \
+                                  any(kw in recipe_id.lower() for kw in LOW_TEMP_KEYWORDS)
+            min_temp = TEMP_MIN_LOW if is_low_temp_context else TEMP_MIN
+            if temp_f < min_temp or temp_f > TEMP_MAX:
+                self.warn(recipe_id, f"Temperature {temp_f}°F outside typical range ({min_temp}-{TEMP_MAX}°F)")
 
     def validate_image_refs(self, recipe_id, image_refs):
         """Check that referenced images exist."""
@@ -208,6 +301,9 @@ class RecipeValidator:
 
         data_dir = Path(__file__).parent.parent / 'data'
         for ref in image_refs:
+            # Skip URLs (remote images from other repos)
+            if ref.startswith('http://') or ref.startswith('https://'):
+                continue
             img_path = data_dir / ref
             if not img_path.exists():
                 self.warn(recipe_id, f"Referenced image not found: {ref}")

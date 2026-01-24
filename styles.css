@@ -5497,8 +5497,142 @@ kbd {
   }
 }
 
-/* Print styles - hide milk substitution panel */
+/* =============================================================================
+   Health Considerations Panel
+   ============================================================================= */
+
+.health-considerations {
+  margin: 1.5rem 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.health-considerations[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.health-header {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  user-select: none;
+  list-style: none;
+}
+
+.health-header::-webkit-details-marker {
+  display: none;
+}
+
+.health-header:hover {
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.health-icon {
+  font-size: 1.2em;
+}
+
+.health-count {
+  color: #666;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.health-header .chevron {
+  margin-left: auto;
+  transition: transform 0.2s;
+  color: #666;
+}
+
+.health-content {
+  padding: 0 1rem 1rem;
+}
+
+/* Warning severity levels */
+.health-warning {
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+.health-warning.critical {
+  background: #fee2e2;
+  border-color: #dc2626;
+}
+
+.health-warning.critical h4 {
+  color: #dc2626;
+}
+
+.health-warning.high {
+  background: #ffedd5;
+  border-color: #ea580c;
+}
+
+.health-warning.high h4 {
+  color: #ea580c;
+}
+
+.health-warning.allergen {
+  background: #fef3c7;
+  border-color: #d97706;
+}
+
+.health-warning.allergen h4 {
+  color: #d97706;
+}
+
+.health-warning.moderate {
+  background: #dbeafe;
+  border-color: #2563eb;
+}
+
+.health-warning.moderate h4 {
+  color: #2563eb;
+}
+
+.health-warning.info {
+  background: #f3f4f6;
+  border-color: #6b7280;
+}
+
+.health-warning.info h4 {
+  color: #6b7280;
+}
+
+.health-warning h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.health-warning p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.health-medications {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.health-disclaimer {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #f9fafb;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+}
+
+/* Print styles - hide health panel and milk substitution panel */
 @media print {
+  .health-considerations,
   .milk-substitution-panel {
     display: none !important;
   }
