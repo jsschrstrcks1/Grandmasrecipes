@@ -260,6 +260,7 @@ Use these abbreviations consistently:
 3. If unreadable, mark as `[UNCLEAR]`
 4. Image paths are FLAT in data/ - no subdirectories
 5. Always check image dimensions before reading
+6. **ALWAYS commit and push changes before ending a session**
 
 ---
 
@@ -298,6 +299,7 @@ Use these abbreviations consistently:
 6. Use `data/processed/` images for AI reading
 7. Keep image paths flat: `data/filename.jpeg`
 8. Match collection ID format: `grandma-baker` (not `grandma`)
+9. **Commit and push all changes before ending a session**
 
 ---
 
