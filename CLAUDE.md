@@ -16,6 +16,7 @@ This is a labor of love being performed by a Reformed Baptist family. Our ethos 
 4. **Mark unclear text** as `[UNCLEAR]` — don't guess
 5. **Accuracy > Speed** — these recipes matter deeply
 6. **Run validation** after changes: `python scripts/validate-recipes.py`
+7. **MAX 100 images** per request — API hard limit, batch if needed
 
 ---
 
@@ -261,6 +262,7 @@ Use these abbreviations consistently:
 4. Image paths are FLAT in data/ - no subdirectories
 5. Always check image dimensions before reading
 6. **ALWAYS commit and push changes before ending a session**
+7. **NEVER read more than 100 images in a single context** (API limit)
 
 ---
 
@@ -289,6 +291,7 @@ Use these abbreviations consistently:
 6. Guess what unclear handwriting says
 7. Read images without checking dimensions first
 8. Skip validation after making changes
+9. **Read more than 100 images at once** — API limit is 100 images per request
 
 ### ✅ Do:
 1. Run `python scripts/image_safeguards.py status` before reading images
@@ -321,6 +324,13 @@ RIGHT: collection: "grandma-baker"  (current format)
 ```
 WRONG: Reading data/Grandmas-recipes - 12.jpeg directly (may be 4032x3024)
 RIGHT: Reading data/processed/Grandmas-recipes - 12.jpeg (≤2000px)
+```
+
+### Image Count Error (API Limit)
+```
+ERROR: "Too much media: 0 document pages + 103 images > 100"
+CAUSE: API limit is 100 images per request
+FIX:   Process images in batches of ≤100
 ```
 
 ---
