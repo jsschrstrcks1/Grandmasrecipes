@@ -17,6 +17,7 @@ This is a labor of love being performed by a Reformed Baptist family. Our ethos 
 5. **Accuracy > Speed** — these recipes matter deeply
 6. **Run validation** after changes: `python scripts/validate-recipes.py`
 7. **MAX 100 images** per request — API hard limit, batch if needed
+8. **DOCUMENT EVERYTHING** — update .claude/*.md files so next session can resume
 
 ---
 
@@ -263,6 +264,7 @@ Use these abbreviations consistently:
 5. Always check image dimensions before reading
 6. **ALWAYS commit and push changes before ending a session**
 7. **NEVER read more than 100 images in a single context** (API limit)
+8. **DOCUMENT work in progress** in `.claude/*.md` so next session can resume
 
 ---
 
@@ -303,6 +305,7 @@ Use these abbreviations consistently:
 7. Keep image paths flat: `data/filename.jpeg`
 8. Match collection ID format: `grandma-baker` (not `grandma`)
 9. **Commit and push all changes before ending a session**
+10. **Document ongoing work** in `.claude/*.md` files for session continuity
 
 ---
 

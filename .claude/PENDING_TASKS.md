@@ -1466,10 +1466,40 @@ Automatically estimate recipe difficulty based on:
 
 ---
 
+## In Progress: Image Processing
+
+**Status:** Partially Complete (2026-01-25)
+
+### Current State
+
+| Collection | Total | Validated | Oversized | Processed Copies |
+|------------|-------|-----------|-----------|------------------|
+| grandma | 494 | 494 | 0 | N/A (all <2000px) |
+| reference (data/all/) | 906 | 152 | 754 | 754 in `data/all/processed/` |
+| mommom | 104 | 0 | 104 | **Remote** (MomsRecipes repo) |
+
+**Note:** The 104 mommom images are tracked in the manifest but exist in the remote MomsRecipes repository, not locally. The `process_images.py` script creates resized copies in a `processed/` subfolder while preserving originals.
+
+### Next Steps
+
+1. **Cross-Repository Duplicate Check**
+   - Check MomsRecipes, Grannysrecipes, Allrecipes for duplicate recipes
+   - Not just local JSON - check actual remote repositories
+   - Variants are OK, but true duplicates should be consolidated
+
+2. **Image Transcription**
+   - 754 reference images now have AI-safe processed versions
+   - Use `data/all/processed/*.jpeg` for transcription
+   - Remember: MAX 100 images per API request
+
+---
+
 ## Completed Tasks
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| Process 754 oversized reference images | 2026-01-25 | Resized to <2000px in data/all/processed/ |
+| Add documentation rules to CLAUDE.md | 2026-01-25 | Document everything, 100-image limit, commit/push |
 | Create health-considerations.json | 2026-01-23 | 6,369 ingredients flagged across 28 concern categories |
 | Add 2,013 cheese recipes from Allrecipes | 2026-01-23 | Aggregated via aggregate_collections.py |
 | Create service worker for PWA | 2026-01-23 | sw.js with multi-repo caching |
