@@ -179,11 +179,66 @@ Features:
 
 ### Diabetic-Friendly Recipe Converter
 
-**Status:** Research Required
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Updated:** 2026-01-28
+**Completed:** 2026-01-28
 **Complexity:** High
 
 Create a tool that converts recipes to diabetic-friendly versions by reducing carbs and sugar while increasing protein, with minimal impact on taste.
+
+#### Completed (2026-01-28)
+
+**Data files created:**
+- `data/carb-database.json` — Comprehensive carbohydrate and glycemic index database for common recipe ingredients. Sources: USDA FoodData Central, University of Sydney GI Database, ADA Standards of Care 2026. Covers grains/pasta, breads, flours, potatoes/starches, sugars/sweeteners, dairy, fruits, baking ingredients, beverages, and thickeners.
+- `data/diabetic-substitutions.json` — Diabetic-friendly substitution rules with 8 categories: Pasta & Noodles, Rice & Grains, Bread & Baked Goods, Flour Alternatives, Sugars & Sweeteners, Potatoes & Starches, Thickeners, Breadcrumbs & Coatings, and Tortillas & Wraps. Includes 30+ specific substitutes with ratios, prep notes, cooking notes, taste/texture impact, GI values, allergen warnings, and cardiovascular safety data.
+
+**Research conducted:**
+- ADA Standards of Care in Diabetes 2026 — carbohydrate reduction guidelines, fiber targets (14g/1000kcal), eating pattern recommendations
+- Glycemic Index databases — University of Sydney GI Search, International Tables 2021, USDA FoodData Central
+- Sweetener safety — Cleveland Clinic erythritol cardiovascular studies (Nature Medicine 2023, ATVB 2024), allulose as preferred alternative
+- Baking substitution chemistry — flour absorption ratios, sweetener conversion charts, thickener potencies
+- Net carbs calculation — total carbs minus fiber, sugar alcohol handling (erythritol fully subtracted, others half)
+- Low-carb pasta alternatives — shirataki, edamame, hearts of palm, zucchini noodles, spaghetti squash nutritional data
+
+**Research sources used:**
+- [ADA Standards of Care 2026](https://professional.diabetes.org/standards-of-care)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [University of Sydney GI Database](https://glycemicindex.com/gi-search/)
+- [Cleveland Clinic Erythritol Study (Nature Medicine 2023)](https://www.nature.com/articles/s41591-023-02223-9)
+- [Cleveland Clinic Erythritol Follow-Up (ATVB 2024)](https://www.ahajournals.org/doi/10.1161/ATVBAHA.124.321019)
+- [Wholesome Yum Sweetener Conversion Charts](https://www.wholesomeyum.com/natural-low-carb-sweeteners-guide-conversion-chart/)
+- [ADA Carb Counting Guide](https://diabetes.org/food-nutrition/understanding-carbs/carb-counting-and-diabetes)
+- [CDC Carb Counting](https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html)
+
+**UI Implementation complete:** `diabetic-converter.js` (~350 lines)
+
+Files modified:
+- `diabetic-converter.js` — New module: detects high-carb ingredients across 8 categories, renders collapsible converter panel with carb meter, substitution cards, blood sugar tips, and medical disclaimer
+- `recipe.html` — Added script tag for diabetic-converter.js
+- `script.js` — Added initialization, container placement, and rendering integration
+- `styles.css` — Added ~400 lines of responsive CSS for converter panel including carb meter, ingredient cards, substitute options, warning badges, and tips section
+
+Features:
+- Detects high-carb ingredients via keyword matching across 8 substitution categories
+- Shows carb meter with current net carbs vs target (50g default, configurable)
+- GI badges (Low/Medium/High) with color coding on both original and substitute ingredients
+- Detailed substitution cards with ratios, prep instructions, cooking notes, taste/texture impact
+- Cardiovascular safety warning on erythritol (citing Cleveland Clinic research)
+- Allergen warnings on nut flours, soy products, dairy alternatives
+- Moisture warnings for vegetable-based substitutes
+- Blood sugar management tips section (pairing carbs with protein/fat/fiber, walking after meals, etc.)
+- Medical disclaimer reminding users to consult their doctor
+- Collapsible `<details>` element, closed by default
+- Responsive design for mobile devices
+- Consistent with existing 1950s retro kitchen styling
+- Print-hidden (same as other tool panels)
+
+Key data highlights:
+- **Erythritol cardiovascular warning:** Cleveland Clinic studies (2023-2024) linked erythritol to increased platelet reactivity and thrombosis risk. Allulose recommended as safer first-choice sweetener.
+- **ADA 2026 guidance:** No fixed daily carb target; individualized approach recommended. Reducing carbs has strongest evidence for glycemia improvement. Focus on high-quality, high-fiber carb sources.
+- **Net carbs formula:** Total carbs - fiber. For sugar alcohols: subtract half (except erythritol, which is fully subtracted).
+- **Default target:** 50g net carbs per serving (user-specified requirement)
 
 #### Goals
 
@@ -320,12 +375,12 @@ Create a tool that converts recipes to diabetic-friendly versions by reducing ca
 
 #### Research Required
 
-- [ ] Complete carb counts for all common ingredients
-- [ ] Glycemic index database integration
-- [ ] Baking chemistry: how substitutes affect rise, texture
-- [ ] Sauce thickening ratios for alternative thickeners
-- [ ] Sweetener heat stability (some break down when baked)
-- [ ] Fiber content (net carbs = total carbs - fiber)
+- [x] Complete carb counts for all common ingredients (carb-database.json)
+- [x] Glycemic index database integration (GI values from Sydney University + International Tables 2021)
+- [x] Baking chemistry: how substitutes affect rise, texture (flour absorption ratios, egg requirements, temp adjustments)
+- [x] Sauce thickening ratios for alternative thickeners (xanthan gum, guar gum, glucomannan ratios documented)
+- [x] Sweetener heat stability (allulose browns/caramelizes, erythritol does not, stevia stable)
+- [x] Fiber content (net carbs = total carbs - fiber, formula documented)
 
 #### Integration with Existing Tools
 
