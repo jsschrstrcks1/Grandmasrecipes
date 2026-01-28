@@ -8,11 +8,37 @@ This file tracks future development tasks, feature requests, and research items 
 
 ### Protein & Vegetable Substitution Tool
 
-**Status:** Research Required
+**Status:** Data Foundation Complete - UI Implementation Pending
 **Added:** 2026-01-23
+**Updated:** 2026-01-28
 **Complexity:** High
 
 Create an interactive tool that helps users substitute proteins or vegetables in recipes, with guidance on how substitutions affect the final dish.
+
+#### Completed (2026-01-28)
+
+**Data file created:** `data/protein-vegetable-substitutions.json`
+
+Contains comprehensive substitution data for:
+- **Protein substitutions:** chicken breast, chicken thighs, ground beef, beef stew meat, beef roast, bacon - with ratios, cook time adjustments, flavor notes, and plant-based alternatives
+- **Fish substitutions:** 4 texture categories (delicate/flaky, firm/mild, meaty/bold, fatty/rich) with specific fish and substitutes
+- **Shellfish substitutions:** shrimp, scallops, lobster, crab with alternatives including plant-based options
+- **Mercury guide:** FDA best choices, good choices, and fish to avoid
+- **Vegetable moisture warnings:** zucchini, tomatoes, mushrooms, cucumbers, eggplant with mitigation strategies
+- **Vegetable texture substitutions:** leafy greens, root vegetables, cruciferous, alliums
+- **Acidity interactions:** tomatoes with cream, citrus with dairy
+- **Safe cooking temperatures:** USDA guidelines for all proteins
+- **Roasting time charts:** beef, pork, chicken, turkey, lamb (min/max per lb)
+- **Plant protein reference:** complete proteins and combining guidelines
+
+**Research sources used:**
+- [USDA FSIS Safe Temperature Chart](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart)
+- [FDA Advice About Eating Fish](https://www.fda.gov/food/consumers/advice-about-eating-fish)
+- [FoodSafety.gov Roasting Charts](https://www.foodsafety.gov/food-safety-charts/meat-poultry-charts)
+- [Cook Smarts Ingredient Substitutions](https://www.cooksmarts.com/articles/substitute-ingredients-meat-cuts-and-seafood/)
+- [America's Test Kitchen - Salting Watery Vegetables](https://www.americastestkitchen.com/articles/4102-why-you-should-salt-watery-vegetables-before-cooking)
+
+#### Next Steps: UI Implementation
 
 #### Requirements
 
@@ -121,13 +147,16 @@ Create an interactive tool that helps users substitute proteins or vegetables in
 - Display warnings prominently (e.g., "This substitution may affect texture")
 - Allow users to see "before/after" impact summary
 
-#### Research Sources to Consult
+#### Research Sources Consulted
 
-- [ ] USDA food composition database (protein fat/moisture content)
-- [ ] Serious Eats articles on protein substitution
-- [ ] America's Test Kitchen substitution guides
-- [ ] Harold McGee's "On Food and Cooking"
-- [ ] Kenji López-Alt's "The Food Lab"
+- [x] USDA food composition database (protein fat/moisture content)
+- [x] USDA FSIS safe cooking temperatures
+- [x] FDA fish mercury guidelines
+- [x] America's Test Kitchen substitution guides
+- [x] Cook Smarts ingredient substitution guides
+- [x] FoodSafety.gov roasting charts
+- [ ] Harold McGee's "On Food and Cooking" (for future expansion)
+- [ ] Kenji López-Alt's "The Food Lab" (for future expansion)
 
 ---
 
