@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "description": "Diabetic-friendly recipe substitution rules for converting high-carb recipes",
+    "version": "1.0.0",
+    "created": "2026-01-28",
+    "default_target_net_carbs": 50,
+    "sources": [
+      "ADA Standards of Care in Diabetes 2026",
+      "USDA FoodData Central",
+      "University of Sydney GI Database",
+      "Cleveland Clinic (erythritol cardiovascular research 2023-2024)",
+      "Wholesome Yum sweetener conversion charts",
+      "America's Test Kitchen low-carb baking guides"
+    ],
+    "disclaimer": "This tool provides general dietary information only. It is NOT medical advice. Always consult your doctor, endocrinologist, or registered dietitian before making significant dietary changes. Individual responses to foods vary. Monitor blood sugar when trying new substitutions.",
+    "medical_notes": [
+      "ADA 2026: Reducing carbohydrate intake has the most evidence for improving glycemia",
+      "ADA 2026: Focus on high-quality, minimally processed, nutrient-dense, high-fiber carbs",
+      "ADA 2026: Caution with ketogenic diets for patients on SGLT2 inhibitors",
+      "Net carbs = total carbs - fiber (sugar alcohols: subtract half, except erythritol which is fully subtracted)",
+      "Pair carbs with protein, fat, or fiber to slow absorption and reduce blood sugar spikes"
+    ]
+  },
+  "strictness_levels": {
+    "moderate": {
+      "label": "Moderate",
+      "target_net_carbs_per_serving": 50,
+      "description": "Under 50g net carbs per serving. Good starting point for most diabetics.",
+      "icon": "balanced"
+    },
+    "low_carb": {
+      "label": "Low-Carb",
+      "target_net_carbs_per_serving": 30,
+      "description": "Under 30g net carbs per serving. Tighter control for better blood sugar management.",
+      "icon": "strict"
+    },
+    "very_low_carb": {
+      "label": "Very Low-Carb",
+      "target_net_carbs_per_serving": 20,
+      "description": "Under 20g net carbs per serving. Near-keto levels. Consult your doctor first.",
+      "icon": "very_strict",
+      "warning": "Very low-carb diets may require medication adjustments. ADA cautions against keto for patients on SGLT2 inhibitors due to ketoacidosis risk."
+    }
+  },
+  "categories": {
+    "pasta_noodles": {
+      "label": "Pasta & Noodles",
+      "icon": "noodles",
+      "detection_keywords": ["pasta", "spaghetti", "noodles", "macaroni", "penne", "rigatoni", "fettuccine", "linguine", "angel hair", "rotini", "ziti", "lasagna noodles", "egg noodles", "elbow macaroni", "shells", "farfalle", "orzo", "vermicelli", "lo mein", "ramen"],
+      "original": {
+        "name": "Regular pasta",
+        "net_carbs_per_cup": 40,
+        "gi": 46
+      },
+      "substitutes": [
+        {
+          "id": "zucchini-noodles",
+          "name": "Zucchini noodles (zoodles)",
+          "net_carbs_per_cup": 2,
+          "protein_per_cup": 1,
+          "fiber_per_cup": 2,
+          "gi": 15,
+          "carbs_saved_per_cup": 38,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Spiralize zucchini. Salt and drain for 10 minutes to remove excess moisture. Pat dry with towels.",
+          "cooking_notes": "Saute 2-3 minutes max, or serve raw with warm sauce. Overcooking makes them mushy.",
+          "taste_impact": "Lighter, fresher flavor. Less filling than pasta.",
+          "texture_impact": "Softer than al dente pasta. Slight crunch when raw.",
+          "best_for": ["light sauces", "pesto", "olive oil based", "garlic butter", "primavera"],
+          "avoid_for": ["heavy cream sauces (gets watery)", "baked pasta dishes", "mac and cheese"],
+          "moisture_warning": "Releases water when cooked. Avoid soggy dishes by: sauteing briefly, not boiling, and draining well.",
+          "availability": "spiralizer needed, or buy pre-spiralized"
+        },
+        {
+          "id": "shirataki-noodles",
+          "name": "Shirataki noodles (konjac)",
+          "net_carbs_per_cup": 0,
+          "protein_per_cup": 0,
+          "fiber_per_cup": 3,
+          "gi": 0,
+          "carbs_saved_per_cup": 40,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Rinse thoroughly under cold water for 2-3 minutes to remove natural odor. Dry-fry in a hot pan for 1-2 minutes to remove excess moisture.",
+          "cooking_notes": "Absorbs sauce flavors well. Best cooked with flavorful sauces.",
+          "taste_impact": "Neutral flavor. Slightly chewy, rubbery texture that some find unusual at first.",
+          "texture_impact": "Chewy, springy. Very different from wheat pasta.",
+          "best_for": ["Asian dishes", "soups", "heavy sauces", "stir-fry", "ramen-style"],
+          "avoid_for": ["Italian pasta dishes", "cold pasta salads"],
+          "availability": "specialty grocery stores, Asian markets, online"
+        },
+        {
+          "id": "spaghetti-squash",
+          "name": "Spaghetti squash",
+          "net_carbs_per_cup": 8,
+          "protein_per_cup": 1,
+          "fiber_per_cup": 2,
+          "gi": 42,
+          "carbs_saved_per_cup": 32,
+          "ratio": "1 medium squash yields ~4 cups",
+          "prep_notes": "Cut in half lengthwise, scoop out seeds. Roast cut-side down at 400F for 35-45 minutes until tender. Fork out strands.",
+          "cooking_notes": "Can be microwaved for faster prep: pierce, microwave 5-8 minutes per half.",
+          "taste_impact": "Mildly sweet, slightly nutty. Lighter than pasta.",
+          "texture_impact": "Stringy strands similar to spaghetti. Softer than al dente.",
+          "best_for": ["marinara", "meat sauce", "pesto", "casseroles"],
+          "avoid_for": ["delicate sauces that need pasta to absorb them"],
+          "availability": "most grocery stores year-round"
+        },
+        {
+          "id": "edamame-pasta",
+          "name": "Edamame/soy bean pasta",
+          "net_carbs_per_cup": 7,
+          "protein_per_cup": 24,
+          "fiber_per_cup": 8,
+          "gi": 25,
+          "carbs_saved_per_cup": 33,
+          "ratio": "1:1 by weight",
+          "prep_notes": "Cook per package directions. Rinse briefly to prevent sticking.",
+          "cooking_notes": "Cooks similarly to regular pasta. Do not overcook — becomes mushy.",
+          "taste_impact": "Slightly nutty, mild bean flavor. Closest substitute to real pasta.",
+          "texture_impact": "Firmer than wheat pasta. Holds sauce well.",
+          "best_for": ["any pasta dish", "high-protein meals", "athletes"],
+          "avoid_for": ["soy-allergic individuals"],
+          "allergen_warning": "Contains soy.",
+          "availability": "most grocery stores (Explore Cuisine, Banza alternatives)"
+        },
+        {
+          "id": "hearts-of-palm-pasta",
+          "name": "Hearts of palm pasta (Palmini)",
+          "net_carbs_per_cup": 4,
+          "protein_per_cup": 2,
+          "fiber_per_cup": 3,
+          "gi": 20,
+          "carbs_saved_per_cup": 36,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Rinse and drain well. Can soak in milk for 20 minutes to reduce any tang.",
+          "cooking_notes": "Heat gently in sauce. Already cooked — just needs warming.",
+          "taste_impact": "Slightly tangy, mild. Takes on sauce flavor well.",
+          "texture_impact": "Most pasta-like texture of all vegetable alternatives.",
+          "best_for": ["alfredo", "carbonara", "any Italian dish", "lasagna"],
+          "avoid_for": ["Asian noodle dishes"],
+          "availability": "most grocery stores (Palmini brand)"
+        }
+      ]
+    },
+    "rice_grains": {
+      "label": "Rice & Grains",
+      "icon": "grain",
+      "detection_keywords": ["rice", "white rice", "brown rice", "fried rice", "rice pilaf", "couscous", "instant rice", "jasmine rice", "basmati rice", "arborio rice", "risotto", "grits"],
+      "original": {
+        "name": "White rice",
+        "net_carbs_per_cup": 44,
+        "gi": 73
+      },
+      "substitutes": [
+        {
+          "id": "cauliflower-rice",
+          "name": "Cauliflower rice",
+          "net_carbs_per_cup": 3,
+          "protein_per_cup": 2,
+          "fiber_per_cup": 2,
+          "gi": 15,
+          "carbs_saved_per_cup": 41,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Pulse cauliflower florets in food processor to rice-sized pieces. Or buy pre-riced (fresh or frozen).",
+          "cooking_notes": "Saute in oil/butter for 5-8 minutes. Do NOT boil — gets mushy. Season well.",
+          "taste_impact": "Milder than rice. Needs seasoning. Slightly vegetal.",
+          "texture_impact": "Lighter, fluffier than rice. Can be slightly wet if not cooked properly.",
+          "best_for": ["stir-fry", "burrito bowls", "fried rice", "under curry"],
+          "avoid_for": ["sushi", "rice pudding"],
+          "moisture_warning": "Releases water when cooked. Squeeze out excess moisture for fried rice applications.",
+          "availability": "most grocery stores, fresh or frozen"
+        },
+        {
+          "id": "broccoli-rice",
+          "name": "Broccoli rice",
+          "net_carbs_per_cup": 4,
+          "protein_per_cup": 3,
+          "fiber_per_cup": 3,
+          "gi": 15,
+          "carbs_saved_per_cup": 40,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Pulse broccoli florets and stems in food processor to rice-sized pieces.",
+          "cooking_notes": "Saute in oil for 5-6 minutes. Slightly more flavorful than cauliflower.",
+          "taste_impact": "More flavor than cauliflower rice. Slightly more vegetal.",
+          "texture_impact": "Similar to cauliflower rice. Slightly more bite.",
+          "best_for": ["stir-fry", "grain bowls", "side dishes"],
+          "avoid_for": ["dishes where rice flavor is important"],
+          "availability": "some grocery stores pre-riced, or make fresh"
+        },
+        {
+          "id": "shirataki-rice",
+          "name": "Shirataki rice (konjac rice)",
+          "net_carbs_per_cup": 0,
+          "protein_per_cup": 0,
+          "fiber_per_cup": 3,
+          "gi": 0,
+          "carbs_saved_per_cup": 44,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Rinse thoroughly. Dry-fry to remove moisture. Same prep as shirataki noodles.",
+          "cooking_notes": "Mix with a small amount of real rice for better texture if desired.",
+          "taste_impact": "Neutral. Absorbs sauce flavors.",
+          "texture_impact": "Chewy, slightly different from rice. Improved by dry-frying.",
+          "best_for": ["stir-fry", "fried rice", "curries"],
+          "avoid_for": ["plain steamed rice (texture too obvious)"],
+          "availability": "Asian markets, online, some grocery stores"
+        },
+        {
+          "id": "hemp-hearts",
+          "name": "Hemp hearts",
+          "net_carbs_per_cup": 5,
+          "protein_per_cup": 40,
+          "fiber_per_cup": 5,
+          "gi": 0,
+          "carbs_saved_per_cup": 39,
+          "ratio": "1/2 cup hemp hearts replaces 1 cup rice (more dense)",
+          "prep_notes": "No cooking required. Can be warmed briefly.",
+          "cooking_notes": "Toss with warm ingredients. Overcooking makes them soft.",
+          "taste_impact": "Nutty, mild. Different from rice but pleasant.",
+          "texture_impact": "Soft, seed-like. Much higher protein than any grain.",
+          "best_for": ["grain bowls", "salad toppers", "smoothie bowls"],
+          "avoid_for": ["dishes requiring rice texture", "cooked grain dishes"],
+          "allergen_warning": "Tree nut and seed allergy consideration.",
+          "availability": "most grocery stores, health food stores"
+        }
+      ]
+    },
+    "bread_baking": {
+      "label": "Bread & Baked Goods",
+      "icon": "bread",
+      "detection_keywords": ["bread", "sandwich", "toast", "bun", "roll", "biscuit", "biscuits", "muffin", "muffins", "cornbread"],
+      "original": {
+        "name": "White bread",
+        "net_carbs_per_slice": 14,
+        "gi": 75
+      },
+      "substitutes": [
+        {
+          "id": "lettuce-wraps",
+          "name": "Lettuce wraps",
+          "net_carbs_per_serving": 1,
+          "protein_per_serving": 0.5,
+          "fiber_per_serving": 0.5,
+          "gi": 15,
+          "carbs_saved": 13,
+          "ratio": "2-3 large leaves per slice of bread",
+          "prep_notes": "Use butter lettuce, romaine hearts, or iceberg cups. Pat dry.",
+          "taste_impact": "Fresh, crisp. No bread flavor. Changes meal character entirely.",
+          "best_for": ["burgers", "tacos", "wraps", "sandwiches"],
+          "avoid_for": ["toast", "grilled cheese", "anything requiring toasting"]
+        },
+        {
+          "id": "cloud-bread",
+          "name": "Cloud bread (egg + cream cheese)",
+          "net_carbs_per_serving": 1,
+          "protein_per_serving": 4,
+          "fiber_per_serving": 0,
+          "gi": 0,
+          "carbs_saved": 13,
+          "ratio": "1 cloud bread round = 1 slice bread",
+          "prep_notes": "Separate 3 eggs. Beat whites to stiff peaks with 1/8 tsp cream of tartar. Fold in yolks blended with 3 oz cream cheese. Bake at 300F for 25-30 minutes.",
+          "taste_impact": "Light, eggy flavor. Slightly sweet. Not traditional bread.",
+          "best_for": ["sandwich bread substitute", "burger buns"],
+          "avoid_for": ["anything requiring sturdy bread structure"]
+        },
+        {
+          "id": "cheese-wraps",
+          "name": "Cheese wraps (baked cheese sheets)",
+          "net_carbs_per_serving": 0,
+          "protein_per_serving": 7,
+          "fiber_per_serving": 0,
+          "gi": 0,
+          "carbs_saved": 14,
+          "ratio": "1 cheese wrap = 1 tortilla/bread slice",
+          "prep_notes": "Bake thin layer of shredded cheese at 375F for 5-7 minutes until crispy. Cool slightly, then fold while still warm.",
+          "taste_impact": "Cheesy, savory. Very different from bread.",
+          "best_for": ["taco shells", "wraps", "sandwich wraps"],
+          "avoid_for": ["sweet applications", "dairy-free diets"],
+          "allergen_warning": "Contains dairy."
+        },
+        {
+          "id": "egg-wraps",
+          "name": "Egg wraps (thin omelet)",
+          "net_carbs_per_serving": 1,
+          "protein_per_serving": 6,
+          "fiber_per_serving": 0,
+          "gi": 0,
+          "carbs_saved": 13,
+          "ratio": "1 egg wrap = 1 tortilla",
+          "prep_notes": "Beat 1-2 eggs thin, cook as a crepe in buttered pan over medium heat.",
+          "taste_impact": "Mild egg flavor. Flexible and rollable.",
+          "best_for": ["wraps", "breakfast burritos", "sandwich rolls"],
+          "avoid_for": ["those with egg allergy"]
+        }
+      ]
+    },
+    "flour_substitutes": {
+      "label": "Flour Alternatives (for baking)",
+      "icon": "flour",
+      "detection_keywords": ["flour", "all-purpose flour", "white flour", "self-rising flour", "cake flour", "ap flour", "plain flour"],
+      "original": {
+        "name": "All-purpose flour",
+        "net_carbs_per_cup": 92,
+        "gi": 85
+      },
+      "substitutes": [
+        {
+          "id": "almond-flour",
+          "name": "Almond flour",
+          "net_carbs_per_cup": 12,
+          "protein_per_cup": 24,
+          "fiber_per_cup": 6,
+          "gi": 15,
+          "carbs_saved_per_cup": 80,
+          "ratio": "1:1 by volume (but denser result)",
+          "prep_notes": "Use blanched almond flour for lighter color and texture. Store refrigerated.",
+          "cooking_notes": "Reduce oven temp by 25F. Bakes denser, moister. Add extra egg for structure. May need 10-15% more almond flour than AP flour.",
+          "taste_impact": "Nutty, slightly sweet. Richer flavor.",
+          "texture_impact": "Denser, more moist than wheat flour. Crumbly without enough binding.",
+          "best_for": ["cookies", "muffins", "quick breads", "pancakes", "crusts", "breading"],
+          "avoid_for": ["yeast breads (no gluten)", "recipes needing light/airy texture"],
+          "baking_tips": "Add cream cheese or sour cream for moisture balance. Combine with oat fiber for lighter texture. Needs extra binding (eggs, xanthan gum).",
+          "allergen_warning": "Contains tree nuts (almonds)."
+        },
+        {
+          "id": "coconut-flour",
+          "name": "Coconut flour",
+          "net_carbs_per_cup": 24,
+          "protein_per_cup": 16,
+          "fiber_per_cup": 40,
+          "gi": 45,
+          "carbs_saved_per_cup": 68,
+          "ratio": "Use 1/4 to 1/3 cup coconut flour per 1 cup AP flour",
+          "prep_notes": "Sift before using. Extremely absorbent — will dry out recipes if used 1:1.",
+          "cooking_notes": "Add 1 extra egg per 1/4 cup coconut flour. Increase liquid by 50-100%. Let batter rest 5 minutes before baking (flour absorbs moisture slowly).",
+          "taste_impact": "Mild coconut flavor. Slightly sweet.",
+          "texture_impact": "Very dense if too much is used. Light and tender in proper ratio.",
+          "best_for": ["pancakes", "muffins", "combined with almond flour (3:1 almond:coconut blend)"],
+          "avoid_for": ["sole flour in any recipe (always combine)", "yeast breads"],
+          "baking_tips": "Best used as 25-33% of a flour blend with almond flour. The 3:1 almond-to-coconut ratio is widely recommended.",
+          "allergen_warning": "Contains coconut (classified as tree nut by FDA)."
+        },
+        {
+          "id": "lupin-flour",
+          "name": "Lupin flour",
+          "net_carbs_per_cup": 0,
+          "protein_per_cup": 48,
+          "fiber_per_cup": 36,
+          "gi": 0,
+          "carbs_saved_per_cup": 92,
+          "ratio": "Use 1:1 blended with almond flour (not alone)",
+          "prep_notes": "Slight bitterness — add sweetener or combine with other flours. Sift well.",
+          "cooking_notes": "Works best combined with almond flour 1:1. Do not use as sole flour.",
+          "taste_impact": "Slightly bitter if used alone. Neutral when blended.",
+          "texture_impact": "Soft, good for sponge cakes and flatbreads.",
+          "best_for": ["flatbreads", "tortillas", "blended flour recipes", "protein boost"],
+          "avoid_for": ["sole flour recipes", "delicate flavored baked goods"],
+          "allergen_warning": "Legume. Cross-reacts with peanut allergy in some people."
+        },
+        {
+          "id": "oat-fiber",
+          "name": "Oat fiber (NOT oat flour)",
+          "net_carbs_per_cup": 0,
+          "protein_per_cup": 0,
+          "fiber_per_cup": 48,
+          "gi": 0,
+          "carbs_saved_per_cup": 92,
+          "ratio": "Use 1-2 tbsp per recipe as texture booster, not main flour",
+          "prep_notes": "Pure insoluble fiber. Zero digestible carbs. Very different from oat flour (which is high carb).",
+          "cooking_notes": "Lightens dense almond flour recipes. Absorbs moisture. Use sparingly.",
+          "taste_impact": "Neutral, no flavor impact.",
+          "texture_impact": "Lightens dense baked goods. Prevents sogginess.",
+          "best_for": ["adding to almond flour recipes", "lightening dense batters", "fiber boost"],
+          "avoid_for": ["using as primary flour (too dry)"],
+          "note": "OAT FIBER is not the same as oat flour. Oat flour has ~67g net carbs per cup."
+        }
+      ]
+    },
+    "sugars_sweeteners": {
+      "label": "Sugars & Sweeteners",
+      "icon": "sweetener",
+      "detection_keywords": ["sugar", "white sugar", "granulated sugar", "brown sugar", "powdered sugar", "confectioners sugar", "cane sugar", "honey", "maple syrup", "corn syrup", "molasses", "agave", "syrup"],
+      "original": {
+        "name": "White sugar",
+        "net_carbs_per_cup": 200,
+        "gi": 65
+      },
+      "substitutes": [
+        {
+          "id": "allulose",
+          "name": "Allulose",
+          "net_carbs_per_cup": 0,
+          "gi": 0,
+          "carbs_saved_per_cup": 200,
+          "ratio": "Use 1 1/3 cups allulose per 1 cup sugar (70% as sweet)",
+          "sweetness_vs_sugar": 0.7,
+          "prep_notes": "Measures and behaves most like sugar. Browns, caramelizes, and dissolves like real sugar.",
+          "cooking_notes": "Best overall sugar substitute for baking. No cooling aftertaste. Does not crystallize.",
+          "taste_impact": "Closest to real sugar flavor. No aftertaste.",
+          "texture_impact": "Locks in moisture — creates moist, soft baked goods. May brown faster.",
+          "best_for": ["cookies", "cakes", "caramel", "ice cream", "sauces", "everything"],
+          "safety_notes": "FDA-approved. GI of 0. Body absorbs but does not metabolize — excreted unchanged. May cause digestive issues in large amounts (>50g at once).",
+          "recommended_first_choice": true
+        },
+        {
+          "id": "monk-fruit-blend",
+          "name": "Monk fruit sweetener (granulated blend)",
+          "net_carbs_per_cup": 0,
+          "gi": 0,
+          "carbs_saved_per_cup": 200,
+          "ratio": "1:1 cup for cup (most granulated blends like Lakanto)",
+          "sweetness_vs_sugar": 1.0,
+          "prep_notes": "Most commercial monk fruit sweeteners are blended with erythritol for bulk. Check label.",
+          "cooking_notes": "Cup-for-cup replacement in most recipes. Does not caramelize or brown like sugar.",
+          "taste_impact": "Clean sweetness. Slight aftertaste possible depending on brand.",
+          "texture_impact": "Does not add moisture like sugar. May need extra liquid.",
+          "best_for": ["general baking", "beverages", "sauces", "any recipe"],
+          "safety_notes": "Pure monk fruit: no known safety concerns. If blended with erythritol, see erythritol cardiovascular warning.",
+          "note": "Check if the blend contains erythritol — see safety warning."
+        },
+        {
+          "id": "erythritol",
+          "name": "Erythritol",
+          "net_carbs_per_cup": 0,
+          "gi": 1,
+          "carbs_saved_per_cup": 200,
+          "ratio": "Use 1 1/3 cups erythritol per 1 cup sugar (70% as sweet)",
+          "sweetness_vs_sugar": 0.7,
+          "prep_notes": "Dissolves in warm liquids. May crystallize in cold applications.",
+          "cooking_notes": "Does not brown or caramelize. Does not add moisture. Cooling sensation in large amounts.",
+          "taste_impact": "70% as sweet as sugar. Cooling aftertaste, especially in large amounts.",
+          "texture_impact": "Can be gritty if not dissolved. Dries out baked goods.",
+          "best_for": ["beverages", "frostings", "combined with other sweeteners"],
+          "avoid_for": ["caramel", "cold desserts (crystallizes)", "sole sweetener in large amounts"],
+          "safety_notes": "CARDIOVASCULAR WARNING: Cleveland Clinic studies (2023-2024, published in Nature Medicine and ATVB) found erythritol associated with increased risk of heart attack, stroke, and blood clots. Enhances platelet reactivity. FDA still classifies as GRAS, but lead researcher advises occasional small-amount sugar over regular erythritol use for people at elevated cardiovascular risk (heart disease, diabetes, metabolic syndrome). Use with caution.",
+          "cardiovascular_warning": true
+        },
+        {
+          "id": "stevia",
+          "name": "Stevia (liquid or powder extract)",
+          "net_carbs_per_cup": 0,
+          "gi": 0,
+          "carbs_saved_per_cup": 200,
+          "ratio": "1/4 cup stevia per 1 cup sugar (200-300x sweeter). Tiny amounts only.",
+          "sweetness_vs_sugar": 2.5,
+          "prep_notes": "Very concentrated — a little goes a long way. Liquid form is easiest for baking.",
+          "cooking_notes": "Does not provide bulk. Combine with allulose or erythritol for volume. May have slight herbal/licorice aftertaste.",
+          "taste_impact": "Very sweet. Some detect a bitter or licorice aftertaste.",
+          "texture_impact": "No bulk — baked goods need another ingredient for volume and structure.",
+          "best_for": ["beverages", "combined with bulking sweetener", "small additions"],
+          "avoid_for": ["sole sweetener in baking (no bulk)", "recipes requiring caramelization"],
+          "safety_notes": "FDA-approved. No known cardiovascular concerns. Long history of use."
+        },
+        {
+          "id": "sugar-free-maple-syrup",
+          "name": "Sugar-free maple syrup",
+          "net_carbs_per_tbsp": 0,
+          "gi": 0,
+          "carbs_saved_per_tbsp": 13,
+          "ratio": "1:1 for maple syrup",
+          "prep_notes": "Check ingredients — avoid brands with maltitol (can spike blood sugar and cause GI issues).",
+          "taste_impact": "Maple flavor preserved. Quality varies by brand.",
+          "best_for": ["replacing maple syrup", "pancakes", "glazes"],
+          "avoid_for": ["recipes requiring real maple syrup's caramelization properties"]
+        }
+      ]
+    },
+    "potatoes_starches": {
+      "label": "Potatoes & Starches",
+      "icon": "potato",
+      "detection_keywords": ["potato", "potatoes", "mashed potatoes", "baked potato", "french fries", "hash browns", "hashbrowns", "tater tots", "potato chips", "potato salad", "scalloped potatoes", "au gratin"],
+      "original": {
+        "name": "White potato",
+        "net_carbs_per_cup": 33,
+        "gi": 82
+      },
+      "substitutes": [
+        {
+          "id": "mashed-cauliflower",
+          "name": "Mashed cauliflower",
+          "net_carbs_per_cup": 3,
+          "protein_per_cup": 2,
+          "fiber_per_cup": 2,
+          "gi": 15,
+          "carbs_saved_per_cup": 30,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Steam or boil cauliflower until very tender. Drain well. Mash with cream cheese, butter, garlic for richness.",
+          "cooking_notes": "Key to success: drain ALL water. Use cream cheese or sour cream for body. Season generously.",
+          "taste_impact": "Milder than potato. Needs robust seasoning. Add roasted garlic for depth.",
+          "texture_impact": "Smoother than mashed potatoes when blended. Less starchy mouthfeel.",
+          "best_for": ["mashed potatoes", "potato soup base", "shepherd's pie topping"],
+          "avoid_for": ["baked potatoes", "potato salad"],
+          "moisture_warning": "Will be watery if not drained properly. Squeeze in towel after steaming."
+        },
+        {
+          "id": "mashed-turnips",
+          "name": "Mashed turnips",
+          "net_carbs_per_cup": 6,
+          "protein_per_cup": 1,
+          "fiber_per_cup": 3,
+          "gi": 30,
+          "carbs_saved_per_cup": 27,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Peel, cube, boil until tender (about 20 minutes). Drain and mash with butter.",
+          "cooking_notes": "Slightly peppery raw, mellows when cooked. Mix 50/50 with cauliflower for best flavor.",
+          "taste_impact": "Slightly peppery, earthy. More assertive than cauliflower.",
+          "best_for": ["mashed potatoes substitute", "pot pies", "soups"],
+          "avoid_for": ["delicate dishes where turnip flavor would dominate"]
+        },
+        {
+          "id": "jicama-fries",
+          "name": "Jicama fries",
+          "net_carbs_per_cup": 5,
+          "protein_per_cup": 1,
+          "fiber_per_cup": 6,
+          "gi": 12,
+          "carbs_saved_per_cup": 35,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Peel jicama, cut into fry shapes. Toss with oil and seasonings.",
+          "cooking_notes": "Bake at 425F for 25-30 minutes, flipping halfway. Slightly crispy outside, tender inside.",
+          "taste_impact": "Mildly sweet, crunchy. Not exactly potato, but satisfying.",
+          "best_for": ["french fries", "roasted vegetables"],
+          "avoid_for": ["mashed potatoes", "hash browns"]
+        },
+        {
+          "id": "rutabaga-fries",
+          "name": "Rutabaga fries",
+          "net_carbs_per_cup": 7,
+          "protein_per_cup": 1.5,
+          "fiber_per_cup": 3,
+          "gi": 35,
+          "carbs_saved_per_cup": 26,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Peel (thick skin), cut into fry shapes. Parboil 5 minutes for crispier result.",
+          "cooking_notes": "Roast at 425F for 30-35 minutes. Gets crispy and golden.",
+          "taste_impact": "Slightly earthy, mildly sweet. Closest to potato fry in taste.",
+          "best_for": ["french fries", "roasted sides", "hash browns"],
+          "avoid_for": ["mashed applications (use cauliflower instead)"]
+        },
+        {
+          "id": "radish-hash-browns",
+          "name": "Radish hash browns",
+          "net_carbs_per_cup": 2,
+          "protein_per_cup": 1,
+          "fiber_per_cup": 1,
+          "gi": 15,
+          "carbs_saved_per_cup": 30,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Grate radishes, squeeze out moisture in towel. Season before cooking.",
+          "cooking_notes": "Cook in butter over medium-high heat until golden (8-10 minutes). Radish pepperness mellows significantly when cooked.",
+          "taste_impact": "Mild when cooked — raw peppery bite disappears. Surprisingly potato-like.",
+          "best_for": ["hash browns", "home fries", "breakfast patties"],
+          "avoid_for": ["mashed potatoes"]
+        }
+      ]
+    },
+    "thickeners": {
+      "label": "Thickeners (for sauces & gravies)",
+      "icon": "thickener",
+      "detection_keywords": ["flour for thickening", "cornstarch", "corn starch", "roux", "gravy", "thicken", "slurry"],
+      "original": {
+        "name": "Flour or cornstarch",
+        "net_carbs_per_tbsp": 6,
+        "gi": 90
+      },
+      "substitutes": [
+        {
+          "id": "xanthan-gum",
+          "name": "Xanthan gum",
+          "net_carbs_per_serving": 0,
+          "gi": 0,
+          "ratio": "1/2 tsp xanthan gum replaces 1 tbsp cornstarch, or thickens 3 cups liquid",
+          "prep_notes": "Sprinkle very slowly into liquid while whisking vigorously. Clumps easily.",
+          "cooking_notes": "Does NOT need heat to activate — works at any temperature. Add tiny amounts; too much creates slimy texture.",
+          "taste_impact": "Flavorless when used in small amounts.",
+          "texture_impact": "Smooth, glossy. Can become slimy or gummy if overused.",
+          "best_for": ["sauces", "gravies", "soups", "smoothies", "cold sauces"],
+          "avoid_for": ["recipes needing opaque flour-like thickening"],
+          "warning": "Use sparingly. Start with 1/4 tsp and increase. Overuse creates rubbery, unpleasant texture."
+        },
+        {
+          "id": "guar-gum",
+          "name": "Guar gum",
+          "net_carbs_per_serving": 0,
+          "gi": 0,
+          "ratio": "1/8 tsp guar gum replaces 1 tsp cornstarch. Mix with oil before adding to liquid.",
+          "prep_notes": "Mix with the oil or fat in the recipe first, then add this mixture to the liquid. Prevents clumping.",
+          "cooking_notes": "Works best in dairy-based sauces. Very powerful — tiny amounts needed.",
+          "taste_impact": "Neutral flavor.",
+          "texture_impact": "Smooth, creamy. Especially good for dairy-forward dishes.",
+          "best_for": ["cream sauces", "ice cream", "dairy-based soups", "smoothies"],
+          "avoid_for": ["clear sauces (can make slightly cloudy)"],
+          "warning": "Extremely powerful. 1/16th the amount of flour needed. Too much creates paste."
+        },
+        {
+          "id": "glucomannan",
+          "name": "Glucomannan (konjac powder)",
+          "net_carbs_per_serving": 0,
+          "gi": 0,
+          "ratio": "1/4 tsp glucomannan replaces 2 tsp cornstarch",
+          "prep_notes": "Seizes instantly in any liquid — use immersion blender while adding. Cannot be stirred in by hand.",
+          "cooking_notes": "Works in hot or cold liquids. Add slowly while blending. Sets up quickly.",
+          "taste_impact": "Neutral flavor.",
+          "texture_impact": "Thick, gel-like. Good for stews and thick sauces.",
+          "best_for": ["stews", "thick sauces", "pot pies", "chili"],
+          "avoid_for": ["thin, delicate sauces"],
+          "warning": "Must use blender. Seizes immediately — cannot be stirred in. Start with tiny amount."
+        }
+      ]
+    },
+    "breadcrumbs_coatings": {
+      "label": "Breadcrumbs & Coatings",
+      "icon": "coating",
+      "detection_keywords": ["breadcrumbs", "bread crumbs", "panko", "coating", "breaded", "breading", "crusted"],
+      "original": {
+        "name": "Breadcrumbs",
+        "net_carbs_per_cup": 75,
+        "gi": 74
+      },
+      "substitutes": [
+        {
+          "id": "pork-rind-crumbs",
+          "name": "Crushed pork rinds",
+          "net_carbs_per_cup": 0,
+          "protein_per_cup": 36,
+          "gi": 0,
+          "carbs_saved_per_cup": 75,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Crush pork rinds in a bag with rolling pin or pulse in food processor.",
+          "cooking_notes": "Browns quickly — watch closely. Season well. Very crunchy.",
+          "taste_impact": "Savory, porky. Great for fried chicken and schnitzel.",
+          "best_for": ["fried chicken", "pork chops", "mozzarella sticks", "casserole topping"],
+          "avoid_for": ["sweet applications", "vegetarian dishes"]
+        },
+        {
+          "id": "almond-meal-coating",
+          "name": "Almond meal/flour",
+          "net_carbs_per_cup": 12,
+          "protein_per_cup": 24,
+          "gi": 15,
+          "carbs_saved_per_cup": 63,
+          "ratio": "1:1 by volume",
+          "prep_notes": "Almond meal (coarser) works better than fine almond flour for coatings.",
+          "cooking_notes": "Burns faster than breadcrumbs — reduce heat slightly. Season generously.",
+          "taste_impact": "Nutty, slightly sweet. Good with herbs.",
+          "best_for": ["fish", "chicken", "vegetables", "casserole toppings"],
+          "avoid_for": ["nut-allergic individuals"],
+          "allergen_warning": "Contains tree nuts."
+        },
+        {
+          "id": "parmesan-crust",
+          "name": "Grated Parmesan cheese",
+          "net_carbs_per_cup": 4,
+          "protein_per_cup": 42,
+          "gi": 0,
+          "carbs_saved_per_cup": 71,
+          "ratio": "1:1 by volume (or mix 50/50 with almond meal)",
+          "prep_notes": "Use finely grated. Can mix with herbs and spices.",
+          "cooking_notes": "Browns beautifully. Watch closely — can burn quickly.",
+          "taste_impact": "Rich, savory, umami. Adds flavor as well as crunch.",
+          "best_for": ["chicken parmesan", "fish", "vegetable gratin", "casserole topping"],
+          "avoid_for": ["dairy-free diets"]
+        }
+      ]
+    },
+    "tortillas_wraps": {
+      "label": "Tortillas & Wraps",
+      "icon": "wrap",
+      "detection_keywords": ["tortilla", "tortillas", "wrap", "wraps", "taco shells", "burrito"],
+      "original": {
+        "name": "Flour tortilla (8-inch)",
+        "net_carbs_per_tortilla": 24,
+        "gi": 30
+      },
+      "substitutes": [
+        {
+          "id": "low-carb-tortilla",
+          "name": "Low-carb tortilla (commercial)",
+          "net_carbs_per_serving": 4,
+          "fiber_per_serving": 15,
+          "gi": 10,
+          "carbs_saved": 20,
+          "ratio": "1:1",
+          "prep_notes": "Many brands available (Mission Carb Balance, La Banderita, etc.). Check net carbs on label.",
+          "taste_impact": "Very close to regular tortilla. Some brands slightly denser.",
+          "best_for": ["burritos", "wraps", "quesadillas", "enchiladas"],
+          "availability": "most grocery stores"
+        },
+        {
+          "id": "cheese-shell",
+          "name": "Cheese taco shell",
+          "net_carbs_per_serving": 0,
+          "protein_per_serving": 7,
+          "gi": 0,
+          "carbs_saved": 24,
+          "ratio": "1 cheese shell = 1 taco shell",
+          "prep_notes": "Place small piles of shredded cheese on baking sheet. Bake at 375F for 5-7 minutes until edges are golden. Drape over dowel while warm to shape.",
+          "taste_impact": "Crunchy, cheesy. Very different from flour tortilla but delicious.",
+          "best_for": ["tacos", "taco salad bowls"],
+          "avoid_for": ["soft wraps", "burritos"]
+        }
+      ]
+    }
+  },
+  "blood_sugar_tips": {
+    "general": [
+      "Pair carbs with protein, fat, or fiber to slow absorption",
+      "Eat protein and vegetables BEFORE carbs in a meal to reduce blood sugar spikes",
+      "Walking for 10-15 minutes after eating helps lower post-meal blood sugar",
+      "Vinegar (1-2 tbsp in water before meals) may help reduce blood sugar spikes",
+      "Cold/reheated starches (rice, potatoes) form resistant starch with lower GI",
+      "Spread carbs evenly across meals rather than loading one meal",
+      "Monitor blood sugar when trying new substitutions — individual responses vary"
+    ],
+    "baking_specific": [
+      "Mix two sweeteners to balance taste (e.g., allulose + stevia) and reduce any one sweetener's side effects",
+      "Add extra egg or egg yolk for structure when replacing wheat flour",
+      "Use xanthan gum (1/4 tsp per cup alternative flour) for binding without gluten",
+      "Reduce oven temperature by 25F when baking with almond flour (browns faster)",
+      "Add cream cheese, sour cream, or Greek yogurt for moisture when baking without sugar",
+      "Let coconut flour batters rest 5 minutes before baking (it absorbs moisture slowly)"
+    ]
+  },
+  "warning_categories": {
+    "allergen": {
+      "icon": "allergy",
+      "color": "#e91e63",
+      "label": "Allergen Alert"
+    },
+    "cardiovascular": {
+      "icon": "heart",
+      "color": "#f44336",
+      "label": "Cardiovascular Concern"
+    },
+    "digestive": {
+      "icon": "stomach",
+      "color": "#ff9800",
+      "label": "Digestive Note"
+    },
+    "medication": {
+      "icon": "medication",
+      "color": "#9c27b0",
+      "label": "Medication Interaction"
+    },
+    "texture": {
+      "icon": "texture",
+      "color": "#2196f3",
+      "label": "Texture Change"
+    },
+    "taste": {
+      "icon": "taste",
+      "color": "#4caf50",
+      "label": "Taste Change"
+    },
+    "moisture": {
+      "icon": "moisture",
+      "color": "#00bcd4",
+      "label": "Moisture Warning"
+    }
+  }
+}
