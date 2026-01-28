@@ -5955,11 +5955,523 @@ kbd {
   border: 1px solid #e5e7eb;
 }
 
+/* ============================================================
+   Diabetic-Friendly Converter Panel
+   ============================================================ */
+.diabetic-panel {
+  margin: 1.5rem 0;
+  border: 2px solid #2196f3;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.diabetic-panel[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.diabetic-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  cursor: pointer;
+  font-weight: 600;
+  color: #1565c0;
+  list-style: none;
+  user-select: none;
+}
+
+.diabetic-header::-webkit-details-marker {
+  display: none;
+}
+
+.diabetic-header:hover {
+  background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+}
+
+.diabetic-icon {
+  display: flex;
+  align-items: center;
+  color: #1565c0;
+}
+
+.diabetic-title {
+  font-size: 1rem;
+}
+
+.diabetic-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #1976d2;
+  margin-left: auto;
+}
+
+.diabetic-header .chevron {
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+  color: #1976d2;
+  margin-left: 0.5rem;
+}
+
+.diabetic-content {
+  padding: 1rem 1.25rem;
+}
+
+.diabetic-intro {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Carb Meter */
+.carb-meter {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+}
+
+.carb-meter-no-data {
+  background: #fff8e1;
+  border-color: #ffecb3;
+}
+
+.carb-meter-no-data .carb-meter-label {
+  color: #f57f17;
+  font-size: 0.85rem;
+}
+
+.carb-meter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.carb-meter-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.carb-meter-target {
+  font-size: 0.8rem;
+  color: #757575;
+}
+
+.carb-meter-bar-container {
+  position: relative;
+  height: 12px;
+  background: #e0e0e0;
+  border-radius: 6px;
+  overflow: visible;
+  margin-bottom: 0.5rem;
+}
+
+.carb-meter-bar {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.5s ease;
+}
+
+.carb-over .carb-meter-bar {
+  background: linear-gradient(90deg, #ff9800 0%, #f44336 100%);
+}
+
+.carb-under .carb-meter-bar {
+  background: linear-gradient(90deg, #66bb6a 0%, #4caf50 100%);
+}
+
+.carb-meter-threshold {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 2px;
+  background: #333;
+  border-radius: 1px;
+}
+
+.carb-meter-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.carb-value-current {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.carb-number {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.carb-label {
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.carb-over-badge {
+  background: #ffebee;
+  color: #c62828;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.carb-under-badge {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.carb-detail-row {
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  color: #757575;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Flagged Ingredient Cards */
+.diabetic-flagged-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.diabetic-ingredient-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.diabetic-ingredient-card[open] {
+  border-color: #90caf9;
+  background: #fff;
+}
+
+.diabetic-ingredient-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  flex-wrap: wrap;
+}
+
+.diabetic-ingredient-header::-webkit-details-marker {
+  display: none;
+}
+
+.diabetic-ingredient-header:hover {
+  background: #f0f7ff;
+}
+
+.diabetic-ingredient-card[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.diabetic-ingredient-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.diabetic-category-badge {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.gi-badge {
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.gi-badge-small {
+  color: #fff;
+  padding: 0.05rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.diabetic-ingredient-header .chevron-small {
+  font-size: 0.6rem;
+  color: #999;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.diabetic-ingredient-content {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.diabetic-original-info {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background: #fff3e0;
+  border-radius: 4px;
+  border-left: 3px solid #ff9800;
+}
+
+/* Substitute Options */
+.diabetic-substitutes {
+  margin-top: 0.5rem;
+}
+
+.diabetic-sub-heading {
+  font-size: 0.85rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.diabetic-sub-option {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.diabetic-sub-option:hover {
+  border-color: #90caf9;
+}
+
+.diabetic-sub-option.diabetic-recommended {
+  border-color: #4caf50;
+  background: #f1f8e9;
+}
+
+.diabetic-sub-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.diabetic-sub-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.diabetic-recommended-badge {
+  background: #4caf50;
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.diabetic-sub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-item {
+  background: #f5f5f5;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.stat-saved {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.diabetic-sub-details {
+  font-size: 0.82rem;
+  color: #555;
+  line-height: 1.55;
+}
+
+.diabetic-sub-details p {
+  margin: 0.25rem 0;
+}
+
+.diabetic-sub-details strong {
+  color: #333;
+}
+
+/* Warnings */
+.diabetic-warning {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.diabetic-warning-cardio {
+  background: #ffebee;
+  border-left: 3px solid #f44336;
+  color: #b71c1c;
+}
+
+.diabetic-warning-allergen {
+  background: #fce4ec;
+  border-left: 3px solid #e91e63;
+  color: #880e4f;
+}
+
+.diabetic-warning-moisture {
+  background: #e0f7fa;
+  border-left: 3px solid #00bcd4;
+  color: #006064;
+}
+
+.diabetic-warning-general {
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+  color: #e65100;
+}
+
+/* Blood Sugar Tips */
+.diabetic-tips-section {
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #f9fbe7;
+}
+
+.diabetic-tips-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #33691e;
+  list-style: none;
+}
+
+.diabetic-tips-header::-webkit-details-marker {
+  display: none;
+}
+
+.diabetic-tips-header:hover {
+  background: #f0f4c3;
+}
+
+.diabetic-tips-section[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.diabetic-tips-icon {
+  display: flex;
+  align-items: center;
+  color: #558b2f;
+}
+
+.diabetic-tips-list {
+  padding: 0.25rem 1rem 0.75rem 2rem;
+  font-size: 0.82rem;
+  color: #33691e;
+  line-height: 1.6;
+}
+
+.diabetic-tips-list li {
+  margin-bottom: 0.3rem;
+}
+
+/* Disclaimer */
+.diabetic-disclaimer {
+  margin-top: 1rem;
+  padding: 0.65rem 0.85rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  color: #757575;
+  border: 1px solid #e0e0e0;
+  line-height: 1.5;
+}
+
+.diabetic-disclaimer strong {
+  color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .diabetic-header {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .diabetic-count {
+    margin-left: 0;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .carb-meter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .carb-meter-values {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .diabetic-sub-stats {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .diabetic-ingredient-header {
+    gap: 0.3rem;
+  }
+
+  .diabetic-sub-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+}
+
 /* Print styles - hide health panel and milk substitution panel */
 @media print {
   .health-considerations,
   .milk-substitution-panel,
-  .substitution-panel {
+  .substitution-panel,
+  .diabetic-panel {
     display: none !important;
   }
 }
