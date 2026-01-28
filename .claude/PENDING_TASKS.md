@@ -8,9 +8,10 @@ This file tracks future development tasks, feature requests, and research items 
 
 ### Protein & Vegetable Substitution Tool
 
-**Status:** Data Foundation Complete - UI Implementation Pending
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
 **Updated:** 2026-01-28
+**Completed:** 2026-01-28
 **Complexity:** High
 
 Create an interactive tool that helps users substitute proteins or vegetables in recipes, with guidance on how substitutions affect the final dish.
@@ -38,7 +39,23 @@ Contains comprehensive substitution data for:
 - [Cook Smarts Ingredient Substitutions](https://www.cooksmarts.com/articles/substitute-ingredients-meat-cuts-and-seafood/)
 - [America's Test Kitchen - Salting Watery Vegetables](https://www.americastestkitchen.com/articles/4102-why-you-should-salt-watery-vegetables-before-cooking)
 
-#### Next Steps: UI Implementation
+**UI Implementation complete:** `protein-substitution.js` (452 lines)
+
+Files modified:
+- `protein-substitution.js` — New module: detects proteins/fish/shellfish/high-moisture vegetables in recipe ingredients, renders collapsible substitution panel
+- `recipe.html` — Added script tag for protein-substitution.js
+- `script.js` — Added initialization, container placement, and rendering integration
+- `styles.css` — Added ~330 lines of retro-kitchen-styled CSS for substitution panel
+
+Features:
+- Detects meat proteins, fish (with mercury warnings), shellfish, high-moisture vegetables
+- Shows substitution options with ratios, cook time adjustments, flavor notes
+- Safe cooking temperature badges
+- Moisture mitigation tips for watery vegetables
+- Collapsible `<details>` element, closed by default
+- Consistent 1950s retro kitchen styling
+
+#### Reference: Original Requirements
 
 #### Requirements
 
@@ -1549,6 +1566,7 @@ Automatically estimate recipe difficulty based on:
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| **Protein & Vegetable Substitution Tool** | 2026-01-28 | Full UI: data + detection + collapsible panel with substitution options |
 | **Implement Health Safeguards UI** | 2026-01-28 | Collapsible panel with drug-food interactions, allergens, severity levels |
 | Process 754 oversized reference images | 2026-01-25 | Resized to <2000px in data/all/processed/ |
 | Add documentation rules to CLAUDE.md | 2026-01-25 | Document everything, 100-image limit, commit/push |
