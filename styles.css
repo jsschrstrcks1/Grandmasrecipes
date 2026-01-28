@@ -5630,10 +5630,336 @@ kbd {
   border: 1px solid #e5e7eb;
 }
 
+/* =============================================================================
+   Protein & Vegetable Substitution Panel - 1950s Retro Kitchen Style
+   ============================================================================= */
+
+.substitution-panel {
+  margin: 1.5rem 0;
+  border: 2px solid var(--color-teal);
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-warm-white) 100%);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.substitution-panel[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.substitution-header {
+  padding: 0.875rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  user-select: none;
+  list-style: none;
+  background: linear-gradient(180deg, var(--color-teal-light) 0%, #e0f2f1 100%);
+  border-radius: 10px 10px 0 0;
+  font-family: var(--font-heading);
+}
+
+.substitution-panel:not([open]) .substitution-header {
+  border-radius: 10px;
+}
+
+.substitution-header::-webkit-details-marker {
+  display: none;
+}
+
+.substitution-header:hover {
+  background: linear-gradient(180deg, #a7d7d4 0%, #b2dfdb 100%);
+}
+
+.substitution-icon {
+  font-size: 1.3rem;
+}
+
+.substitution-title {
+  color: var(--color-teal-dark);
+  font-size: 1.1rem;
+}
+
+.substitution-count {
+  color: var(--color-text-light);
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.substitution-header .chevron {
+  margin-left: auto;
+  transition: transform 0.2s;
+  color: var(--color-teal-dark);
+}
+
+.substitution-content {
+  padding: 1rem 1.25rem;
+}
+
+.substitution-intro {
+  margin: 0 0 1rem 0;
+  color: var(--color-text-light);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.substitution-section {
+  margin: 1rem 0;
+}
+
+.substitution-section-title {
+  font-family: var(--font-heading);
+  color: var(--color-teal-dark);
+  font-size: 1rem;
+  margin: 0 0 0.75rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dotted var(--color-teal-light);
+}
+
+.moisture-intro {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin: -0.5rem 0 0.75rem 0;
+}
+
+/* Protein Cards */
+.protein-card,
+.vegetable-card {
+  margin: 0.5rem 0;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: white;
+  overflow: hidden;
+}
+
+.protein-card[open],
+.vegetable-card[open] {
+  border-color: var(--color-teal);
+  box-shadow: 0 2px 8px rgba(77, 182, 172, 0.2);
+}
+
+.protein-card-header,
+.vegetable-card-header {
+  padding: 0.625rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  background: #fafafa;
+  transition: background-color 0.15s;
+}
+
+.protein-card-header::-webkit-details-marker,
+.vegetable-card-header::-webkit-details-marker {
+  display: none;
+}
+
+.protein-card-header:hover,
+.vegetable-card-header:hover {
+  background: var(--color-teal-light);
+}
+
+.protein-name,
+.vegetable-name {
+  font-weight: 600;
+  color: var(--color-charcoal);
+}
+
+.safe-temp-badge {
+  background: var(--color-teal);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.moisture-badge {
+  background: var(--color-butter);
+  color: var(--color-charcoal);
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.chevron-small {
+  margin-left: auto;
+  transition: transform 0.2s;
+  color: var(--color-text-light);
+  font-size: 0.8rem;
+}
+
+.protein-card[open] .chevron-small,
+.vegetable-card[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.protein-card-content,
+.vegetable-card-content {
+  padding: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+/* Protein Characteristics */
+.protein-characteristics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.char-item {
+  font-size: 0.85rem;
+  color: var(--color-text);
+}
+
+.char-item strong {
+  color: var(--color-teal-dark);
+}
+
+/* Mercury Warnings */
+.mercury-badge {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.mercury-warning-low {
+  background: #d4edda;
+  border: 1px solid #28a745;
+  color: #155724;
+}
+
+.mercury-warning-moderate {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  color: #856404;
+}
+
+.mercury-warning-high {
+  background: #f8d7da;
+  border: 1px solid #dc3545;
+  color: #721c24;
+}
+
+/* Substitutes List */
+.substitutes-list h5 {
+  font-family: var(--font-heading);
+  color: var(--color-teal-dark);
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+}
+
+.substitute-option {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  background: linear-gradient(135deg, #f0f9f8 0%, #f7fffe 100%);
+  border: 1px solid #e0f2f1;
+  border-radius: 8px;
+  border-left: 3px solid var(--color-teal);
+}
+
+.substitute-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.substitute-name {
+  font-weight: 600;
+  color: var(--color-charcoal);
+  font-size: 0.95rem;
+}
+
+.substitute-ratio {
+  background: var(--color-chrome);
+  color: var(--color-charcoal);
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.substitute-details p {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+  color: var(--color-text);
+}
+
+.substitute-details strong {
+  color: var(--color-text-light);
+}
+
+.substitute-tip {
+  font-style: italic;
+}
+
+.substitute-best-for {
+  color: var(--color-teal-dark) !important;
+}
+
+/* Vegetable Cards */
+.vegetable-warning {
+  padding: 0.5rem 0.75rem;
+  background: #fff8e1;
+  border: 1px solid var(--color-butter);
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.vegetable-warning strong {
+  color: #f57c00;
+}
+
+.mitigation-section {
+  padding: 0.75rem;
+  background: #e8f5e9;
+  border-radius: 6px;
+}
+
+.mitigation-section strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+  font-size: 0.9rem;
+}
+
+.mitigation-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.mitigation-list li {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+  color: var(--color-text);
+}
+
+/* Disclaimer */
+.substitution-disclaimer {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #f9fafb;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+}
+
 /* Print styles - hide health panel and milk substitution panel */
 @media print {
   .health-considerations,
-  .milk-substitution-panel {
+  .milk-substitution-panel,
+  .substitution-panel {
     display: none !important;
   }
 }
