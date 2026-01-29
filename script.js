@@ -275,6 +275,26 @@ async function init() {
     }
   }
 
+  // Initialize Protein Substitution Tool
+  if (typeof ProteinSubstitution !== 'undefined') {
+    try {
+      await ProteinSubstitution.loadData();
+      console.log('Protein substitution tool initialized');
+    } catch (e) {
+      console.warn('Protein substitution tool not available:', e.message);
+    }
+  }
+
+  // Initialize Diabetic-Friendly Converter
+  if (typeof DiabeticConverter !== 'undefined') {
+    try {
+      await DiabeticConverter.loadData();
+      console.log('Diabetic converter initialized');
+    } catch (e) {
+      console.warn('Diabetic converter not available:', e.message);
+    }
+  }
+
   handleRouting();
 }
 
@@ -4734,6 +4754,12 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       <!-- Health Considerations Panel -->
       ${renderHealthPanel(healthWarnings)}
 
+      <!-- Protein & Vegetable Substitution Panel -->
+      <div id="protein-substitution-container"></div>
+
+      <!-- Diabetic-Friendly Converter Panel -->
+      <div id="diabetic-converter-container"></div>
+
       <!-- Milk Substitution Calculator (for cheesemaking recipes) -->
       <div id="milk-substitution-container"></div>
 
@@ -4802,6 +4828,36 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
     const milkContainer = document.getElementById('milk-substitution-container');
     if (milkContainer && MilkSubstitution.isCheeseRecipe(recipe)) {
       MilkSubstitution.renderMilkSwitcher(recipe, 'milk-substitution-container');
+    }
+  }
+
+  // Render Protein Substitution Panel
+  if (typeof ProteinSubstitution !== 'undefined') {
+    const proteinContainer = document.getElementById('protein-substitution-container');
+    if (proteinContainer) {
+      try {
+        const analysis = await ProteinSubstitution.analyzeRecipe(recipe);
+        if (analysis.hasSubstitutions) {
+          proteinContainer.innerHTML = ProteinSubstitution.renderSubstitutionPanel(analysis);
+        }
+      } catch (e) {
+        console.warn('Protein substitution panel error:', e.message);
+      }
+    }
+  }
+
+  // Render Diabetic-Friendly Converter Panel
+  if (typeof DiabeticConverter !== 'undefined') {
+    const diabeticContainer = document.getElementById('diabetic-converter-container');
+    if (diabeticContainer) {
+      try {
+        const analysis = DiabeticConverter.analyzeRecipe(recipe);
+        if (analysis.hasFlaggedIngredients) {
+          diabeticContainer.innerHTML = DiabeticConverter.renderPanel(analysis);
+        }
+      } catch (e) {
+        console.warn('Diabetic converter panel error:', e.message);
+      }
     }
   }
 }
