@@ -1572,14 +1572,50 @@ async function displayRecipe(recipe) {
 
 ### Recipe Scaling Intelligence
 
-**Status:** Planned
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Completed:** 2026-01-29
+**Complexity:** Medium
 
 Improve recipe scaling beyond simple multiplication:
 - Spice/seasoning scaling (often non-linear)
 - Pan size recommendations for scaled recipes
 - Cooking time adjustments for larger batches
 - Warnings for recipes that don't scale well (soufflés, etc.)
+
+#### Implementation Complete (2026-01-29)
+
+**Files created/modified:**
+- `data/scaling-rules.json` - Comprehensive scaling intelligence database
+- `scaling-intelligence.js` - JavaScript module for intelligent scaling analysis
+- `styles.css` - Brown/tan themed panel styles for scaling tips
+- `recipe.html` - Script tag added
+- `script.js` - Initialization and rendering integration
+
+**Data foundation includes:**
+- **Spice scaling categories:** Salt (0.6 exponent), hot spices (0.5), aromatic spices (0.7), dried herbs (0.75), fresh herbs (0.85), garlic/onion (0.8), vanilla/extracts (0.7), leavening (0.9), acidic ingredients (0.75), sweeteners (0.95)
+- **Danger thresholds:** Warnings when scaling hot spices 2×+, salt 4×+, leavening 3×+
+- **Pan size recommendations:** Cookies, cakes (round), brownies/bars, casseroles, bread loaves - with specific recommendations for 0.5×, 1×, 2×, 4× scaling
+- **Pan equivalents:** Area and volume conversions for common pan sizes
+- **Cooking time adjustments:** Stovetop liquids, sauteing (batch warnings), oven baking, deep frying, slow cooker, pressure cooker, meat roasting
+- **Scaling warnings - Don't Scale Well:** Soufflés, meringues, custards/flans, yeast breads (2×+ warning), candy/confections, emulsions, deep fried items, cheese sauces
+- **Scaling Down Warnings:** Minimum yeast, minimum eggs (half-egg tip), minimum leavening
+
+**UI features:**
+- Collapsible "Scaling Tips" panel with brown/tan color scheme
+- Appears only when scale ≠ 1× and has relevant tips
+- Sections for:
+  - Scaling Warnings (high/medium/low severity with color coding)
+  - Spice & Seasoning Adjustments (shows recommended multiplier vs linear, reduction %)
+  - Pan Size Recommendations (contextual based on recipe category)
+  - Cooking Time Notes (method-specific guidance)
+- Always taste-and-adjust reminder
+
+**Research sources:**
+- [America's Test Kitchen - The Science of Good Cooking](https://www.americastestkitchen.com/)
+- [Serious Eats - Recipe Scaling Guide](https://www.seriouseats.com/)
+- [King Arthur Baking - Scaling Recipes](https://www.kingarthurbaking.com/)
+- [USDA Food Safety Guidelines](https://www.fsis.usda.gov/)
 
 ---
 
@@ -1663,6 +1699,7 @@ Automatically estimate recipe difficulty based on:
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| **Recipe Scaling Intelligence** | 2026-01-29 | Non-linear spice scaling, pan size recommendations, cooking time adjustments, scaling warnings |
 | **Heart-Smart Recipe Converter** | 2026-01-29 | Full UI: data + detection + collapsible panel with health meters, substitutions, flavor tips, safety warnings |
 | **Protein & Vegetable Substitution Tool** | 2026-01-28 | Full UI: data + detection + collapsible panel with substitution options |
 | **Implement Health Safeguards UI** | 2026-01-28 | Collapsible panel with drug-food interactions, allergens, severity levels |

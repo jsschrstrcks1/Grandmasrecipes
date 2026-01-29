@@ -305,6 +305,16 @@ async function init() {
     }
   }
 
+  // Initialize Scaling Intelligence
+  if (typeof ScalingIntelligence !== 'undefined') {
+    try {
+      await ScalingIntelligence.loadData();
+      console.log('Scaling intelligence initialized');
+    } catch (e) {
+      console.warn('Scaling intelligence not available:', e.message);
+    }
+  }
+
   handleRouting();
 }
 
@@ -1342,6 +1352,7 @@ function renderScalingControls(recipe) {
       </div>
       ${servings ? `<span class="scaling-servings">${getScaledServings(servings, recipeScale)}</span>` : ''}
     </div>
+    <div id="scaling-intelligence-container"></div>
   `;
 }
 
@@ -4835,6 +4846,26 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       }
     });
   });
+
+  // Render Scaling Intelligence Panel
+  if (typeof ScalingIntelligence !== 'undefined') {
+    const scalingContainer = document.getElementById('scaling-intelligence-container');
+    if (scalingContainer) {
+      try {
+        ScalingIntelligence.getScalingAnalysis(recipe, recipeScale).then(analysis => {
+          if (analysis.hasIntelligence) {
+            scalingContainer.innerHTML = ScalingIntelligence.renderScalingIntelligencePanel(analysis);
+          } else {
+            scalingContainer.innerHTML = '';
+          }
+        }).catch(e => {
+          console.warn('Scaling intelligence panel error:', e.message);
+        });
+      } catch (e) {
+        console.warn('Scaling intelligence panel error:', e.message);
+      }
+    }
+  }
 
   // Render Milk Substitution Calculator for cheesemaking recipes
   if (typeof MilkSubstitution !== 'undefined') {
