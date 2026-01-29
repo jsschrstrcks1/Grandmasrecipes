@@ -8,11 +8,54 @@ This file tracks future development tasks, feature requests, and research items 
 
 ### Protein & Vegetable Substitution Tool
 
-**Status:** Research Required
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Updated:** 2026-01-28
+**Completed:** 2026-01-28
 **Complexity:** High
 
 Create an interactive tool that helps users substitute proteins or vegetables in recipes, with guidance on how substitutions affect the final dish.
+
+#### Completed (2026-01-28)
+
+**Data file created:** `data/protein-vegetable-substitutions.json`
+
+Contains comprehensive substitution data for:
+- **Protein substitutions:** chicken breast, chicken thighs, ground beef, beef stew meat, beef roast, bacon - with ratios, cook time adjustments, flavor notes, and plant-based alternatives
+- **Fish substitutions:** 4 texture categories (delicate/flaky, firm/mild, meaty/bold, fatty/rich) with specific fish and substitutes
+- **Shellfish substitutions:** shrimp, scallops, lobster, crab with alternatives including plant-based options
+- **Mercury guide:** FDA best choices, good choices, and fish to avoid
+- **Vegetable moisture warnings:** zucchini, tomatoes, mushrooms, cucumbers, eggplant with mitigation strategies
+- **Vegetable texture substitutions:** leafy greens, root vegetables, cruciferous, alliums
+- **Acidity interactions:** tomatoes with cream, citrus with dairy
+- **Safe cooking temperatures:** USDA guidelines for all proteins
+- **Roasting time charts:** beef, pork, chicken, turkey, lamb (min/max per lb)
+- **Plant protein reference:** complete proteins and combining guidelines
+
+**Research sources used:**
+- [USDA FSIS Safe Temperature Chart](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart)
+- [FDA Advice About Eating Fish](https://www.fda.gov/food/consumers/advice-about-eating-fish)
+- [FoodSafety.gov Roasting Charts](https://www.foodsafety.gov/food-safety-charts/meat-poultry-charts)
+- [Cook Smarts Ingredient Substitutions](https://www.cooksmarts.com/articles/substitute-ingredients-meat-cuts-and-seafood/)
+- [America's Test Kitchen - Salting Watery Vegetables](https://www.americastestkitchen.com/articles/4102-why-you-should-salt-watery-vegetables-before-cooking)
+
+**UI Implementation complete:** `protein-substitution.js` (452 lines)
+
+Files modified:
+- `protein-substitution.js` — New module: detects proteins/fish/shellfish/high-moisture vegetables in recipe ingredients, renders collapsible substitution panel
+- `recipe.html` — Added script tag for protein-substitution.js
+- `script.js` — Added initialization, container placement, and rendering integration
+- `styles.css` — Added ~330 lines of retro-kitchen-styled CSS for substitution panel
+
+Features:
+- Detects meat proteins, fish (with mercury warnings), shellfish, high-moisture vegetables
+- Shows substitution options with ratios, cook time adjustments, flavor notes
+- Safe cooking temperature badges
+- Moisture mitigation tips for watery vegetables
+- Collapsible `<details>` element, closed by default
+- Consistent 1950s retro kitchen styling
+
+#### Reference: Original Requirements
 
 #### Requirements
 
@@ -121,23 +164,81 @@ Create an interactive tool that helps users substitute proteins or vegetables in
 - Display warnings prominently (e.g., "This substitution may affect texture")
 - Allow users to see "before/after" impact summary
 
-#### Research Sources to Consult
+#### Research Sources Consulted
 
-- [ ] USDA food composition database (protein fat/moisture content)
-- [ ] Serious Eats articles on protein substitution
-- [ ] America's Test Kitchen substitution guides
-- [ ] Harold McGee's "On Food and Cooking"
-- [ ] Kenji López-Alt's "The Food Lab"
+- [x] USDA food composition database (protein fat/moisture content)
+- [x] USDA FSIS safe cooking temperatures
+- [x] FDA fish mercury guidelines
+- [x] America's Test Kitchen substitution guides
+- [x] Cook Smarts ingredient substitution guides
+- [x] FoodSafety.gov roasting charts
+- [ ] Harold McGee's "On Food and Cooking" (for future expansion)
+- [ ] Kenji López-Alt's "The Food Lab" (for future expansion)
 
 ---
 
 ### Diabetic-Friendly Recipe Converter
 
-**Status:** Research Required
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Updated:** 2026-01-28
+**Completed:** 2026-01-28
 **Complexity:** High
 
 Create a tool that converts recipes to diabetic-friendly versions by reducing carbs and sugar while increasing protein, with minimal impact on taste.
+
+#### Completed (2026-01-28)
+
+**Data files created:**
+- `data/carb-database.json` — Comprehensive carbohydrate and glycemic index database for common recipe ingredients. Sources: USDA FoodData Central, University of Sydney GI Database, ADA Standards of Care 2026. Covers grains/pasta, breads, flours, potatoes/starches, sugars/sweeteners, dairy, fruits, baking ingredients, beverages, and thickeners.
+- `data/diabetic-substitutions.json` — Diabetic-friendly substitution rules with 8 categories: Pasta & Noodles, Rice & Grains, Bread & Baked Goods, Flour Alternatives, Sugars & Sweeteners, Potatoes & Starches, Thickeners, Breadcrumbs & Coatings, and Tortillas & Wraps. Includes 30+ specific substitutes with ratios, prep notes, cooking notes, taste/texture impact, GI values, allergen warnings, and cardiovascular safety data.
+
+**Research conducted:**
+- ADA Standards of Care in Diabetes 2026 — carbohydrate reduction guidelines, fiber targets (14g/1000kcal), eating pattern recommendations
+- Glycemic Index databases — University of Sydney GI Search, International Tables 2021, USDA FoodData Central
+- Sweetener safety — Cleveland Clinic erythritol cardiovascular studies (Nature Medicine 2023, ATVB 2024), allulose as preferred alternative
+- Baking substitution chemistry — flour absorption ratios, sweetener conversion charts, thickener potencies
+- Net carbs calculation — total carbs minus fiber, sugar alcohol handling (erythritol fully subtracted, others half)
+- Low-carb pasta alternatives — shirataki, edamame, hearts of palm, zucchini noodles, spaghetti squash nutritional data
+
+**Research sources used:**
+- [ADA Standards of Care 2026](https://professional.diabetes.org/standards-of-care)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [University of Sydney GI Database](https://glycemicindex.com/gi-search/)
+- [Cleveland Clinic Erythritol Study (Nature Medicine 2023)](https://www.nature.com/articles/s41591-023-02223-9)
+- [Cleveland Clinic Erythritol Follow-Up (ATVB 2024)](https://www.ahajournals.org/doi/10.1161/ATVBAHA.124.321019)
+- [Wholesome Yum Sweetener Conversion Charts](https://www.wholesomeyum.com/natural-low-carb-sweeteners-guide-conversion-chart/)
+- [ADA Carb Counting Guide](https://diabetes.org/food-nutrition/understanding-carbs/carb-counting-and-diabetes)
+- [CDC Carb Counting](https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html)
+
+**UI Implementation complete:** `diabetic-converter.js` (~350 lines)
+
+Files modified:
+- `diabetic-converter.js` — New module: detects high-carb ingredients across 8 categories, renders collapsible converter panel with carb meter, substitution cards, blood sugar tips, and medical disclaimer
+- `recipe.html` — Added script tag for diabetic-converter.js
+- `script.js` — Added initialization, container placement, and rendering integration
+- `styles.css` — Added ~400 lines of responsive CSS for converter panel including carb meter, ingredient cards, substitute options, warning badges, and tips section
+
+Features:
+- Detects high-carb ingredients via keyword matching across 8 substitution categories
+- Shows carb meter with current net carbs vs target (50g default, configurable)
+- GI badges (Low/Medium/High) with color coding on both original and substitute ingredients
+- Detailed substitution cards with ratios, prep instructions, cooking notes, taste/texture impact
+- Cardiovascular safety warning on erythritol (citing Cleveland Clinic research)
+- Allergen warnings on nut flours, soy products, dairy alternatives
+- Moisture warnings for vegetable-based substitutes
+- Blood sugar management tips section (pairing carbs with protein/fat/fiber, walking after meals, etc.)
+- Medical disclaimer reminding users to consult their doctor
+- Collapsible `<details>` element, closed by default
+- Responsive design for mobile devices
+- Consistent with existing 1950s retro kitchen styling
+- Print-hidden (same as other tool panels)
+
+Key data highlights:
+- **Erythritol cardiovascular warning:** Cleveland Clinic studies (2023-2024) linked erythritol to increased platelet reactivity and thrombosis risk. Allulose recommended as safer first-choice sweetener.
+- **ADA 2026 guidance:** No fixed daily carb target; individualized approach recommended. Reducing carbs has strongest evidence for glycemia improvement. Focus on high-quality, high-fiber carb sources.
+- **Net carbs formula:** Total carbs - fiber. For sugar alcohols: subtract half (except erythritol, which is fully subtracted).
+- **Default target:** 50g net carbs per serving (user-specified requirement)
 
 #### Goals
 
@@ -274,12 +375,12 @@ Create a tool that converts recipes to diabetic-friendly versions by reducing ca
 
 #### Research Required
 
-- [ ] Complete carb counts for all common ingredients
-- [ ] Glycemic index database integration
-- [ ] Baking chemistry: how substitutes affect rise, texture
-- [ ] Sauce thickening ratios for alternative thickeners
-- [ ] Sweetener heat stability (some break down when baked)
-- [ ] Fiber content (net carbs = total carbs - fiber)
+- [x] Complete carb counts for all common ingredients (carb-database.json)
+- [x] Glycemic index database integration (GI values from Sydney University + International Tables 2021)
+- [x] Baking chemistry: how substitutes affect rise, texture (flour absorption ratios, egg requirements, temp adjustments)
+- [x] Sauce thickening ratios for alternative thickeners (xanthan gum, guar gum, glucomannan ratios documented)
+- [x] Sweetener heat stability (allulose browns/caramelizes, erythritol does not, stevia stable)
+- [x] Fiber content (net carbs = total carbs - fiber, formula documented)
 
 #### Integration with Existing Tools
 
@@ -862,11 +963,33 @@ const HEALTH_PRESETS = {
 
 ## CRITICAL: Health Safeguards System
 
-**Status:** Research Complete, Implementation Required
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Completed:** 2026-01-28
 **Priority:** HIGHEST - User Safety
 
-A comprehensive health safeguards system that warns users about dangerous food interactions with medications, medical conditions, and allergens. **This must be implemented before deploying any health converter tools.**
+A comprehensive health safeguards system that warns users about dangerous food interactions with medications, medical conditions, and allergens.
+
+### Implementation Complete
+
+The Health Safeguards System is now fully functional:
+
+- **Data:** `data/health-considerations.json` - 6,369 flagged ingredients across 28 concern categories
+- **JavaScript:** `loadHealthConsiderations()`, `analyzeRecipeHealth()`, `renderHealthPanel()` in script.js
+- **CSS:** Full styling for collapsible panel with severity-based color coding
+- **Integration:** Automatically displays on recipe pages for any recipe with flagged ingredients
+
+**Features:**
+- Collapsible "Health Considerations" panel (closed by default)
+- Color-coded severity levels: critical (red), high (orange), allergen (yellow), moderate (blue), info (gray)
+- Drug-food interaction warnings (MAOI/tyramine, warfarin/vitamin K, grapefruit/CYP3A4, etc.)
+- Top 9 allergen detection
+- Kidney disease considerations (phosphorus, potassium, sodium)
+- Medical disclaimer included
+
+---
+
+### Reference Documentation (Research Notes)
 
 ### Drug-Food Interactions (Life-Threatening)
 
@@ -1466,10 +1589,42 @@ Automatically estimate recipe difficulty based on:
 
 ---
 
+## In Progress: Image Processing
+
+**Status:** Partially Complete (2026-01-25)
+
+### Current State
+
+| Collection | Total | Validated | Oversized | Processed Copies |
+|------------|-------|-----------|-----------|------------------|
+| grandma | 494 | 494 | 0 | N/A (all <2000px) |
+| reference (data/all/) | 906 | 152 | 754 | 754 in `data/all/processed/` |
+| mommom | 104 | 0 | 104 | **Remote** (MomsRecipes repo) |
+
+**Note:** The 104 mommom images are tracked in the manifest but exist in the remote MomsRecipes repository, not locally. The `process_images.py` script creates resized copies in a `processed/` subfolder while preserving originals.
+
+### Next Steps
+
+1. **Cross-Repository Duplicate Check**
+   - Check MomsRecipes, Grannysrecipes, Allrecipes for duplicate recipes
+   - Not just local JSON - check actual remote repositories
+   - Variants are OK, but true duplicates should be consolidated
+
+2. **Image Transcription**
+   - 754 reference images now have AI-safe processed versions
+   - Use `data/all/processed/*.jpeg` for transcription
+   - Remember: MAX 100 images per API request
+
+---
+
 ## Completed Tasks
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| **Protein & Vegetable Substitution Tool** | 2026-01-28 | Full UI: data + detection + collapsible panel with substitution options |
+| **Implement Health Safeguards UI** | 2026-01-28 | Collapsible panel with drug-food interactions, allergens, severity levels |
+| Process 754 oversized reference images | 2026-01-25 | Resized to <2000px in data/all/processed/ |
+| Add documentation rules to CLAUDE.md | 2026-01-25 | Document everything, 100-image limit, commit/push |
 | Create health-considerations.json | 2026-01-23 | 6,369 ingredients flagged across 28 concern categories |
 | Add 2,013 cheese recipes from Allrecipes | 2026-01-23 | Aggregated via aggregate_collections.py |
 | Create service worker for PWA | 2026-01-23 | sw.js with multi-repo caching |

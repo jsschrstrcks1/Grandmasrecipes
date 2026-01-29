@@ -1,0 +1,819 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Protein and vegetable substitution guide with cooking adjustments",
+    "last_updated": "2026-01-28",
+    "sources": [
+      "USDA FSIS Safe Temperature Chart",
+      "FDA Advice About Eating Fish",
+      "FoodSafety.gov",
+      "America's Test Kitchen",
+      "Cook Smarts Ingredient Substitutions"
+    ]
+  },
+
+  "safe_temperatures": {
+    "beef_pork_lamb_veal": {
+      "steaks_chops_roasts": { "temp_f": 145, "temp_c": 63, "rest_minutes": 3 },
+      "ground": { "temp_f": 160, "temp_c": 71, "rest_minutes": 0 }
+    },
+    "poultry": {
+      "all": { "temp_f": 165, "temp_c": 74, "rest_minutes": 0 }
+    },
+    "fish_shellfish": {
+      "fish": { "temp_f": 145, "temp_c": 63, "rest_minutes": 0 },
+      "shrimp_lobster_crab": { "description": "Flesh pearly and opaque" },
+      "clams_oysters_mussels": { "description": "Shells open during cooking" },
+      "scallops": { "description": "Flesh milky white or opaque and firm" }
+    },
+    "casseroles": { "temp_f": 165, "temp_c": 74 },
+    "leftovers": { "temp_f": 165, "temp_c": 74 }
+  },
+
+  "protein_substitutions": {
+    "chicken_breast": {
+      "display_name": "Chicken Breast",
+      "category": "poultry",
+      "characteristics": {
+        "fat_content": "low",
+        "texture": "lean, tender",
+        "cook_time_per_lb": "20-25 min at 375°F",
+        "internal_temp_f": 165,
+        "flavor_profile": "mild, neutral"
+      },
+      "substitutes": [
+        {
+          "protein": "turkey_breast",
+          "display_name": "Turkey Breast",
+          "ratio": "1:1",
+          "cook_time_adjustment": "+5-10 min (larger, denser)",
+          "flavor_notes": "Slightly gamier, drier than chicken",
+          "tips": "Brine or add moisture (butter under skin, baste frequently)",
+          "best_for": ["roasting", "slicing", "sandwiches"]
+        },
+        {
+          "protein": "pork_tenderloin",
+          "display_name": "Pork Tenderloin",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Slightly sweeter, pairs well with fruit glazes",
+          "tips": "Don't overcook - pull at 145°F, rest 3 min",
+          "best_for": ["roasting", "slicing", "medallions"]
+        },
+        {
+          "protein": "pork_chops",
+          "display_name": "Boneless Pork Chops",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar or slightly faster",
+          "flavor_notes": "Richer flavor, slightly fattier",
+          "tips": "Brine for 30 min to prevent dryness",
+          "best_for": ["pan-frying", "grilling", "baking"]
+        },
+        {
+          "protein": "veal_cutlets",
+          "display_name": "Veal Cutlets",
+          "ratio": "1:1",
+          "cook_time_adjustment": "slightly faster (thinner)",
+          "flavor_notes": "Milder, more delicate than chicken",
+          "tips": "Pound thin for scallopini, don't overcook",
+          "best_for": ["pan-frying", "breading", "scallopini"]
+        },
+        {
+          "protein": "firm_tofu",
+          "display_name": "Firm Tofu (plant-based)",
+          "ratio": "1:1 by weight",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Neutral, absorbs marinades well",
+          "tips": "Press 30 min to remove water, freeze/thaw for meatier texture",
+          "best_for": ["stir-fry", "grilling", "baking", "scrambles"]
+        }
+      ]
+    },
+
+    "chicken_thighs": {
+      "display_name": "Chicken Thighs",
+      "category": "poultry",
+      "characteristics": {
+        "fat_content": "medium",
+        "texture": "tender, juicy, forgiving",
+        "cook_time_per_lb": "25-30 min at 375°F",
+        "internal_temp_f": 165,
+        "flavor_profile": "richer than breast"
+      },
+      "substitutes": [
+        {
+          "protein": "pork_shoulder_steaks",
+          "display_name": "Pork Shoulder Steaks",
+          "ratio": "1:1",
+          "cook_time_adjustment": "+10-15 min",
+          "flavor_notes": "Fattier, richer, more succulent",
+          "tips": "Great for braising, can handle longer cooking",
+          "best_for": ["braising", "slow-cooking", "stews"]
+        },
+        {
+          "protein": "turkey_thighs",
+          "display_name": "Turkey Thighs",
+          "ratio": "1:1",
+          "cook_time_adjustment": "+15-20 min (larger)",
+          "flavor_notes": "Similar richness, slightly gamier",
+          "tips": "Braise low and slow for best results",
+          "best_for": ["braising", "roasting", "shredding"]
+        },
+        {
+          "protein": "duck_legs",
+          "display_name": "Duck Legs",
+          "ratio": "1:1",
+          "cook_time_adjustment": "+20-30 min",
+          "flavor_notes": "Much richer, fattier, distinctive flavor",
+          "tips": "Score skin, render fat slowly, confit is ideal",
+          "best_for": ["confit", "braising", "roasting"]
+        },
+        {
+          "protein": "tempeh",
+          "display_name": "Tempeh (plant-based)",
+          "ratio": "1:1 by weight",
+          "cook_time_adjustment": "slightly less",
+          "flavor_notes": "Nutty, fermented flavor, firmer texture",
+          "tips": "Steam 10 min before marinating to reduce bitterness",
+          "best_for": ["grilling", "crumbling", "stir-fry", "bacon substitute"]
+        }
+      ]
+    },
+
+    "ground_beef": {
+      "display_name": "Ground Beef",
+      "category": "beef",
+      "characteristics": {
+        "fat_content": "varies (80/20 to 93/7)",
+        "texture": "crumbly when cooked",
+        "cook_time": "8-10 min to brown 1 lb",
+        "internal_temp_f": 160,
+        "flavor_profile": "rich, savory, umami"
+      },
+      "substitutes": [
+        {
+          "protein": "ground_turkey",
+          "display_name": "Ground Turkey (93/7)",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Milder, less rich, can be dry",
+          "tips": "Add 1 tbsp oil per pound, season generously",
+          "best_for": ["tacos", "meatballs", "burgers", "meat sauce"]
+        },
+        {
+          "protein": "ground_pork",
+          "display_name": "Ground Pork",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Sweeter, fattier, very flavorful",
+          "tips": "Mix 50/50 with beef for best of both",
+          "best_for": ["meatballs", "dumplings", "stir-fry", "sausage"]
+        },
+        {
+          "protein": "ground_lamb",
+          "display_name": "Ground Lamb",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Distinctive, gamey, rich",
+          "tips": "Pairs well with cumin, mint, Mediterranean spices",
+          "best_for": ["kebabs", "kofta", "shepherd's pie", "gyros"]
+        },
+        {
+          "protein": "ground_chicken",
+          "display_name": "Ground Chicken",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Very mild, lean, neutral",
+          "tips": "Add moisture (grated onion, zucchini) to prevent dryness",
+          "best_for": ["Asian dishes", "lettuce wraps", "light meatballs"]
+        },
+        {
+          "protein": "lentils",
+          "display_name": "Lentils (plant-based)",
+          "ratio": "1 lb beef = 2 cups cooked lentils",
+          "cook_time_adjustment": "Pre-cook lentils 20-25 min",
+          "flavor_notes": "Earthy, hearty, good texture",
+          "tips": "Use brown or green lentils for meaty texture, red for sauces",
+          "best_for": ["tacos", "bolognese", "sloppy joes", "meat extender"]
+        },
+        {
+          "protein": "tvp",
+          "display_name": "TVP (Textured Vegetable Protein)",
+          "ratio": "1 cup dry TVP = 1 lb ground beef",
+          "cook_time_adjustment": "Rehydrate 10 min in hot broth first",
+          "flavor_notes": "Neutral, absorbs seasonings well",
+          "tips": "Use beef broth for rehydrating, season heavily",
+          "best_for": ["tacos", "chili", "casseroles", "meat extender"]
+        }
+      ]
+    },
+
+    "beef_stew_meat": {
+      "display_name": "Beef Stew Meat (Chuck)",
+      "category": "beef",
+      "characteristics": {
+        "fat_content": "medium-high",
+        "texture": "tough raw, tender when braised",
+        "cook_time": "2-3 hours low and slow",
+        "internal_temp_f": 145,
+        "flavor_profile": "rich, beefy, develops fond"
+      },
+      "substitutes": [
+        {
+          "protein": "pork_shoulder",
+          "display_name": "Pork Shoulder (Cubed)",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar or slightly less",
+          "flavor_notes": "Sweeter, fattier, very tender when braised",
+          "tips": "Browns beautifully, great for carnitas-style dishes",
+          "best_for": ["stews", "braises", "slow-cooker", "curries"]
+        },
+        {
+          "protein": "lamb_shoulder",
+          "display_name": "Lamb Shoulder (Cubed)",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Gamey, rich, distinctive",
+          "tips": "Trim excess fat, pairs with rosemary and garlic",
+          "best_for": ["stews", "tagines", "curries", "Irish stew"]
+        },
+        {
+          "protein": "chicken_thighs_cubed",
+          "display_name": "Chicken Thighs (Cubed)",
+          "ratio": "1:1",
+          "cook_time_adjustment": "-1 to 1.5 hours (cooks faster)",
+          "flavor_notes": "Milder, lighter, still juicy",
+          "tips": "Add later in cooking or use bone-in for flavor",
+          "best_for": ["stews", "curries", "pot pie filling"]
+        },
+        {
+          "protein": "jackfruit",
+          "display_name": "Young Green Jackfruit (plant-based)",
+          "ratio": "2 cans (20 oz each) = 1 lb beef",
+          "cook_time_adjustment": "30-45 min (already tender)",
+          "flavor_notes": "Neutral, shreds like pulled meat",
+          "tips": "Drain, rinse, shred with forks, season heavily",
+          "best_for": ["BBQ pulled 'pork'", "tacos", "curries", "stews"]
+        },
+        {
+          "protein": "seitan",
+          "display_name": "Seitan (plant-based)",
+          "ratio": "1:1 by weight",
+          "cook_time_adjustment": "30-45 min",
+          "flavor_notes": "Chewy, wheat-based, absorbs flavors",
+          "tips": "Simmer in broth for complete protein, not for gluten-free",
+          "best_for": ["stir-fry", "stews", "kebabs", "gyros"]
+        }
+      ]
+    },
+
+    "beef_roast": {
+      "display_name": "Beef Roast (Rib/Chuck)",
+      "category": "beef",
+      "characteristics": {
+        "fat_content": "medium-high",
+        "texture": "tender when properly cooked",
+        "cook_time_per_lb": "18-25 min/lb at 325-350°F",
+        "internal_temp_f": 145,
+        "flavor_profile": "rich, beefy"
+      },
+      "substitutes": [
+        {
+          "protein": "pork_loin_roast",
+          "display_name": "Pork Loin Roast",
+          "ratio": "1:1",
+          "cook_time_adjustment": "25-30 min/lb at 350°F",
+          "flavor_notes": "Leaner, slightly sweet, less rich",
+          "tips": "Don't overcook - pull at 145°F, let rest",
+          "best_for": ["Sunday roast", "slicing", "sandwiches"]
+        },
+        {
+          "protein": "pork_shoulder_roast",
+          "display_name": "Pork Shoulder (Boston Butt)",
+          "ratio": "1:1",
+          "cook_time_adjustment": "35-45 min/lb at 325°F (low and slow)",
+          "flavor_notes": "Fattier, more forgiving, shreddable",
+          "tips": "Best cooked to 195-205°F for pulling",
+          "best_for": ["pulled pork", "slow roast", "carnitas"]
+        },
+        {
+          "protein": "lamb_leg",
+          "display_name": "Leg of Lamb",
+          "ratio": "1:1",
+          "cook_time_adjustment": "20-25 min/lb at 325°F",
+          "flavor_notes": "Gamey, rich, distinctive",
+          "tips": "Stud with garlic and rosemary, serve medium-rare",
+          "best_for": ["holiday roasts", "Mediterranean dishes"]
+        },
+        {
+          "protein": "whole_chicken",
+          "display_name": "Whole Roasted Chicken",
+          "ratio": "4-5 lb chicken serves 4-6",
+          "cook_time_adjustment": "20-30 min/lb at 375°F",
+          "flavor_notes": "Milder, lighter, very versatile",
+          "tips": "Spatchcock for faster, more even cooking",
+          "best_for": ["Sunday dinner", "meal prep", "comfort food"]
+        }
+      ]
+    },
+
+    "bacon": {
+      "display_name": "Bacon",
+      "category": "pork",
+      "characteristics": {
+        "fat_content": "high",
+        "texture": "crispy when cooked",
+        "cook_time": "10-15 min in oven at 400°F",
+        "flavor_profile": "smoky, salty, umami"
+      },
+      "substitutes": [
+        {
+          "protein": "turkey_bacon",
+          "display_name": "Turkey Bacon",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar, watch closely",
+          "flavor_notes": "Leaner, less smoky, different texture",
+          "tips": "Won't get as crispy, good for health-conscious",
+          "best_for": ["breakfast", "BLT", "salads"]
+        },
+        {
+          "protein": "canadian_bacon",
+          "display_name": "Canadian Bacon",
+          "ratio": "1:1",
+          "cook_time_adjustment": "faster (already cooked)",
+          "flavor_notes": "Leaner, ham-like, less smoky",
+          "tips": "Just heat through, great on eggs Benedict",
+          "best_for": ["eggs Benedict", "pizza", "sandwiches"]
+        },
+        {
+          "protein": "pancetta",
+          "display_name": "Pancetta",
+          "ratio": "1:1",
+          "cook_time_adjustment": "similar",
+          "flavor_notes": "Unsmoked, more subtle pork flavor",
+          "tips": "Italian cured, render slowly for crispiness",
+          "best_for": ["pasta", "carbonara", "Brussels sprouts"]
+        },
+        {
+          "protein": "tempeh_bacon",
+          "display_name": "Tempeh Bacon (plant-based)",
+          "ratio": "1:1",
+          "cook_time_adjustment": "5-7 min per side",
+          "flavor_notes": "Smoky (from marinade), chewy texture",
+          "tips": "Slice thin, marinate in soy sauce + maple + liquid smoke",
+          "best_for": ["BLT", "breakfast", "salads"]
+        },
+        {
+          "protein": "coconut_bacon",
+          "display_name": "Coconut Bacon (plant-based)",
+          "ratio": "Use as topping, not 1:1",
+          "cook_time_adjustment": "Bake 10-15 min at 325°F",
+          "flavor_notes": "Crispy, smoky, slightly sweet",
+          "tips": "Coconut flakes + soy sauce + liquid smoke + maple",
+          "best_for": ["salad topping", "baked potatoes", "garnish"]
+        }
+      ]
+    }
+  },
+
+  "fish_substitutions": {
+    "categories": {
+      "delicate_flaky": {
+        "description": "Soft, mild, quick-cooking fish",
+        "cooking_methods": ["baking", "gentle sauteing", "steaming", "poaching"],
+        "fish": ["flounder", "sole", "tilapia", "catfish", "whiting", "plaice", "hake", "swai", "basa"],
+        "tips": "Handle gently, cooks very fast, pull when it just flakes"
+      },
+      "firm_mild": {
+        "description": "Holds shape well, clean mild flavor, versatile",
+        "cooking_methods": ["grilling", "pan-searing", "baking", "broiling", "fish tacos"],
+        "fish": ["cod", "haddock", "halibut", "pollock", "grouper", "snapper", "striped_bass", "mahi_mahi"],
+        "tips": "Great for fish and chips, can handle higher heat"
+      },
+      "meaty_bold": {
+        "description": "Dense, steak-like texture, robust flavor",
+        "cooking_methods": ["grilling", "searing", "skewers", "thick cuts"],
+        "fish": ["swordfish", "tuna_steak", "monkfish", "shark"],
+        "tips": "Treat like steak, can cook medium-rare (except shark)",
+        "warnings": ["High mercury - limit consumption"]
+      },
+      "fatty_rich": {
+        "description": "High omega-3, rich flavor, moist",
+        "cooking_methods": ["grilling", "broiling", "baking", "smoking", "raw (sushi-grade)"],
+        "fish": ["salmon", "arctic_char", "trout", "mackerel", "sardines", "bluefish"],
+        "tips": "Forgiving to cook (fat keeps moist), great for beginners"
+      }
+    },
+
+    "specific_substitutions": {
+      "cod": {
+        "display_name": "Cod",
+        "category": "firm_mild",
+        "best_substitutes": ["haddock", "pollock", "halibut", "sea_bass", "walleye"],
+        "notes": "Classic fish and chips fish, flaky but holds together"
+      },
+      "tilapia": {
+        "display_name": "Tilapia",
+        "category": "delicate_flaky",
+        "best_substitutes": ["cod", "pollock", "flounder", "sole", "catfish", "swai"],
+        "notes": "Very mild, takes on any flavor, budget-friendly"
+      },
+      "halibut": {
+        "display_name": "Halibut",
+        "category": "firm_mild",
+        "best_substitutes": ["cod", "grouper", "sea_bass", "swordfish", "striped_bass"],
+        "notes": "Firm, mild, semi-sweet - dries out if overcooked"
+      },
+      "salmon": {
+        "display_name": "Salmon",
+        "category": "fatty_rich",
+        "best_substitutes": ["arctic_char", "trout", "steelhead", "mackerel", "bluefish"],
+        "notes": "Rich, fatty, distinctive - hard to truly replicate"
+      },
+      "tuna_steak": {
+        "display_name": "Tuna Steak",
+        "category": "meaty_bold",
+        "best_substitutes": ["swordfish", "mahi_mahi", "marlin"],
+        "notes": "Can serve rare to medium-rare, steak-like texture",
+        "warnings": ["Bigeye and yellowfin are high mercury - limit consumption"]
+      }
+    },
+
+    "mercury_guide": {
+      "best_choices": {
+        "description": "Lowest mercury - eat 2-3 servings per week",
+        "fish": ["anchovies", "atlantic_mackerel", "catfish", "clams", "cod", "crab", "crawfish", "flounder", "haddock", "herring", "lobster", "mullet", "oysters", "plaice", "pollock", "salmon", "sardines", "scallops", "shrimp", "sole", "squid", "tilapia", "trout", "whiting"],
+        "mercury_ppm": "< 0.15"
+      },
+      "good_choices": {
+        "description": "Low-moderate mercury - eat 1 serving per week",
+        "fish": ["bass", "carp", "chilean_sea_bass", "grouper", "halibut", "mahi_mahi", "monkfish", "snapper", "albacore_tuna", "yellowfin_tuna"],
+        "mercury_ppm": "0.15 - 0.46"
+      },
+      "avoid": {
+        "description": "High mercury - avoid or eat very rarely",
+        "fish": ["bigeye_tuna", "king_mackerel", "marlin", "orange_roughy", "shark", "swordfish", "tilefish"],
+        "mercury_ppm": "> 0.46",
+        "warning": "Pregnant women, nursing mothers, and young children should avoid these fish entirely"
+      }
+    }
+  },
+
+  "shellfish_substitutions": {
+    "shrimp": {
+      "display_name": "Shrimp",
+      "characteristics": {
+        "texture": "firm, snappy when cooked properly",
+        "flavor": "sweet, briny, mild",
+        "cook_time": "2-3 min per side until pink and opaque"
+      },
+      "substitutes": [
+        {
+          "shellfish": "langostino",
+          "display_name": "Langostino",
+          "ratio": "1:1",
+          "notes": "Very similar in flavor and texture, slightly sweeter"
+        },
+        {
+          "shellfish": "scallops",
+          "display_name": "Scallops (small bay scallops)",
+          "ratio": "1:1 by weight",
+          "notes": "Sweeter, buttery, similar springy texture"
+        },
+        {
+          "shellfish": "crawfish",
+          "display_name": "Crawfish Tails",
+          "ratio": "1:1",
+          "notes": "Sweet, slightly more pronounced flavor"
+        },
+        {
+          "protein": "chicken",
+          "display_name": "Chicken (for allergies)",
+          "ratio": "1:1",
+          "notes": "Similar texture, use in stir-fries and pastas"
+        },
+        {
+          "protein": "hearts_of_palm",
+          "display_name": "Hearts of Palm (plant-based)",
+          "ratio": "1:1 by volume",
+          "notes": "Tender texture, mild flavor, great in 'shrimp' scampi"
+        }
+      ]
+    },
+
+    "scallops": {
+      "display_name": "Scallops",
+      "characteristics": {
+        "texture": "tender, slightly firm, melt-in-mouth when seared",
+        "flavor": "sweet, delicate, buttery",
+        "cook_time": "2-3 min per side for sea scallops, 1-2 min for bay"
+      },
+      "substitutes": [
+        {
+          "shellfish": "shrimp_jumbo",
+          "display_name": "Jumbo Shrimp",
+          "ratio": "1:1",
+          "notes": "Similar size, firmer texture, good for searing"
+        },
+        {
+          "shellfish": "lobster_medallions",
+          "display_name": "Lobster Tail Medallions",
+          "ratio": "1:1",
+          "notes": "Sweeter, more luxurious, similar cook method"
+        },
+        {
+          "protein": "king_oyster_mushrooms",
+          "display_name": "King Oyster Mushrooms (plant-based)",
+          "ratio": "1:1 (slice stems into rounds)",
+          "notes": "Score crosshatch, sear like scallops - remarkably similar texture"
+        }
+      ]
+    },
+
+    "lobster": {
+      "display_name": "Lobster",
+      "characteristics": {
+        "texture": "firm, tender, slightly chewy",
+        "flavor": "sweet, rich, distinctive",
+        "cook_time": "8-10 min per lb boiled, 12-15 min baked"
+      },
+      "substitutes": [
+        {
+          "shellfish": "langoustines",
+          "display_name": "Langoustines",
+          "ratio": "1:1 by weight",
+          "notes": "Very similar, sometimes called 'Norway lobster'"
+        },
+        {
+          "shellfish": "crab",
+          "display_name": "Crab (lump or claw)",
+          "ratio": "1:1 by weight",
+          "notes": "Sweeter, flakier, works in rolls and salads"
+        },
+        {
+          "shellfish": "monkfish",
+          "display_name": "Monkfish",
+          "ratio": "1:1",
+          "notes": "Called 'poor man's lobster' - similar texture when cooked properly"
+        },
+        {
+          "protein": "king_oyster_mushrooms",
+          "display_name": "King Oyster Mushrooms (plant-based)",
+          "ratio": "1:1 by weight",
+          "notes": "Shred stems, season with Old Bay and butter for 'lobster' rolls"
+        }
+      ]
+    },
+
+    "crab": {
+      "display_name": "Crab",
+      "characteristics": {
+        "texture": "flaky, tender, delicate",
+        "flavor": "sweet, briny, delicate",
+        "cook_time": "Varies by type; often sold pre-cooked"
+      },
+      "substitutes": [
+        {
+          "shellfish": "surimi",
+          "display_name": "Surimi (Imitation Crab)",
+          "ratio": "1:1",
+          "notes": "Budget-friendly, works in California rolls, crab salad"
+        },
+        {
+          "shellfish": "lobster",
+          "display_name": "Lobster",
+          "ratio": "1:1 by weight",
+          "notes": "More expensive, firmer, sweeter"
+        },
+        {
+          "protein": "jackfruit",
+          "display_name": "Young Jackfruit (plant-based)",
+          "ratio": "1 can = 8 oz crab",
+          "notes": "Shred finely for crab cakes - very similar flaky texture"
+        },
+        {
+          "protein": "hearts_of_palm",
+          "display_name": "Hearts of Palm (plant-based)",
+          "ratio": "1:1 by volume",
+          "notes": "Shred for texture, great in 'crab' cakes"
+        }
+      ]
+    }
+  },
+
+  "plant_protein_reference": {
+    "complete_proteins": {
+      "description": "Contains all 9 essential amino acids",
+      "sources": [
+        {
+          "name": "Tofu (firm)",
+          "protein_per_cup": "20g",
+          "best_for": ["stir-fry", "grilling", "scrambles", "baking"],
+          "tips": "Press to remove water, freezing changes texture to meatier"
+        },
+        {
+          "name": "Tempeh",
+          "protein_per_cup": "31g",
+          "best_for": ["grilling", "crumbling", "bacon substitute", "stir-fry"],
+          "tips": "Steam 10 min before marinating to reduce bitterness"
+        },
+        {
+          "name": "Edamame",
+          "protein_per_cup": "17g",
+          "best_for": ["snacks", "salads", "stir-fry", "rice bowls"],
+          "tips": "Young soybeans, available frozen, mild flavor"
+        },
+        {
+          "name": "Quinoa",
+          "protein_per_cup_cooked": "8g",
+          "best_for": ["grain substitute", "salads", "bowls", "stuffing"],
+          "tips": "Rinse before cooking to remove bitter saponins"
+        },
+        {
+          "name": "Hemp Hearts",
+          "protein_per_3tbsp": "10g",
+          "best_for": ["smoothies", "salads", "oatmeal topping", "baking"],
+          "tips": "Nutty flavor, high in omega-3s, no prep needed"
+        }
+      ]
+    },
+    "combining_for_complete": {
+      "description": "Combine these groups for complete protein",
+      "combinations": [
+        {
+          "combo": "Legumes + Grains",
+          "examples": ["beans + rice", "lentils + bread", "hummus + pita", "dal + naan"]
+        },
+        {
+          "combo": "Legumes + Seeds",
+          "examples": ["hummus (chickpeas + tahini)", "bean salad + sunflower seeds"]
+        },
+        {
+          "combo": "Legumes + Nuts",
+          "examples": ["bean salad + walnuts", "lentil soup + almond bread"]
+        }
+      ],
+      "note": "Don't need to combine in same meal - same day is fine"
+    }
+  },
+
+  "vegetable_substitutions": {
+    "high_moisture_warnings": {
+      "description": "These vegetables release significant water when cooked",
+      "vegetables": {
+        "zucchini": {
+          "water_content": "95%",
+          "warning": "Can nearly dissolve when cooking, releases lots of liquid",
+          "mitigation": [
+            "Salt and drain 30 min before cooking",
+            "Cook uncovered to let moisture evaporate",
+            "Don't cover pan when sautéing",
+            "Grill or roast at high heat to evaporate moisture quickly"
+          ]
+        },
+        "tomatoes": {
+          "water_content": "94%",
+          "warning": "Will thin sauces significantly, high acidity",
+          "mitigation": [
+            "Use sun-dried or roasted for less moisture",
+            "Remove seeds and gel for drier texture",
+            "Cook down to concentrate (reduce by half)",
+            "Add at end of cooking to preserve texture"
+          ],
+          "sauce_warning": "Adding fresh tomatoes to cream sauce will thin it and may cause curdling"
+        },
+        "mushrooms": {
+          "water_content": "92%",
+          "warning": "Shrink dramatically (up to 50%), release liquid then reabsorb",
+          "mitigation": [
+            "Don't crowd the pan - cook in batches",
+            "Let them sit without stirring to brown properly",
+            "Salt after browning (salt draws out moisture)",
+            "Cook until liquid releases AND evaporates"
+          ]
+        },
+        "cucumbers": {
+          "water_content": "96%",
+          "warning": "Releases water when salted or heated",
+          "mitigation": [
+            "Salt and drain for salads (quick pickle)",
+            "Best used raw or very briefly cooked",
+            "Remove seeds for less moisture"
+          ]
+        },
+        "eggplant": {
+          "water_content": "92%",
+          "warning": "Spongy texture absorbs oil, releases water when heated",
+          "mitigation": [
+            "Salt and drain 30-60 min (removes bitterness too)",
+            "Press with weights after salting",
+            "Roast or grill instead of pan-frying to reduce oil absorption"
+          ]
+        }
+      }
+    },
+
+    "texture_substitutions": {
+      "leafy_greens": {
+        "spinach": {
+          "substitutes": ["Swiss chard", "kale (younger)", "beet greens", "arugula"],
+          "cook_time_changes": "Chard stems take longer; kale needs more cooking",
+          "notes": "All wilt significantly - use 3-4x raw volume"
+        },
+        "kale": {
+          "substitutes": ["collard greens", "Swiss chard", "mustard greens", "cabbage"],
+          "cook_time_changes": "Collards need more time; cabbage needs less",
+          "notes": "Remove tough stems, massage raw kale with oil for salads"
+        }
+      },
+      "root_vegetables": {
+        "potatoes": {
+          "substitutes": ["sweet potatoes", "parsnips", "turnips", "celery root", "rutabaga"],
+          "cook_time_changes": "Sweet potatoes cook faster; parsnips similar; turnips faster",
+          "notes": "Starch content varies - affects thickening and texture"
+        },
+        "carrots": {
+          "substitutes": ["parsnips", "sweet potatoes", "butternut squash"],
+          "cook_time_changes": "Parsnips similar; squash may be faster",
+          "notes": "Good for long cooking, stable moisture"
+        }
+      },
+      "cruciferous": {
+        "broccoli": {
+          "substitutes": ["cauliflower", "broccolini", "broccoli rabe", "romanesco"],
+          "cook_time_changes": "Cauliflower similar; broccolini faster",
+          "notes": "Don't overcook - should be bright green and slightly crisp"
+        },
+        "cauliflower": {
+          "substitutes": ["broccoli", "romanesco", "kohlrabi"],
+          "cook_time_changes": "Broccoli similar",
+          "notes": "More neutral flavor, great rice/mash substitute for low-carb"
+        },
+        "brussels_sprouts": {
+          "substitutes": ["baby cabbages", "broccoli florets", "kohlrabi"],
+          "cook_time_changes": "Varies by size - halve large sprouts",
+          "notes": "Roast cut-side down for caramelization"
+        }
+      },
+      "alliums": {
+        "onions": {
+          "substitutes": ["shallots (milder)", "leeks (milder)", "scallions (lighter)"],
+          "cook_time_changes": "Shallots cook faster; leeks need similar time",
+          "notes": "1 shallot = 1/4 onion; white part of 2 leeks = 1 onion"
+        },
+        "garlic": {
+          "substitutes": ["garlic scapes", "shallots", "chives (for garnish)"],
+          "cook_time_changes": "Scapes need more time; shallots similar",
+          "notes": "1/4 tsp garlic powder = 1 clove; roasted garlic is milder"
+        }
+      }
+    },
+
+    "acidity_interactions": {
+      "warning": "Acidic ingredients affect other vegetables and dairy",
+      "tomatoes": {
+        "with_cream": "Acidity can cause curdling - temper cream first or add tomatoes at end",
+        "with_greens": "Acid prevents greens from softening - add after greens are cooked",
+        "with_beans": "Acid toughens bean skins - add tomatoes after beans are tender"
+      },
+      "citrus_vinegar": {
+        "with_greens": "Brightens color briefly, then turns brown - add just before serving",
+        "with_dairy": "Can curdle milk/cream - use as finish, not during cooking"
+      }
+    }
+  },
+
+  "cooking_time_adjustments": {
+    "roasting_chart": {
+      "beef": {
+        "rib_roast_bone_in": { "temp_f": 325, "min_per_lb": 23, "max_per_lb": 30 },
+        "tenderloin_whole": { "temp_f": 400, "min_per_lb": 10, "max_per_lb": 12 },
+        "chuck_roast": { "temp_f": 325, "min_per_lb": 30, "max_per_lb": 35 }
+      },
+      "pork": {
+        "loin_roast": { "temp_f": 350, "min_per_lb": 25, "max_per_lb": 30 },
+        "shoulder_roast": { "temp_f": 325, "min_per_lb": 35, "max_per_lb": 45 },
+        "tenderloin": { "temp_f": 425, "min_per_lb": 15, "max_per_lb": 20 }
+      },
+      "chicken": {
+        "whole": { "temp_f": 375, "min_per_lb": 20, "max_per_lb": 30 },
+        "breast_bone_in": { "temp_f": 375, "min_per_lb": 25, "max_per_lb": 30 },
+        "thighs": { "temp_f": 375, "min_per_lb": 30, "max_per_lb": 35 }
+      },
+      "turkey": {
+        "whole_unstuffed": { "temp_f": 325, "min_per_lb": 13, "max_per_lb": 17 },
+        "whole_stuffed": { "temp_f": 325, "min_per_lb": 17, "max_per_lb": 21 },
+        "breast": { "temp_f": 325, "min_per_lb": 20, "max_per_lb": 25 }
+      },
+      "lamb": {
+        "leg": { "temp_f": 325, "min_per_lb": 20, "max_per_lb": 25 },
+        "rack": { "temp_f": 450, "total_min": 12, "total_max": 15 },
+        "shoulder": { "temp_f": 325, "min_per_lb": 30, "max_per_lb": 35 }
+      }
+    },
+    "grilling_adjustment": {
+      "note": "Grilling is typically 25% faster than oven roasting",
+      "example": "If recipe says 20 min/lb in oven, check at 15 min/lb on grill"
+    }
+  }
+}
