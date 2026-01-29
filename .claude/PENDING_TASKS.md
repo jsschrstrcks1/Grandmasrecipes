@@ -1683,10 +1683,13 @@ Automatically estimate recipe difficulty based on:
 
 ### Next Steps
 
-1. **Cross-Repository Duplicate Check**
-   - Check MomsRecipes, Grannysrecipes, Allrecipes for duplicate recipes
-   - Not just local JSON - check actual remote repositories
-   - Variants are OK, but true duplicates should be consolidated
+1. ~~**Cross-Repository Duplicate Check**~~ ✅ COMPLETE (2026-01-29)
+   - Checked all 9,396 recipes across 4 collections
+   - Found 314 cross-collection "duplicates" - almost all are legitimate family variants
+   - Found 859 within-collection duplicates - mostly cheese aging variants and source-attributed recipes
+   - A few true duplicates in mommom-baker (pot roast entries) flagged for human review
+   - See `.claude/DUPLICATE_CHECK_REPORT.md` for full analysis
+   - Script created: `scripts/check-duplicates.py`
 
 2. **Image Transcription**
    - 754 reference images now have AI-safe processed versions
@@ -1699,6 +1702,7 @@ Automatically estimate recipe difficulty based on:
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| **Cross-Repository Duplicate Check** | 2026-01-29 | 314 cross-collection variants (legitimate), few true duplicates flagged for review |
 | **Recipe Scaling Intelligence** | 2026-01-29 | Non-linear spice scaling, pan size recommendations, cooking time adjustments, scaling warnings |
 | **Heart-Smart Recipe Converter** | 2026-01-29 | Full UI: data + detection + collapsible panel with health meters, substitutions, flavor tips, safety warnings |
 | **Protein & Vegetable Substitution Tool** | 2026-01-28 | Full UI: data + detection + collapsible panel with substitution options |
