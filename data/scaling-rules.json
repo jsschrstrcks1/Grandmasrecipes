@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Intelligent recipe scaling rules for spices, pan sizes, cooking times, and scaling warnings",
+    "created": "2026-01-29",
+    "sources": [
+      "America's Test Kitchen - The Science of Good Cooking",
+      "Serious Eats - Recipe Scaling Guide",
+      "King Arthur Baking - Scaling Recipes",
+      "USDA Food Safety Guidelines"
+    ]
+  },
+
+  "spice_scaling": {
+    "description": "Spices and seasonings don't scale linearly. Salt is perceived differently at higher concentrations, and aromatic compounds become overwhelming.",
+    "default_exponent": 0.7,
+    "categories": {
+      "salt": {
+        "keywords": ["salt", "kosher salt", "sea salt", "table salt", "flaky salt"],
+        "scale_exponent": 0.6,
+        "notes": "Salt perception is highly non-linear. At 2x recipe, use ~1.5x salt. Taste and adjust.",
+        "danger_threshold": 4,
+        "danger_message": "At 4x+ scale, salt can easily become overwhelming. Start with 2x original and taste."
+      },
+      "hot_spices": {
+        "keywords": ["cayenne", "red pepper", "chili flakes", "crushed red pepper", "hot sauce", "jalape", "habanero", "serrano", "ghost pepper", "carolina reaper", "scotch bonnet", "chipotle", "tabasco"],
+        "scale_exponent": 0.5,
+        "notes": "Hot spices compound aggressively. At 2x recipe, use only ~1.4x hot spice.",
+        "danger_threshold": 2,
+        "danger_message": "Heat builds quickly! Use half the scaled amount and add more to taste."
+      },
+      "aromatic_spices": {
+        "keywords": ["cinnamon", "nutmeg", "cloves", "allspice", "cardamom", "star anise", "five spice", "garam masala", "curry powder", "cumin", "coriander", "turmeric", "paprika", "smoked paprika"],
+        "scale_exponent": 0.7,
+        "notes": "Aromatic spices can become overpowering. Scale conservatively."
+      },
+      "dried_herbs": {
+        "keywords": ["oregano", "thyme", "rosemary", "basil", "parsley", "dill", "sage", "tarragon", "marjoram", "bay leaf", "bay leaves", "herbes de provence", "italian seasoning", "herbs de provence"],
+        "scale_exponent": 0.75,
+        "notes": "Dried herbs release flavor over time. For larger batches, reduce cooking time slightly or use less."
+      },
+      "fresh_herbs": {
+        "keywords": ["fresh basil", "fresh parsley", "fresh cilantro", "fresh dill", "fresh mint", "fresh thyme", "fresh rosemary", "fresh oregano", "fresh sage", "fresh chives"],
+        "scale_exponent": 0.85,
+        "notes": "Fresh herbs scale more linearly than dried, but still slightly reduce for large batches."
+      },
+      "garlic_onion": {
+        "keywords": ["garlic", "onion", "shallot", "leek", "scallion", "green onion", "chives"],
+        "scale_exponent": 0.8,
+        "notes": "Alliums can become pungent at high concentrations. Scale conservatively for raw applications."
+      },
+      "vanilla_extracts": {
+        "keywords": ["vanilla extract", "vanilla", "almond extract", "lemon extract", "mint extract", "peppermint extract", "orange extract", "rum extract", "maple extract"],
+        "scale_exponent": 0.7,
+        "notes": "Extracts are concentrated. At 2x recipe, use ~1.6x extract."
+      },
+      "leavening": {
+        "keywords": ["baking powder", "baking soda", "yeast", "cream of tartar"],
+        "scale_exponent": 0.9,
+        "notes": "Leavening agents scale nearly linearly but can cause texture issues at extreme scales.",
+        "danger_threshold": 3,
+        "danger_message": "At 3x+ scale, baking may require pan/time adjustments. Consider baking in batches."
+      },
+      "acidic_ingredients": {
+        "keywords": ["lemon juice", "lime juice", "vinegar", "wine", "citrus"],
+        "scale_exponent": 0.75,
+        "notes": "Acids can become harsh at higher concentrations. Scale conservatively and adjust to taste."
+      },
+      "sweeteners_baking": {
+        "keywords": ["sugar", "brown sugar", "honey", "maple syrup", "molasses", "agave", "corn syrup"],
+        "scale_exponent": 0.95,
+        "notes": "Sugar scales nearly linearly for baking chemistry, but taste may warrant slight reduction.",
+        "context_note": "In baking, sugar affects structure. Don't reduce by more than 10% without testing."
+      }
+    }
+  },
+
+  "pan_sizes": {
+    "description": "Recommended pan sizes based on recipe yield and scaling factor",
+    "round_pans": [
+      { "diameter_inches": 6, "area_sq_in": 28.3, "typical_use": "Individual cakes, small cheesecakes" },
+      { "diameter_inches": 8, "area_sq_in": 50.3, "typical_use": "Standard layer cakes (2-layer)" },
+      { "diameter_inches": 9, "area_sq_in": 63.6, "typical_use": "Standard pies, layer cakes" },
+      { "diameter_inches": 10, "area_sq_in": 78.5, "typical_use": "Large layer cakes, cheesecakes" },
+      { "diameter_inches": 12, "area_sq_in": 113.1, "typical_use": "Large pies, springform cakes" }
+    ],
+    "rectangular_pans": [
+      { "size": "8x8", "area_sq_in": 64, "typical_use": "Brownies, bars, small casseroles" },
+      { "size": "9x9", "area_sq_in": 81, "typical_use": "Brownies, coffee cakes" },
+      { "size": "9x13", "area_sq_in": 117, "typical_use": "Sheet cakes, casseroles, lasagna" },
+      { "size": "10x15 (jelly roll)", "area_sq_in": 150, "typical_use": "Sheet cakes, cookies, jelly rolls" },
+      { "size": "12x17 (half sheet)", "area_sq_in": 204, "typical_use": "Large batches, commercial baking" },
+      { "size": "18x26 (full sheet)", "area_sq_in": 468, "typical_use": "Commercial/institutional baking" }
+    ],
+    "loaf_pans": [
+      { "size": "8x4", "volume_cups": 4, "typical_use": "Small quick breads" },
+      { "size": "9x5", "volume_cups": 8, "typical_use": "Standard bread loaves, meatloaf" },
+      { "size": "10x5", "volume_cups": 10, "typical_use": "Large bread loaves" }
+    ],
+    "recommendations": {
+      "cookies": {
+        "0.5": "Use standard sheet pan, expect fewer cookies",
+        "1": "Standard sheet pan (one batch)",
+        "2": "Two standard sheet pans or one half-sheet pan",
+        "4": "Multiple batches recommended (rotate pans for even baking)"
+      },
+      "cakes_round": {
+        "0.5": "Use 6-inch round pans",
+        "1": "Use 8-inch or 9-inch round pans (as recipe specifies)",
+        "1.5": "Use 10-inch round pans or three 8-inch layers",
+        "2": "Use 10-inch round pans or bake in batches"
+      },
+      "brownies_bars": {
+        "0.5": "Use 8x8 pan instead of 9x13",
+        "1": "Use 9x13 pan (standard)",
+        "2": "Use half-sheet pan or two 9x13 pans",
+        "4": "Use full sheet pan or bake in multiple batches"
+      },
+      "casseroles": {
+        "0.5": "Use 8x8 baking dish",
+        "1": "Use 9x13 baking dish",
+        "2": "Use two 9x13 dishes or one large roasting pan",
+        "4": "Use multiple 9x13 dishes or commercial-size pan"
+      },
+      "bread_loaves": {
+        "0.5": "Use 8x4 loaf pan",
+        "1": "Use 9x5 loaf pan (standard)",
+        "2": "Use two 9x5 loaf pans",
+        "4": "Use four loaf pans or consider commercial-size"
+      }
+    }
+  },
+
+  "cooking_time_adjustments": {
+    "description": "Cooking times don't scale linearly. Larger batches often need different approaches.",
+    "general_rules": {
+      "stovetop_liquids": {
+        "description": "Soups, sauces, and liquids on stovetop",
+        "scaling_factor": "Approximately square root of volume ratio",
+        "formula": "new_time = original_time * sqrt(scale)",
+        "example": "2x liquid = ~1.4x time to bring to boil",
+        "notes": "Use wider pot if available to maintain surface area."
+      },
+      "stovetop_saute": {
+        "description": "Sauteing vegetables, browning meat",
+        "scaling_note": "Don't scale up - work in batches!",
+        "reason": "Overcrowding prevents browning (steaming instead)",
+        "max_batch": "Fill pan no more than one layer deep",
+        "notes": "For 2x recipe, saute in two batches and combine."
+      },
+      "oven_baking": {
+        "description": "Cakes, cookies, casseroles in oven",
+        "notes": "Time increases with pan size/depth, not just volume",
+        "shallow_items": "Cookies, thin bars - time stays similar if spread on more pans",
+        "deep_items": "Cakes, casseroles - add 25-50% time for doubled depth",
+        "temperature_note": "May need to reduce temp by 25°F for very large items to prevent burning edges"
+      },
+      "oven_roasting": {
+        "description": "Roasting meats and vegetables",
+        "meat_rule": "Time scales with weight: use meat thermometer, not time",
+        "vegetable_rule": "Use multiple pans rather than crowding; time stays similar",
+        "crowding_warning": "Overcrowded roasting pans steam instead of roast"
+      },
+      "slow_cooker": {
+        "description": "Slow cooker/crockpot recipes",
+        "notes": "Fill 1/2 to 2/3 full for best results",
+        "scaling_down": "May cook faster if less full - check earlier",
+        "scaling_up": "Don't exceed 2/3 full; liquid should cover solids"
+      },
+      "pressure_cooker": {
+        "description": "Instant Pot and pressure cooker recipes",
+        "notes": "Time under pressure stays same for most items",
+        "liquid_rule": "Always maintain minimum liquid (usually 1 cup)",
+        "max_fill": "Never exceed max fill line (usually 2/3 or less)"
+      },
+      "deep_frying": {
+        "description": "Deep frying foods",
+        "batch_warning": "Always fry in small batches!",
+        "reason": "Adding too much cold food drops oil temperature, causing greasy results",
+        "max_batch": "No more than fills 1/4 of oil surface",
+        "recovery_time": "Allow oil to return to temp between batches"
+      }
+    },
+    "specific_adjustments": {
+      "cookies": {
+        "base_scale": 1,
+        "time_multiplier": 1.0,
+        "notes": "Bake same time per batch. Multiple batches, not longer time."
+      },
+      "cake_layers": {
+        "base_scale": 1,
+        "time_multiplier_2x": 1.0,
+        "notes": "Use more/larger pans, not deeper pans. Same time if same depth."
+      },
+      "cake_deep": {
+        "base_scale": 1,
+        "time_multiplier_2x": 1.25,
+        "notes": "Deeper pans need 25% more time. Reduce temp 25°F to prevent burning."
+      },
+      "casserole": {
+        "base_scale": 1,
+        "time_multiplier_2x": 1.15,
+        "notes": "Slightly longer if deeper. Check internal temp 165°F for safety."
+      },
+      "soup_stew": {
+        "base_scale": 1,
+        "time_multiplier_2x": 1.2,
+        "notes": "Bring to boil time increases. Simmer time stays similar once hot."
+      },
+      "rice_grains": {
+        "base_scale": 1,
+        "time_multiplier_2x": 1.1,
+        "notes": "Slight increase. Keep lid on; don't lift to check too often."
+      },
+      "pasta_boiling": {
+        "base_scale": 1,
+        "time_multiplier_2x": 1.0,
+        "notes": "Same cook time once water re-boils. Use larger pot with more water."
+      },
+      "meat_roasting": {
+        "base_scale": 1,
+        "time_note": "Use thermometer! Time varies with thickness, not weight alone.",
+        "internal_temps": {
+          "beef_rare": "125°F",
+          "beef_medium": "135°F",
+          "beef_well": "155°F",
+          "pork": "145°F",
+          "chicken": "165°F",
+          "turkey": "165°F"
+        }
+      }
+    }
+  },
+
+  "scaling_warnings": {
+    "description": "Categories and specific items that don't scale well or have special considerations",
+    "dont_scale_categories": {
+      "souffles": {
+        "keywords": ["souffle", "soufflé"],
+        "max_scale": 1,
+        "warning": "Soufflés are extremely temperamental and should not be scaled. Make multiple individual soufflés instead of one larger one.",
+        "severity": "high"
+      },
+      "meringues": {
+        "keywords": ["meringue", "pavlova", "angel food"],
+        "max_scale": 1.5,
+        "warning": "Meringues are sensitive to humidity and technique. Scaling up significantly increases failure risk.",
+        "severity": "medium"
+      },
+      "custards_flans": {
+        "keywords": ["custard", "flan", "creme brulee", "crème brûlée", "panna cotta", "pot de creme"],
+        "max_scale": 2,
+        "warning": "Custards set based on temperature gradients. Larger portions may not set properly in the center.",
+        "severity": "medium"
+      },
+      "yeast_breads": {
+        "keywords": ["yeast", "bread dough", "pizza dough", "brioche", "challah", "cinnamon roll"],
+        "max_scale": 2,
+        "warning": "Large dough batches are difficult to knead and may not rise evenly. Consider making multiple batches.",
+        "severity": "low",
+        "tip": "For 2x+, use a stand mixer with dough hook, or divide and knead in portions."
+      },
+      "candy_confections": {
+        "keywords": ["candy", "caramel", "toffee", "fudge", "brittle", "praline", "divinity", "marshmallow"],
+        "max_scale": 1.5,
+        "warning": "Candy making depends on precise temperature control. Larger batches take longer to reach temperature, affecting texture.",
+        "severity": "high"
+      },
+      "emulsions": {
+        "keywords": ["hollandaise", "mayonnaise", "aioli", "bearnaise", "beurre blanc"],
+        "max_scale": 2,
+        "warning": "Emulsion sauces can break when made in large quantities. Make in smaller batches and combine.",
+        "severity": "medium"
+      },
+      "deep_fried": {
+        "keywords": ["deep fry", "deep-fry", "deep fried", "fried chicken", "fried fish", "tempura", "fritters", "doughnuts", "donuts"],
+        "max_scale": 1,
+        "warning": "Deep frying must be done in small batches regardless of recipe size. Scale refers to total quantity, not batch size.",
+        "severity": "low",
+        "tip": "Fry in batches of 4-6 pieces. Keep finished items warm in 200°F oven."
+      },
+      "cheese_sauces": {
+        "keywords": ["cheese sauce", "mornay", "queso", "fondue", "nacho cheese"],
+        "max_scale": 2,
+        "warning": "Cheese can become grainy if overheated. Make in smaller batches or use lower heat for large quantities.",
+        "severity": "low"
+      }
+    },
+    "scaling_down_warnings": {
+      "minimum_yeast": {
+        "keywords": ["yeast"],
+        "min_scale": 0.5,
+        "warning": "Below half scale, yeast may not activate properly. Use at least 1/4 tsp active dry yeast.",
+        "severity": "medium"
+      },
+      "minimum_eggs": {
+        "keywords": ["egg", "eggs"],
+        "min_scale": 0.5,
+        "warning": "Recipes using 1 egg don't scale down well. Consider using half an egg (beat and measure) or egg substitute.",
+        "severity": "low",
+        "tip": "1 large egg = ~3 tbsp. For half recipe, use 1.5 tbsp beaten egg."
+      },
+      "minimum_leavening": {
+        "keywords": ["baking powder", "baking soda"],
+        "min_scale": 0.25,
+        "warning": "Very small amounts of leavening are hard to measure accurately. Use a precision scale.",
+        "severity": "low"
+      }
+    }
+  },
+
+  "pan_equivalents": {
+    "description": "Pan size conversions when scaling recipes",
+    "by_area": {
+      "8_inch_round": { "area": 50, "equivalent_to": "9x9 square (81 sq in is larger)" },
+      "9_inch_round": { "area": 64, "equivalent_to": "8x8 square (64 sq in, exact match)" },
+      "10_inch_round": { "area": 79, "equivalent_to": "9x9 square is close (81 sq in)" },
+      "9x13_rect": { "area": 117, "equivalent_to": "Two 8-inch rounds (100 sq in) or two 9-inch rounds (127 sq in)" }
+    },
+    "volume_conversions": {
+      "9x13_pan": "15 cups",
+      "9x9_pan": "8 cups",
+      "8x8_pan": "8 cups",
+      "9_inch_round_2inch": "8 cups",
+      "10_inch_round_2inch": "11 cups",
+      "9x5_loaf": "8 cups",
+      "bundt_10inch": "12 cups",
+      "bundt_12cup": "12 cups",
+      "springform_9inch": "10 cups",
+      "springform_10inch": "12 cups"
+    }
+  },
+
+  "ingredient_behavior": {
+    "description": "How specific ingredients behave when scaled",
+    "structural_ingredients": {
+      "flour": {
+        "scales_linearly": true,
+        "notes": "Flour is structural and scales linearly for chemistry. Measure by weight for accuracy."
+      },
+      "eggs": {
+        "scales_linearly": true,
+        "notes": "Eggs are structural. For odd numbers, beat egg and measure by volume (1 egg = 3 tbsp)."
+      },
+      "butter_fat": {
+        "scales_linearly": true,
+        "notes": "Fat is structural in baking. Scales linearly but can affect richness at high scales."
+      },
+      "liquid": {
+        "scales_linearly": true,
+        "notes": "Liquids scale linearly but affect cooking time."
+      }
+    },
+    "flavor_ingredients": {
+      "salt": {
+        "scales_linearly": false,
+        "scale_factor": 0.6,
+        "notes": "See spice_scaling section"
+      },
+      "spices": {
+        "scales_linearly": false,
+        "scale_factor": 0.7,
+        "notes": "See spice_scaling section"
+      }
+    }
+  },
+
+  "detection_patterns": {
+    "description": "Patterns to detect recipe types for appropriate warnings",
+    "baking": ["bake", "baking powder", "baking soda", "flour", "oven", "preheat"],
+    "candy": ["candy thermometer", "soft ball", "hard ball", "hard crack", "soft crack", "thread stage"],
+    "frying": ["fry", "deep fry", "oil for frying", "heated oil", "350°F oil", "375°F oil"],
+    "emulsion": ["whisk constantly", "slowly drizzle", "emulsif"],
+    "yeast_bread": ["yeast", "rise", "proof", "knead", "punch down"],
+    "custard": ["custard", "water bath", "bain marie", "set when"]
+  }
+}

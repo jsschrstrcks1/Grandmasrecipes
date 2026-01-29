@@ -295,6 +295,26 @@ async function init() {
     }
   }
 
+  // Initialize Heart-Smart Converter
+  if (typeof HeartSmartConverter !== 'undefined') {
+    try {
+      await HeartSmartConverter.loadData();
+      console.log('Heart-smart converter initialized');
+    } catch (e) {
+      console.warn('Heart-smart converter not available:', e.message);
+    }
+  }
+
+  // Initialize Scaling Intelligence
+  if (typeof ScalingIntelligence !== 'undefined') {
+    try {
+      await ScalingIntelligence.loadData();
+      console.log('Scaling intelligence initialized');
+    } catch (e) {
+      console.warn('Scaling intelligence not available:', e.message);
+    }
+  }
+
   handleRouting();
 }
 
@@ -1332,6 +1352,7 @@ function renderScalingControls(recipe) {
       </div>
       ${servings ? `<span class="scaling-servings">${getScaledServings(servings, recipeScale)}</span>` : ''}
     </div>
+    <div id="scaling-intelligence-container"></div>
   `;
 }
 
@@ -4760,6 +4781,9 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       <!-- Diabetic-Friendly Converter Panel -->
       <div id="diabetic-converter-container"></div>
 
+      <!-- Heart-Smart Converter Panel -->
+      <div id="heart-smart-converter-container"></div>
+
       <!-- Milk Substitution Calculator (for cheesemaking recipes) -->
       <div id="milk-substitution-container"></div>
 
@@ -4823,6 +4847,26 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
     });
   });
 
+  // Render Scaling Intelligence Panel
+  if (typeof ScalingIntelligence !== 'undefined') {
+    const scalingContainer = document.getElementById('scaling-intelligence-container');
+    if (scalingContainer) {
+      try {
+        ScalingIntelligence.getScalingAnalysis(recipe, recipeScale).then(analysis => {
+          if (analysis.hasIntelligence) {
+            scalingContainer.innerHTML = ScalingIntelligence.renderScalingIntelligencePanel(analysis);
+          } else {
+            scalingContainer.innerHTML = '';
+          }
+        }).catch(e => {
+          console.warn('Scaling intelligence panel error:', e.message);
+        });
+      } catch (e) {
+        console.warn('Scaling intelligence panel error:', e.message);
+      }
+    }
+  }
+
   // Render Milk Substitution Calculator for cheesemaking recipes
   if (typeof MilkSubstitution !== 'undefined') {
     const milkContainer = document.getElementById('milk-substitution-container');
@@ -4857,6 +4901,21 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
         }
       } catch (e) {
         console.warn('Diabetic converter panel error:', e.message);
+      }
+    }
+  }
+
+  // Render Heart-Smart Converter Panel
+  if (typeof HeartSmartConverter !== 'undefined') {
+    const heartSmartContainer = document.getElementById('heart-smart-converter-container');
+    if (heartSmartContainer) {
+      try {
+        const analysis = HeartSmartConverter.analyzeRecipe(recipe);
+        if (analysis.hasConcerns) {
+          heartSmartContainer.innerHTML = HeartSmartConverter.renderPanel(analysis);
+        }
+      } catch (e) {
+        console.warn('Heart-smart converter panel error:', e.message);
       }
     }
   }

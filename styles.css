@@ -4417,6 +4417,268 @@ main {
 }
 
 /* =============================================================================
+   Scaling Intelligence Panel Styles
+   ============================================================================= */
+
+.scaling-intelligence-panel {
+  margin: var(--spacing-md) 0;
+}
+
+.scaling-details {
+  border: 2px solid #8B4513;
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, #FFF8DC 0%, #F5DEB3 100%);
+  overflow: hidden;
+}
+
+.scaling-details[open] {
+  border-color: #654321;
+}
+
+.scaling-summary {
+  padding: var(--spacing-sm) var(--spacing-md);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-weight: 600;
+  color: #654321;
+  user-select: none;
+  list-style: none;
+}
+
+.scaling-summary::-webkit-details-marker {
+  display: none;
+}
+
+.scaling-summary:hover {
+  background: rgba(139, 69, 19, 0.1);
+}
+
+.scaling-icon {
+  font-size: 1.1rem;
+}
+
+.scaling-title {
+  flex: 1;
+}
+
+.scaling-count {
+  font-weight: normal;
+  font-size: 0.85rem;
+  color: #8B4513;
+}
+
+.scaling-chevron {
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.scaling-details[open] .scaling-chevron {
+  transform: rotate(90deg);
+}
+
+.scaling-content {
+  padding: var(--spacing-md);
+  background: white;
+  border-top: 1px solid #D2B48C;
+}
+
+.scaling-section {
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px dashed #D2B48C;
+}
+
+.scaling-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.scaling-section h4 {
+  margin: 0 0 var(--spacing-sm) 0;
+  color: #654321;
+  font-size: 1rem;
+}
+
+.scaling-section .section-intro {
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+/* Scaling Warnings */
+.scaling-warnings .scaling-warning {
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-sm);
+  border-left: 4px solid;
+}
+
+.scaling-warning.warning-high {
+  background: #fee2e2;
+  border-color: #dc2626;
+}
+
+.scaling-warning.warning-high p:first-child strong {
+  color: #dc2626;
+}
+
+.scaling-warning.warning-medium {
+  background: #fef3c7;
+  border-color: #d97706;
+}
+
+.scaling-warning.warning-medium p:first-child strong {
+  color: #d97706;
+}
+
+.scaling-warning.warning-low,
+.scaling-warning.warning-info {
+  background: #dbeafe;
+  border-color: #3b82f6;
+}
+
+.scaling-warning.warning-low p:first-child strong,
+.scaling-warning.warning-info p:first-child strong {
+  color: #3b82f6;
+}
+
+.scaling-warning p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.scaling-warning .warning-tip {
+  margin-top: var(--spacing-xs);
+  color: var(--color-text-muted);
+}
+
+/* Spice Adjustments */
+.spice-list {
+  margin: 0;
+  padding: 0 0 0 var(--spacing-lg);
+  font-size: 0.9rem;
+}
+
+.spice-list li {
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.5;
+}
+
+.spice-list .recommend {
+  color: #059669;
+  font-weight: 600;
+  background: #d1fae5;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.spice-list .reduction {
+  color: #6b7280;
+  font-size: 0.85em;
+}
+
+.spice-list .spice-warning {
+  color: #dc2626;
+  display: block;
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+
+.scaling-note {
+  margin: var(--spacing-sm) 0 0 0;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: #f5f5f5;
+  border-radius: var(--radius-sm);
+}
+
+/* Pan Recommendations */
+.scaling-pans p {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: 0.9rem;
+}
+
+.scaling-pans .pan-note {
+  color: var(--color-text-muted);
+}
+
+/* Time Adjustments */
+.time-adjustment {
+  margin-bottom: var(--spacing-sm);
+}
+
+.time-adjustment:last-child {
+  margin-bottom: 0;
+}
+
+.time-adjustment p {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: 0.9rem;
+}
+
+.time-adjustment .temp-note {
+  color: var(--color-text-muted);
+}
+
+.time-adjustment .safe-temps {
+  background: #f0fdf4;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* Intelligent scaling badge for ingredients */
+.ingredient-quantity.intelligent-scaled {
+  position: relative;
+}
+
+.ingredient-quantity.intelligent-scaled::after {
+  content: "*";
+  color: #8B4513;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.intelligent-scale-note {
+  display: block;
+  font-size: 0.75rem;
+  color: #8B4513;
+  margin-top: var(--spacing-xs);
+  font-style: italic;
+}
+
+/* Mobile responsive for scaling intelligence */
+@media (max-width: 768px) {
+  .scaling-summary {
+    padding: var(--spacing-sm);
+  }
+
+  .scaling-content {
+    padding: var(--spacing-sm);
+  }
+
+  .scaling-section h4 {
+    font-size: 0.95rem;
+  }
+
+  .spice-list {
+    padding-left: var(--spacing-md);
+  }
+}
+
+/* Print: hide scaling intelligence panel */
+@media print {
+  .scaling-intelligence-panel {
+    display: none;
+  }
+}
+
+/* =============================================================================
    Recipe Calculator Styles (Phase 10)
    ============================================================================= */
 
@@ -6466,12 +6728,578 @@ kbd {
   }
 }
 
+/* ============================================================
+   HEART-SMART CONVERTER PANEL
+   ============================================================ */
+.heart-smart-panel {
+  margin: 1.5rem 0;
+  border: 2px solid #e91e63;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.heart-smart-panel[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.heart-smart-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+  cursor: pointer;
+  font-weight: 600;
+  color: #c2185b;
+  list-style: none;
+  user-select: none;
+}
+
+.heart-smart-header::-webkit-details-marker {
+  display: none;
+}
+
+.heart-smart-header:hover {
+  background: linear-gradient(135deg, #f8bbd9 0%, #f48fb1 100%);
+}
+
+.heart-smart-icon {
+  display: flex;
+  align-items: center;
+  color: #c2185b;
+}
+
+.heart-smart-title {
+  font-size: 1rem;
+}
+
+.heart-smart-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #d81b60;
+  margin-left: auto;
+}
+
+.heart-smart-header .chevron {
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+  color: #d81b60;
+  margin-left: 0.5rem;
+}
+
+.heart-smart-content {
+  padding: 1rem 1.25rem;
+}
+
+.heart-smart-intro {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Health Meters */
+.heart-smart-meters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.heart-smart-no-data {
+  background: #fff8e1;
+  border: 1px solid #ffecb3;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.heart-smart-no-data .heart-smart-meter-label {
+  color: #f57f17;
+  font-size: 0.85rem;
+}
+
+.heart-smart-meter {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid #e0e0e0;
+}
+
+.meter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.meter-label {
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: #333;
+}
+
+.meter-target {
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.meter-bar-container {
+  position: relative;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: visible;
+  margin-bottom: 0.4rem;
+}
+
+.meter-bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+.meter-over .meter-bar {
+  background: linear-gradient(90deg, #ff9800 0%, #f44336 100%);
+}
+
+.meter-ok .meter-bar {
+  background: linear-gradient(90deg, #66bb6a 0%, #4caf50 100%);
+}
+
+.meter-threshold {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: 100%;
+  width: 2px;
+  background: #333;
+  border-radius: 1px;
+}
+
+.meter-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meter-current {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.meter-over-badge {
+  background: #ffebee;
+  color: #c62828;
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.meter-ok-badge {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Flagged Ingredient Cards */
+.heart-smart-flagged-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.heart-smart-ingredient-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.heart-smart-ingredient-card[open] {
+  border-color: #f48fb1;
+  background: #fff;
+}
+
+.heart-smart-ingredient-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  flex-wrap: wrap;
+}
+
+.heart-smart-ingredient-header::-webkit-details-marker {
+  display: none;
+}
+
+.heart-smart-ingredient-header:hover {
+  background: #fef6f9;
+}
+
+.heart-smart-ingredient-card[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.heart-smart-ingredient-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.heart-smart-category-badge {
+  background: #fce4ec;
+  color: #c2185b;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.concern-badge {
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.concern-sodium {
+  background: #ff5722;
+}
+
+.concern-fat {
+  background: #e91e63;
+}
+
+.heart-smart-ingredient-header .chevron-small {
+  font-size: 0.6rem;
+  color: #999;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.heart-smart-ingredient-content {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.heart-smart-original-info {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #fff3e0;
+  border-radius: 4px;
+  border-left: 3px solid #ff9800;
+}
+
+.heart-smart-note {
+  font-size: 0.8rem;
+  color: #757575;
+  margin: 0.4rem 0 0.75rem;
+}
+
+/* Substitute Options */
+.heart-smart-substitutes {
+  margin-top: 0.5rem;
+}
+
+.heart-smart-sub-heading {
+  font-size: 0.85rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.heart-smart-sub-option {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.heart-smart-sub-option:hover {
+  border-color: #f48fb1;
+}
+
+.heart-smart-sub-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.heart-smart-sub-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.heart-benefit-badge {
+  background: #e91e63;
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.heart-smart-sub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-bonus {
+  background: #f3e5f5;
+  color: #7b1fa2;
+  font-weight: 600;
+}
+
+.heart-smart-sub-details {
+  font-size: 0.82rem;
+  color: #555;
+  line-height: 1.55;
+}
+
+.heart-smart-sub-details p {
+  margin: 0.25rem 0;
+}
+
+.heart-smart-sub-details strong {
+  color: #333;
+}
+
+/* Warnings */
+.heart-smart-warning {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.heart-smart-warning-safety {
+  background: #ffebee;
+  border-left: 3px solid #f44336;
+  color: #b71c1c;
+}
+
+.heart-smart-warning-allergen {
+  background: #fce4ec;
+  border-left: 3px solid #e91e63;
+  color: #880e4f;
+}
+
+.heart-smart-warning-general {
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+  color: #e65100;
+}
+
+/* Food Safety Section */
+.heart-smart-safety-section {
+  margin-top: 1rem;
+  background: #ffebee;
+  border: 1px solid #ffcdd2;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.safety-heading {
+  color: #c62828;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.heart-smart-safety-warning {
+  font-size: 0.82rem;
+  color: #b71c1c;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.heart-smart-safety-warning:last-child {
+  margin-bottom: 0;
+}
+
+/* Flavor Enhancement Tips */
+.heart-smart-tips-section {
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #fff8e1;
+}
+
+.heart-smart-tips-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #f57f17;
+  list-style: none;
+}
+
+.heart-smart-tips-header::-webkit-details-marker {
+  display: none;
+}
+
+.heart-smart-tips-header:hover {
+  background: #ffecb3;
+}
+
+.heart-smart-tips-section[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.heart-smart-tips-icon {
+  display: flex;
+  align-items: center;
+  color: #ff8f00;
+}
+
+.heart-smart-tips-content {
+  padding: 0.5rem 1rem 0.75rem;
+}
+
+.heart-smart-tips-content h6 {
+  font-size: 0.82rem;
+  color: #e65100;
+  margin: 0.75rem 0 0.35rem;
+}
+
+.heart-smart-tips-content h6:first-child {
+  margin-top: 0;
+}
+
+.heart-smart-tips-list {
+  padding-left: 1.25rem;
+  font-size: 0.8rem;
+  color: #5d4037;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.heart-smart-tips-list li {
+  margin-bottom: 0.25rem;
+}
+
+/* Herb Blend Chips */
+.herb-blends-preview {
+  margin-bottom: 0.75rem;
+}
+
+.herb-blends-preview h6 {
+  margin: 0 0 0.4rem;
+}
+
+.herb-blend-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.herb-chip {
+  background: #fff3e0;
+  color: #e65100;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: help;
+  border: 1px solid #ffcc80;
+}
+
+.herb-chip:hover {
+  background: #ffe0b2;
+}
+
+/* Disclaimer */
+.heart-smart-disclaimer {
+  margin-top: 1rem;
+  padding: 0.65rem 0.85rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  color: #757575;
+  border: 1px solid #e0e0e0;
+  line-height: 1.5;
+}
+
+.heart-smart-disclaimer strong {
+  color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .heart-smart-header {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .heart-smart-count {
+    margin-left: 0;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .heart-smart-meters {
+    gap: 0.5rem;
+  }
+
+  .meter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .meter-values {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .heart-smart-sub-stats {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .heart-smart-ingredient-header {
+    gap: 0.3rem;
+  }
+
+  .heart-smart-sub-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .herb-blend-chips {
+    gap: 0.3rem;
+  }
+}
+
 /* Print styles - hide health panel and milk substitution panel */
 @media print {
   .health-considerations,
   .milk-substitution-panel,
   .substitution-panel,
-  .diabetic-panel {
+  .diabetic-panel,
+  .heart-smart-panel {
     display: none !important;
   }
 }

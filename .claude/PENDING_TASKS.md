@@ -588,11 +588,53 @@ const result = converter.generateConvertedRecipe();
 
 ### Heart-Smart Recipe Converter
 
-**Status:** Research Required
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Completed:** 2026-01-29
 **Complexity:** High
 
 Create a tool that converts recipes to heart-healthy versions by reducing sodium, saturated fat, and cholesterol while maintaining flavor through herbs, spices, and healthy fat substitutions.
+
+#### Implementation Complete (2026-01-29)
+
+**Files created/modified:**
+- `data/heart-smart-database.json` - Comprehensive heart-smart substitution data
+- `heart-smart-converter.js` - Converter module with analysis and rendering
+- `styles.css` - Pink/red themed panel styles
+- `recipe.html` - Script tag added
+- `script.js` - Initialization and rendering integration
+
+**Data foundation includes:**
+- **Sodium categories:** Salt/seasonings, soy sauce/Asian sauces, broths/stocks, canned foods, processed meats, cheese - with substitution options, sodium saved, ratios, and prep notes
+- **Fat categories:** Butter/oils, cream/dairy, ground meats, cholesterol sources - with saturated fat comparisons and healthy alternatives
+- **Flavor enhancement:** Fresh herbs (8 varieties with pairings), spices (8 varieties), acids/brighteners (6 types), umami boosters (6 sources), aromatics (6 types)
+- **Regional herb blends:** Italian, Herbes de Provence, Za'atar, Garam Masala, Cajun, Greek, Chinese Five Spice, Ras el Hanout - all sodium-free
+- **Omega-3 sources:** Mackerel, salmon, sardines, walnuts, flaxseed, chia seeds with grams per serving
+- **Fiber boosters:** Lentils, beans, oats, chia, avocado, raspberries, artichokes with grams per serving
+- **Food safety warnings:** Salt reduction in curing (botulism risk), potassium chloride warnings (kidney disease, ACE inhibitors)
+- **Detection keywords:** High-sodium, high-saturated-fat, high-cholesterol ingredient lists
+- **Diet presets:** AHA Recommended, DASH Diet, Mediterranean
+
+**UI features:**
+- Collapsible panel with pink/red heart health theme
+- Health meters for sodium, saturated fat, cholesterol (with over/under indicators)
+- Ingredient cards with substitution options showing:
+  - Savings stats (mg sodium saved, g sat fat saved)
+  - Ratios and prep notes for cooking implications
+  - Taste impact descriptions
+  - Safety warnings where applicable
+- Flavor Enhancement Tips section with regional herb blend chips
+- Food Safety section for cured meats and potassium chloride warnings
+- Medical disclaimer
+
+**Research sources:**
+- [AHA Sodium Guidelines](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-should-i-eat-per-day)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Cleveland Clinic Low-Sodium Cooking](https://health.clevelandclinic.org/no-salt-seasonings-no-sodium-foods)
+- [NIH Omega-3 Fatty Acids](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/)
+- [Mayo Clinic High-Fiber Foods](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/high-fiber-foods/art-20050948)
+- [NCBI - Sodium in Food Preservation](https://www.ncbi.nlm.nih.gov/books/NBK50952/)
+- [PMC - Potassium Chloride Salt Substitutes](https://pmc.ncbi.nlm.nih.gov/articles/PMC1124926/)
 
 #### Goals
 
@@ -934,14 +976,14 @@ const HEALTH_PRESETS = {
 };
 ```
 
-#### Research Required
+#### Research Completed (2026-01-29)
 
-- [ ] Complete sodium content database for common ingredients
-- [ ] Saturated fat database with cooking method variations
-- [ ] Herb/spice flavor pairing research
-- [ ] How salt reduction affects food safety (curing, preservation)
-- [ ] Interaction effects (reducing salt + reducing fat = double flavor loss)
-- [ ] Regional herb blends for different cuisines
+- [x] Complete sodium content database for common ingredients
+- [x] Saturated fat database with cooking method variations
+- [x] Herb/spice flavor pairing research
+- [x] How salt reduction affects food safety (curing, preservation)
+- [x] Interaction effects (reducing salt + reducing fat = double flavor loss)
+- [x] Regional herb blends for different cuisines
 
 #### Success Metrics
 
@@ -1530,14 +1572,50 @@ async function displayRecipe(recipe) {
 
 ### Recipe Scaling Intelligence
 
-**Status:** Planned
+**Status:** ✅ COMPLETE
 **Added:** 2026-01-23
+**Completed:** 2026-01-29
+**Complexity:** Medium
 
 Improve recipe scaling beyond simple multiplication:
 - Spice/seasoning scaling (often non-linear)
 - Pan size recommendations for scaled recipes
 - Cooking time adjustments for larger batches
 - Warnings for recipes that don't scale well (soufflés, etc.)
+
+#### Implementation Complete (2026-01-29)
+
+**Files created/modified:**
+- `data/scaling-rules.json` - Comprehensive scaling intelligence database
+- `scaling-intelligence.js` - JavaScript module for intelligent scaling analysis
+- `styles.css` - Brown/tan themed panel styles for scaling tips
+- `recipe.html` - Script tag added
+- `script.js` - Initialization and rendering integration
+
+**Data foundation includes:**
+- **Spice scaling categories:** Salt (0.6 exponent), hot spices (0.5), aromatic spices (0.7), dried herbs (0.75), fresh herbs (0.85), garlic/onion (0.8), vanilla/extracts (0.7), leavening (0.9), acidic ingredients (0.75), sweeteners (0.95)
+- **Danger thresholds:** Warnings when scaling hot spices 2×+, salt 4×+, leavening 3×+
+- **Pan size recommendations:** Cookies, cakes (round), brownies/bars, casseroles, bread loaves - with specific recommendations for 0.5×, 1×, 2×, 4× scaling
+- **Pan equivalents:** Area and volume conversions for common pan sizes
+- **Cooking time adjustments:** Stovetop liquids, sauteing (batch warnings), oven baking, deep frying, slow cooker, pressure cooker, meat roasting
+- **Scaling warnings - Don't Scale Well:** Soufflés, meringues, custards/flans, yeast breads (2×+ warning), candy/confections, emulsions, deep fried items, cheese sauces
+- **Scaling Down Warnings:** Minimum yeast, minimum eggs (half-egg tip), minimum leavening
+
+**UI features:**
+- Collapsible "Scaling Tips" panel with brown/tan color scheme
+- Appears only when scale ≠ 1× and has relevant tips
+- Sections for:
+  - Scaling Warnings (high/medium/low severity with color coding)
+  - Spice & Seasoning Adjustments (shows recommended multiplier vs linear, reduction %)
+  - Pan Size Recommendations (contextual based on recipe category)
+  - Cooking Time Notes (method-specific guidance)
+- Always taste-and-adjust reminder
+
+**Research sources:**
+- [America's Test Kitchen - The Science of Good Cooking](https://www.americastestkitchen.com/)
+- [Serious Eats - Recipe Scaling Guide](https://www.seriouseats.com/)
+- [King Arthur Baking - Scaling Recipes](https://www.kingarthurbaking.com/)
+- [USDA Food Safety Guidelines](https://www.fsis.usda.gov/)
 
 ---
 
@@ -1621,6 +1699,8 @@ Automatically estimate recipe difficulty based on:
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| **Recipe Scaling Intelligence** | 2026-01-29 | Non-linear spice scaling, pan size recommendations, cooking time adjustments, scaling warnings |
+| **Heart-Smart Recipe Converter** | 2026-01-29 | Full UI: data + detection + collapsible panel with health meters, substitutions, flavor tips, safety warnings |
 | **Protein & Vegetable Substitution Tool** | 2026-01-28 | Full UI: data + detection + collapsible panel with substitution options |
 | **Implement Health Safeguards UI** | 2026-01-28 | Collapsible panel with drug-food interactions, allergens, severity levels |
 | Process 754 oversized reference images | 2026-01-25 | Resized to <2000px in data/all/processed/ |
