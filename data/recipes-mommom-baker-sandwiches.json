@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "sandwiches",
     "total_recipes": 5,
-    "generated": "2026-01-23T14:31:32.285728Z",
+    "generated": "2026-01-29T11:11:47.794300Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -268,7 +268,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 550,
+          "fat_g": 34.1,
+          "carbs_g": 32.8,
+          "protein_g": 29.5,
+          "sodium_mg": 543,
+          "fiber_g": 1.7,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "barbecue-style-sandwiches-bhg",
@@ -375,7 +391,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 164,
+          "fat_g": 5.3,
+          "carbs_g": 12.5,
+          "protein_g": 16.4,
+          "sodium_mg": 706,
+          "fiber_g": 1.4,
+          "sugar_g": 9.4
+        },
+        "missing_inputs": [
+          "4  French-style rolls"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "meat-stuffed-pita-pockets-bhg",
@@ -460,7 +494,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5413 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 228,
+          "fat_g": 16.7,
+          "carbs_g": 10.7,
+          "protein_g": 9.3,
+          "sodium_mg": 208,
+          "fiber_g": 1.6,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

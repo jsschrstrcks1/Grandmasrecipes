@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "breakfast",
     "total_recipes": 49,
-    "generated": "2026-01-23T14:31:32.119651Z",
+    "generated": "2026-01-29T11:11:47.657921Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1187,6 +1187,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 81,
+          "fat_g": 5.0,
+          "carbs_g": 5.8,
+          "protein_g": 2.8,
+          "sodium_mg": 220,
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 55 servings"
+        ]
       }
     },
     {
@@ -1282,6 +1298,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 413,
+          "fat_g": 29.8,
+          "carbs_g": 19.4,
+          "protein_g": 16.7,
+          "sodium_mg": 632,
+          "fiber_g": 1.7,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -1409,6 +1441,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 250,
+          "fat_g": 20.1,
+          "carbs_g": 4.0,
+          "protein_g": 13.6,
+          "sodium_mg": 509,
+          "fiber_g": 0.4,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1467,6 +1515,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 47,
+          "fat_g": 3.2,
+          "carbs_g": 1.0,
+          "protein_g": 3.1,
+          "sodium_mg": 128,
+          "fiber_g": 0.2,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -1540,6 +1605,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 147,
+          "fat_g": 10.0,
+          "carbs_g": 3.1,
+          "protein_g": 10.6,
+          "sodium_mg": 301,
+          "fiber_g": 0.4,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -1644,6 +1725,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 305,
+          "fat_g": 23.2,
+          "carbs_g": 2.8,
+          "protein_g": 20.0,
+          "sodium_mg": 698,
+          "fiber_g": 0.3,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1744,6 +1841,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 288,
+          "fat_g": 17.1,
+          "carbs_g": 18.1,
+          "protein_g": 15.6,
+          "sodium_mg": 658,
+          "fiber_g": 0.9,
+          "sugar_g": 6.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1844,6 +1957,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 124,
+          "fat_g": 10.1,
+          "carbs_g": 2.2,
+          "protein_g": 6.2,
+          "sodium_mg": 409,
+          "fiber_g": 0.3,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "pancake or waffle mix"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1911,6 +2042,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 196,
+          "fat_g": 5.9,
+          "carbs_g": 28.3,
+          "protein_g": 7.6,
+          "sodium_mg": 572,
+          "fiber_g": 1.6,
+          "sugar_g": 4.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -1985,6 +2132,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 593,
+          "fat_g": 48.2,
+          "carbs_g": 3.0,
+          "protein_g": 34.9,
+          "sodium_mg": 741,
+          "fiber_g": 0.0,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2072,6 +2236,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 116,
+          "fat_g": 2.5,
+          "carbs_g": 18.3,
+          "protein_g": 5.1,
+          "sodium_mg": 308,
+          "fiber_g": 0.9,
+          "sugar_g": 4.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -2164,6 +2344,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 527,
+          "fat_g": 30.8,
+          "carbs_g": 41.3,
+          "protein_g": 20.1,
+          "sodium_mg": 662,
+          "fiber_g": 1.3,
+          "sugar_g": 5.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2239,6 +2436,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 3.4,
+          "carbs_g": 10.8,
+          "protein_g": 3.3,
+          "sodium_mg": 47,
+          "fiber_g": 0.3,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 15 servings"
+        ]
       }
     },
     {
@@ -2347,6 +2560,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 439,
+          "fat_g": 15.7,
+          "carbs_g": 60.0,
+          "protein_g": 13.6,
+          "sodium_mg": 1180,
+          "fiber_g": 1.7,
+          "sugar_g": 12.6
+        },
+        "missing_inputs": [
+          "1  Aebleskiver pan"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2445,6 +2677,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 451,
+          "fat_g": 48.6,
+          "carbs_g": 1.7,
+          "protein_g": 4.2,
+          "sodium_mg": 430,
+          "fiber_g": 0.5,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2552,6 +2801,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 264,
+          "fat_g": 12.3,
+          "carbs_g": 30.9,
+          "protein_g": 8.6,
+          "sodium_mg": 419,
+          "fiber_g": 1.8,
+          "sugar_g": 20.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2683,6 +2949,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 474,
+          "fat_g": 17.6,
+          "carbs_g": 66.5,
+          "protein_g": 13.0,
+          "sodium_mg": 1026,
+          "fiber_g": 1.7,
+          "sugar_g": 17.8
+        },
+        "missing_inputs": [
+          "1 4 1/2 oz carton frozen whipped topping"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2769,6 +3054,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 413,
+          "fat_g": 19.9,
+          "carbs_g": 43.8,
+          "protein_g": 14.0,
+          "sodium_mg": 480,
+          "fiber_g": 1.3,
+          "sugar_g": 8.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -2846,6 +3148,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 3.4,
+          "carbs_g": 10.8,
+          "protein_g": 3.3,
+          "sodium_mg": 47,
+          "fiber_g": 0.3,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 15 servings"
+        ]
       }
     },
     {
@@ -2952,6 +3270,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 498,
+          "fat_g": 38.0,
+          "carbs_g": 11.5,
+          "protein_g": 25.9,
+          "sodium_mg": 1276,
+          "fiber_g": 1.6,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [
+          "12-15  prepared crepes"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3026,6 +3363,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 382,
+          "fat_g": 21.6,
+          "carbs_g": 41.5,
+          "protein_g": 9.0,
+          "sodium_mg": 394,
+          "fiber_g": 1.9,
+          "sugar_g": 17.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3124,6 +3478,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 279,
+          "fat_g": 7.3,
+          "carbs_g": 39.6,
+          "protein_g": 13.8,
+          "sodium_mg": 499,
+          "fiber_g": 5.2,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [
+          "12  green stuffed Spanish olives"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3253,6 +3626,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 771,
+          "fat_g": 31.3,
+          "carbs_g": 112.6,
+          "protein_g": 11.1,
+          "sodium_mg": 307,
+          "fiber_g": 2.5,
+          "sugar_g": 63.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3357,6 +3747,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 536,
+          "fat_g": 37.2,
+          "carbs_g": 24.9,
+          "protein_g": 25.4,
+          "sodium_mg": 735,
+          "fiber_g": 1.1,
+          "sugar_g": 8.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3465,6 +3872,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 440,
+          "fat_g": 37.4,
+          "carbs_g": 11.5,
+          "protein_g": 8.6,
+          "sodium_mg": 1109,
+          "fiber_g": 1.4,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3545,6 +3969,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 9.0,
+          "carbs_g": 23.1,
+          "protein_g": 13.5,
+          "sodium_mg": 472,
+          "fiber_g": 0.9,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [
+          "3 tbsp softened butter or herb butter"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3631,6 +4073,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 390,
+          "fat_g": 23.8,
+          "carbs_g": 20.9,
+          "protein_g": 22.6,
+          "sodium_mg": 579,
+          "fiber_g": 0.6,
+          "sugar_g": 6.3
+        },
+        "missing_inputs": [
+          "1 can crab"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3740,6 +4201,23 @@
         "flags": [
           "Recipe instructions partially visible"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 213,
+          "fat_g": 16.9,
+          "carbs_g": 5.4,
+          "protein_g": 10.3,
+          "sodium_mg": 197,
+          "fiber_g": 0.3,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
       }
     },
     {
@@ -3828,7 +4306,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5721.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 5.5,
+          "carbs_g": 9.8,
+          "protein_g": 0.4,
+          "sodium_mg": 45,
+          "fiber_g": 0.3,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "1 box yellow cake mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
+      }
     },
     {
       "id": "cheese-grits-souffle-fbc-jasmine",
@@ -3938,7 +4435,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5723.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 13.3,
+          "carbs_g": 8.6,
+          "protein_g": 11.3,
+          "sodium_mg": 264,
+          "fiber_g": 0.2,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
+      }
     },
     {
       "id": "baked-eggs-in-sour-cream-fbc-jasmine",
@@ -4045,7 +4559,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5724.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 205,
+          "fat_g": 15.9,
+          "carbs_g": 5.4,
+          "protein_g": 10.3,
+          "sodium_mg": 190,
+          "fiber_g": 0.3,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
+      }
     },
     {
       "id": "skillet-orange-coffee-cake-fbc-jasmine",
@@ -4184,7 +4715,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5728.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 229,
+          "fat_g": 8.8,
+          "carbs_g": 34.3,
+          "protein_g": 3.9,
+          "sodium_mg": 179,
+          "fiber_g": 1.0,
+          "sugar_g": 14.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "cake-doughnuts-fbc-jasmine",
@@ -4291,7 +4838,24 @@
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5728.jpeg",
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5730.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 787,
+          "fat_g": 22.9,
+          "carbs_g": 130.8,
+          "protein_g": 15.6,
+          "sodium_mg": 426,
+          "fiber_g": 2.9,
+          "sugar_g": 53.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
+      }
     },
     {
       "id": "grandmas-fry-cakes-fbc-jasmine",
@@ -4411,7 +4975,23 @@
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5730.jpeg",
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5731.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 949,
+          "fat_g": 18.9,
+          "carbs_g": 165.0,
+          "protein_g": 26.1,
+          "sodium_mg": 1057,
+          "fiber_g": 4.6,
+          "sugar_g": 38.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-homemade-butter",
@@ -4502,7 +5082,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 872,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "half to fill churn rich milk (mostly cream)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-sorrel-omelet",
@@ -4572,7 +5170,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 1.3,
+          "carbs_g": 2.6,
+          "protein_g": 1.8,
+          "sodium_mg": 19,
+          "fiber_g": 0.5,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "young sorrel leaves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from breakfast category"
+        ]
+      }
     },
     {
       "id": "foxfire2-dandelion-bud-omelet",
@@ -4659,7 +5276,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 195,
+          "fat_g": 15.8,
+          "carbs_g": 0.8,
+          "protein_g": 12.1,
+          "sodium_mg": 331,
+          "fiber_g": 0.0,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1 cup dandelion buds",
+          "handful  dandelion leaves"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cattail-pollen-pancakes-etw",
@@ -4738,7 +5374,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 4.0,
+          "carbs_g": 4.9,
+          "protein_g": 1.6,
+          "sodium_mg": 254,
+          "fiber_g": 0.1,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1/2 cup cattail pollen"
+        ],
+        "assumptions": [
+          "Calculated for 13 servings"
+        ]
+      }
     }
   ]
 }

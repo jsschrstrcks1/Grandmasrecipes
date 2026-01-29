@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "mains",
     "total_recipes": 1601,
-    "generated": "2026-01-23T14:31:31.680136Z",
+    "generated": "2026-01-29T11:11:47.264529Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -19997,7 +19997,7 @@
       }
     },
     {
-      "id": "pork-belly-burrito",
+      "id": "pork-belly-burrito-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Pork Belly Burrito",
@@ -26307,7 +26307,7 @@
       }
     },
     {
-      "id": "chicken-cacciatore",
+      "id": "chicken-cacciatore-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Cacciatore",
@@ -26609,7 +26609,7 @@
       }
     },
     {
-      "id": "chicken-nuggets",
+      "id": "chicken-nuggets-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Nuggets",
@@ -40986,10 +40986,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 438,
+          "fat_g": 37.5,
+          "carbs_g": 9.4,
+          "protein_g": 17.1,
+          "sodium_mg": 946,
+          "fiber_g": 1.0,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "STROGANOFF:"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -49884,9 +49896,19 @@
       "image_refs": [],
       "nutrition": {
         "status": "complete",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 161,
+          "fat_g": 10.8,
+          "carbs_g": 5.9,
+          "protein_g": 10.8,
+          "sodium_mg": 412,
+          "fiber_g": 1.0,
+          "sugar_g": 3.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -62927,10 +62949,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 375,
+          "fat_g": 26.6,
+          "carbs_g": 12.6,
+          "protein_g": 22.0,
+          "sodium_mg": 850,
+          "fiber_g": 1.7,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [
+          "CRUST:"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -64019,10 +64053,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 0.6,
+          "carbs_g": 26.8,
+          "protein_g": 3.3,
+          "sodium_mg": 724,
+          "fiber_g": 2.9,
+          "sugar_g": 7.9
+        },
+        "missing_inputs": [
+          "1 teaspoon MSG (monosodium glutamate)"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -64163,7 +64209,7 @@
       }
     },
     {
-      "id": "burritos",
+      "id": "burritos-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Burritos",
@@ -65720,10 +65766,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 7.5,
+          "carbs_g": 17.0,
+          "protein_g": 9.1,
+          "sodium_mg": 196,
+          "fiber_g": 1.8,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [
+          "RITZ CHICKEN:"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -66795,10 +66853,24 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 179,
+          "fat_g": 16.4,
+          "carbs_g": 3.0,
+          "protein_g": 5.5,
+          "sodium_mg": 218,
+          "fiber_g": 0.5,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "CRISPY POTATO BASE:",
+          "1 package frozen crispy potato rounds",
+          "CREAMY GRITS:"
+        ],
+        "assumptions": [
+          "Calculated for 15 servings"
+        ]
       }
     },
     {
@@ -70520,9 +70592,19 @@
       "image_refs": [],
       "nutrition": {
         "status": "complete",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 87,
+          "fat_g": 5.0,
+          "carbs_g": 6.8,
+          "protein_g": 4.1,
+          "sodium_mg": 254,
+          "fiber_g": 1.8,
+          "sugar_g": 0.9
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -70641,9 +70723,19 @@
       "image_refs": [],
       "nutrition": {
         "status": "complete",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 4.7,
+          "carbs_g": 6.2,
+          "protein_g": 2.8,
+          "sodium_mg": 49,
+          "fiber_g": 1.8,
+          "sugar_g": 3.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -72162,10 +72254,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 63,
+          "fat_g": 0.5,
+          "carbs_g": 15.2,
+          "protein_g": 0.6,
+          "sodium_mg": 7,
+          "fiber_g": 1.4,
+          "sugar_g": 13.2
+        },
+        "missing_inputs": [
+          "8 to 9 cardamom pods, lightly crushed",
+          "2 tablespoons dried rose petals, optional"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -72334,10 +72439,26 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 262,
+          "fat_g": 24.8,
+          "carbs_g": 9.0,
+          "protein_g": 2.0,
+          "sodium_mg": 54,
+          "fiber_g": 0.8,
+          "sugar_g": 7.2
+        },
+        "missing_inputs": [
+          "CHAI MASALA:",
+          "3/4 teaspoon ground anise",
+          "SOAKING LIQUID:",
+          "1 teaspoon matcha (green tea powder), plus additional for garnish",
+          "16 ladyfinger cookies"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -74415,10 +74536,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 5.4,
+          "carbs_g": 14.2,
+          "protein_g": 5.8,
+          "sodium_mg": 19,
+          "fiber_g": 0.8,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "1/2 cup Korean barbecue sauce for Kalbi (CJ's brand preferred)",
+          "1 head green or red lettuce"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -74567,10 +74701,26 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 664,
+          "fat_g": 44.4,
+          "carbs_g": 29.2,
+          "protein_g": 42.8,
+          "sodium_mg": 1140,
+          "fiber_g": 11.8,
+          "sugar_g": 12.5
+        },
+        "missing_inputs": [
+          "1 nori sheet",
+          "1/2 pound sashimi grade tuna",
+          "1 cup  ikura (fish roe)",
+          "1 English or Persian cucumber, thinly sliced, for garnish",
+          "2 shiso leaves, for garnish"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -74651,10 +74801,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 6.0,
+          "carbs_g": 43.5,
+          "protein_g": 2.5,
+          "sodium_mg": 240,
+          "fiber_g": 0.3,
+          "sugar_g": 17.5
+        },
+        "missing_inputs": [
+          "1 cup rainbow mochi",
+          "2 tablespoons Confetti Sequin Sprinkles or Rainbow Star Sprinkles"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -74763,10 +74926,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 41,
+          "fat_g": 0.5,
+          "carbs_g": 2.6,
+          "protein_g": 1.2,
+          "sodium_mg": 223,
+          "fiber_g": 0.1,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "24 bamboo leaves",
+          "2 cups glutinous rice"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -74863,10 +75039,25 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.0,
+          "carbs_g": 1.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1/4 cup rice flour",
+          "1/4 cup glutinous rice flour",
+          "1 large strawberry",
+          "Ceremonial grade matcha"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -80153,10 +80344,24 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 108,
+          "fat_g": 2.5,
+          "carbs_g": 17.9,
+          "protein_g": 3.6,
+          "sodium_mg": 698,
+          "fiber_g": 1.0,
+          "sugar_g": 6.3
+        },
+        "missing_inputs": [
+          "2 teaspoons Chinese five-spice powder",
+          "BASTING LIQUID:",
+          "POTATO BALLS:"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -80253,9 +80458,19 @@
       "image_refs": [],
       "nutrition": {
         "status": "complete",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 210,
+          "fat_g": 9.8,
+          "carbs_g": 19.1,
+          "protein_g": 11.9,
+          "sodium_mg": 146,
+          "fiber_g": 0.0,
+          "sugar_g": 19.1
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -80386,10 +80601,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 373,
+          "fat_g": 28.4,
+          "carbs_g": 10.1,
+          "protein_g": 17.5,
+          "sodium_mg": 822,
+          "fiber_g": 2.0,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "1/2 pound bulk mild Italian sausage"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -84076,7 +84303,7 @@
       }
     },
     {
-      "id": "chicken-enchiladas",
+      "id": "chicken-enchiladas-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Enchiladas",
@@ -133325,7 +133552,7 @@
       "id": "caeoline-king-scookbook-carolineki",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Caeoline King Scookbook",
+      "title": "Caroline King's Cookbook Biscuits",
       "category": "mains",
       "attribution": "",
       "source_note": "Caroline Kings Cook Book Foundation Principles Of Good Cookery With Recipes 1918 (PDF cookbook)",
@@ -133336,16 +133563,24 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "flour iteaspoon salt",
+          "item": "flour",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "baking powder 2 tablespoons shortening",
+          "item": "salt",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "shortening",
+          "quantity": "2",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -139762,7 +139997,7 @@
       "id": "i-owenscookb",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "I",
+      "title": "Owen's Cookbook Recipe",
       "category": "mains",
       "attribution": "",
       "source_note": "Owens Cook Book And Useful Household Hints 1884 (PDF cookbook)",
@@ -139773,34 +140008,19 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "0",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "wheat flour",
+          "quantity": "4",
+          "unit": "cup"
         },
         {
-          "item": "6",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
-        },
-        {
-          "item": "wheat flourmake - - -",
-          "quantity": "43",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "^cupscorn-meal make - - _",
+          "item": "corn meal",
           "quantity": "3",
-          "unit": "",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "large cofiee-cup drybrown sugar makes",
+          "item": "dry brown sugar",
           "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "[quantity inferred]"
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -139847,7 +140067,9 @@
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "[UNCLEAR] Original recipe badly damaged by OCR - measurements approximate"
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -143802,7 +144024,7 @@
       "id": "neufchatel-cheese-andpeanut-butter--scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Neufchatel Cheese Andpeanut Butter Paste",
+      "title": "Neufchatel Cheese and Peanut Butter Paste",
       "category": "mains",
       "attribution": "",
       "source_note": "Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921 (PDF cookbook)",
@@ -143813,28 +144035,24 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Neufchatel orcream cheese.",
+          "item": "Neufchatel or cream cheese",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "package"
         },
         {
-          "item": "/^teaspoon salt.",
-          "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
         },
         {
-          "item": "chopped parsley.",
+          "item": "chopped parsley",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
-          "item": "peanut butter.",
-          "quantity": "34",
-          "unit": "cup",
-          "prep_note": ""
+          "item": "peanut butter",
+          "quantity": "3/4",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -150245,16 +150463,29 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "saltcodfish Jtablespoon butter |teaspoon pepper",
+          "item": "salt codfish",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "-sized potatoes 1 egg",
+          "item": "butter",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "potatoes",
           "quantity": "4",
-          "unit": "medium",
-          "prep_note": ""
+          "unit": "medium"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
         }
       ],
       "instructions": [
@@ -150405,58 +150636,66 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "flaked cooked salmon 1 teaspoon salt |teaspoon lemon Juice",
+          "item": "cooked salmon, flaked",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "stale bread iteaspoon onion juice 2 eggwhites",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "stale bread crumbs",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": "stiffly"
+          "prep_note": "soaked in milk"
+        },
+        {
+          "item": "onion juice",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten stiffly"
+        },
+        {
+          "item": "milk",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for soaking bread"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "crumbs soaked in 2 eggyolks, beaten beaten"
+          "text": "Combine ingredients in order given, folding in the stiffly beaten whites last."
         },
         {
           "step": 2,
-          "text": "Combine ingredients inorder given, folding inthe stiffly beaten whites"
+          "text": "Drop mixture into a well-greased and crumbed pan and bake in a moderately hot oven, or steam the mixture."
         },
         {
           "step": 3,
-          "text": "last. Drop mixture intoawell-greased andcrumbed panandbake ina"
-        },
-        {
-          "step": 4,
-          "text": "moderately hotoven orsteam themixture. Theeggsmaybeomitted,"
-        },
-        {
-          "step": 5,
-          "text": "using icuplessmilk. Serve withwhite sauce."
-        },
-        {
-          "step": 6,
-          "text": "Intheaverage household there isperhaps noother food that calls for"
-        },
-        {
-          "step": 7,
-          "text": "more thought inselection andpreparation thanmeat. Innoother country"
-        },
-        {
-          "step": 8,
-          "text": "hasmeatbeen used sogenerously asinAmerica."
-        },
-        {
-          "step": 9,
-          "text": "With thepresent high cost ofmeat, American housewives arebuying"
-        },
-        {
-          "step": 10,
-          "text": "lessmeat thanformerly, andareusing what theybuymore carefully thanever"
+          "text": "The eggs may be omitted, using 1 cup less milk. Serve with white sauce."
         }
       ],
       "temperature": "",
@@ -155935,7 +156174,7 @@
       "id": "chicken-rolypoly-thewhysofc",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Chicken Rolypoly",
+      "title": "Chicken Roly-Poly",
       "category": "mains",
       "attribution": "",
       "source_note": "The Whys Of Cooking 1919 (PDF cookbook)",
@@ -155946,40 +156185,61 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "fuls pastry flour l'<cupfuls chopped chicken",
+          "item": "pastry flour",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "teaspooufuls bak-'_'cupful chicken gravy orcream sauce",
+          "item": "baking powder",
           "quantity": "3",
-          "unit": "",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
-          "item": "ful salt",
-          "quantity": "32",
-          "unit": "tsp",
-          "prep_note": "'4 cupful flour"
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp"
         },
         {
-          "item": "fid Criseo J2 teaspoonful salt",
+          "item": "Crisco (shortening)",
           "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
           "item": "egg",
           "quantity": "1",
           "unit": "",
-          "prep_note": "Ijcatcn light jXteaspoonful black pepper"
+          "prep_note": "beaten"
         },
         {
-          "item": "ful milk (about) 2 cupfuls chicken broth",
-          "quantity": "73",
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped chicken",
+          "quantity": "1 1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chicken gravy or cream sauce",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "2",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/4",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "for thickening"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
         }
       ],
       "instructions": [
@@ -156023,20 +156283,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "per_serving": {
-          "calories": 246,
-          "fat_g": 1.9,
-          "carbs_g": 47.6,
-          "protein_g": 8.0,
-          "sodium_mg": 18619,
-          "fiber_g": 1.7,
-          "sugar_g": 0.2
+          "calories": 508,
+          "fat_g": 20.1,
+          "carbs_g": 56.7,
+          "protein_g": 23.2,
+          "sodium_mg": 1040,
+          "fiber_g": 1.9,
+          "sugar_g": 2.3
         },
         "missing_inputs": [
-          "3  teaspooufuls bak-'_'cupful chicken gravy orcream sauce",
-          "1/4 cup fid Criseo J2 teaspoonful salt",
-          "73 cup ful milk (about) 2 cupfuls chicken broth"
+          "1 cup chicken gravy or cream sauce"
         ],
         "assumptions": [
           "Calculated for 4 servings"
@@ -160686,7 +160944,7 @@
       "id": "february-puddinq-triedandtr",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "February Puddinq",
+      "title": "February Pudding",
       "category": "mains",
       "attribution": "",
       "source_note": "Tried And True Five Hundred Recipes With Practical Culinary Suggestions 1909 (PDF cookbook)",
@@ -160700,19 +160958,28 @@
           "item": "eggs",
           "quantity": "3",
           "unit": "",
-          "prep_note": "slightly beaten Mlb.candied cherries, cutin"
+          "prep_note": "slightly beaten"
         },
         {
-          "item": "salt halves",
-          "quantity": "34",
-          "unit": "tsp",
-          "prep_note": ""
+          "item": "candied cherries",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "cut in halves"
         },
         {
-          "item": "vanilla 2 tbsp melted butter",
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
           "quantity": "1",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
+        },
+        {
+          "item": "melted butter",
+          "quantity": "2",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -167283,7 +167550,7 @@
       ]
     },
     {
-      "id": "chicken-pot-pie-gahb",
+      "id": "chicken-pot-pie-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Pot Pie",
@@ -172086,7 +172353,7 @@
       }
     },
     {
-      "id": "fricassee-festus-ancients",
+      "id": "fricassee-festus-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Fricassee Festus",
@@ -173460,7 +173727,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 21.9,
+          "carbs_g": 3.6,
+          "protein_g": 8.4,
+          "sodium_mg": 385,
+          "fiber_g": 0.5,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "1/4 cup fresh dill",
+          "1 lb package phyllo dough"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "cacio-e-pepe",
@@ -173546,7 +173832,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 414,
+          "fat_g": 15.8,
+          "carbs_g": 41.2,
+          "protein_g": 26.1,
+          "sodium_mg": 840,
+          "fiber_g": 3.4,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "pasta-alla-gricia",
@@ -173636,7 +173938,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 642,
+          "fat_g": 38.0,
+          "carbs_g": 38.9,
+          "protein_g": 35.0,
+          "sodium_mg": 1649,
+          "fiber_g": 2.6,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "roquefort-sauce-steak",
@@ -173745,7 +174063,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 384,
+          "fat_g": 35.8,
+          "carbs_g": 6.5,
+          "protein_g": 7.7,
+          "sodium_mg": 464,
+          "fiber_g": 0.7,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "4 8-oz steaks ribeye or strip steaks"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "halloumi-vegetable-skewers",
@@ -173858,7 +174194,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 6.3,
+          "carbs_g": 19.5,
+          "protein_g": 4.2,
+          "sodium_mg": 25,
+          "fiber_g": 5.5,
+          "sugar_g": 12.9
+        },
+        "missing_inputs": [
+          "12 oz halloumi cheese"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "saag-paneer",
@@ -173990,7 +174344,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 14.4,
+          "carbs_g": 6.4,
+          "protein_g": 1.5,
+          "sodium_mg": 97,
+          "fiber_g": 1.3,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "12 oz paneer cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "paneer-tikka-masala",
@@ -174133,7 +174505,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 269,
+          "fat_g": 25.3,
+          "carbs_g": 10.1,
+          "protein_g": 3.1,
+          "sodium_mg": 394,
+          "fiber_g": 2.0,
+          "sugar_g": 5.8
+        },
+        "missing_inputs": [
+          "14 oz paneer cheese",
+          "2 tbsp ginger-garlic paste",
+          "1 tbsp kasuri methi (dried fenugreek leaves)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "matar-paneer",
@@ -174273,7 +174665,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 9.2,
+          "carbs_g": 9.9,
+          "protein_g": 1.6,
+          "sodium_mg": 70,
+          "fiber_g": 2.6,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [
+          "12 oz paneer cheese",
+          "1 cup green peas",
+          "1 tbsp ginger-garlic paste"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "ricotta-stuffed-shells",
@@ -174391,7 +174803,25 @@
       "image_refs": [],
       "variants": [
         "cf-ricotta-stuffed-shells"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 483,
+          "fat_g": 33.5,
+          "carbs_g": 14.8,
+          "protein_g": 31.7,
+          "sodium_mg": 1336,
+          "fiber_g": 2.3,
+          "sugar_g": 6.1
+        },
+        "missing_inputs": [
+          "24 shells jumbo pasta shells"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "lemon-ricotta-pasta",
@@ -174502,7 +174932,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 419,
+          "fat_g": 20.2,
+          "carbs_g": 42.9,
+          "protein_g": 17.2,
+          "sodium_mg": 160,
+          "fiber_g": 3.4,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "mascarpone-pasta-sauce",
@@ -174615,7 +175061,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 529,
+          "fat_g": 34.4,
+          "carbs_g": 41.8,
+          "protein_g": 15.1,
+          "sodium_mg": 256,
+          "fiber_g": 3.4,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "noquis-con-tuco-reggianito",
@@ -174794,7 +175256,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 657,
+          "fat_g": 15.8,
+          "carbs_g": 111.5,
+          "protein_g": 19.1,
+          "sodium_mg": 802,
+          "fiber_g": 9.3,
+          "sugar_g": 8.2
+        },
+        "missing_inputs": [
+          "1/2 cup Reggianito cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "milanesa-napolitana-reggianito",
@@ -174936,7 +175416,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 5.0,
+          "carbs_g": 3.4,
+          "protein_g": 6.2,
+          "sodium_mg": 223,
+          "fiber_g": 0.1,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "4  beef cutlets (sirloin or tenderloin)",
+          "3 tbsp grated Reggianito cheese",
+          "for frying vegetable oil",
+          "1/2 cup tomato sauce or coulis",
+          "4 slices mozzarella cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "risotto-con-reggianito",
@@ -175065,7 +175567,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 19.1,
+          "carbs_g": 5.0,
+          "protein_g": 3.0,
+          "sodium_mg": 1157,
+          "fiber_g": 0.6,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "1 1/2 cups arborio or carnaroli rice",
+          "1 cup grated Reggianito cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "pasta-con-sardo-rallado",
@@ -175175,7 +175696,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 354,
+          "fat_g": 19.6,
+          "carbs_g": 37.9,
+          "protein_g": 7.0,
+          "sodium_mg": 80,
+          "fiber_g": 2.6,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1 cup grated Sardo cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "reddit-grandmas-hamburger-pie",
@@ -175280,7 +175819,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1008,
+          "fat_g": 62.9,
+          "carbs_g": 84.0,
+          "protein_g": 24.2,
+          "sodium_mg": 560,
+          "fiber_g": 2.6,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [
+          "1 packet onion soup mix",
+          "1/4 cup powdered milk"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "reddit-crown-o-gold-meatloaf",
@@ -175435,7 +175993,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 497,
+          "fat_g": 25.6,
+          "carbs_g": 31.2,
+          "protein_g": 33.7,
+          "sodium_mg": 1221,
+          "fiber_g": 3.2,
+          "sugar_g": 8.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "reddit-16th-century-vindaloo",
@@ -175597,7 +176171,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 561,
+          "fat_g": 31.3,
+          "carbs_g": 21.1,
+          "protein_g": 48.7,
+          "sodium_mg": 951,
+          "fiber_g": 4.3,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [
+          "1 small cinnamon stick"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "vintage-tuna-noodle-casserole",
@@ -175716,7 +176308,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 368,
+          "fat_g": 10.1,
+          "carbs_g": 35.4,
+          "protein_g": 24.7,
+          "sodium_mg": 790,
+          "fiber_g": 2.9,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "vintage-king-ranch-chicken",
@@ -175865,7 +176473,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 433,
+          "fat_g": 23.4,
+          "carbs_g": 28.0,
+          "protein_g": 25.0,
+          "sodium_mg": 850,
+          "fiber_g": 2.4,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     },
     {
       "id": "traditional-clabber-cheese",
@@ -175973,7 +176597,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2537,
+          "fat_g": 144.5,
+          "carbs_g": 193.2,
+          "protein_g": 128.9,
+          "sodium_mg": 1848,
+          "fiber_g": 0.0,
+          "sugar_g": 193.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-labneh",
@@ -176077,7 +176717,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 3375,
+          "fat_g": 382.0,
+          "carbs_g": 0.0,
+          "protein_g": 4.0,
+          "sodium_mg": 3073,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 tsp za'atar"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "traditional-ricotta-italian",
@@ -176171,7 +176829,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 4.0,
+          "carbs_g": 6.0,
+          "protein_g": 4.0,
+          "sodium_mg": 343,
+          "fiber_g": 0.0,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "traditional-mascarpone-lombard",
@@ -176261,7 +176937,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 3288,
+          "fat_g": 352.0,
+          "carbs_g": 29.0,
+          "protein_g": 20.0,
+          "sodium_mg": 356,
+          "fiber_g": 0.0,
+          "sugar_g": 28.4
+        },
+        "missing_inputs": [
+          "1/4 tsp tartaric acid"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-paneer-indian",
@@ -176359,7 +177053,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 100,
+          "fat_g": 5.3,
+          "carbs_g": 8.2,
+          "protein_g": 5.3,
+          "sodium_mg": 167,
+          "fiber_g": 0.0,
+          "sugar_g": 8.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "traditional-gjetost-norwegian",
@@ -176464,7 +177174,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1119,
+          "fat_g": 104.0,
+          "carbs_g": 31.0,
+          "protein_g": 21.0,
+          "sodium_mg": 599,
+          "fiber_g": 0.0,
+          "sugar_g": 31.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-crowdie-scottish",
@@ -176567,7 +177295,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 179,
+          "fat_g": 17.1,
+          "carbs_g": 4.3,
+          "protein_g": 2.9,
+          "sodium_mg": 231,
+          "fiber_g": 0.0,
+          "sugar_g": 4.3
+        },
+        "missing_inputs": [
+          "1/2 gallon raw or pasteurized milk"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-chhena-indian",
@@ -176664,7 +177410,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 100,
+          "fat_g": 5.3,
+          "carbs_g": 8.2,
+          "protein_g": 5.3,
+          "sodium_mg": 70,
+          "fiber_g": 0.0,
+          "sugar_g": 8.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "traditional-branza-burduf-romanian",
@@ -176762,7 +177524,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 6975,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1.5 lb fresh sheep cheese (telemea or br\u00e2nz\u0103)",
+          "1  pine bark tube"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-urda-romanian-whey",
@@ -176866,7 +177647,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 270,
+          "fat_g": 17.0,
+          "carbs_g": 13.0,
+          "protein_g": 15.0,
+          "sodium_mg": 1208,
+          "fiber_g": 0.0,
+          "sugar_g": 13.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh sheep whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-liptauer-hungarian",
@@ -176994,7 +177793,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 522,
+          "fat_g": 48.0,
+          "carbs_g": 23.0,
+          "protein_g": 3.4,
+          "sodium_mg": 776,
+          "fiber_g": 5.9,
+          "sugar_g": 10.6
+        },
+        "missing_inputs": [
+          "8 oz sheep cheese or bryndza"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-gamalost-norwegian-viking",
@@ -177096,7 +177913,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 763,
+          "fat_g": 3.8,
+          "carbs_g": 108.0,
+          "protein_g": 72.0,
+          "sodium_mg": 3406,
+          "fiber_g": 0.0,
+          "sugar_g": 108.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-handkase-german",
@@ -177196,7 +178029,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.3,
+          "carbs_g": 1.0,
+          "protein_g": 0.4,
+          "sodium_mg": 2640,
+          "fiber_g": 0.8,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 lb quark or farmer's cheese"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-mizithra-greek-ancient",
@@ -177300,7 +178151,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 272,
+          "fat_g": 17.0,
+          "carbs_g": 15.0,
+          "protein_g": 15.0,
+          "sodium_mg": 2370,
+          "fiber_g": 0.0,
+          "sugar_g": 13.8
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-anthotyro-greek-ancient",
@@ -177400,7 +178269,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 600,
+          "fat_g": 32.0,
+          "carbs_g": 49.0,
+          "protein_g": 32.0,
+          "sodium_mg": 1582,
+          "fiber_g": 0.0,
+          "sugar_g": 48.4
+        },
+        "missing_inputs": [
+          "3/4 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-ayib-ethiopian",
@@ -177488,7 +178375,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 792,
+          "fat_g": 17.6,
+          "carbs_g": 96.0,
+          "protein_g": 64.0,
+          "sodium_mg": 3218,
+          "fiber_g": 0.0,
+          "sugar_g": 96.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-chhurpi-himalayan",
@@ -177577,7 +178480,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.0,
+          "carbs_g": 3.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1/2 gallon yak milk"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-aaruul-mongolian",
@@ -177665,7 +178586,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 0.0,
+          "carbs_g": 25.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "1/2 gallon aarts or kefir"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-anari-cypriot",
@@ -177758,7 +178697,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 1268,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "cf-brie-leek-pizza",
@@ -177881,7 +178838,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 449,
+          "fat_g": 27.8,
+          "carbs_g": 41.5,
+          "protein_g": 10.4,
+          "sodium_mg": 406,
+          "fiber_g": 3.5,
+          "sugar_g": 7.7
+        },
+        "missing_inputs": [
+          "2 cups 10% cream",
+          "1/4 tsp granulated garlic",
+          "1 tbsp butter for saut\u00e9ing",
+          "1 wheel brie wheel",
+          "as desired smoked chicken, shredded (optional)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "cf-bbq-chicken-marinade",
@@ -178009,7 +178988,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 405,
+          "fat_g": 40.8,
+          "carbs_g": 2.3,
+          "protein_g": 7.5,
+          "sodium_mg": 4110,
+          "fiber_g": 0.2,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "generous fresh ground black pepper"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "cf-ricotta-stuffed-shells",
@@ -178126,7 +179123,25 @@
       "image_refs": [],
       "variants": [
         "ricotta-stuffed-shells"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 454,
+          "fat_g": 33.7,
+          "carbs_g": 11.3,
+          "protein_g": 24.9,
+          "sodium_mg": 1094,
+          "fiber_g": 1.3,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [
+          "1 box jumbo pasta shells"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "cf-tartiflette",
@@ -178260,7 +179275,25 @@
           "Recipe reconstructed from forum reference to traditional method"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 519,
+          "fat_g": 29.8,
+          "carbs_g": 37.2,
+          "protein_g": 21.4,
+          "sodium_mg": 799,
+          "fiber_g": 4.4,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "1 whole wheel (about 1 lb) Reblochon cheese (or substitute Brie)"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "gr-beef-wellington",
@@ -178365,7 +179398,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 475,
+          "fat_g": 31.6,
+          "carbs_g": 7.4,
+          "protein_g": 39.5,
+          "sodium_mg": 535,
+          "fiber_g": 1.1,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "2 tbsp English mustard"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "gr-teriyaki-salmon",
@@ -178466,7 +179517,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 426,
+          "fat_g": 24.5,
+          "carbs_g": 6.4,
+          "protein_g": 40.3,
+          "sodium_mg": 974,
+          "fiber_g": 0.4,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-bangers-and-mash",
@@ -178567,7 +179634,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 550,
+          "fat_g": 33.9,
+          "carbs_g": 47.9,
+          "protein_g": 15.0,
+          "sodium_mg": 859,
+          "fiber_g": 5.5,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "2 sprigs rosemary"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-carbonara",
@@ -178662,7 +179747,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 23.9,
+          "carbs_g": 2.6,
+          "protein_g": 10.8,
+          "sodium_mg": 179,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "200 g spaghetti",
+          "150 g pancetta or bacon"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "gr-fish-and-chips",
@@ -178758,7 +179862,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4238,
+          "fat_g": 448.9,
+          "carbs_g": 84.5,
+          "protein_g": 12.2,
+          "sodium_mg": 902,
+          "fiber_g": 5.8,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "2 6-oz cod or haddock fillet",
+          "3/4 cup light beer"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "gr-honey-glazed-ham",
@@ -178878,7 +180001,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 44,
+          "fat_g": 1.0,
+          "carbs_g": 8.6,
+          "protein_g": 0.8,
+          "sodium_mg": 31,
+          "fiber_g": 3.3,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "3 kg unsmoked gammon joint",
+          "100 g demerara sugar",
+          "125 g honey"
+        ],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     },
     {
       "id": "gr-roast-turkey-with-lemon-parsley-and-garlic",
@@ -178983,7 +180126,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 204,
+          "fat_g": 20.7,
+          "carbs_g": 5.0,
+          "protein_g": 1.3,
+          "sodium_mg": 349,
+          "fiber_g": 1.5,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     },
     {
       "id": "gr-mozzarella-and-rosemary-pizza",
@@ -179083,7 +180242,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 796,
+          "fat_g": 16.9,
+          "carbs_g": 140.6,
+          "protein_g": 23.9,
+          "sodium_mg": 5596,
+          "fiber_g": 13.8,
+          "sugar_g": 27.1
+        },
+        "missing_inputs": [
+          "2 packets dried yeast",
+          "2 balls mozzarella",
+          "2 sprigs rosemary"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-slow-cooked-beef-short-ribs",
@@ -179179,7 +180358,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 240,
+          "fat_g": 7.2,
+          "carbs_g": 9.8,
+          "protein_g": 1.0,
+          "sodium_mg": 489,
+          "fiber_g": 1.3,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [
+          "6 thick-cut beef short ribs",
+          "1  garlic head, halved",
+          "1 liter beef stock",
+          "150 g pancetta",
+          "250 g chestnut mushrooms"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-lamb-koftas-with-mint-yogurt",
@@ -179275,7 +180476,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 0.7,
+          "carbs_g": 4.4,
+          "protein_g": 1.0,
+          "sodium_mg": 10,
+          "fiber_g": 0.8,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [
+          "500 g minced lamb",
+          "1/2 tsp chilli flakes"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-crispy-roast-duck-with-chinese-pancakes",
@@ -179381,7 +180601,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 0.6,
+          "carbs_g": 24.4,
+          "protein_g": 4.5,
+          "sodium_mg": 463,
+          "fiber_g": 7.9,
+          "sugar_g": 11.6
+        },
+        "missing_inputs": [
+          "4 tbsp Chinese five-spice",
+          "20  Chinese pancakes",
+          "4 tbsp black bean sauce"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     }
   ]
 }

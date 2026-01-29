@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "beverages",
     "total_recipes": 122,
-    "generated": "2026-01-23T14:31:32.076445Z",
+    "generated": "2026-01-29T11:11:47.620426Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -5478,6 +5478,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 4.2,
+          "carbs_g": 30.8,
+          "protein_g": 5.2,
+          "sodium_mg": 58,
+          "fiber_g": 0.6,
+          "sugar_g": 26.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
       }
     },
     {
@@ -5557,6 +5573,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 0.1,
+          "carbs_g": 3.6,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.4,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [
+          "1 can Hi-C Very Berry drink",
+          "1 can Hi-C Red Apple drink",
+          "1 qt Coke"
+        ],
+        "assumptions": [
+          "Calculated for 25 servings"
+        ]
       }
     },
     {
@@ -5633,6 +5669,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 196,
+          "fat_g": 10.0,
+          "carbs_g": 24.2,
+          "protein_g": 3.3,
+          "sodium_mg": 71,
+          "fiber_g": 0.5,
+          "sugar_g": 22.2
+        },
+        "missing_inputs": [
+          "1 can frozen orange juice",
+          "1 can frozen lemonade",
+          "1 can frozen limeade"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
       }
     },
     {
@@ -5708,6 +5764,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 294,
+          "fat_g": 0.1,
+          "carbs_g": 75.6,
+          "protein_g": 0.1,
+          "sodium_mg": 3,
+          "fiber_g": 0.3,
+          "sugar_g": 75.0
+        },
+        "missing_inputs": [
+          "2 cups non-dairy creamer",
+          "1 1/2 cups hot cocoa mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -5777,6 +5853,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 0.0,
+          "carbs_g": 20.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 20.1
+        },
+        "missing_inputs": [
+          "1 can concentrated orange juice",
+          "1 can evaporated milk"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -5831,6 +5926,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 83,
+          "fat_g": 4.1,
+          "carbs_g": 6.7,
+          "protein_g": 4.1,
+          "sodium_mg": 56,
+          "fiber_g": 0.0,
+          "sugar_g": 6.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -5906,6 +6018,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 852,
+          "fat_g": 0.2,
+          "carbs_g": 219.8,
+          "protein_g": 0.6,
+          "sodium_mg": 6,
+          "fiber_g": 0.2,
+          "sugar_g": 217.8
+        },
+        "missing_inputs": [
+          "3  pkg. powdered raspberry punch",
+          "1  pkg. frozen raspberry"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -5984,6 +6116,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 294,
+          "fat_g": 0.1,
+          "carbs_g": 75.6,
+          "protein_g": 0.1,
+          "sodium_mg": 3,
+          "fiber_g": 0.3,
+          "sugar_g": 75.0
+        },
+        "missing_inputs": [
+          "2 cups non-dairy creamer",
+          "1 1/2 cups hot cocoa mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -6059,6 +6211,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 0.0,
+          "carbs_g": 20.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 20.1
+        },
+        "missing_inputs": [
+          "1 6 oz can concentrated orange juice",
+          "1 can evaporated milk"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -6123,6 +6294,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 0.0,
+          "carbs_g": 50.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [
+          "fox grapes"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -6229,6 +6419,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 185,
+          "fat_g": 12.9,
+          "carbs_g": 20.1,
+          "protein_g": 1.8,
+          "sodium_mg": 92,
+          "fiber_g": 5.0,
+          "sugar_g": 9.4
+        },
+        "missing_inputs": [
+          "1 12 oz can Welch's frozen cranberry juice cocktail"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -6302,6 +6510,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 580,
+          "fat_g": 0.0,
+          "carbs_g": 150.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 150.0
+        },
+        "missing_inputs": [
+          "1 pkg orange Kool-Aid",
+          "1 46 oz can pineapple juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -6374,6 +6602,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 291,
+          "fat_g": 0.0,
+          "carbs_g": 75.2,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.1,
+          "sugar_g": 75.0
+        },
+        "missing_inputs": [
+          "2 cups and 2 tbsp  instant tea",
+          "2 cups Tang",
+          "2 cups lemonade mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
       }
     },
     {
@@ -6447,7 +6696,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 5442,
+          "fat_g": 0.0,
+          "carbs_g": 1406.2,
+          "protein_g": 0.0,
+          "sodium_mg": 14,
+          "fiber_g": 0.0,
+          "sugar_g": 1406.2
+        },
+        "missing_inputs": [
+          "1/2 bushel muscadine grapes"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-apple-beer",
@@ -6519,7 +6786,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "apple peelings"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire2-sassafras-tea",
@@ -6603,7 +6889,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "sassafras roots and tender limbs",
+          "1 cup shredded bark"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire3-blackberry-wine-jake-waldroop",
@@ -6690,7 +6995,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 3913,
+          "fat_g": 19.6,
+          "carbs_g": 954.5,
+          "protein_g": 56.0,
+          "sodium_mg": 34,
+          "fiber_g": 212.8,
+          "sugar_g": 758.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-blackberry-cordial",
@@ -6782,7 +7104,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 455,
+          "fat_g": 0.4,
+          "carbs_g": 116.7,
+          "protein_g": 0.6,
+          "sodium_mg": 4,
+          "fiber_g": 2.3,
+          "sugar_g": 114.2
+        },
+        "missing_inputs": [
+          "3/4 cup whiskey"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-sumac-lemonade",
@@ -6861,7 +7202,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "sumac berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-persimmon-beer",
@@ -6941,7 +7301,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "persimmons",
+          "good number honey locust seed pods"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-acorn-coffee",
@@ -6998,7 +7378,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "white oak acorns"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-yarrow-tea",
@@ -7059,7 +7458,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "yarrow leaves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-chamomile-tea",
@@ -7114,7 +7532,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "chamomile flower heads"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-pennyroyal-tea",
@@ -7183,7 +7620,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "pennyroyal leaves",
+          "for sweetening syrup or honey"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire3-blue-mountain-tea",
@@ -7252,7 +7709,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "blue-mountain tea leaves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire4-apple-cider",
@@ -7336,7 +7812,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 0.1,
+          "carbs_g": 6.2,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 1.1,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-switchell-drink",
@@ -7404,7 +7896,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 537,
+          "fat_g": 0.0,
+          "carbs_g": 139.9,
+          "protein_g": 0.5,
+          "sodium_mg": 8,
+          "fiber_g": 0.0,
+          "sugar_g": 139.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-chicory-coffee",
@@ -7463,7 +7971,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "as needed  chicory roots"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-dandelion-wine",
@@ -7564,7 +8090,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 7305,
+          "fat_g": 2.0,
+          "carbs_g": 1883.0,
+          "protein_g": 9.4,
+          "sodium_mg": 26,
+          "fiber_g": 20.4,
+          "sugar_g": 1854.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-dandelion-coffee",
@@ -7627,7 +8169,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "as needed  dandelion roots"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-green-drink-tonic",
@@ -7699,7 +8259,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 10,
+          "fat_g": 0.1,
+          "carbs_g": 1.0,
+          "protein_g": 1.0,
+          "sodium_mg": 24,
+          "fiber_g": 0.7,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 cup chickweed"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-blackberry-nectar",
@@ -7775,7 +8353,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 995,
+          "fat_g": 1.4,
+          "carbs_g": 253.0,
+          "protein_g": 4.0,
+          "sodium_mg": 4,
+          "fiber_g": 15.2,
+          "sugar_g": 239.0
+        },
+        "missing_inputs": [
+          "3 cups good vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-blackberry-shrub",
@@ -7844,7 +8440,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 248,
+          "fat_g": 2.8,
+          "carbs_g": 56.0,
+          "protein_g": 8.0,
+          "sodium_mg": 4,
+          "fiber_g": 30.4,
+          "sugar_g": 28.0
+        },
+        "missing_inputs": [
+          "apple vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-elderberry-wine",
@@ -7908,7 +8522,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 0.0,
+          "carbs_g": 12.5,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 12.5
+        },
+        "missing_inputs": [
+          "5 quarts elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "dandelion-wine-etw",
@@ -8006,7 +8638,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6188,
+          "fat_g": 1.6,
+          "carbs_g": 1605.0,
+          "protein_g": 12.2,
+          "sodium_mg": 52,
+          "fiber_g": 16.2,
+          "sugar_g": 1537.0
+        },
+        "missing_inputs": [
+          "yeast and nutrient"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "dandelion-burdock-beer-etw",
@@ -8109,7 +8759,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 119,
+          "fat_g": 0.4,
+          "carbs_g": 31.0,
+          "protein_g": 1.3,
+          "sodium_mg": 3,
+          "fiber_g": 3.3,
+          "sugar_g": 23.1
+        },
+        "missing_inputs": [
+          "1 lb young nettles",
+          "4 oz dandelion leaves",
+          "4 oz fresh burdock root",
+          "1 oz cream of tartar",
+          "brewing yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "loquat-grappa-etw",
@@ -8184,7 +8856,26 @@
           "Contains warning about cyanogenic compounds"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 0.0,
+          "carbs_g": 6.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "1-2 quarts loquat seeds",
+          "1 quart vodka"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "loquat-wine-etw",
@@ -8285,7 +8976,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 3677,
+          "fat_g": 0.0,
+          "carbs_g": 905.0,
+          "protein_g": 0.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.0,
+          "sugar_g": 901.0
+        },
+        "missing_inputs": [
+          "4 lbs fresh loquats",
+          "1 tsp acid blend",
+          "1  Campden tablet",
+          "1/2 tsp pectic enzyme",
+          "1/2 tsp grape tannin"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "elderberry-schnapps-etw",
@@ -8360,7 +9073,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "elderberries",
+          "unflavored vodka"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "elderberry-wine-etw",
@@ -8504,7 +9236,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 3677,
+          "fat_g": 0.0,
+          "carbs_g": 905.0,
+          "protein_g": 0.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.0,
+          "sugar_g": 901.0
+        },
+        "missing_inputs": [
+          "3 lbs ripe elderberries",
+          "2 tsp acid blend",
+          "1 tsp yeast nutrient",
+          "1/2 tsp pectin enzyme",
+          "1  Campden tablet"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "pindo-palm-wine-etw",
@@ -8609,7 +9363,30 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 39,
+          "fat_g": 0.0,
+          "carbs_g": 1.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1.2 kg ripe pindo fruit",
+          "1  Campden tablet",
+          "1.2 kg sugar",
+          "1/2 tsp tannic acid",
+          "1/2 tsp yeast nutrient",
+          "pectinase enzyme"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "hard-cider-quick-easy-etw",
@@ -8689,7 +9466,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1920,
+          "fat_g": 4.8,
+          "carbs_g": 476.5,
+          "protein_g": 3.2,
+          "sodium_mg": 80,
+          "fiber_g": 3.2,
+          "sugar_g": 396.5
+        },
+        "missing_inputs": [
+          "1/2 cup starter culture or yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "concord-grape-quick-ferment-etw",
@@ -8749,7 +9544,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1840,
+          "fat_g": 8.0,
+          "carbs_g": 428.5,
+          "protein_g": 32.0,
+          "sodium_mg": 32,
+          "fiber_g": 8.0,
+          "sugar_g": 348.5
+        },
+        "missing_inputs": [
+          "1/2 cup starter or yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "elderberry-wine-gallon-etw",
@@ -8868,7 +9681,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 3677,
+          "fat_g": 0.0,
+          "carbs_g": 905.0,
+          "protein_g": 0.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.0,
+          "sugar_g": 901.0
+        },
+        "missing_inputs": [
+          "3 lbs ripe elderberries",
+          "2 tsp acid blend",
+          "1 tsp yeast nutrient",
+          "1/2 tsp pectin enzyme",
+          "1  Campden tablet"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "walnut-liquor-etw",
@@ -8955,7 +9790,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2350,
+          "fat_g": 1.2,
+          "carbs_g": 606.2,
+          "protein_g": 0.4,
+          "sodium_mg": 21,
+          "fiber_g": 3.6,
+          "sugar_g": 600.1
+        },
+        "missing_inputs": [
+          "25  green walnuts",
+          "1 quart vodka"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "hickory-nut-coffee-etw",
@@ -9010,7 +9864,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4518,
+          "fat_g": 468.0,
+          "carbs_g": 90.0,
+          "protein_g": 60.0,
+          "sodium_mg": 0,
+          "fiber_g": 60.0,
+          "sugar_g": 24.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "roasted-palm-seed-beverage-etw",
@@ -9058,7 +9928,24 @@
           "Requires industrial grinder"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "cactus-flower-wine-etw",
@@ -9176,7 +10063,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 3637,
+          "fat_g": 0.7,
+          "carbs_g": 935.8,
+          "protein_g": 2.8,
+          "sodium_mg": 12,
+          "fiber_g": 0.7,
+          "sugar_g": 928.9
+        },
+        "missing_inputs": [
+          "1.75 tsp acid blend",
+          "1/8 tsp grape tannin",
+          "1  Campden tablet",
+          "1 tsp yeast nutrient",
+          "1 packet Champagne wine yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "hawthorn-schnapps-etw",
@@ -9243,7 +10152,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "stalkless hawthorn berries",
+          "clear unflavored vodka"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "maple-beer-etw",
@@ -9310,7 +10239,27 @@
           "Historical recipe - may need adjustment"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 quart maple molasses (syrup)",
+          "yeast or leaven",
+          "1 spoonful essence of spruce"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "homemade-root-beer-etw",
@@ -9450,7 +10399,30 @@
           "sassafras safety note"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1988,
+          "fat_g": 0.4,
+          "carbs_g": 524.7,
+          "protein_g": 3.5,
+          "sodium_mg": 282,
+          "fiber_g": 5.5,
+          "sugar_g": 509.9
+        },
+        "missing_inputs": [
+          "1 oz licorice root",
+          "1 oz sassafras root",
+          "1 oz smilex root (sarsaparilla)",
+          "1 oz black cherry bark",
+          "50  juniper berries",
+          "1 oz wintergreen"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "lemongrass-tea-etw",
@@ -9519,7 +10491,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 full blade lemongrass blade"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-rose-hip-tea",
@@ -9594,7 +10584,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 cup rose hips"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-blackberry-cordial",
@@ -9698,7 +10706,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2004,
+          "fat_g": 3.6,
+          "carbs_g": 508.7,
+          "protein_g": 8.2,
+          "sodium_mg": 18,
+          "fiber_g": 31.8,
+          "sugar_g": 478.0
+        },
+        "missing_inputs": [
+          "3/4 cup per quart whiskey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-elderberry-wine",
@@ -9780,7 +10806,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 8708,
+          "fat_g": 0.0,
+          "carbs_g": 2250.0,
+          "protein_g": 0.0,
+          "sodium_mg": 22,
+          "fiber_g": 0.0,
+          "sugar_g": 2250.0
+        },
+        "missing_inputs": [
+          "5 quarts elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-grape-juice",
@@ -9862,7 +10906,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 595,
+          "fat_g": 0.4,
+          "carbs_g": 154.0,
+          "protein_g": 2.0,
+          "sodium_mg": 7,
+          "fiber_g": 2.0,
+          "sugar_g": 146.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-grape-wine",
@@ -9938,7 +10998,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1742,
+          "fat_g": 0.0,
+          "carbs_g": 450.0,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 450.0
+        },
+        "missing_inputs": [
+          "5 gallons wild grapes"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "cranberry-punch-etw",
@@ -10027,7 +11105,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 748,
+          "fat_g": 0.3,
+          "carbs_g": 193.7,
+          "protein_g": 1.2,
+          "sodium_mg": 14,
+          "fiber_g": 6.8,
+          "sugar_g": 180.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "new-jersey-tea-etw",
@@ -10090,7 +11184,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 tbsp New Jersey Tea leaves"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sunflower-hull-coffee-etw",
@@ -10147,7 +11259,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "sunflower seed hulls"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "elder-blow-champagne-etw",
@@ -10206,7 +11336,25 @@
           "recipe details sparse"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 0.0,
+          "carbs_g": 1.2,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "elderberry blossoms"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "linden-basswood-tea-etw",
@@ -10264,7 +11412,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "linden/basswood blossoms"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-spicebush-tea",
@@ -10323,7 +11489,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "handful  spicebush twigs"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire-sweet-birch-tea",
@@ -10383,7 +11568,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "handful  sweet birch twigs"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     },
     {
       "id": "foxfire-birch-beer",
@@ -10447,7 +11651,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 387,
+          "fat_g": 0.0,
+          "carbs_g": 100.0,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 100.0
+        },
+        "missing_inputs": [
+          "1 gallon birch sap or strong birch twig tea",
+          "1 package yeast"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from beverages category"
+        ]
+      }
     }
   ]
 }

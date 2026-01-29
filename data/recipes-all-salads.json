@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "salads",
     "total_recipes": 143,
-    "generated": "2026-01-23T14:31:31.844396Z",
+    "generated": "2026-01-29T11:11:47.416388Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -5353,9 +5353,19 @@
       "image_refs": [],
       "nutrition": {
         "status": "complete",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 88,
+          "fat_g": 5.9,
+          "carbs_g": 3.4,
+          "protein_g": 5.3,
+          "sodium_mg": 206,
+          "fiber_g": 1.0,
+          "sugar_g": 1.4
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -14215,7 +14225,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 326,
+          "fat_g": 27.6,
+          "carbs_g": 11.2,
+          "protein_g": 9.6,
+          "sodium_mg": 834,
+          "fiber_g": 2.6,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [
+          "1 large cucumber"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "watermelon-feta-salad",
@@ -14317,7 +14345,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 10.7,
+          "carbs_g": 4.6,
+          "protein_g": 4.4,
+          "sodium_mg": 318,
+          "fiber_g": 0.7,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "manchego-salad-sherry-vinaigrette",
@@ -14416,7 +14460,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 319,
+          "fat_g": 27.8,
+          "carbs_g": 8.1,
+          "protein_g": 12.6,
+          "sodium_mg": 117,
+          "fiber_g": 3.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "roquefort-walnut-salad",
@@ -14519,7 +14579,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 294,
+          "fat_g": 28.1,
+          "carbs_g": 4.5,
+          "protein_g": 8.5,
+          "sodium_mg": 340,
+          "fiber_g": 1.3,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "8 cups fris\u00e9e or mixed bitter greens",
+          "1  pear or apple"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "grilled-halloumi-salad",
@@ -14637,7 +14716,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 127,
+          "fat_g": 11.7,
+          "carbs_g": 6.0,
+          "protein_g": 2.2,
+          "sodium_mg": 136,
+          "fiber_g": 2.1,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "8 oz halloumi cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cf-caprese-pasta-salad",
@@ -14746,7 +14843,27 @@
           "Recipe reconstructed from partial forum post"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 121,
+          "fat_g": 13.5,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "360 g (about 12 oz) quality pasta (rotini or penne)",
+          "2 balls (8 oz each) fresh mozzarella balls",
+          "12 small (or 2-4 larger) cherry tomatoes, halved"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-quinoa-salad",
@@ -14842,7 +14959,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 10.7,
+          "carbs_g": 7.3,
+          "protein_g": 1.8,
+          "sodium_mg": 16,
+          "fiber_g": 2.6,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "200 g quinoa, cooked",
+          "50 g flaked almonds",
+          "1/2 large cucumber",
+          "125 g cherry tomatoes, halved",
+          "50 g raisins"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

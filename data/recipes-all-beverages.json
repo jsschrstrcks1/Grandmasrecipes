@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "beverages",
     "total_recipes": 51,
-    "generated": "2026-01-23T14:31:31.354988Z",
+    "generated": "2026-01-29T11:11:46.952965Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -4370,7 +4370,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 623,
+          "fat_g": 32.0,
+          "carbs_g": 55.2,
+          "protein_g": 32.3,
+          "sodium_mg": 421,
+          "fiber_g": 0.3,
+          "sugar_g": 53.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "psr-cultured-buttermilk",
@@ -4455,7 +4471,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1642,
+          "fat_g": 176.0,
+          "carbs_g": 14.0,
+          "protein_g": 10.0,
+          "sodium_mg": 178,
+          "fiber_g": 0.0,
+          "sugar_g": 14.0
+        },
+        "missing_inputs": [
+          "1/4 cup cultured buttermilk with live cultures",
+          "1 packet buttermilk starter culture"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "psr-kefir-yogurt",
@@ -4524,7 +4559,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 795,
+          "fat_g": 42.7,
+          "carbs_g": 64.0,
+          "protein_g": 42.7,
+          "sodium_mg": 560,
+          "fiber_g": 0.0,
+          "sugar_g": 64.0
+        },
+        "missing_inputs": [
+          "3/4 cup active kefir"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "psr-water-kefir",
@@ -4611,7 +4664,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 221,
+          "fat_g": 0.0,
+          "carbs_g": 57.2,
+          "protein_g": 0.3,
+          "sodium_mg": 2,
+          "fiber_g": 0.3,
+          "sugar_g": 55.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "mock-kahlua-coffee-liqueur",
@@ -4702,7 +4771,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 0.0,
+          "carbs_g": 63.2,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 63.2
+        },
+        "missing_inputs": [
+          "2 1/2 cups vodka"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

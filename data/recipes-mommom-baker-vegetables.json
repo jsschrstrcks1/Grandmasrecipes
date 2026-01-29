@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "vegetables",
     "total_recipes": 82,
-    "generated": "2026-01-23T14:31:32.328864Z",
+    "generated": "2026-01-29T11:11:47.826737Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -5889,7 +5889,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 11.5,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 78,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "scalloped-cattails-etw",
@@ -5984,7 +6000,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 305,
+          "fat_g": 29.6,
+          "carbs_g": 4.0,
+          "protein_g": 6.8,
+          "sodium_mg": 296,
+          "fiber_g": 0.1,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [
+          "2 cups cattail tops"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "spicy-henbit-etw",
@@ -6077,7 +6111,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 179,
+          "fat_g": 17.4,
+          "carbs_g": 5.6,
+          "protein_g": 1.5,
+          "sodium_mg": 82,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "4 cups henbit shoots"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "greek-cardune-burdock-etw",
@@ -6191,7 +6243,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 10.1,
+          "carbs_g": 9.7,
+          "protein_g": 1.8,
+          "sodium_mg": 299,
+          "fiber_g": 2.7,
+          "sugar_g": 4.9
+        },
+        "missing_inputs": [
+          "4 cups immature burdock flower stalks",
+          "2/3 cup basmati brown rice",
+          "1 lemon lemon juice"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "sauteed-banana-tree-stem-etw",
@@ -6308,7 +6380,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 55,
+          "fat_g": 5.2,
+          "carbs_g": 2.5,
+          "protein_g": 0.6,
+          "sodium_mg": 49,
+          "fiber_g": 0.7,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1 lb banana tree stem center core",
+          "1.5 tsp curry leaves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "roasted-bulrush-roots-etw",
@@ -6378,7 +6469,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "bulrush roots",
+          "large leaves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "garnished-sea-blite-etw",
@@ -6459,7 +6569,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 142,
+          "fat_g": 11.8,
+          "carbs_g": 0.4,
+          "protein_g": 7.5,
+          "sodium_mg": 306,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4 cups sea blite"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "tonburi-kochia-caviar-etw",
@@ -6521,7 +6649,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 1.1,
+          "carbs_g": 0.8,
+          "protein_g": 0.5,
+          "sodium_mg": 1,
+          "fiber_g": 0.7,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "water-hyacinth-stir-fry-etw",
@@ -6598,7 +6742,23 @@
           "legal restrictions in some areas"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 51,
+          "fat_g": 5.8,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 39,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "pit-roasted-agave-heart-etw",
@@ -6664,7 +6824,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  agave heart/stalk"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "wild-potato-vine-root-etw",
@@ -6729,7 +6907,25 @@
           "requires double boiling"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "wild potato vine roots"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "water-spinach-stir-fry-etw",
@@ -6808,7 +7004,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 3.5,
+          "carbs_g": 0.2,
+          "protein_g": 0.1,
+          "sodium_mg": 38,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

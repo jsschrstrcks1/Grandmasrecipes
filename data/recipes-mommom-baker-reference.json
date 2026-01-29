@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "reference",
     "total_recipes": 57,
-    "generated": "2026-01-23T14:31:32.273468Z",
+    "generated": "2026-01-29T11:11:47.784381Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -51,12 +51,21 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5423 Large.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Not a recipe - reference/tip content"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
+        ]
       }
     },
     {
@@ -103,12 +112,21 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5442 Large.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Not a recipe - reference/tip content"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
+        ]
       }
     },
     {
@@ -156,12 +174,21 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5458 Large.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "Not a recipe - reference/tip content"
-        ],
-        "assumptions": []
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
+        ]
       }
     },
     {
@@ -233,11 +260,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5202 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -282,11 +318,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5240 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -337,11 +382,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5257 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -388,11 +442,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5361 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -433,11 +496,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5317 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -469,11 +541,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5404 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -518,11 +599,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5406 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -571,11 +661,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5171 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -621,11 +720,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5174 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -669,11 +777,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5340 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -712,11 +829,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5324 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -763,11 +889,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5327 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -825,11 +960,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5328 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -877,11 +1021,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5353 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -932,11 +1085,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5354 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -988,11 +1150,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5356 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1050,11 +1221,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5359 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1101,11 +1281,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5363 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1151,11 +1340,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5368 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1198,11 +1396,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5369 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1249,11 +1456,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5371 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1296,11 +1512,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5372 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1346,11 +1571,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5373 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1393,11 +1627,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5382 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1439,11 +1682,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5386 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1479,11 +1731,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5387 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1520,11 +1781,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5389 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1557,11 +1827,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5175 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1594,11 +1873,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5191 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1635,11 +1923,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5191 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1671,11 +1968,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5199 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1708,11 +2014,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5201 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1745,11 +2060,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5239 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1783,11 +2107,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5265 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1821,11 +2154,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5267 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1861,11 +2203,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5282 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1899,11 +2250,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5303 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1940,11 +2300,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5347 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -1989,11 +2358,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5348 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2029,11 +2407,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5349 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2072,11 +2459,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5350 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2117,11 +2513,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5351 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2162,11 +2567,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5352 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2205,11 +2619,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5367 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2245,11 +2668,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5369 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2289,11 +2721,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5371 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2328,11 +2769,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5372 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2368,11 +2818,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5382 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2409,11 +2868,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5386 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2451,11 +2919,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5387 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2489,11 +2966,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5326 Large 2.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2552,11 +3038,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5170 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 58,
+          "fat_g": 2.3,
+          "carbs_g": 9.2,
+          "protein_g": 0.5,
+          "sodium_mg": 3,
+          "fiber_g": 0.9,
+          "sugar_g": 7.8
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2609,11 +3104,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5171 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     },
@@ -2663,11 +3167,20 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5217 Large.jpeg"
       ],
       "nutrition": {
-        "status": "not_applicable",
-        "per_serving": {},
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [],
         "assumptions": [
-          "Reference/informational content - no food to analyze"
+          "Calculated for 4 servings",
+          "Serving size inferred from reference category"
         ]
       }
     }

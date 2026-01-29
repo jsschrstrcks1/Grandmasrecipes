@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "appetizers",
     "total_recipes": 120,
-    "generated": "2026-01-23T14:31:32.062519Z",
+    "generated": "2026-01-29T11:11:47.608822Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -2220,7 +2220,7 @@
       }
     },
     {
-      "id": "cheese-fondue",
+      "id": "cheese-fondue-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Cheese Fondue",
@@ -7581,6 +7581,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.2,
+          "carbs_g": 8.3,
+          "protein_g": 1.4,
+          "sodium_mg": 526,
+          "fiber_g": 2.1,
+          "sugar_g": 4.7
+        },
+        "missing_inputs": [
+          "2 drops hot pepper sauce"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -7665,6 +7683,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 133,
+          "fat_g": 12.3,
+          "carbs_g": 3.1,
+          "protein_g": 3.5,
+          "sodium_mg": 154,
+          "fiber_g": 1.0,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 18 servings"
+        ]
       }
     },
     {
@@ -7746,6 +7780,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 855,
+          "fat_g": 72.7,
+          "carbs_g": 53.3,
+          "protein_g": 11.6,
+          "sodium_mg": 403,
+          "fiber_g": 35.1,
+          "sugar_g": 8.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -7892,7 +7942,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 142,
+          "fat_g": 12.0,
+          "carbs_g": 2.4,
+          "protein_g": 5.4,
+          "sodium_mg": 238,
+          "fiber_g": 0.4,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "cornmeal-puffs-gcb",
@@ -7994,6 +8060,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.2,
+          "carbs_g": 0.9,
+          "protein_g": 0.4,
+          "sodium_mg": 16,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1/4 cup diet margarine"
+        ],
+        "assumptions": [
+          "Calculated for 48 servings"
+        ]
       }
     },
     {
@@ -8087,6 +8171,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 255,
+          "fat_g": 15.5,
+          "carbs_g": 10.3,
+          "protein_g": 20.4,
+          "sodium_mg": 480,
+          "fiber_g": 1.4,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -8158,6 +8258,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 356,
+          "fat_g": 24.3,
+          "carbs_g": 13.4,
+          "protein_g": 21.6,
+          "sodium_mg": 855,
+          "fiber_g": 1.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -8225,6 +8341,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 12.3,
+          "carbs_g": 3.2,
+          "protein_g": 2.8,
+          "sodium_mg": 271,
+          "fiber_g": 0.5,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 13 servings"
+        ]
       }
     },
     {
@@ -8282,6 +8414,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 49,
+          "fat_g": 4.5,
+          "carbs_g": 1.6,
+          "protein_g": 0.7,
+          "sodium_mg": 300,
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -8357,6 +8505,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 180,
+          "fat_g": 14.6,
+          "carbs_g": 6.2,
+          "protein_g": 7.0,
+          "sodium_mg": 288,
+          "fiber_g": 3.4,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -8446,6 +8610,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 33,
+          "fat_g": 2.3,
+          "carbs_g": 2.8,
+          "protein_g": 0.6,
+          "sodium_mg": 138,
+          "fiber_g": 1.3,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1 pkg (4 oz) pimento"
+        ],
+        "assumptions": [
+          "Calculated for 15 servings"
+        ]
       }
     },
     {
@@ -8524,6 +8706,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 77,
+          "fat_g": 8.0,
+          "carbs_g": 0.7,
+          "protein_g": 0.9,
+          "sodium_mg": 138,
+          "fiber_g": 0.1,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1/3 cup small curd cottage cheese"
+        ],
+        "assumptions": [
+          "Calculated for 20 servings"
+        ]
       }
     },
     {
@@ -8616,6 +8816,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 23,
+          "fat_g": 1.9,
+          "carbs_g": 1.2,
+          "protein_g": 0.5,
+          "sodium_mg": 70,
+          "fiber_g": 0.3,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 17 servings"
+        ]
       }
     },
     {
@@ -8680,6 +8896,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 7.8,
+          "carbs_g": 3.1,
+          "protein_g": 5.6,
+          "sodium_mg": 361,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -8817,6 +9049,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 671,
+          "fat_g": 44.4,
+          "carbs_g": 22.7,
+          "protein_g": 43.2,
+          "sodium_mg": 874,
+          "fiber_g": 2.2,
+          "sugar_g": 9.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -8885,6 +9133,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 141,
+          "fat_g": 9.5,
+          "carbs_g": 2.4,
+          "protein_g": 10.8,
+          "sodium_mg": 285,
+          "fiber_g": 0.6,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -8954,6 +9218,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 28,
+          "fat_g": 1.9,
+          "carbs_g": 0.7,
+          "protein_g": 1.9,
+          "sodium_mg": 94,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 48 servings"
+        ]
       }
     },
     {
@@ -9037,6 +9317,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 1.5,
+          "carbs_g": 0.9,
+          "protein_g": 1.6,
+          "sodium_mg": 68,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 80 servings"
+        ]
       }
     },
     {
@@ -9095,6 +9391,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 597,
+          "fat_g": 41.3,
+          "carbs_g": 32.3,
+          "protein_g": 18.7,
+          "sodium_mg": 2026,
+          "fiber_g": 2.0,
+          "sugar_g": 4.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -9163,7 +9475,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 4.4,
+          "carbs_g": 2.0,
+          "protein_g": 4.0,
+          "sodium_mg": 192,
+          "fiber_g": 0.4,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "1  small dill pickle"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "ezras-fritters-ancients",
@@ -9270,7 +9600,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 4.4,
+          "carbs_g": 1.1,
+          "protein_g": 3.8,
+          "sodium_mg": 59,
+          "fiber_g": 0.2,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "conch-fritters-bahamian-style-jasmine",
@@ -9484,6 +9830,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1066,
+          "fat_g": 114.8,
+          "carbs_g": 13.4,
+          "protein_g": 6.4,
+          "sodium_mg": 198,
+          "fiber_g": 0.8,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -9579,6 +9941,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 8.1,
+          "carbs_g": 3.4,
+          "protein_g": 5.4,
+          "sodium_mg": 130,
+          "fiber_g": 0.8,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "1 lb loaf frozen bread dough"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -9642,6 +10022,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.4,
+          "protein_g": 0.1,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 can artichoke bottoms",
+          "1  bottle Wishbone Italian dressing",
+          "1  pkg. Stouffer's Spinach Souffle"
+        ],
+        "assumptions": [
+          "Calculated for 48 servings"
+        ]
       }
     },
     {
@@ -9734,7 +10134,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 59,
+          "fat_g": 1.6,
+          "carbs_g": 9.1,
+          "protein_g": 2.4,
+          "sodium_mg": 195,
+          "fiber_g": 0.4,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "1 can white crab meat",
+          "1  stick margarine"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "cheese-bowl-fbc",
@@ -9840,7 +10259,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 41,
+          "fat_g": 3.4,
+          "carbs_g": 0.9,
+          "protein_g": 1.8,
+          "sodium_mg": 104,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "3/4 cup beer or ale",
+          "1  loaf round or Italian bread"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "crabbies-fbc",
@@ -9919,7 +10357,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 25,
+          "fat_g": 1.7,
+          "carbs_g": 1.6,
+          "protein_g": 0.9,
+          "sodium_mg": 37,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 can crab meat",
+          "1  jar Kraft Old English spread"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "braunschweiger-ball-fbc",
@@ -9984,7 +10441,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 5.7,
+          "carbs_g": 3.2,
+          "protein_g": 1.3,
+          "sodium_mg": 139,
+          "fiber_g": 0.0,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [
+          "1 lb Braunschweiger"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "spinach-balls-fbc",
@@ -10057,7 +10532,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 115,
+          "fat_g": 7.2,
+          "carbs_g": 8.6,
+          "protein_g": 3.8,
+          "sodium_mg": 155,
+          "fiber_g": 0.6,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "guacamole-fbc",
@@ -10133,6 +10624,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 284,
+          "fat_g": 24.2,
+          "carbs_g": 17.7,
+          "protein_g": 3.7,
+          "sodium_mg": 207,
+          "fiber_g": 11.5,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "1  sm. tomato",
+          "1 tsp lime or lemon juice"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -10219,7 +10729,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 232,
+          "fat_g": 16.1,
+          "carbs_g": 0.2,
+          "protein_g": 19.3,
+          "sodium_mg": 155,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 tbsp Morton Tender Quick"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "hot-chipped-beef-dip-fbc",
@@ -10297,7 +10825,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "Makes about 2 cups"
+      "servings_yield": "Makes about 2 cups",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 250,
+          "fat_g": 17.9,
+          "carbs_g": 15.2,
+          "protein_g": 7.9,
+          "sodium_mg": 355,
+          "fiber_g": 2.4,
+          "sugar_g": 8.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "ham-cream-cheese-roll-ups-fbc",
@@ -10365,7 +10909,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 2.0,
+          "carbs_g": 0.5,
+          "protein_g": 4.4,
+          "sodium_mg": 262,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  jar of green Spanish olives",
+          "1  box colored toothpicks"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "baby-cheese-ball-fbc-jasmine",
@@ -10462,7 +11025,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 10.3,
+          "carbs_g": 2.5,
+          "protein_g": 4.8,
+          "sodium_mg": 206,
+          "fiber_g": 0.3,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "won-ton-fbc-jasmine",
@@ -10548,6 +11127,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 93,
+          "fat_g": 6.1,
+          "carbs_g": 0.1,
+          "protein_g": 8.8,
+          "sodium_mg": 37,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 lb wonton skins",
+          "3 stalks green onion"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -10622,7 +11220,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 2.5,
+          "carbs_g": 15.1,
+          "protein_g": 2.5,
+          "sodium_mg": 202,
+          "fiber_g": 1.0,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "1 8 oz block cream cheese",
+          "1 sm can diced green chilies"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "crab-canapes-fbc-jasmine",
@@ -10706,7 +11323,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 147,
+          "fat_g": 11.7,
+          "carbs_g": 9.2,
+          "protein_g": 1.9,
+          "sodium_mg": 184,
+          "fiber_g": 0.4,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "2 5 oz jars Old English spread",
+          "1 6 oz can crabmeat"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "carrot-cheese-ball-fbc-jasmine",
@@ -10796,7 +11432,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 121,
+          "fat_g": 10.3,
+          "carbs_g": 2.6,
+          "protein_g": 4.8,
+          "sodium_mg": 178,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "aunt-maudes-cheese-ball-fbc-jasmine",
@@ -10884,7 +11536,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 148,
+          "fat_g": 11.2,
+          "carbs_g": 7.1,
+          "protein_g": 4.4,
+          "sodium_mg": 149,
+          "fiber_g": 0.3,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "salmon-ball-fbc-jasmine",
@@ -10974,7 +11642,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 64,
+          "fat_g": 5.7,
+          "carbs_g": 2.2,
+          "protein_g": 1.3,
+          "sodium_mg": 51,
+          "fiber_g": 0.3,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "15 oz can salmon"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "olive-cheese-ball-fbc-jasmine",
@@ -11061,7 +11747,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 6.3,
+          "carbs_g": 1.9,
+          "protein_g": 1.4,
+          "sodium_mg": 119,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "chicken-liver-pate-fbc-jasmine",
@@ -11173,7 +11875,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "8-12 servings"
+      "servings_yield": "8-12 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 133,
+          "fat_g": 9.2,
+          "carbs_g": 1.4,
+          "protein_g": 8.6,
+          "sodium_mg": 210,
+          "fiber_g": 0.2,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "8-10 drops bottled hot pepper sauce"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "veggie-bites-fbc-jasmine",
@@ -11255,6 +11975,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 0.7,
+          "carbs_g": 1.0,
+          "protein_g": 1.1,
+          "sodium_mg": 16,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1 pkg dried vegetable soup mix"
+        ],
+        "assumptions": [
+          "Calculated for 30 servings"
+        ]
       }
     },
     {
@@ -11412,6 +12150,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1049,
+          "fat_g": 113.5,
+          "carbs_g": 12.1,
+          "protein_g": 6.4,
+          "sodium_mg": 115,
+          "fiber_g": 0.8,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -11512,7 +12266,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5722.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 994,
+          "fat_g": 90.7,
+          "carbs_g": 35.0,
+          "protein_g": 20.6,
+          "sodium_mg": 930,
+          "fiber_g": 4.0,
+          "sugar_g": 18.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "egg-salad-turnovers-fbc-jasmine",
@@ -11634,7 +12404,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5727.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 166,
+          "fat_g": 14.4,
+          "carbs_g": 1.4,
+          "protein_g": 7.6,
+          "sodium_mg": 253,
+          "fiber_g": 0.4,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "5 oz can Hungry Jack refrigerated flaky biscuits"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "begonia-spread-etw",
@@ -11695,7 +12483,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 113,
+          "fat_g": 10.1,
+          "carbs_g": 4.2,
+          "protein_g": 2.2,
+          "sodium_mg": 86,
+          "fiber_g": 0.1,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "1/4-1/3 cup strawberry jam or similar jelly",
+          "1/3 cup begonia flower petals"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from appetizers category"
+        ]
+      }
     },
     {
       "id": "nasturtium-bundles-etw",
@@ -11762,7 +12570,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 10.0,
+          "carbs_g": 1.9,
+          "protein_g": 2.0,
+          "sodium_mg": 86,
+          "fiber_g": 0.1,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "3 tbsp fresh herbs"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from appetizers category"
+        ]
+      }
     },
     {
       "id": "dove-poppers-hf",
@@ -11864,7 +12691,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 10.0,
+          "carbs_g": 1.2,
+          "protein_g": 5.1,
+          "sodium_mg": 267,
+          "fiber_g": 0.1,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [
+          "16-20  dove breasts"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "deviled-duck-hearts-hf",
@@ -11998,7 +12843,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 116,
+          "fat_g": 6.3,
+          "carbs_g": 12.9,
+          "protein_g": 2.7,
+          "sodium_mg": 672,
+          "fiber_g": 1.8,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "1 lb duck hearts"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

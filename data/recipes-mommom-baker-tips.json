@@ -2,11 +2,50 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "tips",
-    "total_recipes": 98,
-    "generated": "2026-01-23T14:31:32.325682Z",
+    "total_recipes": 99,
+    "generated": "2026-01-29T11:11:47.824849Z",
     "source": "recipes_master.json"
   },
   "recipes": [
+    {
+      "id": "steak-and-burger-toppings-bhg",
+      "collection": "mommom-baker",
+      "collection_display": "MomMom Baker",
+      "title": "Steak and Burger Toppings",
+      "category": "tips",
+      "attribution": "Better Homes and Gardens New Cook Book",
+      "source_note": "Cookbook page 243",
+      "description": "Dress up steaks and burgers with one of these sauces. Each makes enough for 4 servings.",
+      "notes": [
+        "Mushroom-Onion Sauce: Cook 1 cup sliced fresh mushrooms and \u00bc cup sliced green onion in 2 tablespoons margarine or butter. Stir in \u00bd cup dairy sour cream and \u00bc teaspoon pepper. Heat through; do not boil.",
+        "Sour Cream and Chive Sauce: Combine \u00bd cup dairy sour cream, 2 tablespoons snipped chives, 1 tablespoon prepared horseradish, and dash pepper. Chill.",
+        "Mustard-Chive Sauce: In a saucepan melt 1 tablespoon margarine or butter. Stir in 2 tablespoons all-purpose flour and \u00bd teaspoon salt till bubbly. Add \u00be cup milk. Cook and stir till bubbly. Remove from heat. Stir in 1 tablespoon snipped chives and 1 teaspoon Dijon-style mustard.",
+        "Parsley Pesto: In a blender container place 2 cups lightly packed chopped parsley, 2 tablespoons chopped walnuts, 1 clove garlic, quartered. Cover and blend till nearly smooth. Stir in \u00bc cup grated Parmesan cheese."
+      ],
+      "tags": [
+        "sauces",
+        "toppings",
+        "steak",
+        "burgers"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5403 Large.jpeg"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {},
+        "missing_inputs": [
+          "No ingredients listed"
+        ],
+        "assumptions": []
+      },
+      "ingredients": [],
+      "instructions": []
+    },
     {
       "id": "spice-herb-guide-allspice",
       "collection": "mommom-baker",

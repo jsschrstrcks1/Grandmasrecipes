@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "breads",
     "total_recipes": 285,
-    "generated": "2026-01-23T14:31:31.360289Z",
+    "generated": "2026-01-29T11:11:46.957106Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -11141,7 +11141,7 @@
       }
     },
     {
-      "id": "irish-soda-bread",
+      "id": "irish-soda-bread-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Irish Soda Bread",
@@ -16383,9 +16383,19 @@
       "image_refs": [],
       "nutrition": {
         "status": "complete",
-        "per_serving": {},
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 12.6,
+          "carbs_g": 29.2,
+          "protein_g": 5.2,
+          "sodium_mg": 389,
+          "fiber_g": 2.4,
+          "sugar_g": 14.2
+        },
         "missing_inputs": [],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -23939,16 +23949,29 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "mixed flour fteaspoon salt 1 to 2 tablespoons fat",
+          "item": "flour",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "baking-powder About |cupmilk",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "fat (butter or shortening)",
+          "quantity": "1-2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking powder",
           "quantity": "4",
-          "unit": "tsp",
-          "prep_note": ""
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -24028,7 +24051,7 @@
       "id": "sourmilkgraham-bread-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Sourmilkgraham Bread",
+      "title": "Sour Milk Graham Bread",
       "category": "breads",
       "attribution": "",
       "source_note": "The Metropolitan Life Cook Book 1922 (PDF cookbook)",
@@ -24039,30 +24062,54 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Graham flour 1 teaspoon salt 1 tablespoon baking-powder",
+          "item": "Graham flour",
           "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "white flour",
+          "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "white flour 1 teasnoon soda 2 cupssourmilk",
+          "item": "baking soda",
           "quantity": "1",
-          "unit": "cup",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sour milk",
+          "quantity": "2",
+          "unit": "cups",
           "prep_note": ""
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Measure, mixand siftdryingredients. Add thesour milkandbeat"
+          "text": "Measure, mix and sift dry ingredients."
         },
         {
           "step": 2,
-          "text": "mixture thoroughly until ingredients arethoroughly mixed. Drop mixture"
+          "text": "Add the sour milk and beat mixture thoroughly until ingredients are thoroughly mixed."
         },
         {
           "step": 3,
-          "text": "intowell-greased bread pansandbake inamoderately hotovenabout 1 hour."
+          "text": "Drop mixture into well-greased bread pans and bake in a moderately hot oven about 1 hour."
         }
       ],
       "temperature": "",
@@ -24111,22 +24158,39 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "Graham flour 1 teaspoon salt 2|cupsmilk",
+          "item": "graham flour",
           "quantity": "3",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "white flour Iftablespoons baking- 1 cupnutmeats",
+          "item": "salt",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "tsp"
         },
         {
-          "item": "ugar powder",
+          "item": "milk",
+          "quantity": "2 1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "white flour",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "nutmeats",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -24423,33 +24487,77 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "calded milk 1 Jteaspoons salt 1 yeast cakemixed with",
+          "item": "scalded milk",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "boiling water 1 tablespoon sugar or Icuplukewarm water",
+          "item": "boiling water",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "fat syrup 6 cups flour",
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar or syrup",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fat",
           "quantity": "2",
           "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "yeast cake",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "mixed with lukewarm water"
+        },
+        {
+          "item": "lukewarm water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "6",
+          "unit": "cups",
           "prep_note": ""
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Tomake potato bread, add 2 cupsmashed potatoes totheliquids. Use"
+          "text": "Combine scalded milk, boiling water, salt, sugar, and fat. Cool to lukewarm."
+        },
+        {
+          "step": 2,
+          "text": "Add the yeast cake dissolved in lukewarm water."
+        },
+        {
+          "step": 3,
+          "text": "Stir in flour gradually and knead until smooth and elastic."
+        },
+        {
+          "step": 4,
+          "text": "Let rise until doubled in bulk, shape into loaves, let rise again, and bake."
         }
       ],
       "temperature": "",
       "pan_size": "",
-      "notes": [],
+      "notes": [
+        "To make potato bread, add 2 cups mashed potatoes to the liquids."
+      ],
       "tags": [
         "vintage",
         "pdf-extracted"
@@ -24464,13 +24572,13 @@
       "nutrition": {
         "status": "complete",
         "per_serving": {
-          "calories": 244,
-          "fat_g": 5.8,
-          "carbs_g": 50.0,
-          "protein_g": 0.1,
-          "sodium_mg": 114,
-          "fiber_g": 0.0,
-          "sugar_g": 50.0
+          "calories": 788,
+          "fat_g": 9.6,
+          "carbs_g": 149.4,
+          "protein_g": 22.3,
+          "sodium_mg": 941,
+          "fiber_g": 5.6,
+          "sugar_g": 6.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -24482,7 +24590,7 @@
       "id": "entire-wheat-orbranbread-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Entire Wheat Orbranbread",
+      "title": "Entire Wheat or Bran Bread",
       "category": "breads",
       "attribution": "",
       "source_note": "The Metropolitan Life Cook Book 1922 (PDF cookbook)",
@@ -24493,16 +24601,35 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "boiling water 1 teaspoon salt 21 cups flour",
+          "item": "boiling water",
           "quantity": "1",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "calded milk 4 fcupscoarse entire Jyeast cakemixed with",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2 1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
           "quantity": "1",
           "unit": "cup",
-          "prep_note": ""
+          "prep_note": "scalded"
+        },
+        {
+          "item": "coarse entire wheat flour",
+          "quantity": "4",
+          "unit": "cup"
+        },
+        {
+          "item": "yeast cake",
+          "quantity": "1",
+          "unit": ""
         }
       ],
       "instructions": [
@@ -24548,7 +24675,7 @@
       "id": "ryeandoatmeal-bread-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Ryeandoatmeal Bread",
+      "title": "Rye and Oatmeal Bread",
       "category": "breads",
       "attribution": "",
       "source_note": "The Metropolitan Life Cook Book 1922 (PDF cookbook)",
@@ -24559,28 +24686,72 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "hotliquid 1 teaspoon salt 2 cupswhite flour",
+          "item": "hot liquid (water or milk)",
           "quantity": "2",
-          "unit": "cup",
+          "unit": "cups",
           "prep_note": ""
         },
         {
-          "item": "oatmeal Jyeast cakemixed with 3 cups ryeflour orallrye",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "white flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "oatmeal",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "fat icuplukewarm liquid andcornmeal.",
+          "item": "yeast cake",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "mixed with lukewarm liquid"
+        },
+        {
+          "item": "rye flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "or use all rye and cornmeal"
+        },
+        {
+          "item": "fat",
           "quantity": "2",
           "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lukewarm liquid",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "molasses",
+          "quantity": "",
+          "unit": "",
           "prep_note": ""
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Pour thehotliquid over theoatmeal, addthe fat,molasses and salt."
+          "text": "Pour the hot liquid over the oatmeal, add the fat, molasses and salt."
+        },
+        {
+          "step": 2,
+          "text": "When lukewarm, add the yeast cake dissolved in lukewarm liquid. Mix in the flours and knead well."
+        },
+        {
+          "step": 3,
+          "text": "Let rise until doubled, shape into loaves, let rise again, and bake."
         }
       ],
       "temperature": "",
@@ -24629,22 +24800,44 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "thick oatmeal 2 tablespoons cornsyrup Yeast mixed with Jcup",
+          "item": "thick oatmeal",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "or 2 tablespoons fat 4|cups flour",
+          "item": "corn syrup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "yeast",
           "quantity": "1",
-          "unit": "",
-          "prep_note": ""
+          "unit": "cake"
         },
         {
-          "item": "boiled rice (Jcup 2 Jteaspoons salt 3 cupsGraham flour",
+          "item": "fat",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "4 1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "boiled rice",
+          "quantity": "2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "2 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "graham flour",
+          "quantity": "3",
+          "unit": "cup"
         }
       ],
       "instructions": [
@@ -24760,7 +24953,7 @@
       "id": "rolls-andhowtomakethem-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Rolls Andhowtomakethem",
+      "title": "Rolls",
       "category": "breads",
       "attribution": "",
       "source_note": "The Metropolitan Life Cook Book 1922 (PDF cookbook)",
@@ -24771,44 +24964,74 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "boiling water 1 teaspoon salt 1 yeast cakemixed with",
+          "item": "boiling water",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "calded milk 3 tablespoons fat icuplukewarm water",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "yeast cake",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "mixed with lukewarm water"
+        },
+        {
+          "item": "scalded milk",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "sugar orsyrup Flour",
+          "item": "fat",
           "quantity": "3",
           "unit": "tbsp",
           "prep_note": ""
+        },
+        {
+          "item": "lukewarm water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar or syrup",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "as needed"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Follow directions formaking bread. Mashed potato maybeused, and"
+          "text": "Follow directions for making bread. Mashed potato may be used."
         },
         {
           "step": 2,
-          "text": "Shape thedough into biscuits, letriseagain, then, with thehandle ofa"
+          "text": "Shape the dough into biscuits, let rise again."
         },
         {
           "step": 3,
-          "text": "case knife dipped inflour, crease through themiddle ofeach biscuit, orroll"
+          "text": "With the handle of a case knife dipped in flour, crease through the middle of each biscuit, or roll with rolling pin to oblong shape."
         },
         {
           "step": 4,
-          "text": "with rolling pintooblong shape. Brush |ofeach withmelted fat,foldand"
+          "text": "Brush half of each with melted fat, fold and press together."
         },
         {
           "step": 5,
-          "text": "press together. Cover, letriseandbake inahotoven 12 to 15 minutes."
+          "text": "Cover, let rise and bake in a hot oven 12 to 15 minutes."
         }
       ],
       "temperature": "",
@@ -26098,16 +26321,24 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "fuls pastry flour 1 teaspooiif ulsalt",
+          "item": "pastry flour",
           "quantity": "2",
-          "unit": "cup",
-          "prep_note": ""
+          "unit": "cup"
         },
         {
-          "item": "teaspooiifuls baking 3 tabk'spounfuls C'risco",
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking powder",
           "quantity": "3",
-          "unit": "",
-          "prep_note": ""
+          "unit": "tsp"
+        },
+        {
+          "item": "Crisco (shortening)",
+          "quantity": "3",
+          "unit": "tbsp"
         }
       ],
       "instructions": [
@@ -29967,7 +30198,7 @@
       }
     },
     {
-      "id": "banana-nut-muffins-gahb",
+      "id": "banana-nut-muffins-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Banana-Nut Muffins",
@@ -30108,7 +30339,7 @@
       }
     },
     {
-      "id": "healthy-apple-walnut-muffins-gahb",
+      "id": "healthy-apple-walnut-muffins-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Healthy Apple-Walnut Muffins",
@@ -30227,7 +30458,7 @@
       }
     },
     {
-      "id": "buttermilk-biscuits-gahb",
+      "id": "buttermilk-biscuits-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Buttermilk Biscuits",
@@ -30334,7 +30565,7 @@
       }
     },
     {
-      "id": "butter-crescents-gahb",
+      "id": "butter-crescents-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Butter Crescents",
@@ -31287,7 +31518,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2124,
+          "fat_g": 105.1,
+          "carbs_g": 258.8,
+          "protein_g": 37.7,
+          "sodium_mg": 2462,
+          "fiber_g": 6.8,
+          "sugar_g": 66.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "reddit-4-generation-banana-bread",
@@ -31416,7 +31663,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 3352,
+          "fat_g": 143.6,
+          "carbs_g": 480.3,
+          "protein_g": 51.9,
+          "sodium_mg": 2616,
+          "fiber_g": 20.1,
+          "sugar_g": 245.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "amish-friendship-bread",
@@ -31580,7 +31843,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2122,
+          "fat_g": 120.7,
+          "carbs_g": 249.9,
+          "protein_g": 22.0,
+          "sodium_mg": 1106,
+          "fiber_g": 5.2,
+          "sugar_g": 151.1
+        },
+        "missing_inputs": [
+          "1 cup Amish Friendship Bread starter",
+          "1 box instant vanilla pudding mix"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cf-no-knead-bread",
@@ -31677,7 +31959,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1487,
+          "fat_g": 4.5,
+          "carbs_g": 297.2,
+          "protein_g": 48.2,
+          "sodium_mg": 2912,
+          "fiber_g": 10.3,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "cf-great-pizza-dough",
@@ -31788,7 +32086,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 7.1,
+          "carbs_g": 3.8,
+          "protein_g": 0.8,
+          "sodium_mg": 1163,
+          "fiber_g": 0.4,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "3 1/2 cups high gluten flour"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cf-gluten-free-pizza-crust",
@@ -31928,7 +32244,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 308,
+          "fat_g": 14.5,
+          "carbs_g": 40.1,
+          "protein_g": 4.9,
+          "sodium_mg": 1164,
+          "fiber_g": 1.3,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "3/4 cup tapioca flour",
+          "2 tbsp dry buttermilk powder",
+          "1 tsp agar-agar or gelatin powder",
+          "1 packet active dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "pizza-bread-cheeseforum",
@@ -32055,7 +32392,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2310,
+          "fat_g": 87.0,
+          "carbs_g": 307.9,
+          "protein_g": 66.6,
+          "sodium_mg": 2998,
+          "fiber_g": 12.8,
+          "sugar_g": 16.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "ricotta-babka",
@@ -32220,7 +32573,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4397,
+          "fat_g": 194.0,
+          "carbs_g": 525.6,
+          "protein_g": 125.8,
+          "sodium_mg": 5100,
+          "fiber_g": 15.2,
+          "sugar_g": 132.6
+        },
+        "missing_inputs": [
+          "1 package (0.25 oz) active dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "pumpkin-harvest-loaf",
@@ -32367,7 +32738,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2146,
+          "fat_g": 19.7,
+          "carbs_g": 463.2,
+          "protein_g": 53.1,
+          "sodium_mg": 2928,
+          "fiber_g": 37.5,
+          "sugar_g": 258.3
+        },
+        "missing_inputs": [
+          "1/4 cup lemon/lime juice",
+          "1/4 cup lemon/lime juice (for glaze)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "taoc-whey-english-muffin-bread",
@@ -32477,7 +32867,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1412,
+          "fat_g": 4.0,
+          "carbs_g": 294.2,
+          "protein_g": 42.0,
+          "sodium_mg": 3595,
+          "fiber_g": 12.2,
+          "sugar_g": 7.2
+        },
+        "missing_inputs": [
+          "2 2/3 cups (divided) whey (from cheesemaking)",
+          "for sprinkling cornmeal"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     }
   ]
 }

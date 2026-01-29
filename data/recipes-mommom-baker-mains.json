@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "mains",
     "total_recipes": 178,
-    "generated": "2026-01-23T14:31:32.240449Z",
+    "generated": "2026-01-29T11:11:47.758178Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -9929,7 +9929,7 @@
       }
     },
     {
-      "id": "pork-belly-burrito",
+      "id": "pork-belly-burrito-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Pork Belly Burrito",
@@ -14864,7 +14864,7 @@
       }
     },
     {
-      "id": "chicken-nuggets",
+      "id": "chicken-nuggets-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Nuggets",
@@ -16122,7 +16122,7 @@
       }
     },
     {
-      "id": "chicken-cacciatore",
+      "id": "chicken-cacciatore-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Cacciatore",
@@ -16400,7 +16400,7 @@
       }
     },
     {
-      "id": "chicken-enchiladas",
+      "id": "chicken-enchiladas-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Enchiladas",
@@ -16669,7 +16669,7 @@
       }
     },
     {
-      "id": "swedish-meatballs",
+      "id": "swedish-meatballs-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Swedish Meatballs",
@@ -17675,7 +17675,7 @@
       }
     },
     {
-      "id": "burritos",
+      "id": "burritos-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Burritos",
@@ -18395,7 +18395,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5722.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 385,
+          "fat_g": 20.7,
+          "carbs_g": 35.3,
+          "protein_g": 13.0,
+          "sodium_mg": 1254,
+          "fiber_g": 2.0,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "1 can crab"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-brunswick-stew",
@@ -18535,7 +18553,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1152,
+          "fat_g": 58.3,
+          "carbs_g": 57.6,
+          "protein_g": 93.2,
+          "sodium_mg": 299,
+          "fiber_g": 10.1,
+          "sugar_g": 9.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-souse-headcheese",
@@ -18644,7 +18678,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.1,
+          "carbs_g": 0.4,
+          "protein_g": 0.1,
+          "sodium_mg": 75,
+          "fiber_g": 0.3,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  hog's head"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-scrapple",
@@ -18743,7 +18796,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  hog's head",
+          "enough to make thick corn meal"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-liver-mush",
@@ -18855,7 +18928,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.2,
+          "carbs_g": 0.8,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.5,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  hog liver",
+          "1 cup broth from cooking",
+          "enough to thicken corn meal"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-sausage",
@@ -18962,7 +19056,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 53,
+          "fat_g": 0.2,
+          "carbs_g": 13.4,
+          "protein_g": 0.2,
+          "sodium_mg": 10,
+          "fiber_g": 0.5,
+          "sugar_g": 12.6
+        },
+        "missing_inputs": [
+          "10 lb lean pork"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-chitlins",
@@ -19076,7 +19189,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 1.3,
+          "carbs_g": 2.1,
+          "protein_g": 1.7,
+          "sodium_mg": 193,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "sections hog intestines",
+          "for frying grease"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-squirrel",
@@ -19161,7 +19294,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  squirrel",
+          "for frying grease or lard"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-rabbit",
@@ -19264,7 +19417,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 3.1,
+          "carbs_g": 7.1,
+          "protein_g": 4.3,
+          "sodium_mg": 3530,
+          "fiber_g": 0.3,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "1  rabbit",
+          "for frying grease"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-possum-and-sweet-potatoes",
@@ -19369,7 +19542,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 41,
+          "fat_g": 0.1,
+          "carbs_g": 9.2,
+          "protein_g": 1.0,
+          "sodium_mg": 3,
+          "fiber_g": 1.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1  possum",
+          "1/2 cup lime or ashes",
+          "for pan grease"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-coon",
@@ -19467,7 +19661,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 41,
+          "fat_g": 0.1,
+          "carbs_g": 9.2,
+          "protein_g": 1.0,
+          "sodium_mg": 78,
+          "fiber_g": 1.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1  raccoon",
+          "1-2 pods red pepper",
+          "for pan grease"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-groundhog",
@@ -19567,7 +19782,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 2.9,
+          "carbs_g": 3.0,
+          "protein_g": 0.3,
+          "sodium_mg": 116,
+          "fiber_g": 1.0,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [
+          "1  groundhog",
+          "spicewood twigs",
+          "for pan grease"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-venison-stew",
@@ -19692,7 +19928,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 798,
+          "fat_g": 37.5,
+          "carbs_g": 62.1,
+          "protein_g": 52.8,
+          "sodium_mg": 1985,
+          "fiber_g": 9.7,
+          "sugar_g": 12.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-venison-loaf",
@@ -19783,7 +20036,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 2.6,
+          "carbs_g": 6.0,
+          "protein_g": 3.5,
+          "sodium_mg": 1204,
+          "fiber_g": 0.8,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "2 1/2 lb ground deer meat",
+          "1 lb ground hog meat"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-turtle",
@@ -19901,7 +20174,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 196,
+          "fat_g": 6.7,
+          "carbs_g": 26.0,
+          "protein_g": 7.3,
+          "sodium_mg": 468,
+          "fiber_g": 1.0,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "1  turtle"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-frog-legs",
@@ -20002,7 +20294,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 18,
+          "fat_g": 1.2,
+          "carbs_g": 0.1,
+          "protein_g": 1.5,
+          "sodium_mg": 18,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "frog legs",
+          "for frying grease",
+          "for batter buttermilk"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-ramps",
@@ -20073,7 +20386,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 83,
+          "fat_g": 5.0,
+          "carbs_g": 2.9,
+          "protein_g": 6.2,
+          "sodium_mg": 72,
+          "fiber_g": 0.5,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-bear-roast",
@@ -20157,7 +20487,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 0.6,
+          "carbs_g": 48.5,
+          "protein_g": 6.6,
+          "sodium_mg": 502,
+          "fiber_g": 7.0,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [
+          "4-5 lbs bear roast"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-venison-steaks",
@@ -20227,7 +20576,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 320,
+          "fat_g": 18.1,
+          "carbs_g": 11.9,
+          "protein_g": 25.6,
+          "sodium_mg": 74,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-venison-pot-roast",
@@ -20308,7 +20674,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1472,
+          "fat_g": 103.8,
+          "carbs_g": 5.2,
+          "protein_g": 122.4,
+          "sodium_mg": 2511,
+          "fiber_g": 0.7,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-roasted-quail",
@@ -20379,7 +20762,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1248,
+          "fat_g": 99.5,
+          "carbs_g": 2.0,
+          "protein_g": 80.1,
+          "sodium_mg": 3718,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4  quail"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-wild-turkey",
@@ -20456,7 +20858,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1214,
+          "fat_g": 100.2,
+          "carbs_g": 2.2,
+          "protein_g": 71.2,
+          "sodium_mg": 3771,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  wild turkey"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-liver-pudding",
@@ -20536,7 +20957,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 56,
+          "fat_g": 0.5,
+          "carbs_g": 11.9,
+          "protein_g": 1.3,
+          "sodium_mg": 296,
+          "fiber_g": 1.2,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 lb pork liver",
+          "1/2 lb pork scraps"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     },
     {
       "id": "foxfire-brains-and-eggs",
@@ -20607,7 +21048,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 10.8,
+          "carbs_g": 0.4,
+          "protein_g": 6.0,
+          "sodium_mg": 110,
+          "fiber_g": 0.0,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "1 set hog brains"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from mains category"
+        ]
+      }
     }
   ]
 }

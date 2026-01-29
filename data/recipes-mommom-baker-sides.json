@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "sides",
     "total_recipes": 113,
-    "generated": "2026-01-23T14:31:32.297908Z",
+    "generated": "2026-01-29T11:11:47.803147Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -6458,6 +6458,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 4.0,
+          "carbs_g": 17.3,
+          "protein_g": 4.4,
+          "sodium_mg": 178,
+          "fiber_g": 0.8,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "1/2 tsp maggi"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -6556,6 +6575,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 82,
+          "fat_g": 6.5,
+          "carbs_g": 3.2,
+          "protein_g": 3.2,
+          "sodium_mg": 93,
+          "fiber_g": 0.7,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "2 lb lg. curd cottage cheese",
+          "1/4 cup onion and parsley"
+        ],
+        "assumptions": [
+          "Calculated for 20 servings"
+        ]
       }
     },
     {
@@ -6647,6 +6685,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 484,
+          "fat_g": 39.7,
+          "carbs_g": 18.1,
+          "protein_g": 14.6,
+          "sodium_mg": 868,
+          "fiber_g": 5.6,
+          "sugar_g": 6.8
+        },
+        "missing_inputs": [
+          "1/4 lb Ritz crackers"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -6722,6 +6779,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 190,
+          "fat_g": 15.5,
+          "carbs_g": 11.2,
+          "protein_g": 2.5,
+          "sodium_mg": 541,
+          "fiber_g": 1.1,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -6808,6 +6882,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 264,
+          "fat_g": 23.8,
+          "carbs_g": 9.8,
+          "protein_g": 4.3,
+          "sodium_mg": 453,
+          "fiber_g": 3.2,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "1 jar diced pimento"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -6898,6 +6991,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 239,
+          "fat_g": 16.8,
+          "carbs_g": 21.0,
+          "protein_g": 5.3,
+          "sodium_mg": 578,
+          "fiber_g": 2.3,
+          "sugar_g": 5.5
+        },
+        "missing_inputs": [
+          "1 jar chopped pimento"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -6990,6 +7102,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 256,
+          "fat_g": 24.4,
+          "carbs_g": 5.7,
+          "protein_g": 6.1,
+          "sodium_mg": 265,
+          "fiber_g": 2.1,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "1 pkg green onion dip mix"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -7079,6 +7210,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 345,
+          "fat_g": 28.7,
+          "carbs_g": 19.0,
+          "protein_g": 4.0,
+          "sodium_mg": 638,
+          "fiber_g": 2.5,
+          "sugar_g": 6.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -7190,6 +7338,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 523,
+          "fat_g": 32.5,
+          "carbs_g": 56.5,
+          "protein_g": 3.5,
+          "sodium_mg": 297,
+          "fiber_g": 0.2,
+          "sugar_g": 50.9
+        },
+        "missing_inputs": [
+          "2 16 oz cans yams"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
       }
     },
     {
@@ -7303,7 +7470,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5727.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 16,
+          "fat_g": 0.4,
+          "carbs_g": 2.3,
+          "protein_g": 0.8,
+          "sodium_mg": 56,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "oil for deep frying"
+        ],
+        "assumptions": [
+          "Calculated for 26 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-leather-breeches-beans",
@@ -7369,7 +7554,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 5,
+          "fat_g": 0.0,
+          "carbs_g": 1.2,
+          "protein_g": 0.3,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1 good hunk ham, pork, or similar meat"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-cabbage",
@@ -7440,7 +7644,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 75,
+          "fat_g": 8.7,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-potatoes",
@@ -7511,7 +7732,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 0.1,
+          "carbs_g": 21.6,
+          "protein_g": 2.3,
+          "sodium_mg": 8,
+          "fiber_g": 2.3,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "for frying grease"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-okra",
@@ -7582,7 +7822,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.0,
+          "carbs_g": 1.2,
+          "protein_g": 0.3,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "for frying grease"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-october-beans",
@@ -7646,7 +7905,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "October beans"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-squash-blossoms",
@@ -7728,7 +8006,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 64,
+          "fat_g": 1.0,
+          "carbs_g": 11.3,
+          "protein_g": 2.6,
+          "sodium_mg": 14,
+          "fiber_g": 0.8,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "enough to make thin batter milk",
+          "for deep frying grease"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-hominy",
@@ -7812,7 +8110,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 173,
+          "fat_g": 2.2,
+          "carbs_g": 38.2,
+          "protein_g": 6.8,
+          "sodium_mg": 2,
+          "fiber_g": 4.5,
+          "sugar_g": 6.8
+        },
+        "missing_inputs": [
+          "1 gallon lye (dripped from ashes)"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-apple-butter",
@@ -7891,7 +8208,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 145,
+          "fat_g": 0.0,
+          "carbs_g": 37.5,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.7,
+          "sugar_g": 36.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-sauerkraut",
@@ -7983,7 +8317,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 25,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 pod hot pepper"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-chow-chow",
@@ -8127,7 +8480,29 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 794,
+          "fat_g": 4.8,
+          "carbs_g": 190.5,
+          "protein_g": 16.3,
+          "sodium_mg": 272,
+          "fiber_g": 23.7,
+          "sugar_g": 166.3
+        },
+        "missing_inputs": [
+          "2 oz white or black cloves",
+          "2 oz allspice",
+          "1 box yellow mustard seed",
+          "1 oz tumeric",
+          "to cover vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-watermelon-pickles",
@@ -8243,7 +8618,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 621,
+          "fat_g": 0.4,
+          "carbs_g": 156.3,
+          "protein_g": 0.8,
+          "sodium_mg": 6,
+          "fiber_g": 0.8,
+          "sugar_g": 152.8
+        },
+        "missing_inputs": [
+          "1 tbsp slaked lime",
+          "10 pieces stick cinnamon"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-tomato-catsup",
@@ -8347,7 +8741,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 0.7,
+          "carbs_g": 19.5,
+          "protein_g": 0.7,
+          "sodium_mg": 3491,
+          "fiber_g": 0.8,
+          "sugar_g": 17.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-pear-preserves",
@@ -8414,7 +8825,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 11,
+          "fat_g": 0.0,
+          "carbs_g": 2.8,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.5,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "layers sugar"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-mint-jelly",
@@ -8508,7 +8938,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 117,
+          "fat_g": 0.1,
+          "carbs_g": 29.9,
+          "protein_g": 0.1,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 29.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire2-dock-greens",
@@ -8581,7 +9028,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "young dock leaves",
+          "for frying grease"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire2-hot-greens-on-toast",
@@ -8676,7 +9143,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 7.5,
+          "carbs_g": 3.7,
+          "protein_g": 1.1,
+          "sodium_mg": 34,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "1 pint cooked dock"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire2-poke-greens",
@@ -8760,7 +9246,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "young poke shoots"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire2-poke-sallet",
@@ -8848,7 +9353,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 1.7,
+          "carbs_g": 0.1,
+          "protein_g": 2.0,
+          "sodium_mg": 217,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "poke greens",
+          "for frying hot grease"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire2-lambs-quarter-greens",
@@ -8930,7 +9455,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 gallon lamb's quarters and dock",
+          "4 tbsp grease"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-mixed-wild-greens",
@@ -9023,7 +9567,30 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 8.2,
+          "carbs_g": 0.2,
+          "protein_g": 7.5,
+          "sodium_mg": 307,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "poke",
+          "dandelion",
+          "violet leaves",
+          "sour dock",
+          "a little vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire2-leather-breeches-beans",
@@ -9104,7 +9671,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 17,
+          "fat_g": 1.9,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 223,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire3-mint-with-peas",
@@ -9162,7 +9746,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "young peas"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire3-fried-yarrow",
@@ -9230,7 +9833,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 2.0,
+          "carbs_g": 4.3,
+          "protein_g": 0.4,
+          "sodium_mg": 13,
+          "fiber_g": 0.1,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "yarrow leaves",
+          "for sprinkling sugar"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "hickory-wild-rice-stuffing-etw",
@@ -9322,7 +9945,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 187,
+          "fat_g": 18.0,
+          "carbs_g": 3.8,
+          "protein_g": 4.2,
+          "sodium_mg": 325,
+          "fiber_g": 2.0,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1.25 cups dry wild rice"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "grilled-cactus-pads-etw",
@@ -9385,7 +10026,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 2.3,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "cactus pads"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "cactus-monterey-etw",
@@ -9474,7 +10134,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 1.5,
+          "carbs_g": 1.5,
+          "protein_g": 1.4,
+          "sodium_mg": 417,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "banana-tree-stem-sauteed-etw",
@@ -9576,7 +10253,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 3.5,
+          "carbs_g": 1.6,
+          "protein_g": 0.4,
+          "sodium_mg": 33,
+          "fiber_g": 0.5,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1 lb banana tree stem core",
+          "1.5 tsp curry leaves"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "banana-flower-stir-fry-etw",
@@ -9691,7 +10388,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 4.9,
+          "carbs_g": 10.8,
+          "protein_g": 2.4,
+          "sodium_mg": 95,
+          "fiber_g": 2.9,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [
+          "curry leaves"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "lions-mane-sauteed-butter-etw",
@@ -9742,7 +10458,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "lion's mane mushroom",
+          "real butter"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "stir-fried-lotus-root-etw",
@@ -9834,7 +10570,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 90,
+          "fat_g": 4.7,
+          "carbs_g": 4.6,
+          "protein_g": 0.5,
+          "sodium_mg": 296,
+          "fiber_g": 0.1,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "2 lbs lotus root",
+          "1 small hot pepper (chipotle in adobo)"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "creamed-bulrush-etw",
@@ -9927,7 +10683,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 71,
+          "fat_g": 6.6,
+          "carbs_g": 2.2,
+          "protein_g": 1.1,
+          "sodium_mg": 245,
+          "fiber_g": 0.0,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "1-2 lbs tender bulrush shoots",
+          "3 tbsp bulrush flour",
+          "3 cups liquid (milk plus bulrush juice)"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "karela-bhaji-etw",
@@ -10085,7 +10862,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 6.8,
+          "carbs_g": 4.8,
+          "protein_g": 0.7,
+          "sodium_mg": 674,
+          "fiber_g": 0.9,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "1 lb Indian or Chinese bitter melon",
+          "1 tsp amchur (green mango) powder"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "steamed-beets-nasturtium-etw",
@@ -10165,7 +10962,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 214,
+          "fat_g": 24.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 388,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "6  nasturtium leaves"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "akebi-miso-itame-etw",
@@ -10250,7 +11065,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 46,
+          "fat_g": 4.7,
+          "carbs_g": 1.0,
+          "protein_g": 0.2,
+          "sodium_mg": 101,
+          "fiber_g": 0.1,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [
+          "1  akebi pod",
+          "2 tbsp ryorishu (cooking sake)",
+          "shiso leaf"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "spiced-tindora-curry-etw",
@@ -10372,7 +11208,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 34,
+          "fat_g": 3.7,
+          "carbs_g": 0.6,
+          "protein_g": 0.2,
+          "sodium_mg": 46,
+          "fiber_g": 0.3,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1.5 lbs tindora (ivy gourd)",
+          "pinch asafoetida (hing)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-fried-morels",
@@ -10442,7 +11297,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 70,
+          "fat_g": 7.7,
+          "carbs_g": 0.3,
+          "protein_g": 0.4,
+          "sodium_mg": 53,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-stuffed-morels",
@@ -10518,7 +11390,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 224,
+          "fat_g": 15.7,
+          "carbs_g": 11.6,
+          "protein_g": 10.9,
+          "sodium_mg": 336,
+          "fiber_g": 2.3,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from sides category"
+        ]
+      }
     },
     {
       "id": "foxfire-4-cottage-cheese",
@@ -10600,7 +11489,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 596,
+          "fat_g": 32.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 420,
+          "fiber_g": 0.0,
+          "sugar_g": 48.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-4-quick-cheese",
@@ -10704,7 +11609,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2573,
+          "fat_g": 144.8,
+          "carbs_g": 194.3,
+          "protein_g": 135.3,
+          "sodium_mg": 5357,
+          "fiber_g": 0.0,
+          "sugar_g": 194.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-4-block-cheese",
@@ -10809,7 +11730,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 5960,
+          "fat_g": 320.0,
+          "carbs_g": 480.0,
+          "protein_g": 320.0,
+          "sodium_mg": 4500,
+          "fiber_g": 0.0,
+          "sugar_g": 480.0
+        },
+        "missing_inputs": [
+          "1/8 tablet Hansen's Cheese Color Tablet"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     }
   ]
 }

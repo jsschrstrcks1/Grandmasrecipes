@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "breads",
     "total_recipes": 280,
-    "generated": "2026-01-23T14:31:32.088142Z",
+    "generated": "2026-01-29T11:11:47.630058Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -14634,7 +14634,7 @@
       }
     },
     {
-      "id": "irish-soda-bread",
+      "id": "irish-soda-bread-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Irish Soda Bread",
@@ -28208,6 +28208,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 227,
+          "fat_g": 11.3,
+          "carbs_g": 24.4,
+          "protein_g": 7.0,
+          "sodium_mg": 566,
+          "fiber_g": 1.8,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
       }
     },
     {
@@ -28305,6 +28321,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 253,
+          "fat_g": 19.6,
+          "carbs_g": 15.9,
+          "protein_g": 4.5,
+          "sodium_mg": 248,
+          "fiber_g": 1.6,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -28380,7 +28412,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "1 loaf (12-16 slices)"
+      "servings_yield": "1 loaf (12-16 slices)",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 69,
+          "fat_g": 1.9,
+          "carbs_g": 13.2,
+          "protein_g": 1.2,
+          "sodium_mg": 54,
+          "fiber_g": 0.4,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [
+          "3 cups barley flour"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "methuselahs-egg-bread-cwa",
@@ -28499,7 +28549,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "1 loaf (12-16 slices)"
+      "servings_yield": "1 loaf (12-16 slices)",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 266,
+          "fat_g": 6.2,
+          "carbs_g": 44.7,
+          "protein_g": 7.0,
+          "sodium_mg": 192,
+          "fiber_g": 1.5,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "1 pkg dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "sweet-anise-challah-cwa",
@@ -28607,7 +28675,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "1 loaf (12-16 slices)"
+      "servings_yield": "1 loaf (12-16 slices)",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 1.2,
+          "carbs_g": 27.7,
+          "protein_g": 4.3,
+          "sodium_mg": 118,
+          "fiber_g": 2.4,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "1 pkg yeast"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "not-for-prophet-bread-cwa",
@@ -28725,7 +28811,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "1 loaf (12-16 slices)"
+      "servings_yield": "1 loaf (12-16 slices)",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 234,
+          "fat_g": 8.5,
+          "carbs_g": 33.1,
+          "protein_g": 6.0,
+          "sodium_mg": 264,
+          "fiber_g": 1.1,
+          "sugar_g": 4.4
+        },
+        "missing_inputs": [
+          "1 pkg dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "raisin-cain-cwa",
@@ -28833,7 +28937,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "1 loaf (12-16 slices)"
+      "servings_yield": "1 loaf (12-16 slices)",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 191,
+          "fat_g": 7.0,
+          "carbs_g": 29.7,
+          "protein_g": 3.9,
+          "sodium_mg": 215,
+          "fiber_g": 1.3,
+          "sugar_g": 11.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "cheesed-popovers-cwa",
@@ -28912,10 +29032,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "1 loaf (12-16 slices)"
+      "servings_yield": "1 loaf (12-16 slices)",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 82,
+          "fat_g": 4.2,
+          "carbs_g": 7.8,
+          "protein_g": 3.2,
+          "sodium_mg": 94,
+          "fiber_g": 0.2,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
-      "id": "banana-nut-muffins-gahb",
+      "id": "banana-nut-muffins-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Banana-Nut Muffins",
@@ -29039,10 +29175,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 213,
+          "fat_g": 8.9,
+          "carbs_g": 30.0,
+          "protein_g": 3.8,
+          "sodium_mg": 332,
+          "fiber_g": 1.2,
+          "sugar_g": 11.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
-      "id": "healthy-apple-walnut-muffins-gahb",
+      "id": "healthy-apple-walnut-muffins-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Healthy Apple-Walnut Muffins",
@@ -29182,10 +29334,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 181,
+          "fat_g": 7.6,
+          "carbs_g": 23.8,
+          "protein_g": 5.4,
+          "sodium_mg": 182,
+          "fiber_g": 2.3,
+          "sugar_g": 4.9
+        },
+        "missing_inputs": [
+          "1 cup plus 2 tbsp frozen apple juice concentrate"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
-      "id": "buttermilk-biscuits-gahb",
+      "id": "buttermilk-biscuits-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Buttermilk Biscuits",
@@ -29272,10 +29442,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 113,
+          "fat_g": 3.6,
+          "carbs_g": 17.0,
+          "protein_g": 2.8,
+          "sodium_mg": 178,
+          "fiber_g": 0.6,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
-      "id": "butter-crescents-gahb",
+      "id": "butter-crescents-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Butter Crescents",
@@ -29393,6 +29579,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2742,
+          "fat_g": 111.9,
+          "carbs_g": 368.5,
+          "protein_g": 61.2,
+          "sodium_mg": 3176,
+          "fiber_g": 11.0,
+          "sugar_g": 60.8
+        },
+        "missing_inputs": [
+          "1 package active dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -29525,6 +29729,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 302,
+          "fat_g": 11.0,
+          "carbs_g": 41.3,
+          "protein_g": 9.1,
+          "sodium_mg": 581,
+          "fiber_g": 1.8,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "1 pkg dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -29631,7 +29853,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "Makes 12 muffins"
+      "servings_yield": "Makes 12 muffins",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 9.0,
+          "carbs_g": 40.3,
+          "protein_g": 4.6,
+          "sodium_mg": 162,
+          "fiber_g": 1.2,
+          "sugar_g": 19.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "broccoli-cheddar-rolls-fbc-jasmine",
@@ -29739,6 +29977,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 7.6,
+          "carbs_g": 4.6,
+          "protein_g": 5.0,
+          "sodium_mg": 124,
+          "fiber_g": 1.0,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [
+          "1 lb loaf frozen bread dough"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -29878,7 +30134,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5723.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2769,
+          "fat_g": 91.8,
+          "carbs_g": 375.3,
+          "protein_g": 99.4,
+          "sodium_mg": 4555,
+          "fiber_g": 13.1,
+          "sugar_g": 29.0
+        },
+        "missing_inputs": [
+          "2 pkg dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "lemony-poppy-seed-bread-fbc-jasmine",
@@ -29977,7 +30251,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5726.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1361,
+          "fat_g": 132.5,
+          "carbs_g": 28.0,
+          "protein_g": 26.0,
+          "sodium_mg": 286,
+          "fiber_g": 0.5,
+          "sugar_g": 22.7
+        },
+        "missing_inputs": [
+          "1 pkg Pillsbury Plus Lemon Cake Mix",
+          "2 tbsp poppy seed"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-corn-pones",
@@ -30057,7 +30350,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 125,
+          "fat_g": 2.6,
+          "carbs_g": 23.6,
+          "protein_g": 2.5,
+          "sodium_mg": 173,
+          "fiber_g": 2.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "enough for stiff batter milk"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-corn-cakes",
@@ -30156,7 +30468,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 143,
+          "fat_g": 3.9,
+          "carbs_g": 23.8,
+          "protein_g": 4.0,
+          "sodium_mg": 352,
+          "fiber_g": 2.2,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1 kitchen spoon flour",
+          "enough for thin batter milk"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-hush-puppies",
@@ -30267,7 +30599,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 2.7,
+          "carbs_g": 24.9,
+          "protein_g": 3.8,
+          "sodium_mg": 44,
+          "fiber_g": 1.8,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "enough for right consistency buttermilk"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-light-bread",
@@ -30365,7 +30716,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 0.0,
+          "carbs_g": 7.2,
+          "protein_g": 0.7,
+          "sodium_mg": 390,
+          "fiber_g": 0.7,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "1 cake yeast",
+          "enough for firm dough flour"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-cracklin-bread",
@@ -30460,7 +30831,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 82,
+          "fat_g": 0.8,
+          "carbs_g": 16.7,
+          "protein_g": 2.3,
+          "sodium_mg": 419,
+          "fiber_g": 1.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1/2 cup cracklin's"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-ash-cakes",
@@ -30524,7 +30914,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "corn bread dough"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-bran-bread",
@@ -30618,7 +31027,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 344,
+          "fat_g": 2.0,
+          "carbs_g": 78.6,
+          "protein_g": 10.4,
+          "sodium_mg": 397,
+          "fiber_g": 9.9,
+          "sugar_g": 26.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire-rye-bread",
@@ -30725,7 +31151,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FoxfireVol1.txt.html"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 76,
+          "fat_g": 3.4,
+          "carbs_g": 9.9,
+          "protein_g": 1.3,
+          "sodium_mg": 206,
+          "fiber_g": 0.5,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 cup wheat flour",
+          "enough for firm dough buttermilk"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire3-persimmon-bread",
@@ -30811,7 +31257,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 0.5,
+          "carbs_g": 16.2,
+          "protein_g": 2.2,
+          "sodium_mg": 39,
+          "fiber_g": 1.0,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "1 cup persimmons",
+          "1 spoonful baking soda"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire3-persimmon-nut-bread",
@@ -30913,7 +31379,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2318,
+          "fat_g": 118.4,
+          "carbs_g": 276.4,
+          "protein_g": 43.8,
+          "sodium_mg": 1891,
+          "fiber_g": 9.9,
+          "sugar_g": 102.8
+        },
+        "missing_inputs": [
+          "1 cup mashed persimmons"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire3-pawpaw-bread",
@@ -30968,7 +31452,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "pawpaw pulp",
+          "nut bread ingredients"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "foxfire2-ada-kelly-cornbread",
@@ -31063,7 +31567,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 309,
+          "fat_g": 14.1,
+          "carbs_g": 43.8,
+          "protein_g": 3.3,
+          "sodium_mg": 14,
+          "fiber_g": 3.0,
+          "sugar_g": 12.8
+        },
+        "missing_inputs": [
+          "additional for batter corn meal"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "dandelion-blossom-bread-etw",
@@ -31153,7 +31676,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1946,
+          "fat_g": 75.4,
+          "carbs_g": 277.8,
+          "protein_g": 44.0,
+          "sodium_mg": 1665,
+          "fiber_g": 6.8,
+          "sugar_g": 87.0
+        },
+        "missing_inputs": [
+          "1 cup dandelion blossoms"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "cattail-pollen-biscuits-etw",
@@ -31233,7 +31774,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 5.0,
+          "carbs_g": 14.8,
+          "protein_g": 2.4,
+          "sodium_mg": 234,
+          "fiber_g": 0.5,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1/4 cup cattail pollen"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "chickweed-bread-etw",
@@ -31332,7 +31891,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 384,
+          "fat_g": 28.1,
+          "carbs_g": 37.8,
+          "protein_g": 0.5,
+          "sodium_mg": 2328,
+          "fiber_g": 0.8,
+          "sugar_g": 35.8
+        },
+        "missing_inputs": [
+          "2 cups chickweed leaves and stems",
+          "3 cups wheat flour",
+          "1 packet yeast"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "juneberry-muffins-etw",
@@ -31417,7 +31996,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 5.6,
+          "carbs_g": 21.2,
+          "protein_g": 3.3,
+          "sodium_mg": 97,
+          "fiber_g": 0.6,
+          "sugar_g": 5.2
+        },
+        "missing_inputs": [
+          "1.5 cups juneberries"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "redbud-blossom-muffins-etw",
@@ -31555,7 +32152,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 1.5,
+          "carbs_g": 22.3,
+          "protein_g": 3.1,
+          "sodium_mg": 141,
+          "fiber_g": 0.7,
+          "sugar_g": 9.8
+        },
+        "missing_inputs": [
+          "2 cups redbud blossoms",
+          "2 tbsp melted butter or oil"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "japanese-knotweed-bread-etw",
@@ -31659,7 +32275,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2317,
+          "fat_g": 89.8,
+          "carbs_g": 331.9,
+          "protein_g": 56.0,
+          "sodium_mg": 2603,
+          "fiber_g": 19.9,
+          "sugar_g": 121.2
+        },
+        "missing_inputs": [
+          "1 cup sweetened Japanese knotweed pur\u00e9e"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "acorn-bread-etw",
@@ -31736,7 +32370,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 140,
+          "fat_g": 4.5,
+          "carbs_g": 22.1,
+          "protein_g": 3.0,
+          "sodium_mg": 44,
+          "fiber_g": 0.6,
+          "sugar_g": 6.1
+        },
+        "missing_inputs": [
+          "2 cups acorn flour"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "acorn-muffins-etw",
@@ -31824,7 +32477,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 7.7,
+          "carbs_g": 10.4,
+          "protein_g": 3.2,
+          "sodium_mg": 75,
+          "fiber_g": 1.1,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "3/4 cup wheat flour"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "bulrush-pancakes-etw",
@@ -31906,7 +32577,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 42,
+          "fat_g": 3.0,
+          "carbs_g": 4.0,
+          "protein_g": 0.3,
+          "sodium_mg": 20,
+          "fiber_g": 1.5,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "bulrush roots",
+          "porcupine or bacon"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "bulrush-bread-etw",
@@ -31980,7 +32670,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 2.9,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 20,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "bulrush roots",
+          "1  flat rock"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-molasses-sweet-bread",
@@ -32081,7 +32790,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-baking"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2262,
+          "fat_g": 32.6,
+          "carbs_g": 454.4,
+          "protein_g": 40.2,
+          "sodium_mg": 1772,
+          "fiber_g": 6.8,
+          "sugar_g": 196.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-cattail-pancakes",
@@ -32174,7 +32899,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 5.0,
+          "carbs_g": 1.6,
+          "protein_g": 2.5,
+          "sodium_mg": 344,
+          "fiber_g": 0.0,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "2 cups cattail roots"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-cattail-flapjacks",
@@ -32285,7 +33028,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 248,
+          "fat_g": 7.7,
+          "carbs_g": 36.4,
+          "protein_g": 7.7,
+          "sodium_mg": 518,
+          "fiber_g": 1.1,
+          "sugar_g": 4.3
+        },
+        "missing_inputs": [
+          "2 cups cattail pollen"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-elderflower-flapjacks",
@@ -32374,7 +33135,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 775,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 dozen elderflower clusters",
+          "2 cups pancake batter",
+          "for sprinkling sugar"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "cranberry-muffins-etw",
@@ -32489,7 +33270,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 6.2,
+          "carbs_g": 15.5,
+          "protein_g": 2.1,
+          "sodium_mg": 176,
+          "fiber_g": 1.3,
+          "sugar_g": 10.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "poplar-bark-bread-etw",
@@ -32562,7 +33359,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 7,
+          "fat_g": 0.0,
+          "carbs_g": 1.5,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "poplar inner bark (cambium)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-cattail-pollen-flapjacks",
@@ -32647,7 +33462,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 77,
+          "fat_g": 4.3,
+          "carbs_g": 7.2,
+          "protein_g": 2.3,
+          "sodium_mg": 128,
+          "fiber_g": 0.2,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1/2 cup cattail pollen"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings",
+          "Serving size inferred from breads category"
+        ]
+      }
     },
     {
       "id": "bear-fat-biscuits-hf",
@@ -32750,7 +33584,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 176,
+          "fat_g": 7.3,
+          "carbs_g": 23.7,
+          "protein_g": 3.6,
+          "sodium_mg": 242,
+          "fiber_g": 0.8,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     }
   ]
 }

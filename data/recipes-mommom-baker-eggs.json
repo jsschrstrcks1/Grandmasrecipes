@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "eggs",
     "total_recipes": 44,
-    "generated": "2026-01-23T14:31:32.191455Z",
+    "generated": "2026-01-29T11:11:47.721420Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -236,7 +236,7 @@
       }
     },
     {
-      "id": "huevos-rancheros",
+      "id": "huevos-rancheros-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Huevos Rancheros",
@@ -1271,7 +1271,7 @@
       }
     },
     {
-      "id": "cheese-souffle",
+      "id": "cheese-souffle-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Cheese Souffl\u00e9",

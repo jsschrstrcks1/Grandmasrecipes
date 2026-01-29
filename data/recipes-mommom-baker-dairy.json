@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "dairy",
     "total_recipes": 3,
-    "generated": "2026-01-23T14:31:32.147201Z",
+    "generated": "2026-01-29T11:11:47.679978Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -111,7 +111,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 5960,
+          "fat_g": 320.0,
+          "carbs_g": 480.0,
+          "protein_g": 320.0,
+          "sodium_mg": 4500,
+          "fiber_g": 0.0,
+          "sugar_g": 480.0
+        },
+        "missing_inputs": [
+          "1/8 tablet Hansen's Cheese Color Tablet"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire4-quick-fried-cheese",
@@ -217,7 +235,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4973,
+          "fat_g": 273.2,
+          "carbs_g": 388.1,
+          "protein_g": 264.6,
+          "sodium_mg": 7077,
+          "fiber_g": 0.0,
+          "sugar_g": 388.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire4-cottage-cheese",
@@ -304,7 +338,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2412,
+          "fat_g": 130.8,
+          "carbs_g": 192.5,
+          "protein_g": 128.3,
+          "sodium_mg": 1987,
+          "fiber_g": 0.0,
+          "sugar_g": 192.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     }
   ]
 }

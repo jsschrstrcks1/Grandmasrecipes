@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "soups",
     "total_recipes": 141,
-    "generated": "2026-01-23T14:31:31.898931Z",
+    "generated": "2026-01-29T11:11:47.460149Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -12461,49 +12461,85 @@
       "id": "split-peasoup-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Split Peasoup",
+      "title": "Split Pea Soup",
       "category": "soups",
       "attribution": "",
       "source_note": "The Metropolitan Life Cook Book 1922 (PDF cookbook)",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
       "prep_time": "",
-      "cook_time": "",
+      "cook_time": "3-4 hours",
       "total_time": "",
       "ingredients": [
         {
-          "item": "dried spEtpeas 4-inch cube saltfatpork |teaspoon pepper",
+          "item": "dried split peas",
           "quantity": "1",
           "unit": "cup",
           "prep_note": ""
         },
         {
-          "item": "coldwater 1 hambone IJteaspoons salt",
+          "item": "salt pork",
+          "quantity": "4",
+          "unit": "inch cube",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cold water",
           "quantity": "3",
           "unit": "quarts",
           "prep_note": ""
+        },
+        {
+          "item": "ham bone",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for thickening"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Pickoverpeasandsoak overnight; drain; addcoldwater, pork,ham"
+          "text": "Pick over peas and soak overnight; drain."
         },
         {
           "step": 2,
-          "text": "boneandonion. Simmer 3 or 4 hours, oruntilpeas aresoft. Rubthrough"
+          "text": "Add cold water, pork, ham bone and onion. Simmer 3 or 4 hours, or until peas are soft."
         },
         {
           "step": 3,
-          "text": "asieve. Addtheflourmixed with coldwater tothesoup. Boil 5 minutes,"
+          "text": "Rub through a sieve. Add the flour mixed with cold water to the soup."
         },
         {
           "step": 4,
-          "text": "stirring constantly. Add seasonings. Cubed potatoes orboiled parsnips"
+          "text": "Boil 5 minutes, stirring constantly. Add seasonings."
         },
         {
           "step": 5,
-          "text": "maybeadded tothesoup; tomato juiceandgreen peasmaybeadded to"
+          "text": "Cubed potatoes or boiled parsnips may be added to the soup; tomato juice and green peas may also be added."
         }
       ],
       "temperature": "",
@@ -15039,7 +15075,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 327,
+          "fat_g": 23.9,
+          "carbs_g": 12.7,
+          "protein_g": 13.3,
+          "sodium_mg": 1483,
+          "fiber_g": 1.2,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "4 sprigs fresh thyme"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "cf-cauliflower-blue-cheese-soup",
@@ -15180,7 +15234,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 14.8,
+          "carbs_g": 15.8,
+          "protein_g": 7.6,
+          "sodium_mg": 509,
+          "fiber_g": 3.2,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [
+          "as desired fresh chives for garnish"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "gr-gazpacho",
@@ -15273,7 +15345,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1631,
+          "fat_g": 33.0,
+          "carbs_g": 287.9,
+          "protein_g": 57.7,
+          "sodium_mg": 2766,
+          "fiber_g": 13.3,
+          "sugar_g": 30.6
+        },
+        "missing_inputs": [
+          "1 kg ripe plum tomatoes, chopped"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

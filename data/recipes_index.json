@@ -178410,12 +178410,12 @@
       "all": {
         "sharded_by_category": true,
         "total_count": 5722,
-        "total_size_kb": 16168,
+        "total_size_kb": 17123,
         "categories": {
           "appetizers": {
             "file": "recipes-all-appetizers.json",
             "count": 107,
-            "size_kb": 338
+            "size_kb": 350
           },
           "basics": {
             "file": "recipes-all-basics.json",
@@ -178425,59 +178425,59 @@
           "beverages": {
             "file": "recipes-all-beverages.json",
             "count": 51,
-            "size_kb": 126
+            "size_kb": 128
           },
           "breads": {
             "file": "recipes-all-breads.json",
             "count": 285,
-            "size_kb": 885
+            "size_kb": 894
           },
           "breakfast": {
             "file": "recipes-all-breakfast.json",
-            "count": 344,
-            "size_kb": 1028
+            "count": 345,
+            "size_kb": 1034
           },
           "cheese": {
             "file": "recipes-all-cheese.json",
             "count": 2013,
-            "size_kb": 5000
+            "size_kb": 5822
           },
           "desserts": {
             "file": "recipes-all-desserts.json",
-            "count": 665,
-            "size_kb": 1966
+            "count": 664,
+            "size_kb": 2006
           },
           "mains": {
             "file": "recipes-all-mains.json",
             "count": 1601,
-            "size_kb": 5043
+            "size_kb": 5072
           },
           "salads": {
             "file": "recipes-all-salads.json",
             "count": 143,
-            "size_kb": 398
+            "size_kb": 402
           },
           "sides": {
             "file": "recipes-all-sides.json",
             "count": 362,
-            "size_kb": 938
+            "size_kb": 965
           },
           "snacks": {
             "file": "recipes-all-snacks.json",
             "count": 7,
-            "size_kb": 22
+            "size_kb": 23
           },
           "soups": {
             "file": "recipes-all-soups.json",
             "count": 141,
-            "size_kb": 414
+            "size_kb": 416
           }
         }
       },
       "grandma-baker": {
         "file": "recipes-grandma-baker.json",
-        "count": 933,
-        "size_kb": 3429,
+        "count": 937,
+        "size_kb": 3582,
         "sharded_by_category": false
       },
       "granny-hudson": {
@@ -178489,32 +178489,32 @@
       "mommom-baker": {
         "sharded_by_category": true,
         "total_count": 2553,
-        "total_size_kb": 7109,
+        "total_size_kb": 7481,
         "categories": {
           "appetizers": {
             "file": "recipes-mommom-baker-appetizers.json",
             "count": 120,
-            "size_kb": 334
+            "size_kb": 354
           },
           "basics": {
             "file": "recipes-mommom-baker-basics.json",
             "count": 7,
-            "size_kb": 18
+            "size_kb": 20
           },
           "beverages": {
             "file": "recipes-mommom-baker-beverages.json",
             "count": 122,
-            "size_kb": 283
+            "size_kb": 312
           },
           "breads": {
             "file": "recipes-mommom-baker-breads.json",
             "count": 280,
-            "size_kb": 955
+            "size_kb": 975
           },
           "breakfast": {
             "file": "recipes-mommom-baker-breakfast.json",
             "count": 49,
-            "size_kb": 127
+            "size_kb": 143
           },
           "cakes": {
             "file": "recipes-mommom-baker-cakes.json",
@@ -178534,7 +178534,7 @@
           "charcuterie": {
             "file": "recipes-mommom-baker-charcuterie.json",
             "count": 1,
-            "size_kb": 3
+            "size_kb": 4
           },
           "condiments": {
             "file": "recipes-mommom-baker-condiments.json",
@@ -178544,17 +178544,17 @@
           "cookies": {
             "file": "recipes-mommom-baker-cookies.json",
             "count": 61,
-            "size_kb": 195
+            "size_kb": 196
           },
           "dairy": {
             "file": "recipes-mommom-baker-dairy.json",
             "count": 3,
-            "size_kb": 10
+            "size_kb": 11
           },
           "desserts": {
             "file": "recipes-mommom-baker-desserts.json",
             "count": 454,
-            "size_kb": 1302
+            "size_kb": 1377
           },
           "eggs": {
             "file": "recipes-mommom-baker-eggs.json",
@@ -178584,17 +178584,17 @@
           "main dishes": {
             "file": "recipes-mommom-baker-main dishes.json",
             "count": 51,
-            "size_kb": 163
+            "size_kb": 185
           },
           "main-dishes": {
             "file": "recipes-mommom-baker-main-dishes.json",
             "count": 214,
-            "size_kb": 663
+            "size_kb": 708
           },
           "mains": {
             "file": "recipes-mommom-baker-mains.json",
             "count": 178,
-            "size_kb": 566
+            "size_kb": 578
           },
           "meat": {
             "file": "recipes-mommom-baker-meat.json",
@@ -178609,32 +178609,32 @@
           "preserves": {
             "file": "recipes-mommom-baker-preserves.json",
             "count": 86,
-            "size_kb": 172
+            "size_kb": 210
           },
           "reference": {
             "file": "recipes-mommom-baker-reference.json",
             "count": 57,
-            "size_kb": 128
+            "size_kb": 140
           },
           "remedies": {
             "file": "recipes-mommom-baker-remedies.json",
             "count": 1,
-            "size_kb": 2
+            "size_kb": 3
           },
           "salads": {
             "file": "recipes-mommom-baker-salads.json",
             "count": 75,
-            "size_kb": 218
+            "size_kb": 227
           },
           "sandwiches": {
             "file": "recipes-mommom-baker-sandwiches.json",
             "count": 5,
-            "size_kb": 13
+            "size_kb": 14
           },
           "sauces": {
             "file": "recipes-mommom-baker-sauces.json",
-            "count": 46,
-            "size_kb": 105
+            "count": 45,
+            "size_kb": 110
           },
           "shellfish": {
             "file": "recipes-mommom-baker-shellfish.json",
@@ -178644,27 +178644,27 @@
           "side dishes": {
             "file": "recipes-mommom-baker-side dishes.json",
             "count": 5,
-            "size_kb": 12
+            "size_kb": 14
           },
           "side-dishes": {
             "file": "recipes-mommom-baker-side-dishes.json",
             "count": 35,
-            "size_kb": 82
+            "size_kb": 97
           },
           "sides": {
             "file": "recipes-mommom-baker-sides.json",
             "count": 113,
-            "size_kb": 281
+            "size_kb": 304
           },
           "snacks": {
             "file": "recipes-mommom-baker-snacks.json",
             "count": 65,
-            "size_kb": 184
+            "size_kb": 187
           },
           "soups": {
             "file": "recipes-mommom-baker-soups.json",
             "count": 61,
-            "size_kb": 181
+            "size_kb": 192
           },
           "techniques": {
             "file": "recipes-mommom-baker-techniques.json",
@@ -178673,18 +178673,18 @@
           },
           "tips": {
             "file": "recipes-mommom-baker-tips.json",
-            "count": 98,
-            "size_kb": 96
+            "count": 99,
+            "size_kb": 98
           },
           "vegetables": {
             "file": "recipes-mommom-baker-vegetables.json",
             "count": 82,
-            "size_kb": 201
+            "size_kb": 206
           }
         }
       }
     },
     "sharding_enabled": true,
-    "last_shard_build": "2026-01-23T14:31:32.380747Z"
+    "last_shard_build": "2026-01-29T11:11:47.862323Z"
   }
 }

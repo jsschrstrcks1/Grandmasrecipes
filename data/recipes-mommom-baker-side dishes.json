@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "side dishes",
     "total_recipes": 5,
-    "generated": "2026-01-23T14:31:32.293459Z",
+    "generated": "2026-01-29T11:11:47.799368Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -97,7 +97,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 127,
+          "fat_g": 10.7,
+          "carbs_g": 0.5,
+          "protein_g": 7.0,
+          "sodium_mg": 239,
+          "fiber_g": 0.0,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1 lb young milkweed shoots"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-milkweed-greens",
@@ -175,7 +193,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 5.8,
+          "carbs_g": 2.5,
+          "protein_g": 0.3,
+          "sodium_mg": 115,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1 lb very young milkweed stalks"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-chicory-with-sauce",
@@ -270,7 +306,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 117,
+          "fat_g": 4.7,
+          "carbs_g": 16.0,
+          "protein_g": 3.7,
+          "sodium_mg": 364,
+          "fiber_g": 0.1,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [
+          "1 lb chicory greens"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-panned-chicory",
@@ -356,7 +410,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 351,
+          "fat_g": 37.0,
+          "carbs_g": 4.3,
+          "protein_g": 2.0,
+          "sodium_mg": 182,
+          "fiber_g": 0.1,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "1 lb chicory greens"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-cochan-greens",
@@ -453,7 +525,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 81,
+          "fat_g": 7.0,
+          "carbs_g": 0.3,
+          "protein_g": 4.0,
+          "sodium_mg": 177,
+          "fiber_g": 0.0,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1 lb young cochan (tall coneflower) leaves",
+          "2 tbsp grease"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     }
   ]
 }

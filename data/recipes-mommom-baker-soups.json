@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "soups",
     "total_recipes": 61,
-    "generated": "2026-01-23T14:31:32.316561Z",
+    "generated": "2026-01-29T11:11:47.818501Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -4184,6 +4184,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 161,
+          "fat_g": 8.0,
+          "carbs_g": 15.8,
+          "protein_g": 6.6,
+          "sodium_mg": 898,
+          "fiber_g": 1.7,
+          "sugar_g": 6.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -4287,6 +4303,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 119,
+          "fat_g": 5.8,
+          "carbs_g": 16.7,
+          "protein_g": 2.9,
+          "sodium_mg": 730,
+          "fiber_g": 4.1,
+          "sugar_g": 9.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -4365,7 +4397,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 35,
+          "fat_g": 2.0,
+          "carbs_g": 3.8,
+          "protein_g": 0.5,
+          "sodium_mg": 15,
+          "fiber_g": 0.4,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "young dock leaves"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "foxfire2-sorrel-soup",
@@ -4467,7 +4518,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 236,
+          "fat_g": 24.3,
+          "carbs_g": 3.2,
+          "protein_g": 3.1,
+          "sodium_mg": 550,
+          "fiber_g": 0.3,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "1 lb sorrel leaves"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "foxfire2-nettle-soup",
@@ -4549,7 +4619,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 2.8,
+          "carbs_g": 1.1,
+          "protein_g": 0.7,
+          "sodium_mg": 14,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "nettles"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "foxfire2-milkweed-soup",
@@ -4644,7 +4733,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 0.1,
+          "carbs_g": 6.5,
+          "protein_g": 0.6,
+          "sodium_mg": 61,
+          "fiber_g": 0.5,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1 lb young milkweed shoots or pods",
+          "1  hambone or bacon drippings"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-ramp-soup",
@@ -4731,7 +4839,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 592,
+          "fat_g": 14.4,
+          "carbs_g": 89.2,
+          "protein_g": 27.4,
+          "sodium_mg": 137,
+          "fiber_g": 16.8,
+          "sugar_g": 38.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-mustard-ramp-soup",
@@ -4823,7 +4947,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 231,
+          "fat_g": 13.9,
+          "carbs_g": 18.8,
+          "protein_g": 9.0,
+          "sodium_mg": 235,
+          "fiber_g": 0.9,
+          "sugar_g": 13.8
+        },
+        "missing_inputs": [
+          "2 cups mustard leaves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cream-of-dandelion-soup-etw",
@@ -4922,7 +5064,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 305,
+          "fat_g": 31.3,
+          "carbs_g": 5.8,
+          "protein_g": 2.2,
+          "sodium_mg": 820,
+          "fiber_g": 0.6,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "4 cups dandelion leaves",
+          "2 cups dandelion flower petals",
+          "2 cups dandelion buds"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "garlic-mustard-vichyssoise-etw",
@@ -5042,7 +5204,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 3840,
+          "fat_g": 365.7,
+          "carbs_g": 21.2,
+          "protein_g": 115.6,
+          "sodium_mg": 4542,
+          "fiber_g": 1.5,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "75 g three cornered garlic stems",
+          "75 g garlic mustard",
+          "75 ml milk for foam"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "hungarian-chestnut-soup-etw",
@@ -5160,7 +5342,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 677,
+          "fat_g": 56.1,
+          "carbs_g": 29.6,
+          "protein_g": 21.3,
+          "sodium_mg": 1048,
+          "fiber_g": 10.2,
+          "sugar_g": 13.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "hawthorn-berry-soup-etw",
@@ -5241,7 +5439,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2,
+          "fat_g": 0.0,
+          "carbs_g": 0.7,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.5,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 lb stalkless hawthorn berries"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "bulrush-broth-etw",
@@ -5342,7 +5559,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 4.2,
+          "carbs_g": 14.8,
+          "protein_g": 2.3,
+          "sodium_mg": 813,
+          "fiber_g": 1.5,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [
+          "1.5 lbs oxtail",
+          "2 tbsp bulrush flour",
+          "1/2 cup bulrush shoots",
+          "3  bulrush roots"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "chaya-soup-etw",
@@ -5441,7 +5680,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 2.8,
+          "carbs_g": 6.0,
+          "protein_g": 3.2,
+          "sodium_mg": 204,
+          "fiber_g": 0.4,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [
+          "20  tender chaya leaves",
+          "2 tbsp unsweetened cream"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "sea-lettuce-soup-etw",
@@ -5523,7 +5782,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 39,
+          "fat_g": 2.4,
+          "carbs_g": 1.1,
+          "protein_g": 3.4,
+          "sodium_mg": 622,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "2  ulva (sea lettuce) sheets"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "garlic-mustard-vichyssoisse-etw",
@@ -5656,7 +5934,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1976,
+          "fat_g": 216.3,
+          "carbs_g": 12.8,
+          "protein_g": 3.7,
+          "sodium_mg": 1550,
+          "fiber_g": 1.5,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [
+          "75 g three-cornered garlic stems",
+          "75 g garlic mustard (jack-by-the-hedge)",
+          "75 g goat's cheese"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "bulrush-stew-etw",
@@ -5719,7 +6017,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 11,
+          "fat_g": 0.0,
+          "carbs_g": 2.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "bulrush roots",
+          "porcupine or small game"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "sea-blite-chicken-soup-etw",
@@ -5837,7 +6154,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 3.5,
+          "carbs_g": 3.5,
+          "protein_g": 12.2,
+          "sodium_mg": 99,
+          "fiber_g": 1.2,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [
+          "1 cup sea blite leaves"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "coquina-beach-chowder-etw",
@@ -5921,7 +6256,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 231,
+          "fat_g": 24.9,
+          "carbs_g": 1.8,
+          "protein_g": 1.3,
+          "sodium_mg": 42,
+          "fiber_g": 0.0,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "coquina clams",
+          "mole crabs",
+          "sea purslane"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-ramp-soup",
@@ -6004,7 +6359,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 188,
+          "fat_g": 11.6,
+          "carbs_g": 18.6,
+          "protein_g": 3.8,
+          "sodium_mg": 613,
+          "fiber_g": 2.3,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "foxfire-turtle-stew",
@@ -6092,7 +6464,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 0.6,
+          "carbs_g": 23.9,
+          "protein_g": 4.9,
+          "sodium_mg": 604,
+          "fiber_g": 3.1,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [
+          "2 lbs turtle meat"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "foxfire-hogs-head-stew",
@@ -6175,7 +6566,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 125,
+          "fat_g": 0.2,
+          "carbs_g": 28.3,
+          "protein_g": 3.1,
+          "sodium_mg": 1172,
+          "fiber_g": 3.5,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "1/2  hog's head"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from soups category"
+        ]
+      }
     },
     {
       "id": "creole-turtle-soup-hf",
@@ -6343,7 +6753,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 233,
+          "fat_g": 13.5,
+          "carbs_g": 20.3,
+          "protein_g": 7.9,
+          "sodium_mg": 1718,
+          "fiber_g": 3.7,
+          "sugar_g": 7.0
+        },
+        "missing_inputs": [
+          "2 lb turtle meat"
+        ],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     },
     {
       "id": "grouse-wild-rice-soup-hf",
@@ -6474,7 +6902,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 160,
+          "fat_g": 10.5,
+          "carbs_g": 12.8,
+          "protein_g": 6.0,
+          "sodium_mg": 51,
+          "fiber_g": 4.1,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "2-3  grouse carcasses",
+          "3 quarts game or chicken broth",
+          "2 cups grouse meat"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "turkey-leg-stew-hf",
@@ -6615,7 +7063,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 42,
+          "fat_g": 0.7,
+          "carbs_g": 7.2,
+          "protein_g": 2.9,
+          "sodium_mg": 988,
+          "fiber_g": 1.5,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "2  turkey legs",
+          "1 cup dried chicos or posole corn"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "turkey-gumbo-hf",
@@ -6791,7 +7258,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 450,
+          "fat_g": 31.5,
+          "carbs_g": 22.4,
+          "protein_g": 21.2,
+          "sodium_mg": 1186,
+          "fiber_g": 2.8,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [
+          "3 lb turkey legs and thighs",
+          "1 tbsp fil\u00e9 powder"
+        ],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     }
   ]
 }

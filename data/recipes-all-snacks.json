@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "snacks",
     "total_recipes": 7,
-    "generated": "2026-01-23T14:31:31.897455Z",
+    "generated": "2026-01-29T11:11:47.459263Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -451,7 +451,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4768,
+          "fat_g": 256.0,
+          "carbs_g": 384.0,
+          "protein_g": 256.0,
+          "sodium_mg": 10336,
+          "fiber_g": 0.0,
+          "sugar_g": 384.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "traditional-cheese-curds",
@@ -546,7 +562,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4768,
+          "fat_g": 256.0,
+          "carbs_g": 384.0,
+          "protein_g": 256.0,
+          "sodium_mg": 10336,
+          "fiber_g": 0.0,
+          "sugar_g": 384.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "puppy-chow-muddy-buddies",
@@ -654,7 +686,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 459,
+          "fat_g": 18.9,
+          "carbs_g": 71.3,
+          "protein_g": 6.4,
+          "sodium_mg": 294,
+          "fiber_g": 2.8,
+          "sugar_g": 46.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     },
     {
       "id": "cf-herb-flatbread-crackers",
@@ -774,7 +822,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 235,
+          "fat_g": 7.5,
+          "carbs_g": 36.8,
+          "protein_g": 4.9,
+          "sodium_mg": 582,
+          "fiber_g": 1.3,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [
+          "2 tsp dried herbs (thyme, rosemary, chive, or parsley)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "side-dishes",
     "total_recipes": 35,
-    "generated": "2026-01-23T14:31:32.294319Z",
+    "generated": "2026-01-29T11:11:47.799913Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -106,6 +106,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 14.7,
+          "carbs_g": 5.6,
+          "protein_g": 14.8,
+          "sodium_mg": 1618,
+          "fiber_g": 1.0,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "4 cans (32 oz each) pork and beans"
+        ],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
       }
     },
     {
@@ -208,6 +226,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.4,
+          "carbs_g": 14.8,
+          "protein_g": 3.7,
+          "sodium_mg": 452,
+          "fiber_g": 1.7,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -321,6 +355,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 249,
+          "fat_g": 18.8,
+          "carbs_g": 12.4,
+          "protein_g": 10.4,
+          "sodium_mg": 459,
+          "fiber_g": 3.8,
+          "sugar_g": 4.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -424,6 +474,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 207,
+          "fat_g": 12.5,
+          "carbs_g": 15.4,
+          "protein_g": 8.1,
+          "sodium_mg": 725,
+          "fiber_g": 1.1,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [
+          "1 can (12 oz) creamed-style corn"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -512,6 +580,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 324,
+          "fat_g": 23.8,
+          "carbs_g": 27.3,
+          "protein_g": 5.4,
+          "sodium_mg": 186,
+          "fiber_g": 3.7,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -617,6 +701,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 7.4,
+          "carbs_g": 10.8,
+          "protein_g": 7.2,
+          "sodium_mg": 337,
+          "fiber_g": 0.9,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -688,6 +788,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 5.3,
+          "carbs_g": 10.6,
+          "protein_g": 1.9,
+          "sodium_mg": 167,
+          "fiber_g": 1.6,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -777,6 +893,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 483,
+          "fat_g": 43.1,
+          "carbs_g": 7.0,
+          "protein_g": 10.9,
+          "sodium_mg": 1236,
+          "fiber_g": 1.5,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -867,6 +999,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 116,
+          "fat_g": 10.6,
+          "carbs_g": 5.6,
+          "protein_g": 0.9,
+          "sodium_mg": 180,
+          "fiber_g": 1.3,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "1 can (15 oz) garbanzo beans (chickpeas)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -964,6 +1114,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 143,
+          "fat_g": 4.6,
+          "carbs_g": 21.0,
+          "protein_g": 4.6,
+          "sodium_mg": 491,
+          "fiber_g": 2.8,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1025,6 +1191,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 193,
+          "fat_g": 2.5,
+          "carbs_g": 37.5,
+          "protein_g": 5.8,
+          "sodium_mg": 129,
+          "fiber_g": 4.1,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -1098,6 +1280,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 2.3,
+          "carbs_g": 19.7,
+          "protein_g": 4.5,
+          "sodium_mg": 45,
+          "fiber_g": 2.2,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1/2 cup small curd cottage cheese"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -1217,6 +1417,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 221,
+          "fat_g": 13.1,
+          "carbs_g": 18.0,
+          "protein_g": 8.9,
+          "sodium_mg": 540,
+          "fiber_g": 3.0,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -1300,6 +1516,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 8.2,
+          "carbs_g": 4.0,
+          "protein_g": 4.1,
+          "sodium_mg": 199,
+          "fiber_g": 0.7,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -1401,6 +1633,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 11.2,
+          "carbs_g": 8.2,
+          "protein_g": 6.9,
+          "sodium_mg": 563,
+          "fiber_g": 2.1,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -1493,6 +1741,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 68,
+          "fat_g": 4.3,
+          "carbs_g": 5.0,
+          "protein_g": 2.4,
+          "sodium_mg": 400,
+          "fiber_g": 0.3,
+          "sugar_g": 3.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
       }
     },
     {
@@ -1581,6 +1845,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 61,
+          "fat_g": 4.7,
+          "carbs_g": 2.2,
+          "protein_g": 2.7,
+          "sodium_mg": 478,
+          "fiber_g": 0.4,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1683,6 +1963,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 241,
+          "fat_g": 14.4,
+          "carbs_g": 21.4,
+          "protein_g": 6.0,
+          "sodium_mg": 1110,
+          "fiber_g": 1.2,
+          "sugar_g": 4.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -1776,6 +2072,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 204,
+          "fat_g": 15.6,
+          "carbs_g": 8.1,
+          "protein_g": 8.8,
+          "sodium_mg": 663,
+          "fiber_g": 1.2,
+          "sugar_g": 3.9
+        },
+        "missing_inputs": [
+          "1 pkg (8 oz) noodles"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1855,6 +2169,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 318,
+          "fat_g": 15.1,
+          "carbs_g": 35.8,
+          "protein_g": 8.8,
+          "sodium_mg": 506,
+          "fiber_g": 1.0,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -1958,6 +2288,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 22.0,
+          "carbs_g": 2.6,
+          "protein_g": 8.9,
+          "sodium_mg": 598,
+          "fiber_g": 0.1,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -2046,6 +2392,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 219,
+          "fat_g": 14.0,
+          "carbs_g": 11.1,
+          "protein_g": 12.0,
+          "sodium_mg": 727,
+          "fiber_g": 0.3,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -2102,6 +2464,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 110,
+          "fat_g": 1.0,
+          "carbs_g": 23.5,
+          "protein_g": 2.5,
+          "sodium_mg": 883,
+          "fiber_g": 2.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2191,6 +2570,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 311,
+          "fat_g": 21.8,
+          "carbs_g": 15.6,
+          "protein_g": 13.2,
+          "sodium_mg": 385,
+          "fiber_g": 0.7,
+          "sugar_g": 4.3
+        },
+        "missing_inputs": [
+          "2 cups cooked asparagus tips"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2253,6 +2651,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 218,
+          "fat_g": 12.7,
+          "carbs_g": 24.0,
+          "protein_g": 4.3,
+          "sodium_mg": 97,
+          "fiber_g": 4.0,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2326,6 +2741,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 237,
+          "fat_g": 14.5,
+          "carbs_g": 21.2,
+          "protein_g": 8.1,
+          "sodium_mg": 268,
+          "fiber_g": 6.5,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2385,6 +2817,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 179,
+          "fat_g": 7.4,
+          "carbs_g": 22.2,
+          "protein_g": 7.9,
+          "sodium_mg": 15,
+          "fiber_g": 7.0,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2514,6 +2963,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 443,
+          "fat_g": 22.9,
+          "carbs_g": 33.8,
+          "protein_g": 26.3,
+          "sodium_mg": 337,
+          "fiber_g": 9.8,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [
+          "additional butter"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2600,10 +3068,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 450,
+          "fat_g": 27.8,
+          "carbs_g": 41.8,
+          "protein_g": 11.1,
+          "sodium_mg": 44,
+          "fiber_g": 11.3,
+          "sugar_g": 4.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
-      "id": "naomis-carrot-cheese-bake-ancients",
+      "id": "naomis-carrot-cheese-bake-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Naomi's Carrot-Cheese Bake",
@@ -2716,6 +3201,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 366,
+          "fat_g": 29.3,
+          "carbs_g": 16.9,
+          "protein_g": 11.4,
+          "sodium_mg": 279,
+          "fiber_g": 4.4,
+          "sugar_g": 7.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -2809,10 +3311,30 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 11.6,
+          "carbs_g": 0.3,
+          "protein_g": 0.7,
+          "sodium_mg": 332,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "5 1/2 lbs fava bean pods",
+          "1 sprig fresh savory"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
-      "id": "our-fava-beans-ancients",
+      "id": "our-fava-beans-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Our Fava Beans",
@@ -2903,6 +3425,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 677,
+          "fat_g": 24.8,
+          "carbs_g": 84.8,
+          "protein_g": 34.3,
+          "sodium_mg": 195,
+          "fiber_g": 28.7,
+          "sugar_g": 14.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -3000,6 +3539,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 142,
+          "fat_g": 5.5,
+          "carbs_g": 18.7,
+          "protein_g": 5.0,
+          "sodium_mg": 197,
+          "fiber_g": 0.9,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "1/2 tsp maggi"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -3084,6 +3642,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 433,
+          "fat_g": 37.4,
+          "carbs_g": 16.3,
+          "protein_g": 15.3,
+          "sodium_mg": 562,
+          "fiber_g": 7.8,
+          "sugar_g": 4.3
+        },
+        "missing_inputs": [
+          "1 pkg green onion dip mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     },
     {
@@ -3165,6 +3742,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 315,
+          "fat_g": 20.4,
+          "carbs_g": 28.2,
+          "protein_g": 5.8,
+          "sodium_mg": 757,
+          "fiber_g": 3.8,
+          "sugar_g": 10.2
+        },
+        "missing_inputs": [
+          "1/2  stick margarine"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from side-dishes category"
+        ]
       }
     }
   ]

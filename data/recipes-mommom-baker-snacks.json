@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "snacks",
     "total_recipes": 65,
-    "generated": "2026-01-23T14:31:32.309371Z",
+    "generated": "2026-01-29T11:11:47.812803Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -6384,6 +6384,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 15.0,
+          "carbs_g": 7.1,
+          "protein_g": 3.9,
+          "sodium_mg": 106,
+          "fiber_g": 1.3,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from snacks category"
+        ]
       }
     },
     {
@@ -6480,6 +6497,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 399,
+          "fat_g": 3.4,
+          "carbs_g": 88.8,
+          "protein_g": 5.0,
+          "sodium_mg": 850,
+          "fiber_g": 2.0,
+          "sugar_g": 41.8
+        },
+        "missing_inputs": [
+          "1 1/2 cups Spanish peanuts"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from snacks category"
+        ]
       }
     },
     {
@@ -6528,7 +6564,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "cleaned ginkgo seeds"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from snacks category"
+        ]
+      }
     },
     {
       "id": "boiled-ginkgo-nuts-etw",
@@ -6581,7 +6636,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "raw ginkgo seeds"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from snacks category"
+        ]
+      }
     },
     {
       "id": "toasted-sea-lettuce-etw",
@@ -6644,7 +6718,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 45,
+          "fat_g": 5.2,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 291,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "6  ulva (sea lettuce) sheets"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from snacks category"
+        ]
+      }
     },
     {
       "id": "popped-wild-rice-maple-etw",
@@ -6709,7 +6802,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 0.1,
+          "carbs_g": 31.9,
+          "protein_g": 1.2,
+          "sodium_mg": 4,
+          "fiber_g": 1.2,
+          "sugar_g": 24.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

@@ -2,8 +2,8 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "sauces",
-    "total_recipes": 46,
-    "generated": "2026-01-23T14:31:32.287023Z",
+    "total_recipes": 45,
+    "generated": "2026-01-29T11:11:47.794932Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -597,12 +597,22 @@
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5339 Large.jpeg"
       ],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
         "missing_inputs": [
-          "Not in database: Note: Choose one of the three sauce recipes below"
+          "Note: Choose one of the three sauce recipes below"
         ],
-        "assumptions": []
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
       }
     },
     {
@@ -1824,43 +1834,6 @@
       }
     },
     {
-      "id": "steak-and-burger-toppings-bhg",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Steak and Burger Toppings",
-      "category": "sauces",
-      "attribution": "Better Homes and Gardens New Cook Book",
-      "source_note": "Cookbook page 243",
-      "description": "Dress up steaks and burgers with one of these sauces. Each makes enough for 4 servings.",
-      "notes": [
-        "Mushroom-Onion Sauce: Cook 1 cup sliced fresh mushrooms and \u00bc cup sliced green onion in 2 tablespoons margarine or butter. Stir in \u00bd cup dairy sour cream and \u00bc teaspoon pepper. Heat through; do not boil.",
-        "Sour Cream and Chive Sauce: Combine \u00bd cup dairy sour cream, 2 tablespoons snipped chives, 1 tablespoon prepared horseradish, and dash pepper. Chill.",
-        "Mustard-Chive Sauce: In a saucepan melt 1 tablespoon margarine or butter. Stir in 2 tablespoons all-purpose flour and \u00bd teaspoon salt till bubbly. Add \u00be cup milk. Cook and stir till bubbly. Remove from heat. Stir in 1 tablespoon snipped chives and 1 teaspoon Dijon-style mustard.",
-        "Parsley Pesto: In a blender container place 2 cups lightly packed chopped parsley, 2 tablespoons chopped walnuts, 1 clove garlic, quartered. Cover and blend till nearly smooth. Stir in \u00bc cup grated Parmesan cheese."
-      ],
-      "tags": [
-        "sauces",
-        "toppings",
-        "steak",
-        "burgers"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5403 Large.jpeg"
-      ],
-      "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [
-          "No ingredients listed"
-        ],
-        "assumptions": []
-      }
-    },
-    {
       "id": "spaghetti-sauce",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
@@ -2838,6 +2811,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 6.8,
+          "carbs_g": 4.1,
+          "protein_g": 1.5,
+          "sodium_mg": 755,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
       }
     },
     {
@@ -2899,6 +2889,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 295,
+          "fat_g": 0.0,
+          "carbs_g": 75.6,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.2,
+          "sugar_g": 75.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
       }
     },
     {
@@ -2980,6 +2987,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 224,
+          "fat_g": 13.2,
+          "carbs_g": 19.5,
+          "protein_g": 8.7,
+          "sodium_mg": 1174,
+          "fiber_g": 1.6,
+          "sugar_g": 13.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -3044,6 +3067,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 222,
+          "fat_g": 22.5,
+          "carbs_g": 4.0,
+          "protein_g": 2.5,
+          "sodium_mg": 54,
+          "fiber_g": 0.0,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "2 packages mushroom gravy mix",
+          "1 package onion soup mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
       }
     },
     {
@@ -3119,6 +3162,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 222,
+          "fat_g": 22.5,
+          "carbs_g": 4.0,
+          "protein_g": 2.5,
+          "sodium_mg": 54,
+          "fiber_g": 0.0,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "3 cans mushroom gravy",
+          "2 packages mushroom gravy mix",
+          "1 package onion soup mix"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
       }
     },
     {
@@ -3188,7 +3252,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 89,
+          "fat_g": 8.8,
+          "carbs_g": 1.9,
+          "protein_g": 1.0,
+          "sodium_mg": 381,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     },
     {
       "id": "foxfire3-wild-plum-catsup",
@@ -3286,7 +3367,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1774,
+          "fat_g": 0.5,
+          "carbs_g": 453.2,
+          "protein_g": 0.2,
+          "sodium_mg": 325,
+          "fiber_g": 1.2,
+          "sugar_g": 450.2
+        },
+        "missing_inputs": [
+          "5 quarts wild plums"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     },
     {
       "id": "foxfire3-mint-syrup",
@@ -3356,7 +3456,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 387,
+          "fat_g": 0.0,
+          "carbs_g": 100.0,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 100.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     },
     {
       "id": "foxfire3-mint-sauce",
@@ -3426,7 +3543,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 17,
+          "fat_g": 0.0,
+          "carbs_g": 2.5,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     },
     {
       "id": "foxfire3-black-haw-sauce",
@@ -3492,7 +3626,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 195,
+          "fat_g": 0.0,
+          "carbs_g": 52.8,
+          "protein_g": 0.2,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 52.3
+        },
+        "missing_inputs": [
+          "1 quart black haw berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     },
     {
       "id": "foxfire4-sawmill-gravy",
@@ -3578,7 +3731,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 55,
+          "fat_g": 2.3,
+          "carbs_g": 6.0,
+          "protein_g": 2.6,
+          "sodium_mg": 73,
+          "fiber_g": 0.1,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "3 tbsp pan drippings or grease"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "haw-sauce-etw",
@@ -3655,7 +3826,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 114,
+          "fat_g": 0.0,
+          "carbs_g": 25.7,
+          "protein_g": 0.1,
+          "sodium_mg": 76,
+          "fiber_g": 0.1,
+          "sugar_g": 25.1
+        },
+        "missing_inputs": [
+          "1.5 lbs stalkless hawthorn berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     },
     {
       "id": "hawthorn-berry-catsup-etw",
@@ -3761,7 +3951,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.0,
+          "carbs_g": 2.2,
+          "protein_g": 0.1,
+          "sodium_mg": 329,
+          "fiber_g": 0.0,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "2 cups hawthorn berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from sauces category"
+        ]
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "cookies",
     "total_recipes": 61,
-    "generated": "2026-01-23T14:31:32.140895Z",
+    "generated": "2026-01-29T11:11:47.674443Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": "coconut-macaroons",
+      "id": "coconut-macaroons-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Coconut Macaroons",
@@ -6479,7 +6479,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/FBC Jasmine Cook Book/IMG_5754.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1918,
+          "fat_g": 99.4,
+          "carbs_g": 239.0,
+          "protein_g": 27.2,
+          "sodium_mg": 857,
+          "fiber_g": 10.9,
+          "sugar_g": 132.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     }
   ]
 }

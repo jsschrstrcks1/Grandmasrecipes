@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "appetizers",
     "total_recipes": 107,
-    "generated": "2026-01-23T14:31:31.339935Z",
+    "generated": "2026-01-29T11:11:46.941458Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1278,7 +1278,7 @@
       }
     },
     {
-      "id": "swedish-meatballs",
+      "id": "swedish-meatballs-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Swedish Meatballs",
@@ -6506,10 +6506,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "complete",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 290,
+          "fat_g": 10.7,
+          "carbs_g": 16.9,
+          "protein_g": 3.9,
+          "sodium_mg": 313,
+          "fiber_g": 4.7,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "2 tablespoons olive brine",
+          "Assorted crackers or vegetables"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -9009,7 +9022,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 222,
+          "fat_g": 13.4,
+          "carbs_g": 18.0,
+          "protein_g": 9.5,
+          "sodium_mg": 307,
+          "fiber_g": 2.0,
+          "sugar_g": 14.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "manchego-membrillo",
@@ -9081,7 +9110,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 180,
+          "fat_g": 14.3,
+          "carbs_g": 3.7,
+          "protein_g": 11.3,
+          "sodium_mg": 62,
+          "fiber_g": 1.2,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [
+          "4 oz membrillo (quince paste)"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "manchego-croquetas",
@@ -9197,7 +9244,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 5.0,
+          "carbs_g": 3.7,
+          "protein_g": 3.5,
+          "sodium_mg": 42,
+          "fiber_g": 0.1,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "for frying vegetable oil"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
+      }
     },
     {
       "id": "roquefort-stuffed-endive",
@@ -9296,10 +9361,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 3.9,
+          "carbs_g": 4.0,
+          "protein_g": 2.4,
+          "sodium_mg": 77,
+          "fiber_g": 1.2,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
+      }
     },
     {
-      "id": "cheese-fondue",
+      "id": "cheese-fondue-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Classic Swiss Cheese Fondue",
@@ -9416,7 +9497,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 496,
+          "fat_g": 23.7,
+          "carbs_g": 40.9,
+          "protein_g": 25.7,
+          "sodium_mg": 640,
+          "fiber_g": 1.5,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [
+          "2 tbsp kirsch (cherry brandy)"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "baked-brie-honey-nuts",
@@ -9512,7 +9611,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 16,
+          "fat_g": 0.0,
+          "carbs_g": 4.3,
+          "protein_g": 0.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.1,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [
+          "8 oz brie wheel"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "brie-en-croute",
@@ -9611,7 +9728,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 21,
+          "fat_g": 1.2,
+          "carbs_g": 1.6,
+          "protein_g": 1.1,
+          "sodium_mg": 18,
+          "fiber_g": 0.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1 lb brie wheel",
+          "3 tbsp apricot or fig jam"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "labneh-dip",
@@ -9705,7 +9841,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 8.5,
+          "carbs_g": 0.8,
+          "protein_g": 0.7,
+          "sodium_mg": 0,
+          "fiber_g": 0.5,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "2 cups labneh",
+          "2 tsp za'atar"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "provoleta-clasica-argentina",
@@ -9793,7 +9948,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 680,
+          "fat_g": 29.6,
+          "carbs_g": 75.5,
+          "protein_g": 33.7,
+          "sodium_mg": 1367,
+          "fiber_g": 3.6,
+          "sugar_g": 7.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "provoleta-con-chimichurri",
@@ -9917,7 +10088,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 639,
+          "fat_g": 57.0,
+          "carbs_g": 12.3,
+          "protein_g": 21.7,
+          "sodium_mg": 723,
+          "fiber_g": 1.8,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "provoleta-con-salsa-criolla",
@@ -10054,7 +10241,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 489,
+          "fat_g": 42.5,
+          "carbs_g": 11.5,
+          "protein_g": 16.3,
+          "sodium_mg": 542,
+          "fiber_g": 1.7,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "crostini-con-sardo",
@@ -10163,7 +10366,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 3.6,
+          "carbs_g": 1.7,
+          "protein_g": 0.4,
+          "sodium_mg": 13,
+          "fiber_g": 0.2,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1/2 cup grated Sardo cheese"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "picada-argentina-magnasco-edam",
@@ -10302,7 +10523,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 574,
+          "fat_g": 38.2,
+          "carbs_g": 39.3,
+          "protein_g": 24.0,
+          "sodium_mg": 1166,
+          "fiber_g": 4.3,
+          "sugar_g": 4.4
+        },
+        "missing_inputs": [
+          "4 oz jam\u00f3n cocido (cooked ham)",
+          "1 package breadsticks (grisines)",
+          "4 oz quince paste (dulce de membrillo)"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "magnasco-edam-wine-crackers",
@@ -10403,7 +10644,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 187,
+          "fat_g": 11.6,
+          "carbs_g": 19.2,
+          "protein_g": 5.0,
+          "sodium_mg": 16,
+          "fiber_g": 2.4,
+          "sugar_g": 14.8
+        },
+        "missing_inputs": [
+          "1 bottle Malbec or robust red wine"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cf-baked-feta",
@@ -10502,7 +10761,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 18.1,
+          "carbs_g": 2.0,
+          "protein_g": 6.5,
+          "sodium_mg": 506,
+          "fiber_g": 0.2,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "cf-israeli-hummus",
@@ -10631,7 +10906,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 21,
+          "fat_g": 2.0,
+          "carbs_g": 1.2,
+          "protein_g": 0.2,
+          "sodium_mg": 873,
+          "fiber_g": 0.3,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1 kg dried chickpeas (small variety)",
+          "250 ml tahini"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "cf-maltese-pastizzi",
@@ -10728,7 +11022,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.1,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 lb Maltese cheese or ricotta",
+          "2 tbsp chopped fresh basil or herbs of choice",
+          "2 packages puff pastry sheets"
+        ],
+        "assumptions": [
+          "Calculated for 60 servings"
+        ]
+      }
     },
     {
       "id": "cf-feta-pumpkin-pastries",
@@ -10849,7 +11163,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 34,
+          "fat_g": 2.8,
+          "carbs_g": 0.6,
+          "protein_g": 1.8,
+          "sodium_mg": 140,
+          "fiber_g": 0.0,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "1/2  butternut pumpkin, cubed (1 inch)",
+          "1 packet filo pastry"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
+      }
     },
     {
       "id": "hillbilly-fondue",
@@ -10949,7 +11282,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 269,
+          "fat_g": 4.3,
+          "carbs_g": 39.2,
+          "protein_g": 8.3,
+          "sodium_mg": 375,
+          "fiber_g": 1.4,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "harvest-chicken-liver-pate",
@@ -11085,7 +11434,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 397,
+          "fat_g": 38.2,
+          "carbs_g": 8.2,
+          "protein_g": 6.7,
+          "sodium_mg": 1493,
+          "fiber_g": 2.0,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "1  large tart apple, peeled, cored and chopped",
+          "1/4 cup bourbon",
+          "1/4 cup clarified butter, melted"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "deep-fried-cheese-curds",
@@ -11179,7 +11548,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 28,
+          "fat_g": 0.6,
+          "carbs_g": 4.3,
+          "protein_g": 1.2,
+          "sodium_mg": 65,
+          "fiber_g": 0.1,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1 lb cheese curds"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
+      }
     },
     {
       "id": "cf-tyropites-greek-cheese-pies",
@@ -11296,7 +11683,25 @@
           "Recipe reconstructed from forum discussion of traditional method"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 61,
+          "fat_g": 4.9,
+          "carbs_g": 0.9,
+          "protein_g": 3.4,
+          "sodium_mg": 161,
+          "fiber_g": 0.0,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1 lb package phyllo dough, thawed"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
+      }
     },
     {
       "id": "lgc-baked-ricotta",
@@ -11402,7 +11807,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 4.0,
+          "carbs_g": 1.1,
+          "protein_g": 0.1,
+          "sodium_mg": 166,
+          "fiber_g": 0.3,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "2 cups (1 lb) fresh ricotta",
+          "1 tbsp chopped fresh herbs (thyme, rosemary, or oregano)"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "taoc-lemony-baked-ricotta-with-herbs",
@@ -11500,7 +11924,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 277,
+          "fat_g": 23.0,
+          "carbs_g": 4.8,
+          "protein_g": 14.1,
+          "sodium_mg": 154,
+          "fiber_g": 0.3,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "1 1/2 teaspoons dried herbs (Italian blend or herbs de Provence)"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "taoc-greek-layer-dip",
@@ -11611,7 +12053,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 115,
+          "fat_g": 6.2,
+          "carbs_g": 12.1,
+          "protein_g": 4.7,
+          "sodium_mg": 386,
+          "fiber_g": 4.0,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1/2 cup pesto (prepared or homemade)",
+          "1 small container grape tomatoes (finely chopped)",
+          "8 oz marinated or plain feta (crumbled)"
+        ],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
+      }
     },
     {
       "id": "gr-pork-dumplings",
@@ -11721,7 +12183,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 28,
+          "fat_g": 1.8,
+          "carbs_g": 0.6,
+          "protein_g": 2.5,
+          "sodium_mg": 123,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 1/2 cups dumpling flour",
+          "1/2 cup black vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 25 servings"
+        ]
+      }
     },
     {
       "id": "gr-baked-chicken-wings",
@@ -11812,7 +12293,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 611,
+          "fat_g": 38.6,
+          "carbs_g": 1.8,
+          "protein_g": 60.6,
+          "sodium_mg": 851,
+          "fiber_g": 0.4,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "gr-chilli-beef-lettuce-wraps",
@@ -11929,7 +12426,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 82,
+          "fat_g": 3.7,
+          "carbs_g": 12.0,
+          "protein_g": 2.3,
+          "sodium_mg": 457,
+          "fiber_g": 2.9,
+          "sugar_g": 5.1
+        },
+        "missing_inputs": [
+          "200 g lean minced beef",
+          "200 g minced pork",
+          "2  red chillies",
+          "2 heads little gem lettuce"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

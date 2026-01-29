@@ -2,8 +2,8 @@
   "meta": {
     "collection": "all",
     "category": "breakfast",
-    "total_recipes": 344,
-    "generated": "2026-01-23T14:31:31.391325Z",
+    "total_recipes": 345,
+    "generated": "2026-01-29T11:11:46.984695Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -19311,7 +19311,7 @@
       ]
     },
     {
-      "id": "huevos-rancheros",
+      "id": "huevos-rancheros-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Huevos Rancheros",
@@ -20790,7 +20790,7 @@
       ]
     },
     {
-      "id": "cheese-souffle",
+      "id": "cheese-souffle-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Cheese Souffle",
@@ -37004,7 +37004,7 @@
       }
     },
     {
-      "id": "bacon-double-cheese-quiche-gahb",
+      "id": "bacon-double-cheese-quiche-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Bacon and Double Cheese Quiche",
@@ -37659,7 +37659,7 @@
       }
     },
     {
-      "id": "shepherds-cheese-bake-ancients",
+      "id": "shepherds-cheese-bake-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Shepherd's Cheese Bake",
@@ -37945,7 +37945,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 596,
+          "fat_g": 32.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 420,
+          "fiber_g": 0.0,
+          "sugar_g": 48.0
+        },
+        "missing_inputs": [
+          "1 packet yogurt starter culture"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "shakshuka-with-feta",
@@ -38073,7 +38091,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 426,
+          "fat_g": 22.2,
+          "carbs_g": 43.0,
+          "protein_g": 21.0,
+          "sodium_mg": 471,
+          "fiber_g": 11.9,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "2 tbsp fresh parsley or cilantro"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "ricotta-pancakes",
@@ -38190,7 +38226,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 5.3,
+          "carbs_g": 9.8,
+          "protein_g": 5.0,
+          "sodium_mg": 114,
+          "fiber_g": 0.3,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "reddit-red-dog-toast",
@@ -38289,7 +38341,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 179,
+          "fat_g": 14.5,
+          "carbs_g": 8.8,
+          "protein_g": 4.1,
+          "sodium_mg": 609,
+          "fiber_g": 0.6,
+          "sugar_g": 5.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "dutch-babies",
@@ -38368,7 +38436,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 317,
+          "fat_g": 19.0,
+          "carbs_g": 14.6,
+          "protein_g": 20.6,
+          "sodium_mg": 246,
+          "fiber_g": 0.4,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cf-yogurt-whole-milk",
@@ -38444,7 +38528,26 @@
           "Recipe reconstructed from John's #14 forum post"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 liter whole milk",
+          "2 oz (1/4 cup) plain yogurt with live cultures (as starter)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "gr-scrambled-eggs",
@@ -38520,7 +38623,131 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 384,
+          "fat_g": 33.7,
+          "carbs_g": 1.7,
+          "protein_g": 18.4,
+          "sodium_mg": 334,
+          "fiber_g": 0.1,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
+    },
+    {
+      "id": "ricegriddle-cakes-thewhysofc",
+      "collection": "all",
+      "collection_display": "Other Recipes",
+      "title": "Rice Griddle Cakes",
+      "category": "breakfast",
+      "attribution": "",
+      "source_note": "The Whys Of Cooking 1919 (PDF cookbook)",
+      "description": "Vintage recipe from The Whys Of Cooking 1919",
+      "servings_yield": "4 servings",
+      "prep_time": "",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "rice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "uncooked"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten light"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten stiff"
+        },
+        {
+          "item": "Crisco (shortening)",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "melted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Add the salt to the boiling water and cook the rice until tender, then press through a potato ricer or sieve."
+        },
+        {
+          "step": 2,
+          "text": "To one and a half cupfuls of this rice pulp, add the yolks and the dry ingredients and mix thoroughly."
+        },
+        {
+          "step": 3,
+          "text": "Add the Crisco and fold in the beaten whites, beat together."
+        },
+        {
+          "step": 4,
+          "text": "Bake at once on a hot, well-greased griddle."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "vintage",
+        "pdf-extracted"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "pdf-extraction"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 tsp ful salt 2 teaspoonfuls baking powder"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

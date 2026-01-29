@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "main dishes",
     "total_recipes": 51,
-    "generated": "2026-01-23T14:31:32.205209Z",
+    "generated": "2026-01-29T11:11:47.731107Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -83,7 +83,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 5.0,
+          "carbs_g": 19.6,
+          "protein_g": 4.0,
+          "sodium_mg": 288,
+          "fiber_g": 0.8,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "purslane (pussley)"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main dishes category"
+        ]
+      }
     },
     {
       "id": "foxfire2-baked-nettles",
@@ -163,7 +182,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 6.1,
+          "carbs_g": 11.2,
+          "protein_g": 8.0,
+          "sodium_mg": 24,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "nettles",
+          "seasoning"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main dishes category"
+        ]
+      }
     },
     {
       "id": "foxfire3-stuffed-grape-leaves",
@@ -241,7 +280,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 62,
+          "fat_g": 0.1,
+          "carbs_g": 13.8,
+          "protein_g": 1.2,
+          "sodium_mg": 2,
+          "fiber_g": 0.7,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "grape leaves",
+          "ground meat",
+          "seasonings"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main dishes category"
+        ]
+      }
     },
     {
       "id": "foxfire2-irish-potato-dumplings",
@@ -332,7 +392,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 6.4,
+          "carbs_g": 16.5,
+          "protein_g": 3.5,
+          "sodium_mg": 141,
+          "fiber_g": 1.1,
+          "sugar_g": 4.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main dishes category"
+        ]
+      }
     },
     {
       "id": "fried-hornworms-tomatoes-basil-etw",
@@ -427,7 +504,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 200,
+          "fat_g": 11.5,
+          "carbs_g": 23.5,
+          "protein_g": 2.5,
+          "sodium_mg": 86,
+          "fiber_g": 2.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "16  tomato hornworms",
+          "4 medium green tomatoes"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "classic-kamaro-mole-cricket-etw",
@@ -525,7 +621,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 3.6,
+          "carbs_g": 5.5,
+          "protein_g": 0.8,
+          "sodium_mg": 6,
+          "fiber_g": 0.9,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "mole crickets"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "philippine-style-kamaro-etw",
@@ -621,7 +735,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 17,
+          "fat_g": 0.1,
+          "carbs_g": 3.2,
+          "protein_g": 0.7,
+          "sodium_mg": 223,
+          "fiber_g": 0.5,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "mole crickets",
+          "hot pepper"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "lemongrass-dog-etw",
@@ -730,7 +863,26 @@
           "cultural context required"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 77,
+          "fat_g": 0.4,
+          "carbs_g": 15.5,
+          "protein_g": 2.6,
+          "sodium_mg": 398,
+          "fiber_g": 0.6,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "2 lb dog meat",
+          "4  lemongrass stalks"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "cat-braise-etw",
@@ -902,7 +1054,29 @@
           "historical context required"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 11.0,
+          "carbs_g": 9.0,
+          "protein_g": 1.7,
+          "sodium_mg": 46,
+          "fiber_g": 2.5,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [
+          "1  cat",
+          "2 slices slab bacon",
+          "2-4 cups homemade chicken broth",
+          "4  parsley stems",
+          "6  thyme branches"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "fried-acorn-grubs-etw",
@@ -966,7 +1140,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "acorn grubs",
+          "butter or oil"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "puffball-crepes-etw",
@@ -1035,7 +1228,25 @@
           "identification critical"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 26,
+          "fat_g": 2.9,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 20,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  puffball mushroom"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "breaded-puffball-etw",
@@ -1104,7 +1315,25 @@
           "identification critical"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 37,
+          "fat_g": 3.5,
+          "carbs_g": 1.5,
+          "protein_g": 0.2,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  puffball mushroom"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "fried-palmetto-grubs-etw",
@@ -1170,7 +1399,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "palmetto weevil grubs"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "agave-flowers-scrambled-eggs-etw",
@@ -1241,7 +1488,25 @@
           "handle with caution"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 18,
+          "fat_g": 1.2,
+          "carbs_g": 0.1,
+          "protein_g": 1.5,
+          "sodium_mg": 18,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "butter or oil"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "squirrel-stew-paprika-hf",
@@ -1408,7 +1673,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 293,
+          "fat_g": 21.9,
+          "carbs_g": 11.1,
+          "protein_g": 8.9,
+          "sodium_mg": 642,
+          "fiber_g": 2.3,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [
+          "3  squirrels",
+          "1 heaping tsp dried savory or oregano"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "turtle-sauce-piquante-hf",
@@ -1564,7 +1848,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 143,
+          "fat_g": 7.1,
+          "carbs_g": 12.6,
+          "protein_g": 2.4,
+          "sodium_mg": 437,
+          "fiber_g": 2.3,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "2 lb snapping turtle meat"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "braised-squirrel-aurora-hf",
@@ -1700,7 +2002,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 372,
+          "fat_g": 21.6,
+          "carbs_g": 30.6,
+          "protein_g": 7.2,
+          "sodium_mg": 459,
+          "fiber_g": 5.5,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [
+          "2-3  squirrels"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "grilled-doves-la-mancha-hf",
@@ -1815,7 +2135,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 13.8,
+          "carbs_g": 2.9,
+          "protein_g": 0.6,
+          "sodium_mg": 1747,
+          "fiber_g": 1.2,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "8-12  doves or pigeons"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "grilled-deer-heart-hf",
@@ -1925,7 +2263,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 10.7,
+          "carbs_g": 7.1,
+          "protein_g": 1.0,
+          "sodium_mg": 585,
+          "fiber_g": 1.8,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "1  deer heart"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "brunswick-stew-hf",
@@ -2073,7 +2429,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 165,
+          "fat_g": 3.3,
+          "carbs_g": 25.6,
+          "protein_g": 10.1,
+          "sodium_mg": 867,
+          "fiber_g": 4.7,
+          "sugar_g": 5.5
+        },
+        "missing_inputs": [
+          "2-3  squirrel or rabbit"
+        ],
+        "assumptions": [
+          "Calculated for 11 servings"
+        ]
+      }
     },
     {
       "id": "wild-hog-bbq-pulled-pork-hf",
@@ -2205,7 +2579,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 0.2,
+          "carbs_g": 9.7,
+          "protein_g": 0.4,
+          "sodium_mg": 1022,
+          "fiber_g": 0.6,
+          "sugar_g": 7.8
+        },
+        "missing_inputs": [
+          "8-10 lb wild hog shoulder",
+          "1/2 cup yellow mustard"
+        ],
+        "assumptions": [
+          "Calculated for 14 servings"
+        ]
+      }
     },
     {
       "id": "roast-snipe-hf",
@@ -2300,7 +2693,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 206,
+          "fat_g": 23.1,
+          "carbs_g": 0.3,
+          "protein_g": 0.2,
+          "sodium_mg": 306,
+          "fiber_g": 0.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4  snipe",
+          "1 cup sea beans or samphire"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "fried-snipe-hf",
@@ -2425,7 +2837,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 330,
+          "fat_g": 16.4,
+          "carbs_g": 39.0,
+          "protein_g": 7.5,
+          "sodium_mg": 789,
+          "fiber_g": 1.0,
+          "sugar_g": 14.6
+        },
+        "missing_inputs": [
+          "8  snipe",
+          "1/4 cup hot sauce"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "salmis-of-snipe-hf",
@@ -2553,7 +2984,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 228,
+          "fat_g": 12.2,
+          "carbs_g": 15.2,
+          "protein_g": 3.9,
+          "sodium_mg": 375,
+          "fiber_g": 2.4,
+          "sugar_g": 5.6
+        },
+        "missing_inputs": [
+          "8  snipe"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "roast-woodcock-cumberland-hf",
@@ -2675,7 +3124,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 350,
+          "fat_g": 24.2,
+          "carbs_g": 25.6,
+          "protein_g": 4.0,
+          "sodium_mg": 408,
+          "fiber_g": 2.2,
+          "sugar_g": 9.2
+        },
+        "missing_inputs": [
+          "2  woodcock",
+          "1/2 cup red currant jelly"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "pan-seared-woodcock-hf",
@@ -2783,7 +3251,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 316,
+          "fat_g": 23.9,
+          "carbs_g": 17.5,
+          "protein_g": 7.5,
+          "sodium_mg": 279,
+          "fiber_g": 5.6,
+          "sugar_g": 7.0
+        },
+        "missing_inputs": [
+          "2  woodcock"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "pheasant-mushrooms-cream-hf",
@@ -2895,7 +3381,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 355,
+          "fat_g": 33.8,
+          "carbs_g": 9.2,
+          "protein_g": 3.7,
+          "sodium_mg": 142,
+          "fiber_g": 1.7,
+          "sugar_g": 5.6
+        },
+        "missing_inputs": [
+          "4  pheasant breasts"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "fried-pheasant-pickle-brine-hf",
@@ -3012,7 +3516,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 293,
+          "fat_g": 4.6,
+          "carbs_g": 54.7,
+          "protein_g": 7.1,
+          "sodium_mg": 2328,
+          "fiber_g": 1.8,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [
+          "1  pheasant"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "duck-confit-hf",
@@ -3119,7 +3641,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1636,
+          "fat_g": 184.1,
+          "carbs_g": 1.8,
+          "protein_g": 2.3,
+          "sodium_mg": 1266,
+          "fiber_g": 0.5,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4  duck or goose legs"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "goose-breast-orange-greek-hf",
@@ -3231,7 +3771,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 6.0,
+          "carbs_g": 18.9,
+          "protein_g": 1.1,
+          "sodium_mg": 185,
+          "fiber_g": 0.9,
+          "sugar_g": 16.8
+        },
+        "missing_inputs": [
+          "2  goose breasts",
+          "1/4 cup ouzo"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "german-rabbit-stew-hf",
@@ -3363,7 +3922,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 14.8,
+          "carbs_g": 7.7,
+          "protein_g": 2.7,
+          "sodium_mg": 853,
+          "fiber_g": 1.1,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "1  rabbit"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "siberian-bear-pelmeni-hf",
@@ -3497,7 +4074,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 38,
+          "fat_g": 0.8,
+          "carbs_g": 6.1,
+          "protein_g": 1.4,
+          "sodium_mg": 66,
+          "fiber_g": 0.3,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 lb bear meat",
+          "1 cup buttermilk or whey"
+        ],
+        "assumptions": [
+          "Calculated for 50 servings"
+        ]
+      }
     },
     {
       "id": "chinese-red-braised-bear-hf",
@@ -3632,7 +4228,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 513,
+          "fat_g": 24.5,
+          "carbs_g": 21.5,
+          "protein_g": 48.9,
+          "sodium_mg": 1404,
+          "fiber_g": 4.7,
+          "sugar_g": 12.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "french-fried-frog-legs-hf",
@@ -3757,7 +4369,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 279,
+          "fat_g": 22.3,
+          "carbs_g": 16.4,
+          "protein_g": 4.1,
+          "sodium_mg": 203,
+          "fiber_g": 0.6,
+          "sugar_g": 3.3
+        },
+        "missing_inputs": [
+          "2 lb frog legs"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "chinese-stir-fried-frog-legs-hf",
@@ -3924,7 +4554,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1105,
+          "fat_g": 115.8,
+          "carbs_g": 24.2,
+          "protein_g": 3.6,
+          "sodium_mg": 977,
+          "fiber_g": 1.3,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [
+          "2 lb frog legs",
+          "1/4 cup wood ear mushrooms"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "roast-chukar-partridge-hf",
@@ -4051,7 +4700,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 22,
+          "fat_g": 0.5,
+          "carbs_g": 5.0,
+          "protein_g": 0.9,
+          "sodium_mg": 70,
+          "fiber_g": 2.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "2  chukars or Hungarian partridges",
+          "1 sprig rosemary",
+          "2 whole cloves"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "venison-steak-diane-hf",
@@ -4201,7 +4870,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 609,
+          "fat_g": 43.4,
+          "carbs_g": 13.9,
+          "protein_g": 39.2,
+          "sodium_mg": 1127,
+          "fiber_g": 3.1,
+          "sugar_g": 7.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "sharp-tailed-grouse-rosehip-hf",
@@ -4298,7 +4983,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 104,
+          "fat_g": 11.5,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 228,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2  sharp-tailed grouse",
+          "3 tbsp rose hip jelly"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "venison-liver-onions-hf",
@@ -4424,7 +5128,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 190,
+          "fat_g": 11.8,
+          "carbs_g": 19.0,
+          "protein_g": 2.5,
+          "sodium_mg": 1862,
+          "fiber_g": 1.8,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "1 lb deer liver"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "braised-venison-tongue-hf",
@@ -4546,7 +5268,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 165,
+          "fat_g": 9.5,
+          "carbs_g": 5.7,
+          "protein_g": 14.2,
+          "sodium_mg": 1213,
+          "fiber_g": 1.3,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "4 sprigs fresh thyme"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "peppered-dove-breasts-hf",
@@ -4669,7 +5409,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 183,
+          "fat_g": 17.2,
+          "carbs_g": 5.7,
+          "protein_g": 1.3,
+          "sodium_mg": 231,
+          "fiber_g": 1.1,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "16  dove breasts"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "turkish-roast-pigeon-hf",
@@ -4823,7 +5581,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 296,
+          "fat_g": 22.6,
+          "carbs_g": 21.8,
+          "protein_g": 5.8,
+          "sodium_mg": 479,
+          "fiber_g": 4.4,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "2  pigeons or squab"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "pigeon-tortellini-hf",
@@ -4968,7 +5744,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 159,
+          "fat_g": 14.9,
+          "carbs_g": 1.9,
+          "protein_g": 3.6,
+          "sodium_mg": 827,
+          "fiber_g": 0.4,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "1 lb pigeon meat",
+          "1 lb fresh pasta sheets",
+          "6  juniper berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "sichuan-crispy-carp-hf",
@@ -5106,7 +5902,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 283,
+          "fat_g": 4.8,
+          "carbs_g": 54.0,
+          "protein_g": 2.6,
+          "sodium_mg": 1263,
+          "fiber_g": 1.7,
+          "sugar_g": 10.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "catfish-etouffee-hf",
@@ -5261,7 +6073,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 472,
+          "fat_g": 21.8,
+          "carbs_g": 35.1,
+          "protein_g": 36.4,
+          "sodium_mg": 1722,
+          "fiber_g": 5.5,
+          "sugar_g": 10.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "turkey-carnitas-hf",
@@ -5417,7 +6245,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 92,
+          "fat_g": 5.7,
+          "carbs_g": 9.5,
+          "protein_g": 2.3,
+          "sodium_mg": 1577,
+          "fiber_g": 1.7,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [
+          "3-4 lb wild turkey legs and thighs"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "bbq-turkey-legs-hf",
@@ -5535,7 +6381,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 0.1,
+          "carbs_g": 32.4,
+          "protein_g": 1.2,
+          "sodium_mg": 877,
+          "fiber_g": 0.3,
+          "sugar_g": 26.6
+        },
+        "missing_inputs": [
+          "4  turkey thighs",
+          "dry rub",
+          "2 tbsp bourbon"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "andouille-sausage-hf",
@@ -5666,7 +6532,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 834,
+          "fat_g": 57.0,
+          "carbs_g": 2.9,
+          "protein_g": 74.2,
+          "sodium_mg": 4438,
+          "fiber_g": 1.0,
+          "sugar_g": 0.3
+        },
+        "missing_inputs": [
+          "1/4 cup powdered milk",
+          "hog casings"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "boudin-sausage-hf",
@@ -5820,7 +6705,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 565,
+          "fat_g": 25.4,
+          "carbs_g": 36.6,
+          "protein_g": 46.9,
+          "sodium_mg": 7715,
+          "fiber_g": 4.5,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [
+          "0.5 lb pork or duck liver",
+          "hog casings"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "venison-sausage-hf",
@@ -5951,7 +6855,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 741,
+          "fat_g": 51.2,
+          "carbs_g": 2.6,
+          "protein_g": 64.8,
+          "sodium_mg": 4406,
+          "fiber_g": 0.6,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "hog casings"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "polish-duck-sausage-hf",
@@ -6085,7 +7007,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 140,
+          "fat_g": 9.6,
+          "carbs_g": 1.7,
+          "protein_g": 11.6,
+          "sodium_mg": 4247,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "3 lb duck meat",
+          "1/4 cup powdered milk",
+          "hog casings"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     }
   ]
 }

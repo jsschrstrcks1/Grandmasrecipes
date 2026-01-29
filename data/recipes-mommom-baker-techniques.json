@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "techniques",
     "total_recipes": 1,
-    "generated": "2026-01-23T14:31:32.324974Z",
+    "generated": "2026-01-29T11:11:47.824675Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -67,7 +67,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 48,
+          "fat_g": 0.1,
+          "carbs_g": 12.5,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 2.2,
+          "sugar_g": 9.5
+        },
+        "missing_inputs": [
+          "1 gallon pasteurized cider"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     }
   ]
 }

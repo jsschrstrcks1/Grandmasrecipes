@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "preserves",
     "total_recipes": 86,
-    "generated": "2026-01-23T14:31:32.265825Z",
+    "generated": "2026-01-29T11:11:47.777436Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -71,7 +71,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 773,
+          "fat_g": 0.0,
+          "carbs_g": 209.2,
+          "protein_g": 0.8,
+          "sodium_mg": 10,
+          "fiber_g": 0.0,
+          "sugar_g": 208.5
+        },
+        "missing_inputs": [
+          "2 cups strong sassafras tea",
+          "1 package powdered pectin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-rhubarb-jelly",
@@ -163,7 +183,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1345,
+          "fat_g": 0.3,
+          "carbs_g": 346.5,
+          "protein_g": 1.7,
+          "sodium_mg": 11,
+          "fiber_g": 3.0,
+          "sugar_g": 339.4
+        },
+        "missing_inputs": [
+          "1 bottle liquid pectin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-poke-pickles",
@@ -247,7 +286,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 109,
+          "fat_g": 0.0,
+          "carbs_g": 25.7,
+          "protein_g": 0.0,
+          "sodium_mg": 1744,
+          "fiber_g": 0.3,
+          "sugar_g": 25.1
+        },
+        "missing_inputs": [
+          "very young poke stalks",
+          "several whole cloves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-pickled-pussley",
@@ -319,7 +378,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 22,
+          "fat_g": 0.7,
+          "carbs_g": 3.3,
+          "protein_g": 0.9,
+          "sodium_mg": 172,
+          "fiber_g": 0.9,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "pussley tips"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-blackberry-syrup",
@@ -403,7 +481,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 394,
+          "fat_g": 0.4,
+          "carbs_g": 101.4,
+          "protein_g": 0.1,
+          "sodium_mg": 2,
+          "fiber_g": 0.6,
+          "sugar_g": 100.0
+        },
+        "missing_inputs": [
+          "1 quart blackberry juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-blackberry-jelly",
@@ -473,7 +570,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 352,
+          "fat_g": 0.7,
+          "carbs_g": 89.0,
+          "protein_g": 2.0,
+          "sodium_mg": 2,
+          "fiber_g": 7.6,
+          "sugar_g": 82.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-sumac-elderberry-jelly",
@@ -549,7 +663,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 0.0,
+          "carbs_g": 50.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [
+          "1 pint sumac berries",
+          "1 pint elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-elderberry-jelly",
@@ -615,7 +749,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 435,
+          "fat_g": 0.0,
+          "carbs_g": 112.5,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 112.5
+        },
+        "missing_inputs": [
+          "elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-spiced-elderberries",
@@ -697,7 +850,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 195,
+          "fat_g": 0.1,
+          "carbs_g": 50.3,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.1,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [
+          "elderberries",
+          "to cover vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-wild-strawberry-jam",
@@ -760,7 +933,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 582,
+          "fat_g": 0.0,
+          "carbs_g": 150.2,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.1,
+          "sugar_g": 150.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-wild-strawberry-preserves",
@@ -826,7 +1016,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 194,
+          "fat_g": 0.0,
+          "carbs_g": 50.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 50.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-strawberry-leather",
@@ -892,7 +1099,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-canned-wild-greens",
@@ -976,7 +1200,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.1,
+          "carbs_g": 0.5,
+          "protein_g": 0.5,
+          "sodium_mg": 12,
+          "fiber_g": 0.3,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-candied-persimmons",
@@ -1031,7 +1272,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "persimmons",
+          "for layering sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-persimmon-butter",
@@ -1107,7 +1368,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 158,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "persimmons",
+          "for flavoring spices or orange rind"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-wild-plum-conserve",
@@ -1187,7 +1468,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2657,
+          "fat_g": 0.7,
+          "carbs_g": 688.8,
+          "protein_g": 5.8,
+          "sodium_mg": 24,
+          "fiber_g": 7.2,
+          "sugar_g": 657.5
+        },
+        "missing_inputs": [
+          "7 lb wild plums"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-plum-jelly",
@@ -1263,7 +1563,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 435,
+          "fat_g": 0.0,
+          "carbs_g": 112.5,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 112.5
+        },
+        "missing_inputs": [
+          "1/2 gallon half-ripe plums"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-elderberry-apple-orange-jam",
@@ -1342,7 +1661,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1303,
+          "fat_g": 1.1,
+          "carbs_g": 337.5,
+          "protein_g": 2.4,
+          "sodium_mg": 9,
+          "fiber_g": 15.9,
+          "sugar_g": 316.4
+        },
+        "missing_inputs": [
+          "1 quart elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-spiced-grapes",
@@ -1424,7 +1762,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2002,
+          "fat_g": 0.5,
+          "carbs_g": 517.8,
+          "protein_g": 2.5,
+          "sodium_mg": 12,
+          "fiber_g": 2.6,
+          "sugar_g": 507.5
+        },
+        "missing_inputs": [
+          "1 1/2 pints apple vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-mayapple-marmalade",
@@ -1489,7 +1846,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 0.1,
+          "carbs_g": 5.0,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.4,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-groundcherry-preserves",
@@ -1566,7 +1940,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 582,
+          "fat_g": 0.0,
+          "carbs_g": 150.5,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 150.2
+        },
+        "missing_inputs": [
+          "1 quart groundcherries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-pickled-walnuts",
@@ -1683,7 +2076,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 176,
+          "fat_g": 0.2,
+          "carbs_g": 4.1,
+          "protein_g": 0.2,
+          "sodium_mg": 126,
+          "fiber_g": 0.2,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "100  green walnuts",
+          "1/2 oz cloves"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-icicle-pickles",
@@ -1806,7 +2219,30 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 6370,
+          "fat_g": 0.1,
+          "carbs_g": 1604.6,
+          "protein_g": 0.3,
+          "sodium_mg": 56,
+          "fiber_g": 0.6,
+          "sugar_g": 1602.1
+        },
+        "missing_inputs": [
+          "2 gallons cucumbers",
+          "1 pint coarse salt",
+          "1 walnut-sized lump alum",
+          "1 tablet saccharine",
+          "1 tbsp pickling spice",
+          "2 tbsp cinnamon buds"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-lime-pickles",
@@ -1899,7 +2335,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1303,
+          "fat_g": 0.2,
+          "carbs_g": 327.2,
+          "protein_g": 1.0,
+          "sodium_mg": 11,
+          "fiber_g": 1.5,
+          "sugar_g": 324.8
+        },
+        "missing_inputs": [
+          "3 cups builder's lime",
+          "2 tbsp pickling spice"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-spiced-grapes",
@@ -1987,7 +2442,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2566,
+          "fat_g": 0.9,
+          "carbs_g": 663.7,
+          "protein_g": 3.7,
+          "sodium_mg": 19,
+          "fiber_g": 4.6,
+          "sugar_g": 647.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-pickled-green-tomatoes",
@@ -2081,7 +2553,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 0.2,
+          "carbs_g": 3.0,
+          "protein_g": 0.6,
+          "sodium_mg": 3,
+          "fiber_g": 0.9,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "2-3 small whole hot pepper pods",
+          "2 parts vinegar",
+          "1 part sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-pickled-peaches-apples",
@@ -2184,7 +2677,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 24,
+          "fat_g": 0.1,
+          "carbs_g": 6.2,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 1.1,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [
+          "2 parts vinegar",
+          "2 parts sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire2-pepper-sauce",
@@ -2281,7 +2794,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 739,
+          "fat_g": 1.6,
+          "carbs_g": 166.1,
+          "protein_g": 8.3,
+          "sodium_mg": 3523,
+          "fiber_g": 16.0,
+          "sugar_g": 136.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-mint-jelly",
@@ -2357,7 +2887,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 12,
+          "fat_g": 0.0,
+          "carbs_g": 3.1,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [
+          "pectin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-mint-vinegar",
@@ -2431,7 +2980,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 0.1,
+          "carbs_g": 51.6,
+          "protein_g": 0.2,
+          "sodium_mg": 5,
+          "fiber_g": 0.5,
+          "sugar_g": 50.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-fig-preserves",
@@ -2495,7 +3061,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 108,
+          "fat_g": 0.1,
+          "carbs_g": 28.8,
+          "protein_g": 1.2,
+          "sodium_mg": 4,
+          "fiber_g": 1.2,
+          "sugar_g": 21.5
+        },
+        "missing_inputs": [
+          "to cover figs sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-crabapple-jelly",
@@ -2573,7 +3158,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 217,
+          "fat_g": 0.1,
+          "carbs_g": 56.2,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 1.1,
+          "sugar_g": 54.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-crabapple-butter",
@@ -2655,7 +3257,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 680,
+          "fat_g": 0.4,
+          "carbs_g": 176.3,
+          "protein_g": 0.5,
+          "sodium_mg": 5,
+          "fiber_g": 5.1,
+          "sugar_g": 169.0
+        },
+        "missing_inputs": [
+          "4 cups sweet cider"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-sweet-pickled-crabapples",
@@ -2744,7 +3365,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1118,
+          "fat_g": 0.7,
+          "carbs_g": 279.2,
+          "protein_g": 0.7,
+          "sodium_mg": 12,
+          "fiber_g": 6.5,
+          "sugar_g": 269.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "foxfire3-possum-haw-jelly",
@@ -2820,7 +3457,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "possum haw berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-red-haw-relish",
@@ -2913,7 +3569,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 563,
+          "fat_g": 0.4,
+          "carbs_g": 143.5,
+          "protein_g": 0.8,
+          "sodium_mg": 10,
+          "fiber_g": 2.7,
+          "sugar_g": 138.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire3-haw-marmalade",
@@ -2983,7 +3656,24 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/foxfire-three.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 0.1,
+          "carbs_g": 5.0,
+          "protein_g": 0.1,
+          "sodium_mg": 1,
+          "fiber_g": 0.4,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "foxfire4-sassafras-jelly",
@@ -3066,7 +3756,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1548,
+          "fat_g": 0.0,
+          "carbs_g": 400.0,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 400.0
+        },
+        "missing_inputs": [
+          "8 cups sassafras tea",
+          "1 package Sure-Jell"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-violet-jelly",
@@ -3153,7 +3862,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 14,
+          "fat_g": 0.0,
+          "carbs_g": 3.8,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.2,
+          "sugar_g": 3.3
+        },
+        "missing_inputs": [
+          "as needed  pectin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire2-violet-syrup",
@@ -3239,7 +3966,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 0.1,
+          "carbs_g": 5.5,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.4,
+          "sugar_g": 4.6
+        },
+        "missing_inputs": [
+          "as needed  violet blossoms"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-garlic-vinegar",
@@ -3294,7 +4039,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 86,
+          "fat_g": 0.0,
+          "carbs_g": 1.8,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "6-8  wild garlic bulbs"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-raspberry-pickles",
@@ -3373,7 +4136,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 911,
+          "fat_g": 6.7,
+          "carbs_g": 223.4,
+          "protein_g": 12.2,
+          "sodium_mg": 12,
+          "fiber_g": 66.0,
+          "sugar_g": 140.0
+        },
+        "missing_inputs": [
+          "1 1/2 pints good apple vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-raspberry-vinegar",
@@ -3442,7 +4223,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2416,
+          "fat_g": 25.6,
+          "carbs_g": 493.4,
+          "protein_g": 48.0,
+          "sodium_mg": 48,
+          "fiber_g": 256.0,
+          "sugar_g": 169.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-sumac-elderberry-jelly",
@@ -3517,7 +4314,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 0.0,
+          "carbs_g": 66.7,
+          "protein_g": 0.0,
+          "sodium_mg": 1,
+          "fiber_g": 0.0,
+          "sugar_g": 66.7
+        },
+        "missing_inputs": [
+          "1 pint sumac berries",
+          "1 quart elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-elderberry-jam",
@@ -3576,7 +4392,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 776,
+          "fat_g": 0.0,
+          "carbs_g": 200.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 200.0
+        },
+        "missing_inputs": [
+          "8 cups elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-elderberry-apple-orange-jam",
@@ -3655,7 +4489,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 652,
+          "fat_g": 0.6,
+          "carbs_g": 168.8,
+          "protein_g": 1.2,
+          "sodium_mg": 4,
+          "fiber_g": 7.9,
+          "sugar_g": 158.2
+        },
+        "missing_inputs": [
+          "1 quart elderberries"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "dandelion-blossom-syrup-etw",
@@ -3727,7 +4579,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1548,
+          "fat_g": 0.0,
+          "carbs_g": 400.0,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 400.0
+        },
+        "missing_inputs": [
+          "1/2  lemon or orange"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "kudzu-blossom-jelly-etw",
@@ -3811,7 +4681,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 646,
+          "fat_g": 0.0,
+          "carbs_g": 166.8,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 166.7
+        },
+        "missing_inputs": [
+          "4 cups kudzu blossoms",
+          "1 3/4 oz powdered pectin"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "beautyberry-jelly-etw",
@@ -3904,7 +4793,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 871,
+          "fat_g": 0.0,
+          "carbs_g": 225.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 225.0
+        },
+        "missing_inputs": [
+          "1 1/2 quarts ripe beautyberries",
+          "3 cups beautyberry infusion",
+          "1 envelope Sure-Jell pectin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "loquat-jelly-etw",
@@ -3988,7 +4897,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 857,
+          "fat_g": 0.1,
+          "carbs_g": 221.7,
+          "protein_g": 0.1,
+          "sodium_mg": 3,
+          "fiber_g": 0.1,
+          "sugar_g": 220.6
+        },
+        "missing_inputs": [
+          "5 lbs ripe loquats",
+          "1 package pectin"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "spiced-loquats-etw",
@@ -4075,7 +5003,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 808,
+          "fat_g": 0.6,
+          "carbs_g": 203.2,
+          "protein_g": 0.2,
+          "sodium_mg": 9,
+          "fiber_g": 1.1,
+          "sugar_g": 200.2
+        },
+        "missing_inputs": [
+          "3 lbs firm loquats",
+          "2 inches cinnamon stick"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "mulberry-vinegar-etw",
@@ -4151,7 +5098,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 226,
+          "fat_g": 0.0,
+          "carbs_g": 50.7,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 50.3
+        },
+        "missing_inputs": [
+          "3 quarts clean mulberries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "mulberry-sauce-etw",
@@ -4214,7 +5179,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 586,
+          "fat_g": 0.3,
+          "carbs_g": 151.3,
+          "protein_g": 0.1,
+          "sodium_mg": 4,
+          "fiber_g": 0.6,
+          "sugar_g": 150.0
+        },
+        "missing_inputs": [
+          "4 cups mulberries"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "maypop-jelly-etw",
@@ -4287,7 +5270,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 968,
+          "fat_g": 0.0,
+          "carbs_g": 250.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.0,
+          "sugar_g": 250.0
+        },
+        "missing_inputs": [
+          "2 cups ripe maypops",
+          "1 3/4 oz pectin"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "daylily-jelly-etw",
@@ -4376,7 +5378,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 622,
+          "fat_g": 0.0,
+          "carbs_g": 160.8,
+          "protein_g": 0.1,
+          "sodium_mg": 2,
+          "fiber_g": 0.1,
+          "sugar_g": 160.3
+        },
+        "missing_inputs": [
+          "day lily petals",
+          "5 cups day lily juice",
+          "1 package pectin"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "pindo-palm-jelly-etw",
@@ -4450,7 +5472,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 598,
+          "fat_g": 0.3,
+          "carbs_g": 155.0,
+          "protein_g": 0.8,
+          "sodium_mg": 9,
+          "fiber_g": 2.2,
+          "sugar_g": 150.5
+        },
+        "missing_inputs": [
+          "pectin"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cactus-jelly-etw",
@@ -4545,7 +5585,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 716,
+          "fat_g": 0.4,
+          "carbs_g": 185.9,
+          "protein_g": 1.0,
+          "sodium_mg": 10,
+          "fiber_g": 2.7,
+          "sugar_g": 179.4
+        },
+        "missing_inputs": [
+          "cheesecloth"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "juneberry-jam-etw",
@@ -4617,7 +5675,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 776,
+          "fat_g": 0.0,
+          "carbs_g": 200.8,
+          "protein_g": 0.0,
+          "sodium_mg": 2,
+          "fiber_g": 0.2,
+          "sugar_g": 200.1
+        },
+        "missing_inputs": [
+          "4 cups juneberries",
+          "4 cups cut-up rhubarb"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "hawthorn-jelly-no-cook-etw",
@@ -4679,7 +5757,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "one-seed hawthorn berries"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "hawthorn-jelly-gibbons-etw",
@@ -4760,7 +5857,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1468,
+          "fat_g": 0.3,
+          "carbs_g": 380.0,
+          "protein_g": 0.8,
+          "sodium_mg": 11,
+          "fiber_g": 2.2,
+          "sugar_g": 375.5
+        },
+        "missing_inputs": [
+          "powdered pectin",
+          "2 lemons lemon juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "dandelion-burdock-syrup-etw",
@@ -4847,7 +5964,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 43,
+          "fat_g": 0.2,
+          "carbs_g": 10.1,
+          "protein_g": 1.4,
+          "sodium_mg": 46,
+          "fiber_g": 3.4,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "2 tsp fine ground dandelion root",
+          "1.5 tsp fine ground burdock root",
+          "750 g sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     },
     {
       "id": "bulrush-flour-etw",
@@ -4903,7 +6041,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "bulrush roots"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "euell-gibbons-hawthorn-jelly-etw",
@@ -4994,7 +6150,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 840,
+          "fat_g": 0.2,
+          "carbs_g": 217.3,
+          "protein_g": 0.4,
+          "sodium_mg": 6,
+          "fiber_g": 1.3,
+          "sugar_g": 214.6
+        },
+        "missing_inputs": [
+          "1 package powdered pectin"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "josep-mercader-garum-etw",
@@ -5117,7 +6291,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6938,
+          "fat_g": 751.2,
+          "carbs_g": 166.4,
+          "protein_g": 44.2,
+          "sodium_mg": 32741,
+          "fiber_g": 66.9,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "1 tsp grainy mustard"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "quick-garum-etw",
@@ -5180,7 +6372,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 448,
+          "fat_g": 2.0,
+          "carbs_g": 104.1,
+          "protein_g": 8.0,
+          "sodium_mg": 8,
+          "fiber_g": 2.0,
+          "sugar_g": 84.0
+        },
+        "missing_inputs": [
+          "2 tbsp anchovy paste"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-rose-hip-jelly",
@@ -5257,7 +6467,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4 cups rose hips",
+          "1 cup per cup juice sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-scuppernong-preserves",
@@ -5329,7 +6558,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 quart scuppernong grapes",
+          "1/2 cup per cup juice sugar"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-hawthorn-jelly",
@@ -5413,7 +6661,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 lb hawthorn berries (haws)",
+          "1 lb per pint liquid sugar",
+          "1 dash lemon juice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-maypop-jelly",
@@ -5495,7 +6763,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "4 cups ripe maypops",
+          "1 pint per pint juice sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-jerusalem-artichoke-pickle",
@@ -5601,7 +6888,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 339,
+          "fat_g": 0.2,
+          "carbs_g": 81.5,
+          "protein_g": 0.8,
+          "sodium_mg": 3492,
+          "fiber_g": 1.4,
+          "sugar_g": 77.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-pumpkin-butter",
@@ -5682,7 +6985,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-pickling"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 0.3,
+          "carbs_g": 20.5,
+          "protein_g": 3.0,
+          "sodium_mg": 12,
+          "fiber_g": 3.2,
+          "sugar_g": 8.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-quince-honey",
@@ -5759,7 +7078,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-pickling"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "3  quinces",
+          "1 quart (2 lbs) sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-raspberry-jelly",
@@ -5836,7 +7174,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 1.6,
+          "carbs_g": 30.0,
+          "protein_g": 3.0,
+          "sodium_mg": 2,
+          "fiber_g": 16.0,
+          "sugar_g": 10.0
+        },
+        "missing_inputs": [
+          "1 lb per pint juice sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-raspberry-preserves",
@@ -5916,7 +7272,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 1.6,
+          "carbs_g": 30.0,
+          "protein_g": 3.0,
+          "sodium_mg": 2,
+          "fiber_g": 16.0,
+          "sugar_g": 10.0
+        },
+        "missing_inputs": [
+          "1 lb per lb berries sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-blackberry-syrup",
@@ -6011,7 +7385,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1578,
+          "fat_g": 1.4,
+          "carbs_g": 405.7,
+          "protein_g": 0.3,
+          "sodium_mg": 10,
+          "fiber_g": 2.6,
+          "sugar_g": 400.0
+        },
+        "missing_inputs": [
+          "1 quart blackberry juice"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-huckleberry-jam",
@@ -6088,7 +7480,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 519,
+          "fat_g": 0.5,
+          "carbs_g": 133.5,
+          "protein_g": 1.0,
+          "sodium_mg": 2,
+          "fiber_g": 4.0,
+          "sugar_g": 127.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-fig-preserves",
@@ -6174,7 +7582,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2512,
+          "fat_g": 2.0,
+          "carbs_g": 660.6,
+          "protein_g": 20.0,
+          "sodium_mg": 74,
+          "fiber_g": 20.0,
+          "sugar_g": 544.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-grape-jelly",
@@ -6261,7 +7685,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1308,
+          "fat_g": 0.0,
+          "carbs_g": 338.0,
+          "protein_g": 0.0,
+          "sodium_mg": 3,
+          "fiber_g": 0.2,
+          "sugar_g": 337.5
+        },
+        "missing_inputs": [
+          "1 gallon wild grapes",
+          "1 pint apple vinegar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-spiced-grapes",
@@ -6360,7 +7803,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1468,
+          "fat_g": 0.1,
+          "carbs_g": 379.5,
+          "protein_g": 0.1,
+          "sodium_mg": 6,
+          "fiber_g": 0.8,
+          "sugar_g": 377.8
+        },
+        "missing_inputs": [
+          "7 lbs fox or possum grapes"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-muscadine-jelly",
@@ -6438,7 +7899,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/publicism.info-foxfire-wild-plants"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 lbs muscadines",
+          "1 lb per pint juice sugar"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cranberry-sauce-etw",
@@ -6498,7 +7978,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 577,
+          "fat_g": 0.1,
+          "carbs_g": 149.3,
+          "protein_g": 0.5,
+          "sodium_mg": 4,
+          "fiber_g": 6.7,
+          "sugar_g": 138.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "spiced-cranberries-etw",
@@ -6564,7 +8060,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 158,
+          "fat_g": 0.6,
+          "carbs_g": 31.8,
+          "protein_g": 1.1,
+          "sodium_mg": 10,
+          "fiber_g": 13.0,
+          "sugar_g": 10.3
+        },
+        "missing_inputs": [
+          "2 tbsp cinnamon or allspice"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cranberry-orange-relish-etw",
@@ -6629,7 +8143,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 928,
+          "fat_g": 0.4,
+          "carbs_g": 239.0,
+          "protein_g": 1.8,
+          "sodium_mg": 6,
+          "fiber_g": 13.0,
+          "sugar_g": 220.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cranberry-salsa-etw",
@@ -6720,7 +8250,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 235,
+          "fat_g": 0.1,
+          "carbs_g": 61.7,
+          "protein_g": 0.8,
+          "sodium_mg": 59,
+          "fiber_g": 4.4,
+          "sugar_g": 53.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "jerusalem-artichoke-pickles-etw",
@@ -6780,7 +8326,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.2,
+          "protein_g": 0.1,
+          "sodium_mg": 0,
+          "fiber_g": 0.1,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "bread and butter pickle brine"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "foxfire-pickled-pigs-feet",
@@ -6866,7 +8430,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 47,
+          "fat_g": 0.2,
+          "carbs_g": 1.7,
+          "protein_g": 0.1,
+          "sodium_mg": 3490,
+          "fiber_g": 0.3,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "8  pig's feet"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from preserves category"
+        ]
+      }
     }
   ]
 }

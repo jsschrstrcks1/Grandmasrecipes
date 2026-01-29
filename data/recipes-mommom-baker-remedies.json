@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "remedies",
     "total_recipes": 1,
-    "generated": "2026-01-23T14:31:32.276685Z",
+    "generated": "2026-01-29T11:11:47.787035Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -74,7 +74,27 @@
           "historical remedy - not for modern medical use"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 part pine tar (resin)",
+          "5 parts molasses",
+          "2 parts sulfur"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     }
   ]
 }

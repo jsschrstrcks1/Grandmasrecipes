@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "condiments",
     "total_recipes": 24,
-    "generated": "2026-01-23T14:31:32.137902Z",
+    "generated": "2026-01-29T11:11:47.672237Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -2516,7 +2516,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1548,
+          "fat_g": 0.0,
+          "carbs_g": 400.0,
+          "protein_g": 0.0,
+          "sodium_mg": 4,
+          "fiber_g": 0.0,
+          "sugar_g": 400.0
+        },
+        "missing_inputs": [
+          "8 cups sassafras tea",
+          "1 package Sure-Jell"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     }
   ]
 }

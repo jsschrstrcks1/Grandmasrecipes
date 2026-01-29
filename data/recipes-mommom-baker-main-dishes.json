@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "main-dishes",
     "total_recipes": 214,
-    "generated": "2026-01-23T14:31:32.210874Z",
+    "generated": "2026-01-29T11:11:47.736966Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1207,7 +1207,7 @@
       }
     },
     {
-      "id": "bacon-double-cheese-quiche-gahb",
+      "id": "bacon-double-cheese-quiche-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Bacon and Double Cheese Quiche",
@@ -12481,6 +12481,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 353,
+          "fat_g": 17.4,
+          "carbs_g": 24.5,
+          "protein_g": 23.9,
+          "sodium_mg": 163,
+          "fiber_g": 2.9,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
       }
     },
     {
@@ -12577,6 +12593,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 345,
+          "fat_g": 27.7,
+          "carbs_g": 3.7,
+          "protein_g": 21.0,
+          "sodium_mg": 173,
+          "fiber_g": 0.9,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [
+          "flour for dredging"
+        ],
+        "assumptions": [
+          "Calculated for 9 servings"
+        ]
       }
     },
     {
@@ -12678,6 +12712,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 181,
+          "fat_g": 4.4,
+          "carbs_g": 14.9,
+          "protein_g": 18.9,
+          "sodium_mg": 3717,
+          "fiber_g": 2.0,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -12821,6 +12871,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 436,
+          "fat_g": 17.8,
+          "carbs_g": 42.1,
+          "protein_g": 24.3,
+          "sodium_mg": 657,
+          "fiber_g": 3.7,
+          "sugar_g": 5.5
+        },
+        "missing_inputs": [
+          "1 can (15 oz) black-eyed peas"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -12931,6 +12999,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 101,
+          "fat_g": 1.2,
+          "carbs_g": 22.1,
+          "protein_g": 1.4,
+          "sodium_mg": 128,
+          "fiber_g": 0.4,
+          "sugar_g": 16.8
+        },
+        "missing_inputs": [
+          "2 lbs beef or pork"
+        ],
+        "assumptions": [
+          "Calculated for 24 servings"
+        ]
       }
     },
     {
@@ -13008,6 +13094,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 9,
+          "fat_g": 0.0,
+          "carbs_g": 1.9,
+          "protein_g": 0.2,
+          "sodium_mg": 74,
+          "fiber_g": 0.4,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1 1/2 lbs beef or pork"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -13138,6 +13242,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 850,
+          "fat_g": 50.7,
+          "carbs_g": 60.5,
+          "protein_g": 38.0,
+          "sodium_mg": 1956,
+          "fiber_g": 4.8,
+          "sugar_g": 7.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -13223,6 +13343,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 388,
+          "fat_g": 28.7,
+          "carbs_g": 4.5,
+          "protein_g": 27.4,
+          "sodium_mg": 331,
+          "fiber_g": 1.1,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "fresh corn scraped from ears"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -13351,6 +13489,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 411,
+          "fat_g": 26.4,
+          "carbs_g": 15.5,
+          "protein_g": 26.7,
+          "sodium_mg": 1126,
+          "fiber_g": 3.2,
+          "sugar_g": 9.3
+        },
+        "missing_inputs": [
+          "1 can (15 oz) sauerkraut"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -13477,6 +13633,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 633,
+          "fat_g": 38.5,
+          "carbs_g": 23.7,
+          "protein_g": 43.7,
+          "sodium_mg": 1323,
+          "fiber_g": 3.4,
+          "sugar_g": 8.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -13563,6 +13735,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 317,
+          "fat_g": 20.2,
+          "carbs_g": 6.5,
+          "protein_g": 25.1,
+          "sodium_mg": 906,
+          "fiber_g": 1.6,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -13734,6 +13922,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 306,
+          "fat_g": 19.8,
+          "carbs_g": 17.4,
+          "protein_g": 15.7,
+          "sodium_mg": 1295,
+          "fiber_g": 3.6,
+          "sugar_g": 8.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -13841,6 +14045,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 459,
+          "fat_g": 27.5,
+          "carbs_g": 16.1,
+          "protein_g": 33.2,
+          "sodium_mg": 1449,
+          "fiber_g": 2.8,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "1 can (8 oz) pinto beans with liquid"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -13943,6 +14165,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 728,
+          "fat_g": 52.0,
+          "carbs_g": 16.9,
+          "protein_g": 45.9,
+          "sodium_mg": 2024,
+          "fiber_g": 3.0,
+          "sugar_g": 8.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -14048,6 +14286,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 764,
+          "fat_g": 54.9,
+          "carbs_g": 40.4,
+          "protein_g": 27.9,
+          "sodium_mg": 2348,
+          "fiber_g": 4.8,
+          "sugar_g": 6.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -14104,6 +14358,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 300,
+          "fat_g": 20.1,
+          "carbs_g": 2.6,
+          "protein_g": 24.4,
+          "sodium_mg": 91,
+          "fiber_g": 0.8,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
       }
     },
     {
@@ -14207,6 +14478,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 19.1,
+          "carbs_g": 13.2,
+          "protein_g": 20.5,
+          "sodium_mg": 580,
+          "fiber_g": 1.8,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "1 medium bag (9 oz) corn chips"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -14311,6 +14600,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 208,
+          "fat_g": 14.0,
+          "carbs_g": 9.1,
+          "protein_g": 11.3,
+          "sodium_mg": 464,
+          "fiber_g": 2.2,
+          "sugar_g": 5.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -14458,6 +14763,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 396,
+          "fat_g": 24.0,
+          "carbs_g": 23.3,
+          "protein_g": 23.2,
+          "sodium_mg": 1665,
+          "fiber_g": 4.3,
+          "sugar_g": 10.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -14579,6 +14900,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 518,
+          "fat_g": 26.7,
+          "carbs_g": 30.1,
+          "protein_g": 30.5,
+          "sodium_mg": 560,
+          "fiber_g": 2.4,
+          "sugar_g": 3.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -14698,6 +15035,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 274,
+          "fat_g": 22.6,
+          "carbs_g": 7.1,
+          "protein_g": 10.8,
+          "sodium_mg": 1389,
+          "fiber_g": 2.0,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [
+          "1 pkg (10 oz) tortilla chips"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -14811,6 +15166,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 337,
+          "fat_g": 12.7,
+          "carbs_g": 29.5,
+          "protein_g": 20.7,
+          "sodium_mg": 588,
+          "fiber_g": 2.5,
+          "sugar_g": 0.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -14939,6 +15310,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 430,
+          "fat_g": 20.8,
+          "carbs_g": 18.5,
+          "protein_g": 43.5,
+          "sodium_mg": 1481,
+          "fiber_g": 5.4,
+          "sugar_g": 6.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
       }
     },
     {
@@ -15054,6 +15441,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 780,
+          "fat_g": 53.9,
+          "carbs_g": 40.5,
+          "protein_g": 32.2,
+          "sodium_mg": 1014,
+          "fiber_g": 4.1,
+          "sugar_g": 7.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -15182,6 +15585,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 265,
+          "fat_g": 13.6,
+          "carbs_g": 27.9,
+          "protein_g": 7.3,
+          "sodium_mg": 743,
+          "fiber_g": 2.5,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [
+          "1 can (6 1/2 oz) tuna"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -15312,6 +15733,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 553,
+          "fat_g": 33.6,
+          "carbs_g": 3.3,
+          "protein_g": 56.4,
+          "sodium_mg": 732,
+          "fiber_g": 0.7,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "1 cup tomatillos (or green tomato relish)",
+          "1 cup broth from meat"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -15419,6 +15859,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 499,
+          "fat_g": 36.3,
+          "carbs_g": 9.7,
+          "protein_g": 31.8,
+          "sodium_mg": 1228,
+          "fiber_g": 2.0,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -15479,6 +15935,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 200,
+          "fat_g": 14.1,
+          "carbs_g": 8.4,
+          "protein_g": 9.5,
+          "sodium_mg": 896,
+          "fiber_g": 1.9,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -15594,6 +16066,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 257,
+          "fat_g": 13.4,
+          "carbs_g": 21.6,
+          "protein_g": 12.9,
+          "sodium_mg": 648,
+          "fiber_g": 2.6,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -15688,6 +16176,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 287,
+          "fat_g": 21.8,
+          "carbs_g": 3.6,
+          "protein_g": 19.0,
+          "sodium_mg": 587,
+          "fiber_g": 0.0,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [
+          "1/4 cup (scant) flour"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -15778,6 +16284,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 256,
+          "fat_g": 18.5,
+          "carbs_g": 6.4,
+          "protein_g": 15.5,
+          "sodium_mg": 663,
+          "fiber_g": 0.4,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "sprinkle garlic salt"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
       }
     },
     {
@@ -15872,6 +16396,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 590,
+          "fat_g": 42.5,
+          "carbs_g": 13.9,
+          "protein_g": 37.4,
+          "sodium_mg": 978,
+          "fiber_g": 0.8,
+          "sugar_g": 1.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
       }
     },
     {
@@ -15977,6 +16517,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 1.3,
+          "carbs_g": 23.1,
+          "protein_g": 4.0,
+          "sodium_mg": 1093,
+          "fiber_g": 2.4,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [
+          "8 strips Monterey Jack or cheddar cheese"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -16086,6 +16644,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 4.5,
+          "carbs_g": 23.5,
+          "protein_g": 8.4,
+          "sodium_mg": 556,
+          "fiber_g": 4.4,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -16183,6 +16757,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 76,
+          "fat_g": 2.4,
+          "carbs_g": 11.2,
+          "protein_g": 3.1,
+          "sodium_mg": 813,
+          "fiber_g": 3.4,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "6  sopaipillas",
+          "1  small head lettuce"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -16276,6 +16869,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 376,
+          "fat_g": 21.6,
+          "carbs_g": 26.7,
+          "protein_g": 17.1,
+          "sodium_mg": 1087,
+          "fiber_g": 1.6,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [
+          "1 pkg dry yeast"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -16380,6 +16991,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 412,
+          "fat_g": 26.5,
+          "carbs_g": 30.2,
+          "protein_g": 13.1,
+          "sodium_mg": 684,
+          "fiber_g": 1.5,
+          "sugar_g": 3.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -16454,6 +17081,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 233,
+          "fat_g": 17.3,
+          "carbs_g": 3.9,
+          "protein_g": 14.8,
+          "sodium_mg": 103,
+          "fiber_g": 0.2,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
       }
     },
     {
@@ -16556,6 +17200,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 421,
+          "fat_g": 26.7,
+          "carbs_g": 35.8,
+          "protein_g": 14.2,
+          "sodium_mg": 968,
+          "fiber_g": 7.3,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [
+          "1/4 cup more butter"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
       }
     },
     {
@@ -16634,6 +17297,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 621,
+          "fat_g": 25.1,
+          "carbs_g": 22.8,
+          "protein_g": 77.6,
+          "sodium_mg": 905,
+          "fiber_g": 0.9,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
       }
     },
     {
@@ -16744,10 +17424,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 683,
+          "fat_g": 45.1,
+          "carbs_g": 23.6,
+          "protein_g": 50.0,
+          "sodium_mg": 393,
+          "fiber_g": 4.7,
+          "sugar_g": 13.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
       }
     },
     {
-      "id": "shepherds-cheese-bake-ancients",
+      "id": "shepherds-cheese-bake-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Shepherd's Cheese Bake",
@@ -16852,7 +17549,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 698,
+          "fat_g": 46.5,
+          "carbs_g": 41.9,
+          "protein_g": 29.4,
+          "sodium_mg": 992,
+          "fiber_g": 1.5,
+          "sugar_g": 9.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "onion-tart-hiram-ancients",
@@ -16996,10 +17709,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 696,
+          "fat_g": 57.8,
+          "carbs_g": 27.3,
+          "protein_g": 17.8,
+          "sodium_mg": 808,
+          "fiber_g": 1.5,
+          "sugar_g": 5.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
-      "id": "fricassee-festus-ancients",
+      "id": "fricassee-festus-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Fricassee Festus",
@@ -17133,7 +17862,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 635,
+          "fat_g": 50.8,
+          "carbs_g": 2.3,
+          "protein_g": 40.1,
+          "sodium_mg": 406,
+          "fiber_g": 0.7,
+          "sugar_g": 0.7
+        },
+        "missing_inputs": [
+          "3 heads cos lettuce (romaine)"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "spicy-meatballs-jasmine",
@@ -17267,10 +18014,30 @@
           "handwritten recipe - some quantities unclear"
         ]
       },
-      "servings_yield": "4 servings"
+      "servings_yield": "4 servings",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 692,
+          "fat_g": 36.4,
+          "carbs_g": 52.4,
+          "protein_g": 35.6,
+          "sodium_mg": 566,
+          "fiber_g": 0.0,
+          "sugar_g": 50.5
+        },
+        "missing_inputs": [
+          "1 pkg crackers",
+          "onion flakes",
+          "1 tsp apricot"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
-      "id": "chicken-pot-pie-gahb",
+      "id": "chicken-pot-pie-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Pot Pie",
@@ -17427,6 +18194,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 806,
+          "fat_g": 59.6,
+          "carbs_g": 34.5,
+          "protein_g": 32.0,
+          "sodium_mg": 500,
+          "fiber_g": 2.8,
+          "sugar_g": 5.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -17573,7 +18356,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4 servings"
+      "servings_yield": "4 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 757,
+          "fat_g": 46.8,
+          "carbs_g": 15.3,
+          "protein_g": 63.7,
+          "sodium_mg": 1155,
+          "fiber_g": 1.0,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "1/4 cup fresh Italian herbs"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "broccoli-bread-quiche-fbc",
@@ -17655,7 +18456,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 361,
+          "fat_g": 38.9,
+          "carbs_g": 1.4,
+          "protein_g": 3.4,
+          "sodium_mg": 314,
+          "fiber_g": 0.4,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "vegetable-pie-fbc",
@@ -17769,7 +18586,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 17.8,
+          "carbs_g": 15.7,
+          "protein_g": 5.7,
+          "sodium_mg": 292,
+          "fiber_g": 3.5,
+          "sugar_g": 7.7
+        },
+        "missing_inputs": [
+          "3 tsp Grey Poupon mustard"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "creamy-crabmeat-casserole-fbc",
@@ -17896,6 +18731,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 196,
+          "fat_g": 16.7,
+          "carbs_g": 9.5,
+          "protein_g": 3.2,
+          "sodium_mg": 197,
+          "fiber_g": 1.3,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -17970,7 +18821,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 36,
+          "fat_g": 0.1,
+          "carbs_g": 1.6,
+          "protein_g": 1.1,
+          "sodium_mg": 6,
+          "fiber_g": 0.3,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [
+          "1  can cream of chicken soup"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "wild-rice-sausage-casserole-fbc",
@@ -18092,6 +18961,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 168,
+          "fat_g": 12.6,
+          "carbs_g": 5.7,
+          "protein_g": 7.6,
+          "sodium_mg": 565,
+          "fiber_g": 1.3,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "1 pkg Uncle Ben's long grain and wild rice mix",
+          "1 can undiluted soup",
+          "1 can cream of chicken"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -18199,6 +19088,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 7.9,
+          "carbs_g": 13.0,
+          "protein_g": 9.8,
+          "sodium_mg": 189,
+          "fiber_g": 0.6,
+          "sugar_g": 8.9
+        },
+        "missing_inputs": [
+          "1/2 lb ground ham",
+          "1 sm. bottle maraschino cherries"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -18311,7 +19219,27 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 41,
+          "fat_g": 1.3,
+          "carbs_g": 5.7,
+          "protein_g": 2.2,
+          "sodium_mg": 626,
+          "fiber_g": 0.8,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "1 can evaporated milk",
+          "1 lb ground meat",
+          "1/2 tsp MSG"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "vegetable-pie-fbc-jasmine",
@@ -18434,7 +19362,25 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 17.8,
+          "carbs_g": 15.7,
+          "protein_g": 5.7,
+          "sodium_mg": 292,
+          "fiber_g": 3.5,
+          "sugar_g": 7.7
+        },
+        "missing_inputs": [
+          "3 tsp Grey Poupon mustard"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "creamy-crabmeat-casserole-fbc-jasmine",
@@ -18566,6 +19512,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 10.4,
+          "carbs_g": 7.3,
+          "protein_g": 3.6,
+          "sodium_mg": 103,
+          "fiber_g": 0.7,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1 4 1/2 oz pkg imitation crabmeat",
+          "2 med. plum tomatoes"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -18641,7 +19606,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 186,
+          "fat_g": 4.6,
+          "carbs_g": 8.3,
+          "protein_g": 20.8,
+          "sodium_mg": 778,
+          "fiber_g": 1.8,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "two-way-casserole-fbc-jasmine",
@@ -18755,6 +19736,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 377,
+          "fat_g": 16.6,
+          "carbs_g": 31.0,
+          "protein_g": 22.7,
+          "sodium_mg": 803,
+          "fiber_g": 1.8,
+          "sugar_g": 3.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
       }
     },
     {
@@ -18863,6 +19860,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 12.6,
+          "carbs_g": 5.9,
+          "protein_g": 7.7,
+          "sodium_mg": 565,
+          "fiber_g": 1.4,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "1 6 oz pkg Uncle Ben's long grain and wild rice mix",
+          "1 4 oz pkg wild rice"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -18959,7 +19975,23 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 568,
+          "fat_g": 26.1,
+          "carbs_g": 11.7,
+          "protein_g": 64.2,
+          "sodium_mg": 917,
+          "fiber_g": 1.5,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "hungarian-cabbage-rolls-fbc-jasmine",
@@ -19062,7 +20094,26 @@
         "overall": "high",
         "flags": []
       },
-      "servings_yield": "4 servings"
+      "servings_yield": "4 servings",
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 500,
+          "fat_g": 31.6,
+          "carbs_g": 14.1,
+          "protein_g": 35.8,
+          "sodium_mg": 556,
+          "fiber_g": 0.7,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [
+          "1 can tomato soup or sauce",
+          "1 can sauerkraut"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "ham-with-pineapple-sauce-bhg",
@@ -19128,7 +20179,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5395 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 892,
+          "fat_g": 40.1,
+          "carbs_g": 2.7,
+          "protein_g": 120.3,
+          "sodium_mg": 403,
+          "fiber_g": 0.1,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [
+          "1/4 cup orange marmalade"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "ham-caribbean-bhg",
@@ -19223,7 +20292,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5395 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 272,
+          "fat_g": 8.7,
+          "carbs_g": 20.6,
+          "protein_g": 26.3,
+          "sodium_mg": 84,
+          "fiber_g": 1.0,
+          "sugar_g": 17.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "meat-corn-bread-squares-bhg",
@@ -19352,7 +20437,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5408 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 990,
+          "fat_g": 25.7,
+          "carbs_g": 130.0,
+          "protein_g": 61.1,
+          "sodium_mg": 1907,
+          "fiber_g": 30.2,
+          "sugar_g": 9.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "meat-pasta-bake-bhg",
@@ -19467,7 +20568,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5408 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 318,
+          "fat_g": 23.6,
+          "carbs_g": 6.3,
+          "protein_g": 17.8,
+          "sodium_mg": 119,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "10 3/4 oz condensed cream of mushroom or celery soup"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "hamburger-pie-bhg",
@@ -19572,7 +20691,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5408 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 401,
+          "fat_g": 21.4,
+          "carbs_g": 21.5,
+          "protein_g": 28.0,
+          "sodium_mg": 396,
+          "fiber_g": 2.6,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "16 oz cut green beans",
+          "10 3/4 oz condensed tomato soup"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "chili-mac-skillet-bhg",
@@ -19660,7 +20798,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5409 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1039,
+          "fat_g": 23.1,
+          "carbs_g": 138.4,
+          "protein_g": 71.0,
+          "sodium_mg": 2430,
+          "fiber_g": 36.1,
+          "sugar_g": 9.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "stuffed-green-peppers-bhg",
@@ -19764,7 +20918,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5409 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 292,
+          "fat_g": 15.5,
+          "carbs_g": 23.4,
+          "protein_g": 16.7,
+          "sodium_mg": 315,
+          "fiber_g": 5.8,
+          "sugar_g": 11.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "deep-dish-meat-pie-bhg",
@@ -19880,7 +21050,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5411 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 358,
+          "fat_g": 18.2,
+          "carbs_g": 27.8,
+          "protein_g": 20.3,
+          "sodium_mg": 440,
+          "fiber_g": 2.7,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "ham-potato-scallop-bhg",
@@ -19974,7 +21160,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5411 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 342,
+          "fat_g": 8.1,
+          "carbs_g": 48.4,
+          "protein_g": 18.4,
+          "sodium_mg": 176,
+          "fiber_g": 4.8,
+          "sugar_g": 3.9
+        },
+        "missing_inputs": [
+          "10 3/4 oz cream of mushroom or celery soup",
+          "1 tbsp snipped parsley"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "meaty-noodle-casserole-bhg",
@@ -20070,7 +21275,26 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5411 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 578,
+          "fat_g": 32.1,
+          "carbs_g": 33.0,
+          "protein_g": 34.7,
+          "sodium_mg": 196,
+          "fiber_g": 1.6,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "10 3/4 oz cream of mushroom soup",
+          "2 tbsp snipped parsley"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "corned-beef-hash-bhg",
@@ -20161,7 +21385,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5412 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 268,
+          "fat_g": 15.0,
+          "carbs_g": 1.9,
+          "protein_g": 28.8,
+          "sodium_mg": 425,
+          "fiber_g": 0.2,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "meaty-stuffed-potatoes-bhg",
@@ -20257,7 +21497,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5412 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 7.0,
+          "carbs_g": 39.0,
+          "protein_g": 10.6,
+          "sodium_mg": 462,
+          "fiber_g": 4.1,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "creamed-dried-beef-bhg",
@@ -20346,7 +21602,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5412 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 16.0,
+          "carbs_g": 27.9,
+          "protein_g": 14.8,
+          "sodium_mg": 744,
+          "fiber_g": 2.1,
+          "sugar_g": 10.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "chicken-with-papaya-bhg",
@@ -20474,7 +21746,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5473 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 422,
+          "fat_g": 18.4,
+          "carbs_g": 41.5,
+          "protein_g": 24.2,
+          "sodium_mg": 265,
+          "fiber_g": 3.4,
+          "sugar_g": 13.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "beer-batter-fried-chicken-bhg",
@@ -20567,7 +21855,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5473 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 525,
+          "fat_g": 24.2,
+          "carbs_g": 12.7,
+          "protein_g": 57.5,
+          "sodium_mg": 539,
+          "fiber_g": 0.4,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "cornmeal-batter-fried-chicken-bhg",
@@ -20674,7 +21978,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5474 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 559,
+          "fat_g": 27.0,
+          "carbs_g": 16.7,
+          "protein_g": 58.5,
+          "sodium_mg": 329,
+          "fiber_g": 0.9,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "turkey-rice-skillet-bhg",
@@ -20761,7 +22081,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5474 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 4.6,
+          "carbs_g": 10.8,
+          "protein_g": 5.0,
+          "sodium_mg": 259,
+          "fiber_g": 1.6,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [
+          "1 lb ground raw turkey"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "mediterranean-chicken-bhg",
@@ -20885,7 +22223,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5477 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 461,
+          "fat_g": 26.6,
+          "carbs_g": 24.4,
+          "protein_g": 28.4,
+          "sodium_mg": 558,
+          "fiber_g": 5.2,
+          "sugar_g": 10.0
+        },
+        "missing_inputs": [
+          "1 medium green or sweet red pepper"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "chicken-country-captain-bhg",
@@ -21020,7 +22376,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5477 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 586,
+          "fat_g": 22.6,
+          "carbs_g": 34.0,
+          "protein_g": 59.9,
+          "sodium_mg": 398,
+          "fiber_g": 5.1,
+          "sugar_g": 10.2
+        },
+        "missing_inputs": [
+          "1/4 cup snipped parsley"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "stewed-chicken-bhg",
@@ -21117,7 +22491,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5478 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 505,
+          "fat_g": 22.1,
+          "carbs_g": 4.8,
+          "protein_g": 66.5,
+          "sodium_mg": 692,
+          "fiber_g": 1.4,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "3 stalks celery with leaves"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "chicken-and-dumplings-bhg",
@@ -21214,7 +22606,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5478 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 448,
+          "fat_g": 18.5,
+          "carbs_g": 9.8,
+          "protein_g": 56.2,
+          "sodium_mg": 314,
+          "fiber_g": 2.1,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [
+          "Dumplings for Stew"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "chicken-potpies-bhg",
@@ -21341,7 +22751,25 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5479 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 382,
+          "fat_g": 20.5,
+          "carbs_g": 28.4,
+          "protein_g": 20.9,
+          "sodium_mg": 638,
+          "fiber_g": 4.2,
+          "sugar_g": 7.4
+        },
+        "missing_inputs": [
+          "1/4 cup snipped parsley"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "chicken-a-la-king-bhg",
@@ -21452,7 +22880,23 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5479 Large.jpeg"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 758,
+          "fat_g": 22.4,
+          "carbs_g": 98.0,
+          "protein_g": 37.1,
+          "sodium_mg": 531,
+          "fiber_g": 6.6,
+          "sugar_g": 6.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "dandelion-burgers-etw",
@@ -21542,7 +22986,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 2.1,
+          "carbs_g": 26.8,
+          "protein_g": 5.6,
+          "sodium_mg": 171,
+          "fiber_g": 1.3,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "1 cup dandelion petals"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "rolled-kudzu-leaves-etw",
@@ -21659,7 +23121,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 55,
+          "fat_g": 3.0,
+          "carbs_g": 4.0,
+          "protein_g": 3.2,
+          "sodium_mg": 174,
+          "fiber_g": 0.7,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "30 medium young kudzu leaves",
+          "3 lemons lemon juice"
+        ],
+        "assumptions": [
+          "Calculated for 30 servings"
+        ]
+      }
     },
     {
       "id": "kudzu-quiche-etw",
@@ -21742,7 +23223,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 229,
+          "fat_g": 21.3,
+          "carbs_g": 1.7,
+          "protein_g": 8.0,
+          "sodium_mg": 374,
+          "fiber_g": 0.0,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [
+          "1 cup young kudzu leaves and stems",
+          "1 9-inch unbaked pie shell"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "chickweed-bacon-pie-etw",
@@ -21856,7 +23356,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 11.9,
+          "carbs_g": 3.9,
+          "protein_g": 3.9,
+          "sodium_mg": 54,
+          "fiber_g": 0.3,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "3 cups chickweed",
+          "1 cup slab bacon"
+        ],
+        "assumptions": [
+          "Calculated for 7 servings"
+        ]
+      }
     },
     {
       "id": "bulrush-casserole-etw",
@@ -21941,7 +23460,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 282,
+          "fat_g": 16.9,
+          "carbs_g": 13.7,
+          "protein_g": 17.8,
+          "sodium_mg": 577,
+          "fiber_g": 1.6,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [
+          "1 lb small bulrush sprouts"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "hunters-stew-bulrush-etw",
@@ -22060,7 +23597,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1041,
+          "fat_g": 73.6,
+          "carbs_g": 13.8,
+          "protein_g": 69.2,
+          "sodium_mg": 3260,
+          "fiber_g": 1.6,
+          "sugar_g": 2.7
+        },
+        "missing_inputs": [
+          "2  medium bulrush roots",
+          "3 lbs boneless beef chunks",
+          "8  bulrush shoots"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "alligator-nuggets-etw",
@@ -22141,7 +23698,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 3.5,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 38,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1/2 lb alligator meat",
+          "fish batter",
+          "dipping sauces"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "alligator-sauce-piquant-etw",
@@ -22251,7 +23829,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 581,
+          "fat_g": 54.9,
+          "carbs_g": 21.5,
+          "protein_g": 3.2,
+          "sodium_mg": 522,
+          "fiber_g": 2.8,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [
+          "1 lb alligator meat",
+          "1/2 cup chopped onion tops"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "baked-armadillo-etw",
@@ -22334,7 +23932,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 234,
+          "fat_g": 23.1,
+          "carbs_g": 8.2,
+          "protein_g": 0.6,
+          "sodium_mg": 194,
+          "fiber_g": 0.8,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "1  armadillo",
+          "1.5 cups apple chunks",
+          "foil"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "armadillo-fricassee-etw",
@@ -22444,7 +24063,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 379,
+          "fat_g": 23.4,
+          "carbs_g": 38.9,
+          "protein_g": 4.8,
+          "sodium_mg": 484,
+          "fiber_g": 4.7,
+          "sugar_g": 5.2
+        },
+        "missing_inputs": [
+          "1  armadillo"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "armadillo-chili-etw",
@@ -22572,7 +24210,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 511,
+          "fat_g": 17.5,
+          "carbs_g": 89.2,
+          "protein_g": 16.6,
+          "sodium_mg": 1733,
+          "fiber_g": 24.7,
+          "sugar_g": 53.1
+        },
+        "missing_inputs": [
+          "3.5-4 lbs armadillo",
+          "1  dried red chili pod"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "armadillo-meatloaf-etw",
@@ -22661,7 +24319,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 91,
+          "fat_g": 4.7,
+          "carbs_g": 6.5,
+          "protein_g": 5.6,
+          "sodium_mg": 741,
+          "fiber_g": 0.3,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [
+          "1.5 lbs ground armadillo meat"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "groundnut-olive-stew-etw",
@@ -22770,7 +24447,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 267,
+          "fat_g": 15.1,
+          "carbs_g": 24.5,
+          "protein_g": 13.7,
+          "sodium_mg": 516,
+          "fiber_g": 7.3,
+          "sugar_g": 13.2
+        },
+        "missing_inputs": [
+          "8-16 oz boiled groundnuts"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "cattail-casserole-etw",
@@ -22840,7 +24536,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 274,
+          "fat_g": 9.4,
+          "carbs_g": 23.9,
+          "protein_g": 23.2,
+          "sodium_mg": 438,
+          "fiber_g": 1.8,
+          "sugar_g": 4.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "eel-stifle-etw",
@@ -22927,7 +24640,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 316,
+          "fat_g": 10.6,
+          "carbs_g": 41.9,
+          "protein_g": 13.8,
+          "sodium_mg": 390,
+          "fiber_g": 5.0,
+          "sugar_g": 10.3
+        },
+        "missing_inputs": [
+          "2 lbs eel"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "grilled-eel-etw",
@@ -23001,7 +24732,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 164,
+          "fat_g": 18.2,
+          "carbs_g": 1.0,
+          "protein_g": 0.2,
+          "sodium_mg": 38,
+          "fiber_g": 0.8,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 lbs eel"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "jellied-eel-etw",
@@ -23087,7 +24837,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 45,
+          "fat_g": 3.1,
+          "carbs_g": 3.9,
+          "protein_g": 0.5,
+          "sodium_mg": 57,
+          "fiber_g": 1.6,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2  cleaned eels"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "english-eel-pie-etw",
@@ -23211,7 +24980,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 273,
+          "fat_g": 16.6,
+          "carbs_g": 19.2,
+          "protein_g": 6.8,
+          "sodium_mg": 426,
+          "fiber_g": 1.2,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [
+          "2  large eels"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "achilles-eel-etw",
@@ -23341,7 +25129,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 203,
+          "fat_g": 15.5,
+          "carbs_g": 11.8,
+          "protein_g": 7.1,
+          "sodium_mg": 471,
+          "fiber_g": 3.0,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "2 lbs eel"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "gar-lobster-etw",
@@ -23420,7 +25227,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 29,
+          "fat_g": 3.1,
+          "carbs_g": 0.6,
+          "protein_g": 0.2,
+          "sodium_mg": 62,
+          "fiber_g": 0.2,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "gar fish"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "cuy-chactado-etw",
@@ -23497,7 +25323,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 298,
+          "fat_g": 28.2,
+          "carbs_g": 12.0,
+          "protein_g": 1.7,
+          "sodium_mg": 38,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1  guinea pig"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     },
     {
       "id": "cuy-picante-huanuqueno-etw",
@@ -23612,7 +25457,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 842,
+          "fat_g": 56.2,
+          "carbs_g": 78.6,
+          "protein_g": 9.7,
+          "sodium_mg": 905,
+          "fiber_g": 9.5,
+          "sugar_g": 5.1
+        },
+        "missing_inputs": [
+          "2  large guinea pigs",
+          "2 tbsp aji panca",
+          "2 tbsp aji mirasol",
+          "guinea pig hearts and livers"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "cuyes-en-salsa-de-mani-etw",
@@ -23691,7 +25557,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 122,
+          "fat_g": 3.6,
+          "carbs_g": 20.5,
+          "protein_g": 2.0,
+          "sodium_mg": 41,
+          "fiber_g": 1.1,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "creamy peanut sauce",
+          "fried yuccas"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings",
+          "Serving size inferred from main-dishes category"
+        ]
+      }
     }
   ]
 }

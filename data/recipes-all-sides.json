@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "sides",
     "total_recipes": 362,
-    "generated": "2026-01-23T14:31:31.859237Z",
+    "generated": "2026-01-29T11:11:47.429126Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -23003,7 +23003,7 @@
       "id": "ricecroquettes-theplainsa",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Ricecroquettes",
+      "title": "Rice Croquettes",
       "category": "sides",
       "attribution": "",
       "source_note": "The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922 (PDF cookbook)",
@@ -23014,64 +23014,64 @@
       "total_time": "",
       "ingredients": [
         {
-          "item": "egg Saucepan",
+          "item": "rice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
           "quantity": "1",
           "unit": "",
           "prep_note": ""
         },
         {
-          "item": "butter Plate",
+          "item": "butter",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "salt 2 bowls",
-          "quantity": "14",
+          "item": "salt",
+          "quantity": "1/4",
           "unit": "tsp",
           "prep_note": ""
+        },
+        {
+          "item": "breadcrumbs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for coating"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "1.Wash thericeinastrainer."
+          "text": "Wash the rice in a strainer."
         },
         {
           "step": 2,
-          "text": "2.Putapint ortwoofhotwater intoasaucepan, set"
+          "text": "Put a pint or two of hot water into a saucepan, set the saucepan over the fire, and let the water come to a boil."
         },
         {
           "step": 3,
-          "text": "thesaucepan over the fire,and letthewater come"
+          "text": "Add the rice to the rapidly boiling water and allow it to cook until tender."
         },
         {
           "step": 4,
-          "text": "3.Addthericetotherapidly boiliag water, andallow"
+          "text": "Take from the fire, drain off the water through a strainer, put the rice in a bowl, and add the butter and salt."
         },
         {
           "step": 5,
-          "text": "4.Take from the fire,drain offthewater through a"
+          "text": "Beat the egg in a bowl, add half of it to the rice, and mix well."
         },
         {
           "step": 6,
-          "text": "strainer, putthericeinabowl,andaddthebutter"
+          "text": "Put the rice on a plate, spreading it out thinly, and let it cool."
         },
         {
           "step": 7,
-          "text": "5.Beat theegginabowl,addhalfofittotherice,and"
-        },
-        {
-          "step": 8,
-          "text": "6.Putthericeonaplate, spreading itoutthinly, and"
-        },
-        {
-          "step": 9,
-          "text": "7.Mould thericeintosmall balls orcylinders, dipeach"
-        },
-        {
-          "step": 10,
-          "text": "ball inthebeaten egginthebowl, then roll itin"
+          "text": "Mould the rice into small balls or cylinders, dip each ball in the beaten egg in the bowl, then roll it in breadcrumbs. Fry until golden brown."
         }
       ],
       "temperature": "",
@@ -28657,7 +28657,7 @@
       }
     },
     {
-      "id": "our-fava-beans-ancients",
+      "id": "our-fava-beans-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Our Fava Beans",
@@ -28959,7 +28959,7 @@
       }
     },
     {
-      "id": "naomis-carrot-cheese-bake-ancients",
+      "id": "naomis-carrot-cheese-bake-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Naomi's Carrot-Cheese Bake",
@@ -29202,10 +29202,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
-        "per_serving": {},
-        "missing_inputs": [],
-        "assumptions": []
+        "status": "partial",
+        "per_serving": {
+          "calories": 655,
+          "fat_g": 23.1,
+          "carbs_g": 110.3,
+          "protein_g": 6.3,
+          "sodium_mg": 5210,
+          "fiber_g": 3.0,
+          "sugar_g": 92.8
+        },
+        "missing_inputs": [
+          "1 tbsp prepared yellow mustard"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
       }
     },
     {
@@ -29284,7 +29296,23 @@
       "image_refs": [],
       "variants": [
         "lgc-paneer"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 184,
+          "fat_g": 9.8,
+          "carbs_g": 14.8,
+          "protein_g": 9.8,
+          "sodium_mg": 308,
+          "fiber_g": 0.0,
+          "sugar_g": 14.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 13 servings"
+        ]
+      }
     },
     {
       "id": "queso-blanco",
@@ -29354,7 +29382,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1201,
+          "fat_g": 64.0,
+          "carbs_g": 96.0,
+          "protein_g": 64.0,
+          "sodium_mg": 7815,
+          "fiber_g": 0.0,
+          "sugar_g": 96.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "fromage-blanc",
@@ -29422,7 +29466,25 @@
       "image_refs": [],
       "variants": [
         "psr-fromage-blanc"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 238,
+          "fat_g": 12.8,
+          "carbs_g": 19.2,
+          "protein_g": 12.8,
+          "sodium_mg": 168,
+          "fiber_g": 0.0,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [
+          "1 packet Fromage Blanc culture packet"
+        ],
+        "assumptions": [
+          "Calculated for 10 servings"
+        ]
+      }
     },
     {
       "id": "mascarpone",
@@ -29496,7 +29558,25 @@
       "image_refs": [],
       "variants": [
         "lgc-mascarpone"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 3284,
+          "fat_g": 352.0,
+          "carbs_g": 28.0,
+          "protein_g": 20.0,
+          "sodium_mg": 356,
+          "fiber_g": 0.0,
+          "sugar_g": 28.0
+        },
+        "missing_inputs": [
+          "1/4 tsp tartaric acid"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "homemade-butter",
@@ -29568,7 +29648,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1642,
+          "fat_g": 176.0,
+          "carbs_g": 14.0,
+          "protein_g": 10.0,
+          "sodium_mg": 759,
+          "fiber_g": 0.0,
+          "sugar_g": 14.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "creme-fraiche",
@@ -29642,7 +29738,23 @@
       "image_refs": [],
       "variants": [
         "psr-creme-fraiche"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1698,
+          "fat_g": 181.6,
+          "carbs_g": 15.0,
+          "protein_g": 10.6,
+          "sodium_mg": 192,
+          "fiber_g": 0.0,
+          "sugar_g": 14.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-fresh-cheese",
@@ -29732,7 +29844,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 4235,
+          "fat_g": 272.0,
+          "carbs_g": 208.2,
+          "protein_g": 240.0,
+          "sodium_mg": 3046,
+          "fiber_g": 0.0,
+          "sugar_g": 208.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-cream-cheese-yogurt-method",
@@ -29807,7 +29935,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 291,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "16 oz sheep's milk yogurt"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-cream-cheese-traditional",
@@ -29919,7 +30065,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2954,
+          "fat_g": 224.2,
+          "carbs_g": 116.7,
+          "protein_g": 125.3,
+          "sodium_mg": 2775,
+          "fiber_g": 0.3,
+          "sugar_g": 113.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-mascarpone",
@@ -29996,7 +30158,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4,
+          "fat_g": 0.0,
+          "carbs_g": 1.0,
+          "protein_g": 0.0,
+          "sodium_mg": 150,
+          "fiber_g": 0.0,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "2 cups sheep's milk cream"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-fromage-blanc",
@@ -30073,7 +30253,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2112,
+          "fat_g": 136.0,
+          "carbs_g": 104.0,
+          "protein_g": 120.0,
+          "sodium_mg": 941,
+          "fiber_g": 0.0,
+          "sugar_g": 104.0
+        },
+        "missing_inputs": [
+          "1 packet fromage blanc culture"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-burrata",
@@ -30155,7 +30353,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 291,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 lb sheep's milk mozzarella curd",
+          "1/2 cup sheep's milk cream"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-serra-da-estrela",
@@ -30237,7 +30454,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 4224,
+          "fat_g": 272.0,
+          "carbs_g": 208.0,
+          "protein_g": 240.0,
+          "sodium_mg": 4208,
+          "fiber_g": 0.0,
+          "sugar_g": 208.0
+        },
+        "missing_inputs": [
+          "2 tbsp cardoon thistle extract"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-azeitao",
@@ -30310,7 +30545,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1056,
+          "fat_g": 68.0,
+          "carbs_g": 52.0,
+          "protein_g": 60.0,
+          "sodium_mg": 1342,
+          "fiber_g": 0.0,
+          "sugar_g": 52.0
+        },
+        "missing_inputs": [
+          "1 tbsp cardoon thistle extract"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-american-cheese",
@@ -30397,7 +30650,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 436,
+          "fat_g": 39.5,
+          "carbs_g": 7.0,
+          "protein_g": 13.7,
+          "sodium_mg": 1503,
+          "fiber_g": 0.0,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [
+          "1 tbsp sodium citrate"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sheep-milk-bryndza",
@@ -30476,7 +30747,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 33,
+          "fat_g": 2.1,
+          "carbs_g": 1.6,
+          "protein_g": 1.9,
+          "sodium_mg": 4656,
+          "fiber_g": 0.0,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "2 lbs fresh sheep's milk curd"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "italian-ricotta",
@@ -30563,7 +30852,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 304,
+          "fat_g": 16.0,
+          "carbs_g": 24.0,
+          "protein_g": 16.0,
+          "sodium_mg": 1372,
+          "fiber_g": 0.0,
+          "sugar_g": 24.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "scandinavian-gjetost",
@@ -30650,7 +30957,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1165,
+          "fat_g": 108.0,
+          "carbs_g": 29.0,
+          "protein_g": 23.0,
+          "sodium_mg": 189,
+          "fiber_g": 0.0,
+          "sugar_g": 29.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh goat's milk whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "portuguese-serra-da-estrela",
@@ -30742,7 +31067,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 3488,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 tbsp cardoon thistle extract"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "middle-eastern-labneh",
@@ -30826,7 +31169,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 6750,
+          "fat_g": 764.0,
+          "carbs_g": 0.0,
+          "protein_g": 8.0,
+          "sodium_mg": 6146,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "indian-paneer",
@@ -30914,7 +31273,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.4,
+          "protein_g": 0.0,
+          "sodium_mg": 97,
+          "fiber_g": 0.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "african-ayib",
@@ -30987,7 +31362,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1584,
+          "fat_g": 35.2,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 4112,
+          "fiber_g": 0.0,
+          "sugar_g": 192.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "russian-tvorog",
@@ -31064,7 +31455,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1680,
+          "fiber_g": 0.0,
+          "sugar_g": 192.0
+        },
+        "missing_inputs": [
+          "1 cup buttermilk or kefir"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "polish-twarog",
@@ -31147,7 +31556,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2483,
+          "fat_g": 130.2,
+          "carbs_g": 204.0,
+          "protein_g": 136.0,
+          "sodium_mg": 3100,
+          "fiber_g": 0.0,
+          "sugar_g": 204.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "balkan-kajmak",
@@ -31225,7 +31650,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2325,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "hungarian-liptauer",
@@ -31335,7 +31776,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 522,
+          "fat_g": 48.0,
+          "carbs_g": 23.0,
+          "protein_g": 3.4,
+          "sodium_mg": 776,
+          "fiber_g": 5.9,
+          "sugar_g": 10.6
+        },
+        "missing_inputs": [
+          "8 oz sheep's milk feta or bryndza"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "czech-olomoucke-tvaruzky",
@@ -31418,7 +31877,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.1,
+          "protein_g": 0.0,
+          "sodium_mg": 581,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 lbs tvorog or quark"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "italian-mascarpone",
@@ -31497,7 +31974,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 3292,
+          "fat_g": 352.0,
+          "carbs_g": 30.0,
+          "protein_g": 20.0,
+          "sodium_mg": 356,
+          "fiber_g": 0.0,
+          "sugar_g": 28.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "spanish-torta-del-casar",
@@ -31584,7 +32077,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 3488,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 tbsp cardoon thistle extract"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "mongolian-aaruul",
@@ -31663,7 +32174,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 0.0,
+          "carbs_g": 25.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 25.0
+        },
+        "missing_inputs": [
+          "1 gallon buttermilk or kefir"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "middle-eastern-shanklish",
@@ -31758,7 +32287,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 163,
+          "fat_g": 18.2,
+          "carbs_g": 0.7,
+          "protein_g": 0.2,
+          "sodium_mg": 594,
+          "fiber_g": 0.5,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "2 lbs labneh or strained yogurt",
+          "1/2 cup za'atar"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "cypriot-anari",
@@ -31841,7 +32389,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 1268,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "slovenian-mohant",
@@ -31925,7 +32491,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.1,
+          "carbs_g": 1.5,
+          "protein_g": 0.2,
+          "sodium_mg": 6975,
+          "fiber_g": 0.6,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 lbs leftover cheese curds or bits"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "luxembourgish-kachkeis",
@@ -32018,7 +32602,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 613,
+          "fat_g": 68.0,
+          "carbs_g": 1.8,
+          "protein_g": 1.6,
+          "sodium_mg": 3289,
+          "fiber_g": 0.0,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [
+          "1 lb quark or curd cheese"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "verduras-gratinadas-con-sardo",
@@ -32155,7 +32757,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 132,
+          "fat_g": 9.8,
+          "carbs_g": 9.2,
+          "protein_g": 2.1,
+          "sodium_mg": 18,
+          "fiber_g": 2.5,
+          "sugar_g": 5.8
+        },
+        "missing_inputs": [
+          "1 cup grated Sardo cheese"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "magnasco-edam-grated-vegetables",
@@ -32269,7 +32889,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 276,
+          "fat_g": 12.4,
+          "carbs_g": 30.2,
+          "protein_g": 12.5,
+          "sodium_mg": 766,
+          "fiber_g": 4.1,
+          "sugar_g": 4.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "labneh-cheese",
@@ -32351,7 +32987,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 358,
+          "fat_g": 23.0,
+          "carbs_g": 24.0,
+          "protein_g": 16.0,
+          "sodium_mg": 791,
+          "fiber_g": 0.0,
+          "sugar_g": 24.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "mysost-whey-cheese",
@@ -32435,7 +33087,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 27,
+          "fat_g": 2.9,
+          "carbs_g": 0.2,
+          "protein_g": 0.2,
+          "sodium_mg": 42,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "7 quarts fresh whey"
+        ],
+        "assumptions": [
+          "Calculated for 30 servings"
+        ]
+      }
     },
     {
       "id": "lemon-cheese",
@@ -32519,7 +33189,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2398,
+          "fat_g": 128.2,
+          "carbs_g": 196.2,
+          "protein_g": 128.2,
+          "sodium_mg": 4006,
+          "fiber_g": 0.2,
+          "sugar_g": 193.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "sour-cream-homemade",
@@ -32592,7 +33278,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 849,
+          "fat_g": 90.8,
+          "carbs_g": 7.5,
+          "protein_g": 5.3,
+          "sodium_mg": 96,
+          "fiber_g": 0.0,
+          "sugar_g": 7.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cup-cheese-pennsylvania-dutch",
@@ -32681,7 +33383,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 425,
+          "fat_g": 32.5,
+          "carbs_g": 8.9,
+          "protein_g": 25.7,
+          "sodium_mg": 2119,
+          "fiber_g": 0.0,
+          "sugar_g": 5.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "psr-farmers-cheese",
@@ -32767,7 +33485,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1208,
+          "fat_g": 64.0,
+          "carbs_g": 100.0,
+          "protein_g": 64.0,
+          "sodium_mg": 990,
+          "fiber_g": 0.0,
+          "sugar_g": 97.6
+        },
+        "missing_inputs": [
+          "2 cup cultured buttermilk"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "psr-fromage-blanc",
@@ -32845,7 +33581,25 @@
       "image_refs": [],
       "variants": [
         "fromage-blanc"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 1680,
+          "fiber_g": 0.0,
+          "sugar_g": 192.0
+        },
+        "missing_inputs": [
+          "1 packet Fromage Blanc Starter Culture"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "psr-yogurt-cheese",
@@ -32908,7 +33662,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 3256,
+          "fat_g": 368.0,
+          "carbs_g": 0.0,
+          "protein_g": 4.0,
+          "sodium_mg": 2492,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "psr-cultured-butter",
@@ -32987,7 +33757,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1642,
+          "fat_g": 176.0,
+          "carbs_g": 14.0,
+          "protein_g": 10.0,
+          "sodium_mg": 178,
+          "fiber_g": 0.0,
+          "sugar_g": 14.0
+        },
+        "missing_inputs": [
+          "1/4 cup cultured buttermilk with live cultures"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "psr-creme-fraiche",
@@ -33054,7 +33842,23 @@
       "image_refs": [],
       "variants": [
         "creme-fraiche"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 849,
+          "fat_g": 90.8,
+          "carbs_g": 7.5,
+          "protein_g": 5.3,
+          "sodium_mg": 96,
+          "fiber_g": 0.0,
+          "sugar_g": 7.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "reddit-potato-cheese-casserole",
@@ -33176,7 +33980,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 273,
+          "fat_g": 15.6,
+          "carbs_g": 24.0,
+          "protein_g": 9.2,
+          "sodium_mg": 430,
+          "fiber_g": 2.6,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "reddit-funeral-potatoes",
@@ -33306,7 +34126,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 271,
+          "fat_g": 18.2,
+          "carbs_g": 20.5,
+          "protein_g": 6.9,
+          "sodium_mg": 451,
+          "fiber_g": 1.9,
+          "sugar_g": 2.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "reddit-lime-jello-salad",
@@ -33415,7 +34251,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 187,
+          "fat_g": 15.7,
+          "carbs_g": 7.6,
+          "protein_g": 4.8,
+          "sodium_mg": 196,
+          "fiber_g": 0.3,
+          "sugar_g": 6.1
+        },
+        "missing_inputs": [
+          "1 package lime Jello"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
+      }
     },
     {
       "id": "vintage-green-bean-casserole",
@@ -33517,7 +34371,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 91,
+          "fat_g": 3.8,
+          "carbs_g": 12.1,
+          "protein_g": 3.2,
+          "sodium_mg": 353,
+          "fiber_g": 3.0,
+          "sugar_g": 5.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "queso-quesadilla",
@@ -33595,7 +34465,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 8687,
+          "fiber_g": 0.0,
+          "sugar_g": 192.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "requeson",
@@ -33672,7 +34558,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 2325,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 gallon whey from cheese making",
+          "1/4 cup acid (lemon juice, vinegar, or citric acid)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "cf-greek-tzatziki",
@@ -33777,7 +34682,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 198,
+          "fat_g": 18.0,
+          "carbs_g": 6.4,
+          "protein_g": 4.7,
+          "sodium_mg": 57,
+          "fiber_g": 0.2,
+          "sugar_g": 5.5
+        },
+        "missing_inputs": [
+          "3 medium cucumbers, very finely diced"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "cf-poutine",
@@ -33867,7 +34790,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1699,
+          "fat_g": 179.4,
+          "carbs_g": 37.0,
+          "protein_g": 4.0,
+          "sodium_mg": 13,
+          "fiber_g": 4.0,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [
+          "2 cups fresh cheese curds",
+          "10.25 oz beef gravy (canned or homemade)"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     },
     {
       "id": "cf-homemade-cream-cheese",
@@ -33975,7 +34917,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 110,
+          "fat_g": 11.5,
+          "carbs_g": 2.0,
+          "protein_g": 0.3,
+          "sodium_mg": 1824,
+          "fiber_g": 0.2,
+          "sugar_g": 0.4
+        },
+        "missing_inputs": [
+          "1 packet buttermilk culture (or MM 100)"
+        ],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "duntovs-blue-cheese-dressing",
@@ -34071,7 +35031,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 1059,
+          "fat_g": 107.1,
+          "carbs_g": 9.7,
+          "protein_g": 16.5,
+          "sodium_mg": 1349,
+          "fiber_g": 0.5,
+          "sugar_g": 7.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 2 servings"
+        ]
+      }
     },
     {
       "id": "basil-butter",
@@ -34142,7 +35118,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 205,
+          "fat_g": 23.0,
+          "carbs_g": 0.5,
+          "protein_g": 0.3,
+          "sodium_mg": 156,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
+      }
     },
     {
       "id": "anari",
@@ -34217,7 +35209,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 1268,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey (from halloumi or other cheese)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "zaatar-labneh",
@@ -34298,7 +35308,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 834,
+          "fat_g": 60.0,
+          "carbs_g": 48.0,
+          "protein_g": 32.0,
+          "sodium_mg": 1582,
+          "fiber_g": 0.0,
+          "sugar_g": 48.0
+        },
+        "missing_inputs": [
+          "3 tbsp za'atar spice blend"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "ayib-ethiopian",
@@ -34376,7 +35404,25 @@
       "image_refs": [],
       "variants": [
         "ethiopian-ayib"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 2842,
+          "fiber_g": 0.0,
+          "sugar_g": 192.0
+        },
+        "missing_inputs": [
+          "1 cup buttermilk or yogurt"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "kurut-kazakh",
@@ -34447,7 +35493,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 30,
+          "fat_g": 1.6,
+          "carbs_g": 2.4,
+          "protein_g": 1.6,
+          "sodium_mg": 718,
+          "fiber_g": 0.0,
+          "sugar_g": 2.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 20 servings"
+        ]
+      }
     },
     {
       "id": "irimshik-kazakh",
@@ -34518,7 +35580,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 cup buttermilk or kefir"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "urda-romanian",
@@ -34597,7 +35677,25 @@
       "image_refs": [],
       "variants": [
         "urda-romanian-whey-cheese"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 149,
+          "fat_g": 8.0,
+          "carbs_g": 12.0,
+          "protein_g": 8.0,
+          "sodium_mg": 686,
+          "fiber_g": 0.0,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [
+          "1 gallon fresh whey (from cheesemaking)"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "tvarog-slavic",
@@ -34674,7 +35772,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 2384,
+          "fat_g": 128.0,
+          "carbs_g": 192.0,
+          "protein_g": 128.0,
+          "sodium_mg": 2842,
+          "fiber_g": 0.0,
+          "sugar_g": 192.0
+        },
+        "missing_inputs": [
+          "1 cup buttermilk or kefir"
+        ],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     },
     {
       "id": "saffron-paneer",
@@ -34760,7 +35876,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 2414,
+          "fat_g": 129.0,
+          "carbs_g": 194.0,
+          "protein_g": 129.1,
+          "sodium_mg": 2858,
+          "fiber_g": 0.0,
+          "sugar_g": 193.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 1 servings"
+        ]
+      }
     }
   ]
 }

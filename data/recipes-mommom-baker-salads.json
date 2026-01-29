@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "salads",
     "total_recipes": 75,
-    "generated": "2026-01-23T14:31:32.277225Z",
+    "generated": "2026-01-29T11:11:47.787210Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -6502,6 +6502,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 52,
+          "fat_g": 3.6,
+          "carbs_g": 4.9,
+          "protein_g": 0.7,
+          "sodium_mg": 72,
+          "fiber_g": 1.1,
+          "sugar_g": 2.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
       }
     },
     {
@@ -6596,6 +6612,22 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 79,
+          "fat_g": 7.1,
+          "carbs_g": 4.2,
+          "protein_g": 0.8,
+          "sodium_mg": 146,
+          "fiber_g": 1.3,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
       }
     },
     {
@@ -6655,6 +6687,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 6,
+          "fat_g": 0.0,
+          "carbs_g": 1.3,
+          "protein_g": 0.3,
+          "sodium_mg": 48,
+          "fiber_g": 0.4,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "1 pkg (3 oz) lime gelatin"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings"
+        ]
       }
     },
     {
@@ -6733,6 +6783,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 5,
+          "fat_g": 0.0,
+          "carbs_g": 1.0,
+          "protein_g": 0.2,
+          "sodium_mg": 26,
+          "fiber_g": 0.2,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [
+          "1 pkg (3 oz) lime gelatin",
+          "1 carton (8 oz) lemon gelatin",
+          "1 cup salad olives"
+        ],
+        "assumptions": [
+          "Calculated for 12 servings"
+        ]
       }
     },
     {
@@ -6811,6 +6881,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 154,
+          "fat_g": 15.0,
+          "carbs_g": 2.2,
+          "protein_g": 3.2,
+          "sodium_mg": 183,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "1 small head of leaf lettuce",
+          "1 cup seedless grapes"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
       }
     },
     {
@@ -6886,6 +6976,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 160,
+          "fat_g": 9.3,
+          "carbs_g": 14.5,
+          "protein_g": 6.1,
+          "sodium_mg": 8,
+          "fiber_g": 5.6,
+          "sugar_g": 1.7
+        },
+        "missing_inputs": [
+          "2 tsp mixed herbs: mint, basil, and thyme"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
       }
     },
     {
@@ -6972,6 +7081,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 337,
+          "fat_g": 28.0,
+          "carbs_g": 11.9,
+          "protein_g": 13.5,
+          "sodium_mg": 56,
+          "fiber_g": 4.4,
+          "sugar_g": 5.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
       }
     },
     {
@@ -7071,6 +7197,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 216,
+          "fat_g": 15.9,
+          "carbs_g": 13.3,
+          "protein_g": 6.1,
+          "sodium_mg": 307,
+          "fiber_g": 2.4,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
       }
     },
     {
@@ -7156,6 +7299,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 66,
+          "fat_g": 2.2,
+          "carbs_g": 9.4,
+          "protein_g": 3.6,
+          "sodium_mg": 228,
+          "fiber_g": 1.2,
+          "sugar_g": 5.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
       }
     },
     {
@@ -7229,7 +7389,27 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 2.3,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 97,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 cups cresses",
+          "1 tbsp French dressing"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
+      }
     },
     {
       "id": "foxfire2-mixed-green-salad",
@@ -7356,7 +7536,34 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.2,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "equal parts dandelion",
+          "equal parts shepherd's purse",
+          "equal parts peppergrass",
+          "equal parts curly dock",
+          "equal parts poke shoots",
+          "equal parts sorrel",
+          "for dressing oil",
+          "for dressing vinegar",
+          "for dressing mustard"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
+      }
     },
     {
       "id": "foxfire2-wilted-greens-bacon",
@@ -7440,7 +7647,28 @@
       },
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/Foxfire-Book-2.txt"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 23,
+          "fat_g": 1.6,
+          "carbs_g": 0.1,
+          "protein_g": 1.5,
+          "sodium_mg": 118,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "1 cup cress",
+          "1 cup dandelions",
+          "1 cup wild lettuce"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
+      }
     },
     {
       "id": "foxfire2-wild-lettuce-salad",
@@ -7532,7 +7760,23 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 72,
+          "fat_g": 3.4,
+          "carbs_g": 6.4,
+          "protein_g": 3.9,
+          "sodium_mg": 145,
+          "fiber_g": 1.0,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "appalachian-ramp-salad",
@@ -7596,7 +7840,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 31,
+          "fat_g": 3.3,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 26,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "2 cups young ramp leaves"
+        ],
+        "assumptions": [
+          "Calculated for 3 servings"
+        ]
+      }
     },
     {
       "id": "swamp-cabbage-slaw-etw",
@@ -7658,7 +7920,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 1,
+          "fat_g": 0.0,
+          "carbs_g": 0.3,
+          "protein_g": 0.0,
+          "sodium_mg": 39,
+          "fiber_g": 0.0,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "heart of palm"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
+      }
     },
     {
       "id": "amaranth-tabouli-etw",
@@ -7758,7 +8039,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 9.8,
+          "carbs_g": 11.0,
+          "protein_g": 1.4,
+          "sodium_mg": 74,
+          "fiber_g": 1.0,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
+      }
     },
     {
       "id": "bitter-melon-salad-etw",
@@ -7832,7 +8130,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 11,
+          "fat_g": 0.1,
+          "carbs_g": 2.5,
+          "protein_g": 0.3,
+          "sodium_mg": 52,
+          "fiber_g": 0.6,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "bitter melon gourds",
+          "vinaigrette"
+        ],
+        "assumptions": [
+          "Calculated for 6 servings",
+          "Serving size inferred from salads category"
+        ]
+      }
     },
     {
       "id": "nasturtium-bouquet-salad-etw",
@@ -7934,7 +8252,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "per_serving": {
+          "calories": 268,
+          "fat_g": 28.3,
+          "carbs_g": 4.0,
+          "protein_g": 2.0,
+          "sodium_mg": 59,
+          "fiber_g": 1.9,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [
+          "1/4 cup light olive oil",
+          "1 tbsp freshly squeezed lime juice",
+          "1 small bunch chives",
+          "1 lb tender spinach",
+          "nasturtium blossoms"
+        ],
+        "assumptions": [
+          "Calculated for 8 servings"
+        ]
+      }
     },
     {
       "id": "codium-salad-etw",
@@ -8035,7 +8375,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 45,
+          "fat_g": 0.1,
+          "carbs_g": 6.7,
+          "protein_g": 1.4,
+          "sodium_mg": 878,
+          "fiber_g": 0.8,
+          "sugar_g": 3.7
+        },
+        "missing_inputs": [
+          "4 cups codium seaweed"
+        ],
+        "assumptions": [
+          "Calculated for 4 servings"
+        ]
+      }
     },
     {
       "id": "sea-blite-sour-cream-salad-etw",
@@ -8122,7 +8480,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "per_serving": {
+          "calories": 155,
+          "fat_g": 11.1,
+          "carbs_g": 10.3,
+          "protein_g": 4.0,
+          "sodium_mg": 82,
+          "fiber_g": 1.2,
+          "sugar_g": 6.7
+        },
+        "missing_inputs": [
+          "4 cups sea blite leaves, stems, or flowers"
+        ],
+        "assumptions": [
+          "Calculated for 5 servings"
+        ]
+      }
     }
   ]
 }
