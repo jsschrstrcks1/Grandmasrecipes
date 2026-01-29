@@ -6466,12 +6466,578 @@ kbd {
   }
 }
 
+/* ============================================================
+   HEART-SMART CONVERTER PANEL
+   ============================================================ */
+.heart-smart-panel {
+  margin: 1.5rem 0;
+  border: 2px solid #e91e63;
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.heart-smart-panel[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.heart-smart-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+  cursor: pointer;
+  font-weight: 600;
+  color: #c2185b;
+  list-style: none;
+  user-select: none;
+}
+
+.heart-smart-header::-webkit-details-marker {
+  display: none;
+}
+
+.heart-smart-header:hover {
+  background: linear-gradient(135deg, #f8bbd9 0%, #f48fb1 100%);
+}
+
+.heart-smart-icon {
+  display: flex;
+  align-items: center;
+  color: #c2185b;
+}
+
+.heart-smart-title {
+  font-size: 1rem;
+}
+
+.heart-smart-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #d81b60;
+  margin-left: auto;
+}
+
+.heart-smart-header .chevron {
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+  color: #d81b60;
+  margin-left: 0.5rem;
+}
+
+.heart-smart-content {
+  padding: 1rem 1.25rem;
+}
+
+.heart-smart-intro {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Health Meters */
+.heart-smart-meters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.heart-smart-no-data {
+  background: #fff8e1;
+  border: 1px solid #ffecb3;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.heart-smart-no-data .heart-smart-meter-label {
+  color: #f57f17;
+  font-size: 0.85rem;
+}
+
+.heart-smart-meter {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid #e0e0e0;
+}
+
+.meter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.meter-label {
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: #333;
+}
+
+.meter-target {
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.meter-bar-container {
+  position: relative;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: visible;
+  margin-bottom: 0.4rem;
+}
+
+.meter-bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+.meter-over .meter-bar {
+  background: linear-gradient(90deg, #ff9800 0%, #f44336 100%);
+}
+
+.meter-ok .meter-bar {
+  background: linear-gradient(90deg, #66bb6a 0%, #4caf50 100%);
+}
+
+.meter-threshold {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: 100%;
+  width: 2px;
+  background: #333;
+  border-radius: 1px;
+}
+
+.meter-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meter-current {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.meter-over-badge {
+  background: #ffebee;
+  color: #c62828;
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.meter-ok-badge {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Flagged Ingredient Cards */
+.heart-smart-flagged-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.heart-smart-ingredient-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.heart-smart-ingredient-card[open] {
+  border-color: #f48fb1;
+  background: #fff;
+}
+
+.heart-smart-ingredient-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  flex-wrap: wrap;
+}
+
+.heart-smart-ingredient-header::-webkit-details-marker {
+  display: none;
+}
+
+.heart-smart-ingredient-header:hover {
+  background: #fef6f9;
+}
+
+.heart-smart-ingredient-card[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.heart-smart-ingredient-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.heart-smart-category-badge {
+  background: #fce4ec;
+  color: #c2185b;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.concern-badge {
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.concern-sodium {
+  background: #ff5722;
+}
+
+.concern-fat {
+  background: #e91e63;
+}
+
+.heart-smart-ingredient-header .chevron-small {
+  font-size: 0.6rem;
+  color: #999;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.heart-smart-ingredient-content {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.heart-smart-original-info {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #fff3e0;
+  border-radius: 4px;
+  border-left: 3px solid #ff9800;
+}
+
+.heart-smart-note {
+  font-size: 0.8rem;
+  color: #757575;
+  margin: 0.4rem 0 0.75rem;
+}
+
+/* Substitute Options */
+.heart-smart-substitutes {
+  margin-top: 0.5rem;
+}
+
+.heart-smart-sub-heading {
+  font-size: 0.85rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.heart-smart-sub-option {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.heart-smart-sub-option:hover {
+  border-color: #f48fb1;
+}
+
+.heart-smart-sub-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.heart-smart-sub-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.heart-benefit-badge {
+  background: #e91e63;
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.heart-smart-sub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-bonus {
+  background: #f3e5f5;
+  color: #7b1fa2;
+  font-weight: 600;
+}
+
+.heart-smart-sub-details {
+  font-size: 0.82rem;
+  color: #555;
+  line-height: 1.55;
+}
+
+.heart-smart-sub-details p {
+  margin: 0.25rem 0;
+}
+
+.heart-smart-sub-details strong {
+  color: #333;
+}
+
+/* Warnings */
+.heart-smart-warning {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.heart-smart-warning-safety {
+  background: #ffebee;
+  border-left: 3px solid #f44336;
+  color: #b71c1c;
+}
+
+.heart-smart-warning-allergen {
+  background: #fce4ec;
+  border-left: 3px solid #e91e63;
+  color: #880e4f;
+}
+
+.heart-smart-warning-general {
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+  color: #e65100;
+}
+
+/* Food Safety Section */
+.heart-smart-safety-section {
+  margin-top: 1rem;
+  background: #ffebee;
+  border: 1px solid #ffcdd2;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.safety-heading {
+  color: #c62828;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.heart-smart-safety-warning {
+  font-size: 0.82rem;
+  color: #b71c1c;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.heart-smart-safety-warning:last-child {
+  margin-bottom: 0;
+}
+
+/* Flavor Enhancement Tips */
+.heart-smart-tips-section {
+  margin-top: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #fff8e1;
+}
+
+.heart-smart-tips-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #f57f17;
+  list-style: none;
+}
+
+.heart-smart-tips-header::-webkit-details-marker {
+  display: none;
+}
+
+.heart-smart-tips-header:hover {
+  background: #ffecb3;
+}
+
+.heart-smart-tips-section[open] .chevron-small {
+  transform: rotate(90deg);
+}
+
+.heart-smart-tips-icon {
+  display: flex;
+  align-items: center;
+  color: #ff8f00;
+}
+
+.heart-smart-tips-content {
+  padding: 0.5rem 1rem 0.75rem;
+}
+
+.heart-smart-tips-content h6 {
+  font-size: 0.82rem;
+  color: #e65100;
+  margin: 0.75rem 0 0.35rem;
+}
+
+.heart-smart-tips-content h6:first-child {
+  margin-top: 0;
+}
+
+.heart-smart-tips-list {
+  padding-left: 1.25rem;
+  font-size: 0.8rem;
+  color: #5d4037;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.heart-smart-tips-list li {
+  margin-bottom: 0.25rem;
+}
+
+/* Herb Blend Chips */
+.herb-blends-preview {
+  margin-bottom: 0.75rem;
+}
+
+.herb-blends-preview h6 {
+  margin: 0 0 0.4rem;
+}
+
+.herb-blend-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.herb-chip {
+  background: #fff3e0;
+  color: #e65100;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: help;
+  border: 1px solid #ffcc80;
+}
+
+.herb-chip:hover {
+  background: #ffe0b2;
+}
+
+/* Disclaimer */
+.heart-smart-disclaimer {
+  margin-top: 1rem;
+  padding: 0.65rem 0.85rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  color: #757575;
+  border: 1px solid #e0e0e0;
+  line-height: 1.5;
+}
+
+.heart-smart-disclaimer strong {
+  color: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .heart-smart-header {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .heart-smart-count {
+    margin-left: 0;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .heart-smart-meters {
+    gap: 0.5rem;
+  }
+
+  .meter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .meter-values {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .heart-smart-sub-stats {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .heart-smart-ingredient-header {
+    gap: 0.3rem;
+  }
+
+  .heart-smart-sub-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .herb-blend-chips {
+    gap: 0.3rem;
+  }
+}
+
 /* Print styles - hide health panel and milk substitution panel */
 @media print {
   .health-considerations,
   .milk-substitution-panel,
   .substitution-panel,
-  .diabetic-panel {
+  .diabetic-panel,
+  .heart-smart-panel {
     display: none !important;
   }
 }
