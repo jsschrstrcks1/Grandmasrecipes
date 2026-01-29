@@ -1,0 +1,1088 @@
+{
+  "meta": {
+    "description": "Heart-smart recipe conversion rules for reducing sodium, saturated fat, and cholesterol while maintaining flavor",
+    "version": "1.0.0",
+    "created": "2026-01-29",
+    "targets": {
+      "sodium_per_serving_mg": 600,
+      "saturated_fat_per_serving_g": 5,
+      "cholesterol_per_serving_mg": 100,
+      "fiber_per_serving_g_minimum": 5,
+      "trans_fat_per_serving_g": 0
+    },
+    "sources": [
+      "American Heart Association (AHA) sodium guidelines 2026",
+      "USDA FoodData Central",
+      "Cleveland Clinic low-sodium cooking guides",
+      "Harvard Health - omega-3 fatty acids",
+      "NIH Office of Dietary Supplements",
+      "Mayo Clinic high-fiber foods",
+      "NCBI Bookshelf - Sodium in food preservation",
+      "FDA sodium reduction guidelines"
+    ],
+    "disclaimer": "This tool provides general dietary information only. It is NOT medical advice. Always consult your doctor, cardiologist, or registered dietitian before making significant dietary changes, especially if you have heart disease, high blood pressure, kidney disease, or take medications. Individual responses to dietary changes vary.",
+    "medical_notes": [
+      "AHA recommends no more than 2,300 mg sodium/day; ideal limit 1,500 mg/day for most adults",
+      "Average American consumes over 3,500 mg sodium daily - more than 150% of recommended",
+      "Cutting sodium by 1,000 mg/day can improve blood pressure and heart health",
+      "Body needs less than 500 mg sodium/day to function - that's under 1/4 teaspoon salt",
+      "Within 2-3 weeks of reducing sodium, taste buds become more sensitive to salt",
+      "Saturated fat raises LDL (bad) cholesterol - limit to under 10% of daily calories",
+      "Trans fats should be avoided completely - directly increase heart disease risk"
+    ]
+  },
+  "daily_limits": {
+    "aha_recommended": {
+      "label": "AHA Recommended",
+      "sodium_mg": 2300,
+      "sodium_ideal_mg": 1500,
+      "saturated_fat_g": 13,
+      "cholesterol_mg": 300,
+      "fiber_g": 25,
+      "added_sugar_g_women": 25,
+      "added_sugar_g_men": 36,
+      "description": "American Heart Association general recommendations"
+    },
+    "dash_diet": {
+      "label": "DASH Diet",
+      "sodium_mg": 2300,
+      "sodium_ideal_mg": 1500,
+      "saturated_fat_g": 11,
+      "fiber_g": 30,
+      "potassium_mg": 4700,
+      "description": "Dietary Approaches to Stop Hypertension - clinically proven to lower blood pressure"
+    },
+    "mediterranean": {
+      "label": "Mediterranean",
+      "sodium_mg": 2300,
+      "saturated_fat_g": 15,
+      "fiber_g": 30,
+      "omega3_g": 1.5,
+      "description": "Emphasizes healthy fats (olive oil), fish, fiber"
+    }
+  },
+  "per_serving_targets": {
+    "standard": {
+      "label": "Heart-Healthy",
+      "sodium_mg": 600,
+      "saturated_fat_g": 5,
+      "cholesterol_mg": 100,
+      "fiber_g_min": 5,
+      "description": "Based on 4 meals/day within AHA daily limits"
+    },
+    "strict": {
+      "label": "Low-Sodium Strict",
+      "sodium_mg": 400,
+      "saturated_fat_g": 3,
+      "cholesterol_mg": 75,
+      "fiber_g_min": 7,
+      "description": "For those with existing heart disease or hypertension"
+    }
+  },
+  "sodium_categories": {
+    "salt_seasonings": {
+      "label": "Salt & Seasonings",
+      "icon": "salt",
+      "detection_keywords": ["salt", "table salt", "sea salt", "kosher salt", "himalayan salt", "seasoned salt", "garlic salt", "onion salt", "celery salt"],
+      "original": {
+        "name": "Table salt",
+        "sodium_per_tsp_mg": 2300,
+        "note": "1 teaspoon salt = 2,300 mg sodium (entire daily limit)"
+      },
+      "substitutes": [
+        {
+          "id": "half-salt-with-herbs",
+          "name": "Half salt + fresh herbs",
+          "sodium_per_tsp_mg": 1150,
+          "sodium_saved_mg": 1150,
+          "ratio": "1 tsp salt -> 1/2 tsp salt + 1 tbsp fresh herbs",
+          "prep_notes": "Use fresh herbs for maximum flavor impact. Crush dried herbs before adding to release oils.",
+          "taste_impact": "Slightly less salty, more complex herbal flavor",
+          "best_herbs": ["basil", "thyme", "rosemary", "oregano", "parsley", "dill"],
+          "best_for": ["most savory dishes", "vegetables", "meats"]
+        },
+        {
+          "id": "salt-free-blend",
+          "name": "Salt-free seasoning blend",
+          "sodium_per_tsp_mg": 0,
+          "sodium_saved_mg": 2300,
+          "ratio": "1 tsp salt -> 1.5-2 tsp salt-free blend",
+          "prep_notes": "Use more than you would salt. Mrs. Dash, homemade blends, or store brands available.",
+          "taste_impact": "Different but flavorful. May take 2-3 weeks to adjust taste preference.",
+          "best_for": ["all dishes", "people on strict sodium restriction"]
+        },
+        {
+          "id": "acid-enhancement",
+          "name": "Reduced salt + acid (lemon/vinegar)",
+          "sodium_per_tsp_mg": 575,
+          "sodium_saved_mg": 1725,
+          "ratio": "1 tsp salt -> 1/4 tsp salt + 1 tbsp lemon juice or vinegar",
+          "prep_notes": "Acid brightens flavors similarly to salt. Add near end of cooking.",
+          "taste_impact": "Bright, fresh. Lemon/vinegar adds dimension that compensates for reduced salt.",
+          "best_for": ["fish", "chicken", "salads", "vegetables", "soups"]
+        },
+        {
+          "id": "potassium-chloride",
+          "name": "Potassium chloride (Nu-Salt, NoSalt)",
+          "sodium_per_tsp_mg": 0,
+          "sodium_saved_mg": 2300,
+          "potassium_per_tsp_mg": 2500,
+          "ratio": "Use 1/2 to 2/3 the amount of regular salt",
+          "prep_notes": "Has slightly bitter/metallic taste in larger amounts. Works best mixed 50/50 with regular salt.",
+          "taste_impact": "Slightly bitter aftertaste. Less noticeable in cooked dishes.",
+          "best_for": ["mixed with regular salt", "cooked dishes", "gradual sodium reduction"],
+          "safety_warning": "KIDNEY DISEASE WARNING: Potassium chloride can cause dangerous hyperkalemia (high blood potassium) in people with kidney disease or those taking ACE inhibitors, ARBs, or potassium-sparing diuretics. Consult your doctor before using."
+        }
+      ]
+    },
+    "soy_sauce": {
+      "label": "Soy Sauce & Asian Sauces",
+      "icon": "asian",
+      "detection_keywords": ["soy sauce", "shoyu", "tamari", "teriyaki", "fish sauce", "oyster sauce", "hoisin"],
+      "original": {
+        "name": "Regular soy sauce",
+        "sodium_per_tbsp_mg": 920,
+        "note": "One tablespoon = 40% of daily sodium limit"
+      },
+      "substitutes": [
+        {
+          "id": "low-sodium-soy",
+          "name": "Low-sodium soy sauce",
+          "sodium_per_tbsp_mg": 575,
+          "sodium_saved_mg": 345,
+          "ratio": "1:1",
+          "prep_notes": "Available in most grocery stores. Kikkoman, San-J brands widely available.",
+          "taste_impact": "Very similar to regular soy sauce. Most people cannot tell the difference.",
+          "best_for": ["any recipe calling for soy sauce"]
+        },
+        {
+          "id": "coconut-aminos",
+          "name": "Coconut aminos",
+          "sodium_per_tbsp_mg": 90,
+          "sodium_saved_mg": 830,
+          "ratio": "1:1 (may need slightly more)",
+          "prep_notes": "Made from coconut sap. Naturally sweeter and less salty than soy sauce.",
+          "taste_impact": "Milder, slightly sweeter. Good umami but less intense than soy.",
+          "best_for": ["stir-fry", "marinades", "dipping sauce", "anyone avoiding soy"],
+          "allergen_note": "Soy-free alternative. Contains coconut."
+        },
+        {
+          "id": "liquid-aminos",
+          "name": "Liquid aminos (Bragg's)",
+          "sodium_per_tbsp_mg": 310,
+          "sodium_saved_mg": 610,
+          "ratio": "1:1",
+          "prep_notes": "Made from soybeans but not fermented. Gluten-free.",
+          "taste_impact": "Similar to soy sauce, slightly different depth.",
+          "best_for": ["marinades", "stir-fry", "gluten-free cooking"]
+        }
+      ]
+    },
+    "broths_stocks": {
+      "label": "Broths & Stocks",
+      "icon": "broth",
+      "detection_keywords": ["broth", "stock", "chicken broth", "beef broth", "vegetable broth", "bouillon", "consomme"],
+      "original": {
+        "name": "Regular chicken broth",
+        "sodium_per_cup_mg": 860,
+        "note": "One cup = 37% of daily sodium limit"
+      },
+      "substitutes": [
+        {
+          "id": "low-sodium-broth",
+          "name": "Low-sodium broth",
+          "sodium_per_cup_mg": 140,
+          "sodium_saved_mg": 720,
+          "ratio": "1:1",
+          "prep_notes": "Widely available. Swanson, Pacific Foods, store brands.",
+          "taste_impact": "Slightly less rich. Season with herbs and aromatics to boost flavor.",
+          "best_for": ["soups", "stews", "risotto", "any recipe requiring broth"]
+        },
+        {
+          "id": "homemade-unsalted",
+          "name": "Homemade unsalted broth",
+          "sodium_per_cup_mg": 70,
+          "sodium_saved_mg": 790,
+          "ratio": "1:1",
+          "prep_notes": "Simmer bones/vegetables for 2-4 hours without salt. Add salt only when using in final dish.",
+          "taste_impact": "Control all ingredients. Can be more flavorful than store-bought with proper aromatics.",
+          "best_for": ["full flavor control", "batch cooking", "freezing for later use"]
+        },
+        {
+          "id": "no-salt-bouillon",
+          "name": "No-salt-added bouillon",
+          "sodium_per_cup_mg": 5,
+          "sodium_saved_mg": 855,
+          "ratio": "1:1",
+          "prep_notes": "Available from brands like Herb-Ox. Usually in powder or cube form.",
+          "taste_impact": "Less rich than regular bouillon. Add umami boosters like mushrooms or nutritional yeast.",
+          "best_for": ["strict sodium restriction", "soups", "cooking grains"]
+        }
+      ]
+    },
+    "canned_foods": {
+      "label": "Canned Foods",
+      "icon": "canned",
+      "detection_keywords": ["canned beans", "canned tomatoes", "canned vegetables", "canned soup", "canned corn", "canned peas"],
+      "original": {
+        "name": "Regular canned beans",
+        "sodium_per_half_cup_mg": 400,
+        "note": "Canned foods are major sodium sources"
+      },
+      "substitutes": [
+        {
+          "id": "rinsed-canned",
+          "name": "Rinsed canned (1 minute rinse)",
+          "sodium_per_half_cup_mg": 150,
+          "sodium_saved_mg": 250,
+          "ratio": "1:1",
+          "prep_notes": "Rinse canned beans, vegetables under cold water for 1 minute. Reduces sodium by 40%.",
+          "taste_impact": "Minimal difference. Still convenient.",
+          "best_for": ["beans", "vegetables", "any canned item"]
+        },
+        {
+          "id": "no-salt-added",
+          "name": "No-salt-added canned goods",
+          "sodium_per_half_cup_mg": 25,
+          "sodium_saved_mg": 375,
+          "ratio": "1:1",
+          "prep_notes": "Del Monte, Hunt's, store brands offer no-salt versions. Check labels.",
+          "taste_impact": "Slightly less flavorful. Season when cooking.",
+          "best_for": ["tomatoes", "beans", "vegetables", "tomato sauce"]
+        },
+        {
+          "id": "dried-beans",
+          "name": "Dried beans (cooked from scratch)",
+          "sodium_per_half_cup_mg": 0,
+          "sodium_saved_mg": 400,
+          "ratio": "1/3 cup dried = 1/2 cup cooked",
+          "prep_notes": "Soak overnight, cook 1-2 hours. Or use pressure cooker (30-45 minutes). More economical.",
+          "taste_impact": "Better texture, no sodium. Control all seasonings.",
+          "best_for": ["batch cooking", "meal prep", "best flavor and texture"]
+        }
+      ]
+    },
+    "processed_meats": {
+      "label": "Bacon, Deli Meats & Processed",
+      "icon": "meat",
+      "detection_keywords": ["bacon", "ham", "deli meat", "lunch meat", "sausage", "hot dog", "hot dogs", "pepperoni", "salami", "bologna", "prosciutto", "pancetta"],
+      "original": {
+        "name": "Regular bacon",
+        "sodium_per_oz_mg": 400,
+        "note": "Processed meats are very high in sodium"
+      },
+      "substitutes": [
+        {
+          "id": "reduced-sodium-bacon",
+          "name": "Reduced-sodium bacon",
+          "sodium_per_oz_mg": 200,
+          "sodium_saved_mg": 200,
+          "ratio": "1:1",
+          "prep_notes": "Check labels. Oscar Mayer, Hormel offer reduced-sodium versions.",
+          "taste_impact": "Very similar to regular bacon."
+        },
+        {
+          "id": "turkey-bacon",
+          "name": "Turkey bacon",
+          "sodium_per_oz_mg": 180,
+          "sodium_saved_mg": 220,
+          "saturated_fat_saved_g": 2,
+          "ratio": "1:1",
+          "prep_notes": "Lower in both sodium and saturated fat. Crisps nicely.",
+          "taste_impact": "Slightly different texture. Good smoky flavor.",
+          "best_for": ["breakfast", "BLTs", "salad topping"]
+        },
+        {
+          "id": "canadian-bacon",
+          "name": "Canadian bacon",
+          "sodium_per_oz_mg": 230,
+          "sodium_saved_mg": 170,
+          "saturated_fat_per_oz_g": 0.8,
+          "ratio": "1:1 by weight",
+          "prep_notes": "Leaner than regular bacon. Technically ham.",
+          "taste_impact": "Less smoky, more ham-like. Leaner.",
+          "best_for": ["eggs Benedict", "pizza", "breakfast sandwiches"]
+        },
+        {
+          "id": "fresh-roasted-meat",
+          "name": "Fresh roasted meat (slice yourself)",
+          "sodium_per_oz_mg": 50,
+          "sodium_saved_mg": 350,
+          "ratio": "1:1",
+          "prep_notes": "Roast chicken, turkey, or beef yourself. Slice thin for sandwiches.",
+          "taste_impact": "Fresher, more natural meat flavor. No preservatives.",
+          "best_for": ["sandwiches", "meal prep", "full sodium control"]
+        }
+      ],
+      "food_safety_warning": "CURING SALT WARNING: Salt (with nitrite) in processed meats prevents botulism. Home-curing without proper salt levels is dangerous. FDA requires minimum 120 ppm sodium nitrite for safety. Do not attempt to reduce salt in home-cured meats without food safety training."
+    },
+    "cheese": {
+      "label": "Cheese",
+      "icon": "cheese",
+      "detection_keywords": ["parmesan", "cheddar", "feta", "blue cheese", "american cheese", "cheese"],
+      "original": {
+        "name": "Parmesan cheese",
+        "sodium_per_oz_mg": 450,
+        "note": "Hard aged cheeses tend to be highest in sodium"
+      },
+      "substitutes": [
+        {
+          "id": "swiss-cheese",
+          "name": "Swiss cheese",
+          "sodium_per_oz_mg": 55,
+          "sodium_saved_mg": 395,
+          "ratio": "1:1",
+          "taste_impact": "Milder, nuttier flavor. Very low sodium for a cheese.",
+          "best_for": ["sandwiches", "melting", "general use"]
+        },
+        {
+          "id": "fresh-mozzarella",
+          "name": "Fresh mozzarella",
+          "sodium_per_oz_mg": 85,
+          "sodium_saved_mg": 365,
+          "ratio": "1:1",
+          "taste_impact": "Mild, milky, creamy. Much lower sodium than aged cheeses.",
+          "best_for": ["caprese", "pizza", "pasta", "melting"]
+        },
+        {
+          "id": "goat-cheese",
+          "name": "Goat cheese (chevre)",
+          "sodium_per_oz_mg": 130,
+          "sodium_saved_mg": 320,
+          "ratio": "1:1",
+          "taste_impact": "Tangy, creamy. Good substitute for feta with less sodium.",
+          "best_for": ["salads", "spreading", "replacing feta"]
+        },
+        {
+          "id": "nutritional-yeast",
+          "name": "Nutritional yeast",
+          "sodium_per_tbsp_mg": 10,
+          "sodium_saved_mg": 440,
+          "ratio": "2 tbsp nutritional yeast per 1 oz Parmesan for cheesy flavor",
+          "taste_impact": "Savory, cheese-like umami. Not identical but adds cheesy depth.",
+          "best_for": ["topping pasta", "popcorn", "vegan dishes", "cheese sauces"],
+          "bonus": "B12 fortified, zero cholesterol"
+        }
+      ]
+    }
+  },
+  "fat_categories": {
+    "butter_oils": {
+      "label": "Butter & Cooking Oils",
+      "icon": "butter",
+      "detection_keywords": ["butter", "margarine", "shortening", "lard", "coconut oil"],
+      "original": {
+        "name": "Butter",
+        "saturated_fat_per_tbsp_g": 7,
+        "cholesterol_per_tbsp_mg": 31,
+        "note": "1 tablespoon butter = ~50% of per-meal saturated fat target"
+      },
+      "substitutes": [
+        {
+          "id": "olive-oil",
+          "name": "Olive oil",
+          "saturated_fat_per_tbsp_g": 2,
+          "saturated_fat_saved_g": 5,
+          "cholesterol_mg": 0,
+          "ratio": "3/4 tbsp olive oil per 1 tbsp butter",
+          "prep_notes": "Extra virgin for finishing, regular for cooking. Smoke point 375-405F.",
+          "taste_impact": "Fruity, peppery notes. May change flavor profile in baking.",
+          "best_for": ["sauteing", "roasting", "dressings", "finishing"],
+          "heart_benefit": "Monounsaturated fats may improve cholesterol levels"
+        },
+        {
+          "id": "avocado-oil",
+          "name": "Avocado oil",
+          "saturated_fat_per_tbsp_g": 1.6,
+          "saturated_fat_saved_g": 5.4,
+          "cholesterol_mg": 0,
+          "ratio": "3/4 tbsp avocado oil per 1 tbsp butter",
+          "prep_notes": "High smoke point (520F). Neutral flavor. Good for high-heat cooking.",
+          "taste_impact": "Very neutral. Won't change dish flavor.",
+          "best_for": ["high-heat cooking", "frying", "baking", "neutral flavor needed"]
+        },
+        {
+          "id": "canola-oil",
+          "name": "Canola oil",
+          "saturated_fat_per_tbsp_g": 1,
+          "saturated_fat_saved_g": 6,
+          "cholesterol_mg": 0,
+          "ratio": "3/4 tbsp canola oil per 1 tbsp butter",
+          "prep_notes": "Neutral flavor. Contains omega-3s. Good all-purpose oil.",
+          "taste_impact": "Very neutral.",
+          "best_for": ["baking", "frying", "all-purpose cooking"]
+        },
+        {
+          "id": "applesauce-baking",
+          "name": "Unsweetened applesauce (for baking)",
+          "saturated_fat_per_half_cup_g": 0,
+          "saturated_fat_saved_g": 7,
+          "cholesterol_mg": 0,
+          "ratio": "1/2 cup applesauce per 1 cup butter (reduce other liquid slightly)",
+          "prep_notes": "Works best in moist baked goods. May need to reduce sugar slightly.",
+          "taste_impact": "Adds moisture, slight apple sweetness. Denser texture.",
+          "best_for": ["muffins", "quick breads", "cakes"],
+          "avoid_for": ["cookies (need fat for spread)", "pastry crusts"]
+        },
+        {
+          "id": "greek-yogurt-baking",
+          "name": "Greek yogurt (for baking)",
+          "saturated_fat_per_half_cup_g": 0.5,
+          "saturated_fat_saved_g": 6.5,
+          "cholesterol_mg": 8,
+          "ratio": "1/2 cup Greek yogurt per 1 cup butter",
+          "prep_notes": "Use plain, nonfat or low-fat. Adds protein. Tangy flavor.",
+          "taste_impact": "Tangy, moist. Works well in baked goods.",
+          "best_for": ["muffins", "cakes", "pancakes", "quick breads"]
+        }
+      ]
+    },
+    "cream_dairy": {
+      "label": "Cream & Rich Dairy",
+      "icon": "cream",
+      "detection_keywords": ["heavy cream", "whipping cream", "cream", "half and half", "sour cream", "cream cheese", "whole milk"],
+      "original": {
+        "name": "Heavy cream",
+        "saturated_fat_per_cup_g": 28,
+        "cholesterol_per_cup_mg": 265,
+        "note": "Heavy cream is very high in saturated fat and cholesterol"
+      },
+      "substitutes": [
+        {
+          "id": "evaporated-milk",
+          "name": "Evaporated skim milk",
+          "saturated_fat_per_cup_g": 0.5,
+          "saturated_fat_saved_g": 27.5,
+          "cholesterol_mg": 10,
+          "ratio": "1:1 for cream in cooking",
+          "prep_notes": "Creamy texture from concentration, not fat. Canned, shelf-stable.",
+          "taste_impact": "Slightly caramelized flavor. Less rich than cream but still creamy.",
+          "best_for": ["soups", "sauces", "coffee", "mashed potatoes"]
+        },
+        {
+          "id": "cashew-cream",
+          "name": "Cashew cream",
+          "saturated_fat_per_cup_g": 2,
+          "saturated_fat_saved_g": 26,
+          "cholesterol_mg": 0,
+          "ratio": "1:1",
+          "prep_notes": "Blend 1 cup raw cashews with 1 cup water until smooth. Strain if needed.",
+          "taste_impact": "Neutral, creamy. Mild nutty undertone.",
+          "best_for": ["vegan cooking", "pasta sauces", "soups"],
+          "allergen_note": "Contains tree nuts"
+        },
+        {
+          "id": "silken-tofu",
+          "name": "Silken tofu (blended)",
+          "saturated_fat_per_cup_g": 0.5,
+          "saturated_fat_saved_g": 27.5,
+          "cholesterol_mg": 0,
+          "ratio": "1:1 (blend until smooth)",
+          "prep_notes": "Blend until completely smooth. Neutral flavor.",
+          "taste_impact": "Very neutral. Takes on surrounding flavors.",
+          "best_for": ["cream soups", "smoothies", "dips", "dressings"],
+          "allergen_note": "Contains soy"
+        },
+        {
+          "id": "greek-yogurt-for-sour-cream",
+          "name": "Plain Greek yogurt",
+          "saturated_fat_per_cup_g": 0.5,
+          "saturated_fat_saved_g": 11.5,
+          "cholesterol_mg": 15,
+          "ratio": "1:1 replacing sour cream",
+          "prep_notes": "Nonfat or low-fat. Nearly identical to sour cream in most uses.",
+          "taste_impact": "Tangier than sour cream. More protein.",
+          "best_for": ["topping tacos/baked potatoes", "dips", "baking", "dressings"]
+        }
+      ]
+    },
+    "ground_meats": {
+      "label": "Ground Meats",
+      "icon": "ground_meat",
+      "detection_keywords": ["ground beef", "ground chuck", "hamburger", "ground pork", "pork sausage", "sausage"],
+      "original": {
+        "name": "Ground beef 80/20",
+        "saturated_fat_per_3oz_g": 8,
+        "cholesterol_per_3oz_mg": 77,
+        "note": "Higher fat ground beef is higher in saturated fat"
+      },
+      "substitutes": [
+        {
+          "id": "lean-ground-beef",
+          "name": "Lean ground beef 93/7",
+          "saturated_fat_per_3oz_g": 3,
+          "saturated_fat_saved_g": 5,
+          "cholesterol_mg": 70,
+          "ratio": "1:1",
+          "prep_notes": "Brown with onions and mushrooms to add moisture. May be drier.",
+          "taste_impact": "Slightly less rich. Still beefy.",
+          "best_for": ["burgers", "meatloaf", "tacos", "pasta sauce"]
+        },
+        {
+          "id": "ground-turkey",
+          "name": "Ground turkey 93/7",
+          "saturated_fat_per_3oz_g": 2.5,
+          "saturated_fat_saved_g": 5.5,
+          "cholesterol_mg": 65,
+          "ratio": "1:1",
+          "prep_notes": "Season well - turkey is milder than beef. Add Worcestershire sauce for depth.",
+          "taste_impact": "Milder flavor. Takes on seasonings well.",
+          "best_for": ["tacos", "meatballs", "pasta sauce", "chili"]
+        },
+        {
+          "id": "ground-chicken",
+          "name": "Ground chicken",
+          "saturated_fat_per_3oz_g": 1.5,
+          "saturated_fat_saved_g": 6.5,
+          "cholesterol_mg": 75,
+          "ratio": "1:1",
+          "prep_notes": "Very lean - add moisture via onions, breadcrumbs, or grated zucchini.",
+          "taste_impact": "Very mild. Best heavily seasoned.",
+          "best_for": ["Asian dishes", "lettuce wraps", "lighter meatballs"]
+        },
+        {
+          "id": "mushroom-beef-blend",
+          "name": "Mushroom-beef blend (50/50)",
+          "saturated_fat_per_3oz_g": 4,
+          "saturated_fat_saved_g": 4,
+          "cholesterol_mg": 38,
+          "ratio": "Finely chop mushrooms, mix 1:1 with ground beef",
+          "prep_notes": "Finely dice mushrooms to match beef texture. Saute mushrooms first to remove moisture.",
+          "taste_impact": "Rich, umami. Surprisingly similar to pure beef.",
+          "best_for": ["burgers (Blended Burger Project)", "meatloaf", "tacos"],
+          "bonus": "Adds fiber, reduces calories 25-30%"
+        }
+      ]
+    },
+    "cholesterol_sources": {
+      "label": "High-Cholesterol Ingredients",
+      "icon": "cholesterol",
+      "detection_keywords": ["egg yolk", "whole egg", "shrimp", "liver", "organ meats", "egg yolks"],
+      "note": "Dietary cholesterol has less impact on blood cholesterol than saturated fat for most people",
+      "original": {
+        "name": "Whole egg",
+        "cholesterol_per_unit_mg": 186,
+        "saturated_fat_g": 1.6,
+        "note": "One egg = 62% of 300mg daily limit"
+      },
+      "substitutes": [
+        {
+          "id": "egg-whites",
+          "name": "Egg whites",
+          "cholesterol_mg": 0,
+          "cholesterol_saved_mg": 186,
+          "saturated_fat_g": 0,
+          "ratio": "2 egg whites per 1 whole egg",
+          "prep_notes": "Lose some richness and binding. For best results, use 1 whole egg + 2 whites per 3 eggs in recipe.",
+          "taste_impact": "Less rich. May affect texture in baking.",
+          "best_for": ["omelets", "scrambles", "reducing cholesterol in baking"]
+        },
+        {
+          "id": "flax-egg",
+          "name": "Flax egg (baking)",
+          "cholesterol_mg": 0,
+          "cholesterol_saved_mg": 186,
+          "saturated_fat_g": 0,
+          "omega3_bonus_g": 1.6,
+          "ratio": "1 tbsp ground flax + 3 tbsp water per egg (let sit 5 min)",
+          "prep_notes": "Best for binding in baking. Won't work for scrambled eggs or omelets.",
+          "taste_impact": "Slightly nutty. Works well in hearty baked goods.",
+          "best_for": ["muffins", "quick breads", "cookies", "pancakes"]
+        },
+        {
+          "id": "shrimp-awareness",
+          "name": "Shrimp (note: low saturated fat)",
+          "cholesterol_per_3oz_mg": 166,
+          "saturated_fat_g": 0.2,
+          "note": "Shrimp is high cholesterol but very low in saturated fat. For most people, the saturated fat matters more than dietary cholesterol. 1-2 servings/week is fine for most people.",
+          "best_for": ["heart-healthy diet when not fried"]
+        }
+      ]
+    }
+  },
+  "flavor_enhancement": {
+    "herbs_fresh": {
+      "label": "Fresh Herbs",
+      "icon": "herb",
+      "sodium_per_tbsp_mg": 0,
+      "note": "Fresh herbs add more flavor than dried. Use 3x the amount of dried herbs.",
+      "items": [
+        {
+          "name": "Basil",
+          "flavor_profile": "Sweet, aromatic, slightly peppery",
+          "pairs_with": ["tomatoes", "garlic", "olive oil", "mozzarella", "pasta"],
+          "cuisines": ["Italian", "Thai", "Mediterranean"]
+        },
+        {
+          "name": "Cilantro",
+          "flavor_profile": "Bright, citrusy, fresh",
+          "pairs_with": ["lime", "avocado", "beans", "rice", "fish"],
+          "cuisines": ["Mexican", "Thai", "Indian", "Vietnamese"]
+        },
+        {
+          "name": "Dill",
+          "flavor_profile": "Fresh, slightly anise-like",
+          "pairs_with": ["fish", "cucumbers", "yogurt", "potatoes", "eggs"],
+          "cuisines": ["Scandinavian", "Eastern European", "Greek"]
+        },
+        {
+          "name": "Parsley",
+          "flavor_profile": "Fresh, slightly peppery, clean",
+          "pairs_with": ["almost everything", "lemon", "garlic", "vegetables"],
+          "cuisines": ["Universal", "Mediterranean", "Middle Eastern"]
+        },
+        {
+          "name": "Rosemary",
+          "flavor_profile": "Pine-like, woodsy, strong",
+          "pairs_with": ["lamb", "chicken", "potatoes", "bread", "olive oil"],
+          "cuisines": ["Italian", "Mediterranean", "French"]
+        },
+        {
+          "name": "Thyme",
+          "flavor_profile": "Earthy, slightly minty, subtle",
+          "pairs_with": ["poultry", "vegetables", "soups", "beans", "mushrooms"],
+          "cuisines": ["French", "Mediterranean", "Cajun"]
+        },
+        {
+          "name": "Sage",
+          "flavor_profile": "Earthy, slightly bitter, pine notes",
+          "pairs_with": ["pork", "poultry", "butternut squash", "butter", "pasta"],
+          "cuisines": ["Italian", "American (Thanksgiving)"]
+        },
+        {
+          "name": "Mint",
+          "flavor_profile": "Cool, fresh, sweet",
+          "pairs_with": ["lamb", "peas", "cucumbers", "yogurt", "fruit"],
+          "cuisines": ["Middle Eastern", "Vietnamese", "British"]
+        }
+      ]
+    },
+    "spices": {
+      "label": "Spices",
+      "icon": "spice",
+      "sodium_per_tsp_mg": 0,
+      "note": "Toast whole spices in dry pan to intensify flavor",
+      "items": [
+        {
+          "name": "Black pepper",
+          "flavor_profile": "Sharp, pungent, slightly hot",
+          "pairs_with": ["almost everything"],
+          "note": "Enhances perception of saltiness - use generously when reducing salt"
+        },
+        {
+          "name": "Cumin",
+          "flavor_profile": "Warm, earthy, slightly nutty",
+          "pairs_with": ["beans", "meat", "vegetables", "rice"],
+          "cuisines": ["Mexican", "Indian", "Middle Eastern"]
+        },
+        {
+          "name": "Paprika",
+          "flavor_profile": "Sweet, mild, slightly smoky (smoked)",
+          "pairs_with": ["chicken", "potatoes", "eggs", "vegetables"],
+          "types": ["sweet", "hot", "smoked (pimenton)"]
+        },
+        {
+          "name": "Cinnamon",
+          "flavor_profile": "Warm, sweet, slightly woody",
+          "pairs_with": ["squash", "carrots", "apples", "oats", "lamb"],
+          "note": "Small amounts add depth to savory dishes"
+        },
+        {
+          "name": "Cayenne",
+          "flavor_profile": "Hot, spicy, clean heat",
+          "pairs_with": ["most savory dishes"],
+          "note": "Heat awakens palate and can compensate for reduced salt"
+        },
+        {
+          "name": "Turmeric",
+          "flavor_profile": "Earthy, slightly bitter, warm",
+          "pairs_with": ["rice", "vegetables", "chicken", "lentils"],
+          "health_note": "Anti-inflammatory properties"
+        },
+        {
+          "name": "Ginger",
+          "flavor_profile": "Warm, spicy, slightly sweet",
+          "pairs_with": ["Asian dishes", "fish", "carrots", "chicken"],
+          "forms": ["fresh", "dried/ground", "pickled"]
+        }
+      ]
+    },
+    "acids": {
+      "label": "Acids (Flavor Brighteners)",
+      "icon": "citrus",
+      "sodium_per_tbsp_mg": 0,
+      "note": "Acid brightens flavors like salt does. Add at end of cooking for maximum impact.",
+      "items": [
+        {
+          "name": "Lemon juice",
+          "flavor_profile": "Bright, tart, clean",
+          "best_for": ["fish", "chicken", "vegetables", "soups", "salads"],
+          "tip": "Zest adds even more flavor without liquid"
+        },
+        {
+          "name": "Lime juice",
+          "flavor_profile": "Tart, floral, slightly bitter",
+          "best_for": ["Mexican", "Thai", "Vietnamese dishes", "seafood"],
+          "tip": "Essential in Asian and Latin American cuisines"
+        },
+        {
+          "name": "Vinegar (balsamic)",
+          "flavor_profile": "Sweet, tangy, complex",
+          "best_for": ["salads", "roasted vegetables", "strawberries", "finishing"],
+          "tip": "Drizzle on finished dishes for depth"
+        },
+        {
+          "name": "Vinegar (apple cider)",
+          "flavor_profile": "Fruity, mild, tangy",
+          "best_for": ["dressings", "slaws", "beans", "braised dishes"],
+          "tip": "More mellow than white vinegar"
+        },
+        {
+          "name": "Vinegar (rice)",
+          "flavor_profile": "Mild, slightly sweet",
+          "best_for": ["Asian dishes", "sushi rice", "dressings", "quick pickles"],
+          "sodium_note": "Use unseasoned - seasoned rice vinegar contains added salt"
+        },
+        {
+          "name": "Wine (white/red)",
+          "flavor_profile": "Complex, tangy, fruity",
+          "best_for": ["deglazing", "sauces", "braising"],
+          "tip": "Add near end of cooking for brightness, earlier for depth"
+        }
+      ]
+    },
+    "umami_boosters": {
+      "label": "Umami Boosters (Savory Depth)",
+      "icon": "umami",
+      "note": "Umami provides satisfying savory depth that can reduce need for salt",
+      "items": [
+        {
+          "name": "Mushrooms (especially dried porcini/shiitake)",
+          "sodium_per_serving_mg": 5,
+          "flavor_profile": "Deep, earthy, meaty",
+          "best_for": ["soups", "stews", "risotto", "gravy", "pasta sauce"],
+          "tip": "Soak dried mushrooms; use soaking liquid too"
+        },
+        {
+          "name": "Tomato paste",
+          "sodium_per_tbsp_mg": 130,
+          "flavor_profile": "Concentrated tomato umami",
+          "best_for": ["sauces", "stews", "soups", "braised dishes"],
+          "tip": "Toast in oil for 1-2 minutes to deepen flavor"
+        },
+        {
+          "name": "Nutritional yeast",
+          "sodium_per_tbsp_mg": 10,
+          "flavor_profile": "Cheesy, savory, nutty",
+          "best_for": ["pasta", "popcorn", "cheese sauces", "vegetables"],
+          "tip": "Adds cheese-like flavor with almost no sodium"
+        },
+        {
+          "name": "Miso (white/red)",
+          "sodium_per_tsp_mg": 200,
+          "flavor_profile": "Deep, fermented, complex umami",
+          "best_for": ["soups", "dressings", "marinades", "glazes"],
+          "tip": "High sodium but very concentrated flavor - small amounts go far",
+          "warning": "Still contains significant sodium - use sparingly"
+        },
+        {
+          "name": "Anchovies",
+          "sodium_per_fillet_mg": 100,
+          "flavor_profile": "Intensely savory, dissolves into dishes",
+          "best_for": ["Caesar dressing", "pasta sauces", "braised meats"],
+          "tip": "Melt into oil at start of cooking - adds depth, not fishiness"
+        },
+        {
+          "name": "Parmesan rind",
+          "sodium_per_oz_mg": 450,
+          "flavor_profile": "Intense savory cheese depth",
+          "best_for": ["soups", "risotto", "minestrone", "bean stews"],
+          "tip": "Simmer rind in liquid; remove before serving. Adds flavor without eating the sodium."
+        }
+      ]
+    },
+    "aromatics": {
+      "label": "Aromatics",
+      "icon": "onion",
+      "sodium_mg": 0,
+      "note": "Build flavor base with aromatics sauteed in oil",
+      "items": [
+        {
+          "name": "Garlic",
+          "flavor_profile": "Pungent, savory, mellows when cooked",
+          "tip": "Use generously when reducing salt. Roasted garlic is sweeter and milder."
+        },
+        {
+          "name": "Onion",
+          "flavor_profile": "Sweet when cooked, sharp when raw",
+          "tip": "Caramelize slowly for deep sweetness that adds complexity"
+        },
+        {
+          "name": "Shallot",
+          "flavor_profile": "Mild, sweet, hint of garlic",
+          "tip": "More delicate than onion. Good in vinaigrettes."
+        },
+        {
+          "name": "Ginger (fresh)",
+          "flavor_profile": "Warm, spicy, slightly sweet",
+          "tip": "Essential in Asian cooking. Anti-inflammatory properties."
+        },
+        {
+          "name": "Celery",
+          "flavor_profile": "Mild, fresh, slightly bitter",
+          "tip": "Part of mirepoix (onion, celery, carrot). Adds depth to stocks."
+        },
+        {
+          "name": "Leeks",
+          "flavor_profile": "Mild, sweet onion flavor",
+          "tip": "More subtle than onion. Great in soups and potato dishes."
+        }
+      ]
+    }
+  },
+  "regional_herb_blends": {
+    "italian_seasoning": {
+      "name": "Italian Seasoning",
+      "region": "Italy/Mediterranean",
+      "sodium_mg": 0,
+      "components": ["oregano", "basil", "thyme", "rosemary", "marjoram"],
+      "best_for": ["pasta", "pizza", "tomato sauces", "chicken", "vegetables"],
+      "homemade_recipe": "Mix equal parts dried oregano, basil, thyme, rosemary, marjoram. Store in airtight container."
+    },
+    "herbes_de_provence": {
+      "name": "Herbes de Provence",
+      "region": "Southern France",
+      "sodium_mg": 0,
+      "components": ["thyme", "savory", "rosemary", "oregano", "marjoram", "lavender (optional)"],
+      "best_for": ["roasted chicken", "grilled meats", "vegetables", "fish", "stews"],
+      "homemade_recipe": "1 tbsp each dried thyme, savory, rosemary, oregano. 2 tsp marjoram. Optional: 1/2 tsp dried lavender."
+    },
+    "zaatar": {
+      "name": "Za'atar",
+      "region": "Middle East",
+      "sodium_mg": 0,
+      "components": ["thyme", "oregano", "marjoram", "sumac", "sesame seeds"],
+      "best_for": ["flatbread", "hummus", "vegetables", "eggs", "olive oil dip"],
+      "homemade_recipe": "2 tbsp dried thyme, 1 tbsp each oregano, marjoram, sumac. 2 tbsp toasted sesame seeds.",
+      "allergen_note": "Contains sesame"
+    },
+    "garam_masala": {
+      "name": "Garam Masala",
+      "region": "India",
+      "sodium_mg": 0,
+      "components": ["cumin", "coriander", "cardamom", "cinnamon", "cloves", "black pepper"],
+      "best_for": ["curries", "lentils", "vegetables", "rice dishes", "marinades"],
+      "homemade_recipe": "2 tbsp cumin, 2 tbsp coriander, 1 tbsp cardamom, 1 tsp cinnamon, 1/2 tsp each cloves and black pepper. Toast and grind."
+    },
+    "cajun_seasoning": {
+      "name": "Cajun Seasoning (salt-free)",
+      "region": "Louisiana, USA",
+      "sodium_mg": 0,
+      "components": ["paprika", "cayenne", "garlic powder", "onion powder", "black pepper", "thyme", "oregano"],
+      "best_for": ["blackened fish", "chicken", "shrimp", "vegetables", "gumbo"],
+      "homemade_recipe": "2 tbsp paprika, 1 tbsp each garlic powder and onion powder, 1 tsp each cayenne, black pepper, thyme, oregano.",
+      "note": "Commercial Cajun seasoning often contains salt - make your own or check labels"
+    },
+    "greek_seasoning": {
+      "name": "Greek Seasoning",
+      "region": "Greece/Mediterranean",
+      "sodium_mg": 0,
+      "components": ["oregano", "garlic", "onion", "dill", "black pepper", "cinnamon", "nutmeg"],
+      "best_for": ["lamb", "chicken", "vegetables", "salads", "yogurt sauces"],
+      "homemade_recipe": "2 tbsp dried oregano, 1 tbsp each garlic powder and onion powder, 1 tsp each dried dill, black pepper. 1/2 tsp each cinnamon and nutmeg."
+    },
+    "chinese_five_spice": {
+      "name": "Chinese Five Spice",
+      "region": "China",
+      "sodium_mg": 0,
+      "components": ["star anise", "cloves", "cinnamon", "Sichuan peppercorn", "fennel seeds"],
+      "best_for": ["pork", "duck", "chicken", "stir-fry", "braised dishes"],
+      "homemade_recipe": "Equal parts ground star anise, cloves, cinnamon, Sichuan peppercorn, fennel seeds."
+    },
+    "ras_el_hanout": {
+      "name": "Ras el Hanout",
+      "region": "North Africa (Morocco)",
+      "sodium_mg": 0,
+      "components": ["cumin", "coriander", "turmeric", "paprika", "cinnamon", "ginger", "cardamom", "black pepper"],
+      "best_for": ["tagines", "couscous", "lamb", "chicken", "vegetables"],
+      "homemade_recipe": "1 tbsp each cumin and coriander. 1 tsp each turmeric, paprika, cinnamon, ginger. 1/2 tsp each cardamom and black pepper."
+    }
+  },
+  "omega3_sources": {
+    "label": "Omega-3 Rich Foods",
+    "icon": "fish",
+    "note": "Omega-3 fatty acids (EPA/DHA) support heart health. Aim for 2 servings fatty fish per week.",
+    "daily_target_g": 1.0,
+    "sources": [
+      {
+        "food": "Mackerel",
+        "omega3_per_3oz_g": 2.5,
+        "serving_note": "Highest omega-3 content. Also high in B12."
+      },
+      {
+        "food": "Salmon (wild)",
+        "omega3_per_3oz_g": 1.8,
+        "serving_note": "Excellent source. Wild has better omega-3/6 ratio than farmed."
+      },
+      {
+        "food": "Sardines",
+        "omega3_per_3oz_g": 1.0,
+        "serving_note": "Canned are convenient. Choose water-packed for lower sodium."
+      },
+      {
+        "food": "Anchovies",
+        "omega3_per_3oz_g": 1.4,
+        "serving_note": "Strong flavor. Use small amounts for umami + omega-3."
+      },
+      {
+        "food": "Herring",
+        "omega3_per_3oz_g": 1.7,
+        "serving_note": "Smoked or pickled versions are high in sodium - choose fresh when possible."
+      },
+      {
+        "food": "Walnuts",
+        "omega3_per_oz_g": 2.5,
+        "serving_note": "Plant-based ALA omega-3 (body converts ~5% to EPA/DHA). Good for non-fish eaters."
+      },
+      {
+        "food": "Flaxseed (ground)",
+        "omega3_per_tbsp_g": 1.6,
+        "serving_note": "Plant-based ALA. Must be ground to absorb. Add to smoothies, oatmeal."
+      },
+      {
+        "food": "Chia seeds",
+        "omega3_per_tbsp_g": 1.7,
+        "serving_note": "Plant-based ALA. Also high in fiber."
+      }
+    ]
+  },
+  "fiber_boosters": {
+    "label": "High-Fiber Additions",
+    "icon": "fiber",
+    "note": "Fiber supports heart health by lowering cholesterol. Aim for 25-30g daily.",
+    "daily_target_g": 25,
+    "sources": [
+      {
+        "food": "Lentils",
+        "fiber_per_half_cup_g": 8,
+        "protein_bonus_g": 9,
+        "how_to_add": "Add to soups, stews, pasta sauce. Can replace 25-50% of ground meat."
+      },
+      {
+        "food": "Black beans",
+        "fiber_per_half_cup_g": 7.5,
+        "protein_bonus_g": 7,
+        "how_to_add": "Add to tacos, soups, salads, rice bowls."
+      },
+      {
+        "food": "Chickpeas",
+        "fiber_per_half_cup_g": 6,
+        "protein_bonus_g": 7,
+        "how_to_add": "Roast for snacks, add to salads, blend for hummus."
+      },
+      {
+        "food": "Oats (rolled)",
+        "fiber_per_half_cup_g": 4,
+        "how_to_add": "Meatloaf binder, smoothies, baked goods. Use oat flour in baking."
+      },
+      {
+        "food": "Chia seeds",
+        "fiber_per_tbsp_g": 5,
+        "how_to_add": "Add to smoothies, yogurt, oatmeal, baked goods."
+      },
+      {
+        "food": "Avocado",
+        "fiber_per_half_fruit_g": 5,
+        "how_to_add": "Toast topper, salads, sandwiches, smoothies."
+      },
+      {
+        "food": "Raspberries",
+        "fiber_per_cup_g": 8,
+        "how_to_add": "Breakfast, desserts, salads, snacking."
+      },
+      {
+        "food": "Artichoke hearts",
+        "fiber_per_cup_g": 7,
+        "how_to_add": "Add to pasta, salads, pizza, dips."
+      }
+    ]
+  },
+  "food_safety_notes": {
+    "salt_in_curing": {
+      "title": "Salt Reduction in Cured/Preserved Foods",
+      "severity": "warning",
+      "content": "Salt plays a critical food safety role in curing meats and preserving foods. A salt concentration of 10% is needed to restrict Clostridium botulinum growth. Sodium nitrite (in combination with salt) is REQUIRED in commercial cured meats to prevent botulism. FDA requires minimum 120 ppm nitrite for safety. Do NOT attempt to reduce salt in home-cured bacon, ham, or other preserved meats without food safety training. This can result in botulism, which is potentially fatal.",
+      "safe_alternatives": [
+        "Buy commercially-made reduced-sodium versions of cured meats",
+        "Use fresh meats instead of cured (roast your own turkey for sandwiches)",
+        "Reduce portions of cured meats rather than making unsafe home-cured versions"
+      ]
+    },
+    "potassium_chloride_warning": {
+      "title": "Potassium Chloride Salt Substitutes",
+      "severity": "warning",
+      "content": "Salt substitutes containing potassium chloride (Nu-Salt, NoSalt, Morton Salt Substitute) can cause dangerous hyperkalemia (high blood potassium) in susceptible patients. This can cause cardiac arrhythmias and death.",
+      "at_risk_groups": [
+        "People with kidney disease",
+        "People taking ACE inhibitors (lisinopril, enalapril, ramipril)",
+        "People taking ARBs (losartan, valsartan)",
+        "People taking potassium-sparing diuretics",
+        "People taking NSAIDs regularly",
+        "Older adults with reduced kidney function",
+        "People with diabetes"
+      ],
+      "recommendation": "Consult your doctor before using potassium-based salt substitutes. For most people, using herbs, spices, and citrus to reduce sodium is safer."
+    },
+    "double_reduction_warning": {
+      "title": "Reducing Salt AND Fat Together",
+      "severity": "info",
+      "content": "When reducing both salt and fat in a recipe, flavor loss compounds. Both salt and fat carry and enhance flavors. Compensate by increasing aromatics (garlic, onion), acids (lemon, vinegar), umami (mushrooms, tomato paste), and fresh herbs significantly. Expect 2-3 weeks for taste buds to adjust."
+    }
+  },
+  "detection_keywords": {
+    "high_sodium": [
+      "salt", "soy sauce", "tamari", "teriyaki", "fish sauce", "oyster sauce", "hoisin",
+      "bacon", "ham", "sausage", "hot dog", "deli meat", "pepperoni", "salami", "prosciutto",
+      "parmesan", "feta", "blue cheese", "american cheese", "processed cheese",
+      "canned beans", "canned tomatoes", "canned soup", "bouillon", "broth", "stock",
+      "pickles", "olives", "capers", "anchovies", "miso", "worcestershire"
+    ],
+    "high_saturated_fat": [
+      "butter", "lard", "shortening", "coconut oil", "palm oil",
+      "heavy cream", "whipping cream", "cream cheese", "sour cream",
+      "ground beef", "ground chuck", "ribeye", "prime rib", "bacon", "sausage",
+      "cheddar", "brie", "cream cheese", "whole milk", "half and half"
+    ],
+    "high_cholesterol": [
+      "egg yolk", "whole egg", "liver", "organ meats", "shrimp", "lobster",
+      "butter", "cream", "cream cheese", "cheese"
+    ]
+  },
+  "tips": {
+    "sodium_reduction": [
+      "Start by reducing salt 25% - after 2 weeks, reduce another 25%",
+      "Taste buds adjust within 2-3 weeks; foods will taste properly seasoned again",
+      "Season at the table rather than during cooking - you'll use less",
+      "Rinse canned beans and vegetables for 1 minute to reduce sodium 40%",
+      "Choose 'no salt added' canned goods, then season yourself",
+      "Read labels: items with <140mg sodium per serving are 'low sodium'",
+      "Restaurant meals average 1,200mg+ sodium - cook at home for control"
+    ],
+    "saturated_fat_reduction": [
+      "Choose olive oil or avocado oil instead of butter for most cooking",
+      "Use Greek yogurt instead of sour cream (nearly identical in most uses)",
+      "Choose leaner cuts: loin, round, sirloin instead of ribeye, chuck",
+      "Remove skin from chicken after cooking (keeps meat moist)",
+      "Blend mushrooms 50/50 with ground beef for burgers and meatloaf",
+      "Use evaporated skim milk instead of heavy cream in soups and sauces"
+    ],
+    "flavor_boosting": [
+      "Build flavor with aromatics: garlic, onion, shallots sauteed in oil",
+      "Add acid (lemon, vinegar) at end of cooking for brightness",
+      "Toast spices in dry pan before using to intensify flavor",
+      "Use fresh herbs generously - they add flavor without sodium",
+      "Add umami: mushrooms, tomato paste, nutritional yeast, parmesan rind",
+      "Finish dishes with fresh herbs and a squeeze of citrus"
+    ]
+  }
+}

@@ -588,11 +588,58 @@ const result = converter.generateConvertedRecipe();
 
 ### Heart-Smart Recipe Converter
 
-**Status:** Research Required
+**Status:** Research Complete - Ready for UI Implementation
 **Added:** 2026-01-23
+**Updated:** 2026-01-29
 **Complexity:** High
 
 Create a tool that converts recipes to heart-healthy versions by reducing sodium, saturated fat, and cholesterol while maintaining flavor through herbs, spices, and healthy fat substitutions.
+
+#### Phase 1 Complete: Data Foundation (2026-01-29)
+
+**Data file created:** `data/heart-smart-database.json`
+
+Contains comprehensive heart-smart conversion data including:
+- **Sodium categories:** Salt/seasonings, soy sauce/Asian sauces, broths/stocks, canned foods, processed meats, cheese - with substitution options, sodium saved, ratios, and prep notes
+- **Fat categories:** Butter/oils, cream/dairy, ground meats, cholesterol sources - with saturated fat comparisons and healthy alternatives
+- **Flavor enhancement:** Fresh herbs (8 varieties with pairings), spices (8 varieties), acids/brighteners (6 types), umami boosters (6 sources), aromatics (6 types)
+- **Regional herb blends:** Italian, Herbes de Provence, Za'atar, Garam Masala, Cajun, Greek, Chinese Five Spice, Ras el Hanout - all sodium-free
+- **Omega-3 sources:** Mackerel, salmon, sardines, walnuts, flaxseed, chia seeds with grams per serving
+- **Fiber boosters:** Lentils, beans, oats, chia, avocado, raspberries, artichokes with grams per serving
+- **Food safety warnings:** Salt reduction in curing (botulism risk), potassium chloride warnings (kidney disease, ACE inhibitors)
+- **Detection keywords:** High-sodium, high-saturated-fat, high-cholesterol ingredient lists
+- **Diet presets:** AHA Recommended, DASH Diet, Mediterranean
+
+**Research sources used:**
+- [AHA Sodium Guidelines](https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/how-much-sodium-should-i-eat-per-day)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Cleveland Clinic Low-Sodium Cooking](https://health.clevelandclinic.org/no-salt-seasonings-no-sodium-foods)
+- [NIH Omega-3 Fatty Acids](https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/)
+- [Mayo Clinic High-Fiber Foods](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/high-fiber-foods/art-20050948)
+- [NCBI - Sodium in Food Preservation](https://www.ncbi.nlm.nih.gov/books/NBK50952/)
+- [PMC - Potassium Chloride Salt Substitutes](https://pmc.ncbi.nlm.nih.gov/articles/PMC1124926/)
+
+**Key research findings:**
+- AHA recommends <2,300mg sodium/day; ideal <1,500mg/day for most adults
+- Average American consumes >3,500mg sodium daily (150%+ of recommended)
+- 1 teaspoon salt = 2,300mg sodium (entire daily limit)
+- Taste buds adjust to lower sodium within 2-3 weeks
+- Potassium chloride salt substitutes dangerous for kidney disease, ACE inhibitor users
+- Salt (with nitrite) is critical for food safety in cured meats - do not reduce in home curing
+- Omega-3 target: 1g EPA+DHA daily; mackerel highest at 2.5g per 3oz
+- Fiber target: 25-30g daily; lentils provide 8g per half cup
+
+#### Next Steps: UI Implementation (Phase 2)
+
+Implement `heart-smart-converter.js` following the diabetic-converter.js pattern:
+1. Load heart-smart-database.json
+2. Detect high-sodium, high-saturated-fat, high-cholesterol ingredients
+3. Render collapsible panel with:
+   - Sodium/saturated fat/cholesterol meters
+   - Substitution cards with ratios and prep notes
+   - Flavor enhancement suggestions (herbs, acids, umami)
+   - Food safety warnings where applicable
+   - Medical disclaimer
 
 #### Goals
 
@@ -934,14 +981,14 @@ const HEALTH_PRESETS = {
 };
 ```
 
-#### Research Required
+#### Research Completed (2026-01-29)
 
-- [ ] Complete sodium content database for common ingredients
-- [ ] Saturated fat database with cooking method variations
-- [ ] Herb/spice flavor pairing research
-- [ ] How salt reduction affects food safety (curing, preservation)
-- [ ] Interaction effects (reducing salt + reducing fat = double flavor loss)
-- [ ] Regional herb blends for different cuisines
+- [x] Complete sodium content database for common ingredients
+- [x] Saturated fat database with cooking method variations
+- [x] Herb/spice flavor pairing research
+- [x] How salt reduction affects food safety (curing, preservation)
+- [x] Interaction effects (reducing salt + reducing fat = double flavor loss)
+- [x] Regional herb blends for different cuisines
 
 #### Success Metrics
 
@@ -1621,6 +1668,7 @@ Automatically estimate recipe difficulty based on:
 
 | Task | Completed | Notes |
 |------|-----------|-------|
+| **Heart-Smart Converter Research** | 2026-01-29 | Data foundation: `heart-smart-database.json` with sodium/fat/cholesterol substitutions, herb blends, food safety |
 | **Protein & Vegetable Substitution Tool** | 2026-01-28 | Full UI: data + detection + collapsible panel with substitution options |
 | **Implement Health Safeguards UI** | 2026-01-28 | Collapsible panel with drug-food interactions, allergens, severity levels |
 | Process 754 oversized reference images | 2026-01-25 | Resized to <2000px in data/all/processed/ |
