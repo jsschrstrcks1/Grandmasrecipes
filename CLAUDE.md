@@ -390,5 +390,29 @@ python scripts/process_images.py
 
 ---
 
+## Multi-LLM Integration
+
+This repository has access to the multi-LLM orchestrator system. External models (GPT, Gemini, Grok) serve as **consultants only** — Claude remains lead author and decision-maker.
+
+### Available Skills
+
+| Skill | Usage | Purpose |
+|-------|-------|---------|
+| `/consult` | `/consult gpt structure "review this recipe layout"` | Quick single-model second opinion |
+| `/orchestrate` | `/orchestrate recipe "generate a Southern biscuit recipe"` | Full multi-model pipeline |
+| Cognitive Memory | Automatic on session start | Cross-session knowledge persistence |
+
+### Mode: `recipe`
+- **Lead:** GPT (generation)
+- **Pipeline:** Generate (GPT) → Expand (Gemini) → Safety Check (Claude) → Creative Variation (Grok)
+- **Memory scope:** `/recipes/grandmasrecipes`
+- **Orchestrator:** `/home/user/ken/orchestrator/`
+
+### Context Boundaries
+- **SEND:** Recipe requirements, ingredient lists, dietary constraints
+- **NEVER SEND:** Family attribution details, site analytics, personal details
+
+---
+
 *"She looketh well to the ways of her household, and eateth not the bread of idleness."*
 — Proverbs 31:27
