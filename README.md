@@ -1,110 +1,181 @@
 # Grandma's Recipe Archive
 
-A treasured collection of family recipes, preserved with love.
+A treasured collection of family recipes from Grandma Baker, plus the
+toolkit that converts everyday recipes into diabetic, heart-smart, and
+substitution-aware variants. Preserved with love and offered freely.
 
-> *Soli Deo Gloria*
-
----
-
-## About This Project
-
-This archive preserves Grandma's recipes—collected from handwritten cards, newspaper clippings, magazine cuttings, and other family treasures. The recipes span her journey from Michigan to Florida, representing both Northern and Southern culinary traditions.
-
-**Current Status:** 5 unique recipes extracted from 6 scanned images
+> *Soli Deo Gloria.*
 
 ---
 
-## Project Structure
+## Table of Contents
+
+- [About this project](#about-this-project)
+- [Family Recipe Archive (multi-repo)](#family-recipe-archive-multi-repo)
+- [What's in this repo](#whats-in-this-repo)
+- [Smart converters](#smart-converters)
+- [Project structure](#project-structure)
+- [Quick start](#quick-start)
+- [Generate the e-book / PDF](#generate-the-e-book--pdf)
+- [Adding new recipes](#adding-new-recipes)
+- [Recipe JSON schema](#recipe-json-schema)
+- [Current recipes](#current-recipes)
+- [Known issues & flags](#known-issues--flags)
+- [Validation & integrity](#validation--integrity)
+- [Recommended tools for future processing](#recommended-tools-for-future-processing)
+- [Multi-LLM integration](#multi-llm-integration)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## About this project
+
+This archive preserves Grandma Baker's recipes — handwritten cards,
+newspaper clippings, magazine cuttings, and other family treasures.
+The recipes span her journey from Michigan to Florida, representing
+both Northern and Southern culinary traditions.
+
+This repo also doubles as the **converter and calculator host** for the
+recipe family of repos. Standalone JavaScript modules implement
+diabetic, heart-smart, milk-substitution, protein-substitution, and
+intelligent-scaling logic that can be embedded in any of the sister
+recipe sites.
+
+**Current status:** small but growing recipe set; converter/calculator
+toolkit is the most active area. See [Current recipes](#current-recipes).
+
+---
+
+## Family Recipe Archive (multi-repo)
+
+| Repo | Collection |
+|---|---|
+| [MomsRecipes](https://github.com/jsschrstrcks1/MomsRecipes) | MomMom Baker (heirloom recipes) |
+| **Grandmasrecipes** | **Grandma Baker** *(this repo — also hosts converters)* |
+| [Grannysrecipes](https://github.com/jsschrstrcks1/Grannysrecipes) | Granny Hudson (Florida → Boston → back) |
+| [Allrecipes](https://github.com/jsschrstrcks1/Allrecipes) | Reference cookbooks & magazines |
+
+Grandma's repo doubles as the **aggregator** in the family — its
+calculators and substitutions can be linked into any of the others.
+
+---
+
+## What's in this repo
+
+- A static recipe site (HTML + CSS + vanilla JS), Pagefind-indexed.
+- A **PWA** (`sw.js`, `manifest.webmanifest`) with offline support.
+- Five smart-conversion engines (diabetic, heart-smart, milk,
+  protein, scaling) — see [Smart converters](#smart-converters).
+- A standalone **calculator** page (`calculator.html`) that ties the
+  engines together for ad-hoc conversions.
+- A printable e-book (`ebook/book.html`) for Calibre / wkhtmltopdf /
+  browser-print export.
+
+---
+
+## Smart converters
+
+Five JavaScript modules ship as part of this repo and are usable on any
+recipe page:
+
+| Module | What it does |
+|---|---|
+| [`diabetic-converter.js`](diabetic-converter.js) | Substitutes high-glycemic ingredients, recalculates carbs and added sugar, flags when a recipe can't be converted safely. |
+| [`heart-smart-converter.js`](heart-smart-converter.js) | Reduces sodium and saturated fat, swaps cooking oils, preserves the cooking technique. |
+| [`milk-substitution.js`](milk-substitution.js) | Maps dairy milks to plant-based alternatives (almond, oat, soy, coconut) accounting for fat content and sweetness. |
+| [`protein-substitution.js`](protein-substitution.js) | Swaps proteins (beef ↔ pork ↔ poultry ↔ plant) with cook-time corrections. |
+| [`scaling-intelligence.js`](scaling-intelligence.js) | Scales recipes by serving count, **not** by linear multiplication — it knows that doubling salt isn't doubling the dish. |
+
+The converters are deliberately conservative: when a substitution would
+fundamentally change the recipe (e.g. butter in a laminated dough), they
+refuse and explain why.
+
+See [`PLAN-nutrition-facts.md`](PLAN-nutrition-facts.md) for the planned
+nutrition-facts panel that ties all five converters together.
+
+---
+
+## Project structure
 
 ```
 Grandmasrecipes/
-├── CLAUDE.md                  # AI assistant context & guidelines
-├── README.md                  # This file
+├── CLAUDE.md                      # AI assistant context
+├── PLAN-nutrition-facts.md        # Nutrition-facts integration plan
+├── README.md                      # This file
 ├── data/
-│   ├── *.jpeg                 # Original scanned recipe images
-│   ├── recipes_master.json    # All recipes in structured format
-│   └── processed_images.json  # Scan processing log & metadata
-├── site/
-│   ├── index.html             # Home page with search & filters
-│   ├── recipe.html            # Recipe detail page
-│   ├── styles.css             # Stylesheet
-│   └── script.js              # Client-side JavaScript
-└── ebook/
-    ├── book.html              # Print-optimized e-book HTML
-    └── print.css              # Print stylesheet
+│   ├── *.jpeg                     # Original scanned recipe images
+│   ├── recipes_master.json        # All recipes
+│   └── processed_images.json      # Scan processing log
+├── _pagefind/                     # Pagefind search index
+├── docs/                          # Project docs (architecture, decisions)
+├── ebook/
+│   ├── book.html                  # Print-optimized e-book
+│   └── print.css                  # Print stylesheet
+├── scripts/                       # Build / validation utilities
+├── index.html                     # Home page (search + filters)
+├── recipe.html                    # Recipe detail page
+├── calculator.html                # Standalone converter UI
+├── diabetic-converter.js
+├── heart-smart-converter.js
+├── milk-substitution.js
+├── protein-substitution.js
+├── scaling-intelligence.js
+├── script.js / script.min.js      # Site bundle
+├── styles.css / styles.min.css    # Stylesheet (+ minified)
+├── sw.js                          # Service Worker (PWA)
+├── robots.txt
+└── license                        # GNU AGPL v3
 ```
 
 ---
 
-## Quick Start
+## Quick start
 
-### View the Website Locally
+### View the site locally
 
-1. **Using Python (recommended):**
-   ```bash
-   cd Grandmasrecipes
-   python -m http.server 8000
-   ```
-   Then open http://localhost:8000/site/ in your browser.
+```bash
+# Python (recommended)
+cd Grandmasrecipes
+python -m http.server 8000
 
-2. **Using Node.js:**
-   ```bash
-   npx serve .
-   ```
+# or Node.js
+npx serve .
 
-3. **Using PHP:**
-   ```bash
-   php -S localhost:8000
-   ```
+# or PHP
+php -S localhost:8000
+```
 
-### Host on GitHub Pages
+Open <http://localhost:8000>. The Service Worker activates after the
+first load; subsequent loads are offline-capable.
 
-1. Push this repository to GitHub
-2. Go to **Settings → Pages**
-3. Set source to your main branch and `/site` folder (or root)
-4. Your site will be live at `https://yourusername.github.io/Grandmasrecipes/site/`
+### Host on GitHub Pages / Netlify / Vercel
 
-### Host on Netlify
-
-1. Push to GitHub/GitLab
-2. Connect to Netlify
-3. Set publish directory to `site`
-4. Deploy!
-
-### Host on Vercel
-
-1. Push to GitHub
-2. Import project in Vercel
-3. Set output directory to `site`
-4. Deploy!
+Pure static — no build required. Point the publish directory at the
+repo root (or the `/site/` subfolder if you keep the legacy layout).
 
 ---
 
-## Generate PDF E-Book
+## Generate the e-book / PDF
 
-### Method 1: Browser Print (Easiest)
+#### Browser print (easiest)
 
-1. Open `ebook/book.html` in your browser
-2. Press `Ctrl+P` (or `Cmd+P` on Mac)
-3. Select "Save as PDF" as the destination
-4. Adjust margins to "None" or "Minimum"
-5. Enable "Background graphics" for colors
-6. Save
+1. Open `ebook/book.html` in a browser.
+2. `Ctrl+P` (or `Cmd+P`) → "Save as PDF".
+3. Set margins to "None" or "Minimum"; enable "Background graphics".
 
-### Method 2: Using wkhtmltopdf
+#### `wkhtmltopdf`
 
 ```bash
 wkhtmltopdf \
   --enable-local-file-access \
   --page-size Letter \
-  --margin-top 0.75in \
-  --margin-bottom 0.75in \
-  --margin-left 1in \
-  --margin-right 1in \
+  --margin-top 0.75in --margin-bottom 0.75in \
+  --margin-left 1in --margin-right 1in \
   ebook/book.html grandmas-recipes.pdf
 ```
 
-### Method 3: Using Pandoc
+#### Pandoc
 
 ```bash
 pandoc ebook/book.html \
@@ -113,43 +184,35 @@ pandoc ebook/book.html \
   --css=ebook/print.css
 ```
 
-### Method 4: Using Calibre (for EPUB/MOBI)
+#### Calibre (EPUB / MOBI)
 
-1. Open Calibre
-2. Add book → Select `ebook/book.html`
-3. Convert book → Select output format (EPUB, MOBI, etc.)
-4. Adjust settings as needed
-5. Convert
+Add `ebook/book.html` to Calibre, "Convert book", choose your output
+format.
 
 ---
 
-## Adding New Recipes
+## Adding new recipes
 
-### 1. Scan Your Recipe
+1. **Scan** at 300 DPI or higher; save as JPEG in `data/` as
+   `Grandmas-recipes - N.jpeg`.
+2. **Extract** following [`CLAUDE.md`](CLAUDE.md):
+   - Analyze the scan for orientation and content.
+   - Extract recipe data per the JSON schema.
+   - Check for duplicates against existing recipes.
+   - Append to `data/recipes_master.json`.
+   - Update `data/processed_images.json`.
+3. **Update the e-book** (`ebook/book.html`):
+   - Add to Table of Contents.
+   - Insert recipe in the appropriate section.
+   - Update the Index.
+4. **Validate** (see below) and commit.
 
-- Scan at 300 DPI or higher
-- Save as JPEG in `data/` folder
-- Name format: `Grandmas-recipes - N.jpeg`
-
-### 2. Extract the Recipe
-
-Follow the workflow in `CLAUDE.md`:
-1. Analyze the scan for orientation and content
-2. Extract all recipe data following the JSON schema
-3. Check for duplicates against existing recipes
-4. Add to `recipes_master.json`
-5. Update `processed_images.json`
-
-### 3. Update the E-Book
-
-Add the new recipe to `ebook/book.html`:
-- Add to Table of Contents
-- Add recipe in appropriate section
-- Update the Index
+The `recipe-transcription` and `recipe-validation` skills automate
+steps 2 and 4 when working with Claude Code.
 
 ---
 
-## Recipe JSON Schema
+## Recipe JSON schema
 
 ```json
 {
@@ -173,72 +236,48 @@ Add the new recipe to `ebook/book.html`:
   "pan_size": "9x13 inch pan",
   "notes": ["Any additional notes"],
   "tags": ["dessert", "holiday", "vintage"],
-  "confidence": {
-    "overall": "high|medium|low",
-    "flags": []
-  },
+  "confidence": {"overall": "high|medium|low", "flags": []},
   "image_refs": ["filename.jpeg"]
 }
 ```
 
 ---
 
-## Current Recipes
+## Current recipes
 
 | Recipe | Category | Source | Confidence |
-|--------|----------|--------|------------|
-| Ginger-Onion Lo Mein | Mains | Magazine clipping | Medium* |
+|---|---|---|---|
+| Ginger-Onion Lo Mein | Mains | Magazine clipping | Medium\* |
 | Glazed Carrots | Sides | Tampa Tribune, 1994 | High |
 | Jubilie Jumbles | Desserts | Typed card (Betty Crocker, 1955) | High |
 | Original Chex Party Mix | Snacks | Cereal box | High |
 | She's a Geisha Cocktail | Beverages | Izumi restaurant menu | High |
 
-*\* Instructions partially inferred from standard technique*
+*\*Instructions partially inferred from standard technique.*
 
----
-
-## Known Issues & Flags
+## Known issues & flags
 
 ### Ginger-Onion Lo Mein
-- Original clipping was cut off
-- Steps 5-7 inferred from standard lo mein technique
-- **If you find the original source, please update!**
+
+- Original clipping was cut off.
+- Steps 5–7 inferred from standard lo-mein technique.
+- **If you find the original source, please update.**
 
 ### Jubilie Jumbles
-- Original card showed "2 tsp" butter in glaze
-- Corrected to "2 tbsp" per canonical Carnation recipe
-- Spelling "Jubilie" preserved from original (may be "Jubilee")
+
+- Original card showed "2 tsp" butter in glaze.
+- Corrected to "2 tbsp" per the canonical Carnation recipe.
+- Spelling "Jubilie" preserved from original (may be "Jubilee").
 
 ---
 
-## Recommended Tools for Future Processing
-
-### OCR & Text Extraction
-- **EasyOCR** - Good for messy scans
-- **PaddleOCR** - Excellent for mixed layouts
-- **Tesseract** - Gold standard open-source OCR
-
-### Image Preprocessing
-- **OpenCV** - Deskewing, denoising, contrast
-- **unpaper** - Post-processing scanned pages
-- **ScanTailor** - Batch processing with GUI
-
-### E-Book Generation
-- **Calibre** - Full-featured e-book management
-- **Pandoc** - Universal document converter
-- **ebooklib** - Python library for EPUB creation
-
----
-
-## File Integrity
-
-After modifying recipes, validate:
+## Validation & integrity
 
 ```bash
-# Check JSON syntax
+# JSON syntax
 python -m json.tool data/recipes_master.json > /dev/null && echo "JSON valid"
 
-# Check for required fields (basic)
+# Required-field check
 python -c "
 import json
 with open('data/recipes_master.json') as f:
@@ -252,24 +291,67 @@ print('All recipes valid!')
 "
 ```
 
+The integrity rules:
+
+- Every recipe must trace back to a real source — handwriting, clipping,
+  or family memory. **No AI-invented recipes.**
+- Inferred steps are flagged via `confidence.flags`.
+- Spelling of original cards is preserved verbatim.
+- Substitution converters never silently change a recipe's category or
+  cuisine.
+
+---
+
+## Recommended tools for future processing
+
+- **OCR:** EasyOCR, PaddleOCR, Tesseract.
+- **Image preprocessing:** OpenCV, unpaper, ScanTailor.
+- **E-book generation:** Calibre, Pandoc, ebooklib.
+
+---
+
+## Multi-LLM integration
+
+Defaults to **`recipe` mode** in the multi-LLM orchestrator hosted in
+[ken](https://github.com/jsschrstrcks1/ken).
+
+| Skill | Usage |
+|---|---|
+| `/consult gpt structure "..."` | Quick second opinion on extracted recipe shape |
+| `/orchestrate recipe "<task>"` | Full pipeline: transcribe → validate → integrate |
+| Cognitive memory | Scope `/Grandmasrecipes` |
+
+The `milk-substitution` skill is published as a Claude Code skill that
+wraps `milk-substitution.js`; see `.claude/skills/milk-substitution/`
+for usage.
+
+#### Setup (per session)
+
+```bash
+pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
+```
+
 ---
 
 ## Contributing
 
 This is a family project. If you're family and have:
+
 - Additional scans of Grandma's recipes
 - Corrections to existing recipes
 - Memories or context about specific recipes
 
-Please reach out!
+Please reach out, or open a PR on a `claude/<topic>-<id>` branch.
 
 ---
 
 ## License
 
-This recipe collection is a family treasure. Please use respectfully.
+GNU Affero General Public License v3.0 — see [`license`](license).
+
+The recipe text and images are a family treasure; please use respectfully.
 
 ---
 
-*"She looketh well to the ways of her household, and eateth not the bread of idleness."*
-— Proverbs 31:27
+*"She looketh well to the ways of her household, and eateth not the
+bread of idleness." — Proverbs 31:27*
