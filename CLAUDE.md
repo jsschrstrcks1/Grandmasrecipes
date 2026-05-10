@@ -1,7 +1,7 @@
 # Grandma's Kitchen — AI Assistant Context
 
-**Version:** 2.0 (lean hub)
-**Last updated:** 2026-05-01
+**Version:** 2.1 (lean hub + skills index)
+**Last updated:** 2026-05-10
 
 > **Soli Deo Gloria.** A labor of love by a Reformed Baptist family. These
 > recipes — many handwritten and irreplaceable — matter deeply.
@@ -11,6 +11,14 @@ This repo serves two functions:
 
 1. **Collection** — Grandma Baker's recipes (handwritten cards, Michigan → Florida).
 2. **Hub** — the central site that can aggregate from all four family recipe repos.
+
+---
+
+## Skills
+
+Full skill catalog (18 skills) is documented in [`SKILLS.md`](SKILLS.md) — human-facing index with activation modes, trigger keywords, and example prompts.
+
+**Read SKILLS.md at session start.** Recipe-domain skills (`recipe-transcription`, `recipe-validation`) and the standard household kit (16 skills) are configured under `.claude/skills/`. The five smart converters ship as JavaScript modules (not skills) and run in the browser.
 
 ---
 
@@ -28,6 +36,12 @@ Decision priority: **accuracy → preservation → fidelity → readability**.
 ---
 
 ## Essential Reading
+
+### Skills index
+
+| File | What it covers |
+|---|---|
+| [`SKILLS.md`](SKILLS.md) | **Skills index — read at session start** |
 
 ### Standards (extracted)
 
@@ -55,8 +69,9 @@ Decision priority: **accuracy → preservation → fidelity → readability**.
 
 ```
 Grandmasrecipes/
-├── CLAUDE.md                # This hub
-├── README.md                # Public-facing overview
+├── SKILLS.md                 # Skills index (NEW)
+├── CLAUDE.md                 # This hub
+├── README.md                 # Public-facing overview
 ├── index.html               # Hub + local recipes
 ├── recipe.html              # Recipe detail page
 ├── styles.css / script.js   # Site bundle (script.js does aggregation)
@@ -74,9 +89,7 @@ Grandmasrecipes/
 │   ├── hooks/
 │   │   ├── post-write-validate.sh
 │   │   └── image-safety-check.sh
-│   └── skills/
-│       ├── recipe-transcription/SKILL.md
-│       └── recipe-validation/SKILL.md
+│   └── skills/              # 18 skills (see SKILLS.md)
 ├── data/
 │   ├── *.jpeg               # FLAT — no subdirectories!
 │   ├── processed/           # AI-safe ≤2000 px copies
@@ -158,6 +171,7 @@ Full workflow in [`.claude/MAINTENANCE.md`](.claude/MAINTENANCE.md).
 
 | Version | Date | Changes |
 |---|---|---|
+| 2.1 | 2026-05-10 | Added `SKILLS.md` skill index. CLAUDE.md references it. |
 | 2.0 | 2026-05-01 | Lean hub restructure. Extracted OCR / image / schema / guardrails / hub-aggregation subfiles into `.claude/standards/`. CLAUDE.md cut from ~394 lines to ~150. |
 | 1.4 | 2026-01 | Added Family Repositories table, Routine Maintenance, MAINTENANCE.md |
 | 1.3 | 2026-01 | Added skills, skill-rules.json, MCP docs, cross-repo standards |
