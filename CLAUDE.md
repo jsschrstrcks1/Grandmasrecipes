@@ -1,52 +1,67 @@
-# Grandma's Kitchen - Family Recipe Archive
+# Grandma's Kitchen — AI Assistant Context
 
-## Project Mission & Values
+**Version:** 2.1 (lean hub + skills index)
+**Last updated:** 2026-05-10
 
-This is a labor of love being performed by a Reformed Baptist family. Our ethos is **Soli Deo Gloria** (Glory to God Alone).
+> **Soli Deo Gloria.** A labor of love by a Reformed Baptist family. These
+> recipes — many handwritten and irreplaceable — matter deeply.
+> **Accuracy beats speed.**
 
-**Accuracy is more important than speed.** These recipes matter deeply to this family.
+This repo serves two functions:
 
----
-
-## Quick Start (30-Second Version)
-
-1. **Images are FLAT** in `data/` — no subdirectories exist
-2. **NEVER delete handwritten images** — irreplaceable family heirlooms
-3. **NEVER invent** ingredients, steps, or measurements
-4. **Mark unclear text** as `[UNCLEAR]` — don't guess
-5. **Accuracy > Speed** — these recipes matter deeply
-6. **Run validation** after changes: `python scripts/validate-recipes.py`
-7. **MAX 100 images** per request — API hard limit, batch if needed
-8. **DOCUMENT EVERYTHING** — update .claude/*.md files so next session can resume
+1. **Collection** — Grandma Baker's recipes (handwritten cards, Michigan → Florida).
+2. **Hub** — the central site that can aggregate from all four family recipe repos.
 
 ---
 
-## Priority Framework (Decision-Making)
+## Skills
 
-When making decisions, follow this priority order:
+Full skill catalog (18 skills) is documented in [`SKILLS.md`](SKILLS.md) — human-facing index with activation modes, trigger keywords, and example prompts.
 
-| Priority | Principle | Explanation |
-|----------|-----------|-------------|
-| 1 | **Accuracy-First** | Never guess or invent recipe content |
-| 2 | **Preservation-First** | Handwritten images are sacred heirlooms |
-| 3 | **Fidelity-First** | Preserve grandma's exact wording |
-| 4 | **Readability-First** | Family members need clear, usable recipes |
+**Read SKILLS.md at session start.** Recipe-domain skills (`recipe-transcription`, `recipe-validation`) and the standard household kit (16 skills) are configured under `.claude/skills/`. The five smart converters ship as JavaScript modules (not skills) and run in the browser.
 
 ---
 
-## Repository Purpose
+## Quick Start (read first)
 
-This repository serves TWO functions:
+1. **Images are FLAT** in `data/` — no subdirectories. Use `data/processed/` for AI reads.
+2. **NEVER delete handwritten images** — irreplaceable family heirlooms.
+3. **NEVER invent** ingredients, steps, or measurements. Mark unclear text `[UNCLEAR]`.
+4. **API limit: 100 images / request, 2000 px / image.** Batch carefully.
+5. **Run `python scripts/validate-recipes.py`** after every change.
+6. **Commit and push before ending a session.** Document WIP in `.claude/*.md`.
 
-### 1. Collection: Grandma Baker's Recipes
-Contains Grandma Baker's personal recipe collection - handwritten cards, family favorites from Michigan to Florida.
+Decision priority: **accuracy → preservation → fidelity → readability**.
 
-### 2. Hub: Family Recipe Archive
-The central site that can aggregate recipes from all family collections:
-- **Grandma Baker** (this repo - local)
-- **MomMom Baker** (MomsRecipes repo - remote)
-- **Granny Hudson** (Grannysrecipes repo - remote)
-- **Other Family Recipes** (Allrecipes repo - remote)
+---
+
+## Essential Reading
+
+### Skills index
+
+| File | What it covers |
+|---|---|
+| [`SKILLS.md`](SKILLS.md) | **Skills index — read at session start** |
+
+### Standards (extracted)
+
+| File | What it covers |
+|---|---|
+| [`.claude/standards/OCR_STANDARDS.md`](.claude/standards/OCR_STANDARDS.md) | Character confusion, measurement standardization, dual-temperature format |
+| [`.claude/standards/IMAGE_WORKFLOW.md`](.claude/standards/IMAGE_WORKFLOW.md) | Flat-path rule, 2000 px / 100-image limits, manifest commands |
+| [`.claude/standards/RECIPE_SCHEMA.md`](.claude/standards/RECIPE_SCHEMA.md) | Recipe JSON schema and category list |
+| [`.claude/standards/GUARDRAILS.md`](.claude/standards/GUARDRAILS.md) | Accept/reject table, do/don't list, common errors to avoid |
+| [`.claude/standards/HUB_AGGREGATION.md`](.claude/standards/HUB_AGGREGATION.md) | Cross-repo aggregation, FAMILY_COLLECTIONS array |
+
+### Operations
+
+| File | What it covers |
+|---|---|
+| [`.claude/MAINTENANCE.md`](.claude/MAINTENANCE.md) | Detailed maintenance workflows |
+| [`.claude/ONBOARDING.md`](.claude/ONBOARDING.md) | New-session prompt |
+| [`.claude/CROSS_REPO_STANDARDS.md`](.claude/CROSS_REPO_STANDARDS.md) | Cross-repository sync standards |
+| [`.claude/mcp-servers.md`](.claude/mcp-servers.md) | MCP server documentation |
+| [`README.md`](README.md) | Public-facing overview |
 
 ---
 
@@ -54,376 +69,116 @@ The central site that can aggregate recipes from all family collections:
 
 ```
 Grandmasrecipes/
-├── index.html              # Main page (hub + local recipes)
-├── recipe.html             # Recipe detail page
-├── styles.css              # Stylesheet
-├── script.js               # Client-side rendering + aggregation
-├── CLAUDE.md               # THIS FILE - AI assistant instructions
-├── README.md               # Project documentation
+├── SKILLS.md                 # Skills index (NEW)
+├── CLAUDE.md                 # This hub
+├── README.md                 # Public-facing overview
+├── index.html               # Hub + local recipes
+├── recipe.html              # Recipe detail page
+├── styles.css / script.js   # Site bundle (script.js does aggregation)
+├── calculator.html          # Standalone converter UI
+├── *-converter.js / milk-substitution.js / scaling-intelligence.js
+├── sw.js / manifest.webmanifest # PWA
 ├── .claude/
-│   ├── settings.json       # Claude Code configuration + hooks
-│   ├── skill-rules.json    # Skill auto-activation rules
-│   ├── mcp-servers.md      # MCP server documentation
-│   ├── CROSS_REPO_STANDARDS.md  # Cross-repository sync standards
-│   ├── MAINTENANCE.md      # Detailed maintenance workflows
-│   ├── ONBOARDING.md       # New session onboarding prompt
+│   ├── settings.json        # Hooks + permissions
+│   ├── skill-rules.json     # Skill auto-activation
+│   ├── MAINTENANCE.md       # Detailed maintenance workflows
+│   ├── ONBOARDING.md        # New-session prompt
+│   ├── CROSS_REPO_STANDARDS.md
+│   ├── mcp-servers.md
+│   ├── standards/           # Extracted reference files
 │   ├── hooks/
-│   │   ├── post-write-validate.sh  # Auto-validate after edits
-│   │   └── image-safety-check.sh   # Warn about oversized images
-│   └── skills/
-│       ├── recipe-transcription/   # OCR + transcription skill
-│       │   └── SKILL.md
-│       └── recipe-validation/      # Schema validation skill
-│           └── SKILL.md
+│   │   ├── post-write-validate.sh
+│   │   └── image-safety-check.sh
+│   └── skills/              # 18 skills (see SKILLS.md)
 ├── data/
-│   ├── recipes_master.json # Grandma Baker's recipes (LOCAL)
-│   ├── collections.json    # Hub configuration
-│   ├── *.jpeg              # Recipe images (FLAT - no subdirectories!)
-│   └── processed/          # AI-safe resized images (≤2000px)
+│   ├── *.jpeg               # FLAT — no subdirectories!
+│   ├── processed/           # AI-safe ≤2000 px copies
+│   ├── recipes_master.json  # Grandma Baker's recipes (LOCAL)
+│   └── collections.json     # Hub configuration
 ├── scripts/
 │   ├── validate-recipes.py
 │   ├── process_images.py
 │   └── image_safeguards.py
-└── ebook/
-    └── (print generation files)
+└── ebook/                   # Print generation
 ```
 
 ### CRITICAL: Image Path Structure
 
-**Images are FLAT in data/ directory. There are NO subdirectories.**
-
 ```
-CORRECT: data/Grandmas-recipes - 12.jpeg
-WRONG:   data/grandma/Grandmas-recipes - 12.jpeg  ← subdirectory doesn't exist!
+CORRECT:   data/Grandmas-recipes - 12.jpeg
+WRONG:     data/grandma/Grandmas-recipes - 12.jpeg   (subdirectory does not exist)
 ```
-
-The `getCollectionImagePath()` function in script.js should return `'data/'` for local images.
-
----
-
-## Image Handling
-
-### HANDWRITTEN IMAGES ARE SACRED
-
-Grandma Baker's handwritten recipe cards are **irreplaceable family heirlooms**.
-
-| Image Type | Action |
-|------------|--------|
-| Handwritten recipe cards | **NEVER DELETE** - preserve, optimize, display |
-| Typed/printed recipes | May delete after JSON ingestion |
-| Magazine clippings | May delete after JSON ingestion |
-
-### Oversized Images
-
-Many images exceed Claude's 2000px API limit:
-- Original iPhone photos: up to 4032x3024px
-- Always use `data/processed/*.jpeg` for AI reading
-- Run `python scripts/process_images.py` to create safe versions
-
-### API Image Limit (CRITICAL)
-
-**Claude API limit: 100 images maximum per request**
-
-Exceeding this causes the error:
-```
-Too much media: 0 document pages + 101 images > 100
-```
-
-**Safeguards:**
-- Never batch-process more than 100 images at once
-- Use `image_safeguards.py get_batches()` for safe batching
-- Process images one-by-one when possible
-
-### Before Reading ANY Image
-
-```bash
-python scripts/image_safeguards.py status
-```
-
----
-
-## Hub Aggregation (Future/Optional)
-
-The hub can fetch recipes from other family repos:
-
-```javascript
-const FAMILY_COLLECTIONS = [
-  { id: 'grandma-baker', name: "Grandma Baker", local: true },
-  { id: 'mommom-baker', name: "MomMom Baker",
-    url: 'https://jsschrstrcks1.github.io/MomsRecipes/data/recipes.json' },
-  { id: 'granny-hudson', name: "Granny Hudson",
-    url: 'https://jsschrstrcks1.github.io/Grannysrecipes/data/recipes.json' },
-  { id: 'all', name: "Other Recipes",
-    url: 'https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json' }
-];
-```
-
-When aggregating, image paths must be resolved to absolute URLs for remote collections.
 
 ---
 
 ## Family Repositories
 
-| Collection | GitHub Repo | GitHub Pages | Collection ID |
-|------------|-------------|--------------|---------------|
-| Grandma Baker | [Grandmasrecipes](https://github.com/jsschrstrcks1/Grandmasrecipes) | [Live Site](https://jsschrstrcks1.github.io/Grandmasrecipes/) | `grandma-baker` |
-| MomMom Baker | [MomsRecipes](https://github.com/jsschrstrcks1/MomsRecipes) | [Live Site](https://jsschrstrcks1.github.io/MomsRecipes/) | `mommom-baker` |
-| Granny Hudson | [Grannysrecipes](https://github.com/jsschrstrcks1/Grannysrecipes) | [Live Site](https://jsschrstrcks1.github.io/Grannysrecipes/) | `granny-hudson` |
-| Other Recipes | [Allrecipes](https://github.com/jsschrstrcks1/Allrecipes) | [Live Site](https://jsschrstrcks1.github.io/Allrecipes/) | `all` |
+| Collection | Repo | Pages site | Collection ID |
+|---|---|---|---|
+| Grandma Baker | [Grandmasrecipes](https://github.com/jsschrstrcks1/Grandmasrecipes) | [Live](https://jsschrstrcks1.github.io/Grandmasrecipes/) | `grandma-baker` |
+| MomMom Baker | [MomsRecipes](https://github.com/jsschrstrcks1/MomsRecipes) | [Live](https://jsschrstrcks1.github.io/MomsRecipes/) | `mommom-baker` |
+| Granny Hudson | [Grannysrecipes](https://github.com/jsschrstrcks1/Grannysrecipes) | [Live](https://jsschrstrcks1.github.io/Grannysrecipes/) | `granny-hudson` |
+| Other Recipes | [Allrecipes](https://github.com/jsschrstrcks1/Allrecipes) | [Live](https://jsschrstrcks1.github.io/Allrecipes/) | `all` |
 
----
-
-## Routine Maintenance
-
-For detailed workflows, see [.claude/MAINTENANCE.md](.claude/MAINTENANCE.md).
-
-### Adding a New Recipe
-
-1. Add image to `data/` (flat, no subdirectories)
-2. Process image: `python scripts/process_images.py`
-3. Transcribe using processed image in `data/processed/`
-4. Add recipe JSON to `data/recipes_master.json`
-5. Validate: `python scripts/validate-recipes.py`
-6. Rebuild indexes: `python scripts/build-ingredient-index.py`
-
-### Adding a New Image
-
-1. Place image in `data/` directory
-2. Run: `python scripts/process_images.py`
-3. Verify with: `python scripts/image_safeguards.py status`
-
-### Before Deployment
-
-```bash
-python scripts/validate-recipes.py      # Validate all recipes
-python scripts/build-ingredient-index.py # Rebuild ingredient index
-python scripts/build-pagefind.py         # Rebuild search index
-python scripts/minify.py                 # Minify assets (optional)
-```
-
----
-
-## Recipe Schema
-
-```json
-{
-  "id": "recipe-slug",
-  "collection": "grandma-baker",
-  "collection_display": "Grandma Baker",
-  "title": "Recipe Name",
-  "category": "desserts",
-  "image_refs": ["Grandmas-recipes - 12.jpeg"],
-  "ingredients": [...],
-  "instructions": [...],
-  "notes": []
-}
-```
-
-### Categories
-
-```
-appetizers, beverages, breads, breakfast, desserts
-mains, salads, sides, soups, snacks
-```
-
----
-
-## Validation
-
-```bash
-python scripts/validate-recipes.py
-```
-
----
-
-## OCR Correction Standards
-
-When transcribing handwritten recipe cards, watch for these common misreadings:
-
-### Character Confusion
-| Misread | Correct | Context |
-|---------|---------|---------|
-| `l` | `1` | Numbers (e.g., `l cup` → `1 cup`) |
-| `1` | `l` | Words (e.g., `mi1k` → `milk`) |
-| `O` | `0` | Numbers (e.g., `35O°F` → `350°F`) |
-| `0` | `O` | Words (e.g., `0ven` → `Oven`) |
-
-### Critical Measurement Distinctions
-| DANGEROUS | CORRECT | Impact |
-|-----------|---------|--------|
-| `tbsp` | `tsp` | 3x difference! |
-| `tsp` | `tbsp` | 3x difference! |
-| `cup` | `cups` | Quantity matters |
-| `oz` | `fl oz` | Weight vs volume |
-
-### Measurement Standardization
-Use these abbreviations consistently:
-- **Volume:** tsp, tbsp, cup, fl oz, pt, qt, gal
-- **Weight:** oz, lb
-- **Temperature:** Dual format `350°F (175°C)`
-
-### When Uncertain
-- Mark with `[UNCLEAR]` — never guess
-- Note possible readings: `[UNCLEAR: possibly "1/2" or "1/4"]`
-- Flag for human review in recipe notes
+Aggregation logic lives in `.claude/standards/HUB_AGGREGATION.md`.
 
 ---
 
 ## Non-Negotiable Rules
 
-1. **NEVER delete handwritten images**
-2. **NEVER invent ingredients, steps, or measurements**
-3. If unreadable, mark as `[UNCLEAR]`
-4. Image paths are FLAT in data/ - no subdirectories
-5. Always check image dimensions before reading
-6. **ALWAYS commit and push changes before ending a session**
-7. **NEVER read more than 100 images in a single context** (API limit)
-8. **DOCUMENT work in progress** in `.claude/*.md` so next session can resume
+1. **NEVER delete handwritten images** — ever.
+2. **NEVER invent** ingredients, steps, or measurements.
+3. If unreadable, mark `[UNCLEAR]` — never guess.
+4. Image paths are **flat** in `data/` — no subdirectories.
+5. Always check image dimensions before reading (2000 px limit).
+6. **Always commit and push** before ending a session.
+7. **Never read more than 100 images** in one context (API limit).
+8. **Document WIP** in `.claude/*.md` for session continuity.
+
+Full accept/reject + do/don't tables: [`.claude/standards/GUARDRAILS.md`](.claude/standards/GUARDRAILS.md).
 
 ---
 
-## Guardrails: Accept vs Reject
-
-| ✅ ACCEPT | ❌ REJECT |
-|-----------|-----------|
-| Verbatim transcription from source | Inventing missing ingredients or steps |
-| `[UNCLEAR]` for unreadable text | Guessing measurements or quantities |
-| Preserving grandma's exact wording | "Improving" or modernizing her text |
-| Notes about image quality issues | Deleting ANY handwritten images |
-| Marking uncertain readings | Assuming what a smudged word says |
-| Original spelling and grammar | "Correcting" her personal style |
-| Flat image paths in `data/` | Creating subdirectories for images |
-
----
-
-## Do's and Don'ts
-
-### ❌ Don't:
-1. Delete handwritten images — **EVER** (they are irreplaceable)
-2. Invent ingredients, steps, or measurements
-3. Use subdirectories for images (`data/grandma/` doesn't exist)
-4. Modify or remove theological elements
-5. "Fix" grandma's spelling, grammar, or wording
-6. Guess what unclear handwriting says
-7. Read images without checking dimensions first
-8. Skip validation after making changes
-9. **Read more than 100 images at once** — API limit is 100 images per request
-
-### ✅ Do:
-1. Run `python scripts/image_safeguards.py status` before reading images
-2. Use `[UNCLEAR]` for any unreadable text
-3. Preserve original recipe notes verbatim
-4. Check image dimensions before processing (2000px limit)
-5. Run `python scripts/validate-recipes.py` after changes
-6. Use `data/processed/` images for AI reading
-7. Keep image paths flat: `data/filename.jpeg`
-8. Match collection ID format: `grandma-baker` (not `grandma`)
-9. **Commit and push all changes before ending a session**
-10. **Document ongoing work** in `.claude/*.md` files for session continuity
-
----
-
-## Common Errors to Avoid
-
-### Image Path Error
-```
-WRONG: data/grandma/image.jpeg  (subdirectory doesn't exist)
-RIGHT: data/image.jpeg          (flat structure)
-```
-
-### Collection ID Mismatch
-```
-WRONG: collection: "grandma"        (old format)
-RIGHT: collection: "grandma-baker"  (current format)
-```
-
-### Image Size Error
-```
-WRONG: Reading data/Grandmas-recipes - 12.jpeg directly (may be 4032x3024)
-RIGHT: Reading data/processed/Grandmas-recipes - 12.jpeg (≤2000px)
-```
-
-### Image Count Error (API Limit)
-```
-ERROR: "Too much media: 0 document pages + 103 images > 100"
-CAUSE: API limit is 100 images per request
-FIX:   Process images in batches of ≤100
-```
-
----
-
-## Help & Support
-
-| Question Type | Where to Look |
-|---------------|---------------|
-| Recipe JSON format | Check schema in `data/recipes_master.json` |
-| Image safety | Run `python scripts/image_safeguards.py status` |
-| Validation errors | Run `python scripts/validate-recipes.py` |
-| Category options | See Categories section above |
-| Hub/aggregation | See `data/collections.json` |
-| Theological context | See Proverbs 31:27 citation below |
-
-### Quick Reference Commands
+## Quick Reference Commands
 
 ```bash
-# Check image status before reading
+# Image status before reading
 python scripts/image_safeguards.py status
 
-# Validate all recipes after changes
+# Validate after changes
 python scripts/validate-recipes.py
 
-# Process oversized images for AI reading
+# Process oversized images
 python scripts/process_images.py
 ```
+
+---
+
+## Adding a New Recipe (summary)
+
+1. Add image to `data/` (flat).
+2. Process: `python scripts/process_images.py`.
+3. Transcribe using `data/processed/<file>`.
+4. Add JSON to `data/recipes_master.json`.
+5. Validate: `python scripts/validate-recipes.py`.
+6. Rebuild indexes: `python scripts/build-ingredient-index.py`.
+
+Full workflow in [`.claude/MAINTENANCE.md`](.claude/MAINTENANCE.md).
 
 ---
 
 ## Version History
 
 | Version | Date | Changes |
-|---------|------|---------|
-| v1.4 | 2026-01 | Added Family Repositories table, Routine Maintenance section, MAINTENANCE.md |
-| v1.3 | 2026-01 | Added skills (recipe-transcription, recipe-validation), skill-rules.json, MCP docs, cross-repo standards |
-| v1.2 | 2026-01 | Added .claude/ hooks, OCR correction standards, measurement standardization |
-| v1.1 | 2026-01 | Added Quick Start, Priority Framework, Guardrails, expanded Do's/Don'ts |
-| v1.0 | — | Original CLAUDE.md structure |
+|---|---|---|
+| 2.1 | 2026-05-10 | Added `SKILLS.md` skill index. CLAUDE.md references it. |
+| 2.0 | 2026-05-01 | Lean hub restructure. Extracted OCR / image / schema / guardrails / hub-aggregation subfiles into `.claude/standards/`. CLAUDE.md cut from ~394 lines to ~150. |
+| 1.4 | 2026-01 | Added Family Repositories table, Routine Maintenance, MAINTENANCE.md |
+| 1.3 | 2026-01 | Added skills, skill-rules.json, MCP docs, cross-repo standards |
+| 1.2 | 2026-01 | Added .claude/ hooks, OCR correction standards, measurement standardization |
+| 1.1 | 2026-01 | Added Quick Start, Priority Framework, Guardrails |
+| 1.0 | — | Original CLAUDE.md |
 
 ---
 
-## Multi-LLM Integration
-
-This repository has access to the multi-LLM orchestrator system. External models (GPT, Gemini, Grok) serve as **consultants only** — Claude remains lead author and decision-maker.
-
-### Available Skills
-
-| Skill | Usage | Purpose |
-|-------|-------|---------|
-| `/consult` | `/consult gpt structure "review this recipe layout"` | Quick single-model second opinion |
-| `/orchestrate` | `/orchestrate recipe "generate a Southern biscuit recipe"` | Full multi-model pipeline |
-| Cognitive Memory | Automatic on session start | Cross-session knowledge persistence |
-
-### Mode: `recipe`
-- **Lead:** GPT (generation)
-- **Pipeline:** Generate (GPT) → Expand (Gemini) → Safety Check (Claude) → Creative Variation (Grok)
-- **Memory scope:** `/recipes/grandmasrecipes`
-- **Orchestrator:** `/home/user/ken/orchestrator/`
-
-### First-Time Setup (Per Session)
-
-Before first use of `/consult` or `/orchestrate` in a session, install dependencies:
-
-```bash
-bash /home/user/ken/orchestrator/bootstrap-env.sh 2>/dev/null
-pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
-```
-
-This is silent when already installed. If `/consult` or `/orchestrate` fails with `ModuleNotFoundError`, run this command first.
-
-### Context Boundaries
-- **SEND:** Recipe requirements, ingredient lists, dietary constraints
-- **NEVER SEND:** Family attribution details, site analytics, personal details
-
----
-
-*"She looketh well to the ways of her household, and eateth not the bread of idleness."*
-— Proverbs 31:27
+*"She looketh well to the ways of her household, and eateth not the bread of idleness."* — Proverbs 31:27
