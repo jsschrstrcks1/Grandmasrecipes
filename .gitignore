@@ -16,3 +16,8 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# API keys
+.env
+.env.*
+!.env.example
