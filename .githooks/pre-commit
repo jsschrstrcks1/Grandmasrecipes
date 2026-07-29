@@ -1,0 +1,10 @@
+#!/bin/bash
+# Pre-commit — required-hooks guard: blocks any commit (INCLUDING merges) whose
+# .claude/settings.json has dropped a protected Claude Code hook.
+# Enable: git config core.hooksPath .githooks
+set -u
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
+if [ -x "$REPO_ROOT/.githooks/check-required-hooks.sh" ]; then
+  "$REPO_ROOT/.githooks/check-required-hooks.sh" || exit 1
+fi
+exit 0
