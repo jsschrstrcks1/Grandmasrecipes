@@ -867,9 +867,16 @@ async function analyzeRecipeHealth(recipe) {
     let concerns = db.ingredients[ingText];
 
     if (!concerns) {
-      // Try partial match - check if any flagged ingredient is contained in this one
+      // Partial match is ONE-WAY and word-bounded: the recipe's ingredient text must
+      // CONTAIN the flagged key as whole words. Bug fixed 2026-07-30 (UL-083): the old
+      // test also accepted `flaggedIng.includes(ingText)`, so a plain "water" matched the
+      // key "water chestnuts" and inherited its shellfish-allergen warning — likewise
+      // "cheese" -> aged-cheese MAOI, "salt" -> salt-water sodium. A panel that cries
+      // allergen on water teaches the family to ignore the warning that matters.
+      // Word boundaries also stop "watermelon" from matching a "water" key.
       for (const [flaggedIng, flaggedConcerns] of Object.entries(db.ingredients)) {
-        if (ingText.includes(flaggedIng) || flaggedIng.includes(ingText)) {
+        const key = String(flaggedIng).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        if (new RegExp(`\\b${key}\\b`, 'i').test(ingText)) {
           concerns = flaggedConcerns;
           break;
         }
@@ -1145,15 +1152,20 @@ function renderKitchenTipsForRecipe(recipe) {
 /**
  * Common fraction mappings for smart rounding
  */
+// Keys MUST be in toFixed(3) form: the lookup below is FRACTION_MAP[frac.toFixed(3)].
+// Bug fixed 2026-07-30 (UL-082): '0.25'/'0.5'/'0.75' could never match '0.250'/'0.500'/
+// '0.750', so the THREE most common kitchen fractions silently fell through to the decimal
+// fallback and concatenated onto the whole number — 1½ rendered as "10.50", 2¾ as "20.75".
+// The already-3-decimal keys (⅛ ⅓ ⅜ ⅝ ⅔ ⅞) matched fine, which is why it went unnoticed.
 const FRACTION_MAP = {
   '0.125': '⅛',
-  '0.25': '¼',
+  '0.250': '¼',
   '0.333': '⅓',
   '0.375': '⅜',
-  '0.5': '½',
+  '0.500': '½',
   '0.625': '⅝',
   '0.667': '⅔',
-  '0.75': '¾',
+  '0.750': '¾',
   '0.875': '⅞'
 };
 
