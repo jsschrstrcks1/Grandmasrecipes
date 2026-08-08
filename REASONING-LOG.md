@@ -31,6 +31,48 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-07 — Pointer read order no longer names a machine that isn't here
+
+**Asked.** Part of the operator-directed maximem-ai sweep: fix `pointer-read-order-offmac`
+(UL-173, p2). The sweep's ledger rows and the generator change live in `open-claw-stuff`, the
+household SSOT; this entry records what landed in this repo.
+
+**Weighed.** This repo's `CLAUDE.md` and `AGENT.md` stated a *mandatory* Layer 0 read order pointing
+at `/Users/kenbaker/atlas-serve/…` — a path that exists only on Ken's Mac. Claude Code never noticed,
+because its skills arrive bundled; Grok, Codex or a person in a container got a read order they
+could not follow, which silently voids P0 for exactly the runtimes the enforcement table claims to
+cover. The tempting fix was to inline Layer 0 here, but that duplicates what the rulebook forbids
+and would drift. The generator already had the right shape from UL-170 — mapped path first, then a
+fallback — so the fix reuses it rather than inventing one.
+
+**Decided.** Regenerated from `admin/render-agent-pointer.mjs`. The pointers now carry an `<OCS>`
+token plus a resolution order — `$HOUSEHOLD_OCS_ROOT`, then `../open-claw-stuff`, then the authoring
+machine's path — ending in an explicit **STOP** if none resolve, because an agent that cannot reach
+Layer 0 is ungoverned and must say so rather than proceed on the assumption that posture loaded.
+Zero absolute Mac paths remain in `CLAUDE.md`, `AGENT.md` or `admin/LIBRARY.md`. The P0 block is
+stamped `v3` so a stale leaf is now detectable by `--check`.
+
+Regeneration used to be destructive: it overwrote these files wholesale, and the guard added after
+that incident covered `CLAUDE.md` only, so hand-appended operator directives in `AGENT.md` were
+still being deleted silently. The generator is now **preserve-by-default** — every hand-appended
+section is carried forward verbatim in both files. The operator directives in this repo were
+preserved, and I verified the `## ` section list is byte-identical before and after.
+
+**Unsure.**
+
+- **The `<OCS>` token is a convention a reader must follow.** It is strictly better than a path that
+  resolves nowhere, but it is still instructions rather than a mechanism; nothing forces a runtime
+  to perform the resolution.
+- **Verified idempotent** — rendering twice leaves the files byte-identical — but the deployment ran
+  from a container, against these working trees, not on the Mac where the mapped paths resolve.
+- **This repo is not fully enforced**, measured by the new `admin/posture-status.mjs`:
+  `core.hooksPath` is unset here, so every `.githooks` guard is present but inert
+  (`githooks-inert-fresh-clone`, p2). I did not arm it — enabling a guard mid-session is an
+  operator call, not mine.
+
+_Runtime: Claude Code (claude-opus-5) · patron melaan_
+
+
 ## 2026-07-30 — Hooking the reasoning log into Sophos (fire every time, any model)
 
 **Asked.** Mid-session you ran `/model claude-opus-5` — the runtime swapped out from
