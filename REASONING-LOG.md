@@ -31,6 +31,35 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-13 — Install the A.B.O.R.T. dangerous-command guard (Claude)
+
+**Asked** — Operator: "go" on the guard-distribution cluster — put the P0
+dangerous-command guard on every repo's live agent shell. The 2026-08-12 parity
+audit measured this guard in only 4 of 16 repos; this repo was one of the twelve
+without it.
+
+**Weighed** — The hook imports `bootstrap-lib.mjs` and dynamically loads the
+120 KB detector from `./lib/`, so a two-file copy would crash the PreToolUse
+chain on a missing import — all three pieces must land together. The existing
+`settings.json` had to be merged, not replaced: the guard was added as the FIRST
+hook in a `Bash` matcher (created if absent) so safety runs ahead of any other
+Bash hook and nothing already wired was dropped.
+
+**Decided** — Installed the self-contained onboarded copy (hook + detector +
+bootstrap-lib, all byte-identical to the SSOT) and wired it via an idempotent
+merge. Verified live with an 8-case battery: safe command and inert probe allow;
+recursive root delete, home-dir delete hidden in a subshell, fork bomb,
+disk-wipe, network-pipe-to-interpreter, and force-push-to-protected all DENY —
+full detector active, not the inline fallback.
+
+**Unsure** — `core.hooksPath` is not armed here, so the `.githooks` git-level
+chain stays dead in git until the separate hookspath-arming pass. This install
+covers the live agent shell (PreToolUse), which is the P0 surface; the git-hook
+layer is a distinct follow-on.
+
+---
+
+
 ## 2026-07-30 — Hooking the reasoning log into Sophos (fire every time, any model)
 
 **Asked.** Mid-session you ran `/model claude-opus-5` — the runtime swapped out from
