@@ -2,13 +2,17 @@
 # Soli Deo Gloria.
 # reasoning-log-persist — Stop hook: a reasoning entry must never die with an
 # ephemeral container. If REASONING-LOG.md has uncommitted changes at session
-# stop, commit it (ONLY that path — nothing else is swept up) and push the
-# current branch.
+# stop, commit it (ONLY that path — nothing else is swept up) and push.
 #
 # Deliberately mirrors memory-autopersist.sh: same fail-open contract, same
 # narrow add-only-what-was-detected discipline. The reasoning log is the
 # human-readable half of continuity, as cognitive memory is the machine half;
 # both must survive the container, and neither may sweep up unrelated work.
+#
+# The commit message carries [no-reasoning] on purpose: this commit contains
+# ONLY the log, so requiring the log-guard to pass on it would be circular
+# (the guard already exempts log-only commits; the tag is belt and suspenders
+# for repos where the guard is installed but the exemption list drifts).
 #
 # Fail-open contract: ALWAYS exits 0 — a broken push must never block session
 # teardown. Failures are loud: logged to /tmp/reasoning-log-persist.err and
@@ -30,7 +34,7 @@ CHANGES=$(git status --porcelain -- REASONING-LOG.md 2>/dev/null)
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
 
 git add -- REASONING-LOG.md 2>>/tmp/reasoning-log-persist.err
-git commit -m "docs(reasoning): persist reasoning-log entr(ies) at session stop
+git commit -m "docs(reasoning): persist reasoning-log entr(ies) at session stop [no-reasoning]
 
 Automated by .claude/hooks/reasoning-log-persist.sh — the reasoning log is
 git-persisted; an entry left uncommitted dies with an ephemeral container.
