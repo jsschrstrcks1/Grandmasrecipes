@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "description": "Health considerations for recipe ingredients",
-    "total_flagged_ingredients": 6369,
+    "total_flagged_ingredients": 6363,
     "concern_categories": 28
   },
   "concerns": {
@@ -40,7 +40,7 @@
     },
     "ace_potassium": {
       "title": "High Potassium (ACE Inhibitor/ARB Interaction)",
-      "severity": "moderate",
+      "severity": "high",
       "description": "High potassium foods can interact with ACE inhibitors and ARBs, potentially causing dangerous potassium levels.",
       "medications": [
         "lisinopril",
@@ -524,7 +524,6 @@
       "allergen_wheat"
     ],
     "sour cream": [
-      "maoi_tyramine",
       "calcium_antibiotics",
       "allergen_milk"
     ],
@@ -543,7 +542,6 @@
       "fodmap_high"
     ],
     "peanut butter": [
-      "allergen_milk",
       "allergen_peanuts",
       "ckd_high_phosphorus"
     ],
@@ -566,7 +564,6 @@
       "ckd_high_sodium"
     ],
     "buttermilk": [
-      "maoi_tyramine",
       "calcium_antibiotics"
     ],
     "zatarain's crispy southern style fish fri": [
@@ -632,8 +629,7 @@
       "allergen_eggs"
     ],
     "cream of tartar": [
-      "calcium_antibiotics",
-      "allergen_milk"
+      "calcium_antibiotics"
     ],
     "ham or shrimp": [
       "allergen_shellfish",
@@ -651,9 +647,7 @@
       "ckd_high_potassium",
       "histamine_intolerance"
     ],
-    "water chestnuts": [
-      "allergen_tree_nuts"
-    ],
+    "water chestnuts": [],
     "pasta sauce": [
       "allergen_wheat",
       "fodmap_high"
@@ -789,7 +783,6 @@
     ],
     "coconut milk": [
       "calcium_antibiotics",
-      "allergen_milk",
       "ckd_high_phosphorus",
       "fodmap_high"
     ],
@@ -1162,7 +1155,6 @@
     "prune puree or prune butter": [
       "warfarin_vitamin_k",
       "ace_potassium",
-      "allergen_milk",
       "ckd_high_potassium"
     ],
     "prune puree": [
@@ -1427,7 +1419,6 @@
       "ckd_high_phosphorus"
     ],
     "mixed nuts with no peanuts": [
-      "allergen_peanuts",
       "ckd_high_phosphorus"
     ],
     "well- pinto, kidney or black beans": [
@@ -1442,12 +1433,7 @@
     "green pepper or chili peppers": [
       "warfarin_vitamin_k"
     ],
-    "scotch bonnet chiles, bird peppers, datil peppers, or other chiles": [
-      "alcohol_content"
-    ],
-    "scotch bonnet chiles": [
-      "alcohol_content"
-    ],
+    "scotch bonnet": [],
     "instant coffee": [
       "caffeine_content"
     ],
@@ -19686,9 +19672,6 @@
     "single malt": [
       "allergen_wheat"
     ],
-    "scotch bonnet peppers": [
-      "alcohol_content"
-    ],
     "serrano peppers": [
       "warfarin_vitamin_k"
     ],
@@ -22838,20 +22821,8 @@
     "salted cod": [
       "allergen_fish"
     ],
-    "to 1 teaspoon scotch bonnet or habanero pepper": [
-      "alcohol_content"
-    ],
     "red and green pepper": [
       "warfarin_vitamin_k"
-    ],
-    "to 1 scotch bonnet or habanero pepper": [
-      "alcohol_content"
-    ],
-    "scotch bonnet pepper, seeds and ribs removed": [
-      "alcohol_content"
-    ],
-    "scotch bonnet pepper": [
-      "alcohol_content"
     ],
     "baking potatoes, and cut into 1/2-inch wedges": [
       "ace_potassium",

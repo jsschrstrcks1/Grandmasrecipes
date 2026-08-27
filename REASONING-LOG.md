@@ -2,6 +2,43 @@
 
 # Reasoning Log
 
+## 2026-08-27 — Health-detection CRITICALs fixed: matcher rewrite + 12 data corrections (patron syl, HLS audit0827-gmr-health-detection-criticals)
+
+**Asked.** Ken: "go" — work the 2026-08-27 audit board, P0 first. This repo's P0: the three
+CRITICAL health-detection defects documented 2026-01-30 in .claude/HEALTH_AUDIT_REPORT.md and
+still present.
+
+**Weighed.** The report prescribed the fixes; I followed it rather than inventing my own:
+C1 ace_potassium severity moderate->high; C2 collect ALL partial matches and merge (the old
+loop broke on first match, so "sharp cheddar cheese" got cheddar's flags and missed cheese's
+phosphorus warning); C3 remove the reverse match (bare "oil" borrowed olive oil's warfarin
+flag). For C2/C3 I chose word-boundary matching over bare substring (the report's third
+option) because a live probe showed "water chestnuts" matching the legitimate "chestnuts"
+tree-nut entry and "scotch bonnet" matching the legitimate "scotch" alcohol entry — generic
+entries leaking into specific compounds. Two mechanisms close that: a specificity rule (a
+matched name that is a substring of a longer matched name yields to it) and explicit
+empty-list suppression entries for "water chestnuts" and "scotch bonnet". A self-attack pass
+then found two regressions in my own first regex: 131 flagged keys have punctuation edges
+where \b fails, and singular-only keys (e.g. "apricot") missed plural text — fixed with
+conditional boundaries and an optional (?:e?s) suffix, each pinned by a live test.
+
+**Decided.** script.js analyzeRecipeHealth rewritten (merge-all + specificity + cached
+compiled matchers); data/health-considerations.json: severity upgrade + 9 false-flag
+removals per H1-H9 (cream of tartar/coconut milk/peanut butter/prune puree dairy; water
+chestnuts tree-nut; mixed-nuts-no-peanuts peanut; sour cream + buttermilk MAOI-tyramine —
+report offered remove-or-qualify, I took remove per its cited prescriber's guide, reviewable;
+7 scotch-bonnet alcohol entries removed, 2 suppression entries added; meta count 6369->6363
+matching the actual entry count). script.min.js regenerated via scripts/minify.py — the
+pages load the MIN bundle, so the same 7-case battery was run against it: all pass. 15 live
+assertions total, all green, exercising the shipped source text against the real data file.
+
+**Unsure.** H5/H6 (sour cream, buttermilk tyramine removal) is the one judgment call where
+the report offered two options — a clinician may prefer the qualifier form; easy to revert
+per-entry. Perf: worst-case all-miss 40-ingredient recipe measured ~67ms in node for the
+partial-match scan; browser cost on old devices untested. The two-verifier quorum has not
+seen this — returned to the board, not complete.
+
+
 **For Ken. A running record of *how* and *why* — not just *what*.**
 
 You asked for a live stream of consciousness: when you ask me a question or hand me a

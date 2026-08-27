@@ -862,17 +862,32 @@ async function analyzeRecipeHealth(recipe) {
       continue;
     }
 
-    // Check if this ingredient (or parts of it) has any health concerns
-    // Try exact match first, then partial match
+    // Check if this ingredient (or parts of it) has any health concerns.
+    // Exact match first, then whole-word partial matches — ALL of them, merged
+    // (HEALTH_AUDIT_REPORT.md C2: first-match-only dropped concerns; C3: the
+    // reverse match flaggedIng.includes(ingText) let a short name like "oil"
+    // borrow "olive oil"'s flags). Word boundaries keep "nuts" out of
+    // "chestnuts"; when both a specific and a generic flagged name match
+    // ("coconut milk" and "milk"), the specific entry supersedes the generic.
     let concerns = db.ingredients[ingText];
 
     if (!concerns) {
-      // Try partial match - check if any flagged ingredient is contained in this one
-      for (const [flaggedIng, flaggedConcerns] of Object.entries(db.ingredients)) {
-        if (ingText.includes(flaggedIng) || flaggedIng.includes(ingText)) {
-          concerns = flaggedConcerns;
-          break;
-        }
+      if (!db._flaggedMatchers) {
+        db._flaggedMatchers = Object.entries(db.ingredients).map(([name, list]) => {
+          const esc = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          // Boundaries only where the key edge is a word character (131 keys
+          // have punctuation edges); optional plural so a singular-only key
+          // like "apricot" still matches "dried apricots".
+          const lead = /^\w/.test(name) ? '\\b' : '';
+          const tail = /\w$/.test(name) ? '(?:e?s)?\\b' : '';
+          return { name, list, re: new RegExp(lead + esc + tail) };
+        });
+      }
+      const matched = db._flaggedMatchers.filter(m => m.re.test(ingText));
+      const kept = matched.filter(m =>
+        !matched.some(other => other.name.length > m.name.length && other.name.includes(m.name)));
+      if (kept.length > 0) {
+        concerns = Array.from(new Set(kept.flatMap(m => m.list)));
       }
     }
 
