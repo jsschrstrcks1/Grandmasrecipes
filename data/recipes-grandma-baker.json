@@ -2,7 +2,7 @@
   "meta": {
     "collection": "grandma-baker",
     "total_recipes": 937,
-    "generated": "2026-08-30T13:30:10.995377Z",
+    "generated": "2026-08-30T17:26:52.810978Z",
     "source": "recipes_master.json",
     "sharded_by_category": false
   },
@@ -69414,7 +69414,9 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "Grandmas-recipes - 796.jpeg"
+      ],
       "conversions": {
         "has_conversions": true,
         "conversion_assumptions": [
@@ -77878,7 +77880,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "Grandmas-recipes - 855.jpeg",
+        "Grandmas-recipes - 856.jpeg"
+      ],
       "conversions": {
         "has_conversions": true,
         "conversion_assumptions": [],
@@ -80893,7 +80898,9 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "Grandmas-recipes - 881.jpeg"
+      ],
       "conversions": {
         "has_conversions": true,
         "conversion_assumptions": [
@@ -85481,7 +85488,9 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "Grandmas-recipes - 917.jpeg"
+      ],
       "conversions": {
         "has_conversions": true,
         "conversion_assumptions": [

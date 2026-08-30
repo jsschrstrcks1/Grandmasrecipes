@@ -31,6 +31,45 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — The culled scans: found, reviewed one by one, five restored (syl)
+
+**Asked.** Operator: the full scan album was in the repository and was supposed to have
+been kept by Claude — check git history, find which session deleted it, and restore only
+the ones that were recipes, only the recipes in her handwriting.
+
+**Weighed.** No reachable commit ever deletes a `Grandmas-recipes - N.jpeg`: the history
+has FOUR root commits (2026-01-15..17), so the January cull lives in pre-restart history
+no branch reaches. The two 2026-01-17 "Restore image …" commits are the receipts: a prior
+session culled scans it judged "typed/printed" and a later one clawed five back for their
+handwritten annotations. GitHub still holds the old PR head refs, so I fetched
+refs/pull/1..40 blob-less: the album peaked at 542 numbered scans (PRs #1–8), fell
+542→538→530→485 across the cull, and today's 490 includes the five January restores.
+Union of the PR trees minus disk = 52 culled scans, all recovered byte-exact from
+GitHub's object store. I then viewed all 52 myself, one by one — the January mistake was
+exactly a classification done carelessly, so no surveyor agents this time.
+
+**Decided.** Of the 52: 31 are printed matter (newspaper/magazine clippings, a flour-bag
+panel, a Chex box, CBN newsletter pages) with no handwriting — correctly culled, left
+out. 14 are typewritten personal cards with no handwritten marks — left out under the
+operator's "in her handwriting" criterion. 1 (991) is a duplicate photo of the Mary
+Meade's Eggnog clipping already preserved as 992 — left out (no duplicates). 1 (1002) is
+a second photo of the same typed Shortbread card as 853 — left out. **5 restored**, all
+typed cards carrying her handwriting, the same wrongly-culled class the January restores
+corrected: 855+856 Pie Crust graham-cracker-type (blue-ink "as you do graham cracker
+crust", "med", "large") → pie-crust-wheat-germ-healthy; 881 Whole Wheat Nut Bread
+(penciled doubling numbers down both margins) → whole-wheat-nut-bread-good; 917 Bean
+Salad (ink "24" correcting the standing time) → four-bean-salad; 796 Gen's Nut Cookies
+(ink scratch-out) → gens-nut-cookies. All four records had survived with emptied
+image_refs and match their cards; refs re-linked, shards/index rebuilt, validator clean,
+dedup --check CLEAN. Temporary pr-head branches and partial-clone config removed after.
+
+**Unsure.** Whether the 796 scratch-out is pen or typewriter overstrike — I judged pen
+from the stroke shapes, moderate confidence; restoring on that judgment errs toward
+preservation, which is the cheap direction. Zero fully-handwritten recipe cards were
+among the 52 — her handwritten cards were never deleted — but I cannot see what predates
+PR #1: if scans existed before the first surviving PR ref, no evidence of them remains
+in git, and only the operator's own photo archive could say.
+
 ## 2026-08-30 — Cooking with Grandma: album photos linked to her recipe cards (syl)
 
 **Asked.** Operator: "make sure they are linked to their recipe cards. so we can cook
