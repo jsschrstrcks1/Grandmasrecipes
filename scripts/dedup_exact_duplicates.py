@@ -120,9 +120,14 @@ def merge_into(keeper, loser):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="write changes (default: dry run)")
+    ap.add_argument("--check", action="store_true",
+                    help="gate mode: exit 3 if any exact duplicate exists, 0 when clean (writes nothing)")
     ap.add_argument("--master", default=DEFAULT_MASTER)
     ap.add_argument("--ledger", default=DEFAULT_LEDGER)
     args = ap.parse_args()
+    if args.apply and args.check:
+        print("UNAVAILABLE: --apply and --check are mutually exclusive", file=sys.stderr)
+        return 2
 
     with open(args.master, encoding="utf-8") as f:
         raw = f.read()
@@ -201,6 +206,16 @@ def main():
             if isinstance(r.get(f), str) and r.get(f) in removed_ids:
                 print(f"SANITY FAIL: {r.get('id')} .{f} still points at removed id", file=sys.stderr)
                 return 2
+
+    if args.check:
+        # Three states, never two: REPORT (3) when duplicates exist, CLEAN (0) when the
+        # tool looked and found none; unreadable input already exited 2 (UNAVAILABLE).
+        if removals:
+            print(f"\nREPORT — {len(removals)} exact duplicate(s) present. "
+                  "Adding a duplicate is a hard error (household law c865b442).")
+            return 3
+        print("\nCLEAN — looked at every record, no exact duplicates.")
+        return 0
 
     if not args.apply:
         print("\nDRY RUN — nothing written. Re-run with --apply.")
