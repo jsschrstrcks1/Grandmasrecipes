@@ -31,6 +31,30 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Grandma's memorial album moves home (syl)
+
+**Asked.** Operator (clarifying cleanup item 6): the Memorial/Grandma images in
+Grannysrecipes belong to Grandma, not Granny — move them to this repo, linked to the
+relevant recipes here.
+
+**Weighed.** The album is 618 files (606 photos, 12 videos, 394 MB; largest file 27 MB,
+under GitHub's limit). Whether any photos were recipe-relevant was tested, not assumed:
+a mechanical document-likeness triage scored all 606 images (brightness/saturation/edge
+density — paper cards score high), and the top-ranked candidates plus spread samples were
+reviewed by eye — 11 images total. Every one is a family photo (gatherings, meals,
+portraits, one double-exposed wedding print); zero recipe cards or clippings.
+
+**Decided.** Memorial/Grandma moved here whole and removed from Grannysrecipes. NO
+photo-to-recipe links were minted, because none would be truthful — a link claiming a
+photo shows a particular recipe is exactly the fabrication class this archive forbids.
+The album is linked at collection level instead (README section naming it). If specific
+photos are known to show a dish from the collection, naming them is enough to add real
+links.
+
+**Unsure.** 595 of 606 images were classified by the triage heuristic rather than by
+eye; a recipe card hiding in a dark or low-contrast photo would rank low and could be
+missed, though every high-ranking candidate checked was a photo.
+
 ## 2026-08-30 — Reader display settings on recipe pages (syl)
 
 **Asked.** Operator: recipe pages show a LOT of data — add a settings area so readers

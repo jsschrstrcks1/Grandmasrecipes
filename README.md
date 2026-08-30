@@ -355,3 +355,8 @@ The recipe text and images are a family treasure; please use respectfully.
 
 *"She looketh well to the ways of her household, and eateth not the
 bread of idleness." — Proverbs 31:27*
+
+
+## Memorial photo album
+
+`Memorial/Grandma/` holds the family's photo and video album for Grandma (606 photos, 12 videos), moved here from the Grannysrecipes repository on 2026-08-30 — the images belong with her collection. These are family photos, not recipe scans; recipe card scans live in `data/`.
