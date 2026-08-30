@@ -4698,7 +4698,7 @@ function renderCurrentRecipe() {
  * Choices persist in this browser only (localStorage) — never on the server.
  */
 const DISPLAY_PREFS_KEY = 'recipe-display-prefs';
-const DISPLAY_DEFAULTS = { nutrition: true };
+const DISPLAY_DEFAULTS = { nutrition: true, grandma: true };
 const DISPLAY_LABELS = {
   description: 'Description',
   source: 'Source note',
@@ -4709,7 +4709,8 @@ const DISPLAY_LABELS = {
   tags: 'Tags',
   tips: 'Related kitchen tips',
   flags: 'Transcription confidence',
-  scan: 'Original recipe scan'
+  scan: 'Original recipe scan',
+  grandma: 'Cooking with Grandma photos'
 };
 
 function loadDisplayPrefs() {
@@ -4837,6 +4838,7 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       ${recipe.oven_directions ? renderOvenDirections(recipe.oven_directions) : ''}
       ${recipe.frosting ? renderFrosting(recipe.frosting) : ''}
       ${recipe.nutrition ? prefWrap('nutrition', renderNutrition(recipe.nutrition, recipe.servings_yield)) : ''}
+      ${prefWrap('grandma', renderFamilyPhotos(recipe.family_photos))}
       ${prefWrap('description', recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : '')}
       ${prefWrap('source', recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : '')}
       ${prefWrap('quickfacts', renderQuickFacts(recipe))}
@@ -5291,6 +5293,32 @@ function getCollectionImagePath(collection, isRemote = false, remoteSiteUrl = nu
 /**
  * Render original scan thumbnail
  */
+/**
+ * "Cooking with Grandma" (operator directive 2026-08-30): family photos linked to a
+ * recipe render right after the nutrition facts, so cooking from her card keeps her
+ * at the table. Photos live in Memorial/Grandma/; a record lists basenames in
+ * family_photos. Filenames are validated strictly and URI-encoded (they contain
+ * spaces), so sanitizeUrl's charset rule is enforced here inline.
+ */
+function renderFamilyPhotos(photos) {
+  if (!Array.isArray(photos) || photos.length === 0) return '';
+  const items = photos.filter(p => /^[\w\- .]+\.jpeg$/i.test(String(p))).map(p => {
+    const src = 'Memorial/Grandma/' + encodeURIComponent(p);
+    return `
+      <a href="${escapeAttr(src)}" target="_blank">
+        <img src="${escapeAttr(src)}" alt="Family photo linked to this recipe" class="scan-thumbnail"
+             style="max-width: 200px; max-height: 150px; object-fit: cover;" loading="lazy">
+      </a>`;
+  });
+  if (!items.length) return '';
+  return `
+    <section class="family-photos">
+      <h3>Cooking with Grandma</h3>
+      ${items.join('')}
+    </section>
+  `;
+}
+
 function renderOriginalScan(imageRefs, collection) {
   if (!imageRefs || imageRefs.length === 0) return '';
 

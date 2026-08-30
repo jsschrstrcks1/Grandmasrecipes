@@ -7397,3 +7397,7 @@ kbd {
 .display-settings-row input {
   accent-color: var(--color-teal, #4db6ac);
 }
+
+/* Cooking with Grandma — family photos beside her recipes */
+.family-photos h3 { margin-bottom: 0.5rem; }
+.family-photos a { display: inline-block; margin: 0 0.5rem 0.5rem 0; }
