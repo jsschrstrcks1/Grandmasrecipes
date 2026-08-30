@@ -2,7 +2,7 @@
   "meta": {
     "collection": "grandma-baker",
     "total_recipes": 937,
-    "generated": "2026-08-30T11:33:22.547935Z",
+    "generated": "2026-08-30T13:30:10.995377Z",
     "source": "recipes_master.json",
     "sharded_by_category": false
   },
@@ -45740,7 +45740,11 @@
           "Calculated for 11 servings"
         ]
       },
-      "servings": 12
+      "servings": 12,
+      "family_photos": [
+        "Grandma - 558.jpeg",
+        "Grandma - 559.jpeg"
+      ]
     },
     {
       "id": "sourdough-bread-bread-machine",
@@ -55115,7 +55119,10 @@
           "Calculated for 3 servings"
         ]
       },
-      "servings": 18
+      "servings": 18,
+      "family_photos": [
+        "Grandma - 553.jpeg"
+      ]
     },
     {
       "id": "cherry-nut-cookies",
@@ -72849,6 +72856,10 @@
       "variants": [
         "mashed-potatoes-bhg",
         "mashed-potatoes-theplainsa"
+      ],
+      "family_photos": [
+        "Grandma - 103.jpeg",
+        "Grandma - 461.jpeg"
       ]
     },
     {
@@ -103947,7 +103958,10 @@
           "Calculated for 7 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "family_photos": [
+        "Grandma - 403.jpeg"
+      ]
     },
     {
       "id": "rhubarb-pie-handwritten-v2",
@@ -115026,7 +115040,10 @@
           "Serving size inferred from appetizers category"
         ]
       },
-      "variant_of": "cheese-ball-kathie-skubel"
+      "variant_of": "cheese-ball-kathie-skubel",
+      "family_photos": [
+        "Grandma - 80.jpeg"
+      ]
     },
     {
       "id": "pastitsio-greek-casserole-barbara-dellaan",

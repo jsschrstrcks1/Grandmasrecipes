@@ -31,6 +31,43 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Cooking with Grandma: album photos linked to her recipe cards (syl)
+
+**Asked.** Operator: "make sure they are linked to their recipe cards. so we can cook
+with grandma one more time." Constraints added mid-task: ensure no duplicates; careful
+not clever; soli deo gloria; sophos.
+
+**Weighed.** 606 album photos is too many to eyeball serially in one lane, so six
+parallel surveyor agents each described a disjoint batch of 101 (JSONL: scene, foods,
+kitchen flag). Merged: 606 unique rows, 0 duplicate files, 60 photos with a nameable
+food, 41 cooking/kitchen scenes. The matching bar I set: link a photo ONLY when (a) a
+stranger could name the dish from the photo, (b) a grandma-baker (family) record for
+that dish exists — never a researched import, and (c) I personally viewed the photo and
+confirmed the surveyor's description before writing the link. Candidates that failed:
+strawberry shortcake (photo 324 is clearly shortcake, but no grandma-baker shortcake
+record exists — linking it to a researched record would fake intimacy); the birthday
+cake shots (a frosted chocolate cake cannot be truthfully attributed to ONE of her four
+chocolate cake recipes); activity shots with no nameable dish (stove, sink, onion
+slicing) — treasures, but no honest single-recipe home.
+
+**Decided.** 7 photos linked to 5 grandma-baker records via a new additive
+`family_photos` field: cheese ball on the patio → grandmas-cheese-ball-handwritten (80);
+mashed potatoes on the plates at two family dinners → mashed-potatoes-classic (103,
+461); decorating Christmas cutouts → sugar-cookie-cutouts (553); barbecue ribs at the
+pavilion cookout → old-fashioned-spare-ribs (403); the dressing casserole at the center
+of the holiday table → turkey-dressing-tennessee-pride (558, 559). Dedupe enforced two
+ways: order-preserving dedupe within each record's list, and a cross-record check that
+refuses any photo appearing under two records. The renderer ("Cooking with Grandma"
+section after nutrition, ON by default) shipped in the prior commit. Gates: validator
+no errors; dedup --check CLEAN over 9394; shards + index regenerated.
+
+**Unsure.** The ribs link (403) is the weakest of the five: the ribs are plainly
+barbecued ribs and the setting is the family pavilion, but nothing in the photo proves
+they were made from HER spare-ribs recipe — the other four links carry the same caveat
+in gentler degrees. I judged "her table, her dish, her recipe card" the right standard
+for a memorial feature and said so here rather than silently. 599 photos remain
+unlinked; that is honesty, not incompleteness — most of the album is faces, not food.
+
 ## 2026-08-30 — Grandma's memorial album moves home (syl)
 
 **Asked.** Operator (clarifying cleanup item 6): the Memorial/Grandma images in
