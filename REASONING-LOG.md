@@ -2,6 +2,34 @@
 
 # Reasoning Log
 
+## 2026-08-27 — Hub aggregation run after 7 stale months; weekly schedule added (patron syl, HLS audit0827-gmr-hub-aggregation-stale)
+
+**Asked.** Ken: "Go" — next P1 tier from the audit board: the family-wide index frozen at
+last_aggregation 2026-01-23 while the sibling collections grew.
+
+**Weighed.** The aggregator fetches the LIVE GitHub Pages sites, which serve main — so this
+run picks up Allrecipes' current 9,989 but still sees MomsRecipes' stale shards (2,553 of
+2,644) and Granny's pre-rebuild index (184 of 197), because those fixes sit on the audit
+branch, not main. Options: hack local-sibling reads into the aggregator (scope creep, new
+code path to maintain) or run now for the big win and make re-running mechanical. Chose the
+latter: a weekly scheduled workflow (+ manual dispatch) commits the refreshed master, and
+the existing Rebuild Indexes workflow regenerates everything downstream on that push — so
+the residual staleness self-heals the first Monday after the audit branches merge.
+
+**Decided.** Aggregated 9,392 -> 13,663 recipes (grandma 937, mommom 2,553, granny 184,
+all 9,989); regenerated recipes_index (5.2 MB), ingredient index, and Pagefind; corrected
+data/collections.json counts (grandma 933->937, all 5,722->9,989, total 9,392->13,663,
+last_updated stamped); validate-recipes ran over the merged corpus. New workflow
+.github/workflows/aggregate-collections.yml, cron weekly, pinned to the repo's existing
+action SHAs, committing only the two files the schedule owns.
+
+**Unsure.** mommom (91 recipes) and granny (13) remain short until their branches merge and
+Pages redeploys — by design, healed by the schedule. The scheduled workflow is proven only
+when it first fires; its YAML parses and it mirrors the working Rebuild Indexes pattern.
+The 41 MB recipes_master.json continues to be published to Pages — the separate
+audit0827-gmr-legacy-shards task covers whether to stop serving it.
+
+
 ## 2026-08-27 — Health-detection CRITICALs fixed: matcher rewrite + 12 data corrections (patron syl, HLS audit0827-gmr-health-detection-criticals)
 
 **Asked.** Ken: "go" — work the 2026-08-27 audit board, P0 first. This repo's P0: the three
