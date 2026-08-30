@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "cakes",
     "total_recipes": 43,
-    "generated": "2026-08-30T01:53:39.447626Z",
+    "generated": "2026-08-30T11:33:22.792071Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -2346,7 +2346,9 @@
       "variants": [
         "carrot-cake-marcella-savage",
         "carrot-cake-bhg",
-        "carrot-cake-granny"
+        "carrot-cake-granny",
+        "low-fat-carrot-cake",
+        "carrot-cake-safflower-oil-fbc-jasmine"
       ]
     },
     {
@@ -2621,7 +2623,9 @@
         "pound-cake-bhg",
         "pound-cake-granny",
         "pound-cake-theplainsa",
-        "pound-cake-american-cookery-1796"
+        "pound-cake-american-cookery-1796",
+        "grandmothers-pound-cake-jean-lamphier",
+        "grandmas-pound-cake-fbc-jasmine"
       ]
     },
     {
@@ -2942,7 +2946,8 @@
         ]
       },
       "variants": [
-        "fruitcake-bhg"
+        "fruitcake-bhg",
+        "evelyn-j-wilsons-fruitcake"
       ]
     },
     {
@@ -3801,7 +3806,8 @@
         ]
       },
       "variants": [
-        "date-cake"
+        "date-cake",
+        "date-cake-good"
       ]
     },
     {
@@ -4524,7 +4530,8 @@
       },
       "variants": [
         "devils-food-cake-joanne-dehaan",
-        "devils-food-cake"
+        "devils-food-cake",
+        "reddit-nanas-devils-food-cake"
       ]
     },
     {
@@ -4795,7 +4802,8 @@
         "sponge-cake",
         "sponge-cake-gutenberg",
         "sponge-cake-theplainsa",
-        "sponqe-cake-triedandtr"
+        "sponqe-cake-triedandtr",
+        "saras-sponge-cake-ancients"
       ]
     },
     {

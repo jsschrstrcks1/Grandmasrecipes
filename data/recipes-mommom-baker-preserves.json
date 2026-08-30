@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "preserves",
     "total_recipes": 86,
-    "generated": "2026-08-30T01:53:39.595437Z",
+    "generated": "2026-08-30T11:33:23.160964Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -3787,7 +3787,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-4-sassafras-jelly"
     },
     {
       "id": "foxfire2-violet-jelly",

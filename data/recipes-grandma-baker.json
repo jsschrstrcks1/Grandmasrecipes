@@ -2,7 +2,7 @@
   "meta": {
     "collection": "grandma-baker",
     "total_recipes": 937,
-    "generated": "2026-08-30T01:53:39.207098Z",
+    "generated": "2026-08-30T11:33:22.547935Z",
     "source": "recipes_master.json",
     "sharded_by_category": false
   },
@@ -3658,7 +3658,8 @@
           "Calculated for 11 servings"
         ]
       },
-      "servings": 12
+      "servings": 12,
+      "variant_of": "broccoli-salad-mommom"
     },
     {
       "id": "cheesecake-brownies",
@@ -9909,7 +9910,8 @@
       "servings": 4,
       "variants": [
         "peanut-lovers-brownies"
-      ]
+      ],
+      "variant_of": "brownies-lorraine-kapp"
     },
     {
       "id": "peanut-lovers-brownies",
@@ -10474,7 +10476,8 @@
           "Calculated for 12 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "carrot-cake"
     },
     {
       "id": "new-york-style-cheesecake",
@@ -25694,7 +25697,10 @@
           "Calculated for 7 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variants": [
+        "macaroon-pie-cracker"
+      ]
     },
     {
       "id": "banana-split-cake",
@@ -31722,7 +31728,8 @@
           "Calculated for 7 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variant_of": "macaroon-pie"
     },
     {
       "id": "super-nuts",
@@ -35225,7 +35232,8 @@
       "variants": [
         "lemon-bars-cookies",
         "lemon-bars-bhg",
-        "lemon-bars"
+        "lemon-bars",
+        "reddit-grandmas-lemon-bars"
       ]
     },
     {
@@ -35804,7 +35812,10 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 30
+      "servings": 30,
+      "variants": [
+        "beignets-french-fritters"
+      ]
     },
     {
       "id": "beignets-french-fritters",
@@ -35952,7 +35963,8 @@
           "Calculated for 5 servings"
         ]
       },
-      "servings": 6
+      "servings": 6,
+      "variant_of": "beignets-yeast"
     },
     {
       "id": "lemon-sauce-for-fritters",
@@ -38740,7 +38752,8 @@
           "Calculated for 36 servings"
         ]
       },
-      "servings": 18
+      "servings": 18,
+      "variant_of": "peanut-butter-bars"
     },
     {
       "id": "jam-thumbprint-cookies",
@@ -45878,7 +45891,8 @@
       "servings": 8,
       "variants": [
         "sourdough-bread-machine"
-      ]
+      ],
+      "variant_of": "sourdough-bread-bhg"
     },
     {
       "id": "everyday-sourdough-artisan",
@@ -52897,7 +52911,8 @@
       "variants": [
         "fruit-salad-mommom",
         "fruit-salad-themetropo",
-        "fruit-salad-wilsonscoo"
+        "fruit-salad-wilsonscoo",
+        "cindy-baker-fruit-salad"
       ]
     },
     {
@@ -59651,7 +59666,8 @@
           "Calculated for 2 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "brown-bread-sour-milk-v2"
     },
     {
       "id": "fruit-full-muffins",
@@ -63403,7 +63419,8 @@
           "Calculated for 5 servings"
         ]
       },
-      "servings": 36
+      "servings": 36,
+      "variant_of": "bran-muffins-gutenberg"
     },
     {
       "id": "jeans-butterscotch-pudding",
@@ -64803,7 +64820,8 @@
       "servings": 4,
       "variants": [
         "key-lime-pie-key-west"
-      ]
+      ],
+      "variant_of": "grandmas-key-lime-pie-meringue"
     },
     {
       "id": "key-lime-pie-key-west",
@@ -66264,7 +66282,8 @@
       "servings": 4,
       "variants": [
         "ethels-pie-crust-handwritten-2"
-      ]
+      ],
+      "variant_of": "pie-crust-specialties"
     },
     {
       "id": "janets-pie",
@@ -68911,7 +68930,9 @@
         "dump-cake-jean-b",
         "dump-cake-basic-handwritten",
         "dump-cake-pineapple",
-        "dump-cake-granny"
+        "dump-cake-granny",
+        "frans-dump-cake",
+        "dump-cake-handwritten-granny"
       ]
     },
     {
@@ -70290,7 +70311,8 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 24
+      "servings": 24,
+      "variant_of": "chocolate-chip-cookies-bhg"
     },
     {
       "id": "pecan-pie-cookies",
@@ -71855,7 +71877,8 @@
           "Calculated for 8 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "chex-party-mix-ref"
     },
     {
       "id": "rum-balls",
@@ -72683,7 +72706,8 @@
           "Calculated for 7 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variant_of": "meatloaf-wilsonscoo"
     },
     {
       "id": "mashed-potatoes-classic",
@@ -73896,7 +73920,8 @@
       "servings": 16,
       "variants": [
         "brown-bread-sour-milk"
-      ]
+      ],
+      "variant_of": "brown-bread-sour-milk-v2"
     },
     {
       "id": "brown-bread-sour-milk",
@@ -77898,7 +77923,8 @@
           "Calculated for 3 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "pie-crust-specialties"
     },
     {
       "id": "heart-smart-party-mix",
@@ -78419,7 +78445,8 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 24
+      "servings": 24,
+      "variant_of": "foxfire-molasses-cookies"
     },
     {
       "id": "ma-coopers-white-cookies",
@@ -78932,7 +78959,8 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 24
+      "servings": 24,
+      "variant_of": "foxfire-molasses-cookies"
     },
     {
       "id": "idas-drop-molasses-cookies",
@@ -79299,7 +79327,8 @@
         "peanut-brittle-minnie-matts",
         "peanut-brittle-classic",
         "peanut-brittle-bhg",
-        "peanut-brittle-grandmas-molasses"
+        "peanut-brittle-grandmas-molasses",
+        "peters-peanut-brittle"
       ]
     },
     {
@@ -79671,7 +79700,8 @@
           "Calculated for 6 servings"
         ]
       },
-      "servings": 6
+      "servings": 6,
+      "variant_of": "egg-nog-a-friend-specialties"
     },
     {
       "id": "best-peanut-butter-cookie",
@@ -80157,7 +80187,8 @@
       "servings": 16,
       "variants": [
         "zucchini-bread-coconut"
-      ]
+      ],
+      "variant_of": "zucchini-bread"
     },
     {
       "id": "butterscotch-cookies-mom-bakers",
@@ -80711,7 +80742,8 @@
           "Calculated for 7 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variant_of": "zucchini-casserole-peggy-rotella"
     },
     {
       "id": "whole-wheat-nut-bread-good",
@@ -81120,7 +81152,8 @@
           "Calculated for 12 servings"
         ]
       },
-      "servings": 12
+      "servings": 12,
+      "variant_of": "date-cake-bhg"
     },
     {
       "id": "impossible-lemon-pie",
@@ -84054,7 +84087,8 @@
           "Calculated for 3 servings"
         ]
       },
-      "servings": 18
+      "servings": 18,
+      "variant_of": "thumbprint-cookies-mommom"
     },
     {
       "id": "pecan-crunch-crust",
@@ -86754,7 +86788,8 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "chicken-salad-bhg"
     },
     {
       "id": "sweet-society-chips-mins",
@@ -87060,7 +87095,8 @@
           "Calculated for 9 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "salmon-patties-ref"
     },
     {
       "id": "chicken-and-dumplings-economy",
@@ -92127,7 +92163,8 @@
           "Calculated for 7 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variant_of": "chicken-casserole-mommom"
     },
     {
       "id": "norma-lees-liver",
@@ -95920,7 +95957,9 @@
       },
       "servings": 4,
       "variants": [
-        "brown-bread-graham-flour"
+        "brown-bread-graham-flour",
+        "elbas-brown-bread",
+        "mins-brown-bread"
       ]
     },
     {
@@ -97262,7 +97301,9 @@
       "servings": 6,
       "variants": [
         "french-onion-soup-scratch",
-        "french-onion-soup"
+        "french-onion-soup",
+        "ricks-french-onion-soup-crockpot",
+        "french-onion-soup-quick"
       ]
     },
     {
@@ -97420,7 +97461,8 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "french-onion-soup-maltby"
     },
     {
       "id": "chicken-cabbage-panade",
@@ -99896,7 +99938,8 @@
           "Calculated for 8 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variant_of": "pecan-pie"
     },
     {
       "id": "jo-beards-chess-pie",
@@ -100505,7 +100548,8 @@
       "servings": 8,
       "variants": [
         "sheila-farris-chocolate-pie-family-circle"
-      ]
+      ],
+      "variant_of": "chocolate-pie-carnation"
     },
     {
       "id": "corn-stew-family-circle",
@@ -101170,7 +101214,8 @@
           "Calculated for 8 servings"
         ]
       },
-      "servings": 8
+      "servings": 8,
+      "variant_of": "apple-pie-american-cookery-1796"
     },
     {
       "id": "sammie-majors-fudge-pie",
@@ -102395,7 +102440,8 @@
         ]
       },
       "servings": 4,
-      "original_category": "basics"
+      "original_category": "basics",
+      "variant_of": "polenta-gutenberg"
     },
     {
       "id": "quinoa-cooking-guide",
@@ -103361,7 +103407,8 @@
           "Calculated for 4 servings"
         ]
       },
-      "servings": 24
+      "servings": 24,
+      "variant_of": "peanut-butter-cookies-minnie-matt"
     },
     {
       "id": "virginias-pickled-veggies",
@@ -104825,7 +104872,8 @@
           "Calculated for 5 servings"
         ]
       },
-      "servings": 6
+      "servings": 6,
+      "variant_of": "baked-chicken-chickenrec"
     },
     {
       "id": "texas-squealer",
@@ -105996,7 +106044,8 @@
           "Calculated for 13 servings"
         ]
       },
-      "servings": 15
+      "servings": 15,
+      "variant_of": "dump-cake-cherry-pineapple"
     },
     {
       "id": "broccoli-bacon-egg-salad",
@@ -106867,7 +106916,8 @@
           "Calculated for 24 servings"
         ]
       },
-      "servings": 12
+      "servings": 12,
+      "variant_of": "peanut-butter-cookies-minnie-matt"
     },
     {
       "id": "classic-lasagna-johnsonville",
@@ -107780,7 +107830,8 @@
           "Calculated for 3 servings"
         ]
       },
-      "servings": 4
+      "servings": 4,
+      "variant_of": "fruitcake"
     },
     {
       "id": "rice-krispie-dessert-frozen",
@@ -110037,7 +110088,8 @@
       "servings": 8,
       "variants": [
         "key-lime-pie-tampa",
-        "key-lime-pie"
+        "key-lime-pie",
+        "key-lime-pie-baked"
       ]
     },
     {
@@ -113038,7 +113090,8 @@
       },
       "image_refs": [
         "IMG_7254 Medium.jpeg"
-      ]
+      ],
+      "variant_of": "cooking-tips-page-26"
     },
     {
       "id": "pastitsio-greek-casserole-deyoung",
@@ -113777,7 +113830,9 @@
       },
       "variants": [
         "peanut-butter-cookies-minnie-matts",
-        "peanut-butter-cookies-betty-crocker"
+        "peanut-butter-cookies-betty-crocker",
+        "grandmas-peanut-butter-cookies-classic",
+        "peanut-butter-cookies-flourless-4-ingredient"
       ]
     },
     {
@@ -113991,7 +114046,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "pound-cake"
     },
     {
       "id": "honey-info-tips-ida-kelley",
@@ -114969,7 +115025,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from appetizers category"
         ]
-      }
+      },
+      "variant_of": "cheese-ball-kathie-skubel"
     },
     {
       "id": "pastitsio-greek-casserole-barbara-dellaan",
@@ -115131,7 +115188,8 @@
       "variants": [
         "pastitsio-greek-casserole-deyoung",
         "pastitsio-greek-casserole-barbara-dehaan"
-      ]
+      ],
+      "variant_of": "pastitsio"
     },
     {
       "id": "cheese-ball-kathie-skubel",
@@ -115225,7 +115283,9 @@
         ]
       },
       "variants": [
-        "cheese-ball-kathie-skehet"
+        "cheese-ball-kathie-skehet",
+        "grandmas-cheese-ball-handwritten",
+        "aunt-maudes-cheese-ball-fbc-jasmine"
       ]
     },
     {
@@ -116603,7 +116663,8 @@
         ]
       },
       "variants": [
-        "egg-nog-carnation"
+        "egg-nog-carnation",
+        "jeans-egg-nog"
       ]
     },
     {
@@ -120378,7 +120439,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variants": [
+        "green-bean-casserole-joanne-hall"
+      ]
     },
     {
       "id": "green-bean-casserole-joanne-hall",
@@ -120456,7 +120520,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "green-bean-casserole-mary-blason"
     },
     {
       "id": "harvard-beets-minnie-matts",
@@ -120822,7 +120887,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "broccoli-casserole-granny"
     },
     {
       "id": "sweet-and-sour-carrots-mulder-gristhop",
@@ -121789,7 +121855,8 @@
       },
       "variants": [
         "zucchini-casserole-fbc",
-        "zucchini-casserole-stuffing-fbc-jasmine"
+        "zucchini-casserole-stuffing-fbc-jasmine",
+        "zucchini-casserole-meal-dish"
       ]
     },
     {
@@ -124429,7 +124496,8 @@
         ]
       },
       "variants": [
-        "chili-paul-lutgen"
+        "chili-paul-lutgen",
+        "ivans-chili"
       ]
     },
     {
@@ -126628,6 +126696,9 @@
       ],
       "image_refs": [
         "IMG_7254 Medium.jpeg"
+      ],
+      "variants": [
+        "cooking-tips-specialties-page-26"
       ]
     },
     {
@@ -128615,7 +128686,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variants": [
+        "honey-prune-cake"
+      ]
     },
     {
       "id": "salad-dressing-cake-kathie-skobel",
@@ -129363,7 +129437,8 @@
       },
       "variants": [
         "coffee-cake-gutenberg",
-        "coffee-cake-thewhysofc"
+        "coffee-cake-thewhysofc",
+        "coffee-cake-bread-machine"
       ]
     },
     {
@@ -129488,7 +129563,10 @@
           "Calculated for 12 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variants": [
+        "reddit-tomato-soup-cake"
+      ]
     },
     {
       "id": "best-ever-chocolate-icing-frances-whitchick",
@@ -130916,7 +130994,9 @@
         ]
       },
       "variants": [
-        "pie-crust-blueribbon"
+        "pie-crust-blueribbon",
+        "ethels-pie-crust",
+        "pie-crust-wheat-germ-healthy"
       ]
     },
     {
@@ -132572,7 +132652,8 @@
         ]
       },
       "variants": [
-        "brownies-betty-crocker"
+        "brownies-betty-crocker",
+        "low-cost-brownies"
       ]
     },
     {
@@ -136819,7 +136900,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "prune-cake-rose-kotala"
     },
     {
       "id": "honey-cheese-pie",
@@ -137300,7 +137382,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "pumpkin-pie-gutenberg"
     },
     {
       "id": "rhubarb-peach-honey-cobbler",
@@ -138499,7 +138582,8 @@
           "Calculated for 24 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "butter-cookies-betty-crocker"
     },
     {
       "id": "honey-chocolate-chip-cookies",
@@ -138606,7 +138690,8 @@
           "Calculated for 24 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "chocolate-chip-cookies-bhg"
     },
     {
       "id": "honey-bread-pudding",
@@ -138718,7 +138803,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "bread-pudding"
     },
     {
       "id": "honey-rice-custard-pudding",

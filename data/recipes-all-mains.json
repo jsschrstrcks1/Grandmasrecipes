@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "mains",
     "total_recipes": 1601,
-    "generated": "2026-08-30T01:53:38.942416Z",
+    "generated": "2026-08-30T11:33:22.255659Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -11709,7 +11709,10 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variants": [
+        "salmon-patties-croquettes"
+      ]
     },
     {
       "id": "spaghetti-homemade-ref",
@@ -15791,7 +15794,8 @@
         "assumptions": [
           "Calculated for 15 servings"
         ]
-      }
+      },
+      "variant_of": "chili-olga-busch"
     },
     {
       "id": "crowd-pleasing-chili",
@@ -17272,7 +17276,8 @@
       },
       "notes": [
         "Top with corn."
-      ]
+      ],
+      "variant_of": "firehouse-chili"
     },
     {
       "id": "texas-beef-chili",
@@ -23353,7 +23358,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "moms-firehouse-chili"
+      ]
     },
     {
       "id": "feta-mushroom-burgers",
@@ -85266,7 +85274,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "polenta-cooking-guide"
+      ]
     },
     {
       "id": "polenta-alla-toscana-gutenberg",
@@ -87418,7 +87429,8 @@
         ]
       },
       "variants": [
-        "stuffed-peppers-theplainsa"
+        "stuffed-peppers-theplainsa",
+        "stuffed-peppers-webb-granny"
       ]
     },
     {
@@ -108260,7 +108272,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "baked-chicken-pepsi-can"
+      ]
     },
     {
       "id": "baked-chicken-breasts-chickenrec",
@@ -163135,7 +163150,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "marthas-meatloaf"
+      ]
     },
     {
       "id": "baked-shad-wilsonscoo",
@@ -168050,7 +168068,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "italian-meatballs-baked-jasmine"
+      ]
     },
     {
       "id": "roast-mutton-american-cookery-1796",
@@ -170572,7 +170593,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "little-boats-gcb"
+      ]
     },
     {
       "id": "big-wheel-chile-burger-chile-bible",
@@ -176015,7 +176039,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "hamburger-pie-bhg"
     },
     {
       "id": "reddit-crown-o-gold-meatloaf",

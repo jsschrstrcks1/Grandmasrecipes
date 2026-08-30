@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "beverages",
     "total_recipes": 122,
-    "generated": "2026-08-30T01:53:39.393599Z",
+    "generated": "2026-08-30T11:33:22.739022Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -9808,7 +9808,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-elderberry-wine"
     },
     {
       "id": "walnut-liquor-etw",
@@ -10933,7 +10934,8 @@
       },
       "variants": [
         "appalachian-elderberry-wine",
-        "elderberry-wine-etw"
+        "elderberry-wine-etw",
+        "elderberry-wine-gallon-etw"
       ]
     },
     {

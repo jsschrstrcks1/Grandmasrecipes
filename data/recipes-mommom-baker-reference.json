@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "reference",
     "total_recipes": 57,
-    "generated": "2026-08-30T01:53:39.603963Z",
+    "generated": "2026-08-30T11:33:23.169662Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1989,7 +1989,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "nutrition-analysis-breads-2-bhg"
+      ]
     },
     {
       "id": "nutrition-analysis-breads-2-bhg",
@@ -2035,7 +2038,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "nutrition-analysis-breads-bhg"
     },
     {
       "id": "nutrition-analysis-cakes-bhg",
@@ -2128,7 +2132,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "nutrition-analysis-cookies-2-bhg"
+      ]
     },
     {
       "id": "nutrition-analysis-cookies-2-bhg",
@@ -2175,7 +2182,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "nutrition-analysis-cookies-bhg"
     },
     {
       "id": "nutrition-analysis-desserts-bhg",

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "condiments",
     "total_recipes": 24,
-    "generated": "2026-08-30T01:53:39.459683Z",
+    "generated": "2026-08-30T11:33:22.804528Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -578,7 +578,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "duntovs-blue-cheese-dressing"
+      ]
     },
     {
       "id": "cranberry-orange-relish-bhg",
@@ -2071,7 +2074,8 @@
       },
       "variants": [
         "orange-marmalade-alberta-gristhop",
-        "orange-marmalade"
+        "orange-marmalade",
+        "orange-marmalade-bread-machine"
       ]
     },
     {
@@ -2584,7 +2588,8 @@
         ]
       },
       "variants": [
-        "foxfire2-sassafras-jelly"
+        "foxfire2-sassafras-jelly",
+        "foxfire4-sassafras-jelly"
       ]
     }
   ]

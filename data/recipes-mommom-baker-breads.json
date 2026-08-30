@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "breads",
     "total_recipes": 279,
-    "generated": "2026-08-30T01:53:39.405485Z",
+    "generated": "2026-08-30T11:33:22.750971Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -3754,7 +3754,8 @@
         "assumptions": [
           "Based on 10/12 ingredients (83% coverage)"
         ]
-      }
+      },
+      "variant_of": "buttermilk-bread-wilsonscoo"
     },
     {
       "id": "stacies-light-rye-bread",
@@ -4747,7 +4748,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "oatmeal-bread-themetropo"
     },
     {
       "id": "cottage-cheese-chive-bread",
@@ -5887,7 +5889,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "cranberry-nut-bread"
     },
     {
       "id": "chocolate-banana-bread-machine",
@@ -6134,7 +6137,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "nut-bread-bhg"
     },
     {
       "id": "dads-favorite-apricot-nut-bread",
@@ -6900,7 +6904,8 @@
         "assumptions": [
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "english-muffins"
     },
     {
       "id": "debras-butter-rolls",
@@ -7477,7 +7482,8 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "corn-bread-bhg"
     },
     {
       "id": "white-bread-classic",
@@ -9540,7 +9546,8 @@
           "Assumed 1 unit for candied cherries",
           "Based on 17/17 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "fruit-studded-bread-bhg"
     },
     {
       "id": "kuchen",
@@ -9822,7 +9829,8 @@
         ]
       },
       "variants": [
-        "english-muffins-bhg"
+        "english-muffins-bhg",
+        "cassies-english-muffins"
       ]
     },
     {
@@ -11525,7 +11533,8 @@
       },
       "variants": [
         "zucchini-bread-mommom",
-        "zucchini-bread-bhg"
+        "zucchini-bread-bhg",
+        "eleanors-zucchini-bread"
       ]
     },
     {
@@ -14332,7 +14341,8 @@
       "variants": [
         "handwritten-biscuits",
         "biscuits-bhg",
-        "biscuits-wilsonscoo"
+        "biscuits-wilsonscoo",
+        "grandmas-biscuits-granny"
       ]
     },
     {
@@ -14756,7 +14766,8 @@
       "variants": [
         "irish-soda-bread-bhg",
         "irish-soda-bread-granny",
-        "irish-soda-bread-all"
+        "irish-soda-bread-all",
+        "irish-soda-bread-landmark-tavern-granny"
       ]
     },
     {
@@ -16020,7 +16031,9 @@
         ]
       },
       "variants": [
-        "crepes-bhg"
+        "crepes-bhg",
+        "crepes-egg-sausage-fbc-jasmine",
+        "crepes-fruit-fbc-jasmine"
       ]
     },
     {
@@ -18485,7 +18498,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 53)"
         ]
-      }
+      },
+      "variants": [
+        "cinnamon-rolls-bread-machine"
+      ]
     },
     {
       "id": "filled-croissants",
@@ -18856,7 +18872,8 @@
         ]
       },
       "variants": [
-        "cranberry-nut-bread-adrienne-fernandez"
+        "cranberry-nut-bread-adrienne-fernandez",
+        "connies-cranberry-nut-bread"
       ]
     },
     {
@@ -20206,7 +20223,8 @@
         ]
       },
       "variants": [
-        "rye-bread"
+        "rye-bread",
+        "foxfire-rye-bread"
       ]
     },
     {
@@ -20558,7 +20576,8 @@
         ]
       },
       "variants": [
-        "sourdough-bread"
+        "sourdough-bread",
+        "sourdough-bread-bread-machine"
       ]
     },
     {
@@ -21066,7 +21085,8 @@
         ]
       },
       "variants": [
-        "egg-bread"
+        "egg-bread",
+        "methuselahs-egg-bread-cwa"
       ]
     },
     {
@@ -21796,7 +21816,10 @@
           "Assumed 1 unit for vanilla",
           "Inferred 1.0 for milk (standard quantity)"
         ]
-      }
+      },
+      "variants": [
+        "fruit-studded-bread-julekage"
+      ]
     },
     {
       "id": "kuchen-bhg",
@@ -23539,7 +23562,8 @@
       "variants": [
         "banana-bread-quick",
         "banana-bread-dewolf-granny",
-        "banana-bread-ref"
+        "banana-bread-ref",
+        "banana-bread-handwritten-granny"
       ]
     },
     {
@@ -23797,7 +23821,8 @@
       },
       "variants": [
         "nut-bread",
-        "nut-bread-carnation"
+        "nut-bread-carnation",
+        "nut-bread-machine"
       ]
     },
     {
@@ -24571,7 +24596,8 @@
       "variants": [
         "corn-bread-honey",
         "corn-bread",
-        "corn-bread-dudeskitch"
+        "corn-bread-dudeskitch",
+        "aunt-jemima-corn-bread"
       ]
     },
     {
@@ -28785,7 +28811,8 @@
         "assumptions": [
           "Calculated for 14 servings"
         ]
-      }
+      },
+      "variant_of": "egg-bread-bhg"
     },
     {
       "id": "sweet-anise-challah-cwa",
@@ -31410,7 +31437,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "rye-bread-bhg"
     },
     {
       "id": "foxfire3-persimmon-bread",

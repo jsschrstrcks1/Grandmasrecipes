@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "desserts",
     "total_recipes": 664,
-    "generated": "2026-08-30T01:53:38.864486Z",
+    "generated": "2026-08-30T11:33:22.173272Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -13363,7 +13363,8 @@
         "pumpkin-pie",
         "pumpkin-pie-grandmas-molasses",
         "pumpkin-pie-auntcaroli",
-        "pumpkin-pie-scottsnort"
+        "pumpkin-pie-scottsnort",
+        "honey-pumpkin-pie"
       ]
     },
     {
@@ -17889,7 +17890,8 @@
         ]
       },
       "variants": [
-        "chocolate-pie-auntcaroli"
+        "chocolate-pie-auntcaroli",
+        "sheila-farris-chocolate-pie-clipping"
       ]
     },
     {
@@ -23255,7 +23257,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "vanilla-ice-cream-bhg"
     },
     {
       "id": "vanilla-ice-cream-cooked-base-harvester",
@@ -23349,7 +23352,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "vanilla-ice-cream-bhg"
     },
     {
       "id": "frozen-plum-pudding-harvester",
@@ -27735,7 +27739,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "honey-butter-cookies",
+        "grandmas-butter-cookies-mommom"
+      ]
     },
     {
       "id": "filled-cookies-betty-crocker",
@@ -56269,7 +56277,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "rachel-gregorys-apple-pie"
+      ]
     },
     {
       "id": "rice-pudding-american-cookery-1796",
@@ -59965,7 +59976,8 @@
         "assumptions": [
           "Calculated for 14 servings"
         ]
-      }
+      },
+      "variant_of": "devils-food-cake-bhg"
     },
     {
       "id": "reddit-grandmas-lemon-bars",
@@ -60119,7 +60131,8 @@
         "assumptions": [
           "Calculated for 18 servings"
         ]
-      }
+      },
+      "variant_of": "lemon-bars-tampa-tribune"
     },
     {
       "id": "reddit-whipping-cream-cake",
@@ -61412,7 +61425,8 @@
         "assumptions": [
           "Calculated for 14 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-soup-cake-james-marsh"
     },
     {
       "id": "reddit-mamaws-no-bake-cookies",

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "desserts",
     "total_recipes": 454,
-    "generated": "2026-08-30T01:53:39.470555Z",
+    "generated": "2026-08-30T11:33:22.814973Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -3668,7 +3668,8 @@
           "Estimated 8 servings based on total calories",
           "Based on 6/7 ingredients (86% coverage)"
         ]
-      }
+      },
+      "variant_of": "butter-cookies-betty-crocker"
     },
     {
       "id": "marvelous-macaroons",
@@ -6588,7 +6589,8 @@
         ]
       },
       "variants": [
-        "thumbprint-cookies-betty-crocker"
+        "thumbprint-cookies-betty-crocker",
+        "thumbprint-cookies-whole-wheat"
       ]
     },
     {
@@ -7885,7 +7887,8 @@
           "Estimated 12 servings based on total calories",
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "fruit-salad-pudding"
     },
     {
       "id": "strawberry-jam-dandies",
@@ -8919,7 +8922,8 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "coffee-cake-lorraine-kapp"
     },
     {
       "id": "powdered-sugar-glaze",
@@ -9131,7 +9135,8 @@
           "Inferred 1.0 for Powdered Sugar Glaze (standard quantity)",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "cinnamon-rolls"
     },
     {
       "id": "choco-banana-spread",
@@ -15201,7 +15206,8 @@
         "assumptions": []
       },
       "variants": [
-        "peanut-butter-bars-bhg"
+        "peanut-butter-bars-bhg",
+        "reeses-peanut-butter-bars"
       ]
     },
     {
@@ -15331,7 +15337,9 @@
       "variants": [
         "chocolate-chip-cookies",
         "chocolate-chip-cookies-ref",
-        "chocolate-chip-cookies-dutchovenc"
+        "chocolate-chip-cookies-dutchovenc",
+        "sheilas-chocolate-chip-cookies",
+        "honey-chocolate-chip-cookies"
       ]
     },
     {
@@ -21064,7 +21072,8 @@
       "variants": [
         "bread-pudding-barbara-dehaan",
         "bread-pudding-bhg",
-        "bread-pudding-scottsnort"
+        "bread-pudding-scottsnort",
+        "honey-bread-pudding"
       ]
     },
     {
@@ -22414,7 +22423,8 @@
         ]
       },
       "variants": [
-        "pecan-pie-mommom"
+        "pecan-pie-mommom",
+        "carol-thomas-pecan-pie"
       ]
     },
     {
@@ -28347,7 +28357,9 @@
       },
       "variants": [
         "vanilla-ice-cream-cooked",
-        "vanilla-ice-cream"
+        "vanilla-ice-cream",
+        "vanilla-ice-cream-uncooked-base-harvester",
+        "vanilla-ice-cream-cooked-base-harvester"
       ]
     },
     {
@@ -29670,7 +29682,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "sponge-cake-bhg"
     },
     {
       "id": "apricot-sauce-ancients-mommom-baker",
@@ -34311,7 +34324,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "crepes"
     },
     {
       "id": "wacky-cake-whipped-cream-icing-fbc",
@@ -35200,7 +35214,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "carrot-cake"
     },
     {
       "id": "coco-lopez-cake-fbc-jasmine",
@@ -38191,7 +38206,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "pound-cake"
     },
     {
       "id": "twinkie-cake-fbc-jasmine",
@@ -42709,7 +42725,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "foxfire3-blackberry-cobbler"
+      ]
     },
     {
       "id": "foxfire-molasses-candy",
@@ -42911,7 +42930,11 @@
           "Calculated for 24 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variants": [
+        "ma-coopers-molasses-cookies",
+        "fredas-molasses-cookies"
+      ]
     },
     {
       "id": "foxfire2-rhubarb-pie",
@@ -43784,7 +43807,8 @@
           "Calculated for 8 servings",
           "Serving size inferred from desserts category"
         ]
-      }
+      },
+      "variant_of": "foxfire-blackberry-cobbler"
     },
     {
       "id": "foxfire3-blackberry-flummery",
@@ -46439,7 +46463,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-4-bleached-apple-pie"
     },
     {
       "id": "foxfire4-fried-apple-pies",
@@ -50132,7 +50157,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "foxfire4-bleached-apple-pie"
+      ]
     }
   ]
 }

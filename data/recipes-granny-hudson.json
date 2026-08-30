@@ -2,7 +2,7 @@
   "meta": {
     "collection": "granny-hudson",
     "total_recipes": 184,
-    "generated": "2026-08-30T01:53:39.352748Z",
+    "generated": "2026-08-30T11:33:22.695910Z",
     "source": "recipes_master.json",
     "sharded_by_category": false
   },
@@ -3028,7 +3028,8 @@
         "assumptions": [
           "Grandma's Biscuit & Pancake Mix: used default unit"
         ]
-      }
+      },
+      "variant_of": "biscuits"
     },
     {
       "id": "tender-drop-biscuits-granny",
@@ -3658,7 +3659,8 @@
         "assumptions": [
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "variant_of": "banana-bread-bhg"
     },
     {
       "id": "irish-soda-bread-landmark-tavern-granny",
@@ -3759,7 +3761,8 @@
           "raisins: used default unit",
           "milk: used default unit"
         ]
-      }
+      },
+      "variant_of": "irish-soda-bread-mommom-baker"
     },
     {
       "id": "no-regrets-cheesecake-granny",
@@ -7981,7 +7984,10 @@
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
           "granulated sugar: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-famous-fudge-2-granny"
+      ]
     },
     {
       "id": "old-fashioned-oatmeal-cookies-nestle-granny",
@@ -8108,7 +8114,10 @@
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
           "quick oats: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-old-fashioned-oatmeal-granny"
+      ]
     },
     {
       "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
@@ -10561,7 +10570,8 @@
         "assumptions": [
           "yellow or white cake mix: used default unit"
         ]
-      }
+      },
+      "variant_of": "dump-cake-cherry-pineapple"
     },
     {
       "id": "marshmallow-snowman-granny",
@@ -11012,7 +11022,8 @@
           "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit",
           "marshmallow creme: used default unit"
         ]
-      }
+      },
+      "variant_of": "nestle-famous-fudge-granny"
     },
     {
       "id": "nestle-old-fashioned-oatmeal-granny",
@@ -11119,7 +11130,8 @@
           "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit",
           "quick oats: used default unit"
         ]
-      }
+      },
+      "variant_of": "old-fashioned-oatmeal-cookies-nestle-granny"
     },
     {
       "id": "frosty-orange-delight-pillsbury-granny",
@@ -13661,7 +13673,8 @@
       "cook_time": "45-60 minutes",
       "variants": [
         "stuffed-peppers-webb-full-granny"
-      ]
+      ],
+      "variant_of": "stuffed-peppers-gutenberg"
     },
     {
       "id": "pork-broccoli-delight-granny",
@@ -14875,7 +14888,8 @@
           "mashed potatoes: used default unit",
           "pepper: used default unit"
         ]
-      }
+      },
+      "variant_of": "salt-cod-fish-main-granny"
     },
     {
       "id": "turkey-burgers-deluxe-granny",
@@ -15553,7 +15567,8 @@
           "fresh mushrooms: used default unit"
         ]
       },
-      "cook_time": "8-12 minutes"
+      "cook_time": "8-12 minutes",
+      "variant_of": "hamburgers"
     },
     {
       "id": "beef-bean-and-noodle-skillet-granny",
@@ -17292,7 +17307,10 @@
           "onion, minced: used default unit",
           "tomato sauce: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "beef-rice-meatballs-handwritten-granny"
+      ]
     },
     {
       "id": "spicy-dijon-grilled-chicken-granny",
@@ -17456,7 +17474,10 @@
           "salt cod fish: used default unit",
           "pepper: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "salt-cod-fish-recipes-granny"
+      ]
     },
     {
       "id": "codfish-souffle-granny",
@@ -19134,7 +19155,8 @@
           "vegetable oil: used default unit",
           "instant beef broth: used default unit"
         ]
-      }
+      },
+      "variant_of": "beef-rice-meatballs-granny"
     },
     {
       "id": "quick-corn-souffle-granny",
@@ -19381,7 +19403,8 @@
       "prep_time": "15 minutes",
       "variants": [
         "broccoli-casserole-marlene-risser",
-        "broccoli-casserole-mommom"
+        "broccoli-casserole-mommom",
+        "broccoli-casserole-peggy-rotella"
       ]
     },
     {

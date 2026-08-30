@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "mains",
     "total_recipes": 178,
-    "generated": "2026-08-30T01:53:39.571310Z",
+    "generated": "2026-08-30T11:33:23.136481Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1785,7 +1785,9 @@
       },
       "variants": [
         "chicken-casserole-peggy-rotella",
-        "chicken-casserole-chickenrec"
+        "chicken-casserole-chickenrec",
+        "eloises-chicken-casserole",
+        "karens-chicken-casserole"
       ]
     },
     {
@@ -3670,7 +3672,8 @@
           "Estimated 8 servings based on total calories",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "chicken-casserole-mommom"
     },
     {
       "id": "lattice-top-chicken",
@@ -12311,7 +12314,10 @@
         "assumptions": [
           "Based on 14/14 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "pastitsio-greek-casserole-barbara-dellaan"
+      ]
     },
     {
       "id": "macaroni-and-cheese-bhg",
@@ -12423,7 +12429,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "macaroni-and-cheese"
     },
     {
       "id": "fried-rice-supper",
@@ -17250,7 +17257,8 @@
         "assumptions": []
       },
       "variants": [
-        "hamburgers-bhg"
+        "hamburgers-bhg",
+        "chefs-hamburgers-granny"
       ]
     },
     {
@@ -19079,7 +19087,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variant_of": "foxfire-liver-pudding"
     },
     {
       "id": "foxfire-sausage",
@@ -21108,7 +21117,10 @@
           "Calculated for 8 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variants": [
+        "foxfire-liver-mush"
+      ]
     },
     {
       "id": "foxfire-brains-and-eggs",

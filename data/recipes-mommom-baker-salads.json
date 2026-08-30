@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "salads",
     "total_recipes": 75,
-    "generated": "2026-08-30T01:53:39.607757Z",
+    "generated": "2026-08-30T11:33:23.173767Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -807,7 +807,10 @@
           "Estimated 4 servings based on total calories",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "nanas-broccoli-salad"
+      ]
     },
     {
       "id": "marinated-broccoli",
@@ -3922,7 +3925,8 @@
       "variants": [
         "chicken-salad-ancients",
         "chicken-salad-chickenrec",
-        "chicken-salad-scottsnort"
+        "chicken-salad-scottsnort",
+        "chicken-salad-simple"
       ]
     },
     {

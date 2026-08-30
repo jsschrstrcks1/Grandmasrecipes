@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "main-dishes",
     "total_recipes": 214,
-    "generated": "2026-08-30T01:53:39.541727Z",
+    "generated": "2026-08-30T11:33:23.109287Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -11749,7 +11749,10 @@
         "assumptions": [
           "Based on 1/1 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "fast-fish-fix-ups"
+      ]
     },
     {
       "id": "lobster-newburg-bhg",
@@ -14118,7 +14121,8 @@
       },
       "variants": [
         "little-boats-stuffed-eggplant"
-      ]
+      ],
+      "variant_of": "little-boats-chile-bible"
     },
     {
       "id": "big-wheel-chile-burger-gcb",
@@ -18618,7 +18622,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "italian-meatballs-printed"
     },
     {
       "id": "broccoli-bread-quiche-fbc",
@@ -20968,7 +20973,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "reddit-grandmas-hamburger-pie"
+      ]
     },
     {
       "id": "chili-mac-skillet-bhg",

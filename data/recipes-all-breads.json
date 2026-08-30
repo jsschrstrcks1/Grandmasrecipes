@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "breads",
     "total_recipes": 285,
-    "generated": "2026-08-30T01:53:38.565197Z",
+    "generated": "2026-08-30T11:33:21.868035Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -17290,7 +17290,8 @@
       },
       "variants": [
         "bran-muffins-dudeskitch",
-        "bran-muffins-ref"
+        "bran-muffins-ref",
+        "martyrs-bran-muffins"
       ]
     },
     {
@@ -24889,7 +24890,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "tracis-oatmeal-bread"
+      ]
     },
     {
       "id": "buckwheat-bread-themetropo",
@@ -30070,7 +30074,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "mrs-frumpkins-buttermilk-bread"
+      ]
     },
     {
       "id": "yeoldvirginia-batter-bread-wilsonscoo",

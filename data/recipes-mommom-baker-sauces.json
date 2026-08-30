@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "sauces",
     "total_recipes": 45,
-    "generated": "2026-08-30T01:53:39.617499Z",
+    "generated": "2026-08-30T11:33:23.183496Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -622,7 +622,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "fast-fish-fix-ups-bhg"
     },
     {
       "id": "peanut-sauce-family",

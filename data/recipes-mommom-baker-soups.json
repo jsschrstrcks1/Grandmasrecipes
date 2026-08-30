@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "soups",
     "total_recipes": 61,
-    "generated": "2026-08-30T01:53:39.647100Z",
+    "generated": "2026-08-30T11:33:23.214066Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1115,7 +1115,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "french-onion-soup-maltby"
     },
     {
       "id": "french-onion-soup-scratch",

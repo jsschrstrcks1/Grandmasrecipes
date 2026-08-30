@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "snacks",
     "total_recipes": 7,
-    "generated": "2026-08-30T01:53:39.189795Z",
+    "generated": "2026-08-30T11:33:22.529747Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -147,7 +147,10 @@
         "assumptions": [
           "Calculated for 24 servings"
         ]
-      }
+      },
+      "variants": [
+        "chex-party-mix-handwritten"
+      ]
     },
     {
       "id": "lebanese-seven-spices",
@@ -467,7 +470,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheese-curds-fresh"
+      ]
     },
     {
       "id": "traditional-cheese-curds",
