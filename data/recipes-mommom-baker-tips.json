@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "tips",
     "total_recipes": 99,
-    "generated": "2026-08-30T01:45:08.309624Z",
+    "generated": "2026-08-30T01:53:39.654943Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1034,7 +1034,8 @@
         "assumptions": [
           "Informational content without specific recipe"
         ]
-      }
+      },
+      "variant_of": "grandma-tip-lumpy-sugar"
     },
     {
       "id": "kitchen-hint-brown-sugar",

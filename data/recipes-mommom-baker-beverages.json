@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "beverages",
     "total_recipes": 122,
-    "generated": "2026-08-30T01:45:08.055764Z",
+    "generated": "2026-08-30T01:53:39.393599Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1114,7 +1114,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 26)"
         ]
-      }
+      },
+      "variants": [
+        "eggnog-bhg"
+      ]
     },
     {
       "id": "hot-chocolate-homemade",
@@ -1212,7 +1215,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 27)"
         ]
-      }
+      },
+      "variants": [
+        "hot-chocolate-bhg"
+      ]
     },
     {
       "id": "cocoa-mix-homemade",
@@ -1307,7 +1313,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 27)"
         ]
-      }
+      },
+      "variants": [
+        "cocoa-mix-bhg"
+      ]
     },
     {
       "id": "hot-spiced-cider",
@@ -1421,7 +1430,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 28)"
         ]
-      }
+      },
+      "variants": [
+        "hot-spiced-cider-bhg"
+      ]
     },
     {
       "id": "hot-buttered-rum",
@@ -1530,7 +1542,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 28)"
         ]
-      }
+      },
+      "variant_of": "hot-buttered-rum-bhg"
     },
     {
       "id": "glogg-swedish-punch",
@@ -1658,7 +1671,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 28)"
         ]
-      }
+      },
+      "variants": [
+        "glogg-bhg"
+      ]
     },
     {
       "id": "choose-a-flavor-milk-shakes",
@@ -1736,7 +1752,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
         ]
-      }
+      },
+      "variants": [
+        "milk-shakes-bhg"
+      ]
     },
     {
       "id": "choose-a-flavor-float",
@@ -1813,7 +1832,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
         ]
-      }
+      },
+      "variant_of": "ice-cream-float-bhg"
     },
     {
       "id": "orange-breakfast-nog",
@@ -1903,7 +1923,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
         ]
-      }
+      },
+      "variants": [
+        "orange-breakfast-nog-bhg"
+      ]
     },
     {
       "id": "fruity-yogurt-sipper",
@@ -1996,7 +2019,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
         ]
-      }
+      },
+      "variants": [
+        "fruity-yogurt-sipper-bhg"
+      ]
     },
     {
       "id": "homemade-soda-pop",
@@ -2072,7 +2098,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 29)"
         ]
-      }
+      },
+      "variants": [
+        "homemade-soda-pop-bhg"
+      ]
     },
     {
       "id": "party-punch-base",
@@ -2182,7 +2211,10 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "party-punch-base-bhg"
+      ]
     },
     {
       "id": "ice-cream-punch",
@@ -2270,7 +2302,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 30)"
         ]
-      }
+      },
+      "variants": [
+        "ice-cream-punch-bhg"
+      ]
     },
     {
       "id": "slushy-punch",
@@ -2380,7 +2415,10 @@
         "assumptions": [
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "slushy-punch-bhg"
+      ]
     },
     {
       "id": "lemonade-or-limeade",
@@ -2466,7 +2504,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
         ]
-      }
+      },
+      "variant_of": "lemonade-or-limeade-bhg"
     },
     {
       "id": "lime-daiquiris",
@@ -2548,7 +2587,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
         ]
-      }
+      },
+      "variant_of": "lime-daiquiris-bhg"
     },
     {
       "id": "margaritas",
@@ -2646,7 +2686,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
         ]
-      }
+      },
+      "variant_of": "margaritas-bhg"
     },
     {
       "id": "bloody-marys",
@@ -2755,7 +2796,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 31)"
         ]
-      }
+      },
+      "variants": [
+        "bloody-marys-bhg"
+      ]
     },
     {
       "id": "sangria",
@@ -2872,7 +2916,8 @@
         "assumptions": [
           "Based on 7/8 ingredients (88% coverage)"
         ]
-      }
+      },
+      "variant_of": "sangria-donna-richter"
     },
     {
       "id": "wine-spritzer",
@@ -2944,7 +2989,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "wine-spritzer-bhg"
+      ]
     },
     {
       "id": "chocolate-cream-liqueur",
@@ -3065,7 +3113,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 32)"
         ]
-      }
+      },
+      "variants": [
+        "chocolate-cream-liqueur-bhg"
+      ]
     },
     {
       "id": "grasshoppers-cocktail",
@@ -3142,7 +3193,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 32)"
         ]
-      }
+      },
+      "variant_of": "grasshoppers-bhg"
     },
     {
       "id": "tomato-juice-cocktail",
@@ -3269,7 +3321,10 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "tomato-juice-cocktail-bhg"
+      ]
     },
     {
       "id": "tomato-juice-cocktail-bhg",
@@ -3403,7 +3458,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "tomato-juice-cocktail"
     },
     {
       "id": "tomato-juice-bhg",
@@ -3490,7 +3546,8 @@
         "assumptions": [
           "Based on 2/2 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "tomato-juice-canning-bhg"
     },
     {
       "id": "eggnog-bhg",
@@ -3604,7 +3661,8 @@
           "Assumed 1 unit for ground nutmeg",
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "eggnog-classic"
     },
     {
       "id": "hot-chocolate-bhg",
@@ -3689,7 +3747,8 @@
           "Assumed 1 unit for whipped cream or marshmallows",
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "hot-chocolate-homemade"
     },
     {
       "id": "cocoa-mix-bhg",
@@ -3777,7 +3836,8 @@
           "Assumed 1 unit for whipped cream or marshmallows",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "cocoa-mix-homemade"
     },
     {
       "id": "hot-spiced-cider-bhg",
@@ -3871,7 +3931,8 @@
           "Inferred 1.0 for packed brown sugar (standard quantity)",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "hot-spiced-cider"
     },
     {
       "id": "hot-buttered-rum-bhg",
@@ -3971,7 +4032,10 @@
           "Assumed 1 unit for ground cinnamon",
           "Assumed 1 unit for ground allspice"
         ]
-      }
+      },
+      "variants": [
+        "hot-buttered-rum"
+      ]
     },
     {
       "id": "glogg-bhg",
@@ -4083,7 +4147,8 @@
           "Assumed 1 unit for orange peel",
           "Assumed 1 unit for blanched whole almonds"
         ]
-      }
+      },
+      "variant_of": "glogg-swedish-punch"
     },
     {
       "id": "milk-shakes-bhg",
@@ -4148,7 +4213,8 @@
           "Inferred 1.0 for milk (standard quantity)",
           "Based on 2/2 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "choose-a-flavor-milk-shakes"
     },
     {
       "id": "ice-cream-float-bhg",
@@ -4216,7 +4282,10 @@
           "Assumed 1 unit for desired ice cream or sherbet",
           "Based on 1/2 ingredients (50% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "choose-a-flavor-float"
+      ]
     },
     {
       "id": "orange-breakfast-nog-bhg",
@@ -4298,7 +4367,8 @@
           "Assumed 1 unit for frozen orange juice concentrate",
           "Based on 4/5 ingredients (80% coverage)"
         ]
-      }
+      },
+      "variant_of": "orange-breakfast-nog"
     },
     {
       "id": "fruity-yogurt-sipper-bhg",
@@ -4379,7 +4449,8 @@
         "assumptions": [
           "Based on 4/5 ingredients (80% coverage)"
         ]
-      }
+      },
+      "variant_of": "fruity-yogurt-sipper"
     },
     {
       "id": "homemade-soda-pop-bhg",
@@ -4440,7 +4511,8 @@
         "assumptions": [
           "Based on 2/2 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "homemade-soda-pop"
     },
     {
       "id": "party-punch-base-bhg",
@@ -4541,7 +4613,8 @@
           "Assumed 1 unit for lemon juice",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "party-punch-base"
     },
     {
       "id": "ice-cream-punch-bhg",
@@ -4618,7 +4691,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "ice-cream-punch"
     },
     {
       "id": "slushy-punch-bhg",
@@ -4712,7 +4786,8 @@
         "assumptions": [
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "slushy-punch"
     },
     {
       "id": "lemonade-or-limeade-bhg",
@@ -4789,7 +4864,10 @@
           "Inferred 1.0 for sugar (standard quantity)",
           "Based on 3/4 ingredients (75% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "lemonade-or-limeade"
+      ]
     },
     {
       "id": "lime-daiquiris-bhg",
@@ -4866,7 +4944,10 @@
           "Assumed 1 unit for rum",
           "Based on 2/3 ingredients (67% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "lime-daiquiris"
+      ]
     },
     {
       "id": "margaritas-bhg",
@@ -4957,7 +5038,10 @@
           "Assumed 1 unit for orange liqueur",
           "Based on 3/5 ingredients (60% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "margaritas"
+      ]
     },
     {
       "id": "bloody-marys-bhg",
@@ -5064,7 +5148,8 @@
           "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
           "Inferred 0.5 for celery stalks or dill pickle spears (standard quantity)"
         ]
-      }
+      },
+      "variant_of": "bloody-marys"
     },
     {
       "id": "sangria-bhg",
@@ -5173,7 +5258,8 @@
           "Assumed 1 unit for water",
           "Based on 7/8 ingredients (88% coverage)"
         ]
-      }
+      },
+      "variant_of": "sangria-donna-richter"
     },
     {
       "id": "wine-spritzer-bhg",
@@ -5235,7 +5321,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "wine-spritzer"
     },
     {
       "id": "chocolate-cream-liqueur-bhg",
@@ -5344,7 +5431,8 @@
           "Assumed 1 unit for rum",
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "chocolate-cream-liqueur"
     },
     {
       "id": "grasshoppers-bhg",
@@ -5416,7 +5504,10 @@
         "assumptions": [
           "Based on 1/3 ingredients (33% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "grasshoppers-cocktail"
+      ]
     },
     {
       "id": "watermelon-smoothie-jasmine",
@@ -5494,7 +5585,10 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variants": [
+        "watermelon-smoothie-handwritten"
+      ]
     },
     {
       "id": "banana-punch-fbc",
@@ -5784,7 +5878,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "fireside-coffee-mix-fbc-jasmine"
     },
     {
       "id": "orange-julius-fbc",
@@ -5872,7 +5967,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "orange-julius-gloria-pletzer"
     },
     {
       "id": "monkey-malt-fbc",
@@ -6136,7 +6232,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variants": [
+        "fireside-coffee-mix-fbc"
+      ]
     },
     {
       "id": "orange-julius-fbc-jasmine",
@@ -6230,7 +6329,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "orange-julius-gloria-pletzer"
     },
     {
       "id": "fox-grape-juice-fbc-jasmine",
@@ -7123,7 +7223,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from beverages category"
         ]
-      }
+      },
+      "variant_of": "blackberry-cordial"
     },
     {
       "id": "foxfire3-sumac-lemonade",
@@ -8106,7 +8207,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "dandelion-wine"
     },
     {
       "id": "foxfire2-dandelion-coffee",
@@ -8540,7 +8642,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-elderberry-wine"
     },
     {
       "id": "dandelion-wine-etw",
@@ -8656,7 +8759,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "dandelion-wine"
     },
     {
       "id": "dandelion-burdock-beer-etw",
@@ -9258,7 +9362,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-elderberry-wine"
     },
     {
       "id": "pindo-palm-wine-etw",
@@ -10724,7 +10829,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "blackberry-cordial"
     },
     {
       "id": "foxfire-elderberry-wine",
@@ -10824,7 +10930,11 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "appalachian-elderberry-wine",
+        "elderberry-wine-etw"
+      ]
     },
     {
       "id": "foxfire-grape-juice",

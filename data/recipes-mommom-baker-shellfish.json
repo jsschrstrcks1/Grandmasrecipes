@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "shellfish",
     "total_recipes": 11,
-    "generated": "2026-08-30T01:45:08.276786Z",
+    "generated": "2026-08-30T01:53:39.621965Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -105,7 +105,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 179)"
         ]
-      }
+      },
+      "variant_of": "crab-cakes-bhg"
     },
     {
       "id": "crab-mornay",
@@ -201,7 +202,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 179)"
         ]
-      }
+      },
+      "variant_of": "crab-mornay-bhg"
     },
     {
       "id": "deviled-crab",
@@ -297,7 +299,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 179)"
         ]
-      }
+      },
+      "variant_of": "deviled-crab-bhg"
     },
     {
       "id": "shrimp-creole",
@@ -430,7 +433,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 180)"
         ]
-      }
+      },
+      "variant_of": "shrimp-creole-bhg"
     },
     {
       "id": "shrimp-chow-mein",
@@ -557,7 +561,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 180)"
         ]
-      }
+      },
+      "variant_of": "shrimp-chow-mein-bhg"
     },
     {
       "id": "shrimp-in-garlic-butter",
@@ -629,7 +634,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 181)"
         ]
-      }
+      },
+      "variant_of": "shrimp-in-garlic-butter-bhg"
     },
     {
       "id": "french-fried-shrimp",
@@ -740,7 +746,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 181)"
         ]
-      }
+      },
+      "variant_of": "french-fried-shrimp-bhg"
     },
     {
       "id": "linguine-with-white-clam-sauce",
@@ -859,7 +866,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 182)"
         ]
-      }
+      },
+      "variant_of": "linguine-white-clam-sauce-bhg"
     },
     {
       "id": "coquilles-saint-jacques",
@@ -1051,7 +1059,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "crawfish-etouffee-bhg"
     },
     {
       "id": "oysters-au-gratin",
@@ -1165,7 +1174,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 183)"
         ]
-      }
+      },
+      "variant_of": "oysters-au-gratin-bhg"
     }
   ]
 }

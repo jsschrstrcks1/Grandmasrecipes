@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "reference",
     "total_recipes": 57,
-    "generated": "2026-08-30T01:45:08.259328Z",
+    "generated": "2026-08-30T01:53:39.603963Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1527,7 +1527,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "how-much-meat-to-buy-guide-bhg"
+      ]
     },
     {
       "id": "meat-thermometer-guide-bhg",
@@ -1746,7 +1749,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "pork-ham-identification-guide-part2-bhg"
+      ]
     },
     {
       "id": "checking-pork-doneness-guide-bhg",
@@ -2784,7 +2790,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "how-much-meat-to-buy-bhg"
     },
     {
       "id": "lamb-identification-guide-bhg",
@@ -2934,7 +2941,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "pork-ham-identification-guide-bhg"
     },
     {
       "id": "nutrition-analysis-fish-shellfish-bhg",

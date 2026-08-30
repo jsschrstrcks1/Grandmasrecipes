@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "breakfast",
     "total_recipes": 49,
-    "generated": "2026-08-30T01:45:08.101773Z",
+    "generated": "2026-08-30T01:53:39.441697Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -444,7 +444,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "breakfast-pizza",
+        "breakfast-pizza-bhg"
+      ]
     },
     {
       "id": "easy-cheesy-scrambled-eggs-microwave",
@@ -914,7 +918,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "creamy-poached-eggs"
+      ]
     },
     {
       "id": "poached-eggs-bhg",
@@ -1004,7 +1011,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "poached-eggs",
+        "poached-eggs-theplainsa"
+      ]
     },
     {
       "id": "eggs-benedict-bhg",
@@ -1100,7 +1111,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "eggs-benedict-ref"
+      ]
     },
     {
       "id": "chile-breakfast-whirls-gcb",
@@ -1203,7 +1217,10 @@
         "assumptions": [
           "Calculated for 55 servings"
         ]
-      }
+      },
+      "variants": [
+        "chile-breakfast-whirls"
+      ]
     },
     {
       "id": "huevos-y-chilaquiles-gcb",
@@ -1314,7 +1331,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "huevos-y-chilaquiles"
+      ]
     },
     {
       "id": "chiles-con-huevos-gcb",
@@ -1532,7 +1552,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variants": [
+        "i-cant-stand-eggs"
+      ]
     },
     {
       "id": "baked-eggs-with-cheese-and-chile-gcb",
@@ -1621,7 +1644,10 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variants": [
+        "baked-eggs-cheese-chile"
+      ]
     },
     {
       "id": "chil-once-gcb",
@@ -2252,7 +2278,10 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variants": [
+        "wholly-pancakes-ancients"
+      ]
     },
     {
       "id": "turkish-pancakes-fbc",
@@ -2361,7 +2390,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "turkish-pancakes-fbc-jasmine"
     },
     {
       "id": "basic-crepe-fbc",
@@ -2694,7 +2724,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variants": [
+        "broccoli-bread-quiche-fbc"
+      ]
     },
     {
       "id": "baked-apple-pancake-fbc-jasmine",
@@ -3071,7 +3104,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variants": [
+        "turkish-pancakes-fbc"
+      ]
     },
     {
       "id": "basic-crepe-fbc-jasmine",
@@ -3643,7 +3679,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "sour-cream-coffee-cake-mommom"
     },
     {
       "id": "scalloped-eggs-fbc-jasmine",
@@ -3764,7 +3801,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variants": [
+        "scalloped-eggs-gutenberg-6429"
+      ]
     },
     {
       "id": "do-ahead-brunch-eggs-fbc-jasmine",
@@ -4218,7 +4258,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variants": [
+        "baked-eggs-in-sour-cream-fbc-jasmine"
+      ]
     },
     {
       "id": "quick-easy-lemon-coffee-cake-fbc-jasmine",
@@ -4576,7 +4619,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "baked-eggs-sour-cream-fbc-jasmine"
     },
     {
       "id": "skillet-orange-coffee-cake-fbc-jasmine",
@@ -4855,7 +4899,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "cake-doughnuts"
     },
     {
       "id": "grandmas-fry-cakes-fbc-jasmine",
@@ -5100,7 +5145,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "homemade-butter"
+      ]
     },
     {
       "id": "foxfire2-sorrel-omelet",

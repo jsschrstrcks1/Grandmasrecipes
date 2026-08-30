@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "canning",
     "total_recipes": 16,
-    "generated": "2026-08-30T01:45:08.117705Z",
+    "generated": "2026-08-30T01:53:39.457909Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -106,7 +106,8 @@
         "assumptions": [
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "catsup-bhg"
     },
     {
       "id": "dill-pickles",
@@ -177,7 +178,8 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "dill-pickles-bhg"
     },
     {
       "id": "bread-n-butter-pickles",
@@ -275,7 +277,8 @@
         "assumptions": [
           "Based on 10/11 ingredients (91% coverage)"
         ]
-      }
+      },
+      "variant_of": "bread-n-butter-pickles-bhg"
     },
     {
       "id": "mustard-pickles",
@@ -350,7 +353,8 @@
           "Assumed 1 unit for pickling cucumbers",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "mustard-pickles-bhg"
     },
     {
       "id": "corn-relish",
@@ -438,7 +442,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "corn-relish-bhg"
     },
     {
       "id": "vegetable-relish",
@@ -535,7 +540,8 @@
         "assumptions": [
           "Based on 11/11 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "vegetable-relish-bhg"
     },
     {
       "id": "fruit-juice-jelly",
@@ -593,7 +599,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "fruit-juice-jelly-bhg"
     },
     {
       "id": "peach-jam",
@@ -656,7 +663,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "peach-jam-bhg"
     },
     {
       "id": "orange-marmalade",
@@ -728,7 +736,8 @@
         "assumptions": [
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "orange-marmalade-bhg"
     },
     {
       "id": "grape-jam",
@@ -780,7 +789,8 @@
         "assumptions": [
           "Based on 2/2 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "grape-jam-bhg"
     },
     {
       "id": "rhubarb-raspberry-jam",
@@ -842,7 +852,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "rhubarb-raspberry-jam-bhg"
     },
     {
       "id": "berry-freezer-jam",
@@ -912,7 +923,8 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "berry-freezer-jam-bhg"
     },
     {
       "id": "harvest-applesauce",
@@ -982,7 +994,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "harvest-applesauce-bhg"
     },
     {
       "id": "apple-butter",
@@ -1050,7 +1063,8 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "foxfire-apple-butter"
     },
     {
       "id": "tomato-juice-canning-bhg",
@@ -1127,7 +1141,10 @@
         "assumptions": [
           "Based on 1/1 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "tomato-juice-bhg"
+      ]
     },
     {
       "id": "mustard-pickles-bhg",
@@ -1220,7 +1237,10 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "mustard-pickles"
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "dairy",
     "total_recipes": 3,
-    "generated": "2026-08-30T01:45:08.129393Z",
+    "generated": "2026-08-30T01:53:39.470001Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -354,7 +354,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "foxfire-4-cottage-cheese"
+      ]
     }
   ]
 }

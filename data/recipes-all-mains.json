@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "mains",
     "total_recipes": 1601,
-    "generated": "2026-08-30T01:45:07.618462Z",
+    "generated": "2026-08-30T01:53:38.942416Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -504,7 +504,8 @@
         "assumptions": [
           "Data extracted from magazine clipping"
         ]
-      }
+      },
+      "variant_of": "sloppy-joes"
     },
     {
       "id": "french-onion-burgers-campbells",
@@ -9900,6 +9901,9 @@
       },
       "notes": [
         "Place the open rolls in the oven for 3-5 minutes or until the cheese is melted."
+      ],
+      "variants": [
+        "philly-cheesesteak"
       ]
     },
     {
@@ -10421,7 +10425,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-nuggets-mommom-baker"
     },
     {
       "id": "lemon-pepper-chicken-ref",
@@ -11412,7 +11417,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "sloppy-joes"
     },
     {
       "id": "shrimp-and-grits-ref",
@@ -20104,7 +20110,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "pork-belly-burrito-mommom-baker"
     },
     {
       "id": "mission-style-burrito",
@@ -20791,7 +20798,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "keto-chicken-alfredo-bake-polisi"
+      ]
     },
     {
       "id": "keto-alfredo-sauce-with-zoodles",
@@ -21316,7 +21326,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "keto-chicken-alfredo-bake"
     },
     {
       "id": "keto-chicken-alfredo-casserole",
@@ -21627,9 +21638,7 @@
         "missing_inputs": [],
         "assumptions": []
       },
-      "variants": [
-        "keto-chicken-alfredo"
-      ]
+      "variant_of": "keto-chicken-alfredo"
     },
     {
       "id": "spaghetti-squash-meatball-casserole",
@@ -23628,7 +23637,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "spaghetti-pie-mommom"
     },
     {
       "id": "sloppy-joe-recipe",
@@ -26489,7 +26499,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "chicken-cacciatore-mommom-baker"
     },
     {
       "id": "garlic-herb-chicken",
@@ -26711,7 +26722,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "chicken-nuggets-mommom-baker"
     },
     {
       "id": "cod-and-asparagus-bake",
@@ -27644,7 +27656,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "pepper-steak-venison"
     },
     {
       "id": "chicken-fajitas",
@@ -32963,7 +32976,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "clam-chowder-carnation"
+      ]
     },
     {
       "id": "pork-loin-with-gravy",
@@ -33656,7 +33672,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "mediterranean-chicken-bhg"
     },
     {
       "id": "slow-cooker-pork-medallions",
@@ -42646,7 +42663,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "potato-soup-gutenberg"
     },
     {
       "id": "best-lasagna",
@@ -45350,7 +45368,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "chicken-and-dumplings-economy"
     },
     {
       "id": "chicken-and-shaved-brussels-sprouts-salad",
@@ -57038,7 +57057,12 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "oyster-stew-carnation",
+        "oyster-stew-scottsnort",
+        "oyster-stew-theplainsa"
+      ]
     },
     {
       "id": "pastitsio-soup",
@@ -57371,7 +57395,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "philly-cheesesteak-ref"
     },
     {
       "id": "philadelphia-tomato-pie",
@@ -62965,7 +62990,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "beef-pot-pie-gutenberg"
+      ]
     },
     {
       "id": "stuffed-ham",
@@ -64310,7 +64338,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "burritos-mommom-baker"
     },
     {
       "id": "steak-diane",
@@ -84428,7 +84457,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-enchiladas-mommom-baker"
     },
     {
       "id": "anticuchos-de-corazon-grilled-heart-skewers",
@@ -86072,7 +86102,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "dumplings-peggy-rotella"
     },
     {
       "id": "meat-filling-for-noodles-gutenberg",
@@ -86714,7 +86745,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-fricassee"
     },
     {
       "id": "pennsylvania-dutch-beef-with-onions-gutenberg",
@@ -87384,7 +87416,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "stuffed-peppers-theplainsa"
+      ]
     },
     {
       "id": "stuffed-acorn-squash-gutenberg",
@@ -88050,7 +88085,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-scrapple"
     },
     {
       "id": "seven-minute-cabbage-gutenberg",
@@ -88422,7 +88458,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scalloped-tomatoes-bhg"
     },
     {
       "id": "apple-ring-fritters-gutenberg",
@@ -89020,7 +89057,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "crullers-likemother"
+      ]
     },
     {
       "id": "tangle-britches-an-old-york-county-recipe-gutenberg",
@@ -89202,7 +89242,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "sally-lunn-auntcaroli",
+        "sally-lunn-scottsnort"
+      ]
     },
     {
       "id": "butter-semmels-gutenberg",
@@ -89768,7 +89812,12 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "almond-macaroons-betty-crocker",
+        "almond-macaroons-justfortwo",
+        "almond-macaroons-thewingold"
+      ]
     },
     {
       "id": "hickory-nut-kisses-gutenberg",
@@ -90228,7 +90277,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "apple-dumplings-bhg"
     },
     {
       "id": "pumpkin-custard-gutenberg",
@@ -91016,7 +91066,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-apple-butter"
     },
     {
       "id": "spiced-cantaloupe-gutenberg",
@@ -91292,7 +91343,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "pickled-beets-granny"
     },
     {
       "id": "corn-relish-gutenberg",
@@ -91406,7 +91458,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "corn-relish-bhg"
     },
     {
       "id": "pepper-relish-gutenberg",
@@ -91496,7 +91549,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "pepper-relish-mulder-kilberts"
     },
     {
       "id": "chow-chow-gutenberg",
@@ -91614,7 +91668,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-chow-chow"
     },
     {
       "id": "cheese-and-jelly-tray-cottage-cheese",
@@ -93788,7 +93843,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variant_of": "cheese-bowl-fbc"
     },
     {
       "id": "salmon-croquettes-carnation",
@@ -93890,7 +93946,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variants": [
+        "salmon-croquettes-scottsnort"
+      ]
     },
     {
       "id": "shrimp-wiggle-carnation",
@@ -94320,7 +94379,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variants": [
+        "chicken-a-la-king-chickenrec"
+      ]
     },
     {
       "id": "carnation-baked-ham-carnation",
@@ -95272,7 +95334,11 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variants": [
+        "scones-easybaking",
+        "scones-scottsnort"
+      ]
     },
     {
       "id": "plain-pastry-carnation",
@@ -95350,7 +95416,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variants": [
+        "plain-pastry-cookeryfor"
+      ]
     },
     {
       "id": "chocolate-blanc-mange-carnation",
@@ -96982,7 +97051,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "pralines"
     },
     {
       "id": "welsh-rarebit-carnation",
@@ -97276,7 +97346,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variant_of": "waffles"
     },
     {
       "id": "doughnuts-carnation",
@@ -97390,7 +97461,10 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variants": [
+        "doughnuts-thewhysofc"
+      ]
     },
     {
       "id": "whipped-carnation-milk-carnation",
@@ -97560,7 +97634,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variants": [
+        "cocoa-theplainsa"
+      ]
     },
     {
       "id": "chocolate-carnation",
@@ -97650,7 +97727,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from mains category"
         ]
-      }
+      },
+      "variants": [
+        "chocolate-theplainsa"
+      ]
     },
     {
       "id": "chocolate-malted-milk-carnation",
@@ -98772,7 +98852,8 @@
         "assumptions": [
           "Calculated for 30 servings"
         ]
-      }
+      },
+      "variant_of": "brandy-snaps-bhg"
     },
     {
       "id": "ginger-snaps-grandmas-molasses",
@@ -98872,7 +98953,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "ginger-snaps-bread-crumbs"
     },
     {
       "id": "molasses-coconut-chews-grandmas-molasses",
@@ -99060,7 +99142,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "baked-apples-bhg"
     },
     {
       "id": "broiled-bananas-grandmas-molasses",
@@ -99632,7 +99715,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "broiled-coconut-topping-bhg"
     },
     {
       "id": "molasses-lollipops-grandmas-molasses",
@@ -100046,7 +100130,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "homemade-peanut-brittle"
     },
     {
       "id": "spiced-nuts-grandmas-molasses",
@@ -100152,7 +100237,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "spiced-nuts"
     },
     {
       "id": "plain-sugar-syrup-harvester",
@@ -101336,7 +101422,10 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variants": [
+        "lemon-ice-thewingold"
+      ]
     },
     {
       "id": "bavarian-cream-harvester",
@@ -102074,7 +102163,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "salmon-mousse"
     },
     {
       "id": "lime-pineapple-mold-harvester",
@@ -103182,7 +103272,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "coconut-macaroons-mommom-baker"
     },
     {
       "id": "almond-macaroons-betty-crocker",
@@ -103276,7 +103367,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "almond-macaroons-gutenberg"
     },
     {
       "id": "peanut-macaroons-betty-crocker",
@@ -103612,7 +103704,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "snickerdoodles-typed"
     },
     {
       "id": "molasses-crinkles-betty-crocker",
@@ -107047,7 +107140,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-divan-bhg"
     },
     {
       "id": "chicken-tikka-chickenrec",
@@ -107894,7 +107988,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-cacciatore-mommom-baker"
     },
     {
       "id": "sunday-fried-chicken-chickenrec",
@@ -108475,7 +108570,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-a-la-king-carnation"
     },
     {
       "id": "orient-al-chicken-chickenrec",
@@ -109063,7 +109159,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-kabobs"
     },
     {
       "id": "russian-chicken-chickenrec",
@@ -109133,7 +109230,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "russian-chicken"
     },
     {
       "id": "scalloped-chi-cken-chickenrec",
@@ -109743,7 +109841,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-and-dumplings-economy"
     },
     {
       "id": "chicken-and-ri-ce-almondine-squash-chickenrec",
@@ -110125,7 +110224,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-casserole-mommom"
     },
     {
       "id": "chicken-chardonnay-chickenrec",
@@ -113605,7 +113705,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-enchiladas-mommom-baker"
     },
     {
       "id": "chicken-enchi-lada-casserole-chickenrec",
@@ -115163,7 +115264,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-tetrazzini-mommom"
     },
     {
       "id": "paella-chickenrec",
@@ -118935,7 +119037,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-piccata-mommom"
     },
     {
       "id": "oriental-chicken-wontons-chickenrec",
@@ -125235,7 +125338,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "topping-blueribbon"
+      ]
     },
     {
       "id": "dry-rub-goodandche",
@@ -125523,7 +125629,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "filling-blueribbon",
+        "filling-thewhysofc"
+      ]
     },
     {
       "id": "makes-four-individual-pizzas-goodandche",
@@ -126887,7 +126997,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "sally-lunn-gutenberg"
     },
     {
       "id": "hotchocolate-auntcaroli",
@@ -128447,7 +128558,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "corn-relish-bhg"
     },
     {
       "id": "piccalli-auntcaroli",
@@ -128621,7 +128733,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "syllabub-scottsnort"
+      ]
     },
     {
       "id": "palmetto-marmalade-auntcaroli",
@@ -129361,7 +129476,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "powdered-sugar-icing-bhg"
     },
     {
       "id": "finalist-blueribbon",
@@ -129839,7 +129955,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "filling-goodandche"
     },
     {
       "id": "crust-ingredien-ts-blueribbon",
@@ -130535,7 +130652,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "topping-goodandche"
     },
     {
       "id": "crus-t-ingre-dients-blueribbon",
@@ -133859,7 +133977,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "plain-pastry-carnation"
     },
     {
       "id": "hamsandwiches-cookeryfor",
@@ -134023,7 +134142,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "popovers"
     },
     {
       "id": "sandwiches-courseofle",
@@ -135280,7 +135400,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hungarian-goulash-mommom"
     },
     {
       "id": "beef-goulash-dutchovenc",
@@ -135833,7 +135954,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "spaghetti-and-meatballs"
     },
     {
       "id": "mikes-chili-dutchovenc",
@@ -136379,7 +136501,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-cacciatore-mommom-baker"
     },
     {
       "id": "chicken-in-a-pot-dutchovenc",
@@ -137811,7 +137934,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "crustless-quiche"
     },
     {
       "id": "chili-rellano-casserole-dutchovenc",
@@ -139583,7 +139707,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "almond-macaroons-gutenberg"
     },
     {
       "id": "crullers-likemother",
@@ -139685,7 +139810,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "crullers-gutenberg"
     },
     {
       "id": "familiar-talk-marionharl",
@@ -141969,7 +142095,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "sally-lunn-gutenberg"
     },
     {
       "id": "lemon-crumb-patties-scottsnort",
@@ -144914,7 +145041,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "salmon-croquettes-carnation"
     },
     {
       "id": "deviled-salmon-scottsnort",
@@ -145578,7 +145706,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-scrapple"
     },
     {
       "id": "beancroquettes-scottsnort",
@@ -146542,7 +146671,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "apple-dumplings-bhg"
     },
     {
       "id": "tapioca-with-figs-scottsnort",
@@ -147008,7 +147138,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "popovers"
     },
     {
       "id": "cranberries-withhoney-andraisins-scottsnort",
@@ -148236,7 +148367,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "syllabub-auntcaroli"
     },
     {
       "id": "ameat-substitute-scottsnort",
@@ -149172,7 +149304,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "maple-mousse-thewingold"
+      ]
     },
     {
       "id": "adams-laundry-stevensonm",
@@ -149392,7 +149527,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "stuffed-green-peppers-bhg"
     },
     {
       "id": "spanish-cream-theamerica",
@@ -150543,7 +150679,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "codfish-balls"
     },
     {
       "id": "scalloped-flaked-codorother-fish-themetropo",
@@ -150727,7 +150864,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "salmon-loaf-bhg"
     },
     {
       "id": "newengland-boiled-dinner-themetropo",
@@ -150938,7 +151076,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-fricassee"
     },
     {
       "id": "cheese-fondu-themetropo",
@@ -151893,7 +152032,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "baked-fish-bhg"
     },
     {
       "id": "stuffing-forbaked-fish-theplainsa",
@@ -152403,7 +152543,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "codfish-balls"
     },
     {
       "id": "vealloaf-theplainsa",
@@ -153430,7 +153571,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-fricassee"
     },
     {
       "id": "stuffings-forpoultry-theplainsa",
@@ -153762,7 +153904,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "stuffed-peppers-gutenberg"
     },
     {
       "id": "corn-fritters-theplainsa",
@@ -153882,7 +154025,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "corn-fritters-fbc-jasmine"
     },
     {
       "id": "mayonnaise-theplainsa",
@@ -153996,7 +154140,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "mayonnaise-bhg"
     },
     {
       "id": "directions-forusing-thepastry-theplainsa",
@@ -154698,9 +154843,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "sherbet-harvester"
-      ]
+      "variant_of": "sherbet-harvester"
     },
     {
       "id": "cocoa-theplainsa",
@@ -154801,7 +154944,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cocoa-carnation"
     },
     {
       "id": "chocolate-theplainsa",
@@ -154907,7 +155051,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chocolate-carnation"
     },
     {
       "id": "boiled-cereals-theplainsa",
@@ -155206,7 +155351,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "popovers"
     },
     {
       "id": "baked-apples-theplainsa",
@@ -155306,7 +155452,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "baked-apples-bhg"
     },
     {
       "id": "doughnuts-thewhysofc",
@@ -155392,7 +155539,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "doughnuts-carnation"
     },
     {
       "id": "chicken-croquettes-thewhysofc",
@@ -155858,7 +156006,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "filling-goodandche"
     },
     {
       "id": "cocoanut-and-chocolate-jumbles-thewhysofc",
@@ -156976,7 +157125,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "almond-macaroons-gutenberg"
     },
     {
       "id": "almond-wafers-thewingold",
@@ -158968,7 +159118,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "salmon-loaf-bhg"
     },
     {
       "id": "salmon-timbales-thewingold",
@@ -159132,7 +159283,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "lemon-ice-harvester"
     },
     {
       "id": "maple-mousse-thewingold",
@@ -159212,7 +159364,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "maple-mousse-stevensonm"
     },
     {
       "id": "milksherbet-thewingold",
@@ -159630,7 +159783,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hungarian-goulash-mommom"
     },
     {
       "id": "vealbreast-thewingold",
@@ -163543,7 +163697,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "baked-fish-bhg"
     },
     {
       "id": "court-bouillon-wilsonscoo",
@@ -167724,7 +167879,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-pot-pie-gahb-mommom-baker"
     },
     {
       "id": "italian-meatballs-printed",
@@ -168633,7 +168789,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "weekday-casserole-gcb"
     },
     {
       "id": "chicken-tomato-casserole",
@@ -168775,7 +168932,8 @@
         ]
       },
       "variants": [
-        "chicken-tomato-casserole-chile-bible"
+        "chicken-tomato-casserole-chile-bible",
+        "chicken-tomato-casserole-gcb"
       ]
     },
     {
@@ -168907,7 +169065,8 @@
         ]
       },
       "variants": [
-        "rellenos-on-spanish-rice-chile-bible"
+        "rellenos-on-spanish-rice-chile-bible",
+        "rellenos-on-spanish-rice-gcb"
       ]
     },
     {
@@ -169049,7 +169208,8 @@
         ]
       },
       "variants": [
-        "relleno-bean-bake-chile-bible"
+        "relleno-bean-bake-chile-bible",
+        "relleno-bean-bake-gcb"
       ]
     },
     {
@@ -169242,7 +169402,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "little-boats-gcb"
     },
     {
       "id": "shepherds-cheese-bake",
@@ -169368,9 +169529,7 @@
           "Calculated for 7 servings"
         ]
       },
-      "variants": [
-        "shepherds-cheese-bake-ancients"
-      ]
+      "variant_of": "shepherds-cheese-bake-ancients-all"
     },
     {
       "id": "fire-chiefs-hot-stew-chile-bible",
@@ -169470,7 +169629,8 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variant_of": "fire-chiefs-hot-stew-gcb"
     },
     {
       "id": "chile-con-carne-de-venado-chile-bible",
@@ -169579,7 +169739,8 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variant_of": "chile-con-carne-de-venado-gcb"
     },
     {
       "id": "bean-and-chicken-stew-chile-bible",
@@ -169689,7 +169850,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "bean-and-chicken-stew-gcb"
     },
     {
       "id": "sweet-chile-albondigas-chile-bible",
@@ -169814,7 +169976,8 @@
         "assumptions": [
           "Calculated for 24 servings"
         ]
-      }
+      },
+      "variant_of": "sweet-chile-albondigas-gcb"
     },
     {
       "id": "chile-with-fresh-corn-chile-bible",
@@ -169914,7 +170077,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "chile-with-fresh-corn-gcb"
     },
     {
       "id": "mrs-lujans-green-chile-stew-chile-bible",
@@ -170001,7 +170165,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "mrs-lujans-green-chile-stew-gcb"
     },
     {
       "id": "stuffed-cabbage-spanish-style-chile-bible",
@@ -170140,7 +170305,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "stuffed-cabbage-spanish-style-gcb"
     },
     {
       "id": "great-green-bean-chile-chile-bible",
@@ -170236,7 +170402,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "great-green-bean-chile-gcb"
     },
     {
       "id": "little-boats-chile-bible",
@@ -170527,7 +170694,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "big-wheel-chile-burger-gcb"
     },
     {
       "id": "southwestern-lasagne-chile-bible",
@@ -170643,7 +170811,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "southwestern-lasagne-gcb"
     },
     {
       "id": "hearty-casserole-chile-bible",
@@ -170759,7 +170928,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "hearty-casserole-gcb"
     },
     {
       "id": "macaroni-green-chile-pie-chile-bible",
@@ -170915,7 +171085,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "macaroni-green-chile-pie-gcb"
     },
     {
       "id": "round-steak-roll-ups-chile-bible",
@@ -171042,7 +171213,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "round-steak-roll-ups-gcb"
     },
     {
       "id": "chicken-mexicana-chile-bible",
@@ -171155,7 +171327,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-mexicana-gcb"
     },
     {
       "id": "chicken-breasts-sauterne-chile-avocado-chile-bible",
@@ -171282,7 +171455,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-breasts-sauterne-chile-avocado-gcb"
     },
     {
       "id": "chicken-tomato-casserole-chile-bible",
@@ -171407,9 +171581,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "chicken-tomato-casserole"
-      ]
+      "variant_of": "chicken-tomato-casserole"
     },
     {
       "id": "fiesta-casserole-chile-bible",
@@ -171551,7 +171723,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "fiesta-casserole-gcb"
     },
     {
       "id": "pork-loin-in-green-sauce-chile-bible",
@@ -171636,7 +171809,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "pork-loin-in-green-sauce-gcb"
     },
     {
       "id": "spinach-quiche-chile-bible",
@@ -171756,7 +171930,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "spinach-quiche-gcb"
     },
     {
       "id": "chiles-rellenos-guillermos-chile-bible",
@@ -171875,7 +172050,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chiles-rellenos-guillermos-gcb"
     },
     {
       "id": "rellenos-on-spanish-rice-chile-bible",
@@ -171988,9 +172164,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "rellenos-spanish-rice"
-      ]
+      "variant_of": "rellenos-spanish-rice"
     },
     {
       "id": "relleno-bean-bake-chile-bible",
@@ -172106,9 +172280,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "relleno-bean-bake"
-      ]
+      "variant_of": "relleno-bean-bake"
     },
     {
       "id": "green-chile-pizza-chile-bible",
@@ -172231,7 +172403,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "green-chile-pizza-gcb"
     },
     {
       "id": "california-casserole-chile-bible",
@@ -172350,7 +172523,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "california-casserole-gcb"
     },
     {
       "id": "fricassee-festus-ancients-all",
@@ -172457,7 +172631,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "fricassee-festus-ancients-mommom-baker"
     },
     {
       "id": "pilaf-ancients",
@@ -172575,7 +172750,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "pilaf-cwa"
     },
     {
       "id": "fish-of-galilee-ancients",
@@ -172676,7 +172852,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "fish-of-galilee-cwa"
     },
     {
       "id": "honey-walnut-trout-ancients",
@@ -172797,7 +172974,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "honey-walnut-trout-cwa"
     },
     {
       "id": "pork-pot-pie-with-dumplings-gutenberg",
@@ -172981,7 +173159,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "beef-pot-pie"
     },
     {
       "id": "pennsylvania-dutch-chicken-and-oyster-pie-gutenberg",
@@ -174801,9 +174980,6 @@
         "flags": []
       },
       "image_refs": [],
-      "variants": [
-        "cf-ricotta-stuffed-shells"
-      ],
       "nutrition": {
         "status": "partial",
         "per_serving": {
@@ -174821,7 +174997,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "cf-ricotta-stuffed-shells"
     },
     {
       "id": "lemon-ricotta-pasta",
@@ -179416,7 +179593,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "beef-wellington-bhg"
     },
     {
       "id": "gr-teriyaki-salmon",
@@ -179881,7 +180059,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "fish-and-chips-bhg"
     },
     {
       "id": "gr-honey-glazed-ham",

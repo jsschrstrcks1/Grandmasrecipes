@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "beverages",
     "total_recipes": 51,
-    "generated": "2026-08-30T01:45:07.237110Z",
+    "generated": "2026-08-30T01:53:38.560118Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -110,9 +110,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "mexican-breakfast-choco-drink"
-      ]
+      "variant_of": "mexican-breakfast-choco-drink"
     },
     {
       "id": "yale-college-punch",
@@ -3029,7 +3027,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "swiss-steak-bhg"
     },
     {
       "id": "round-steak-hawaiian-dutchovenc",
@@ -4178,7 +4177,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "watermelon-smoothie-jasmine"
     },
     {
       "id": "spruce-beer-american-cookery-1796",

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "preserves",
     "total_recipes": 86,
-    "generated": "2026-08-30T01:45:08.250698Z",
+    "generated": "2026-08-30T01:53:39.595437Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -91,7 +91,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from preserves category"
         ]
-      }
+      },
+      "variant_of": "foxfire-4-sassafras-jelly"
     },
     {
       "id": "foxfire2-rhubarb-jelly",
@@ -500,7 +501,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from preserves category"
         ]
-      }
+      },
+      "variant_of": "foxfire-blackberry-syrup"
     },
     {
       "id": "foxfire3-blackberry-jelly",
@@ -683,7 +685,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from preserves category"
         ]
-      }
+      },
+      "variants": [
+        "appalachian-sumac-elderberry-jelly"
+      ]
     },
     {
       "id": "foxfire3-elderberry-jelly",
@@ -1680,7 +1685,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from preserves category"
         ]
-      }
+      },
+      "variants": [
+        "appalachian-elderberry-apple-orange-jam"
+      ]
     },
     {
       "id": "foxfire3-spiced-grapes",
@@ -2574,7 +2582,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from preserves category"
         ]
-      }
+      },
+      "variants": [
+        "pickled-green-tomatoes-peggy-rotella"
+      ]
     },
     {
       "id": "foxfire2-pickled-peaches-apples",
@@ -3080,7 +3091,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from preserves category"
         ]
-      }
+      },
+      "variant_of": "foxfire-fig-preserves"
     },
     {
       "id": "foxfire3-crabapple-jelly",
@@ -4333,7 +4345,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire3-sumac-elderberry-jelly"
     },
     {
       "id": "appalachian-elderberry-jam",
@@ -4507,7 +4520,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire3-elderberry-apple-orange-jam"
     },
     {
       "id": "dandelion-blossom-syrup-etw",
@@ -5289,7 +5303,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-maypop-jelly"
     },
     {
       "id": "daylily-jelly-etw",
@@ -6782,7 +6797,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "maypop-jelly-etw"
+      ]
     },
     {
       "id": "foxfire-jerusalem-artichoke-pickle",
@@ -7403,7 +7421,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "foxfire3-blackberry-syrup"
+      ]
     },
     {
       "id": "foxfire-huckleberry-jam",
@@ -7598,7 +7619,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "foxfire3-fig-preserves"
+      ]
     },
     {
       "id": "foxfire-grape-jelly",
@@ -7994,7 +8018,8 @@
         "assumptions": [
           "Calculated for 3 servings"
         ]
-      }
+      },
+      "variant_of": "cranberry-sauce-bhg"
     },
     {
       "id": "spiced-cranberries-etw",

@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "breads",
     "total_recipes": 285,
-    "generated": "2026-08-30T01:45:07.242215Z",
+    "generated": "2026-08-30T01:53:38.565197Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -135,9 +135,7 @@
           "1 cup fresh peaches adds minimal calories"
         ]
       },
-      "variants": [
-        "peach-muffins"
-      ]
+      "variant_of": "peach-muffins"
     },
     {
       "id": "poppy-seed-muffins-ref",
@@ -266,9 +264,7 @@
           "2 tbsp poppy seeds add minimal calories"
         ]
       },
-      "variants": [
-        "poppy-seed-muffins"
-      ]
+      "variant_of": "poppy-seed-muffins"
     },
     {
       "id": "orange-cinnamon-muffins-ref",
@@ -405,9 +401,7 @@
           "Orange zest and cinnamon add negligible calories"
         ]
       },
-      "variants": [
-        "orange-cinnamon-muffins"
-      ]
+      "variant_of": "orange-cinnamon-muffins"
     },
     {
       "id": "peanut-butter-banana-muffins-ref",
@@ -544,9 +538,7 @@
           "1/2 cup smooth peanut butter"
         ]
       },
-      "variants": [
-        "peanut-butter-banana-muffins"
-      ]
+      "variant_of": "peanut-butter-banana-muffins"
     },
     {
       "id": "cheesy-corn-muffins-ref",
@@ -677,9 +669,7 @@
           "1 cup shredded cheddar cheese"
         ]
       },
-      "variants": [
-        "cheesy-corn-muffins"
-      ]
+      "variant_of": "cheesy-corn-muffins"
     },
     {
       "id": "amaretto-muffins-ref",
@@ -811,9 +801,7 @@
           "1/2 cup toasted almonds"
         ]
       },
-      "variants": [
-        "amaretto-muffins"
-      ]
+      "variant_of": "amaretto-muffins"
     },
     {
       "id": "lemon-raspberry-almond-muffins-ref",
@@ -1089,9 +1077,7 @@
           "1 cup white chocolate chips"
         ]
       },
-      "variants": [
-        "apple-white-chocolate-muffins"
-      ]
+      "variant_of": "apple-white-chocolate-muffins"
     },
     {
       "id": "chocolate-hazelnut-muffins-ref",
@@ -1605,9 +1591,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "blueberry-coconut-muffins"
-      ]
+      "variant_of": "blueberry-coconut-muffins"
     },
     {
       "id": "raspberry-lemon-muffins-ref",
@@ -1745,9 +1729,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "raspberry-lemon-muffins"
-      ]
+      "variant_of": "raspberry-lemon-muffins"
     },
     {
       "id": "southern-corn-muffins-ref",
@@ -2155,9 +2137,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "chai-spiced-muffins"
-      ]
+      "variant_of": "chai-spiced-muffins"
     },
     {
       "id": "healthy-bran-apple-muffins-ref",
@@ -2275,9 +2255,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "healthy-bran-apple-muffins"
-      ]
+      "variant_of": "healthy-bran-apple-muffins"
     },
     {
       "id": "wholewheat-maple-bread-ref",
@@ -3397,7 +3375,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "honey-oatmeal-bread-ref"
+      ]
     },
     {
       "id": "oatmeal-molasses-rolls-ref",
@@ -7443,9 +7424,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "chocolate-hazelnut-muffins-ref"
-      ]
+      "variant_of": "chocolate-hazelnut-muffins-ref"
     },
     {
       "id": "blackberry-chocolate-muffins-crumb-topping",
@@ -11279,7 +11258,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "irish-soda-bread-mommom-baker"
     },
     {
       "id": "olive-french-bread",
@@ -12478,7 +12458,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "morning-start-blueberry-oatmeal-muffins-ref"
+      ]
     },
     {
       "id": "tea-time-mini-muffins",
@@ -13678,9 +13661,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "cinnamon-spice-muffins"
-      ]
+      "variant_of": "cinnamon-spice-muffins"
     },
     {
       "id": "apple-white-chocolate-muffins",
@@ -13949,7 +13930,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "banana-bread-bhg"
     },
     {
       "id": "applesauce-bread",
@@ -14209,7 +14191,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "applesauce-muffins-ref"
+      ]
     },
     {
       "id": "chicken-spring-rolls",
@@ -15368,7 +15353,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "cabbage-rolls-mommom"
     },
     {
       "id": "pumpkin-oatmeal-muffins",
@@ -17194,7 +17180,11 @@
         ]
       },
       "variants": [
-        "blueberry-muffins-theplainsa"
+        "blueberry-muffins-theplainsa",
+        "blueberry-muffins-simple",
+        "blueberry-muffins-handwritten",
+        "blueberry-muffins",
+        "blueberry-muffins-dutchovenc"
       ]
     },
     {
@@ -17297,7 +17287,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "bran-muffins-dudeskitch",
+        "bran-muffins-ref"
+      ]
     },
     {
       "id": "bacon-muffins-gutenberg",
@@ -17999,7 +17993,10 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variants": [
+        "plain-muffins-theplainsa"
+      ]
     },
     {
       "id": "graham-date-muffins-carnation",
@@ -18227,7 +18224,8 @@
           "Calculated for 12 servings",
           "Serving size inferred from breads category"
         ]
-      }
+      },
+      "variant_of": "nut-bread-bhg"
     },
     {
       "id": "baking-powder-biscuits-carnation",
@@ -18323,7 +18321,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "baking-powder-biscuits-mommom"
     },
     {
       "id": "pin-wheel-biscuits-carnation",
@@ -18994,7 +18993,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "french-toast-bhg"
     },
     {
       "id": "molasses-fruit-bread-grandmas-molasses",
@@ -20164,7 +20164,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "spoon-bread-bhg"
     },
     {
       "id": "french-toast-auntcaroli",
@@ -20256,7 +20257,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "french-toast-bhg"
     },
     {
       "id": "mammys-graham-muffins-auntcaroli",
@@ -21564,7 +21566,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "bran-muffins-gutenberg"
     },
     {
       "id": "corn-bread-dudeskitch",
@@ -21691,7 +21694,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "corn-bread-bhg"
     },
     {
       "id": "dutch-oven-biscuits-dutchovenc",
@@ -21887,7 +21891,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "monkey-bread-yeast"
     },
     {
       "id": "biscuits-and-gravy-dutchovenc",
@@ -22063,7 +22068,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "blueberry-muffins-gutenberg"
     },
     {
       "id": "scones-easybaking",
@@ -22181,7 +22187,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scones-carnation"
     },
     {
       "id": "boston-brcfwn-bread-everywoman",
@@ -22469,7 +22476,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "bread-omelet-themetropo"
+      ]
     },
     {
       "id": "twentieth-century-bread-mybest250r",
@@ -23352,7 +23362,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scones-carnation"
     },
     {
       "id": "creamed-eggs-inhollow-rolls-scottsnort",
@@ -23852,7 +23863,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oatmeal-muffins-buttermilk"
     },
     {
       "id": "potato-cornmeal-muffins-egoless-themetropo",
@@ -24402,7 +24414,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "boston-brown-bread-letas"
     },
     {
       "id": "steamed-oatmeal-bread-themetropo",
@@ -24584,7 +24597,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "white-bread-classic"
     },
     {
       "id": "entire-wheat-orbranbread-themetropo",
@@ -25166,7 +25180,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "branbread-wilsonscoo"
+      ]
     },
     {
       "id": "bread-omelet-themetropo",
@@ -25248,7 +25265,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "bread-omelet-justfortwo"
     },
     {
       "id": "gingerbread-theplainsa",
@@ -25390,7 +25408,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "gingerbread"
     },
     {
       "id": "baking-powder-biscuit-theplainsa",
@@ -25625,7 +25644,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "plain-muffins-carnation"
     },
     {
       "id": "blueberry-muffins-theplainsa",
@@ -25756,9 +25776,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "blueberry-muffins-gutenberg"
-      ]
+      "variant_of": "blueberry-muffins-gutenberg"
     },
     {
       "id": "corn-bread-ormuffins-theplainsa",
@@ -26128,7 +26146,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "jelly-roll-bhg"
     },
     {
       "id": "cornbread-thewhysofc",
@@ -28099,7 +28118,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "branbread-themetropo"
     },
     {
       "id": "parker-house-rolls-wilsonscoo",
@@ -28465,7 +28485,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "oatmeal-muffins-buttermilk"
     },
     {
       "id": "branmuffins-wilsonscoo",
@@ -28911,7 +28932,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "biscuits"
     },
     {
       "id": "delicious-english-scones-wilsonscoo",
@@ -29755,7 +29777,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "gingerbread"
     },
     {
       "id": "whole-wheat-muffins-wilsonscoo",
@@ -30336,7 +30359,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "banana-nut-muffins-gahb-mommom-baker"
     },
     {
       "id": "healthy-apple-walnut-muffins-gahb-all",
@@ -30455,7 +30479,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "healthy-apple-walnut-muffins-gahb-mommom-baker"
     },
     {
       "id": "buttermilk-biscuits-gahb-all",
@@ -30562,7 +30587,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "buttermilk-biscuits-gahb-mommom-baker"
     },
     {
       "id": "butter-crescents-gahb-all",
@@ -30699,7 +30725,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "butter-crescents-gahb-mommom-baker"
     },
     {
       "id": "sweet-bread-handwritten",
@@ -31290,7 +31317,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "sweet-anise-challah-cwa"
     },
     {
       "id": "not-for-prophet-bread-ancients",
@@ -31420,7 +31448,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "not-for-prophet-bread-cwa"
     },
     {
       "id": "reddit-depression-era-peanut-butter-bread",

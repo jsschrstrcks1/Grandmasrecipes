@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "sauces",
     "total_recipes": 45,
-    "generated": "2026-08-30T01:45:08.272523Z",
+    "generated": "2026-08-30T01:53:39.617499Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -125,7 +125,10 @@
           "Estimated 4 servings based on total calories",
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "peanut-sauce-family"
+      ]
     },
     {
       "id": "strawberry-butter",
@@ -279,7 +282,8 @@
         "assumptions": [
           "Based on 4/5 ingredients (80% coverage)"
         ]
-      }
+      },
+      "variant_of": "fruit-sauce-bhg"
     },
     {
       "id": "orange-sauce",
@@ -363,7 +367,8 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "orange-sauce-bhg"
     },
     {
       "id": "hot-fudge-sauce-bhg",
@@ -445,7 +450,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "hot-fudge-sauce-womans-day"
     },
     {
       "id": "herbed-sauce-for-fish",
@@ -536,7 +542,10 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 167)"
         ]
-      }
+      },
+      "variants": [
+        "herbed-sauce-for-fish-bhg"
+      ]
     },
     {
       "id": "fast-fish-fix-ups",
@@ -709,7 +718,8 @@
           "Estimated 4 servings based on total calories",
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "peanut-sauce-pat-groen"
     },
     {
       "id": "pesto-for-pasta",
@@ -1150,7 +1160,10 @@
           "Inferred 1 for pepper (standard quantity)",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "white-sauce-carnation"
+      ]
     },
     {
       "id": "hollandaise-sauce-bhg",
@@ -1245,7 +1258,10 @@
           "Inferred 0.25 for white pepper (standard quantity)",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "hollandaise-sauce-wilsonscoo"
+      ]
     },
     {
       "id": "bearnaise-sauce-bhg",
@@ -1663,7 +1679,10 @@
         "assumptions": [
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "tartar-sauce-alberta-gristhop"
+      ]
     },
     {
       "id": "cranberry-sauce-bhg",
@@ -1735,7 +1754,11 @@
         "assumptions": [
           "Based on 2/2 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "cranberry-sauce-etw",
+        "cranberry-sauce-theplainsa"
+      ]
     },
     {
       "id": "plum-sauce-bhg",
@@ -1962,7 +1985,11 @@
         "assumptions": [
           "Based on 13/13 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "spaghetti-sauce-joanne-hall",
+        "spaghetti-sauce-bhg"
+      ]
     },
     {
       "id": "pan-gravy-for-roasted-meat-bhg",
@@ -2046,7 +2073,8 @@
           "Inferred 1.0 for beef broth or water (standard quantity)",
           "Based on 2/3 ingredients (67% coverage)"
         ]
-      }
+      },
+      "variant_of": "pan-gravy-roasted-meat-bhg"
     },
     {
       "id": "pan-gravy-roasted-meat-bhg",
@@ -2129,7 +2157,10 @@
         "assumptions": [
           "Based on 2/3 ingredients (67% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "pan-gravy-for-roasted-meat-bhg"
+      ]
     },
     {
       "id": "fruit-sauce-bhg",
@@ -2201,7 +2232,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "fruit-sauce-dessert"
+      ]
     },
     {
       "id": "caramel-sauce-bhg",
@@ -2274,7 +2308,10 @@
         "assumptions": [
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "caramel-sauce"
+      ]
     },
     {
       "id": "orange-sauce-bhg",
@@ -2343,7 +2380,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "orange-sauce"
+      ]
     },
     {
       "id": "rhubarb-sauce-bhg",
@@ -2406,7 +2446,10 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "rhubarb-sauce"
+      ]
     },
     {
       "id": "vanilla-sauce-bhg",
@@ -2476,7 +2519,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "vanilla-sauce"
+      ]
     },
     {
       "id": "whiskey-sauce-bhg",
@@ -2546,7 +2592,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "whiskey-sauce"
+      ]
     },
     {
       "id": "whipped-cream-bhg",
@@ -2607,7 +2656,10 @@
         "assumptions": [
           "Based on 3/3 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "whipped-cream"
+      ]
     },
     {
       "id": "hard-sauce-bhg",
@@ -2671,7 +2723,10 @@
         "assumptions": [
           "Based on 3/3 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "hard-sauce"
+      ]
     },
     {
       "id": "herbed-sauce-for-fish-bhg",
@@ -2736,7 +2791,8 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "herbed-sauce-for-fish"
     },
     {
       "id": "red-chile-sauce-gcb",
@@ -3087,7 +3143,11 @@
           "Calculated for 4 servings",
           "Serving size inferred from sauces category"
         ]
-      }
+      },
+      "variants": [
+        "onion-soup-swedish-meatball-sauce-fbc",
+        "swedish-meatball-sauce-annotated"
+      ]
     },
     {
       "id": "onion-soup-swedish-meatball-sauce-fbc",
@@ -3183,7 +3243,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from sauces category"
         ]
-      }
+      },
+      "variant_of": "onion-soup-swedish-meatball-sauce-jasmine"
     },
     {
       "id": "foxfire2-horseradish-sauce",

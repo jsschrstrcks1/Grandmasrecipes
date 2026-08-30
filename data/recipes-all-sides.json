@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "sides",
     "total_recipes": 362,
-    "generated": "2026-08-30T01:45:07.819030Z",
+    "generated": "2026-08-30T01:53:39.150802Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -175,7 +175,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "garlicky-broccoli-rabe-fettuccine"
     },
     {
       "id": "aunt-peggys-sour-cream-mashed-potatoes",
@@ -1551,7 +1552,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "roasted-asparagus"
     },
     {
       "id": "sriracha-zucchini-ref",
@@ -2956,7 +2958,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "green-beans-amandine-bhg"
     },
     {
       "id": "lemon-parmesan-broiled-asparagus",
@@ -3265,7 +3268,10 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "roasted-asparagus-ref"
+      ]
     },
     {
       "id": "pimiento-green-beans",
@@ -3811,7 +3817,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "tabbouleh-bhg"
     },
     {
       "id": "veggie-kabobs",
@@ -10583,7 +10590,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scalloped-potatoes-saco"
     },
     {
       "id": "dutch-potato-croquettes-gutenberg",
@@ -11069,7 +11077,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hashed-brown-potatoes-bhg"
     },
     {
       "id": "baked-lima-beans-gutenberg",
@@ -11171,7 +11180,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "baked-lima-beans-grandmas-molasses"
     },
     {
       "id": "potato-doughnuts-gutenberg",
@@ -11279,7 +11289,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "potato-doughnuts-thewhysofc"
+      ]
     },
     {
       "id": "pickled-green-beans-gutenberg",
@@ -11708,7 +11721,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "white-sauce-bhg"
     },
     {
       "id": "caper-sauce-carnation",
@@ -12346,7 +12360,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "thousand-island-dressing-bhg"
     },
     {
       "id": "butterscotch-sauce-carnation",
@@ -12662,7 +12677,10 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variants": [
+        "baked-lima-beans-gutenberg"
+      ]
     },
     {
       "id": "baked-beans-quick-method-grandmas-molasses",
@@ -13407,7 +13425,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from sides category"
         ]
-      }
+      },
+      "variant_of": "french-dressing-joanne-hall"
     },
     {
       "id": "fruit-french-dressing-harvester",
@@ -16043,7 +16062,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "dressing-goodandche"
+      ]
     },
     {
       "id": "sauce-fromscratc",
@@ -16306,7 +16328,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "dressing-fromscratc"
     },
     {
       "id": "alternate-dressing-goodandche",
@@ -17262,7 +17285,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "french-dressing-joanne-hall"
     },
     {
       "id": "dixie-potatoes-auntcaroli",
@@ -19285,7 +19309,11 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "tomato-sauce-thewhysofc",
+        "tomato-sauce-wilsonscoo"
+      ]
     },
     {
       "id": "hammousse-with-sauce-scottsnort",
@@ -20559,7 +20587,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "sauces-wilsonscoo"
+      ]
     },
     {
       "id": "oyster-sauce-forfishorpoultry-scottsnort",
@@ -22182,7 +22213,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "mashed-potatoes-classic"
     },
     {
       "id": "baked-potatoes-theplainsa",
@@ -22342,7 +22374,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "stuffed-potatoes-thewhysofc"
+      ]
     },
     {
       "id": "hashed-brown-potatoes-theplainsa",
@@ -22463,7 +22498,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hashed-brown-potatoes-bhg"
     },
     {
       "id": "scalloped-potatoes-theplainsa",
@@ -22583,7 +22619,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scalloped-potatoes-saco"
     },
     {
       "id": "french-dressing-theplainsa",
@@ -22687,7 +22724,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "french-dressing-joanne-hall"
     },
     {
       "id": "boiled-dressing-theplainsa",
@@ -23189,7 +23227,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cranberry-sauce-bhg"
     },
     {
       "id": "apple-sauce-theplainsa",
@@ -23555,7 +23594,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-doughnuts-gutenberg"
     },
     {
       "id": "tomato-sauce-thewhysofc",
@@ -23623,7 +23663,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-sauce-scottsnort"
     },
     {
       "id": "stuffed-potatoes-thewhysofc",
@@ -23710,7 +23751,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "stuffed-potatoes-theplainsa"
     },
     {
       "id": "mayonnaise-dressing-olive-oil-thewhysofc",
@@ -24493,7 +24535,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-dumplings-chef-herman"
     },
     {
       "id": "brown-sauce-triedandtr",
@@ -24785,7 +24828,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hollandaise-sauce-bhg"
     },
     {
       "id": "sauces-wilsonscoo",
@@ -24911,7 +24955,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "sauces-scottsnort"
     },
     {
       "id": "cream-horseradish-sauce-wilsonscoo",
@@ -25500,7 +25545,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-sauce-scottsnort"
     },
     {
       "id": "canadian-sauce-wilsonscoo",
@@ -25642,7 +25688,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-dumplings-chef-herman"
     },
     {
       "id": "delmonte-dressing-wilsonscoo",
@@ -25836,7 +25883,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "onion-soup-swedish-meatball-sauce-jasmine"
     },
     {
       "id": "to-pickle-cucumbers-american-cookery-1796",
@@ -26785,7 +26833,8 @@
         ]
       },
       "variants": [
-        "curried-corn-with-chile-chile-bible"
+        "curried-corn-with-chile-chile-bible",
+        "curried-corn-with-chile-gcb"
       ]
     },
     {
@@ -26921,7 +26970,8 @@
         ]
       },
       "variants": [
-        "cornfetti-casserole-chile-bible"
+        "cornfetti-casserole-chile-bible",
+        "cornfetti-casserole-gcb"
       ]
     },
     {
@@ -27160,7 +27210,8 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variant_of": "southwest-baked-beans-gcb"
     },
     {
       "id": "broccoli-green-chile-delight-chile-bible",
@@ -27272,7 +27323,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "broccoli-green-chile-delight-gcb"
     },
     {
       "id": "curried-corn-with-chile-chile-bible",
@@ -27374,9 +27426,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "curried-corn-with-chile"
-      ]
+      "variant_of": "curried-corn-with-chile"
     },
     {
       "id": "cornfetti-casserole-chile-bible",
@@ -27493,9 +27543,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "cornfetti-casserole"
-      ]
+      "variant_of": "cornfetti-casserole"
     },
     {
       "id": "garbanzos-calientes-chile-bible",
@@ -27595,7 +27643,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "garbanzos-calientes-gcb"
     },
     {
       "id": "mexicali-spuds-chile-bible",
@@ -27705,7 +27754,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "mexicali-spuds-gcb"
     },
     {
       "id": "green-chile-mashed-potatoes-chile-bible",
@@ -27784,7 +27834,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "green-chile-mashed-potatoes-gcb"
     },
     {
       "id": "roundup-mashed-potatoes-chile-bible",
@@ -27874,7 +27925,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "roundup-mashed-potatoes-gcb"
     },
     {
       "id": "zucchini-exquisito-chile-bible",
@@ -28189,7 +28241,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "noodles-with-green-chile-gcb"
     },
     {
       "id": "yum-yum-rice-casserole-chile-bible",
@@ -28282,7 +28335,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "yum-yum-rice-casserole-gcb"
     },
     {
       "id": "hominy-grits-casserole-chile-bible",
@@ -28396,7 +28450,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "hominy-grits-casserole-gcb"
     },
     {
       "id": "green-chile-gnocchi-chile-bible",
@@ -28572,7 +28627,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "basic-barley-cwa"
     },
     {
       "id": "fava-beans-corinthian-ancients",
@@ -28654,7 +28710,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "fava-beans-corinthian-cwa"
     },
     {
       "id": "our-fava-beans-ancients-all",
@@ -28750,7 +28807,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "our-fava-beans-ancients-mommom-baker"
     },
     {
       "id": "apple-and-eve-beets-ancients",
@@ -28854,9 +28912,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "apple-and-eve-beets"
-      ]
+      "variant_of": "apple-and-eve-beets"
     },
     {
       "id": "carrots-and-turnips-zebulun-ancients",
@@ -29081,7 +29137,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "naomis-carrot-cheese-bake-ancients-mommom-baker"
     },
     {
       "id": "bulls-eye-bbq-sauce-copycat",
@@ -29294,9 +29351,6 @@
         "flags": []
       },
       "image_refs": [],
-      "variants": [
-        "lgc-paneer"
-      ],
       "nutrition": {
         "status": "complete",
         "per_serving": {
@@ -29312,7 +29366,8 @@
         "assumptions": [
           "Calculated for 13 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-paneer"
     },
     {
       "id": "queso-blanco",
@@ -29464,9 +29519,6 @@
         "flags": []
       },
       "image_refs": [],
-      "variants": [
-        "psr-fromage-blanc"
-      ],
       "nutrition": {
         "status": "partial",
         "per_serving": {
@@ -29484,7 +29536,8 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variant_of": "psr-fromage-blanc"
     },
     {
       "id": "mascarpone",
@@ -29556,9 +29609,6 @@
         "flags": []
       },
       "image_refs": [],
-      "variants": [
-        "lgc-mascarpone"
-      ],
       "nutrition": {
         "status": "partial",
         "per_serving": {
@@ -29576,7 +29626,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "lgc-mascarpone"
     },
     {
       "id": "homemade-butter",
@@ -29664,7 +29715,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-homemade-butter"
     },
     {
       "id": "creme-fraiche",
@@ -30975,7 +31027,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "norwegian-brunost-style"
+      ]
     },
     {
       "id": "portuguese-serra-da-estrela",
@@ -33294,7 +33349,10 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variants": [
+        "cfs-homemade-sour-cream"
+      ]
     },
     {
       "id": "cup-cheese-pennsylvania-dutch",
@@ -33503,7 +33561,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "farmers-cheese"
+      ]
     },
     {
       "id": "psr-fromage-blanc",
@@ -33775,7 +33836,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "cultured-butter"
     },
     {
       "id": "psr-creme-fraiche",
@@ -33840,9 +33902,6 @@
         "flags": []
       },
       "image_refs": [],
-      "variants": [
-        "creme-fraiche"
-      ],
       "nutrition": {
         "status": "complete",
         "per_serving": {
@@ -33858,7 +33917,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "creme-fraiche"
     },
     {
       "id": "reddit-potato-cheese-casserole",
@@ -34577,7 +34637,10 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variants": [
+        "queso-requeson"
+      ]
     },
     {
       "id": "cf-greek-tzatziki",
@@ -35402,9 +35465,6 @@
         "flags": []
       },
       "image_refs": [],
-      "variants": [
-        "ethiopian-ayib"
-      ],
       "nutrition": {
         "status": "partial",
         "per_serving": {
@@ -35422,7 +35482,8 @@
         "assumptions": [
           "Calculated for 1 servings"
         ]
-      }
+      },
+      "variant_of": "ethiopian-ayib"
     },
     {
       "id": "kurut-kazakh",

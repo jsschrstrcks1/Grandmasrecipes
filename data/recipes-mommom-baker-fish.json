@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "fish",
     "total_recipes": 53,
-    "generated": "2026-08-30T01:45:08.184390Z",
+    "generated": "2026-08-30T01:53:39.526486Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -93,7 +93,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 167)"
         ]
-      }
+      },
+      "variant_of": "marinated-salmon-steaks-bhg"
     },
     {
       "id": "halibut-with-sherry-sauce",
@@ -178,7 +179,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
         ]
-      }
+      },
+      "variant_of": "halibut-with-sherry-sauce-bhg"
     },
     {
       "id": "teriyaki-shark",
@@ -257,7 +259,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
         ]
-      }
+      },
+      "variant_of": "teriyaki-shark-bhg"
     },
     {
       "id": "sweet-and-sour-fish-kabobs",
@@ -340,7 +343,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 169)"
         ]
-      }
+      },
+      "variant_of": "sweet-and-sour-fish-kabobs-bhg"
     },
     {
       "id": "fish-with-beer-cheese-sauce",
@@ -430,7 +434,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 170)"
         ]
-      }
+      },
+      "variant_of": "fish-with-beer-cheese-sauce-bhg"
     },
     {
       "id": "citrus-baked-halibut",
@@ -505,7 +510,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 170)"
         ]
-      }
+      },
+      "variant_of": "citrus-baked-halibut-bhg"
     },
     {
       "id": "broccoli-stuffed-sole",
@@ -588,7 +594,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 171)"
         ]
-      }
+      },
+      "variant_of": "broccoli-stuffed-sole-bhg"
     },
     {
       "id": "baked-fish-with-mushrooms",
@@ -668,7 +675,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 171)"
         ]
-      }
+      },
+      "variant_of": "baked-fish-with-mushrooms-bhg"
     },
     {
       "id": "fish-en-papillote",
@@ -789,7 +797,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 172)"
         ]
-      }
+      },
+      "variant_of": "fish-en-papillote-bhg"
     },
     {
       "id": "chilled-salmon-steaks",
@@ -894,7 +903,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 173)"
         ]
-      }
+      },
+      "variant_of": "chilled-salmon-steaks-bhg"
     },
     {
       "id": "poached-fish-with-dill-sauce",
@@ -969,7 +979,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 173)"
         ]
-      }
+      },
+      "variant_of": "poached-fish-with-dill-sauce-bhg"
     },
     {
       "id": "trout-amandine",
@@ -1068,7 +1079,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 174)"
         ]
-      }
+      },
+      "variant_of": "trout-amandine-bhg"
     },
     {
       "id": "pan-fried-fish",
@@ -1142,7 +1154,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 174)"
         ]
-      }
+      },
+      "variant_of": "pan-fried-fish-bhg"
     },
     {
       "id": "sweet-and-sour-stir-fried-fish",
@@ -1231,7 +1244,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
         ]
-      }
+      },
+      "variant_of": "sweet-and-sour-stir-fried-fish-bhg"
     },
     {
       "id": "fish-and-chips",
@@ -1325,7 +1339,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
         ]
-      }
+      },
+      "variant_of": "fish-and-chips-bhg"
     },
     {
       "id": "creamed-tuna",
@@ -1409,7 +1424,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
         ]
-      }
+      },
+      "variant_of": "creamed-tuna-bhg"
     },
     {
       "id": "tuna-noodle-casserole",
@@ -1516,7 +1532,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 176)"
         ]
-      }
+      },
+      "variant_of": "tuna-noodle-casserole-bhg"
     },
     {
       "id": "tuna-broccoli-crepes",
@@ -1638,7 +1655,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 176)"
         ]
-      }
+      },
+      "variant_of": "tuna-broccoli-crepes-bhg"
     },
     {
       "id": "tuna-biscuit-casseroles",
@@ -1746,7 +1764,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 177)"
         ]
-      }
+      },
+      "variant_of": "tuna-biscuit-casseroles-bhg"
     },
     {
       "id": "salmon-loaf",
@@ -1828,7 +1847,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 177)"
         ]
-      }
+      },
+      "variant_of": "salmon-loaf-bhg"
     },
     {
       "id": "salmon-pasta-skillet",
@@ -1905,7 +1925,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 177)"
         ]
-      }
+      },
+      "variant_of": "salmon-pasta-skillet-bhg"
     },
     {
       "id": "dijon-mustard-fillets",
@@ -1973,7 +1994,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 168)"
         ]
-      }
+      },
+      "variant_of": "dijon-mustard-fillets-bhg"
     },
     {
       "id": "orange-swordfish-kabobs",
@@ -2162,7 +2184,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 175)"
         ]
-      }
+      },
+      "variant_of": "hot-tuna-sandwich-cups-bhg"
     },
     {
       "id": "lobster-newburg",
@@ -2258,7 +2281,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 184)"
         ]
-      }
+      },
+      "variant_of": "lobster-newburg-bhg"
     },
     {
       "id": "boiled-lobster",
@@ -2327,7 +2351,8 @@
         "assumptions": [
           "From Better Homes and Gardens cookbook nutrition analysis (p. 184)"
         ]
-      }
+      },
+      "variant_of": "boiled-lobster-bhg"
     },
     {
       "id": "marinated-salmon-steaks-bhg",
@@ -2426,7 +2451,10 @@
           "Inferred 1 for pepper (standard quantity)",
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "marinated-salmon-steaks"
+      ]
     },
     {
       "id": "halibut-with-sherry-sauce-bhg",
@@ -2540,7 +2568,10 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "halibut-with-sherry-sauce"
+      ]
     },
     {
       "id": "dijon-mustard-fillets-bhg",
@@ -2613,7 +2644,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "dijon-mustard-fillets"
+      ]
     },
     {
       "id": "teriyaki-shark-bhg",
@@ -2698,7 +2732,10 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "teriyaki-shark"
+      ]
     },
     {
       "id": "swordfish-kabobs-bhg",
@@ -2782,7 +2819,8 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "swordfish-kabobs"
     },
     {
       "id": "sweet-and-sour-fish-kabobs-bhg",
@@ -2868,7 +2906,10 @@
         "assumptions": [
           "Based on 6/7 ingredients (86% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "sweet-and-sour-fish-kabobs"
+      ]
     },
     {
       "id": "blackened-redfish-bhg",
@@ -3052,7 +3093,10 @@
         "assumptions": [
           "Based on 7/8 ingredients (88% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "fish-with-beer-cheese-sauce"
+      ]
     },
     {
       "id": "citrus-baked-halibut-bhg",
@@ -3123,7 +3167,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "citrus-baked-halibut"
+      ]
     },
     {
       "id": "broccoli-stuffed-sole-bhg",
@@ -3200,7 +3247,10 @@
           "Assumed 1 unit for dill",
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "broccoli-stuffed-sole"
+      ]
     },
     {
       "id": "baked-fish-with-mushrooms-bhg",
@@ -3276,7 +3326,10 @@
           "Assumed 1 unit for paprika",
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "baked-fish-with-mushrooms"
+      ]
     },
     {
       "id": "wild-rice-stuffed-fish-bhg",
@@ -3381,7 +3434,8 @@
         "assumptions": [
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "wild-rice-stuffed-fish"
     },
     {
       "id": "fish-en-papillote-bhg",
@@ -3497,7 +3551,10 @@
         "assumptions": [
           "Based on 11/12 ingredients (92% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "fish-en-papillote"
+      ]
     },
     {
       "id": "chilled-salmon-steaks-bhg",
@@ -3585,7 +3642,10 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "chilled-salmon-steaks"
+      ]
     },
     {
       "id": "poached-fish-with-dill-sauce-bhg",
@@ -3662,7 +3722,10 @@
           "Assumed 1 unit for water",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "poached-fish-with-dill-sauce"
+      ]
     },
     {
       "id": "vegetable-topped-fillets-bhg",
@@ -3748,7 +3811,8 @@
         "assumptions": [
           "Based on 6/7 ingredients (86% coverage)"
         ]
-      }
+      },
+      "variant_of": "vegetable-topped-fillets"
     },
     {
       "id": "trout-amandine-bhg",
@@ -3842,7 +3906,10 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "trout-amandine"
+      ]
     },
     {
       "id": "pan-fried-fish-bhg",
@@ -3922,7 +3989,10 @@
           "Inferred 2 for shortening or cooking oil for frying (standard quantity)",
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "pan-fried-fish"
+      ]
     },
     {
       "id": "sweet-and-sour-stir-fried-fish-bhg",
@@ -4020,7 +4090,10 @@
         "assumptions": [
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "sweet-and-sour-stir-fried-fish"
+      ]
     },
     {
       "id": "fish-and-chips-bhg",
@@ -4110,7 +4183,11 @@
           "Assumed 1 unit for malt vinegar or cider vinegar",
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "fish-and-chips",
+        "gr-fish-and-chips"
+      ]
     },
     {
       "id": "creamed-tuna-bhg",
@@ -4201,7 +4278,10 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "creamed-tuna"
+      ]
     },
     {
       "id": "hot-tuna-sandwich-cups-bhg",
@@ -4294,7 +4374,10 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "hot-tuna-sandwich-cups"
+      ]
     },
     {
       "id": "tuna-noodle-casserole-bhg",
@@ -4382,7 +4465,10 @@
           "Assumed 1 unit for parsley sprigs (optional)",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "tuna-noodle-casserole"
+      ]
     },
     {
       "id": "tuna-broccoli-crepes-bhg",
@@ -4505,7 +4591,10 @@
           "Assumed 1 unit for sliced or slivered almonds, toasted (optional)",
           "Based on 11/12 ingredients (92% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "tuna-broccoli-crepes"
+      ]
     },
     {
       "id": "tuna-biscuit-casseroles-bhg",
@@ -4607,7 +4696,10 @@
         "assumptions": [
           "Based on 11/11 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "tuna-biscuit-casseroles"
+      ]
     },
     {
       "id": "salmon-loaf-bhg",
@@ -4694,7 +4786,12 @@
           "Inferred 1.0 for Cheese Sauce (see recipe, page 361) (standard quantity)",
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "salmon-loaf",
+        "salmon-loaf-themetropo",
+        "salmon-loaf-thewingold"
+      ]
     },
     {
       "id": "salmon-pasta-skillet-bhg",
@@ -4780,7 +4877,10 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "salmon-pasta-skillet"
+      ]
     }
   ]
 }

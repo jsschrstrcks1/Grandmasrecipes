@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "vegetables",
     "total_recipes": 82,
-    "generated": "2026-08-30T01:45:08.312055Z",
+    "generated": "2026-08-30T01:53:39.657336Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -415,7 +415,10 @@
         "assumptions": [
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "green-beans-amandine"
+      ]
     },
     {
       "id": "creamy-green-bean-bake-bhg",
@@ -931,7 +934,10 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "baked-beans-mrs-james-hurst"
+      ]
     },
     {
       "id": "shortcut-baked-beans-bhg",
@@ -1089,7 +1095,10 @@
         "assumptions": [
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "harvard-beets-minnie-matts"
+      ]
     },
     {
       "id": "orange-glazed-beets-bhg",
@@ -3062,7 +3071,8 @@
           "Inferred 1.0 for Milk (standard quantity)",
           "Based on 3/3 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "mashed-potatoes-classic"
     },
     {
       "id": "baked-potatoes-bhg",
@@ -3206,7 +3216,8 @@
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "scalloped-potatoes-saco"
     },
     {
       "id": "twice-baked-potatoes-bhg",
@@ -3476,7 +3487,11 @@
         "assumptions": [
           "Based on 3/3 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "hashed-brown-potatoes-gutenberg",
+        "hashed-brown-potatoes-theplainsa"
+      ]
     },
     {
       "id": "candied-sweet-potatoes-bhg",
@@ -3877,7 +3892,10 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "scalloped-tomatoes-gutenberg"
+      ]
     },
     {
       "id": "crumb-topped-tomatoes-bhg",
@@ -6399,7 +6417,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "banana-tree-stem-sauteed-etw"
+      ]
     },
     {
       "id": "roasted-bulrush-roots-etw",

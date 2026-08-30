@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "eggs",
     "total_recipes": 44,
-    "generated": "2026-08-30T01:45:08.180091Z",
+    "generated": "2026-08-30T01:53:39.521975Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -90,7 +90,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "cheese-strata-bhg"
     },
     {
       "id": "creamy-poached-eggs",
@@ -161,7 +162,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "creamy-poached-eggs-bhg"
     },
     {
       "id": "poached-eggs",
@@ -233,7 +235,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "poached-eggs-bhg"
     },
     {
       "id": "huevos-rancheros-mommom-baker",
@@ -345,7 +348,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "huevos-rancheros-bhg"
     },
     {
       "id": "deviled-eggs",
@@ -419,7 +423,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "deviled-eggs-bhg"
     },
     {
       "id": "fried-eggs",
@@ -476,7 +481,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fried-eggs-bhg"
     },
     {
       "id": "baked-eggs",
@@ -546,7 +552,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "baked-eggs-ramekins"
     },
     {
       "id": "scrambled-eggs",
@@ -615,7 +622,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "scrambled-eggs-bhg"
     },
     {
       "id": "farmers-breakfast",
@@ -694,7 +702,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "farmers-breakfast-bhg"
     },
     {
       "id": "scrambled-egg-casserole",
@@ -787,7 +796,8 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "scrambled-egg-casserole-bhg"
     },
     {
       "id": "eggs-in-a-puff",
@@ -873,7 +883,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "eggs-in-a-puff-bhg"
     },
     {
       "id": "egg-pita-sandwiches",
@@ -959,7 +970,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "egg-pita-sandwiches-bhg"
     },
     {
       "id": "french-omelet",
@@ -1033,7 +1045,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "french-omelet-bhg"
     },
     {
       "id": "denver-omelet",
@@ -1125,7 +1138,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "denver-omelet-bhg"
     },
     {
       "id": "puffy-omelet",
@@ -1188,7 +1202,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "puffy-omelet-bhg"
     },
     {
       "id": "frittata",
@@ -1268,7 +1283,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "frittata-bhg"
     },
     {
       "id": "cheese-souffle-mommom-baker",
@@ -1352,7 +1368,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "cheese-souffle-bhg"
     },
     {
       "id": "vegetable-souffle",
@@ -1462,7 +1479,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "vegetable-souffle-bhg"
     },
     {
       "id": "spinach-puff",
@@ -1564,7 +1582,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "spinach-puff-bhg"
     },
     {
       "id": "choose-a-flavor-quiche",
@@ -1673,7 +1692,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "choose-a-flavor-quiche-bhg"
     },
     {
       "id": "breakfast-pizza",
@@ -1771,7 +1791,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "breakfast-pizza-mommom"
     },
     {
       "id": "welsh-rarebit-breakfast",
@@ -1877,7 +1898,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "welsh-rarebit-breakfast-bhg"
     },
     {
       "id": "huevos-rancheros-bhg",
@@ -1990,7 +2012,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "huevos-rancheros-mommom-baker",
+        "huevos-rancheros-all"
+      ]
     },
     {
       "id": "soft-cooked-hard-cooked-eggs-bhg",
@@ -2046,7 +2072,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "soft-hard-cooked-eggs"
     },
     {
       "id": "deviled-eggs-bhg",
@@ -2121,7 +2148,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "deviled-eggs"
+      ]
     },
     {
       "id": "fried-eggs-bhg",
@@ -2179,7 +2209,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "fried-eggs"
+      ]
     },
     {
       "id": "baked-eggs-bhg",
@@ -2249,7 +2282,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "baked-eggs-ramekins"
     },
     {
       "id": "asparagus-egg-casserole-bhg",
@@ -2364,7 +2398,8 @@
         "assumptions": [
           "Based on 13/13 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "asparagus-egg-casserole"
     },
     {
       "id": "scrambled-eggs-bhg",
@@ -2434,7 +2469,13 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "scrambled-eggs",
+        "scrambled-eggs-themetropo",
+        "scrambled-eggs-theplainsa",
+        "gr-scrambled-eggs"
+      ]
     },
     {
       "id": "farmers-breakfast-bhg",
@@ -2514,7 +2555,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "farmers-breakfast"
+      ]
     },
     {
       "id": "scrambled-egg-casserole-bhg",
@@ -2611,7 +2655,10 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "scrambled-egg-casserole"
+      ]
     },
     {
       "id": "eggs-in-a-puff-bhg",
@@ -2701,7 +2748,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "eggs-in-a-puff"
+      ]
     },
     {
       "id": "french-omelet-bhg",
@@ -2776,7 +2826,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "french-omelet"
+      ]
     },
     {
       "id": "denver-omelet-bhg",
@@ -2867,7 +2920,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "denver-omelet"
+      ]
     },
     {
       "id": "puffy-omelet-bhg",
@@ -2936,7 +2992,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "puffy-omelet"
+      ]
     },
     {
       "id": "frittata-bhg",
@@ -3024,7 +3083,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "frittata"
+      ]
     },
     {
       "id": "cheese-souffle-bhg",
@@ -3114,7 +3176,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "cheese-souffle-mommom-baker"
+      ]
     },
     {
       "id": "vegetable-souffle-bhg",
@@ -3232,7 +3297,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "vegetable-souffle"
+      ]
     },
     {
       "id": "spinach-puff-bhg",
@@ -3336,7 +3404,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "spinach-puff"
+      ]
     },
     {
       "id": "choose-a-flavor-quiche-bhg",
@@ -3445,7 +3516,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "choose-a-flavor-quiche"
+      ]
     },
     {
       "id": "spinach-egg-casserole-bhg",
@@ -3534,7 +3608,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "spinach-egg-casserole"
+      ]
     },
     {
       "id": "breakfast-pizza-bhg",
@@ -3622,7 +3699,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "breakfast-pizza-mommom"
     },
     {
       "id": "cheesy-brunch-roll-ups-bhg",
@@ -3735,7 +3813,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "cheesy-brunch-roll-ups"
+      ]
     },
     {
       "id": "welsh-rarebit-breakfast-bhg",
@@ -3841,7 +3922,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "welsh-rarebit-breakfast"
+      ]
     }
   ]
 }

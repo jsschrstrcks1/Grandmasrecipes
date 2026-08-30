@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "sandwiches",
     "total_recipes": 5,
-    "generated": "2026-08-30T01:45:08.271795Z",
+    "generated": "2026-08-30T01:53:39.616746Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -88,7 +88,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "egg-salad-sandwiches"
+      ]
     },
     {
       "id": "egg-pita-sandwiches-bhg",
@@ -186,7 +189,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "egg-pita-sandwiches"
+      ]
     },
     {
       "id": "reuben-sandwiches-bhg",

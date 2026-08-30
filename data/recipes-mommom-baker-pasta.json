@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "pasta",
     "total_recipes": 2,
-    "generated": "2026-08-30T01:45:08.250287Z",
+    "generated": "2026-08-30T01:53:39.595019Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -120,7 +120,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fettuccine-with-cheese-sauce-bhg"
     },
     {
       "id": "macaroni-and-cheese",
@@ -219,7 +220,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "macaroni-and-cheese-maryann-graham",
+        "macaroni-and-cheese-mommom"
+      ]
     }
   ]
 }

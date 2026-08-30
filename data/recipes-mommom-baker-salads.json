@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "salads",
     "total_recipes": 75,
-    "generated": "2026-08-30T01:45:08.263066Z",
+    "generated": "2026-08-30T01:53:39.607757Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -445,7 +445,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "coleslaw-bhg"
     },
     {
       "id": "cranberry-salad-mommom",
@@ -570,7 +571,11 @@
           "Estimated 8 servings based on total calories",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "cranberry-salad-family",
+        "cranberry-salad-jello"
+      ]
     },
     {
       "id": "broccoli-mushroom-salad",
@@ -1796,7 +1801,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fruit-salad-pudding"
     },
     {
       "id": "easy-tuscan-pasta-salad",
@@ -2395,7 +2401,8 @@
           "Inferred 1 for pepper (standard quantity)",
           "Based on 9/11 ingredients (82% coverage)"
         ]
-      }
+      },
+      "variant_of": "caesar-salad-two-dressings"
     },
     {
       "id": "three-bean-salad-bhg",
@@ -2632,7 +2639,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "coleslaw-mommom"
+      ]
     },
     {
       "id": "tabbouleh-bhg",
@@ -2752,7 +2762,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "tabbouleh"
+      ]
     },
     {
       "id": "waldorf-salad-bhg",
@@ -2862,7 +2875,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "waldorf-salad-themetropo"
+      ]
     },
     {
       "id": "five-cup-salad-bhg",
@@ -3062,7 +3078,8 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "cranberry-salad-mommom"
     },
     {
       "id": "bean-sausage-bowl-bhg",
@@ -3901,7 +3918,12 @@
         "assumptions": [
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "chicken-salad-ancients",
+        "chicken-salad-chickenrec",
+        "chicken-salad-scottsnort"
+      ]
     },
     {
       "id": "avocado-shrimp-salad-bhg",
@@ -6518,7 +6540,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "green-chile-salad-chile-bible"
+      ]
     },
     {
       "id": "marinated-garden-salad-gcb",
@@ -6628,7 +6653,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "marinated-garden-salad-chile-bible"
+      ]
     },
     {
       "id": "piquant-salad-gcb",
@@ -6705,7 +6733,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "piquant-salad-chile-bible"
+      ]
     },
     {
       "id": "green-chile-cucumber-salad-gcb",
@@ -6803,7 +6834,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "green-chile-cucumber-salad-chile-bible"
+      ]
     },
     {
       "id": "salad-joshua-cwa",
@@ -7098,7 +7132,8 @@
           "Calculated for 6 servings",
           "Serving size inferred from salads category"
         ]
-      }
+      },
+      "variant_of": "chicken-salad-bhg"
     },
     {
       "id": "juliuth-icthus-salad-ancients",

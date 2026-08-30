@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "salads",
     "total_recipes": 143,
-    "generated": "2026-08-30T01:45:07.802948Z",
+    "generated": "2026-08-30T01:53:39.134876Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -527,7 +527,10 @@
         "serving_size": "1 serving",
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variants": [
+        "tuna-nicoise-salad"
+      ]
     },
     {
       "id": "fattoosh",
@@ -4318,7 +4321,8 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "variant_of": "tuna-nicoise-salad-ref"
     },
     {
       "id": "couscous-salad",
@@ -7172,7 +7176,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from salads category"
         ]
-      }
+      },
+      "variants": [
+        "tomato-salad-themetropo"
+      ]
     },
     {
       "id": "peach-salad-carnation",
@@ -7384,7 +7391,10 @@
           "Calculated for 6 servings",
           "Serving size inferred from salads category"
         ]
-      }
+      },
+      "variants": [
+        "cooked-salad-dressing-themetropo"
+      ]
     },
     {
       "id": "potato-salad-harvester",
@@ -7496,7 +7506,11 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "potato-salad-thewingold",
+        "potato-salad-wilsonscoo"
+      ]
     },
     {
       "id": "tuna-fish-salad-harvester",
@@ -7720,7 +7734,10 @@
         "assumptions": [
           "Calculated for 9 servings"
         ]
-      }
+      },
+      "variants": [
+        "frozen-fruit-salad-auntcaroli"
+      ]
     },
     {
       "id": "vegetable-salad-harvester",
@@ -9075,7 +9092,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "hot-chicken-salad"
     },
     {
       "id": "chicken-and-almond-salad-chickenrec",
@@ -9278,7 +9296,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-salad-bhg"
     },
     {
       "id": "chinese-chicken-salad-dressing-chickenrec",
@@ -9859,7 +9878,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "shrimp-salad-scottsnort"
+      ]
     },
     {
       "id": "frozen-fruit-salad-auntcaroli",
@@ -9953,7 +9975,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "frozen-fruit-salad-harvester"
     },
     {
       "id": "dandelion-andscallion-salad-scottsnort",
@@ -10591,7 +10614,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "salads-anddressings-theamerica"
+      ]
     },
     {
       "id": "radish-salad-scottsnort",
@@ -11048,7 +11074,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "shrimp-salad-auntcaroli"
     },
     {
       "id": "salads-scottsnort",
@@ -11582,7 +11609,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "chicken-salad-bhg"
     },
     {
       "id": "russian-salad-dressing-scottsnort",
@@ -11861,7 +11889,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "salads-anddressings-scottsnort"
     },
     {
       "id": "russian-salad-dressing-themetropo",
@@ -11926,9 +11955,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "russian-salad-dressing-scottsnort"
-      ]
+      "variant_of": "russian-salad-dressing-scottsnort"
     },
     {
       "id": "cooked-salad-dressing-themetropo",
@@ -12018,7 +12045,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "cooked-salad-dressing-carnation"
     },
     {
       "id": "coldslaw-dressing-themetropo",
@@ -12236,7 +12264,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "tomato-salad-carnation"
     },
     {
       "id": "fruit-salad-themetropo",
@@ -12308,7 +12337,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "fruit-salad-pudding"
     },
     {
       "id": "waldorf-salad-themetropo",
@@ -12380,7 +12410,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "waldorf-salad-bhg"
     },
     {
       "id": "somesalads-toserve-inwhole-tomatoes-therockymo",
@@ -12827,7 +12858,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-salad-harvester"
     },
     {
       "id": "salmon-salad-thewingold",
@@ -12917,7 +12949,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "salmon-salad-wilsonscoo"
+      ]
     },
     {
       "id": "salmon-orshrimp-salad-thewingold",
@@ -13452,7 +13487,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "fruit-salad-pudding"
     },
     {
       "id": "salmon-salad-wilsonscoo",
@@ -13528,7 +13564,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "salmon-salad-thewingold"
     },
     {
       "id": "olive-salad-wilsonscoo",
@@ -13666,7 +13703,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "potato-salad-harvester"
     },
     {
       "id": "jellied-potato-salad-wilsonscoo",
@@ -13853,7 +13891,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "green-chile-salad-gcb"
     },
     {
       "id": "marinated-garden-salad-chile-bible",
@@ -13954,7 +13993,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "marinated-garden-salad-gcb"
     },
     {
       "id": "piquant-salad-chile-bible",
@@ -14025,7 +14065,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "piquant-salad-gcb"
     },
     {
       "id": "green-chile-cucumber-salad-chile-bible",
@@ -14112,7 +14153,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "green-chile-cucumber-salad-gcb"
     },
     {
       "id": "greek-salad-horiatiki",

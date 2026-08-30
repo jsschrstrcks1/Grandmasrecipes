@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "appetizers",
     "total_recipes": 120,
-    "generated": "2026-08-30T01:45:08.041478Z",
+    "generated": "2026-08-30T01:53:39.379209Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1102,7 +1102,8 @@
           "Inferred 1 for Lawry's seasoning salt (standard quantity)",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "crabbies-fbc"
     },
     {
       "id": "pigs-in-a-blanket-mommom",
@@ -2314,7 +2315,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "cheese-fondue-bhg"
     },
     {
       "id": "creamy-cheese-fondue-bhg",
@@ -2409,7 +2411,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "creamy-cheese-fondue"
+      ]
     },
     {
       "id": "cheese-fondue-bhg",
@@ -2540,7 +2545,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "cheese-fondue-mommom-baker"
+      ]
     },
     {
       "id": "onion-cheese-fondue-bhg",
@@ -2739,7 +2747,8 @@
           "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
           "Based on 5/6 ingredients (83% coverage)"
         ]
-      }
+      },
+      "variant_of": "pepperoni-bites"
     },
     {
       "id": "crunchy-party-mix-bhg",
@@ -2859,7 +2868,8 @@
           "Inferred 0.25 for bottled hot pepper sauce (standard quantity)",
           "Based on 8/9 ingredients (89% coverage)"
         ]
-      }
+      },
+      "variant_of": "crunchy-party-mix"
     },
     {
       "id": "toasted-chili-nuts-bhg",
@@ -2950,7 +2960,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "toasted-chili-nuts"
     },
     {
       "id": "nachos-bhg",
@@ -3060,7 +3071,8 @@
           "Assumed 1 unit for sliced pitted ripe olives",
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "nachos-loaded"
     },
     {
       "id": "italian-style-popcorn-bhg",
@@ -3148,7 +3160,8 @@
           "Inferred 1.0 for grated Parmesan cheese (standard quantity)",
           "Based on 4/5 ingredients (80% coverage)"
         ]
-      }
+      },
+      "variant_of": "italian-style-popcorn"
     },
     {
       "id": "potato-skins-bhg",
@@ -3246,7 +3259,8 @@
           "Inferred 1.0 for sliced green onion (standard quantity)",
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "potato-skins-baked"
     },
     {
       "id": "stuffed-mushrooms-bhg",
@@ -3351,7 +3365,8 @@
           "Inferred 1.0 for shredded cheddar or crumbled blue cheese (standard quantity)",
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "stuffed-mushrooms-cheddar"
     },
     {
       "id": "creamy-dill-dip-bhg",
@@ -3445,7 +3460,10 @@
           "Assumed 1 unit for vegetable dippers, assorted crackers, or chips",
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "creamy-dill-dip"
+      ]
     },
     {
       "id": "chili-con-queso-bhg",
@@ -3551,7 +3569,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chili-con-queso-dip"
     },
     {
       "id": "sour-cream-fruit-dip-bhg",
@@ -3629,7 +3648,8 @@
           "Assumed 1 unit for apple, pear, or peach slices",
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "sour-cream-fruit-dip"
     },
     {
       "id": "hot-cheese-dip-bhg",
@@ -3740,7 +3760,8 @@
           "Assumed 1 unit for French bread cubes or tortilla chips",
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "hot-cheese-dip-beer"
     },
     {
       "id": "guacamole-bhg",
@@ -3852,7 +3873,12 @@
           "Assumed 1 unit for tortilla chips",
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "guacamole-gcb",
+        "guacamole-fbc",
+        "guacamole-classic"
+      ]
     },
     {
       "id": "cheese-and-pesto-spread-bhg",
@@ -3979,7 +4005,8 @@
           "Inferred 2 for olive oil or cooking oil (standard quantity)",
           "Assumed 1 unit for whipping cream"
         ]
-      }
+      },
+      "variant_of": "cheese-and-pesto-spread"
     },
     {
       "id": "cheddar-cheese-ball-bhg",
@@ -4107,7 +4134,10 @@
           "Assumed 1 unit for assorted crackers",
           "Based on 11/11 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "cheddar-cheese-ball"
+      ]
     },
     {
       "id": "feta-cheese-ball-bhg",
@@ -4207,7 +4237,8 @@
           "Assumed 1 unit for assorted crackers",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "feta-cheese-ball"
     },
     {
       "id": "eight-layer-spread-bhg",
@@ -4325,7 +4356,10 @@
           "Assumed 1 unit for tortilla chips or crackers",
           "Based on 10/10 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "eight-layer-spread"
+      ]
     },
     {
       "id": "cream-cheese-stuffed-slices-bhg",
@@ -4429,7 +4463,8 @@
           "Inferred 1 for seasoned salt or salt (standard quantity)",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "cream-cheese-stuffed-slices"
     },
     {
       "id": "shrimp-cucumber-spread-bhg",
@@ -4537,7 +4572,8 @@
           "Assumed 1 unit for melba toast rounds or assorted crackers or bread",
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "shrimp-cucumber-spread"
     },
     {
       "id": "nutty-cheese-spread-bhg",
@@ -4640,7 +4676,10 @@
           "Inferred 1.0 for onion powder (standard quantity)",
           "Inferred 0.5 for celery sticks, apple slices, assorted crackers, or melba toast rounds (standard quantity)"
         ]
-      }
+      },
+      "variants": [
+        "nutty-cheese-spread"
+      ]
     },
     {
       "id": "curried-chicken-spread-bhg",
@@ -4752,7 +4791,10 @@
           "Assumed 1 unit for snipped parsley",
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "curried-chicken-spread"
+      ]
     },
     {
       "id": "avocado-pita-wedges-bhg",
@@ -4853,7 +4895,10 @@
           "Inferred 1 for small tomato (standard quantity)",
           "Based on 6/7 ingredients (86% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "avocado-pita-wedges"
+      ]
     },
     {
       "id": "cocktail-meatballs-bhg",
@@ -4974,7 +5019,8 @@
           "Inferred 1 for pepper (standard quantity)",
           "Assumed 1 unit for Tangy Cranberry Sauce, Dill Sauce, or Polynesian Sauce"
         ]
-      }
+      },
+      "variant_of": "cocktail-meatballs-sauces"
     },
     {
       "id": "sweet-and-sour-franks-bhg",
@@ -5078,7 +5124,8 @@
           "Assumed 1 unit for orange or pineapple juice",
           "Based on 6/8 ingredients (75% coverage)"
         ]
-      }
+      },
+      "variant_of": "sweet-and-sour-franks"
     },
     {
       "id": "mustard-glazed-ribs-bhg",
@@ -5196,7 +5243,8 @@
           "Assumed 1 unit for vinegar",
           "Assumed 1 unit for prepared mustard"
         ]
-      }
+      },
+      "variant_of": "mustard-glazed-ribs"
     },
     {
       "id": "barbecue-style-chicken-wings-bhg",
@@ -5292,7 +5340,8 @@
           "Inferred 1.0 for finely chopped onion (standard quantity)",
           "Based on 6/6 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "barbecue-style-chicken-wings"
     },
     {
       "id": "rumaki-bhg",
@@ -5409,7 +5458,8 @@
           "Assumed 1 unit for ground ginger",
           "Assumed 1 unit for sliced water chestnuts"
         ]
-      }
+      },
+      "variant_of": "rumaki"
     },
     {
       "id": "cheese-twists-bhg",
@@ -5528,7 +5578,8 @@
           "Inferred 2 for margarine or butter (standard quantity)",
           "Based on 8/9 ingredients (89% coverage)"
         ]
-      }
+      },
+      "variant_of": "cheese-twists-savory"
     },
     {
       "id": "pastry-wrapped-olives-bhg",
@@ -5610,7 +5661,8 @@
           "Inferred 0.25 for ground red pepper (standard quantity)",
           "Based on 3/4 ingredients (75% coverage)"
         ]
-      }
+      },
+      "variant_of": "pastry-wrapped-olives"
     },
     {
       "id": "egg-rolls-bhg",
@@ -5708,7 +5760,8 @@
           "Assumed 1 unit for Oriental-Style Mustard Sauce",
           "Based on 4/5 ingredients (80% coverage)"
         ]
-      }
+      },
+      "variant_of": "egg-rolls-crispy"
     },
     {
       "id": "wontons-bhg",
@@ -5803,7 +5856,8 @@
           "Assumed 1 unit for Oriental-Style Mustard Sauce",
           "Based on 3/5 ingredients (60% coverage)"
         ]
-      }
+      },
+      "variant_of": "wontons-fried"
     },
     {
       "id": "crab-filling-bhg",
@@ -6315,7 +6369,8 @@
           "Inferred 2 for margarine or butter (standard quantity)",
           "Based on 6/7 ingredients (86% coverage)"
         ]
-      }
+      },
+      "variant_of": "spinach-phyllo-triangles"
     },
     {
       "id": "oysters-rockefeller-bhg",
@@ -6440,7 +6495,8 @@
           "Inferred 1 for rock salt (standard quantity)",
           "Based on 9/9 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "oysters-rockefeller"
     },
     {
       "id": "salmon-mousse-bhg",
@@ -6576,7 +6632,8 @@
           "Assumed 1 unit for lettuce leaves",
           "Assumed 1 unit for assorted crackers"
         ]
-      }
+      },
+      "variant_of": "salmon-mousse"
     },
     {
       "id": "shrimp-cocktail-bhg",
@@ -6656,7 +6713,8 @@
           "Assumed 1 unit for lemon wedges",
           "Based on 4/4 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "shrimp-cocktail-classic"
     },
     {
       "id": "codfish-balls-bhg",
@@ -6766,7 +6824,8 @@
           "Inferred 2 for shortening or cooking oil (standard quantity)",
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "codfish-balls"
     },
     {
       "id": "batter-fried-vegetables-bhg",
@@ -6867,7 +6926,8 @@
           "Inferred 2 for shortening or cooking oil (standard quantity)",
           "Based on 5/6 ingredients (83% coverage)"
         ]
-      }
+      },
+      "variant_of": "batter-fried-vegetables"
     },
     {
       "id": "fried-cheese-bhg",
@@ -6967,7 +7027,10 @@
           "Assumed 1 unit for taco sauce",
           "Based on 5/6 ingredients (83% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "fried-cheese-sticks"
+      ]
     },
     {
       "id": "stuffed-cherry-tomatoes-bhg",
@@ -7066,7 +7129,10 @@
           "Inferred 2 for garlic powder (standard quantity)",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "stuffed-cherry-tomatoes"
+      ]
     },
     {
       "id": "chicken-liver-pate-bhg",
@@ -7186,7 +7252,8 @@
           "Inferred 1 for pepper (standard quantity)",
           "Assumed 1 unit for assorted crackers"
         ]
-      }
+      },
+      "variant_of": "chicken-liver-pate"
     },
     {
       "id": "marinated-cheese-and-olives-bhg",
@@ -7298,7 +7365,8 @@
           "Inferred 1 for pepper (standard quantity)",
           "Based on 7/8 ingredients (88% coverage)"
         ]
-      }
+      },
+      "variant_of": "marinated-cheese-and-olives"
     },
     {
       "id": "lemon-and-herb-mushrooms-bhg",
@@ -7421,7 +7489,10 @@
           "Assumed 1 unit for dried oregano",
           "Assumed 1 unit for dried thyme"
         ]
-      }
+      },
+      "variants": [
+        "lemon-and-herb-mushrooms"
+      ]
     },
     {
       "id": "melon-and-prosciutto-bhg",
@@ -7487,7 +7558,8 @@
         "assumptions": [
           "Based on 2/2 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "melon-and-prosciutto"
     },
     {
       "id": "tomato-ice-gcb",
@@ -7796,7 +7868,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "guacamole-bhg"
     },
     {
       "id": "chicken-livered-cheese-n-chile-puffs-gcb",
@@ -8357,7 +8430,10 @@
         "assumptions": [
           "Calculated for 13 servings"
         ]
-      }
+      },
+      "variants": [
+        "picante-dip"
+      ]
     },
     {
       "id": "green-chile-dip-gcb",
@@ -8430,7 +8506,10 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "green-chile-dip"
+      ]
     },
     {
       "id": "avocado-dip-gcb",
@@ -8521,7 +8600,10 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "avocado-dip-chile"
+      ]
     },
     {
       "id": "blended-chile-avocado-dip-gcb",
@@ -9149,7 +9231,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "chile-cheese-squares-chile-bible"
+      ]
     },
     {
       "id": "chil-e-ums-gcb",
@@ -9234,7 +9319,10 @@
         "assumptions": [
           "Calculated for 48 servings"
         ]
-      }
+      },
+      "variants": [
+        "chil-e-ums-chile-bible"
+      ]
     },
     {
       "id": "chile-izzas-gcb",
@@ -9333,7 +9421,10 @@
         "assumptions": [
           "Calculated for 80 servings"
         ]
-      }
+      },
+      "variants": [
+        "chile-izzas"
+      ]
     },
     {
       "id": "perritos-verdes-gcb",
@@ -9407,7 +9498,8 @@
         "assumptions": [
           "Calculated for 7 servings"
         ]
-      }
+      },
+      "variant_of": "perritos-verdes"
     },
     {
       "id": "king-samuels-stuffed-eggs-cwa",
@@ -9846,7 +9938,11 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "conch-fritters-bahamian-fbc",
+        "conch-fritters-bahamian-style"
+      ]
     },
     {
       "id": "broccoli-cheddar-rolls-fbc",
@@ -9959,7 +10055,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "broccoli-cheddar-rolls-fbc-jasmine"
+      ]
     },
     {
       "id": "stuffed-artichoke-bottoms-fbc",
@@ -10278,7 +10377,10 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "cheese-bowl-cottage-cheese"
+      ]
     },
     {
       "id": "crabbies-fbc",
@@ -10376,7 +10478,10 @@
         "assumptions": [
           "Calculated for 10 servings"
         ]
-      }
+      },
+      "variants": [
+        "crabbies"
+      ]
     },
     {
       "id": "braunschweiger-ball-fbc",
@@ -10548,7 +10653,8 @@
         "assumptions": [
           "Calculated for 14 servings"
         ]
-      }
+      },
+      "variant_of": "spinach-balls"
     },
     {
       "id": "guacamole-fbc",
@@ -10643,7 +10749,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "guacamole-bhg"
     },
     {
       "id": "homemade-salami-fbc",
@@ -12166,7 +12273,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "conch-fritters-bahamian-style-jasmine"
     },
     {
       "id": "benedictine-sandwich-fbc-jasmine",

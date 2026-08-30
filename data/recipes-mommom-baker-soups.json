@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "soups",
     "total_recipes": 61,
-    "generated": "2026-08-30T01:45:08.301850Z",
+    "generated": "2026-08-30T01:53:39.647100Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -105,7 +105,8 @@
           "Estimated 6 servings based on total calories",
           "Based on 7/7 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "cabbage-soup-with-variations"
     },
     {
       "id": "carrot-soup-mommom",
@@ -1262,7 +1263,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "french-onion-soup-maltby"
     },
     {
       "id": "hamburger-soup-mommom",
@@ -2300,7 +2302,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "beef-stew-dutchovenc"
+      ]
     },
     {
       "id": "beef-broth-bhg",
@@ -3335,7 +3340,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "black-bean-soup-slow-cooker"
+      ]
     },
     {
       "id": "split-pea-soup-bhg",
@@ -3418,7 +3426,12 @@
         "assumptions": [
           "Based on 8/8 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variants": [
+        "split-pea-soup",
+        "split-pea-soup-gutenberg",
+        "split-peasoup-themetropo"
+      ]
     },
     {
       "id": "minestrone-bhg",
@@ -3985,7 +3998,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "corn-chowder-gutenberg",
+        "corn-chowder-carnation"
+      ]
     },
     {
       "id": "cream-of-vegetable-soup-bhg",
@@ -4200,7 +4217,10 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variants": [
+        "southwestern-corn-chowder-chile-bible"
+      ]
     },
     {
       "id": "traditional-gazpacho-gcb",
@@ -4319,7 +4339,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "traditional-gazpacho-chile-bible"
+      ]
     },
     {
       "id": "foxfire2-dock-soup",

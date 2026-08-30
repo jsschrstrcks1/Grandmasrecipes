@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "main dishes",
     "total_recipes": 51,
-    "generated": "2026-08-30T01:45:08.192296Z",
+    "generated": "2026-08-30T01:53:39.534459Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -2447,7 +2447,8 @@
         "assumptions": [
           "Calculated for 11 servings"
         ]
-      }
+      },
+      "variant_of": "foxfire-brunswick-stew"
     },
     {
       "id": "wild-hog-bbq-pulled-pork-hf",

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "basics",
     "total_recipes": 7,
-    "generated": "2026-08-30T01:45:08.054738Z",
+    "generated": "2026-08-30T01:53:39.392556Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -100,7 +100,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "cream-cheese-frosting-bhg"
+      ]
     },
     {
       "id": "butter-frosting",
@@ -206,7 +209,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "butter-frosting-bhg"
+      ]
     },
     {
       "id": "coconut-pecan-frosting",
@@ -314,7 +320,10 @@
         "assumptions": [
           "Calculated for 13 servings"
         ]
-      }
+      },
+      "variants": [
+        "coconut-pecan-frosting-bhg"
+      ]
     },
     {
       "id": "lemon-filling",
@@ -429,7 +438,10 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variants": [
+        "lemon-filling-bhg"
+      ]
     },
     {
       "id": "cherry-filling",

@@ -31,6 +31,30 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Variant linking, phase 2 (syl)
+
+**Asked:** Link same-dish recipes to a canonical primary (variants keep both, tabs later),
+per operator law 990f37e1.
+
+**Weighed:** This store had prior variant work: 322 records listing variants, 41 with
+variant_of — including 161 MUTUAL pairs (each lists the other, no direction), which would
+have minted 2-cycles under naive repair; the linker now normalizes a mutual pair to one
+scored canonical, follows existing variant_of chains to their root before electing, and
+never claims a member that already belongs to a different family (2 cheese-family chains
+left alone and reported). Clusters = identical normalized title; canonical election:
+family collections (mommom-baker/grandma-baker/granny-hudson) first, then completeness,
+then named source. Different-title same-dish pairs deliberately not auto-linked.
+
+**Decided:** 161 mutual claims normalized; 840 clusters linked (1077 variant_of + 1115
+variants entries, additive-only); 3 pre-existing dangling refs repaired (one empty-string
+variant_of, two variants entries naming ids absent from the store). Integrity after: 0
+cycles (deep chain walk), 0 broken refs, 0 one-directional links. Full link report in
+admin/VARIANTS-LINKED.json; shards + index rebuilt; validate exit 0.
+
+**Unsure:** Mechanical canonical election may not always match family preference — the
+report lists every cluster so re-election is a one-field edit. The two reported cheese
+conflicts are prior families whose titles overlap newer clusters; left for a human eye.
+
 ## 2026-08-30 — Exact-duplicate removal, phase 1 (syl)
 
 **Asked:** Operator campaign: duplicates are forbidden, variants are OK (one recipe, tabs

@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "candy",
     "total_recipes": 45,
-    "generated": "2026-08-30T01:45:08.113233Z",
+    "generated": "2026-08-30T01:53:39.453458Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -85,7 +85,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "opera-fudge-bhg"
     },
     {
       "id": "old-time-fudge",
@@ -173,7 +174,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "old-time-fudge-bhg"
     },
     {
       "id": "remarkable-fudge",
@@ -253,7 +255,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "remarkable-fudge-bhg"
     },
     {
       "id": "caramels",
@@ -328,7 +331,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "caramels-bhg"
     },
     {
       "id": "caramel-apples",
@@ -383,7 +387,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "caramel-apples-bhg"
     },
     {
       "id": "nut-brittle",
@@ -449,7 +454,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "nut-brittle-bhg"
     },
     {
       "id": "toffee-butter-crunch",
@@ -526,7 +532,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "toffee-butter-crunch-bhg"
     },
     {
       "id": "glazed-nuts",
@@ -588,7 +595,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "glazed-nuts-bhg"
     },
     {
       "id": "caramel-corn",
@@ -670,7 +678,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "caramel-corn-classic"
     },
     {
       "id": "chocolate-covered-cherries",
@@ -741,7 +750,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-covered-cherries-bhg"
     },
     {
       "id": "chocolate-dipped-fruit",
@@ -793,7 +803,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-dipped-fruit-bhg"
     },
     {
       "id": "fondant",
@@ -847,7 +858,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fondant-bhg"
     },
     {
       "id": "truffles",
@@ -933,7 +945,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "truffles-bhg"
     },
     {
       "id": "peanut-butter-balls",
@@ -995,7 +1008,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "peanut-butter-balls-bhg"
     },
     {
       "id": "peanut-clusters",
@@ -1056,7 +1070,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "peanut-clusters-bhg"
     },
     {
       "id": "caramel-snappers",
@@ -1130,7 +1145,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "caramel-snappers-bhg"
     },
     {
       "id": "cream-cheese-mints",
@@ -1203,7 +1219,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "cream-cheese-mints-bhg"
     },
     {
       "id": "peters-peanut-brittle",
@@ -1347,7 +1364,8 @@
           "Estimated 8 servings based on total calories",
           "Based on 5/5 ingredients (100% coverage)"
         ]
-      }
+      },
+      "variant_of": "peanut-butter-fudge-bhg"
     },
     {
       "id": "penuche",
@@ -1425,7 +1443,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "penuche-candy-bhg"
     },
     {
       "id": "rocky-road",
@@ -1487,7 +1506,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "rocky-road-candy-bhg"
     },
     {
       "id": "chocolate-fudge-bhg",
@@ -1588,7 +1608,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-fudge-classic"
     },
     {
       "id": "candy-apples-bhg",
@@ -1688,7 +1709,8 @@
           "Assumed 1 unit for light corn syrup",
           "Based on 5/7 ingredients (71% coverage)"
         ]
-      }
+      },
+      "variant_of": "candy-apples-classic"
     },
     {
       "id": "opera-fudge-bhg",
@@ -1789,7 +1811,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "opera-fudge"
+      ]
     },
     {
       "id": "old-time-fudge-bhg",
@@ -1902,7 +1927,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "old-time-fudge"
+      ]
     },
     {
       "id": "remarkable-fudge-bhg",
@@ -2004,7 +2032,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "remarkable-fudge"
+      ]
     },
     {
       "id": "penuche-candy-bhg",
@@ -2108,7 +2139,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "penuche",
+        "penuche-candy"
+      ]
     },
     {
       "id": "caramels-bhg",
@@ -2207,7 +2242,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "caramels"
+      ]
     },
     {
       "id": "caramel-apples-bhg",
@@ -2287,7 +2325,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "caramel-apples"
+      ]
     },
     {
       "id": "saltwater-taffy-bhg",
@@ -2380,7 +2421,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "saltwater-taffy"
     },
     {
       "id": "pralines-bhg",
@@ -2472,7 +2514,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "pralines"
     },
     {
       "id": "divinity-bhg",
@@ -2582,7 +2625,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "divinity"
     },
     {
       "id": "nut-brittle-bhg",
@@ -2675,7 +2719,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "nut-brittle"
+      ]
     },
     {
       "id": "toffee-butter-crunch-bhg",
@@ -2782,7 +2829,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "toffee-butter-crunch"
+      ]
     },
     {
       "id": "glazed-nuts-bhg",
@@ -2867,7 +2917,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "glazed-nuts"
+      ]
     },
     {
       "id": "caramel-corn-bhg",
@@ -2975,7 +3028,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "caramel-corn-classic"
     },
     {
       "id": "chocolate-covered-cherries-bhg",
@@ -3069,7 +3123,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "chocolate-covered-cherries"
+      ]
     },
     {
       "id": "chocolate-dipped-fruit-bhg",
@@ -3144,7 +3201,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "chocolate-dipped-fruit"
+      ]
     },
     {
       "id": "fondant-bhg",
@@ -3225,7 +3285,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "fondant"
+      ]
     },
     {
       "id": "truffles-bhg",
@@ -3345,7 +3408,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "truffles"
+      ]
     },
     {
       "id": "peanut-butter-balls-bhg",
@@ -3427,7 +3493,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "peanut-butter-balls"
+      ]
     },
     {
       "id": "peanut-clusters-bhg",
@@ -3507,7 +3576,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "peanut-clusters"
+      ]
     },
     {
       "id": "caramel-snappers-bhg",
@@ -3609,7 +3681,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "caramel-snappers"
+      ]
     },
     {
       "id": "rocky-road-candy-bhg",
@@ -3690,7 +3765,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "rocky-road",
+        "rocky-road-candy"
+      ]
     },
     {
       "id": "cream-cheese-mints-bhg",
@@ -3786,7 +3865,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "cream-cheese-mints"
+      ]
     }
   ]
 }

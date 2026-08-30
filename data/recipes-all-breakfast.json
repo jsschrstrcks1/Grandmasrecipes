@@ -3,7 +3,7 @@
     "collection": "all",
     "category": "breakfast",
     "total_recipes": 345,
-    "generated": "2026-08-30T01:45:07.276319Z",
+    "generated": "2026-08-30T01:53:38.598703Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -342,7 +342,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "whole-grain-pancakes-blueberry-sauce"
     },
     {
       "id": "german-pancakes-ref",
@@ -611,9 +612,7 @@
           "Calculated for 12 servings"
         ]
       },
-      "variants": [
-        "two-berry-pancakes"
-      ]
+      "variant_of": "two-berry-pancakes"
     },
     {
       "id": "oven-apple-pancakes-ref",
@@ -857,9 +856,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "waffles-strawberries-whip-cream"
-      ]
+      "variant_of": "waffles-strawberries-whip-cream"
     },
     {
       "id": "yeast-waffles-ref",
@@ -962,9 +959,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "yeast-waffles"
-      ]
+      "variant_of": "yeast-waffles"
     },
     {
       "id": "maple-walnut-waffles-ref",
@@ -1069,9 +1064,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "maple-walnut-waffles"
-      ]
+      "variant_of": "maple-walnut-waffles"
     },
     {
       "id": "apple-cinnamon-waffles-ref",
@@ -1188,9 +1181,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "apple-cinnamon-waffles"
-      ]
+      "variant_of": "apple-cinnamon-waffles"
     },
     {
       "id": "traditional-crepes-ref",
@@ -1300,9 +1291,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "traditional-crepes"
-      ]
+      "variant_of": "traditional-crepes"
     },
     {
       "id": "vanilla-crepes-ref",
@@ -1403,9 +1392,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "vanilla-crepes"
-      ]
+      "variant_of": "vanilla-crepes"
     },
     {
       "id": "strawberry-crepes-ref",
@@ -1536,9 +1523,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "strawberry-crepes"
-      ]
+      "variant_of": "strawberry-crepes"
     },
     {
       "id": "banana-crepes-ref",
@@ -1661,9 +1646,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "banana-crepes"
-      ]
+      "variant_of": "banana-crepes"
     },
     {
       "id": "raspberry-crepes-ref",
@@ -1782,9 +1765,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "raspberry-crepes"
-      ]
+      "variant_of": "raspberry-crepes"
     },
     {
       "id": "blueberry-crepes-ref",
@@ -1909,9 +1890,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "blueberry-crepes"
-      ]
+      "variant_of": "blueberry-crepes"
     },
     {
       "id": "egg-white-crepes-ref",
@@ -2003,9 +1982,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "egg-white-crepes"
-      ]
+      "variant_of": "egg-white-crepes"
     },
     {
       "id": "chocolate-hazelnut-crepes-ref",
@@ -2115,9 +2092,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "chocolate-hazelnut-crepes"
-      ]
+      "variant_of": "chocolate-hazelnut-crepes"
     },
     {
       "id": "vegan-crepes-ref",
@@ -2224,9 +2199,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "vegan-crepes"
-      ]
+      "variant_of": "vegan-crepes"
     },
     {
       "id": "chocolate-crepes-ref",
@@ -2326,9 +2299,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "chocolate-crepes"
-      ]
+      "variant_of": "chocolate-crepes"
     },
     {
       "id": "western-omelet-ref",
@@ -2428,9 +2399,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "western-omelet"
-      ]
+      "variant_of": "western-omelet"
     },
     {
       "id": "asparagus-omelet-ref",
@@ -2533,9 +2502,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "asparagus-omelet"
-      ]
+      "variant_of": "asparagus-omelet"
     },
     {
       "id": "vegetable-omelet-ref",
@@ -2644,9 +2611,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "vegetable-omelet"
-      ]
+      "variant_of": "vegetable-omelet"
     },
     {
       "id": "eggs-florentine-ref",
@@ -2764,9 +2729,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "eggs-florentine"
-      ]
+      "variant_of": "eggs-florentine"
     },
     {
       "id": "breakfast-in-a-skillet-ref",
@@ -2860,9 +2823,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "breakfast-in-a-skillet"
-      ]
+      "variant_of": "breakfast-in-a-skillet"
     },
     {
       "id": "egg-croquettes-ref",
@@ -2984,9 +2945,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "egg-croquettes"
-      ]
+      "variant_of": "egg-croquettes"
     },
     {
       "id": "croque-madame-ref",
@@ -3119,9 +3078,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "croque-madame"
-      ]
+      "variant_of": "croque-madame"
     },
     {
       "id": "eggs-and-spinach-ref",
@@ -3235,9 +3192,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "eggs-and-spinach"
-      ]
+      "variant_of": "eggs-and-spinach"
     },
     {
       "id": "baked-eggs-ref",
@@ -3366,9 +3321,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "baked-eggs-ramekins"
-      ]
+      "variant_of": "baked-eggs-ramekins"
     },
     {
       "id": "kale-swiss-cheese-omelette-ref",
@@ -3472,9 +3425,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "kale-swiss-cheese-omelette"
-      ]
+      "variant_of": "kale-swiss-cheese-omelette"
     },
     {
       "id": "apple-pancakes-ref",
@@ -3592,9 +3543,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "apple-pancakes"
-      ]
+      "variant_of": "apple-pancakes"
     },
     {
       "id": "almond-pancakes-ref",
@@ -3702,9 +3651,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "almond-pancakes"
-      ]
+      "variant_of": "almond-pancakes"
     },
     {
       "id": "belgian-waffles-ref",
@@ -3824,9 +3771,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "belgian-waffles"
-      ]
+      "variant_of": "belgian-waffles"
     },
     {
       "id": "quiche-ref",
@@ -3936,9 +3881,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "quiche-basic"
-      ]
+      "variant_of": "quiche-basic"
     },
     {
       "id": "filled-crepes-ref",
@@ -4063,9 +4006,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "filled-crepes"
-      ]
+      "variant_of": "filled-crepes"
     },
     {
       "id": "cheese-souffle-ref",
@@ -4201,9 +4142,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "cheese-souffle"
-      ]
+      "variant_of": "cheese-souffle-all"
     },
     {
       "id": "ham-cheese-souffle-ref",
@@ -4352,9 +4291,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "ham-and-cheese-souffle"
-      ]
+      "variant_of": "ham-and-cheese-souffle"
     },
     {
       "id": "crab-souffle-ref",
@@ -4465,9 +4402,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "crab-souffle"
-      ]
+      "variant_of": "crab-souffle"
     },
     {
       "id": "french-toast-souffle-ref",
@@ -4600,9 +4535,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "french-toast-souffle"
-      ]
+      "variant_of": "french-toast-souffle"
     },
     {
       "id": "breakfast-enchiladas-ref",
@@ -4695,7 +4628,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "breakfast-enchiladas"
     },
     {
       "id": "breakfast-frittata-ref",
@@ -4801,9 +4735,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "breakfast-frittata"
-      ]
+      "variant_of": "breakfast-frittata"
     },
     {
       "id": "breakfast-enchiladas-full-ref",
@@ -4933,9 +4865,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "breakfast-enchiladas"
-      ]
+      "variant_of": "breakfast-enchiladas"
     },
     {
       "id": "hash-brown-casserole-ref",
@@ -5037,9 +4967,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "hash-brown-casserole"
-      ]
+      "variant_of": "hash-brown-casserole"
     },
     {
       "id": "apple-breakfast-bars-ref",
@@ -5156,9 +5084,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "apple-breakfast-bars"
-      ]
+      "variant_of": "apple-breakfast-bars"
     },
     {
       "id": "breakfast-panini-sandwich-ref",
@@ -5258,9 +5184,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "breakfast-panini-sandwich"
-      ]
+      "variant_of": "breakfast-panini-sandwich"
     },
     {
       "id": "blueberry-breakfast-crescents-ref",
@@ -5346,9 +5270,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "blueberry-breakfast-crescents"
-      ]
+      "variant_of": "blueberry-breakfast-crescents"
     },
     {
       "id": "breakfast-bruschetta-ref",
@@ -5479,9 +5401,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "breakfast-bruschetta"
-      ]
+      "variant_of": "breakfast-bruschetta"
     },
     {
       "id": "spinach-cheese-wraps-ref",
@@ -5572,9 +5492,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "spinach-cheese-wraps"
-      ]
+      "variant_of": "spinach-cheese-wraps"
     },
     {
       "id": "au-gratin-potato-muffins-ref",
@@ -5668,9 +5586,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "au-gratin-potato-muffins"
-      ]
+      "variant_of": "au-gratin-potato-muffins"
     },
     {
       "id": "pancake-fruit-kabobs-ref",
@@ -5797,9 +5713,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "pancake-fruit-kabobs"
-      ]
+      "variant_of": "pancake-fruit-kabobs"
     },
     {
       "id": "bacon-egg-cups-ref",
@@ -5901,9 +5815,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "bacon-egg-cups"
-      ]
+      "variant_of": "bacon-egg-cups"
     },
     {
       "id": "cheesy-scrambled-eggs-herbs-ref",
@@ -5993,9 +5905,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "cheesy-scrambled-eggs-with-herbs"
-      ]
+      "variant_of": "cheesy-scrambled-eggs-with-herbs"
     },
     {
       "id": "egg-in-a-hole-ref",
@@ -6073,9 +5983,7 @@
           "Calculated for 2 servings"
         ]
       },
-      "variants": [
-        "egg-in-a-hole"
-      ]
+      "variant_of": "egg-in-a-hole"
     },
     {
       "id": "filipino-style-omelet-ref",
@@ -6165,9 +6073,7 @@
           "Calculated for 3 servings"
         ]
       },
-      "variants": [
-        "filipino-style-omelet"
-      ]
+      "variant_of": "filipino-style-omelet"
     },
     {
       "id": "fluffy-creamy-eggs-ref",
@@ -6241,9 +6147,7 @@
           "Calculated for 3 servings"
         ]
       },
-      "variants": [
-        "fluffy-creamy-eggs"
-      ]
+      "variant_of": "fluffy-creamy-eggs"
     },
     {
       "id": "scrambled-eggs-italiana-ref",
@@ -6357,9 +6261,7 @@
           "Calculated for 3 servings"
         ]
       },
-      "variants": [
-        "scrambled-eggs-italiana-on-toast"
-      ]
+      "variant_of": "scrambled-eggs-italiana-on-toast"
     },
     {
       "id": "sweet-ham-omelet-ref",
@@ -6452,9 +6354,7 @@
           "Calculated for 2 servings"
         ]
       },
-      "variants": [
-        "sweet-ham-omelet"
-      ]
+      "variant_of": "sweet-ham-omelet"
     },
     {
       "id": "overnight-egg-sausage-bake-ref",
@@ -6588,9 +6488,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "overnight-egg-sausage-bake"
-      ]
+      "variant_of": "overnight-egg-sausage-bake"
     },
     {
       "id": "bacon-egg-cupcakes-ref",
@@ -6703,9 +6601,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "bacon-egg-cupcakes"
-      ]
+      "variant_of": "bacon-egg-cupcakes"
     },
     {
       "id": "apple-pie-french-toast-ref",
@@ -6831,9 +6727,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "apple-pie-french-toast"
-      ]
+      "variant_of": "apple-pie-french-toast"
     },
     {
       "id": "buttermilk-breakfast-waffles-ref",
@@ -6947,9 +6841,7 @@
           "Calculated for 6 servings"
         ]
       },
-      "variants": [
-        "buttermilk-breakfast-waffles"
-      ]
+      "variant_of": "buttermilk-breakfast-waffles"
     },
     {
       "id": "creamy-cheesy-french-toasts-ref",
@@ -7050,9 +6942,7 @@
           "Calculated for 5 servings"
         ]
       },
-      "variants": [
-        "creamy-cheesy-french-toasts"
-      ]
+      "variant_of": "creamy-cheesy-french-toasts"
     },
     {
       "id": "apple-bacon-cheese-muffin-sandwiches-ref",
@@ -7135,9 +7025,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "apple-bacon-cheese-muffin-sandwiches"
-      ]
+      "variant_of": "apple-bacon-cheese-muffin-sandwiches"
     },
     {
       "id": "basic-hash-browns-ref",
@@ -7210,9 +7098,7 @@
           "Calculated for 8 servings"
         ]
       },
-      "variants": [
-        "basic-hash-browns"
-      ]
+      "variant_of": "basic-hash-browns"
     },
     {
       "id": "breakfast-oat-brulee-ref",
@@ -7397,9 +7283,7 @@
           "Calculated for 2 servings"
         ]
       },
-      "variants": [
-        "breakfast-sandwich-summer-fruits"
-      ]
+      "variant_of": "breakfast-sandwich-summer-fruits"
     },
     {
       "id": "cheesy-mushroom-egg-sandwiches-ref",
@@ -7479,9 +7363,7 @@
           "Calculated for 2 servings"
         ]
       },
-      "variants": [
-        "cheesy-mushroom-egg-sandwiches"
-      ]
+      "variant_of": "cheesy-mushroom-egg-sandwiches"
     },
     {
       "id": "creamy-banana-cereal-ref",
@@ -7568,9 +7450,7 @@
           "Calculated for 8 servings"
         ]
       },
-      "variants": [
-        "creamy-banana-cereal"
-      ]
+      "variant_of": "creamy-banana-cereal"
     },
     {
       "id": "english-crumpets-ref",
@@ -7680,9 +7560,7 @@
           "Calculated for 10 servings"
         ]
       },
-      "variants": [
-        "english-crumpets"
-      ]
+      "variant_of": "english-crumpets"
     },
     {
       "id": "fruity-breakfast-sandwich-ref",
@@ -7784,9 +7662,7 @@
           "Calculated for 3 servings"
         ]
       },
-      "variants": [
-        "fruity-breakfast-sandwich"
-      ]
+      "variant_of": "fruity-breakfast-sandwich"
     },
     {
       "id": "fruity-breakfast-sundae-ref",
@@ -7860,9 +7736,7 @@
           "Calculated for 2 servings"
         ]
       },
-      "variants": [
-        "fruity-breakfast-sundae"
-      ]
+      "variant_of": "fruity-breakfast-sundae"
     },
     {
       "id": "grilled-fruity-croissant-sandwich-ref",
@@ -7942,9 +7816,7 @@
           "Calculated for 2 servings"
         ]
       },
-      "variants": [
-        "grilled-fruity-croissant-sandwich"
-      ]
+      "variant_of": "grilled-fruity-croissant-sandwich"
     },
     {
       "id": "hungarian-sausage-breakfast-wraps-ref",
@@ -8044,9 +7916,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "hungarian-sausage-breakfast-wraps"
-      ]
+      "variant_of": "hungarian-sausage-breakfast-wraps"
     },
     {
       "id": "pita-breakfast-pizza-ref",
@@ -8123,9 +7993,7 @@
           "Calculated for 4 servings"
         ]
       },
-      "variants": [
-        "pita-breakfast-pizza"
-      ]
+      "variant_of": "pita-breakfast-pizza"
     },
     {
       "id": "triple-threat-berry-muffins-ref",
@@ -8249,9 +8117,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "triple-threat-berry-muffins"
-      ]
+      "variant_of": "triple-threat-berry-muffins"
     },
     {
       "id": "ginger-lemon-muffins-ref",
@@ -8368,9 +8234,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "ginger-lemon-muffins"
-      ]
+      "variant_of": "ginger-lemon-muffins"
     },
     {
       "id": "apple-cranberry-muffins-ref",
@@ -8492,9 +8356,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "apple-cranberry-muffins"
-      ]
+      "variant_of": "apple-cranberry-muffins"
     },
     {
       "id": "cherry-chocolate-muffins-ref",
@@ -8616,9 +8478,7 @@
           "Default serving size assumed (4)"
         ]
       },
-      "variants": [
-        "cherry-chocolate-muffins"
-      ]
+      "variant_of": "cherry-chocolate-muffins"
     },
     {
       "id": "candy-cane-muffins-ref",
@@ -8736,9 +8596,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "candy-cane-muffins"
-      ]
+      "variant_of": "candy-cane-muffins"
     },
     {
       "id": "maple-bacon-muffins-ref",
@@ -8856,9 +8714,7 @@
           "Serving size inferred from breakfast category"
         ]
       },
-      "variants": [
-        "maple-bacon-muffins"
-      ]
+      "variant_of": "maple-bacon-muffins"
     },
     {
       "id": "traditional-blueberry-muffins-ref",
@@ -8976,9 +8832,7 @@
           "1 cup fresh blueberries"
         ]
       },
-      "variants": [
-        "traditional-blueberry-muffins"
-      ]
+      "variant_of": "traditional-blueberry-muffins"
     },
     {
       "id": "banana-nut-breakfast-muffins-ref",
@@ -9103,9 +8957,7 @@
           "1/2 cup chopped walnuts"
         ]
       },
-      "variants": [
-        "banana-nut-breakfast-muffins"
-      ]
+      "variant_of": "banana-nut-breakfast-muffins"
     },
     {
       "id": "morning-start-blueberry-oatmeal-muffins-ref",
@@ -9228,7 +9080,8 @@
           "1 cup rolled oats",
           "1 cup fresh blueberries"
         ]
-      }
+      },
+      "variant_of": "morning-start-blueberry-oatmeal-muffins"
     },
     {
       "id": "pumpkin-muffins-ref",
@@ -9809,7 +9662,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "lemon-poppy-seed-muffins-granny"
     },
     {
       "id": "cranberry-orange-muffins-ref",
@@ -10637,7 +10491,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "applesauce-muffins"
     },
     {
       "id": "pineapple-muffins-ref",
@@ -10975,7 +10830,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "oatmeal-muffins-buttermilk"
     },
     {
       "id": "bran-muffins-ref",
@@ -11083,7 +10939,8 @@
           "Calculated for 4 servings",
           "Default serving size assumed (4)"
         ]
-      }
+      },
+      "variant_of": "bran-muffins-gutenberg"
     },
     {
       "id": "spiced-fruit-nut-granola-truvia",
@@ -12159,7 +12016,8 @@
           }
         ],
         "temperature_c": ""
-      }
+      },
+      "variant_of": "pancakes"
     },
     {
       "id": "breakfast-burrito-omelet",
@@ -12417,7 +12275,10 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variants": [
+        "whole-grain-pancakes-blueberry-sauce-ref"
+      ]
     },
     {
       "id": "buckwheat-pancakes",
@@ -12522,7 +12383,8 @@
         "assumptions": [
           "Calculated for 12 servings"
         ]
-      }
+      },
+      "variant_of": "buckwheat-pancakes-arrowhead"
     },
     {
       "id": "chocolate-chip-pancakes-ref",
@@ -18581,7 +18443,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "eggs-benedict-bhg"
     },
     {
       "id": "eggs-florentine",
@@ -18967,7 +18830,8 @@
         ]
       },
       "variants": [
-        "egg-croquettes-ref"
+        "egg-croquettes-ref",
+        "egg-croquettes-gutenberg-6429"
       ]
     },
     {
@@ -19408,7 +19272,8 @@
         "assumptions": [
           "Calculated for 6 servings"
         ]
-      }
+      },
+      "variant_of": "huevos-rancheros-bhg"
     },
     {
       "id": "texas-eggs",
@@ -19654,7 +19519,9 @@
         ]
       },
       "variants": [
-        "baked-eggs-ref"
+        "baked-eggs-ref",
+        "baked-eggs",
+        "baked-eggs-bhg"
       ]
     },
     {
@@ -22058,7 +21925,8 @@
         ]
       },
       "variants": [
-        "breakfast-enchiladas-full-ref"
+        "breakfast-enchiladas-full-ref",
+        "breakfast-enchiladas-ref"
       ]
     },
     {
@@ -32254,7 +32122,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scalloped-eggs-fbc-jasmine"
     },
     {
       "id": "japanese-hard-eggs-gutenberg-6429",
@@ -33001,7 +32870,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "egg-croquettes"
     },
     {
       "id": "scrambled-eggs-with-shrimps-gutenberg-6429",
@@ -33887,7 +33757,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from breakfast category"
         ]
-      }
+      },
+      "variant_of": "egg-nog-a-friend-specialties"
     },
     {
       "id": "virginia-waffles-auntcaroli",
@@ -34077,7 +33948,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "waffles"
     },
     {
       "id": "breakfast-dishes-dutchovenc",
@@ -35994,7 +35866,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scrambled-eggs-bhg"
     },
     {
       "id": "fried-eggplant-theplainsa",
@@ -36169,7 +36042,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "poached-eggs-bhg"
     },
     {
       "id": "scrambled-eggs-theplainsa",
@@ -36281,7 +36155,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "scrambled-eggs-bhg"
     },
     {
       "id": "omelet-theplainsa",
@@ -36401,7 +36276,10 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variants": [
+        "omelet-wilsonscoo"
+      ]
     },
     {
       "id": "egg-rings-thewingold",
@@ -36809,7 +36687,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "omelet-theplainsa"
     },
     {
       "id": "baked-eggs-incorn-cases-wilsonscoo",
@@ -37143,7 +37022,8 @@
         "assumptions": [
           "Calculated for 8 servings"
         ]
-      }
+      },
+      "variant_of": "bacon-double-cheese-quiche-gahb-mommom-baker"
     },
     {
       "id": "indian-slapjack-american-cookery-1796",
@@ -37357,7 +37237,8 @@
         "assumptions": [
           "Calculated for 57 servings"
         ]
-      }
+      },
+      "variant_of": "chile-breakfast-whirls-gcb"
     },
     {
       "id": "huevos-y-chilaquiles",
@@ -37464,7 +37345,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "huevos-y-chilaquiles-gcb"
     },
     {
       "id": "i-cant-stand-eggs",
@@ -37560,7 +37442,8 @@
         "assumptions": [
           "Calculated for 4 servings"
         ]
-      }
+      },
+      "variant_of": "i-cant-stand-eggs-gcb"
     },
     {
       "id": "baked-eggs-cheese-chile",
@@ -37656,7 +37539,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "baked-eggs-with-cheese-and-chile-gcb"
     },
     {
       "id": "shepherds-cheese-bake-ancients-all",
@@ -37776,7 +37660,8 @@
         ]
       },
       "variants": [
-        "shepherds-cheese-bake"
+        "shepherds-cheese-bake",
+        "shepherds-cheese-bake-ancients-mommom-baker"
       ]
     },
     {
@@ -37872,7 +37757,8 @@
         "assumptions": [
           "Calculated for 5 servings"
         ]
-      }
+      },
+      "variant_of": "wholly-pancakes-cwa"
     },
     {
       "id": "homemade-yogurt",
@@ -38639,7 +38525,8 @@
         "assumptions": [
           "Calculated for 2 servings"
         ]
-      }
+      },
+      "variant_of": "scrambled-eggs-bhg"
     },
     {
       "id": "ricegriddle-cakes-thewhysofc",

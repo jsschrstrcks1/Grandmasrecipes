@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "cookies",
     "total_recipes": 61,
-    "generated": "2026-08-30T01:45:08.122477Z",
+    "generated": "2026-08-30T01:53:39.462903Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -110,7 +110,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "cake-brownies-bhg"
     },
     {
       "id": "coconut-macaroons-mommom-baker",
@@ -179,7 +180,12 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "coconut-macaroons-bhg",
+        "coconut-macaroons-all",
+        "coconut-macaroons-betty-crocker"
+      ]
     },
     {
       "id": "crispy-cereal-squares",
@@ -258,7 +264,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "crispy-cereal-squares-bhg"
     },
     {
       "id": "granola-bars",
@@ -354,7 +361,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "granola-bars-bhg"
     },
     {
       "id": "fruit-filled-oatmeal-bars",
@@ -433,7 +441,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fruit-filled-oatmeal-bars-bhg"
     },
     {
       "id": "chocolate-revel-bars",
@@ -549,7 +558,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-revel-bars-bhg"
     },
     {
       "id": "fudge-brownies",
@@ -646,7 +656,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fudge-brownies-bhg"
     },
     {
       "id": "buttermilk-brownies",
@@ -785,7 +796,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "buttermilk-brownies-bhg"
     },
     {
       "id": "toffee-bars",
@@ -898,7 +910,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "toffee-bars-bhg"
     },
     {
       "id": "fudge-ecstasies",
@@ -991,7 +1004,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "fudge-ecstasies-bhg"
     },
     {
       "id": "oatmeal-cookies-bhg",
@@ -1103,7 +1117,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "oatmeal-cookies-handwritten"
     },
     {
       "id": "lemon-tea-cookies",
@@ -1510,7 +1525,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "hermits-bhg"
     },
     {
       "id": "banana-spice-cookies",
@@ -1714,7 +1730,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "ranger-cookies-bhg"
     },
     {
       "id": "orange-chocolate-slices",
@@ -1899,7 +1916,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "santas-whiskers-bhg"
     },
     {
       "id": "spiced-slices",
@@ -2136,7 +2154,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "date-pinwheel-cookies-bhg"
     },
     {
       "id": "chocolate-coconut-pinwheels",
@@ -2250,7 +2269,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-coconut-pinwheels-bhg"
     },
     {
       "id": "tiny-tarts",
@@ -2324,7 +2344,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "tiny-tarts-bhg"
     },
     {
       "id": "brandy-snaps",
@@ -2416,7 +2437,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "brandy-snaps-bhg"
     },
     {
       "id": "jam-thumbprints",
@@ -2505,7 +2527,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "jam-thumbprints-bhg"
     },
     {
       "id": "chocolate-crinkles",
@@ -2592,7 +2615,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-crinkles-bhg"
     },
     {
       "id": "chocolate-chip-cookies",
@@ -2695,7 +2719,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "chocolate-chip-cookies-bhg"
     },
     {
       "id": "drop-cookies",
@@ -2790,7 +2815,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "drop-cookies-bhg"
+      ]
     },
     {
       "id": "oatmeal-cookies",
@@ -2899,7 +2927,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "oatmeal-cookies-handwritten"
     },
     {
       "id": "shortbread",
@@ -2970,7 +2999,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "shortbread-bhg"
+      ]
     },
     {
       "id": "haystacks-family",
@@ -3034,7 +3066,10 @@
           "Based on 3/3 ingredients (100% coverage)"
         ]
       },
-      "servings_yield": "Makes about 3 dozen cookies"
+      "servings_yield": "Makes about 3 dozen cookies",
+      "variants": [
+        "haystacks-carol-willison"
+      ]
     },
     {
       "id": "lemon-bars-cookies",
@@ -3127,7 +3162,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "lemon-bars-tampa-tribune"
     },
     {
       "id": "pecan-crunch",
@@ -3238,7 +3274,10 @@
         "assumptions": [
           "Per bar as stated in cookbook"
         ]
-      }
+      },
+      "variants": [
+        "pecan-crunch-bars"
+      ]
     },
     {
       "id": "macadamia-meltaways-bhg",
@@ -3331,7 +3370,8 @@
           "Inferred 1.0 for sugar (standard quantity)",
           "Based on 5/6 ingredients (83% coverage)"
         ]
-      }
+      },
+      "variant_of": "macadamia-meltaways"
     },
     {
       "id": "coconut-macaroons-bhg",
@@ -3417,7 +3457,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "coconut-macaroons-mommom-baker"
     },
     {
       "id": "christmas-tree-cookies-bhg",
@@ -3540,7 +3581,8 @@
           "Inferred 1.0 for green sugar crystals (standard quantity)",
           "Based on 6/8 ingredients (75% coverage)"
         ]
-      }
+      },
+      "variant_of": "christmas-tree-cookies"
     },
     {
       "id": "cookie-chalets-bhg",
@@ -3679,7 +3721,8 @@
           "Assumed 1 unit for ground cinnamon",
           "Assumed 1 unit for baking soda"
         ]
-      }
+      },
+      "variant_of": "cookie-chalets"
     },
     {
       "id": "gingerbread-men-bhg",
@@ -3810,7 +3853,10 @@
           "Assumed 1 unit for baking soda",
           "Inferred 1 for salt (standard quantity)"
         ]
-      }
+      },
+      "variants": [
+        "gingerbread-men-cookies"
+      ]
     },
     {
       "id": "lemon-bars-bhg",
@@ -3926,7 +3972,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "lemon-bars-tampa-tribune"
     },
     {
       "id": "granola-bars-bhg",
@@ -4045,7 +4092,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "granola-bars"
+      ]
     },
     {
       "id": "crispy-cereal-squares-bhg",
@@ -4133,7 +4183,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "crispy-cereal-squares"
+      ]
     },
     {
       "id": "fruit-filled-oatmeal-bars-bhg",
@@ -4232,7 +4285,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "fruit-filled-oatmeal-bars"
+      ]
     },
     {
       "id": "orange-date-bars-bhg",
@@ -4364,7 +4420,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "orange-date-bars"
+      ]
     },
     {
       "id": "pumpkin-bars-bhg",
@@ -4488,7 +4547,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "pumpkin-bars"
     },
     {
       "id": "peanut-butter-bars-bhg",
@@ -4606,7 +4666,8 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variant_of": "peanut-butter-bars"
     },
     {
       "id": "chocolate-revel-bars-bhg",
@@ -4745,7 +4806,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "chocolate-revel-bars"
+      ]
     },
     {
       "id": "fudge-brownies-bhg",
@@ -4861,7 +4925,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "fudge-brownies"
+      ]
     },
     {
       "id": "cake-brownies-bhg",
@@ -4985,7 +5052,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "cake-brownies"
+      ]
     },
     {
       "id": "buttermilk-brownies-bhg",
@@ -5141,7 +5211,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "buttermilk-brownies"
+      ]
     },
     {
       "id": "toffee-bars-bhg",
@@ -5280,7 +5353,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "toffee-bars",
+        "toffee-bars-granny"
+      ]
     },
     {
       "id": "fudge-ecstasies-bhg",
@@ -5394,7 +5471,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "fudge-ecstasies"
+      ]
     },
     {
       "id": "hermits-bhg",
@@ -5521,7 +5601,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "hermits"
+      ]
     },
     {
       "id": "ranger-cookies-bhg",
@@ -5643,7 +5726,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "ranger-cookies",
+        "classic-ranger-cookies"
+      ]
     },
     {
       "id": "santas-whiskers-bhg",
@@ -5760,7 +5847,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "santas-whiskers-a-friend",
+        "santas-whiskers"
+      ]
     },
     {
       "id": "date-pinwheel-cookies-bhg",
@@ -5895,7 +5986,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "date-pinwheel-cookies"
+      ]
     },
     {
       "id": "chocolate-coconut-pinwheels-bhg",
@@ -6014,7 +6108,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "chocolate-coconut-pinwheels"
+      ]
     },
     {
       "id": "tiny-tarts-bhg",
@@ -6085,7 +6182,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "tiny-tarts"
+      ]
     },
     {
       "id": "brandy-snaps-bhg",
@@ -6178,7 +6278,11 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "brandy-snaps",
+        "brandy-snaps-grandmas-molasses"
+      ]
     },
     {
       "id": "jam-thumbprints-bhg",
@@ -6268,7 +6372,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "jam-thumbprints"
+      ]
     },
     {
       "id": "chocolate-crinkles-bhg",
@@ -6358,7 +6465,10 @@
         },
         "source": "Better Homes and Gardens cookbook nutrition analysis",
         "assumptions": []
-      }
+      },
+      "variants": [
+        "chocolate-crinkles"
+      ]
     },
     {
       "id": "aunt-margarets-rob-roys-fbc-jasmine",
