@@ -2,8 +2,8 @@
   "meta": {
     "collection": "mommom-baker",
     "category": "breads",
-    "total_recipes": 280,
-    "generated": "2026-07-29T20:07:09.311009Z",
+    "total_recipes": 279,
+    "generated": "2026-08-30T01:45:08.067854Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -7836,106 +7836,6 @@
         "missing_inputs": [],
         "assumptions": [
           "Based on 7/7 ingredients (100% coverage)"
-        ]
-      }
-    },
-    {
-      "id": "whole-wheat-bread",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Whole Wheat Bread",
-      "category": "breads",
-      "attribution": "",
-      "source_note": "Better Homes and Gardens cookbook",
-      "description": "Fiber-filled bread with whole grains",
-      "servings_yield": "2 loaves (32 servings)",
-      "prep_time": "",
-      "cook_time": "40 to 45 minutes",
-      "total_time": "",
-      "ingredients": [
-        {
-          "item": "all-purpose flour",
-          "quantity": "3 to 3\u00bd",
-          "unit": "cups",
-          "prep_note": ""
-        },
-        {
-          "item": "active dry yeast",
-          "quantity": "1",
-          "unit": "package",
-          "prep_note": ""
-        },
-        {
-          "item": "packed brown sugar",
-          "quantity": "\u00bd",
-          "unit": "cup",
-          "prep_note": ""
-        },
-        {
-          "item": "shortening, margarine, or butter",
-          "quantity": "3",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "whole wheat flour",
-          "quantity": "2",
-          "unit": "cups",
-          "prep_note": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Combine 2 cups of all-purpose flour and the yeast. Heat and stir brown sugar, shortening, 1\u00be cups water, and 1 teaspoon salt till warm (120\u00b0 to 130\u00b0) and shortening almost melts. Add to flour mixture. Beat with an electric mixer on low speed for 30 seconds, scraping bowl constantly. Beat on high speed for 3 minutes. Using a spoon, stir in whole wheat flour and as much remaining all-purpose flour as you can."
-        },
-        {
-          "step": 2,
-          "text": "Turn out onto a lightly floured surface. Knead in enough remaining all-purpose flour to make a moderately stiff dough that is smooth and elastic (6 to 8 minutes total). Shape into a ball. Place in a lightly greased bowl; turn once. Cover; let rise in a warm place till double (1 to 1\u00bd hours)."
-        },
-        {
-          "step": 3,
-          "text": "Punch dough down. Turn out onto a lightly floured surface. Divide in half. Cover and let rest 10 minutes. Lightly grease two 8x4x2-inch loaf pans. Shape each half of dough into a loaf. Place in pans. Cover; let rise in a warm place till nearly double (45 to 60 minutes)."
-        },
-        {
-          "step": 4,
-          "text": "Bake in a 375\u00b0 oven for 40 to 45 minutes or till done. Cover loosely with foil the last 10 to 20 minutes, if necessary. Remove from pans; cool."
-        }
-      ],
-      "temperature": "375\u00b0F",
-      "pan_size": "8x4x2-inch loaf pans",
-      "notes": [
-        "Wheat Germ Bread: Prepare as above, except reduce whole wheat flour to 1\u00bd cups and add \u00bd cup toasted wheat germ.",
-        "Bran Bread: Prepare as above, except reduce whole wheat flour to 1\u00bd cups and add \u00bd cup unprocessed wheat bran (miller's bran).",
-        "Oatmeal Bread: Prepare as above, except substitute quick-cooking or regular rolled oats for the whole wheat flour. Increase the all-purpose flour to 4\u00bc to 4\u00be cups total.",
-        "Buckwheat Bread: Prepare as above, except reduce whole wheat flour to 1\u00bc cups and add \u00be cup buckwheat flour.",
-        "Honey and Whole Wheat Bread: Prepare as above, except reduce water to 1\u00bd cups and omit brown sugar. Add \u2153 cup honey or molasses to saucepan."
-      ],
-      "tags": [
-        "bread",
-        "yeast bread",
-        "whole wheat",
-        "healthy"
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5205 Large.jpeg"
-      ],
-      "nutrition": {
-        "status": "partial",
-        "per_serving": {
-          "calories": 1529,
-          "fat_g": 5.4,
-          "protein_g": 37.0,
-          "carbs_g": 339.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Inferred 1.0 for packed brown sugar (standard quantity)",
-          "Based on 5/5 ingredients (100% coverage)"
         ]
       }
     },

@@ -31,6 +31,29 @@ Newest entries go at the top.
 
 ---
 
+## 2026-08-30 — Exact-duplicate removal, phase 1 (syl)
+
+**Asked:** Operator campaign: duplicates are forbidden, variants are OK (one recipe, tabs
+per variant with provenance). Remove exact duplicates first.
+
+**Weighed:** Law 990f37e1: duplicates = EXACT same recipe → remove; dedup key name+source.
+First dry-run keyed title+ingredients+instructions and flagged 6 — but two pairs here were
+reference guides (0 ingredients; substance in notes: two DIFFERENT pork/ham guide pages,
+two DIFFERENT meat-buying charts, different source photos). Collapsing them would have
+lost transcription. Added notes to the identity key; those pairs stay for phase 2 variant
+linking. This repo's own analyze_duplicates/execute_merges pipeline is the phase-2
+convention (variant_of + audit log); this pass deliberately used the narrower
+exact-content tool shared with Allrecipes.
+
+**Decided:** scripts/dedup_exact_duplicates.py (dry-run default) removed 2 records:
+haystacks-candy (= haystacks-family byte-for-byte, same attribution Carol Willison) and
+whole-wheat-bread (= whole-wheat-bread-bhg, attribution empty on the removed side).
+Keeper = most complete; removed records preserved whole in admin/MERGED-AWAY.json.
+9396 → 9394. build_shards + generate_index rerun; validate-recipes exit 0.
+
+**Unsure:** Nothing material — both pairs verified identical across
+title/ingredients/instructions/notes before applying.
+
 ## 2026-08-11 — rysn: household sync of soli-deo-gloria (a link that resolved in only one repo)
 
 **Asked.** Propagate the canonical `soli-deo-gloria` change made in the household SSOT. This repo's
