@@ -125,7 +125,12 @@ def main():
     args = ap.parse_args()
 
     with open(args.master, encoding="utf-8") as f:
-        doc = json.load(f)
+        raw = f.read()
+    doc = json.loads(raw)
+    # Match the file's existing escape convention — a master kept with
+    # ensure_ascii=True must not be silently rewritten to literal unicode
+    # (thousands of lines of formatting churn drown the real 2-line change).
+    escape_ascii = "\\u00" in raw
     recs = doc["recipes"] if isinstance(doc, dict) and "recipes" in doc else doc
     if not isinstance(recs, list):
         print(f"UNAVAILABLE: {args.master} is not a recipe list", file=sys.stderr)
@@ -210,7 +215,7 @@ def main():
     else:
         doc = survivors
     with open(args.master, "w", encoding="utf-8") as f:
-        json.dump(doc, f, indent=2, ensure_ascii=False)
+        json.dump(doc, f, indent=2, ensure_ascii=escape_ascii)
         f.write("\n")
 
     ledger = []
