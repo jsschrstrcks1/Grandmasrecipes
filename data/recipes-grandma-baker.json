@@ -2,7 +2,7 @@
   "meta": {
     "collection": "grandma-baker",
     "total_recipes": 937,
-    "generated": "2026-08-30T23:00:29.694557Z",
+    "generated": "2026-08-31T12:13:51.686466Z",
     "source": "recipes_master.json",
     "sharded_by_category": false
   },
@@ -64025,7 +64025,8 @@
         "normas-rhubarb-cream-pie",
         "marteys-rhubarb-cream-pie-custard",
         "simple-rhubarb-pie"
-      ]
+      ],
+      "variant_of": ""
     },
     {
       "id": "virginias-rhubarb-pie",
