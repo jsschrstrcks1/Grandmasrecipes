@@ -796,7 +796,38 @@ async function loadKitchenTips() {
   kitchenTipsLoading = (async () => {
     try {
       const response = await fetch('data/kitchen-tips.json');
-      kitchenTipsData = await response.json();
+      let data = await response.json();
+      // The aggregator (scripts/aggregate_tips.py) emits a FLAT shape —
+      // { tips: [{id, title, collection, category, content: [...]}] } — while
+      // this feature was written for { categories: [{id, name, icon, tips}] }.
+      // That mismatch left all 156 aggregated tips unrendered for months
+      // (audit 2026-08-27): the reduce below threw, the catch swallowed it.
+      // Accept both shapes: synthesize categories from the flat form. Tips
+      // whose source category has no topical meaning ('tips', 'reference',
+      // none) pool under 'general' so the per-recipe picker can reach them.
+      if (!data.categories && Array.isArray(data.tips)) {
+        const collectionNames = {
+          'grandma-baker': "Grandma Baker's kitchen",
+          'mommom-baker': "MomMom Baker's kitchen",
+          'granny-hudson': "Granny Hudson's kitchen",
+          'all': 'the family cookbook shelf',
+        };
+        const groups = {
+          general: { id: 'general', name: 'Kitchen Wisdom', icon: '💡', tips: [] },
+          sauces: { id: 'sauces', name: 'Sauces', icon: '🥄', tips: [] },
+        };
+        for (const t of data.tips) {
+          const target = groups[t.category] || groups.general;
+          const body = Array.isArray(t.content) ? t.content.join(' ') : String(t.content || '');
+          target.tips.push({
+            text: t.title ? `${t.title}: ${body}` : body,
+            attribution: collectionNames[t.collection] || 'the family collections',
+            relatedRecipes: t.relatedRecipes || [],
+          });
+        }
+        data = { categories: Object.values(groups).filter(g => g.tips.length > 0) };
+      }
+      kitchenTipsData = data;
       const totalTips = kitchenTipsData.categories.reduce((sum, cat) => sum + cat.tips.length, 0);
       console.log(`Loaded ${totalTips} kitchen tips in ${kitchenTipsData.categories.length} categories`);
       return kitchenTipsData;
@@ -862,24 +893,32 @@ async function analyzeRecipeHealth(recipe) {
       continue;
     }
 
-    // Check if this ingredient (or parts of it) has any health concerns
-    // Try exact match first, then partial match
+    // Check if this ingredient (or parts of it) has any health concerns.
+    // Exact match first, then whole-word partial matches — ALL of them, merged
+    // (HEALTH_AUDIT_REPORT.md C2: first-match-only dropped concerns; C3: the
+    // reverse match flaggedIng.includes(ingText) let a short name like "oil"
+    // borrow "olive oil"'s flags). Word boundaries keep "nuts" out of
+    // "chestnuts"; when both a specific and a generic flagged name match
+    // ("coconut milk" and "milk"), the specific entry supersedes the generic.
     let concerns = db.ingredients[ingText];
 
     if (!concerns) {
-      // Partial match is ONE-WAY and word-bounded: the recipe's ingredient text must
-      // CONTAIN the flagged key as whole words. Bug fixed 2026-07-30 (UL-083): the old
-      // test also accepted `flaggedIng.includes(ingText)`, so a plain "water" matched the
-      // key "water chestnuts" and inherited its shellfish-allergen warning — likewise
-      // "cheese" -> aged-cheese MAOI, "salt" -> salt-water sodium. A panel that cries
-      // allergen on water teaches the family to ignore the warning that matters.
-      // Word boundaries also stop "watermelon" from matching a "water" key.
-      for (const [flaggedIng, flaggedConcerns] of Object.entries(db.ingredients)) {
-        const key = String(flaggedIng).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        if (new RegExp(`\\b${key}\\b`, 'i').test(ingText)) {
-          concerns = flaggedConcerns;
-          break;
-        }
+      if (!db._flaggedMatchers) {
+        db._flaggedMatchers = Object.entries(db.ingredients).map(([name, list]) => {
+          const esc = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          // Boundaries only where the key edge is a word character (131 keys
+          // have punctuation edges); optional plural so a singular-only key
+          // like "apricot" still matches "dried apricots".
+          const lead = /^\w/.test(name) ? '\\b' : '';
+          const tail = /\w$/.test(name) ? '(?:e?s)?\\b' : '';
+          return { name, list, re: new RegExp(lead + esc + tail) };
+        });
+      }
+      const matched = db._flaggedMatchers.filter(m => m.re.test(ingText));
+      const kept = matched.filter(m =>
+        !matched.some(other => other.name.length > m.name.length && other.name.includes(m.name)));
+      if (kept.length > 0) {
+        concerns = Array.from(new Set(kept.flatMap(m => m.list)));
       }
     }
 
@@ -1152,20 +1191,15 @@ function renderKitchenTipsForRecipe(recipe) {
 /**
  * Common fraction mappings for smart rounding
  */
-// Keys MUST be in toFixed(3) form: the lookup below is FRACTION_MAP[frac.toFixed(3)].
-// Bug fixed 2026-07-30 (UL-082): '0.25'/'0.5'/'0.75' could never match '0.250'/'0.500'/
-// '0.750', so the THREE most common kitchen fractions silently fell through to the decimal
-// fallback and concatenated onto the whole number — 1½ rendered as "10.50", 2¾ as "20.75".
-// The already-3-decimal keys (⅛ ⅓ ⅜ ⅝ ⅔ ⅞) matched fine, which is why it went unnoticed.
 const FRACTION_MAP = {
   '0.125': '⅛',
-  '0.250': '¼',
+  '0.25': '¼',
   '0.333': '⅓',
   '0.375': '⅜',
-  '0.500': '½',
+  '0.5': '½',
   '0.625': '⅝',
   '0.667': '⅔',
-  '0.750': '¾',
+  '0.75': '¾',
   '0.875': '⅞'
 };
 
@@ -4703,45 +4737,6 @@ function renderCurrentRecipe() {
 /**
  * Render full recipe detail page
  */
-/**
- * Reader display settings (operator directive 2026-08-30): the recipe page shows
- * the recipe itself (ingredients, instructions, oven directions, frosting) and
- * nutrition facts by default; every other section is opt-in via the gear panel.
- * Choices persist in this browser only (localStorage) — never on the server.
- */
-const DISPLAY_PREFS_KEY = 'recipe-display-prefs';
-const DISPLAY_DEFAULTS = { nutrition: true, grandma: true };
-const DISPLAY_LABELS = {
-  description: 'Description',
-  source: 'Source note',
-  quickfacts: 'Quick facts',
-  milksub: 'Milk substitution',
-  nutrition: 'Nutrition facts',
-  notes: 'Notes',
-  tags: 'Tags',
-  tips: 'Related kitchen tips',
-  flags: 'Transcription confidence',
-  scan: 'Original recipe scan',
-  grandma: 'Cooking with Grandma photos'
-};
-
-function loadDisplayPrefs() {
-  try {
-    return Object.assign({}, DISPLAY_DEFAULTS, JSON.parse(localStorage.getItem(DISPLAY_PREFS_KEY)) || {});
-  } catch (e) {
-    return Object.assign({}, DISPLAY_DEFAULTS);
-  }
-}
-let displayPrefs = loadDisplayPrefs();
-function saveDisplayPrefs() {
-  try { localStorage.setItem(DISPLAY_PREFS_KEY, JSON.stringify(displayPrefs)); } catch (e) { /* private mode */ }
-}
-function prefOn(key) { return !!displayPrefs[key]; }
-function prefWrap(key, html) {
-  if (!html) return '';
-  return `<div class="pref-section" data-pref="${key}"${prefOn(key) ? '' : ' hidden'}>${html}</div>`;
-}
-
 async function renderRecipeDetail(recipeId, skipLoading = false) {
   const container = document.getElementById('recipe-content');
 
@@ -4793,27 +4788,28 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       <header class="recipe-header">
         <h1>${escapeHtml(recipe.title)}</h1>
         ${recipe.attribution ? `<p class="recipe-attribution">From: ${escapeHtml(recipe.attribution)}</p>` : ''}
+        ${recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : ''}
+        ${recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : ''}
 
         <div class="header-controls">
-          ${prefWrap('flags', `<div class="confidence-indicator confidence-${escapeAttr(recipe.confidence?.overall || 'high')}">
+          <div class="confidence-indicator confidence-${escapeAttr(recipe.confidence?.overall || 'high')}">
             Confidence: ${escapeHtml(capitalizeFirst(recipe.confidence?.overall || 'high'))}
-          </div>`)}
+          </div>
 
-          ${variants.length > 0 ? renderVariantTabs(recipe, variants) : ''}
+          ${variants.length > 0 ? renderVariantsDropdown(recipe, variants) : ''}
         </div>
 
         <div class="action-buttons" style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
           <button id="print-btn" class="btn btn-secondary btn-print">Print Recipe</button>
-          <button id="display-settings-btn" class="btn btn-secondary" aria-expanded="false" aria-controls="display-settings-panel">&#9881; Display</button>
           ${recipe.conversions?.has_conversions ? `
             <button id="metric-toggle" class="btn btn-secondary">
               ${showMetric ? 'Show US Units' : 'Show Metric'}
             </button>
           ` : ''}
         </div>
-        <div id="display-settings-panel" class="display-settings-panel" hidden></div>
       </header>
 
+      ${renderQuickFacts(recipe)}
 
       ${renderScalingControls(recipe)}
 
@@ -4835,6 +4831,7 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       <div id="heart-smart-converter-container"></div>
 
       <!-- Milk Substitution Calculator (for cheesemaking recipes) -->
+      <div id="milk-substitution-container"></div>
 
       <section class="instructions-section">
         <h2>Instructions</h2>
@@ -4849,18 +4846,13 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
 
       ${recipe.oven_directions ? renderOvenDirections(recipe.oven_directions) : ''}
       ${recipe.frosting ? renderFrosting(recipe.frosting) : ''}
-      ${recipe.nutrition ? prefWrap('nutrition', renderNutrition(recipe.nutrition, recipe.servings_yield)) : ''}
-      ${prefWrap('grandma', renderFamilyPhotos(recipe.family_photos))}
-      ${prefWrap('description', recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : '')}
-      ${prefWrap('source', recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : '')}
-      ${prefWrap('quickfacts', renderQuickFacts(recipe))}
-      ${prefWrap('milksub', '<div id="milk-substitution-container"></div>')}
-      ${recipe.notes && recipe.notes.length > 0 ? prefWrap('notes', renderNotes(recipe.notes)) : ''}
+      ${recipe.nutrition ? renderNutrition(recipe.nutrition, recipe.servings_yield) : ''}
+      ${recipe.notes && recipe.notes.length > 0 ? renderNotes(recipe.notes) : ''}
       ${recipe.conversions?.conversion_assumptions?.length > 0 && showMetric ? renderConversionNotes(recipe.conversions) : ''}
       ${renderKitchenTipsForRecipe(recipe)}
-      ${prefWrap('tags', renderTags(recipe.tags))}
-      ${prefWrap('flags', renderConfidenceFlags(recipe.confidence?.flags))}
-      ${prefWrap('scan', renderOriginalScan(recipe.image_refs, recipe.collection))}
+      ${renderTags(recipe.tags)}
+      ${renderConfidenceFlags(recipe.confidence?.flags)}
+      ${renderOriginalScan(recipe.image_refs, recipe.collection)}
     </article>
   `;
 
@@ -4872,29 +4864,6 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
     printBtn.addEventListener('click', () => window.print());
   }
 
-
-  // Display settings: the panel lists only the sections this page actually has
-  const settingsBtn = document.getElementById('display-settings-btn');
-  const settingsPanel = document.getElementById('display-settings-panel');
-  if (settingsBtn && settingsPanel) {
-    const present = [...new Set([...container.querySelectorAll('[data-pref]')].map(n => n.dataset.pref))];
-    settingsPanel.innerHTML = '<span class="display-settings-title">Show on this page:</span>' +
-      present.map(k => `
-        <label class="display-settings-row"><input type="checkbox" data-prefkey="${escapeAttr(k)}" ${prefOn(k) ? 'checked' : ''}> ${escapeHtml(DISPLAY_LABELS[k] || k)}</label>`).join('');
-    settingsBtn.addEventListener('click', () => {
-      const opening = settingsPanel.hidden;
-      settingsPanel.hidden = !opening;
-      settingsBtn.setAttribute('aria-expanded', String(opening));
-    });
-    settingsPanel.querySelectorAll('input[data-prefkey]').forEach(cb => {
-      cb.addEventListener('change', () => {
-        displayPrefs[cb.dataset.prefkey] = cb.checked;
-        saveDisplayPrefs();
-        container.querySelectorAll(`[data-pref="${cb.dataset.prefkey}"]`).forEach(n => { n.hidden = !cb.checked; });
-      });
-    });
-  }
-
   const metricToggle = document.getElementById('metric-toggle');
   if (metricToggle) {
     metricToggle.addEventListener('click', () => {
@@ -4904,14 +4873,15 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
   }
 
   // Variant dropdown handler
-  // Variant tab handler — the active tab is inert; the rest navigate
-  document.querySelectorAll('.variant-tab[data-vid]').forEach(tab => {
-    if (tab.dataset.vid === recipe.id) return;
-    tab.addEventListener('click', () => {
-      window.location.hash = tab.dataset.vid;
-      renderRecipeDetail(tab.dataset.vid);
+  const variantSelect = document.getElementById('variant-select');
+  if (variantSelect) {
+    variantSelect.addEventListener('change', (e) => {
+      if (e.target.value) {
+        window.location.hash = e.target.value;
+        renderRecipeDetail(e.target.value);
+      }
     });
-  });
+  }
 
   // Scale button handlers
   document.querySelectorAll('.scale-btn').forEach(btn => {
@@ -5027,28 +4997,16 @@ function findVariants(recipe) {
 /**
  * Render variants dropdown
  */
-function renderVariantTabs(currentRecipe, variants) {
-  // One dish, one page: the versions sit as tabs, labeled by provenance
-  // (attribution first), canonical version first; the active tab is inert.
-  const canonicalId = currentRecipe.variant_of || currentRecipe.canonical_id || currentRecipe.id;
-  const family = new Map();
-  family.set(currentRecipe.id, currentRecipe);
-  variants.forEach(v => { if (!family.has(v.id)) family.set(v.id, v); });
-  const members = [...family.values()].sort((a, b) =>
-    (a.id === canonicalId ? -1 : b.id === canonicalId ? 1 : 0) ||
-    String(a.title).localeCompare(String(b.title)) || String(a.id).localeCompare(String(b.id)));
-  if (members.length < 2) return '';
-  const label = (m) => m.attribution ||
-    (m.source_note ? m.source_note.substring(0, 40) : '') || m.title;
+function renderVariantsDropdown(currentRecipe, variants) {
   return `
-    <div class="variant-tabs" role="tablist" aria-label="Recipe versions">
-      ${members.map(m => `
-        <button class="variant-tab${m.id === currentRecipe.id ? ' on' : ''}" role="tab"
-          aria-selected="${m.id === currentRecipe.id}" data-vid="${escapeAttr(m.id)}"
-          title="${escapeAttr(m.title)}${m.variant_notes ? ' — ' + escapeAttr(m.variant_notes) : ''}">
-          ${escapeHtml(label(m))}
-        </button>
-      `).join('')}
+    <div class="variants-dropdown">
+      <label for="variant-select">Variants:</label>
+      <select id="variant-select" class="variant-select">
+        <option value="${escapeAttr(currentRecipe.id)}" selected>${escapeHtml(currentRecipe.source_note || 'Current version')}</option>
+        ${variants.map(v => `
+          <option value="${escapeAttr(v.id)}">${escapeHtml(v.source_note || v.title)}${v.variant_notes ? ` - ${escapeHtml(v.variant_notes.substring(0, 50))}...` : ''}</option>
+        `).join('')}
+      </select>
     </div>
   `;
 }
@@ -5294,7 +5252,15 @@ function renderConfidenceFlags(flags) {
  * @returns {string} - The base path for images
  */
 function getCollectionImagePath(collection, isRemote = false, remoteSiteUrl = null) {
-  // Remote collections: use absolute URL to their GitHub Pages site
+  // Remote collections resolve from the registry directly — the sole caller
+  // never passed isRemote/remoteSiteUrl, so 3,489 remote scan refs rendered
+  // as dead LOCAL paths (audit 2026-08-27). The registry also knows Granny's
+  // images live under granny/, not data/, which the old remoteSiteUrl branch
+  // would have gotten wrong even when called correctly.
+  const remote = REMOTE_COLLECTIONS[collection];
+  if (remote) {
+    return remote.baseUrl + (remote.dataPath || 'data/');
+  }
   if (isRemote && remoteSiteUrl) {
     return remoteSiteUrl + 'data/';
   }
@@ -5305,32 +5271,6 @@ function getCollectionImagePath(collection, isRemote = false, remoteSiteUrl = nu
 /**
  * Render original scan thumbnail
  */
-/**
- * "Cooking with Grandma" (operator directive 2026-08-30): family photos linked to a
- * recipe render right after the nutrition facts, so cooking from her card keeps her
- * at the table. Photos live in Memorial/Grandma/; a record lists basenames in
- * family_photos. Filenames are validated strictly and URI-encoded (they contain
- * spaces), so sanitizeUrl's charset rule is enforced here inline.
- */
-function renderFamilyPhotos(photos) {
-  if (!Array.isArray(photos) || photos.length === 0) return '';
-  const items = photos.filter(p => /^[\w\- .]+\.jpeg$/i.test(String(p))).map(p => {
-    const src = 'Memorial/Grandma/' + encodeURIComponent(p);
-    return `
-      <a href="${escapeAttr(src)}" target="_blank">
-        <img src="${escapeAttr(src)}" alt="Family photo linked to this recipe" class="scan-thumbnail"
-             style="max-width: 200px; max-height: 150px; object-fit: cover;" loading="lazy">
-      </a>`;
-  });
-  if (!items.length) return '';
-  return `
-    <section class="family-photos">
-      <h3>Cooking with Grandma</h3>
-      ${items.join('')}
-    </section>
-  `;
-}
-
 function renderOriginalScan(imageRefs, collection) {
   if (!imageRefs || imageRefs.length === 0) return '';
 
@@ -5340,7 +5280,11 @@ function renderOriginalScan(imageRefs, collection) {
     <section class="original-scan">
       <h3>Original Scan</h3>
       ${imageRefs.map(ref => {
-        const safePath = sanitizeUrl(basePath + ref);
+        // Granny's refs are bare ids ("gr-3"); her files on disk are
+        // "<ref>.jpeg". Refs that already carry an extension (MomMom's
+        // "handwritten/IMG_5650.jpeg") pass through untouched.
+        const file = /\.[a-z]{3,4}$/i.test(ref) ? ref : ref + '.jpeg';
+        const safePath = sanitizeUrl(basePath + file);
         return `
         <a href="${escapeAttr(safePath)}" target="_blank">
           <img src="${escapeAttr(safePath)}" alt="Original recipe scan" class="scan-thumbnail"

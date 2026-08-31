@@ -5,7 +5,7 @@
       "display_name": "Grandma Baker",
       "folder": "data/",
       "description": "Michigan roots, Southern cooking",
-      "recipe_count": 933,
+      "recipe_count": 937,
       "local": true,
       "sharded": false
     },
@@ -43,7 +43,7 @@
       "recipes_url": "https://jsschrstrcks1.github.io/Allrecipes/data/recipes.json",
       "index_url": "https://jsschrstrcks1.github.io/Allrecipes/data/recipes-index.json",
       "description": "Digital cookbook recipes (used with permission)",
-      "recipe_count": 5722,
+      "recipe_count": 9989,
       "local": false,
       "sharded": true,
       "shard_strategy": "by_category",
@@ -59,8 +59,8 @@
   },
   "default_collection": "all",
   "version": "2.1.0",
-  "last_updated": "2026-01-23",
-  "total_recipes": 9392,
+  "last_updated": "2026-08-27",
+  "total_recipes": 13663,
   "sharding_notes": {
     "description": "Collections can use category-based sharding for better performance",
     "sharded_format": {
