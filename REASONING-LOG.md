@@ -346,6 +346,83 @@ preserved, and I verified the `## ` section list is byte-identical before and af
 _Runtime: Claude Code (claude-opus-5) · patron melaan_
 
 
+## 2026-07-30 — Two shipped bugs in the live recipe site (UL-082, UL-083)
+
+**Asked.** "Keep building" under full posture. I picked the two highest real-world defects
+open in the ledger: both are shipped, both affect family members reading the site today.
+
+**Weighed.**
+
+- *Fractions (UL-082).* `FRACTION_MAP` keys were `'0.25'`/`'0.5'`/`'0.75'` but the lookup is
+  `FRACTION_MAP[frac.toFixed(3)]`, which produces `'0.250'`/`'0.500'`/`'0.750'` — never a
+  match. The already-3-decimal keys (⅛ ⅓ ⅜ ⅝ ⅔ ⅞) matched fine, which is exactly why nobody
+  caught it: the bug hits ONLY the three most common kitchen fractions. Failure mode is ugly,
+  not subtle — the decimal fallback concatenates onto the whole number, so 1½ rendered as
+  "10.50" and 2¾ as "20.75". Reproduced before touching anything.
+- *Health warnings (UL-083).* The partial match ran both directions:
+  `ingText.includes(flaggedIng) || flaggedIng.includes(ingText)`. The second half is
+  backwards — a plain "water" matched the key "water chestnuts" and inherited its
+  shellfish-allergen warning; "cheese" inherited aged-cheese MAOI; "salt" inherited
+  salt-water sodium. A panel that cries allergen on water trains the family to ignore the
+  warning that actually matters.
+- *Which files are live.* The pages load `script.min.js`, not `script.js`. Fixing only the
+  source would have left the site broken while looking fixed in the diff. There is a
+  `scripts/minify.py`, so I regenerated rather than hand-editing minified code.
+- *Scope check before assuming.* The ledger said "and any repo that copied it". Allrecipes
+  also has a `formatQuantity`, but it compares numerically with `parseFloat(val)` and a 0.05
+  tolerance, so key formatting is irrelevant there — it does NOT have this bug. Verified by
+  running it rather than pattern-matching the name. My patch script asserted on the exact
+  source block and refused Allrecipes rather than fuzzy-matching, which is how I found out.
+
+**Decided.** Normalised the fraction keys to `toFixed(3)` form; made the health match
+one-way and word-bounded (recipe text ⊇ flagged key). Regenerated `script.min.js` via the
+repo's own minifier. Verified each behaviour by executing the real code out of the file, not
+a paraphrase of it: 1½/2¾ render correctly, previously-working fractions unchanged, "water
+chestnuts, drained" still warns, "water"/"salt"/"cheese" no longer do, "watermelon" does not
+match a "water" key.
+
+**Unsure.**
+
+- **I did not audit the whole ingredient database** for other key pairs where one key is a
+  substring of another. The fix is general, but I only proved it on the cases the ledger
+  named plus a couple I invented.
+- **No test suite guards this.** Both fixes are pinned by my ad-hoc verification and by the
+  Atlas port's tests, not by anything in this repo. A future edit to `script.js` could
+  reintroduce either bug silently. A small unit test file here would be the real fix; I did
+  not add one because this repo has no JS test harness and inventing one is a bigger change
+  than the operator asked for.
+- **`script.min.js` is regenerated wholesale**, so its diff is large and hard to review. I
+  syntax-checked both files and grepped the minified output for the old and new patterns,
+  which is evidence but not proof of behavioural equivalence across the whole bundle.
+
+_Runtime: Claude Code_
+
+
+## 2026-07-30 — Reasoning log installed here (four layers, every runtime)
+
+**Asked.** Ken asked for the reasoning log to be stronger and to cover all 16 household
+repositories, capturing reasoning from any agent — Claude, Grok, Codex, the pipeline.
+
+**Weighed.** The earlier version reached only Claude Code (SessionStart + Stop hooks), and
+injected once per session, so it could drift. The gap that mattered: every other runtime —
+Grok, Codex, a script, a person — was uncovered. What they all share is `git commit`, so
+enforcement belongs there.
+
+**Decided.** Installed from the household canonical kit (`open-claw-stuff`,
+`admin/install-reasoning-log.mjs`): per-turn injection (`UserPromptSubmit`, not just
+session start), Stop-time persistence of this file, and a pre-commit guard that BLOCKS a
+substantive commit with no entry dated today. The installer also ran
+`git config core.hooksPath .githooks` — without it every `.githooks` guard here was
+silently inert. `[no-reasoning]` in a commit message opts a trivial change out, reviewably.
+
+**Unsure.** The hooks guarantee the obligation is present and that what was written
+survives; the guard makes omission block a commit. None of them can make an agent write a
+*truthful* entry — read the log rather than trusting the machinery. Pipeline auto-capture
+exists only in `open-claw-stuff`, where Atlas lives; this repo has the other three layers.
+
+_Runtime: Claude Code_
+
+
 ## 2026-07-30 — Hooking the reasoning log into Sophos (fire every time, any model)
 
 **Asked.** Mid-session you ran `/model claude-opus-5` — the runtime swapped out from
