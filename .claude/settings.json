@@ -48,6 +48,16 @@
             "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/prompt-injection-guard.js"
           }
         ]
+      },
+      {
+        "matcher": "Bash|Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/reasoning-reveal.mjs",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "SessionStart": [
@@ -70,6 +80,15 @@
           {
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/sophos-inject.sh session",
+            "timeout": 30
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/reasoning-log-inject.sh session",
             "timeout": 30
           }
         ]
@@ -113,6 +132,15 @@
             "type": "command",
             "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/hier-memory-inject.mjs prompt",
             "timeout": 20
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/reasoning-log-inject.sh prompt",
+            "timeout": 15
           }
         ]
       }
