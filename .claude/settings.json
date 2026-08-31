@@ -1,13 +1,4 @@
 {
-  "permissions": {
-    "allow": [
-      "Read:*",
-      "Edit:*",
-      "Write:*",
-      "Bash:python scripts/*"
-    ],
-    "defaultMode": "acceptEdits"
-  },
   "hooks": {
     "PostToolUse": [
       {
@@ -25,6 +16,16 @@
           {
             "type": "command",
             "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/hier-memory-inject.mjs posttool",
+            "timeout": 20
           }
         ]
       }
@@ -55,29 +56,17 @@
           {
             "type": "command",
             "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-pulse-scan.sh"
-          }
-        ]
-      },
-      {
-        "hooks": [
+          },
           {
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/memory-directives-inject.sh",
             "timeout": 30
-          }
-        ]
-      },
-      {
-        "hooks": [
+          },
           {
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/reasoning-log-inject.sh",
             "timeout": 30
-          }
-        ]
-      },
-      {
-        "hooks": [
+          },
           {
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/sophos-inject.sh session",
@@ -93,15 +82,21 @@
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/memory-autopersist.sh",
             "timeout": 60
-          }
-        ]
-      },
-      {
-        "hooks": [
+          },
           {
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/reasoning-log-persist.sh",
             "timeout": 60
+          },
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/stop-usage-footer-gate.mjs",
+            "timeout": 20
+          },
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/stop-governed-reply.mjs",
+            "timeout": 45
           }
         ]
       }
@@ -113,13 +108,14 @@
             "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/sophos-inject.sh prompt",
             "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/hier-memory-inject.mjs prompt",
+            "timeout": 20
           }
         ]
       }
     ]
-  },
-  "env": {
-    "MEMORY_OBSERVATIONS_ENABLED": "true",
-    "MEMORY_AUTO_OBSERVE_ENABLED": "true"
   }
 }
