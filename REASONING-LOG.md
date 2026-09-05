@@ -8,6 +8,70 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-05 — reconcile onboarding, observation, discovery, and arming
+
+**Asked.** Continue the household guard rollout carefully, preserving sibling work and independently reviewing before deployment.
+
+**Weighed.** The repaired onboarding and original observation/root/arming stack share an ancestor. Merged their original histories on an isolated integration branch. Only the log conflicted; retained both sides unchanged and proved all 36 source sections remained. The arming banner claimed a full canonical chain this leaf does not carry, and a failing observation subprocess could disappear silently.
+
+**Decided.** Preserve the observer-dispatch and machine-neutral root file; narrow arming output to configuration/execute-bit evidence, explicitly leave custom hook paths unevaluated, and warn without blocking when an observer fails. Protect the two added registrations. Fourteen isolated guard/integration/removal tests pass, independently reproduced by review. Additional reviewer probes covered nested-directory arming, repeated non-executable-hook warnings, and a custom path containing spaces. Settings retain existing hooks; recipe and image data are untouched. Source review approves the integration; these tests are not live installation evidence.
+
+**Unsure.** Local custom paths and missing observer roots still need explicit deployment checks. Arming does not prove downstream behavior, and same-machine review is not cryptographic quorum. Root discovery can still require an explicit environment path on this machine.
+
+## 2026-09-05 — align the adoption branch with the reviewed v2 guard trio
+
+**Asked.** Continue the authorized household guard rollout, preserving existing work and testing before merge.
+
+**Weighed.** Canonical candidate PR3308 adds a separate v2 store, repairs symlinked writes whose parents do not exist, and records leaf append outcomes truthfully. Leaving this branch at the earlier signature-only repair would retain the two reviewer-discovered defects and mix storage formats.
+
+**Decided.** Copy the complete reviewed trio and isolated adoption tests from the canonical candidate (code reviewed at 35be2379), plus its transition document. Eight local adoption tests pass. Recipe validation reports no errors and ten warnings across 9,394 recipes; no recipe, image, or site files changed. The branch remains a staged adoption, not a live deployment. Canonical review is not substituted for final leaf integration review.
+
+**Unsure.** Canonical merge and the leaf onboarding stack still need gate checks. All active writer copies and explicit overrides must be reconciled during deployment; a new source commit alone does not prove installation or independent quorum.
+
+Review follow-up: the required-hooks list did not protect the newly registered bootstrap guard, stamp writer, or dangerous-command guard. Added all three basenames and a disposable-repository test proving the shipped control passes and each removed registration is refused. Combined adoption/removal tests: 9/9. Independent review passed the new test and shell syntax check. Existing substring/working-tree semantics remain: this is removal protection, not matcher validation or a tamper-proof staged-index gate.
+
+## 2026-09-05 — adversarial adoption of the bootstrap guard
+
+**Asked.** Continue the authorized Sophos guard rollout and resolve blockers.
+
+**Weighed.** The existing onboarding adds leaf detection absent from the runtime baseline; the runtime adds read-only secret verification, shared session IDs, and a disk-read merge. Combining them exposed two failures in isolated tests: nested read evidence was excluded from the signature, and invalid disk evidence was imported by the merge helper.
+
+**Decided.** Preserve both sets of improvements, recursively bind the stamp body, and verify disk evidence before merging. Five isolated tests pass, including two that failed before the repair. Adopted code remains pending review; no independent endorsement is claimed.
+
+**Unsure.** The corrected signature rejects legacy stamps. Because stamp storage is shared across repositories, deployment needs coordinated canonical/writer adoption and a documented re-read transition. This branch must not be deployed alone while incompatible writers remain active. Disk union remains a best-effort mitigation, not a concurrency lock.
+
+_Runtime: Codex_
+
+## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
+
+**Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
+
+**Weighed.** Hooks fire unevenly across repos (this one registers few), so the discovery file exists precisely for the case where no hook runs — it is read, not executed. The generator writes layouts, never a machine path (UL-173/UL-337). Alternative of hand-writing the file: rejected, the generator is the SSOT and its output is what the household tests pin.
+
+**Decided.** Generated `.household-root` with `admin/write-household-root-file.mjs`; verified it names both roots, instructs fail-loud on non-resolution, and carries no absolute machine path. Stacked on this repo's open hook branch.
+
+**Unsure.** On this Mac the runtime clone is `~/ocs-work`, not `open-claw-stuff`, so the sibling/ancestor steps in the file do not find it by name here and a reader must say so — the standing naming mismatch (open-claw-stuff #2993), not something this file can fix.
+
+## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
+
+**Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
+
+**Weighed.** The PostToolUse observe hook pointed at `/home/user/ken/...`, absent on this Mac, so observation capture never ran and nothing said so. Alternatives: point it at a Mac path (the same defect mirrored — rejected); drop the hook (capture is doctrine — rejected); the canonical dispatch, which resolves by layout and fails loud-not-fatal — chosen, the same fix Project-Sophos #13 applied.
+
+**Decided.** Installed `observe-tool-use-dispatch.sh` from canonical and repointed the settings entry to `$CLAUDE_PROJECT_DIR`. Probed: this layout → NOT FOUND on stderr, exit 0; inert fake ken via HOUSEHOLD_KEN_ROOT → runs, exit 0. No machine path remains in settings.
+
+**Unsure.** Until `HOUSEHOLD_KEN_ROOT` is exported or a ken checkout sits beside this repo, capture still does not run here — now loudly instead of silently; whether the operator wants it running on the Mac at all is their call.
+
+## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
+
+**Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.
+
+**Weighed.** CLAUDE.md here asserts the household guards; the repo carried none of the hook files and no registrations, so the user-level dispatcher (which delegates only to repos carrying the guard file) admitted an unstamped Write — measured with an inert probe, exit 0. The remedy is the canonical installer, not a hand copy; the alternative of relying on user-level dispatch alone is exactly the false-CALM the parent task names.
+
+**Decided.** Ran `admin/onboard-loud-bootstrap.mjs` from a canonical clone at the #3077 fix: five hook files plus four settings registrations. Re-probed: DENIED (exit 2), no orphan .household-library, stamped session still allowed.
+
+**Unsure.** core.hooksPath is unset here, so the .githooks chain (including the reasoning-log guard) is dead in git — a separate household task (hh-hookspath-arming-parity); I did not arm it in this change.
+
 ## What this is (and an honest note on what it isn't)
 
 I can't literally pipe my raw internal tokens into a file — that verbatim inner monologue
