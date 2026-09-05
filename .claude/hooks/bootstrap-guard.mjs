@@ -18,6 +18,7 @@ import {
   readStdinJson,
   normalizeHookInput,
   sessionIdValid,
+  resolveSessionId,
   getRuntime,
 } from "./bootstrap-lib.mjs";
 
@@ -90,7 +91,7 @@ try {
   if (!isRepoMutation(input, repoRoot)) process.exit(0);
 
   const idValid = sessionIdValid(input.session_id);
-  const sessionId = idValid ? input.session_id : "unknown";
+  const sessionId = resolveSessionId(input);   // SSOT — must match the stamp writer exactly
   const stamp = verifyStamp(sessionId, input.raw || input);
   const missing = missingLayers(stamp);
 

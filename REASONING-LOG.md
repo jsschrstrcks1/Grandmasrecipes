@@ -8,6 +8,18 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-05 — adversarial adoption of the bootstrap guard
+
+**Asked.** Continue the authorized Sophos guard rollout and resolve blockers.
+
+**Weighed.** The existing onboarding adds leaf detection absent from the runtime baseline; the runtime adds read-only secret verification, shared session IDs, and a disk-read merge. Combining them exposed two failures in isolated tests: nested read evidence was excluded from the signature, and invalid disk evidence was imported by the merge helper.
+
+**Decided.** Preserve both sets of improvements, recursively bind the stamp body, and verify disk evidence before merging. Five isolated tests pass, including two that failed before the repair. Adopted code remains pending review; no independent endorsement is claimed.
+
+**Unsure.** The corrected signature rejects legacy stamps. Because stamp storage is shared across repositories, deployment needs coordinated canonical/writer adoption and a documented re-read transition. This branch must not be deployed alone while incompatible writers remain active. Disk union remains a best-effort mitigation, not a concurrency lock.
+
+_Runtime: Codex_
+
 ## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
 
 **Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.
