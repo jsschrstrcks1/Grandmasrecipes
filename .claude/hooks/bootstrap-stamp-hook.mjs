@@ -53,8 +53,7 @@ try {
 
   const missing = missingLayers(stamp);
   if (missing.length === 0 && !stamp.ledgered) {
-    stamp.ledgered = true;
-    appendEvent(
+    stamp.ledgered = appendEvent(
       {
         type: "bootstrap",
         patron: stamp.patron,

@@ -42,6 +42,21 @@ test('observing the required reads allows the same session', t => {
   f.run('bootstrap-stamp-hook.mjs', { ...f.input, tool_name: 'Bash', tool_input: { command: 'node admin/recall-memory.mjs' } });
   const r = f.run('bootstrap-guard.mjs', f.input);
   assert.equal(r.status, 0, r.stderr);
+  const stamp = JSON.parse(fs.readFileSync(path.join(f.env.HOUSEHOLD_BOOTSTRAP_ROOT, 'test.json'), 'utf8'));
+  assert.equal(stamp.ledgered, false, 'a skipped leaf ledger is not a successful append');
+  assert.equal(fs.existsSync(path.join(f.repo, '.household-library')), false);
+});
+
+test('symlinked leaf writes deny even when several parent directories do not exist', t => {
+  const f = fixture(t);
+  const alias = path.join(f.root, 'alias');
+  fs.symlinkSync(f.repo, alias, 'dir');
+  for (const suffix of ['inert.txt', 'missing/deeper/inert.txt']) {
+    const r = f.run('bootstrap-guard.mjs', { ...f.input, tool_input: { file_path: path.join(alias, suffix) } });
+    assert.equal(r.status, 2, `${suffix}: ${r.stderr}`);
+  }
+  const outside = f.run('bootstrap-guard.mjs', { ...f.input, tool_input: { file_path: path.join(f.root, 'outside/inert.txt') } });
+  assert.equal(outside.status, 0, outside.stderr);
 });
 
 test('verification with a missing secret is read-only', t => {
@@ -64,4 +79,21 @@ test('disk merge rejects a forged stamp rather than sealing its claimed reads', 
   const r = f.script(`const s=b.newStamp('test'); s.layers_read.sophos='fabricated'; s.hmac='invalid'; fs.mkdirSync(b.stampRoot(),{recursive:true}); fs.writeFileSync(b.stampPath('test'),JSON.stringify(s)); const fresh=b.newStamp('test'); b.mergeLayersFromDisk(fresh); console.log(fresh.layers_read.sophos === null);`);
   assert.equal(r.status, 0, r.stderr);
   assert.equal(r.stdout.trim(), 'true');
+});
+
+test('legacy seals are rejected even when their signing secret is available', t => {
+  const f = fixture(t);
+  const r = f.script(`const {createHmac}=await import('node:crypto'); const s=b.newStamp('test'); const key=b.getSecret(); const {hmac,...body}=s; s.hmac=createHmac('sha256',key).update(JSON.stringify(body,Object.keys(body).sort())).digest('hex'); fs.writeFileSync(b.stampPath('test'),JSON.stringify(s)); console.log(b.verifyStamp('test') === 'forged');`);
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(r.stdout.trim(), 'true');
+});
+
+test('default v2 storage is separate for Claude and Grok; explicit override is preserved', t => {
+  const f = fixture(t);
+  const r = f.script(`const explicit=b.stampRoot(); delete process.env.HOUSEHOLD_BOOTSTRAP_ROOT; process.env.HOUSEHOLD_RUNTIME='claude-code'; const claude=b.stampRoot(); process.env.HOUSEHOLD_RUNTIME='grok'; console.log(JSON.stringify({explicit,claude,grok:b.stampRoot()}));`);
+  assert.equal(r.status, 0, r.stderr);
+  const paths = JSON.parse(r.stdout);
+  assert.equal(paths.explicit, f.env.HOUSEHOLD_BOOTSTRAP_ROOT);
+  assert.equal(paths.claude, path.join(os.homedir(), '.claude/household-bootstrap/household-v2'));
+  assert.equal(paths.grok, path.join(os.homedir(), '.grok/household-bootstrap/household-v2'));
 });

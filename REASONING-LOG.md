@@ -8,6 +8,16 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-05 — align the adoption branch with the reviewed v2 guard trio
+
+**Asked.** Continue the authorized household guard rollout, preserving existing work and testing before merge.
+
+**Weighed.** Canonical candidate PR3308 adds a separate v2 store, repairs symlinked writes whose parents do not exist, and records leaf append outcomes truthfully. Leaving this branch at the earlier signature-only repair would retain the two reviewer-discovered defects and mix storage formats.
+
+**Decided.** Copy the complete reviewed trio and isolated adoption tests from the canonical candidate (code reviewed at 35be2379), plus its transition document. Eight local adoption tests pass. Recipe validation reports no errors and ten warnings across 9,394 recipes; no recipe, image, or site files changed. The branch remains a staged adoption, not a live deployment. Canonical review is not substituted for final leaf integration review.
+
+**Unsure.** Canonical merge and the leaf onboarding stack still need gate checks. All active writer copies and explicit overrides must be reconciled during deployment; a new source commit alone does not prove installation or independent quorum.
+
 ## 2026-09-05 — adversarial adoption of the bootstrap guard
 
 **Asked.** Continue the authorized Sophos guard rollout and resolve blockers.

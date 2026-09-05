@@ -196,9 +196,9 @@ export function stampRoot(input = null) {
   }
   const runtime = getRuntime();
   if (runtime === "grok") {
-    return path.join(os.homedir(), ".grok", "household-bootstrap", "household");
+    return path.join(os.homedir(), ".grok", "household-bootstrap", "household-v2");
   }
-  return path.join(os.homedir(), ".claude", "household-bootstrap", "household");
+  return path.join(os.homedir(), ".claude", "household-bootstrap", "household-v2");
 }
 
 export function eventsPath(input = null) {
