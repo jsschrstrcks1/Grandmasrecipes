@@ -18,6 +18,8 @@ file is that record.
 
 **Unsure.** Canonical merge and the leaf onboarding stack still need gate checks. All active writer copies and explicit overrides must be reconciled during deployment; a new source commit alone does not prove installation or independent quorum.
 
+Review follow-up: the required-hooks list did not protect the newly registered bootstrap guard, stamp writer, or dangerous-command guard. Added all three basenames and a disposable-repository test proving the shipped control passes and each removed registration is refused. Combined adoption/removal tests: 9/9. Independent review passed the new test and shell syntax check. Existing substring/working-tree semantics remain: this is removal protection, not matcher validation or a tamper-proof staged-index gate.
+
 ## 2026-09-05 — adversarial adoption of the bootstrap guard
 
 **Asked.** Continue the authorized Sophos guard rollout and resolve blockers.
