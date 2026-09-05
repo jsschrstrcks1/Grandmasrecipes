@@ -8,6 +8,30 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-05 — align the adoption branch with the reviewed v2 guard trio
+
+**Asked.** Continue the authorized household guard rollout, preserving existing work and testing before merge.
+
+**Weighed.** Canonical candidate PR3308 adds a separate v2 store, repairs symlinked writes whose parents do not exist, and records leaf append outcomes truthfully. Leaving this branch at the earlier signature-only repair would retain the two reviewer-discovered defects and mix storage formats.
+
+**Decided.** Copy the complete reviewed trio and isolated adoption tests from the canonical candidate (code reviewed at 35be2379), plus its transition document. Eight local adoption tests pass. Recipe validation reports no errors and ten warnings across 9,394 recipes; no recipe, image, or site files changed. The branch remains a staged adoption, not a live deployment. Canonical review is not substituted for final leaf integration review.
+
+**Unsure.** Canonical merge and the leaf onboarding stack still need gate checks. All active writer copies and explicit overrides must be reconciled during deployment; a new source commit alone does not prove installation or independent quorum.
+
+Review follow-up: the required-hooks list did not protect the newly registered bootstrap guard, stamp writer, or dangerous-command guard. Added all three basenames and a disposable-repository test proving the shipped control passes and each removed registration is refused. Combined adoption/removal tests: 9/9. Independent review passed the new test and shell syntax check. Existing substring/working-tree semantics remain: this is removal protection, not matcher validation or a tamper-proof staged-index gate.
+
+## 2026-09-05 — adversarial adoption of the bootstrap guard
+
+**Asked.** Continue the authorized Sophos guard rollout and resolve blockers.
+
+**Weighed.** The existing onboarding adds leaf detection absent from the runtime baseline; the runtime adds read-only secret verification, shared session IDs, and a disk-read merge. Combining them exposed two failures in isolated tests: nested read evidence was excluded from the signature, and invalid disk evidence was imported by the merge helper.
+
+**Decided.** Preserve both sets of improvements, recursively bind the stamp body, and verify disk evidence before merging. Five isolated tests pass, including two that failed before the repair. Adopted code remains pending review; no independent endorsement is claimed.
+
+**Unsure.** The corrected signature rejects legacy stamps. Because stamp storage is shared across repositories, deployment needs coordinated canonical/writer adoption and a documented re-read transition. This branch must not be deployed alone while incompatible writers remain active. Disk union remains a best-effort mitigation, not a concurrency lock.
+
+_Runtime: Codex_
+
 ## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
 
 **Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.
