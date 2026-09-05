@@ -8,6 +8,16 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-05 — reconcile onboarding, observation, discovery, and arming
+
+**Asked.** Continue the household guard rollout carefully, preserving sibling work and independently reviewing before deployment.
+
+**Weighed.** The repaired onboarding and original observation/root/arming stack share an ancestor. Merged their original histories on an isolated integration branch. Only the log conflicted; retained both sides unchanged and proved all 36 source sections remained. The arming banner claimed a full canonical chain this leaf does not carry, and a failing observation subprocess could disappear silently.
+
+**Decided.** Preserve the observer-dispatch and machine-neutral root file; narrow arming output to configuration/execute-bit evidence, explicitly leave custom hook paths unevaluated, and warn without blocking when an observer fails. Protect the two added registrations. Fourteen isolated guard/integration/removal tests pass, independently reproduced by review. Additional reviewer probes covered nested-directory arming, repeated non-executable-hook warnings, and a custom path containing spaces. Settings retain existing hooks; recipe and image data are untouched. Source review approves the integration; these tests are not live installation evidence.
+
+**Unsure.** Local custom paths and missing observer roots still need explicit deployment checks. Arming does not prove downstream behavior, and same-machine review is not cryptographic quorum. Root discovery can still require an explicit environment path on this machine.
+
 ## 2026-09-05 — align the adoption branch with the reviewed v2 guard trio
 
 **Asked.** Continue the authorized household guard rollout, preserving existing work and testing before merge.
@@ -31,6 +41,26 @@ Review follow-up: the required-hooks list did not protect the newly registered b
 **Unsure.** The corrected signature rejects legacy stamps. Because stamp storage is shared across repositories, deployment needs coordinated canonical/writer adoption and a documented re-read transition. This branch must not be deployed alone while incompatible writers remain active. Disk union remains a best-effort mitigation, not a concurrency lock.
 
 _Runtime: Codex_
+
+## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
+
+**Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
+
+**Weighed.** Hooks fire unevenly across repos (this one registers few), so the discovery file exists precisely for the case where no hook runs — it is read, not executed. The generator writes layouts, never a machine path (UL-173/UL-337). Alternative of hand-writing the file: rejected, the generator is the SSOT and its output is what the household tests pin.
+
+**Decided.** Generated `.household-root` with `admin/write-household-root-file.mjs`; verified it names both roots, instructs fail-loud on non-resolution, and carries no absolute machine path. Stacked on this repo's open hook branch.
+
+**Unsure.** On this Mac the runtime clone is `~/ocs-work`, not `open-claw-stuff`, so the sibling/ancestor steps in the file do not find it by name here and a reader must say so — the standing naming mismatch (open-claw-stuff #2993), not something this file can fix.
+
+## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
+
+**Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
+
+**Weighed.** The PostToolUse observe hook pointed at `/home/user/ken/...`, absent on this Mac, so observation capture never ran and nothing said so. Alternatives: point it at a Mac path (the same defect mirrored — rejected); drop the hook (capture is doctrine — rejected); the canonical dispatch, which resolves by layout and fails loud-not-fatal — chosen, the same fix Project-Sophos #13 applied.
+
+**Decided.** Installed `observe-tool-use-dispatch.sh` from canonical and repointed the settings entry to `$CLAUDE_PROJECT_DIR`. Probed: this layout → NOT FOUND on stderr, exit 0; inert fake ken via HOUSEHOLD_KEN_ROOT → runs, exit 0. No machine path remains in settings.
+
+**Unsure.** Until `HOUSEHOLD_KEN_ROOT` is exported or a ken checkout sits beside this repo, capture still does not run here — now loudly instead of silently; whether the operator wants it running on the Mac at all is their call.
 
 ## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
 
