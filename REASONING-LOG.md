@@ -8,6 +8,70 @@ You asked for a live stream of consciousness: when you ask me a question or hand
 task, you want to see how I reached the conclusion and why I made the calls I made. This
 file is that record.
 
+## 2026-09-05 — reconcile onboarding, observation, discovery, and arming
+
+**Asked.** Continue the household guard rollout carefully, preserving sibling work and independently reviewing before deployment.
+
+**Weighed.** The repaired onboarding and original observation/root/arming stack share an ancestor. Merged their original histories on an isolated integration branch. Only the log conflicted; retained both sides unchanged and proved all 36 source sections remained. The arming banner claimed a full canonical chain this leaf does not carry, and a failing observation subprocess could disappear silently.
+
+**Decided.** Preserve the observer-dispatch and machine-neutral root file; narrow arming output to configuration/execute-bit evidence, explicitly leave custom hook paths unevaluated, and warn without blocking when an observer fails. Protect the two added registrations. Fourteen isolated guard/integration/removal tests pass, independently reproduced by review. Additional reviewer probes covered nested-directory arming, repeated non-executable-hook warnings, and a custom path containing spaces. Settings retain existing hooks; recipe and image data are untouched. Source review approves the integration; these tests are not live installation evidence.
+
+**Unsure.** Local custom paths and missing observer roots still need explicit deployment checks. Arming does not prove downstream behavior, and same-machine review is not cryptographic quorum. Root discovery can still require an explicit environment path on this machine.
+
+## 2026-09-05 — align the adoption branch with the reviewed v2 guard trio
+
+**Asked.** Continue the authorized household guard rollout, preserving existing work and testing before merge.
+
+**Weighed.** Canonical candidate PR3308 adds a separate v2 store, repairs symlinked writes whose parents do not exist, and records leaf append outcomes truthfully. Leaving this branch at the earlier signature-only repair would retain the two reviewer-discovered defects and mix storage formats.
+
+**Decided.** Copy the complete reviewed trio and isolated adoption tests from the canonical candidate (code reviewed at 35be2379), plus its transition document. Eight local adoption tests pass. Recipe validation reports no errors and ten warnings across 9,394 recipes; no recipe, image, or site files changed. The branch remains a staged adoption, not a live deployment. Canonical review is not substituted for final leaf integration review.
+
+**Unsure.** Canonical merge and the leaf onboarding stack still need gate checks. All active writer copies and explicit overrides must be reconciled during deployment; a new source commit alone does not prove installation or independent quorum.
+
+Review follow-up: the required-hooks list did not protect the newly registered bootstrap guard, stamp writer, or dangerous-command guard. Added all three basenames and a disposable-repository test proving the shipped control passes and each removed registration is refused. Combined adoption/removal tests: 9/9. Independent review passed the new test and shell syntax check. Existing substring/working-tree semantics remain: this is removal protection, not matcher validation or a tamper-proof staged-index gate.
+
+## 2026-09-05 — adversarial adoption of the bootstrap guard
+
+**Asked.** Continue the authorized Sophos guard rollout and resolve blockers.
+
+**Weighed.** The existing onboarding adds leaf detection absent from the runtime baseline; the runtime adds read-only secret verification, shared session IDs, and a disk-read merge. Combining them exposed two failures in isolated tests: nested read evidence was excluded from the signature, and invalid disk evidence was imported by the merge helper.
+
+**Decided.** Preserve both sets of improvements, recursively bind the stamp body, and verify disk evidence before merging. Five isolated tests pass, including two that failed before the repair. Adopted code remains pending review; no independent endorsement is claimed.
+
+**Unsure.** The corrected signature rejects legacy stamps. Because stamp storage is shared across repositories, deployment needs coordinated canonical/writer adoption and a documented re-read transition. This branch must not be deployed alone while incompatible writers remain active. Disk union remains a best-effort mitigation, not a concurrency lock.
+
+_Runtime: Codex_
+
+## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
+
+**Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
+
+**Weighed.** Hooks fire unevenly across repos (this one registers few), so the discovery file exists precisely for the case where no hook runs — it is read, not executed. The generator writes layouts, never a machine path (UL-173/UL-337). Alternative of hand-writing the file: rejected, the generator is the SSOT and its output is what the household tests pin.
+
+**Decided.** Generated `.household-root` with `admin/write-household-root-file.mjs`; verified it names both roots, instructs fail-loud on non-resolution, and carries no absolute machine path. Stacked on this repo's open hook branch.
+
+**Unsure.** On this Mac the runtime clone is `~/ocs-work`, not `open-claw-stuff`, so the sibling/ancestor steps in the file do not find it by name here and a reader must say so — the standing naming mismatch (open-claw-stuff #2993), not something this file can fix.
+
+## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
+
+**Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
+
+**Weighed.** The PostToolUse observe hook pointed at `/home/user/ken/...`, absent on this Mac, so observation capture never ran and nothing said so. Alternatives: point it at a Mac path (the same defect mirrored — rejected); drop the hook (capture is doctrine — rejected); the canonical dispatch, which resolves by layout and fails loud-not-fatal — chosen, the same fix Project-Sophos #13 applied.
+
+**Decided.** Installed `observe-tool-use-dispatch.sh` from canonical and repointed the settings entry to `$CLAUDE_PROJECT_DIR`. Probed: this layout → NOT FOUND on stderr, exit 0; inert fake ken via HOUSEHOLD_KEN_ROOT → runs, exit 0. No machine path remains in settings.
+
+**Unsure.** Until `HOUSEHOLD_KEN_ROOT` is exported or a ken checkout sits beside this repo, capture still does not run here — now loudly instead of silently; whether the operator wants it running on the Mac at all is their call.
+
+## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
+
+**Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.
+
+**Weighed.** CLAUDE.md here asserts the household guards; the repo carried none of the hook files and no registrations, so the user-level dispatcher (which delegates only to repos carrying the guard file) admitted an unstamped Write — measured with an inert probe, exit 0. The remedy is the canonical installer, not a hand copy; the alternative of relying on user-level dispatch alone is exactly the false-CALM the parent task names.
+
+**Decided.** Ran `admin/onboard-loud-bootstrap.mjs` from a canonical clone at the #3077 fix: five hook files plus four settings registrations. Re-probed: DENIED (exit 2), no orphan .household-library, stamped session still allowed.
+
+**Unsure.** core.hooksPath is unset here, so the .githooks chain (including the reasoning-log guard) is dead in git — a separate household task (hh-hookspath-arming-parity); I did not arm it in this change.
+
 ## What this is (and an honest note on what it isn't)
 
 I can't literally pipe my raw internal tokens into a file — that verbatim inner monologue
@@ -30,6 +94,228 @@ Each entry follows the same shape so you can skim or dig:
 Newest entries go at the top.
 
 ---
+
+## 2026-08-30 — The culled scans: found, reviewed one by one, five restored (syl)
+
+**Asked.** Operator: the full scan album was in the repository and was supposed to have
+been kept by Claude — check git history, find which session deleted it, and restore only
+the ones that were recipes, only the recipes in her handwriting.
+
+**Weighed.** No reachable commit ever deletes a `Grandmas-recipes - N.jpeg`: the history
+has FOUR root commits (2026-01-15..17), so the January cull lives in pre-restart history
+no branch reaches. The two 2026-01-17 "Restore image …" commits are the receipts: a prior
+session culled scans it judged "typed/printed" and a later one clawed five back for their
+handwritten annotations. GitHub still holds the old PR head refs, so I fetched
+refs/pull/1..40 blob-less: the album peaked at 542 numbered scans (PRs #1–8), fell
+542→538→530→485 across the cull, and today's 490 includes the five January restores.
+Union of the PR trees minus disk = 52 culled scans, all recovered byte-exact from
+GitHub's object store. I then viewed all 52 myself, one by one — the January mistake was
+exactly a classification done carelessly, so no surveyor agents this time.
+
+**Decided.** Of the 52: 31 are printed matter (newspaper/magazine clippings, a flour-bag
+panel, a Chex box, CBN newsletter pages) with no handwriting — correctly culled, left
+out. 14 are typewritten personal cards with no handwritten marks — left out under the
+operator's "in her handwriting" criterion. 1 (991) is a duplicate photo of the Mary
+Meade's Eggnog clipping already preserved as 992 — left out (no duplicates). 1 (1002) is
+a second photo of the same typed Shortbread card as 853 — left out. **5 restored**, all
+typed cards carrying her handwriting, the same wrongly-culled class the January restores
+corrected: 855+856 Pie Crust graham-cracker-type (blue-ink "as you do graham cracker
+crust", "med", "large") → pie-crust-wheat-germ-healthy; 881 Whole Wheat Nut Bread
+(penciled doubling numbers down both margins) → whole-wheat-nut-bread-good; 917 Bean
+Salad (ink "24" correcting the standing time) → four-bean-salad; 796 Gen's Nut Cookies
+(ink scratch-out) → gens-nut-cookies. All four records had survived with emptied
+image_refs and match their cards; refs re-linked, shards/index rebuilt, validator clean,
+dedup --check CLEAN. Temporary pr-head branches and partial-clone config removed after.
+
+**Unsure.** Whether the 796 scratch-out is pen or typewriter overstrike — I judged pen
+from the stroke shapes, moderate confidence; restoring on that judgment errs toward
+preservation, which is the cheap direction. Zero fully-handwritten recipe cards were
+among the 52 — her handwritten cards were never deleted — but I cannot see what predates
+PR #1: if scans existed before the first surviving PR ref, no evidence of them remains
+in git, and only the operator's own photo archive could say.
+
+## 2026-08-30 — Cooking with Grandma: album photos linked to her recipe cards (syl)
+
+**Asked.** Operator: "make sure they are linked to their recipe cards. so we can cook
+with grandma one more time." Constraints added mid-task: ensure no duplicates; careful
+not clever; soli deo gloria; sophos.
+
+**Weighed.** 606 album photos is too many to eyeball serially in one lane, so six
+parallel surveyor agents each described a disjoint batch of 101 (JSONL: scene, foods,
+kitchen flag). Merged: 606 unique rows, 0 duplicate files, 60 photos with a nameable
+food, 41 cooking/kitchen scenes. The matching bar I set: link a photo ONLY when (a) a
+stranger could name the dish from the photo, (b) a grandma-baker (family) record for
+that dish exists — never a researched import, and (c) I personally viewed the photo and
+confirmed the surveyor's description before writing the link. Candidates that failed:
+strawberry shortcake (photo 324 is clearly shortcake, but no grandma-baker shortcake
+record exists — linking it to a researched record would fake intimacy); the birthday
+cake shots (a frosted chocolate cake cannot be truthfully attributed to ONE of her four
+chocolate cake recipes); activity shots with no nameable dish (stove, sink, onion
+slicing) — treasures, but no honest single-recipe home.
+
+**Decided.** 7 photos linked to 5 grandma-baker records via a new additive
+`family_photos` field: cheese ball on the patio → grandmas-cheese-ball-handwritten (80);
+mashed potatoes on the plates at two family dinners → mashed-potatoes-classic (103,
+461); decorating Christmas cutouts → sugar-cookie-cutouts (553); barbecue ribs at the
+pavilion cookout → old-fashioned-spare-ribs (403); the dressing casserole at the center
+of the holiday table → turkey-dressing-tennessee-pride (558, 559). Dedupe enforced two
+ways: order-preserving dedupe within each record's list, and a cross-record check that
+refuses any photo appearing under two records. The renderer ("Cooking with Grandma"
+section after nutrition, ON by default) shipped in the prior commit. Gates: validator
+no errors; dedup --check CLEAN over 9394; shards + index regenerated.
+
+**Unsure.** The ribs link (403) is the weakest of the five: the ribs are plainly
+barbecued ribs and the setting is the family pavilion, but nothing in the photo proves
+they were made from HER spare-ribs recipe — the other four links carry the same caveat
+in gentler degrees. I judged "her table, her dish, her recipe card" the right standard
+for a memorial feature and said so here rather than silently. 599 photos remain
+unlinked; that is honesty, not incompleteness — most of the album is faces, not food.
+
+## 2026-08-30 — Grandma's memorial album moves home (syl)
+
+**Asked.** Operator (clarifying cleanup item 6): the Memorial/Grandma images in
+Grannysrecipes belong to Grandma, not Granny — move them to this repo, linked to the
+relevant recipes here.
+
+**Weighed.** The album is 618 files (606 photos, 12 videos, 394 MB; largest file 27 MB,
+under GitHub's limit). Whether any photos were recipe-relevant was tested, not assumed:
+a mechanical document-likeness triage scored all 606 images (brightness/saturation/edge
+density — paper cards score high), and the top-ranked candidates plus spread samples were
+reviewed by eye — 11 images total. Every one is a family photo (gatherings, meals,
+portraits, one double-exposed wedding print); zero recipe cards or clippings.
+
+**Decided.** Memorial/Grandma moved here whole and removed from Grannysrecipes. NO
+photo-to-recipe links were minted, because none would be truthful — a link claiming a
+photo shows a particular recipe is exactly the fabrication class this archive forbids.
+The album is linked at collection level instead (README section naming it). If specific
+photos are known to show a dish from the collection, naming them is enough to add real
+links.
+
+**Unsure.** 595 of 606 images were classified by the triage heuristic rather than by
+eye; a recipe card hiding in a dark or low-contrast photo would rank low and could be
+missed, though every high-ranking candidate checked was a photo.
+
+## 2026-08-30 — Reader display settings on recipe pages (syl)
+
+**Asked.** Operator: recipe pages show a LOT of data — add a settings area so readers
+pick sections. Default view: the recipe with instructions first, then nutrition facts;
+everything else unchecked. And (mid-work directive): with ALL settings on, the recipe
+still leads and nutrition still follows it. Also answered: no, this did not exist before
+— this session had only added variant tabs.
+
+**Weighed.** The four sites share one script lineage, so one transformation was verified
+on Allrecipes then applied with per-pattern exact-match counts (Grandmas needed its own
+function-signature anchor and had an unconditional milk-substitution div to wrap). The
+template was REORDERED, not just gated: description, source note, quick facts, and the
+milk-substitution panel moved from above the ingredients to after nutrition, so section
+order no longer depends on which toggles are on. The gear panel lists only sections the
+current page actually has; prefs persist in localStorage (per browser, never server).
+
+**Decided.** Defaults: nutrition ON; description, source, quick facts, milk-sub, notes,
+tags, tips, confidence/flags, original scan all OFF. Verified in a real browser
+(Playwright against a locally served copy): section order ingredients → instructions →
+nutrition → optionals; nutrition visible and quick facts hidden by default; the gear
+lists only present sections; checking Notes reveals it; the choice SURVIVES a reload.
+
+**Unsure.** A pre-existing page error fires on recipe.html opened without a recipe hash
+("Cannot read properties of null (reading style)") — reproduced on HEAD before this
+change, left for its own fix. The conversion-notes block stays tied to the metric button
+rather than the gear, deliberately — it already has a control.
+
+## 2026-08-30 — Follow-up C: cross-title same-dish variants, a REVIEWED pass (syl)
+
+**Asked.** Operator: proceed — the "Grandma's Beef Wellington vs Gordon Ramsay's Beef
+Wellington" class, deliberately left out of the mechanical phase 2.
+
+**Weighed.** Candidates come from stripping ONLY attribution markers (leading possessive
+names, trailing parentheticals); a cluster links ONLY when a bare-titled member exists to
+be the canonical — clusters without one (Cheese Cake (Lemon Jello) vs (Philadelphia)) may
+be different dishes and are DEFERRED to admin/CROSS-TITLE-VARIANTS-REVIEW.json, never
+auto-linked. The dry-run lists were read line by line, and review caught three real
+traps, each now a guard in the tool: dish-name possessives (Devil's Cake is not anyone's
+attribution of "Cake"; Millionaire's Shortbread is its own dish), generic cores (Min's
+Cake under a record titled just "Cake" claims more than titles know), and an
+ingredient-overlap check born from Bailey's Peppermint Cream — a liqueur drink that would
+have tabbed under a gelatin candy. Placeholder ingredient lists ("See instructions")
+count as no-data so sparse records are judged by title, not fake mismatch.
+
+**Decided.** Links applied additive-only with the phase-2 contract (no rewrites, no
+2-cycles, family roots adopted). Where the overlap guard deferred pairs that eyes-on
+review confirmed same-dish (apple pie 1796 vs modern, mix vs scratch biscuits,
+bread-machine versions, Chef's Hamburgers, Sara's ancients Sponge Cake, Ethelyn's Carrot
+Casserole), they were hand-linked and recorded as hand_reviewed_links in the report.
+Integrity after: 0 cycles, 0 broken refs, 0 one-directional links; dedup --check CLEAN;
+shards + indexes regenerated.
+
+**Unsure.** The deferred clusters in the review report are genuinely ambiguous and wait
+for Ken. The threshold (0.25 word overlap) is a judgment; its false-defers were caught by
+hand this pass, but a future pass should re-eyeball anything it defers.
+
+## 2026-08-30 — Variant tabs on the recipe page, phase 3 (syl)
+
+**Asked:** One listing per dish; versions as tabs with provenance (operator directive,
+household dup/variant campaign).
+
+**Weighed:** This site already collapsed variants in its lists and resolved families in
+findVariants, but presented them as a <select> dropdown. Tabs put the versions in sight:
+labeled by attribution (then short source note, then title), canonical first, active tab
+inert, aria tablist roles, hover shows full title + variant notes. Identical change
+applied across the three family sites and Other Recipes — the scripts share one lineage
+and were patched from one verified template (exact-match replacement, node --check on
+each).
+
+**Decided:** renderVariantsDropdown -> renderVariantTabs; select-change handler -> tab
+click handlers; .variant-tab styles appended beside the dropdown styles. Presentation
+only; 0 data records changed.
+
+**Unsure:** Untested in a browser here; logic mirrors the dropdown handler one-for-one.
+
+## 2026-08-30 — Variant linking, phase 2 (syl)
+
+**Asked:** Link same-dish recipes to a canonical primary (variants keep both, tabs later),
+per operator law 990f37e1.
+
+**Weighed:** This store had prior variant work: 322 records listing variants, 41 with
+variant_of — including 161 MUTUAL pairs (each lists the other, no direction), which would
+have minted 2-cycles under naive repair; the linker now normalizes a mutual pair to one
+scored canonical, follows existing variant_of chains to their root before electing, and
+never claims a member that already belongs to a different family (2 cheese-family chains
+left alone and reported). Clusters = identical normalized title; canonical election:
+family collections (mommom-baker/grandma-baker/granny-hudson) first, then completeness,
+then named source. Different-title same-dish pairs deliberately not auto-linked.
+
+**Decided:** 161 mutual claims normalized; 840 clusters linked (1077 variant_of + 1115
+variants entries, additive-only); 3 pre-existing dangling refs repaired (one empty-string
+variant_of, two variants entries naming ids absent from the store). Integrity after: 0
+cycles (deep chain walk), 0 broken refs, 0 one-directional links. Full link report in
+admin/VARIANTS-LINKED.json; shards + index rebuilt; validate exit 0.
+
+**Unsure:** Mechanical canonical election may not always match family preference — the
+report lists every cluster so re-election is a one-field edit. The two reported cheese
+conflicts are prior families whose titles overlap newer clusters; left for a human eye.
+
+## 2026-08-30 — Exact-duplicate removal, phase 1 (syl)
+
+**Asked:** Operator campaign: duplicates are forbidden, variants are OK (one recipe, tabs
+per variant with provenance). Remove exact duplicates first.
+
+**Weighed:** Law 990f37e1: duplicates = EXACT same recipe → remove; dedup key name+source.
+First dry-run keyed title+ingredients+instructions and flagged 6 — but two pairs here were
+reference guides (0 ingredients; substance in notes: two DIFFERENT pork/ham guide pages,
+two DIFFERENT meat-buying charts, different source photos). Collapsing them would have
+lost transcription. Added notes to the identity key; those pairs stay for phase 2 variant
+linking. This repo's own analyze_duplicates/execute_merges pipeline is the phase-2
+convention (variant_of + audit log); this pass deliberately used the narrower
+exact-content tool shared with Allrecipes.
+
+**Decided:** scripts/dedup_exact_duplicates.py (dry-run default) removed 2 records:
+haystacks-candy (= haystacks-family byte-for-byte, same attribution Carol Willison) and
+whole-wheat-bread (= whole-wheat-bread-bhg, attribution empty on the removed side).
+Keeper = most complete; removed records preserved whole in admin/MERGED-AWAY.json.
+9396 → 9394. build_shards + generate_index rerun; validate-recipes exit 0.
+
+**Unsure:** Nothing material — both pairs verified identical across
+title/ingredients/instructions/notes before applying.
 
 ## 2026-08-11 — rysn: household sync of soli-deo-gloria (a link that resolved in only one repo)
 

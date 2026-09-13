@@ -1,0 +1,4066 @@
+[
+ {
+  "date": "2026-08-30T11:33:09Z",
+  "linked": [
+   {
+    "core": "afuega'l pitu",
+    "canonical": "afuegal-pitu",
+    "linked": [
+     {
+      "id": "afuegal-pitu-asturian",
+      "title": "Afuega'l Pitu (Asturian Spicy Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "akkawi cheese",
+    "canonical": "akkawi",
+    "linked": [
+     {
+      "id": "akkawi-cheese",
+      "title": "Akkawi Cheese (Palestinian White Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "appenzeller",
+    "canonical": "appenzeller",
+    "linked": [
+     {
+      "id": "ch-appenzeller-classic",
+      "title": "Appenzeller (Herbed Brine Washed)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "argentine provoleta",
+    "canonical": "argentine-provoleta",
+    "linked": [
+     {
+      "id": "argentine-provoleta-small-batch",
+      "title": "Argentine Provoleta (Small Batch)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "asiago pressato",
+    "canonical": "asiago-pressato",
+    "linked": [
+     {
+      "id": "ita-asiago-pressato",
+      "title": "Asiago Pressato (Fresh Asiago)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "asiago stravecchio",
+    "canonical": "asiago-stravecchio",
+    "linked": [
+     {
+      "id": "ita-asiago-stravecchio",
+      "title": "Asiago Stravecchio (Extra-Aged Asiago)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "aura",
+    "canonical": "finnish-aura",
+    "linked": [
+     {
+      "id": "blue-vein-aura",
+      "title": "Aura (Finnish Blue)"
+     },
+     {
+      "id": "finnish-aura-blue",
+      "title": "Aura (Finnish Blue Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "australian cheddar",
+    "canonical": "australian-cheddar",
+    "linked": [
+     {
+      "id": "australian-cheddar-small-batch",
+      "title": "Australian Cheddar (Small Batch)"
+     },
+     {
+      "id": "australian-cheddar-traditional",
+      "title": "Australian Cheddar (Traditional Style)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "azeitão",
+    "canonical": "azeitao",
+    "linked": [
+     {
+      "id": "sheep-milk-azeitao",
+      "title": "Azeitão (Portuguese Soft Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "baked beans",
+    "canonical": "baked-beans-bhg",
+    "linked": [
+     {
+      "id": "karens-baked-beans",
+      "title": "Karen's Baked Beans"
+     },
+     {
+      "id": "baked-beans-quick-method-grandmas-molasses",
+      "title": "Baked Beans (Quick Method)"
+     }
+    ],
+    "already": [
+     "baked-beans-mrs-james-hurst"
+    ]
+   },
+   {
+    "core": "baked chicken",
+    "canonical": "baked-chicken-chickenrec",
+    "linked": [
+     {
+      "id": "baked-chicken-pepsi-can",
+      "title": "Baked Chicken (Pepsi Can)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "banana bread",
+    "canonical": "banana-bread-bhg",
+    "linked": [
+     {
+      "id": "banana-bread-handwritten-granny",
+      "title": "Banana Bread (Handwritten with Stove Drawing)"
+     }
+    ],
+    "already": [
+     "banana-bread-quick",
+     "banana-bread-dewolf-granny",
+     "banana-bread-ref"
+    ]
+   },
+   {
+    "core": "bandel cheese",
+    "canonical": "bandel-cheese",
+    "linked": [
+     {
+      "id": "bandel-bengali-smoked-cheese",
+      "title": "Bandel Cheese (Bengali Smoked Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "banon",
+    "canonical": "banon",
+    "linked": [
+     {
+      "id": "leaf-wrapped-banon",
+      "title": "Banon (Chestnut Leaf-Wrapped)"
+     },
+     {
+      "id": "artisan-french-banon",
+      "title": "Banon (Chestnut Leaf Wrapped)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "beef rice meatballs",
+    "canonical": "beef-rice-meatballs-granny",
+    "linked": [
+     {
+      "id": "beef-rice-meatballs-handwritten-granny",
+      "title": "Beef Rice Meatballs (Handwritten)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "beignets",
+    "canonical": "beignets-yeast",
+    "linked": [
+     {
+      "id": "beignets-french-fritters",
+      "title": "Beignets (French Fritters)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "berner alpkäse aop",
+    "canonical": "berner-alpkase-aop",
+    "linked": [
+     {
+      "id": "ch-berner-alpkaese-aop",
+      "title": "Berner Alpkäse AOP (Bernese Alpine Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "bitto storico",
+    "canonical": "bitto-storico",
+    "linked": [
+     {
+      "id": "ita-bitto-storico",
+      "title": "Bitto Storico (Historic Bitto)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "blackberry cobbler",
+    "canonical": "foxfire-blackberry-cobbler",
+    "linked": [
+     {
+      "id": "foxfire3-blackberry-cobbler",
+      "title": "Blackberry Cobbler (Foxfire 3)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "bleached apple pie",
+    "canonical": "foxfire-4-bleached-apple-pie",
+    "linked": [
+     {
+      "id": "foxfire4-bleached-apple-pie",
+      "title": "Mrs. Parker's Bleached Apple Pie"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "blue cheese dressing",
+    "canonical": "blue-cheese-dressing-bhg",
+    "linked": [
+     {
+      "id": "duntovs-blue-cheese-dressing",
+      "title": "Duntov's Blue Cheese Dressing"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "bran muffins",
+    "canonical": "bran-muffins-gutenberg",
+    "linked": [
+     {
+      "id": "martyrs-bran-muffins",
+      "title": "Martyr's Bran Muffins"
+     }
+    ],
+    "already": [
+     "bran-muffins-dudeskitch",
+     "bran-muffins-ref"
+    ]
+   },
+   {
+    "core": "bread pudding",
+    "canonical": "bread-pudding",
+    "linked": [
+     {
+      "id": "honey-bread-pudding",
+      "title": "Bread Pudding (with Honey)"
+     }
+    ],
+    "already": [
+     "bread-pudding-barbara-dehaan",
+     "bread-pudding-bhg",
+     "bread-pudding-scottsnort"
+    ]
+   },
+   {
+    "core": "brick cheese",
+    "canonical": "brick-cheese",
+    "linked": [
+     {
+      "id": "brick-cheese-young",
+      "title": "Brick Cheese (Young)"
+     },
+     {
+      "id": "brick-cheese-aged",
+      "title": "Brick Cheese (Aged)"
+     },
+     {
+      "id": "american-brick-cheese",
+      "title": "Brick Cheese (Wisconsin Original)"
+     },
+     {
+      "id": "brick-cheese-wisconsin",
+      "title": "Brick Cheese (Wisconsin)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "brie de meaux",
+    "canonical": "french-brie-de-meaux",
+    "linked": [
+     {
+      "id": "brie-de-meaux-young",
+      "title": "Brie de Meaux (Young)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "brillat-savarin",
+    "canonical": "brillat-savarin",
+    "linked": [
+     {
+      "id": "artisan-french-brillat-savarin",
+      "title": "Brillat-Savarin (Triple Cream)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "broccoli casserole",
+    "canonical": "broccoli-casserole-granny",
+    "linked": [
+     {
+      "id": "broccoli-casserole-peggy-rotella",
+      "title": "Broccoli Casserole (Italian Style)"
+     }
+    ],
+    "already": [
+     "broccoli-casserole-marlene-risser",
+     "broccoli-casserole-mommom"
+    ]
+   },
+   {
+    "core": "broccoli salad",
+    "canonical": "broccoli-salad-mommom",
+    "linked": [
+     {
+      "id": "nanas-broccoli-salad",
+      "title": "Nana's Broccoli Salad"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "brown bread",
+    "canonical": "brown-bread-sour-milk-v2",
+    "linked": [
+     {
+      "id": "elbas-brown-bread",
+      "title": "Elba's Brown Bread"
+     },
+     {
+      "id": "mins-brown-bread",
+      "title": "Min's Brown Bread"
+     }
+    ],
+    "already": [
+     "brown-bread-sour-milk",
+     "brown-bread-graham-flour"
+    ]
+   },
+   {
+    "core": "brownies",
+    "canonical": "brownies-lorraine-kapp",
+    "linked": [
+     {
+      "id": "low-cost-brownies",
+      "title": "Brownies (Low Cost)"
+     }
+    ],
+    "already": [
+     "brownies-betty-crocker"
+    ]
+   },
+   {
+    "core": "bryndza",
+    "canonical": "bryndza",
+    "linked": [
+     {
+      "id": "sheep-milk-bryndza",
+      "title": "Bryndza (Eastern European Sheep Cheese)"
+     },
+     {
+      "id": "bryndza-slovak-sheep-cheese",
+      "title": "Bryndza (Slovak/Polish Sheep Cheese Spread)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "bundz",
+    "canonical": "bundz",
+    "linked": [
+     {
+      "id": "polish-bundz",
+      "title": "Bundz (Polish Highland Fresh Cheese)"
+     },
+     {
+      "id": "bundz-polish-fresh-sheep",
+      "title": "Bundz (Polish Fresh Sheep's Milk Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "burrata",
+    "canonical": "burrata",
+    "linked": [
+     {
+      "id": "burrata-cream-filled",
+      "title": "Burrata (Standard)"
+     },
+     {
+      "id": "italian-burrata-fresh",
+      "title": "Burrata (Cream-Filled Fresh Mozzarella)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "burrata pugliese",
+    "canonical": "burrata-pugliese",
+    "linked": [
+     {
+      "id": "ita-burrata-pugliese",
+      "title": "Burrata Pugliese (Apulian Burrata)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "butter cookies",
+    "canonical": "butter-cookies-betty-crocker",
+    "linked": [
+     {
+      "id": "honey-butter-cookies",
+      "title": "Butter Cookies (with Honey)"
+     },
+     {
+      "id": "grandmas-butter-cookies-mommom",
+      "title": "Grandma's Butter Cookies"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "caboc",
+    "canonical": "caboc",
+    "linked": [
+     {
+      "id": "british-caboc-classic",
+      "title": "Caboc (Oatmeal-Rolled Scottish Cream Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cabrales",
+    "canonical": "cabrales",
+    "linked": [
+     {
+      "id": "spanish-cabrales-blue",
+      "title": "Cabrales (Spanish Cave-Aged Blue)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "caerphilly",
+    "canonical": "caerphilly",
+    "linked": [
+     {
+      "id": "duckett-caerphilly",
+      "title": "Duckett's Caerphilly"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "camembert",
+    "canonical": "lgc-camembert",
+    "linked": [
+     {
+      "id": "camembert-laitier",
+      "title": "Camembert (Pasteurized)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cantal",
+    "canonical": "cantal",
+    "linked": [
+     {
+      "id": "artisan-french-cantal",
+      "title": "Cantal (Ancient Auvergne Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "carrot cake",
+    "canonical": "carrot-cake",
+    "linked": [
+     {
+      "id": "low-fat-carrot-cake",
+      "title": "Carrot Cake (Low Fat)"
+     },
+     {
+      "id": "carrot-cake-safflower-oil-fbc-jasmine",
+      "title": "Carrot Cake (Safflower Oil Version)"
+     }
+    ],
+    "already": [
+     "carrot-cake-marcella-savage",
+     "carrot-cake-bhg",
+     "carrot-cake-granny"
+    ]
+   },
+   {
+    "core": "chaource",
+    "canonical": "chaource",
+    "linked": [
+     {
+      "id": "artisan-french-chaource",
+      "title": "Chaource (Bloomy Rind)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "chechil",
+    "canonical": "chechil",
+    "linked": [
+     {
+      "id": "armenian-chechil",
+      "title": "Chechil (Armenian String Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cheese ball",
+    "canonical": "cheese-ball-kathie-skubel",
+    "linked": [
+     {
+      "id": "grandmas-cheese-ball-handwritten",
+      "title": "Grandma's Cheese Ball"
+     },
+     {
+      "id": "aunt-maudes-cheese-ball-fbc-jasmine",
+      "title": "Aunt Maude's Cheese Ball"
+     }
+    ],
+    "already": [
+     "cheese-ball-kathie-skehet"
+    ]
+   },
+   {
+    "core": "cheese curds",
+    "canonical": "cheese-curds",
+    "linked": [
+     {
+      "id": "cheese-curds-fresh",
+      "title": "Cheese Curds (Fresh, Squeaky)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cheshire cheese",
+    "canonical": "cheshire-cheese",
+    "linked": [
+     {
+      "id": "british-cheshire-classic",
+      "title": "Cheshire Cheese (England's Oldest)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "chex party mix",
+    "canonical": "chex-party-mix-ref",
+    "linked": [
+     {
+      "id": "chex-party-mix-handwritten",
+      "title": "Chex Party Mix (Handwritten Variant)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "chhena",
+    "canonical": "chhena",
+    "linked": [
+     {
+      "id": "indian-chhena",
+      "title": "Chhena (Bengali Fresh Cheese)"
+     },
+     {
+      "id": "chhena-indian-fresh-cheese",
+      "title": "Chhena (Indian Fresh Cheese for Sweets)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "chicken casserole",
+    "canonical": "chicken-casserole-mommom",
+    "linked": [
+     {
+      "id": "eloises-chicken-casserole",
+      "title": "Eloise's Chicken Casserole"
+     },
+     {
+      "id": "karens-chicken-casserole",
+      "title": "Karen's Chicken Casserole"
+     }
+    ],
+    "already": [
+     "chicken-casserole-peggy-rotella",
+     "chicken-casserole-chickenrec"
+    ]
+   },
+   {
+    "core": "chicken salad",
+    "canonical": "chicken-salad-bhg",
+    "linked": [
+     {
+      "id": "chicken-salad-simple",
+      "title": "Chicken Salad (Simple)"
+     }
+    ],
+    "already": [
+     "chicken-salad-ancients",
+     "chicken-salad-chickenrec",
+     "chicken-salad-scottsnort"
+    ]
+   },
+   {
+    "core": "chili",
+    "canonical": "chili-olga-busch",
+    "linked": [
+     {
+      "id": "ivans-chili",
+      "title": "Ivan's Chili"
+     }
+    ],
+    "already": [
+     "chili-paul-lutgen"
+    ]
+   },
+   {
+    "core": "chocolate chip cookies",
+    "canonical": "chocolate-chip-cookies-bhg",
+    "linked": [
+     {
+      "id": "sheilas-chocolate-chip-cookies",
+      "title": "Sheila's Chocolate Chip Cookies"
+     },
+     {
+      "id": "honey-chocolate-chip-cookies",
+      "title": "Chocolate Chip Cookies (with Honey)"
+     }
+    ],
+    "already": [
+     "chocolate-chip-cookies",
+     "chocolate-chip-cookies-ref",
+     "chocolate-chip-cookies-dutchovenc"
+    ]
+   },
+   {
+    "core": "chocolate pie",
+    "canonical": "chocolate-pie-carnation",
+    "linked": [
+     {
+      "id": "sheila-farris-chocolate-pie-clipping",
+      "title": "Sheila Farris's Chocolate Pie"
+     }
+    ],
+    "already": [
+     "sheila-farris-chocolate-pie-family-circle",
+     "chocolate-pie-auntcaroli"
+    ]
+   },
+   {
+    "core": "cinnamon rolls",
+    "canonical": "cinnamon-rolls",
+    "linked": [
+     {
+      "id": "cinnamon-rolls-bread-machine",
+      "title": "Cinnamon Rolls (Bread Machine Dough)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cocktail meatballs",
+    "canonical": "cocktail-meatballs-sauces",
+    "linked": [
+     {
+      "id": "mrs-mondragons-cocktail-meatballs-gcb",
+      "title": "Mrs. Mondragon's Cocktail Meatballs"
+     }
+    ],
+    "already": [
+     "cocktail-meatballs-bhg"
+    ]
+   },
+   {
+    "core": "coffee cake",
+    "canonical": "coffee-cake-lorraine-kapp",
+    "linked": [
+     {
+      "id": "coffee-cake-bread-machine",
+      "title": "Coffee Cake (Bread Machine Dough)"
+     }
+    ],
+    "already": [
+     "coffee-cake-gutenberg",
+     "coffee-cake-thewhysofc"
+    ]
+   },
+   {
+    "core": "colby cheese",
+    "canonical": "psr-colby-cheese",
+    "linked": [
+     {
+      "id": "american-colby",
+      "title": "Colby Cheese (Original Wisconsin Recipe)"
+     },
+     {
+      "id": "colby-cheese-wisconsin",
+      "title": "Colby Cheese (Wisconsin Original)"
+     }
+    ],
+    "already": [
+     "colby-cheese"
+    ]
+   },
+   {
+    "core": "colston bassett stilton",
+    "canonical": "colston-bassett-stilton",
+    "linked": [
+     {
+      "id": "british-colston-bassett-stilton",
+      "title": "Colston Bassett Stilton (Artisan Style)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "comté jeune",
+    "canonical": "comte-jeune",
+    "linked": [
+     {
+      "id": "comte-4month",
+      "title": "Comté Jeune (4 Month)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "comté vieux",
+    "canonical": "comte-vieux",
+    "linked": [
+     {
+      "id": "comte-18month",
+      "title": "Comté Vieux (18 Month)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cooking tips",
+    "canonical": "cooking-tips-page-26",
+    "linked": [
+     {
+      "id": "cooking-tips-specialties-page-26",
+      "title": "Cooking Tips (Page 26)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "corn bread",
+    "canonical": "corn-bread-bhg",
+    "linked": [
+     {
+      "id": "aunt-jemima-corn-bread",
+      "title": "Corn Bread (Aunt Jemima)"
+     }
+    ],
+    "already": [
+     "corn-bread-honey",
+     "corn-bread",
+     "corn-bread-dudeskitch"
+    ]
+   },
+   {
+    "core": "cornish yarg",
+    "canonical": "yarg",
+    "linked": [
+     {
+      "id": "british-cornish-yarg",
+      "title": "Cornish Yarg (Nettle-Wrapped Cheese)"
+     }
+    ],
+    "already": [
+     "british-cornish-yarg-classic"
+    ]
+   },
+   {
+    "core": "cottage cheese",
+    "canonical": "cottage-cheese",
+    "linked": [
+     {
+      "id": "cottage-cheese-small-curd",
+      "title": "Cottage Cheese (Small Curd)"
+     },
+     {
+      "id": "cottage-cheese-large-curd",
+      "title": "Cottage Cheese (Large Curd)"
+     },
+     {
+      "id": "cottage-cheese-lowfat",
+      "title": "Cottage Cheese (Low-Fat)"
+     },
+     {
+      "id": "cottage-cheese-whole",
+      "title": "Cottage Cheese (Whole Milk)"
+     },
+     {
+      "id": "fcf-cottage-cheese",
+      "title": "Cottage Cheese (Fias Co Farm Style)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "crab filling",
+    "canonical": "crab-filling-bhg",
+    "linked": [
+     {
+      "id": "crab-filling-egg-rolls",
+      "title": "Crab Filling (for Egg Rolls or Wontons)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "cranberry nut bread",
+    "canonical": "cranberry-nut-bread",
+    "linked": [
+     {
+      "id": "connies-cranberry-nut-bread",
+      "title": "Connie's Cranberry Nut Bread (Bread Machine Quick Bread)"
+     }
+    ],
+    "already": [
+     "cranberry-nut-bread-adrienne-fernandez"
+    ]
+   },
+   {
+    "core": "cream cheese",
+    "canonical": "cream-cheese",
+    "linked": [
+     {
+      "id": "cream-cheese-regular",
+      "title": "Cream Cheese (Regular)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "creole cream cheese",
+    "canonical": "creole-cream-cheese",
+    "linked": [
+     {
+      "id": "creole-cream-cheese-1901",
+      "title": "Creole Cream Cheese (1901 New Orleans)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "crepes",
+    "canonical": "crepes",
+    "linked": [
+     {
+      "id": "crepes-egg-sausage-fbc-jasmine",
+      "title": "Crepes (Egg and Sausage)"
+     },
+     {
+      "id": "crepes-fruit-fbc-jasmine",
+      "title": "Crepes (Fruit)"
+     }
+    ],
+    "already": [
+     "crepes-bhg"
+    ]
+   },
+   {
+    "core": "crescenza",
+    "canonical": "crescenza",
+    "linked": [
+     {
+      "id": "crescenza-cheese",
+      "title": "Crescenza (Stracchino)"
+     }
+    ],
+    "already": [
+     "crescenza-stracchino"
+    ]
+   },
+   {
+    "core": "crottin de chavignol",
+    "canonical": "french-crottin-chavignol",
+    "linked": [
+     {
+      "id": "crottin-de-chavignol-sec",
+      "title": "Crottin de Chavignol (Sec)"
+     },
+     {
+      "id": "crottin-de-chavignol-cremeux",
+      "title": "Crottin de Chavignol (Crémeux)"
+     },
+     {
+      "id": "artisan-french-crottin-de-chavignol",
+      "title": "Crottin de Chavignol (Aged Goat)"
+     }
+    ],
+    "already": [
+     "crottin-de-chavignol"
+    ]
+   },
+   {
+    "core": "crowdie",
+    "canonical": "crowdie",
+    "linked": [
+     {
+      "id": "british-crowdie-classic",
+      "title": "Crowdie (Scottish Fresh Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "date cake",
+    "canonical": "date-cake-bhg",
+    "linked": [
+     {
+      "id": "date-cake-good",
+      "title": "Date Cake (Good)"
+     }
+    ],
+    "already": [
+     "date-cake"
+    ]
+   },
+   {
+    "core": "devil's food cake",
+    "canonical": "devils-food-cake-bhg",
+    "linked": [
+     {
+      "id": "reddit-nanas-devils-food-cake",
+      "title": "Nana's Devil's Food Cake"
+     }
+    ],
+    "already": [
+     "devils-food-cake-joanne-dehaan",
+     "devils-food-cake"
+    ]
+   },
+   {
+    "core": "double gloucester",
+    "canonical": "double-gloucester",
+    "linked": [
+     {
+      "id": "british-double-gloucester-classic",
+      "title": "Double Gloucester (Gloucestershire Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "dry jack",
+    "canonical": "dry-jack",
+    "linked": [
+     {
+      "id": "dry-jack-california",
+      "title": "Dry Jack (California Aged)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "dump cake",
+    "canonical": "dump-cake-cherry-pineapple",
+    "linked": [
+     {
+      "id": "frans-dump-cake",
+      "title": "Fran's Dump Cake"
+     },
+     {
+      "id": "dump-cake-handwritten-granny",
+      "title": "Dump Cake (Handwritten)"
+     }
+    ],
+    "already": [
+     "dump-cake-basic-handwritten",
+     "dump-cake-pineapple",
+     "dump-cake-granny"
+    ]
+   },
+   {
+    "core": "dunlop",
+    "canonical": "dunlop",
+    "linked": [
+     {
+      "id": "british-dunlop-classic",
+      "title": "Dunlop (Scottish Cheddar)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "dunlop cheese",
+    "canonical": "dunlop-cheese",
+    "linked": [
+     {
+      "id": "scottish-dunlop",
+      "title": "Dunlop Cheese (Scottish Cheddar)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "edam",
+    "canonical": "lgc-edam",
+    "linked": [
+     {
+      "id": "edam-young",
+      "title": "Edam (Young)"
+     },
+     {
+      "id": "edam-aged",
+      "title": "Edam (Aged)"
+     },
+     {
+      "id": "edam-extra-aged",
+      "title": "Edam (Extra Aged)"
+     },
+     {
+      "id": "edam-smoked",
+      "title": "Edam (Smoked)"
+     },
+     {
+      "id": "dutch-edam-traditional",
+      "title": "Edam (Traditional Dutch Ball Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "egg bread",
+    "canonical": "egg-bread-bhg",
+    "linked": [
+     {
+      "id": "methuselahs-egg-bread-cwa",
+      "title": "Methuselah's Egg Bread"
+     }
+    ],
+    "already": [
+     "egg-bread"
+    ]
+   },
+   {
+    "core": "egg nog",
+    "canonical": "egg-nog-a-friend-specialties",
+    "linked": [
+     {
+      "id": "jeans-egg-nog",
+      "title": "Jean's Egg Nog"
+     }
+    ],
+    "already": [
+     "egg-nog-carnation"
+    ]
+   },
+   {
+    "core": "elderberry wine",
+    "canonical": "foxfire-elderberry-wine",
+    "linked": [
+     {
+      "id": "elderberry-wine-gallon-etw",
+      "title": "Elderberry Wine (1 Gallon)"
+     }
+    ],
+    "already": [
+     "appalachian-elderberry-wine",
+     "elderberry-wine-etw"
+    ]
+   },
+   {
+    "core": "english muffins",
+    "canonical": "english-muffins",
+    "linked": [
+     {
+      "id": "cassies-english-muffins",
+      "title": "Cassie's English Muffins (Bread Machine Dough)"
+     }
+    ],
+    "already": [
+     "english-muffins-bhg"
+    ]
+   },
+   {
+    "core": "esrom",
+    "canonical": "esrom",
+    "linked": [
+     {
+      "id": "danish-esrom",
+      "title": "Esrom (Danish Washed-Rind Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "ezine peyniri",
+    "canonical": "ezine-peyniri",
+    "linked": [
+     {
+      "id": "turkish-ezine",
+      "title": "Ezine Peyniri (Thracian Protected Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "famous fudge",
+    "canonical": "nestle-famous-fudge-granny",
+    "linked": [
+     {
+      "id": "nestle-famous-fudge-2-granny",
+      "title": "Famous Fudge (Nestle)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "farmhouse cheddar",
+    "canonical": "lgc-farmhouse-cheddar",
+    "linked": [
+     {
+      "id": "psr-farmhouse-cheddar-18th-century",
+      "title": "Farmhouse Cheddar (18th Century Recipe)"
+     }
+    ],
+    "already": [
+     "cheddar-cheese"
+    ]
+   },
+   {
+    "core": "fast fish fix-ups",
+    "canonical": "fast-fish-fix-ups-bhg",
+    "linked": [
+     {
+      "id": "fast-fish-fix-ups",
+      "title": "Fast Fish Fix-Ups (Quick Sauces)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "firehouse chili",
+    "canonical": "firehouse-chili",
+    "linked": [
+     {
+      "id": "moms-firehouse-chili",
+      "title": "Mom's Firehouse Chili"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "fourme d'ambert",
+    "canonical": "fourme-dambert-cheese",
+    "linked": [
+     {
+      "id": "artisan-french-fourme-dambert",
+      "title": "Fourme d'Ambert (Gentle Blue)"
+     }
+    ],
+    "already": [
+     "fourme-ambert",
+     "fourme-d-ambert"
+    ]
+   },
+   {
+    "core": "french onion soup",
+    "canonical": "french-onion-soup-maltby",
+    "linked": [
+     {
+      "id": "ricks-french-onion-soup-crockpot",
+      "title": "Rick's French Onion Soup"
+     },
+     {
+      "id": "french-onion-soup-quick",
+      "title": "French Onion Soup (Quick)"
+     }
+    ],
+    "already": [
+     "french-onion-soup-scratch",
+     "french-onion-soup"
+    ]
+   },
+   {
+    "core": "fromage blanc",
+    "canonical": "psr-fromage-blanc",
+    "linked": [
+     {
+      "id": "fresh-fromage-blanc",
+      "title": "Fromage Blanc (Fresh French Cheese)"
+     }
+    ],
+    "already": [
+     "fromage-blanc"
+    ]
+   },
+   {
+    "core": "fruit salad",
+    "canonical": "fruit-salad-pudding",
+    "linked": [
+     {
+      "id": "cindy-baker-fruit-salad",
+      "title": "Cindy's Fruit Salad (Ambrosia)"
+     }
+    ],
+    "already": [
+     "fruit-salad-mommom",
+     "fruit-salad-themetropo",
+     "fruit-salad-wilsonscoo"
+    ]
+   },
+   {
+    "core": "fruit-studded bread",
+    "canonical": "fruit-studded-bread-bhg",
+    "linked": [
+     {
+      "id": "fruit-studded-bread-julekage",
+      "title": "Fruit-Studded Bread (Julekage)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "fruitcake",
+    "canonical": "fruitcake",
+    "linked": [
+     {
+      "id": "evelyn-j-wilsons-fruitcake",
+      "title": "Evelyn J. Wilson's Fruitcake"
+     }
+    ],
+    "already": [
+     "fruitcake-bhg"
+    ]
+   },
+   {
+    "core": "garrotxa",
+    "canonical": "garrotxa",
+    "linked": [
+     {
+      "id": "garrotxa-catalan-goat",
+      "title": "Garrotxa (Catalan Goat Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "gibna bayda",
+    "canonical": "gibna-bayda",
+    "linked": [
+     {
+      "id": "gibna-bayda-sudanese-white-cheese",
+      "title": "Gibna Bayda (Sudanese White Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "gouda",
+    "canonical": "lgc-gouda",
+    "linked": [
+     {
+      "id": "gouda-beer-washed",
+      "title": "Gouda (Beer Washed)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "grana padano riserva",
+    "canonical": "grana-padano-riserva",
+    "linked": [
+     {
+      "id": "grana-padano-24-months",
+      "title": "Grana Padano Riserva (24+ Months)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "graskaas",
+    "canonical": "graskaas",
+    "linked": [
+     {
+      "id": "dutch-graskaas",
+      "title": "Graskaas (Dutch Spring Grass Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "green bean casserole",
+    "canonical": "green-bean-casserole-mary-blason",
+    "linked": [
+     {
+      "id": "green-bean-casserole-joanne-hall",
+      "title": "Green Bean Casserole (Alternate)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "halloumi",
+    "canonical": "halloumi",
+    "linked": [
+     {
+      "id": "lgc-halloumi",
+      "title": "Halloumi (Cypriot Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "ham-orange filling",
+    "canonical": "ham-orange-filling-bhg",
+    "linked": [
+     {
+      "id": "ham-orange-filling",
+      "title": "Ham-Orange Filling (for Egg Rolls or Wontons)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "hamburger pie",
+    "canonical": "hamburger-pie-bhg",
+    "linked": [
+     {
+      "id": "reddit-grandmas-hamburger-pie",
+      "title": "Grandma's Hamburger Pie"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "havarti",
+    "canonical": "lgc-havarti",
+    "linked": [
+     {
+      "id": "havarti-plain",
+      "title": "Havarti (Plain)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "homemade cream cheese",
+    "canonical": "lgc-cream-cheese",
+    "linked": [
+     {
+      "id": "nmsu-cream-cheese",
+      "title": "Homemade Cream Cheese (NMSU)"
+     }
+    ],
+    "already": [
+     "af-homemade-cream-cheese"
+    ]
+   },
+   {
+    "core": "homemade yogurt",
+    "canonical": "homemade-yogurt",
+    "linked": [
+     {
+      "id": "cf-yogurt-whole-milk",
+      "title": "Homemade Yogurt (Yogurt Machine Method)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "irimshik",
+    "canonical": "irimshik",
+    "linked": [
+     {
+      "id": "irimshik-kazakh",
+      "title": "Irimshik (Kazakh Sweet Dried Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "irish soda bread",
+    "canonical": "irish-soda-bread-mommom-baker",
+    "linked": [
+     {
+      "id": "irish-soda-bread-landmark-tavern-granny",
+      "title": "Irish Soda Bread (Landmark Tavern, NYC)"
+     }
+    ],
+    "already": [
+     "irish-soda-bread-bhg",
+     "irish-soda-bread-granny",
+     "irish-soda-bread-all"
+    ]
+   },
+   {
+    "core": "italian meatballs",
+    "canonical": "italian-meatballs-printed",
+    "linked": [
+     {
+      "id": "italian-meatballs-baked-jasmine",
+      "title": "Italian Meatballs (Baked)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "jameed",
+    "canonical": "jameed",
+    "linked": [
+     {
+      "id": "jameed-cheese",
+      "title": "Jameed (Dried Yogurt Balls)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "kalari",
+    "canonical": "kalari",
+    "linked": [
+     {
+      "id": "indian-kalari-cheese",
+      "title": "Kalari (Kashmiri Cheese)"
+     },
+     {
+      "id": "kalari-kashmiri-cheese",
+      "title": "Kalari (Kashmiri Fried Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "kefalograviera",
+    "canonical": "kefalograviera",
+    "linked": [
+     {
+      "id": "greek-kefalograviera",
+      "title": "Kefalograviera (Greek Hard Cheese)"
+     },
+     {
+      "id": "kefalograviera-cheese",
+      "title": "Kefalograviera (Hybrid Greek Hard Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "kefalotyri",
+    "canonical": "kefalotyri",
+    "linked": [
+     {
+      "id": "kefalotyri-cheese",
+      "title": "Kefalotyri (Greek Hard Grating Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "key lime pie",
+    "canonical": "grandmas-key-lime-pie-meringue",
+    "linked": [
+     {
+      "id": "key-lime-pie-baked",
+      "title": "Key Lime Pie (Baked)"
+     }
+    ],
+    "already": [
+     "key-lime-pie-tampa",
+     "key-lime-pie-key-west",
+     "key-lime-pie"
+    ]
+   },
+   {
+    "core": "klila",
+    "canonical": "klila",
+    "linked": [
+     {
+      "id": "klila-moroccan",
+      "title": "Klila (Moroccan Dried Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "l'etivaz aop",
+    "canonical": "l-etivaz-alpage",
+    "linked": [
+     {
+      "id": "ch-letivaz-alpage-aop",
+      "title": "L'Etivaz AOP (Raw Milk Alpine)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "lancashire cheese",
+    "canonical": "lancashire-cheese",
+    "linked": [
+     {
+      "id": "british-lancashire-classic",
+      "title": "Lancashire Cheese (Two-Day Curd)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "langres",
+    "canonical": "langres",
+    "linked": [
+     {
+      "id": "artisan-french-langres",
+      "title": "Langres (Washed Rind with Fontaine)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "leather breeches beans",
+    "canonical": "foxfire-leather-breeches-beans",
+    "linked": [
+     {
+      "id": "foxfire2-leather-breeches-beans",
+      "title": "Aunt Arie's Leather Breeches Beans"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "lemon bars",
+    "canonical": "lemon-bars-tampa-tribune",
+    "linked": [
+     {
+      "id": "reddit-grandmas-lemon-bars",
+      "title": "Grandma's Lemon Bars"
+     }
+    ],
+    "already": [
+     "lemon-bars-cookies",
+     "lemon-bars-bhg",
+     "lemon-bars"
+    ]
+   },
+   {
+    "core": "liptauer",
+    "canonical": "liptauer",
+    "linked": [
+     {
+      "id": "liptauer-hungarian-spread",
+      "title": "Liptauer (Hungarian Spiced Cheese Spread)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "little boats",
+    "canonical": "little-boats-chile-bible",
+    "linked": [
+     {
+      "id": "little-boats-gcb",
+      "title": "Little Boats (Stuffed Eggplant)"
+     }
+    ],
+    "already": [
+     "little-boats-stuffed-eggplant"
+    ]
+   },
+   {
+    "core": "livarot",
+    "canonical": "livarot",
+    "linked": [
+     {
+      "id": "artisan-french-livarot",
+      "title": "Livarot (The Colonel)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "liver pudding",
+    "canonical": "foxfire-liver-pudding",
+    "linked": [
+     {
+      "id": "foxfire-liver-mush",
+      "title": "Liver Pudding (Liver Mush)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "maasdam",
+    "canonical": "maasdam",
+    "linked": [
+     {
+      "id": "maasdam-aged",
+      "title": "Maasdam (Aged)"
+     },
+     {
+      "id": "dutch-maasdam-swiss-style",
+      "title": "Maasdam (Dutch Swiss-Style Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "macaroni and cheese",
+    "canonical": "macaroni-and-cheese",
+    "linked": [
+     {
+      "id": "macaroni-and-cheese-bhg",
+      "title": "Macaroni and Cheese (BHG)"
+     }
+    ],
+    "already": [
+     "macaroni-and-cheese-maryann-graham",
+     "macaroni-and-cheese-mommom"
+    ]
+   },
+   {
+    "core": "macaroon pie",
+    "canonical": "macaroon-pie",
+    "linked": [
+     {
+      "id": "macaroon-pie-cracker",
+      "title": "Macaroon Pie (Cracker Version)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "manchego artesano",
+    "canonical": "manchego-artesano",
+    "linked": [
+     {
+      "id": "spanish-manchego-artesano",
+      "title": "Manchego Artesano (Artisan La Mancha Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "manchego curado",
+    "canonical": "manchego-curado",
+    "linked": [
+     {
+      "id": "manchego-curado-4month",
+      "title": "Manchego Curado (4 Month)"
+     },
+     {
+      "id": "manchego-curado-6month",
+      "title": "Manchego Curado (6 Month)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "manchego fresco",
+    "canonical": "manchego-fresco-new",
+    "linked": [
+     {
+      "id": "manchego-fresco-2week",
+      "title": "Manchego Fresco (2 Week)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "manchego gran reserva",
+    "canonical": "manchego-gran-reserva",
+    "linked": [
+     {
+      "id": "manchego-gran-reserva-18-month",
+      "title": "Manchego Gran Reserva (18-Month)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "manchego viejo",
+    "canonical": "manchego-viejo",
+    "linked": [
+     {
+      "id": "manchego-viejo-12month",
+      "title": "Manchego Viejo (12 Month)"
+     },
+     {
+      "id": "manchego-viejo-18month",
+      "title": "Manchego Viejo (18 Month)"
+     },
+     {
+      "id": "manchego-viejo-2yr",
+      "title": "Manchego Viejo (2 Year)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "maribo",
+    "canonical": "maribo",
+    "linked": [
+     {
+      "id": "danish-maribo",
+      "title": "Maribo (Danish Semi-Hard Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "mascarpone",
+    "canonical": "lgc-mascarpone",
+    "linked": [
+     {
+      "id": "mascarpone-double-cream",
+      "title": "Mascarpone (Double Cream)"
+     }
+    ],
+    "already": [
+     "mascarpone",
+     "mascarpone-italian"
+    ]
+   },
+   {
+    "core": "maytag blue",
+    "canonical": "maytag-blue",
+    "linked": [
+     {
+      "id": "maytag-blue-iowa",
+      "title": "Maytag Blue (Iowa)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "meatloaf",
+    "canonical": "meatloaf-wilsonscoo",
+    "linked": [
+     {
+      "id": "marthas-meatloaf",
+      "title": "Martha's Meatloaf"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "molasses cookies",
+    "canonical": "foxfire-molasses-cookies",
+    "linked": [
+     {
+      "id": "ma-coopers-molasses-cookies",
+      "title": "Ma Cooper's Molasses Cookies"
+     },
+     {
+      "id": "fredas-molasses-cookies",
+      "title": "Freda's Molasses Cookies"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "monterey jack",
+    "canonical": "monterey-jack",
+    "linked": [
+     {
+      "id": "monterey-jack-plain",
+      "title": "Monterey Jack (Plain)"
+     },
+     {
+      "id": "monterey-jack-aged",
+      "title": "Monterey Jack (Aged)"
+     }
+    ],
+    "already": [
+     "lgc-monterey-jack"
+    ]
+   },
+   {
+    "core": "morbier",
+    "canonical": "morbier",
+    "linked": [
+     {
+      "id": "artisan-french-morbier",
+      "title": "Morbier (Ash Line Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "munster",
+    "canonical": "munster",
+    "linked": [
+     {
+      "id": "artisan-french-munster",
+      "title": "Munster (Alsatian Washed Rind)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "nabulsi cheese",
+    "canonical": "nabulsi",
+    "linked": [
+     {
+      "id": "nabulsi-cheese",
+      "title": "Nabulsi Cheese (Palestinian Boiled Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "nut bread",
+    "canonical": "nut-bread-bhg",
+    "linked": [
+     {
+      "id": "nut-bread-machine",
+      "title": "Nut Bread (Bread Machine Quick Bread)"
+     }
+    ],
+    "already": [
+     "nut-bread",
+     "nut-bread-carnation"
+    ]
+   },
+   {
+    "core": "nutrition analysis - breads",
+    "canonical": "nutrition-analysis-breads-bhg",
+    "linked": [
+     {
+      "id": "nutrition-analysis-breads-2-bhg",
+      "title": "Nutrition Analysis - Breads (Pages 35-36)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "nutrition analysis - cookies",
+    "canonical": "nutrition-analysis-cookies-bhg",
+    "linked": [
+     {
+      "id": "nutrition-analysis-cookies-2-bhg",
+      "title": "Nutrition Analysis - Cookies (Page 103)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "oatmeal bread",
+    "canonical": "oatmeal-bread-themetropo",
+    "linked": [
+     {
+      "id": "tracis-oatmeal-bread",
+      "title": "Traci's Oatmeal Bread (Bread Machine)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "old fashioned oatmeal cookies",
+    "canonical": "old-fashioned-oatmeal-cookies-nestle-granny",
+    "linked": [
+     {
+      "id": "nestle-old-fashioned-oatmeal-granny",
+      "title": "Old Fashioned Oatmeal Cookies (Nestle)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "orange marmalade",
+    "canonical": "orange-marmalade-bhg",
+    "linked": [
+     {
+      "id": "orange-marmalade-bread-machine",
+      "title": "Orange Marmalade (Bread Machine)"
+     }
+    ],
+    "already": [
+     "orange-marmalade-alberta-gristhop",
+     "orange-marmalade"
+    ]
+   },
+   {
+    "core": "ossau-iraty",
+    "canonical": "ossau-iraty",
+    "linked": [
+     {
+      "id": "sheep-milk-ossau-iraty",
+      "title": "Ossau-Iraty (French Basque Cheese)"
+     },
+     {
+      "id": "artisan-french-ossau-iraty",
+      "title": "Ossau-Iraty (Basque Sheep Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "paneer",
+    "canonical": "lgc-paneer",
+    "linked": [
+     {
+      "id": "paneer",
+      "title": "Paneer (Indian Fresh Cheese)"
+     }
+    ],
+    "already": [
+     "paneer-cheese"
+    ]
+   },
+   {
+    "core": "pastitsio",
+    "canonical": "pastitsio",
+    "linked": [
+     {
+      "id": "pastitsio-greek-casserole-barbara-dellaan",
+      "title": "Pastitsio (Greek Casserole)"
+     }
+    ],
+    "already": [
+     "pastitsio-greek-casserole-barbara-dehaan"
+    ]
+   },
+   {
+    "core": "peanut brittle",
+    "canonical": "homemade-peanut-brittle",
+    "linked": [
+     {
+      "id": "peters-peanut-brittle",
+      "title": "Peter's Peanut Brittle"
+     }
+    ],
+    "already": [
+     "peanut-brittle-minnie-matts",
+     "peanut-brittle-classic",
+     "peanut-brittle-bhg",
+     "peanut-brittle-grandmas-molasses"
+    ]
+   },
+   {
+    "core": "peanut butter bars",
+    "canonical": "peanut-butter-bars",
+    "linked": [
+     {
+      "id": "reeses-peanut-butter-bars",
+      "title": "Reese's Peanut Butter Bars"
+     }
+    ],
+    "already": [
+     "peanut-butter-bars-bhg"
+    ]
+   },
+   {
+    "core": "peanut butter cookies",
+    "canonical": "peanut-butter-cookies-minnie-matt",
+    "linked": [
+     {
+      "id": "grandmas-peanut-butter-cookies-classic",
+      "title": "Grandma's Peanut Butter Cookies"
+     },
+     {
+      "id": "peanut-butter-cookies-flourless-4-ingredient",
+      "title": "Peanut Butter Cookies (Flourless)"
+     }
+    ],
+    "already": [
+     "peanut-butter-cookies-minnie-matts",
+     "peanut-butter-cookies-betty-crocker"
+    ]
+   },
+   {
+    "core": "pecan pie",
+    "canonical": "pecan-pie",
+    "linked": [
+     {
+      "id": "carol-thomas-pecan-pie",
+      "title": "Carol Thomas's Pecan Pie"
+     }
+    ],
+    "already": [
+     "pecan-pie-mommom"
+    ]
+   },
+   {
+    "core": "pecorino alle noci",
+    "canonical": "pecorino-alle-noci",
+    "linked": [
+     {
+      "id": "pecorino-walnut",
+      "title": "Pecorino alle Noci (Walnut Pecorino)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pecorino sardo",
+    "canonical": "pecorino-sardo",
+    "linked": [
+     {
+      "id": "sheep-milk-pecorino-sardo",
+      "title": "Pecorino Sardo (Sardinian Sheep Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pepper jack",
+    "canonical": "pepper-jack",
+    "linked": [
+     {
+      "id": "pepper-jack-hot",
+      "title": "Pepper Jack (Extra Hot)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "perl las",
+    "canonical": "perl-las",
+    "linked": [
+     {
+      "id": "welsh-perl-las",
+      "title": "Perl Las (Welsh Blue Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "piave vecchio",
+    "canonical": "piave-vecchio",
+    "linked": [
+     {
+      "id": "ita-piave-vecchio",
+      "title": "Piave Vecchio (Aged Piave)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pie crust",
+    "canonical": "pie-crust-specialties",
+    "linked": [
+     {
+      "id": "ethels-pie-crust",
+      "title": "Ethel's Pie Crust"
+     },
+     {
+      "id": "pie-crust-wheat-germ-healthy",
+      "title": "Pie Crust (Graham Cracker Type - Healthy)"
+     }
+    ],
+    "already": [
+     "ethels-pie-crust-handwritten-2",
+     "pie-crust-blueribbon"
+    ]
+   },
+   {
+    "core": "polenta",
+    "canonical": "polenta-gutenberg",
+    "linked": [
+     {
+      "id": "polenta-cooking-guide",
+      "title": "Polenta (Cooking Guide)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pont-l'évêque",
+    "canonical": "pont-l-eveque",
+    "linked": [
+     {
+      "id": "artisan-french-pont-leveque",
+      "title": "Pont-l'Évêque (Washed Rind Norman)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pork and shrimp filling",
+    "canonical": "pork-and-shrimp-filling-bhg",
+    "linked": [
+     {
+      "id": "pork-and-shrimp-filling",
+      "title": "Pork and Shrimp Filling (for Egg Rolls or Wontons)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "port salut",
+    "canonical": "port-salut",
+    "linked": [
+     {
+      "id": "port-salut-french",
+      "title": "Port Salut (French)"
+     },
+     {
+      "id": "port-salut-danish",
+      "title": "Port Salut (Danish)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pound cake",
+    "canonical": "pound-cake",
+    "linked": [
+     {
+      "id": "grandmothers-pound-cake-jean-lamphier",
+      "title": "Grandmother's Pound Cake"
+     },
+     {
+      "id": "grandmas-pound-cake-fbc-jasmine",
+      "title": "Grandma's Pound Cake"
+     }
+    ],
+    "already": [
+     "pound-cake-bhg",
+     "pound-cake-granny",
+     "pound-cake-theplainsa",
+     "pound-cake-american-cookery-1796"
+    ]
+   },
+   {
+    "core": "provolone dolce",
+    "canonical": "provolone-dolce",
+    "linked": [
+     {
+      "id": "provolone-dolce-3month",
+      "title": "Provolone Dolce (3 Month)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "provolone mandarone",
+    "canonical": "provolone-mandarone",
+    "linked": [
+     {
+      "id": "aged-provolone-giant-mandarone",
+      "title": "Provolone Mandarone (Giant Aged Provolone)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "provolone piccante",
+    "canonical": "provolone-piccante",
+    "linked": [
+     {
+      "id": "provolone-piccante-6month",
+      "title": "Provolone Piccante (6 Month)"
+     },
+     {
+      "id": "provolone-piccante-12month",
+      "title": "Provolone Piccante (12 Month)"
+     },
+     {
+      "id": "italian-provolone-piccante",
+      "title": "Provolone Piccante (Aged Sharp Provolone)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "prune cake",
+    "canonical": "prune-cake-rose-kotala",
+    "linked": [
+     {
+      "id": "honey-prune-cake",
+      "title": "Prune Cake (with Honey)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "pumpkin pie",
+    "canonical": "pumpkin-pie-gutenberg",
+    "linked": [
+     {
+      "id": "honey-pumpkin-pie",
+      "title": "Pumpkin Pie (with Honey)"
+     }
+    ],
+    "already": [
+     "pumpkin-pie-dorothy-hardy",
+     "pumpkin-pie",
+     "pumpkin-pie-carnation",
+     "pumpkin-pie-grandmas-molasses",
+     "pumpkin-pie-auntcaroli",
+     "pumpkin-pie-scottsnort"
+    ]
+   },
+   {
+    "core": "puzzone di moena",
+    "canonical": "puzzone-di-moena",
+    "linked": [
+     {
+      "id": "ita-puzzone-di-moena",
+      "title": "Puzzone di Moena (Stinky Cheese of Moena)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "quark",
+    "canonical": "quark",
+    "linked": [
+     {
+      "id": "quark-german",
+      "title": "Quark (German Style)"
+     },
+     {
+      "id": "quark-full-fat",
+      "title": "Quark (Full Fat)"
+     },
+     {
+      "id": "quark-low-fat",
+      "title": "Quark (Low Fat)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queijo coalho",
+    "canonical": "queijo-coalho",
+    "linked": [
+     {
+      "id": "brazilian-queijo-coalho",
+      "title": "Queijo Coalho (Brazilian Grilling Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queso blanco",
+    "canonical": "queso-blanco",
+    "linked": [
+     {
+      "id": "traditional-queso-blanco",
+      "title": "Queso Blanco (Traditional Latin White Cheese)"
+     },
+     {
+      "id": "th-queso-blanco",
+      "title": "Queso Blanco (Beginner Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queso chihuahua",
+    "canonical": "queso-chihuahua",
+    "linked": [
+     {
+      "id": "queso-chihuahua-menonita",
+      "title": "Queso Chihuahua (Mexican Mennonite)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queso de hoja",
+    "canonical": "queso-de-hoja",
+    "linked": [
+     {
+      "id": "queso-de-hoja-puerto-rico",
+      "title": "Queso de Hoja (Puerto Rico)"
+     },
+     {
+      "id": "queso-de-hoja-ecuador",
+      "title": "Queso de Hoja (Ecuadorian)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queso de murcia al vino",
+    "canonical": "queso-murcia-vino",
+    "linked": [
+     {
+      "id": "queso-murcia-al-vino",
+      "title": "Queso de Murcia al Vino (Wine-Washed Goat Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queso fresco",
+    "canonical": "lgc-queso-fresco",
+    "linked": [
+     {
+      "id": "traditional-queso-fresco",
+      "title": "Queso Fresco (Mexican Fresh Cheese with Rennet)"
+     },
+     {
+      "id": "fresh-queso-fresco-mexican",
+      "title": "Queso Fresco (Mexican Fresh Cheese)"
+     }
+    ],
+    "already": [
+     "queso-fresco",
+     "fcf-queso-fresco"
+    ]
+   },
+   {
+    "core": "queso oaxaca",
+    "canonical": "queso-oaxaca-cheese",
+    "linked": [
+     {
+      "id": "queso-oaxaca-string",
+      "title": "Queso Oaxaca (String Cheese)"
+     }
+    ],
+    "already": [
+     "queso-oaxaca"
+    ]
+   },
+   {
+    "core": "queso panela",
+    "canonical": "queso-panela",
+    "linked": [
+     {
+      "id": "cf-queso-panela",
+      "title": "Queso Panela (Mexican Fresh Cheese)"
+     },
+     {
+      "id": "queso-panela-fresh",
+      "title": "Queso Panela (Mexican Fresh)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "queso zamorano",
+    "canonical": "queso-zamorano",
+    "linked": [
+     {
+      "id": "zamorano-castilian-cheese",
+      "title": "Queso Zamorano (Castilian Sheep Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "reblochon",
+    "canonical": "reblochon",
+    "linked": [
+     {
+      "id": "artisan-french-reblochon",
+      "title": "Reblochon (Semi-Soft Alpine Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "red leicester",
+    "canonical": "red-leicester",
+    "linked": [
+     {
+      "id": "british-red-leicester-classic",
+      "title": "Red Leicester (Leicestershire Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "ricotta affumicata",
+    "canonical": "ricotta-affumicata",
+    "linked": [
+     {
+      "id": "smoked-ricotta",
+      "title": "Ricotta Affumicata (Smoked Ricotta)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "ricotta salata",
+    "canonical": "ricotta-salata",
+    "linked": [
+     {
+      "id": "ricotta-salata-sheep-milk",
+      "title": "Ricotta Salata (Sheep's Milk)"
+     },
+     {
+      "id": "ricotta-salata-2month",
+      "title": "Ricotta Salata (2 Month)"
+     },
+     {
+      "id": "ricotta-salata-4month",
+      "title": "Ricotta Salata (4 Month)"
+     }
+    ],
+    "already": [
+     "lgc-ricotta-salata"
+    ]
+   },
+   {
+    "core": "rocamadour",
+    "canonical": "rocamadour",
+    "linked": [
+     {
+      "id": "artisan-french-rocamadour",
+      "title": "Rocamadour (Tiny Goat Medallion)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "roncal",
+    "canonical": "roncal",
+    "linked": [
+     {
+      "id": "sheep-milk-roncal",
+      "title": "Roncal (Navarre Sheep Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "roquefort-style blue cheese",
+    "canonical": "french-roquefort",
+    "linked": [
+     {
+      "id": "roquefort-style-blue-sheep-milk",
+      "title": "Roquefort-Style Blue Cheese (Sheep's Milk)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "rubing",
+    "canonical": "rubing",
+    "linked": [
+     {
+      "id": "rubing-chinese",
+      "title": "Rubing (Yunnan Goat Cheese)"
+     },
+     {
+      "id": "rubing-yunnan-grilled-cheese",
+      "title": "Rubing (Yunnan Grilled Goat Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "rushan",
+    "canonical": "rushan",
+    "linked": [
+     {
+      "id": "rushan-chinese",
+      "title": "Rushan (Chinese Fan Cheese)"
+     },
+     {
+      "id": "rushan-yunnan-fan-cheese",
+      "title": "Rushan (Yunnan Fan-Shaped Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "rye bread",
+    "canonical": "rye-bread-bhg",
+    "linked": [
+     {
+      "id": "foxfire-rye-bread",
+      "title": "Rye Bread (Biscuit Style)"
+     }
+    ],
+    "already": [
+     "rye-bread"
+    ]
+   },
+   {
+    "core": "sage derby",
+    "canonical": "sage-derby",
+    "linked": [
+     {
+      "id": "british-sage-derby-classic",
+      "title": "Sage Derby (Herbed Derby Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "saint-nectaire",
+    "canonical": "saint-nectaire",
+    "linked": [
+     {
+      "id": "artisan-french-saint-nectaire",
+      "title": "Saint-Nectaire (Rustic Auvergne Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "salmon patties",
+    "canonical": "salmon-patties-ref",
+    "linked": [
+     {
+      "id": "salmon-patties-croquettes",
+      "title": "Salmon Patties (Croquettes)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "salt cod fish",
+    "canonical": "salt-cod-fish-main-granny",
+    "linked": [
+     {
+      "id": "salt-cod-fish-recipes-granny",
+      "title": "Salt Cod Fish (Multiple Preparations)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "sassafras jelly",
+    "canonical": "foxfire-4-sassafras-jelly",
+    "linked": [
+     {
+      "id": "foxfire4-sassafras-jelly",
+      "title": "Pearl's Sassafras Jelly"
+     }
+    ],
+    "already": [
+     "foxfire2-sassafras-jelly"
+    ]
+   },
+   {
+    "core": "sbrinz",
+    "canonical": "sbrinz",
+    "linked": [
+     {
+      "id": "swiss-sbrinz-hard",
+      "title": "Sbrinz (Swiss Extra-Hard Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "sbrinz aop",
+    "canonical": "sbrinz-aop",
+    "linked": [
+     {
+      "id": "ch-sbrinz-aop",
+      "title": "Sbrinz AOP (Extra-Hard Alpine Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "scamorza affumicata",
+    "canonical": "scamorza-affumicata",
+    "linked": [
+     {
+      "id": "smoked-scamorza",
+      "title": "Scamorza Affumicata (Smoked Scamorza)"
+     }
+    ],
+    "already": [
+     "ita-scamorza-affumicata"
+    ]
+   },
+   {
+    "core": "serra da estrela",
+    "canonical": "serra-da-estrela",
+    "linked": [
+     {
+      "id": "sheep-milk-serra-da-estrela",
+      "title": "Serra da Estrela (Portuguese Mountain Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "shanklish",
+    "canonical": "shanklish",
+    "linked": [
+     {
+      "id": "lebanese-shanklish",
+      "title": "Shanklish (Lebanese Aged Cheese Balls)"
+     },
+     {
+      "id": "shanklish-cheese",
+      "title": "Shanklish (Aged Spiced Cheese Balls)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "shropshire blue",
+    "canonical": "shropshire-blue",
+    "linked": [
+     {
+      "id": "british-shropshire-blue-classic",
+      "title": "Shropshire Blue (Orange Blue Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "sourdough bread",
+    "canonical": "sourdough-bread-bhg",
+    "linked": [
+     {
+      "id": "sourdough-bread-bread-machine",
+      "title": "Sourdough Bread (Bread Machine)"
+     }
+    ],
+    "already": [
+     "sourdough-bread-machine",
+     "sourdough-bread"
+    ]
+   },
+   {
+    "core": "stichelton",
+    "canonical": "stichelton",
+    "linked": [
+     {
+      "id": "british-stichelton-classic",
+      "title": "Stichelton (Raw Milk Blue)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "stinking bishop",
+    "canonical": "stinking-bishop",
+    "linked": [
+     {
+      "id": "british-stinking-bishop-classic",
+      "title": "Stinking Bishop (Perry-Washed Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "stracchino",
+    "canonical": "stracchino",
+    "linked": [
+     {
+      "id": "ita-stracchino-crescenza",
+      "title": "Stracchino (Crescenza)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "stracciatella",
+    "canonical": "stracciatella-plain",
+    "linked": [
+     {
+      "id": "ita-stracciatella-filling",
+      "title": "Stracciatella (Burrata Filling)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "stuffed peppers",
+    "canonical": "stuffed-peppers-gutenberg",
+    "linked": [
+     {
+      "id": "stuffed-peppers-webb-granny",
+      "title": "Stuffed Peppers (Webb)"
+     }
+    ],
+    "already": [
+     "stuffed-peppers-webb-full-granny",
+     "stuffed-peppers-theplainsa"
+    ]
+   },
+   {
+    "core": "sweet potato casserole",
+    "canonical": "sweet-potato-casserole-mommom",
+    "linked": [
+     {
+      "id": "florences-sweet-potato-casserole",
+      "title": "Florence's Sweet Potato Casserole"
+     }
+    ],
+    "already": [
+     "sweet-potato-casserole-fbc-jasmine"
+    ]
+   },
+   {
+    "core": "taleggio dop",
+    "canonical": "taleggio-dop",
+    "linked": [
+     {
+      "id": "italian-taleggio-dop",
+      "title": "Taleggio DOP (Traditional Lombardy Washed-Rind)"
+     }
+    ],
+    "already": [
+     "taleggio"
+    ]
+   },
+   {
+    "core": "telemea",
+    "canonical": "telemea",
+    "linked": [
+     {
+      "id": "telemea-romanian-brined",
+      "title": "Telemea (Romanian Brined White Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "thumbprint cookies",
+    "canonical": "thumbprint-cookies-mommom",
+    "linked": [
+     {
+      "id": "thumbprint-cookies-whole-wheat",
+      "title": "Thumbprint Cookies (Whole Wheat)"
+     }
+    ],
+    "already": [
+     "thumbprint-cookies-betty-crocker"
+    ]
+   },
+   {
+    "core": "tomato soup cake",
+    "canonical": "tomato-soup-cake-james-marsh",
+    "linked": [
+     {
+      "id": "reddit-tomato-soup-cake",
+      "title": "Tomato Soup Cake (Mystery Cake)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "tomme de savoie",
+    "canonical": "tomme-de-savoie",
+    "linked": [
+     {
+      "id": "artisan-french-tomme-de-savoie",
+      "title": "Tomme de Savoie (Rustic Mountain Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "tomme vaudoise",
+    "canonical": "tomme-vaudoise",
+    "linked": [
+     {
+      "id": "ch-tomme-vaudoise-soft",
+      "title": "Tomme Vaudoise (Soft Washed-Rind)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "torta del casar",
+    "canonical": "torta-del-casar",
+    "linked": [
+     {
+      "id": "sheep-milk-torta-del-casar",
+      "title": "Torta del Casar (Extremadura Soft Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "traditional pecorino romano",
+    "canonical": "traditional-pecorino-romano",
+    "linked": [
+     {
+      "id": "traditional-pecorino-romano-ancient",
+      "title": "Traditional Pecorino Romano (Ancient Roman)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "trappista",
+    "canonical": "trappista",
+    "linked": [
+     {
+      "id": "trappista-hungarian-cheese",
+      "title": "Trappista (Hungarian Trappist Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "tulum peyniri",
+    "canonical": "tulum-peyniri",
+    "linked": [
+     {
+      "id": "turkish-tulum",
+      "title": "Tulum Peyniri (Turkish Goatskin-Aged Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "tête de moine aop",
+    "canonical": "tete-de-moine",
+    "linked": [
+     {
+      "id": "ch-tete-de-moine-aop",
+      "title": "Tête de Moine AOP (Shaved Rosettes)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "urda",
+    "canonical": "urda",
+    "linked": [
+     {
+      "id": "urda-romanian",
+      "title": "Urda (Romanian Whey Cheese)"
+     }
+    ],
+    "already": [
+     "urda-romanian-whey-cheese"
+    ]
+   },
+   {
+    "core": "vacherin fribourgeois aop",
+    "canonical": "vacherin-fribourgeois-aop",
+    "linked": [
+     {
+      "id": "ch-vacherin-fribourgeois-fondue",
+      "title": "Vacherin Fribourgeois AOP (Fondue Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "vacherin mont d'or",
+    "canonical": "vacherin-mont-dor",
+    "linked": [
+     {
+      "id": "swiss-vacherin-mont-dor",
+      "title": "Vacherin Mont d'Or (Seasonal Swiss Soft Cheese)"
+     },
+     {
+      "id": "ch-vacherin-mont-dor-seasonal",
+      "title": "Vacherin Mont d'Or (Seasonal Spoon Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "valençay",
+    "canonical": "valencay",
+    "linked": [
+     {
+      "id": "ash-ripened-valencay",
+      "title": "Valençay (Ash-Ripened Pyramid)"
+     },
+     {
+      "id": "artisan-french-valencay",
+      "title": "Valençay (Ash-Covered Pyramid)"
+     }
+    ],
+    "already": [
+     "valencay-2"
+    ]
+   },
+   {
+    "core": "vanilla ice cream",
+    "canonical": "vanilla-ice-cream-bhg",
+    "linked": [
+     {
+      "id": "vanilla-ice-cream-uncooked-base-harvester",
+      "title": "Vanilla Ice Cream (Uncooked Base)"
+     },
+     {
+      "id": "vanilla-ice-cream-cooked-base-harvester",
+      "title": "Vanilla Ice Cream (Cooked Base)"
+     }
+    ],
+    "already": [
+     "vanilla-ice-cream-cooked",
+     "vanilla-ice-cream"
+    ]
+   },
+   {
+    "core": "vegetable filling",
+    "canonical": "vegetable-filling-bhg",
+    "linked": [
+     {
+      "id": "vegetable-filling-egg-rolls",
+      "title": "Vegetable Filling (for Egg Rolls or Wontons)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "västerbotten",
+    "canonical": "vasterbotten",
+    "linked": [
+     {
+      "id": "swedish-vasterbotten",
+      "title": "Västerbotten (Swedish Aged Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "wara",
+    "canonical": "wara",
+    "linked": [
+     {
+      "id": "wara-nigerian",
+      "title": "Wara (Nigerian Fresh Cheese)"
+     },
+     {
+      "id": "wara-nigerian-soft-cheese",
+      "title": "Wara (Nigerian Soft Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "wensleydale cheese",
+    "canonical": "lgc-wensleydale",
+    "linked": [
+     {
+      "id": "wensleydale-cheese",
+      "title": "Wensleydale Cheese (Yorkshire)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "y fenni",
+    "canonical": "y-fenni",
+    "linked": [
+     {
+      "id": "british-y-fenni",
+      "title": "Y Fenni (Welsh Mustard Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "zamorano",
+    "canonical": "zamorano",
+    "linked": [
+     {
+      "id": "sheep-milk-zamorano",
+      "title": "Zamorano (Castile Sheep Cheese)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "zucchini bread",
+    "canonical": "zucchini-bread",
+    "linked": [
+     {
+      "id": "eleanors-zucchini-bread",
+      "title": "Eleanor's Zucchini Bread"
+     }
+    ],
+    "already": [
+     "zucchini-bread-mommom",
+     "zucchini-bread-bhg"
+    ]
+   },
+   {
+    "core": "zucchini casserole",
+    "canonical": "zucchini-casserole-peggy-rotella",
+    "linked": [
+     {
+      "id": "zucchini-casserole-meal-dish",
+      "title": "Zucchini Casserole (Meal Dish)"
+     }
+    ],
+    "already": [
+     "zucchini-casserole-fbc",
+     "zucchini-casserole-stuffing-fbc-jasmine"
+    ]
+   }
+  ],
+  "deferred_for_review": [
+   {
+    "core": "24-hour salad",
+    "members": [
+     {
+      "id": "24-hour-vegetable-salad-olga-bunch",
+      "title": "24-Hour Salad (Vegetable)",
+      "attribution": "Olga Bunch"
+     },
+     {
+      "id": "24-hour-fruit-salad-mary-blason",
+      "title": "24-Hour Salad (Fruit)",
+      "attribution": "Mary A. Blason"
+     }
+    ]
+   },
+   {
+    "core": "american cheese",
+    "members": [
+     {
+      "id": "american-white",
+      "title": "American Cheese (White)",
+      "attribution": "Traditional USA method"
+     },
+     {
+      "id": "american-yellow",
+      "title": "American Cheese (Yellow)",
+      "attribution": "Traditional USA method"
+     },
+     {
+      "id": "american-deli-style",
+      "title": "American Cheese (Deli Style)",
+      "attribution": "Traditional USA method"
+     }
+    ]
+   },
+   {
+    "core": "apple pie",
+    "members": [
+     {
+      "id": "rachel-gregorys-apple-pie",
+      "title": "Rachel Gregory's Apple Pie",
+      "attribution": "Rachel Gregory",
+      "reason": "ingredient overlap below threshold vs canonical apple-pie-american-cookery-1796"
+     }
+    ]
+   },
+   {
+    "core": "asiago",
+    "members": [
+     {
+      "id": "asiago-fresco-american",
+      "title": "Asiago (American Fresh)",
+      "attribution": "Traditional USA method"
+     },
+     {
+      "id": "asiago-aged-american",
+      "title": "Asiago (American Aged)",
+      "attribution": "Traditional USA method"
+     }
+    ]
+   },
+   {
+    "core": "ayib",
+    "members": [
+     {
+      "id": "ayib-ethiopian",
+      "title": "Ayib (Ethiopian Fresh Cheese)",
+      "attribution": "Traditional Ethiopian cheese"
+     },
+     {
+      "id": "ethiopian-ayib",
+      "title": "Ayib (Ethiopian Fresh Cheese)",
+      "attribution": "Traditional Ethiopian method"
+     },
+     {
+      "id": "ayib-ethiopian-cottage-cheese",
+      "title": "Ayib (Ethiopian Cottage Cheese)",
+      "attribution": "Traditional Ethiopian cheese"
+     }
+    ]
+   },
+   {
+    "core": "biscuits",
+    "members": [
+     {
+      "id": "grandmas-biscuits-granny",
+      "title": "Grandma's Biscuits",
+      "attribution": null,
+      "reason": "ingredient overlap below threshold vs canonical biscuits"
+     }
+    ]
+   },
+   {
+    "core": "boerenkaas",
+    "members": [
+     {
+      "id": "gouda-boerenkaas",
+      "title": "Boerenkaas (Farmer's Gouda)",
+      "attribution": "Traditional Dutch method"
+     },
+     {
+      "id": "dutch-boerenkaas",
+      "title": "Boerenkaas (Dutch Farmhouse Raw Milk Gouda)",
+      "attribution": "Traditional Dutch cheese"
+     }
+    ]
+   },
+   {
+    "core": "buttermilk bread",
+    "members": [
+     {
+      "id": "mrs-frumpkins-buttermilk-bread",
+      "title": "Mrs. Frumpkin's Buttermilk Bread (Bread Machine)",
+      "attribution": "Mrs. Frumpkin",
+      "reason": "ingredient overlap below threshold vs canonical buttermilk-bread-wilsonscoo"
+     }
+    ]
+   },
+   {
+    "core": "cake",
+    "members": [
+     {
+      "id": "mins-cake-handwritten",
+      "title": "Min's Cake",
+      "attribution": "Min"
+     },
+     {
+      "id": "cake-fromscratc",
+      "title": "Cake",
+      "attribution": ""
+     }
+    ]
+   },
+   {
+    "core": "carrot casserole",
+    "members": [
+     {
+      "id": "ethelyns-carrot-casserole",
+      "title": "Ethelyn's Carrot Casserole",
+      "attribution": "Rosemary Weis",
+      "reason": "ingredient overlap below threshold vs canonical carrot-casserole-mommom"
+     }
+    ]
+   },
+   {
+    "core": "cheddar",
+    "members": [
+     {
+      "id": "montgomery-cheddar",
+      "title": "Montgomery's Cheddar",
+      "attribution": "Traditional British Somerset method"
+     },
+     {
+      "id": "keen-cheddar",
+      "title": "Keen's Cheddar",
+      "attribution": "Traditional British Somerset method"
+     },
+     {
+      "id": "british-montgomerys-cheddar",
+      "title": "Montgomery's Cheddar (Clothbound Artisan)",
+      "attribution": "Somerset artisan Cheddar"
+     }
+    ]
+   },
+   {
+    "core": "cheddar sharp",
+    "members": [
+     {
+      "id": "cheddar-sharp-9month",
+      "title": "Cheddar Sharp (9 Month)",
+      "attribution": "Traditional British method"
+     },
+     {
+      "id": "cheddar-sharp-12month",
+      "title": "Cheddar Sharp (12 Month)",
+      "attribution": "Traditional British method"
+     }
+    ]
+   },
+   {
+    "core": "cheddar style",
+    "members": [
+     {
+      "id": "montgomery-cheddar-style",
+      "title": "Montgomery's Cheddar Style",
+      "attribution": "Traditional Somerset English method"
+     },
+     {
+      "id": "keen-cheddar-style",
+      "title": "Keen's Cheddar Style",
+      "attribution": "Traditional Somerset English method"
+     },
+     {
+      "id": "quicke-cheddar-style",
+      "title": "Quicke's Cheddar Style",
+      "attribution": "Traditional Devon English method"
+     }
+    ]
+   },
+   {
+    "core": "cheddar vintage",
+    "members": [
+     {
+      "id": "cheddar-vintage-2yr",
+      "title": "Cheddar Vintage (2 Year)",
+      "attribution": "Traditional British method"
+     },
+     {
+      "id": "cheddar-vintage-3yr",
+      "title": "Cheddar Vintage (3 Year)",
+      "attribution": "Traditional British method"
+     },
+     {
+      "id": "cheddar-vintage-5yr",
+      "title": "Cheddar Vintage (5 Year)",
+      "attribution": "Traditional British method"
+     }
+    ]
+   },
+   {
+    "core": "cheese",
+    "members": [
+     {
+      "id": "psr-farmers-cheese",
+      "title": "Farmer's Cheese",
+      "attribution": "Ashley Adamant, Practical Self Reliance"
+     },
+     {
+      "id": "farmers-cheese",
+      "title": "Farmer's Cheese",
+      "attribution": "New England Cheesemaking Supply Co."
+     },
+     {
+      "id": "oitk-farmers-cheese-tvorog",
+      "title": "Farmer's Cheese (Tvorog)",
+      "attribution": null
+     }
+    ]
+   },
+   {
+    "core": "cheese cake",
+    "members": [
+     {
+      "id": "cheese-cake-lemon-jello-fbc-jasmine",
+      "title": "Cheese Cake (Lemon Jello)",
+      "attribution": "FBC Jasmine"
+     },
+     {
+      "id": "cheese-cake-philadelphia-fbc-jasmine",
+      "title": "Cheese Cake (Philadelphia Cream Cheese)",
+      "attribution": "FBC Jasmine"
+     }
+    ]
+   },
+   {
+    "core": "cherry pie",
+    "members": [
+     {
+      "id": "margs-cherry-pie-coconut",
+      "title": "Marg's Cherry Pie",
+      "attribution": "Marg"
+     },
+     {
+      "id": "cathrine-browns-cherry-pie",
+      "title": "Cathrine Brown's Cherry Pie",
+      "attribution": "Cathrine Brown"
+     }
+    ]
+   },
+   {
+    "core": "chicken",
+    "members": [
+     {
+      "id": "annes-chicken",
+      "title": "Anne's Chicken",
+      "attribution": "Kim Douds"
+     },
+     {
+      "id": "joyces-chicken-granny",
+      "title": "Joyce's Chicken",
+      "attribution": null
+     },
+     {
+      "id": "joyces-chicken-full-granny",
+      "title": "Joyce's Chicken",
+      "attribution": null
+     }
+    ]
+   },
+   {
+    "core": "colby",
+    "members": [
+     {
+      "id": "colby-mild",
+      "title": "Colby (Mild)",
+      "attribution": "Traditional USA Wisconsin method"
+     },
+     {
+      "id": "colby-sharp",
+      "title": "Colby (Sharp)",
+      "attribution": "Traditional USA Wisconsin method"
+     }
+    ]
+   },
+   {
+    "core": "comté",
+    "members": [
+     {
+      "id": "comte-36-months",
+      "title": "Comté (36+ Months)",
+      "attribution": "Traditional French Jura method"
+     },
+     {
+      "id": "comte-8month",
+      "title": "Comté (8 Month)",
+      "attribution": "Traditional French Jura method"
+     },
+     {
+      "id": "comte-12month",
+      "title": "Comté (12 Month)",
+      "attribution": "Traditional French Jura method"
+     },
+     {
+      "id": "comte-30month",
+      "title": "Comté (30 Month)",
+      "attribution": "Traditional French Jura method"
+     },
+     {
+      "id": "french-comte-gruyere",
+      "title": "Comté (French Gruyère)",
+      "attribution": "Traditional Franche-Comté method"
+     },
+     {
+      "id": "artisan-french-comte",
+      "title": "Comté (Aged Alpine Cheese)",
+      "attribution": "Traditional French Alpine cheese"
+     }
+    ]
+   },
+   {
+    "core": "cookies",
+    "members": [
+     {
+      "id": "marys-oatmeal-raisin-cookies",
+      "title": "Mary's Cookies",
+      "attribution": "Mary"
+     },
+     {
+      "id": "cookies-themetropo",
+      "title": "Cookies",
+      "attribution": ""
+     },
+     {
+      "id": "cookies-theplainsa",
+      "title": "Cookies",
+      "attribution": ""
+     },
+     {
+      "id": "cookies-american-cookery-1796",
+      "title": "Cookies",
+      "attribution": "Amelia Simmons"
+     }
+    ]
+   },
+   {
+    "core": "cream pie",
+    "members": [
+     {
+      "id": "lenas-cream-pie",
+      "title": "Lena's Cream Pie",
+      "attribution": "Lena"
+     },
+     {
+      "id": "lindas-cream-pie",
+      "title": "Linda's Cream Pie",
+      "attribution": "Linda"
+     }
+    ]
+   },
+   {
+    "core": "dressing",
+    "members": [
+     {
+      "id": "hot-dans-dressing",
+      "title": "Hot Dan's Dressing",
+      "attribution": "",
+      "reason": "ingredient overlap below threshold vs canonical dressing-fromscratc"
+     }
+    ]
+   },
+   {
+    "core": "feta pdo",
+    "members": [
+     {
+      "id": "feta-pdo-barrel",
+      "title": "Feta PDO (Barrel-Aged)",
+      "attribution": "Traditional Greek method"
+     },
+     {
+      "id": "feta-pdo-tin",
+      "title": "Feta PDO (Tin-Aged)",
+      "attribution": "Traditional Greek method"
+     },
+     {
+      "id": "feta-aged-6month",
+      "title": "Feta PDO (6 Month Aged)",
+      "attribution": "Traditional Greek method"
+     }
+    ]
+   },
+   {
+    "core": "glaze",
+    "members": [
+     {
+      "id": "marys-glaze",
+      "title": "Mary's Glaze",
+      "attribution": "Mary",
+      "reason": "ingredient overlap below threshold vs canonical glaze-blueribbon"
+     }
+    ]
+   },
+   {
+    "core": "gouda belegen",
+    "members": [
+     {
+      "id": "gouda-belegen-4month",
+      "title": "Gouda Belegen (4 Month)",
+      "attribution": "Traditional Dutch method"
+     },
+     {
+      "id": "gouda-belegen-6month",
+      "title": "Gouda Belegen (6 Month)",
+      "attribution": "Traditional Dutch method"
+     }
+    ]
+   },
+   {
+    "core": "gouda smoked",
+    "members": [
+     {
+      "id": "gouda-smoked-hickory",
+      "title": "Gouda Smoked (Hickory)",
+      "attribution": "Traditional Dutch/USA method"
+     },
+     {
+      "id": "gouda-smoked-applewood",
+      "title": "Gouda Smoked (Applewood)",
+      "attribution": "Traditional Dutch/USA method"
+     }
+    ]
+   },
+   {
+    "core": "graviera kritis",
+    "members": [
+     {
+      "id": "greek-graviera-crete",
+      "title": "Graviera Kritis (Cretan Gruyère)",
+      "attribution": "Traditional Cretan method"
+     },
+     {
+      "id": "graviera-crete-cheese",
+      "title": "Graviera Kritis (Cretan Graviera)",
+      "attribution": "Traditional Cretan cheese"
+     }
+    ]
+   },
+   {
+    "core": "gruyère réserve",
+    "members": [
+     {
+      "id": "gruyere-reserve-10month",
+      "title": "Gruyère Réserve (10 Month)",
+      "attribution": "Traditional Swiss method"
+     },
+     {
+      "id": "gruyere-reserve-14month",
+      "title": "Gruyère Réserve (14 Month)",
+      "attribution": "Traditional Swiss method"
+     }
+    ]
+   },
+   {
+    "core": "hamburgers",
+    "members": [
+     {
+      "id": "chefs-hamburgers-granny",
+      "title": "Chef's Hamburgers",
+      "attribution": null,
+      "reason": "ingredient overlap below threshold vs canonical hamburgers"
+     }
+    ]
+   },
+   {
+    "core": "hawthorn jelly",
+    "members": [
+     {
+      "id": "hawthorn-jelly-no-cook-etw",
+      "title": "Hawthorn Jelly (No-Cook Method)",
+      "attribution": "Eat the Weeds - Green Deane"
+     },
+     {
+      "id": "hawthorn-jelly-gibbons-etw",
+      "title": "Hawthorn Jelly (Euell Gibbons' Recipe)",
+      "attribution": "Eat the Weeds - Green Deane (from Euell Gibbons)"
+     }
+    ]
+   },
+   {
+    "core": "kashkaval",
+    "members": [
+     {
+      "id": "kashkaval-yellow",
+      "title": "Kashkaval (Yellow Cheese)",
+      "attribution": "Balkan tradition"
+     },
+     {
+      "id": "kashkaval-bulgarian-cheese",
+      "title": "Kashkaval (Bulgarian Yellow Cheese)",
+      "attribution": "Traditional Bulgarian cheese"
+     }
+    ]
+   },
+   {
+    "core": "komijnekaas",
+    "members": [
+     {
+      "id": "lgc-komijnekaas",
+      "title": "Komijnekaas (Dutch Cumin Cheese)",
+      "attribution": null
+     },
+     {
+      "id": "gouda-cumin-dutch",
+      "title": "Komijnekaas (Dutch Cumin Gouda)",
+      "attribution": "Traditional Dutch method"
+     },
+     {
+      "id": "dutch-komijnekaas",
+      "title": "Komijnekaas (Dutch Cumin Gouda)",
+      "attribution": "Traditional Dutch cheese"
+     }
+    ]
+   },
+   {
+    "core": "kurut",
+    "members": [
+     {
+      "id": "kurut-kazakh",
+      "title": "Kurut (Kazakh Dried Cheese Balls)",
+      "attribution": "Traditional Central Asian cheese"
+     },
+     {
+      "id": "kurut",
+      "title": "Kurut (Central Asian)",
+      "attribution": "Traditional Central Asian method"
+     }
+    ]
+   },
+   {
+    "core": "limburger",
+    "members": [
+     {
+      "id": "limburger-belgian",
+      "title": "Limburger (Belgian Origin)",
+      "attribution": "Traditional Belgian method"
+     },
+     {
+      "id": "limburger-american",
+      "title": "Limburger (American)",
+      "attribution": "Traditional USA Wisconsin method"
+     }
+    ]
+   },
+   {
+    "core": "manchego semicurado",
+    "members": [
+     {
+      "id": "manchego-semicurado-1month",
+      "title": "Manchego Semicurado (1 Month)",
+      "attribution": "Traditional Spanish La Mancha method"
+     },
+     {
+      "id": "manchego-semicurado-3month",
+      "title": "Manchego Semicurado (3 Month)",
+      "attribution": "Traditional Spanish La Mancha method"
+     },
+     {
+      "id": "manchego-semicurado-4m",
+      "title": "Manchego Semicurado (4-month)",
+      "attribution": "Traditional La Mancha Spanish method"
+     }
+    ]
+   },
+   {
+    "core": "milk cream cheese",
+    "members": [
+     {
+      "id": "sheep-milk-cream-cheese-yogurt-method",
+      "title": "Sheep's Milk Cream Cheese (Yogurt Method)",
+      "attribution": "Traditional strained yogurt technique"
+     },
+     {
+      "id": "sheep-milk-cream-cheese-traditional",
+      "title": "Sheep's Milk Cream Cheese (Traditional Method)",
+      "attribution": "Acid-set cheese method"
+     },
+     {
+      "id": "sheep-milk-cream-cheese-cultured",
+      "title": "Cultured Sheep's Milk Cream Cheese",
+      "attribution": "Traditional cultured method"
+     }
+    ]
+   },
+   {
+    "core": "mysost",
+    "members": [
+     {
+      "id": "mysost-whey-cheese",
+      "title": "Mysost (Scandinavian Whey Cheese)",
+      "attribution": "New England Cheesemaking Supply Co."
+     },
+     {
+      "id": "lgc-mysost",
+      "title": "Mysost (Norwegian Whey Cheese)",
+      "attribution": null
+     }
+    ]
+   },
+   {
+    "core": "overjarig gouda",
+    "members": [
+     {
+      "id": "gouda-overjarig-48-month",
+      "title": "Overjarig Gouda (48-Month Extra-Aged)",
+      "attribution": "Traditional Dutch method"
+     },
+     {
+      "id": "dutch-extra-aged-gouda-overjarig",
+      "title": "Overjarig Gouda (Extra-Aged Dutch Gouda)",
+      "attribution": "Traditional Dutch cheese"
+     }
+    ]
+   },
+   {
+    "core": "parmigiano-reggiano",
+    "members": [
+     {
+      "id": "parmigiano-40-months",
+      "title": "Parmigiano-Reggiano (40+ Months)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-12month",
+      "title": "Parmigiano-Reggiano (12 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-18month",
+      "title": "Parmigiano-Reggiano (18 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-24month",
+      "title": "Parmigiano-Reggiano (24 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-30month",
+      "title": "Parmigiano-Reggiano (30 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-36month",
+      "title": "Parmigiano-Reggiano (36 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-48month",
+      "title": "Parmigiano-Reggiano (48 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     },
+     {
+      "id": "parmigiano-60month",
+      "title": "Parmigiano-Reggiano (60 Month)",
+      "attribution": "Traditional Italian Emilia-Romagna method"
+     }
+    ]
+   },
+   {
+    "core": "pastry",
+    "members": [
+     {
+      "id": "julias-pastry-crust",
+      "title": "Julia's Pastry",
+      "attribution": "Julia"
+     },
+     {
+      "id": "julia-pastry",
+      "title": "Julia's Pastry",
+      "attribution": "Julia"
+     },
+     {
+      "id": "pastry-blueribbon",
+      "title": "Pastry",
+      "attribution": ""
+     }
+    ]
+   },
+   {
+    "core": "pecorino romano",
+    "members": [
+     {
+      "id": "pecorino-romano-sheep-milk",
+      "title": "Pecorino Romano (Sheep's Milk)",
+      "attribution": "Based on traditional Roman methods"
+     },
+     {
+      "id": "pecorino-romano-24",
+      "title": "Pecorino Romano (24+ Months)",
+      "attribution": "Traditional Italian Lazio method"
+     },
+     {
+      "id": "italian-pecorino-romano-authentic",
+      "title": "Pecorino Romano (Ancient Roman Sheep Cheese)",
+      "attribution": "Traditional Lazio method"
+     }
+    ]
+   },
+   {
+    "core": "peppermint cream",
+    "members": [
+     {
+      "id": "baileys-peppermint-cream",
+      "title": "Bailey's Peppermint Cream",
+      "attribution": "Bailey's",
+      "reason": "ingredient overlap below threshold vs canonical peppermint-cream-harvester"
+     }
+    ]
+   },
+   {
+    "core": "pickled beans",
+    "members": [
+     {
+      "id": "pickled-beans-dilly",
+      "title": "Pickled Beans (Dilly Beans)",
+      "attribution": ""
+     },
+     {
+      "id": "pickled-beans-variant-2",
+      "title": "Pickled Beans (Variant)",
+      "attribution": ""
+     }
+    ]
+   },
+   {
+    "core": "pickled veggies",
+    "members": [
+     {
+      "id": "virginias-pickled-veggies",
+      "title": "Virginia's Pickled Veggies",
+      "attribution": "Virginia/Beulah"
+     },
+     {
+      "id": "pickled-veggies-variant-2",
+      "title": "Pickled Veggies (Variant)",
+      "attribution": ""
+     }
+    ]
+   },
+   {
+    "core": "pottage",
+    "members": [
+     {
+      "id": "esaus-pottage-cwa",
+      "title": "Esau's Pottage",
+      "attribution": "Cooking With the Ancients"
+     },
+     {
+      "id": "jacobs-pottage",
+      "title": "Jacob's Pottage",
+      "attribution": "Evelyn Hoeldtke"
+     }
+    ]
+   },
+   {
+    "core": "queso de bola",
+    "members": [
+     {
+      "id": "queso-de-bola",
+      "title": "Queso de Bola (Mexican Edam)",
+      "attribution": "Traditional Mexican Yucatan method"
+     },
+     {
+      "id": "mexican-queso-de-bola",
+      "title": "Queso de Bola (Mexican Ball Cheese)",
+      "attribution": "Traditional Yucatán method"
+     }
+    ]
+   },
+   {
+    "core": "raclette du valais",
+    "members": [
+     {
+      "id": "swiss-raclette-valais",
+      "title": "Raclette du Valais (Traditional Swiss Melting Cheese)",
+      "attribution": "Traditional Valais method"
+     },
+     {
+      "id": "ch-raclette-valais",
+      "title": "Raclette du Valais (Traditional Melting Cheese)",
+      "attribution": "Traditional Swiss cheese"
+     }
+    ]
+   },
+   {
+    "core": "ricotta fresca",
+    "members": [
+     {
+      "id": "ricotta-fresca-cow",
+      "title": "Ricotta Fresca (Cow)",
+      "attribution": "Traditional Italian method"
+     },
+     {
+      "id": "ricotta-fresca-sheep",
+      "title": "Ricotta Fresca (Sheep)",
+      "attribution": "Traditional Italian method"
+     }
+    ]
+   },
+   {
+    "core": "sakura cheese",
+    "members": [
+     {
+      "id": "japanese-tofu-cheese-adaptation",
+      "title": "Sakura Cheese (Japanese-Style Blossom Cheese)",
+      "attribution": "Modern Japanese adaptation"
+     },
+     {
+      "id": "sakura-cheese-japanese",
+      "title": "Sakura Cheese (Japanese Cherry Blossom Cheese)",
+      "attribution": "Modern Japanese artisan cheese"
+     }
+    ]
+   },
+   {
+    "core": "salad",
+    "members": [
+     {
+      "id": "janets-ramen-salad",
+      "title": "Janet's Salad (Ramen Noodle Salad)",
+      "attribution": "Janet"
+     },
+     {
+      "id": "chefs-salad-bhg",
+      "title": "Chef's Salad",
+      "attribution": "Better Homes and Gardens New Cook Book"
+     }
+    ]
+   },
+   {
+    "core": "sirene",
+    "members": [
+     {
+      "id": "sirene",
+      "title": "Sirene (Bulgarian White Cheese)",
+      "attribution": "Bulgarian tradition"
+     },
+     {
+      "id": "bulgarian-sirene",
+      "title": "Sirene (Bulgarian White Cheese)",
+      "attribution": "Traditional Bulgarian method"
+     },
+     {
+      "id": "sirene-bulgarian-white-cheese",
+      "title": "Sirene (Bulgarian White Brined Cheese)",
+      "attribution": "Traditional Bulgarian white cheese"
+     }
+    ]
+   },
+   {
+    "core": "sponge cake",
+    "members": [
+     {
+      "id": "saras-sponge-cake-ancients",
+      "title": "Sara's Sponge Cake",
+      "attribution": "Cooking With the Ancients",
+      "reason": "ingredient overlap below threshold vs canonical sponge-cake-bhg"
+     }
+    ]
+   },
+   {
+    "core": "swiss",
+    "members": [
+     {
+      "id": "swiss-aged-6month",
+      "title": "Swiss (6 Month Aged)",
+      "attribution": "Traditional USA method"
+     },
+     {
+      "id": "swiss-aged-12month",
+      "title": "Swiss (12 Month Aged)",
+      "attribution": "Traditional USA method"
+     }
+    ]
+   },
+   {
+    "core": "tvorog",
+    "members": [
+     {
+      "id": "cf-tvorog-russian-farmers-cheese",
+      "title": "Tvorog (Russian Farmer's Cheese)",
+      "attribution": null
+     },
+     {
+      "id": "tvorog",
+      "title": "Tvorog (Russian Quark)",
+      "attribution": "Traditional Russian/Eastern European method"
+     }
+    ]
+   },
+   {
+    "core": "vintage cheddar",
+    "members": [
+     {
+      "id": "quicke-vintage-cheddar",
+      "title": "Quicke's Vintage Cheddar",
+      "attribution": "Traditional British Devon method"
+     },
+     {
+      "id": "cheddar-vintage-24-month",
+      "title": "Vintage Cheddar (24-Month Aged)",
+      "attribution": "Traditional English method"
+     }
+    ]
+   },
+   {
+    "core": "wagashi",
+    "members": [
+     {
+      "id": "wagashi",
+      "title": "Wagashi (West African Cheese)",
+      "attribution": "Traditional West African method"
+     },
+     {
+      "id": "wagashi-west-african-cheese",
+      "title": "Wagashi (West African Fulani Cheese)",
+      "attribution": "Traditional Fulani cheese"
+     }
+    ]
+   },
+   {
+    "core": "wheat berrie muffins",
+    "members": [
+     {
+      "id": "grandmas-wheat-berrie-muffins-granny",
+      "title": "Grandma's Wheat Berrie Muffins",
+      "attribution": null
+     },
+     {
+      "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
+      "title": "Grandma's Wheat Berrie Muffins (Handwritten)",
+      "attribution": null
+     }
+    ]
+   },
+   {
+    "core": "époisses",
+    "members": [
+     {
+      "id": "epoisses-marc-burgundy",
+      "title": "Époisses (Marc-Washed Burgundy Cheese)",
+      "attribution": "Traditional Burgundy method"
+     },
+     {
+      "id": "artisan-french-epoisses",
+      "title": "Époisses (Washed Rind Cheese)",
+      "attribution": "Traditional Burgundian cheese"
+     }
+    ]
+   }
+  ],
+  "conflicts": [
+   {
+    "id": "buckwheat-cakes-buttermilk-large-batch",
+    "existing_variant_of": "buckwheat-pancakes-arrowhead",
+    "wanted": "buckwheat-cakes"
+   },
+   {
+    "id": "haystacks-coconut",
+    "existing_variant_of": "holiday-haystacks",
+    "wanted": "haystacks-family"
+   },
+   {
+    "id": "pastitsio-greek-casserole-deyoung",
+    "existing_variant_of": "pastitsio-greek-casserole-barbara-dellaan",
+    "wanted": "pastitsio"
+   },
+   {
+    "id": "virginias-rhubarb-pie",
+    "existing_variant_of": "rhubarb-cream-pie",
+    "wanted": "rhubarb-pie-simple"
+   }
+  ]
+ },
+ {
+  "date": "2026-08-30T11:33:11Z",
+  "hand_reviewed_links": [
+   {
+    "id": "rachel-gregorys-apple-pie",
+    "linked_to": "apple-pie-american-cookery-1796"
+   },
+   {
+    "id": "grandmas-biscuits-granny",
+    "linked_to": "biscuits"
+   },
+   {
+    "id": "mrs-frumpkins-buttermilk-bread",
+    "linked_to": "buttermilk-bread-wilsonscoo"
+   },
+   {
+    "id": "ethelyns-carrot-casserole",
+    "linked_to": "carrot-casserole-mommom"
+   },
+   {
+    "id": "chefs-hamburgers-granny",
+    "linked_to": "hamburgers"
+   },
+   {
+    "id": "saras-sponge-cake-ancients",
+    "linked_to": "sponge-cake-bhg"
+   }
+  ],
+  "note": "Six pairs the ingredient-overlap guard deferred were reviewed by eye against both ingredient lists and hand-linked: same dish, different eras/styles (the Wellington case). Bailey's Peppermint Cream (liqueur drink vs gelatin candy) and Millionaire's Shortbread (distinct layered dish) stay UNLINKED by review; generic cores (cake/cookies/pastry/dressing/glaze) stay deferred."
+ }
+]

@@ -7601,7 +7601,7 @@
       "image_refs": []
     },
     {
-      "id": "better-than-sex-cake",
+      "id": "better-than-sex-cake-grandma-baker",
       "collection": "grandma-baker",
       "collection_display": "Grandma Baker",
       "title": "Better Than Sex Cake",
@@ -8109,7 +8109,9 @@
         "nuts",
         "sour cream"
       ],
-      "image_refs": []
+      "image_refs": [
+        "Grandmas-recipes - 796.jpeg"
+      ]
     },
     {
       "id": "chocolate-dipped-macaroons",
@@ -9263,7 +9265,10 @@
         "wheat-germ",
         "high-protein"
       ],
-      "image_refs": []
+      "image_refs": [
+        "Grandmas-recipes - 855.jpeg",
+        "Grandmas-recipes - 856.jpeg"
+      ]
     },
     {
       "id": "heart-smart-party-mix",
@@ -9652,7 +9657,9 @@
         "nuts",
         "raisins"
       ],
-      "image_refs": []
+      "image_refs": [
+        "Grandmas-recipes - 881.jpeg"
+      ]
     },
     {
       "id": "date-cake-good",
@@ -10278,7 +10285,9 @@
         "potluck",
         "make-ahead"
       ],
-      "image_refs": []
+      "image_refs": [
+        "Grandmas-recipes - 917.jpeg"
+      ]
     },
     {
       "id": "doris-salad-layered",
@@ -18240,20 +18249,116 @@
       ]
     },
     {
-      "id": "gens-nut-cookies",
+      "id": "drommar-swedish-dream-cookies",
       "collection": "grandma-baker",
       "collection_display": "Grandma Baker",
-      "title": "Gens Nut Cookies",
+      "title": "Dr\u00f6mmar (Swedish Dream Cookies)",
       "category": "desserts",
-      "description": "Rich rolled cookies coated with ground nuts and egg whites, featuring sour cream for tenderness.",
+      "description": "Traditional Swedish butter cookies with coconut that melt in your mouth. The name means 'dreams' in Swedish.",
       "servings_yield": "About 4 dozen cookies",
+      "prep_time": "15 minutes",
+      "cook_time": "Until lightly browned on edges",
+      "total_time": "30 minutes",
       "tags": [
+        "swedish",
+        "scandinavian",
         "cookies",
-        "nuts",
-        "rolled-cookies",
-        "sour-cream"
+        "christmas",
+        "heritage"
       ],
-      "image_refs": []
+      "image_refs": [
+        "IMG_7330 Medium.jpeg"
+      ]
+    },
+    {
+      "id": "pepparkakar-swedish-spice-cookies",
+      "collection": "grandma-baker",
+      "collection_display": "Grandma Baker",
+      "title": "Pepparkakar (Swedish Spice Cookies)",
+      "category": "desserts",
+      "description": "Traditional Swedish ginger spice cookies, similar to gingerbread. Perfect for Christmas.",
+      "servings_yield": "About 4 dozen cookies",
+      "prep_time": "20 minutes plus chilling",
+      "cook_time": "5-10 minutes",
+      "total_time": "1 hour",
+      "tags": [
+        "swedish",
+        "scandinavian",
+        "cookies",
+        "christmas",
+        "gingerbread",
+        "spice"
+      ],
+      "image_refs": [
+        "IMG_7330 Medium.jpeg"
+      ]
+    },
+    {
+      "id": "mixed-fruit-soup-finnish",
+      "collection": "grandma-baker",
+      "collection_display": "Grandma Baker",
+      "title": "Mixed Fruit Soup (Finnish)",
+      "category": "desserts",
+      "description": "Traditional Finnish fruit soup made with dried fruits, served warm or cold with creamed rice or whipped cream.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "1 hour plus",
+      "total_time": "1 hour 30 minutes",
+      "tags": [
+        "finnish",
+        "scandinavian",
+        "soup",
+        "fruit",
+        "dessert",
+        "heritage"
+      ],
+      "image_refs": [
+        "IMG_7310 Medium.jpeg"
+      ]
+    },
+    {
+      "id": "partridge-for-four",
+      "collection": "grandma-baker",
+      "collection_display": "Grandma Baker",
+      "title": "Partridge for Four",
+      "category": "mains",
+      "description": "Elegant game bird dish with mushrooms in a wine and broth sauce.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "Until tender",
+      "total_time": "1 hour",
+      "tags": [
+        "game",
+        "poultry",
+        "french",
+        "wine",
+        "special occasion"
+      ],
+      "image_refs": [
+        "IMG_7400 Medium.jpeg"
+      ]
+    },
+    {
+      "id": "food-for-the-gods",
+      "collection": "grandma-baker",
+      "collection_display": "Grandma Baker",
+      "title": "Food for the Gods",
+      "category": "desserts",
+      "description": "A rich date and nut bar with graham cracker crumbs, served with whipped cream or ice cream.",
+      "servings_yield": "12 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "25-30 minutes",
+      "total_time": "45 minutes",
+      "tags": [
+        "dates",
+        "nuts",
+        "bars",
+        "vintage",
+        "dessert"
+      ],
+      "image_refs": [
+        "IMG_7340 Medium.jpeg"
+      ]
     },
     {
       "id": "cream-cheese-frosting",
@@ -19723,7 +19828,7 @@
       "image_refs": []
     },
     {
-      "id": "cheese-fondue",
+      "id": "cheese-fondue-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Cheese Fondue",
@@ -25782,23 +25887,6 @@
       ]
     },
     {
-      "id": "haystacks-candy",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Haystacks",
-      "category": "candy",
-      "tags": [
-        "candy",
-        "no-bake",
-        "chocolate",
-        "butterscotch"
-      ],
-      "image_refs": [
-        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5290 Large.jpeg",
-        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5292 Large.jpeg"
-      ]
-    },
-    {
       "id": "banana-nut-bread-mommom",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
@@ -27095,27 +27183,6 @@
       ]
     },
     {
-      "id": "whole-wheat-bread",
-      "collection": "mommom-baker",
-      "collection_display": "MomMom Baker",
-      "title": "Whole Wheat Bread",
-      "category": "breads",
-      "description": "Fiber-filled bread with whole grains",
-      "servings_yield": "2 loaves (32 servings)",
-      "prep_time": "",
-      "cook_time": "40 to 45 minutes",
-      "total_time": "",
-      "tags": [
-        "bread",
-        "yeast bread",
-        "whole wheat",
-        "healthy"
-      ],
-      "image_refs": [
-        "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5205 Large.jpeg"
-      ]
-    },
-    {
       "id": "rye-bread",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
@@ -28156,7 +28223,7 @@
       "image_refs": []
     },
     {
-      "id": "irish-soda-bread",
+      "id": "irish-soda-bread-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Irish Soda Bread",
@@ -30606,7 +30673,7 @@
       ]
     },
     {
-      "id": "banana-nut-muffins-gahb",
+      "id": "banana-nut-muffins-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Banana-Nut Muffins",
@@ -30627,7 +30694,7 @@
       ]
     },
     {
-      "id": "healthy-apple-walnut-muffins-gahb",
+      "id": "healthy-apple-walnut-muffins-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Healthy Apple-Walnut Muffins",
@@ -30648,7 +30715,7 @@
       ]
     },
     {
-      "id": "buttermilk-biscuits-gahb",
+      "id": "buttermilk-biscuits-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Buttermilk Biscuits",
@@ -30668,7 +30735,7 @@
       ]
     },
     {
-      "id": "butter-crescents-gahb",
+      "id": "butter-crescents-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Butter Crescents",
@@ -31976,7 +32043,7 @@
       ]
     },
     {
-      "id": "coconut-macaroons",
+      "id": "coconut-macaroons-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Coconut Macaroons",
@@ -32474,7 +32541,8 @@
         "no-bake",
         "chocolate",
         "butterscotch",
-        "family recipe"
+        "family recipe",
+        "candy"
       ],
       "image_refs": [
         "https://jsschrstrcks1.github.io/MomsRecipes/data/IMG_5290 Large.jpeg",
@@ -34022,7 +34090,7 @@
       ]
     },
     {
-      "id": "huevos-rancheros",
+      "id": "huevos-rancheros-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Huevos Rancheros",
@@ -34222,7 +34290,7 @@
       ]
     },
     {
-      "id": "cheese-souffle",
+      "id": "cheese-souffle-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Cheese Souffl\u00e9",
@@ -35567,7 +35635,7 @@
       "image_refs": []
     },
     {
-      "id": "chocolate-eclair-cake",
+      "id": "chocolate-eclair-cake-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chocolate Eclair Cake",
@@ -40274,7 +40342,7 @@
       ]
     },
     {
-      "id": "biblical-medley-ancients",
+      "id": "biblical-medley-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Biblical Medley",
@@ -40309,7 +40377,7 @@
       ]
     },
     {
-      "id": "baked-figs-in-wine-ancients",
+      "id": "baked-figs-in-wine-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Baked Figs in Wine",
@@ -40343,7 +40411,7 @@
       ]
     },
     {
-      "id": "apricot-sauce-ancients",
+      "id": "apricot-sauce-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Apricot Sauce",
@@ -40377,7 +40445,7 @@
       ]
     },
     {
-      "id": "fudgy-chocolate-layer-cake-gahb",
+      "id": "fudgy-chocolate-layer-cake-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Fudgy Chocolate Layer Cake",
@@ -40396,7 +40464,7 @@
       ]
     },
     {
-      "id": "boston-cream-pie-gahb",
+      "id": "boston-cream-pie-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Boston Cream Pie",
@@ -40414,7 +40482,7 @@
       ]
     },
     {
-      "id": "toffee-topped-bars-gahb",
+      "id": "toffee-topped-bars-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Toffee-Topped Bars",
@@ -40434,7 +40502,7 @@
       ]
     },
     {
-      "id": "apple-oatmeal-cookies-gahb",
+      "id": "apple-oatmeal-cookies-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Apple-Oatmeal Cookies",
@@ -40455,7 +40523,7 @@
       ]
     },
     {
-      "id": "almond-streusel-cake-gahb",
+      "id": "almond-streusel-cake-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Almond Streusel Cake",
@@ -40477,7 +40545,7 @@
       ]
     },
     {
-      "id": "orange-glazed-coffee-cake-gahb",
+      "id": "orange-glazed-coffee-cake-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Orange-Glazed Coffee Cake",
@@ -40500,7 +40568,7 @@
       ]
     },
     {
-      "id": "fresh-berry-crumb-pie-gahb",
+      "id": "fresh-berry-crumb-pie-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Fresh Berry Crumb Pie",
@@ -40522,7 +40590,7 @@
       ]
     },
     {
-      "id": "peach-apricot-cobbler-gahb",
+      "id": "peach-apricot-cobbler-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Peach-Apricot Cobbler",
@@ -40543,7 +40611,7 @@
       ]
     },
     {
-      "id": "crumbly-apple-pie-gahb",
+      "id": "crumbly-apple-pie-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Crumbly Apple Pie",
@@ -40565,7 +40633,7 @@
       ]
     },
     {
-      "id": "lemon-meringue-pie-gahb",
+      "id": "lemon-meringue-pie-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Lemon Meringue Pie",
@@ -40586,7 +40654,7 @@
       ]
     },
     {
-      "id": "miniature-chocolate-eclairs-gahb",
+      "id": "miniature-chocolate-eclairs-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Miniature Chocolate Eclairs",
@@ -40607,7 +40675,7 @@
       ]
     },
     {
-      "id": "cherry-strudel-gahb",
+      "id": "cherry-strudel-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Cherry Strudel",
@@ -40628,7 +40696,7 @@
       ]
     },
     {
-      "id": "chocolate-cheesecake-gahb",
+      "id": "chocolate-cheesecake-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chocolate Cheesecake",
@@ -40648,7 +40716,7 @@
       ]
     },
     {
-      "id": "carrot-cake-cream-cheese-icing-gahb",
+      "id": "carrot-cake-cream-cheese-icing-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Carrot Cake with Cream Cheese Icing",
@@ -40668,7 +40736,7 @@
       ]
     },
     {
-      "id": "best-ever-chocolate-chip-cookies-gahb",
+      "id": "best-ever-chocolate-chip-cookies-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Best-Ever Chocolate Chip Cookies",
@@ -40688,7 +40756,7 @@
       ]
     },
     {
-      "id": "chocolate-pecan-brownies-gahb",
+      "id": "chocolate-pecan-brownies-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chocolate-Pecan Brownies",
@@ -45705,7 +45773,7 @@
       "image_refs": []
     },
     {
-      "id": "pork-belly-burrito",
+      "id": "pork-belly-burrito-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Pork Belly Burrito",
@@ -46648,7 +46716,7 @@
       ]
     },
     {
-      "id": "chicken-nuggets",
+      "id": "chicken-nuggets-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Nuggets",
@@ -46890,7 +46958,7 @@
       ]
     },
     {
-      "id": "chicken-cacciatore",
+      "id": "chicken-cacciatore-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Cacciatore",
@@ -46935,7 +47003,7 @@
       ]
     },
     {
-      "id": "chicken-enchiladas",
+      "id": "chicken-enchiladas-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Enchiladas",
@@ -46978,7 +47046,7 @@
       ]
     },
     {
-      "id": "swedish-meatballs",
+      "id": "swedish-meatballs-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Swedish Meatballs",
@@ -47172,7 +47240,7 @@
       ]
     },
     {
-      "id": "burritos",
+      "id": "burritos-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Burritos",
@@ -49812,7 +49880,7 @@
       ]
     },
     {
-      "id": "bacon-double-cheese-quiche-gahb",
+      "id": "bacon-double-cheese-quiche-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Bacon and Double Cheese Quiche",
@@ -52613,7 +52681,7 @@
       ]
     },
     {
-      "id": "shepherds-cheese-bake-ancients",
+      "id": "shepherds-cheese-bake-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Shepherd's Cheese Bake",
@@ -52649,7 +52717,7 @@
       ]
     },
     {
-      "id": "fricassee-festus-ancients",
+      "id": "fricassee-festus-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Fricassee Festus",
@@ -52684,7 +52752,7 @@
       ]
     },
     {
-      "id": "chicken-pot-pie-gahb",
+      "id": "chicken-pot-pie-gahb-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Chicken Pot Pie",
@@ -58105,7 +58173,7 @@
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Steak and Burger Toppings",
-      "category": "sauces",
+      "category": "tips",
       "description": "Dress up steaks and burgers with one of these sauces. Each makes enough for 4 servings.",
       "tags": [
         "sauces",
@@ -59112,7 +59180,7 @@
       ]
     },
     {
-      "id": "naomis-carrot-cheese-bake-ancients",
+      "id": "naomis-carrot-cheese-bake-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Naomi's Carrot-Cheese Bake",
@@ -59144,7 +59212,7 @@
       ]
     },
     {
-      "id": "our-fava-beans-ancients",
+      "id": "our-fava-beans-ancients-mommom-baker",
       "collection": "mommom-baker",
       "collection_display": "MomMom Baker",
       "title": "Our Fava Beans",
@@ -70915,7 +70983,7 @@
       ]
     },
     {
-      "id": "swedish-meatballs",
+      "id": "swedish-meatballs-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Swedish Meatballs",
@@ -72214,7 +72282,7 @@
       "image_refs": []
     },
     {
-      "id": "cheese-fondue",
+      "id": "cheese-fondue-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Classic Swiss Cheese Fondue",
@@ -74453,7 +74521,7 @@
       ]
     },
     {
-      "id": "irish-soda-bread",
+      "id": "irish-soda-bread-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Irish Soda Bread",
@@ -76581,7 +76649,7 @@
       "id": "sourmilkgraham-bread-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Sourmilkgraham Bread",
+      "title": "Sour Milk Graham Bread",
       "category": "breads",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
@@ -76683,7 +76751,7 @@
       "id": "entire-wheat-orbranbread-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Entire Wheat Orbranbread",
+      "title": "Entire Wheat or Bran Bread",
       "category": "breads",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
@@ -76700,7 +76768,7 @@
       "id": "ryeandoatmeal-bread-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Ryeandoatmeal Bread",
+      "title": "Rye and Oatmeal Bread",
       "category": "breads",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
@@ -76751,7 +76819,7 @@
       "id": "rolls-andhowtomakethem-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Rolls Andhowtomakethem",
+      "title": "Rolls",
       "category": "breads",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
@@ -77700,7 +77768,7 @@
       "image_refs": []
     },
     {
-      "id": "banana-nut-muffins-gahb",
+      "id": "banana-nut-muffins-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Banana-Nut Muffins",
@@ -77722,7 +77790,7 @@
       ]
     },
     {
-      "id": "healthy-apple-walnut-muffins-gahb",
+      "id": "healthy-apple-walnut-muffins-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Healthy Apple-Walnut Muffins",
@@ -77745,7 +77813,7 @@
       ]
     },
     {
-      "id": "buttermilk-biscuits-gahb",
+      "id": "buttermilk-biscuits-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Buttermilk Biscuits",
@@ -77767,7 +77835,7 @@
       ]
     },
     {
-      "id": "butter-crescents-gahb",
+      "id": "butter-crescents-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Butter Crescents",
@@ -81458,7 +81526,7 @@
       ]
     },
     {
-      "id": "huevos-rancheros",
+      "id": "huevos-rancheros-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Huevos Rancheros",
@@ -81717,7 +81785,7 @@
       ]
     },
     {
-      "id": "cheese-souffle",
+      "id": "cheese-souffle-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Cheese Souffle",
@@ -84686,7 +84754,7 @@
       "image_refs": []
     },
     {
-      "id": "bacon-double-cheese-quiche-gahb",
+      "id": "bacon-double-cheese-quiche-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Bacon and Double Cheese Quiche",
@@ -84824,7 +84892,7 @@
       ]
     },
     {
-      "id": "shepherds-cheese-bake-ancients",
+      "id": "shepherds-cheese-bake-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Shepherd's Cheese Bake",
@@ -88618,7 +88686,7 @@
       "image_refs": []
     },
     {
-      "id": "coconut-macaroons",
+      "id": "coconut-macaroons-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Coconut Macaroons",
@@ -93584,7 +93652,7 @@
       "id": "cakesandcookies-scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Cakesandcookies",
+      "title": "Cakes and Cookies Base Recipe",
       "category": "desserts",
       "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
       "servings_yield": "4 servings",
@@ -94094,7 +94162,7 @@
       "id": "buckwheat-andryegriddle-cakes-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Buckwheat Andryegriddle Cakes",
+      "title": "Buckwheat and Rye Griddle Cakes",
       "category": "desserts",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
@@ -94213,7 +94281,7 @@
       "id": "sagopudding-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Sagopudding",
+      "title": "Sago Pudding",
       "category": "desserts",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
@@ -94247,12 +94315,12 @@
       "id": "warcake-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Warcake",
+      "title": "War Cake",
       "category": "desserts",
-      "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
-      "servings_yield": "4 servings",
+      "description": "Vintage recipe from The Metropolitan Life Cook Book 1922 - a wartime cake made without eggs or butter",
+      "servings_yield": "2 loaves",
       "prep_time": "",
-      "cook_time": "",
+      "cook_time": "45 minutes",
       "total_time": "",
       "tags": [
         "vintage",
@@ -94910,7 +94978,7 @@
       "id": "galacake-thewhysofc",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Galacake",
+      "title": "Gala Cake",
       "category": "desserts",
       "description": "Vintage recipe from The Whys Of Cooking 1919",
       "servings_yield": "4 servings",
@@ -95199,8 +95267,8 @@
       "id": "ricegriddle-cakes-thewhysofc",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Ricegriddle Cakes",
-      "category": "desserts",
+      "title": "Rice Griddle Cakes",
+      "category": "breakfast",
       "description": "Vintage recipe from The Whys Of Cooking 1919",
       "servings_yield": "4 servings",
       "prep_time": "",
@@ -95692,7 +95760,7 @@
       "id": "sponqe-cake-triedandtr",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Sponqe Cake",
+      "title": "Sponge Cake",
       "category": "desserts",
       "description": "Vintage recipe from Tried And True Five Hundred Recipes With Practical Culinary Suggestions 1909",
       "servings_yield": "4 servings",
@@ -96794,7 +96862,7 @@
       "image_refs": []
     },
     {
-      "id": "fudgy-chocolate-layer-cake-gahb",
+      "id": "fudgy-chocolate-layer-cake-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Fudgy Chocolate Layer Cake",
@@ -96815,7 +96883,7 @@
       ]
     },
     {
-      "id": "boston-cream-pie-gahb",
+      "id": "boston-cream-pie-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Boston Cream Pie",
@@ -96837,7 +96905,7 @@
       ]
     },
     {
-      "id": "toffee-topped-bars-gahb",
+      "id": "toffee-topped-bars-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Toffee-Topped Bars",
@@ -96860,7 +96928,7 @@
       ]
     },
     {
-      "id": "apple-oatmeal-cookies-gahb",
+      "id": "apple-oatmeal-cookies-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Apple-Oatmeal Cookies",
@@ -96882,7 +96950,7 @@
       ]
     },
     {
-      "id": "almond-streusel-cake-gahb",
+      "id": "almond-streusel-cake-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Almond Streusel Cake",
@@ -96905,7 +96973,7 @@
       ]
     },
     {
-      "id": "orange-glazed-coffee-cake-gahb",
+      "id": "orange-glazed-coffee-cake-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Orange-Glazed Coffee Cake",
@@ -96927,7 +96995,7 @@
       ]
     },
     {
-      "id": "fresh-berry-crumb-pie-gahb",
+      "id": "fresh-berry-crumb-pie-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Fresh Berry Crumb Pie",
@@ -96950,7 +97018,7 @@
       ]
     },
     {
-      "id": "peach-apricot-cobbler-gahb",
+      "id": "peach-apricot-cobbler-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Peach-Apricot Cobbler",
@@ -96972,7 +97040,7 @@
       ]
     },
     {
-      "id": "crumbly-apple-pie-gahb",
+      "id": "crumbly-apple-pie-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Crumbly Apple Pie",
@@ -96993,7 +97061,7 @@
       ]
     },
     {
-      "id": "lemon-meringue-pie-gahb",
+      "id": "lemon-meringue-pie-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Lemon Meringue Pie",
@@ -97015,7 +97083,7 @@
       ]
     },
     {
-      "id": "miniature-chocolate-eclairs-gahb",
+      "id": "miniature-chocolate-eclairs-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Miniature Chocolate Eclairs",
@@ -97037,7 +97105,7 @@
       ]
     },
     {
-      "id": "cherry-strudel-gahb",
+      "id": "cherry-strudel-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Cherry Strudel",
@@ -97060,7 +97128,7 @@
       ]
     },
     {
-      "id": "chocolate-cheesecake-gahb",
+      "id": "chocolate-cheesecake-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chocolate Cheesecake",
@@ -97081,7 +97149,7 @@
       ]
     },
     {
-      "id": "carrot-cake-cream-cheese-icing-gahb",
+      "id": "carrot-cake-cream-cheese-icing-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Carrot Cake with Cream Cheese Icing",
@@ -97102,7 +97170,7 @@
       ]
     },
     {
-      "id": "best-ever-chocolate-chip-cookies-gahb",
+      "id": "best-ever-chocolate-chip-cookies-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Best-Ever Chocolate Chip Cookies",
@@ -97124,7 +97192,7 @@
       ]
     },
     {
-      "id": "chocolate-pecan-brownies-gahb",
+      "id": "chocolate-pecan-brownies-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chocolate-Pecan Brownies",
@@ -97819,7 +97887,7 @@
       ]
     },
     {
-      "id": "biblical-medley-ancients",
+      "id": "biblical-medley-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Biblical Medley",
@@ -97839,7 +97907,7 @@
       ]
     },
     {
-      "id": "baked-figs-in-wine-ancients",
+      "id": "baked-figs-in-wine-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Baked Figs in Wine",
@@ -97860,7 +97928,7 @@
       ]
     },
     {
-      "id": "apricot-sauce-ancients",
+      "id": "apricot-sauce-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Apricot Sauce",
@@ -99029,7 +99097,7 @@
       "image_refs": []
     },
     {
-      "id": "better-than-sex-cake",
+      "id": "better-than-sex-cake-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Better Than Sex Cake",
@@ -99120,7 +99188,7 @@
       "image_refs": []
     },
     {
-      "id": "chocolate-eclair-cake",
+      "id": "chocolate-eclair-cake-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chocolate Eclair Cake",
@@ -104112,7 +104180,7 @@
       "id": "ricecroquettes-theplainsa",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Ricecroquettes",
+      "title": "Rice Croquettes",
       "category": "sides",
       "description": "Vintage recipe from The Plain Sailing Cook Book A Collection Of Simple Recipes For Beginners In Cookery 1922",
       "servings_yield": "4 servings",
@@ -105297,7 +105365,7 @@
       ]
     },
     {
-      "id": "our-fava-beans-ancients",
+      "id": "our-fava-beans-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Our Fava Beans",
@@ -105358,7 +105426,7 @@
       ]
     },
     {
-      "id": "naomis-carrot-cheese-bake-ancients",
+      "id": "naomis-carrot-cheese-bake-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Naomi's Carrot-Cheese Bake",
@@ -108799,12 +108867,12 @@
       "id": "split-peasoup-themetropo",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Split Peasoup",
+      "title": "Split Pea Soup",
       "category": "soups",
       "description": "Vintage recipe from The Metropolitan Life Cook Book 1922",
       "servings_yield": "4 servings",
       "prep_time": "",
-      "cook_time": "",
+      "cook_time": "3-4 hours",
       "total_time": "",
       "tags": [
         "vintage",
@@ -152791,7 +152859,7 @@
       ]
     },
     {
-      "id": "pork-belly-burrito",
+      "id": "pork-belly-burrito-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Pork Belly Burrito",
@@ -153733,7 +153801,7 @@
       "image_refs": []
     },
     {
-      "id": "chicken-cacciatore",
+      "id": "chicken-cacciatore-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Cacciatore",
@@ -153769,7 +153837,7 @@
       "image_refs": []
     },
     {
-      "id": "chicken-nuggets",
+      "id": "chicken-nuggets-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Nuggets",
@@ -158879,7 +158947,7 @@
       "image_refs": []
     },
     {
-      "id": "burritos",
+      "id": "burritos-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Burritos",
@@ -161557,7 +161625,7 @@
       "image_refs": []
     },
     {
-      "id": "chicken-enchiladas",
+      "id": "chicken-enchiladas-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Enchiladas",
@@ -169869,7 +169937,7 @@
       "id": "caeoline-king-scookbook-carolineki",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Caeoline King Scookbook",
+      "title": "Caroline King's Cookbook Biscuits",
       "category": "mains",
       "description": "Vintage recipe from Caroline Kings Cook Book Foundation Principles Of Good Cookery With Recipes 1918",
       "servings_yield": "4 servings",
@@ -171008,7 +171076,7 @@
       "id": "i-owenscookb",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "I",
+      "title": "Owen's Cookbook Recipe",
       "category": "mains",
       "description": "Vintage recipe from Owens Cook Book And Useful Household Hints 1884",
       "servings_yield": "4 servings",
@@ -171722,7 +171790,7 @@
       "id": "neufchatel-cheese-andpeanut-butter--scottsnort",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Neufchatel Cheese Andpeanut Butter Paste",
+      "title": "Neufchatel Cheese and Peanut Butter Paste",
       "category": "mains",
       "description": "Vintage recipe from Scotts North American Seasonal Cook Book Spring Summer Autumn And Winter Guide To Economy And Ease In Good Food 1921",
       "servings_yield": "4 servings",
@@ -173847,7 +173915,7 @@
       "id": "chicken-rolypoly-thewhysofc",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "Chicken Rolypoly",
+      "title": "Chicken Roly-Poly",
       "category": "mains",
       "description": "Vintage recipe from The Whys Of Cooking 1919",
       "servings_yield": "4 servings",
@@ -174816,7 +174884,7 @@
       "id": "february-puddinq-triedandtr",
       "collection": "all",
       "collection_display": "Other Recipes",
-      "title": "February Puddinq",
+      "title": "February Pudding",
       "category": "mains",
       "description": "Vintage recipe from Tried And True Five Hundred Recipes With Practical Culinary Suggestions 1909",
       "servings_yield": "4 servings",
@@ -176177,7 +176245,7 @@
       ]
     },
     {
-      "id": "chicken-pot-pie-gahb",
+      "id": "chicken-pot-pie-gahb-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Chicken Pot Pie",
@@ -177007,7 +177075,7 @@
       ]
     },
     {
-      "id": "fricassee-festus-ancients",
+      "id": "fricassee-festus-ancients-all",
       "collection": "all",
       "collection_display": "Other Recipes",
       "title": "Fricassee Festus",
@@ -178410,12 +178478,12 @@
       "all": {
         "sharded_by_category": true,
         "total_count": 5722,
-        "total_size_kb": 17123,
+        "total_size_kb": 17164,
         "categories": {
           "appetizers": {
             "file": "recipes-all-appetizers.json",
             "count": 107,
-            "size_kb": 350
+            "size_kb": 351
           },
           "basics": {
             "file": "recipes-all-basics.json",
@@ -178430,7 +178498,7 @@
           "breads": {
             "file": "recipes-all-breads.json",
             "count": 285,
-            "size_kb": 894
+            "size_kb": 896
           },
           "breakfast": {
             "file": "recipes-all-breakfast.json",
@@ -178440,61 +178508,61 @@
           "cheese": {
             "file": "recipes-all-cheese.json",
             "count": 2013,
-            "size_kb": 5822
+            "size_kb": 5840
           },
           "desserts": {
             "file": "recipes-all-desserts.json",
             "count": 664,
-            "size_kb": 2006
+            "size_kb": 2014
           },
           "mains": {
             "file": "recipes-all-mains.json",
             "count": 1601,
-            "size_kb": 5072
+            "size_kb": 5079
           },
           "salads": {
             "file": "recipes-all-salads.json",
             "count": 143,
-            "size_kb": 402
+            "size_kb": 403
           },
           "sides": {
             "file": "recipes-all-sides.json",
             "count": 362,
-            "size_kb": 965
+            "size_kb": 968
           },
           "snacks": {
             "file": "recipes-all-snacks.json",
             "count": 7,
-            "size_kb": 23
+            "size_kb": 24
           },
           "soups": {
             "file": "recipes-all-soups.json",
             "count": 141,
-            "size_kb": 416
+            "size_kb": 417
           }
         }
       },
       "grandma-baker": {
         "file": "recipes-grandma-baker.json",
         "count": 937,
-        "size_kb": 3576,
+        "size_kb": 3593,
         "sharded_by_category": false
       },
       "granny-hudson": {
         "file": "recipes-granny-hudson.json",
         "count": 184,
-        "size_kb": 573,
+        "size_kb": 577,
         "sharded_by_category": false
       },
       "mommom-baker": {
         "sharded_by_category": true,
-        "total_count": 2553,
-        "total_size_kb": 7481,
+        "total_count": 2551,
+        "total_size_kb": 7546,
         "categories": {
           "appetizers": {
             "file": "recipes-mommom-baker-appetizers.json",
             "count": 120,
-            "size_kb": 354
+            "size_kb": 358
           },
           "basics": {
             "file": "recipes-mommom-baker-basics.json",
@@ -178504,26 +178572,26 @@
           "beverages": {
             "file": "recipes-mommom-baker-beverages.json",
             "count": 122,
-            "size_kb": 312
+            "size_kb": 315
           },
           "breads": {
             "file": "recipes-mommom-baker-breads.json",
-            "count": 280,
-            "size_kb": 975
+            "count": 279,
+            "size_kb": 981
           },
           "breakfast": {
             "file": "recipes-mommom-baker-breakfast.json",
             "count": 49,
-            "size_kb": 143
+            "size_kb": 144
           },
           "cakes": {
             "file": "recipes-mommom-baker-cakes.json",
             "count": 43,
-            "size_kb": 149
+            "size_kb": 152
           },
           "candy": {
             "file": "recipes-mommom-baker-candy.json",
-            "count": 46,
+            "count": 45,
             "size_kb": 122
           },
           "canning": {
@@ -178539,12 +178607,12 @@
           "condiments": {
             "file": "recipes-mommom-baker-condiments.json",
             "count": 24,
-            "size_kb": 72
+            "size_kb": 73
           },
           "cookies": {
             "file": "recipes-mommom-baker-cookies.json",
             "count": 61,
-            "size_kb": 196
+            "size_kb": 199
           },
           "dairy": {
             "file": "recipes-mommom-baker-dairy.json",
@@ -178554,22 +178622,22 @@
           "desserts": {
             "file": "recipes-mommom-baker-desserts.json",
             "count": 454,
-            "size_kb": 1377
+            "size_kb": 1392
           },
           "eggs": {
             "file": "recipes-mommom-baker-eggs.json",
             "count": 44,
-            "size_kb": 132
+            "size_kb": 135
           },
           "fish": {
             "file": "recipes-mommom-baker-fish.json",
             "count": 53,
-            "size_kb": 144
+            "size_kb": 146
           },
           "frostings": {
             "file": "recipes-mommom-baker-frostings.json",
             "count": 16,
-            "size_kb": 38
+            "size_kb": 39
           },
           "grains": {
             "file": "recipes-mommom-baker-grains.json",
@@ -178589,17 +178657,17 @@
           "main-dishes": {
             "file": "recipes-mommom-baker-main-dishes.json",
             "count": 214,
-            "size_kb": 708
+            "size_kb": 715
           },
           "mains": {
             "file": "recipes-mommom-baker-mains.json",
             "count": 178,
-            "size_kb": 578
+            "size_kb": 581
           },
           "meat": {
             "file": "recipes-mommom-baker-meat.json",
             "count": 20,
-            "size_kb": 54
+            "size_kb": 55
           },
           "pasta": {
             "file": "recipes-mommom-baker-pasta.json",
@@ -178609,12 +178677,12 @@
           "preserves": {
             "file": "recipes-mommom-baker-preserves.json",
             "count": 86,
-            "size_kb": 210
+            "size_kb": 211
           },
           "reference": {
             "file": "recipes-mommom-baker-reference.json",
             "count": 57,
-            "size_kb": 140
+            "size_kb": 141
           },
           "remedies": {
             "file": "recipes-mommom-baker-remedies.json",
@@ -178624,7 +178692,7 @@
           "salads": {
             "file": "recipes-mommom-baker-salads.json",
             "count": 75,
-            "size_kb": 227
+            "size_kb": 228
           },
           "sandwiches": {
             "file": "recipes-mommom-baker-sandwiches.json",
@@ -178634,7 +178702,7 @@
           "sauces": {
             "file": "recipes-mommom-baker-sauces.json",
             "count": 45,
-            "size_kb": 110
+            "size_kb": 111
           },
           "shellfish": {
             "file": "recipes-mommom-baker-shellfish.json",
@@ -178649,22 +178717,22 @@
           "side-dishes": {
             "file": "recipes-mommom-baker-side-dishes.json",
             "count": 35,
-            "size_kb": 97
+            "size_kb": 98
           },
           "sides": {
             "file": "recipes-mommom-baker-sides.json",
             "count": 113,
-            "size_kb": 304
+            "size_kb": 305
           },
           "snacks": {
             "file": "recipes-mommom-baker-snacks.json",
             "count": 65,
-            "size_kb": 187
+            "size_kb": 190
           },
           "soups": {
             "file": "recipes-mommom-baker-soups.json",
             "count": 61,
-            "size_kb": 192
+            "size_kb": 193
           },
           "techniques": {
             "file": "recipes-mommom-baker-techniques.json",
@@ -178679,12 +178747,12 @@
           "vegetables": {
             "file": "recipes-mommom-baker-vegetables.json",
             "count": 82,
-            "size_kb": 206
+            "size_kb": 207
           }
         }
       }
     },
     "sharding_enabled": true,
-    "last_shard_build": "2026-07-29T20:07:09.510762Z"
+    "last_shard_build": "2026-08-30T23:00:30.044284Z"
   }
 }

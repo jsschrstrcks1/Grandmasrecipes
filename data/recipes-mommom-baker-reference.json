@@ -3,7 +3,7 @@
     "collection": "mommom-baker",
     "category": "reference",
     "total_recipes": 57,
-    "generated": "2026-07-29T20:07:09.443340Z",
+    "generated": "2026-08-30T23:00:29.978476Z",
     "source": "recipes_master.json"
   },
   "recipes": [
@@ -1527,7 +1527,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "how-much-meat-to-buy-guide-bhg"
+      ]
     },
     {
       "id": "meat-thermometer-guide-bhg",
@@ -1746,7 +1749,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "pork-ham-identification-guide-part2-bhg"
+      ]
     },
     {
       "id": "checking-pork-doneness-guide-bhg",
@@ -1983,7 +1989,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "nutrition-analysis-breads-2-bhg"
+      ]
     },
     {
       "id": "nutrition-analysis-breads-2-bhg",
@@ -2029,7 +2038,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "nutrition-analysis-breads-bhg"
     },
     {
       "id": "nutrition-analysis-cakes-bhg",
@@ -2122,7 +2132,10 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variants": [
+        "nutrition-analysis-cookies-2-bhg"
+      ]
     },
     {
       "id": "nutrition-analysis-cookies-2-bhg",
@@ -2169,7 +2182,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "nutrition-analysis-cookies-bhg"
     },
     {
       "id": "nutrition-analysis-desserts-bhg",
@@ -2784,7 +2798,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "how-much-meat-to-buy-bhg"
     },
     {
       "id": "lamb-identification-guide-bhg",
@@ -2934,7 +2949,8 @@
           "Calculated for 4 servings",
           "Serving size inferred from reference category"
         ]
-      }
+      },
+      "variant_of": "pork-ham-identification-guide-bhg"
     },
     {
       "id": "nutrition-analysis-fish-shellfish-bhg",
