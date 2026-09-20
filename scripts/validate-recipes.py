@@ -18,7 +18,7 @@ REQUIRED_FIELDS = ['id', 'title', 'ingredients', 'instructions', 'category']
 OPTIONAL_FIELDS = ['attribution', 'source_note', 'description', 'servings_yield',
                    'prep_time', 'cook_time', 'total_time', 'temperature', 'pan_size',
                    'notes', 'tags', 'confidence', 'image_refs', 'page_continuation',
-                   'conversions', 'nutrition', 'variant_of', 'variant_notes', 'canonical_id',
+                   'conversions', 'nutrition', 'variant_of', 'variant_notes', 'family_photos', 'canonical_id',
                    'frosting', 'oven_directions']
 
 VALID_CATEGORIES = ['appetizers', 'beverages', 'breads', 'breakfast', 'desserts',

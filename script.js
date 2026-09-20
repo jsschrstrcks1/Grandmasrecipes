@@ -4691,6 +4691,45 @@ function renderCurrentRecipe() {
 /**
  * Render full recipe detail page
  */
+/**
+ * Reader display settings (operator directive 2026-08-30): the recipe page shows
+ * the recipe itself (ingredients, instructions, oven directions, frosting) and
+ * nutrition facts by default; every other section is opt-in via the gear panel.
+ * Choices persist in this browser only (localStorage) — never on the server.
+ */
+const DISPLAY_PREFS_KEY = 'recipe-display-prefs';
+const DISPLAY_DEFAULTS = { nutrition: true, grandma: true };
+const DISPLAY_LABELS = {
+  description: 'Description',
+  source: 'Source note',
+  quickfacts: 'Quick facts',
+  milksub: 'Milk substitution',
+  nutrition: 'Nutrition facts',
+  notes: 'Notes',
+  tags: 'Tags',
+  tips: 'Related kitchen tips',
+  flags: 'Transcription confidence',
+  scan: 'Original recipe scan',
+  grandma: 'Cooking with Grandma photos'
+};
+
+function loadDisplayPrefs() {
+  try {
+    return Object.assign({}, DISPLAY_DEFAULTS, JSON.parse(localStorage.getItem(DISPLAY_PREFS_KEY)) || {});
+  } catch (e) {
+    return Object.assign({}, DISPLAY_DEFAULTS);
+  }
+}
+let displayPrefs = loadDisplayPrefs();
+function saveDisplayPrefs() {
+  try { localStorage.setItem(DISPLAY_PREFS_KEY, JSON.stringify(displayPrefs)); } catch (e) { /* private mode */ }
+}
+function prefOn(key) { return !!displayPrefs[key]; }
+function prefWrap(key, html) {
+  if (!html) return '';
+  return `<div class="pref-section" data-pref="${key}"${prefOn(key) ? '' : ' hidden'}>${html}</div>`;
+}
+
 async function renderRecipeDetail(recipeId, skipLoading = false) {
   const container = document.getElementById('recipe-content');
 
@@ -4742,28 +4781,27 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       <header class="recipe-header">
         <h1>${escapeHtml(recipe.title)}</h1>
         ${recipe.attribution ? `<p class="recipe-attribution">From: ${escapeHtml(recipe.attribution)}</p>` : ''}
-        ${recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : ''}
-        ${recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : ''}
 
         <div class="header-controls">
-          <div class="confidence-indicator confidence-${escapeAttr(recipe.confidence?.overall || 'high')}">
+          ${prefWrap('flags', `<div class="confidence-indicator confidence-${escapeAttr(recipe.confidence?.overall || 'high')}">
             Confidence: ${escapeHtml(capitalizeFirst(recipe.confidence?.overall || 'high'))}
-          </div>
+          </div>`)}
 
-          ${variants.length > 0 ? renderVariantsDropdown(recipe, variants) : ''}
+          ${variants.length > 0 ? renderVariantTabs(recipe, variants) : ''}
         </div>
 
         <div class="action-buttons" style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
           <button id="print-btn" class="btn btn-secondary btn-print">Print Recipe</button>
+          <button id="display-settings-btn" class="btn btn-secondary" aria-expanded="false" aria-controls="display-settings-panel">&#9881; Display</button>
           ${recipe.conversions?.has_conversions ? `
             <button id="metric-toggle" class="btn btn-secondary">
               ${showMetric ? 'Show US Units' : 'Show Metric'}
             </button>
           ` : ''}
         </div>
+        <div id="display-settings-panel" class="display-settings-panel" hidden></div>
       </header>
 
-      ${renderQuickFacts(recipe)}
 
       ${renderScalingControls(recipe)}
 
@@ -4785,7 +4823,6 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
       <div id="heart-smart-converter-container"></div>
 
       <!-- Milk Substitution Calculator (for cheesemaking recipes) -->
-      <div id="milk-substitution-container"></div>
 
       <section class="instructions-section">
         <h2>Instructions</h2>
@@ -4800,13 +4837,18 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
 
       ${recipe.oven_directions ? renderOvenDirections(recipe.oven_directions) : ''}
       ${recipe.frosting ? renderFrosting(recipe.frosting) : ''}
-      ${recipe.nutrition ? renderNutrition(recipe.nutrition, recipe.servings_yield) : ''}
-      ${recipe.notes && recipe.notes.length > 0 ? renderNotes(recipe.notes) : ''}
+      ${recipe.nutrition ? prefWrap('nutrition', renderNutrition(recipe.nutrition, recipe.servings_yield)) : ''}
+      ${prefWrap('grandma', renderFamilyPhotos(recipe.family_photos))}
+      ${prefWrap('description', recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : '')}
+      ${prefWrap('source', recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : '')}
+      ${prefWrap('quickfacts', renderQuickFacts(recipe))}
+      ${prefWrap('milksub', '<div id="milk-substitution-container"></div>')}
+      ${recipe.notes && recipe.notes.length > 0 ? prefWrap('notes', renderNotes(recipe.notes)) : ''}
       ${recipe.conversions?.conversion_assumptions?.length > 0 && showMetric ? renderConversionNotes(recipe.conversions) : ''}
       ${renderKitchenTipsForRecipe(recipe)}
-      ${renderTags(recipe.tags)}
-      ${renderConfidenceFlags(recipe.confidence?.flags)}
-      ${renderOriginalScan(recipe.image_refs, recipe.collection)}
+      ${prefWrap('tags', renderTags(recipe.tags))}
+      ${prefWrap('flags', renderConfidenceFlags(recipe.confidence?.flags))}
+      ${prefWrap('scan', renderOriginalScan(recipe.image_refs, recipe.collection))}
     </article>
   `;
 
@@ -4818,6 +4860,29 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
     printBtn.addEventListener('click', () => window.print());
   }
 
+
+  // Display settings: the panel lists only the sections this page actually has
+  const settingsBtn = document.getElementById('display-settings-btn');
+  const settingsPanel = document.getElementById('display-settings-panel');
+  if (settingsBtn && settingsPanel) {
+    const present = [...new Set([...container.querySelectorAll('[data-pref]')].map(n => n.dataset.pref))];
+    settingsPanel.innerHTML = '<span class="display-settings-title">Show on this page:</span>' +
+      present.map(k => `
+        <label class="display-settings-row"><input type="checkbox" data-prefkey="${escapeAttr(k)}" ${prefOn(k) ? 'checked' : ''}> ${escapeHtml(DISPLAY_LABELS[k] || k)}</label>`).join('');
+    settingsBtn.addEventListener('click', () => {
+      const opening = settingsPanel.hidden;
+      settingsPanel.hidden = !opening;
+      settingsBtn.setAttribute('aria-expanded', String(opening));
+    });
+    settingsPanel.querySelectorAll('input[data-prefkey]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        displayPrefs[cb.dataset.prefkey] = cb.checked;
+        saveDisplayPrefs();
+        container.querySelectorAll(`[data-pref="${cb.dataset.prefkey}"]`).forEach(n => { n.hidden = !cb.checked; });
+      });
+    });
+  }
+
   const metricToggle = document.getElementById('metric-toggle');
   if (metricToggle) {
     metricToggle.addEventListener('click', () => {
@@ -4827,15 +4892,14 @@ async function renderRecipeDetail(recipeId, skipLoading = false) {
   }
 
   // Variant dropdown handler
-  const variantSelect = document.getElementById('variant-select');
-  if (variantSelect) {
-    variantSelect.addEventListener('change', (e) => {
-      if (e.target.value) {
-        window.location.hash = e.target.value;
-        renderRecipeDetail(e.target.value);
-      }
+  // Variant tab handler — the active tab is inert; the rest navigate
+  document.querySelectorAll('.variant-tab[data-vid]').forEach(tab => {
+    if (tab.dataset.vid === recipe.id) return;
+    tab.addEventListener('click', () => {
+      window.location.hash = tab.dataset.vid;
+      renderRecipeDetail(tab.dataset.vid);
     });
-  }
+  });
 
   // Scale button handlers
   document.querySelectorAll('.scale-btn').forEach(btn => {
@@ -4951,16 +5015,28 @@ function findVariants(recipe) {
 /**
  * Render variants dropdown
  */
-function renderVariantsDropdown(currentRecipe, variants) {
+function renderVariantTabs(currentRecipe, variants) {
+  // One dish, one page: the versions sit as tabs, labeled by provenance
+  // (attribution first), canonical version first; the active tab is inert.
+  const canonicalId = currentRecipe.variant_of || currentRecipe.canonical_id || currentRecipe.id;
+  const family = new Map();
+  family.set(currentRecipe.id, currentRecipe);
+  variants.forEach(v => { if (!family.has(v.id)) family.set(v.id, v); });
+  const members = [...family.values()].sort((a, b) =>
+    (a.id === canonicalId ? -1 : b.id === canonicalId ? 1 : 0) ||
+    String(a.title).localeCompare(String(b.title)) || String(a.id).localeCompare(String(b.id)));
+  if (members.length < 2) return '';
+  const label = (m) => m.attribution ||
+    (m.source_note ? m.source_note.substring(0, 40) : '') || m.title;
   return `
-    <div class="variants-dropdown">
-      <label for="variant-select">Variants:</label>
-      <select id="variant-select" class="variant-select">
-        <option value="${escapeAttr(currentRecipe.id)}" selected>${escapeHtml(currentRecipe.source_note || 'Current version')}</option>
-        ${variants.map(v => `
-          <option value="${escapeAttr(v.id)}">${escapeHtml(v.source_note || v.title)}${v.variant_notes ? ` - ${escapeHtml(v.variant_notes.substring(0, 50))}...` : ''}</option>
-        `).join('')}
-      </select>
+    <div class="variant-tabs" role="tablist" aria-label="Recipe versions">
+      ${members.map(m => `
+        <button class="variant-tab${m.id === currentRecipe.id ? ' on' : ''}" role="tab"
+          aria-selected="${m.id === currentRecipe.id}" data-vid="${escapeAttr(m.id)}"
+          title="${escapeAttr(m.title)}${m.variant_notes ? ' — ' + escapeAttr(m.variant_notes) : ''}">
+          ${escapeHtml(label(m))}
+        </button>
+      `).join('')}
     </div>
   `;
 }
@@ -5217,6 +5293,32 @@ function getCollectionImagePath(collection, isRemote = false, remoteSiteUrl = nu
 /**
  * Render original scan thumbnail
  */
+/**
+ * "Cooking with Grandma" (operator directive 2026-08-30): family photos linked to a
+ * recipe render right after the nutrition facts, so cooking from her card keeps her
+ * at the table. Photos live in Memorial/Grandma/; a record lists basenames in
+ * family_photos. Filenames are validated strictly and URI-encoded (they contain
+ * spaces), so sanitizeUrl's charset rule is enforced here inline.
+ */
+function renderFamilyPhotos(photos) {
+  if (!Array.isArray(photos) || photos.length === 0) return '';
+  const items = photos.filter(p => /^[\w\- .]+\.jpeg$/i.test(String(p))).map(p => {
+    const src = 'Memorial/Grandma/' + encodeURIComponent(p);
+    return `
+      <a href="${escapeAttr(src)}" target="_blank">
+        <img src="${escapeAttr(src)}" alt="Family photo linked to this recipe" class="scan-thumbnail"
+             style="max-width: 200px; max-height: 150px; object-fit: cover;" loading="lazy">
+      </a>`;
+  });
+  if (!items.length) return '';
+  return `
+    <section class="family-photos">
+      <h3>Cooking with Grandma</h3>
+      ${items.join('')}
+    </section>
+  `;
+}
+
 function renderOriginalScan(imageRefs, collection) {
   if (!imageRefs || imageRefs.length === 0) return '';
 
